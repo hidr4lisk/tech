@@ -63,6 +63,10 @@
         <span class="module-nav__num vt323">// 03</span>
         <span data-i18n="nav_m4">COMPARAR</span>
       </a>
+      <a href="#sources" class="module-nav__item" aria-current="false">
+        <span class="module-nav__num vt323">// 05</span>
+        <span data-i18n="nav_sources">FUENTES</span>
+      </a>
       <span class="module-nav__badge hide-md" data-i18n="hero_privacy">datos open · sin analytics · código auditable</span>
     </div>
   </nav>
@@ -124,6 +128,129 @@
             Tabla comparativa de modelos: contexto, parámetros, multimodal, licencia.
           </p>
           <div id="compare-content"></div>
+        </section>
+
+        <!-- ── Módulo 5: Fuentes ─────────────────────────────────────── -->
+        <section id="sources" class="module-section" aria-labelledby="sources-label">
+          <div class="module-header">
+            <span class="module-num vt323" aria-hidden="true">// 05</span>
+            <h2 class="module-title" id="sources-label" data-i18n="sources_title">FUENTES_CONSULTADAS</h2>
+          </div>
+          <p class="module-desc" data-i18n="sources_desc">
+            Datos agregados desde fuentes oficiales. El contenido se muestra en su idioma original (inglés).
+          </p>
+
+          <div class="sources-disclaimer">
+            <span class="sources-disclaimer__icon vt323">!</span>
+            <p data-i18n="sources_disclaimer">
+              Este sitio agrega contenido publicado por terceros en inglés. No aplicamos traducción automática para preservar la integridad de la información. Los títulos, resúmenes y notas de release son del autor original.
+            </p>
+          </div>
+
+          <div class="sources-group">
+            <p class="sources-group__label vt323" data-i18n="sources_group_news">// BLOGS · NOTICIAS</p>
+            <table class="sources-table">
+              <thead>
+                <tr>
+                  <th data-i18n="sources_col_source">FUENTE</th>
+                  <th data-i18n="sources_col_org">ORGANIZACIÓN</th>
+                  <th class="hide-sm" data-i18n="sources_col_filter">FILTRO</th>
+                  <th data-i18n="sources_col_link">ENLACE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>HuggingFace Blog</td>
+                  <td>Hugging Face</td>
+                  <td class="hide-sm sources-table__filter">—</td>
+                  <td><a href="https://huggingface.co/blog" target="_blank" rel="noopener" class="sources-table__link">huggingface.co/blog</a></td>
+                </tr>
+                <tr>
+                  <td>Meta Engineering</td>
+                  <td>Meta / Llama</td>
+                  <td class="hide-sm sources-table__filter">llama · ai · model</td>
+                  <td><a href="https://engineering.fb.com" target="_blank" rel="noopener" class="sources-table__link">engineering.fb.com</a></td>
+                </tr>
+                <tr>
+                  <td>Google Research</td>
+                  <td>Google</td>
+                  <td class="hide-sm sources-table__filter">gemma · llm · open</td>
+                  <td><a href="https://blog.research.google" target="_blank" rel="noopener" class="sources-table__link">blog.research.google</a></td>
+                </tr>
+                <tr>
+                  <td>DeepMind Blog</td>
+                  <td>Google DeepMind</td>
+                  <td class="hide-sm sources-table__filter">open · model · weights</td>
+                  <td><a href="https://deepmind.google/discover/blog" target="_blank" rel="noopener" class="sources-table__link">deepmind.google/blog</a></td>
+                </tr>
+                <tr>
+                  <td>Microsoft Research</td>
+                  <td>Microsoft / Phi</td>
+                  <td class="hide-sm sources-table__filter">phi · llm · open</td>
+                  <td><a href="https://www.microsoft.com/en-us/research" target="_blank" rel="noopener" class="sources-table__link">microsoft.com/research</a></td>
+                </tr>
+                <tr>
+                  <td>The Gradient</td>
+                  <td>Independiente</td>
+                  <td class="hide-sm sources-table__filter">—</td>
+                  <td><a href="https://thegradient.pub" target="_blank" rel="noopener" class="sources-table__link">thegradient.pub</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="sources-group">
+            <p class="sources-group__label vt323" data-i18n="sources_group_releases">// REPOS · RELEASES</p>
+            <table class="sources-table">
+              <thead>
+                <tr>
+                  <th data-i18n="sources_col_source">PROYECTO</th>
+                  <th data-i18n="sources_col_org">TIPO</th>
+                  <th class="hide-sm" data-i18n="sources_col_filter">FRECUENCIA</th>
+                  <th data-i18n="sources_col_link">REPOSITORIO</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Ollama</td>
+                  <td><span class="badge badge--tool">TOOL</span></td>
+                  <td class="hide-sm sources-table__filter">semanal</td>
+                  <td><a href="https://github.com/ollama/ollama" target="_blank" rel="noopener" class="sources-table__link">ollama/ollama</a></td>
+                </tr>
+                <tr>
+                  <td>llama.cpp</td>
+                  <td><span class="badge badge--tool">TOOL</span></td>
+                  <td class="hide-sm sources-table__filter">muy frecuente</td>
+                  <td><a href="https://github.com/ggerganov/llama.cpp" target="_blank" rel="noopener" class="sources-table__link">ggerganov/llama.cpp</a></td>
+                </tr>
+                <tr>
+                  <td>vLLM</td>
+                  <td><span class="badge badge--tool">TOOL</span></td>
+                  <td class="hide-sm sources-table__filter">frecuente</td>
+                  <td><a href="https://github.com/vllm-project/vllm" target="_blank" rel="noopener" class="sources-table__link">vllm-project/vllm</a></td>
+                </tr>
+                <tr>
+                  <td>Transformers</td>
+                  <td><span class="badge badge--tool">TOOL</span></td>
+                  <td class="hide-sm sources-table__filter">frecuente</td>
+                  <td><a href="https://github.com/huggingface/transformers" target="_blank" rel="noopener" class="sources-table__link">huggingface/transformers</a></td>
+                </tr>
+                <tr>
+                  <td>LocalAI</td>
+                  <td><span class="badge badge--tool">TOOL</span></td>
+                  <td class="hide-sm sources-table__filter">frecuente</td>
+                  <td><a href="https://github.com/mudler/LocalAI" target="_blank" rel="noopener" class="sources-table__link">mudler/LocalAI</a></td>
+                </tr>
+                <tr>
+                  <td>HuggingFace Models API</td>
+                  <td><span class="badge badge--model">MODELO</span></td>
+                  <td class="hide-sm sources-table__filter">cada 6h</td>
+                  <td><a href="https://huggingface.co/models" target="_blank" rel="noopener" class="sources-table__link">huggingface.co/models</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
         </section>
 
       </div><!-- /modules-grid -->
