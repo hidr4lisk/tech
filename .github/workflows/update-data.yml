@@ -34,13 +34,14 @@ jobs:
       - name: Check for changes
         id: diff
         run: |
-          git diff --quiet data/ || echo "changed=true" >> $GITHUB_OUTPUT
+          git add data/
+          git diff --cached --quiet data/ || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit updated data
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/models.json data/changelog.json
+          git add data/
           git commit -m "chore(data): auto-update $(date -u +'%Y-%m-%dT%H:%MZ')"
           git push

@@ -1,0 +1,185 @@
+{
+  "updated_at": "2026-05-20T15:42:10Z",
+  "releases": [
+    {
+      "id": "ollama-v0.24.0",
+      "project": "ollama",
+      "version": "v0.24.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
+      "published_at": "2026-05-14T02:24:24Z",
+      "body_excerpt": "## Codex App\r\n\r\nOllama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18@2x\" src=\"https://github.com/user-attachments/assets/53bd7997-19fd-4809-b8f2-b6ed284369c9\" />\r\n\r\n\r\n#",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.23.4",
+      "project": "ollama",
+      "version": "v0.23.4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.4",
+      "published_at": "2026-05-13T20:40:22Z",
+      "body_excerpt": "## What's Changed\r\n* `ollama launch opencode` now supports vision models with image inputs\r\n* Fixed formatting of Claude tool results when using local image paths\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.3...v0.23.4",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.0-rc21",
+      "project": "ollama",
+      "version": "v0.30.0-rc21",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc21",
+      "published_at": "2026-05-13T14:32:54Z",
+      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon.\r\n\r\nWhile in pre-release we'd love [feedback](https://github.com/ollama/ollama/pull/16031) on:\r\n\r\n* Performance improvements or degradation\r\n* Errors or crashes that did n",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.23.3",
+      "project": "ollama",
+      "version": "v0.23.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.3",
+      "published_at": "2026-05-12T03:48:08Z",
+      "body_excerpt": "## What's Changed\r\n* mlx: refined model push behavior by @dhiltgen in https://github.com/ollama/ollama/pull/15431\r\n* test: integration test hardening by @dhiltgen in https://github.com/ollama/ollama/pull/13532\r\n* app: harden update flows by @dhiltgen in https://github.com/ollama/ollama/pull/16100\r\n* mlx: update the imagegen runner for mlx thread affinity by @pdevine in https://github.com/ollama/ol",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.23.2",
+      "project": "ollama",
+      "version": "v0.23.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.2",
+      "published_at": "2026-05-07T20:23:10Z",
+      "body_excerpt": "## What's Changed\r\n\r\n* `ollama launch` no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. \r\n* Use `ollama launch claude-desktop --restore` to restore Claude Desktop to its normal state.\r\n* `/api/show` responses are now cached, improving median latency by **~6.7x** which will increase load speed for integrations like VS Code.\r\n* Improved backup w",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.23.1",
+      "project": "ollama",
+      "version": "v0.23.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.1",
+      "published_at": "2026-05-05T17:13:31Z",
+      "body_excerpt": "## Gemma 4 MTP (Multi-token Processing) for the MLX runner\r\nGemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks.\r\n\r\n```\r\nollama run gemma4:31b-coding-mtp-bf16\r\n```\r\n\r\n## What's Changed\r\n* Update MLX and MLX-C with threading fixes by @dhiltgen in https://github.com/ollama/ollama/pull/15845\r\n* go: bump to 1.26 by",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.23.0",
+      "project": "ollama",
+      "version": "v0.23.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.0",
+      "published_at": "2026-05-03T03:34:11Z",
+      "body_excerpt": "## Claude Desktop\r\nClaude Desktop is now supported with Ollama Launch. \r\n\r\nClaude Cowork and Claude Code are supported within the Claude Desktop App.\r\n\r\n```\r\nollama launch claude-desktop\r\n```\r\n\r\n### Claude Cowork\r\n<img width=\"1272\" height=\"872\" alt=\"ca1\" src=\"https://github.com/user-attachments/assets/1d550e3f-0272-4429-8cb2-06d32344cb77\" />\r\n\r\n\r\n### Claude Code\r\n<img width=\"1272\" height=\"872\" alt",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.22.1",
+      "project": "ollama",
+      "version": "v0.22.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.22.1",
+      "published_at": "2026-04-28T20:30:57Z",
+      "body_excerpt": "## What's Changed\r\n* Updated the **Gemma 4** renderer for thinking and tool calling improvements\r\n* Model recommendations are now updated without updating Ollama\r\n* Aligned the desktop app's launch page with `ollama launch` integrations\r\n* Fixed the Poolside integration title in `ollama launch`\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.22.0...v0.22.1",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.22.0",
+      "project": "ollama",
+      "version": "v0.22.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.22.0",
+      "published_at": "2026-04-28T15:00:25Z",
+      "body_excerpt": "## New models \r\n* NVIDIA's [Nemotron 3 Omni](https://ollama.com/library/nemotron3)\r\n* Poolside's first open-weight coding model - [Laguna XS.2](https://ollama.com/library/laguna-xs.2)\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.22.0",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.21.3-rc0",
+      "project": "ollama",
+      "version": "v0.21.3-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0",
+      "published_at": "2026-04-24T12:15:38Z",
+      "body_excerpt": "## What's Changed\r\n* api: accept \"max\" as a think value by @ParthSareen in https://github.com/ollama/ollama/pull/15787\r\n* openai: map responses reasoning effort to think by @ParthSareen in https://github.com/ollama/ollama/pull/15789\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.21.3-rc0",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.21.2",
+      "project": "ollama",
+      "version": "v0.21.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.2",
+      "published_at": "2026-04-23T02:29:24Z",
+      "body_excerpt": "## What's Changed\r\n  * Improved reliability of the OpenClaw onboarding flow in `ollama launch`\r\n  * Recommended models in `ollama launch` now appear in a fixed, canonical order\r\n  * OpenClaw integration now bundles Ollama's web search plugin in OpenClaw\r\n\r\n## New Contributors\r\n* @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733\r\n\r\n**Full Changelog:** https://git",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.21.1",
+      "project": "ollama",
+      "version": "v0.21.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.1",
+      "published_at": "2026-04-22T00:18:02Z",
+      "body_excerpt": "## What's Changed\r\n### Kimi CLI\r\nYou can now install and run the Kimi CLI through Ollama.\r\n\r\n```\r\nollama launch kimi --model kimi-k2.6:cloud\r\n```\r\nKimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system.\r\n\r\n  * **MLX runner adds logprobs support** for compatible models\r\n  * **Faster MLX sampling** with fused top-P and top-K in a single sort pass, plus re",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.21.0",
+      "project": "ollama",
+      "version": "v0.21.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.0",
+      "published_at": "2026-04-16T22:00:17Z",
+      "body_excerpt": "## Hermes Agent\r\n\r\n```\r\nollama launch hermes\r\n```\r\n\r\nHermes learns with you, automatically creating skills to better serve your workflows. Great for research and engineering tasks.\r\n\r\n<img width=\"1329\" height=\"946\" alt=\"image\" src=\"https://github.com/user-attachments/assets/771d3383-95ed-4652-81e5-cf89514d25cc\" />\r\n\r\n## What's Changed\r\n\r\n- **Gemma 4 on MLX.** Added support for running Gemma 4 via ",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.20.7",
+      "project": "ollama",
+      "version": "v0.20.7",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.7",
+      "published_at": "2026-04-13T23:33:00Z",
+      "body_excerpt": "## What's Changed\r\n* Fix quality of gemma:e2b and gemma:e4b when thinking is disabled \r\n* ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in https://github.com/ollama/ollama/pull/15483\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.6...v0.20.7",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.20.6",
+      "project": "ollama",
+      "version": "v0.20.6",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.6",
+      "published_at": "2026-04-12T22:59:47Z",
+      "body_excerpt": "## What's Changed\r\n* Gemma 4 tool calling ability is improved and updated to use Google's latest post-launch fixes\r\n* Parallel tool calling improved for streaming responses \r\n* [Hermes agent](https://docs.ollama.com/integrations/hermes) Ollama integration guide is now available\r\n* Ollama app is updated to fix image attachment errors \r\n\r\n## New Contributors\r\n\r\n@matteocelani made their first contrib",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.20.5",
+      "project": "ollama",
+      "version": "v0.20.5",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.5",
+      "published_at": "2026-04-09T18:11:20Z",
+      "body_excerpt": "## OpenClaw channel setup with `ollama launch`\r\n<img width=\"1074\" height=\"654\" alt=\"image\" src=\"https://github.com/user-attachments/assets/300ec082-c18a-4911-b3fe-82a7bc74a000\" />\r\n\r\n## What's Changed\r\n  - OpenClaw channel setup: connect WhatsApp, Telegram, Discord, and other messaging channels through `ollama launch openclaw`\r\n  - Enable flash attention for Gemma 4 on compatible GPUs\r\n  - `ollama",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.20.4",
+      "project": "ollama",
+      "version": "v0.20.4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.4",
+      "published_at": "2026-04-07T17:57:51Z",
+      "body_excerpt": "## What's Changed\r\n* mlx: Improve M5 performance with NAX\r\n* gemma4: enable flash attention \r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.3...v0.20.4",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.20.3",
+      "project": "ollama",
+      "version": "v0.20.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.3",
+      "published_at": "2026-04-07T05:19:10Z",
+      "body_excerpt": "## What's Changed\r\n* Gemma 4 Tool Calling improvements\r\n* Added latest models to Ollama App\r\n* OpenClaw fixes for launching TUI\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.2...v0.20.3",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.20.2",
+      "project": "ollama",
+      "version": "v0.20.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.2",
+      "published_at": "2026-04-04T06:22:05Z",
+      "body_excerpt": "## What's Changed\r\n* app: default app home view to new chat instead of launch by @jmorganca in https://github.com/ollama/ollama/pull/15312\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.1...v0.20.2",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.20.1",
+      "project": "ollama",
+      "version": "v0.20.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.1",
+      "published_at": "2026-04-03T22:37:43Z",
+      "body_excerpt": "## What's Changed\r\n* bench: add prompt calibration, context size flag, and NumCtx reporting by @dhiltgen in https://github.com/ollama/ollama/pull/15158\r\n* model/parsers: fix gemma4 arg parsing when quoted strings contain \" by @drifkin in https://github.com/ollama/ollama/pull/15254\r\n* ggml: skip cublasGemmBatchedEx during graph reservation by @jessegross in https://github.com/ollama/ollama/pull/153",
+      "type": "tool"
+    }
+  ]
+}
