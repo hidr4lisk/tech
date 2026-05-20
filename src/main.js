@@ -27,26 +27,26 @@ const ctx = () => ({ lang: getLang(), strings: getStrings() });
 
 try {
   const { init } = await import('../dist/modules/map/index.js');
-  init(document.getElementById('map'), ctx());
+  init(document.getElementById('map-content'), ctx());
 } catch (e) { console.error('[tech] módulo map:', e); }
 
 try {
   const { init } = await import('../dist/modules/news/index.js');
-  init(document.getElementById('news'), ctx());
+  init(document.getElementById('news-content'), ctx());
 } catch (e) { console.error('[tech] módulo news:', e); }
 
 try {
   const { init } = await import('../dist/modules/changelog/index.js');
-  init(document.getElementById('changelog'), ctx());
+  init(document.getElementById('changelog-content'), ctx());
 } catch (e) { console.error('[tech] módulo changelog:', e); }
 
 try {
   const { init } = await import('../dist/modules/compare/index.js');
-  init(document.getElementById('compare'), ctx());
+  init(document.getElementById('compare-content'), ctx());
 } catch (e) { console.error('[tech] módulo compare:', e); }
 
 document.addEventListener('tech:langchange', ({ detail }) => {
-  ['map', 'news', 'changelog', 'compare'].forEach(id => {
+  ['map-content', 'news-content', 'changelog-content', 'compare-content'].forEach(id => {
     const el = document.getElementById(id);
     if (!el) return;
     const mod = el.__techModule;
