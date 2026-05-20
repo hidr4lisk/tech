@@ -6,14 +6,18 @@ function fmtDate(isoStr) {
 
 function stripMd(text) {
   return text
+    .replace(/<[^>]+>/g, ' ')
     .replace(/```[\s\S]*?```/g, '')
     .replace(/`[^`]*`/g, '')
     .replace(/^#{1,6}\s+/gm, '')
     .replace(/\*\*([^*]+)\*\*/g, '$1')
     .replace(/\*([^*]+)\*/g, '$1')
-    .replace(/!\[[^\]]*\]\([^)]+\)/g, '')
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
     .replace(/^[-*+]\s+/gm, '')
+    .replace(/https?:\/\/\S+/g, '')
+    .replace(/Full Changelog[^.]*\./g, '')
+    .replace(/\s{2,}/g, ' ')
     .replace(/\n+/g, ' ')
     .trim();
 }
