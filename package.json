@@ -5,7 +5,7 @@
   "scripts": {
     "build":     "npm run build:css && npm run build:js",
     "build:css": "tailwindcss -i src/styles/main.css -o dist/styles.css --minify",
-    "build:js":  "esbuild src/modules/map/index.js --bundle --minify --format=esm --outdir=dist/modules/map && esbuild src/modules/news/index.js --bundle --minify --format=esm --outdir=dist/modules/news && esbuild src/modules/changelog/index.js --bundle --minify --format=esm --outdir=dist/modules/changelog && esbuild src/modules/compare/index.js --bundle --minify --format=esm --outdir=dist/modules/compare",
+    "build:js":  "esbuild src/modules/digest/index.js --bundle --minify --format=esm --outdir=dist/modules/digest && esbuild src/modules/news/index.js --bundle --minify --format=esm --outdir=dist/modules/news && esbuild src/modules/changelog/index.js --bundle --minify --format=esm --outdir=dist/modules/changelog && esbuild src/modules/compare/index.js --bundle --minify --format=esm --outdir=dist/modules/compare",
     "dev:css":   "tailwindcss -i src/styles/main.css -o dist/styles.css --watch",
     "dev:js":    "esbuild src/modules/news/index.js --bundle --format=esm --sourcemap --outdir=dist/modules/news --watch"
   },

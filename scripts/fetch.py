@@ -28,17 +28,25 @@ if token := os.getenv("GH_TOKEN"):
 RSS_SOURCES = [
     {"slug": "huggingface", "url": "https://huggingface.co/blog/feed.xml",                     "filter": None},
     {"slug": "meta",        "url": "https://engineering.fb.com/feed/",                         "filter": ["llama", "open", "model", "ai"]},
-    {"slug": "google",      "url": "https://blog.research.google/feeds/posts/default",         "filter": ["gemma", "language model", "llm", "open"]},
-    {"slug": "microsoft",   "url": "https://www.microsoft.com/en-us/research/feed/",           "filter": ["phi", "language model", "llm", "open"]},
+    {"slug": "google",      "url": "https://blog.research.google/feeds/posts/default",         "filter": ["gemma", "language model", "llm", "open", "model"]},
+    {"slug": "deepmind",    "url": "https://deepmind.google/discover/blog/rss.xml",            "filter": ["open", "model", "weights", "gemma", "release"]},
+    {"slug": "microsoft",   "url": "https://www.microsoft.com/en-us/research/feed/",           "filter": ["phi", "language model", "llm", "open", "model"]},
+    {"slug": "gradient",    "url": "https://thegradient.pub/rss/",                             "filter": None},
 ]
 
-GH_REPOS = [
-    ("ollama",        "ollama",            "ollama",  "tool"),
-    # lmstudio-ai repo name TBD — skipped for now
-    ("meta-llama",    "llama",             "meta",    "model"),
-    ("mistralai",     "mistral-src",       "mistral", "model"),
-    ("EleutherAI",    "gpt-neox",          "eleutherai","model"),
-    ("google",        "gemma_pytorch",     "google",  "model"),
+# Tool repos: active projects with frequent releases
+GH_TOOL_REPOS = [
+    ("ollama",       "ollama",        "ollama",       "tool"),
+    ("ggerganov",    "llama.cpp",     "llama-cpp",    "tool"),
+    ("vllm-project", "vllm",         "vllm",          "tool"),
+    ("huggingface",  "transformers",  "transformers", "tool"),
+    ("mudler",       "LocalAI",       "localai",      "tool"),
+]
+
+# HuggingFace orgs to track for new model uploads
+HF_MODEL_ORGS = [
+    "meta-llama", "mistralai", "google", "microsoft",
+    "EleutherAI", "stabilityai", "Qwen", "deepseek-ai",
 ]
 
 
@@ -165,6 +173,37 @@ def strip_markdown(text):
     return text.strip()
 
 
+def fetch_hf_model_releases(orgs, days=60):
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    results = []
+    for org in orgs:
+        try:
+            url = f"https://huggingface.co/api/models?author={org}&sort=createdAt&direction=-1&limit=15"
+            resp = requests.get(url, timeout=TIMEOUT)
+            resp.raise_for_status()
+            for m in resp.json():
+                created = m.get("createdAt", "")
+                if not created or created < cutoff:
+                    continue
+                mid = m.get("id") or m.get("modelId", "")
+                if not mid:
+                    continue
+                name = mid.split("/")[-1] if "/" in mid else mid
+                results.append({
+                    "id":           f"hf-{mid.replace('/', '-')}",
+                    "project":      org,
+                    "version":      name,
+                    "url":          f"https://huggingface.co/{mid}",
+                    "published_at": safe_parse_date(created) or now_iso(),
+                    "body_excerpt": "",
+                    "type":         "model",
+                })
+            print(f"  hf models {org}: {len([m for m in resp.json() if m.get('createdAt','') >= cutoff])} recent")
+        except Exception as e:
+            print(f"  WARN hf models {org}: {e}")
+    return results
+
+
 def fetch_gh_releases(owner, repo, project_slug, release_type):
     url = f"https://api.github.com/repos/{owner}/{repo}/releases?per_page=20"
     resp = requests.get(url, timeout=TIMEOUT, headers=GH_HEADERS)
@@ -281,13 +320,16 @@ def main():
     # ── Changelog ─────────────────────────────────────────────────────────
     print("\n[changelog]")
     cl_items = []
-    for owner, repo, slug, rtype in GH_REPOS:
+    for owner, repo, slug, rtype in GH_TOOL_REPOS:
         try:
             items = fetch_gh_releases(owner, repo, slug, rtype)
             print(f"  {owner}/{repo}: {len(items)} releases")
             cl_items.extend(items)
         except Exception as e:
             print(f"  WARN {owner}/{repo}: {e}")
+
+    print("  [hf model releases]")
+    cl_items.extend(fetch_hf_model_releases(HF_MODEL_ORGS))
 
     existing_cl = load_json(DATA / "changelog.json")
     merged_cl   = merge_changelog(existing_cl.get("releases", []), cl_items)
