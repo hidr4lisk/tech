@@ -4,6 +4,19 @@ function fmtDate(isoStr) {
   return d.toISOString().slice(0, 10);
 }
 
+function stripMd(text) {
+  return text
+    .replace(/```[\s\S]*?```/g, '')
+    .replace(/`[^`]*`/g, '')
+    .replace(/^#{1,6}\s+/gm, '')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/^[-*+]\s+/gm, '')
+    .replace(/\n+/g, ' ')
+    .trim();
+}
+
 function buildEntry(rel, strings) {
   const badgeClass = rel.type === 'model' ? 'badge--model' : 'badge--tool';
   const badgeLabel = rel.type === 'model'
@@ -18,7 +31,7 @@ function buildEntry(rel, strings) {
         <a class="cl-entry__version" href="${rel.url}" target="_blank" rel="noopener noreferrer">${rel.version}</a>
         <span class="badge ${badgeClass}">${badgeLabel}</span>
       </div>
-      ${rel.body_excerpt ? `<p class="cl-entry__body">${rel.body_excerpt}</p>` : ''}
+      ${rel.body_excerpt ? `<p class="cl-entry__body">${stripMd(rel.body_excerpt)}</p>` : ''}
     </div>`;
 }
 

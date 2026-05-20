@@ -152,6 +152,18 @@ def fetch_hf_models():
     return resp.json()
 
 
+def strip_markdown(text):
+    text = re.sub(r'```[\s\S]*?```', '', text)
+    text = re.sub(r'`[^`]*`', '', text)
+    text = re.sub(r'^#{1,6}\s+', '', text, flags=re.MULTILINE)
+    text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text)
+    text = re.sub(r'\*([^*]+)\*', r'\1', text)
+    text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
+    text = re.sub(r'^[-*+]\s+', '', text, flags=re.MULTILINE)
+    text = re.sub(r'\n+', ' ', text)
+    return text.strip()
+
+
 def fetch_gh_releases(owner, repo, project_slug, release_type):
     url = f"https://api.github.com/repos/{owner}/{repo}/releases?per_page=20"
     resp = requests.get(url, timeout=TIMEOUT, headers=GH_HEADERS)
@@ -159,7 +171,7 @@ def fetch_gh_releases(owner, repo, project_slug, release_type):
     results = []
     for rel in resp.json():
         tag  = rel.get("tag_name", "")
-        body = (rel.get("body") or "")[:400]
+        body = strip_markdown((rel.get("body") or ""))[:400]
         pub  = safe_parse_date(rel.get("published_at", ""))
         results.append({
             "id":           f"{project_slug}-{tag}",
