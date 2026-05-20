@@ -26,11 +26,6 @@ if (sections.length && navLinks.length) {
 const ctx = () => ({ lang: getLang(), strings: getStrings() });
 
 try {
-  const { init } = await import('../dist/modules/map/index.js');
-  init(document.getElementById('map-content'), ctx());
-} catch (e) { console.error('[tech] módulo map:', e); }
-
-try {
   const { init } = await import('../dist/modules/news/index.js');
   init(document.getElementById('news-content'), ctx());
 } catch (e) { console.error('[tech] módulo news:', e); }
@@ -46,7 +41,7 @@ try {
 } catch (e) { console.error('[tech] módulo compare:', e); }
 
 document.addEventListener('tech:langchange', ({ detail }) => {
-  ['map-content', 'news-content', 'changelog-content', 'compare-content'].forEach(id => {
+  ['news-content', 'changelog-content', 'compare-content'].forEach(id => {
     const el = document.getElementById(id);
     if (!el) return;
     const mod = el.__techModule;
