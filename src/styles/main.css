@@ -75,9 +75,14 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 /* ── Base ────────────────────────────────────────────────────────────── */
-html { scroll-behavior: smooth; overflow-x: hidden; }
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+  scrollbar-gutter: stable;
+}
 
 body {
+  overflow-x: clip;
   background-color: var(--bg-base);
   background-image:
     linear-gradient(rgba(255,255,255,0.018) 1px, transparent 1px),
@@ -307,6 +312,7 @@ p, li { font-family: var(--font-body); }
   padding-block: var(--s-6) var(--s-5);
   border-bottom: 1px solid var(--border-subtle);
   scroll-margin-top: calc(var(--topbar-h) + var(--modnav-h) + var(--s-4));
+  min-width: 0;
 }
 
 .module-header {
@@ -342,16 +348,12 @@ p, li { font-family: var(--font-body); }
 }
 
 .modules-grid {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
-@media (min-width: 1024px) {
-  .modules-grid { grid-template-columns: 1fr 1fr; }
-  .modules-grid .module-section:nth-child(odd)  { border-right: 1px solid var(--border-subtle); padding-right: var(--s-6); }
-  .modules-grid .module-section:nth-child(even) { padding-left: var(--s-6); }
-  .modules-grid .module-section:nth-child(3),
-  .modules-grid .module-section:nth-child(4) { border-bottom: none; }
+.modules-grid .module-section:last-child {
+  border-bottom: none;
 }
 
 /* Loading & Error states */
