@@ -12,7 +12,7 @@
 
 ## English
 
-Hidr4lisk_Tech is a fully static, no-backend tracker for the open source AI ecosystem. It aggregates news, model releases, tool changelogs and capability comparisons — updated automatically every 6 hours via GitHub Actions. No cookies, no analytics, no servers.
+Open source AI, all in one place. Models, releases and news — every 6h, no cookies, no servers.
 
 ### Modules
 
@@ -115,7 +115,7 @@ companies:
 
 ## Español
 
-Hidr4lisk_Tech es un rastreador completamente estático, sin backend, del ecosistema de IA open source. Agrega noticias, releases de modelos, changelogs de herramientas y comparativas de capacidades — actualizado automáticamente cada 6 horas via GitHub Actions. Sin cookies, sin analytics, sin servidores.
+IA open source, todo en un lugar. Modelos, releases y noticias — cada 6h, sin cookies, sin servidores.
 
 ### Módulos
 
