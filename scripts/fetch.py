@@ -26,17 +26,15 @@ if token := os.getenv("GH_TOKEN"):
     GH_HEADERS["Authorization"] = f"Bearer {token}"
 
 RSS_SOURCES = [
-    {"slug": "huggingface", "url": "https://huggingface.co/blog/feed.xml",                  "filter": None},
-    {"slug": "mistral",     "url": "https://mistral.ai/news/rss.xml",                       "filter": None},
-    {"slug": "meta",        "url": "https://ai.meta.com/blog/feed",                         "filter": ["llama", "open", "model"]},
-    {"slug": "google",      "url": "https://blog.google/technology/ai/rss/",                "filter": ["gemma", "gemini", "open"]},
-    {"slug": "microsoft",   "url": "https://www.microsoft.com/en-us/research/feed/",        "filter": ["phi", "language model", "llm", "open"]},
-    {"slug": "eleutherai",  "url": "https://blog.eleuther.ai/rss.xml",                      "filter": None},
+    {"slug": "huggingface", "url": "https://huggingface.co/blog/feed.xml",                     "filter": None},
+    {"slug": "meta",        "url": "https://engineering.fb.com/feed/",                         "filter": ["llama", "open", "model", "ai"]},
+    {"slug": "google",      "url": "https://blog.research.google/feeds/posts/default",         "filter": ["gemma", "language model", "llm", "open"]},
+    {"slug": "microsoft",   "url": "https://www.microsoft.com/en-us/research/feed/",           "filter": ["phi", "language model", "llm", "open"]},
 ]
 
 GH_REPOS = [
     ("ollama",        "ollama",            "ollama",  "tool"),
-    ("lmstudio-ai",   "lmstudio-desktop",  "lmstudio","tool"),
+    # lmstudio-ai repo name TBD — skipped for now
     ("meta-llama",    "llama",             "meta",    "model"),
     ("mistralai",     "mistral-src",       "mistral", "model"),
     ("EleutherAI",    "gpt-neox",          "eleutherai","model"),
@@ -94,22 +92,34 @@ def fetch_rss(url, slug, filter_words=None):
     if root.tag.startswith("{"):
         ns = root.tag.split("}")[0] + "}"
 
+    ATOM_NS = "http://www.w3.org/2005/Atom"
+
     items = root.findall(f".//{ns}item")
-    if not items:
-        items = root.findall(".//{http://www.w3.org/2005/Atom}entry")
+    is_atom = not items
+    if is_atom:
+        items = root.findall(f"{{{ATOM_NS}}}entry") or root.findall(f".//{{{ATOM_NS}}}entry")
 
     results = []
     for item in items:
-        def get(tag):
-            el = item.find(tag) or item.find(f"{{{_ns}}}{tag}" if (_ns := "http://www.w3.org/2005/Atom") else tag)
-            return el.text.strip() if el is not None and el.text else None
+        def get_text(tags):
+            for tag in tags:
+                el = item.find(tag)
+                if el is not None and el.text:
+                    return el.text.strip()
+                el = item.find(f"{{{ATOM_NS}}}{tag}")
+                if el is not None and el.text:
+                    return el.text.strip()
+            return ""
 
-        title   = get("title") or ""
-        link    = get("link") or get("id") or ""
-        if not link and item.find("link") is not None:
-            link = item.find("link").get("href", "")
-        pub     = get("pubDate") or get("published") or get("updated") or ""
-        summary = get("description") or get("summary") or get("content") or ""
+        title   = get_text(["title"]) or ""
+        pub     = get_text(["pubDate", "published", "updated"]) or ""
+        summary = get_text(["description", "summary", "content"]) or ""
+
+        link = get_text(["link", "id"])
+        if not link:
+            link_el = item.find("link") or item.find(f"{{{ATOM_NS}}}link")
+            if link_el is not None:
+                link = link_el.get("href", link_el.text or "")
 
         if not title or not link:
             continue
