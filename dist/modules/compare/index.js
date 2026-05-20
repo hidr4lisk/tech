@@ -1,0 +1,12 @@
+var y=[{key:"name",i18nKey:"m4_col_name",type:"str"},{key:"org",i18nKey:"m4_col_org",type:"str"},{key:"params_b",i18nKey:"m4_col_params",type:"num",fmt:e=>e?`${e}B`:"\u2014"},{key:"context_window",i18nKey:"m4_col_context",type:"num",fmt:e=>e?e>=1e3?`${Math.round(e/1e3)}K`:String(e):"\u2014"},{key:"multimodal",i18nKey:"m4_col_multimodal",type:"bool"},{key:"open_weights",i18nKey:"m4_col_open",type:"bool"},{key:"license",i18nKey:"m4_col_license",type:"str"},{key:"released_at",i18nKey:"m4_col_released",type:"str",fmt:e=>e?e.slice(0,10):"\u2014"}];function b(e,n){if(e.fmt)return e.fmt(n);if(e.type==="bool"){let t=n===!0||n==="true";return`<span class="${t?"bool-true":"bool-false"}">${t?"\u2713":"\u2717"}</span>`}return n??"\u2014"}function h(e,n,t){return[...e].sort((c,a)=>{let o=c[n],s=a[n];return o==null&&(o=t==="asc"?1/0:-1/0),s==null&&(s=t==="asc"?1/0:-1/0),typeof o=="boolean"&&(o=o?1:0),typeof s=="boolean"&&(s=s?1:0),o<s?t==="asc"?-1:1:o>s?t==="asc"?1:-1:0})}function k(e,{strings:n}){e&&(e.innerHTML=`<p class="module-loading vt323">${n.m4_loading??"CARGANDO..."}<span class="cursor">_</span></p>`,fetch("./data/models.json").then(t=>{if(!t.ok)throw new Error(t.status);return t.json()}).then(t=>p(e,t,n)).catch(()=>{e.innerHTML=`<p class="module-error">${n.m4_error??"Error."}</p>`}))}function p(e,n,t){let c=n.models??[],a="params_b",o="desc",s=sessionStorage.getItem("tech_compare_hidden"),f=new Set(s?JSON.parse(s):[]);function m(){if(!c.length){e.innerHTML=`<p class="module-loading" style="color:var(--text-tertiary)">${t.m4_no_items??"\u2014"}</p>`;return}let d=h(c.filter(r=>!f.has(r.id)),a,o),u=y.map(r=>`<th ${r.key===a?`aria-sort="${o==="asc"?"ascending":"descending"}"`:""} data-col="${r.key}" tabindex="0">
+        ${t[r.i18nKey]??r.key}<span class="sort-arrow"></span>
+      </th>`).join(""),_=d.map(r=>`
+      <tr>
+        ${y.map(l=>`<td>${b(l,r[l.key])}</td>`).join("")}
+      </tr>`).join("");e.innerHTML=`
+      <div class="compare-wrapper" role="region" aria-label="${t.m4_title??"Compare"}">
+        <table class="compare-table" aria-live="polite">
+          <thead><tr>${u}</tr></thead>
+          <tbody>${_}</tbody>
+        </table>
+      </div>`,e.querySelectorAll(".compare-table th").forEach(r=>{let l=()=>{let i=r.dataset.col;a===i?o=o==="asc"?"desc":"asc":(a=i,o="asc"),m()};r.addEventListener("click",l),r.addEventListener("keydown",i=>{(i.key==="Enter"||i.key===" ")&&(i.preventDefault(),l())})})}m(),e.__techModule={refresh:({strings:d})=>p(e,n,d)}}export{k as init};
