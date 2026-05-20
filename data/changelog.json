@@ -1,13 +1,319 @@
 {
-  "updated_at": "2026-05-20T15:43:44Z",
+  "updated_at": "2026-05-20T17:29:09Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9253",
+      "project": "llama-cpp",
+      "version": "b9253",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9253",
+      "published_at": "2026-05-20T16:35:15Z",
+      "body_excerpt": "app : introduce the llama unified executable (#23296) app : introduce the llama unified executable Signed-off-by: Adrien Gallouët Use serve for server Signed-off-by: Adrien Gallouët Hide completion and bench, add help command Signed-off-by: Adrien Gallouët Remove STATIC Signed-off-by: Adrien Gallouët Use -impl targets instead of -lib Signed-off-by: Adrien Gallouët Revert \"Remove STATIC\" This rever",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9251",
+      "project": "llama-cpp",
+      "version": "b9251",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9251",
+      "published_at": "2026-05-20T15:31:30Z",
+      "body_excerpt": "mtmd: fit_params now take into account mmproj (#21489) mtmd: fit_params now take into account mmproj rename alloc_compute_meta to reserve_compute_meta rm unused functions add ggml_backend_dev_t support add debug log macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.9.0",
+      "project": "transformers",
+      "version": "v5.9.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.9.0",
+      "published_at": "2026-05-20T14:12:54Z",
+      "body_excerpt": "Release v5.9.0 New Model additions Cohere2Moe Command A+ is a Mixture-of-Experts (MoE) language model from Cohere that features a hybrid attention pattern combining sliding window and full attention layers. The model incorporates both shared and routed experts and supports a very large context window for processing extensive text sequences. Links: Documentation Add new cohere2_moe model (#46115) b",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9247",
+      "project": "llama-cpp",
+      "version": "b9247",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9247",
+      "published_at": "2026-05-20T12:09:47Z",
+      "body_excerpt": "metal : optimize pad + cpy (#23354) metal : optimize pad metal : optinmize cpy cont : better row packing in threadgroup macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (S",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9245",
+      "project": "llama-cpp",
+      "version": "b9245",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9245",
+      "published_at": "2026-05-20T04:13:15Z",
+      "body_excerpt": "ggml-cuda: tune RDNA3 Q6_K MMVQ nwarps (#23349) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: W",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9244",
+      "project": "llama-cpp",
+      "version": "b9244",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9244",
+      "published_at": "2026-05-20T03:39:52Z",
+      "body_excerpt": "opencl: add MoE support for q4_k, q5_k, q6_k on Adreno (#23303) opencl: add q4_k moe support opencl: add q5_k moe support opencl: add q6_k moe support opencl: adjust format --------- Co-authored-by: Li He macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9243",
+      "project": "llama-cpp",
+      "version": "b9243",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9243",
+      "published_at": "2026-05-20T03:08:36Z",
+      "body_excerpt": "hexagon: add MROPE and IMROPE support in HTP rope op (#23317) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9235",
+      "project": "llama-cpp",
+      "version": "b9235",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9235",
+      "published_at": "2026-05-20T03:04:33Z",
+      "body_excerpt": "llama : MTP clean-up (#23269) llama : disable equal splits for recurrent memory with partial rollback spec : re-enable p-min with MTP drafts spec : re-enable ngram spec in combination with RS rollback spec : fix ngram-map- params spec : fix acceptance logic in combined ngram + draft configs graph : fix reuse for combined + batches spec : log parameters for each speculative implementation add LOG_I",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9240",
+      "project": "llama-cpp",
+      "version": "b9240",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9240",
+      "published_at": "2026-05-20T02:44:23Z",
+      "body_excerpt": "common: fix --help for --verbosity (#23278) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9239",
+      "project": "llama-cpp",
+      "version": "b9239",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9239",
+      "published_at": "2026-05-20T02:42:47Z",
+      "body_excerpt": "common: fix --fit verbosity with --verbosity 4 (#23282) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9222",
+      "project": "llama-cpp",
+      "version": "b9222",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9222",
+      "published_at": "2026-05-19T00:29:07Z",
+      "body_excerpt": "hexagon: add support for TRI op (#22822) Hexagon: TRI HVX Kernel addition to ggml hexagon HTP ops and context addressed PR review comments for TRI op hexagon: clang format hex-unary: remove merge conflict markers hex-ggml: remove duplicate op cases (merge conflict) hex-ggml: fix editor config errors --------- Co-authored-by: Todor Boinovski Co-authored-by: Max Krasnyansky macOS/iOS: macOS Apple Si",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9221",
+      "project": "llama-cpp",
+      "version": "b9221",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9221",
+      "published_at": "2026-05-18T23:16:57Z",
+      "body_excerpt": "ggml-hexagon: add PAD op HVX kernel (#23078) ggml-hexagon: add PAD op HVX kernel Implements GGML_OP_PAD on the Hexagon HTP backend using HVX vectorized kernels. Supports zero-padding and circular padding across all 4 tensor dimensions. hex-ggml: remove duplicate op cases (merge conflict) hex-pad: fix editorconfig checks and macro alignment --------- Co-authored-by: Max Krasnyansky macOS/iOS: macOS",
+      "type": "tool"
+    },
+    {
+      "id": "hf-stabilityai-stable-audio-3-optimized",
+      "project": "stabilityai",
+      "version": "stable-audio-3-optimized",
+      "url": "https://huggingface.co/stabilityai/stable-audio-3-optimized",
+      "published_at": "2026-05-18T19:38:34Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b9219",
+      "project": "llama-cpp",
+      "version": "b9219",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9219",
+      "published_at": "2026-05-18T19:25:00Z",
+      "body_excerpt": "common : remove hf cache migration (#23266) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9216",
+      "project": "llama-cpp",
+      "version": "b9216",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9216",
+      "published_at": "2026-05-18T18:23:20Z",
+      "body_excerpt": "ui: Refactor models store, MCP service, and gate logs behind VITE_DEBUG (#23236) refactor: Scope console logs to + env vars refactor: skip MCP proxy probe when no server requires it refactor: suppress expected disconnect errors during MCP client shutdown refactor: Deduplicate requests refactor: deduplicate model fetching across ROUTER and MODEL modes refactor: Clean up models logic chore: Add file",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9213",
+      "project": "llama-cpp",
+      "version": "b9213",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9213",
+      "published_at": "2026-05-18T17:47:28Z",
+      "body_excerpt": "llama: initialize pre-norm embedding mask flag (#23256) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9209",
+      "project": "llama-cpp",
+      "version": "b9209",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9209",
+      "published_at": "2026-05-18T09:24:45Z",
+      "body_excerpt": "sycl: scalar SWAR byte-subtract in Q6_K MMVQ dot product (#22156) Signed-off-by: Chun Tao Co-authored-by: Chun Tao macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL F",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9208",
+      "project": "llama-cpp",
+      "version": "b9208",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9208",
+      "published_at": "2026-05-18T08:22:20Z",
+      "body_excerpt": "sycl: route small f32 matmuls to oneMKL, bypass oneDNN (#22150) Signed-off-by: Chun Tao Co-authored-by: Chun Tao macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP3",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9204",
+      "project": "llama-cpp",
+      "version": "b9204",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9204",
+      "published_at": "2026-05-18T00:43:24Z",
+      "body_excerpt": "feat: Support d_conv=15 for ssm-conv.cu (#23017) Branch: ModalityConditionalAdapters AI-usage: none Signed-off-by: Gabe Goodhart macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9203",
+      "project": "llama-cpp",
+      "version": "b9203",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9203",
+      "published_at": "2026-05-18T00:18:59Z",
+      "body_excerpt": "cmake : fix LLAMA_BUILD_UI logic (#23190) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9202",
+      "project": "llama-cpp",
+      "version": "b9202",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9202",
+      "published_at": "2026-05-17T23:13:11Z",
+      "body_excerpt": "cmake : do not install conversion script (#23204) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9200",
+      "project": "llama-cpp",
+      "version": "b9200",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9200",
+      "published_at": "2026-05-17T22:54:32Z",
+      "body_excerpt": "llama: avoid copying logits during prompt decode in MTP (#23198) llama: avoid copying logits during prompt decode in MTP review: update comment llama-graph: call set_output for t_h_pre_norm macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "hf-stabilityai-SAME-L",
+      "project": "stabilityai",
+      "version": "SAME-L",
+      "url": "https://huggingface.co/stabilityai/SAME-L",
+      "published_at": "2026-05-17T02:18:14Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-stabilityai-SAME-S",
+      "project": "stabilityai",
+      "version": "SAME-S",
+      "url": "https://huggingface.co/stabilityai/SAME-S",
+      "published_at": "2026-05-17T02:17:58Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-stabilityai-stable-audio-3-small-music",
+      "project": "stabilityai",
+      "version": "stable-audio-3-small-music",
+      "url": "https://huggingface.co/stabilityai/stable-audio-3-small-music",
+      "published_at": "2026-05-17T01:51:33Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-stabilityai-stable-audio-3-small-sfx",
+      "project": "stabilityai",
+      "version": "stable-audio-3-small-sfx",
+      "url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx",
+      "published_at": "2026-05-17T01:51:16Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-stabilityai-stable-audio-3-medium",
+      "project": "stabilityai",
+      "version": "stable-audio-3-medium",
+      "url": "https://huggingface.co/stabilityai/stable-audio-3-medium",
+      "published_at": "2026-05-17T01:50:14Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-stabilityai-stable-audio-3-medium-base",
+      "project": "stabilityai",
+      "version": "stable-audio-3-medium-base",
+      "url": "https://huggingface.co/stabilityai/stable-audio-3-medium-base",
+      "published_at": "2026-05-17T01:44:44Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-stabilityai-stable-audio-3-small-sfx-base",
+      "project": "stabilityai",
+      "version": "stable-audio-3-small-sfx-base",
+      "url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx-base",
+      "published_at": "2026-05-17T01:05:35Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-stabilityai-stable-audio-3-small-music-base",
+      "project": "stabilityai",
+      "version": "stable-audio-3-small-music-base",
+      "url": "https://huggingface.co/stabilityai/stable-audio-3-small-music-base",
+      "published_at": "2026-05-16T23:40:30Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "localai-v4.2.6",
+      "project": "localai",
+      "version": "v4.2.6",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.6",
+      "published_at": "2026-05-16T21:12:25Z",
+      "body_excerpt": "What's Changed Other Changes feat(llama-cpp): bump to MTP-merge SHA and automatically set MTP defaults by @localai-bot in docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in chore: :arrow_up: Update leejet/stable-diffusion.cpp to by @localai-bot in Ful",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.2.5",
+      "project": "localai",
+      "version": "v4.2.5",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.5",
+      "published_at": "2026-05-16T16:44:56Z",
+      "body_excerpt": "What's Changed Bug fixes :bug: fix(ollama): guard nil filter in galleryop.ListModels (#9817) by @localai-bot in realtime: honor output_modalities to skip TTS in text-only mode by @localai-bot in fix(ollama): accept float-encoded integer options (fixes #9837) by @localai-bot in Other Changes chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in feat(llama-cpp): expose 12 missing common_",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.21.0",
+      "project": "vllm",
+      "version": "v0.21.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
+      "published_at": "2026-05-15T08:44:26Z",
+      "body_excerpt": "Highlights This release features 367 commits from 202 contributors (49 new)! Transformers v4 deprecated: This release formally deprecates v4 support (#40389). Users should migrate to v5. C++20 build requirement: vLLM now requires a C++20-compatible compiler for compatibility with PyTorch (#40380). This is a breaking build change. KV Offload + Hybrid Memory Allocator (HMA): The KV offloading subsys",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.24.0",
       "project": "ollama",
       "version": "v0.24.0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
       "published_at": "2026-05-14T02:24:24Z",
-      "body_excerpt": "## Codex App\r\n\r\nOllama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18@2x\" src=\"https://github.com/user-attachments/assets/53bd7997-19fd-4809-b8f2-b6ed284369c9\" />\r\n\r\n\r\n#",
+      "body_excerpt": "Codex App Ollama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality. Built-in browser Codex can load local servers and sites in its built-in browser, enabling you to directly annotate on the page to request changes. Review mode Review code inside the app, leave comments, and iterate with",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.2.4",
+      "project": "localai",
+      "version": "v4.2.4",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.4",
+      "published_at": "2026-05-13T22:32:06Z",
+      "body_excerpt": "What's Changed Bug fixes :bug: fix(distributed): cascade-clean stale node_models rows + filter routing by healthy status by @localai-bot in fix(http): honor X-Forwarded-Prefix when proxy strips the prefix by @Dennisadira in fix(agentpool): close truncate-then-read race in agent_jobs.json persistence by @localai-bot in fix(middleware): parse OpenAI-spec tool_choice in /v1/chat/completions by @Anai-",
       "type": "tool"
     },
     {
@@ -16,7 +322,7 @@
       "version": "v0.23.4",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.23.4",
       "published_at": "2026-05-13T20:40:22Z",
-      "body_excerpt": "## What's Changed\r\n* `ollama launch opencode` now supports vision models with image inputs\r\n* Fixed formatting of Claude tool results when using local image paths\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.3...v0.23.4",
+      "body_excerpt": "What's Changed now supports vision models with image inputs Fixed formatting of Claude tool results when using local image paths Full Changelog:",
       "type": "tool"
     },
     {
@@ -25,7 +331,43 @@
       "version": "v0.30.0-rc21",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc21",
       "published_at": "2026-05-13T14:32:54Z",
-      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon.\r\n\r\nWhile in pre-release we'd love [feedback](https://github.com/ollama/ollama/pull/16031) on:\r\n\r\n* Performance improvements or degradation\r\n* Errors or crashes that did n",
+      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.8.1",
+      "project": "transformers",
+      "version": "v5.8.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.8.1",
+      "published_at": "2026-05-13T03:21:23Z",
+      "body_excerpt": "Patch release v5.8.1 This release is mainly to fix the Deepseek V4 integration!!! [fix] Add fatal_error to ContinuousBatchingManager so the serving... by @qgallouedec, @remi-or Fix WeightConverter regex incorrectly matching shared_experts as experts by @silencelamb, @claude Fix deepseek v4 by @ArthurZucker (#45892) Deepseek v4 csa mask collapse by @ArthurZucker, @Sawyer117 (#45928)",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.2.3",
+      "project": "localai",
+      "version": "v4.2.3",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.3",
+      "published_at": "2026-05-12T22:41:34Z",
+      "body_excerpt": "What's Changed Other Changes chore: :arrow_up: Update ggml-org/whisper.cpp to by @localai-bot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-GridSFM_Open",
+      "project": "microsoft",
+      "version": "GridSFM_Open",
+      "url": "https://huggingface.co/microsoft/GridSFM_Open",
+      "published_at": "2026-05-12T19:04:04Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "localai-v4.2.2",
+      "project": "localai",
+      "version": "v4.2.2",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.2",
+      "published_at": "2026-05-12T15:39:30Z",
+      "body_excerpt": "What's Changed Bug fixes :bug: fix: parse vulkan VRAM from text by @eglia in fix(ollama): accept alias on /api/embed for Ollama parity by @localai-bot in 👒 Dependencies chore(deps): bump node from 25-slim to 26-slim by @dependabot[bot] in chore(deps): bump actions/upload-artifact from 4 to 7 by @dependabot[bot] in chore(deps): bump actions/download-artifact from 4 to 8 by @dependabot[bot] in chore",
       "type": "tool"
     },
     {
@@ -34,8 +376,44 @@
       "version": "v0.23.3",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.23.3",
       "published_at": "2026-05-12T03:48:08Z",
-      "body_excerpt": "## What's Changed\r\n* mlx: refined model push behavior by @dhiltgen in https://github.com/ollama/ollama/pull/15431\r\n* test: integration test hardening by @dhiltgen in https://github.com/ollama/ollama/pull/13532\r\n* app: harden update flows by @dhiltgen in https://github.com/ollama/ollama/pull/16100\r\n* mlx: update the imagegen runner for mlx thread affinity by @pdevine in https://github.com/ollama/ol",
+      "body_excerpt": "What's Changed mlx: refined model push behavior by @dhiltgen in test: integration test hardening by @dhiltgen in app: harden update flows by @dhiltgen in mlx: update the imagegen runner for mlx thread affinity by @pdevine in mlx: avoid status timeout during inference by @dhiltgen in mlx: fix macOS 26 target leakage in v3 metallib by @dhiltgen in Full Changelog:",
       "type": "tool"
+    },
+    {
+      "id": "localai-v4.2.1",
+      "project": "localai",
+      "version": "v4.2.1",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.1",
+      "published_at": "2026-05-11T22:47:50Z",
+      "body_excerpt": "What's Changed Exciting New Features 🎉 feat: add ds4 backend (DeepSeek V4 Flash) with tool calls, thinking, KV cache by @localai-bot in 👒 Dependencies chore(deps): bump the go_modules group across 1 directory with 2 updates by @dependabot[bot] in Other Changes docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in ci(bump-deps): register ds4 + move version pin into the Makefile by ",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.2.0",
+      "project": "localai",
+      "version": "v4.2.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.0",
+      "published_at": "2026-05-11T12:48:17Z",
+      "body_excerpt": "🎉 LocalAI 4.2.0 Release! 🚀 LocalAI 4.2.0 is out! This release teaches LocalAI to see and hear. New and endpoints, a full face-recognition pipeline with antispoofing, word-level timestamps for faster-whisper, and a client-cancellable Whisper. There is also a drop-in Ollama API, video generation in stable-diffusion.ggml, a redesigned chat with i18n and admin-configurable branding, eleven new backend",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.20.2",
+      "project": "vllm",
+      "version": "v0.20.2",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.2",
+      "published_at": "2026-05-10T07:37:57Z",
+      "body_excerpt": "vLLM v0.20.2 Highlights This release features 6 commits from 6 contributors (0 new)! This is a small patch release with bug fixes for DeepSeek V4, gpt-oss, and Qwen3-VL Bug Fixes DeepSeek V4 sparse attention: Re-enable the persistent topk path on Hopper and ensure the memset kernel runs at CUDA graph capture time regardless of , fixing the MTP=1 hang on DeepSeek V4 (#41665, revert of #41605). Deep",
+      "type": "tool"
+    },
+    {
+      "id": "hf-EleutherAI-bergson-magic-gpt-2",
+      "project": "EleutherAI",
+      "version": "bergson-magic-gpt-2",
+      "url": "https://huggingface.co/EleutherAI/bergson-magic-gpt-2",
+      "published_at": "2026-05-08T07:32:14Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.23.2",
@@ -43,8 +421,17 @@
       "version": "v0.23.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.23.2",
       "published_at": "2026-05-07T20:23:10Z",
-      "body_excerpt": "## What's Changed\r\n\r\n* `ollama launch` no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. \r\n* Use `ollama launch claude-desktop --restore` to restore Claude Desktop to its normal state.\r\n* `/api/show` responses are now cached, improving median latency by **~6.7x** which will increase load speed for integrations like VS Code.\r\n* Improved backup w",
+      "body_excerpt": "What's Changed no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. Use to restore Claude Desktop to its normal state. responses are now cached, improving median latency by ~6.7x which will increase load speed for integrations like VS Code. Improved backup workflow when managing launch integrations Cleaner image generation layout in the MLX runner",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-Phi-Ground-Any",
+      "project": "microsoft",
+      "version": "Phi-Ground-Any",
+      "url": "https://huggingface.co/microsoft/Phi-Ground-Any",
+      "published_at": "2026-05-07T05:00:37Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.23.1",
@@ -52,7 +439,25 @@
       "version": "v0.23.1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.23.1",
       "published_at": "2026-05-05T17:13:31Z",
-      "body_excerpt": "## Gemma 4 MTP (Multi-token Processing) for the MLX runner\r\nGemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks.\r\n\r\n```\r\nollama run gemma4:31b-coding-mtp-bf16\r\n```\r\n\r\n## What's Changed\r\n* Update MLX and MLX-C with threading fixes by @dhiltgen in https://github.com/ollama/ollama/pull/15845\r\n* go: bump to 1.26 by",
+      "body_excerpt": "Gemma 4 MTP (Multi-token Processing) for the MLX runner Gemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks. What's Changed Update MLX and MLX-C with threading fixes by @dhiltgen in go: bump to 1.26 by @ParthSareen in Add Gemma 4 MTP speculative decoding by @pdevine in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.8.0",
+      "project": "transformers",
+      "version": "v5.8.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.8.0",
+      "published_at": "2026-05-05T16:52:21Z",
+      "body_excerpt": "Release v5.8.0 New Model additions DeepSeek-V4 DeepSeek-V4 is the next-generation MoE (Mixture of Experts) language model from DeepSeek that introduces several architectural innovations over DeepSeek-V3. The architecture replaces Multi-head Latent Attention (MLA) with a hybrid local + long-range attention design, swaps residual connections for Manifold-Constrained Hyper-Connections (mHC), and boot",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.20.1",
+      "project": "vllm",
+      "version": "v0.20.1",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1",
+      "published_at": "2026-05-04T10:36:26Z",
+      "body_excerpt": "vLLM v0.20.1 This is a patch release on top of primarily focused on DeepSeek V4 stabilization and performance improvements, along with several important bug fixes. DeepSeek V4 Base model support (#41006). Multi-stream pre-attention GEMM (#41061), configurable pre-attn GEMM knob (#41443), and tuned default (#41526). BF16 and MXFP8 all-to-all support for FlashInfer one-sided communication (#40960). ",
       "type": "tool"
     },
     {
@@ -61,8 +466,35 @@
       "version": "v0.23.0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.23.0",
       "published_at": "2026-05-03T03:34:11Z",
-      "body_excerpt": "## Claude Desktop\r\nClaude Desktop is now supported with Ollama Launch. \r\n\r\nClaude Cowork and Claude Code are supported within the Claude Desktop App.\r\n\r\n```\r\nollama launch claude-desktop\r\n```\r\n\r\n### Claude Cowork\r\n<img width=\"1272\" height=\"872\" alt=\"ca1\" src=\"https://github.com/user-attachments/assets/1d550e3f-0272-4429-8cb2-06d32344cb77\" />\r\n\r\n\r\n### Claude Code\r\n<img width=\"1272\" height=\"872\" alt",
+      "body_excerpt": "Claude Desktop Claude Desktop is now supported with Ollama Launch. Claude Cowork and Claude Code are supported within the Claude Desktop App. Claude Cowork Claude Code Claude Code on the terminal can still be accessed through the CLI with: Not supported yet Web Search (coming soon) Extensions What's Changed Launch Claude Desktop with The Ollama app now surfaces featured models from server-driven r",
       "type": "tool"
+    },
+    {
+      "id": "hf-stabilityai-stable-diffusion-3.5-medium-amdnpu",
+      "project": "stabilityai",
+      "version": "stable-diffusion-3.5-medium-amdnpu",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-medium-amdnpu",
+      "published_at": "2026-05-01T16:08:27Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-stabilityai-stable-diffusion-3-medium-amdnpu",
+      "project": "stabilityai",
+      "version": "stable-diffusion-3-medium-amdnpu",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium-amdnpu",
+      "published_at": "2026-05-01T16:08:06Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-EleutherAI-less-replication-7b-warmup",
+      "project": "EleutherAI",
+      "version": "less-replication-7b-warmup",
+      "url": "https://huggingface.co/EleutherAI/less-replication-7b-warmup",
+      "published_at": "2026-05-01T10:40:25Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.22.1",
@@ -70,7 +502,16 @@
       "version": "v0.22.1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.22.1",
       "published_at": "2026-04-28T20:30:57Z",
-      "body_excerpt": "## What's Changed\r\n* Updated the **Gemma 4** renderer for thinking and tool calling improvements\r\n* Model recommendations are now updated without updating Ollama\r\n* Aligned the desktop app's launch page with `ollama launch` integrations\r\n* Fixed the Poolside integration title in `ollama launch`\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.22.0...v0.22.1",
+      "body_excerpt": "What's Changed Updated the Gemma 4 renderer for thinking and tool calling improvements Model recommendations are now updated without updating Ollama Aligned the desktop app's launch page with integrations Fixed the Poolside integration title in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.7.0",
+      "project": "transformers",
+      "version": "v5.7.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.7.0",
+      "published_at": "2026-04-28T18:32:50Z",
+      "body_excerpt": "Release v5.7.0 New Model additions Laguna Laguna is Poolside's mixture-of-experts language model family that extends standard SwiGLU MoE transformers with two key innovations. It features per-layer head counts allowing different decoder layers to have different query-head counts while sharing the same KV cache shape, and implements a sigmoid MoE router with auxiliary-loss-free load balancing that ",
       "type": "tool"
     },
     {
@@ -79,8 +520,152 @@
       "version": "v0.22.0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.22.0",
       "published_at": "2026-04-28T15:00:25Z",
-      "body_excerpt": "## New models \r\n* NVIDIA's [Nemotron 3 Omni](https://ollama.com/library/nemotron3)\r\n* Poolside's first open-weight coding model - [Laguna XS.2](https://ollama.com/library/laguna-xs.2)\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.22.0",
+      "body_excerpt": "New models NVIDIA's Nemotron 3 Omni Poolside's first open-weight coding model - Laguna XS.2 Full Changelog:",
       "type": "tool"
+    },
+    {
+      "id": "vllm-v0.20.0",
+      "project": "vllm",
+      "version": "v0.20.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.0",
+      "published_at": "2026-04-27T21:20:28Z",
+      "body_excerpt": "vLLM v0.20.0 Highlights This release features 752 commits from 320 contributors (123 new)! DeepSeek V4: Initial DeepSeek V4 support landed (#40860), with DSML token-leakage fix in DSV4/3.2 (#40806), DSA + MTP IMA fix (#40772), and a silu clamp limit on the shared expert (#40950). CUDA 13.0 default: Default CUDA wheel on PyPI and image switched to CUDA 13.0; architecture lists and build-args cleane",
+      "type": "tool"
+    },
+    {
+      "id": "hf-mistralai-Mistral-Medium-3.5-128B-EAGLE",
+      "project": "mistralai",
+      "version": "Mistral-Medium-3.5-128B-EAGLE",
+      "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE",
+      "published_at": "2026-04-27T13:35:34Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3.5-35B-A3B-Base-W128K-L0_100",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3.5-35B-A3B-Base-W128K-L0_100",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W128K-L0_100",
+      "published_at": "2026-04-27T03:39:47Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50",
+      "published_at": "2026-04-27T03:39:46Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3-30B-A3B-Base-W128K-L0_100",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3-30B-A3B-Base-W128K-L0_100",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3-30B-A3B-Base-W128K-L0_100",
+      "published_at": "2026-04-27T03:39:45Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3-30B-A3B-Base-W32K-L0_50",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3-30B-A3B-Base-W32K-L0_50",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3-30B-A3B-Base-W32K-L0_50",
+      "published_at": "2026-04-27T03:39:44Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3.5-27B-W80K-L0_100",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3.5-27B-W80K-L0_100",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3.5-27B-W80K-L0_100",
+      "published_at": "2026-04-27T03:39:43Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3.5-27B-W80K-L0_50",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3.5-27B-W80K-L0_50",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3.5-27B-W80K-L0_50",
+      "published_at": "2026-04-27T03:39:42Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3.5-9B-Base-W64K-L0_100",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3.5-9B-Base-W64K-L0_100",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3.5-9B-Base-W64K-L0_100",
+      "published_at": "2026-04-27T03:39:41Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3.5-9B-Base-W64K-L0_50",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3.5-9B-Base-W64K-L0_50",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3.5-9B-Base-W64K-L0_50",
+      "published_at": "2026-04-27T03:39:40Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3.5-2B-Base-W32K-L0_100",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3.5-2B-Base-W32K-L0_100",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3.5-2B-Base-W32K-L0_100",
+      "published_at": "2026-04-27T03:39:40Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3.5-2B-Base-W32K-L0_50",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3.5-2B-Base-W32K-L0_50",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3.5-2B-Base-W32K-L0_50",
+      "published_at": "2026-04-27T03:39:39Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3-8B-Base-W64K-L0_100",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3-8B-Base-W64K-L0_100",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0_100",
+      "published_at": "2026-04-27T03:39:38Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3-8B-Base-W64K-L0_50",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3-8B-Base-W64K-L0_50",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0_50",
+      "published_at": "2026-04-27T03:39:37Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3-1.7B-Base-W32K-L0_100",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3-1.7B-Base-W32K-L0_100",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_100",
+      "published_at": "2026-04-27T03:39:36Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-SAE-Res-Qwen3-1.7B-Base-W32K-L0_50",
+      "project": "Qwen",
+      "version": "SAE-Res-Qwen3-1.7B-Base-W32K-L0_50",
+      "url": "https://huggingface.co/Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50",
+      "published_at": "2026-04-27T03:39:35Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.21.3-rc0",
@@ -88,7 +673,61 @@
       "version": "v0.21.3-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0",
       "published_at": "2026-04-24T12:15:38Z",
-      "body_excerpt": "## What's Changed\r\n* api: accept \"max\" as a think value by @ParthSareen in https://github.com/ollama/ollama/pull/15787\r\n* openai: map responses reasoning effort to think by @ParthSareen in https://github.com/ollama/ollama/pull/15789\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.21.2...v0.21.3-rc0",
+      "body_excerpt": "What's Changed api: accept \"max\" as a think value by @ParthSareen in openai: map responses reasoning effort to think by @ParthSareen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "hf-google-gemma-4-26B-A4B-it-assistant",
+      "project": "google",
+      "version": "gemma-4-26B-A4B-it-assistant",
+      "url": "https://huggingface.co/google/gemma-4-26B-A4B-it-assistant",
+      "published_at": "2026-04-23T20:16:46Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-gemma-4-31B-it-assistant",
+      "project": "google",
+      "version": "gemma-4-31B-it-assistant",
+      "url": "https://huggingface.co/google/gemma-4-31B-it-assistant",
+      "published_at": "2026-04-23T18:55:29Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-gemma-4-E4B-it-assistant",
+      "project": "google",
+      "version": "gemma-4-E4B-it-assistant",
+      "url": "https://huggingface.co/google/gemma-4-E4B-it-assistant",
+      "published_at": "2026-04-23T18:44:33Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "transformers-v5.6.2",
+      "project": "transformers",
+      "version": "v5.6.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.6.2",
+      "published_at": "2026-04-23T18:36:03Z",
+      "body_excerpt": "Patch release v5.6.2 Qwen 3.5 and 3.6 MoE (text-only) were broken when using with FP8. It should now work again with this :saluting_face: Fix configuration reading and error handling for kernels ( by @hmellor Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "hf-google-gemma-4-E2B-it-assistant",
+      "project": "google",
+      "version": "gemma-4-E2B-it-assistant",
+      "url": "https://huggingface.co/google/gemma-4-E2B-it-assistant",
+      "published_at": "2026-04-23T18:35:40Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "transformers-v5.6.1",
+      "project": "transformers",
+      "version": "v5.6.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.6.1",
+      "published_at": "2026-04-23T08:20:03Z",
+      "body_excerpt": "Patch release v5.6.1 Flash attention path was broken! Sorry everyone for this one 🤗 Fix AttributeError on s_aux=None in flash_attention_forward ( by @jamesbraza",
       "type": "tool"
     },
     {
@@ -97,8 +736,53 @@
       "version": "v0.21.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.21.2",
       "published_at": "2026-04-23T02:29:24Z",
-      "body_excerpt": "## What's Changed\r\n  * Improved reliability of the OpenClaw onboarding flow in `ollama launch`\r\n  * Recommended models in `ollama launch` now appear in a fixed, canonical order\r\n  * OpenClaw integration now bundles Ollama's web search plugin in OpenClaw\r\n\r\n## New Contributors\r\n* @madflow made their first contribution in https://github.com/ollama/ollama/pull/15733\r\n\r\n**Full Changelog:** https://git",
+      "body_excerpt": "What's Changed Improved reliability of the OpenClaw onboarding flow in Recommended models in now appear in a fixed, canonical order OpenClaw integration now bundles Ollama's web search plugin in OpenClaw New Contributors @madflow made their first contribution in Full Changelog:",
       "type": "tool"
+    },
+    {
+      "id": "transformers-v5.6.0",
+      "project": "transformers",
+      "version": "v5.6.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.6.0",
+      "published_at": "2026-04-22T15:52:30Z",
+      "body_excerpt": "Release v5.6.0 New Model additions OpenAI Privacy Filter OpenAI Privacy Filter is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text. It is intended for high-throughput data sanitization workflows where teams need a model that they can run on-premises that is fast, context-aware, and tunable. The model labels an input sequence in ",
+      "type": "tool"
+    },
+    {
+      "id": "hf-deepseek-ai-DeepSeek-V4-Pro",
+      "project": "deepseek-ai",
+      "version": "DeepSeek-V4-Pro",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "published_at": "2026-04-22T06:04:45Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-DeepSeek-V4-Pro-Base",
+      "project": "deepseek-ai",
+      "version": "DeepSeek-V4-Pro-Base",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-Base",
+      "published_at": "2026-04-22T06:04:35Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-DeepSeek-V4-Flash",
+      "project": "deepseek-ai",
+      "version": "DeepSeek-V4-Flash",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+      "published_at": "2026-04-22T06:04:20Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-DeepSeek-V4-Flash-Base",
+      "project": "deepseek-ai",
+      "version": "DeepSeek-V4-Flash-Base",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Base",
+      "published_at": "2026-04-22T06:03:55Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.21.1",
@@ -106,7 +790,25 @@
       "version": "v0.21.1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.21.1",
       "published_at": "2026-04-22T00:18:02Z",
-      "body_excerpt": "## What's Changed\r\n### Kimi CLI\r\nYou can now install and run the Kimi CLI through Ollama.\r\n\r\n```\r\nollama launch kimi --model kimi-k2.6:cloud\r\n```\r\nKimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system.\r\n\r\n  * **MLX runner adds logprobs support** for compatible models\r\n  * **Faster MLX sampling** with fused top-P and top-K in a single sort pass, plus re",
+      "body_excerpt": "What's Changed Kimi CLI You can now install and run the Kimi CLI through Ollama. Kimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system. MLX runner adds logprobs support for compatible models Faster MLX sampling with fused top-P and top-K in a single sort pass, plus repeat penalties applied in the sampler Improved MLX prompt tokenization by moving token",
+      "type": "tool"
+    },
+    {
+      "id": "hf-Qwen-Qwen3.6-27B-FP8",
+      "project": "Qwen",
+      "version": "Qwen3.6-27B-FP8",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-27B-FP8",
+      "published_at": "2026-04-21T07:51:33Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "vllm-v0.19.1",
+      "project": "vllm",
+      "version": "v0.19.1",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.19.1",
+      "published_at": "2026-04-18T05:44:42Z",
+      "body_excerpt": "This is a patch release on top of with Transformers v5.5.3 upgrade and bug fixes for Gemma4: Update to transformers v5 (#30566) [Bugfix] Fix invalid JSON in Gemma 4 streaming tool calls by stripping partial delimiters (#38992) [Bugfix][Frontend] Fix Gemma4 streaming HTML duplication after tool calls (#38909) [Bugfix] Fix Gemma4 streaming tool call corruption for split boolean/number values (#39114",
       "type": "tool"
     },
     {
@@ -115,8 +817,44 @@
       "version": "v0.21.0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.21.0",
       "published_at": "2026-04-16T22:00:17Z",
-      "body_excerpt": "## Hermes Agent\r\n\r\n```\r\nollama launch hermes\r\n```\r\n\r\nHermes learns with you, automatically creating skills to better serve your workflows. Great for research and engineering tasks.\r\n\r\n<img width=\"1329\" height=\"946\" alt=\"image\" src=\"https://github.com/user-attachments/assets/771d3383-95ed-4652-81e5-cf89514d25cc\" />\r\n\r\n## What's Changed\r\n\r\n- **Gemma 4 on MLX.** Added support for running Gemma 4 via ",
+      "body_excerpt": "Hermes Agent Hermes learns with you, automatically creating skills to better serve your workflows. Great for research and engineering tasks. What's Changed Gemma 4 on MLX. Added support for running Gemma 4 via MLX on Apple Silicon, including a text-only MLX runtime for the model. The MLX backend also picked up mixed-precision quantization, better capability detection, and a batch of new op wrapper",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-Dayhoff-3b-UR90-30000",
+      "project": "microsoft",
+      "version": "Dayhoff-3b-UR90-30000",
+      "url": "https://huggingface.co/microsoft/Dayhoff-3b-UR90-30000",
+      "published_at": "2026-04-14T00:33:33Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Dayhoff-3b-UR90-20350",
+      "project": "microsoft",
+      "version": "Dayhoff-3b-UR90-20350",
+      "url": "https://huggingface.co/microsoft/Dayhoff-3b-UR90-20350",
+      "published_at": "2026-04-14T00:30:50Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Dayhoff-3b-UR90-10000",
+      "project": "microsoft",
+      "version": "Dayhoff-3b-UR90-10000",
+      "url": "https://huggingface.co/microsoft/Dayhoff-3b-UR90-10000",
+      "published_at": "2026-04-14T00:27:13Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Dayhoff-3b-UR90-10",
+      "project": "microsoft",
+      "version": "Dayhoff-3b-UR90-10",
+      "url": "https://huggingface.co/microsoft/Dayhoff-3b-UR90-10",
+      "published_at": "2026-04-14T00:23:43Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.20.7",
@@ -124,8 +862,44 @@
       "version": "v0.20.7",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.7",
       "published_at": "2026-04-13T23:33:00Z",
-      "body_excerpt": "## What's Changed\r\n* Fix quality of gemma:e2b and gemma:e4b when thinking is disabled \r\n* ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in https://github.com/ollama/ollama/pull/15483\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.6...v0.20.7",
+      "body_excerpt": "What's Changed Fix quality of gemma:e2b and gemma:e4b when thinking is disabled ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in Full Changelog:",
       "type": "tool"
+    },
+    {
+      "id": "transformers-v5.5.4",
+      "project": "transformers",
+      "version": "v5.5.4",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.4",
+      "published_at": "2026-04-13T16:58:06Z",
+      "body_excerpt": "Patch release v5.5.4 This is mostly some fixes that are good to have asap, mostly for tokenizers; Fix Kimi-K2.5 tokenizer regression and _patch_mistral_regex Attribute… (#45305) by ArthurZucker For training: Fix #45305 + add regression test GAS (#45349) by florian6973, SunMarc Fix IndexError with DeepSpeed ZeRO-3 when kernels rotary is active (#…) by ArthurZucker And for Qwen2.5-VL : Fix Qwen2.5-V",
+      "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-skala-baselines",
+      "project": "microsoft",
+      "version": "skala-baselines",
+      "url": "https://huggingface.co/microsoft/skala-baselines",
+      "published_at": "2026-04-13T09:08:29Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-skala-1.0",
+      "project": "microsoft",
+      "version": "skala-1.0",
+      "url": "https://huggingface.co/microsoft/skala-1.0",
+      "published_at": "2026-04-13T08:45:00Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-skala-1.1",
+      "project": "microsoft",
+      "version": "skala-1.1",
+      "url": "https://huggingface.co/microsoft/skala-1.1",
+      "published_at": "2026-04-13T08:31:48Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.20.6",
@@ -133,7 +907,7 @@
       "version": "v0.20.6",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.6",
       "published_at": "2026-04-12T22:59:47Z",
-      "body_excerpt": "## What's Changed\r\n* Gemma 4 tool calling ability is improved and updated to use Google's latest post-launch fixes\r\n* Parallel tool calling improved for streaming responses \r\n* [Hermes agent](https://docs.ollama.com/integrations/hermes) Ollama integration guide is now available\r\n* Ollama app is updated to fix image attachment errors \r\n\r\n## New Contributors\r\n\r\n@matteocelani made their first contrib",
+      "body_excerpt": "What's Changed Gemma 4 tool calling ability is improved and updated to use Google's latest post-launch fixes Parallel tool calling improved for streaming responses Hermes agent Ollama integration guide is now available Ollama app is updated to fix image attachment errors New Contributors @matteocelani made their first contribution in #15272 Full Changelog:",
       "type": "tool"
     },
     {
@@ -142,7 +916,106 @@
       "version": "v0.20.5",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.5",
       "published_at": "2026-04-09T18:11:20Z",
-      "body_excerpt": "## OpenClaw channel setup with `ollama launch`\r\n<img width=\"1074\" height=\"654\" alt=\"image\" src=\"https://github.com/user-attachments/assets/300ec082-c18a-4911-b3fe-82a7bc74a000\" />\r\n\r\n## What's Changed\r\n  - OpenClaw channel setup: connect WhatsApp, Telegram, Discord, and other messaging channels through `ollama launch openclaw`\r\n  - Enable flash attention for Gemma 4 on compatible GPUs\r\n  - `ollama",
+      "body_excerpt": "OpenClaw channel setup with What's Changed - OpenClaw channel setup: connect WhatsApp, Telegram, Discord, and other messaging channels through - Enable flash attention for Gemma 4 on compatible GPUs - now detects curl-based OpenCode installs at - Fix command for models imported from safetensors New Contributors @sjhddh made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.5.3",
+      "project": "transformers",
+      "version": "v5.5.3",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.3",
+      "published_at": "2026-04-09T15:53:11Z",
+      "body_excerpt": "Small patch release to fix support for Gemma4! It contains the following commit: [gemma4] Fix device map auto (#45347) by @Cyrilvallez",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.5.2",
+      "project": "transformers",
+      "version": "v5.5.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.2",
+      "published_at": "2026-04-09T14:05:16Z",
+      "body_excerpt": "Small patch dedicated to optimizing gemma4, fixing inference with due to k/v states sharing between layers, as well as conversion mappings for some models that would inconsistently serialize their weight names. It contains the following PRs: Add MoE to Gemma4 TP plan (#45219) by @sywangyi and @Cyrilvallez [gemma4] Dissociate kv states sharing from the Cache (#45312) by @Cyrilvallez [gemma4] Remove",
+      "type": "tool"
+    },
+    {
+      "id": "hf-google-tipsv2-g14-dpt",
+      "project": "google",
+      "version": "tipsv2-g14-dpt",
+      "url": "https://huggingface.co/google/tipsv2-g14-dpt",
+      "published_at": "2026-04-09T06:52:14Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tipsv2-so400m14-dpt",
+      "project": "google",
+      "version": "tipsv2-so400m14-dpt",
+      "url": "https://huggingface.co/google/tipsv2-so400m14-dpt",
+      "published_at": "2026-04-09T06:51:48Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tipsv2-l14-dpt",
+      "project": "google",
+      "version": "tipsv2-l14-dpt",
+      "url": "https://huggingface.co/google/tipsv2-l14-dpt",
+      "published_at": "2026-04-09T06:51:32Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tipsv2-b14-dpt",
+      "project": "google",
+      "version": "tipsv2-b14-dpt",
+      "url": "https://huggingface.co/google/tipsv2-b14-dpt",
+      "published_at": "2026-04-09T06:50:51Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tipsv2-g14",
+      "project": "google",
+      "version": "tipsv2-g14",
+      "url": "https://huggingface.co/google/tipsv2-g14",
+      "published_at": "2026-04-09T06:29:08Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tipsv2-so400m14",
+      "project": "google",
+      "version": "tipsv2-so400m14",
+      "url": "https://huggingface.co/google/tipsv2-so400m14",
+      "published_at": "2026-04-09T06:29:07Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tipsv2-b14",
+      "project": "google",
+      "version": "tipsv2-b14",
+      "url": "https://huggingface.co/google/tipsv2-b14",
+      "published_at": "2026-04-09T06:28:59Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tipsv2-l14",
+      "project": "google",
+      "version": "tipsv2-l14",
+      "url": "https://huggingface.co/google/tipsv2-l14",
+      "published_at": "2026-04-09T05:55:21Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "transformers-v5.5.1",
+      "project": "transformers",
+      "version": "v5.5.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.1",
+      "published_at": "2026-04-09T05:53:03Z",
+      "body_excerpt": "Patch release v5.5.1 This patch is very small and focuses on vLLM and Gemma4! Fix export for gemma4 and add Integration tests (#45285) by @Cyrilvallez Fix vllm cis (#45139) by @ArthurZucker",
       "type": "tool"
     },
     {
@@ -151,7 +1024,7 @@
       "version": "v0.20.4",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.4",
       "published_at": "2026-04-07T17:57:51Z",
-      "body_excerpt": "## What's Changed\r\n* mlx: Improve M5 performance with NAX\r\n* gemma4: enable flash attention \r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.3...v0.20.4",
+      "body_excerpt": "What's Changed mlx: Improve M5 performance with NAX gemma4: enable flash attention Full Changelog:",
       "type": "tool"
     },
     {
@@ -160,7 +1033,34 @@
       "version": "v0.20.3",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.3",
       "published_at": "2026-04-07T05:19:10Z",
-      "body_excerpt": "## What's Changed\r\n* Gemma 4 Tool Calling improvements\r\n* Added latest models to Ollama App\r\n* OpenClaw fixes for launching TUI\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.2...v0.20.3",
+      "body_excerpt": "What's Changed Gemma 4 Tool Calling improvements Added latest models to Ollama App OpenClaw fixes for launching TUI Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.1.3",
+      "project": "localai",
+      "version": "v4.1.3",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.1.3",
+      "published_at": "2026-04-06T23:05:27Z",
+      "body_excerpt": "What's Changed Bug fixes :bug: fix(token): login via legacy api keys by @mudler in fix(anthropic): do not emit empty tokens and fix SSE tool calls by @mudler in fix(gpu): better detection for MacOS and Thor by @mudler in 👒 Dependencies chore(deps): bump google.golang.org/grpc from 1.79.3 to 1.80.0 by @dependabot[bot] in chore(deps): bump github.com/jaypipes/ghw from 0.23.0 to 0.24.0 by @dependabot",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.1.2",
+      "project": "localai",
+      "version": "v4.1.2",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.1.2",
+      "published_at": "2026-04-06T08:54:04Z",
+      "body_excerpt": "What's Changed Bug fixes :bug: fix(autoparser): correctly pass by logprobs by @mudler in fix(chat): do not retry if we had chatdeltas or tooldeltas from backend by @mudler in Exciting New Features 🎉 feat(llama.cpp): wire speculative decoding settings by @mudler in Other Changes Update index.yaml and add Qwen3.5 model files by @ER-EPR in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bo",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.1.1",
+      "project": "localai",
+      "version": "v4.1.1",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.1.1",
+      "published_at": "2026-04-05T00:06:56Z",
+      "body_excerpt": "This is a patch release to address few regressions from the last release and the upcoming Gemma4, most importantly: Fixes Gemma 4 tokenization with llama.cpp Show login in api key only mode Small fixes to improve Anthropic API compatibility What's Changed Other Changes docs: Update Home Assistant integrations list by @loryanstrant in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot i",
       "type": "tool"
     },
     {
@@ -169,7 +1069,7 @@
       "version": "v0.20.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.2",
       "published_at": "2026-04-04T06:22:05Z",
-      "body_excerpt": "## What's Changed\r\n* app: default app home view to new chat instead of launch by @jmorganca in https://github.com/ollama/ollama/pull/15312\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.20.1...v0.20.2",
+      "body_excerpt": "What's Changed app: default app home view to new chat instead of launch by @jmorganca in Full Changelog:",
       "type": "tool"
     },
     {
@@ -178,7 +1078,187 @@
       "version": "v0.20.1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.1",
       "published_at": "2026-04-03T22:37:43Z",
-      "body_excerpt": "## What's Changed\r\n* bench: add prompt calibration, context size flag, and NumCtx reporting by @dhiltgen in https://github.com/ollama/ollama/pull/15158\r\n* model/parsers: fix gemma4 arg parsing when quoted strings contain \" by @drifkin in https://github.com/ollama/ollama/pull/15254\r\n* ggml: skip cublasGemmBatchedEx during graph reservation by @jessegross in https://github.com/ollama/ollama/pull/153",
+      "body_excerpt": "What's Changed bench: add prompt calibration, context size flag, and NumCtx reporting by @dhiltgen in model/parsers: fix gemma4 arg parsing when quoted strings contain \" by @drifkin in ggml: skip cublasGemmBatchedEx during graph reservation by @jessegross in gemma4: enable flash attention by @dhiltgen in ggml: fix ROCm build for cublasGemmBatchedEx reserve wrapper by @jessegross in model/parsers: ",
+      "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-Dayhoff-170M-GRS-SS-134000",
+      "project": "microsoft",
+      "version": "Dayhoff-170M-GRS-SS-134000",
+      "url": "https://huggingface.co/microsoft/Dayhoff-170M-GRS-SS-134000",
+      "published_at": "2026-04-03T22:16:56Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Dayhoff-170M-GRS-SS-122000",
+      "project": "microsoft",
+      "version": "Dayhoff-170M-GRS-SS-122000",
+      "url": "https://huggingface.co/microsoft/Dayhoff-170M-GRS-SS-122000",
+      "published_at": "2026-04-03T22:16:27Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Dayhoff-170M-GRS-SS-110000",
+      "project": "microsoft",
+      "version": "Dayhoff-170M-GRS-SS-110000",
+      "url": "https://huggingface.co/microsoft/Dayhoff-170M-GRS-SS-110000",
+      "published_at": "2026-04-03T22:15:59Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Dayhoff-170M-GRS-SS-98000",
+      "project": "microsoft",
+      "version": "Dayhoff-170M-GRS-SS-98000",
+      "url": "https://huggingface.co/microsoft/Dayhoff-170M-GRS-SS-98000",
+      "published_at": "2026-04-03T22:15:31Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Dayhoff-170M-GRS-SS-86000",
+      "project": "microsoft",
+      "version": "Dayhoff-170M-GRS-SS-86000",
+      "url": "https://huggingface.co/microsoft/Dayhoff-170M-GRS-SS-86000",
+      "published_at": "2026-04-03T22:15:01Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Dayhoff-170M-GRS-SS-74000",
+      "project": "microsoft",
+      "version": "Dayhoff-170M-GRS-SS-74000",
+      "url": "https://huggingface.co/microsoft/Dayhoff-170M-GRS-SS-74000",
+      "published_at": "2026-04-03T22:14:33Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "vllm-v0.19.0",
+      "project": "vllm",
+      "version": "v0.19.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.19.0",
+      "published_at": "2026-04-03T02:19:12Z",
+      "body_excerpt": "vLLM v0.19.0 Highlights This release features 448 commits from 197 contributors (54 new)! Gemma 4 support: Full Google Gemma 4 architecture support including MoE, multimodal, reasoning, and tool-use capabilities (#38826, #38847). Requires . We recommend using pre-built docker image for out of box usage. Zero-bubble async scheduling + speculative decoding: Async scheduling now supports speculative ",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.1.0",
+      "project": "localai",
+      "version": "v4.1.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.1.0",
+      "published_at": "2026-04-02T22:14:48Z",
+      "body_excerpt": "🎉 LocalAI 4.1.0 Release! 🚀 LocalAI 4.1.0 is out! 🔥 Just weeks after the landmark 4.0, we're back with another massive drop. This release turns LocalAI into a production-grade AI platform: spin up a distributed cluster with smart routing and autoscaling, lock it down with built-in auth and per-user quotas, fine-tune models without leaving the UI, and much more. If 4.0 was the foundation, 4.1 is the",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.5.0",
+      "project": "transformers",
+      "version": "v5.5.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.0",
+      "published_at": "2026-04-02T16:15:33Z",
+      "body_excerpt": "Release v5.5.0 New Model additions Gemma4 Gemma 4 is a multimodal model with pretrained and instruction-tuned variants, available in 1B, 13B, and 27B parameters. The architecture is mostly the same as the previous Gemma versions. The key differences are a vision processor that can output images of fixed token budget and a spatial 2D RoPE to encode vision-specific information across height and widt",
+      "type": "tool"
+    },
+    {
+      "id": "hf-mistralai-Mistral-Medium-3.5-128B",
+      "project": "mistralai",
+      "version": "Mistral-Medium-3.5-128B",
+      "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+      "published_at": "2026-03-31T09:50:20Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "vllm-v0.18.1",
+      "project": "vllm",
+      "version": "v0.18.1",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.18.1",
+      "published_at": "2026-03-31T00:53:26Z",
+      "body_excerpt": "This is a patch release on top of v0.18.0 to address a few issues: Change default SM100 MLA prefill backend back to TRT-LLM (#38562) Fix mock.patch resolution failure for standalone_compile.FakeTensorMode on Python <= 3.10 (#37158) Disable monolithic TRTLLM MoE for Renormalize routing #37605 Pre-download missing FlashInfer headers in Docker build #38391 Fix DeepGemm E8M0 accuracy degradation for Q",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.4.0",
+      "project": "transformers",
+      "version": "v5.4.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
+      "published_at": "2026-03-27T00:33:02Z",
+      "body_excerpt": "New Model additions VidEoMT Video Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that carries information across frames and employs a query fusion strategy that combines propagated querie",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.18.0",
+      "project": "vllm",
+      "version": "v0.18.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.18.0",
+      "published_at": "2026-03-20T21:31:36Z",
+      "body_excerpt": "vLLM v0.18.0 Known issues Degraded accuracy when serving Qwen3.5 with FP8 KV cache on B200 (#37618) If you previously ran into and had to use a workaround in , you can reinstall . PyTorch published an updated wheel that addresses this bug. Highlights This release features 445 commits from 213 contributors (61 new)! gRPC Serving Support: vLLM now supports gRPC serving via the new flag (#36169), ena",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.0.0",
+      "project": "localai",
+      "version": "v4.0.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.0.0",
+      "published_at": "2026-03-14T18:18:41Z",
+      "body_excerpt": "--- 🎉 LocalAI 4.0.0 Release! 🚀 LocalAI 4.0.0 is out! This major release transforms LocalAI into a complete AI orchestration platform. We’ve embedded agentic and hybrid search capabilities directly into the core, completely overhauled the user interface with React for a modern experience, and are thrilled to introduce Agenthub ( link ) a brand new community hub to easily share and import agents. Al",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.17.1",
+      "project": "vllm",
+      "version": "v0.17.1",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.17.1",
+      "published_at": "2026-03-11T10:24:34Z",
+      "body_excerpt": "This is a patch release on top of to address a few issues: New Model: Nemotron 3 Super Fix passing of activation_type to trtllm fused MoE NVFP4 and FP8 (#36017) Fix/resupport nongated fused moe triton (#36412) Re-enable EP for trtllm MoE FP8 backend (#36494) [Mamba][Qwen3.5] Zero freed SSM cache blocks on GPU (#35219) Fix TRTLLM Block FP8 MoE Monolithic (#36296) [DSV3.2][MTP] Optimize Indexer MTP ",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.17.0",
+      "project": "vllm",
+      "version": "v0.17.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.17.0",
+      "published_at": "2026-03-07T00:46:41Z",
+      "body_excerpt": "vLLM v0.17.0 Known Issue: If you are on CUDA 12.9+ and encounter a error, this is caused by a CUDA library mismatch. To resolve, try one of the following: 1. Remove the path to system CUDA shared library files (e.g. ) from , or simply . 2. Install vLLM with . 3. Install vLLM with (change the CUDA version to match your system). Highlights This release features 699 commits from 272 contributors (48 ",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.3.0",
+      "project": "transformers",
+      "version": "v5.3.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.3.0",
+      "published_at": "2026-03-04T17:42:16Z",
+      "body_excerpt": "New Model additions EuroBERT EuroBERT is a multilingual encoder model based on a refreshed transformer architecture, akin to Llama but with bidirectional attention. It supports a mixture of European and widely spoken languages, with sequences of up to 8192 tokens. Links: Documentation | Paper | Blog Post Add eurobert (#39455) by @ArthurZucker in #39455 VibeVoice ASR VibeVoice ASR is an automatic s",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.16.0",
+      "project": "vllm",
+      "version": "v0.16.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.16.0",
+      "published_at": "2026-02-25T19:58:49Z",
+      "body_excerpt": "vLLM v0.16.0 Please note that this release was branch cut on Feb 8, so any features added to vLLM after that date is not included. Highlights This release features 440 commits from 203 contributors (7 new)! Async scheduling + Pipeline Parallelism is now fully supported, delivering 30.8% E2E throughput improvement and 31.8% TPOT improvement (#32618). Realtime API: A new WebSocket-based Realtime API",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v3.12.1",
+      "project": "localai",
+      "version": "v3.12.1",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v3.12.1",
+      "published_at": "2026-02-21T13:49:24Z",
+      "body_excerpt": "This is a patch release to tag the new llama.cpp version which fixes incompatibilities with Qwen 3 coder. What's Changed Other Changes docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in feat(traces): Add backend traces by @richiejp in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in chore: drop bark.cpp leftovers from pipelines by @mudler in fix: merge openresp",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v3.12.0",
+      "project": "localai",
+      "version": "v3.12.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v3.12.0",
+      "published_at": "2026-02-20T18:16:23Z",
+      "body_excerpt": "🎉 LocalAI 3.12.0 Release! 🚀 LocalAI 3.12.0 is out! | Feature | Summary | |--------|--------| | Multi-modal Realtime | Send text, images, and audio in real-time conversations for richer interactions. | | Voxtral Backend | New high-quality text-to-speech backend added. | | Multi-GPU Support | Improved Diffusers performance with multiple GPUs. | | Legacy CPU Optimization | Enhanced compatibility for ",
       "type": "tool"
     }
   ]

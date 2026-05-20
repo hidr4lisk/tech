@@ -258,11 +258,13 @@ p, li { font-family: var(--font-body); }
 
 /* ── Hero ────────────────────────────────────────────────────────────── */
 .hero {
-  padding-block: var(--s-8) var(--s-7);
+  padding-block: var(--s-5) var(--s-4);
   border-bottom: 1px solid var(--border-subtle);
   position: relative;
   overflow: hidden;
 }
+@media (min-width: 640px) { .hero { padding-block: var(--s-7) var(--s-6); } }
+@media (min-width: 1024px) { .hero { padding-block: var(--s-8) var(--s-7); } }
 
 .hero::after {
   content: '';

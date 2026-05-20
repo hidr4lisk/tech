@@ -29,7 +29,6 @@ RSS_SOURCES = [
     {"slug": "huggingface", "url": "https://huggingface.co/blog/feed.xml",                     "filter": None},
     {"slug": "meta",        "url": "https://engineering.fb.com/feed/",                         "filter": ["llama", "open", "model", "ai"]},
     {"slug": "google",      "url": "https://blog.research.google/feeds/posts/default",         "filter": ["gemma", "language model", "llm", "open", "model"]},
-    {"slug": "deepmind",    "url": "https://deepmind.google/discover/blog/rss.xml",            "filter": ["open", "model", "weights", "gemma", "release"]},
     {"slug": "microsoft",   "url": "https://www.microsoft.com/en-us/research/feed/",           "filter": ["phi", "language model", "llm", "open", "model"]},
     {"slug": "gradient",    "url": "https://thegradient.pub/rss/",                             "filter": None},
 ]
