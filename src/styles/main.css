@@ -945,6 +945,7 @@ footer {
 .digest-section {
   padding-block: var(--s-5);
   border-bottom: 1px solid var(--border-subtle);
+  scroll-margin-top: calc(var(--topbar-h) + var(--modnav-h) + var(--s-4));
 }
 
 .digest {
