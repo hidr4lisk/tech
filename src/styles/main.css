@@ -227,8 +227,9 @@ p, li { font-family: var(--font-body); }
 .module-nav__num   { font-size: var(--t-sm); opacity: 0.6; }
 
 @media (max-width: 639px) {
+  .module-nav        { overflow: hidden; }
   .module-nav__inner { padding-inline: 0; }
-  .module-nav__item  { flex: 1; justify-content: center; padding-inline: var(--s-1); font-size: 0.62rem; letter-spacing: 0.06em; gap: 0; }
+  .module-nav__item  { flex: 1 1 0; min-width: 0; overflow: hidden; justify-content: center; padding-inline: 2px; font-size: 0.52rem; letter-spacing: 0; gap: 0; }
   .module-nav__num   { display: none; }
 }
 
