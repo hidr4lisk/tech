@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-21T15:39:37Z",
+  "updated_at": "2026-05-21T20:00:21Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9270",
+      "project": "llama-cpp",
+      "version": "b9270",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9270",
+      "published_at": "2026-05-21T19:52:00Z",
+      "body_excerpt": "vocab : add Carbon-3B (HybridDNATokenizer) support (#23410) vocab : add Carbon-3B (HybridDNATokenizer) support Adds a new BPE pre-type LLAMA_VOCAB_PRE_TYPE_CARBON for the HybridDNATokenizer used by HuggingFaceBio/Carbon-{500M,3B,8B}. The base BPE is Qwen3-4B-Base's; what differs is that text inside ... regions is chunked into fixed 6-mers (right-padded with 'A' on the trailing partial), and any ba",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9267",
+      "project": "llama-cpp",
+      "version": "b9267",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9267",
+      "published_at": "2026-05-21T17:18:23Z",
+      "body_excerpt": "ggml : Check the right iface method before using the fallback 2d get (#23306) Probably no backends implement only one of 2d get/set, but this might be annoying for some future backend developer trying to add 2d get/set. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9266",
+      "project": "llama-cpp",
+      "version": "b9266",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9266",
+      "published_at": "2026-05-21T16:32:38Z",
+      "body_excerpt": "llama-graph: fix null-buffer crash in llm_graph_input_attn_kv_iswa for SWA-only models (#23131) When a model has zero non-SWA attention layers (e.g. a SWA-only slice of Gemma 4), the base KV cache has no layer tensors. The input tensors (self_k_idxs, self_v_idxs, self_kq_mask) are created as graph input nodes but never consumed by any compute node, so the backend scheduler never allocates a buffer",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9265",
       "project": "llama-cpp",
@@ -411,6 +438,15 @@
       "project": "ollama",
       "version": "v0.30.0-rc21",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc21",
+      "published_at": "2026-05-13T14:32:54Z",
+      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.0-rc22",
+      "project": "ollama",
+      "version": "v0.30.0-rc22",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc22",
       "published_at": "2026-05-13T14:32:54Z",
       "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
       "type": "tool"
@@ -1331,15 +1367,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v3.12.1",
       "published_at": "2026-02-21T13:49:24Z",
       "body_excerpt": "This is a patch release to tag the new llama.cpp version which fixes incompatibilities with Qwen 3 coder. What's Changed Other Changes docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in feat(traces): Add backend traces by @richiejp in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in chore: drop bark.cpp leftovers from pipelines by @mudler in fix: merge openresp",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v3.12.0",
-      "project": "localai",
-      "version": "v3.12.0",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v3.12.0",
-      "published_at": "2026-02-20T18:16:23Z",
-      "body_excerpt": "🎉 LocalAI 3.12.0 Release! 🚀 LocalAI 3.12.0 is out! | Feature | Summary | |--------|--------| | Multi-modal Realtime | Send text, images, and audio in real-time conversations for richer interactions. | | Voxtral Backend | New high-quality text-to-speech backend added. | | Multi-GPU Support | Improved Diffusers performance with multiple GPUs. | | Legacy CPU Optimization | Enhanced compatibility for ",
       "type": "tool"
     }
   ]
