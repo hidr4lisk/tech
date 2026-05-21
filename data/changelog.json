@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-21T09:53:16Z",
+  "updated_at": "2026-05-21T15:39:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9265",
+      "project": "llama-cpp",
+      "version": "b9265",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9265",
+      "published_at": "2026-05-21T13:44:55Z",
+      "body_excerpt": "hexagon: ssm-conv fix for large prompts (#23307) hexagon: remove gathers and better handling of vtcm in ssm-conv hexagon: relax ssm-conv gating requirements hexagon: add new prefill ssm-conv backend test hexagon: remove trailing white space hex-rope: uninline rope_cache_init, otherwise it breaks after rebaseing with SSM_CONV changes --------- Co-authored-by: Max Krasnyansky macOS/iOS: macOS Apple ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9264",
       "project": "llama-cpp",
