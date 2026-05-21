@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-21T04:12:39Z",
+  "updated_at": "2026-05-21T09:53:16Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9264",
+      "project": "llama-cpp",
+      "version": "b9264",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9264",
+      "published_at": "2026-05-21T06:07:31Z",
+      "body_excerpt": "app : show version (#23426) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9263",
+      "project": "llama-cpp",
+      "version": "b9263",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9263",
+      "published_at": "2026-05-21T04:14:01Z",
+      "body_excerpt": "mtmd, model : merge HunyuanOCR into HunyuanVL and fix OCR vision precision (#23329) HunyuanOCR shares the same HF arch and vision layout as HunyuanVL butwas split into a separate path that skipped the +0.1 bilinear sampler used by the HF reference. Collapse OCR into the HUNYUANVL projector + HUNYUAN_VL text arch macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) m",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9260",
       "project": "llama-cpp",
