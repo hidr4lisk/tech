@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-22T14:49:21Z",
+  "updated_at": "2026-05-22T19:55:06Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9285",
+      "project": "llama-cpp",
+      "version": "b9285",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9285",
+      "published_at": "2026-05-22T19:47:03Z",
+      "body_excerpt": "cmake : build router app only during standalone builds (#23521) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9284",
+      "project": "llama-cpp",
+      "version": "b9284",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9284",
+      "published_at": "2026-05-22T15:13:16Z",
+      "body_excerpt": "vocab : fix HybridDNA tokenizer (#23466) vocab : mark hybriddna k-mers to avoid BPE token collisions improved loop --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9283",
       "project": "llama-cpp",
@@ -555,6 +573,15 @@
       "project": "ollama",
       "version": "v0.30.0-rc22",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc22",
+      "published_at": "2026-05-13T14:32:54Z",
+      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.0-rc23",
+      "project": "ollama",
+      "version": "v0.30.0-rc23",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc23",
       "published_at": "2026-05-13T14:32:54Z",
       "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
       "type": "tool"
