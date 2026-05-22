@@ -1,6 +1,195 @@
 {
-  "updated_at": "2026-05-20T17:29:09Z",
+  "updated_at": "2026-05-22T14:49:21Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9283",
+      "project": "llama-cpp",
+      "version": "b9283",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9283",
+      "published_at": "2026-05-22T13:43:16Z",
+      "body_excerpt": "cmake : add install() for impl libraries + fix apple builds (#23511) pi : update ci : fix ios build ci : fix andoroid ci : fix apple builds cmake : add install() for impl libraries Add install(TARGETS LIBRARY) for all -impl libraries that were changed from STATIC to shared (controlled by BUILD_SHARED_LIBS) in commit bb28c1fe2. Without this, cmake --install fails to copy the shared libraries, causi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9279",
+      "project": "llama-cpp",
+      "version": "b9279",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9279",
+      "published_at": "2026-05-22T01:51:39Z",
+      "body_excerpt": "vulkan: fuse snake activation (mul, sin, sqr, mul, add) (#22855) vulkan: fuse snake activation (mul, sin, sqr, mul, add) Add snake.comp shader with F32 / F16 / BF16 pipelines and ggml_vk_snake_dispatch_fused. The matcher recognizes the naive 5 op decomposition emitted by audio decoders (BigVGAN, Vocos) for snake activation y = x + sin(ax)^2 inv_b and rewrites it to a single elementwise kernel. tes",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9277",
+      "project": "llama-cpp",
+      "version": "b9277",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9277",
+      "published_at": "2026-05-22T01:28:47Z",
+      "body_excerpt": "tests : move save-load-state from examples to tests (#23336) tests : move save-load-state from examples to tests Move examples/save-load-state/ to tests/test-save-load-state.cpp Remove subdirectory reference from examples/CMakeLists.txt Add test to tests/CMakeLists.txt as a model test Remove CODEOWNERS entry for removed example directory Assisted-by: llama.cpp:local pi cont : update ci macOS/iOS: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9276",
+      "project": "llama-cpp",
+      "version": "b9276",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9276",
+      "published_at": "2026-05-22T00:48:34Z",
+      "body_excerpt": "server: expose prompt token counts in /slots endpoint (#23454) Add n_prompt_tokens, n_prompt_tokens_processed, and n_prompt_tokens_cache to the /slots JSON response. These fields are already tracked internally but were not exposed, making it impossible for clients to monitor prompt evaluation progress during processing. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI en",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9275",
+      "project": "llama-cpp",
+      "version": "b9275",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9275",
+      "published_at": "2026-05-21T22:59:46Z",
+      "body_excerpt": "metal : optimize concat kernel and fix set kernel threads (#23411) metal : fix GGML_OP_SET kernel threads tests : extend test_cpy to support different src/dst shapes Extend test_cpy to support different source and destination tensor shapes for CPY operations (reshaping), where the total number of elements must match. Renamed ne -> ne_src, added ne_dst parameter (default: use src shape) Added 50 ne",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9274",
+      "project": "llama-cpp",
+      "version": "b9274",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9274",
+      "published_at": "2026-05-21T21:52:18Z",
+      "body_excerpt": "server : free draft/MTP resources on sleep to fix VRAM leak (#23461) The destroy() function in server_context_impl only cleaned up the main model and context (via llama_init.reset()) but did not free the speculative decoder (spec), draft context (ctx_dft), or draft model (model_dft). For MTP (Multi-Token Prediction) models, ctx_dft holds GPU-allocated resources (KV cache, compute buffers) that are",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9273",
+      "project": "llama-cpp",
+      "version": "b9273",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9273",
+      "published_at": "2026-05-21T21:27:25Z",
+      "body_excerpt": "server: re-inject subcommand when router spawns children under unified binary (#23442) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9272",
+      "project": "llama-cpp",
+      "version": "b9272",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9272",
+      "published_at": "2026-05-21T20:55:33Z",
+      "body_excerpt": "app : add batched-bench, fit-params, quantize & perplexity (#23459) app : add batched-bench, fit-params, quantize & perplexity Signed-off-by: Adrien Gallouët Add missing main.cpp Signed-off-by: Adrien Gallouët Add EOL Signed-off-by: Adrien Gallouët --------- Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCF",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9271",
+      "project": "llama-cpp",
+      "version": "b9271",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9271",
+      "published_at": "2026-05-21T20:21:20Z",
+      "body_excerpt": "mtp: use inp_out_ids for skipping logit computation (#23433) when doing a follow-up decode for the draft model, we were always doing the logit computation even though it is not required. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9270",
+      "project": "llama-cpp",
+      "version": "b9270",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9270",
+      "published_at": "2026-05-21T19:52:00Z",
+      "body_excerpt": "vocab : add Carbon-3B (HybridDNATokenizer) support (#23410) vocab : add Carbon-3B (HybridDNATokenizer) support Adds a new BPE pre-type LLAMA_VOCAB_PRE_TYPE_CARBON for the HybridDNATokenizer used by HuggingFaceBio/Carbon-{500M,3B,8B}. The base BPE is Qwen3-4B-Base's; what differs is that text inside ... regions is chunked into fixed 6-mers (right-padded with 'A' on the trailing partial), and any ba",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9267",
+      "project": "llama-cpp",
+      "version": "b9267",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9267",
+      "published_at": "2026-05-21T17:18:23Z",
+      "body_excerpt": "ggml : Check the right iface method before using the fallback 2d get (#23306) Probably no backends implement only one of 2d get/set, but this might be annoying for some future backend developer trying to add 2d get/set. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9266",
+      "project": "llama-cpp",
+      "version": "b9266",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9266",
+      "published_at": "2026-05-21T16:32:38Z",
+      "body_excerpt": "llama-graph: fix null-buffer crash in llm_graph_input_attn_kv_iswa for SWA-only models (#23131) When a model has zero non-SWA attention layers (e.g. a SWA-only slice of Gemma 4), the base KV cache has no layer tensors. The input tensors (self_k_idxs, self_v_idxs, self_kq_mask) are created as graph input nodes but never consumed by any compute node, so the backend scheduler never allocates a buffer",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9265",
+      "project": "llama-cpp",
+      "version": "b9265",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9265",
+      "published_at": "2026-05-21T13:44:55Z",
+      "body_excerpt": "hexagon: ssm-conv fix for large prompts (#23307) hexagon: remove gathers and better handling of vtcm in ssm-conv hexagon: relax ssm-conv gating requirements hexagon: add new prefill ssm-conv backend test hexagon: remove trailing white space hex-rope: uninline rope_cache_init, otherwise it breaks after rebaseing with SSM_CONV changes --------- Co-authored-by: Max Krasnyansky macOS/iOS: macOS Apple ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9264",
+      "project": "llama-cpp",
+      "version": "b9264",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9264",
+      "published_at": "2026-05-21T06:07:31Z",
+      "body_excerpt": "app : show version (#23426) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9263",
+      "project": "llama-cpp",
+      "version": "b9263",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9263",
+      "published_at": "2026-05-21T04:14:01Z",
+      "body_excerpt": "mtmd, model : merge HunyuanOCR into HunyuanVL and fix OCR vision precision (#23329) HunyuanOCR shares the same HF arch and vision layout as HunyuanVL butwas split into a separate path that skipped the +0.1 bilinear sampler used by the HF reference. Collapse OCR into the HUNYUANVL projector + HUNYUAN_VL text arch macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) m",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9260",
+      "project": "llama-cpp",
+      "version": "b9260",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9260",
+      "published_at": "2026-05-21T03:18:39Z",
+      "body_excerpt": "opencl: refactor backend initilization (#23318) opencl: refactor initialization opencl: refactor GPU identification opencl: rename for consistency opencl: cache global mem size in dev_ctx opencl: adjust log level opencl: load argsort and flash_attn kernels in supports_op argsort kernel must be built for supports_op for querying the max workgroups flash_attn kernel has many variants, only load them",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9259",
+      "project": "llama-cpp",
+      "version": "b9259",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9259",
+      "published_at": "2026-05-21T02:52:22Z",
+      "body_excerpt": "common/speculative : fix nullptr crash in get_devices_str (#23386) ggml_backend_dev_by_name always appends a nullptr sentinel to the devices vector. Skipping nullptr entries prevents assertion failure in ggml_backend_dev_name. Assisted-by: llama.cpp:local pi macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9258",
+      "project": "llama-cpp",
+      "version": "b9258",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9258",
+      "published_at": "2026-05-21T02:45:33Z",
+      "body_excerpt": "mtmd : DeepSeek-OCR image processing fixes, img_tool::resize padding refactor (#23345) mtmd : deepseek-ocr fixes, improvements and refactoring image processing changes to achieve full parity with Pillow (reference impl) SAM mask casting only when flash-attn is on SAM refactor (build_sam() extracted so deepseek-ocr-2 can reuse it) llama-chat changes to fix server/WebUI issue (new media_markers_firs",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9257",
+      "project": "llama-cpp",
+      "version": "b9257",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9257",
+      "published_at": "2026-05-21T02:27:08Z",
+      "body_excerpt": "vulkan: optimize operations in the IM2COL shader (#22685) vulkan: optimize operations in the IM2COL shader Add comments and improve the code formatting macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9255",
+      "project": "llama-cpp",
+      "version": "b9255",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9255",
+      "published_at": "2026-05-21T02:26:53Z",
+      "body_excerpt": "hexagon: HMX quantized matmul rework (#23368) hmx-mm: update debug logging in hmx-mm hmx-mm: update dequant logic to use HVX_vector_x2/4 hmx-mm: remove non-pipelined version of the quantize matmul It seems that we don't reall need non-pipelined version hmx-mm: use activation depth mode and update naming Co-authored-by: Kim-Chyan Gan hex-mm: minor hmx matmul naming updates hmx-mm: remove unused var",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9254",
+      "project": "llama-cpp",
+      "version": "b9254",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9254",
+      "published_at": "2026-05-20T21:38:57Z",
+      "body_excerpt": "Programmatic Dependent Launch (PDL) for more performance on newer NVIDIA GPUs (Hopper+) (#22522) Adds initial PDL setup. Adds PDL barriers based on simple heuristic: place \"sync\" before first input pointer access, and \"launch\" after last write, e.g. to tensors like dst. Further optimization pass of the first half of kernels Optimized PDL barriers for the second batch of kernels Further refinements",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9253",
       "project": "llama-cpp",
@@ -299,6 +488,33 @@
       "type": "tool"
     },
     {
+      "id": "hf-microsoft-Lens-Base",
+      "project": "microsoft",
+      "version": "Lens-Base",
+      "url": "https://huggingface.co/microsoft/Lens-Base",
+      "published_at": "2026-05-15T06:08:02Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Lens-Turbo",
+      "project": "microsoft",
+      "version": "Lens-Turbo",
+      "url": "https://huggingface.co/microsoft/Lens-Turbo",
+      "published_at": "2026-05-15T06:06:39Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Lens",
+      "project": "microsoft",
+      "version": "Lens",
+      "url": "https://huggingface.co/microsoft/Lens",
+      "published_at": "2026-05-15T01:53:50Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "ollama-v0.24.0",
       "project": "ollama",
       "version": "v0.24.0",
@@ -330,6 +546,15 @@
       "project": "ollama",
       "version": "v0.30.0-rc21",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc21",
+      "published_at": "2026-05-13T14:32:54Z",
+      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.0-rc22",
+      "project": "ollama",
+      "version": "v0.30.0-rc22",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc22",
       "published_at": "2026-05-13T14:32:54Z",
       "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
       "type": "tool"
@@ -1241,24 +1466,6 @@
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.16.0",
       "published_at": "2026-02-25T19:58:49Z",
       "body_excerpt": "vLLM v0.16.0 Please note that this release was branch cut on Feb 8, so any features added to vLLM after that date is not included. Highlights This release features 440 commits from 203 contributors (7 new)! Async scheduling + Pipeline Parallelism is now fully supported, delivering 30.8% E2E throughput improvement and 31.8% TPOT improvement (#32618). Realtime API: A new WebSocket-based Realtime API",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v3.12.1",
-      "project": "localai",
-      "version": "v3.12.1",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v3.12.1",
-      "published_at": "2026-02-21T13:49:24Z",
-      "body_excerpt": "This is a patch release to tag the new llama.cpp version which fixes incompatibilities with Qwen 3 coder. What's Changed Other Changes docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in feat(traces): Add backend traces by @richiejp in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in chore: drop bark.cpp leftovers from pipelines by @mudler in fix: merge openresp",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v3.12.0",
-      "project": "localai",
-      "version": "v3.12.0",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v3.12.0",
-      "published_at": "2026-02-20T18:16:23Z",
-      "body_excerpt": "🎉 LocalAI 3.12.0 Release! 🚀 LocalAI 3.12.0 is out! | Feature | Summary | |--------|--------| | Multi-modal Realtime | Send text, images, and audio in real-time conversations for richer interactions. | | Voxtral Backend | New high-quality text-to-speech backend added. | | Multi-GPU Support | Improved Diffusers performance with multiple GPUs. | | Legacy CPU Optimization | Enhanced compatibility for ",
       "type": "tool"
     }
   ]
