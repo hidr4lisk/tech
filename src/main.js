@@ -2,6 +2,9 @@ import { initI18n, setLang, getLang, getStrings } from './core/i18n.js';
 
 await initI18n();
 
+const toolSelect = document.querySelector('.tool-select');
+if (toolSelect) toolSelect.addEventListener('change', () => { window.location.href = toolSelect.value; });
+
 document.querySelectorAll('.lang-btn').forEach(btn => {
   btn.addEventListener('click', () => setLang(btn.dataset.lang));
 });
