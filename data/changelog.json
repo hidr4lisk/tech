@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-05-22T19:55:06Z",
+  "updated_at": "2026-05-23T03:45:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9294",
+      "project": "llama-cpp",
+      "version": "b9294",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9294",
+      "published_at": "2026-05-23T01:49:32Z",
+      "body_excerpt": "opencl: generalize Adreno MoE kernels on M (#23449) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9291",
+      "project": "llama-cpp",
+      "version": "b9291",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9291",
+      "published_at": "2026-05-22T22:17:36Z",
+      "body_excerpt": "SYCL: improve MoE prefill throughput (#23142) change so that uses a precomputed contiguous mapping where all rows \"owned\" by an expert are in one slice with a know starts and ends switch the contraption to a counting sort-based procedure with complexity macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9292",
+      "project": "llama-cpp",
+      "version": "b9292",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9292",
+      "published_at": "2026-05-22T22:17:30Z",
+      "body_excerpt": "perplexity : fix integer overflow (#23496) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9290",
+      "project": "llama-cpp",
+      "version": "b9290",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9290",
+      "published_at": "2026-05-22T22:12:06Z",
+      "body_excerpt": "sycl : Level Zero detection in ggml_sycl_init (#23097) [SYCL] Centralize Level Zero detection in ggml_sycl_init use the same wording get back the warning macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9289",
+      "project": "llama-cpp",
+      "version": "b9289",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9289",
+      "published_at": "2026-05-22T21:36:51Z",
+      "body_excerpt": "SYCL : gated_delta_net K>1 (#23174) sycl_gated_delta_net K>1 editor_config macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9286",
+      "project": "llama-cpp",
+      "version": "b9286",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9286",
+      "published_at": "2026-05-22T20:54:32Z",
+      "body_excerpt": "ggml-zendnn : add Q8_0 quantization support (#23414) ggml-zendnn : add Q8_0 quantization support ggml-zendnn : sync with latest ZenDNN ggml-zendnn : address review comments for Q8_0 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vul",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9285",
       "project": "llama-cpp",
