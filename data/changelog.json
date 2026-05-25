@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-25T10:19:43Z",
+  "updated_at": "2026-05-25T15:18:35Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9310",
+      "project": "llama-cpp",
+      "version": "b9310",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9310",
+      "published_at": "2026-05-25T11:50:27Z",
+      "body_excerpt": "server: fix checkpoints creation (#22929) common : add common_chat_split_by_role cont : fix spans to reach end of message server: fix checkpoints creation extract message_spans from chat templates find the prompt token position before the latest user message split prompt batching at that position create a context checkpoint before the latest user input avoid periodic mid-prompt checkpoints when th",
+      "type": "tool"
+    },
     {
       "id": "localai-v4.3.1",
       "project": "localai",
