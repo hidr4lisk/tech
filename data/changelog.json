@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-25T15:18:35Z",
+  "updated_at": "2026-05-25T19:48:43Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9315",
+      "project": "llama-cpp",
+      "version": "b9315",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9315",
+      "published_at": "2026-05-25T18:38:02Z",
+      "body_excerpt": "llama : document that only one on-device state can be saved per sequence (#23520) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andro",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9313",
+      "project": "llama-cpp",
+      "version": "b9313",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9313",
+      "published_at": "2026-05-25T17:12:20Z",
+      "body_excerpt": "ggml : Parallelize quant LUT init (#23595) Use OpenMP to parallelize iq2xs_init_impl and iq3xs_init_impl. Move the OpenMP detection from ggml-cpu to ggml-base. Update OpenMP dependencies in ggml-config.cmake.in. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9311",
+      "project": "llama-cpp",
+      "version": "b9311",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9311",
+      "published_at": "2026-05-25T15:55:53Z",
+      "body_excerpt": "vendor : update cpp-httplib to 0.45.1 (#23639) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wi",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9310",
       "project": "llama-cpp",
