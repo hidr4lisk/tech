@@ -1,6 +1,168 @@
 {
-  "updated_at": "2026-05-22T14:49:21Z",
+  "updated_at": "2026-05-25T19:48:43Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9315",
+      "project": "llama-cpp",
+      "version": "b9315",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9315",
+      "published_at": "2026-05-25T18:38:02Z",
+      "body_excerpt": "llama : document that only one on-device state can be saved per sequence (#23520) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andro",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9313",
+      "project": "llama-cpp",
+      "version": "b9313",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9313",
+      "published_at": "2026-05-25T17:12:20Z",
+      "body_excerpt": "ggml : Parallelize quant LUT init (#23595) Use OpenMP to parallelize iq2xs_init_impl and iq3xs_init_impl. Move the OpenMP detection from ggml-cpu to ggml-base. Update OpenMP dependencies in ggml-config.cmake.in. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9311",
+      "project": "llama-cpp",
+      "version": "b9311",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9311",
+      "published_at": "2026-05-25T15:55:53Z",
+      "body_excerpt": "vendor : update cpp-httplib to 0.45.1 (#23639) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9310",
+      "project": "llama-cpp",
+      "version": "b9310",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9310",
+      "published_at": "2026-05-25T11:50:27Z",
+      "body_excerpt": "server: fix checkpoints creation (#22929) common : add common_chat_split_by_role cont : fix spans to reach end of message server: fix checkpoints creation extract message_spans from chat templates find the prompt token position before the latest user message split prompt batching at that position create a context checkpoint before the latest user input avoid periodic mid-prompt checkpoints when th",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.3.1",
+      "project": "localai",
+      "version": "v4.3.1",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.1",
+      "published_at": "2026-05-25T07:28:08Z",
+      "body_excerpt": "What's Changed Other Changes Fix kokoros backend build break from Backend trait drift by @Copilot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.3.0",
+      "project": "localai",
+      "version": "v4.3.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.0",
+      "published_at": "2026-05-24T20:25:26Z",
+      "body_excerpt": "🎉 LocalAI 4.3.0 Release! 🚀 LocalAI 4.3.0 is out! This release hardens the trust boundary and improves defaults for speed. Backend OCI images now ship with keyless cosign signatures and a per-gallery policy, with an opt-in strict mode that fails closed. The server-side prompt cache works by default: repeated system prompts (agents, OpenAI/Anthropic-compatible CLIs, coding assistants) collapse from ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9305",
+      "project": "llama-cpp",
+      "version": "b9305",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9305",
+      "published_at": "2026-05-24T11:31:20Z",
+      "body_excerpt": "cmake : fix ui build (#23592) cmake/ui : add -fPIC to llama-ui static lib cmake : rename host compiled embed helper macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9297",
+      "project": "llama-cpp",
+      "version": "b9297",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9297",
+      "published_at": "2026-05-23T17:15:27Z",
+      "body_excerpt": "model : add NVFP4 MTP scale tensors (#23563) Add NVFP4 MTP scale tensors Link Qwen3.5 MTP tensors Aligned nullptr macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9296",
+      "project": "llama-cpp",
+      "version": "b9296",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9296",
+      "published_at": "2026-05-23T12:59:51Z",
+      "body_excerpt": "ggml : Check the right iface method before using the fallback 2d get (#23514) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9295",
+      "project": "llama-cpp",
+      "version": "b9295",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9295",
+      "published_at": "2026-05-23T09:55:20Z",
+      "body_excerpt": "vulkan: fix windows find_package of SPIRV-Headers (#23215) vulkan: fix windows find_package of SPIRV-Headers not windows-only macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9294",
+      "project": "llama-cpp",
+      "version": "b9294",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9294",
+      "published_at": "2026-05-23T01:49:32Z",
+      "body_excerpt": "opencl: generalize Adreno MoE kernels on M (#23449) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9291",
+      "project": "llama-cpp",
+      "version": "b9291",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9291",
+      "published_at": "2026-05-22T22:17:36Z",
+      "body_excerpt": "SYCL: improve MoE prefill throughput (#23142) change so that uses a precomputed contiguous mapping where all rows \"owned\" by an expert are in one slice with a know starts and ends switch the contraption to a counting sort-based procedure with complexity macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9292",
+      "project": "llama-cpp",
+      "version": "b9292",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9292",
+      "published_at": "2026-05-22T22:17:30Z",
+      "body_excerpt": "perplexity : fix integer overflow (#23496) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9290",
+      "project": "llama-cpp",
+      "version": "b9290",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9290",
+      "published_at": "2026-05-22T22:12:06Z",
+      "body_excerpt": "sycl : Level Zero detection in ggml_sycl_init (#23097) [SYCL] Centralize Level Zero detection in ggml_sycl_init use the same wording get back the warning macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9289",
+      "project": "llama-cpp",
+      "version": "b9289",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9289",
+      "published_at": "2026-05-22T21:36:51Z",
+      "body_excerpt": "SYCL : gated_delta_net K>1 (#23174) sycl_gated_delta_net K>1 editor_config macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9286",
+      "project": "llama-cpp",
+      "version": "b9286",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9286",
+      "published_at": "2026-05-22T20:54:32Z",
+      "body_excerpt": "ggml-zendnn : add Q8_0 quantization support (#23414) ggml-zendnn : add Q8_0 quantization support ggml-zendnn : sync with latest ZenDNN ggml-zendnn : address review comments for Q8_0 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vul",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9285",
+      "project": "llama-cpp",
+      "version": "b9285",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9285",
+      "published_at": "2026-05-22T19:47:03Z",
+      "body_excerpt": "cmake : build router app only during standalone builds (#23521) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9284",
+      "project": "llama-cpp",
+      "version": "b9284",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9284",
+      "published_at": "2026-05-22T15:13:16Z",
+      "body_excerpt": "vocab : fix HybridDNA tokenizer (#23466) vocab : mark hybriddna k-mers to avoid BPE token collisions improved loop --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9283",
       "project": "llama-cpp",
@@ -555,6 +717,15 @@
       "project": "ollama",
       "version": "v0.30.0-rc22",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc22",
+      "published_at": "2026-05-13T14:32:54Z",
+      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.0-rc23",
+      "project": "ollama",
+      "version": "v0.30.0-rc23",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc23",
       "published_at": "2026-05-13T14:32:54Z",
       "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
       "type": "tool"
