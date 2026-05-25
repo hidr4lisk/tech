@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-24T19:23:55Z",
+  "updated_at": "2026-05-25T04:17:50Z",
   "releases": [
+    {
+      "id": "localai-v4.3.0",
+      "project": "localai",
+      "version": "v4.3.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.0",
+      "published_at": "2026-05-24T20:25:26Z",
+      "body_excerpt": "🎉 LocalAI 4.3.0 Release! 🚀 LocalAI 4.3.0 is out! This release hardens the trust boundary and improves defaults for speed. Backend OCI images now ship with keyless cosign signatures and a per-gallery policy, with an opt-in strict mode that fails closed. The server-side prompt cache works by default: repeated system prompts (agents, OpenAI/Anthropic-compatible CLIs, coding assistants) collapse from ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9305",
       "project": "llama-cpp",
