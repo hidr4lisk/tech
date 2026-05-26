@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-26T04:03:20Z",
+  "updated_at": "2026-05-26T10:06:22Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9334",
+      "project": "llama-cpp",
+      "version": "b9334",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9334",
+      "published_at": "2026-05-26T09:00:23Z",
+      "body_excerpt": "CUDA: missing PDL sync for FWHT, better fallback (#23690) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Android: Android arm64 (CPU) Windows: Windows x64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9333",
+      "project": "llama-cpp",
+      "version": "b9333",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9333",
+      "published_at": "2026-05-26T06:12:51Z",
+      "body_excerpt": "metal : add apple device id (#23566) Co-authored-by: lvyichen macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Android: Android arm64 (CPU) Windows: Windows x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9331",
+      "project": "llama-cpp",
+      "version": "b9331",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9331",
+      "published_at": "2026-05-26T05:10:12Z",
+      "body_excerpt": "ci : reduce PR jobs by matching backend paths (#23675) ci : disable SYCL f16 builds ci : extract android and hip into separate workflows ci : move webgpu to separate workflow ci : move the rpc to a separate workflow ci : extract s309x and ppcl jobs ci : extract opencl job into a separate workflow macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9330",
       "project": "llama-cpp",
