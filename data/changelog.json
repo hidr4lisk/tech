@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-05-26T15:54:19Z",
+  "updated_at": "2026-05-26T20:15:50Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9351",
+      "project": "llama-cpp",
+      "version": "b9351",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9351",
+      "published_at": "2026-05-26T19:55:17Z",
+      "body_excerpt": "macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - C",
+      "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-vermeer-XL-CA",
+      "project": "microsoft",
+      "version": "vermeer-XL-CA",
+      "url": "https://huggingface.co/microsoft/vermeer-XL-CA",
+      "published_at": "2026-05-26T17:55:46Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-vermeer-XL",
+      "project": "microsoft",
+      "version": "vermeer-XL",
+      "url": "https://huggingface.co/microsoft/vermeer-XL",
+      "published_at": "2026-05-26T17:55:37Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-vermeer-L-AP",
+      "project": "microsoft",
+      "version": "vermeer-L-AP",
+      "url": "https://huggingface.co/microsoft/vermeer-L-AP",
+      "published_at": "2026-05-26T17:55:01Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-vermeer-L",
+      "project": "microsoft",
+      "version": "vermeer-L",
+      "url": "https://huggingface.co/microsoft/vermeer-L",
+      "published_at": "2026-05-26T17:54:56Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b9334",
       "project": "llama-cpp",
@@ -1718,15 +1763,6 @@
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.3.0",
       "published_at": "2026-03-04T17:42:16Z",
       "body_excerpt": "New Model additions EuroBERT EuroBERT is a multilingual encoder model based on a refreshed transformer architecture, akin to Llama but with bidirectional attention. It supports a mixture of European and widely spoken languages, with sequences of up to 8192 tokens. Links: Documentation | Paper | Blog Post Add eurobert (#39455) by @ArthurZucker in #39455 VibeVoice ASR VibeVoice ASR is an automatic s",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.16.0",
-      "project": "vllm",
-      "version": "v0.16.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.16.0",
-      "published_at": "2026-02-25T19:58:49Z",
-      "body_excerpt": "vLLM v0.16.0 Please note that this release was branch cut on Feb 8, so any features added to vLLM after that date is not included. Highlights This release features 440 commits from 203 contributors (7 new)! Async scheduling + Pipeline Parallelism is now fully supported, delivering 30.8% E2E throughput improvement and 31.8% TPOT improvement (#32618). Realtime API: A new WebSocket-based Realtime API",
       "type": "tool"
     }
   ]
