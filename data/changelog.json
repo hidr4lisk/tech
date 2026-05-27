@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-27T04:17:21Z",
+  "updated_at": "2026-05-27T10:04:00Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9354",
+      "project": "llama-cpp",
+      "version": "b9354",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9354",
+      "published_at": "2026-05-27T06:00:03Z",
+      "body_excerpt": "convert: add MiniCPM5 tokenizer support (#23384) Add minicpm5 pre-tokenizer hash via convert_hf_to_gguf_update.py and implement hardcoded regex handling in llama-vocab.cpp, consistent with other BPE pre-tokenizers. Co-authored-by: zhangtao macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9353",
+      "project": "llama-cpp",
+      "version": "b9353",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9353",
+      "published_at": "2026-05-27T05:48:48Z",
+      "body_excerpt": "server : fix the log message when using SSL (#23393) When llama-server is started with SSL key and cert, the log says that it listens on http instead of https. This patch fixes this. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vu",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9352",
       "project": "llama-cpp",
