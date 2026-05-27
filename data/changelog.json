@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-26T20:15:50Z",
+  "updated_at": "2026-05-27T04:17:21Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9352",
+      "project": "llama-cpp",
+      "version": "b9352",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9352",
+      "published_at": "2026-05-26T23:48:55Z",
+      "body_excerpt": "ggml-zendnn : fixed naming of matmul function (#20964) ggml-zendnn: fixed naming of matmul function ggml-zendnn: fixed naming of mul_mat_id function ggml-zendnn: fixed print in mul_mat_id --------- Co-authored-by: plotnikov.v10 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s39",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9351",
       "project": "llama-cpp",
@@ -852,6 +861,15 @@
       "project": "ollama",
       "version": "v0.30.0-rc23",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc23",
+      "published_at": "2026-05-13T14:32:54Z",
+      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.0-rc27",
+      "project": "ollama",
+      "version": "v0.30.0-rc27",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc27",
       "published_at": "2026-05-13T14:32:54Z",
       "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
       "type": "tool"
