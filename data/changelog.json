@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-27T10:04:00Z",
+  "updated_at": "2026-05-27T15:57:31Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9360",
+      "project": "llama-cpp",
+      "version": "b9360",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9360",
+      "published_at": "2026-05-27T13:13:43Z",
+      "body_excerpt": "common : fix env names to all have LLAMA_ARG_ prefix (#23778) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: W",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9357",
+      "project": "llama-cpp",
+      "version": "b9357",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9357",
+      "published_at": "2026-05-27T10:17:48Z",
+      "body_excerpt": "vulkan: avoid preferring transfer queue on AMD UMA devices (#22455) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Wind",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9354",
       "project": "llama-cpp",
