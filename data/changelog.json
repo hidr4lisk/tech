@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-05-27T15:57:31Z",
+  "updated_at": "2026-05-27T20:25:08Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9370",
+      "project": "llama-cpp",
+      "version": "b9370",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9370",
+      "published_at": "2026-05-27T18:23:57Z",
+      "body_excerpt": "hexagon: add support for Q4_1 in MUL_MAT and MUL_MAT_ID (#23647) hex-mm: add support for Q4_1 matmul/matvec, hvx-only for now hmx-mm: add support for Q4_1 hex-mm: use Q8_1 dynamic quantization to avoid having to compute sums in the vec_dot hexagon: fix repack scratch buffer overflow hex-mm: fix Q4_1 repack buffer sizing hexagon: flip the build order for mm and fa (seems to help LTO) hex-mm: add ve",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9368",
+      "project": "llama-cpp",
+      "version": "b9368",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9368",
+      "published_at": "2026-05-27T18:12:11Z",
+      "body_excerpt": "vulkan: Switch MUL_MAT_VEC to 4 K per iteration for F16/32 (#22887) vulkan: Switch MUL_MAT_VEC to 4 K per iteration for F16/32 Against mesa git, this shows a 4.8% performance improvement for tg128 on Qwen3.5-9B:BF16 on Intel BMG. Note that this breaks some tests until the last commit which fixes OOB A reads. vulkan: Use aligned loads in mul_mat_vec when available Against mesa git, this shows a 3.3",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9369",
+      "project": "llama-cpp",
+      "version": "b9369",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9369",
+      "published_at": "2026-05-27T17:40:25Z",
+      "body_excerpt": "ggml-webgpu: Fix how to dispatch WG to some ops (#23750) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Window",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9367",
+      "project": "llama-cpp",
+      "version": "b9367",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9367",
+      "published_at": "2026-05-27T17:35:51Z",
+      "body_excerpt": "vulkan: use GL_NV_cooperative_matrix_decode_vector for faster matmul (#23541) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Andro",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9366",
+      "project": "llama-cpp",
+      "version": "b9366",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9366",
+      "published_at": "2026-05-27T17:32:08Z",
+      "body_excerpt": "vulkan: add REPEAT op support for f16 to f16. (#23298) feat: extend repeat op for vulkan feat: add repeat_f16 vulkan pipeline fix: ensure same dst and src types fix: use type_size instead of data types fix: use int16 and int32 for repeat shader op chore: rename repeat_f to repeat_i chore: rename repeat vulkan pipelines macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9365",
+      "project": "llama-cpp",
+      "version": "b9365",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9365",
+      "published_at": "2026-05-27T17:05:13Z",
+      "body_excerpt": "ci : move ARM jobs to self-hosted + disable kleidiai mac release (#23780) ci : move ARM jobs to 3rd-party runners + disable kleidiai release cont : fix deps + fix names ocd : fix names cont : fix PR links macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubunt",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9360",
       "project": "llama-cpp",
@@ -906,6 +960,15 @@
       "project": "ollama",
       "version": "v0.30.0-rc27",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc27",
+      "published_at": "2026-05-13T14:32:54Z",
+      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.0-rc28",
+      "project": "ollama",
+      "version": "v0.30.0-rc28",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc28",
       "published_at": "2026-05-13T14:32:54Z",
       "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
       "type": "tool"
