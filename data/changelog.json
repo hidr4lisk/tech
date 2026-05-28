@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-05-28T16:11:28Z",
+  "updated_at": "2026-05-28T20:30:23Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9384",
+      "project": "llama-cpp",
+      "version": "b9384",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9384",
+      "published_at": "2026-05-28T20:29:02Z",
+      "body_excerpt": "vulkan: fast path for walsh-hadamard transform (#23687) vulkan: fast path for walsh-hadamard transform disable for intel due to segfault macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9383",
+      "project": "llama-cpp",
+      "version": "b9383",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9383",
+      "published_at": "2026-05-28T19:56:56Z",
+      "body_excerpt": "chat : add Granite 4.1 chat template (#23518) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9382",
+      "project": "llama-cpp",
+      "version": "b9382",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9382",
+      "published_at": "2026-05-28T18:57:20Z",
+      "body_excerpt": "vulkan: fix wrong index variable in inner loop (#23665) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9381",
+      "project": "llama-cpp",
+      "version": "b9381",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9381",
+      "published_at": "2026-05-28T18:17:29Z",
+      "body_excerpt": "vulkan: Fix memory logger unsafe iterator access (#23667) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9380",
+      "project": "llama-cpp",
+      "version": "b9380",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9380",
+      "published_at": "2026-05-28T17:42:35Z",
+      "body_excerpt": "server, ui : Add support for HTTP ETags in llama-server (#23701) allow caching of ui elements in llama-server use fnv_hash Update tools/server/server-http.cpp etag has to be set always Co-authored-by: Xuan-Son Nguyen --------- Co-authored-by: Xuan-Son Nguyen macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9378",
+      "project": "llama-cpp",
+      "version": "b9378",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9378",
+      "published_at": "2026-05-28T17:03:46Z",
+      "body_excerpt": "cuda : fix KQ mask offset integer overflow in fattn MMA kernel (#23610) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9377",
+      "project": "llama-cpp",
+      "version": "b9377",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9377",
+      "published_at": "2026-05-28T16:22:49Z",
+      "body_excerpt": "perplexity : fix format specifier in LOG_ERR (#23788) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9375",
       "project": "llama-cpp",
@@ -1023,6 +1086,15 @@
       "project": "ollama",
       "version": "v0.30.0-rc28",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc28",
+      "published_at": "2026-05-13T14:32:54Z",
+      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.0-rc29",
+      "project": "ollama",
+      "version": "v0.30.0-rc29",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc29",
       "published_at": "2026-05-13T14:32:54Z",
       "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
       "type": "tool"
