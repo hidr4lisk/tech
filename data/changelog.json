@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-28T10:13:38Z",
+  "updated_at": "2026-05-28T16:11:28Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9375",
+      "project": "llama-cpp",
+      "version": "b9375",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9375",
+      "published_at": "2026-05-28T15:52:10Z",
+      "body_excerpt": "ggml: fixed Arm SVE usage bug in vec.h, vec.cpp (#22841) Updated vec.h/vec.cpp code to accumulate to F32 rather than F16 Change-Id: I0cb789347f2bf60ffaf9047319f727e788c825f8 Signed-off-by: Martin Klacer Co-authored-by: Milos Puzovic macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.3.3",
+      "project": "localai",
+      "version": "v4.3.3",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.3",
+      "published_at": "2026-05-28T13:04:11Z",
+      "body_excerpt": "What's Changed Other Changes chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in chore(model-gallery): :arrow_up: update checksum by @localai-bot in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in chore: :arrow_up: Update leejet/stable-diffusion.cpp to by @localai-bot in chore: :arrow_up: Update ggml-org/whisper.cpp to by @localai-bot in chore: :arrow_up: Update",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9374",
+      "project": "llama-cpp",
+      "version": "b9374",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9374",
+      "published_at": "2026-05-28T12:50:26Z",
+      "body_excerpt": "ci : refactor (#23789) ci : separate CUDA windows workflow + fix names ci : rename workflow ci : prefix cache names with workflow name ci : rename build.yml -> build-cpu.yml ci : cache keys ci : fix windows cuda/hip concurrency of release workflow ci : fix apple cache names ci : add TODOs cont : keep just the last cache ci : update release concurrency to queue ci : move the release trigger to ubun",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9371",
       "project": "llama-cpp",
