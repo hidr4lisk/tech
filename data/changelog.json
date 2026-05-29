@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-05-29T04:07:50Z",
+  "updated_at": "2026-05-29T10:02:40Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9402",
+      "project": "llama-cpp",
+      "version": "b9402",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9402",
+      "published_at": "2026-05-29T08:46:28Z",
+      "body_excerpt": "hexagon: basic/generic op fusion support and RMS_NORM+MUL fusion (#23835) Updating infra to enable op fusion and using RMS_NORM+MUL as the use-case. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9401",
+      "project": "llama-cpp",
+      "version": "b9401",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9401",
+      "published_at": "2026-05-29T06:51:14Z",
+      "body_excerpt": "mtmd-debug: add color and rainbow mode (#23829) mtmd-debug: add color and rainbow mode fix M_PI max_dist macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9400",
+      "project": "llama-cpp",
+      "version": "b9400",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9400",
+      "published_at": "2026-05-29T05:53:43Z",
+      "body_excerpt": "mtmd: fix gemma 4 projector pre_norm (#23822) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9399",
+      "project": "llama-cpp",
+      "version": "b9399",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9399",
+      "published_at": "2026-05-29T05:17:07Z",
+      "body_excerpt": "opencl: move backend info printing into its own function (#23702) opencl: move backend info print into its own function opencl: move new log line opencl: fix for non adreno path macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9395",
+      "project": "llama-cpp",
+      "version": "b9395",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9395",
+      "published_at": "2026-05-29T04:43:04Z",
+      "body_excerpt": "app : improve help output (#23805) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9394",
+      "project": "llama-cpp",
+      "version": "b9394",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9394",
+      "published_at": "2026-05-29T04:09:21Z",
+      "body_excerpt": "mtmd: n_head_kv defaults to n_head (#23782) removed AI-generated comment macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android ar",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9393",
       "project": "llama-cpp",
