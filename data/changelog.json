@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-29T15:53:27Z",
+  "updated_at": "2026-05-29T20:32:38Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9413",
+      "project": "llama-cpp",
+      "version": "b9413",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9413",
+      "published_at": "2026-05-29T18:42:08Z",
+      "body_excerpt": "CUDA: Check PTX version on host side to guard PDL dispatch (#23530) CUDA: Check PTX version on host side to guard PDL dispatch Checking on alone is insufficient for JIT, as this variable doesn't differentiate between compiling for say sm_90, sm_90a or sm_90f (so forward-jittable PTX vs. arch/family-specific PTX). Thus, one can have a bug when compiling with , where current code would wrongly dispa",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9412",
+      "project": "llama-cpp",
+      "version": "b9412",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9412",
+      "published_at": "2026-05-29T16:20:33Z",
+      "body_excerpt": "server: bump timeout to 3600s (#23842) server: bump timeout to 3600s nits: change wording macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED An",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9411",
       "project": "llama-cpp",
@@ -1284,6 +1302,15 @@
       "project": "ollama",
       "version": "v0.30.0-rc29",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc29",
+      "published_at": "2026-05-13T14:32:54Z",
+      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.0-rc31",
+      "project": "ollama",
+      "version": "v0.30.0-rc31",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc31",
       "published_at": "2026-05-13T14:32:54Z",
       "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
       "type": "tool"
