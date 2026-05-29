@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-05-28T20:30:23Z",
+  "updated_at": "2026-05-29T04:07:50Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9393",
+      "project": "llama-cpp",
+      "version": "b9393",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9393",
+      "published_at": "2026-05-29T03:27:29Z",
+      "body_excerpt": "mtmd: fix gemma 4 audio rms norm eps (#23815) mtmd: fix gemma 4 audio rms norm eps Update tools/mtmd/clip.cpp Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9391",
+      "project": "llama-cpp",
+      "version": "b9391",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9391",
+      "published_at": "2026-05-29T02:52:29Z",
+      "body_excerpt": "arg: Add LLAMA_ARG_API_KEY_FILE environment variable for --api-key-file (#23167) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: An",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9389",
+      "project": "llama-cpp",
+      "version": "b9389",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9389",
+      "published_at": "2026-05-29T02:17:02Z",
+      "body_excerpt": "ggml: auto apply iGPU flag CUDA/HIP if integrated device (#23007) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9388",
+      "project": "llama-cpp",
+      "version": "b9388",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9388",
+      "published_at": "2026-05-29T01:44:19Z",
+      "body_excerpt": "mmvq Optim: add MMVQ_PARAMETERS_TURING(mmvq_parameter_table_id) for … (#23729) mmvq Optim: add MMVQ_PARAMETERS_TURING(mmvq_parameter_table_id) for SM75 TURING avoid a mismatch for JIT compilation of Turing device code for Ampere or newer Co-authored-by: Johannes Gäßler --------- Co-authored-by: Copilot Co-authored-by: Johannes Gäßler macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9387",
+      "project": "llama-cpp",
+      "version": "b9387",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9387",
+      "published_at": "2026-05-29T01:04:49Z",
+      "body_excerpt": "CUDA: route batch>=4 quantized matmul to MMQ on AMD MFMA hardware (#23227) CUDA: per-quant MMVQ/MMQ batch threshold on AMD MFMA hardware The dispatcher uses a single global threshold (MMVQ_MAX_BATCH_SIZE = 8) to choose between mul_mat_vec_q (per-row GEMV) and mul_mat_q (MFMA-tiled GEMM) for quantized matmul. On AMD CDNA, the optimal crossover differs substantially by quant family because the per-r",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9386",
+      "project": "llama-cpp",
+      "version": "b9386",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9386",
+      "published_at": "2026-05-29T00:28:44Z",
+      "body_excerpt": "server: minor tweaks to use more cpp features (#23785) misc(server): add default port to impl RAII misc(server): register_gcp_compat() can be const misc(server): use proper cpp const/auto methods misc(server): do not reset a unique_ptr, use make_unique instead to be exception safe macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XC",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.3.4",
+      "project": "localai",
+      "version": "v4.3.4",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.4",
+      "published_at": "2026-05-28T21:22:05Z",
+      "body_excerpt": "What's Changed Other Changes fix(turboquant): guard upstream-only grpc-server fields for fork by @localai-bot in Full Changelog:",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9384",
       "project": "llama-cpp",
