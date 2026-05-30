@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-30T13:50:34Z",
+  "updated_at": "2026-05-30T19:24:59Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9436",
+      "project": "llama-cpp",
+      "version": "b9436",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9436",
+      "published_at": "2026-05-30T17:43:37Z",
+      "body_excerpt": "opencl: support bf16 by converting to f16 (#23839) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Win",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9434",
+      "project": "llama-cpp",
+      "version": "b9434",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9434",
+      "published_at": "2026-05-30T14:25:45Z",
+      "body_excerpt": "TP: fix granularity for Qwen 3.5/3.6 + 3 GPUs (#23843) TP: fix granularity for Qwen 3.5/3.6 + 3 GPUs fix afmoe TP macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9433",
       "project": "llama-cpp",
