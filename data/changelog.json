@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-30T19:24:59Z",
+  "updated_at": "2026-05-31T04:19:26Z",
   "releases": [
+    {
+      "id": "localai-v4.3.6",
+      "project": "localai",
+      "version": "v4.3.6",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.6",
+      "published_at": "2026-05-30T21:23:53Z",
+      "body_excerpt": "What's Changed Other Changes chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in security(http): refuse redirects on outbound clients via hardened pkg/httpclient by @richiejp in feat(parakeet-cpp): add NVIDIA NeMo Parakeet ASR backend (parakeet.cpp) by @localai-bot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in chore: :arrow_up: Update mudler/parakeet.cpp to by @locala",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9437",
+      "project": "llama-cpp",
+      "version": "b9437",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9437",
+      "published_at": "2026-05-30T20:56:44Z",
+      "body_excerpt": "Support in llama-bench (#23714) Support in llama-bench Make the default value of -1, similar to other tools. Update README with latest usage and examples Address review comments macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9436",
       "project": "llama-cpp",
