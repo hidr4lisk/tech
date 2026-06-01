@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-01T11:45:49Z",
+  "updated_at": "2026-06-01T17:51:30Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9455",
+      "project": "llama-cpp",
+      "version": "b9455",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9455",
+      "published_at": "2026-06-01T17:20:46Z",
+      "body_excerpt": "TP: quantized KV cache support (#23792) TP: quantized KV cache support fix partial view remove overly strict assert macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9453",
+      "project": "llama-cpp",
+      "version": "b9453",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9453",
+      "published_at": "2026-06-01T14:56:10Z",
+      "body_excerpt": "model: Add EXAONE 4.5 implementations (#21733) Add EXAONE 4.5 and Add GQA for MMproj mtmd: EXAONE 4.5 vision markers and projector path EXAONE 4.5 uses and for image boundaries; Qwen keeps and . Route EXAONE 4.5 through the Qwen2.5-VL-style encode path (window attention pattern, optional mmproj input norm). Update exaone4_5 projector weights and convert_hf_to_gguf for mmproj export. mtmd: load EXA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9452",
+      "project": "llama-cpp",
+      "version": "b9452",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9452",
+      "published_at": "2026-06-01T14:20:08Z",
+      "body_excerpt": "vulkan: Block-load Q3_K/Q6_K block data and subtract on 32b ints (#23056) Q2_K/Q3_K/Q6_K do much better when using MMVQ on Intel BMG even though they're only 2-byte aligned, and Q3_K still wins on NVIDIA as well. mesa isn't all that great at coalescing back-to-back loads from alternating arrays, so we force it instead. Further, we can do subtraction directly on a full int32_t rather than an i8vec4",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9451",
+      "project": "llama-cpp",
+      "version": "b9451",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9451",
+      "published_at": "2026-06-01T13:13:30Z",
+      "body_excerpt": "vulkan: Removed unused functions (#23175) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9444",
       "project": "llama-cpp",
