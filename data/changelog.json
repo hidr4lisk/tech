@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-06-02T10:45:31Z",
+  "updated_at": "2026-06-02T16:43:10Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9480",
+      "project": "llama-cpp",
+      "version": "b9480",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9480",
+      "published_at": "2026-06-02T16:23:58Z",
+      "body_excerpt": "StepFun 3.5 MTP (#23274) StepFun 3.5 MTP Simplify to single layer Rollback core changes fix flake8 errors Remove scripts modify to convention Apply suggestions from code review Co-authored-by: Sigbjørn Skjæret dos2unix --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9479",
+      "project": "llama-cpp",
+      "version": "b9479",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9479",
+      "published_at": "2026-06-02T14:20:35Z",
+      "body_excerpt": "common : fix state save in common_prompt_batch_decode (#23468) common : fix state save in common_prompt_batch_decode This commit addresses a bug in common_prompt_batch_decode that affects the session state store/restore in completion.cpp and save-load-state.cpp. The motivation for this is that currently the code is saving n-1 tokens in both the session_tokens and in the KV cache. Then when loading",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9478",
+      "project": "llama-cpp",
+      "version": "b9478",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9478",
+      "published_at": "2026-06-02T13:01:31Z",
+      "body_excerpt": "server: add SSE ping interval (#24013) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9474",
+      "project": "llama-cpp",
+      "version": "b9474",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9474",
+      "published_at": "2026-06-02T11:21:34Z",
+      "body_excerpt": "ui: Add Thinking mode toggle with reasoning effort levels + improvements for Chat Form Add Action UI (#23434) feat: Add \"Thinking\" toggle and status icon + redesign Chat Form Actions Add panel test: Update test reference fix: Icon fix: E2E test command fix: wait for greeting h1 to be visible in e2e test fix: remove duplicate PDF option in attachment dropdown fix: use label-based group toggle to av",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9473",
+      "project": "llama-cpp",
+      "version": "b9473",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9473",
+      "published_at": "2026-06-02T10:51:29Z",
+      "body_excerpt": "kv-cache : SWA checkpoints store only non-masked cells (#23981) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9471",
       "project": "llama-cpp",
