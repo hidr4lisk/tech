@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-02T04:26:58Z",
+  "updated_at": "2026-06-02T10:45:31Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9471",
+      "project": "llama-cpp",
+      "version": "b9471",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9471",
+      "published_at": "2026-06-02T10:20:42Z",
+      "body_excerpt": "llama : deprecate (#24009) llama : deprecate cont : fix type Co-authored-by: Daniel Bevenius --------- Co-authored-by: Daniel Bevenius macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9470",
+      "project": "llama-cpp",
+      "version": "b9470",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9470",
+      "published_at": "2026-06-02T09:35:21Z",
+      "body_excerpt": "hexagon: MUL_MAT, MUL_MAT_ID, FLASH_ATTN and GDN cleanup and optimizations for latest models (#23989) hex-mm: initial support for F32 F32 -> F32 matmuls hex-rms-norm: fix src1 stride use in fused rms_norm_mul hex-ops: clear spad pointers in the ops that clober it This fixes an odd case where fused rms-norm-mul was failing but only in qwen3.5-2B and only at searth op-bath sizes. hmx-mm: add support",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9469",
+      "project": "llama-cpp",
+      "version": "b9469",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9469",
+      "published_at": "2026-06-02T07:16:15Z",
+      "body_excerpt": "hexagon: add gelu_quick (#24007) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Win",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9468",
+      "project": "llama-cpp",
+      "version": "b9468",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9468",
+      "published_at": "2026-06-02T05:53:36Z",
+      "body_excerpt": "server: real-time reasoning interruption via control endpoint (#23971) server: real-time reasoning interruption via control endpoint Builds on the manual reasoning budget trigger from #23949. Adds a CONTROL task that mirrors the CANCEL path on the live slot and calls common_sampler_reasoning_budget_force to end thinking mid-generation. POST /v1/chat/completions/control with { id_slot, action }, op",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9467",
       "project": "llama-cpp",
