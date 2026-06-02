@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-01T21:38:54Z",
+  "updated_at": "2026-06-02T04:26:58Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9467",
+      "project": "llama-cpp",
+      "version": "b9467",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9467",
+      "published_at": "2026-06-02T03:30:25Z",
+      "body_excerpt": "clean up unused variables warnings (#23975) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9466",
+      "project": "llama-cpp",
+      "version": "b9466",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9466",
+      "published_at": "2026-06-02T02:42:15Z",
+      "body_excerpt": "opencl: fix compiler warnings for non-adreno path (#23922) opencl: fix compiler warnings for non-adreno path opencl: fix const cast warning macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9464",
       "project": "llama-cpp",
@@ -1547,6 +1565,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc32",
       "published_at": "2026-05-13T14:32:54Z",
       "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.0",
+      "project": "ollama",
+      "version": "v0.30.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0",
+      "published_at": "2026-05-13T14:32:54Z",
+      "body_excerpt": "Ollama 0.30 is now available, with improved compatibility and performance using llama.cpp. This augments the MLX engine on Apple Silicon, bringing support to a wider range of hardware. This release brings support for a wider range of models, including GGUF-based models from Hugging Face and your own fine-tuned models along with faster performance on NVIDIA hardware. Known issues: is not yet suppor",
       "type": "tool"
     },
     {
