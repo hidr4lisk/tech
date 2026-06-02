@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-02T16:43:10Z",
+  "updated_at": "2026-06-02T20:55:50Z",
   "releases": [
+    {
+      "id": "ollama-v0.30.1-rc0",
+      "project": "ollama",
+      "version": "v0.30.1-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.1-rc0",
+      "published_at": "2026-06-02T20:44:52Z",
+      "body_excerpt": "What's Changed feat(launch): show and auto-install Cline CLI by @hoyyeva in log template details to aid troubleshooting by @dhiltgen in cmd/launch: add Qwen code integration by @hoyyeva in launch: fix opencode local model limits by @dhiltgen in llm: include cached prompt tokens in llama-server counts by @dhiltgen in Harden app markdown URL handling by @dhiltgen in discover: allow Radeon 8060S iGPU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9482",
+      "project": "llama-cpp",
+      "version": "b9482",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9482",
+      "published_at": "2026-06-02T19:43:12Z",
+      "body_excerpt": "model: add Mellum architecture (#23966) model: support for Mellum architecture model: improve mellum.py formatting model: improve mellum.py formatting once again deps: downgrade transformers to 4.57.6 (to fix CI) deps: remove huggingface_hub dependency deps: remove huggingface_hub from test requirements --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple S",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9481",
+      "project": "llama-cpp",
+      "version": "b9481",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9481",
+      "published_at": "2026-06-02T16:57:07Z",
+      "body_excerpt": "model : support granite multilingual embeddings R2 (ibm-granite/granite-embedding-{97,311}m-multilingual-r2) (#22716) Add support for the ibm-granite/granite-embedding-{97m,311m}-multilingual-r2 embedding models: Added a version of the gpt4o tokenizer that has a fixed regex (better handling of marks), and different token merging setting for the 97m model Reused gemma4 tokenizer for the 311m model ",
+      "type": "tool"
+    },
+    {
+      "id": "hf-google-CircularNet",
+      "project": "google",
+      "version": "CircularNet",
+      "url": "https://huggingface.co/google/CircularNet",
+      "published_at": "2026-06-02T16:49:49Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b9480",
       "project": "llama-cpp",
@@ -2555,15 +2591,6 @@
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.17.0",
       "published_at": "2026-03-07T00:46:41Z",
       "body_excerpt": "vLLM v0.17.0 Known Issue: If you are on CUDA 12.9+ and encounter a error, this is caused by a CUDA library mismatch. To resolve, try one of the following: 1. Remove the path to system CUDA shared library files (e.g. ) from , or simply . 2. Install vLLM with . 3. Install vLLM with (change the CUDA version to match your system). Highlights This release features 699 commits from 272 contributors (48 ",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.3.0",
-      "project": "transformers",
-      "version": "v5.3.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.3.0",
-      "published_at": "2026-03-04T17:42:16Z",
-      "body_excerpt": "New Model additions EuroBERT EuroBERT is a multilingual encoder model based on a refreshed transformer architecture, akin to Llama but with bidirectional attention. It supports a mixture of European and widely spoken languages, with sequences of up to 8192 tokens. Links: Documentation | Paper | Blog Post Add eurobert (#39455) by @ArthurZucker in #39455 VibeVoice ASR VibeVoice ASR is an automatic s",
       "type": "tool"
     }
   ]
