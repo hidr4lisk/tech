@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-06-03T11:09:25Z",
+  "updated_at": "2026-06-03T16:59:40Z",
   "releases": [
+    {
+      "id": "ollama-v0.30.3",
+      "project": "ollama",
+      "version": "v0.30.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.3",
+      "published_at": "2026-06-03T16:35:43Z",
+      "body_excerpt": "What's Changed models: add support for gemma4-12b by @pdevine in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9493",
+      "project": "llama-cpp",
+      "version": "b9493",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9493",
+      "published_at": "2026-06-03T15:43:32Z",
+      "body_excerpt": "mtmd, model: allow skip build_vit() (#24077) add model nits macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Win",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.10.1",
+      "project": "transformers",
+      "version": "v5.10.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.1",
+      "published_at": "2026-06-03T15:37:41Z",
+      "body_excerpt": "Release v5.10.1 v5.10.0 was yanked as we publish on a corrupted branch. Sorry everyone, this happens when we rush a release!!! New Model additions Gemma4 unified+ Gemma4 MTP Gemma 4 12B Unified is an encoder-free multimodal model with pretrained and instruction-tuned variants. Unlike standard Gemma 4, which uses dedicated encoder towers, Gemma 4 12B Unified projects raw inputs directly into the la",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9491",
+      "project": "llama-cpp",
+      "version": "b9491",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9491",
+      "published_at": "2026-06-03T14:17:44Z",
+      "body_excerpt": "Avoid PDL race conditions by disabling __restrict__ when PDL is used (#24030) Removes __restrict__ from PDL kernel headers due to incompatibility with PDL. Adds preprocessor directives based on arch in kernel body to add __restrict__ to retain performance on older architectures. Simplifies new __restrict__ usage via macro Add hopper to PDL __restrict__ fix. Co-authored-by: Oliver Simons --------- ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9490",
+      "project": "llama-cpp",
+      "version": "b9490",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9490",
+      "published_at": "2026-06-03T11:46:21Z",
+      "body_excerpt": "ggml-cpu: use runtime SVE width in FWHT (#24059) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9489",
+      "project": "llama-cpp",
+      "version": "b9489",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9489",
+      "published_at": "2026-06-03T11:22:25Z",
+      "body_excerpt": "cuda: reserve space for quantize kv-cache at startup (#23907) cuda: reserve space for quantize kv-cache at startup address review comments remove forward decl Co-authored-by: Johannes Gäßler remove assert in ggml-cuda.cu Co-authored-by: Johannes Gäßler --------- Co-authored-by: Johannes Gäßler macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9488",
       "project": "llama-cpp",
@@ -1055,6 +1109,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-google-gemma-4-12B",
+      "project": "google",
+      "version": "gemma-4-12B",
+      "url": "https://huggingface.co/google/gemma-4-12B",
+      "published_at": "2026-05-23T02:43:54Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9294",
       "project": "llama-cpp",
       "version": "b9294",
@@ -1062,6 +1125,24 @@
       "published_at": "2026-05-23T01:49:32Z",
       "body_excerpt": "opencl: generalize Adreno MoE kernels on M (#23449) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
       "type": "tool"
+    },
+    {
+      "id": "hf-google-gemma-4-12B-it-assistant",
+      "project": "google",
+      "version": "gemma-4-12B-it-assistant",
+      "url": "https://huggingface.co/google/gemma-4-12B-it-assistant",
+      "published_at": "2026-05-23T01:17:47Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-gemma-4-12B-it",
+      "project": "google",
+      "version": "gemma-4-12B-it",
+      "url": "https://huggingface.co/google/gemma-4-12B-it",
+      "published_at": "2026-05-23T01:17:15Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9291",
