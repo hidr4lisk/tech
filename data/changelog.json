@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-02T20:55:50Z",
+  "updated_at": "2026-06-03T04:45:54Z",
   "releases": [
+    {
+      "id": "ollama-v0.30.2",
+      "project": "ollama",
+      "version": "v0.30.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.2",
+      "published_at": "2026-06-03T00:37:18Z",
+      "body_excerpt": "What's Changed feat(launch): show and auto-install Cline CLI by @hoyyeva in log template details to aid troubleshooting by @dhiltgen in cmd/launch: add Qwen code integration by @hoyyeva in launch: fix opencode local model limits by @dhiltgen in llm: include cached prompt tokens in llama-server counts by @dhiltgen in Harden app markdown URL handling by @dhiltgen in discover: allow Radeon 8060S iGPU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9484",
+      "project": "llama-cpp",
+      "version": "b9484",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9484",
+      "published_at": "2026-06-02T22:00:30Z",
+      "body_excerpt": "opencl: use flat variants of q4_K and q6_K gemv for very large M (#24006) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9483",
+      "project": "llama-cpp",
+      "version": "b9483",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9483",
+      "published_at": "2026-06-02T21:34:07Z",
+      "body_excerpt": "hexagon: profiler output fix and script updates (#24042) hex-ops: fix profiler output (ie remove the redundant NONEs) hex-prof: update profiling script to support tot.usec column macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm6",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.30.1-rc0",
       "project": "ollama",
