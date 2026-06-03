@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-03T04:45:54Z",
+  "updated_at": "2026-06-03T11:09:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9488",
+      "project": "llama-cpp",
+      "version": "b9488",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9488",
+      "published_at": "2026-06-03T07:47:42Z",
+      "body_excerpt": "tests : add support for qwen3 SSM archs (#24031) tests : add support for qwen3 SSM archs arch : add LLM_KV_ATTENTION_RECURRENT_LAYERS cont : naming + TODOs macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9487",
+      "project": "llama-cpp",
+      "version": "b9487",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9487",
+      "published_at": "2026-06-03T06:25:05Z",
+      "body_excerpt": "update BoringSSL to 0.20260526.0 (#23794) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9486",
+      "project": "llama-cpp",
+      "version": "b9486",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9486",
+      "published_at": "2026-06-03T06:02:15Z",
+      "body_excerpt": "ci : disable ccache for msvc windows release jobs (#23911) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Wind",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9485",
+      "project": "llama-cpp",
+      "version": "b9485",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9485",
+      "published_at": "2026-06-03T05:36:53Z",
+      "body_excerpt": "arg : removed unecesary mmproj download when users pass --no-mmproj (#23425) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Androi",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.30.2",
       "project": "ollama",
