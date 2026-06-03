@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-03T16:59:40Z",
+  "updated_at": "2026-06-03T21:21:28Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9496",
+      "project": "llama-cpp",
+      "version": "b9496",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9496",
+      "published_at": "2026-06-03T20:23:18Z",
+      "body_excerpt": "mtmd: fix Gemma 4 unified FPE (#24088) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CP",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.4-rc0",
+      "project": "ollama",
+      "version": "v0.30.4-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.4-rc0",
+      "published_at": "2026-06-03T18:48:32Z",
+      "body_excerpt": "What's Changed llama.cpp version update by @dhiltgen in Kill llama-server during Windows cleanup by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9495",
+      "project": "llama-cpp",
+      "version": "b9495",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9495",
+      "published_at": "2026-06-03T18:13:12Z",
+      "body_excerpt": "qwen35: use post-norm hidden state for MTP (#24025) qwen35: use post-norm hidden state for MTP rename pre_norm to nextn fix step35 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9494",
+      "project": "llama-cpp",
+      "version": "b9494",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9494",
+      "published_at": "2026-06-03T17:35:34Z",
+      "body_excerpt": "mtmd: enable non-causal vision for gemma 4 unified (#24082) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Win",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.30.3",
       "project": "ollama",
@@ -675,6 +711,15 @@
       "published_at": "2026-05-29T00:28:44Z",
       "body_excerpt": "server: minor tweaks to use more cpp features (#23785) misc(server): add default port to impl RAII misc(server): register_gcp_compat() can be const misc(server): use proper cpp const/auto methods misc(server): do not reset a unique_ptr, use make_unique instead to be exception safe macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XC",
       "type": "tool"
+    },
+    {
+      "id": "hf-google-magenta-realtime-2",
+      "project": "google",
+      "version": "magenta-realtime-2",
+      "url": "https://huggingface.co/google/magenta-realtime-2",
+      "published_at": "2026-05-28T21:55:47Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "localai-v4.3.4",
