@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-04T15:26:58Z",
+  "updated_at": "2026-06-04T20:11:17Z",
   "releases": [
+    {
+      "id": "transformers-v5.10.2",
+      "project": "transformers",
+      "version": "v5.10.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.2",
+      "published_at": "2026-06-04T18:43:06Z",
+      "body_excerpt": "Patch release v5.10.2 There was a big bug in the model conversion of models related to clip, this affected models like sam3 and others. Please make sure to update :pray: Fix conversion for clip models by @zucchini-nlp (#46406) Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9518",
+      "project": "llama-cpp",
+      "version": "b9518",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9518",
+      "published_at": "2026-06-04T17:13:26Z",
+      "body_excerpt": "server : disable on-device spec checkpoints (#24108) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: W",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.5-rc0",
+      "project": "ollama",
+      "version": "v0.30.5-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.5-rc0",
+      "published_at": "2026-06-04T17:00:37Z",
+      "body_excerpt": "What's Changed docs: add Cline CLI integration doc by @hoyyeva in integrations: hermes windows install by @BruceMacD in llama.cpp version update by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9515",
+      "project": "llama-cpp",
+      "version": "b9515",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9515",
+      "published_at": "2026-06-04T16:19:07Z",
+      "body_excerpt": "Move duplicated imatrix code into single common imatrix-loader.cpp (#22445) Deduplicate imatrix loading code Add back LLAMA_TRACE, early exit on quantize missing metadata macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9512",
       "project": "llama-cpp",
