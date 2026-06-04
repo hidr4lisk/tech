@@ -2,9 +2,9 @@
 **Open Source AI Ecosystem Tracker**
 
 *Created by [Federico Furgiuele](https://linkedin.com/in/federico-furgiuele)*
-[![GitHub](https://img.shields.io/badge/GitHub-hidr4lisk%2Ftech-c4ff00?style=flat&logo=github)](https://github.com/hidr4lisk/tech)
-[![Live](https://img.shields.io/badge/Live-hidr4lisk.github.io%2Ftech-c4ff00?style=flat)](https://hidr4lisk.github.io/tech)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-federico--furgiuele-c4ff00?style=flat&logo=linkedin)](https://linkedin.com/in/federico-furgiuele)
+[![GitHub](https://img.shields.io/badge/GitHub-hidr4lisk%2Ftech-98B4A6?style=flat&logo=github)](https://github.com/hidr4lisk/tech)
+[![Live](https://img.shields.io/badge/Live-hidr4lisk.github.io%2Ftech-98B4A6?style=flat)](https://hidr4lisk.github.io/tech)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-federico--furgiuele-98B4A6?style=flat&logo=linkedin)](https://linkedin.com/in/federico-furgiuele)
 
 [English](#english) | [Español](#español)
 
