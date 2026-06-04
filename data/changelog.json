@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-04T04:40:27Z",
+  "updated_at": "2026-06-04T10:04:06Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9500",
+      "project": "llama-cpp",
+      "version": "b9500",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9500",
+      "published_at": "2026-06-04T06:33:46Z",
+      "body_excerpt": "metal : reduce rset heartbeat from 500ms -> 5ms (#24074) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Window",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9499",
+      "project": "llama-cpp",
+      "version": "b9499",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9499",
+      "published_at": "2026-06-04T06:08:27Z",
+      "body_excerpt": "ggml-webgpu: FlashAttention refactor + standardize quantization support (#23834) Start work on flash_attn refactor Refactor Split k/v quantization Refactor and abstract quantization logic for flash_attn and mul_mat Add quantization support to tile path formatting Move to functions, add a check macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9498",
+      "project": "llama-cpp",
+      "version": "b9498",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9498",
+      "published_at": "2026-06-04T05:42:14Z",
+      "body_excerpt": "ggml-cpu: extend RVV quantization vec dot to higher VLENs (#22754) ggml-cpu: add rvv 512b,1024b impls for iq4_xs ggml-cpu: refactor; add rvv 512b, 1024b impls for q6_K, i-quants ggml-cpu: refactor; add 512 and 1024 implementations of tq3_s, iq3_xxs, iq2_s, iq2_xs, iq2_xxs improve iq2_xs impl for rvv 256 Co-authored-by: Rehan Qasim --------- Co-authored-by: taimur-10x Co-authored-by: Rehan Qasim ma",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9496",
       "project": "llama-cpp",
