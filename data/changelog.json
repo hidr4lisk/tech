@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T20:11:17Z",
+  "updated_at": "2026-06-05T04:14:30Z",
   "releases": [
     {
       "id": "transformers-v5.10.2",
@@ -26,6 +26,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.5-rc0",
       "published_at": "2026-06-04T17:00:37Z",
       "body_excerpt": "What's Changed docs: add Cline CLI integration doc by @hoyyeva in integrations: hermes windows install by @BruceMacD in llama.cpp version update by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.5",
+      "project": "ollama",
+      "version": "v0.30.5",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.5",
+      "published_at": "2026-06-04T17:00:37Z",
+      "body_excerpt": "What's Changed Fix gemma4:12b floating point exception crash integrations: hermes windows install by @BruceMacD in Full Changelog:",
       "type": "tool"
     },
     {
@@ -2897,15 +2906,6 @@
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.17.1",
       "published_at": "2026-03-11T10:24:34Z",
       "body_excerpt": "This is a patch release on top of to address a few issues: New Model: Nemotron 3 Super Fix passing of activation_type to trtllm fused MoE NVFP4 and FP8 (#36017) Fix/resupport nongated fused moe triton (#36412) Re-enable EP for trtllm MoE FP8 backend (#36494) [Mamba][Qwen3.5] Zero freed SSM cache blocks on GPU (#35219) Fix TRTLLM Block FP8 MoE Monolithic (#36296) [DSV3.2][MTP] Optimize Indexer MTP ",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.17.0",
-      "project": "vllm",
-      "version": "v0.17.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.17.0",
-      "published_at": "2026-03-07T00:46:41Z",
-      "body_excerpt": "vLLM v0.17.0 Known Issue: If you are on CUDA 12.9+ and encounter a error, this is caused by a CUDA library mismatch. To resolve, try one of the following: 1. Remove the path to system CUDA shared library files (e.g. ) from , or simply . 2. Install vLLM with . 3. Install vLLM with (change the CUDA version to match your system). Highlights This release features 699 commits from 272 contributors (48 ",
       "type": "tool"
     }
   ]
