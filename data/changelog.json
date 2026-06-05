@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-06-05T04:14:30Z",
+  "updated_at": "2026-06-05T10:01:21Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9524",
+      "project": "llama-cpp",
+      "version": "b9524",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9524",
+      "published_at": "2026-06-05T09:17:20Z",
+      "body_excerpt": "minor : fix lint issues (#24165) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Win",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9523",
+      "project": "llama-cpp",
+      "version": "b9523",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9523",
+      "published_at": "2026-06-05T08:43:38Z",
+      "body_excerpt": "hparams : refactor (#24060) hparams : refactor hparams.n_layer cont : remove , use n_layer_all instead cont : type consistency pi : update SYSTEM.md models : fix Step3.5 MTP cont : remove duplicate switch cases cont : explicitly set to extra layers for and cont : fix nextn layer count handling Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silico",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9522",
+      "project": "llama-cpp",
+      "version": "b9522",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9522",
+      "published_at": "2026-06-05T07:44:17Z",
+      "body_excerpt": "kleidiai : dynamic chunck-based scheduling for hybrid execution (#23819) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9521",
+      "project": "llama-cpp",
+      "version": "b9521",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9521",
+      "published_at": "2026-06-05T06:54:55Z",
+      "body_excerpt": "CUDA: enroll mul_mat_vec_q_moe into pdl (#24087) Enroll mul_mat_vec_q_moe into PDL, boosting MTP performance on BW Data collected on a B4500: Before After Server launched with: LC to overlap with following kernels macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9519",
+      "project": "llama-cpp",
+      "version": "b9519",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9519",
+      "published_at": "2026-06-05T05:45:01Z",
+      "body_excerpt": "sycl : port multi-column MMVQ from CUDA backend (#21845) mmvq: Port the ncols_dst optimization from ggml-cuda/mmvq.cu to SYCL. Read weights once per dispatch instead of once per column. Covers all standard quant types + reorder paths for Q4_0, Q8_0, Q3_K, Q4_K, Q5_K, Q6_K. IQ types (except IQ4_XS) excluded due to incompatible vec_dot signatures. ggml-sycl: The weight reorder was only bootstrapped ",
+      "type": "tool"
+    },
     {
       "id": "transformers-v5.10.2",
       "project": "transformers",
