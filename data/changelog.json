@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-05T10:01:21Z",
+  "updated_at": "2026-06-05T15:15:56Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9529",
+      "project": "llama-cpp",
+      "version": "b9529",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9529",
+      "published_at": "2026-06-05T14:42:07Z",
+      "body_excerpt": "model : fix llama_model::n_gpu_layers() (#24188) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9528",
+      "project": "llama-cpp",
+      "version": "b9528",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9528",
+      "published_at": "2026-06-05T13:18:01Z",
+      "body_excerpt": "ui: run npm install when package-lock.json is newer than node_modules (#24171) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Andr",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.22.1",
+      "project": "vllm",
+      "version": "v0.22.1",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1",
+      "published_at": "2026-06-05T10:10:00Z",
+      "body_excerpt": "Highlights This release features 8 commits from 6 contributors (1 new)! v0.22.1 is a patch release on top of v0.22.0 with targeted bug fixes plus a couple of additions: new model support for JetBrains' Mellum v2, zentorch-accelerated quantized linear inference on AMD Zen CPUs, and fixes for multi-node Ray data-parallel serving, DeepSeek-V4 initialization, and a few model-loading regressions. Model",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9524",
       "project": "llama-cpp",
