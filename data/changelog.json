@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-06-05T15:15:56Z",
+  "updated_at": "2026-06-05T20:01:33Z",
   "releases": [
+    {
+      "id": "ollama-v0.30.6",
+      "project": "ollama",
+      "version": "v0.30.6",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.6",
+      "published_at": "2026-06-05T20:00:18Z",
+      "body_excerpt": "What's Changed docs: add cloud model retirement by @mxyng in mlx: allow the embedding layer to use the nvfp4 global scale by @pdevine in integrations: oh-my-pi by @BruceMacD in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9534",
+      "project": "llama-cpp",
+      "version": "b9534",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9534",
+      "published_at": "2026-06-05T18:15:27Z",
+      "body_excerpt": "vulkan: add fwht support for Intel with shmem reduction (#23964) vulkan: add fwht support for Intel with shmem reduction don't use N as workgroup size disable subgroup shuffle on MoltenVK AMD disable fwht shader on Intel Windows due to driver bug macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9533",
+      "project": "llama-cpp",
+      "version": "b9533",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9533",
+      "published_at": "2026-06-05T17:27:20Z",
+      "body_excerpt": "model: fix build failed (#24193) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Win",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9531",
+      "project": "llama-cpp",
+      "version": "b9531",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9531",
+      "published_at": "2026-06-05T16:46:27Z",
+      "body_excerpt": "TP: round up granularity to 128 (#24180) TP: round up granularity to 128 remove assert macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Andro",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9530",
+      "project": "llama-cpp",
+      "version": "b9530",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9530",
+      "published_at": "2026-06-05T16:07:02Z",
+      "body_excerpt": "cli: fix model params not propagated (#23893) Fixes #23847 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Wind",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9529",
       "project": "llama-cpp",
@@ -72,6 +117,60 @@
       "published_at": "2026-06-05T05:45:01Z",
       "body_excerpt": "sycl : port multi-column MMVQ from CUDA backend (#21845) mmvq: Port the ncols_dst optimization from ggml-cuda/mmvq.cu to SYCL. Read weights once per dispatch instead of once per column. Covers all standard quant types + reorder paths for Q4_0, Q8_0, Q3_K, Q4_K, Q5_K, Q6_K. IQ types (except IQ4_XS) excluded due to incompatible vec_dot signatures. ggml-sycl: The weight reorder was only bootstrapped ",
       "type": "tool"
+    },
+    {
+      "id": "hf-google-gemma-4-12B-it-qat-w4a16-ct",
+      "project": "google",
+      "version": "gemma-4-12B-it-qat-w4a16-ct",
+      "url": "https://huggingface.co/google/gemma-4-12B-it-qat-w4a16-ct",
+      "published_at": "2026-06-05T02:50:55Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-gemma-4-12B-it-qat-q4_0-gguf",
+      "project": "google",
+      "version": "gemma-4-12B-it-qat-q4_0-gguf",
+      "url": "https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-gguf",
+      "published_at": "2026-06-05T00:28:47Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-gemma-4-12B-it-qat-q4_0-unquantized-assistant",
+      "project": "google",
+      "version": "gemma-4-12B-it-qat-q4_0-unquantized-assistant",
+      "url": "https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-unquantized-assistant",
+      "published_at": "2026-06-04T22:58:12Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-gemma-4-31B-it-qat-w4a16-ct",
+      "project": "google",
+      "version": "gemma-4-31B-it-qat-w4a16-ct",
+      "url": "https://huggingface.co/google/gemma-4-31B-it-qat-w4a16-ct",
+      "published_at": "2026-06-04T22:30:30Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-gemma-4-E2B-it-qat-w4a16-ct",
+      "project": "google",
+      "version": "gemma-4-E2B-it-qat-w4a16-ct",
+      "url": "https://huggingface.co/google/gemma-4-E2B-it-qat-w4a16-ct",
+      "published_at": "2026-06-04T22:29:35Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-gemma-4-E4B-it-qat-w4a16-ct",
+      "project": "google",
+      "version": "gemma-4-E4B-it-qat-w4a16-ct",
+      "url": "https://huggingface.co/google/gemma-4-E4B-it-qat-w4a16-ct",
+      "published_at": "2026-06-04T22:28:22Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "transformers-v5.10.2",
@@ -198,6 +297,15 @@
       "published_at": "2026-06-04T05:42:14Z",
       "body_excerpt": "ggml-cpu: extend RVV quantization vec dot to higher VLENs (#22754) ggml-cpu: add rvv 512b,1024b impls for iq4_xs ggml-cpu: refactor; add rvv 512b, 1024b impls for q6_K, i-quants ggml-cpu: refactor; add 512 and 1024 implementations of tq3_s, iq3_xxs, iq2_s, iq2_xs, iq2_xxs improve iq2_xs impl for rvv 256 Co-authored-by: Rehan Qasim --------- Co-authored-by: taimur-10x Co-authored-by: Rehan Qasim ma",
       "type": "tool"
+    },
+    {
+      "id": "hf-google-gemma-4-12B-it-qat-q4_0-unquantized",
+      "project": "google",
+      "version": "gemma-4-12B-it-qat-q4_0-unquantized",
+      "url": "https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-unquantized",
+      "published_at": "2026-06-04T05:20:28Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9496",
@@ -342,6 +450,24 @@
       "published_at": "2026-06-03T00:37:18Z",
       "body_excerpt": "What's Changed feat(launch): show and auto-install Cline CLI by @hoyyeva in log template details to aid troubleshooting by @dhiltgen in cmd/launch: add Qwen code integration by @hoyyeva in launch: fix opencode local model limits by @dhiltgen in llm: include cached prompt tokens in llama-server counts by @dhiltgen in Harden app markdown URL handling by @dhiltgen in discover: allow Radeon 8060S iGPU",
       "type": "tool"
+    },
+    {
+      "id": "hf-google-gemma-4-E4B-it-qat-mobile-transformers",
+      "project": "google",
+      "version": "gemma-4-E4B-it-qat-mobile-transformers",
+      "url": "https://huggingface.co/google/gemma-4-E4B-it-qat-mobile-transformers",
+      "published_at": "2026-06-02T23:55:15Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-gemma-4-E2B-it-qat-mobile-transformers",
+      "project": "google",
+      "version": "gemma-4-E2B-it-qat-mobile-transformers",
+      "url": "https://huggingface.co/google/gemma-4-E2B-it-qat-mobile-transformers",
+      "published_at": "2026-06-02T23:54:55Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9484",
@@ -495,6 +621,24 @@
       "published_at": "2026-06-02T02:42:15Z",
       "body_excerpt": "opencl: fix compiler warnings for non-adreno path (#23922) opencl: fix compiler warnings for non-adreno path opencl: fix const cast warning macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu",
       "type": "tool"
+    },
+    {
+      "id": "hf-google-gemma-4-E4B-it-qat-mobile-ct",
+      "project": "google",
+      "version": "gemma-4-E4B-it-qat-mobile-ct",
+      "url": "https://huggingface.co/google/gemma-4-E4B-it-qat-mobile-ct",
+      "published_at": "2026-06-01T23:41:22Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-gemma-4-E2B-it-qat-mobile-ct",
+      "project": "google",
+      "version": "gemma-4-E2B-it-qat-mobile-ct",
+      "url": "https://huggingface.co/google/gemma-4-E2B-it-qat-mobile-ct",
+      "published_at": "2026-06-01T23:40:57Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9464",
@@ -720,6 +864,33 @@
       "published_at": "2026-05-29T21:01:24Z",
       "body_excerpt": "mtmd: Add DeepSeekOCR 2 Support (#20975) mtmd: DeepSeek-OCR 2 support, with multi-tile dynamic resolution introduced clip_image_f32::add_viewsep address PR review drop redundant ggml_cpy ops in both deepseekocr versions build drop no-op ggml_cont in build_sam assert num_image_tokens deepseekocr2 view_seperator as (1, n_embd) at conversion (for both versions) drop redundant ggml_reshape_2d Update t",
       "type": "tool"
+    },
+    {
+      "id": "hf-google-gemma-4-31B-it-qat-q4_0-unquantized-assistant",
+      "project": "google",
+      "version": "gemma-4-31B-it-qat-q4_0-unquantized-assistant",
+      "url": "https://huggingface.co/google/gemma-4-31B-it-qat-q4_0-unquantized-assistant",
+      "published_at": "2026-05-29T19:19:43Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-gemma-4-26B-A4B-it-qat-q4_0-unquantized-assistant",
+      "project": "google",
+      "version": "gemma-4-26B-A4B-it-qat-q4_0-unquantized-assistant",
+      "url": "https://huggingface.co/google/gemma-4-26B-A4B-it-qat-q4_0-unquantized-assistant",
+      "published_at": "2026-05-29T19:19:16Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-gemma-4-E4B-it-qat-q4_0-unquantized-assistant",
+      "project": "google",
+      "version": "gemma-4-E4B-it-qat-q4_0-unquantized-assistant",
+      "url": "https://huggingface.co/google/gemma-4-E4B-it-qat-q4_0-unquantized-assistant",
+      "published_at": "2026-05-29T19:19:00Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9413",
