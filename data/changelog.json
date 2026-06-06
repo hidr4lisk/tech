@@ -1,13 +1,31 @@
 {
-  "updated_at": "2026-06-05T20:01:33Z",
+  "updated_at": "2026-06-06T03:57:31Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9536",
+      "project": "llama-cpp",
+      "version": "b9536",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9536",
+      "published_at": "2026-06-05T21:08:56Z",
+      "body_excerpt": "opencl: improve get_rows, cpy, concat and q6_k flat gemv (#24160) opencl: allow multiple workgroups for large rows opencl: improve small cpy opencl: packed concat for small input opencl: tweak flat q6_K gemv, increase N_DST and remap threads macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9535",
+      "project": "llama-cpp",
+      "version": "b9535",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9535",
+      "published_at": "2026-06-05T20:06:09Z",
+      "body_excerpt": "common/chat : unify and fix LFM2/LFM2.5 tool parser (#24178) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Wi",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.30.6",
       "project": "ollama",
       "version": "v0.30.6",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.6",
       "published_at": "2026-06-05T20:00:18Z",
-      "body_excerpt": "What's Changed docs: add cloud model retirement by @mxyng in mlx: allow the embedding layer to use the nvfp4 global scale by @pdevine in integrations: oh-my-pi by @BruceMacD in Full Changelog:",
+      "body_excerpt": "What's Changed now integrates with Oh My Pi, an AI coding agent with IDE integration MLX embedding layers now use NVFP4 global scale for improved quantization on Apple Silicon Full Changelog:",
       "type": "tool"
     },
     {
