@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-06T19:39:31Z",
+  "updated_at": "2026-06-07T04:23:50Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9544",
+      "project": "llama-cpp",
+      "version": "b9544",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9544",
+      "published_at": "2026-06-06T21:20:25Z",
+      "body_excerpt": "common/chat : fix LFM2/LFM2.5 reasoning round-trip and leak (#24234) common/chat : fix LFM2 reasoning round-trip and stray leak Gate by reasoning format and whether the template supports macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9543",
+      "project": "llama-cpp",
+      "version": "b9543",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9543",
+      "published_at": "2026-06-06T19:48:45Z",
+      "body_excerpt": "mtmd: support \"frame merge\" for qwen-vl-based models (#21858) feat: add video support for Qwen3.5 various clean up revise the design fix llava-uhd case nits nits 2 --------- Co-authored-by: andrewmd5 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9542",
       "project": "llama-cpp",
@@ -61,7 +79,7 @@
       "version": "v0.30.6",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.6",
       "published_at": "2026-06-05T20:00:18Z",
-      "body_excerpt": "What's Changed now integrates with Oh My Pi, an AI coding agent with IDE integration MLX embedding layers now use NVFP4 global scale for improved quantization on Apple Silicon Full Changelog:",
+      "body_excerpt": "New models Gemma 4 QAT weights: the Gemma 4 family is now optimized with Quantization-Aware Training (QAT) to dramatically reduce memory requirements and maximize on-device performance. Look for the tags ending in : - - - - - What's Changed now integrates with Oh My Pi, an AI coding agent with IDE integration MLX embedding layers now use NVFP4 global scale for improved quantization on Apple Silico",
       "type": "tool"
     },
     {
@@ -259,7 +277,7 @@
       "version": "v0.30.5",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.5",
       "published_at": "2026-06-04T17:00:37Z",
-      "body_excerpt": "What's Changed Fix gemma4:12b floating point exception crash integrations: hermes windows install by @BruceMacD in Full Changelog:",
+      "body_excerpt": "What's Changed Fixed the floating point exception crash on x86, CUDA, Linux, and Windows systems. now launches Hermes Desktop and can skip rebuilding when a packaged desktop app is already installed. now supports native Windows installs through the Hermes PowerShell installer. Added Cline CLI integration docs. Full Changelog:",
       "type": "tool"
     },
     {
@@ -385,7 +403,7 @@
       "version": "v0.30.4",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.4",
       "published_at": "2026-06-03T18:48:32Z",
-      "body_excerpt": "What's Changed llama.cpp version update by @dhiltgen in Kill llama-server during Windows cleanup by @dhiltgen in Known Issues gemma4:12b crash with floating point exception Full Changelog:",
+      "body_excerpt": "New models Nemotron-3-Ultra: NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows. What's Changed Fixed multimodal models not using GPU on the llama.cpp backend can now use Metal GPU offload on Apple Silicon, improving multimodal performance on supported Macs. now respects in Modelfiles for MLX-based models. now cleans up old conflicting Codex profile con",
       "type": "tool"
     },
     {
@@ -412,7 +430,7 @@
       "version": "v0.30.3",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.3",
       "published_at": "2026-06-03T16:35:43Z",
-      "body_excerpt": "What's Changed models: add support for gemma4-12b by @pdevine in Full Changelog:",
+      "body_excerpt": "New models Gemma 4 12B: high-performance multimodal intelligence that runs directly on laptops, combining efficiency with advanced reasoning. What's Changed Added support for . Full Changelog:",
       "type": "tool"
     },
     {
@@ -502,7 +520,7 @@
       "version": "v0.30.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.2",
       "published_at": "2026-06-03T00:37:18Z",
-      "body_excerpt": "What's Changed feat(launch): show and auto-install Cline CLI by @hoyyeva in log template details to aid troubleshooting by @dhiltgen in cmd/launch: add Qwen code integration by @hoyyeva in launch: fix opencode local model limits by @dhiltgen in llm: include cached prompt tokens in llama-server counts by @dhiltgen in Harden app markdown URL handling by @dhiltgen in discover: allow Radeon 8060S iGPU",
+      "body_excerpt": "What's Changed now supports Qwen Code and can guide users through installing the Cline CLI when it is missing. now uses an isolated launch configuration, avoiding conflicts with a user's existing Codex settings. Added llama.cpp backend compatibility support for Poolside's Laguna architecture. The llama.cpp backend now includes cached prompt tokens in token accounting, improving usage reporting for",
       "type": "tool"
     },
     {
