@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-07T14:04:56Z",
+  "updated_at": "2026-06-07T19:40:19Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9551",
+      "project": "llama-cpp",
+      "version": "b9551",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9551",
+      "published_at": "2026-06-07T19:27:22Z",
+      "body_excerpt": "kv-cache : avoid kv cells copies (#24277) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9550",
+      "project": "llama-cpp",
+      "version": "b9550",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9550",
+      "published_at": "2026-06-07T15:55:28Z",
+      "body_excerpt": "kv-cache: follow the source cache size when sharing cells (#24267) A fitted target context can end up smaller than the draft default, the oversized assistant views then overflow the shared K/V tensors and trip the ggml_view_4d size assert during graph reserve. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubun",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9549",
       "project": "llama-cpp",
