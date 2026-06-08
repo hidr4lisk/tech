@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-07T19:40:19Z",
+  "updated_at": "2026-06-08T04:39:48Z",
   "releases": [
+    {
+      "id": "ollama-v0.30.7-rc1",
+      "project": "ollama",
+      "version": "v0.30.7-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.7-rc1",
+      "published_at": "2026-06-07T21:51:48Z",
+      "body_excerpt": "What's Changed docs: update Zod example to use native toJSONSchema by @fuleinist in launch: use native Windows Hermes config path by @BruceMacD in New Contributors @fuleinist made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9553",
+      "project": "llama-cpp",
+      "version": "b9553",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9553",
+      "published_at": "2026-06-07T21:10:24Z",
+      "body_excerpt": "common : relax sampler name matching (#23744) common : relax sampler name matching Currently, in some cases, the alternative names for samplers (like and instead of the canonical and ) are not always recognized by the function in . This PR changes the signature of this function to remove the flag, and removes all occurences of the flag from call sites. Therefore, the function will now always match",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9551",
       "project": "llama-cpp",
