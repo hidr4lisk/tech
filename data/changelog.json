@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-06-08T16:03:14Z",
+  "updated_at": "2026-06-08T20:25:14Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9567",
+      "project": "llama-cpp",
+      "version": "b9567",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9567",
+      "published_at": "2026-06-08T19:02:33Z",
+      "body_excerpt": "server : do not parse when flushing http headers (#24281) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9566",
+      "project": "llama-cpp",
+      "version": "b9566",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9566",
+      "published_at": "2026-06-08T18:07:38Z",
+      "body_excerpt": "graph: guard iswa kq_mask on its own buffer (#24294) A SWA-only draft head (e.g. StepFun MTP) leaves the base sub-cache empty, so its kq_mask buffer stays null and asserts at load. Guard each mask on its own buffer in set_input and can_reuse, base and swa. Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9565",
+      "project": "llama-cpp",
+      "version": "b9565",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9565",
+      "published_at": "2026-06-08T17:35:34Z",
+      "body_excerpt": "[ggml-webgpu] Handle buffer overlap / buffer aliasing for concat operator (#24000) Only run webgpu CI on my fork Add webgpu only workflow handle buffer overlap case for concat operator restore build-webgpu.yml Co-Authored-By: Claude Sonnet 4.6 Run clang-format Update ggml/src/ggml-webgpu/wgsl-shaders/concat.wgsl --------- Co-authored-by: Claude Sonnet 4.6 Co-authored-by: Reese Levine macOS/iOS: ma",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9564",
+      "project": "llama-cpp",
+      "version": "b9564",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9564",
+      "published_at": "2026-06-08T17:08:34Z",
+      "body_excerpt": "[ggml-webgpu] Implement 2D workgroups for scale, binary, and unary ops (#24044) Only run webgpu CI on my fork Add webgpu only workflow Implement 2d workgroups for more operations fix Fix type Move back to global_invocation_id macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9562",
+      "project": "llama-cpp",
+      "version": "b9562",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9562",
+      "published_at": "2026-06-08T16:41:04Z",
+      "body_excerpt": "mtmd : add video input support (#24269) wip ok: lazy bitmap API remember to free lazy text wip add mtmd_helper_video support video input on server (base64 input) add MTMD_VIDEO config add timestamp update CLI cli: allow auto-completion for video add --video arg fix build update docs rename as suggested macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED ma",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9561",
+      "project": "llama-cpp",
+      "version": "b9561",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9561",
+      "published_at": "2026-06-08T16:14:15Z",
+      "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Wind",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9559",
       "project": "llama-cpp",
@@ -53,6 +107,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.7-rc1",
       "published_at": "2026-06-07T21:51:48Z",
       "body_excerpt": "What's Changed docs: update Zod example to use native toJSONSchema by @fuleinist in launch: use native Windows Hermes config path by @BruceMacD in New Contributors @fuleinist made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.7",
+      "project": "ollama",
+      "version": "v0.30.7",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.7",
+      "published_at": "2026-06-07T21:51:48Z",
+      "body_excerpt": "Ollama Launch now supports Hermes Desktop, a native desktop interface for the Hermes agent. Run it alongside your Hermes agent to get a visual interface for managing conversations, integrations, and messaging apps. What's Changed Hermes Desktop is now available via with native Windows configuration path support OpenAI-compatible API models list now aligns with available model tags Added documentat",
       "type": "tool"
     },
     {
