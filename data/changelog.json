@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-06-08T20:25:14Z",
+  "updated_at": "2026-06-09T04:00:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9568",
+      "project": "llama-cpp",
+      "version": "b9568",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9568",
+      "published_at": "2026-06-08T21:10:42Z",
+      "body_excerpt": "mtp: support for gemma-4 E2B and E4B assistants (#24282) models: update converter to support smaller assistants models: add masked_embd tensors to gemma4-assist arch gemma-4: remove temp debug for conversion gemma-4-mtp: filter out masked_embedding tensors during conversion macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9567",
       "project": "llama-cpp",
