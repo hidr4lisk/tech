@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-06-09T04:00:25Z",
+  "updated_at": "2026-06-09T09:54:56Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9574",
+      "project": "llama-cpp",
+      "version": "b9574",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9574",
+      "published_at": "2026-06-09T09:09:44Z",
+      "body_excerpt": "server : do not clear slots without unified KV cache (#24190) Always export idle slots to RAM Without this, a slot's VRAM cache may not be written to RAM. If this slot happens to be busy then later on, this triggers needless preprocessing in another slot. cont : clean-up --------- Co-authored-by: Christoph Weiss Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sil",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9573",
+      "project": "llama-cpp",
+      "version": "b9573",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9573",
+      "published_at": "2026-06-09T08:39:43Z",
+      "body_excerpt": "models : fix plamo2 attention_key/value_length regression (#24317) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9572",
+      "project": "llama-cpp",
+      "version": "b9572",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9572",
+      "published_at": "2026-06-09T08:06:30Z",
+      "body_excerpt": "ggml-cpu : fix rms_norm_back wrong output under in-place aliasing (#24305) ggml-cpu : fix rms_norm_back wrong output under in-place aliasing cont : clean-up comment --------- Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9571",
+      "project": "llama-cpp",
+      "version": "b9571",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9571",
+      "published_at": "2026-06-09T06:06:15Z",
+      "body_excerpt": "Remove case for GGML_TYPE_Q4_K in mvvq.cu (#23528) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Win",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9570",
+      "project": "llama-cpp",
+      "version": "b9570",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9570",
+      "published_at": "2026-06-09T04:16:44Z",
+      "body_excerpt": "ggml-webgpu: Add clang-format job (#24308) Add clang-format job try local formatting macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9568",
       "project": "llama-cpp",
