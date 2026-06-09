@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-09T15:15:53Z",
+  "updated_at": "2026-06-09T20:12:36Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9585",
+      "project": "llama-cpp",
+      "version": "b9585",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9585",
+      "published_at": "2026-06-09T18:15:21Z",
+      "body_excerpt": "graph: Fix granite speech model inference by applying embedding scale when deepstack is not used (#24357) llama-graph : apply embedding scale when deepstack is not used nits: remove non-existant hunyuan-vl from the tests apply suggestion from @gabe-l-hart --------- Co-authored-by: Xuan Son Nguyen macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS In",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9584",
+      "project": "llama-cpp",
+      "version": "b9584",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9584",
+      "published_at": "2026-06-09T17:07:09Z",
+      "body_excerpt": "ci : fix windows release (#24369) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Wi",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9581",
       "project": "llama-cpp",
