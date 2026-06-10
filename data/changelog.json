@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-10T10:12:14Z",
+  "updated_at": "2026-06-10T15:49:48Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9590",
+      "project": "llama-cpp",
+      "version": "b9590",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9590",
+      "published_at": "2026-06-10T14:49:15Z",
+      "body_excerpt": "chat: fix LFM2/LFM2.5 ignoring json_schema (#24377) The LFM2 specialized template handler only built a grammar for tool-calling, silently ignoring json_schema from response_format. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9589",
+      "project": "llama-cpp",
+      "version": "b9589",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9589",
+      "published_at": "2026-06-10T14:13:02Z",
+      "body_excerpt": "CUDA: Fix ssm_scan_f32 data-races (#24360) Add missing syncthreads before resuing cub_temp_storage __syncthreads() is required before being allowed to resue TempStorage smem: Add one more missing __syncthreads Could also double-buffer, but alternative is to simply ensure all threads have read smem before writing to it again in the next loop iteration Remove unused smem from ssm_scan_f32 macOS/iOS:",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9587",
       "project": "llama-cpp",
