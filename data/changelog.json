@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-10T15:49:48Z",
+  "updated_at": "2026-06-10T20:36:46Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9591",
+      "project": "llama-cpp",
+      "version": "b9591",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9591",
+      "published_at": "2026-06-10T20:20:14Z",
+      "body_excerpt": "Remove padding and multiple D2D copies for MTP (#24086) Make ggml_gated_delta_net take only the initial recurrent state (D, 1, n_seqs) and passes the snapshot count K as an op parameter instead of inferring it from state->ne[1]. Remove the padding hack and copy all emitted snapshots into the recurrent cache with a single strided ggml_cpy Make GDN changes in all backends. Address review comments. F",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.4.0",
+      "project": "localai",
+      "version": "v4.4.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.4.0",
+      "published_at": "2026-06-10T20:10:10Z",
+      "body_excerpt": "🎉 LocalAI 4.4.0 Release! 🚀 LocalAI 4.4.0 is out! This is a big, multimodal-and-distributed release. Two brand-new audio backends land - parakeet.cpp (NVIDIA NeMo Parakeet ASR) and CrispASR (a multi-architecture ASR and TTS engine) - alongside native object detection + segmentation (), video understanding in , and LTX-2 video generation in . Distributed mode grows up: prefix-cache-aware routing is ",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.11.0",
+      "project": "transformers",
+      "version": "v5.11.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.11.0",
+      "published_at": "2026-06-10T16:32:44Z",
+      "body_excerpt": "Release v5.11.0 New Model additions DiffusionGemma DiffusionGemma is engineered to reduce the sequential bottlenecks of standard causal language models by employing an encoder-decoder architecture specifically optimized for inference speed. During inference, DiffusionGemma leverages multi-canvas sampling, where rather than generating one token at a time, the model iteratively denoises a full block",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9590",
       "project": "llama-cpp",
@@ -72,6 +99,15 @@
       "published_at": "2026-06-09T12:41:10Z",
       "body_excerpt": "mtmd: refactor video subproc handling (#24316) mtmd: refactor video subproc handling Update tools/mtmd/mtmd-helper.cpp Co-authored-by: Mikko Juola --------- Co-authored-by: Mikko Juola macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubunt",
       "type": "tool"
+    },
+    {
+      "id": "hf-google-diffusiongemma-26B-A4B-it",
+      "project": "google",
+      "version": "diffusiongemma-26B-A4B-it",
+      "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+      "published_at": "2026-06-09T12:40:12Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9577",
