@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-06-10T04:11:44Z",
+  "updated_at": "2026-06-10T10:12:14Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9587",
+      "project": "llama-cpp",
+      "version": "b9587",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9587",
+      "published_at": "2026-06-10T08:12:19Z",
+      "body_excerpt": "speculative : fix \"ngram-map-k4v\" name in logging (#24253) This is a non-functional change. When using , the log messages at startup and runtime say . Added logic in the in the constructor of to pass the correct when is . After this change, the log messages use the correct name. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9585",
       "project": "llama-cpp",
