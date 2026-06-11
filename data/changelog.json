@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-11T16:11:47Z",
+  "updated_at": "2026-06-11T20:27:32Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9601",
+      "project": "llama-cpp",
+      "version": "b9601",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9601",
+      "published_at": "2026-06-11T18:56:38Z",
+      "body_excerpt": "vulkan: ifdef eMesaHoneykrisp (build fix) (#24479) Fixes build/CI after #24306. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: And",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.4.1",
+      "project": "localai",
+      "version": "v4.4.1",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.4.1",
+      "published_at": "2026-06-11T16:33:15Z",
+      "body_excerpt": "What's Changed Other Changes docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in fix(vllm): restore compatibility with vLLM >= 0.22 (get_tokenizer moved to vllm.tokenizers) by @pos-ei-don in feat(realtime): stream the LLM / TTS / transcription pipeline stages by @localai-bot in docs: fix broken relref to realtime page by",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9596",
       "project": "llama-cpp",
