@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-06-09T20:12:36Z",
+  "updated_at": "2026-06-11T16:11:47Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9596",
+      "project": "llama-cpp",
+      "version": "b9596",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9596",
+      "published_at": "2026-06-11T10:08:57Z",
+      "body_excerpt": "server: skip unused log lines on router mode (#24463) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9594",
+      "project": "llama-cpp",
+      "version": "b9594",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9594",
+      "published_at": "2026-06-11T08:26:42Z",
+      "body_excerpt": "vocab : refactor normalizer flags into options struct, add strip_accents (#24371) vocab : refactor normalizer flags into options struct, add strip_accents Update src/llama-vocab.h Co-authored-by: Sigbjørn Skjæret Update src/llama-vocab.cpp Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9592",
+      "project": "llama-cpp",
+      "version": "b9592",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9592",
+      "published_at": "2026-06-10T20:54:41Z",
+      "body_excerpt": "vendor : update LibreSSL to 4.3.2 (#24397) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9591",
+      "project": "llama-cpp",
+      "version": "b9591",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9591",
+      "published_at": "2026-06-10T20:20:14Z",
+      "body_excerpt": "Remove padding and multiple D2D copies for MTP (#24086) Make ggml_gated_delta_net take only the initial recurrent state (D, 1, n_seqs) and passes the snapshot count K as an op parameter instead of inferring it from state->ne[1]. Remove the padding hack and copy all emitted snapshots into the recurrent cache with a single strided ggml_cpy Make GDN changes in all backends. Address review comments. F",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.4.0",
+      "project": "localai",
+      "version": "v4.4.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.4.0",
+      "published_at": "2026-06-10T20:10:10Z",
+      "body_excerpt": "🎉 LocalAI 4.4.0 Release! 🚀 LocalAI 4.4.0 is out! This is a big, multimodal-and-distributed release. Two brand-new audio backends land - parakeet.cpp (NVIDIA NeMo Parakeet ASR) and CrispASR (a multi-architecture ASR and TTS engine) - alongside native object detection + segmentation (), video understanding in , and LTX-2 video generation in . Distributed mode grows up: prefix-cache-aware routing is ",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.11.0",
+      "project": "transformers",
+      "version": "v5.11.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.11.0",
+      "published_at": "2026-06-10T16:32:44Z",
+      "body_excerpt": "Release v5.11.0 New Model additions DiffusionGemma DiffusionGemma is engineered to reduce the sequential bottlenecks of standard causal language models by employing an encoder-decoder architecture specifically optimized for inference speed. During inference, DiffusionGemma leverages multi-canvas sampling, where rather than generating one token at a time, the model iteratively denoises a full block",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9590",
+      "project": "llama-cpp",
+      "version": "b9590",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9590",
+      "published_at": "2026-06-10T14:49:15Z",
+      "body_excerpt": "chat: fix LFM2/LFM2.5 ignoring json_schema (#24377) The LFM2 specialized template handler only built a grammar for tool-calling, silently ignoring json_schema from response_format. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9589",
+      "project": "llama-cpp",
+      "version": "b9589",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9589",
+      "published_at": "2026-06-10T14:13:02Z",
+      "body_excerpt": "CUDA: Fix ssm_scan_f32 data-races (#24360) Add missing syncthreads before resuing cub_temp_storage __syncthreads() is required before being allowed to resue TempStorage smem: Add one more missing __syncthreads Could also double-buffer, but alternative is to simply ensure all threads have read smem before writing to it again in the next loop iteration Remove unused smem from ssm_scan_f32 macOS/iOS:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9587",
+      "project": "llama-cpp",
+      "version": "b9587",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9587",
+      "published_at": "2026-06-10T08:12:19Z",
+      "body_excerpt": "speculative : fix \"ngram-map-k4v\" name in logging (#24253) This is a non-functional change. When using , the log messages at startup and runtime say . Added logic in the in the constructor of to pass the correct when is . After this change, the log messages use the correct name. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9585",
       "project": "llama-cpp",
@@ -45,6 +126,15 @@
       "published_at": "2026-06-09T12:41:10Z",
       "body_excerpt": "mtmd: refactor video subproc handling (#24316) mtmd: refactor video subproc handling Update tools/mtmd/mtmd-helper.cpp Co-authored-by: Mikko Juola --------- Co-authored-by: Mikko Juola macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubunt",
       "type": "tool"
+    },
+    {
+      "id": "hf-google-diffusiongemma-26B-A4B-it",
+      "project": "google",
+      "version": "diffusiongemma-26B-A4B-it",
+      "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+      "published_at": "2026-06-09T12:40:12Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9577",
