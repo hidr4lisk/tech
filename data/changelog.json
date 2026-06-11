@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-11T04:24:40Z",
+  "updated_at": "2026-06-11T10:46:22Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9596",
+      "project": "llama-cpp",
+      "version": "b9596",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9596",
+      "published_at": "2026-06-11T10:08:57Z",
+      "body_excerpt": "server: skip unused log lines on router mode (#24463) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9594",
+      "project": "llama-cpp",
+      "version": "b9594",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9594",
+      "published_at": "2026-06-11T08:26:42Z",
+      "body_excerpt": "vocab : refactor normalizer flags into options struct, add strip_accents (#24371) vocab : refactor normalizer flags into options struct, add strip_accents Update src/llama-vocab.h Co-authored-by: Sigbjørn Skjæret Update src/llama-vocab.cpp Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9592",
       "project": "llama-cpp",
