@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-06-12T15:26:51Z",
+  "updated_at": "2026-06-12T20:17:20Z",
   "releases": [
+    {
+      "id": "ollama-v0.30.8",
+      "project": "ollama",
+      "version": "v0.30.8",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.8",
+      "published_at": "2026-06-12T17:04:52Z",
+      "body_excerpt": "What's Changed Fixed selecting the wrong provider in some cases Improved prompt caching by decoupling it from context shift for better KV cache reuse More stable MLX inference with hardened linear and embedding layers MLX runner now creates snapshots during prompt processing and speculative decoding for improved reliability Improved recurrent model support with per-boundary states from the gated-d",
+      "type": "tool"
+    },
     {
       "id": "transformers-v5.12.0",
       "project": "transformers",
@@ -3680,15 +3689,6 @@
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.18.0",
       "published_at": "2026-03-20T21:31:36Z",
       "body_excerpt": "vLLM v0.18.0 Known issues Degraded accuracy when serving Qwen3.5 with FP8 KV cache on B200 (#37618) If you previously ran into and had to use a workaround in , you can reinstall . PyTorch published an updated wheel that addresses this bug. Highlights This release features 445 commits from 213 contributors (61 new)! gRPC Serving Support: vLLM now supports gRPC serving via the new flag (#36169), ena",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.0.0",
-      "project": "localai",
-      "version": "v4.0.0",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.0.0",
-      "published_at": "2026-03-14T18:18:41Z",
-      "body_excerpt": "--- 🎉 LocalAI 4.0.0 Release! 🚀 LocalAI 4.0.0 is out! This major release transforms LocalAI into a complete AI orchestration platform. We’ve embedded agentic and hybrid search capabilities directly into the core, completely overhauled the user interface with React for a modern experience, and are thrilled to introduce Agenthub ( link ) a brand new community hub to easily share and import agents. Al",
       "type": "tool"
     }
   ]
