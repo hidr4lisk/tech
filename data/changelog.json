@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-12T10:21:59Z",
+  "updated_at": "2026-06-12T15:26:51Z",
   "releases": [
+    {
+      "id": "transformers-v5.12.0",
+      "project": "transformers",
+      "version": "v5.12.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.12.0",
+      "published_at": "2026-06-12T14:39:40Z",
+      "body_excerpt": "Release v5.12.0 New Model additions MiniMax-M3-VL MiniMax-M3-VL is the vision-language member of the MiniMax-M3 family that pairs a CLIP-style vision tower with 3D rotary position embeddings with the MiniMax-M3 text backbone. It uses a mixed dense/sparse Mixture-of-Experts decoder with SwiGLU-OAI gated experts and a lightning indexer for block-sparse attention. The model processes images through a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9611",
+      "project": "llama-cpp",
+      "version": "b9611",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9611",
+      "published_at": "2026-06-12T14:03:47Z",
+      "body_excerpt": "fit : avoid including llama-ext.h in fit.h (#24506) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Wi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9610",
+      "project": "llama-cpp",
+      "version": "b9610",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9610",
+      "published_at": "2026-06-12T13:33:29Z",
+      "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Wind",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9608",
       "project": "llama-cpp",
