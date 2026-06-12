@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-06-12T04:27:12Z",
+  "updated_at": "2026-06-12T10:21:59Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9608",
+      "project": "llama-cpp",
+      "version": "b9608",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9608",
+      "published_at": "2026-06-12T10:01:17Z",
+      "body_excerpt": "vendor : update cpp-httplib to 0.47.0 (#24395) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Andro",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9606",
+      "project": "llama-cpp",
+      "version": "b9606",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9606",
+      "published_at": "2026-06-12T08:45:47Z",
+      "body_excerpt": "spec: add EAGLE3 speculative decoding support (#18039) llama : enable layer input extraction spec: support eagle3 eagle3: fix params bug eagle3: support Gemma4 eagle3 from RedHatAI eagle3: set sync when get features from target Co-authored-by: tnhnyzc eagle3 : fix ubatch handling in embd_layer_inp extraction and encoder Co-authored-by: Doğaç Eldenk eagle3: adapt to upstream changes eagle3: fix reb",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9605",
+      "project": "llama-cpp",
+      "version": "b9605",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9605",
+      "published_at": "2026-06-12T08:12:01Z",
+      "body_excerpt": "ggml: support concat for scalar types at cuda backend (#24011) cuda: support concat for scalar types Update concat.cu fix metal ci issue macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9604",
+      "project": "llama-cpp",
+      "version": "b9604",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9604",
+      "published_at": "2026-06-12T07:27:13Z",
+      "body_excerpt": "[SYCL] Fix CI build & release for SYCL backend (#24387) restore SYCL build and release, remove github cache modify for test only verify the ccache is used remove debug code change rm duplicate action, update key in ccache add action ccache-clear after building in both ubuntu and windows set %NUMBER_OF_PROCESSORS% in widnows build macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, K",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9603",
+      "project": "llama-cpp",
+      "version": "b9603",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9603",
+      "published_at": "2026-06-12T05:16:00Z",
+      "body_excerpt": "opencl: add q5_0/q5_1 gemm and gemv kernels for Adreno (#24319) opencl: add q5_0 adreno support opencl: add q5_1 adreno support opencl: cosmetic fix --------- Co-authored-by: Li He macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
+      "type": "tool"
+    },
     {
       "id": "localai-v4.4.2",
       "project": "localai",
