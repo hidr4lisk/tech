@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-12T20:17:20Z",
+  "updated_at": "2026-06-13T04:16:02Z",
   "releases": [
+    {
+      "id": "vllm-v0.23.0",
+      "project": "vllm",
+      "version": "v0.23.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
+      "published_at": "2026-06-12T23:29:26Z",
+      "body_excerpt": "vLLM v0.23.0 Release Notes Please note that Minimax M3 is not yet supported in this version. Please follow vLLM recipe for usage guides for M3. Highlights This release features 408 commits from 200 contributors (63 new)! DeepSeek-V4 matures across backends: Following its introduction in v0.22.0, DeepSeek-V4 received another large hardening and optimization pass. Its sparse MLA metadata is now deco",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9616",
+      "project": "llama-cpp",
+      "version": "b9616",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9616",
+      "published_at": "2026-06-12T22:19:54Z",
+      "body_excerpt": "ci : unbreak release harder (#24545) unbreak release harder missed one remove missing test for now macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DI",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.30.8",
       "project": "ollama",
