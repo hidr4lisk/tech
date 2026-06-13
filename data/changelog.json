@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-06-13T14:10:37Z",
+  "updated_at": "2026-06-13T19:43:27Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9626",
+      "project": "llama-cpp",
+      "version": "b9626",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9626",
+      "published_at": "2026-06-13T18:19:28Z",
+      "body_excerpt": "Add arch support for cohere2-MoE (#24260) Add arch support for cohere2-MoE Removed redundant gating_func checks Changed ffn lookup to prefer prefix_dense_intermediate_size Renamed arch to cohere2moe Removed redundant lmhead check and chat template changes Removed lm_head.weight check from modify tensors, load output tensor not required, fallback to token_embd.weight Changed to (routed+shared)0.5 f",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9625",
+      "project": "llama-cpp",
+      "version": "b9625",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9625",
+      "published_at": "2026-06-13T17:06:54Z",
+      "body_excerpt": "jinja : fix negative step slice with start/stop values (#24580) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Andro",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9624",
+      "project": "llama-cpp",
+      "version": "b9624",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9624",
+      "published_at": "2026-06-13T16:06:09Z",
+      "body_excerpt": "ui: build-time gzip compression (#24571) ui: keep original file name and path fix nocache ui: build-time gzip compression macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9623",
+      "project": "llama-cpp",
+      "version": "b9623",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9623",
+      "published_at": "2026-06-13T15:32:08Z",
+      "body_excerpt": "jinja : fix split and replace with empty first arg (#24574) fix split and replace with empty first arg fix reserve size macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9622",
+      "project": "llama-cpp",
+      "version": "b9622",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9622",
+      "published_at": "2026-06-13T14:15:55Z",
+      "body_excerpt": "vulkan: support non-contig unary/glu ops (#24215) vulkan: support non-contig unary/glu ops Change unary/glu ops to pass in all strides and use fastdiv for the index calculation. Put all unary ops in one file, similar to glu, to share the code. codex went ahead and added expm1 without me asking, but I had to make it do a real precision analysis rather than just making stuff up. unary.comp initially",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9621",
       "project": "llama-cpp",
