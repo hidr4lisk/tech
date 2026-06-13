@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-13T09:24:02Z",
+  "updated_at": "2026-06-13T14:10:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9621",
+      "project": "llama-cpp",
+      "version": "b9621",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9621",
+      "published_at": "2026-06-13T13:09:44Z",
+      "body_excerpt": "ui: keep original file name and path (#24568) ui: keep original file name and path fix nocache macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9620",
+      "project": "llama-cpp",
+      "version": "b9620",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9620",
+      "published_at": "2026-06-13T10:11:54Z",
+      "body_excerpt": "server: clean up static assets handling (#24550) server: clean up static assets handling nits simplify file name handling, use static file name everywhere cmake/ui : bundle UI assets in an archive ui : run prettier on post-build.js --------- Co-authored-by: Alde Rojas macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin",
+      "type": "tool"
+    },
     {
       "id": "vllm-v0.23.0",
       "project": "vllm",
