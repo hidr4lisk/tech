@@ -1,6 +1,150 @@
 {
-  "updated_at": "2026-06-15T12:27:12Z",
+  "updated_at": "2026-06-15T21:10:45Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9658",
+      "project": "llama-cpp",
+      "version": "b9658",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9658",
+      "published_at": "2026-06-15T20:59:46Z",
+      "body_excerpt": "chat: include full unparsed prompt in debug (#24650) message on parse error macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9656",
+      "project": "llama-cpp",
+      "version": "b9656",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9656",
+      "published_at": "2026-06-15T20:27:33Z",
+      "body_excerpt": "chat: harden peg-native tool call parsing (#24329) chat: harden peg-native tool call parsing accept an optional leading type: function field in build_json_tools_flat_keys so openai style tool calls parse on templates whose serialization opens on the name field. return a clean error and log the unparsed fragment on a final peg parse failure instead of throwing the raw parser position and input. kee",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9655",
+      "project": "llama-cpp",
+      "version": "b9655",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9655",
+      "published_at": "2026-06-15T19:55:37Z",
+      "body_excerpt": "chat: fix an \"oldie but goodie\" grammar generator bug that surfaced during last changes (#24653) chat: fix an \"oldie but goodie\" grammar generator bug that surfaced during last changes update erroneous case in PEG parser test macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.9-rc0",
+      "project": "ollama",
+      "version": "v0.30.9-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc0",
+      "published_at": "2026-06-15T19:55:07Z",
+      "body_excerpt": "What's Changed llama: update llama.cpp to b9637 by @jmorganca in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9654",
+      "project": "llama-cpp",
+      "version": "b9654",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9654",
+      "published_at": "2026-06-15T19:24:18Z",
+      "body_excerpt": "mtmd : add post-decode callback (#24645) Assisted-by: pi:llama.cpp/Qwen3.6-27B macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9653",
+      "project": "llama-cpp",
+      "version": "b9653",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9653",
+      "published_at": "2026-06-15T18:50:10Z",
+      "body_excerpt": "vulkan: support more CONCAT types (#24579) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9652",
+      "project": "llama-cpp",
+      "version": "b9652",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9652",
+      "published_at": "2026-06-15T18:19:56Z",
+      "body_excerpt": "wasm : fix fallback symbol collision (#24639) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9651",
+      "project": "llama-cpp",
+      "version": "b9651",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9651",
+      "published_at": "2026-06-15T17:45:57Z",
+      "body_excerpt": "SYCL: use native subgroup size for K-quant DMMV (#21700) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm6",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.12.1",
+      "project": "transformers",
+      "version": "v5.12.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.12.1",
+      "published_at": "2026-06-15T17:29:59Z",
+      "body_excerpt": "Patch release v5.12.1 Updated the lower bound for PEFT and a fix for auto tokenizer to properly resolve the mistral tokenizer (when is installed). This is similar to v.5.10.3 minus the fixes that were already included in the main release - vLLM will first target 5.10.3 :hugs: Fix lower bound #46605 by @hmellor (#46605) mistral common backend fix #46667 by @itazap (#46667) Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.10.3",
+      "project": "transformers",
+      "version": "v5.10.3",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.3",
+      "published_at": "2026-06-15T17:29:39Z",
+      "body_excerpt": "Patch release v5.10.3 A few fixes needed for vLLM to sync with transformers :hugs: [fix] regression introduced by #45534 #46456 by @eustlb (#46456) Fix {image/video/audio}_token_ids in ProcessorMixin #46500 by @hmellor (#46500) Fix InternVL models #46524 by @hmellor (#46524) Fix the offsets in processing #46525 by @zucchini-nlp (#46525) Fix lower bound #46605 by @hmellor (#46605) mistral common ba",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9650",
+      "project": "llama-cpp",
+      "version": "b9650",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9650",
+      "published_at": "2026-06-15T17:17:39Z",
+      "body_excerpt": "sycl: fix soft_max_f32 max reduction (#24451) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9649",
+      "project": "llama-cpp",
+      "version": "b9649",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9649",
+      "published_at": "2026-06-15T16:43:26Z",
+      "body_excerpt": "sycl : fix reorder function; add fp32/fp16 in build script (#24578) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9647",
+      "project": "llama-cpp",
+      "version": "b9647",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9647",
+      "published_at": "2026-06-15T15:50:05Z",
+      "body_excerpt": "[SYCL] add to support pool_1d, move pool_1d/2d code to pool.cpp/hpp (#24584) add to support pool_1d, move pool_1d/2d code to pool.cpp/hpp update ops.md macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9646",
+      "project": "llama-cpp",
+      "version": "b9646",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9646",
+      "published_at": "2026-06-15T15:18:13Z",
+      "body_excerpt": "[SYCL]: Remove per-allocation Level Zero runtime checks (#23399) [SYCL] Centralize Level Zero detection in ggml_sycl_init use the same wording get back the warning [SYCL] Remove per-allocation getenv() for GGML_SYCL_ENABLE_LEVEL_ZERO bring back the comment move it up to make sure devices call the shots move the env detection early replace g_ggml_sycl_enable_level_zero with a direct call to .ext_on",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9645",
+      "project": "llama-cpp",
+      "version": "b9645",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9645",
+      "published_at": "2026-06-15T14:41:16Z",
+      "body_excerpt": "metal : add repeat bf16 (#24638) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9644",
+      "project": "llama-cpp",
+      "version": "b9644",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9644",
+      "published_at": "2026-06-15T12:57:07Z",
+      "body_excerpt": "chat: fix whitespace problems once and for all (#24624) chat: fix whitespace problems once and for all Purge trailing spaces from grammar generation Revert \"Purge trailing spaces from grammar generation\" This reverts commit b0827ecb7d4767f37cefd751b3646f98d5303891. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux:",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9642",
       "project": "llama-cpp",
