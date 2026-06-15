@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-15T04:58:10Z",
+  "updated_at": "2026-06-15T12:27:12Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9642",
+      "project": "llama-cpp",
+      "version": "b9642",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9642",
+      "published_at": "2026-06-15T09:45:34Z",
+      "body_excerpt": "CUDA: only support F32/F16 for GGML_OP_REPEAT (#24533) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.23.0",
+      "project": "vllm",
+      "version": "v0.23.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
+      "published_at": "2026-06-15T05:27:20Z",
+      "body_excerpt": "vLLM v0.23.0 Release Notes Please note that Minimax M3 is not yet supported in this version. Please follow vLLM recipe for usage guides for M3. Highlights This release features 408 commits from 200 contributors (63 new)! DeepSeek-V4 matures across backends: Following its introduction in v0.22.0, DeepSeek-V4 received another large hardening and optimization pass. Its sparse MLA metadata is now deco",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9637",
       "project": "llama-cpp",
@@ -18,6 +36,15 @@
       "published_at": "2026-06-14T15:15:34Z",
       "body_excerpt": "jinja : add count/d/e filter aliases (#24606) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-FastContext-1.0-4B-SFT",
+      "project": "microsoft",
+      "version": "FastContext-1.0-4B-SFT",
+      "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT",
+      "published_at": "2026-06-14T14:39:57Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9631",
@@ -125,15 +152,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9620",
       "published_at": "2026-06-13T10:11:54Z",
       "body_excerpt": "server: clean up static assets handling (#24550) server: clean up static assets handling nits simplify file name handling, use static file name everywhere cmake/ui : bundle UI assets in an archive ui : run prettier on post-build.js --------- Co-authored-by: Alde Rojas macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.23.0",
-      "project": "vllm",
-      "version": "v0.23.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
-      "published_at": "2026-06-12T23:29:26Z",
-      "body_excerpt": "vLLM v0.23.0 Release Notes Please note that Minimax M3 is not yet supported in this version. Please follow vLLM recipe for usage guides for M3. Highlights This release features 408 commits from 200 contributors (63 new)! DeepSeek-V4 matures across backends: Following its introduction in v0.22.0, DeepSeek-V4 received another large hardening and optimization pass. Its sparse MLA metadata is now deco",
       "type": "tool"
     },
     {
