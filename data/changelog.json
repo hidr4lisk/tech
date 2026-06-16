@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-15T21:10:45Z",
+  "updated_at": "2026-06-16T04:57:49Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9660",
+      "project": "llama-cpp",
+      "version": "b9660",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9660",
+      "published_at": "2026-06-15T22:05:01Z",
+      "body_excerpt": "chat : fix LFM2 tool-call parsing double-escaping (#24667) Add escape test cases chat : fix LFM2 tool-call parsing double-escaping macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9659",
+      "project": "llama-cpp",
+      "version": "b9659",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9659",
+      "published_at": "2026-06-15T21:32:11Z",
+      "body_excerpt": "mtmd: fix miscounting n_tokens (#24656) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9658",
       "project": "llama-cpp",
@@ -33,6 +51,15 @@
       "project": "ollama",
       "version": "v0.30.9-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc0",
+      "published_at": "2026-06-15T19:55:07Z",
+      "body_excerpt": "What's Changed llama: update llama.cpp to b9637 by @jmorganca in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.9-rc1",
+      "project": "ollama",
+      "version": "v0.30.9-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1",
       "published_at": "2026-06-15T19:55:07Z",
       "body_excerpt": "What's Changed llama: update llama.cpp to b9637 by @jmorganca in Full Changelog:",
       "type": "tool"
@@ -180,6 +207,15 @@
       "published_at": "2026-06-14T15:15:34Z",
       "body_excerpt": "jinja : add count/d/e filter aliases (#24606) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-FastContext-1.0-4B-RL",
+      "project": "microsoft",
+      "version": "FastContext-1.0-4B-RL",
+      "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-RL",
+      "published_at": "2026-06-14T14:45:08Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "hf-microsoft-FastContext-1.0-4B-SFT",
