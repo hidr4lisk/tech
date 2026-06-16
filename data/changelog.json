@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-16T11:21:28Z",
+  "updated_at": "2026-06-16T17:04:33Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9670",
+      "project": "llama-cpp",
+      "version": "b9670",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9670",
+      "published_at": "2026-06-16T13:10:45Z",
+      "body_excerpt": "Fix and restrict NVFP4 edge-cases in llama-graph (#24331) Move post-GEMM MUL required for dequant b4 lora and bias add see : 1. For lora, I would presume we want fully dequantized values before doing the residuals, but this depends on how the LORAs were generated. Literature tells me LORA happens post-mul but pre-bias add 2. For ModelOPT, bias-add should happen on fully-dequantized values Restrict",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9669",
+      "project": "llama-cpp",
+      "version": "b9669",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9669",
+      "published_at": "2026-06-16T12:25:36Z",
+      "body_excerpt": "spec: add backend sampling support for eagle3 (#24655) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9668",
+      "project": "llama-cpp",
+      "version": "b9668",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9668",
+      "published_at": "2026-06-16T11:48:13Z",
+      "body_excerpt": "vulkan: prefer host-visible memory buffers on UMA devices (#22930) implement UMA host-visible memory update based on 0cc4m's suggestion macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9667",
       "project": "llama-cpp",
@@ -106,7 +133,7 @@
       "version": "v0.30.9-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1",
       "published_at": "2026-06-15T19:55:07Z",
-      "body_excerpt": "What's Changed llama: update llama.cpp to b9637 by @jmorganca in Full Changelog:",
+      "body_excerpt": "What's Changed Support for Cohere2Moe architecture Fixed LFM2 parser/render for cases where thinking was not emitted Fixed issue where and other coding agent or assistant use cases would only output one token Ollama will now return an error if a single message is larger than the current context window Full Changelog:",
       "type": "tool"
     },
     {
