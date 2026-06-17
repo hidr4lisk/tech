@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-06-17T15:47:37Z",
+  "updated_at": "2026-06-17T20:20:33Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9690",
+      "project": "llama-cpp",
+      "version": "b9690",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9690",
+      "published_at": "2026-06-17T19:59:11Z",
+      "body_excerpt": "metal : implement rope_back operator (#24725) Reuse existing rope kernels with a function constant to toggle forward/backward rotation, avoiding duplicate kernel code. Assisted-by: pi:llama.cpp/Qwen3.6-27B macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9689",
+      "project": "llama-cpp",
+      "version": "b9689",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9689",
+      "published_at": "2026-06-17T19:31:23Z",
+      "body_excerpt": "metal : add f16 and bf16 support for concat operator (#24724) metal : add f16 and bf16 support for concat operator Extend the Metal backend concat operator to support f16 and bf16 tensor types in addition to the existing f32 and i32 support. Template kernel_concat on type T with specializations for float, half, bfloat, and int Add type-specific pipeline getter ggml_metal_library_get_pipeline_conca",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9688",
+      "project": "llama-cpp",
+      "version": "b9688",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9688",
+      "published_at": "2026-06-17T18:55:06Z",
+      "body_excerpt": "server: (router) add model management API (#23976) wip server: (router) add SSE realtime updates API nits wip add download API add download api update docs add delete endpoint fix std::terminate fix crash fix 2 add tests nits macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9687",
+      "project": "llama-cpp",
+      "version": "b9687",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9687",
+      "published_at": "2026-06-17T18:24:46Z",
+      "body_excerpt": "llama : skip main_gpu validation when no devices are available (#23405) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9686",
+      "project": "llama-cpp",
+      "version": "b9686",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9686",
+      "published_at": "2026-06-17T17:31:07Z",
+      "body_excerpt": "spec: fix segfault error on long prompts for eagle3 (#24707) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9685",
+      "project": "llama-cpp",
+      "version": "b9685",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9685",
+      "published_at": "2026-06-17T17:00:49Z",
+      "body_excerpt": "[SYCL] add dev2dev memcpy by SYCL API (#24476) add dev2dev memcpy by SYCL API mv GGML_SYCL_DEV2DEV_MEMCPY to runntime table update the detect method for p2p comm fix the erro created during fix confilct --------- Co-authored-by: Neo Zhang macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9684",
+      "project": "llama-cpp",
+      "version": "b9684",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9684",
+      "published_at": "2026-06-17T16:26:10Z",
+      "body_excerpt": "[SYCL] Add conv_3d (#24691) add conv_3d optimize update ops.md restore test script rm unused code rm copyright notes macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.10-rc0",
+      "project": "ollama",
+      "version": "v0.30.10-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.10-rc0",
+      "published_at": "2026-06-17T16:22:02Z",
+      "body_excerpt": "What's Changed models: add Cohere2MoE model by @jmorganca in llama: update llama.cpp to b9672 by @pdevine in Full Changelog:",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9682",
       "project": "llama-cpp",
