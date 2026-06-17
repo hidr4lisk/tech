@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-17T04:43:38Z",
+  "updated_at": "2026-06-17T11:06:27Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9675",
+      "project": "llama-cpp",
+      "version": "b9675",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9675",
+      "published_at": "2026-06-17T11:05:39Z",
+      "body_excerpt": "sycl : Enable to support fp16 by OPs: SQR, SQRT, LOG, SIN, COS, CLAMP (#24692) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9674",
+      "project": "llama-cpp",
+      "version": "b9674",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9674",
+      "published_at": "2026-06-17T10:35:02Z",
+      "body_excerpt": "SYCL: fix use-after-free bug with async memcpy in MoE prefill (#24676) SYCL: fix a bug with async memcpy make mmid_row_mapping_host persistent comment on stream->wait Apply suggestion from @sanmai Apply suggestion from @sanmai Apply suggestion from @sanmai macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9673",
+      "project": "llama-cpp",
+      "version": "b9673",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9673",
+      "published_at": "2026-06-17T07:32:41Z",
+      "body_excerpt": "sycl: Add optional USM system allocations (#22526) This introduces an optional feature to allocate large GPU buffers (≥ 1GB) using USM system allocations if supported by the device. It allows using buffers from the system allocator then letting the system manage memory migrations between host and device as necessary. This feature is disabled by default and requires the GGML_SYCL_USM_SYSTEM environ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9672",
       "project": "llama-cpp",
