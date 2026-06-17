@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-17T11:06:27Z",
+  "updated_at": "2026-06-17T15:47:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9682",
+      "project": "llama-cpp",
+      "version": "b9682",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9682",
+      "published_at": "2026-06-17T13:33:03Z",
+      "body_excerpt": "vulkan: record actual memory properties during buffer creation (#24326) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9680",
+      "project": "llama-cpp",
+      "version": "b9680",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9680",
+      "published_at": "2026-06-17T12:44:48Z",
+      "body_excerpt": "ci: fix vulkan docker images (#24595) Update vulkan-shaders-gen.cpp Update vulkan-shaders-gen.cpp add comment describing code change intention Update vulkan-shaders-gen.cpp fix potential UB macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9678",
+      "project": "llama-cpp",
+      "version": "b9678",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9678",
+      "published_at": "2026-06-17T12:17:39Z",
+      "body_excerpt": "opencl: optimize mul_mat_f16_f32_l4 for decode (#24504) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9677",
+      "project": "llama-cpp",
+      "version": "b9677",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9677",
+      "published_at": "2026-06-17T11:47:47Z",
+      "body_excerpt": "common: update logging to enforce max_capacity and optimize queue resizing (#24490) common: update logging to enforce max_capacity and optimize queue resizing logic common/log: remove queue expansion logic macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9675",
       "project": "llama-cpp",
