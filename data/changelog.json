@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-18T10:38:12Z",
+  "updated_at": "2026-06-18T15:37:17Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9703",
+      "project": "llama-cpp",
+      "version": "b9703",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9703",
+      "published_at": "2026-06-18T15:13:36Z",
+      "body_excerpt": "server: (router) rework -hf preset repo (#24739) server: temporary remove HF remote preset rework remove preset.ini support rm unused get_remote_preset_whitelist() print warning add docs rm stray file macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9702",
+      "project": "llama-cpp",
+      "version": "b9702",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9702",
+      "published_at": "2026-06-18T14:33:51Z",
+      "body_excerpt": "server: fix router args not being forwarded to child instances (#24760) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9701",
+      "project": "llama-cpp",
+      "version": "b9701",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9701",
+      "published_at": "2026-06-18T13:39:42Z",
+      "body_excerpt": "mtmd: refactor preprocessor, add mtmd_image_preproc_out (#24736) add mtmd_image_preproc_out add dev docs remove unused clip API rm unused clip_image_f32_batch::grid change preprocess() call signature macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9700",
+      "project": "llama-cpp",
+      "version": "b9700",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9700",
+      "published_at": "2026-06-18T11:11:51Z",
+      "body_excerpt": "[SYCL] rename GGML_SYCL_SUPPORT_LEVEL_ZERO (#24719) rename GGML_SYCL_SUPPORT_LEVEL_ZERO to GGML_SYCL_SUPPORT_LEVEL_ZERO_API, and GGML_SYCL_ENABLE_LEVEL_ZERO to GGML_SYCL_USE_LEVEL_ZERO_API fix code format fix error when rebase macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ub",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9699",
       "project": "llama-cpp",
