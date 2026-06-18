@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-17T20:20:33Z",
+  "updated_at": "2026-06-18T04:26:58Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9692",
+      "project": "llama-cpp",
+      "version": "b9692",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9692",
+      "published_at": "2026-06-17T21:27:57Z",
+      "body_excerpt": "mtmd: llava_uhd should no longer use batch dim (#24732) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9691",
+      "project": "llama-cpp",
+      "version": "b9691",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9691",
+      "published_at": "2026-06-17T20:54:35Z",
+      "body_excerpt": "ggml-cpu: Conditionally enable power11 backend based on compiler support (#24687) ggml: Conditionally enable power11 backend based on compiler support Guard POWER11 backend creation behind a compiler flag check for -mcpu=power11. This avoids build failures on current GCC/Clang toolchains while preserving forward compatibility once POWER11 support becomes available. Update CMakeLists.txt ggml-cpu: ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9690",
       "project": "llama-cpp",
@@ -71,6 +89,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.10-rc0",
       "published_at": "2026-06-17T16:22:02Z",
       "body_excerpt": "What's Changed models: add Cohere2MoE model by @jmorganca in llama: update llama.cpp to b9672 by @pdevine in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.10",
+      "project": "ollama",
+      "version": "v0.30.10",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.10",
+      "published_at": "2026-06-17T16:22:02Z",
+      "body_excerpt": "What's Changed Command A and North family models now run on Apple Silicon with the MLX engine Updated the underlying llama.cpp engine to build 9672 Fixed build artifacts for MLX Full Changelog:",
       "type": "tool"
     },
     {
