@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-06-18T15:37:17Z",
+  "updated_at": "2026-06-18T20:32:10Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9704",
+      "project": "llama-cpp",
+      "version": "b9704",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9704",
+      "published_at": "2026-06-18T15:47:20Z",
+      "body_excerpt": "server : return HTTP 400 on invalid grammar (#24144) (#24154) Throw on grammar parse failure so the server returns HTTP 400 instead of silently dropping the constraint. Add a regression test for the invalid-grammar response. Fixes #24144 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9703",
       "project": "llama-cpp",
