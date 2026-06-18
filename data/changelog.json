@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-06-18T04:26:58Z",
+  "updated_at": "2026-06-18T10:38:12Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9699",
+      "project": "llama-cpp",
+      "version": "b9699",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9699",
+      "published_at": "2026-06-18T09:53:46Z",
+      "body_excerpt": "sycl : support MUL_MAT and OUT_PROD with Q1_0 (#24721) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9698",
+      "project": "llama-cpp",
+      "version": "b9698",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9698",
+      "published_at": "2026-06-18T09:25:50Z",
+      "body_excerpt": "app : enable self-update only when built with llama-install.sh (#24754) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9697",
+      "project": "llama-cpp",
+      "version": "b9697",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9697",
+      "published_at": "2026-06-18T08:44:25Z",
+      "body_excerpt": "ci : fix check-release message parsing (#24751) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) W",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9694",
+      "project": "llama-cpp",
+      "version": "b9694",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9694",
+      "published_at": "2026-06-18T07:28:10Z",
+      "body_excerpt": "ci : fix Windows x64 (OpenVINO) release link (#24731) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9693",
+      "project": "llama-cpp",
+      "version": "b9693",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9693",
+      "published_at": "2026-06-18T06:41:57Z",
+      "body_excerpt": "metal : check for BF16 support in concat kernel (#24747) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm6",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9692",
       "project": "llama-cpp",
