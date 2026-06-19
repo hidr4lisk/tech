@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-19T04:54:55Z",
+  "updated_at": "2026-06-19T10:45:38Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9722",
+      "project": "llama-cpp",
+      "version": "b9722",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9722",
+      "published_at": "2026-06-19T09:26:00Z",
+      "body_excerpt": "server: fix non-bound n_discard value (ctx shifting) (#24786) server: fix non-bound n_discard value Update tools/server/server-context.cpp Co-authored-by: Georgi Gerganov --------- Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9721",
+      "project": "llama-cpp",
+      "version": "b9721",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9721",
+      "published_at": "2026-06-19T08:09:41Z",
+      "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9718",
+      "project": "llama-cpp",
+      "version": "b9718",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9718",
+      "published_at": "2026-06-19T07:33:07Z",
+      "body_excerpt": "server : consolidate slot selection into get_available_slot (#24755) Absorb get_slot_by_id logic into get_available_slot so slot selection is handled by a single function call. When a specific slot id is requested, the LCP similarity check still runs to enable proper prompt cache updates. Assisted-by: pi:llama.cpp/Qwen3.6-27B macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9717",
+      "project": "llama-cpp",
+      "version": "b9717",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9717",
+      "published_at": "2026-06-19T06:32:57Z",
+      "body_excerpt": "ggml-cpu: support K tails in power10 Q8/Q4 MMA matmul (#24753) ggml-cpu: support K tails in Power10 MMA Q8/Q4 matmul This patch removes the requirement that K be divisible by kc in the tinyBlas_Q0_PPC tiled matmul path. Process the final K panel using its actual depth and pass the reduced panel size through packing and kernel execution. This allows more workloads to use the MMA kernel and reduces ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9716",
       "project": "llama-cpp",
