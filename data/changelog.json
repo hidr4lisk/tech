@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-19T10:45:38Z",
+  "updated_at": "2026-06-19T15:31:07Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9726",
+      "project": "llama-cpp",
+      "version": "b9726",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9726",
+      "published_at": "2026-06-19T15:15:50Z",
+      "body_excerpt": "server: add --agent arg, remove redundant webui naming compat (#24801) server: add --agent arg, remove redundant webui naming compat corrent env fix the test llama-gen-docs nits: wordings macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9724",
+      "project": "llama-cpp",
+      "version": "b9724",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9724",
+      "published_at": "2026-06-19T11:40:35Z",
+      "body_excerpt": "mtmd: several bug fixes (#24784) mtmd: several bug fixes fix build fix gemma4ua add sanity check in get_u32() fix build (2) area() avoid overflow macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9723",
+      "project": "llama-cpp",
+      "version": "b9723",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9723",
+      "published_at": "2026-06-19T11:00:44Z",
+      "body_excerpt": "spec: support eagle3 for qwen3.5 & 3.6 (#24593) spec: support qwen3.5 & 3.6 eagle3 draft eagle3: Add deferred boundary checkpoints restore support for hybrid models apply suggestions Co-authored-by: Georgi Gerganov spec: adapt to API change spec: fix naming cont : add TODO --------- Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9722",
       "project": "llama-cpp",
@@ -556,7 +583,7 @@
       "version": "v5.10.3",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.3",
       "published_at": "2026-06-15T17:29:39Z",
-      "body_excerpt": "Patch release v5.10.3 A few fixes needed for vLLM to sync with transformers :hugs: [fix] regression introduced by #45534 #46456 by @eustlb (#46456) Fix {image/video/audio}_token_ids in ProcessorMixin #46500 by @hmellor (#46500) Fix InternVL models #46524 by @hmellor (#46524) Fix the offsets in processing #46525 by @zucchini-nlp (#46525) Fix lower bound #46605 by @hmellor (#46605) mistral common ba",
+      "body_excerpt": "Patch release v5.10.4 Update: Note that on pypi doesn't exist and this this saved under (so essentially a minor version skipped). Sorry about that, that's on me. Just wanted to clarify to make this less confusing! A few fixes needed for vLLM to sync with transformers :hugs: [fix] regression introduced by #45534 #46456 by @eustlb (#46456) Fix {image/video/audio}_token_ids in ProcessorMixin #46500 b",
       "type": "tool"
     },
     {
