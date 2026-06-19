@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-06-18T20:32:10Z",
+  "updated_at": "2026-06-19T04:54:55Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9716",
+      "project": "llama-cpp",
+      "version": "b9716",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9716",
+      "published_at": "2026-06-19T03:55:10Z",
+      "body_excerpt": "mtmd: add batching support for internvl (#24775) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9715",
+      "project": "llama-cpp",
+      "version": "b9715",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9715",
+      "published_at": "2026-06-19T03:25:59Z",
+      "body_excerpt": "Ggml/cuda col2im 1d (#24417) cuda: add GGML_OP_COL2IM_1D, follow-up to the CPU op cuda: col2im_1d use fast_div_modulo for the index decomposition cuda: col2im_1d tighten supports_op, type match and contiguous dst macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9714",
+      "project": "llama-cpp",
+      "version": "b9714",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9714",
+      "published_at": "2026-06-19T02:57:24Z",
+      "body_excerpt": "server: add \"X-Accel-Buffering\": \"no\" header to streaming endpoints (#24774) server: add \"X-Accel-Buffering\": \"no\" header to streaming endpoints This header tells Nginx (as a reverse proxy) to NOT buffer responses. (only affects streaming endpoints) Without it, Nginx will break streaming with certain applications (notably the Pi coding harness). macOS/iOS: macOS Apple Silicon (arm64) macOS Apple S",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9713",
+      "project": "llama-cpp",
+      "version": "b9713",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9713",
+      "published_at": "2026-06-19T02:26:10Z",
+      "body_excerpt": "mtmd: add batching for mtmd-cli, add video tests (#24778) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9712",
+      "project": "llama-cpp",
+      "version": "b9712",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9712",
+      "published_at": "2026-06-19T01:59:40Z",
+      "body_excerpt": "cmake : fix ui build with read-only source (#24752) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9711",
+      "project": "llama-cpp",
+      "version": "b9711",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9711",
+      "published_at": "2026-06-19T01:33:37Z",
+      "body_excerpt": "mtmd: refactor llava-uhd overview image handling (always use ov_img_first) (#24769) add dedicated \"overview\" for mtmd_image_preproc_out corrections correct (again) nits nits (2) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9707",
+      "project": "llama-cpp",
+      "version": "b9707",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9707",
+      "published_at": "2026-06-19T00:26:37Z",
+      "body_excerpt": "server: add \"schema\" and validation (#24150) wip working correct some limits add field name to error message macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYC",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9704",
       "project": "llama-cpp",
@@ -4364,15 +4427,6 @@
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
       "published_at": "2026-03-27T00:33:02Z",
       "body_excerpt": "New Model additions VidEoMT Video Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that carries information across frames and employs a query fusion strategy that combines propagated querie",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.18.0",
-      "project": "vllm",
-      "version": "v0.18.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.18.0",
-      "published_at": "2026-03-20T21:31:36Z",
-      "body_excerpt": "vLLM v0.18.0 Known issues Degraded accuracy when serving Qwen3.5 with FP8 KV cache on B200 (#37618) If you previously ran into and had to use a workaround in , you can reinstall . PyTorch published an updated wheel that addresses this bug. Highlights This release features 445 commits from 213 contributors (61 new)! gRPC Serving Support: vLLM now supports gRPC serving via the new flag (#36169), ena",
       "type": "tool"
     }
   ]
