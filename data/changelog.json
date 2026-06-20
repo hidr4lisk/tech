@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-20T14:14:32Z",
+  "updated_at": "2026-06-20T19:44:30Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9741",
+      "project": "llama-cpp",
+      "version": "b9741",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9741",
+      "published_at": "2026-06-20T18:40:59Z",
+      "body_excerpt": "llama : use LLM_KV for quantization_version & file_type (#24802) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9740",
+      "project": "llama-cpp",
+      "version": "b9740",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9740",
+      "published_at": "2026-06-20T18:14:08Z",
+      "body_excerpt": "arg: try fixing test-args-parser randomly fails (#24826) arg: try fixing test-args-parser randomly fails return ref try triggering the workflow exception wrapper wip test test 2 arg: guard win32 utf8 argv override make_utf8_argv rebuilds argv from GetCommandLineW to fix utf8 handling of non ascii arguments on windows. the override runs unconditionally inside common_params_parse, so it also clobber",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9739",
+      "project": "llama-cpp",
+      "version": "b9739",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9739",
+      "published_at": "2026-06-20T15:29:11Z",
+      "body_excerpt": "release: add missing link for win opencl adreno arm64 (#24809) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9738",
       "project": "llama-cpp",
