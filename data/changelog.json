@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-20T09:26:11Z",
+  "updated_at": "2026-06-20T14:14:32Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9738",
+      "project": "llama-cpp",
+      "version": "b9738",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9738",
+      "published_at": "2026-06-20T14:06:47Z",
+      "body_excerpt": "server: avoid forwarding auth headers in CORS proxy (#24373) server: avoid forwarding auth headers in CORS proxy format fix test fix e2e test --------- Co-authored-by: Xuan Son Nguyen macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9736",
+      "project": "llama-cpp",
+      "version": "b9736",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9736",
+      "published_at": "2026-06-20T11:59:00Z",
+      "body_excerpt": "model : glm-dsa load DSA indexer tensors as optional (#24770) GLM-5.2 ships the DSA \"lightning indexer\" on only a subset of layers (the \"full\" layers; others omit it), but the GLM_DSA loader created the five indexer tensors on every layer as required, so loading any GLM-5.2 GGUF failed with e.g. . GLM_DSA's graph is llama_model_deepseek2::graph (plain MLA) and does not use the indexer tensors (ind",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9735",
+      "project": "llama-cpp",
+      "version": "b9735",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9735",
+      "published_at": "2026-06-20T11:33:42Z",
+      "body_excerpt": "ggml : optimize AMX (#24806) Flatten the partition over n_batch * M so every thread participates in the quantization | CPU | Model | Test | t/s OLD | t/s NEW | Speedup | |:--------------------------------|:------------------------------|:-------|----------:|----------:|----------:| | Intel(R) Xeon(R) Platinum 8488C | qwen35 0.8B IQ4_NL - 4.5 bpw | pp512 | 730.71 | 779.86 | 1.07 | | Intel(R) Xeon(R",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9733",
       "project": "llama-cpp",
