@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-06-19T19:54:53Z",
+  "updated_at": "2026-06-20T04:09:32Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9733",
+      "project": "llama-cpp",
+      "version": "b9733",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9733",
+      "published_at": "2026-06-20T00:16:29Z",
+      "body_excerpt": "ggml-webgpu: add adapter toggles for F16 on Vulkan + NVIDIA macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9732",
+      "project": "llama-cpp",
+      "version": "b9732",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9732",
+      "published_at": "2026-06-19T23:44:14Z",
+      "body_excerpt": "server: refactor child --> router communication (#24821) server: refactor child --> router communication fix wakeup case add docs improve update_status() nits macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9731",
+      "project": "llama-cpp",
+      "version": "b9731",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9731",
+      "published_at": "2026-06-19T21:54:38Z",
+      "body_excerpt": "server : optimize get_token_probabilities (#24796) Use std::partial_sort to order only the requested top-n tokens instead of the full vocabulary logprobs sort: vocab=128000 n_top=0 iters=100 full sort: 8555.6 us/op partial sort: 704.3 us/op Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9730",
+      "project": "llama-cpp",
+      "version": "b9730",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9730",
+      "published_at": "2026-06-19T21:18:59Z",
+      "body_excerpt": "mtmd, arg: fix utf8 handling on windows (#24779) mtmd, arg: fix utf8 handling on windows also fix ggml_fopen fix build fail also fix CLI macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9729",
+      "project": "llama-cpp",
+      "version": "b9729",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9729",
+      "published_at": "2026-06-19T20:47:55Z",
+      "body_excerpt": "server: remove all internal mentions about \"webui\" (#24817) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9728",
       "project": "llama-cpp",
