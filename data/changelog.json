@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-06-21T14:21:37Z",
+  "updated_at": "2026-06-21T19:50:40Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9753",
+      "project": "llama-cpp",
+      "version": "b9753",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9753",
+      "published_at": "2026-06-21T19:25:44Z",
+      "body_excerpt": "server: fix report progress for loading spec models, add \"stages\" list (#24870) server: fix report progress for loading spec models, add \"stages\" list improve nits nits 2 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9752",
+      "project": "llama-cpp",
+      "version": "b9752",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9752",
+      "published_at": "2026-06-21T18:59:57Z",
+      "body_excerpt": "server: refactor batch construction (#24843) server: refactor batch construction wip wip 2 wip 3 wip 4 add abort_all_slots handle batch full more carefully fix assert rm debug log small nits (debug) add timings debug: force llama_synchronize for accurate timings address comments disable DEBUG_TIMINGS macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macO",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9751",
+      "project": "llama-cpp",
+      "version": "b9751",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9751",
+      "published_at": "2026-06-21T18:34:51Z",
+      "body_excerpt": "mtmd: fix mtmd_get_memory_usage (#24867) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9750",
+      "project": "llama-cpp",
+      "version": "b9750",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9750",
+      "published_at": "2026-06-21T17:57:47Z",
+      "body_excerpt": "jinja : implement call statement (#24847) implement call statement undo unintended change de-lambda simplify move caller context inside function handler macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROC",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9748",
+      "project": "llama-cpp",
+      "version": "b9748",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9748",
+      "published_at": "2026-06-21T17:09:23Z",
+      "body_excerpt": "server: add \"verbose\" field to schema (#24864) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9747",
       "project": "llama-cpp",
