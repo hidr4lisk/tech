@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-21T09:56:55Z",
+  "updated_at": "2026-06-21T14:21:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9747",
+      "project": "llama-cpp",
+      "version": "b9747",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9747",
+      "published_at": "2026-06-21T13:51:11Z",
+      "body_excerpt": "server: real-time model load progress tracking via /models/sse (#24828) server: real-time model load progress tracking via /models/sse update docs add mutex for notify_to_router correct docs macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9745",
+      "project": "llama-cpp",
+      "version": "b9745",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9745",
+      "published_at": "2026-06-21T11:38:54Z",
+      "body_excerpt": "spec : Support Step3.5/3.7 flash mtp3 (#24340) add mtp_layer_offset + include nextn flags in graph reuse add llama_set_mtp_layer_offset + llama_model_n_nextn_layer API offset head select + require all MTP blocks speculative multi-head process() speculative multi-head draft() gather outputs via inp_out_ids cleanup fix core minor cleanup merged draft_multi_head into draft() mtp rename nextn Apply su",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9744",
       "project": "llama-cpp",
