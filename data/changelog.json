@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-22T04:59:29Z",
+  "updated_at": "2026-06-22T12:14:00Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9757",
+      "project": "llama-cpp",
+      "version": "b9757",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9757",
+      "published_at": "2026-06-22T11:46:09Z",
+      "body_excerpt": "sampling : remove unconditional softmax+sort in top-n-sigma sampler (#22645) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) A",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9756",
+      "project": "llama-cpp",
+      "version": "b9756",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9756",
+      "published_at": "2026-06-22T09:32:13Z",
+      "body_excerpt": "server: fix edit_file crash on append at end of file (line_start -1) (#24893) line_start -1 normalized to n+1, so append inserted at lines.begin() + n + 1, one past end() -> heap-buffer-overflow in vector::_M_range_insert. Normalize -1 to n (insert at end()), restrict -1 to append mode and reject it for replace/delete instead of silently clobbering the last line. Parenthesize the insert offset so ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9754",
       "project": "llama-cpp",
