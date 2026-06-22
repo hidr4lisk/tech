@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-22T12:14:00Z",
+  "updated_at": "2026-06-22T20:54:21Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9761",
+      "project": "llama-cpp",
+      "version": "b9761",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9761",
+      "published_at": "2026-06-22T17:03:12Z",
+      "body_excerpt": "server: (router) move model downloading to dedicated process (#24834) server: real-time model load progress tracking via /models/sse update docs server: move model download to child process rm unused fix most problems clean up nit fixes fix test case do not detact() thread shorter MODEL_DOWNLOAD_TIMEOUT in test throttle macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI en",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9760",
+      "project": "llama-cpp",
+      "version": "b9760",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9760",
+      "published_at": "2026-06-22T15:22:57Z",
+      "body_excerpt": "server: refactor/generalize input file schema (#24299) server: refactor/generalize input file schema wire up input_video, accept raw base64 nits nits (2) fix windows macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9758",
+      "project": "llama-cpp",
+      "version": "b9758",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9758",
+      "published_at": "2026-06-22T12:20:47Z",
+      "body_excerpt": "[SYCL] support bf16 on bin_bcast OP and unary OPs (#24838) support bf16 on bin_bcast OP and unary OPs support the older Intel compiler than 2026.0 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9757",
       "project": "llama-cpp",
