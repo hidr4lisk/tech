@@ -19,8 +19,8 @@ Open source AI, all in one place. Models, releases and news — every 6h, no coo
 | # | Module | Description |
 |---|--------|-------------|
 | 00 | **Digest** | Auto-generated weekly summary: news count, release count, new models, top items at a glance |
-| 01 | **News Feed** | Posts from official blogs (HuggingFace, Meta, Google Research, Microsoft Research, The Gradient) |
-| 02 | **Changelog** | Release timeline for tools (Ollama, llama.cpp, vLLM, Transformers, LocalAI) and models (via HuggingFace API) |
+| 01 | **News Feed** | Posts from official blogs and community (HuggingFace, Meta, Google, Microsoft, The Gradient, Qwen, r/LocalLLaMA, Simon Willison) |
+| 02 | **Changelog** | Release timeline for tools (Ollama, llama.cpp, vLLM, Transformers, LocalAI, whisper.cpp, Unsloth, SGLang) and models (via HuggingFace API) |
 | 03 | **Comparator** | Sortable table: context window, parameters, multimodal support, license, release date |
 | 04 | **Sources** | Full list of data sources with links and applied filters — includes language disclaimer |
 
@@ -47,18 +47,21 @@ All data lives as plain JSON in the repo. The browser fetches it directly from t
 
 ### Data sources
 
-**News (RSS)**
+**News (RSS)** — capped at 12 items per source to keep the feed balanced
 - HuggingFace Blog — `huggingface.co/blog/feed.xml`
 - Meta Engineering — `engineering.fb.com/feed/` *(filter: llama, ai, model)*
-- Google Research — `blog.research.google/feeds/posts/default` *(filter: gemma, llm, open)*
+- Google AI — `blog.google/innovation-and-ai/technology/ai/rss/` *(filter: gemma, llm, open)*
 - Microsoft Research — `microsoft.com/en-us/research/feed/` *(filter: phi, llm, open)*
 - The Gradient — `thegradient.pub/rss/`
+- Qwen Blog — `qwenlm.github.io/blog/index.xml`
+- r/LocalLLaMA — `reddit.com/r/LocalLLaMA/.rss`
+- Simon Willison — `simonwillison.net/atom/everything/` *(filter: llm, model, local…)*
 
 **Releases (GitHub API)**
-- `ollama/ollama` · `ggerganov/llama.cpp` · `vllm-project/vllm` · `huggingface/transformers` · `mudler/LocalAI`
+- `ollama/ollama` · `ggml-org/llama.cpp` · `vllm-project/vllm` · `huggingface/transformers` · `mudler/LocalAI` · `ggml-org/whisper.cpp` · `unslothai/unsloth` · `sgl-project/sglang`
 
 **Models (HuggingFace API)**
-- Orgs tracked: `meta-llama`, `mistralai`, `google`, `microsoft`, `EleutherAI`, `stabilityai`, `Qwen`, `deepseek-ai`
+- Orgs tracked: `meta-llama`, `mistralai`, `google`, `microsoft`, `EleutherAI`, `stabilityai`, `Qwen`, `deepseek-ai`, `allenai`, `nvidia`, `01-ai`, `HuggingFaceTB`, `ibm-granite`, `CohereForAI`
 
 ### Run locally
 
@@ -122,8 +125,8 @@ IA open source, todo en un lugar. Modelos, releases y noticias — cada 6h, sin 
 | # | Módulo | Descripción |
 |---|--------|-------------|
 | 00 | **Digest** | Resumen semanal auto-generado: cantidad de noticias, releases, nuevos modelos y los items más recientes |
-| 01 | **Noticias** | Posts de blogs oficiales (HuggingFace, Meta, Google Research, Microsoft Research, The Gradient) |
-| 02 | **Changelog** | Timeline de releases de herramientas (Ollama, llama.cpp, vLLM, Transformers, LocalAI) y modelos (via HuggingFace API) |
+| 01 | **Noticias** | Posts de blogs oficiales y comunidad (HuggingFace, Meta, Google, Microsoft, The Gradient, Qwen, r/LocalLLaMA, Simon Willison) |
+| 02 | **Changelog** | Timeline de releases de herramientas (Ollama, llama.cpp, vLLM, Transformers, LocalAI, whisper.cpp, Unsloth, SGLang) y modelos (via HuggingFace API) |
 | 03 | **Comparador** | Tabla ordenable: contexto, parámetros, soporte multimodal, licencia, fecha de release |
 | 04 | **Fuentes** | Lista completa de fuentes con links y filtros aplicados — incluye disclaimer de idioma |
 

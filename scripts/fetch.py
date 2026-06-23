@@ -26,26 +26,33 @@ if token := os.getenv("GH_TOKEN"):
     GH_HEADERS["Authorization"] = f"Bearer {token}"
 
 RSS_SOURCES = [
-    {"slug": "huggingface", "url": "https://huggingface.co/blog/feed.xml",                     "filter": None},
-    {"slug": "meta",        "url": "https://engineering.fb.com/feed/",                         "filter": ["llama", "open", "model", "ai"]},
-    {"slug": "google",      "url": "https://blog.research.google/feeds/posts/default",         "filter": ["gemma", "language model", "llm", "open", "model"]},
-    {"slug": "microsoft",   "url": "https://www.microsoft.com/en-us/research/feed/",           "filter": ["phi", "language model", "llm", "open", "model"]},
-    {"slug": "gradient",    "url": "https://thegradient.pub/rss/",                             "filter": None},
+    {"slug": "huggingface", "url": "https://huggingface.co/blog/feed.xml",                         "filter": None},
+    {"slug": "meta",        "url": "https://engineering.fb.com/feed/",                             "filter": ["llama", "open", "model", "ai"]},
+    {"slug": "google",      "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",     "filter": ["gemma", "language model", "llm", "open", "model"]},
+    {"slug": "microsoft",   "url": "https://www.microsoft.com/en-us/research/feed/",               "filter": ["phi", "language model", "llm", "open", "model"]},
+    {"slug": "gradient",    "url": "https://thegradient.pub/rss/",                                 "filter": None},
+    {"slug": "qwen",        "url": "https://qwenlm.github.io/blog/index.xml",                      "filter": None},
+    {"slug": "localllama",  "url": "https://www.reddit.com/r/LocalLLaMA/.rss",                     "filter": None},
+    {"slug": "simonw",      "url": "https://simonwillison.net/atom/everything/",                   "filter": ["llm", "model", "gpt", "claude", "llama", "gemini", "qwen", "mistral", "local", "open weight", "ollama"]},
 ]
 
 # Tool repos: active projects with frequent releases
 GH_TOOL_REPOS = [
     ("ollama",       "ollama",        "ollama",       "tool"),
-    ("ggerganov",    "llama.cpp",     "llama-cpp",    "tool"),
-    ("vllm-project", "vllm",         "vllm",          "tool"),
+    ("ggml-org",     "llama.cpp",     "llama-cpp",    "tool"),
+    ("vllm-project", "vllm",          "vllm",         "tool"),
     ("huggingface",  "transformers",  "transformers", "tool"),
     ("mudler",       "LocalAI",       "localai",      "tool"),
+    ("ggml-org",     "whisper.cpp",   "whisper-cpp",  "tool"),
+    ("unslothai",    "unsloth",       "unsloth",      "tool"),
+    ("sgl-project",  "sglang",        "sglang",       "tool"),
 ]
 
 # HuggingFace orgs to track for new model uploads
 HF_MODEL_ORGS = [
     "meta-llama", "mistralai", "google", "microsoft",
     "EleutherAI", "stabilityai", "Qwen", "deepseek-ai",
+    "allenai", "nvidia", "01-ai", "HuggingFaceTB", "ibm-granite", "CohereForAI",
 ]
 
 
@@ -228,13 +235,23 @@ def fetch_gh_releases(owner, repo, project_slug, release_type):
     return results
 
 
-def merge_news(existing_items, new_items, max_items=60):
+def merge_news(existing_items, new_items, max_items=80, per_source=12):
     by_url = {i["url"]: i for i in existing_items}
     for item in new_items:
         if item["url"] not in by_url:
             by_url[item["url"]] = item
-    merged = sorted(by_url.values(), key=lambda i: i.get("published_at", ""), reverse=True)
-    return merged[:max_items]
+    ordered = sorted(by_url.values(), key=lambda i: i.get("published_at", ""), reverse=True)
+    # Cap per source so high-volume feeds (e.g. reddit) don't starve official blogs
+    counts, merged = {}, []
+    for item in ordered:
+        src = item.get("source", "")
+        if counts.get(src, 0) >= per_source:
+            continue
+        counts[src] = counts.get(src, 0) + 1
+        merged.append(item)
+        if len(merged) >= max_items:
+            break
+    return merged
 
 
 def merge_changelog(existing_items, new_items, days=90):

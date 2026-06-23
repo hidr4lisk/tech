@@ -61,11 +61,17 @@ export function init(container, { strings }) {
 function render(container, data, strings) {
   const all = data.releases ?? [];
   let activeFilter = 'all';
+  let query        = '';
 
   function rebuild() {
-    const filtered = activeFilter === 'all'
+    const q = query.trim().toLowerCase();
+    let filtered = activeFilter === 'all'
       ? all
       : all.filter(r => r.type === activeFilter);
+    if (q) {
+      filtered = filtered.filter(r =>
+        `${r.project} ${r.version} ${r.body_excerpt ?? ''}`.toLowerCase().includes(q));
+    }
 
     const pillsHtml = [
       { key: 'all',   label: strings.m3_filter_all   ?? 'ALL' },
@@ -75,11 +81,16 @@ function render(container, data, strings) {
       `<button class="filter-pill${f.key === activeFilter ? ' active' : ''}" data-filter="${f.key}">${f.label}</button>`
     ).join('');
 
+    const searchHtml = `<input type="search" class="module-search"
+      placeholder="${strings.search_placeholder ?? 'Buscar...'}"
+      aria-label="${strings.search_placeholder ?? 'Buscar...'}">`;
+
     const entriesHtml = filtered.length
       ? filtered.map(r => buildEntry(r, strings)).join('')
       : `<p style="color:var(--text-tertiary);font-size:var(--t-xs)">${strings.m3_no_items ?? '—'}</p>`;
 
     container.innerHTML = `
+      ${searchHtml}
       <div class="filter-pills" role="group">${pillsHtml}</div>
       <div class="changelog-timeline" aria-live="polite">${entriesHtml}</div>`;
 
@@ -89,6 +100,17 @@ function render(container, data, strings) {
         rebuild();
       });
     });
+
+    const search = container.querySelector('.module-search');
+    if (search) {
+      search.value = query;
+      search.addEventListener('input', () => {
+        query = search.value;
+        rebuild();
+        const next = container.querySelector('.module-search');
+        if (next) { next.focus(); const v = next.value; next.value = ''; next.value = v; }
+      });
+    }
   }
 
   rebuild();

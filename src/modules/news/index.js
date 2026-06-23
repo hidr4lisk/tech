@@ -55,13 +55,19 @@ function render(container, data, lang, strings) {
   const allItems = data.items ?? [];
   let activeSource = 'all';
   let shownCount   = PAGE_SIZE;
+  let query        = '';
 
   const sources = ['all', ...new Set(allItems.map(i => i.source))];
 
   function rebuild() {
-    const filtered = activeSource === 'all'
+    const q = query.trim().toLowerCase();
+    let filtered = activeSource === 'all'
       ? allItems
       : allItems.filter(i => i.source === activeSource);
+    if (q) {
+      filtered = filtered.filter(i =>
+        `${i.title} ${i.summary ?? ''} ${i.source}`.toLowerCase().includes(q));
+    }
     const visible = filtered.slice(0, shownCount);
 
     const pillsHtml = sources.map(s =>
@@ -69,6 +75,10 @@ function render(container, data, lang, strings) {
         ${s === 'all' ? (strings.m2_filter_all ?? 'TODOS') : s.toUpperCase()}
       </button>`
     ).join('');
+
+    const searchHtml = `<input type="search" class="module-search"
+      placeholder="${strings.search_placeholder ?? 'Buscar...'}"
+      aria-label="${strings.search_placeholder ?? 'Buscar...'}">`;
 
     const updatedHtml = data.updated_at ? buildUpdatedAt(data.updated_at, strings, lang) : '';
 
@@ -84,6 +94,7 @@ function render(container, data, lang, strings) {
 
     container.innerHTML = `
       ${updatedHtml}
+      ${searchHtml}
       <div class="filter-pills" role="group">${pillsHtml}</div>
       <div class="news-list" aria-live="polite">${cardsHtml}</div>
       ${loadMoreHtml}`;
@@ -100,6 +111,18 @@ function render(container, data, lang, strings) {
       shownCount += PAGE_SIZE;
       rebuild();
     });
+
+    const search = container.querySelector('.module-search');
+    if (search) {
+      search.value = query;
+      search.addEventListener('input', () => {
+        query      = search.value;
+        shownCount = PAGE_SIZE;
+        rebuild();
+        const next = container.querySelector('.module-search');
+        if (next) { next.focus(); const v = next.value; next.value = ''; next.value = v; }
+      });
+    }
   }
 
   rebuild();

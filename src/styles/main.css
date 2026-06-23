@@ -454,6 +454,25 @@ p, li { font-family: var(--font-body); }
 .lang-sep { color: var(--border-strong); font-size: var(--t-xs); }
 
 /* ── Filter pills (shared across modules) ───────────────────────────── */
+.module-search {
+  width: 100%;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-default);
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: var(--t-sm);
+  padding: 8px 12px;
+  margin-bottom: var(--s-3);
+  letter-spacing: 0.02em;
+  transition: border-color var(--dur-fast), box-shadow var(--dur-fast);
+}
+.module-search::placeholder { color: var(--text-secondary); opacity: 0.6; }
+.module-search:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: var(--glow-soft);
+}
+
 .filter-pills {
   display: flex;
   flex-wrap: wrap;
