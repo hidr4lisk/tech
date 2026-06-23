@@ -1,24 +1,156 @@
 {
-  "updated_at": "2026-06-23T15:12:02Z",
+  "updated_at": "2026-06-23T20:11:51Z",
   "items": [
     {
-      "id": "localllama-2026-06-23-baidu-one-shot-long-horizon-parsing",
+      "id": "localllama-2026-06-23-tmax-27b---a-qwen36-27b-terminal-agent-for-small-gpus-traine",
       "source": "localllama",
-      "title": "Baidu: One-shot Long-horizon Parsing",
-      "url": "t3_1udiz7h",
-      "published_at": "2026-06-23T14:39:04Z",
-      "summary": "      &#32; submitted by &#32;  /u/zxyzyxz   [link] &#32; [comments] ",
+      "title": "Tmax-27b - a Qwen3.6-27b terminal agent for small GPUs trained with DPPO (RL)",
+      "url": "t3_1udqbdh",
+      "published_at": "2026-06-23T19:05:52Z",
+      "summary": "Hey everyone, wanted to share some work on making the new Tmax-27B terminal agent actually runnable on consumer hardware. What is Tmax-27B? Ai2 just released Tmax, a family of terminal-agent LLMs trained with DPPO (RL) o",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-23-docling-vs-liteparse-vs-mineru-vs-unstructured-for-on-prem-d",
+      "id": "localllama-2026-06-23-openmythos-benchmarks",
       "source": "localllama",
-      "title": "Docling vs Liteparse vs Mineru vs Unstructured for on-prem document processing for a university",
-      "url": "t3_1udha01",
-      "published_at": "2026-06-23T13:33:02Z",
-      "summary": "Hello everyone, I am quite messed up and i think i did a bit of over-engineering and the time is short now need to deliver a result soon, everything else is sorted out but i am stuck on these 4 options, just need to inte",
+      "title": "OpenMythos Benchmarks",
+      "url": "t3_1udq9p6",
+      "published_at": "2026-06-23T19:04:09Z",
+      "summary": "      Hey everyone! OpenMythos benchmarks are finally here sorry it took about a week to post these. The delay was mainly because SWE-bench results weren&#39;t matching up with Qwen 3.6 27B official numbers. Turns out Qw",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-23-opfs-pyodide-test-harness",
+      "source": "simonw",
+      "title": "OPFS + Pyodide test harness",
+      "url": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+      "published_at": "2026-06-23T18:58:54Z",
+      "summary": "Tool: OPFS + Pyodide test harness\n        I've been pondering if Datasette Lite - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-openmythos-benchmarks",
+      "source": "localllama",
+      "title": "OpenMythos benchmarks",
+      "url": "t3_1udq2ac",
+      "published_at": "2026-06-23T18:56:48Z",
+      "summary": "      Hey everyone! OpenMythos benchmarks are finally here sorry it took about a week to post these. The delay was mainly because SWE-bench results weren&#39;t matching up with Qwen 3.6 27B official numbers. Turns out Qw",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-im-eager-for-a-15x-speedup-on-my-strix-halo",
+      "source": "localllama",
+      "title": "I'm eager for a 15x speedup on my strix halo",
+      "url": "t3_1udpd7i",
+      "published_at": "2026-06-23T18:31:08Z",
+      "summary": "Nvidia says 15x speed up possible with diffusion model. Entire block of text generated at once. https://x.com/NVIDIAAI/status/2069465510790545761  &#32; submitted by &#32;  /u/Terminator857   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-update-qwen-27b-iq4-ks-and-qwen-27b-iq-ks-kt-for-ik-llamacpp",
+      "source": "localllama",
+      "title": "UPDATE: Qwen-27B-IQ4_KS and Qwen-27B-IQ_KS_KT for ik_llama.cpp, especially for NVIDIA with 16GB VRAM",
+      "url": "t3_1udomsd",
+      "published_at": "2026-06-23T18:04:51Z",
+      "summary": "Continuing 16GB VRAM Optimizations: New Qwen3.6-27B GGUF Quants (Experimental Trellis/iq4_kt &amp; MTP) Hi everyone, I&#39;m continuing my optimization efforts for 16GB VRAM and Nvidia GPUs from this post: https://www.re",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-not-ironclad-confirmation-but",
+      "source": "localllama",
+      "title": "Not ironclad confirmation, but..",
+      "url": "t3_1udo9il",
+      "published_at": "2026-06-23T17:51:44Z",
+      "summary": "      Over here: https://huggingface.co/papers/2606.21906 Kudos to xyzblaz for asking.  &#32; submitted by &#32;  /u/Kodix   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-is-it-possible-to-run-a-giant-model-like-glm52-on-this-clust",
+      "source": "localllama",
+      "title": "Is it possible to run a giant model like GLM5.2 on this cluster (4x servers with 512GB RAM + dual AMD Epyc)? 16 channel memory should hit 409GB/s per node.",
+      "url": "t3_1udo429",
+      "published_at": "2026-06-23T17:46:33Z",
+      "summary": "Hey all, I have a piece of hardware laying around which is pretty fast from a traditional (non-GPU) server viewpoint. The hardware is the following:  Dell C6525 Server with Quad Node (4x server blades) with the following",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-openrouter-model-prices-implying-heavier-quantization",
+      "source": "localllama",
+      "title": "Openrouter model prices implying heavier quantization?",
+      "url": "t3_1udmltk",
+      "published_at": "2026-06-23T16:51:47Z",
+      "summary": "Theres been a lot of talk about quiet quantization of models and what access to guaranteed model quality would look like. I’ve been trying to sanity check the economics of running large open models, and I’m having troubl",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-glm-52-on-mac-studio-speedup-pr",
+      "source": "localllama",
+      "title": "GLM 5.2 on Mac Studio Speedup PR",
+      "url": "t3_1udm9m4",
+      "published_at": "2026-06-23T16:39:22Z",
+      "summary": "Just a heads up for the lucky few 512 gb mac owners: GLM 5.2 is a game changer because prefill speeds stay above 100 t/s at much higher context, and also take less space, so we can run 4 bit quants well above 100k contex",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-i-benchmarked-8-llms-for-medical-scribing-hallucinations-wer",
+      "source": "localllama",
+      "title": "I benchmarked 8 LLMs for medical scribing. Hallucinations were rare; omissions need attention.",
+      "url": "t3_1udlrmf",
+      "published_at": "2026-06-23T16:20:55Z",
+      "summary": "      I ran a small benchmark on LLMs for medical scribing. Reason: most discussion around AI scribe safety focuses on hallucinations. That matters, but in notes I kept seeing another problem: models often leave out clin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "meta-2026-06-23-how-meta-engineered-ultra-narrow-batteries-for-ai-glasses",
+      "source": "meta",
+      "title": "How Meta Engineered Ultra-Narrow Batteries for AI Glasses",
+      "url": "https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/",
+      "published_at": "2026-06-23T16:00:38Z",
+      "summary": "Smart glasses like the Ray-Ban Meta and Oakley Meta Vanguards need to pack enough energy to power features like cameras, speakers, AI workloads, and even a display. But it all has to fit into the glasses’ temple arms. So",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-7-chinese-companies-are-already-shipping-h100h200-class-ai-c",
+      "source": "localllama",
+      "title": "7 Chinese companies are already shipping H100/H200-class AI chips, most IPO'd in the last 6 months. I mapped all of them.",
+      "url": "t3_1udkxde",
+      "published_at": "2026-06-23T15:50:53Z",
+      "summary": "      https://preview.redd.it/8e85oakbz19h1.png?width=3000&amp;format=png&amp;auto=webp&amp;s=258039cb277daa2572d1ba4eec8cc488357c62d0 I run Chinese open models on a 4×3090 rig every day. The more I watched these models ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-krea-2-released-on-hugging-face",
+      "source": "localllama",
+      "title": "Krea 2 released on Hugging Face",
+      "url": "t3_1udk2oi",
+      "published_at": "2026-06-23T15:19:40Z",
+      "summary": "      + turbo: https://huggingface.co/krea/Krea-2-Turbo  &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -35,120 +167,21 @@
       ]
     },
     {
-      "id": "localllama-2026-06-23-cpu-only-tts-benchmark-kokoro-82m-vs-supertonic-3-vs-inflect",
-      "source": "localllama",
-      "title": "CPU-only TTS benchmark: Kokoro 82M vs Supertonic 3 vs Inflect-Nano-v1 (4.6M params), with UTMOS scoring on every sample",
-      "url": "t3_1udg3rf",
-      "published_at": "2026-06-23T12:43:05Z",
-      "summary": "      Ran three open-weight TTS models head to head on CPU. Intel Xeon, 4 cores, 15.6GB RAM, no GPU. Five configs, six text lengths from 12 to 1712 chars, 5 timed reps per cell after warmup, 150 timed runs total. Every a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-23-llama-server-webui-not-responding-anymore",
-      "source": "localllama",
-      "title": "llama-server webui not responding anymore",
-      "url": "t3_1udelfd",
-      "published_at": "2026-06-23T11:32:17Z",
-      "summary": " what works: llama-cli, llama-server  not working: webui (prompt, mcp-discovery)  the webui is visible in firefox, a model can be loaded. but no responses to prompts (shows &quot;processing ...&quot;. in terminal i get t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-23-reusable-workflows-for-long-running-local-llms",
-      "source": "localllama",
-      "title": "Reusable workflows for long running local llms",
-      "url": "t3_1uddxsr",
-      "published_at": "2026-06-23T10:58:54Z",
-      "summary": "Howdy All, Letting you know about a harness I&#39;ve built to help us use local models on long tasks. I&#39;ve been using local llms for 8 months now and in that time the two biggest recurring issues are slow processing ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-23-pooled-round-robin-hardware-with-friends",
-      "source": "localllama",
-      "title": "Pooled round robin hardware with friends?",
-      "url": "t3_1uddmdk",
-      "published_at": "2026-06-23T10:41:12Z",
-      "summary": "I have a rig Friend1 has rig Friend2 has a rig Each rig idle 90% of the time With agentic, how could we round robin as a group? So when I load up, it checks if friends rigs are idle (vpn etc) and if idle farms out tasks.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-23-v100-4-card-ai-large-model-tesla-128g-server",
-      "source": "localllama",
-      "title": "V100 4-card AI large model, Tesla 128G server",
-      "url": "t3_1udd8a9",
-      "published_at": "2026-06-23T10:19:19Z",
-      "summary": "      using google translate  edit that will cost for USD 3687.76 V100 128G Liquid-Cooled Graphics Card Dock, 360° Liquid Cooling for the Entire System.  &#32; submitted by &#32;  /u/MundanePercentage674   [link] &#32; [",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-23-i-love-glm-52s-attitude-it-is-a-nice-refresher-from-those-bo",
-      "source": "localllama",
-      "title": "I love GLM 5.2's attitude! It is a nice refresher from those bootlicker doormats they are feeding us. Does that come from training datasets related to the local culture?",
-      "url": "t3_1udci9l",
-      "published_at": "2026-06-23T09:37:19Z",
-      "summary": "I have realised one thing I really like about GLM 5.2, apart from its capabilites and huge consistent context, is its attitude:  It is direct, concise, no fluff (as one infamous model likes to say) It won&#39;t take shit",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-23-my-local-server-idling-99-of-the-time",
-      "source": "localllama",
-      "title": "My local server idling 99% of the time!",
-      "url": "t3_1udbxji",
-      "published_at": "2026-06-23T09:04:35Z",
-      "summary": "Guys what you running to make agents busy? Like some crazy 24/7 tasks, or maybe some useful ideas on how to utilize local llm with some purpose/use? I personally running Qwen3.6-27B with owu and with pi for coding (littl",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-23-human-evaluation-of-glm-52",
-      "source": "localllama",
-      "title": "Human Evaluation of GLM-5.2",
-      "url": "t3_1udaq2e",
-      "published_at": "2026-06-23T07:52:19Z",
-      "summary": "      I&#39;ve seen plenty of benchmarks that put GLM-5.2 below many of the closed source alternatives but at their heels. I thought to myself, next version GLM will totally be where the best frontiers are at now. The la",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-23-i-open-sourced-an-alternative-to-cowork-focused-on-local-mod",
-      "source": "localllama",
-      "title": "I open-sourced an alternative to Cowork focused on local models, i need help what are the best models for giving good reasoning in agentic ai.",
-      "url": "t3_1udaopk",
-      "published_at": "2026-06-23T07:50:06Z",
-      "summary": "Disclosure: I&#39;m the creator of this project. Over the last few months I&#39;ve been building EverFern, an open-source desktop AI agent inspired by tools like Cowork. My main goal was to create something that works we",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-23-multi-tier-moe-caching",
-      "source": "localllama",
-      "title": "Multi Tier MoE Caching",
-      "url": "t3_1uda7e4",
-      "published_at": "2026-06-23T07:21:17Z",
-      "summary": "I&#39;ve never seen much discussion around this, but it feels like where MoE inference is heading. The bulk of big models we use, GLM 5.2, Deepseek V4, Stepfun, Minimix are MoE meaning inference is run on a small subsect",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-06-23-shipping-huggingface-hub-every-week-with-ai-open-tools-and-a",
       "source": "huggingface",
       "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
       "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "published_at": "2026-06-23T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-06-23-experimenting-with-the-proposed-cross-origin-storage-api-in",
+      "source": "huggingface",
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "url": "https://huggingface.co/blog/cross-origin-storage",
       "published_at": "2026-06-23T00:00:00Z",
       "summary": "",
       "tags": [
@@ -373,28 +406,6 @@
       "summary": "The Fable 5 Export Controls Harm US Cyber Defense\nI quoted The Atlantic quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable 5",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-16-quoting-matteo-wong-the-atlantic",
-      "source": "simonw",
-      "title": "Quoting Matteo Wong, The Atlantic",
-      "url": "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything",
-      "published_at": "2026-06-16T03:07:54Z",
-      "summary": "Katie Moussouris, a cybersecurity expert and the CEO of Luta Security, told me that Anthropic shared with her a copy of the White House’s report on the Fable jailbreak to get her appraisal. (She said that she is not bein",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-12-olmo-eval-an-evaluation-workbench-for-the-model-development",
-      "source": "huggingface",
-      "title": "olmo-eval: An evaluation workbench for the model development loop",
-      "url": "https://huggingface.co/blog/allenai/olmo-eval",
-      "published_at": "2026-06-12T15:56:10Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {

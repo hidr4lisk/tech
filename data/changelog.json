@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-23T15:12:10Z",
+  "updated_at": "2026-06-23T20:11:58Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9775",
+      "project": "llama-cpp",
+      "version": "b9775",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9775",
+      "published_at": "2026-06-23T16:48:29Z",
+      "body_excerpt": "server : check draft context creation error (#24922) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9774",
+      "project": "llama-cpp",
+      "version": "b9774",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9774",
+      "published_at": "2026-06-23T16:17:10Z",
+      "body_excerpt": "vulkan: support all backend tests for SQR/SQRT/SIN/COS/CLAMP/LEAKY_RELU/NORM (#24582) vulkan: make SQR/SQRT/SIN/COS/CLAMP/LEAKY_RELU use unary.comp vulkan: make NORM support noncontig add noncontiguous row test cases for norm/l2_norm, handle this in the CPU backend and l2_norm.comp fix supports_op for cuda and webgpu macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabl",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9773",
+      "project": "llama-cpp",
+      "version": "b9773",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9773",
+      "published_at": "2026-06-23T15:43:58Z",
+      "body_excerpt": "vulkan: Support GET_ROWS_BACK (#24883) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: W",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9771",
       "project": "llama-cpp",
@@ -5381,15 +5408,6 @@
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
       "published_at": "2026-03-27T00:33:02Z",
       "body_excerpt": "New Model additions VidEoMT Video Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that carries information across frames and employs a query fusion strategy that combines propagated querie",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.2-beta",
-      "project": "unsloth",
-      "version": "v0.1.2-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.2-beta",
-      "published_at": "2026-03-25T15:39:27Z",
-      "body_excerpt": "Hey guys, this is our first release since we launched Unsloth Studio last week. From now on you can directly access all our updates through our changelog here: You can now update Unsloth Studio! Just use: . Please update to use all the newest fixes and features. Tool calling improved. Better llama.cpp parsing, no raw tool markup in chat, faster inference, a new Tool Outputs panel, timers. Windows ",
       "type": "tool"
     }
   ]
