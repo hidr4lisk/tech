@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-23T09:52:25Z",
+  "updated_at": "2026-06-23T15:12:10Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9771",
+      "project": "llama-cpp",
+      "version": "b9771",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9771",
+      "published_at": "2026-06-23T13:27:50Z",
+      "body_excerpt": "vulkan: make mul_mm ALIGNED a spec constant (#24689) This trims down some of the shader variant explosion and reduces binary size. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9770",
+      "project": "llama-cpp",
+      "version": "b9770",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9770",
+      "published_at": "2026-06-23T12:25:01Z",
+      "body_excerpt": "server: fix remote preset handling, add test (#24938) server: add test for remote preset fix remote preset handling fix fix test macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenV",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9769",
+      "project": "llama-cpp",
+      "version": "b9769",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9769",
+      "published_at": "2026-06-23T11:43:26Z",
+      "body_excerpt": "vulkan: link ggml-cpu when GGML_VULKAN_CHECK_RESULTS / RUN_TESTS are enabled (#24444) The result-checking and test debug paths in ggml-vulkan.cpp call ggml_graph_compute_with_ctx() to compute a CPU reference graph, but that symbol is defined in ggml-cpu, which ggml-vulkan does not link. Enabling -DGGML_VULKAN_CHECK_RESULTS=ON (or -DGGML_VULKAN_RUN_TESTS=ON) therefore fails to link with an unresolv",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9768",
+      "project": "llama-cpp",
+      "version": "b9768",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9768",
+      "published_at": "2026-06-23T10:48:33Z",
+      "body_excerpt": "model: Granite Speech Plus (#24818) feat: Add conversion support for Granite Speech Plus Branch: GraniteSpeechPlus AI-usage: full (Bob, OpenCode + Qwen3.6-35b) Signed-off-by: Gabe Goodhart feat: Extend granite_speech to support plus multi-layer concatenation Branch: GraniteSpeechPlus AI-usage: draft (Bob, OpenCode + Qwen3.6-35b) Signed-off-by: Gabe Goodhart fix(conversion): Fix plural naming for f",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9767",
       "project": "llama-cpp",
