@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-06-23T07:52:43Z",
+  "updated_at": "2026-06-23T09:52:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9767",
+      "project": "llama-cpp",
+      "version": "b9767",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9767",
+      "published_at": "2026-06-23T08:58:23Z",
+      "body_excerpt": "ggml-webgpu: improve MTP inference by using mat-vec path for small batches (#24811) ggml-webgpu: improve small batches decoding Add barrier to the NUM_COLS loop in mul-mat-vec macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9763",
       "project": "llama-cpp",
