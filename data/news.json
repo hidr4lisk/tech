@@ -1,6 +1,160 @@
 {
-  "updated_at": "2026-06-23T03:59:38Z",
+  "updated_at": "2026-06-23T07:43:57Z",
   "items": [
+    {
+      "id": "localllama-2026-06-23-multi-tier-moe-caching",
+      "source": "localllama",
+      "title": "Multi Tier MoE Caching",
+      "url": "t3_1uda7e4",
+      "published_at": "2026-06-23T07:21:17Z",
+      "summary": "I&#39;ve never seen much discussion around this, but it feels like where MoE inference is heading. The bulk of big models we use, GLM 5.2, Deepseek V4, Stepfun, Minimix are MoE meaning inference is run on a small subsect",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-how-do-i-prove-that-i-dont-collect-data-from-my-llm-app",
+      "source": "localllama",
+      "title": "How do I prove that I don't collect data from my llm app?",
+      "url": "t3_1ud9j4k",
+      "published_at": "2026-06-23T06:41:44Z",
+      "summary": "Building an incognito llm chat app for hobby and fun. I don&#39;t want users to trust me that I don&#39;t log prompts. I want them to be able to verify it. I can&#39;t really go the TEE route as that is very hardware lea",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-training-a-qwen-35-4b9b-agent-for-multi-tool-use-sft-first-o",
+      "source": "localllama",
+      "title": "Training a Qwen 3.5 4B/9B agent for multi-tool use: SFT first or go directly to RL?",
+      "url": "t3_1ud8opg",
+      "published_at": "2026-06-23T05:53:41Z",
+      "summary": "To train Qwen 3.5 4B or 9B for a custom multi-tool agent workflow and would appreciate guidance from people who have done this successfully. A few questions:  SFT → RL or RL-only? - Is it still recommended to first do su",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-is-there-any-reason-for-a-lack-of-love-for-gemma-4-26b",
+      "source": "localllama",
+      "title": "Is there any reason for a lack of love for Gemma 4 26b?",
+      "url": "t3_1ud7pqp",
+      "published_at": "2026-06-23T05:01:03Z",
+      "summary": "The answer to most questions on here is Qwen3.6 27b or 35b and then Gemma4 31b (but lesser so as it doesn’t fit well on a solo 3090). Is there any reason why Gemma 4 26b moe isn’t mentioned more? I plan on using Qwen for",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-minimax-m3-eagle3-gguf---llamacpp-compatible-minimax-m3-eagl",
+      "source": "localllama",
+      "title": "MiniMax-M3-EAGLE3-GGUF - Llama.cpp compatible MiniMax M3 EAGLE draft model!",
+      "url": "t3_1ud6bct",
+      "published_at": "2026-06-23T03:49:23Z",
+      "summary": "Hi all! With a new PR for llama.cpp, MiniMax M3&#39;s EAGLE decoder by Inferact/MiniMax-M3-EAGLE3 has successfully been converted to GGUF and runs without issue! The HF repo has instructions for both merging in the PR an",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-100-ts-on-qwen36-27b-q8-across-a-5090-3090-ti-switching-to-t",
+      "source": "localllama",
+      "title": "100+ t/s on Qwen3.6-27B Q8 across a 5090 + 3090 Ti — switching to tensor split-mode got me from 70 to 100+",
+      "url": "t3_1ud5wx2",
+      "published_at": "2026-06-23T03:29:12Z",
+      "summary": "Wanted to share a setup that&#39;s been working great for me. Running Qwen3.6-27B at Q8_0 across two GPUs (RTX 5090 + RTX 3090 Ti) and getting ~100 t/s. The big jump came from switching --split-mode to tensor. I was sitt",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-boogu-base-turbo-edit---open-source-unified-image-generation",
+      "source": "localllama",
+      "title": "Boogu Base, Turbo, Edit - open-source unified image generation and editing model series",
+      "url": "t3_1ud5ody",
+      "published_at": "2026-06-23T03:17:39Z",
+      "summary": "      Boogu-Image-0.1 is a competitive Apache-2.0 open-source unified image generation and editing model family, including Base, Turbo, Edit, and other variants that provide stable, practical capabilities for high-qualit",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-eff-u-arc-b70-customers-we-got-ours--your-sugar-baby-intel",
+      "source": "localllama",
+      "title": "Eff U, Arc / B70 Customers. We got ours! -Your Sugar Baby, Intel",
+      "url": "t3_1ud5l7h",
+      "published_at": "2026-06-23T03:13:28Z",
+      "summary": "Since we&#39;re due a &quot;Should I buy a B70&quot; post, no. Just no. Am I hoping someone who doesn&#39;t read this will buy mine on eBay in the next few days? Hell, yes.  Here&#39;s the deal... A B70 is a decent buy i",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-sk-hynix-reallocating-some-hbm-production-to-dram",
+      "source": "localllama",
+      "title": "sk hynix reallocating some hbm production to dram",
+      "url": "t3_1ud4otl",
+      "published_at": "2026-06-23T02:30:41Z",
+      "summary": "SK hynix is reportedly delaying the transition of some fifth-generation HBM (HBM3E) production lines that were originally scheduled to be converted to HBM4. It is intended to increase the general-purpose DRAM market resp",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-23-why-is-no-one-talking-about-microsofts-open-source-fast-cont",
+      "source": "localllama",
+      "title": "Why is NO one talking about Microsoft's open source Fast Context!!!",
+      "url": "t3_1ud1lro",
+      "published_at": "2026-06-23T00:11:05Z",
+      "summary": "      https://huggingface.co/microsoft/FastContext-1.0-4B-SFT https://github.com/microsoft/fastcontext FastContext-1.0 is a lightweight repository-exploration subagent for LLM coding agents. Instead of letting a single m",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-22-prompt-injection-as-role-confusion",
+      "source": "simonw",
+      "title": "Prompt Injection as Role Confusion",
+      "url": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
+      "published_at": "2026-06-22T23:59:53Z",
+      "summary": "Prompt Injection as Role Confusion\nFirst, I absolutely love this:\n\nThis is a blog-style writeup of the paper.\n\nI wish every paper would come with one of these. Academic writing is pretty dry - the impact of a paper can b",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-22-porting-the-moebius-02b-image-inpainting-model-to-run-in-the",
+      "source": "simonw",
+      "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+      "url": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
+      "published_at": "2026-06-22T23:43:51Z",
+      "summary": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance, describing a small but effective inpainting model - a model where you can mark regions of an image to rem",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-22-is-gemma-4-going-to-be-the-next-mistral-or-qwen36-one-day-co",
+      "source": "localllama",
+      "title": "Is Gemma 4 going to be the next Mistral (or Qwen3.6) one day? Concerning the lack of finetunes",
+      "url": "t3_1ucy863",
+      "published_at": "2026-06-22T21:52:23Z",
+      "summary": "https://eqbench.com/creative_writing.html#:~:text=gemma&#37;2D4&#37;2D31B,Sample From what I&#39;ve seen Gemma 4 has better everything (especially long-context adherence) EXCEPT for the raw prosing performance of Mistral",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-22-new-ablation-operator-apostate",
+      "source": "localllama",
+      "title": "New ablation operator. (apostate)",
+      "url": "t3_1ucx89i",
+      "published_at": "2026-06-22T21:14:08Z",
+      "summary": "Today I added a new operator to apostate. This new operator is a contrastive co-vector edit E = I − R Dᵀ. Removing the refusal direction outright disturbs benign behavior, while naively preserving all harmless variance a",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "huggingface-2026-06-22-pp-ocrv6-on-hugging-face-50-language-ocr-from-15m-to-345m-pa",
       "source": "huggingface",
@@ -10,6 +164,61 @@
       "summary": "",
       "tags": [
         "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-06-22-we-got-local-models-to-triage-the-openclaw-repo-for-free",
+      "source": "huggingface",
+      "title": "We got local models to triage the OpenClaw repo for FREE!*",
+      "url": "https://huggingface.co/blog/local-models-pr-triage",
+      "published_at": "2026-06-22T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-21-sqlite-utils-40rc1-adds-migrations-and-nested-transactions",
+      "source": "simonw",
+      "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
+      "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
+      "published_at": "2026-06-21T23:35:47Z",
+      "summary": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package, including support for complex",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-21-temporary-cloudflare-accounts-for-ai-agents",
+      "source": "simonw",
+      "title": "Temporary Cloudflare Accounts for AI agents",
+      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+      "published_at": "2026-06-21T22:01:04Z",
+      "summary": "Temporary Cloudflare Accounts for AI agents\nThe announcement says this is \"for AI agents\" but (as is pretty common these days) the AI hook isn't really necessary, this is an interesting feature for everyone else as well.",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-19-quoting-sean-lynch",
+      "source": "simonw",
+      "title": "Quoting Sean Lynch",
+      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
+      "published_at": "2026-06-19T22:45:49Z",
+      "summary": "The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...]\nMaybe the idealized form of MCP is just an au",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-18-datasette-apps-host-custom-html-applications-inside-datasett",
+      "source": "simonw",
+      "title": "Datasette Apps: Host custom HTML applications inside Datasette",
+      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
+      "published_at": "2026-06-18T23:58:38Z",
+      "summary": "Today we launched a new plugin for Datasette, datasette-apps, with this launch announcement post on the Datasette project blog. That post has the what, but I'm going to expand on that a little bit here to provide the why",
+      "tags": [
+        "simonw"
       ]
     },
     {
@@ -43,6 +252,28 @@
       "summary": "",
       "tags": [
         "huggingface"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-17-glm-52-is-probably-the-most-powerful-text-only-open-weights",
+      "source": "simonw",
+      "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+      "published_at": "2026-06-17T23:58:39Z",
+      "summary": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-17-quoting-charity-majors",
+      "source": "simonw",
+      "title": "Quoting Charity Majors",
+      "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
+      "published_at": "2026-06-17T17:12:41Z",
+      "summary": "What happened in 2025 was this: the economics of code production were turned upside down. Instead of being very hard, time-consuming, and expensive to generate code, it became effectively free and instant. Lines of code ",
+      "tags": [
+        "simonw"
       ]
     },
     {
@@ -90,6 +321,50 @@
       ]
     },
     {
+      "id": "simonw-2026-06-16-datasette-tailscale-01a0",
+      "source": "simonw",
+      "title": "datasette-tailscale 0.1a0",
+      "url": "https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything",
+      "published_at": "2026-06-16T16:18:20Z",
+      "summary": "Release: datasette-tailscale 0.1a0\n        A very experimental alpha plugin which lets you do this:\ndatasette tailscale mydata.db \\\n  --ts-authkey tskey-auth-xxxx --ts-hostname datasette-preview\n\nThis starts a localhost ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-16-quoting-georgi-gerganov",
+      "source": "simonw",
+      "title": "Quoting Georgi Gerganov",
+      "url": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything",
+      "published_at": "2026-06-16T16:04:59Z",
+      "summary": "I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for sma",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-16-the-fable-5-export-controls-harm-us-cyber-defense",
+      "source": "simonw",
+      "title": "The Fable 5 Export Controls Harm US Cyber Defense",
+      "url": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+      "published_at": "2026-06-16T05:20:29Z",
+      "summary": "The Fable 5 Export Controls Harm US Cyber Defense\nI quoted The Atlantic quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable 5",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-16-quoting-matteo-wong-the-atlantic",
+      "source": "simonw",
+      "title": "Quoting Matteo Wong, The Atlantic",
+      "url": "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything",
+      "published_at": "2026-06-16T03:07:54Z",
+      "summary": "Katie Moussouris, a cybersecurity expert and the CEO of Luta Security, told me that Anthropic shared with her a copy of the White House’s report on the Fable jailbreak to get her appraisal. (She said that she is not bein",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
       "id": "huggingface-2026-06-12-olmo-eval-an-evaluation-workbench-for-the-model-development",
       "source": "huggingface",
       "title": "olmo-eval: An evaluation workbench for the model development loop",
@@ -123,182 +398,6 @@
       ]
     },
     {
-      "id": "huggingface-2026-06-09-introducing-north-mini-code-coheres-first-model-for-develope",
-      "source": "huggingface",
-      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
-      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
-      "published_at": "2026-06-09T15:56:23Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-09-how-an-agent-built-a-3d-paris-gallery-by-chaining-two-huggin",
-      "source": "huggingface",
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "published_at": "2026-06-09T10:46:19Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-09-neurobait-i-fine-tuned-a-model-to-spark-dopamine-for-adhd-br",
-      "source": "huggingface",
-      "title": "NeuroBait: I fine-tuned a model to spark dopamine for ADHD brain",
-      "url": "https://huggingface.co/blog/build-small-hackathon/neurobait-adhd",
-      "published_at": "2026-06-09T09:04:58Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-09-migrating-your-github-ci-to-hugging-face-jobs",
-      "source": "huggingface",
-      "title": "Migrating Your GitHub CI to Hugging Face Jobs",
-      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
-      "published_at": "2026-06-09T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-08-the-crash-that-vanished-control-and-emergence-in-a-five-mode",
-      "source": "huggingface",
-      "title": "The crash that vanished: control and emergence in a five-model economy",
-      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
-      "published_at": "2026-06-08T13:10:48Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-08-the-open-source-community-is-backing-openenv-for-agentic-rl",
-      "source": "huggingface",
-      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
-      "url": "https://huggingface.co/blog/openenv-agentic-rl",
-      "published_at": "2026-06-08T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-07-amazing-digital-dentures-a-failed-project",
-      "source": "huggingface",
-      "title": "Amazing Digital Dentures (a failed project)",
-      "url": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
-      "published_at": "2026-06-07T19:44:27Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-07-room360-video-to-3d-spatial-reconstruction-platform",
-      "source": "huggingface",
-      "title": "Room360: Video-to-3D Spatial Reconstruction Platform",
-      "url": "https://huggingface.co/blog/build-small-hackathon/video-to-3d-spatial-reconstruction-platform",
-      "published_at": "2026-06-07T19:30:16Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-07-sponsors-especially-openai-codex-voucher-usage-for-codex---o",
-      "source": "huggingface",
-      "title": "Sponsors especially OPENAI CODEX voucher usage for codex - openAI challange",
-      "url": "https://huggingface.co/blog/build-small-hackathon/sponsors-vouchers",
-      "published_at": "2026-06-07T11:38:54Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-06-five-labs-five-minds-building-a-multi-model-finance-drama-on",
-      "source": "huggingface",
-      "title": "Five labs, five minds: building a multi-model finance drama on small models",
-      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
-      "published_at": "2026-06-06T19:02:33Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-06-persona-atlas-mapping-how-famous-minds-think",
-      "source": "huggingface",
-      "title": "Persona Atlas: Mapping How Famous Minds Think",
-      "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
-      "published_at": "2026-06-06T11:42:01Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-05-thousand-token-wood-shipping-a-multi-agent-economy-on-a-3b-m",
-      "source": "huggingface",
-      "title": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
-      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
-      "published_at": "2026-06-05T22:18:46Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-04-nemotron-35-content-safety-customizable-multimodal-safety-fo",
-      "source": "huggingface",
-      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "published_at": "2026-06-04T18:57:45Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-04-how-to-fine-tune-nemotron-35-asr-for-your-language-domain-or",
-      "source": "huggingface",
-      "title": "How to Fine-Tune Nemotron 3.5 ASR for Your Language, Domain, or Accent",
-      "url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
-      "published_at": "2026-06-04T12:59:35Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-04-eva-bench-data-20-3-domains-121-tools-213-scenarios",
-      "source": "huggingface",
-      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "published_at": "2026-06-04T12:24:58Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-04-designing-the-hf-cli-as-an-agent-optimized-way-to-work-with",
-      "source": "huggingface",
-      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "published_at": "2026-06-04T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "meta-2026-06-03-lights-out-systems-on-validating-instant-power-loss-readines",
       "source": "meta",
       "title": "Lights Out, Systems On: Validating Instant Power Loss Readiness",
@@ -307,116 +406,6 @@
       "summary": "We’re introducing Instantaneous PowerLoss Storm, a new testing paradigm within Meta’s infrastructure for handling and mitigating instant or zero-notice power loss in our data centers.  We’re sharing: how we built readine",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-03-direct-preference-optimization-beyond-chatbots",
-      "source": "huggingface",
-      "title": "Direct Preference Optimization Beyond Chatbots",
-      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "published_at": "2026-06-03T12:55:11Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-03-adding-mcp-tools-to-reachy-mini",
-      "source": "huggingface",
-      "title": "Adding MCP Tools to Reachy Mini",
-      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-      "published_at": "2026-06-03T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-02-holo31-fast-local-computer-use-agents",
-      "source": "huggingface",
-      "title": "Holo3.1: Fast & Local Computer Use Agents",
-      "url": "https://huggingface.co/blog/Hcompany/holo31",
-      "published_at": "2026-06-02T14:13:23Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-01-introducing-mellum2-a-12b-mixture-of-experts-model-by-jetbra",
-      "source": "huggingface",
-      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-      "published_at": "2026-06-01T15:45:17Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-01-beyond-llms-why-scalable-enterprise-ai-adoption-depends-on-a",
-      "source": "huggingface",
-      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "published_at": "2026-06-01T13:51:18Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-01-welcome-nvidia-cosmos-3-the-first-open-omni-model-for-physic",
-      "source": "huggingface",
-      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-      "published_at": "2026-06-01T04:44:55Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-05-29-profiling-in-pytorch-part-1-a-beginners-guide-to-torchprofil",
-      "source": "huggingface",
-      "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
-      "url": "https://huggingface.co/blog/torch-profiler",
-      "published_at": "2026-05-29T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-05-27-itbench-aa-frontier-models-score-below-50-on-the-first-bench",
-      "source": "huggingface",
-      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
-      "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
-      "published_at": "2026-05-27T17:20:29Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-05-27-reachy-mini-goes-fully-local",
-      "source": "huggingface",
-      "title": "Reachy Mini goes fully local",
-      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
-      "published_at": "2026-05-27T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-05-27-shipping-a-trillion-parameters-with-a-hub-bucket-delta-weigh",
-      "source": "huggingface",
-      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
-      "url": "https://huggingface.co/blog/delta-weight-sync",
-      "published_at": "2026-05-27T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
@@ -431,39 +420,6 @@
       ]
     },
     {
-      "id": "huggingface-2026-05-25-harness-scaffold-and-the-ai-agent-terms-worth-getting-right",
-      "source": "huggingface",
-      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-      "url": "https://huggingface.co/blog/agent-glossary",
-      "published_at": "2026-05-25T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-05-23-towards-speed-of-light-text-generation-with-nemotron-labs-di",
-      "source": "huggingface",
-      "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
-      "published_at": "2026-05-23T00:02:03Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-05-22-specialization-beats-scale-a-strategic-variable-most-ai-proc",
-      "source": "huggingface",
-      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
-      "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
-      "published_at": "2026-05-22T15:25:59Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "microsoft-2026-05-21-magenticlite-magenticbrain-fara15-an-agentic-experience-opti",
       "source": "microsoft",
       "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
@@ -475,58 +431,14 @@
       ]
     },
     {
-      "id": "huggingface-2026-05-19-olmoearth-v11-a-more-efficient-family-of-earth-observation-m",
-      "source": "huggingface",
-      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-      "published_at": "2026-05-19T18:38:09Z",
-      "summary": "",
+      "id": "google-2026-05-19-gemini-35-frontier-intelligence-with-action",
+      "source": "google",
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "published_at": "2026-05-19T17:45:00Z",
+      "summary": "At Google I/O we released Gemini 3.5, our latest series of models combining frontier intelligence with action.",
       "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-05-19-introducing-the-ettin-reranker-family",
-      "source": "huggingface",
-      "title": "Introducing the Ettin Reranker Family",
-      "url": "https://huggingface.co/blog/ettin-reranker",
-      "published_at": "2026-05-19T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-05-18-fine-tuning-nvidia-cosmos-predict-25-with-loradora-for-robot",
-      "source": "huggingface",
-      "title": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
-      "published_at": "2026-05-18T16:00:21Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-05-18-paddleocr-35-running-ocr-and-document-parsing-tasks-with-a-t",
-      "source": "huggingface",
-      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
-      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
-      "published_at": "2026-05-18T15:12:46Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-05-18-the-open-agent-leaderboard",
-      "source": "huggingface",
-      "title": "The Open Agent Leaderboard",
-      "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
-      "published_at": "2026-05-18T14:12:58Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
+        "google"
       ]
     },
     {
@@ -538,28 +450,6 @@
       "summary": "Our recent paper, “LLMs Corrupt Your Documents When You Delegate”, has generated discussion about the reliability of AI systems in delegated workflows. We appreciate the interest in this work and want to clarify several ",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "huggingface-2026-05-14-granite-embedding-multilingual-r2-open-apache-20-multilingua",
-      "source": "huggingface",
-      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
-      "published_at": "2026-05-14T18:55:01Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-05-14-unlocking-asynchronicity-in-continuous-batching",
-      "source": "huggingface",
-      "title": "Unlocking asynchronicity in continuous batching",
-      "url": "https://huggingface.co/blog/continuous_async",
-      "published_at": "2026-05-14T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
@@ -607,17 +497,6 @@
       ]
     },
     {
-      "id": "huggingface-2026-05-11-building-blocks-for-foundation-model-training-and-inference",
-      "source": "huggingface",
-      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
-      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
-      "published_at": "2026-05-11T23:18:26Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "microsoft-2026-05-11-socialreasoning-bench-measuring-whether-ai-agents-act-in-use",
       "source": "microsoft",
       "title": "SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests",
@@ -629,36 +508,289 @@
       ]
     },
     {
-      "id": "microsoft-2026-05-08-building-realistic-electric-transmission-grid-dataset-at-sca",
-      "source": "microsoft",
-      "title": "Building realistic electric transmission grid dataset at scale: a pipeline from open dataset",
-      "url": "https://www.microsoft.com/en-us/research/blog/building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset/",
-      "published_at": "2026-05-08T19:53:56Z",
-      "summary": "Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is es",
+      "id": "meta-2026-04-21-modernizing-the-facebook-groups-search-to-unlock-the-power-o",
+      "source": "meta",
+      "title": "Modernizing the Facebook Groups Search to Unlock the Power of Community Knowledge",
+      "url": "https://engineering.fb.com/2026/04/21/ml-applications/modernizing-the-facebook-groups-search-to-unlock-the-power-of-community-knowledge/",
+      "published_at": "2026-04-21T16:00:19Z",
+      "summary": "We’ve fundamentally transformed Facebook Groups Search to help people more reliably discover, sort through, and validate community content that’s most relevant to them. We’ve adopted a new hybrid retrieval architecture a",
       "tags": [
-        "microsoft"
+        "meta"
       ]
     },
     {
-      "id": "huggingface-2026-05-06-vllm-v0-to-v1-correctness-before-corrections-in-rl",
-      "source": "huggingface",
-      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
-      "published_at": "2026-05-06T19:06:55Z",
-      "summary": "",
+      "id": "meta-2026-04-16-capacity-efficiency-at-meta-how-unified-ai-agents-optimize-p",
+      "source": "meta",
+      "title": "Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale",
+      "url": "https://engineering.fb.com/2026/04/16/developer-tools/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale/",
+      "published_at": "2026-04-16T16:00:34Z",
+      "summary": "We&#8217;re sharing insights into Meta&#8217;s Capacity Efficiency Program, where we&#8217;ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leverag",
       "tags": [
-        "huggingface"
+        "meta"
       ]
     },
     {
-      "id": "huggingface-2026-05-06-adding-benchmaxxer-repellant-to-the-open-asr-leaderboard",
-      "source": "huggingface",
-      "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
-      "published_at": "2026-05-06T00:00:00Z",
-      "summary": "",
+      "id": "gradient-2026-02-18-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
+      "source": "gradient",
+      "title": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
+      "url": "https://thegradient.pub/virtue-ethics-ai-alignment/",
+      "published_at": "2026-02-18T23:25:52Z",
+      "summary": "Preface\nThis essay argues that rational people don&#x2019;t have goals, and that rational AIs shouldn&#x2019;t have goals. Human actions are rational not because we direct them at some final &#x2018;goals,&#x2019; but be",
       "tags": [
-        "huggingface"
+        "gradient"
+      ]
+    },
+    {
+      "id": "qwen-2025-09-23-qwen3guard-real-time-safety-for-your-token-stream",
+      "source": "qwen",
+      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
+      "url": "https://qwenlm.github.io/blog/qwen3guard/",
+      "published_at": "2025-09-23T04:00:00+08:00",
+      "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD\nIntroduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned ",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "qwen-2025-08-19-qwen-image-edit-image-editing-with-higher-quality-and-effici",
+      "source": "qwen",
+      "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
+      "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
+      "published_at": "2025-08-19T01:30:00+08:00",
+      "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD\nWe are excited to introduce Qwen-Image-Edit, the image editing version of Qwen-Image. Built upon our 20B Qwen-Image model, Qwen-Image-Edit successfully extends Qwen-Image&",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "qwen-2025-08-04-qwen-image-crafting-with-native-text-rendering",
+      "source": "qwen",
+      "title": "Qwen-Image: Crafting with Native Text Rendering",
+      "url": "https://qwenlm.github.io/blog/qwen-image/",
+      "published_at": "2025-08-04T22:08:30+08:00",
+      "summary": "GITHUB HUGGING FACE MODELSCOPE DEMO DISCORD\nWe are thrilled to release Qwen-Image, a 20B MMDiT image foundation model that achieves significant advances in complex text rendering and precise image editing. To try the lat",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "qwen-2025-07-27-gspo-towards-scalable-reinforcement-learning-for-language-mo",
+      "source": "qwen",
+      "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
+      "url": "https://qwenlm.github.io/blog/gspo/",
+      "published_at": "2025-07-27T15:00:00+08:00",
+      "summary": "PAPER DISCORD\nIntroduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, the foremost prerequi",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "qwen-2025-07-24-qwen-mt-where-speed-meets-smart-translation",
+      "source": "qwen",
+      "title": "Qwen-MT: Where Speed Meets Smart Translation",
+      "url": "https://qwenlm.github.io/blog/qwen-mt/",
+      "published_at": "2025-07-24T22:00:00+08:00",
+      "summary": "DEMO API DISCORD\nIntroduction Here we introduce the latest update of Qwen-MT (qwen-mt-turbo) via Qwen API. This update builds upon the powerful Qwen3, leveraging trillions multilingual and translation tokens to comprehen",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "qwen-2025-07-22-qwen3-coder-agentic-coding-in-the-world",
+      "source": "qwen",
+      "title": "Qwen3-Coder: Agentic Coding in the World",
+      "url": "https://qwenlm.github.io/blog/qwen3-coder/",
+      "published_at": "2025-07-22T21:00:00+08:00",
+      "summary": "GITHUB HUGGING FACE MODELSCOPE DISCORD\nToday, we&rsquo;re announcing Qwen3-Coder, our most agentic code model to date. Qwen3-Coder is available in multiple sizes, but we&rsquo;re excited to introduce its most powerful va",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "qwen-2025-06-27-time-to-speak-some-dialects-qwen-tts",
+      "source": "qwen",
+      "title": "Time to Speak Some Dialects, Qwen-TTS!",
+      "url": "https://qwenlm.github.io/blog/qwen-tts/",
+      "published_at": "2025-06-27T15:01:30+08:00",
+      "summary": "API DISCORD\nIntroduction Here we introduce the latest update of Qwen-TTS (qwen-tts-latest or qwen-tts-2025-05-22) through Qwen API . Trained on a large-scale dataset encompassing over millions of hours of speech, Qwen-TT",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "qwen-2025-06-26-qwen-vlo-from-understanding-the-world-to-depicting-it",
+      "source": "qwen",
+      "title": "Qwen VLo: From \"Understanding\" the World to \"Depicting\" It",
+      "url": "https://qwenlm.github.io/blog/qwen-vlo/",
+      "published_at": "2025-06-26T22:00:04+08:00",
+      "summary": "QWEN CHAT DISCORD\nIntroduction The evolution of multimodal large models is continually pushing the boundaries of what we believe technology can achieve. From the initial QwenVL to the latest Qwen2.5 VL, we have made prog",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "qwen-2025-06-05-qwen3-embedding-advancing-text-embedding-and-reranking-throu",
+      "source": "qwen",
+      "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models",
+      "url": "https://qwenlm.github.io/blog/qwen3-embedding/",
+      "published_at": "2025-06-05T21:00:00+08:00",
+      "summary": "GITHUB HUGGING FACE MODELSCOPE DISCORD\nWe release Qwen3 Embedding series, a new proprietary model of the Qwen model family. These models are specifically designed for text embedding, retrieval, and reranking tasks, built",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "gradient-2025-06-04-agi-is-not-multimodal",
+      "source": "gradient",
+      "title": "AGI Is Not Multimodal",
+      "url": "https://thegradient.pub/agi-is-not-multimodal/",
+      "published_at": "2025-06-04T14:00:29Z",
+      "summary": "&quot;In projecting language back as the model for thought, we lose sight of the tacit embodied understanding that undergirds our intelligence.&quot; &#x2013;Terry WinogradThe recent successes of generative AI models hav",
+      "tags": [
+        "gradient"
+      ]
+    },
+    {
+      "id": "qwen-2025-04-29-qwen3-think-deeper-act-faster",
+      "source": "qwen",
+      "title": "Qwen3: Think Deeper, Act Faster",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "published_at": "2025-04-29T04:00:00+08:00",
+      "summary": "QWEN CHAT GitHub Hugging Face ModelScope Kaggle DEMO DISCORD\nIntroduction Today, we are excited to announce the release of Qwen3, the latest addition to the Qwen family of large language models. Our flagship model, Qwen3",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "qwen-2025-03-28-qvq-max-think-with-evidence",
+      "source": "qwen",
+      "title": "QVQ-Max: Think with Evidence",
+      "url": "https://qwenlm.github.io/blog/qvq-max-preview/",
+      "published_at": "2025-03-28T00:00:04+08:00",
+      "summary": "QWEN CHAT GITHUB HUGGING FACE MODELSCOPE DISCORD\nIntroduction Last December, we launched QVQ-72B-Preview as an exploratory model, but it had many issues. Today, we are officially releasing the first version of QVQ-Max, o",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "qwen-2025-03-27-qwen25-omni-see-hear-talk-write-do-it-all",
+      "source": "qwen",
+      "title": "Qwen2.5 Omni: See, Hear, Talk, Write, Do It All!",
+      "url": "https://qwenlm.github.io/blog/qwen2.5-omni/",
+      "published_at": "2025-03-27T00:00:45+08:00",
+      "summary": "QWEN CHAT HUGGING FACE MODELSCOPE DASHSCOPE GITHUB PAPER DEMO DISCORD\nWe release Qwen2.5-Omni, the new flagship end-to-end multimodal model in the Qwen series. Designed for comprehensive multimodal perception, it seamles",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "gradient-2024-11-16-shape-symmetries-and-structure-the-changing-role-of-mathemat",
+      "source": "gradient",
+      "title": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+      "url": "https://thegradient.pub/shape-symmetry-structure/",
+      "published_at": "2024-11-16T16:46:15Z",
+      "summary": "What is the Role of Mathematics in Modern Machine Learning?The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architectu",
+      "tags": [
+        "gradient"
+      ]
+    },
+    {
+      "id": "gradient-2024-09-09-whats-missing-from-llm-chatbots-a-sense-of-purpose",
+      "source": "gradient",
+      "title": "What's Missing From LLM Chatbots: A Sense of Purpose",
+      "url": "https://thegradient.pub/dialog/",
+      "published_at": "2024-09-09T17:28:48Z",
+      "summary": "LLM-based chatbots&#x2019; capabilities have been advancing every month. These improvements are mostly measured by benchmarks like MMLU, HumanEval, and MATH (e.g. sonnet 3.5, gpt-4o). However, as these measures get more ",
+      "tags": [
+        "gradient"
+      ]
+    },
+    {
+      "id": "gradient-2024-08-03-we-need-positive-visions-for-ai-grounded-in-wellbeing",
+      "source": "gradient",
+      "title": "We Need Positive Visions for AI Grounded in Wellbeing",
+      "url": "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/",
+      "published_at": "2024-08-03T17:00:43Z",
+      "summary": "IntroductionImagine yourself a decade ago, jumping directly into the present shock of conversing naturally with an encyclopedic AI that crafts images, writes code, and debates philosophy. Won&#x2019;t this technology alm",
+      "tags": [
+        "gradient"
+      ]
+    },
+    {
+      "id": "gradient-2024-04-20-financial-market-applications-of-llms",
+      "source": "gradient",
+      "title": "Financial Market Applications of LLMs",
+      "url": "https://thegradient.pub/financial-market-applications-of-llms/",
+      "published_at": "2024-04-20T17:57:39Z",
+      "summary": "The AI revolution drove frenzied investment in both private and public companies and captured the public&#x2019;s imagination in 2023. Transformational consumer products like ChatGPT are powered by Large Language Models ",
+      "tags": [
+        "gradient"
+      ]
+    },
+    {
+      "id": "gradient-2024-04-08-a-brief-overview-of-gender-bias-in-ai",
+      "source": "gradient",
+      "title": "A Brief Overview of Gender Bias in AI",
+      "url": "https://thegradient.pub/gender-bias-in-ai/",
+      "published_at": "2024-04-08T15:54:53Z",
+      "summary": "A brief overview and discussion on gender bias in AI",
+      "tags": [
+        "gradient"
+      ]
+    },
+    {
+      "id": "gradient-2024-03-28-mamba-explained",
+      "source": "gradient",
+      "title": "Mamba Explained",
+      "url": "https://thegradient.pub/mamba-explained/",
+      "published_at": "2024-03-28T01:24:43Z",
+      "summary": "Is Attention all you need? Mamba, a novel AI model based on State Space Models (SSMs), emerges as a formidable alternative to the widely used Transformer models, addressing their inefficiency in processing long sequences",
+      "tags": [
+        "gradient"
+      ]
+    },
+    {
+      "id": "gradient-2024-03-08-car-gpt-could-llms-finally-make-self-driving-cars-happen",
+      "source": "gradient",
+      "title": "Car-GPT: Could LLMs finally make self-driving cars happen?",
+      "url": "https://thegradient.pub/car-gpt/",
+      "published_at": "2024-03-08T16:55:18Z",
+      "summary": "Exploring the utility of large language models in autonomous driving: Can they be trusted for self-driving cars, and what are the key challenges?",
+      "tags": [
+        "gradient"
+      ]
+    },
+    {
+      "id": "gradient-2024-03-05-do-text-embeddings-perfectly-encode-text",
+      "source": "gradient",
+      "title": "Do text embeddings perfectly encode text?",
+      "url": "https://thegradient.pub/text-embedding-inversion/",
+      "published_at": "2024-03-05T20:15:58Z",
+      "summary": "'Vec2text' can serve as a solution for accurately reverting embeddings back into text, thus highlighting the urgent need for revisiting security protocols around embedded data.",
+      "tags": [
+        "gradient"
+      ]
+    },
+    {
+      "id": "gradient-2024-02-24-why-doesnt-my-model-work",
+      "source": "gradient",
+      "title": "Why Doesn’t My Model Work?",
+      "url": "https://thegradient.pub/why-doesnt-my-model-work/",
+      "published_at": "2024-02-24T18:41:54Z",
+      "summary": "Have you ever trained a model you thought was good, but then it failed miserably when applied to real world data? If so, you’re in good company.",
+      "tags": [
+        "gradient"
+      ]
+    },
+    {
+      "id": "gradient-2024-01-13-deep-learning-for-single-cell-sequencing-a-microscope-to-see",
+      "source": "gradient",
+      "title": "Deep learning for single-cell sequencing: a microscope to see the diversity of cells",
+      "url": "https://thegradient.pub/deep-learning-for-single-cell-sequencing-a-microscope-to-uncover-the-rich-diversity-of-individual-cells/",
+      "published_at": "2024-01-13T18:12:44Z",
+      "summary": "On the the pivotal role that Deep Learning has played as a key enabler for advancing single-cell sequencing technologies.",
+      "tags": [
+        "gradient"
       ]
     }
   ]

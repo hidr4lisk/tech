@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T03:59:43Z",
+  "updated_at": "2026-06-23T07:44:07Z",
   "releases": [
     {
       "id": "llama-cpp-b9763",
@@ -63,6 +63,15 @@
       "published_at": "2026-06-21T21:55:39Z",
       "body_excerpt": "common/peg : implement ac parser for stricter grammar generation (#24869) common/peg : implement ac parser cont : extract functions cont : tidy up cont : remove a test cont : move ac() def macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) U",
       "type": "tool"
+    },
+    {
+      "id": "hf-allenai-tmax-27b",
+      "project": "allenai",
+      "version": "tmax-27b",
+      "url": "https://huggingface.co/allenai/tmax-27b",
+      "published_at": "2026-06-21T21:48:19Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9753",
@@ -335,6 +344,15 @@
       "type": "tool"
     },
     {
+      "id": "whisper-cpp-v1.9.1",
+      "project": "whisper-cpp",
+      "version": "v1.9.1",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.1",
+      "published_at": "2026-06-19T05:53:19Z",
+      "body_excerpt": "What's Changed ci : add GGML_NATIVE=OFF and GGML_BMI2=OFF to windows-blas by @danbev in release : v1.9.1 by @danbev in Full Changelog:",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b9716",
       "project": "llama-cpp",
       "version": "b9716",
@@ -362,6 +380,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-allenai-qwen35-9b-openthoughts",
+      "project": "allenai",
+      "version": "qwen35-9b-openthoughts",
+      "url": "https://huggingface.co/allenai/qwen35-9b-openthoughts",
+      "published_at": "2026-06-19T02:29:35Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9713",
       "project": "llama-cpp",
       "version": "b9713",
@@ -369,6 +396,15 @@
       "published_at": "2026-06-19T02:26:10Z",
       "body_excerpt": "mtmd: add batching for mtmd-cli, add video tests (#24778) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
       "type": "tool"
+    },
+    {
+      "id": "hf-allenai-qwen35-9b-terminaltraj",
+      "project": "allenai",
+      "version": "qwen35-9b-terminaltraj",
+      "url": "https://huggingface.co/allenai/qwen35-9b-terminaltraj",
+      "published_at": "2026-06-19T02:02:16Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9712",
@@ -380,6 +416,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-allenai-qwen35-9b-cli-gym",
+      "project": "allenai",
+      "version": "qwen35-9b-cli-gym",
+      "url": "https://huggingface.co/allenai/qwen35-9b-cli-gym",
+      "published_at": "2026-06-19T01:37:39Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9711",
       "project": "llama-cpp",
       "version": "b9711",
@@ -389,12 +434,48 @@
       "type": "tool"
     },
     {
+      "id": "hf-allenai-qwen35-9b-swesmith",
+      "project": "allenai",
+      "version": "qwen35-9b-swesmith",
+      "url": "https://huggingface.co/allenai/qwen35-9b-swesmith",
+      "published_at": "2026-06-19T01:09:12Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-allenai-qwen35-9b-termigen",
+      "project": "allenai",
+      "version": "qwen35-9b-termigen",
+      "url": "https://huggingface.co/allenai/qwen35-9b-termigen",
+      "published_at": "2026-06-19T00:37:19Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9707",
       "project": "llama-cpp",
       "version": "b9707",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9707",
       "published_at": "2026-06-19T00:26:37Z",
       "body_excerpt": "server: add \"schema\" and validation (#24150) wip working correct some limits add field name to error message macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYC",
+      "type": "tool"
+    },
+    {
+      "id": "hf-allenai-qwen35-9b-endless",
+      "project": "allenai",
+      "version": "qwen35-9b-endless",
+      "url": "https://huggingface.co/allenai/qwen35-9b-endless",
+      "published_at": "2026-06-18T22:55:05Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "unsloth-v0.1.471-beta",
+      "project": "unsloth",
+      "version": "v0.1.471-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.471-beta",
+      "published_at": "2026-06-18T17:36:51Z",
+      "body_excerpt": "GLM-5.2 is now supported in Unsloth Studio! All reasoning levels supported. 3x longer context lengths are now achievable with our new auto fit algorithm with MTP, allowing longer chats. Bypass permissions mode, forkable chats, queue-able chats, a new hub for model discovery, parallel modules + HTTPS Cloudflare support and more! Use for secure HTTPS global access! Read our GLM-5.2 guide To update U",
       "type": "tool"
     },
     {
@@ -504,6 +585,15 @@
       "published_at": "2026-06-17T20:54:35Z",
       "body_excerpt": "ggml-cpu: Conditionally enable power11 backend based on compiler support (#24687) ggml: Conditionally enable power11 backend based on compiler support Guard POWER11 backend creation behind a compiler flag check for -mcpu=power11. This avoids build failures on current GCC/Clang toolchains while preserving forward compatibility once POWER11 support becomes available. Update CMakeLists.txt ggml-cpu: ",
       "type": "tool"
+    },
+    {
+      "id": "hf-allenai-tmax-sft-8b",
+      "project": "allenai",
+      "version": "tmax-sft-8b",
+      "url": "https://huggingface.co/allenai/tmax-sft-8b",
+      "published_at": "2026-06-17T20:34:59Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9690",
@@ -641,6 +731,15 @@
       "type": "tool"
     },
     {
+      "id": "whisper-cpp-v1.9.0",
+      "project": "whisper-cpp",
+      "version": "v1.9.0",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.0",
+      "published_at": "2026-06-17T10:19:21Z",
+      "body_excerpt": "What's Changed ci : only trigger release jobs for tags by @danbev in parakeet : add support for NVIDIA Parakeet by @danbev in ruby : add support for Parakeet by @KitaitiMakoto in release : v1.9.0 by @danbev in Full Changelog:",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b9673",
       "project": "llama-cpp",
       "version": "b9673",
@@ -648,6 +747,42 @@
       "published_at": "2026-06-17T07:32:41Z",
       "body_excerpt": "sycl: Add optional USM system allocations (#22526) This introduces an optional feature to allocate large GPU buffers (≥ 1GB) using USM system allocations if supported by the device. It allows using buffers from the system allocator then letting the system manage memory migrations between host and device as necessary. This feature is disabled by default and requires the GGML_SYCL_USM_SYSTEM environ",
       "type": "tool"
+    },
+    {
+      "id": "hf-allenai-tmax-8b",
+      "project": "allenai",
+      "version": "tmax-8b",
+      "url": "https://huggingface.co/allenai/tmax-8b",
+      "published_at": "2026-06-17T01:58:24Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-allenai-tmax-4b",
+      "project": "allenai",
+      "version": "tmax-4b",
+      "url": "https://huggingface.co/allenai/tmax-4b",
+      "published_at": "2026-06-17T01:39:12Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-allenai-tmax-2b",
+      "project": "allenai",
+      "version": "tmax-2b",
+      "url": "https://huggingface.co/allenai/tmax-2b",
+      "published_at": "2026-06-17T01:35:25Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-allenai-tmax-9b",
+      "project": "allenai",
+      "version": "tmax-9b",
+      "url": "https://huggingface.co/allenai/tmax-9b",
+      "published_at": "2026-06-17T00:53:00Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9672",
@@ -692,6 +827,15 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9667",
       "published_at": "2026-06-16T11:09:44Z",
       "body_excerpt": "vulkan: Support gated_delta_net with S_v=16 (#24581) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "whisper-cpp-v1.8.7",
+      "project": "whisper-cpp",
+      "version": "v1.8.7",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.8.7",
+      "published_at": "2026-06-16T10:59:32Z",
+      "body_excerpt": "What's Changed Do not assume /usr/lib library installation. by @waptaff in server : merge split UTF-8 token text in verbose JSON by @lyonsno in whisper : catch C++ exceptions in whisper_init_with_params_no_state by @danscMax in ci : refactor + optimize by @ggerganov in ci : only publish/push docker images daily by @danbev in ci : use ccache instead of sccache for windows-cublas [no ci] by @danbev ",
       "type": "tool"
     },
     {
@@ -884,6 +1028,24 @@
       "type": "tool"
     },
     {
+      "id": "hf-allenai-MolmoMotion-4B-H3-F30",
+      "project": "allenai",
+      "version": "MolmoMotion-4B-H3-F30",
+      "url": "https://huggingface.co/allenai/MolmoMotion-4B-H3-F30",
+      "published_at": "2026-06-15T15:47:34Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-allenai-MolmoMotion-4B-H1-F32",
+      "project": "allenai",
+      "version": "MolmoMotion-4B-H1-F32",
+      "url": "https://huggingface.co/allenai/MolmoMotion-4B-H1-F32",
+      "published_at": "2026-06-15T15:47:34Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9646",
       "project": "llama-cpp",
       "version": "b9646",
@@ -1073,6 +1235,15 @@
       "type": "tool"
     },
     {
+      "id": "sglang-v0.5.13",
+      "project": "sglang",
+      "version": "v0.5.13",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.13",
+      "published_at": "2026-06-13T00:17:49Z",
+      "body_excerpt": "Highlights New Model Support: Autoregressive: Nemotron 3 Ultra (Day-0, blog), Step-3.7-Flash, Command A+ Diffusion: Cosmos3, LingBot-World, SANA-WM, Ernie-Image, FLUX.2-Klein 4B/9B, Ideogram 4 Spec V2 is now the default speculative-decoding path: Tree drafting with topk > 1 is production-ready across the triton / FA3 / MLA / aiter backends, including and Mamba/hybrid-linear models (#26997, #26972,",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b9616",
       "project": "llama-cpp",
       "version": "b9616",
@@ -1106,6 +1277,15 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9611",
       "published_at": "2026-06-12T14:03:47Z",
       "body_excerpt": "fit : avoid including llama-ext.h in fit.h (#24506) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Wi",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.464-beta",
+      "project": "unsloth",
+      "version": "v0.1.464-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.464-beta",
+      "published_at": "2026-06-12T13:57:31Z",
+      "body_excerpt": "We've merged over 150 PRs this week so lots of new updates, a new model Hub and look! Ensure you install the latest or . DiffusionGemma, Gemma 4 MTP and MiniMax-M3 are all now supported. DiffusionGemma + Gemma 4 MTP + Audio Run and train DiffusionGemma via Unsloth Studio. Install the latest if DiffusionGemma wasn't previously working. Gemma 4 MTP is here! Run Gemma 4 around 2x faster with MTP - MT",
       "type": "tool"
     },
     {
@@ -1235,6 +1415,15 @@
       "type": "tool"
     },
     {
+      "id": "unsloth-v0.1.451-beta",
+      "project": "unsloth",
+      "version": "v0.1.451-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.451-beta",
+      "published_at": "2026-06-10T18:20:29Z",
+      "body_excerpt": "Bug Fixes and more cross platform support To update Unsloth or install a new Unsloth Studio, you must use: macOS, Linux, WSL: Windows: > [!WARNING] > DO NOT USE since packaging will not get the latest updates What's Changed Bump install.sh / install.ps1 pin to unsloth>=2026.6.1 by @danielhanchen in Port KTO logps truncation guard to TRL 1.x _compute_logps refactor by @danielhanchen in CI: track de",
+      "type": "tool"
+    },
+    {
       "id": "transformers-v5.11.0",
       "project": "transformers",
       "version": "v5.11.0",
@@ -1242,6 +1431,15 @@
       "published_at": "2026-06-10T16:32:44Z",
       "body_excerpt": "Release v5.11.0 New Model additions DiffusionGemma DiffusionGemma is engineered to reduce the sequential bottlenecks of standard causal language models by employing an encoder-decoder architecture specifically optimized for inference speed. During inference, DiffusionGemma leverages multi-canvas sampling, where rather than generating one token at a time, the model iteratively denoises a full block",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-diffusiongemma-26B-A4B-it-NVFP4",
+      "project": "nvidia",
+      "version": "diffusiongemma-26B-A4B-it-NVFP4",
+      "url": "https://huggingface.co/nvidia/diffusiongemma-26B-A4B-it-NVFP4",
+      "published_at": "2026-06-10T16:00:45Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9590",
@@ -1395,6 +1593,15 @@
       "published_at": "2026-06-08T21:10:42Z",
       "body_excerpt": "mtp: support for gemma-4 E2B and E4B assistants (#24282) models: update converter to support smaller assistants models: add masked_embd tensors to gemma4-assist arch gemma-4: remove temp debug for conversion gemma-4-mtp: filter out masked_embedding tensors during conversion macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-NV-KERMT-70M-v2",
+      "project": "nvidia",
+      "version": "NV-KERMT-70M-v2",
+      "url": "https://huggingface.co/nvidia/NV-KERMT-70M-v2",
+      "published_at": "2026-06-08T20:12:45Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9567",
@@ -1928,6 +2135,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-ArtiFixer",
+      "project": "nvidia",
+      "version": "ArtiFixer",
+      "url": "https://huggingface.co/nvidia/ArtiFixer",
+      "published_at": "2026-06-04T06:03:25Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9498",
       "project": "llama-cpp",
       "version": "b9498",
@@ -2015,6 +2231,42 @@
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.1",
       "published_at": "2026-06-03T15:37:41Z",
       "body_excerpt": "Release v5.10.1 v5.10.0 was yanked as we publish on a corrupted branch. Sorry everyone, this happens when we rush a release!!! New Model additions Gemma4 unified+ Gemma4 MTP Gemma 4 12B Unified is an encoder-free multimodal model with pretrained and instruction-tuned variants. Unlike standard Gemma 4, which uses dedicated encoder towers, Gemma 4 12B Unified projects raw inputs directly into the la",
+      "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+      "published_at": "2026-06-03T14:54:33Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+      "published_at": "2026-06-03T14:50:04Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
+      "published_at": "2026-06-03T14:47:17Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "unsloth-v0.1.44-beta",
+      "project": "unsloth",
+      "version": "v0.1.44-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.44-beta",
+      "published_at": "2026-06-03T14:35:44Z",
+      "body_excerpt": "Hey everyone, this update focuses mainly on MCP, Projects, Canvas and the new chat UI. We've also made many improvements across Studio. Next week we'll have an even bigger update. If Gemma 4 12B isn't working for you, please re-update Unsloth! To update Unsloth or install a new Unsloth Studio, you must use: macOS, Linux, WSL: Windows: > [!WARNING] > DO NOT USE since packaging will not get the late",
       "type": "tool"
     },
     {
@@ -2234,6 +2486,15 @@
       "type": "tool"
     },
     {
+      "id": "whisper-cpp-v1.8.6",
+      "project": "whisper-cpp",
+      "version": "v1.8.6",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.8.6",
+      "published_at": "2026-06-02T06:22:27Z",
+      "body_excerpt": "What's Changed common : re-implement + clarify ffmpeg usage by @ggerganov in ci : fix path to whisper.h in examples.yml [no ci] by @danbev in Full Changelog:",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b9468",
       "project": "llama-cpp",
       "version": "b9468",
@@ -2241,6 +2502,15 @@
       "published_at": "2026-06-02T05:53:36Z",
       "body_excerpt": "server: real-time reasoning interruption via control endpoint (#23971) server: real-time reasoning interruption via control endpoint Builds on the manual reasoning budget trigger from #23949. Adds a CONTROL task that mirrors the CANCEL path on the live slot and calls common_sampler_reasoning_budget_force to end thinking mid-generation. POST /v1/chat/completions/control with { id_slot, action }, op",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-4D-RGPT-8B",
+      "project": "nvidia",
+      "version": "4D-RGPT-8B",
+      "url": "https://huggingface.co/nvidia/4D-RGPT-8B",
+      "published_at": "2026-06-02T03:33:43Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9467",
@@ -2369,6 +2639,15 @@
       "type": "tool"
     },
     {
+      "id": "unsloth-v0.1.43-beta",
+      "project": "unsloth",
+      "version": "v0.1.43-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.43-beta",
+      "published_at": "2026-05-31T14:06:11Z",
+      "body_excerpt": "To update Unsloth or install a new Unsloth Studio, you must use: macOS, Linux, WSL: Windows: > [!WARNING] > DO NOT USE since packaging will not get the latest updates Mac Updates Re-enabled prebuilt binaries for Apple Silicon (M1-M4) - Mac OS 14 / 15 / 26 (Tahoe) Apple Silicon Mac OS 13 (Ventura) is source build Intel (x86_64) for Mac OS 13.3 / 14 / 15 / 26 (Tahoe) uses prebuilt binaries Intel for",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b9442",
       "project": "llama-cpp",
       "version": "b9442",
@@ -2421,6 +2700,15 @@
       "published_at": "2026-05-30T17:43:37Z",
       "body_excerpt": "opencl: support bf16 by converting to f16 (#23839) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Win",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-GR00T-H-N1.7",
+      "project": "nvidia",
+      "version": "GR00T-H-N1.7",
+      "url": "https://huggingface.co/nvidia/GR00T-H-N1.7",
+      "published_at": "2026-05-30T14:40:32Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9434",
@@ -2502,6 +2790,15 @@
       "published_at": "2026-05-29T21:01:24Z",
       "body_excerpt": "mtmd: Add DeepSeekOCR 2 Support (#20975) mtmd: DeepSeek-OCR 2 support, with multi-tile dynamic resolution introduced clip_image_f32::add_viewsep address PR review drop redundant ggml_cpy ops in both deepseekocr versions build drop no-op ggml_cont in build_sam assert num_image_tokens deepseekocr2 view_seperator as (1, n_embd) at conversion (for both versions) drop redundant ggml_reshape_2d Update t",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-dvlt",
+      "project": "nvidia",
+      "version": "dvlt",
+      "url": "https://huggingface.co/nvidia/dvlt",
+      "published_at": "2026-05-29T19:43:40Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "hf-google-gemma-4-31B-it-qat-q4_0-unquantized-assistant",
@@ -2591,6 +2888,15 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9405",
       "published_at": "2026-05-29T12:08:22Z",
       "body_excerpt": "app : move licences to llama-app (#23824) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android ar",
+      "type": "tool"
+    },
+    {
+      "id": "whisper-cpp-v1.8.5",
+      "project": "whisper-cpp",
+      "version": "v1.8.5",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.8.5",
+      "published_at": "2026-05-29T12:07:04Z",
+      "body_excerpt": "Overview Maintenance release + performance improvements all around: What's Changed ruby : fix dangling pointers, memory leak, and SEGV on parallel transcription by @KitaitiMakoto in sync : ggml by @ggerganov in vad : add streaming detect + explicit state reset by @danielbodart in bench : sync submit-results URL to ggml-org by @jinweihan-ai in sync : ggml by @ggerganov in sync : ggml by @ggerganov ",
       "type": "tool"
     },
     {
@@ -2702,6 +3008,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-NV-OneFormer",
+      "project": "nvidia",
+      "version": "NV-OneFormer",
+      "url": "https://huggingface.co/nvidia/NV-OneFormer",
+      "published_at": "2026-05-29T02:14:04Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9388",
       "project": "llama-cpp",
       "version": "b9388",
@@ -2774,6 +3089,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-kokoro-82M-onnx-opt",
+      "project": "nvidia",
+      "version": "kokoro-82M-onnx-opt",
+      "url": "https://huggingface.co/nvidia/kokoro-82M-onnx-opt",
+      "published_at": "2026-05-28T18:52:47Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9381",
       "project": "llama-cpp",
       "version": "b9381",
@@ -2837,6 +3161,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-Cosmos3-Super-Text2Image",
+      "project": "nvidia",
+      "version": "Cosmos3-Super-Text2Image",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image",
+      "published_at": "2026-05-28T03:49:21Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9371",
       "project": "llama-cpp",
       "version": "b9371",
@@ -2871,6 +3204,15 @@
       "published_at": "2026-05-27T18:12:11Z",
       "body_excerpt": "vulkan: Switch MUL_MAT_VEC to 4 K per iteration for F16/32 (#22887) vulkan: Switch MUL_MAT_VEC to 4 K per iteration for F16/32 Against mesa git, this shows a 4.8% performance improvement for tg128 on Qwen3.5-9B:BF16 on Intel BMG. Note that this breaks some tests until the last commit which fixes OOB A reads. vulkan: Use aligned loads in mul_mat_vec when available Against mesa git, this shows a 3.3",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Qwen3.6-35B-A3B-NVFP4",
+      "project": "nvidia",
+      "version": "Qwen3.6-35B-A3B-NVFP4",
+      "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
+      "published_at": "2026-05-27T18:09:46Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9369",
@@ -2909,6 +3251,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-GR00T-N1.5-3B_Assemble_Trocar",
+      "project": "nvidia",
+      "version": "GR00T-N1.5-3B_Assemble_Trocar",
+      "url": "https://huggingface.co/nvidia/GR00T-N1.5-3B_Assemble_Trocar",
+      "published_at": "2026-05-27T14:49:22Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9360",
       "project": "llama-cpp",
       "version": "b9360",
@@ -2945,6 +3296,15 @@
       "type": "tool"
     },
     {
+      "id": "sglang-v0.5.12.post1",
+      "project": "sglang",
+      "version": "v0.5.12.post1",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.12.post1",
+      "published_at": "2026-05-26T23:58:17Z",
+      "body_excerpt": "v0.5.12.post1 is a stability patch on top of v0.5.12. It cherry-picks 12 fixes — primarily for DeepSeek V4 — onto the release branch. Bug Fixes DeepSeek V4 DSV4-Pro emits garbled text during single-token decode on B200/B300 (fix UE8M0 scale-packing path by ceiling activation scales before packing): #25733 DSV4 + EAGLE/MTP in disaggregation decode crashes around 2000 requests with a SWA allocator a",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b9352",
       "project": "llama-cpp",
       "version": "b9352",
@@ -2952,6 +3312,15 @@
       "published_at": "2026-05-26T23:48:55Z",
       "body_excerpt": "ggml-zendnn : fixed naming of matmul function (#20964) ggml-zendnn: fixed naming of matmul function ggml-zendnn: fixed naming of mul_mat_id function ggml-zendnn: fixed print in mul_mat_id --------- Co-authored-by: plotnikov.v10 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s39",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-GenRM",
+      "published_at": "2026-05-26T22:42:45Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9351",
@@ -2997,6 +3366,24 @@
       "published_at": "2026-05-26T17:54:56Z",
       "body_excerpt": "",
       "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-guardian-4.1-8b-GGUF",
+      "project": "ibm-granite",
+      "version": "granite-guardian-4.1-8b-GGUF",
+      "url": "https://huggingface.co/ibm-granite/granite-guardian-4.1-8b-GGUF",
+      "published_at": "2026-05-26T15:24:01Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "unsloth-v0.1.42-beta",
+      "project": "unsloth",
+      "version": "v0.1.42-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.42-beta",
+      "published_at": "2026-05-26T14:36:14Z",
+      "body_excerpt": "Hey guys, we're doing one more-ish update before a major revamp which is likely coming this week or next week. Our revamp will change a lot of things, especially with new major features and a lot of design changes. NEW: API calling support now with image generation + editing, proper web search, code execution, auto prompt caching. Connect OpenAI, Anthropic and more. should now work properly. For M",
+      "type": "tool"
     },
     {
       "id": "llama-cpp-b9334",
@@ -3377,6 +3764,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-allenai-ACE2S-SHiELD-plus",
+      "project": "allenai",
+      "version": "ACE2S-SHiELD-plus",
+      "url": "https://huggingface.co/allenai/ACE2S-SHiELD-plus",
+      "published_at": "2026-05-21T15:25:14Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9265",
       "project": "llama-cpp",
       "version": "b9265",
@@ -3557,6 +3953,15 @@
       "type": "tool"
     },
     {
+      "id": "unsloth-v0.1.41-beta",
+      "project": "unsloth",
+      "version": "v0.1.41-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.41-beta",
+      "published_at": "2026-05-19T14:49:27Z",
+      "body_excerpt": "Lots of bug fixes, UI, UX fixes to Studio! To get the latest updates do: macOS, Linux, WSL: Windows: Fixes 1. Fix not working well 2. Fix getting stuck on page 3. More offline mode support 4. Improve MTP not being faster on Macs, CPUs and GPUs - now it's much better! 5. Fix Desktop Shortcut not working after update 6. Many many UI UX bug fixes What's Changed in Unsloth install scripts: bump unslot",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b9222",
       "project": "llama-cpp",
       "version": "b9222",
@@ -3608,6 +4013,15 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9213",
       "published_at": "2026-05-18T17:47:28Z",
       "body_excerpt": "llama: initialize pre-norm embedding mask flag (#23256) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.405-beta",
+      "project": "unsloth",
+      "version": "v0.1.405-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.405-beta",
+      "published_at": "2026-05-18T13:40:58Z",
+      "body_excerpt": "We've got lots of new updates. Please use the latest Unsloth , not which is older. ~2x faster GGUF inference with automatically enabled MTP API calling support for OpenAI, Anthropic etc. with auto prompt caching, web search, code execution Connect to external inference backends: vLLM, Ollama, llama-server Experimental MLX inference Proper support for non-English languages Security improvements MTP",
       "type": "tool"
     },
     {
@@ -3743,6 +4157,15 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.6",
       "published_at": "2026-05-16T21:12:25Z",
       "body_excerpt": "What's Changed Other Changes feat(llama-cpp): bump to MTP-merge SHA and automatically set MTP defaults by @localai-bot in docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in chore: :arrow_up: Update leejet/stable-diffusion.cpp to by @localai-bot in Ful",
+      "type": "tool"
+    },
+    {
+      "id": "sglang-v0.5.12",
+      "project": "sglang",
+      "version": "v0.5.12",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.12",
+      "published_at": "2026-05-16T18:23:23Z",
+      "body_excerpt": "Highlights DeepSeek V4 support: Full inference path for DeepSeek-V4 (#23882), including: Day-0 Features: #23882 - Parallelism: Tensor Parallelism/Expert Parallelism/Context Parallelism/Data Parallel Attention - Hardware: Nvidia B300/B200/H200/H100/GB200/GB300, AMD MI35X - Prefill-Decode Disaggregation - HiSparse for offloading inactive KV cache to CPU memory - Reasoning parser and Tool Call Parser",
       "type": "tool"
     },
     {
@@ -3953,6 +4376,24 @@
       "type": "tool"
     },
     {
+      "id": "hf-ibm-granite-granite-4.0-1b-speech-GGUF",
+      "project": "ibm-granite",
+      "version": "granite-4.0-1b-speech-GGUF",
+      "url": "https://huggingface.co/ibm-granite/granite-4.0-1b-speech-GGUF",
+      "published_at": "2026-05-11T20:24:20Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-speech-4.1-2b-GGUF",
+      "project": "ibm-granite",
+      "version": "granite-speech-4.1-2b-GGUF",
+      "url": "https://huggingface.co/ibm-granite/granite-speech-4.1-2b-GGUF",
+      "published_at": "2026-05-11T18:43:23Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "localai-v4.2.0",
       "project": "localai",
       "version": "v4.2.0",
@@ -3998,6 +4439,15 @@
       "type": "model"
     },
     {
+      "id": "sglang-v0.5.11",
+      "project": "sglang",
+      "version": "v0.5.11",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.11",
+      "published_at": "2026-05-05T21:28:56Z",
+      "body_excerpt": "Highlights CUDA 13 + Torch 2.11: Default CUDA version moves to 13.0 across SGLang, sgl-kernel, and Docker images, and PyTorch is upgraded from 2.9 to 2.11 — modernizing the build matrix and unlocking newer kernels: #21247, #24162, #24183, #23593 (tracking issue #21498) Speculative Decoding V2 by default: Spec V2 (with overlap scheduling to hide CPU overhead) is now the default, materially reducing",
+      "type": "tool"
+    },
+    {
       "id": "ollama-v0.23.1",
       "project": "ollama",
       "version": "v0.23.1",
@@ -4013,6 +4463,15 @@
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.8.0",
       "published_at": "2026-05-05T16:52:21Z",
       "body_excerpt": "Release v5.8.0 New Model additions DeepSeek-V4 DeepSeek-V4 is the next-generation MoE (Mixture of Experts) language model from DeepSeek that introduces several architectural innovations over DeepSeek-V3. The architecture replaces Multi-head Latent Attention (MLA) with a hybrid local + long-range attention design, swaps residual connections for Manifold-Constrained Hyper-Connections (mHC), and boot",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.39-beta",
+      "project": "unsloth",
+      "version": "v0.1.39-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.39-beta",
+      "published_at": "2026-05-05T13:08:48Z",
+      "body_excerpt": "_v0.1.39-beta bug fix_ May 5th 2026 Fixes chat history not being shown (existing chat history is not lost) and attachments not attaching correctly. The bug was render-only - use or directly call or to update Run local LLMs with tools like Claude Code and Codex by connecting them to Unsloth’s API endpoint. This lets you run models like Qwen and Gemma locally, with additional features such as self-h",
       "type": "tool"
     },
     {
@@ -4048,6 +4507,33 @@
       "version": "stable-diffusion-3-medium-amdnpu",
       "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium-amdnpu",
       "published_at": "2026-05-01T16:08:06Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-switch-4.1-30b-preview",
+      "project": "ibm-granite",
+      "version": "granite-switch-4.1-30b-preview",
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b-preview",
+      "published_at": "2026-05-01T13:39:57Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-switch-4.1-8b-preview",
+      "project": "ibm-granite",
+      "version": "granite-switch-4.1-8b-preview",
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview",
+      "published_at": "2026-05-01T13:39:14Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-switch-4.1-3b-preview",
+      "project": "ibm-granite",
+      "version": "granite-switch-4.1-3b-preview",
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview",
+      "published_at": "2026-05-01T13:38:10Z",
       "body_excerpt": "",
       "type": "model"
     },
@@ -4232,6 +4718,15 @@
       "type": "model"
     },
     {
+      "id": "hf-HuggingFaceTB-nanowhale-100m-base",
+      "project": "HuggingFaceTB",
+      "version": "nanowhale-100m-base",
+      "url": "https://huggingface.co/HuggingFaceTB/nanowhale-100m-base",
+      "published_at": "2026-04-24T13:33:34Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "ollama-v0.21.3-rc0",
       "project": "ollama",
       "version": "v0.21.3-rc0",
@@ -4239,6 +4734,15 @@
       "published_at": "2026-04-24T12:15:38Z",
       "body_excerpt": "What's Changed api: accept \"max\" as a think value by @ParthSareen in openai: map responses reasoning effort to think by @ParthSareen in Full Changelog:",
       "type": "tool"
+    },
+    {
+      "id": "hf-HuggingFaceTB-nanowhale-100m",
+      "project": "HuggingFaceTB",
+      "version": "nanowhale-100m",
+      "url": "https://huggingface.co/HuggingFaceTB/nanowhale-100m",
+      "published_at": "2026-04-24T11:54:36Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "hf-google-gemma-4-26B-A4B-it-assistant",
@@ -4284,6 +4788,15 @@
       "published_at": "2026-04-23T18:35:40Z",
       "body_excerpt": "",
       "type": "model"
+    },
+    {
+      "id": "unsloth-v0.1.37-beta",
+      "project": "unsloth",
+      "version": "v0.1.37-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.37-beta",
+      "published_at": "2026-04-23T14:33:16Z",
+      "body_excerpt": "Hey guys, we revamped the entire Unsloth Studio UI and UX experience to put an emphasis on chat and training: Added a collapsible sidebar based on community feedback You can now delete chats and search past conversations New Preserve Thinking toggle for models that support it like Qwen3.6 Cleaner, more consistent design with easier navigation Expanded Settings page with options to change your prof",
+      "type": "tool"
     },
     {
       "id": "transformers-v5.6.1",
@@ -4583,6 +5096,24 @@
       "type": "tool"
     },
     {
+      "id": "sglang-v0.5.10.post1",
+      "project": "sglang",
+      "version": "v0.5.10.post1",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.10.post1",
+      "published_at": "2026-04-09T03:21:07Z",
+      "body_excerpt": "6.7.post2 to v0.6.7.post3 to resolve an issue in its jit cubin downloader.",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.36-beta",
+      "project": "unsloth",
+      "version": "v0.1.36-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.36-beta",
+      "published_at": "2026-04-08T13:18:40Z",
+      "body_excerpt": "Hey everyone, we’ve updated Gemma 4 training and quants with many fixes. The bugs are universal and affected all packages and implementations and did NOT originate from Unsloth. We identified the bugs, fixed them, and Gemma 4 training now works properly only in Unsloth. You need 8GB VRAM to train Gemma-4-E2B locally. Unsloth trains Gemma 4 \\~1.5x faster with \\~60% less VRAM than FA2 setups. You ca",
+      "type": "tool"
+    },
+    {
       "id": "ollama-v0.20.4",
       "project": "ollama",
       "version": "v0.20.4",
@@ -4625,6 +5156,15 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.1.2",
       "published_at": "2026-04-06T08:54:04Z",
       "body_excerpt": "What's Changed Bug fixes :bug: fix(autoparser): correctly pass by logprobs by @mudler in fix(chat): do not retry if we had chatdeltas or tooldeltas from backend by @mudler in Exciting New Features 🎉 feat(llama.cpp): wire speculative decoding settings by @mudler in Other Changes Update index.yaml and add Qwen3.5 model files by @ER-EPR in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bo",
+      "type": "tool"
+    },
+    {
+      "id": "sglang-v0.5.10",
+      "project": "sglang",
+      "version": "v0.5.10",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.10",
+      "published_at": "2026-04-06T04:42:12Z",
+      "body_excerpt": "Highlights Piecewise CUDA Graph Enabled by Default: Piecewise CUDA graph capture is now the default execution mode, reducing memory overhead and improving throughput for models with complex control flow patterns: #16331 Elastic EP for Partial Failure Tolerance: Integrate Elastic NIXL-EP into SGLang, enabling partial failure tolerance for DeepSeek MoE deployments — when a GPU fails, the system redi",
       "type": "tool"
     },
     {
@@ -4727,12 +5267,30 @@
       "type": "tool"
     },
     {
+      "id": "unsloth-v0.1.35-beta",
+      "project": "unsloth",
+      "version": "v0.1.35-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.35-beta",
+      "published_at": "2026-04-02T20:02:41Z",
+      "body_excerpt": "Google releases Gemma 4 with four new models: E2B, E4B, 26B-A4B, 31B. You can now run and train the Gemma 4 models in Unsloth. Guide / Blog: Run E2B and E4B on 6GB RAM, and on phones. Run 26B-A4B and 31B on ~18GB. GGUFs: Updates Tool calls for smaller models are now more stable and don't cut off anymore Pre-compiled binaries for llama.cpp for 2 Gemma 4 fixes: vocab: fix Gemma4 tokenizer - (#21343)",
+      "type": "tool"
+    },
+    {
       "id": "transformers-v5.5.0",
       "project": "transformers",
       "version": "v5.5.0",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.0",
       "published_at": "2026-04-02T16:15:33Z",
       "body_excerpt": "Release v5.5.0 New Model additions Gemma4 Gemma 4 is a multimodal model with pretrained and instruction-tuned variants, available in 1B, 13B, and 27B parameters. The architecture is mostly the same as the previous Gemma versions. The key differences are a vision processor that can output images of fixed token budget and a spatial 2D RoPE to encode vision-specific information across height and widt",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.3-beta",
+      "project": "unsloth",
+      "version": "v0.1.3-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.3-beta",
+      "published_at": "2026-03-31T15:13:26Z",
+      "body_excerpt": "We did many new improvements and fixes to Studio! Tool calls for all models are now +30% to +80% more accurate. Web search now actually gets web content and not just summaries Number of tool calls allowed are increased to 25 from 10 Tool calls now terminate much better, so looping / repetitions will be reduced More tool call healing and de-duplication logic to stop tool callings from leaking XML a",
       "type": "tool"
     },
     {
@@ -4754,12 +5312,39 @@
       "type": "tool"
     },
     {
+      "id": "sglang-v0.5.10rc0",
+      "project": "sglang",
+      "version": "v0.5.10rc0",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.10rc0",
+      "published_at": "2026-03-28T05:58:32Z",
+      "body_excerpt": "Highlights Piecewise CUDA Graph Enabled by Default: Piecewise CUDA graph capture is now the default execution mode, reducing memory overhead and improving throughput for models with complex control flow patterns: #16331 Elastic EP for Partial Failure Tolerance: Integrate Elastic NIXL-EP into SGLang, enabling partial failure tolerance for DeepSeek MoE deployments — when a GPU fails, the system redi",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.25-beta",
+      "project": "unsloth",
+      "version": "v0.1.25-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.25-beta",
+      "published_at": "2026-03-27T15:09:01Z",
+      "body_excerpt": "Hey guys, it's only been 2 days since our last release, but we’ve got a lot more important updates: Inference is now 20–30% faster. Previously, tool-calling and repeat penalty could slow inference below normal speeds. Inference tokens/s should now perform similar to / . Now Auto-detects older or pre-existing models downloaded from LM Studio, Hugging Face, and similar sources. Inference token/s spe",
+      "type": "tool"
+    },
+    {
       "id": "transformers-v5.4.0",
       "project": "transformers",
       "version": "v5.4.0",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
       "published_at": "2026-03-27T00:33:02Z",
       "body_excerpt": "New Model additions VidEoMT Video Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that carries information across frames and employs a query fusion strategy that combines propagated querie",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.2-beta",
+      "project": "unsloth",
+      "version": "v0.1.2-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.2-beta",
+      "published_at": "2026-03-25T15:39:27Z",
+      "body_excerpt": "Hey guys, this is our first release since we launched Unsloth Studio last week. From now on you can directly access all our updates through our changelog here: You can now update Unsloth Studio! Just use: . Please update to use all the newest fixes and features. Tool calling improved. Better llama.cpp parsing, no raw tool markup in chat, faster inference, a new Tool Outputs panel, timers. Windows ",
       "type": "tool"
     }
   ]
