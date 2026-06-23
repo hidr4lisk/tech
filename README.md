@@ -47,6 +47,8 @@ All data lives as plain JSON in the repo. The browser fetches it directly from t
 
 ### Data sources
 
+All fetch sources live in `data/map.yaml` under `feeds:` (`news_rss`, `tool_repos`, `hf_orgs`) — edit that file to add or remove a source, no code changes needed.
+
 **News (RSS)** — capped at 12 items per source to keep the feed balanced
 - HuggingFace Blog — `huggingface.co/blog/feed.xml`
 - Meta Engineering — `engineering.fb.com/feed/` *(filter: llama, ai, model)*

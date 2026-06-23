@@ -1,6 +1,52 @@
 # Mapa tecnológico del ecosistema de IA open source.
 # Mantenido por la comunidad — enviá un PR para agregar o actualizar.
-# Schema v1
+# Schema v2
+#
+# Dos secciones:
+#   feeds:     fuentes que consume scripts/fetch.py (noticias, releases, modelos)
+#   companies: datos del comparador (módulo 03) — labs/tools y sus modelos
+
+feeds:
+
+  # Noticias (RSS/Atom). filter: lista de palabras (al menos una debe aparecer en
+  # título o resumen) o null para no filtrar. Tope de 12 items por fuente.
+  news_rss:
+    - { slug: huggingface, url: "https://huggingface.co/blog/feed.xml",                     filter: null }
+    - { slug: meta,        url: "https://engineering.fb.com/feed/",                         filter: [llama, open, model, ai] }
+    - { slug: google,      url: "https://blog.google/innovation-and-ai/technology/ai/rss/", filter: [gemma, language model, llm, open, model] }
+    - { slug: microsoft,   url: "https://www.microsoft.com/en-us/research/feed/",           filter: [phi, language model, llm, open, model] }
+    - { slug: gradient,    url: "https://thegradient.pub/rss/",                             filter: null }
+    - { slug: qwen,        url: "https://qwenlm.github.io/blog/index.xml",                  filter: null }
+    - { slug: localllama,  url: "https://www.reddit.com/r/LocalLLaMA/.rss",                 filter: null }
+    - { slug: simonw,      url: "https://simonwillison.net/atom/everything/",              filter: [llm, model, gpt, claude, llama, gemini, qwen, mistral, local, open weight, ollama] }
+
+  # Releases de herramientas (GitHub Releases API)
+  tool_repos:
+    - { owner: ollama,       repo: ollama,       slug: ollama,       type: tool }
+    - { owner: ggml-org,     repo: llama.cpp,    slug: llama-cpp,    type: tool }
+    - { owner: vllm-project, repo: vllm,         slug: vllm,         type: tool }
+    - { owner: huggingface,  repo: transformers, slug: transformers, type: tool }
+    - { owner: mudler,       repo: LocalAI,      slug: localai,      type: tool }
+    - { owner: ggml-org,     repo: whisper.cpp,  slug: whisper-cpp,  type: tool }
+    - { owner: unslothai,    repo: unsloth,      slug: unsloth,      type: tool }
+    - { owner: sgl-project,  repo: sglang,       slug: sglang,       type: tool }
+
+  # Orgs de HuggingFace a vigilar para nuevos modelos
+  hf_orgs:
+    - meta-llama
+    - mistralai
+    - google
+    - microsoft
+    - EleutherAI
+    - stabilityai
+    - Qwen
+    - deepseek-ai
+    - allenai
+    - nvidia
+    - 01-ai
+    - HuggingFaceTB
+    - ibm-granite
+    - CohereForAI
 
 companies:
 
@@ -8,7 +54,6 @@ companies:
     name: Hugging Face
     type: platform
     website: https://huggingface.co
-    blog_rss: https://huggingface.co/blog/feed.xml
     description_es: "Plataforma central del ecosistema open source AI. Hub de modelos, datasets y Spaces."
     description_en: "Central hub of the open source AI ecosystem. Models, datasets, and Spaces."
     models: []
@@ -17,7 +62,6 @@ companies:
     name: Meta AI
     type: lab
     website: https://ai.meta.com
-    blog_rss: https://ai.meta.com/blog/feed
     description_es: "División de IA de Meta. Publica la familia Llama como pesos abiertos."
     description_en: "Meta's AI division. Publishes the Llama family as open weights."
     models:
@@ -58,7 +102,6 @@ companies:
     name: Mistral AI
     type: lab
     website: https://mistral.ai
-    blog_rss: https://mistral.ai/news/rss.xml
     description_es: "Laboratorio europeo de IA. Modelos eficientes con pesos abiertos bajo Apache 2.0."
     description_en: "European AI lab. Efficient models with open weights under Apache 2.0."
     models:
@@ -91,7 +134,6 @@ companies:
     name: Google (Gemma)
     type: lab
     website: https://ai.google.dev/gemma
-    blog_rss: https://blog.google/technology/ai/rss/
     description_es: "Google publica la familia Gemma como modelos de peso abierto."
     description_en: "Google publishes the Gemma family as open-weight models."
     models:
@@ -124,7 +166,6 @@ companies:
     name: Microsoft (Phi)
     type: lab
     website: https://azure.microsoft.com/products/phi
-    blog_rss: https://www.microsoft.com/en-us/research/feed/
     description_es: "Familia Phi de Microsoft: modelos pequeños de alto rendimiento bajo MIT."
     description_en: "Microsoft's Phi family: small, high-performance models under MIT license."
     models:
@@ -157,7 +198,6 @@ companies:
     name: Ollama
     type: tool
     website: https://ollama.com
-    github: ollama/ollama
     description_es: "Herramienta para correr LLMs localmente con un solo comando."
     description_en: "Tool for running LLMs locally with a single command."
     models: []
@@ -166,7 +206,6 @@ companies:
     name: LM Studio
     type: tool
     website: https://lmstudio.ai
-    github: lmstudio-ai/lmstudio-desktop
     description_es: "IDE de escritorio para ejecutar y experimentar con LLMs locales."
     description_en: "Desktop IDE for running and experimenting with local LLMs."
     models: []
@@ -175,7 +214,6 @@ companies:
     name: EleutherAI
     type: researcher
     website: https://www.eleuther.ai
-    blog_rss: https://blog.eleuther.ai/rss.xml
     description_es: "Organización de investigación open source. Crea modelos y evalúa el ecosistema."
     description_en: "Open source research organization. Builds models and evaluates the ecosystem."
     models:

@@ -25,35 +25,25 @@ GH_HEADERS = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "
 if token := os.getenv("GH_TOKEN"):
     GH_HEADERS["Authorization"] = f"Bearer {token}"
 
-RSS_SOURCES = [
-    {"slug": "huggingface", "url": "https://huggingface.co/blog/feed.xml",                         "filter": None},
-    {"slug": "meta",        "url": "https://engineering.fb.com/feed/",                             "filter": ["llama", "open", "model", "ai"]},
-    {"slug": "google",      "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",     "filter": ["gemma", "language model", "llm", "open", "model"]},
-    {"slug": "microsoft",   "url": "https://www.microsoft.com/en-us/research/feed/",               "filter": ["phi", "language model", "llm", "open", "model"]},
-    {"slug": "gradient",    "url": "https://thegradient.pub/rss/",                                 "filter": None},
-    {"slug": "qwen",        "url": "https://qwenlm.github.io/blog/index.xml",                      "filter": None},
-    {"slug": "localllama",  "url": "https://www.reddit.com/r/LocalLLaMA/.rss",                     "filter": None},
-    {"slug": "simonw",      "url": "https://simonwillison.net/atom/everything/",                   "filter": ["llm", "model", "gpt", "claude", "llama", "gemini", "qwen", "mistral", "local", "open weight", "ollama"]},
+# Fallback config — used only if data/map.yaml has no `feeds:` section.
+# The canonical source of truth is data/map.yaml.
+RSS_SOURCES_DEFAULT = [
+    {"slug": "huggingface", "url": "https://huggingface.co/blog/feed.xml", "filter": None},
 ]
+GH_TOOL_REPOS_DEFAULT = [
+    {"owner": "ollama", "repo": "ollama", "slug": "ollama", "type": "tool"},
+]
+HF_MODEL_ORGS_DEFAULT = ["meta-llama", "mistralai", "google", "microsoft"]
 
-# Tool repos: active projects with frequent releases
-GH_TOOL_REPOS = [
-    ("ollama",       "ollama",        "ollama",       "tool"),
-    ("ggml-org",     "llama.cpp",     "llama-cpp",    "tool"),
-    ("vllm-project", "vllm",          "vllm",         "tool"),
-    ("huggingface",  "transformers",  "transformers", "tool"),
-    ("mudler",       "LocalAI",       "localai",      "tool"),
-    ("ggml-org",     "whisper.cpp",   "whisper-cpp",  "tool"),
-    ("unslothai",    "unsloth",       "unsloth",      "tool"),
-    ("sgl-project",  "sglang",        "sglang",       "tool"),
-]
 
-# HuggingFace orgs to track for new model uploads
-HF_MODEL_ORGS = [
-    "meta-llama", "mistralai", "google", "microsoft",
-    "EleutherAI", "stabilityai", "Qwen", "deepseek-ai",
-    "allenai", "nvidia", "01-ai", "HuggingFaceTB", "ibm-granite", "CohereForAI",
-]
+def resolve_feeds(map_data):
+    """Read fetch config from map.yaml `feeds:`, falling back to defaults."""
+    feeds = (map_data or {}).get("feeds", {}) or {}
+    return (
+        feeds.get("news_rss")   or RSS_SOURCES_DEFAULT,
+        feeds.get("tool_repos") or GH_TOOL_REPOS_DEFAULT,
+        feeds.get("hf_orgs")    or HF_MODEL_ORGS_DEFAULT,
+    )
 
 
 def now_iso():
@@ -298,11 +288,12 @@ def main():
     print("=== Hidr4lisk_Tech fetch ===")
     DATA.mkdir(exist_ok=True)
     map_data = load_map()
+    rss_sources, tool_repos, hf_orgs = resolve_feeds(map_data)
 
     # ── News ──────────────────────────────────────────────────────────────
     print("\n[news]")
     news_items = []
-    for src in RSS_SOURCES:
+    for src in rss_sources:
         try:
             items = fetch_rss(src["url"], src["slug"], src.get("filter"))
             print(f"  {src['slug']}: {len(items)} items")
@@ -340,16 +331,16 @@ def main():
     # ── Changelog ─────────────────────────────────────────────────────────
     print("\n[changelog]")
     cl_items = []
-    for owner, repo, slug, rtype in GH_TOOL_REPOS:
+    for r in tool_repos:
         try:
-            items = fetch_gh_releases(owner, repo, slug, rtype)
-            print(f"  {owner}/{repo}: {len(items)} releases")
+            items = fetch_gh_releases(r["owner"], r["repo"], r["slug"], r["type"])
+            print(f"  {r['owner']}/{r['repo']}: {len(items)} releases")
             cl_items.extend(items)
         except Exception as e:
-            print(f"  WARN {owner}/{repo}: {e}")
+            print(f"  WARN {r['owner']}/{r['repo']}: {e}")
 
     print("  [hf model releases]")
-    cl_items.extend(fetch_hf_model_releases(HF_MODEL_ORGS))
+    cl_items.extend(fetch_hf_model_releases(hf_orgs))
 
     existing_cl = load_json(DATA / "changelog.json")
     merged_cl   = merge_changelog(existing_cl.get("releases", []), cl_items)
