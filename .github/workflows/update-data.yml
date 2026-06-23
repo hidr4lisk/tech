@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   fetch:
@@ -45,3 +46,9 @@ jobs:
           git add data/
           git commit -m "chore(data): auto-update $(date -u +'%Y-%m-%dT%H:%MZ')"
           git push
+
+      - name: Trigger deploy workflow
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main
