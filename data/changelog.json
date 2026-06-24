@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-23T20:11:58Z",
+  "updated_at": "2026-06-24T04:01:43Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9776",
+      "project": "llama-cpp",
+      "version": "b9776",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9776",
+      "published_at": "2026-06-24T03:59:36Z",
+      "body_excerpt": "vulkan: Apply bias before softmax in FA, to avoid overflow (#24909) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.5.0",
+      "project": "localai",
+      "version": "v4.5.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.5.0",
+      "published_at": "2026-06-23T21:31:26Z",
+      "body_excerpt": "🎉 LocalAI 4.5.0 Release! 🚀 LocalAI 4.5.0 is out! This release widens what LocalAI can perceive, sharpens the realtime voice API, and makes multi-user serving fast with zero configuration. Four new backends land, the React UI redesign ships in full, and distributed mode gets a robustness pass. Highlights: 👁️ See depth - new backend (Depth Anything 3): monocular metric depth + camera pose, with a ty",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9775",
       "project": "llama-cpp",
@@ -99,6 +117,15 @@
       "published_at": "2026-06-22T15:22:57Z",
       "body_excerpt": "server: refactor/generalize input file schema (#24299) server: refactor/generalize input file schema wire up input_video, accept raw base64 nits nits (2) fix windows macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ub",
       "type": "tool"
+    },
+    {
+      "id": "hf-Qwen-Qwen-AgentWorld-35B-A3B",
+      "project": "Qwen",
+      "version": "Qwen-AgentWorld-35B-A3B",
+      "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+      "published_at": "2026-06-22T14:49:37Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9758",
