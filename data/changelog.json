@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-06-24T09:39:39Z",
+  "updated_at": "2026-06-24T14:41:54Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9780",
+      "project": "llama-cpp",
+      "version": "b9780",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9780",
+      "published_at": "2026-06-24T10:18:40Z",
+      "body_excerpt": "vulkan: fail the build when a shader fails to compile (#24450) vulkan-shaders-gen: fail the build when a shader fails to compile vulkan-shaders-gen did not detect shader-compile subprocess failures, so a broken libggml-vulkan could be produced while the build reported success and the breakage only surfaced at run time. execute_command() discarded the child exit code (POSIX waitpid passed nullptr f",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9777",
       "project": "llama-cpp",
