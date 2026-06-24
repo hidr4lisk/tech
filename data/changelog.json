@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-24T14:41:54Z",
+  "updated_at": "2026-06-24T19:52:48Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9782",
+      "project": "llama-cpp",
+      "version": "b9782",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9782",
+      "published_at": "2026-06-24T16:44:42Z",
+      "body_excerpt": "common: remove unused json-partial (#24968) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9781",
+      "project": "llama-cpp",
+      "version": "b9781",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9781",
+      "published_at": "2026-06-24T15:01:48Z",
+      "body_excerpt": "vulkan: allow reducing the graph submission batches to avoid timeouts (#24872) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9780",
       "project": "llama-cpp",
@@ -630,6 +648,15 @@
       "published_at": "2026-06-18T13:39:42Z",
       "body_excerpt": "mtmd: refactor preprocessor, add mtmd_image_preproc_out (#24736) add mtmd_image_preproc_out add dev docs remove unused clip API rm unused clip_image_f32_batch::grid change preprocess() call signature macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64",
       "type": "tool"
+    },
+    {
+      "id": "hf-ibm-granite-granite-vision-4.1-4b-GGUF",
+      "project": "ibm-granite",
+      "version": "granite-vision-4.1-4b-GGUF",
+      "url": "https://huggingface.co/ibm-granite/granite-vision-4.1-4b-GGUF",
+      "published_at": "2026-06-18T13:39:38Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9700",

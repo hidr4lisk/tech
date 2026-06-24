@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-06-24T14:41:46Z",
+  "updated_at": "2026-06-24T19:52:43Z",
   "items": [
+    {
+      "id": "localllama-2026-06-24-sdxl-running-locally-in-the-browser-on-webgpu-open-source",
+      "source": "localllama",
+      "title": "SDXL running locally in the browser on WebGPU, open-source",
+      "url": "t3_1uemzsb",
+      "published_at": "2026-06-24T19:15:49Z",
+      "summary": "      I needed simple local image generation without the usual setup. No virtual environments, no ComfyUI with a complex graph and installation as an exe. So i tried to push the whole thing into the browser and run it on",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-24-quoting-tom-macwright",
+      "source": "simonw",
+      "title": "Quoting Tom MacWright",
+      "url": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
+      "published_at": "2026-06-24T18:13:51Z",
+      "summary": "In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-24-i-reverse-engineered-windows-copilot-into-a-free-openai-comp",
+      "source": "localllama",
+      "title": "I reverse engineered Windows Copilot into a free OpenAI compatible API (GPT-4, no API key, no billing)",
+      "url": "t3_1uekiyp",
+      "published_at": "2026-06-24T17:47:17Z",
+      "summary": "So Microsoft gives you GPT-4 for free in Copilot. They just don&#39;t give you an API for it. So I made one. It logs into your own Microsoft account once, saves the session, and exposes a local server at http://localhost",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-24-has-anyone-else-found-vllm-outputs-noticeably-worse-than-lla",
+      "source": "localllama",
+      "title": "Has anyone else found vLLM outputs noticeably worse than llama.cpp for the same model?",
+      "url": "t3_1uejklg",
+      "published_at": "2026-06-24T17:12:40Z",
+      "summary": "I&#39;m wondering if anyone else has come across this. I&#39;ve tested the same model on llama.cpp and vLLM with similar settings and quantizations. The performance and concurrency in vLLM are much noticeably better, but",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-24-sipp---an-open-source-library-for-in-browser-inference-built",
+      "source": "localllama",
+      "title": "Sipp - an open-source library for in-browser inference built on llama.cpp",
+      "url": "t3_1ueilqc",
+      "published_at": "2026-06-24T16:37:34Z",
+      "summary": "      GitHub: https://github.com/noumena-labs/Sipp  &#32; submitted by &#32;  /u/lordhiggsboson   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-06-24-accelerating-transformers-fine-tuning-with-nvidia-nemo-autom",
+      "source": "huggingface",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "published_at": "2026-06-24T16:00:13Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-24-big-news-for-amd-strix-halo-owners",
+      "source": "localllama",
+      "title": "Big News for AMD / Strix Halo+ Owners",
+      "url": "t3_1uegdu0",
+      "published_at": "2026-06-24T15:16:34Z",
+      "summary": "Admittedly this is news for me, but I&#39;m hoping it could be of some use to others here as well! So, THE NPU IS USABLE!! I&#39;ve owned an AMD Ryzen 395 Max AI+ (or whatever the naming is lol) for about a year now and ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-24-openai-and-broadcom-unveil-llm-optimized-inference-chip",
+      "source": "localllama",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "url": "t3_1ueexbr",
+      "published_at": "2026-06-24T14:22:25Z",
+      "summary": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/ Quoted from the start of the blog post:  Early testing shows that the first-generation accelerator will deliver performance per watt substantially better ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-06-24-the-swiss-federal-supreme-court-is-evaluating-heretic",
       "source": "localllama",
@@ -79,69 +167,14 @@
       ]
     },
     {
-      "id": "localllama-2026-06-24-whats-everyone-using-to-estimate-vramram-weights-kv-cache-be",
-      "source": "localllama",
-      "title": "What's everyone using to estimate VRAM/RAM (weights + KV cache) before spinning up a local model?",
-      "url": "t3_1ueb2yn",
-      "published_at": "2026-06-24T11:38:53Z",
-      "summary": "Hi All,  I typically check the model size to estimate if it will fit but I was thinking there should be some better way. There is option to log your hardware on huggingface and see estimates but then if you have multiple",
+      "id": "huggingface-2026-06-24-introducing-the-ffasr-leaderboard-benchmarking-asr-in-the-re",
+      "source": "huggingface",
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "published_at": "2026-06-24T00:00:00Z",
+      "summary": "",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-how-baidus-newly-released-unlimited-ocr-transcribes-dozens-o",
-      "source": "localllama",
-      "title": "How Baidu's newly released Unlimited-OCR transcribes dozens of pages in one forward pass",
-      "url": "t3_1ueanx0",
-      "published_at": "2026-06-24T11:17:32Z",
-      "summary": "      https://reddit.com/link/1ueanx0/video/gc21db02j89h1/player Baidu released Unlimited-OCR 2 days ago, and they claim it can transcribe dozens of pages in one forward pass. I read the research paper, and decided to ma",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-qwen36-27b-more-dumb-in-vllm-compared-to-llamacpp",
-      "source": "localllama",
-      "title": "Qwen3.6 27B more dumb in vLLM compared to llama.cpp",
-      "url": "t3_1ue9v4b",
-      "published_at": "2026-06-24T10:35:30Z",
-      "summary": "Hello, I recently bought a new RTX 5060Ti to pair with the RTX 5060Ti I already own, now I have 32GB of VRAM. Up until now for convenience I&#39;ve used llama.cpp, for goodness&#39; sake it works excellently when only 1 ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-llamacpp-updates---granite-speech-41-2b-lfm25-colbertembeddi",
-      "source": "localllama",
-      "title": "llama.cpp updates - granite-speech-4.1-2b, LFM2.5-ColBERT/Embedding-350M, Vulkan backend related changes & Misc items",
-      "url": "t3_1ue8tw1",
-      "published_at": "2026-06-24T09:37:01Z",
-      "summary": "Supported Models:  granite-speech-4.1-2b-plus by 24818 LFM2.5-ColBERT-350M &amp; LFM2.5-Embedding-350M by 24913  Vulkan:  vulkan: link ggml-cpu when GGML_VULKAN_CHECK_RESULTS / RUN_TESTS are enabled #24444 vulkan: make m",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-new-eu-model-domyn-will-be-400b",
-      "source": "localllama",
-      "title": "New EU model (Domyn) will be 400b.",
-      "url": "t3_1ue7cl5",
-      "published_at": "2026-06-24T08:08:21Z",
-      "summary": "The source is in Italian, but a well respected newspaper (like Financial Times) https://www.ilsole24ore.com/art/frontier-grand-challenge-domyn-guidera-progetto-dell-ai-sovrana-AIgNTNoD?refresh_ce=1 They are a startup tha",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-whos-paying-for-local-llm-work",
-      "source": "localllama",
-      "title": "Who's paying for local llm work",
-      "url": "t3_1ue69qp",
-      "published_at": "2026-06-24T07:03:16Z",
-      "summary": "We get a lot of frantic posts on here of people asking &quot;how do run 10 billion documents with PII&quot; and I&#39;ve had a few people saying &quot;my clients require me to use ai in this way&quot; So I&#39;m wonderin",
-      "tags": [
-        "localllama"
+        "huggingface"
       ]
     },
     {
@@ -365,28 +398,6 @@
       ]
     },
     {
-      "id": "huggingface-2026-06-17-glm-52-built-for-long-horizon-tasks",
-      "source": "huggingface",
-      "title": "GLM-5.2: Built for Long-Horizon Tasks",
-      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "published_at": "2026-06-17T09:01:25Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-17-agentic-resource-discovery-let-agents-search",
-      "source": "huggingface",
-      "title": "Agentic Resource Discovery: Let agents search",
-      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "published_at": "2026-06-17T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "simonw-2026-06-16-datasette-tailscale-01a0",
       "source": "simonw",
       "title": "datasette-tailscale 0.1a0",
@@ -404,17 +415,6 @@
       "url": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything",
       "published_at": "2026-06-16T16:04:59Z",
       "summary": "I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for sma",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-16-the-fable-5-export-controls-harm-us-cyber-defense",
-      "source": "simonw",
-      "title": "The Fable 5 Export Controls Harm US Cyber Defense",
-      "url": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
-      "published_at": "2026-06-16T05:20:29Z",
-      "summary": "The Fable 5 Export Controls Harm US Cyber Defense\nI quoted The Atlantic quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable 5",
       "tags": [
         "simonw"
       ]
