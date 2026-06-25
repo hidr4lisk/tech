@@ -1,6 +1,138 @@
 {
-  "updated_at": "2026-06-25T14:42:02Z",
+  "updated_at": "2026-06-25T20:07:54Z",
   "items": [
+    {
+      "id": "localllama-2026-06-25-dgx-spark-os-lifetime",
+      "source": "localllama",
+      "title": "DGX Spark OS lifetime?",
+      "url": "t3_1ufkadz",
+      "published_at": "2026-06-25T19:40:27Z",
+      "summary": "I think of purchasing 2 DGX Sparks for my office (because a 700+W workstation would be intolerable) for LLM-centric work (inference only, no fine-tuning). I know the OS is based on Ubuntu 24.04. Has Nvidia ever disclosed",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-lfm25-230m-running-in-browser-at-1400-toks-using-custom-webg",
+      "source": "localllama",
+      "title": "LFM2.5 230M running in-browser at 1,400 tok/s using custom WebGPU kernels",
+      "url": "t3_1ufii9b",
+      "published_at": "2026-06-25T18:35:41Z",
+      "summary": "      Everything runs locally in your browser using custom WebGPU kernels written by Fable 5 (before it was shut down) and Opus 4.8. The video was recorded on my M4 Max.  Model: LiquidAI/LFM2.5-230M (GGUF) Demo: https://",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-report-apple-to-skip-m6-promax-chips-fast-track-m7-for-local",
+      "source": "localllama",
+      "title": "Report: Apple to skip M6 Pro/Max chips, fast-track M7 for local AI",
+      "url": "t3_1ufhu3s",
+      "published_at": "2026-06-25T18:11:35Z",
+      "summary": "      &#32; submitted by &#32;  /u/fallingdowndizzyvr   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-fast-medical-rag-api-to-give-your-local-llms-access-to-facts",
+      "source": "localllama",
+      "title": "Fast medical RAG API to give your local LLMs access to facts",
+      "url": "t3_1ufhqys",
+      "published_at": "2026-06-25T18:08:31Z",
+      "summary": "I created a simple RAG API using medical Wikipedia articles that you can point your agent to and use freely.  It may be useful in allowing your local LLMs access to medical facts they might not be able to recall from the",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-which-model-for-technical-documentation",
+      "source": "localllama",
+      "title": "Which model for technical documentation?",
+      "url": "t3_1ufgbm2",
+      "published_at": "2026-06-25T17:17:55Z",
+      "summary": "Looking to create high level / low level designs (software), based on existing templates/examples, cross reference code, use mcp to download confluence/jira data - also plug into agentic ‘coding’ frameworks opencode .  I",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-rtx-6000-pro-owners-do-you-regret",
+      "source": "localllama",
+      "title": "rtx 6000 pro owners, do you regret?",
+      "url": "t3_1uffj2a",
+      "published_at": "2026-06-25T16:49:50Z",
+      "summary": "I found the last dealership in my area that has rtx 6000 pro available, i already wanted to buy it 6 months ago when it was around $8k, now prices increased to $13k ish. Regardless the price, are you happy with it? I ass",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-06-25-which-tokens-does-a-hybrid-model-predict-better",
+      "source": "huggingface",
+      "title": "Which tokens does a hybrid model predict better?",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "published_at": "2026-06-25T16:11:42Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "microsoft-2026-06-25-understanding-the-brain-with-ai-driven-explanations-and-expe",
+      "source": "microsoft",
+      "title": "Understanding the brain with AI-driven explanations and experiments",
+      "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
+      "published_at": "2026-06-25T16:00:00Z",
+      "summary": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language.\nThe post Understand",
+      "tags": [
+        "microsoft"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-glm-52-on-consumer-hardware",
+      "source": "localllama",
+      "title": "GLM 5.2 on consumer hardware",
+      "url": "t3_1ufd4g8",
+      "published_at": "2026-06-25T15:22:55Z",
+      "summary": "I tried out the unsloth quants of GLM 5.2 on still &quot;consumer-ish&quot; hardware: 32C Zen5 Threadripper Pro 9975 WX, Asus WRX90E-SAGE-SE PCIe Gen5, 512GB DDR5 ECC RAM @ 4800MHz, dual RTX 5090. This machine was put to",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-tensor-split-fix-for-intel-gpus-llamacpp-release-b9788",
+      "source": "localllama",
+      "title": "Tensor Split Fix for intel GPU's llama.cpp release b9788",
+      "url": "t3_1ufctc8",
+      "published_at": "2026-06-25T15:11:50Z",
+      "summary": "sycl : support --split-mode tensor #24152 I&#39;d like to see some numbers if anyone has 2xintel gpus and tries this out  &#32; submitted by &#32;  /u/Bulky-Priority6824   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-ornith-10-released-on-hugging-face",
+      "source": "localllama",
+      "title": "Ornith-1.0 released on Hugging Face",
+      "url": "t3_1ufc9vp",
+      "published_at": "2026-06-25T14:52:07Z",
+      "summary": "Including 9B Dense, 31B Dense, 35B MoE, and 397B MoE and reporting sota on different benchmark (let&#39;s see if this holds). https://huggingface.co/collections/deepreinforce-ai/ornith-10  &#32; submitted by &#32;  /u/pa",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-it-turns-out-bash-is-all-you-need-to-write-a-language-model",
+      "source": "localllama",
+      "title": "It turns out Bash is All You Need to write a language model REPL (and jq and curl)",
+      "url": "t3_1ufc5ca",
+      "published_at": "2026-06-25T14:47:30Z",
+      "summary": "While working on an self-educational exercise tinkering with local models and trying my hand at setting up agents, I went down a rabbit hole: to see how far I could build a custom agent REPL loop using exclusively comman",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-06-25-are-third-party-memory-systems-actually-better-than-the-buil",
       "source": "localllama",
@@ -19,116 +151,6 @@
       "url": "t3_1ufboj0",
       "published_at": "2026-06-25T14:30:30Z",
       "summary": "      https://preview.redd.it/ilg8oj3uvf9h1.png?width=4096&amp;format=png&amp;auto=webp&amp;s=a8acfcea75b12f165c9b5fcf12606156735c7946 https://openai.com/index/openai-broadcom-jalapeno-inference-chip/  &#32; submitted by",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-new-apple-memory-prices",
-      "source": "localllama",
-      "title": "New Apple Memory Prices",
-      "url": "t3_1ufak9e",
-      "published_at": "2026-06-25T13:48:17Z",
-      "summary": "      https://preview.redd.it/00o5xtaznf9h1.png?width=696&amp;format=png&amp;auto=webp&amp;s=60a3306ea86a9b0d1f58c435b7dbb0a42761a415 Apple raised the prices across the product line this morning: https://www.reuters.com/",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-siq1-on-kebab-bench",
-      "source": "localllama",
-      "title": "siq1 on kebab bench",
-      "url": "t3_1uf7re7",
-      "published_at": "2026-06-25T11:48:57Z",
-      "summary": "      tested my model on kebab bench and it performs very well:  https://huggingface.co/spaces/AlexWortega/hermes-agent-zerogpu  &#32; submitted by &#32;  /u/Mysterious_Hearing14   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-are-there-any-modern-completion-non-chat-models",
-      "source": "localllama",
-      "title": "Are there any modern completion (non-chat) models?",
-      "url": "t3_1uf7i53",
-      "published_at": "2026-06-25T11:36:03Z",
-      "summary": "Are all modern LLMs tuned for chat? Are there any that do bare text completion? I honestly couldn&#39;t find any on hugging face.   &#32; submitted by &#32;  /u/MackThax   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-new-sampler-verifier-drastically-improves-tiny-05b-model-cod",
-      "source": "localllama",
-      "title": "New sampler + verifier *drastically* improves tiny 0.5b model coding performance",
-      "url": "t3_1uf6ajj",
-      "published_at": "2026-06-25T10:31:04Z",
-      "summary": "I read it with a little bit of effort  The tiny model result is insane, theoretically this could make make a 0.5b on-par with a 2/3/4b ish class model in coding with no weights change*. And for large models it could mayb",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-nvidia-has-released-nemotron-twotower-30b-a3b-base-bf16-an-u",
-      "source": "localllama",
-      "title": "NVIDIA has released Nemotron-TwoTower-30B-A3B-Base-BF16, an unusual diffusion-based language model built from the Nemotron 3 Nano 30B-A3B backbone.",
-      "url": "t3_1uf4azy",
-      "published_at": "2026-06-25T08:34:20Z",
-      "summary": "      NVIDIA has released Nemotron-TwoTower-30B-A3B-Base-BF16, an unusual diffusion-based language model built from the Nemotron 3 Nano 30B-A3B backbone. Instead of generating strictly one token at a time, it uses a froz",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-usb4-rdma-seems-doable",
-      "source": "localllama",
-      "title": "USB4 RDMA seems doable",
-      "url": "t3_1uf48js",
-      "published_at": "2026-06-25T08:30:15Z",
-      "summary": "Just found this blog : https://blog.hellas.ai/blog/thunderbolt-ibverbs/ Experimental implementation of RDMA, demonstrated on two Strix Halo Did a quick search and can&#39;t really find it posted before ?  This could be h",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-has-anyone-tried-to-hack-into-their-own-system-using-a-local",
-      "source": "localllama",
-      "title": "Has anyone tried to hack into their own system using a local model?",
-      "url": "t3_1uf3dvy",
-      "published_at": "2026-06-25T07:38:50Z",
-      "summary": "With all this talk about Mythos being able to hack into. US government systems, I was wondering if anyone has tried to get root on their own system using a local model?  &#32; submitted by &#32;  /u/MrMrsPotts   [link] &",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-worse-quality-with-mtp---qwen-36-gemma-4",
-      "source": "localllama",
-      "title": "Worse quality with MTP - Qwen 3.6, Gemma 4",
-      "url": "t3_1uf2wn9",
-      "published_at": "2026-06-25T07:10:50Z",
-      "summary": "Hi. I am self-hosting Qwen 3.6 27B Q8_K_XL with Llama.cpp on 4x5070ti. (All 4 cards are on single x16 slot bifurcated to 4x4 with risers). I&#39;ve been testing it on several work repos with Opencode CLI and in like 8/10",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-glm-52-on-dual-strix-halo-256gb-worth-it",
-      "source": "localllama",
-      "title": "GLM 5.2 on Dual Strix Halo (256GB): Worth it?",
-      "url": "t3_1uf2u3k",
-      "published_at": "2026-06-25T07:06:49Z",
-      "summary": "      &#32; submitted by &#32;  /u/Intrepid_Rub_3566   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-could-you-help-me-test-mtp-for-glm-47-flash",
-      "source": "localllama",
-      "title": "Could you help me test MTP for GLM-4.7-Flash?",
-      "url": "t3_1uf2l0y",
-      "published_at": "2026-06-25T06:52:21Z",
-      "summary": "Some of you may remember old models from GLM: GLM Air or GLM Flash. I know they’re outdated, but I have a soft spot for them, so I am currently working on enabling MTP for them in llama.cpp. If you know how to compile ll",
       "tags": [
         "localllama"
       ]
@@ -392,17 +414,6 @@
       "title": "MolmoMotion: Language-guided 3D motion forecasting",
       "url": "https://huggingface.co/blog/allenai/molmomotion",
       "published_at": "2026-06-17T15:26:44Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-17-from-the-hugging-face-hub-to-robot-hardware-with-strands-age",
-      "source": "huggingface",
-      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "published_at": "2026-06-17T10:18:05Z",
       "summary": "",
       "tags": [
         "huggingface"
