@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-06-24T19:52:43Z",
+  "updated_at": "2026-06-25T04:02:06Z",
   "items": [
+    {
+      "id": "localllama-2026-06-25-new-model-supraweather-nano-preview-just-released",
+      "source": "localllama",
+      "title": "[NEW MODEL] SupraWeather-Nano-Preview Just released!",
+      "url": "t3_1uey9fu",
+      "published_at": "2026-06-25T03:05:26Z",
+      "summary": "SupraWeather Nano is live! ⛈️ We just released SupraWeather-Nano (preview), a small FT-Transformer model purpose-built to classify weather phenomena from raw tabular meteorological features. https://huggingface.co/SupraL",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-locked-dell-quote-for-6x-rtx-pro-6000-max-q-at-8960-expires",
+      "source": "localllama",
+      "title": "Locked Dell quote for 6x RTX PRO 6000 Max-Q at $8,960 — expires tonight. What would you do?",
+      "url": "t3_1uexxqg",
+      "published_at": "2026-06-25T02:49:54Z",
+      "summary": "Building an inference cluster to run GLM 5.2 locally. Got a Dell quote locked at $8,959.99/unit for 6x RTX PRO 6000 Blackwell Max-Q (300W). List price just jumped to $15,999 yesterday. Quote expires in ~3 hours and I can",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-for-users-with-4x-8x-6000-pros-how-is-your-experience-with-b",
+      "source": "localllama",
+      "title": "For users with 4x-8x 6000 PROs, how is your experience with bigger models lately? (GLM 5.2, Kimi 2.7, DeepSeek V4 Pro)",
+      "url": "t3_1uex6pb",
+      "published_at": "2026-06-25T02:14:14Z",
+      "summary": "Hello guys, hoping you&#39;re doing fine! I was wondering, for users with 4x-8x 6000 PROs (so between 384 and 768GB VRAM), how are bigger models working for you? I have planned to either jump to 4 or 8 from my actual sys",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-gemma4-26b-a4b-31b-qat-uncensored-balanced-are-out-with-mtp",
+      "source": "localllama",
+      "title": "Gemma4-26B-A4B & 31B-QAT Uncensored Balanced are out with MTP (35% & 53% speed boost)!",
+      "url": "t3_1ueuki7",
+      "published_at": "2026-06-25T00:13:17Z",
+      "summary": "First of all, I&#39;m stoked to announce we are almost at 20 million downloads on HF! (counted only on my own account, no duplicates/quants/finetunes/etc) and almost 5000 members on Discord! Two releases this time, as pr",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-25-anybody-used-dwarfstar-with-deepseek-v4-flash-on-1x-dgx-spar",
+      "source": "localllama",
+      "title": "Anybody used DwarfStar with DeepSeek V4 Flash on 1x DGX Spark yet? What are your thoughts?",
+      "url": "t3_1ueuc33",
+      "published_at": "2026-06-25T00:02:54Z",
+      "summary": "Hey fellow localites, Has anybody used DwarfStar with DeepSeek V4 Flash on 1x DGX Spark yet? What are your thoughts? Based on what I read, with its MoE approach, and its unified memory first then bleed into SSD approach,",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-24-simonwbrowser-compat-db",
+      "source": "simonw",
+      "title": "simonw/browser-compat-db",
+      "url": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+      "published_at": "2026-06-24T23:59:03Z",
+      "summary": "simonw/browser-compat-db\nInspired by Mozilla's new MDN MCP service - source code here - I decided to try converting their comprehensive mdn/browser-compat-data repository full of browser compatibility data into a SQLite ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-24-any-chance-i-could-cluster-my-dgx-spark-128gb-unified-memory",
+      "source": "localllama",
+      "title": "Any chance I could cluster my DGX Spark (128GB unified memory) and my AMD Ryzen AI Max 395 (128GM unified memory) together to run 1 model?",
+      "url": "t3_1uerbyi",
+      "published_at": "2026-06-24T21:57:43Z",
+      "summary": "Hey all, So I have a Nvidia DGX Spark and an AMD Strix 395, both have 128GB of unified memory. The Spark has 200Gbit network and the AMD Strix has 5Gbit ethernet (but it has a pcie gen 4x4 slot). Is there any chance I ca",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-24-got-glm-52-mtp-speculative-decode-running-on-4-dgx-spark-gb1",
+      "source": "localllama",
+      "title": "Got GLM-5.2 + MTP speculative decode running on 4× DGX Spark (GB10) — and the build piece the public recipe is missing",
+      "url": "t3_1ueqfzl",
+      "published_at": "2026-06-24T21:23:27Z",
+      "summary": "TL;DR: the recipe&#39;s image-build mods aren&#39;t actually public – I reconstructed them from the public kernels (with Claude) – and you have to build vLLM at the author&#39;s exact pinned ref or the real AWQ weights c",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-24-gefen-is-a-drop-in-replacement-for-the-adamw-optimizer-claim",
+      "source": "localllama",
+      "title": "Gefen is a drop-in replacement for the AdamW optimizer, claims 8x memory reduction in training (GitHub available)",
+      "url": "t3_1uep96s",
+      "published_at": "2026-06-24T20:39:04Z",
+      "summary": "Paper: https://arxiv.org/abs/2606.13894 GitHub: https://github.com/ndvbd/Gefen  &#32; submitted by &#32;  /u/indicava   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-24-do-cloud-chatbots-system-prompts-make-them-stupider",
+      "source": "localllama",
+      "title": "Do cloud chatbot's system prompts make them stupider?",
+      "url": "t3_1uep8o5",
+      "published_at": "2026-06-24T20:38:30Z",
+      "summary": "When I am talking with Chat GPT or Claude about abstract concepts, I am often surprised by how they seem kind of dumb... like they aren&#39;t benefitting from their extra parameters over top open models like Kimi or GLM.",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-06-24-sdxl-running-locally-in-the-browser-on-webgpu-open-source",
       "source": "localllama",
@@ -8,6 +118,17 @@
       "url": "t3_1uemzsb",
       "published_at": "2026-06-24T19:15:49Z",
       "summary": "      I needed simple local image generation without the usual setup. No virtual environments, no ComfyUI with a complex graph and installation as an exe. So i tried to push the whole thing into the browser and run it on",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-24-minisforum-deg1-oculink-egpu-dock-refurbished---59",
+      "source": "localllama",
+      "title": "MINISFORUM DEG1 Oculink eGPU Dock Refurbished - $59",
+      "url": "t3_1uelxw4",
+      "published_at": "2026-06-24T18:38:01Z",
+      "summary": "      I got one of these refurbished units last year. I have nothing but good things to say about it. It works great. It has heft to it to keep the GPU secure. And unlike some cheaper Oculink docks, it has redrivers for ",
       "tags": [
         "localllama"
       ]
@@ -35,28 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-06-24-has-anyone-else-found-vllm-outputs-noticeably-worse-than-lla",
-      "source": "localllama",
-      "title": "Has anyone else found vLLM outputs noticeably worse than llama.cpp for the same model?",
-      "url": "t3_1uejklg",
-      "published_at": "2026-06-24T17:12:40Z",
-      "summary": "I&#39;m wondering if anyone else has come across this. I&#39;ve tested the same model on llama.cpp and vLLM with similar settings and quantizations. The performance and concurrency in vLLM are much noticeably better, but",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-sipp---an-open-source-library-for-in-browser-inference-built",
-      "source": "localllama",
-      "title": "Sipp - an open-source library for in-browser inference built on llama.cpp",
-      "url": "t3_1ueilqc",
-      "published_at": "2026-06-24T16:37:34Z",
-      "summary": "      GitHub: https://github.com/noumena-labs/Sipp  &#32; submitted by &#32;  /u/lordhiggsboson   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-06-24-accelerating-transformers-fine-tuning-with-nvidia-nemo-autom",
       "source": "huggingface",
       "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
@@ -68,39 +167,6 @@
       ]
     },
     {
-      "id": "localllama-2026-06-24-big-news-for-amd-strix-halo-owners",
-      "source": "localllama",
-      "title": "Big News for AMD / Strix Halo+ Owners",
-      "url": "t3_1uegdu0",
-      "published_at": "2026-06-24T15:16:34Z",
-      "summary": "Admittedly this is news for me, but I&#39;m hoping it could be of some use to others here as well! So, THE NPU IS USABLE!! I&#39;ve owned an AMD Ryzen 395 Max AI+ (or whatever the naming is lol) for about a year now and ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-openai-and-broadcom-unveil-llm-optimized-inference-chip",
-      "source": "localllama",
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "url": "t3_1ueexbr",
-      "published_at": "2026-06-24T14:22:25Z",
-      "summary": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/ Quoted from the start of the blog post:  Early testing shows that the first-generation accelerator will deliver performance per watt substantially better ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-the-swiss-federal-supreme-court-is-evaluating-heretic",
-      "source": "localllama",
-      "title": "The Swiss Federal Supreme Court is evaluating Heretic",
-      "url": "t3_1ueeund",
-      "published_at": "2026-06-24T14:19:33Z",
-      "summary": "“Oh no, are they banning abliterated models now?!?” If that was your first thought when you read the title I can’t blame you. But that’s actually not what’s happening in this case. Instead, the Swiss Federal Supreme Cour",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "microsoft-2026-06-24-talos-scaling-rare-disease-diagnosis-with-automated-iterativ",
       "source": "microsoft",
       "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
@@ -109,61 +175,6 @@
       "summary": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert rev",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-i-did-some-model-hacks-and-got-glm52-from-about-25-toks-to-5",
-      "source": "localllama",
-      "title": "I did some model hacks, and got GLM5.2 from about 2.5 tok/s to >50 tok/s on my GH200 system.",
-      "url": "t3_1uedlas",
-      "published_at": "2026-06-24T13:30:36Z",
-      "summary": "G&#39;day. This is part 3 on my Local LLM adventures. I have a crazy system hacked server-to-desktop system:    Component Spec    GPUs 2x Hopper H100, 96 GB HBM3 each   CPUs 2x Grace, 72 cores each   Host memory 480 GB L",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-the-bank-of-korea-just-released-a-report-about-ai-productivi",
-      "source": "localllama",
-      "title": "The Bank of Korea just released a report about AI productivity",
-      "url": "t3_1uecytz",
-      "published_at": "2026-06-24T13:04:58Z",
-      "summary": "I am sorry for sharing an article from a Korean website that you might not be familiar with. But South Korea is the only country currently making a lot of money from the AI boom. BigTech in the USA are paying huge amount",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-nex-n2-mini-ultra-uncensored-heretic-is-out-now-an-agentic-m",
-      "source": "localllama",
-      "title": "Nex-N2-Mini-Ultra-Uncensored-Heretic Is Out Now, an Agentic Model With Agentic Thinking Now Uncensored With 5/100 Refusals and 0.0020 KLD, Available in Safetensors and GGUF Formats!",
-      "url": "t3_1uecrk1",
-      "published_at": "2026-06-24T12:56:42Z",
-      "summary": "      Safetensors: https://huggingface.co/llmfan46/Nex-N2-mini-ultra-uncensored-heretic GGUFs: https://huggingface.co/llmfan46/Nex-N2-mini-ultra-uncensored-heretic-GGUF Find all my models here: HuggingFace-LLMFan46 If yo",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-qwen-agentworld-35b-a3b-for-coding",
-      "source": "localllama",
-      "title": "Qwen-AgentWorld-35B-A3B for Coding?",
-      "url": "t3_1uebvld",
-      "published_at": "2026-06-24T12:16:56Z",
-      "summary": "Benchmark from its model card. Removed online models &amp; Qwen-AgentWorld-397B-A17B from the table. Just Open models.   Model MCP Search Term. SWE Android Web OS Overall    DeepSeek-V4-Pro 63.27 27.61 51.26 59.44 55.17 ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-24-llamacpps-web-ui-now-supports-executing-model-generated-java",
-      "source": "localllama",
-      "title": "llama.cpp's web UI now supports executing model generated JavaScript in the browser, through Web Workers (opt in)",
-      "url": "t3_1uebknk",
-      "published_at": "2026-06-24T12:02:38Z",
-      "summary": "A pull request adding a new run_javascript tool was merged into mainline a couple of weeks ago. I could not find any discussion about it here, or elsewhere for that matter. Maybe this has gone largely unnoticed (or maybe",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -404,17 +415,6 @@
       "url": "https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything",
       "published_at": "2026-06-16T16:18:20Z",
       "summary": "Release: datasette-tailscale 0.1a0\n        A very experimental alpha plugin which lets you do this:\ndatasette tailscale mydata.db \\\n  --ts-authkey tskey-auth-xxxx --ts-hostname datasette-preview\n\nThis starts a localhost ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-16-quoting-georgi-gerganov",
-      "source": "simonw",
-      "title": "Quoting Georgi Gerganov",
-      "url": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything",
-      "published_at": "2026-06-16T16:04:59Z",
-      "summary": "I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for sma",
       "tags": [
         "simonw"
       ]
