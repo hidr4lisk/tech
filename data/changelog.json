@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T14:42:08Z",
+  "updated_at": "2026-06-25T20:07:59Z",
   "releases": [
     {
       "id": "llama-cpp-b9789",
@@ -5534,15 +5534,6 @@
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.10rc0",
       "published_at": "2026-03-28T05:58:32Z",
       "body_excerpt": "Highlights Piecewise CUDA Graph Enabled by Default: Piecewise CUDA graph capture is now the default execution mode, reducing memory overhead and improving throughput for models with complex control flow patterns: #16331 Elastic EP for Partial Failure Tolerance: Integrate Elastic NIXL-EP into SGLang, enabling partial failure tolerance for DeepSeek MoE deployments — when a GPU fails, the system redi",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.25-beta",
-      "project": "unsloth",
-      "version": "v0.1.25-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.25-beta",
-      "published_at": "2026-03-27T15:09:01Z",
-      "body_excerpt": "Hey guys, it's only been 2 days since our last release, but we’ve got a lot more important updates: Inference is now 20–30% faster. Previously, tool-calling and repeat penalty could slow inference below normal speeds. Inference tokens/s should now perform similar to / . Now Auto-detects older or pre-existing models downloaded from LM Studio, Hugging Face, and similar sources. Inference token/s spe",
       "type": "tool"
     }
   ]
