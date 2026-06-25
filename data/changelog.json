@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-24T19:52:48Z",
+  "updated_at": "2026-06-25T04:02:11Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9786",
+      "project": "llama-cpp",
+      "version": "b9786",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9786",
+      "published_at": "2026-06-25T03:01:02Z",
+      "body_excerpt": "opencl: support non-contig rows in norm (#24965) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) ",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.11-rc0",
+      "project": "ollama",
+      "version": "v0.30.11-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc0",
+      "published_at": "2026-06-25T01:52:05Z",
+      "body_excerpt": "What's Changed launch: add thinking capability detection to opencode by @hoyyeva in launch: auto-install Claude Code by @hoyyeva in launch: auto-install opencode when missing by @hoyyeva in discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in mlxrunner: unify and tune speculative decoding by @jessegross in launch/codex: detect model drift when Codex ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9785",
+      "project": "llama-cpp",
+      "version": "b9785",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9785",
+      "published_at": "2026-06-25T01:21:32Z",
+      "body_excerpt": "chat: harden caps check (#24973) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9784",
+      "project": "llama-cpp",
+      "version": "b9784",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9784",
+      "published_at": "2026-06-24T19:55:59Z",
+      "body_excerpt": "hexagon: MUL_MAT and MUL_MAT_ID rework : 32x32 tiled weight repack, kernel-params, cached graphs (#24954) hex-mm: new weight layout and fusion updates hvx-mm: unroll the new tiled vec_dots to optimize hvx register util hex-mm: optimize dyn.quant format for q8_0 and q8_1 to reduce overhead in vec_dots. hvx-mm: parallel quantizer per block for large rows hvx-mm: simplify and futher optimize dyn.quan",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9782",
       "project": "llama-cpp",
@@ -54,6 +90,15 @@
       "published_at": "2026-06-23T21:31:26Z",
       "body_excerpt": "🎉 LocalAI 4.5.0 Release! 🚀 LocalAI 4.5.0 is out! This release widens what LocalAI can perceive, sharpens the realtime voice API, and makes multi-user serving fast with zero configuration. Four new backends land, the React UI redesign ships in full, and distributed mode gets a robustness pass. Highlights: 👁️ See depth - new backend (Depth Anything 3): monocular metric depth + camera pose, with a ty",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-MiniMax-M3-NVFP4",
+      "project": "nvidia",
+      "version": "MiniMax-M3-NVFP4",
+      "url": "https://huggingface.co/nvidia/MiniMax-M3-NVFP4",
+      "published_at": "2026-06-23T20:48:47Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9775",
@@ -5471,15 +5516,6 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.25-beta",
       "published_at": "2026-03-27T15:09:01Z",
       "body_excerpt": "Hey guys, it's only been 2 days since our last release, but we’ve got a lot more important updates: Inference is now 20–30% faster. Previously, tool-calling and repeat penalty could slow inference below normal speeds. Inference tokens/s should now perform similar to / . Now Auto-detects older or pre-existing models downloaded from LM Studio, Hugging Face, and similar sources. Inference token/s spe",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.4.0",
-      "project": "transformers",
-      "version": "v5.4.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
-      "published_at": "2026-03-27T00:33:02Z",
-      "body_excerpt": "New Model additions VidEoMT Video Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that carries information across frames and employs a query fusion strategy that combines propagated querie",
       "type": "tool"
     }
   ]
