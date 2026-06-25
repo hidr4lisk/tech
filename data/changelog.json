@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-25T04:02:11Z",
+  "updated_at": "2026-06-25T09:32:12Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9789",
+      "project": "llama-cpp",
+      "version": "b9789",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9789",
+      "published_at": "2026-06-25T09:22:07Z",
+      "body_excerpt": "quant : fix quantizing moe with mtp (#24986) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wind",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9788",
+      "project": "llama-cpp",
+      "version": "b9788",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9788",
+      "published_at": "2026-06-25T08:45:39Z",
+      "body_excerpt": "sycl : support --split-mode tensor (#24152) Sycl tp stage1 (#1) SYCL: tensor parallelism (--split-mode tensor) for dual-GPU Adds the comm_init/comm_free/comm_allreduce_tensor trio that the meta-backend queries via get_proc_address to enable backend-specific all-reduce, mirroring the pattern used by ggml-cuda.cu. For N=2 (the common dual-GPU case) implements a degenerate ring all-reduce with two si",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9787",
+      "project": "llama-cpp",
+      "version": "b9787",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9787",
+      "published_at": "2026-06-25T06:06:38Z",
+      "body_excerpt": "sycl : fix the failed UT cases of conv_3d (#24900) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9786",
       "project": "llama-cpp",
