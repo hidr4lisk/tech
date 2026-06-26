@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-26T09:36:44Z",
+  "updated_at": "2026-06-26T14:35:12Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9811",
+      "project": "llama-cpp",
+      "version": "b9811",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9811",
+      "published_at": "2026-06-26T13:04:54Z",
+      "body_excerpt": "vulkan: Workaround compiler bug in conv2d coopmat2 path (#24924) vulkan: Workaround compiler bug in conv2d coopmat2 path apply same workaround to CONV_3D Apply suggestion from @jeffbolznv macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9810",
+      "project": "llama-cpp",
+      "version": "b9810",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9810",
+      "published_at": "2026-06-26T11:44:47Z",
+      "body_excerpt": "CUDA: add cublasSgemmBatched mapping for HIP/MUSA vendor headers (#25033) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
+      "type": "tool"
+    },
     {
       "id": "localai-v4.5.2",
       "project": "localai",
