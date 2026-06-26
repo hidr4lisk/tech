@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-06-26T04:09:35Z",
+  "updated_at": "2026-06-26T09:36:44Z",
   "releases": [
+    {
+      "id": "localai-v4.5.2",
+      "project": "localai",
+      "version": "v4.5.2",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.5.2",
+      "published_at": "2026-06-26T09:20:35Z",
+      "body_excerpt": "What's Changed Other Changes fix(backends): make the opus backend build and package on macOS/Darwin by @localai-bot in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "hf-Qwen-Qwen3-ForcedAligner-0.6B-hf",
+      "project": "Qwen",
+      "version": "Qwen3-ForcedAligner-0.6B-hf",
+      "url": "https://huggingface.co/Qwen/Qwen3-ForcedAligner-0.6B-hf",
+      "published_at": "2026-06-26T08:42:01Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "localai-v4.5.1",
+      "project": "localai",
+      "version": "v4.5.1",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.5.1",
+      "published_at": "2026-06-26T08:39:53Z",
+      "body_excerpt": "What's Changed Other Changes chore(model gallery): :robot: add 1 new models via gallery agent by @localai-bot in chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in chore: :arrow_up: Update CrispStrobe/CrispASR to by @localai-bot in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in chore: :arrow_up: Update ggml-org/whisper.cpp to by @localai-bot in chore: :arrow_u",
+      "type": "tool"
+    },
+    {
+      "id": "hf-Qwen-Qwen3-ASR-0.6B-hf",
+      "project": "Qwen",
+      "version": "Qwen3-ASR-0.6B-hf",
+      "url": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B-hf",
+      "published_at": "2026-06-26T08:39:00Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-Qwen3-ASR-1.7B-hf",
+      "project": "Qwen",
+      "version": "Qwen3-ASR-1.7B-hf",
+      "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B-hf",
+      "published_at": "2026-06-26T08:34:21Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b9804",
+      "project": "llama-cpp",
+      "version": "b9804",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9804",
+      "published_at": "2026-06-26T07:15:48Z",
+      "body_excerpt": "mamba2: remove hardcoded 2x expansion factor and invalid d_inner % d_state check (#23082) mamba2: remove hardcoded 2x expansion factor, support any expand value mamba2: remove invalid d_inner %% d_state check (unrelated parameters) Update convert_hf_to_gguf.py: make expand optional with default 2 Co-authored-by: Sigbjørn Skjæret mamba2: apply expand fix to refactored conversion/mamba.py also check",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9803",
       "project": "llama-cpp",
@@ -60,6 +114,15 @@
       "project": "ollama",
       "version": "v0.30.11-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc0",
+      "published_at": "2026-06-25T01:52:05Z",
+      "body_excerpt": "What's Changed launch: add thinking capability detection to opencode by @hoyyeva in launch: auto-install Claude Code by @hoyyeva in launch: auto-install opencode when missing by @hoyyeva in discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in mlxrunner: unify and tune speculative decoding by @jessegross in launch/codex: detect model drift when Codex ",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.11-rc1",
+      "project": "ollama",
+      "version": "v0.30.11-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc1",
       "published_at": "2026-06-25T01:52:05Z",
       "body_excerpt": "What's Changed launch: add thinking capability detection to opencode by @hoyyeva in launch: auto-install Claude Code by @hoyyeva in launch: auto-install opencode when missing by @hoyyeva in discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in mlxrunner: unify and tune speculative decoding by @jessegross in launch/codex: detect model drift when Codex ",
       "type": "tool"
@@ -5561,15 +5624,6 @@
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.18.1",
       "published_at": "2026-03-31T00:53:26Z",
       "body_excerpt": "This is a patch release on top of v0.18.0 to address a few issues: Change default SM100 MLA prefill backend back to TRT-LLM (#38562) Fix mock.patch resolution failure for standalone_compile.FakeTensorMode on Python <= 3.10 (#37158) Disable monolithic TRTLLM MoE for Renormalize routing #37605 Pre-download missing FlashInfer headers in Docker build #38391 Fix DeepGemm E8M0 accuracy degradation for Q",
-      "type": "tool"
-    },
-    {
-      "id": "sglang-v0.5.10rc0",
-      "project": "sglang",
-      "version": "v0.5.10rc0",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.10rc0",
-      "published_at": "2026-03-28T05:58:32Z",
-      "body_excerpt": "Highlights Piecewise CUDA Graph Enabled by Default: Piecewise CUDA graph capture is now the default execution mode, reducing memory overhead and improving throughput for models with complex control flow patterns: #16331 Elastic EP for Partial Failure Tolerance: Integrate Elastic NIXL-EP into SGLang, enabling partial failure tolerance for DeepSeek MoE deployments — when a GPU fails, the system redi",
       "type": "tool"
     }
   ]

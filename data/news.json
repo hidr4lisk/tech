@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-06-26T04:09:31Z",
+  "updated_at": "2026-06-26T09:36:37Z",
   "items": [
+    {
+      "id": "localllama-2026-06-26-help-optimizing-llamacpp-qwen-27b-on-rtx-pro-6000-blackwell",
+      "source": "localllama",
+      "title": "Help optimizing llama.cpp + Qwen 27B on RTX PRO 6000 Blackwell for coding agents",
+      "url": "t3_1ug1j3i",
+      "published_at": "2026-06-26T09:04:55Z",
+      "summary": "Our company recently acquired a workstation with an RTX PRO 6000 Blackwell, and we&#39;re experimenting with local LLMs to reduce part of our Claude token usage. Right now we’re running Qwen3.6 27B MTP Q8_K_XL with llama",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-26-kld-is-flawed-in-abliteration",
+      "source": "localllama",
+      "title": "KLD is flawed in abliteration.",
+      "url": "t3_1ufywtf",
+      "published_at": "2026-06-26T06:33:15Z",
+      "summary": "I&#39;ve noticed while creating my abliteration engine that KL is a flawed metric because it can be represented so many different ways, it depends completely on eval prompts, and lots of people use first token KL to make",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-26-ornith-10---terminology-and-concepts-explained-basic",
+      "source": "localllama",
+      "title": "Ornith 1.0 - terminology and concepts explained (basic)",
+      "url": "t3_1ufykja",
+      "published_at": "2026-06-26T06:14:27Z",
+      "summary": "      I made a quick guide for myself while wanting to try the new models, so I share it with you. It&#39;s pretty basic, but it may be useful for new people here. I also published the repo with the open code config and ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-26-does-llama-cpp-split-mode-tensor-cause-issues",
+      "source": "localllama",
+      "title": "Does llama cpp split mode tensor cause issues?",
+      "url": "t3_1ufy09k",
+      "published_at": "2026-06-26T05:43:15Z",
+      "summary": "I split qwen 27b and Gemma 4 26b (moe) across a 5080, and 2x 5060ti. I noticed setting split mode to tensor mode will cause looping issues in OpenCode with tool calls or just through the reasoning traces. Anyone else get",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-06-26-for-dual-gpus-will-there-be-any-big-impact-to-inference-spee",
       "source": "localllama",
@@ -118,50 +162,6 @@
       "url": "t3_1ufkadz",
       "published_at": "2026-06-25T19:40:27Z",
       "summary": "I think of purchasing 2 DGX Sparks for my office (because a 700+W workstation would be intolerable) for LLM-centric work (inference only, no fine-tuning). I know the OS is based on Ubuntu 24.04. Has Nvidia ever disclosed",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-prices-of-graphic-cards-are-going-crazy-should-i-buy-a-secon",
-      "source": "localllama",
-      "title": "Prices of graphic cards are going crazy, should I buy a second card though?",
-      "url": "t3_1ufk90u",
-      "published_at": "2026-06-25T19:39:03Z",
-      "summary": "A few months ago, I bought a RX 7900 XTX 24g to start toying with local LLM, at 900€ new. Little I knew that now I want to add a second card to my rig, but prices have gone insane! Adding a new 7900 XTX would cost me 120",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-3090-idle-consumption-reset",
-      "source": "localllama",
-      "title": "3090 Idle Consumption reset",
-      "url": "t3_1ufk392",
-      "published_at": "2026-06-25T19:32:55Z",
-      "summary": "I was about to say how much better 595.71.05 drivers were at reverting my dual 3090s to a lower power state when idle, with my 3090s dropping down to 13w to 15w. Today, however, one of the cards seems stuck at 24w to 30w",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-lfm25-230m-running-in-browser-at-1400-toks-using-custom-webg",
-      "source": "localllama",
-      "title": "LFM2.5 230M running in-browser at 1,400 tok/s using custom WebGPU kernels",
-      "url": "t3_1ufii9b",
-      "published_at": "2026-06-25T18:35:41Z",
-      "summary": "      Everything runs locally in your browser using custom WebGPU kernels written by Fable 5 (before it was shut down) and Opus 4.8. The video was recorded on my M4 Max.  Model: LiquidAI/LFM2.5-230M (GGUF) Demo: https://",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-25-report-apple-to-skip-m6-promax-chips-fast-track-m7-for-local",
-      "source": "localllama",
-      "title": "Report: Apple to skip M6 Pro/Max chips, fast-track M7 for local AI",
-      "url": "t3_1ufhu3s",
-      "published_at": "2026-06-25T18:11:35Z",
-      "summary": "      &#32; submitted by &#32;  /u/fallingdowndizzyvr   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
