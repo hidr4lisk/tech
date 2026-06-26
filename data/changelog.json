@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-25T20:07:59Z",
+  "updated_at": "2026-06-26T04:09:35Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9803",
+      "project": "llama-cpp",
+      "version": "b9803",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9803",
+      "published_at": "2026-06-26T02:26:19Z",
+      "body_excerpt": "opencl: flush profiling batch at shutdown for incomplete batches (#25016) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9802",
+      "project": "llama-cpp",
+      "version": "b9802",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9802",
+      "published_at": "2026-06-25T22:49:14Z",
+      "body_excerpt": "macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Wi",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9789",
       "project": "llama-cpp",
@@ -207,6 +225,15 @@
       "published_at": "2026-06-22T21:32:31Z",
       "body_excerpt": "server : Add id to tool call responses api (#24882) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CP",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-GLM-5.2-NVFP4",
+      "project": "nvidia",
+      "version": "GLM-5.2-NVFP4",
+      "url": "https://huggingface.co/nvidia/GLM-5.2-NVFP4",
+      "published_at": "2026-06-22T19:55:57Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9761",
@@ -997,6 +1024,15 @@
       "version": "tmax-9b",
       "url": "https://huggingface.co/allenai/tmax-9b",
       "published_at": "2026-06-17T00:53:00Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-dlesym-v0-isccp-era5",
+      "project": "nvidia",
+      "version": "dlesym-v0-isccp-era5",
+      "url": "https://huggingface.co/nvidia/dlesym-v0-isccp-era5",
+      "published_at": "2026-06-16T23:14:32Z",
       "body_excerpt": "",
       "type": "model"
     },
