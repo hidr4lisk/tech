@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-06-26T14:35:12Z",
+  "updated_at": "2026-06-26T19:57:14Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9820",
+      "project": "llama-cpp",
+      "version": "b9820",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9820",
+      "published_at": "2026-06-26T18:35:23Z",
+      "body_excerpt": "sched : reintroduce less synchronizations during split compute (#20793) CUDA: Improve performance via less synchronizations between token (#17795) Adds CPU-to-CUDA copy capability to ggml_backend_cuda_cpy_tensor_async() Adds function to relax sync requirements between input copies on supported backends (CUDA for now) Exchanges synchronous copy with async copy function. Adds macro guards to allow c",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9817",
+      "project": "llama-cpp",
+      "version": "b9817",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9817",
+      "published_at": "2026-06-26T17:27:10Z",
+      "body_excerpt": "openvino: Update to OV 2026.2.1, self-contained release packages, operator improvements (#24974) Update to OV 2026.2.1, Make OV release packages self-contained Update to OV 2026.2.1, Make OV release packages self-contained OpenVINO Backend: Remove compute_op_type hardcoded sets (#222) OpenVINO Backend: Remove compute_op_type hardcoded sets revert get_op_type removal OpenVINO backend: enable softma",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9816",
+      "project": "llama-cpp",
+      "version": "b9816",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9816",
+      "published_at": "2026-06-26T16:48:49Z",
+      "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9814",
+      "project": "llama-cpp",
+      "version": "b9814",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9814",
+      "published_at": "2026-06-26T16:14:54Z",
+      "body_excerpt": "vulkan: opt mul_mat_vecq for mi50 (#22933) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9813",
+      "project": "llama-cpp",
+      "version": "b9813",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9813",
+      "published_at": "2026-06-26T15:38:01Z",
+      "body_excerpt": "vulkan: add INTEL_XE1 arch enum and enable coopmat1 on Intel Xe-LPG Plus (#24404) vulkan: add INTEL_PRE_XE2 arch enum and enable coopmat1 on Intel Xe-LPG Plus (1/3, Xe1-ARLH) Co-authored-by: Xia, Jie Co-authored-by: Liu, Russell Address comments of bf16 and trailing whitespace Rename INTEL_PRE_XE2 to INTEL_XE1 and remove driver workaround Add Windows driver check --------- Co-authored-by: Xia, Jie",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9811",
       "project": "llama-cpp",
@@ -83,6 +128,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-c-fast-foundationstereo",
+      "project": "nvidia",
+      "version": "c-fast-foundationstereo",
+      "url": "https://huggingface.co/nvidia/c-fast-foundationstereo",
+      "published_at": "2026-06-26T00:16:42Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9802",
       "project": "llama-cpp",
       "version": "b9802",
@@ -141,6 +195,15 @@
       "project": "ollama",
       "version": "v0.30.11-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc1",
+      "published_at": "2026-06-25T01:52:05Z",
+      "body_excerpt": "What's Changed launch: add thinking capability detection to opencode by @hoyyeva in launch: auto-install Claude Code by @hoyyeva in launch: auto-install opencode when missing by @hoyyeva in discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in mlxrunner: unify and tune speculative decoding by @jessegross in launch/codex: detect model drift when Codex ",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.11",
+      "project": "ollama",
+      "version": "v0.30.11",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11",
       "published_at": "2026-06-25T01:52:05Z",
       "body_excerpt": "What's Changed launch: add thinking capability detection to opencode by @hoyyeva in launch: auto-install Claude Code by @hoyyeva in launch: auto-install opencode when missing by @hoyyeva in discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in mlxrunner: unify and tune speculative decoding by @jessegross in launch/codex: detect model drift when Codex ",
       "type": "tool"
