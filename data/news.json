@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-06-27T03:55:10Z",
+  "updated_at": "2026-06-27T08:42:33Z",
   "items": [
+    {
+      "id": "localllama-2026-06-27-are-there-any-qwen-finetunes-that-were-genuinely-stronger-th",
+      "source": "localllama",
+      "title": "Are there any qwen finetunes that were genuinely stronger than the base?",
+      "url": "t3_1ugvv6p",
+      "published_at": "2026-06-27T07:09:29Z",
+      "summary": "It&#39;s pretty popular to finetune qwen models but I never hear anyone say anything positive about them.  &#32; submitted by &#32;  /u/MrMrsPotts   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-27-deepseek-aideepseek-v4-pro-dspark-huggingface",
+      "source": "localllama",
+      "title": "deepseek-ai/DeepSeek-V4-Pro-DSpark • Huggingface",
+      "url": "t3_1ugug2o",
+      "published_at": "2026-06-27T05:50:47Z",
+      "summary": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf  &#32; submitted by &#32;  /u/External_Mood4719   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-27-fine-tuned-liquidais-lfm25-230m-on-fable-5-coding-traces---i",
+      "source": "localllama",
+      "title": "fine-tuned LiquidAI’s LFM2.5-230M on Fable-5 coding traces - its better than I expected it to be",
+      "url": "t3_1ugtv27",
+      "published_at": "2026-06-27T05:18:55Z",
+      "summary": "      fine-tuned LiquidAI’s LFM2.5-230M on Fable-5 traces and shipped it as GGUF tiny 230M coding-agent model. trained at 4096 ctx. exported Q4_K_M / Q8_0 / F16. runs locally. repo: https://hf.co/AKMESSI/lfm2.5-230m-fabl",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-27-another-big-tensor-fix-b9820",
+      "source": "localllama",
+      "title": "Another big tensor fix b9820",
+      "url": "t3_1ugtdl7",
+      "published_at": "2026-06-27T04:53:20Z",
+      "summary": "sched : reintroduce less synchronizations during split compute (#20793)  CUDA: Improve performance via less synchronizations between token (#17795) Adds CPU-to-CUDA copy capability to ggml_backend_cuda_cpy_tensor_async()",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-27-when-can-we-expect-merged-deepseek-v4-flash-minimax-m3-llama",
+      "source": "localllama",
+      "title": "When can we expect merged DeepSeek V4 Flash / MiniMax M3 llama.cpp support?",
+      "url": "t3_1ugsnej",
+      "published_at": "2026-06-27T04:16:00Z",
+      "summary": "I am relatively new here, I have little experience in how long support development takes. I know there are forks. But not merged status means AFAIK that support is far from perfect. When can we expect stable full support",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-06-27-ornith-10-35b-q3-k-m-17-gb-vram-kld-checked-against-bf16",
       "source": "localllama",
@@ -96,61 +151,6 @@
       "url": "t3_1ugj532",
       "published_at": "2026-06-26T21:09:47Z",
       "summary": "      I added: 1x RTX 3090 - 610 USD 1x Arc A770 - 222 USD 1x PCIe x1 to 4x USB 3.0 PCIe riser New cpu cooler Specs: Modified Zalman Z9 Plus Case 2x Zotac RTX 3090 24 GB 1x Intel Arc A770 16 GB 48 GB DDR4 RAM AMD Ryzen 5",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-nemotron-3-super-120b-a12b-hybrid-mambamoe-holds-perfect-nee",
-      "source": "localllama",
-      "title": "Nemotron-3-Super-120B-A12B (hybrid Mamba+MoE) holds perfect needle retrieval to 504K tokens on 4×3090",
-      "url": "t3_1ugj1sf",
-      "published_at": "2026-06-26T21:06:14Z",
-      "summary": "      TLDR: The Mamba/SSM layers keep a constant-size recurrent state instead of a growing KV cache, so context is nearly free. Full needle retrieval at half a million tokens, fully on-GPU, ~71GB. The new imatrix gguf he",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-vulkan-make-tp-viable-by-pwilkin-pull-request-25051-ggml-org",
-      "source": "localllama",
-      "title": "vulkan: make TP viable by pwilkin · Pull Request #25051 · ggml-org/llama.cpp",
-      "url": "t3_1ugitcr",
-      "published_at": "2026-06-26T20:57:10Z",
-      "summary": "      The legend Piotr has taken a pass at making Vulkan Tensor Parallel somewhat usable, really looking forward to seeing this evolve  &#32; submitted by &#32;  /u/TKGaming_11   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-hello-there-again-i-ported-my-kokoro-enhancements-so-you-can",
-      "source": "localllama",
-      "title": "Hello there! (again) i ported my kokoro enhancements so you can use them in your projects.",
-      "url": "t3_1ugij5c",
-      "published_at": "2026-06-26T20:46:14Z",
-      "summary": "i made a web based and python based version of the enhancements i made to kokoro&#39;s controls. both are, of course, fully client side. if you have hardware acceleration turned on in your browser, kokoro runs on webgpu ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-local-llm-peeps",
-      "source": "localllama",
-      "title": "Local LLM Peeps",
-      "url": "t3_1ughcl0",
-      "published_at": "2026-06-26T20:01:23Z",
-      "summary": "I am 80% done with a harness that works for local and API but is local first. The harness has some interesting logic around multiple agents which I’m holding back on until it is open source on GitHub. I have been local f",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-what-are-people-using-for-multi-model-backends-what-about-sw",
-      "source": "localllama",
-      "title": "What are people using for multi-model backends? What about swapping configs?",
-      "url": "t3_1ugh8h4",
-      "published_at": "2026-06-26T19:57:18Z",
-      "summary": "I am trying to plan and deploy a machine that serves models for coding, Hermes, and whatever else. It&#39;s got multiple GPUs in it, and I want the flexibility to run different configurations (i.e. I might want to run tw",
       "tags": [
         "localllama"
       ]
