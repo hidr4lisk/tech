@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-26T19:57:14Z",
+  "updated_at": "2026-06-27T03:55:15Z",
   "releases": [
+    {
+      "id": "localai-v4.5.4",
+      "project": "localai",
+      "version": "v4.5.4",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.5.4",
+      "published_at": "2026-06-27T00:06:11Z",
+      "body_excerpt": "What's Changed Other Changes fix(backends): derive darwin RUN_BINARY from the exec line only by @localai-bot in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.5.3",
+      "project": "localai",
+      "version": "v4.5.3",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.5.3",
+      "published_at": "2026-06-26T23:45:40Z",
+      "body_excerpt": "What's Changed Other Changes feat(macos): sign and notarize the DMG, app, and server binary by @localai-bot in fix(backends): set rpath on the piper darwin binary so it can load its bundled libs by @localai-bot in fix(backends): darwin packaging for silero-vad (last Linux-only Go backend) by @localai-bot in chore(model gallery): :robot: add 1 new models via gallery agent by @localai-bot in fix(nod",
+      "type": "tool"
+    },
+    {
+      "id": "sglang-v0.5.14",
+      "project": "sglang",
+      "version": "v0.5.14",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.14",
+      "published_at": "2026-06-26T22:57:30Z",
+      "body_excerpt": "Highlights New Model Support: GLM-5.2, LiquidAI LFM2.5, Kimi-K2.7-Code, Poolside Laguna-M.1, DiffusionGemma, Zyphra ZAYA1, MiMo-V2-ASR DeepSeek-V4 on GB300 since Day 0: 5x higher throughput at the same interactivity, serving DeepSeek-V4 on NVIDIA GB300 with SGLang (blog). Waterfill & LPLB MoE load balancing: Two dispatch-time load-balancing methods for DeepEP expert parallelism: Waterfill for shar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9821",
+      "project": "llama-cpp",
+      "version": "b9821",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9821",
+      "published_at": "2026-06-26T21:55:22Z",
+      "body_excerpt": "app : allow --version, --licenses & --help (#25054) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL F",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9820",
       "project": "llama-cpp",

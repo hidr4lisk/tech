@@ -1,24 +1,156 @@
 {
-  "updated_at": "2026-06-26T19:57:08Z",
+  "updated_at": "2026-06-27T03:55:10Z",
   "items": [
     {
-      "id": "localllama-2026-06-26-decentralized-assessment-for-trustworthy-ai-data",
+      "id": "localllama-2026-06-27-ornith-10-35b-q3-k-m-17-gb-vram-kld-checked-against-bf16",
       "source": "localllama",
-      "title": "Decentralized Assessment for Trustworthy AI (DATA)",
-      "url": "t3_1uggqgr",
-      "published_at": "2026-06-26T19:38:05Z",
-      "summary": "Have you ever thought to yourself that sometimes things happen with AI companies in a legal way, but not in an ethically correct way? Have you ever wished you could prove it in an impartial, quantifiable and comparable w",
+      "title": "Ornith-1.0-35B Q3_K_M: ~17 GB VRAM, KLD-checked against BF16",
+      "url": "t3_1ugqipi",
+      "published_at": "2026-06-27T02:30:15Z",
+      "summary": "I quantized deepreinforce-ai/Ornith-1.0-35B down to Q3_K_M so it fits comfortably on a single GPU. Produced locally with llama-quantize from the upstream BF16 GGUF — the quantizer took it from 16.01 BPW down to 3.87 BPW,",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-26-what-should-i-do---consider-post-training",
+      "id": "localllama-2026-06-27-stt-that-can-challenge-dragon-professional-on-windows",
       "source": "localllama",
-      "title": "\"What should I do?\" - consider post-training",
-      "url": "t3_1ugg1dm",
-      "published_at": "2026-06-26T19:11:36Z",
-      "summary": "      This is in response to the common post where OP has acquired some cool hardware and is wondering what to do with it. The standard response is always (1) download model X, (2) benchmark it on tps, (3) share screensh",
+      "title": "STT That Can Challenge Dragon Professional on Windows",
+      "url": "t3_1ugqf1b",
+      "published_at": "2026-06-27T02:25:16Z",
+      "summary": "Are there any local LLM based speech to text that can challenge Dragon NaturallySpeaking or Dragon Professional? Notably with regards to being able to change/delete words already pasted in, select things, load word while",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-27-findings-from-troubleshooting-p2p-on-4x5060-ti-bifurcation",
+      "source": "localllama",
+      "title": "Findings from troubleshooting p2p on 4x5060 ti bifurcation.",
+      "url": "t3_1ugojf6",
+      "published_at": "2026-06-27T00:56:07Z",
+      "summary": "I dumped the last week deep diving this and I’m I’ve been using Linux for 14 years and am a cloud systems engineer with a focus on supported Linux infrastructure for a private cloud provider. Essentially, if you are usin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-27-how-to-distill-my-own-models",
+      "source": "localllama",
+      "title": "How to distill my own models?",
+      "url": "t3_1ugo5nw",
+      "published_at": "2026-06-27T00:38:10Z",
+      "summary": "I&#39;ve been using cloud provided models for agentic theorem proving a lot, and cost is becoming an issue for me. I have funding for hardware cost but I can&#39;t use them for LLM credits which put me in a unique situat",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-26-quoting-dean-w-ball",
+      "source": "simonw",
+      "title": "Quoting Dean W. Ball",
+      "url": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
+      "published_at": "2026-06-26T22:25:46Z",
+      "summary": "This is a bad state of affairs. Consider, in particular, some industry dynamics:\n\nFrontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that t",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-26-took-the-plunge-minisforum-ms-s1-max",
+      "source": "localllama",
+      "title": "Took the plunge! (Minisforum MS-S1 Max)",
+      "url": "t3_1ugkvrm",
+      "published_at": "2026-06-26T22:18:13Z",
+      "summary": "With Apple prices entering the stratosphere, the recent Fable gov&#39;t rug pull, and the inevitable closed-model price increases, I decided to pick up a (lightly) used Minisforum MS-S1 Max with 128GB of memory. Comes wi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-26-quoting-timothy-b-lee",
+      "source": "simonw",
+      "title": "Quoting Timothy B. Lee",
+      "url": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
+      "published_at": "2026-06-26T21:15:09Z",
+      "summary": "This is like saying there's no learning curve to being a manager because your employees will just do whatever you tell them to do.\n&mdash; Timothy B. Lee, on the idea that LLMs take no skill and have no learning curve\n\n ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-26-can-qwen36-35b-a3b-on-an-rtx-3060-replace-google-vision-for",
+      "source": "localllama",
+      "title": "Can Qwen3.6-35B-A3B on an RTX 3060 Replace Google Vision for Receipt-to-JSON Extraction?",
+      "url": "t3_1ugj9r9",
+      "published_at": "2026-06-26T21:14:44Z",
+      "summary": "I tried replacing Google Vision in my receipt pipeline with a local Qwen model. I had an old LINE message bot where I could send a receipt photo, it would go to Google Vision, get parsed into JSON, and saved in SQLite. R",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-26-upgraded-my-budget-build-to-multi-gpu-for-inference",
+      "source": "localllama",
+      "title": "Upgraded my budget build to multi-GPU for inference",
+      "url": "t3_1ugj532",
+      "published_at": "2026-06-26T21:09:47Z",
+      "summary": "      I added: 1x RTX 3090 - 610 USD 1x Arc A770 - 222 USD 1x PCIe x1 to 4x USB 3.0 PCIe riser New cpu cooler Specs: Modified Zalman Z9 Plus Case 2x Zotac RTX 3090 24 GB 1x Intel Arc A770 16 GB 48 GB DDR4 RAM AMD Ryzen 5",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-26-nemotron-3-super-120b-a12b-hybrid-mambamoe-holds-perfect-nee",
+      "source": "localllama",
+      "title": "Nemotron-3-Super-120B-A12B (hybrid Mamba+MoE) holds perfect needle retrieval to 504K tokens on 4×3090",
+      "url": "t3_1ugj1sf",
+      "published_at": "2026-06-26T21:06:14Z",
+      "summary": "      TLDR: The Mamba/SSM layers keep a constant-size recurrent state instead of a growing KV cache, so context is nearly free. Full needle retrieval at half a million tokens, fully on-GPU, ~71GB. The new imatrix gguf he",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-26-vulkan-make-tp-viable-by-pwilkin-pull-request-25051-ggml-org",
+      "source": "localllama",
+      "title": "vulkan: make TP viable by pwilkin · Pull Request #25051 · ggml-org/llama.cpp",
+      "url": "t3_1ugitcr",
+      "published_at": "2026-06-26T20:57:10Z",
+      "summary": "      The legend Piotr has taken a pass at making Vulkan Tensor Parallel somewhat usable, really looking forward to seeing this evolve  &#32; submitted by &#32;  /u/TKGaming_11   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-26-hello-there-again-i-ported-my-kokoro-enhancements-so-you-can",
+      "source": "localllama",
+      "title": "Hello there! (again) i ported my kokoro enhancements so you can use them in your projects.",
+      "url": "t3_1ugij5c",
+      "published_at": "2026-06-26T20:46:14Z",
+      "summary": "i made a web based and python based version of the enhancements i made to kokoro&#39;s controls. both are, of course, fully client side. if you have hardware acceleration turned on in your browser, kokoro runs on webgpu ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-26-local-llm-peeps",
+      "source": "localllama",
+      "title": "Local LLM Peeps",
+      "url": "t3_1ughcl0",
+      "published_at": "2026-06-26T20:01:23Z",
+      "summary": "I am 80% done with a harness that works for local and API but is local first. The harness has some interesting logic around multiple agents which I’m holding back on until it is open source on GitHub. I have been local f",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-26-what-are-people-using-for-multi-model-backends-what-about-sw",
+      "source": "localllama",
+      "title": "What are people using for multi-model backends? What about swapping configs?",
+      "url": "t3_1ugh8h4",
+      "published_at": "2026-06-26T19:57:18Z",
+      "summary": "I am trying to plan and deploy a machine that serves models for coding, Hermes, and whatever else. It&#39;s got multiple GPUs in it, and I want the flexibility to run different configurations (i.e. I might want to run tw",
       "tags": [
         "localllama"
       ]
@@ -46,28 +178,6 @@
       ]
     },
     {
-      "id": "localllama-2026-06-26-streaming-medical-stt-running-locally-on-a-macbook",
-      "source": "localllama",
-      "title": "Streaming medical STT running locally on a MacBook",
-      "url": "t3_1ugdjts",
-      "published_at": "2026-06-26T17:38:43Z",
-      "summary": "      Quick teaser of what I’ve been working on over the last few weeks: a streaming medical speech-to-text model that runs fully on-device. This demo is running locally on a MacBook through MLX. Still doing more evals, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-book-review-domain-specific-small-language-models-by-gugliel",
-      "source": "localllama",
-      "title": "Book Review: Domain-Specific Small Language Models by Guglielmo Iozzia",
-      "url": "t3_1ugdj86",
-      "published_at": "2026-06-26T17:38:07Z",
-      "summary": "Domain-Specific Small Language Models Guglielmo Iozzia Review by u/skiata I came across Domain-Specific Small Language Models (https://www.manning.com/books/domain-specific-small-language-models) by attending the author&",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-06-26-quoting-openai",
       "source": "simonw",
       "title": "Quoting OpenAI",
@@ -76,94 +186,6 @@
       "summary": "We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while being",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-getting-real-work-out-of-a-4b-local-model-the-distill-on-idl",
-      "source": "localllama",
-      "title": "Getting real work out of a 4B local model: the distill-on-idle pipeline behind an on-device \"memory\" assistant",
-      "url": "t3_1ugcsfv",
-      "published_at": "2026-06-26T17:10:09Z",
-      "summary": "      https://preview.redd.it/iiiqwt96tn9h1.png?width=3004&amp;format=png&amp;auto=webp&amp;s=f02fba9f64e27ac91b2ae4cd478842106b294366 https://preview.redd.it/47cb5u96tn9h1.png?width=3024&amp;format=png&amp;auto=webp&amp",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-why-do-people-keep-investing-in-intel-for-ai",
-      "source": "localllama",
-      "title": "Why do people keep investing in Intel for AI?",
-      "url": "t3_1ugcbqx",
-      "published_at": "2026-06-26T16:53:32Z",
-      "summary": "      If you get a good deal on some Xeons with a lot of memory bandwidth, or a cheap GPU for home inference, that&#39;s cool, no disrespect. But how in the hell are Wall Street types considering Intel part of the &quot;",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-8-tesla-t4-cards-what-should-it-do",
-      "source": "localllama",
-      "title": "8 Tesla T4 Cards, what should it do?",
-      "url": "t3_1ugbxg7",
-      "published_at": "2026-06-26T16:39:05Z",
-      "summary": "I have collected 8 Tesla T4 Datacenter Cards from a few retired VDI servers. I have one in a DEG1 and works ok on n its own. What should we do with the rest?  &#32; submitted by &#32;  /u/imonlysmarterthanyou   [link] &#",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-whats-one-local-ai-workflow-you-wish-youd-discovered-sooner",
-      "source": "localllama",
-      "title": "What's one local AI workflow you wish you'd discovered sooner?",
-      "url": "t3_1ugba2x",
-      "published_at": "2026-06-26T16:15:07Z",
-      "summary": "There are a lot of posts about the models and benchmarks, but I am more interested in the workflows that people use. What is one workflow that really saved you time or made your local LLM more useful?  It could be anythi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-planning-small-ai-rig-5-x-5060ti-16gb-after-selling-my-5090",
-      "source": "localllama",
-      "title": "Planning small AI RIG, 5 X 5060ti 16GB, after selling my 5090",
-      "url": "t3_1uga8f2",
-      "published_at": "2026-06-26T15:36:45Z",
-      "summary": "Tell me if it&#39;s a good idea or not, I have zotac solid 5090 with 128gb RAM, thinking of selling only 5090 and getting 5 x 5060ti 16gb also use these PCIE 4.0 x16 Extender Riser Cable, planning open rig for AI, is it ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-gemma-4-12b-needs-glasses",
-      "source": "localllama",
-      "title": "Gemma 4 12b needs glasses",
-      "url": "t3_1uga06q",
-      "published_at": "2026-06-26T15:28:19Z",
-      "summary": "Having a lot of fun using Gemma 4 as an assistant, but is growing frustrated with the poor default image resolution setting for image vision. Tasks like identifying smaller text in an image that Qwen 3.6 flies through, G",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-vibe-shift-i-can-see-this-coming",
-      "source": "localllama",
-      "title": "vibe shift: I can see this coming...",
-      "url": "t3_1ug7s3o",
-      "published_at": "2026-06-26T14:04:05Z",
-      "summary": "      &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-26-combined-rtx5080-4060-for-inference",
-      "source": "localllama",
-      "title": "Combined RTX5080 & 4060 for inference ?",
-      "url": "t3_1ug6c5f",
-      "published_at": "2026-06-26T13:06:22Z",
-      "summary": "      Hey, I currently use my RTX 4060 8G for inference with Qwen 3.6-35B-A3B Q8 (q8 for everything weight,value,key) max 60k context per agent (for quality over speed, with CPU &amp;DDR4 offloading) but :  I only get ~1",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -382,28 +404,6 @@
       "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
       "published_at": "2026-06-21T23:35:47Z",
       "summary": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package, including support for complex",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-21-temporary-cloudflare-accounts-for-ai-agents",
-      "source": "simonw",
-      "title": "Temporary Cloudflare Accounts for AI agents",
-      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
-      "published_at": "2026-06-21T22:01:04Z",
-      "summary": "Temporary Cloudflare Accounts for AI agents\nThe announcement says this is \"for AI agents\" but (as is pretty common these days) the AI hook isn't really necessary, this is an interesting feature for everyone else as well.",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-19-quoting-sean-lynch",
-      "source": "simonw",
-      "title": "Quoting Sean Lynch",
-      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
-      "published_at": "2026-06-19T22:45:49Z",
-      "summary": "The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...]\nMaybe the idealized form of MCP is just an au",
       "tags": [
         "simonw"
       ]
