@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-06-27T13:53:15Z",
+  "updated_at": "2026-06-27T19:36:10Z",
   "items": [
+    {
+      "id": "localllama-2026-06-27-does-quantizing-change-the-mtp-draft-rate",
+      "source": "localllama",
+      "title": "Does quantizing change the MTP draft rate?",
+      "url": "t3_1uhakvq",
+      "published_at": "2026-06-27T18:47:43Z",
+      "summary": "      Speculative decoding speeds up LLM generation by using a small &quot;drafter&quot; model to predict several tokens ahead of the main model. The main model then verifies these predictions in a single forward pass. I",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-27-ornith-35b-is-great-so-far",
+      "source": "localllama",
+      "title": "Ornith 35B is great so far",
+      "url": "t3_1uh8von",
+      "published_at": "2026-06-27T17:39:19Z",
+      "summary": "Tried creating a quick 3d game with it, after 3 prompts, it got me this(checkvideo). If I compare this with qwen3.5-35b-a3b, it was not able to successfully generate this and was failing even after multiple prompts. Harn",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-27-running-glm52-on-budget-hardware-2500",
+      "source": "localllama",
+      "title": "Running GLM5.2 on budget hardware < $2500.",
+      "url": "t3_1uh8r1j",
+      "published_at": "2026-06-27T17:33:58Z",
+      "summary": "Too many times I hear people whine about not being ble to run SOTA models or claim it would require $50k, or $100k.  https://www.ebay.com/itm/398079051468 Epcy Motherboard &amp; CPU - $460 https://www.ebay.com/itm/206374",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-27-even-google-still-believes-in-small-models-for-coding",
+      "source": "localllama",
+      "title": "Even Google still believes in small models for coding.",
+      "url": "t3_1uh8ir7",
+      "published_at": "2026-06-27T17:24:46Z",
+      "summary": "      I&#39;ve been meaning to post about this. The community has been pretty vocal in criticizing &quot;vibe-coded&quot; projects. I used to think the backlash was the real problem, but I&#39;ve started getting annoyed ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-27-anyone-still-doing-fine-tunes-on-consumer-grade-hardware",
+      "source": "localllama",
+      "title": "Anyone still doing fine-tunes on consumer grade hardware?",
+      "url": "t3_1uh8e0r",
+      "published_at": "2026-06-27T17:19:34Z",
+      "summary": "Felt like there used to be a thriving fine-tuning community a few years back - and then once we started getting models that were smart enough and generalist enough (i.e. post Llama-3-8b era) things kind of dropped off a ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-27-mythos-was-the-first-now-gpt-56",
+      "source": "localllama",
+      "title": "Mythos was the first, now GPT-5.6",
+      "url": "t3_1uh68gu",
+      "published_at": "2026-06-27T15:53:06Z",
+      "summary": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/ Either a hype before IPO, or they have just shot themselves in a foot. This is pretty much ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-27-a-cory-doctorow-interview-with-thoughts-on-ai-and-some-advoc",
+      "source": "localllama",
+      "title": "A Cory Doctorow Interview with Thoughts on AI and Some Advocacy of Local AI",
+      "url": "t3_1uh362b",
+      "published_at": "2026-06-27T13:44:34Z",
+      "summary": "On ArsTechnica: https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/ I liked it so much, giving whiplashes to those known companies trying to IPO, among other things. I never knew the g",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-06-27-new-model---suprasafety-18m-tiny-content-moderation-model",
       "source": "localllama",
@@ -52,83 +129,6 @@
       "url": "t3_1uh0lhc",
       "published_at": "2026-06-27T11:42:12Z",
       "summary": "I see people with multi-gpu setups but I&#39;m sure there&#39;s a potato LLM runner out there somewhere.  I have an old macbook pro (i5 8th gen, 8GB RAM) that I want to turn into a homelab. I want to run a small local mo",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-27-we-built-a-calibration-aware-q4-k-m-quant-of-qwen35-08b-that",
-      "source": "localllama",
-      "title": "We built a calibration-aware Q4_K_M quant of Qwen3.5 0.8B that recovers 96.5% of the BF16 gap vs pure llama.cpp Q4_K_M (SpectralQuant)",
-      "url": "t3_1uh0clv",
-      "published_at": "2026-06-27T11:29:14Z",
-      "summary": "      Hey everyone, We just released our first release candidate from Spectral Labs: a Qwen3.5 0.8B Q4_K_M built using a new calibration-aware quantization approach we&#39;re calling SpectralQuant. The goal here was to s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-27-orthrus-diffusion-head-trained-qwen-3536-and-gemma-4-models",
-      "source": "localllama",
-      "title": "Orthrus (diffusion head) trained Qwen 3.5/3.6 and Gemma 4 models are dropping soon",
-      "url": "t3_1ugyvz4",
-      "published_at": "2026-06-27T10:08:25Z",
-      "summary": "      &quot;Hi all, we are finalized with our testing and are preparing the release pipeline. We will be releasing support for the Qwen3.5, Qwen3.6, and Gemma4 very soon. Alongside the model checkpoints, we will be open-",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-27-96-gig-5090s-from-shenzhens-huaqiangbei",
-      "source": "localllama",
-      "title": "96 gig 5090s from Shenzhen's Huaqiangbei",
-      "url": "t3_1ugyqsi",
-      "published_at": "2026-06-27T10:00:35Z",
-      "summary": "We&#39;re visiting Shenzhen right now, and visited the Huaqiangbei electronics market. I&#39;ve seen reports of 96 gig 5090s popping up on AliExpress, but never saw confirmation that it was real, so we asked around a lit",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-27-new-deepseek-vision-model-incoming",
-      "source": "localllama",
-      "title": "New deepseek vision model incoming?",
-      "url": "t3_1ugyo2e",
-      "published_at": "2026-06-27T09:56:22Z",
-      "summary": "      Hello guys, it seems like DeepSeek added a new vision mode to their application. Does this mean, that they will release a new vision model? Edit: Guys.it is not an OCR model. I have just asked it to describe multip",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-27-any-better-models-in-coding-for-single-dgx-spark-in-near-fut",
-      "source": "localllama",
-      "title": "Any better models in coding for single dgx spark in near future?",
-      "url": "t3_1ugxhgm",
-      "published_at": "2026-06-27T08:44:49Z",
-      "summary": "I’m an owner of single dgx spark with 128 gb unified memory. and I’m hosting through all my local network my ppm over lmstudio. I’m mainly using it for coding,some long document sorting tasks and some sequruty testing. m",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-27-are-there-any-qwen-finetunes-that-were-genuinely-stronger-th",
-      "source": "localllama",
-      "title": "Are there any qwen finetunes that were genuinely stronger than the base?",
-      "url": "t3_1ugvv6p",
-      "published_at": "2026-06-27T07:09:29Z",
-      "summary": "It&#39;s pretty popular to finetune qwen models but I never hear anyone say anything positive about them.  &#32; submitted by &#32;  /u/MrMrsPotts   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-27-deepseek-aideepseek-v4-pro-dspark-huggingface",
-      "source": "localllama",
-      "title": "deepseek-ai/DeepSeek-V4-Pro-DSpark • Huggingface",
-      "url": "t3_1ugug2o",
-      "published_at": "2026-06-27T05:50:47Z",
-      "summary": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf  &#32; submitted by &#32;  /u/External_Mood4719   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
