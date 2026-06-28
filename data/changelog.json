@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-06-27T19:36:18Z",
+  "updated_at": "2026-06-28T04:17:55Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9828",
+      "project": "llama-cpp",
+      "version": "b9828",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9828",
+      "published_at": "2026-06-27T23:15:52Z",
+      "body_excerpt": "opencl: flash attention improvement (#25069) opencl: rework FA kernel for f16 and f32 opencl: flash-attention prefill prepass kernels flash_attn_kv_pad_f16 pads the tail KV tile to a BLOCK_N multiple flash_attn_mask_pad_f16 pads the matching mask tile flash_attn_blk_f16 classifies each KV tile per query block as fully masked / mixed / fully unmasked, so the main kernel can skip fully-masked tiles ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9827",
       "project": "llama-cpp",
