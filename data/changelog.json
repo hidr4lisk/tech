@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-28T13:59:15Z",
+  "updated_at": "2026-06-28T19:37:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9835",
+      "project": "llama-cpp",
+      "version": "b9835",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9835",
+      "published_at": "2026-06-28T19:37:05Z",
+      "body_excerpt": "ui: fix stop and reasoning skip in single-model mode (#25084) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9833",
+      "project": "llama-cpp",
+      "version": "b9833",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9833",
+      "published_at": "2026-06-28T15:32:30Z",
+      "body_excerpt": "chat : implement minicpm5 parser (#24889) Add minicpm5 tool call parser Refactor MiniCPM5 PEG parser per review feedback Fix jinja min/max API to match Jinja2 modify by review MiniCPM5: use autoparser for XML tool calls and fix grammar preserved-token triggers MiniCPM5: fix streaming tool-arg placeholder and remove alt XML markers skip min/max attribute tests in -py mode test-jinja: use real expec",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9832",
+      "project": "llama-cpp",
+      "version": "b9832",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9832",
+      "published_at": "2026-06-28T14:18:37Z",
+      "body_excerpt": "jinja: add --dump-prog for debugging (#25086) jinja: add --dump-prog for debugging Update common/jinja/runtime.cpp Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9831",
       "project": "llama-cpp",

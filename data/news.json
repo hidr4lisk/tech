@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-06-28T13:59:07Z",
+  "updated_at": "2026-06-28T19:37:17Z",
   "items": [
+    {
+      "id": "localllama-2026-06-28-ornith-10-35b-gguf-update-native-mtp-speculative-decode-graf",
+      "source": "localllama",
+      "title": "Ornith-1.0-35B GGUF update: native MTP speculative-decode graft + full serving/TTFT/long-context numbers (llama.cpp, tp=1)",
+      "url": "t3_1ui4yn6",
+      "published_at": "2026-06-28T18:35:53Z",
+      "summary": "      Follow-up to my previous Ornith-1.0-35B Q3_K_M post. I grafted a native MTP draft head onto the IQ4_XS body (head at Q6) for self-speculative decode, single GPU, llama.cpp:  1.3-1.35x single-stream decode (172.6 -&",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-28-china-has-matched-anthropic-in-cybersecurity-resetting-ai-ra",
+      "source": "localllama",
+      "title": "China Has Matched Anthropic in Cybersecurity, Resetting AI Race",
+      "url": "t3_1ui3tck",
+      "published_at": "2026-06-28T17:51:28Z",
+      "summary": "&#32; submitted by &#32;  /u/pscoutou   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-28-a-lot-of-good-m5-max-options-available-at-apple-refurbished",
+      "source": "localllama",
+      "title": "A lot of good M5 Max options available at Apple Refurbished",
+      "url": "t3_1ui3oeu",
+      "published_at": "2026-06-28T17:45:57Z",
+      "summary": "      Just a heads-up. After Apple&#39;s price hike announcement, they added a bunch of top-of-the-line 14&quot; M5 Pro/Max options to their refurbished website. If you got discouraged by the price hike, check out their ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-28-the-number-1-public-enemy-of-open-source",
+      "source": "localllama",
+      "title": "The number 1 public enemy of open-source.",
+      "url": "t3_1ui241x",
+      "published_at": "2026-06-28T16:44:47Z",
+      "summary": "      Dario&#39;s args:  &quot;Opensource you can see the source, here you cannot see inside the model&quot; - yes you can that&#39;s literally the open weights part btw. - I cannot see the weights inside Claude, but I c",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-28-script-to-monitor-llama-cpp-and-analyze-memory-usage",
+      "source": "localllama",
+      "title": "Script to monitor llama cpp and analyze memory usage",
+      "url": "t3_1ui0u4v",
+      "published_at": "2026-06-28T15:53:47Z",
+      "summary": "      My goal has always been to be productive with commodity hardware. So far my workhorses have been the MoE editions of gemma 4 and Qwen 3.6 on an old desktop with a single 9060XT with 16GB ram. The problem has always",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-28-hypothetically-speaking",
+      "source": "localllama",
+      "title": "Hypothetically speaking...",
+      "url": "t3_1uhzhf6",
+      "published_at": "2026-06-28T15:00:04Z",
+      "summary": "Would it not be possible to create crowd sourced, truly open sourced distilled LLMs with a simple wrapper around command line based AI services that exist today? I&#39;m imagining a layer that goes around whatever applic",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-28-deepspec---a-deepseek-ai-collection",
+      "source": "localllama",
+      "title": "DeepSpec - a deepseek-ai Collection",
+      "url": "t3_1uhyhl3",
+      "published_at": "2026-06-28T14:18:54Z",
+      "summary": "      DeepSpec  DeepSpec is a full-stack codebase for training and evaluating draft models for speculative decoding. It contains data preparation utilities, draft model implementations, training code, and evaluation scri",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-06-28-dflash-support-merged-into-llamacpp",
       "source": "localllama",
@@ -52,83 +129,6 @@
       "url": "t3_1uhummm",
       "published_at": "2026-06-28T11:14:56Z",
       "summary": "Sharing popular(also recent) models for reference: 151-250B :  DeepSeek-V4-Flash Step-3.X-Flash Command-a-plus-05-2026 Laguna-M.1 MiniMax-M2.X Qwen3-235B-A22B  100-150B :  GLM-4.5-Air Qwen3.5-122B-A10B NVIDIA-Nemotron-3-",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-28-duckduckgo-is-blocking-with-a-captcha-let-me-try-other-appro",
-      "source": "localllama",
-      "title": "\"DuckDuckGo is blocking with a CAPTCHA. Let me try other approaches:\"",
-      "url": "t3_1uhtvrc",
-      "published_at": "2026-06-28T10:33:22Z",
-      "summary": "My local llama.cpp-based LLM just started reporting this this morning: &quot;DuckDuckGo is blocking with a CAPTCHA. Let me try other approaches:&quot; Is anyone else seeing this with DuckDuckGo?  &#32; submitted by &#32;",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-28-a-barebones-cpu-only-inference-engine-for-qwen-3-written-fro",
-      "source": "localllama",
-      "title": "A barebones CPU-only inference engine for Qwen 3, written from scratch in pure C",
-      "url": "t3_1uht9rf",
-      "published_at": "2026-06-28T09:58:10Z",
-      "summary": "TL;DR: The (very messy) code and writeups can be found at https://github.com/jakint0sh/qwen3-engine Read the README for instructions on how to get started. And for those who just want a bulleted list: - Inference engine ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-28-were-probably-going-to-need-that-soon",
-      "source": "localllama",
-      "title": "We're probably going to need that soon.",
-      "url": "t3_1uht2m0",
-      "published_at": "2026-06-28T09:46:12Z",
-      "summary": "      From:  Vladik on 𝕏: https://x.com/Kostoglodov/status/2071144065857679631 Shaw (spirit/acc) on 𝕏: https://x.com/shawmakesmagic/status/2070918006033817867  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comment",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-28-whisperian-it-is-one-of-the-best-applications-for-android-if",
-      "source": "localllama",
-      "title": "Whisperian: It is one of the best applications for Android, if you want to use Mic with some local ASR models. And it is also available on Play Store.",
-      "url": "t3_1uhsi1o",
-      "published_at": "2026-06-28T09:11:27Z",
-      "summary": "      &#32; submitted by &#32;  /u/9r4n4y   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-28-is-qwen3-vl-2b-the-only-viable-vlm-for-json-extraction-on-a",
-      "source": "localllama",
-      "title": "Is Qwen3-VL-2B the only viable VLM for JSON extraction on a \"potato\"?",
-      "url": "t3_1uhqc11",
-      "published_at": "2026-06-28T07:02:50Z",
-      "summary": "After spending countless hours testing on 3 &quot;potato&quot; laptops (Intel i3, 8GB RAM, Win11, integrated GPU), that&#39;s my conclusion. For reliably extracting data from images to JSON on low-end hardware, nothing e",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-28-clark-labsclark-air-sana-16b-158bit-hugging-face",
-      "source": "localllama",
-      "title": "clark-labs/clark-air-sana-1.6b-1.58bit · Hugging Face",
-      "url": "t3_1uhobd0",
-      "published_at": "2026-06-28T05:10:53Z",
-      "summary": "      A Sana 1.6B text-to-image transformer compressed to ternary (~1.85 bits/weight): 8.6× smaller than FP16, near-FP16 quality. Footprint (measured)   Artifact Size vs FP16 What it is    FP16 transformer 3.21 GB 1× (10",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-28-a-blind-visual-paradigm-for-testing-skill-transfer-in-small",
-      "source": "localllama",
-      "title": "A Blind Visual Paradigm for Testing Skill Transfer in Small Models Without Fine-Tuning",
-      "url": "t3_1uhmz3o",
-      "published_at": "2026-06-28T04:01:21Z",
-      "summary": "      TL;DR: Small models aren&#39;t dumb, they&#39;re shallow. I designed a cross-domain, blind, visual experiment to see if a large model can compress its &quot;planning discipline&quot; into a reusable scaffold that m",
       "tags": [
         "localllama"
       ]
