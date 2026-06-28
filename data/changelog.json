@@ -1,6 +1,132 @@
 {
-  "updated_at": "2026-06-28T09:18:07Z",
+  "updated_at": "2026-06-28T13:59:15Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9831",
+      "project": "llama-cpp",
+      "version": "b9831",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9831",
+      "published_at": "2026-06-28T13:38:20Z",
+      "body_excerpt": "spec : add DFlash support (#22105) spec: add DFlash v2 support dflash: support sliding window attention per layer_types docs: add dflash section --------- Co-authored-by: Kashif Rasul macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "hf-deepseek-ai-eagle3_gemma4_12b_ttt7",
+      "project": "deepseek-ai",
+      "version": "eagle3_gemma4_12b_ttt7",
+      "url": "https://huggingface.co/deepseek-ai/eagle3_gemma4_12b_ttt7",
+      "published_at": "2026-06-28T12:37:17Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-eagle3_qwen3_14b_ttt7",
+      "project": "deepseek-ai",
+      "version": "eagle3_qwen3_14b_ttt7",
+      "url": "https://huggingface.co/deepseek-ai/eagle3_qwen3_14b_ttt7",
+      "published_at": "2026-06-28T12:36:20Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-eagle3_qwen3_8b_ttt7",
+      "project": "deepseek-ai",
+      "version": "eagle3_qwen3_8b_ttt7",
+      "url": "https://huggingface.co/deepseek-ai/eagle3_qwen3_8b_ttt7",
+      "published_at": "2026-06-28T12:35:29Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-eagle3_qwen3_4b_ttt7",
+      "project": "deepseek-ai",
+      "version": "eagle3_qwen3_4b_ttt7",
+      "url": "https://huggingface.co/deepseek-ai/eagle3_qwen3_4b_ttt7",
+      "published_at": "2026-06-28T12:34:59Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-dflash_gemma4_12b_block7",
+      "project": "deepseek-ai",
+      "version": "dflash_gemma4_12b_block7",
+      "url": "https://huggingface.co/deepseek-ai/dflash_gemma4_12b_block7",
+      "published_at": "2026-06-28T12:33:24Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-dflash_qwen3_14b_block7",
+      "project": "deepseek-ai",
+      "version": "dflash_qwen3_14b_block7",
+      "url": "https://huggingface.co/deepseek-ai/dflash_qwen3_14b_block7",
+      "published_at": "2026-06-28T12:31:30Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-dflash_qwen3_8b_block7",
+      "project": "deepseek-ai",
+      "version": "dflash_qwen3_8b_block7",
+      "url": "https://huggingface.co/deepseek-ai/dflash_qwen3_8b_block7",
+      "published_at": "2026-06-28T12:30:07Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-dflash_qwen3_4b_block7",
+      "project": "deepseek-ai",
+      "version": "dflash_qwen3_4b_block7",
+      "url": "https://huggingface.co/deepseek-ai/dflash_qwen3_4b_block7",
+      "published_at": "2026-06-28T12:29:12Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-dspark_gemma4_12b_block7",
+      "project": "deepseek-ai",
+      "version": "dspark_gemma4_12b_block7",
+      "url": "https://huggingface.co/deepseek-ai/dspark_gemma4_12b_block7",
+      "published_at": "2026-06-28T12:27:36Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-dspark_qwen3_14b_block7",
+      "project": "deepseek-ai",
+      "version": "dspark_qwen3_14b_block7",
+      "url": "https://huggingface.co/deepseek-ai/dspark_qwen3_14b_block7",
+      "published_at": "2026-06-28T12:25:33Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-dspark_qwen3_8b_block7",
+      "project": "deepseek-ai",
+      "version": "dspark_qwen3_8b_block7",
+      "url": "https://huggingface.co/deepseek-ai/dspark_qwen3_8b_block7",
+      "published_at": "2026-06-28T12:24:08Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-deepseek-ai-dspark_qwen3_4b_block7",
+      "project": "deepseek-ai",
+      "version": "dspark_qwen3_4b_block7",
+      "url": "https://huggingface.co/deepseek-ai/dspark_qwen3_4b_block7",
+      "published_at": "2026-06-28T11:29:16Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b9830",
+      "project": "llama-cpp",
+      "version": "b9830",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9830",
+      "published_at": "2026-06-28T11:03:50Z",
+      "body_excerpt": "common : allow --offline in llama download (#25091) Expose the existing --offline flag to so a script can run it to check whether a model is already cached and ready to be served without touching the network. Also fix a latent use-after-free in the URL-task on_done callback: first_path is block-scoped and was captured by reference, but invoked after the block ends. Signed-off-by: Adrien Gallouët m",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9829",
       "project": "llama-cpp",
