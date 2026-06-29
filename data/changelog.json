@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-06-28T19:37:25Z",
+  "updated_at": "2026-06-29T04:24:33Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9837",
+      "project": "llama-cpp",
+      "version": "b9837",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9837",
+      "published_at": "2026-06-29T00:05:43Z",
+      "body_excerpt": "jinja, chat: add --reasoning-preserve flag (#25105) jinja, chat: add --reasoning-preserve flag correct help message macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9835",
       "project": "llama-cpp",
@@ -5985,15 +5994,6 @@
       "published_at": "2026-03-31T09:50:20Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "vllm-v0.18.1",
-      "project": "vllm",
-      "version": "v0.18.1",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.18.1",
-      "published_at": "2026-03-31T00:53:26Z",
-      "body_excerpt": "This is a patch release on top of v0.18.0 to address a few issues: Change default SM100 MLA prefill backend back to TRT-LLM (#38562) Fix mock.patch resolution failure for standalone_compile.FakeTensorMode on Python <= 3.10 (#37158) Disable monolithic TRTLLM MoE for Renormalize routing #37605 Pre-download missing FlashInfer headers in Docker build #38391 Fix DeepGemm E8M0 accuracy degradation for Q",
-      "type": "tool"
     }
   ]
 }
