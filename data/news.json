@@ -1,134 +1,134 @@
 {
-  "updated_at": "2026-06-29T11:09:51Z",
+  "updated_at": "2026-06-29T15:55:23Z",
   "items": [
     {
-      "id": "localllama-2026-06-29-apparently-you-can-skip-entire-transformer-blocks-at-load-ti",
+      "id": "localllama-2026-06-29-effect-of-glm-52",
       "source": "localllama",
-      "title": "Apparently you can skip entire transformer blocks at load time with minimal performance impact",
-      "url": "t3_1uip09j",
-      "published_at": "2026-06-29T10:45:37Z",
-      "summary": "Following recent (very cool) papers, I implemented this as a --skip-layers flag to a llama.cpp fork, so it just never instantiates the blocks you tell it to skip. Bake-time pruning already exists (--prune-layers, mergeki",
+      "title": "Effect of GLM 5.2 !!",
+      "url": "t3_1uiv8e4",
+      "published_at": "2026-06-29T15:11:49Z",
+      "summary": "      All hail Z. Ai  &#32; submitted by &#32;  /u/Independent-Wind4462   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-29-deepseek-v4-official-version-will-be-launch-on-mid-july",
+      "id": "localllama-2026-06-29-going-from-single-gpu-to-dual-gpu-is-nice-but-not-in-the-way",
       "source": "localllama",
-      "title": "DeepSeek V4 official version will be launch on mid-July",
-      "url": "t3_1uiomoy",
-      "published_at": "2026-06-29T10:25:21Z",
-      "summary": "      https://preview.redd.it/n7rwh262b7ah1.jpg?width=1024&amp;format=pjpg&amp;auto=webp&amp;s=33d775b456843cd2dbd458de89384a6a7d6d87d1 Source: Email sent from deepseek (email only available for chinese user) used gpt im",
+      "title": "Going from single GPU to dual GPU is nice but not in the way I expected",
+      "url": "t3_1uiuyyp",
+      "published_at": "2026-06-29T15:02:20Z",
+      "summary": "I was expecting what when doubling my VRAM from 24gb to 2x24gb I&#39;d use higher quants with more context, and thus get smarter LLMs, but that&#39;s not what it ended up happening. At least for coding, I found that the ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-29-slow-performance-unsloth-gemma-12b-q8",
+      "id": "localllama-2026-06-29-instead-of-decentralized-training-effort-we-should-build-the",
       "source": "localllama",
-      "title": "Slow performance Unsloth Gemma 12B Q8",
-      "url": "t3_1uio284",
-      "published_at": "2026-06-29T09:54:08Z",
-      "summary": "I recently replaced GPT-OSS 20B Q4 with Gemma 4 12B Q8 but i went from roughly 70 t/s to 10 t/s. Am I doing something wrong? In the current session I am trying a Q5 modell with no change in performance meassured against ",
+      "title": "Instead of decentralized training effort we should build the “One dataset”",
+      "url": "t3_1uiuta1",
+      "published_at": "2026-06-29T14:56:45Z",
+      "summary": "There are many threads here calling for united LLM training run of a new open model. Mainly, after govt. stunt of banning commercial frontier models. And also due to the lack of small-medium open-weight models releases l",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-29-best-way-to-test-models-at-different-quants-before-buying-gp",
+      "id": "localllama-2026-06-29-bolt-graphics-gpu-will-have-2-ddr5-laptop-dimm-slots",
       "source": "localllama",
-      "title": "Best way to test models at different quants before buying GPUs",
-      "url": "t3_1uinsj3",
-      "published_at": "2026-06-29T09:38:43Z",
-      "summary": "I am determined to buy a bunch of GPUs. However, I would like to test the performance of models such as GLM-5.2 at different quantisation levels first. What&#39;s the best approach here? Rent a few rtx6ks on Vast.ai and ",
+      "title": "Bolt Graphics GPU will have 2 DDR5 laptop DIMM slots",
+      "url": "t3_1uiueqw",
+      "published_at": "2026-06-29T14:41:33Z",
+      "summary": "They have a few working prototypes, &amp; are aiming for pre-production examples made by end of this year, &amp; full production by Christmas 2027. Interesting specs: 5nm GPU &quot;High performance CPU in GPU&quot; on-ca",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-29-deepseek-v4-by-am17an-pull-request-24162-ggml-orgllamacpp",
+      "id": "localllama-2026-06-29-anyone-else-end-up-building-a-web-access-layer-for-local-ai",
       "source": "localllama",
-      "title": "DeepSeek V4 by am17an · Pull Request #24162 · ggml-org/llama.cpp",
-      "url": "t3_1uindb2",
-      "published_at": "2026-06-29T09:13:09Z",
-      "summary": "      now you can run DeepSeek V4 locally   &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "title": "Anyone else end up building a web access layer for local AI agents?",
+      "url": "t3_1uisy62",
+      "published_at": "2026-06-29T13:45:15Z",
+      "summary": "      I&#39;ve been running local models for most of my experiments, and I kept running into the same issue. The model lives locally, but everything it needs to interact with doesn&#39;t. Every new agent ended up with an",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-29-glm-52-q1-s-vs-qwen-27b-q8",
+      "id": "localllama-2026-06-29-mellum2-local-deployments",
       "source": "localllama",
-      "title": "GLM 5.2 Q1_S vs Qwen 27B Q8",
-      "url": "t3_1uimjdi",
-      "published_at": "2026-06-29T08:23:55Z",
-      "summary": "      TL;DR; GLM-5.2 Q1_S beats Qwen 3.6 27B Q8, both run at KV Q8 edit: GLM run a K &amp; V Q8, Qwen run with KV cache at full FP16., with preserve thinking on.  Disclaimer: This is a hobby/amateur comparison with n=1, ",
+      "title": "Mellum2 local deployments",
+      "url": "t3_1uisumj",
+      "published_at": "2026-06-29T13:41:14Z",
+      "summary": "      Hey local community, I work at JetBrains with the team that trained Mellum2 models — 12B-2.5A LLMs. Those models are trained completely from scratch, targeting fast inference: our primary goal were H100/H200s prod ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-29-librechat-or-openwebui",
+      "id": "localllama-2026-06-29-nasa-testing-local-llm-inference-for-future-space-missions",
       "source": "localllama",
-      "title": "LibreChat or OpenWebUI ?",
-      "url": "t3_1uim2i4",
-      "published_at": "2026-06-29T07:55:58Z",
-      "summary": "Hello, I have a friend that while technical, it doesn&#39;t know too much about AI, I&#39;ve helped them with the infrastructure setting and that works like a charm, but he&#39;s interested in a thing that where I don&#3",
+      "title": "NASA testing local LLM inference for future space missions",
+      "url": "t3_1uisspl",
+      "published_at": "2026-06-29T13:39:06Z",
+      "summary": "      Red Hat published a blog post last week about an initiative I supported with NASA researchers at Johnson Space Center building a medical AI assistant. It&#39;s called the Crew Medical Officer Digital Assistant (CMO",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-29-mica-is-now-part-of-hugging-face-peft",
+      "id": "localllama-2026-06-29-setup-an-h200-nvl-on-consumerish-hardware",
       "source": "localllama",
-      "title": "MiCA is now part of Hugging Face PEFT",
-      "url": "t3_1uiln2k",
-      "published_at": "2026-06-29T07:30:25Z",
-      "summary": "      Glad to share that MiCA, short for Minor Component Adaptation, has now been merged into the HuggingFace PEFT library. It is not yet included in the latest PyPI release, but you can already install it directly from ",
+      "title": "Setup an H200 NVL on consumer(ish) hardware",
+      "url": "t3_1uisa13",
+      "published_at": "2026-06-29T13:17:56Z",
+      "summary": "      https://preview.redd.it/v1lqvebe18ah1.jpg?width=1280&amp;format=pjpg&amp;auto=webp&amp;s=65d8b41e9ad106d94506ef45a44c0c71ed2543fd Setup : MB ASUS WRX90E - SAGE SE 64 Core Threadripper processor H200NVL  It required",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-29-amd-mi210-64gb-vs-dcu-k100-64gb",
+      "id": "localllama-2026-06-29-kimi-and-glm-on-frontier-code",
       "source": "localllama",
-      "title": "AMD MI210 64GB vs DCU K100 64GB",
-      "url": "t3_1uil0w2",
-      "published_at": "2026-06-29T06:55:20Z",
-      "summary": "      On the Chinese eBay there is a many DCU K100 64 GB GPU available for a very attractive price, between 6000 RMB and 19 000 (air or water cooled versions, new or second hands), and 15 000 to 20 000 for the AMD MI210 ",
+      "title": "Kimi and GLM on frontier code",
+      "url": "t3_1uir5u3",
+      "published_at": "2026-06-29T12:30:22Z",
+      "summary": "      &#32; submitted by &#32;  /u/Charuru   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-29-update-first-manual-results-from-testing-procedural-skill-tr",
+      "id": "localllama-2026-06-29-cpu-only-glm-52-epyc-and-512gb-ram",
       "source": "localllama",
-      "title": "Update: First Manual Results from Testing Procedural Skill Transfer in Small Models",
-      "url": "t3_1uii78d",
-      "published_at": "2026-06-29T04:22:02Z",
-      "summary": "      Yesterday I posted an idea for testing whether a large model can transfer some of its procedural skill to a smaller model without fine-tuning. The short version of the idea was this: Small models are often not comp",
+      "title": "CPU-only GLM 5.2: Epyc and 512GB RAM",
+      "url": "t3_1uiqiqc",
+      "published_at": "2026-06-29T12:01:16Z",
+      "summary": "      This is just a preview of some content I&#39;m putting together to share with you all. I have a server I&#39;ve put together and I&#39;m testing the 4-bit version of GLM 5.2 (GLM-5.2-UD-Q4_K_XL). This is an Epyc Ro",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-29-ubuntu-cuda-llamacpp-nvcc-versioning",
+      "id": "localllama-2026-06-29-any-good-uses-for-a-192-gb-ddr3-server-in-the-llm-world",
       "source": "localllama",
-      "title": "Ubuntu, CUDA, llama.cpp , nvcc versioning",
-      "url": "t3_1uif4g7",
-      "published_at": "2026-06-29T01:49:14Z",
-      "summary": "The CUDA tool kit in apt is waaaaaaaay too old. I’ve been struggling with compute issues after all the other tweaking. Ubuntu latest is 12.0 newest is 13.3, I have a Blackwell and was dumbing it way down, 5060 ti 16gb, d",
+      "title": "Any good uses for a 192 GB DDR3 Server in the LLM world?",
+      "url": "t3_1uiqiei",
+      "published_at": "2026-06-29T12:00:53Z",
+      "summary": "      I&#39;ve been gifted this old IBM System X V4 with a dual Xeon E5-2640 [6c12t @ 2.7 GHz] and a whooping 192 GB of DDR3 1666 ECC RAM There&#39;s a gen 2 x16 PCi-E port in there as well so it can take a single GPU...",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-29-minimax-m3-vs-m27",
+      "id": "localllama-2026-06-29-deepseek-v4-official-launch-to-be-released-mid-july-with-api",
       "source": "localllama",
-      "title": "Minimax M3 vs M2.7",
-      "url": "t3_1uie1zl",
-      "published_at": "2026-06-29T00:57:14Z",
-      "summary": "M3 has been out for ~2 weeks now. Would love to hear feedback from those who have updated to M3 from M2.7.  &#32; submitted by &#32;  /u/rm-rf-rm   [link] &#32; [comments]",
+      "title": "Deepseek V4 Official Launch to be released mid-July with API price changes",
+      "url": "t3_1uipz9t",
+      "published_at": "2026-06-29T11:35:44Z",
+      "summary": "      Is this the official release for deepseek? I hope it has huge improvements https://preview.redd.it/dm5l0qn8k7ah1.png?width=694&amp;format=png&amp;auto=webp&amp;s=12eadfd0a52c0f1a65bcd685f2cdbb29aff457be  &#32; subm",
       "tags": [
         "localllama"
       ]
