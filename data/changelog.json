@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-29T15:55:29Z",
+  "updated_at": "2026-06-29T20:05:57Z",
   "releases": [
+    {
+      "id": "vllm-v0.24.0",
+      "project": "vllm",
+      "version": "v0.24.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.24.0",
+      "published_at": "2026-06-29T19:41:59Z",
+      "body_excerpt": "vLLM v0.24.0 Release Notes Highlights This release features 571 commits from 256 contributors (77 new)! MiniMax-M3: Added support for the new MiniMax-M3 model (#45381), with a fast follow-on of BF16/FP8 indexer via MSA (#45892), MXFP4 support (#45896), FP8 sparse GQA (#45744), and extensive AMD/ROCm tuning — mxfp8 MoE/linear on gfx950 (#45725), fp8_per_channel for bf16 weights on MI300X (#45854), ",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.30.12-rc0",
+      "project": "ollama",
+      "version": "v0.30.12-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.12-rc0",
+      "published_at": "2026-06-29T17:45:08Z",
+      "body_excerpt": "What's Changed tools: ignore braces inside JSON strings when detecting tool call end by @aditya-786 in mlx: bump dependency by @dhiltgen in llama.cpp update by @dhiltgen in New Contributors @aditya-786 made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9842",
+      "project": "llama-cpp",
+      "version": "b9842",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9842",
+      "published_at": "2026-06-29T16:18:51Z",
+      "body_excerpt": "common : dedup preset and cached model entries in /v1/models (#25131) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9840",
       "project": "llama-cpp",
@@ -763,6 +790,15 @@
       "version": "Qwen-AgentWorld-35B-A3B",
       "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
       "published_at": "2026-06-22T14:49:37Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Qwen3.6-27B-NVFP4",
+      "project": "nvidia",
+      "version": "Qwen3.6-27B-NVFP4",
+      "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
+      "published_at": "2026-06-22T12:24:08Z",
       "body_excerpt": "",
       "type": "model"
     },
