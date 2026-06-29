@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-28T19:37:25Z",
+  "updated_at": "2026-06-29T11:09:57Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9840",
+      "project": "llama-cpp",
+      "version": "b9840",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9840",
+      "published_at": "2026-06-29T10:25:16Z",
+      "body_excerpt": "DeepSeek V4 (#24162) convert: add dsv4 conversion add basic setup add llm_graph_input_dsv4 add save-load state add sinkhorn eps - correction by @fairydreaming add rope fix cleanup dead code fix bugs support pro model: added by @fairydreaming remove redundant V cache Chat template remove debugging leftovers Add mechanism for inlining templates based on architecture s/deepseek-v4-flash/deepseek4/g s",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9839",
+      "project": "llama-cpp",
+      "version": "b9839",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9839",
+      "published_at": "2026-06-29T09:45:35Z",
+      "body_excerpt": "tools/ui: restore Tailwind scanning in ignored worktrees (#24879) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9838",
+      "project": "llama-cpp",
+      "version": "b9838",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9838",
+      "published_at": "2026-06-29T07:33:46Z",
+      "body_excerpt": "common : remove unused regex-partial (#25118) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9837",
+      "project": "llama-cpp",
+      "version": "b9837",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9837",
+      "published_at": "2026-06-29T00:05:43Z",
+      "body_excerpt": "jinja, chat: add --reasoning-preserve flag (#25105) jinja, chat: add --reasoning-preserve flag correct help message macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9835",
       "project": "llama-cpp",
@@ -5975,24 +6011,6 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.3-beta",
       "published_at": "2026-03-31T15:13:26Z",
       "body_excerpt": "We did many new improvements and fixes to Studio! Tool calls for all models are now +30% to +80% more accurate. Web search now actually gets web content and not just summaries Number of tool calls allowed are increased to 25 from 10 Tool calls now terminate much better, so looping / repetitions will be reduced More tool call healing and de-duplication logic to stop tool callings from leaking XML a",
-      "type": "tool"
-    },
-    {
-      "id": "hf-mistralai-Mistral-Medium-3.5-128B",
-      "project": "mistralai",
-      "version": "Mistral-Medium-3.5-128B",
-      "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
-      "published_at": "2026-03-31T09:50:20Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "vllm-v0.18.1",
-      "project": "vllm",
-      "version": "v0.18.1",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.18.1",
-      "published_at": "2026-03-31T00:53:26Z",
-      "body_excerpt": "This is a patch release on top of v0.18.0 to address a few issues: Change default SM100 MLA prefill backend back to TRT-LLM (#38562) Fix mock.patch resolution failure for standalone_compile.FakeTensorMode on Python <= 3.10 (#37158) Disable monolithic TRTLLM MoE for Renormalize routing #37605 Pre-download missing FlashInfer headers in Docker build #38391 Fix DeepGemm E8M0 accuracy degradation for Q",
       "type": "tool"
     }
   ]

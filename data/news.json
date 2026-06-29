@@ -1,136 +1,147 @@
 {
-  "updated_at": "2026-06-28T19:37:17Z",
+  "updated_at": "2026-06-29T11:09:51Z",
   "items": [
     {
-      "id": "localllama-2026-06-28-ornith-10-35b-gguf-update-native-mtp-speculative-decode-graf",
+      "id": "localllama-2026-06-29-apparently-you-can-skip-entire-transformer-blocks-at-load-ti",
       "source": "localllama",
-      "title": "Ornith-1.0-35B GGUF update: native MTP speculative-decode graft + full serving/TTFT/long-context numbers (llama.cpp, tp=1)",
-      "url": "t3_1ui4yn6",
-      "published_at": "2026-06-28T18:35:53Z",
-      "summary": "      Follow-up to my previous Ornith-1.0-35B Q3_K_M post. I grafted a native MTP draft head onto the IQ4_XS body (head at Q6) for self-speculative decode, single GPU, llama.cpp:  1.3-1.35x single-stream decode (172.6 -&",
+      "title": "Apparently you can skip entire transformer blocks at load time with minimal performance impact",
+      "url": "t3_1uip09j",
+      "published_at": "2026-06-29T10:45:37Z",
+      "summary": "Following recent (very cool) papers, I implemented this as a --skip-layers flag to a llama.cpp fork, so it just never instantiates the blocks you tell it to skip. Bake-time pruning already exists (--prune-layers, mergeki",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-28-china-has-matched-anthropic-in-cybersecurity-resetting-ai-ra",
+      "id": "localllama-2026-06-29-deepseek-v4-official-version-will-be-launch-on-mid-july",
       "source": "localllama",
-      "title": "China Has Matched Anthropic in Cybersecurity, Resetting AI Race",
-      "url": "t3_1ui3tck",
-      "published_at": "2026-06-28T17:51:28Z",
-      "summary": "&#32; submitted by &#32;  /u/pscoutou   [link] &#32; [comments]",
+      "title": "DeepSeek V4 official version will be launch on mid-July",
+      "url": "t3_1uiomoy",
+      "published_at": "2026-06-29T10:25:21Z",
+      "summary": "      https://preview.redd.it/n7rwh262b7ah1.jpg?width=1024&amp;format=pjpg&amp;auto=webp&amp;s=33d775b456843cd2dbd458de89384a6a7d6d87d1 Source: Email sent from deepseek (email only available for chinese user) used gpt im",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-28-a-lot-of-good-m5-max-options-available-at-apple-refurbished",
+      "id": "localllama-2026-06-29-slow-performance-unsloth-gemma-12b-q8",
       "source": "localllama",
-      "title": "A lot of good M5 Max options available at Apple Refurbished",
-      "url": "t3_1ui3oeu",
-      "published_at": "2026-06-28T17:45:57Z",
-      "summary": "      Just a heads-up. After Apple&#39;s price hike announcement, they added a bunch of top-of-the-line 14&quot; M5 Pro/Max options to their refurbished website. If you got discouraged by the price hike, check out their ",
+      "title": "Slow performance Unsloth Gemma 12B Q8",
+      "url": "t3_1uio284",
+      "published_at": "2026-06-29T09:54:08Z",
+      "summary": "I recently replaced GPT-OSS 20B Q4 with Gemma 4 12B Q8 but i went from roughly 70 t/s to 10 t/s. Am I doing something wrong? In the current session I am trying a Q5 modell with no change in performance meassured against ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-28-the-number-1-public-enemy-of-open-source",
+      "id": "localllama-2026-06-29-best-way-to-test-models-at-different-quants-before-buying-gp",
       "source": "localllama",
-      "title": "The number 1 public enemy of open-source.",
-      "url": "t3_1ui241x",
-      "published_at": "2026-06-28T16:44:47Z",
-      "summary": "      Dario&#39;s args:  &quot;Opensource you can see the source, here you cannot see inside the model&quot; - yes you can that&#39;s literally the open weights part btw. - I cannot see the weights inside Claude, but I c",
+      "title": "Best way to test models at different quants before buying GPUs",
+      "url": "t3_1uinsj3",
+      "published_at": "2026-06-29T09:38:43Z",
+      "summary": "I am determined to buy a bunch of GPUs. However, I would like to test the performance of models such as GLM-5.2 at different quantisation levels first. What&#39;s the best approach here? Rent a few rtx6ks on Vast.ai and ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-28-script-to-monitor-llama-cpp-and-analyze-memory-usage",
+      "id": "localllama-2026-06-29-deepseek-v4-by-am17an-pull-request-24162-ggml-orgllamacpp",
       "source": "localllama",
-      "title": "Script to monitor llama cpp and analyze memory usage",
-      "url": "t3_1ui0u4v",
-      "published_at": "2026-06-28T15:53:47Z",
-      "summary": "      My goal has always been to be productive with commodity hardware. So far my workhorses have been the MoE editions of gemma 4 and Qwen 3.6 on an old desktop with a single 9060XT with 16GB ram. The problem has always",
+      "title": "DeepSeek V4 by am17an · Pull Request #24162 · ggml-org/llama.cpp",
+      "url": "t3_1uindb2",
+      "published_at": "2026-06-29T09:13:09Z",
+      "summary": "      now you can run DeepSeek V4 locally   &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-28-hypothetically-speaking",
+      "id": "localllama-2026-06-29-glm-52-q1-s-vs-qwen-27b-q8",
       "source": "localllama",
-      "title": "Hypothetically speaking...",
-      "url": "t3_1uhzhf6",
-      "published_at": "2026-06-28T15:00:04Z",
-      "summary": "Would it not be possible to create crowd sourced, truly open sourced distilled LLMs with a simple wrapper around command line based AI services that exist today? I&#39;m imagining a layer that goes around whatever applic",
+      "title": "GLM 5.2 Q1_S vs Qwen 27B Q8",
+      "url": "t3_1uimjdi",
+      "published_at": "2026-06-29T08:23:55Z",
+      "summary": "      TL;DR; GLM-5.2 Q1_S beats Qwen 3.6 27B Q8, both run at KV Q8 edit: GLM run a K &amp; V Q8, Qwen run with KV cache at full FP16., with preserve thinking on.  Disclaimer: This is a hobby/amateur comparison with n=1, ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-28-deepspec---a-deepseek-ai-collection",
+      "id": "localllama-2026-06-29-librechat-or-openwebui",
       "source": "localllama",
-      "title": "DeepSpec - a deepseek-ai Collection",
-      "url": "t3_1uhyhl3",
-      "published_at": "2026-06-28T14:18:54Z",
-      "summary": "      DeepSpec  DeepSpec is a full-stack codebase for training and evaluating draft models for speculative decoding. It contains data preparation utilities, draft model implementations, training code, and evaluation scri",
+      "title": "LibreChat or OpenWebUI ?",
+      "url": "t3_1uim2i4",
+      "published_at": "2026-06-29T07:55:58Z",
+      "summary": "Hello, I have a friend that while technical, it doesn&#39;t know too much about AI, I&#39;ve helped them with the infrastructure setting and that works like a charm, but he&#39;s interested in a thing that where I don&#3",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-28-dflash-support-merged-into-llamacpp",
+      "id": "localllama-2026-06-29-mica-is-now-part-of-hugging-face-peft",
       "source": "localllama",
-      "title": "DFlash support merged into llama.cpp",
-      "url": "t3_1uhx862",
-      "published_at": "2026-06-28T13:24:00Z",
-      "summary": "      &#32; submitted by &#32;  /u/sammcj   [link] &#32; [comments] ",
+      "title": "MiCA is now part of Hugging Face PEFT",
+      "url": "t3_1uiln2k",
+      "published_at": "2026-06-29T07:30:25Z",
+      "summary": "      Glad to share that MiCA, short for Minor Component Adaptation, has now been merged into the HuggingFace PEFT library. It is not yet included in the latest PyPI release, but you can already install it directly from ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-28-qwen36-27b-local-vs-opus-48-voxel-engine-in-raw-c-with-zero",
+      "id": "localllama-2026-06-29-amd-mi210-64gb-vs-dcu-k100-64gb",
       "source": "localllama",
-      "title": "Qwen3.6 27B local vs Opus 4.8, voxel engine in raw C with zero frameworks",
-      "url": "t3_1uhv3wc",
-      "published_at": "2026-06-28T11:40:51Z",
-      "summary": "      Sunday experiment. Same prompt to both. Build a voxel world in plain C. No engine, no game library, no framework, just the compiler. The model does its own chunk meshing, render loop and memory management by hand. ",
+      "title": "AMD MI210 64GB vs DCU K100 64GB",
+      "url": "t3_1uil0w2",
+      "published_at": "2026-06-29T06:55:20Z",
+      "summary": "      On the Chinese eBay there is a many DCU K100 64 GB GPU available for a very attractive price, between 6000 RMB and 19 000 (air or water cooled versions, new or second hands), and 15 000 to 20 000 for the AMD MI210 ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-28-best-case-for-dual-rtx-3090-250w-each-on-crosshair-viii-hero",
+      "id": "localllama-2026-06-29-update-first-manual-results-from-testing-procedural-skill-tr",
       "source": "localllama",
-      "title": "Best case for dual RTX 3090 (250W each) on Crosshair VIII Hero?",
-      "url": "t3_1uhv2hi",
-      "published_at": "2026-06-28T11:38:46Z",
-      "summary": "I&#39;m building a local LLM workstation and would appreciate some advice from people already running 2×3090s. Current hardware:  ASUS Crosshair VIII Hero (X570) One Gainward Phoenix RTX 3090 Looking for a second used 30",
+      "title": "Update: First Manual Results from Testing Procedural Skill Transfer in Small Models",
+      "url": "t3_1uii78d",
+      "published_at": "2026-06-29T04:22:02Z",
+      "summary": "      Yesterday I posted an idea for testing whether a large model can transfer some of its procedural skill to a smaller model without fine-tuning. The short version of the idea was this: Small models are often not comp",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-28-are-there-good-closed-vs-open-llm-rankings-also-are-70b350b",
+      "id": "localllama-2026-06-29-ubuntu-cuda-llamacpp-nvcc-versioning",
       "source": "localllama",
-      "title": "Are there good closed vs open LLM rankings? Also, are 70B–350B models actually worth it?",
-      "url": "t3_1uhusqt",
-      "published_at": "2026-06-28T11:24:17Z",
-      "summary": "hey,  I’m currently getting enough VRAM to run something in the GLM-5.2 range, but I’m wondering: do we actually have a solid ranking that compares closed-source and open-weight LLMs side by side? I’ve been trying to fin",
+      "title": "Ubuntu, CUDA, llama.cpp , nvcc versioning",
+      "url": "t3_1uif4g7",
+      "published_at": "2026-06-29T01:49:14Z",
+      "summary": "The CUDA tool kit in apt is waaaaaaaay too old. I’ve been struggling with compute issues after all the other tweaking. Ubuntu latest is 12.0 newest is 13.3, I have a Blackwell and was dumbing it way down, 5060 ti 16gb, d",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-28-how-many-of-you-do-use-q1-or-q2-of-big-models100-250b-hows-i",
+      "id": "localllama-2026-06-29-minimax-m3-vs-m27",
       "source": "localllama",
-      "title": "How many of you do use Q1 or Q2 of Big models(100-250B)? How's it?",
-      "url": "t3_1uhummm",
-      "published_at": "2026-06-28T11:14:56Z",
-      "summary": "Sharing popular(also recent) models for reference: 151-250B :  DeepSeek-V4-Flash Step-3.X-Flash Command-a-plus-05-2026 Laguna-M.1 MiniMax-M2.X Qwen3-235B-A22B  100-150B :  GLM-4.5-Air Qwen3.5-122B-A10B NVIDIA-Nemotron-3-",
+      "title": "Minimax M3 vs M2.7",
+      "url": "t3_1uie1zl",
+      "published_at": "2026-06-29T00:57:14Z",
+      "summary": "M3 has been out for ~2 weeks now. Would love to hear feedback from those who have updated to M3 from M2.7.  &#32; submitted by &#32;  /u/rm-rf-rm   [link] &#32; [comments]",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-28-quoting-jon-udell",
+      "source": "simonw",
+      "title": "Quoting Jon Udell",
+      "url": "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
+      "published_at": "2026-06-28T21:57:41Z",
+      "summary": "Human Agent in the loop\nI dislike the phrase “human in the loop” because it cedes authority to the machines. Let’s flip the narrative. It’s our loop, we work the same way we always have, now we recruit agents to join the",
+      "tags": [
+        "simonw"
       ]
     },
     {
@@ -395,17 +406,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-21-sqlite-utils-40rc1-adds-migrations-and-nested-transactions",
-      "source": "simonw",
-      "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
-      "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
-      "published_at": "2026-06-21T23:35:47Z",
-      "summary": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package, including support for complex",
-      "tags": [
-        "simonw"
       ]
     },
     {
