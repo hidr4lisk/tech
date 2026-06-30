@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-06-29T20:05:52Z",
+  "updated_at": "2026-06-30T04:04:21Z",
   "items": [
+    {
+      "id": "localllama-2026-06-30-how-im-using-local-models-from-real-world-coding",
+      "source": "localllama",
+      "title": "How I'm using local models from real-world coding",
+      "url": "t3_1ujbsxu",
+      "published_at": "2026-06-30T01:52:51Z",
+      "summary": "Just want to share since after many attempts over the past year, I finally have a setup I kinda like and does useful work for me. I only have 32GB of RAM and a 4070 8GB (laptop), just very ordinary hardware. I found that",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-30-been-running-qwen36-27b-through-a-3-critic-harness-the-harne",
+      "source": "localllama",
+      "title": "Been running Qwen3.6-27B through a 3-critic harness. The harness matters more than I thought",
+      "url": "t3_1uj9viw",
+      "published_at": "2026-06-30T00:25:20Z",
+      "summary": "Been running Qwen3.6-27B (8-bit) through my coding harness for a few days, alongside GLM5.2. The harness uses 3 critics — code review, test review, Playwright e2e — each with fresh context before accepting output. Qwen3.",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-29-i-hate-dario-amodei-and-everything-he-stands-for",
+      "source": "localllama",
+      "title": "I Hate Dario Amodei, and everything he stands for.",
+      "url": "t3_1uj7xcs",
+      "published_at": "2026-06-29T23:03:58Z",
+      "summary": "I am so incredibly sick of this guy‘s fear mongering about open source while fundamentally misunderstanding how it actually works. He recently dropped some arguments that are so completely detached from reality, it hones",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-29-introducing-longcat-20---a-large-scale-moe-language-model-wi",
+      "source": "localllama",
+      "title": "Introducing LongCat-2.0 - , a large-scale MoE language model with 1.6 trillion total parameters and ~48 billion activated per token. This was the stealth model that was on Openrouter under the name 'owl-alpha'.",
+      "url": "t3_1uj7egu",
+      "published_at": "2026-06-29T22:42:20Z",
+      "summary": "&#32; submitted by &#32;  /u/AnticitizenPrime   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-29-krea-2-turbo-image-model---easy-to-be-fully-uncensored-but-i",
+      "source": "localllama",
+      "title": "Krea-2-Turbo Image Model - Easy to be fully uncensored, but it can also EDIT Images!",
+      "url": "t3_1uj638x",
+      "published_at": "2026-06-29T21:49:13Z",
+      "summary": "I&#39;ve been super impressed with Krea-2-Turbo. It can generate high quality images in ~3 seconds. The quality is quite good compared to other local AI image gen models. Now, I don&#39;t want to make you watch or click ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-29-ornith-35b-works-reasonably-well-with-qwen36-35b-dflash-spec",
+      "source": "localllama",
+      "title": "Ornith 35B works reasonably well with Qwen3.6 35B DFlash speculative model",
+      "url": "t3_1uj4ojm",
+      "published_at": "2026-06-29T20:55:47Z",
+      "summary": "I saw a solid 30-40% token gen increase from this: ./llama-server --no-mmap --port 8080 --host 0.0.0.0 -kvu -ts 75,70 \\ --alias qwen -hf bartowski/deepreinforce-ai_Ornith-1.0-35B-GGUF:Q8_0 -sm layer -c 255000 -cram 0 \\ -",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-06-29-on-darios-statement",
       "source": "localllama",
@@ -79,17 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-06-29-anthropics-amodei-open-source-models-could-take-us-to-a-very",
-      "source": "localllama",
-      "title": "Anthropic's Amodei: \"Open Source models [could take us to] a very dangerous place.\"",
-      "url": "t3_1uixcof",
-      "published_at": "2026-06-29T16:27:46Z",
-      "summary": "&#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-06-29-ornith-10-self-scaffolding-llms-for-agentic-coding",
       "source": "simonw",
       "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
@@ -98,61 +153,6 @@
       "summary": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding\nThis is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce.\n\n[...] with variants including 9B Dense, 31B Dense, 35B MoE, ",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-29-samsung-sk-hynix-micron-sued-in-us-over-memory-price-fixing",
-      "source": "localllama",
-      "title": "Samsung, SK hynix, Micron Sued in US Over Memory Price Fixing",
-      "url": "t3_1uiwtd7",
-      "published_at": "2026-06-29T16:08:31Z",
-      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-29-effect-of-glm-52",
-      "source": "localllama",
-      "title": "Effect of GLM 5.2 !!",
-      "url": "t3_1uiv8e4",
-      "published_at": "2026-06-29T15:11:49Z",
-      "summary": "      All hail Z. Ai  &#32; submitted by &#32;  /u/Independent-Wind4462   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-29-going-from-single-gpu-to-dual-gpu-is-nice-but-not-in-the-way",
-      "source": "localllama",
-      "title": "Going from single GPU to dual GPU is nice but not in the way I expected",
-      "url": "t3_1uiuyyp",
-      "published_at": "2026-06-29T15:02:20Z",
-      "summary": "I was expecting what when doubling my VRAM from 24gb to 2x24gb I&#39;d use higher quants with more context, and thus get smarter LLMs, but that&#39;s not what it ended up happening. At least for coding, I found that the ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-29-instead-of-decentralized-training-effort-we-should-build-the",
-      "source": "localllama",
-      "title": "Instead of decentralized training effort we should build the “One dataset”",
-      "url": "t3_1uiuta1",
-      "published_at": "2026-06-29T14:56:45Z",
-      "summary": "There are many threads here calling for united LLM training run of a new open model. Mainly, after govt. stunt of banning commercial frontier models. And also due to the lack of small-medium open-weight models releases l",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-29-bolt-graphics-gpu-will-have-2-ddr5-laptop-dimm-slots",
-      "source": "localllama",
-      "title": "Bolt Graphics GPU will have 2 DDR5 laptop DIMM slots",
-      "url": "t3_1uiueqw",
-      "published_at": "2026-06-29T14:41:33Z",
-      "summary": "They have a few working prototypes, &amp; are aiming for pre-production examples made by end of this year, &amp; full production by Christmas 2027. Interesting specs: 5nm GPU &quot;High performance CPU in GPU&quot; on-ca",
-      "tags": [
-        "localllama"
       ]
     },
     {
