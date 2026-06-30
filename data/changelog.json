@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-06-29T20:05:57Z",
+  "updated_at": "2026-06-30T04:04:28Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9843",
+      "project": "llama-cpp",
+      "version": "b9843",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9843",
+      "published_at": "2026-06-30T01:17:43Z",
+      "body_excerpt": "Revert \"sched : reintroduce less synchronizations during split compute (#20793)\" (#25138) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
+      "type": "tool"
+    },
     {
       "id": "vllm-v0.24.0",
       "project": "vllm",
@@ -54,6 +63,15 @@
       "published_at": "2026-06-29T07:33:46Z",
       "body_excerpt": "common : remove unused regex-partial (#25118) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Qwen3.5-397B-A17B-NVFP4-V2",
+      "project": "nvidia",
+      "version": "Qwen3.5-397B-A17B-NVFP4-V2",
+      "url": "https://huggingface.co/nvidia/Qwen3.5-397B-A17B-NVFP4-V2",
+      "published_at": "2026-06-29T06:04:43Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9837",
