@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-06-30T14:28:41Z",
+  "updated_at": "2026-06-30T20:04:55Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9851",
+      "project": "llama-cpp",
+      "version": "b9851",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9851",
+      "published_at": "2026-06-30T19:35:08Z",
+      "body_excerpt": "cuda : prevent integer truncation and overflow errors when using KQ mask strides in flash_attn_mask_to_KV_max kernel (#24945) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9850",
+      "project": "llama-cpp",
+      "version": "b9850",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9850",
+      "published_at": "2026-06-30T16:53:33Z",
+      "body_excerpt": "model : register t_layer_inp for qwen3next (#25141) Fix input assignment in layer processing loop Fix DFLASH for qwen-coder-next add line break Added tensor for attention normalization in Qwen3 model. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.5.6",
+      "project": "localai",
+      "version": "v4.5.6",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.5.6",
+      "published_at": "2026-06-30T15:59:18Z",
+      "body_excerpt": "What's Changed 👒 Dependencies chore(deps): bump actions/cache from 4 to 6 by @dependabot[bot] in Other Changes docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in fix(distributed): missing agent NATS permission by @ALameLlama in feat(distributed): SyncedMap component + migrate finetune/quant/agent-tasks to cross-replica state by @localai-bot in chore(fish-speech): drop the darwi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9849",
+      "project": "llama-cpp",
+      "version": "b9849",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9849",
+      "published_at": "2026-06-30T14:56:43Z",
+      "body_excerpt": "common,server: handle bracketed IPv6 literals in URL authority (#25140) common,server: handle bracketed IPv6 literals in URL authority Parse the [host]:port form (RFC 3986) and bracket IPv6 hosts when formatting a URL authority: listening log, proxy Host header, proxy log, client rebuild. The per-request remote_addr stays bare. common: restore unsupported scheme throw in url parser Address @ngxson",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9848",
       "project": "llama-cpp",
@@ -54,6 +90,24 @@
       "published_at": "2026-06-30T01:17:43Z",
       "body_excerpt": "Revert \"sched : reintroduce less synchronizations during split compute (#20793)\" (#25138) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
       "type": "tool"
+    },
+    {
+      "id": "hf-google-tabfm-1.0.0-jax",
+      "project": "google",
+      "version": "tabfm-1.0.0-jax",
+      "url": "https://huggingface.co/google/tabfm-1.0.0-jax",
+      "published_at": "2026-06-29T23:04:41Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tabfm-1.0.0-pytorch",
+      "project": "google",
+      "version": "tabfm-1.0.0-pytorch",
+      "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
+      "published_at": "2026-06-29T23:04:41Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "vllm-v0.24.0",
