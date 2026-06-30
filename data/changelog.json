@@ -1,14 +1,41 @@
 {
-  "updated_at": "2026-06-30T09:49:16Z",
+  "updated_at": "2026-06-30T14:28:41Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9848",
+      "project": "llama-cpp",
+      "version": "b9848",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9848",
+      "published_at": "2026-06-30T14:06:34Z",
+      "body_excerpt": "CUDA: fix get_rows_back for tables with more than 65535 rows (grid-y clamp + stride) (#25103) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9847",
+      "project": "llama-cpp",
+      "version": "b9847",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9847",
+      "published_at": "2026-06-30T13:16:34Z",
+      "body_excerpt": "CUDA: fix Gemma E4B MTP FlashAttention (#25148) CUDA: fix Gemma E4B MTP FlashAttention remove unused template declaration macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ub",
+      "type": "tool"
+    },
     {
       "id": "hf-microsoft-GELab-Zero-4B-preview-Sico-Evolution",
       "project": "microsoft",
       "version": "GELab-Zero-4B-preview-Sico-Evolution",
       "url": "https://huggingface.co/microsoft/GELab-Zero-4B-preview-Sico-Evolution",
-      "published_at": "2026-06-30T09:47:38Z",
+      "published_at": "2026-06-30T12:46:05Z",
       "body_excerpt": "",
       "type": "model"
+    },
+    {
+      "id": "llama-cpp-b9846",
+      "project": "llama-cpp",
+      "version": "b9846",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9846",
+      "published_at": "2026-06-30T11:03:05Z",
+      "body_excerpt": "vulkan: roll bk loop in matmul for asahi linux (#24663) vulkan: roll bk loop in matmul for asahi linux vulkan: fix inline comment vulkan: revert BK-loop unroll change vulkan: edit spirv directly for asahi roll bk loop vulkan: remove trailing whitespace at the end of comments macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramew",
+      "type": "tool"
     },
     {
       "id": "llama-cpp-b9844",
