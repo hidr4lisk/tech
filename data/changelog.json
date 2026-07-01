@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-01T14:47:02Z",
+  "updated_at": "2026-07-01T20:02:34Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9859",
+      "project": "llama-cpp",
+      "version": "b9859",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9859",
+      "published_at": "2026-07-01T18:10:10Z",
+      "body_excerpt": "opencl: allow loading precompiled binary kernels from library (#23042) opencl: allow loading binary kernel opencl: add libdl.h ggml-backend-dl is in ggml, which depends backend libs, thus ggml-opencl cannot depend on ggml-backend-dl add libdl.h to break cyclic dep opencl: allow loading bin kernel lib opencl: load from kernel lib if available opencl: load q8_0 gemm from kernel lib opencl: load q4_0",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9858",
+      "project": "llama-cpp",
+      "version": "b9858",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9858",
+      "published_at": "2026-07-01T17:09:39Z",
+      "body_excerpt": "common : use hf primary split as model path (#25194) Fixes #25181 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9857",
       "project": "llama-cpp",
@@ -63,6 +81,15 @@
       "published_at": "2026-06-30T19:35:08Z",
       "body_excerpt": "cuda : prevent integer truncation and overflow errors when using KQ mask strides in flash_attn_mask_to_KV_max kernel (#24945) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Mistral-Medium-3.5-128B-NVFP4",
+      "project": "nvidia",
+      "version": "Mistral-Medium-3.5-128B-NVFP4",
+      "url": "https://huggingface.co/nvidia/Mistral-Medium-3.5-128B-NVFP4",
+      "published_at": "2026-06-30T19:32:15Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9850",
@@ -6254,15 +6281,6 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.35-beta",
       "published_at": "2026-04-02T20:02:41Z",
       "body_excerpt": "Google releases Gemma 4 with four new models: E2B, E4B, 26B-A4B, 31B. You can now run and train the Gemma 4 models in Unsloth. Guide / Blog: Run E2B and E4B on 6GB RAM, and on phones. Run 26B-A4B and 31B on ~18GB. GGUFs: Updates Tool calls for smaller models are now more stable and don't cut off anymore Pre-compiled binaries for llama.cpp for 2 Gemma 4 fixes: vocab: fix Gemma4 tokenizer - (#21343)",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.5.0",
-      "project": "transformers",
-      "version": "v5.5.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.0",
-      "published_at": "2026-04-02T16:15:33Z",
-      "body_excerpt": "Release v5.5.0 New Model additions Gemma4 Gemma 4 is a multimodal model with pretrained and instruction-tuned variants, available in 1B, 13B, and 27B parameters. The architecture is mostly the same as the previous Gemma versions. The key differences are a vision processor that can output images of fixed token budget and a spatial 2D RoPE to encode vision-specific information across height and widt",
       "type": "tool"
     }
   ]

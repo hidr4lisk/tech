@@ -1,136 +1,158 @@
 {
-  "updated_at": "2026-07-01T14:46:56Z",
+  "updated_at": "2026-07-01T20:02:27Z",
   "items": [
     {
-      "id": "localllama-2026-07-01-i-mapped-which-local-llms-actually-fit-each-ram-tier-8-to-12",
+      "id": "localllama-2026-07-01-i-pulled-the-actual-search-numbers-for-ai-coding-tools",
       "source": "localllama",
-      "title": "I mapped which local LLMs actually fit each RAM tier, 8 to 128GB (open dataset)",
-      "url": "t3_1ukn45x",
-      "published_at": "2026-07-01T14:22:56Z",
-      "summary": "I kept answering the same question for friends (&quot;I&#39;ve got a 16GB MacBook / a 3060, what can I actually run?&quot;) and got tired of guessing, so I started a spreadsheet. It grew into a real dataset, so I put it ",
+      "title": "I pulled the actual search numbers for AI coding tools",
+      "url": "t3_1ukw2mk",
+      "published_at": "2026-07-01T19:51:09Z",
+      "summary": "      Was curious how the AI coding tools actually stack up on mindshare, so I pulled global monthly search volume. The spread surprised me: Claude Code: ~2.06M/mo GitHub Copilot: ~721K Cursor: ~584K OpenCode: ~298K Clau",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-software-engineering-best-practices-in-the-age-of-llm-coding",
+      "id": "localllama-2026-07-01-anyone-using-tenstorrent-gpus-for-your-local-ai-whats-been-y",
       "source": "localllama",
-      "title": "Software engineering best practices in the age of LLM coding",
-      "url": "t3_1ukmn8n",
-      "published_at": "2026-07-01T14:04:59Z",
-      "summary": "It is important to document requirements, capture key decisions, and record design goals. Best practices:  Requirements doc stored in repo. Store plan files created by LLM in repo. Store in plans/&lt;date&gt;-&lt;summary",
+      "title": "Anyone using TensTorrent gpus for your local ai? What's been your experience?",
+      "url": "t3_1ukvvvm",
+      "published_at": "2026-07-01T19:44:08Z",
+      "summary": "I&#39;m always keeping an eye on competitive hardware and was looking at tenstorrent cards, particularly the p150a which while its memory bandwidth is only 512GB/s, it does have 32 GB of GDDR6 and a high-speed Ethernet f",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-agent-execution-visualizer",
+      "id": "localllama-2026-07-01-open-benchmark-how-well-can-multimodal-llms-read-a-calendar",
       "source": "localllama",
-      "title": "Agent execution visualizer",
-      "url": "t3_1ukm5hp",
-      "published_at": "2026-07-01T13:45:32Z",
-      "summary": "I&#39;ve seen projects which stream tool use status and subagent generation, and represented it with a nice little visual based on the tool being used, etc.  It would be pretty cool to pair this with some live model visu",
+      "title": "Open benchmark: how well can multimodal LLMs read a calendar week-view from a screenshot? Humans ~99%, Q4 local models.....",
+      "url": "t3_1ukuph9",
+      "published_at": "2026-07-01T19:01:20Z",
+      "summary": "Some backstory I&#39;ve been working on my local agent (openclaw), and I wanted to give it the skill to reconstruct calendar entries from a photo of the screen. I couldn&#39;t get at the calendar through an API (long sto",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-deepseek-v4-flash-2-3-and-4-bits-ggufs",
+      "id": "localllama-2026-07-01-llama-b9856-win-cuda-124---windows-defender-claims-its-a-tro",
       "source": "localllama",
-      "title": "Deepseek V4 Flash 2, 3 and 4 bits GGUFs",
-      "url": "t3_1ukm2n0",
-      "published_at": "2026-07-01T13:42:25Z",
-      "summary": "      &#32; submitted by &#32;  /u/tarruda   [link] &#32; [comments] ",
+      "title": "Llama-b9856 Win Cuda 12.4 - Windows Defender claims it's a trojan",
+      "url": "t3_1ukt773",
+      "published_at": "2026-07-01T18:06:56Z",
+      "summary": "Hi, just downloaded this release earlier today. Attempted to run llama-server, and Windows Defender shut it down. It says it&#39;s Wacatac.H!ml. It removed the llama-server-impl.dll file from the folder. Older releases w",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-best-tps-can-i-get-with-qwen35-122b-on-32gb-vram-64gb-ram",
+      "id": "localllama-2026-07-01-deepseek-flash-v4-at-iq2-or-qwen-36-27b-q5km-any-tests-or-be",
       "source": "localllama",
-      "title": "Best tps can I get with Qwen3.5 122B on 32GB VRAM + 64GB RAM?",
-      "url": "t3_1uklyeb",
-      "published_at": "2026-07-01T13:37:33Z",
-      "summary": "My attempt at running Qwen3.5 122B on my 5090 (32GB VRAM) + 64GB RAM is really bleak. I&#39;m getting a speed that starts at 6 tps and ends at ~20 tps. Can I improve this further?  build/bin/llama-server \\ -m ~/myp/model",
+      "title": "Deepseek Flash V4 at IQ2 or Qwen 3.6 27B Q5KM ? Any tests or benchmarks ?",
+      "url": "t3_1ukt1hc",
+      "published_at": "2026-07-01T18:01:09Z",
+      "summary": "Deepseek Flash V4 at IQ2 or Qwen 3.6 27B Q5KM ? Any tests or benchmarks ? Wondering which one would be better at speed / coding / reasoning  &#32; submitted by &#32;  /u/soyalemujica   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-non-us-ally-should-be-afraid",
+      "id": "localllama-2026-07-01-plurality-released-fully-free-and-open-source-ai-agentschatb",
       "source": "localllama",
-      "title": "Non Us Ally should be afraid.",
-      "url": "t3_1ukkz9a",
-      "published_at": "2026-07-01T12:57:56Z",
-      "summary": "      Spyware-like code in Claude Code that covertly targets Chinese users.  &#32; submitted by &#32;  /u/zakadit   [link] &#32; [comments] ",
+      "title": "Plurality Released: fully Free and Open Source AI agents/chatbot platform for local AI",
+      "url": "t3_1ukrm9q",
+      "published_at": "2026-07-01T17:08:35Z",
+      "summary": "      Hello everyone! Some of you might recognize my user from the work I have done on Cosmos Cloud, but today I am here to talk to you about an entirely different project: Plurality. https://github.com/azukaar/plurality",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-thinking-about-grabbing-4x-ascend-gx10s",
+      "id": "localllama-2026-07-01-how-to-improve-ram-offload",
       "source": "localllama",
-      "title": "Thinking about grabbing 4x Ascend GX10s",
-      "url": "t3_1ukhw9n",
-      "published_at": "2026-07-01T10:30:47Z",
-      "summary": "Some in this sub have tested GLM5.2 on 4x DGX Sparks (or Ascend GX10) with 400-500 tok/s prompt processing and ~15 tok/s output at 128k context. Not blazing fast, but usable imo, especially with quantization. My thinking",
+      "title": "How to improve RAM offload?",
+      "url": "t3_1ukrjxa",
+      "published_at": "2026-07-01T17:06:16Z",
+      "summary": "      I have only 12GB VRAM (RTX3060) but have enough RAM to run Qwen3.6 27B Q4 with offload. Something tells me that it won&#39;t achieve maximum performance but why DRAM speed is only around 30GB/s (HWiNFO data) during",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-readme-enmd-openpanguopenpangu-20-flash-at-main",
+      "id": "localllama-2026-07-01-couldnt-hold-back",
       "source": "localllama",
-      "title": "README_EN.md · openpangu/openPangu-2.0-Flash at main",
-      "url": "t3_1ukhu5g",
-      "published_at": "2026-07-01T10:27:32Z",
-      "summary": "      1. Introduction openPangu-2.0-Flash is an MoE model trained on Ascend. The model has 92B total parameters and 6B activated parameters. Its context length is 512k. The total pretraining data contains 34T tokens. Dur",
+      "title": "Couldn't hold back",
+      "url": "t3_1ukqp20",
+      "published_at": "2026-07-01T16:34:51Z",
+      "summary": "      Had been waiting for months and the cards finally got delivered today. No one at my workplace was excited, maybe because no one cares for AI stuff that i work on. But I just wanted to share it with you guys. Can&#3",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-lokalbot---fully-local-macos-app-meetings-autocomplete-and-d",
+      "id": "localllama-2026-07-01-july-2026-where-are-intels-gpu-speeds-today-at",
       "source": "localllama",
-      "title": "LokalBot - fully local macOS app: meetings, autocomplete, and day tracking that all run on your machine with a user friendly UI",
-      "url": "t3_1ukhpnl",
-      "published_at": "2026-07-01T10:20:26Z",
-      "summary": "Been lurking here a while, this sub is basically why LokalBot exists. It&#39;s a Mac app that records + summarizes your meetings, autocompletes your typing in any app, and tracks where your day went, with every model run",
+      "title": "July 2026; where are Intel's GPU speeds today at?",
+      "url": "t3_1ukq7ez",
+      "published_at": "2026-07-01T16:16:45Z",
+      "summary": "Hey all, it is 1st of July, 2H26, and I hope that Intel has been catching up on their firmware support for their B50-B70 cards in recent months. In some places of the world, they do sound like a good VRAM/money offer, an",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-why-can-i-never-stop-the-looping",
+      "id": "localllama-2026-07-01-looking-for-open-source-ai-meeting-note-takers-like-fathom-f",
       "source": "localllama",
-      "title": "Why can i never stop the looping?",
-      "url": "t3_1ukh4ak",
-      "published_at": "2026-07-01T09:46:49Z",
-      "summary": "I constantly see people here saying Qwen3.6 35B is amazing, Ornith V1 is amazing, but i cannot use these models at all without severe looping problems. What the hell am i doing wrong?? Temp 0.6 top_p 0.95 top_k 20 min_p ",
+      "title": "Looking for open-source AI meeting note-takers (like Fathom, Fireflies, Notion AI)",
+      "url": "t3_1ukpttx",
+      "published_at": "2026-07-01T16:03:03Z",
+      "summary": "I&#39;m looking for open-source repositories or projects that serve as AI meeting assistants. I want a program or repository that can take notes using AI, create a summary, and record voice locally. I prefer everything t",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-i-built-a-desktop-ai-that-scrubs-your-pii-locally-before-it",
+      "id": "meta-2026-07-01-metas-ai-storage-blueprint-at-scale",
+      "source": "meta",
+      "title": "Meta’s AI Storage Blueprint at Scale",
+      "url": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/",
+      "published_at": "2026-07-01T16:00:36Z",
+      "summary": "Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks.",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-the-gap-between-closed-and-open-models-might-be-much-smaller",
       "source": "localllama",
-      "title": "I built a desktop AI that scrubs your PII locally before it hits the cloud — here's every feature with real screenshots",
-      "url": "t3_1ukfv2e",
-      "published_at": "2026-07-01T08:30:33Z",
-      "summary": "      Been building this for a few months. It&#39;s called Primnox. The core thing: before ANY message leaves your machine, a local DeBERTa NER model runs on-device, finds names/emails/addresses/phone numbers, swaps them",
+      "title": "The gap between closed and open models might be much smaller than commonly assumed, because we don’t know what closed model providers do *in addition to* model inference",
+      "url": "t3_1ukp2bu",
+      "published_at": "2026-07-01T15:35:24Z",
+      "summary": "When Claude dominates GLM-5.2 in benchmarks, it’s usually assumed that Anthropic has superior model architectures, superior training pipelines, and other advanced machine learning techniques that make their models better",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-ketch---best-search-tool-for-local-models",
+      "id": "localllama-2026-07-01-open-models---june-2026",
       "source": "localllama",
-      "title": "Ketch - Best Search Tool for local models",
-      "url": "t3_1ukdrvu",
-      "published_at": "2026-07-01T06:29:22Z",
-      "summary": "recently I wrote a blog post, to find which search tool will be best for the pi coding agent paired with local models (currently I use Qwen3.6 35B) Before that I were using firecrawl or brave-search, but found them very ",
+      "title": "Open Models - June 2026",
+      "url": "t3_1ukorvr",
+      "published_at": "2026-07-01T15:24:50Z",
+      "summary": "      After overwhelming April, OK May, here&#39;s June. Yeah, Graph has only less items. Because we got other items here last month. Finetunes:  Nex-N2 Ornith-1.0 Agents-A1 Holo3.1 Tmax-27b MusaCoder-27B VibeThinker-3B ",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-07-01-hugging-face-and-cerebras-bring-gemma-4-to-real-time-voice-a",
+      "source": "huggingface",
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "published_at": "2026-07-01T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
       ]
     },
     {
@@ -447,17 +469,6 @@
       "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
       "url": "https://huggingface.co/blog/cross-origin-storage",
       "published_at": "2026-06-23T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-22-pp-ocrv6-on-hugging-face-50-language-ocr-from-15m-to-345m-pa",
-      "source": "huggingface",
-      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "published_at": "2026-06-22T13:18:56Z",
       "summary": "",
       "tags": [
         "huggingface"
