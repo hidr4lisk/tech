@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-01T04:20:16Z",
+  "updated_at": "2026-07-01T09:58:29Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9852",
+      "project": "llama-cpp",
+      "version": "b9852",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9852",
+      "published_at": "2026-07-01T05:11:56Z",
+      "body_excerpt": "opencl: initial q1_0 support (#25160) opencl: general q1_0 support opencl: add Adreno GEMM/GEMV for q1_0 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.31.1",
       "project": "ollama",
