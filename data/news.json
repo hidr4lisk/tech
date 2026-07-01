@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-06-30T20:04:50Z",
+  "updated_at": "2026-07-01T04:20:10Z",
   "items": [
+    {
+      "id": "localllama-2026-07-01-has-anyone-tried-using-llama-server-as-a-backend-for-multipl",
+      "source": "localllama",
+      "title": "Has anyone tried using llama-server as a backend for multiplayer games or co-op working?",
+      "url": "t3_1uka4e4",
+      "published_at": "2026-07-01T03:18:44Z",
+      "summary": "Curious if it’s a viable small scale distributed system.  &#32; submitted by &#32;  /u/TheSmashingChamp   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-biggest-baddest-model-to-fill-144gb-vram-120gb-ram-to-the-br",
+      "source": "localllama",
+      "title": "Biggest, baddest model to fill 144GB VRAM + 120GB RAM to the brim, regardless of speed",
+      "url": "t3_1uk88ui",
+      "published_at": "2026-07-01T01:48:10Z",
+      "summary": "I&#39;m trying to round out my quiver of daily driver models for my personal harness. Right now I drive qwen3.6 27b for balanced code and gemma4 31b for human interaction with lots of context and a few parallel sessions.",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-audiocpp-vibevoice-15b-released-90-min-podcast-in-2295-min-4",
+      "source": "localllama",
+      "title": "[audio.cpp] VibeVoice 1.5B released — 90-min podcast in 22.95 min, 4.08x real-time, 2.86x faster than Python without quantization. Native C++/ggml",
+      "url": "t3_1uk7khq",
+      "published_at": "2026-07-01T01:15:48Z",
+      "summary": "I’m the author of audio.cpp, a C++/ggml runtime for local audio models. I just added VibeVoice 1.5B support and wanted to share the benchmark because long-form multi-speaker TTS is a good stress test for local inference ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-the-lemonade-appliance-a-private-ai-server-that-outgrew-its",
+      "source": "localllama",
+      "title": "The Lemonade Appliance: A Private AI Server That Outgrew Its Hardware",
+      "url": "t3_1uk696y",
+      "published_at": "2026-07-01T00:15:10Z",
+      "summary": "      &#32; submitted by &#32;  /u/jfowers_amd   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-deepseek-v4-flash-mxfp4-compute-buffer-scales-3x-just-from-k",
+      "source": "localllama",
+      "title": "DeepSeek-V4-Flash (MXFP4): compute buffer scales ~3x just from KV cache quant type (f16 vs q8_0) — anyone else seeing this? Llama.cpp",
+      "url": "t3_1uk5y5m",
+      "published_at": "2026-07-01T00:01:36Z",
+      "summary": "Bartowski&#39;s DeepSeek-V4-Flash-MXFP4 GGUF, llama.cpp build 9851 (0eca4d490), deepseek4 arch. Ran the same n_ctx = 10240, same n_ubatch = n_batch = 8192, flash attention on — only difference is -ctk/-ctv:   Cache type ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-30-quoting-anthropic",
+      "source": "simonw",
+      "title": "Quoting Anthropic",
+      "url": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
+      "published_at": "2026-06-30T23:58:15Z",
+      "summary": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.\nWe'll begin restoring access tomorrow, and will share an update soon.\n&mdash; Anthropic, on Twitter\n\n    Ta",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-30-vibe-coding-agentic-workflow",
+      "source": "localllama",
+      "title": "Vibe Coding / Agentic workflow",
+      "url": "t3_1uk57mi",
+      "published_at": "2026-06-30T23:30:03Z",
+      "summary": "Hey folks. I know that vibe coding is frowned upon pretty solidly here, and I get that, but I’m not a programmer. I just don’t realistically have the time to learn python or C++ to the level I would need to to build some",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-30-nano-banana-2-lite",
+      "source": "simonw",
+      "title": "Nano Banana 2 Lite",
+      "url": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
+      "published_at": "2026-06-30T22:15:35Z",
+      "summary": "Nano Banana 2 Lite\nAlso known as Gemini 3.1 Flash Lite Image (gemini-3.1-flash-lite-image in their API), this is the \"fastest and cheapest Gemini image model, engineered for velocity and scale\".\nI used AI studio to run t",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-30-whats-new-in-claude-sonnet-5",
+      "source": "simonw",
+      "title": "What's new in Claude Sonnet 5",
+      "url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+      "published_at": "2026-06-30T21:23:02Z",
+      "summary": "What&#x27;s new in Claude Sonnet 5\nClaude Sonnet 5 came out this morning. I always head straight for the \"what's new\" developer docs because they tend to have more actionable information than the official announcement po",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-06-30-devs---you-have-64gb-of-vram---which-model-do-you-use-for-co",
+      "source": "localllama",
+      "title": "Devs - you have 64gb of VRAM - which model do you use for coding?",
+      "url": "t3_1ujzyf3",
+      "published_at": "2026-06-30T20:03:46Z",
+      "summary": "I&#39;ve currently settled on an unsloth version of Qwen 3.5 122b-a10b model (UD-IQ4_NL). With 100k bf16 context window, I only had to load a few layers into CPU/RAM, it runs around 30 tok/sec which is fine for me. I&#39",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-06-30-meta-fights-soaring-hardware-costs-by-reusing-old-ddr4-serve",
       "source": "localllama",
@@ -112,17 +222,6 @@
       ]
     },
     {
-      "id": "localllama-2026-06-30-pagestorm-a-model-built-for-creative-book-writing",
-      "source": "localllama",
-      "title": "PageStorm: A Model Built for Creative Book Writing",
-      "url": "t3_1ujr69g",
-      "published_at": "2026-06-30T14:43:02Z",
-      "summary": "      Over a year ago, we set out to build a single-turn full-book writing model. Half a year ago, we published our LongPage Dataset for book scale creative writing. Today, we are announcing our first model: PageStorm Re",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-06-30-why-specialization-is-inevitable",
       "source": "huggingface",
       "title": "Why Specialization Is Inevitable",
@@ -131,72 +230,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-30-turboocr-v3-high-speed-document-ocr-server-ccuda-520-imgs-on",
-      "source": "localllama",
-      "title": "TurboOCR v3 — high-speed document OCR server (C++/CUDA), ~520 img/s on RTX 5090",
-      "url": "t3_1ujqi9a",
-      "published_at": "2026-06-30T14:17:30Z",
-      "summary": "TurboOCR is a self-hosted, high-speed document OCR server, runs fully local. Here&#39;s What&#39;s New in v3: Speed:  Full pipeline now on the newest PP-OCRv6 models (up from v5): ~270 → ~520 img/s on FUNSD (v6 tiny, RTX",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-30-well-its-a-step-up-from-nonstop-bot-spam-i-guess",
-      "source": "localllama",
-      "title": "Well.. it's a step up from nonstop bot spam I guess",
-      "url": "t3_1ujouxg",
-      "published_at": "2026-06-30T13:11:54Z",
-      "summary": "      &#32; submitted by &#32;  /u/ForsookComparison   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-30-hydrahead-from-head-level-functional-heterogeneity-to-specia",
-      "source": "localllama",
-      "title": "HydraHead: From Head-Level Functional Heterogeneity to Specialized Attention Hybridization (from the Qwen team)",
-      "url": "t3_1ujohad",
-      "published_at": "2026-06-30T12:56:24Z",
-      "summary": "      The quadratic complexity of attention poses a critical bottleneck for long-context processing, spurring interest in hybrid attention designs. Most open-source hybrid models adopt a layer-wise strategy. Yet, prior w",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-30-qwen-36-27b-speculative-decoding-bench-pushing-100-tps-on-a",
-      "source": "localllama",
-      "title": "Qwen 3.6 27B Speculative Decoding Bench: Pushing ~100 TPS on a single RTX 3090",
-      "url": "t3_1ujo46r",
-      "published_at": "2026-06-30T12:40:45Z",
-      "summary": "First of all, a huge thank you to the r/LocalLLaMA community and the 3090 club. This benchmark started from your shared recipes... These are my findings on my hardware (Xeon E5-2666v3, 64GB RAM, single RTX 3090 24GB) com",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-30-meta-secretly-tested-chatgpt-gemini-and-characterai-with-tho",
-      "source": "localllama",
-      "title": "Meta secretly tested ChatGPT, Gemini, and Character.AI with thousands of minor-perspective crisis prompts",
-      "url": "t3_1ujno7x",
-      "published_at": "2026-06-30T12:21:22Z",
-      "summary": "Meta reportedly had hundreds of contractors pose as minors and send suicide, sex, and drug-related prompts to chatbots from OpenAI, Google, and Character.AI. In a single testing round, more than 45,00. https://the-decode",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-30-new-on-hugging-face-filter-by-hardware-compatibility",
-      "source": "localllama",
-      "title": "NEW on Hugging Face: Filter by hardware compatibility",
-      "url": "t3_1ujnjcw",
-      "published_at": "2026-06-30T12:15:14Z",
-      "summary": "      &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -321,17 +354,6 @@
       ]
     },
     {
-      "id": "simonw-2026-06-25-ai-and-liability",
-      "source": "simonw",
-      "title": "AI and Liability",
-      "url": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
-      "published_at": "2026-06-25T22:28:46Z",
-      "summary": "AI and Liability\nBruce Schneier on the recent German ruling that Google be held liable for errors introduced in their AI overviews:\n\nAI agents are agents of the person or organization that deploys them—and should be trea",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-06-25-which-tokens-does-a-hybrid-model-predict-better",
       "source": "huggingface",
       "title": "Which tokens does a hybrid model predict better?",
@@ -351,28 +373,6 @@
       "summary": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language.\nThe post Understand",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-24-simonwbrowser-compat-db",
-      "source": "simonw",
-      "title": "simonw/browser-compat-db",
-      "url": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
-      "published_at": "2026-06-24T23:59:03Z",
-      "summary": "simonw/browser-compat-db\nInspired by Mozilla's new MDN MCP service - source code here - I decided to try converting their comprehensive mdn/browser-compat-data repository full of browser compatibility data into a SQLite ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-24-quoting-tom-macwright",
-      "source": "simonw",
-      "title": "Quoting Tom MacWright",
-      "url": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
-      "published_at": "2026-06-24T18:13:51Z",
-      "summary": "In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated ",
-      "tags": [
-        "simonw"
       ]
     },
     {

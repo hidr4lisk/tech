@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-06-30T20:04:55Z",
+  "updated_at": "2026-07-01T04:20:16Z",
   "releases": [
+    {
+      "id": "ollama-v0.31.1",
+      "project": "ollama",
+      "version": "v0.31.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.1",
+      "published_at": "2026-06-30T22:10:17Z",
+      "body_excerpt": "Faster Gemma 4 on Apple Silicon Gemma 4 is now significantly faster in Ollama on Apple Silicon, generating tokens nearly 90% faster on average across a coding-agent benchmark by leveraging multi-token prediction (MTP). Ollama auto-tunes how many tokens to draft as it runs, so the speedup is on by default, requires no configuration, and does not change the model's output. What's Changed Tightened G",
+      "type": "tool"
+    },
+    {
+      "id": "hf-ibm-granite-granite-speech-4.1-2b-plus-GGUF",
+      "project": "ibm-granite",
+      "version": "granite-speech-4.1-2b-plus-GGUF",
+      "url": "https://huggingface.co/ibm-granite/granite-speech-4.1-2b-plus-GGUF",
+      "published_at": "2026-06-30T21:59:23Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b9851",
       "project": "llama-cpp",
@@ -790,6 +808,15 @@
       "version": "MiniMax-M3-NVFP4",
       "url": "https://huggingface.co/nvidia/MiniMax-M3-NVFP4",
       "published_at": "2026-06-23T20:48:47Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Kimi-K2.6-DFlash",
+      "project": "nvidia",
+      "version": "Kimi-K2.6-DFlash",
+      "url": "https://huggingface.co/nvidia/Kimi-K2.6-DFlash",
+      "published_at": "2026-06-23T20:40:41Z",
       "body_excerpt": "",
       "type": "model"
     },
