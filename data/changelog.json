@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-01T09:58:29Z",
+  "updated_at": "2026-07-01T14:47:02Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9857",
+      "project": "llama-cpp",
+      "version": "b9857",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9857",
+      "published_at": "2026-07-01T14:41:19Z",
+      "body_excerpt": "hexagon: flash attention rework (optimizations, accuracy improvements, etc) (#25085) hex-mm: fold mm quant tasks into the main matmul threads hex-mm: minor formatting fixes hex-mm: cleanup is_quant checks in dma dispatch hex-mm: fix dst-spad alignment hex-mm: move fp kernels in the hvx-mm-kernels header hex-mm: fuse with ADD hex-fa: factor out ukernels into separate headers and unify the rest hex-",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9856",
+      "project": "llama-cpp",
+      "version": "b9856",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9856",
+      "published_at": "2026-07-01T11:09:42Z",
+      "body_excerpt": "CUDA: consistent use of __restrict__ + PDL for FA (#25185) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9855",
+      "project": "llama-cpp",
+      "version": "b9855",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9855",
+      "published_at": "2026-07-01T10:16:09Z",
+      "body_excerpt": "ggml-cpu: add AVX2 optimization for nvfp4 dot product and use UE4M3 LUT (#23961) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP1",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9852",
       "project": "llama-cpp",
