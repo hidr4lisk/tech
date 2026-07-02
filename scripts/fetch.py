@@ -119,11 +119,18 @@ def fetch_rss(url, slug, filter_words=None):
         pub     = get_text(["pubDate", "published", "updated"]) or ""
         summary = get_text(["description", "summary", "content"]) or ""
 
-        link = get_text(["link", "id"])
+        # El <link> de Atom suele ser un elemento vacío con la URL en el atributo `href`
+        # (no como texto) — probarlo ANTES que el texto plano, si no queda vacío y el
+        # fallback cae a <id>, que en feeds como el de Reddit es un fullname interno
+        # (`t3_xxx`), no una URL.
+        link_el = item.find("link")
+        if link_el is None:
+            link_el = item.find(f"{{{ATOM_NS}}}link")
+        link = (link_el.get("href") if link_el is not None else None) or get_text(["link"])
         if not link:
-            link_el = item.find("link") or item.find(f"{{{ATOM_NS}}}link")
-            if link_el is not None:
-                link = link_el.get("href", link_el.text or "")
+            candidate = get_text(["id"])
+            if candidate.startswith("http"):   # <id> a veces ES la URL canónica; a veces no (reddit)
+                link = candidate
 
         if not title or not link:
             continue

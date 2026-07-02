@@ -1,112 +1,134 @@
 {
-  "updated_at": "2026-06-23T07:52:33Z",
+  "updated_at": "2026-07-02T18:53:34Z",
   "items": [
     {
-      "id": "localllama-2026-06-23-multi-tier-moe-caching",
+      "id": "localllama-2026-07-02-fine-tuned-gemma-4-31b-specifically-for-copywriting-creative",
       "source": "localllama",
-      "title": "Multi Tier MoE Caching",
-      "url": "t3_1uda7e4",
-      "published_at": "2026-06-23T07:21:17Z",
-      "summary": "I&#39;ve never seen much discussion around this, but it feels like where MoE inference is heading. The bulk of big models we use, GLM 5.2, Deepseek V4, Stepfun, Minimix are MoE meaning inference is run on a small subsect",
+      "title": "Fine-tuned Gemma-4-31B specifically for Copywriting & Creative Writing Tasks (Scored +290 Elo over base using EqBench3)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqg4i/finetuned_gemma431b_specifically_for_copywriting/",
+      "published_at": "2026-07-02T18:30:54Z",
+      "summary": "Hey r/LocalLLaMA, Wanted to share a narrow fine-tune I&#39;ve been working on and get some technical feedback from people who&#39;ve done similar domain-specific work if possible. The problem: general chat models can wri",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-23-how-do-i-prove-that-i-dont-collect-data-from-my-llm-app",
+      "id": "localllama-2026-07-02-gemma-4-webgpu-kernels-255-toks-by-xxenovacom",
       "source": "localllama",
-      "title": "How do I prove that I don't collect data from my llm app?",
-      "url": "t3_1ud9j4k",
-      "published_at": "2026-06-23T06:41:44Z",
-      "summary": "Building an incognito llm chat app for hobby and fun. I don&#39;t want users to trust me that I don&#39;t log prompts. I want them to be able to verify it. I can&#39;t really go the TEE route as that is very hardware lea",
+      "title": "Gemma 4 WebGPU Kernels 255 tok/s by x/@xenovacom",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulpq3o/gemma_4_webgpu_kernels_255_toks_by_xxenovacom/",
+      "published_at": "2026-07-02T18:04:57Z",
+      "summary": "      We need more of this, 100+ T/s on dense models is the difference between defaulting to Claude/Codex for everything vs having a local private model doing most of the heavy lifting and only reaching for frontier for ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-23-training-a-qwen-35-4b9b-agent-for-multi-tool-use-sft-first-o",
+      "id": "localllama-2026-07-02-dual-r9700-best-formula-for-qwen36-27b",
       "source": "localllama",
-      "title": "Training a Qwen 3.5 4B/9B agent for multi-tool use: SFT first or go directly to RL?",
-      "url": "t3_1ud8opg",
-      "published_at": "2026-06-23T05:53:41Z",
-      "summary": "To train Qwen 3.5 4B or 9B for a custom multi-tool agent workflow and would appreciate guidance from people who have done this successfully. A few questions:  SFT → RL or RL-only? - Is it still recommended to first do su",
+      "title": "Dual R9700: Best formula for Qwen3.6 27B?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulpp2n/dual_r9700_best_formula_for_qwen36_27b/",
+      "published_at": "2026-07-02T18:03:56Z",
+      "summary": "I&#39;m struggling to find the right setup with llama.cpp. Ubuntu 26.04, AMD 5900X, 128GB DDR4-3600, R9700s are running PCIe x8/Gen4 Model config: [Qwen3.6-27B] mmproj = /models/Qwen3.6-27B-mmproj-BF16.gguf model = /mode",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-23-is-there-any-reason-for-a-lack-of-love-for-gemma-4-26b",
+      "id": "localllama-2026-07-02-anyone-using-local-llms-for-large-scale-spatial-or-city-layo",
       "source": "localllama",
-      "title": "Is there any reason for a lack of love for Gemma 4 26b?",
-      "url": "t3_1ud7pqp",
-      "published_at": "2026-06-23T05:01:03Z",
-      "summary": "The answer to most questions on here is Qwen3.6 27b or 35b and then Gemma4 31b (but lesser so as it doesn’t fit well on a solo 3090). Is there any reason why Gemma 4 26b moe isn’t mentioned more? I plan on using Qwen for",
+      "title": "Anyone using local LLMs for large-scale spatial or city layout generation in a software like QGIS?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulp7qd/anyone_using_local_llms_for_largescale_spatial_or/",
+      "published_at": "2026-07-02T17:46:47Z",
+      "summary": "I’m looking into using local LLMs to generate large-scale structural data from scratch, like entire city layouts, road networks, or complex grid systems. Standard models handle single scripts well, but generating a massi",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-23-minimax-m3-eagle3-gguf---llamacpp-compatible-minimax-m3-eagl",
+      "id": "localllama-2026-07-02-openlumara-my-manually-coded-super-token-efficient-harness-n",
       "source": "localllama",
-      "title": "MiniMax-M3-EAGLE3-GGUF - Llama.cpp compatible MiniMax M3 EAGLE draft model!",
-      "url": "t3_1ud6bct",
-      "published_at": "2026-06-23T03:49:23Z",
-      "summary": "Hi all! With a new PR for llama.cpp, MiniMax M3&#39;s EAGLE decoder by Inferact/MiniMax-M3-EAGLE3 has successfully been converted to GGUF and runs without issue! The HF repo has instructions for both merging in the PR an",
+      "title": "openlumara, my manually coded super-token-efficient harness, now works across any UI that can connect to an openAI endpoint! koboldlite, openwebui, you name it. basically, openAI bridge. yay!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulol44/openlumara_my_manually_coded_supertokenefficient/",
+      "published_at": "2026-07-02T17:23:58Z",
+      "summary": "      this was a long time coming, but it&#39;s finally here! you can now basically supercharge whichever UI you&#39;re already using with the power of openlumara. click that link for more information about openlumara it",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-23-100-ts-on-qwen36-27b-q8-across-a-5090-3090-ti-switching-to-t",
+      "id": "localllama-2026-07-02-agents-are-collaboratively-writing-a-massive-wiki-on-rl-for",
       "source": "localllama",
-      "title": "100+ t/s on Qwen3.6-27B Q8 across a 5090 + 3090 Ti — switching to tensor split-mode got me from 70 to 100+",
-      "url": "t3_1ud5wx2",
-      "published_at": "2026-06-23T03:29:12Z",
-      "summary": "Wanted to share a setup that&#39;s been working great for me. Running Qwen3.6-27B at Q8_0 across two GPUs (RTX 5090 + RTX 3090 Ti) and getting ~100 t/s. The big jump came from switching --split-mode to tensor. I was sitt",
+      "title": "Agents are collaboratively writing a massive wiki on RL for LLMs (200+ papers so far) and anyone can join",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulnwop/agents_are_collaboratively_writing_a_massive_wiki/",
+      "published_at": "2026-07-02T16:59:52Z",
+      "summary": "      &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-23-boogu-base-turbo-edit---open-source-unified-image-generation",
+      "id": "localllama-2026-07-02-software-developers-appreciation-post",
       "source": "localllama",
-      "title": "Boogu Base, Turbo, Edit - open-source unified image generation and editing model series",
-      "url": "t3_1ud5ody",
-      "published_at": "2026-06-23T03:17:39Z",
-      "summary": "      Boogu-Image-0.1 is a competitive Apache-2.0 open-source unified image generation and editing model family, including Base, Turbo, Edit, and other variants that provide stable, practical capabilities for high-qualit",
+      "title": "Software developers appreciation post",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uln2ol/software_developers_appreciation_post/",
+      "published_at": "2026-07-02T16:28:58Z",
+      "summary": "Im on the bus to work and just felt like i dont see enough grattitude for the men, women, children, and people who contribute thier time and effort on open projects. Just last night i saw ive been sleeping while vllm dev",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-23-eff-u-arc-b70-customers-we-got-ours--your-sugar-baby-intel",
+      "id": "localllama-2026-07-02-rebuilding-gemma-4-31b-better-as-26b",
       "source": "localllama",
-      "title": "Eff U, Arc / B70 Customers. We got ours! -Your Sugar Baby, Intel",
-      "url": "t3_1ud5l7h",
-      "published_at": "2026-06-23T03:13:28Z",
-      "summary": "Since we&#39;re due a &quot;Should I buy a B70&quot; post, no. Just no. Am I hoping someone who doesn&#39;t read this will buy mine on eBay in the next few days? Hell, yes.  Here&#39;s the deal... A B70 is a decent buy i",
+      "title": "Rebuilding Gemma 4 31b... better... As 26b...",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulmez2/rebuilding_gemma_4_31b_better_as_26b/",
+      "published_at": "2026-07-02T16:05:09Z",
+      "summary": "Sooo... I decided screw it. I&#39;m going to rebuild Gemma 4 31b.  I really like the model. So the current plan is to rebuild the SWA layers.  Currently running all the proper ablation tests to figure out what SWA layer ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-23-sk-hynix-reallocating-some-hbm-production-to-dram",
+      "id": "localllama-2026-07-02-kimi-k27-code-is-generally-available-in-github-copilot",
       "source": "localllama",
-      "title": "sk hynix reallocating some hbm production to dram",
-      "url": "t3_1ud4otl",
-      "published_at": "2026-06-23T02:30:41Z",
-      "summary": "SK hynix is reportedly delaying the transition of some fifth-generation HBM (HBM3E) production lines that were originally scheduled to be converted to HBM4. It is intended to increase the general-purpose DRAM market resp",
+      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulm1gt/kimi_k27_code_is_generally_available_in_github/",
+      "published_at": "2026-07-02T15:51:29Z",
+      "summary": "      &#32; submitted by &#32;  /u/zxyzyxz   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-06-23-why-is-no-one-talking-about-microsofts-open-source-fast-cont",
+      "id": "localllama-2026-07-02-poolsidelaguna-xs-21",
       "source": "localllama",
-      "title": "Why is NO one talking about Microsoft's open source Fast Context!!!",
-      "url": "t3_1ud1lro",
-      "published_at": "2026-06-23T00:11:05Z",
-      "summary": "      https://huggingface.co/microsoft/FastContext-1.0-4B-SFT https://github.com/microsoft/fastcontext FastContext-1.0 is a lightweight repository-exploration subagent for LLM coding agents. Instead of letting a single m",
+      "title": "poolside/Laguna-XS-2.1",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ullxg7/poolsidelagunaxs21/",
+      "published_at": "2026-07-02T15:47:10Z",
+      "summary": "      &#32; submitted by &#32;  /u/a_slay_nub   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-im-switching-to-linux-is-ubuntu-the-most-compatible-with-loc",
+      "source": "localllama",
+      "title": "I’m switching to Linux, is Ubuntu the most compatible with local AI?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ull771/im_switching_to_linux_is_ubuntu_the_most/",
+      "published_at": "2026-07-02T15:20:16Z",
+      "summary": "I will definitely use vLLM now (unless there is something faster now) but i want to make sure ggufs + llamacpp works along with comfyui and things of that nature too.   &#32; submitted by &#32;  /u/XiRw   [link] &#32; [c",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-talking-with-gemma-4-31b",
+      "source": "localllama",
+      "title": "Talking with Gemma 4 31B!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulgwld/talking_with_gemma_4_31b/",
+      "published_at": "2026-07-02T12:29:23Z",
+      "summary": "      Hi! I&#39;m Andi from Hugging Face. This is a fully open-source and free to test/pull/modify demo I&#39;m bringing today. It&#39;s a voice demo creating a pipeline of: - Nvidia&#39;s parakeet - Gemma 4 31B (served ",
       "tags": [
         "localllama"
       ]
@@ -131,28 +153,6 @@
       "summary": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance, describing a small but effective inpainting model - a model where you can mark regions of an image to rem",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-22-is-gemma-4-going-to-be-the-next-mistral-or-qwen36-one-day-co",
-      "source": "localllama",
-      "title": "Is Gemma 4 going to be the next Mistral (or Qwen3.6) one day? Concerning the lack of finetunes",
-      "url": "t3_1ucy863",
-      "published_at": "2026-06-22T21:52:23Z",
-      "summary": "https://eqbench.com/creative_writing.html#:~:text=gemma&#37;2D4&#37;2D31B,Sample From what I&#39;ve seen Gemma 4 has better everything (especially long-context adherence) EXCEPT for the raw prosing performance of Mistral",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-06-22-new-ablation-operator-apostate",
-      "source": "localllama",
-      "title": "New ablation operator. (apostate)",
-      "url": "t3_1ucx89i",
-      "published_at": "2026-06-22T21:14:08Z",
-      "summary": "Today I added a new operator to apostate. This new operator is a contrastive co-vector edit E = I − R Dᵀ. Removing the refusal direction outright disturbs benign behavior, while naively preserving all harmless variance a",
-      "tags": [
-        "localllama"
       ]
     },
     {
