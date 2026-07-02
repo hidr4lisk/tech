@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-07-02T18:53:34Z",
+  "updated_at": "2026-07-02T18:58:31Z",
   "items": [
+    {
+      "id": "localllama-2026-07-02-6x-p40-running-minimax-m27-q3-xl",
+      "source": "localllama",
+      "title": "6x P40 running Minimax M2.7_Q3_XL",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqyxj/6x_p40_running_minimax_m27_q3_xl/",
+      "published_at": "2026-07-02T18:49:50Z",
+      "summary": "      I&#39;ve been a lurker for a while and have been building my own home lab with P40&#39;s and MI50&#39;s. I&#39;ve learned so much from the community and I just felt like it&#39;s time to give back. Even though I&#3",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-02-fine-tuned-gemma-4-31b-specifically-for-copywriting-creative",
       "source": "localllama",
@@ -30,17 +41,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulpp2n/dual_r9700_best_formula_for_qwen36_27b/",
       "published_at": "2026-07-02T18:03:56Z",
       "summary": "I&#39;m struggling to find the right setup with llama.cpp. Ubuntu 26.04, AMD 5900X, 128GB DDR4-3600, R9700s are running PCIe x8/Gen4 Model config: [Qwen3.6-27B] mmproj = /models/Qwen3.6-27B-mmproj-BF16.gguf model = /mode",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-anyone-using-local-llms-for-large-scale-spatial-or-city-layo",
-      "source": "localllama",
-      "title": "Anyone using local LLMs for large-scale spatial or city layout generation in a software like QGIS?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulp7qd/anyone_using_local_llms_for_largescale_spatial_or/",
-      "published_at": "2026-07-02T17:46:47Z",
-      "summary": "I’m looking into using local LLMs to generate large-scale structural data from scratch, like entire city layouts, road networks, or complex grid systems. Standard models handle single scripts well, but generating a massi",
       "tags": [
         "localllama"
       ]
@@ -134,264 +134,341 @@
       ]
     },
     {
-      "id": "simonw-2026-06-22-prompt-injection-as-role-confusion",
-      "source": "simonw",
-      "title": "Prompt Injection as Role Confusion",
-      "url": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
-      "published_at": "2026-06-22T23:59:53Z",
-      "summary": "Prompt Injection as Role Confusion\nFirst, I absolutely love this:\n\nThis is a blog-style writeup of the paper.\n\nI wish every paper would come with one of these. Academic writing is pretty dry - the impact of a paper can b",
+      "id": "meta-2026-07-01-metas-ai-storage-blueprint-at-scale",
+      "source": "meta",
+      "title": "Meta’s AI Storage Blueprint at Scale",
+      "url": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/",
+      "published_at": "2026-07-01T16:00:36Z",
+      "summary": "Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks.",
       "tags": [
-        "simonw"
+        "meta"
       ]
     },
     {
-      "id": "simonw-2026-06-22-porting-the-moebius-02b-image-inpainting-model-to-run-in-the",
-      "source": "simonw",
-      "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
-      "url": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
-      "published_at": "2026-06-22T23:43:51Z",
-      "summary": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance, describing a small but effective inpainting model - a model where you can mark regions of an image to rem",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-22-pp-ocrv6-on-hugging-face-50-language-ocr-from-15m-to-345m-pa",
+      "id": "huggingface-2026-07-01-hugging-face-and-cerebras-bring-gemma-4-to-real-time-voice-a",
       "source": "huggingface",
-      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "published_at": "2026-06-22T13:18:56Z",
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "published_at": "2026-07-01T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"
       ]
     },
     {
-      "id": "huggingface-2026-06-22-we-got-local-models-to-triage-the-openclaw-repo-for-free",
+      "id": "simonw-2026-06-30-quoting-anthropic",
+      "source": "simonw",
+      "title": "Quoting Anthropic",
+      "url": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
+      "published_at": "2026-06-30T23:58:15Z",
+      "summary": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.\nWe'll begin restoring access tomorrow, and will share an update soon.\n&mdash; Anthropic, on Twitter\n\n    Ta",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-30-nano-banana-2-lite",
+      "source": "simonw",
+      "title": "Nano Banana 2 Lite",
+      "url": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
+      "published_at": "2026-06-30T22:15:35Z",
+      "summary": "Nano Banana 2 Lite\nAlso known as Gemini 3.1 Flash Lite Image (gemini-3.1-flash-lite-image in their API), this is the \"fastest and cheapest Gemini image model, engineered for velocity and scale\".\nI used AI studio to run t",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-06-30-whats-new-in-claude-sonnet-5",
+      "source": "simonw",
+      "title": "What's new in Claude Sonnet 5",
+      "url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+      "published_at": "2026-06-30T21:23:02Z",
+      "summary": "What&#x27;s new in Claude Sonnet 5\nClaude Sonnet 5 came out this morning. I always head straight for the \"what's new\" developer docs because they tend to have more actionable information than the official announcement po",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "huggingface-2026-06-30-scarfbench-benchmarking-ai-agents-for-enterprise-java-framew",
       "source": "huggingface",
-      "title": "We got local models to triage the OpenClaw repo for FREE!*",
-      "url": "https://huggingface.co/blog/local-models-pr-triage",
-      "published_at": "2026-06-22T00:00:00Z",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "published_at": "2026-06-30T18:32:50Z",
       "summary": "",
       "tags": [
         "huggingface"
       ]
     },
     {
-      "id": "simonw-2026-06-21-sqlite-utils-40rc1-adds-migrations-and-nested-transactions",
+      "id": "simonw-2026-06-30-the-ai-compass",
       "source": "simonw",
-      "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
-      "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
-      "published_at": "2026-06-21T23:35:47Z",
-      "summary": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package, including support for complex",
+      "title": "The AI Compass",
+      "url": "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything",
+      "published_at": "2026-06-30T17:39:23Z",
+      "summary": "The AI Compass\nThis political compass style quiz by bambamramfan is pretty neat - answer 29 questions about AI and AI ethics to see which of the 30 archetypes you best fit.\nI'm impressed that my answers on my first time ",
       "tags": [
         "simonw"
       ]
     },
     {
-      "id": "simonw-2026-06-21-temporary-cloudflare-accounts-for-ai-agents",
+      "id": "simonw-2026-06-30-have-your-agent-record-video-demos-of-its-work-with-shot-scr",
       "source": "simonw",
-      "title": "Temporary Cloudflare Accounts for AI agents",
-      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
-      "published_at": "2026-06-21T22:01:04Z",
-      "summary": "Temporary Cloudflare Accounts for AI agents\nThe announcement says this is \"for AI agents\" but (as is pretty common these days) the AI hook isn't really necessary, this is an interesting feature for everyone else as well.",
+      "title": "Have your agent record video demos of its work with shot-scraper video",
+      "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
+      "published_at": "2026-06-30T16:54:26Z",
+      "summary": "shot-scraper video is a new command introduced in today's shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that ro",
       "tags": [
         "simonw"
       ]
     },
     {
-      "id": "simonw-2026-06-19-quoting-sean-lynch",
-      "source": "simonw",
-      "title": "Quoting Sean Lynch",
-      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
-      "published_at": "2026-06-19T22:45:49Z",
-      "summary": "The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...]\nMaybe the idealized form of MCP is just an au",
+      "id": "microsoft-2026-06-30-skillopt-agent-skills-as-trainable-parameters",
+      "source": "microsoft",
+      "title": "SkillOpt: Agent skills as trainable parameters",
+      "url": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/",
+      "published_at": "2026-06-30T16:50:02Z",
+      "summary": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, making agent behavior more reliable with",
       "tags": [
-        "simonw"
+        "microsoft"
       ]
     },
     {
-      "id": "simonw-2026-06-18-datasette-apps-host-custom-html-applications-inside-datasett",
-      "source": "simonw",
-      "title": "Datasette Apps: Host custom HTML applications inside Datasette",
-      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
-      "published_at": "2026-06-18T23:58:38Z",
-      "summary": "Today we launched a new plugin for Datasette, datasette-apps, with this launch announcement post on the Datasette project blog. That post has the what, but I'm going to expand on that a little bit here to provide the why",
+      "id": "meta-2026-06-30-10-years-of-metas-commitment-to-python",
+      "source": "meta",
+      "title": "10 Years of Meta’s Commitment to Python",
+      "url": "https://engineering.fb.com/2026/06/30/open-source/10-years-of-metas-commitment-to-python/",
+      "published_at": "2026-06-30T16:00:46Z",
+      "summary": "This year marks Meta&#8217;s 10th consecutive year as a sponsor of the Python Software Foundation (PSF), the charitable organization dedicated to advancing, supporting, and protecting the open-source Python programming l",
       "tags": [
-        "simonw"
+        "meta"
       ]
     },
     {
-      "id": "huggingface-2026-06-18-mosaicleaks-can-your-research-agent-keep-a-secret",
+      "id": "huggingface-2026-06-30-why-specialization-is-inevitable",
       "source": "huggingface",
-      "title": "MosaicLeaks: Can your research agent keep a secret?",
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "published_at": "2026-06-18T18:13:13Z",
+      "title": "Why Specialization Is Inevitable",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "published_at": "2026-06-30T14:39:11Z",
       "summary": "",
       "tags": [
         "huggingface"
       ]
     },
     {
-      "id": "huggingface-2026-06-18-beyond-lora-can-you-beat-the-most-popular-fine-tuning-techni",
+      "id": "huggingface-2026-06-30-featuring-every-eval-ever-results-on-hugging-face-model-page",
       "source": "huggingface",
-      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-      "url": "https://huggingface.co/blog/peft-beyond-lora",
-      "published_at": "2026-06-18T00:00:00Z",
+      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "url": "https://huggingface.co/blog/eee-community-evals",
+      "published_at": "2026-06-30T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"
       ]
     },
     {
-      "id": "huggingface-2026-06-18-is-it-agentic-enough-benchmarking-open-models-on-your-own-to",
+      "id": "huggingface-2026-06-29-discoformer-one-transformer-for-density-and-score-across-dis",
       "source": "huggingface",
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "published_at": "2026-06-18T00:00:00Z",
+      "title": "DiScoFormer: One transformer for density and score, across distributions",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "published_at": "2026-06-29T18:02:48Z",
       "summary": "",
       "tags": [
         "huggingface"
       ]
     },
     {
-      "id": "simonw-2026-06-17-glm-52-is-probably-the-most-powerful-text-only-open-weights",
+      "id": "simonw-2026-06-29-ornith-10-self-scaffolding-llms-for-agentic-coding",
       "source": "simonw",
-      "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
-      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
-      "published_at": "2026-06-17T23:58:39Z",
-      "summary": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 ",
+      "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+      "url": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
+      "published_at": "2026-06-29T16:17:59Z",
+      "summary": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding\nThis is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce.\n\n[...] with variants including 9B Dense, 31B Dense, 35B MoE, ",
       "tags": [
         "simonw"
       ]
     },
     {
-      "id": "simonw-2026-06-17-quoting-charity-majors",
+      "id": "simonw-2026-06-28-quoting-jon-udell",
       "source": "simonw",
-      "title": "Quoting Charity Majors",
-      "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
-      "published_at": "2026-06-17T17:12:41Z",
-      "summary": "What happened in 2025 was this: the economics of code production were turned upside down. Instead of being very hard, time-consuming, and expensive to generate code, it became effectively free and instant. Lines of code ",
+      "title": "Quoting Jon Udell",
+      "url": "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
+      "published_at": "2026-06-28T21:57:41Z",
+      "summary": "Human Agent in the loop\nI dislike the phrase “human in the loop” because it cedes authority to the machines. Let’s flip the narrative. It’s our loop, we work the same way we always have, now we recruit agents to join the",
       "tags": [
         "simonw"
       ]
     },
     {
-      "id": "huggingface-2026-06-17-molmomotion-language-guided-3d-motion-forecasting",
-      "source": "huggingface",
-      "title": "MolmoMotion: Language-guided 3D motion forecasting",
-      "url": "https://huggingface.co/blog/allenai/molmomotion",
-      "published_at": "2026-06-17T15:26:44Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-17-from-the-hugging-face-hub-to-robot-hardware-with-strands-age",
-      "source": "huggingface",
-      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "published_at": "2026-06-17T10:18:05Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-17-glm-52-built-for-long-horizon-tasks",
-      "source": "huggingface",
-      "title": "GLM-5.2: Built for Long-Horizon Tasks",
-      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "published_at": "2026-06-17T09:01:25Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-17-agentic-resource-discovery-let-agents-search",
-      "source": "huggingface",
-      "title": "Agentic Resource Discovery: Let agents search",
-      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "published_at": "2026-06-17T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-16-datasette-tailscale-01a0",
+      "id": "simonw-2026-06-26-quoting-dean-w-ball",
       "source": "simonw",
-      "title": "datasette-tailscale 0.1a0",
-      "url": "https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything",
-      "published_at": "2026-06-16T16:18:20Z",
-      "summary": "Release: datasette-tailscale 0.1a0\n        A very experimental alpha plugin which lets you do this:\ndatasette tailscale mydata.db \\\n  --ts-authkey tskey-auth-xxxx --ts-hostname datasette-preview\n\nThis starts a localhost ",
+      "title": "Quoting Dean W. Ball",
+      "url": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
+      "published_at": "2026-06-26T22:25:46Z",
+      "summary": "This is a bad state of affairs. Consider, in particular, some industry dynamics:\n\nFrontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that t",
       "tags": [
         "simonw"
       ]
     },
     {
-      "id": "simonw-2026-06-16-quoting-georgi-gerganov",
+      "id": "simonw-2026-06-26-quoting-timothy-b-lee",
       "source": "simonw",
-      "title": "Quoting Georgi Gerganov",
-      "url": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything",
-      "published_at": "2026-06-16T16:04:59Z",
-      "summary": "I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for sma",
+      "title": "Quoting Timothy B. Lee",
+      "url": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
+      "published_at": "2026-06-26T21:15:09Z",
+      "summary": "This is like saying there's no learning curve to being a manager because your employees will just do whatever you tell them to do.\n&mdash; Timothy B. Lee, on the idea that LLMs take no skill and have no learning curve\n\n ",
       "tags": [
         "simonw"
       ]
     },
     {
-      "id": "simonw-2026-06-16-the-fable-5-export-controls-harm-us-cyber-defense",
+      "id": "simonw-2026-06-26-what-happened-after-2000-people-tried-to-hack-my-ai-assistan",
       "source": "simonw",
-      "title": "The Fable 5 Export Controls Harm US Cyber Defense",
-      "url": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
-      "published_at": "2026-06-16T05:20:29Z",
-      "summary": "The Fable 5 Export Controls Harm US Cyber Defense\nI quoted The Atlantic quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable 5",
+      "title": "What happened after 2,000 people tried to hack my AI assistant",
+      "url": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
+      "published_at": "2026-06-26T18:33:14Z",
+      "summary": "What happened after 2,000 people tried to hack my AI assistant\nFernando Irarrázaval ran a challenge on hackmyclaw.com to see if anyone could leak secrets held by his OpenClaw test instance by sending it email.\nSurprising",
       "tags": [
         "simonw"
       ]
     },
     {
-      "id": "simonw-2026-06-16-quoting-matteo-wong-the-atlantic",
+      "id": "simonw-2026-06-26-incident-report-cve-2026-lgtm",
       "source": "simonw",
-      "title": "Quoting Matteo Wong, The Atlantic",
-      "url": "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything",
-      "published_at": "2026-06-16T03:07:54Z",
-      "summary": "Katie Moussouris, a cybersecurity expert and the CEO of Luta Security, told me that Anthropic shared with her a copy of the White House’s report on the Fable jailbreak to get her appraisal. (She said that she is not bein",
+      "title": "Incident Report: CVE-2026-LGTM",
+      "url": "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
+      "published_at": "2026-06-26T17:58:54Z",
+      "summary": "Incident Report: CVE-2026-LGTM\nSpectacular hypothetical incident report by Andrew Nesbitt.\n\nDay 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4",
       "tags": [
         "simonw"
       ]
     },
     {
-      "id": "huggingface-2026-06-12-olmo-eval-an-evaluation-workbench-for-the-model-development",
+      "id": "simonw-2026-06-26-quoting-openai",
+      "source": "simonw",
+      "title": "Quoting OpenAI",
+      "url": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
+      "published_at": "2026-06-26T17:10:43Z",
+      "summary": "We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while being",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "huggingface-2026-06-26-run-a-vllm-server-on-hf-jobs-in-one-command",
       "source": "huggingface",
-      "title": "olmo-eval: An evaluation workbench for the model development loop",
-      "url": "https://huggingface.co/blog/allenai/olmo-eval",
-      "published_at": "2026-06-12T15:56:10Z",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "published_at": "2026-06-26T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"
       ]
     },
     {
-      "id": "huggingface-2026-06-11-profiling-in-pytorch-part-2-from-nnlinear-to-a-fused-mlp",
+      "id": "meta-2026-06-25-privacy-aware-infrastructure-in-the-ai-native-era-an-asset-c",
+      "source": "meta",
+      "title": "Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study",
+      "url": "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/",
+      "published_at": "2026-06-25T22:30:51Z",
+      "summary": " Privacy controls — systems that enforce retention, access, allowed-purpose, downstream-sharing, or anonymization policies — require a reliable understanding of data to function. Before such a control can operate effecti",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "huggingface-2026-06-25-which-tokens-does-a-hybrid-model-predict-better",
       "source": "huggingface",
-      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-      "url": "https://huggingface.co/blog/torch-mlp-fusion",
-      "published_at": "2026-06-11T00:00:00Z",
+      "title": "Which tokens does a hybrid model predict better?",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "published_at": "2026-06-25T16:11:42Z",
       "summary": "",
       "tags": [
         "huggingface"
       ]
     },
     {
-      "id": "huggingface-2026-06-09-can-voice-agents-handle-bilingual-customers-benchmarking-fro",
+      "id": "microsoft-2026-06-25-understanding-the-brain-with-ai-driven-explanations-and-expe",
+      "source": "microsoft",
+      "title": "Understanding the brain with AI-driven explanations and experiments",
+      "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
+      "published_at": "2026-06-25T16:00:00Z",
+      "summary": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language.\nThe post Understand",
+      "tags": [
+        "microsoft"
+      ]
+    },
+    {
+      "id": "huggingface-2026-06-24-accelerating-transformers-fine-tuning-with-nvidia-nemo-autom",
       "source": "huggingface",
-      "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
-      "published_at": "2026-06-09T19:38:28Z",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "published_at": "2026-06-24T16:00:13Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "microsoft-2026-06-24-talos-scaling-rare-disease-diagnosis-with-automated-iterativ",
+      "source": "microsoft",
+      "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
+      "url": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/",
+      "published_at": "2026-06-24T14:00:14Z",
+      "summary": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert rev",
+      "tags": [
+        "microsoft"
+      ]
+    },
+    {
+      "id": "huggingface-2026-06-24-introducing-the-ffasr-leaderboard-benchmarking-asr-in-the-re",
+      "source": "huggingface",
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "published_at": "2026-06-24T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "meta-2026-06-23-how-meta-engineered-ultra-narrow-batteries-for-ai-glasses",
+      "source": "meta",
+      "title": "How Meta Engineered Ultra-Narrow Batteries for AI Glasses",
+      "url": "https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/",
+      "published_at": "2026-06-23T16:00:38Z",
+      "summary": "Smart glasses like the Ray-Ban Meta and Oakley Meta Vanguards need to pack enough energy to power features like cameras, speakers, AI workloads, and even a display. But it all has to fit into the glasses’ temple arms. So",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "huggingface-2026-06-23-build-real-agentic-apps-using-cuga-two-dozen-working-example",
+      "source": "huggingface",
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "published_at": "2026-06-23T12:51:55Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-06-23-shipping-huggingface-hub-every-week-with-ai-open-tools-and-a",
+      "source": "huggingface",
+      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "published_at": "2026-06-23T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-06-23-experimenting-with-the-proposed-cross-origin-storage-api-in",
+      "source": "huggingface",
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "published_at": "2026-06-23T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"

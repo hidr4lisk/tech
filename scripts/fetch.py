@@ -233,7 +233,10 @@ def fetch_gh_releases(owner, repo, project_slug, release_type):
 
 
 def merge_news(existing_items, new_items, max_items=80, per_source=12):
-    by_url = {i["url"]: i for i in existing_items}
+    # Descartar entradas viejas con url inválida (p.ej. un bug de parseo previo que haya
+    # guardado un id interno en vez de una URL real): al dedupear por url, una entrada así
+    # nunca colisiona con nada nuevo y sobrevive para siempre.
+    by_url = {i["url"]: i for i in existing_items if i.get("url", "").startswith("http")}
     for item in new_items:
         if item["url"] not in by_url:
             by_url[item["url"]] = item
