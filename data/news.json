@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-07-01T20:02:27Z",
+  "updated_at": "2026-07-02T03:59:44Z",
   "items": [
+    {
+      "id": "localllama-2026-07-02-making-llms-better-at-creative-writing-using-entropy",
+      "source": "localllama",
+      "title": "Making LLMs Better at Creative Writing using Entropy",
+      "url": "t3_1ul6enz",
+      "published_at": "2026-07-02T03:06:06Z",
+      "summary": "      &#32; submitted by &#32;  /u/CountBayesie   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-i-added-mtp-to-local-sota-agentic-coding-model-ornith-35b-fp",
+      "source": "localllama",
+      "title": "I added MTP to local SoTA Agentic Coding Model Ornith 35B FP8 E4M3",
+      "url": "t3_1ul3rr2",
+      "published_at": "2026-07-02T01:03:05Z",
+      "summary": "      Just wanted to share that I was looking for an optimal way to run Ornith 35B in FP8 with E4M3 and MTP with vLLM but there was no out-of-the-box model with MTP drafter support. So I grafted this new model! It&#39;s ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-i-extended-gemma4-31b-to-44b-88-layers-since-google-wont-giv",
+      "source": "localllama",
+      "title": "I extended Gemma4-31B to 44B (88 layers) — since Google won't give us anything bigger than 31B",
+      "url": "t3_1ul0cx9",
+      "published_at": "2026-07-01T22:35:11Z",
+      "summary": "      I&#39;ve been just sit on this thread for a while now, both as a reader and occasional poster, so I figured it was finally time to share something I&#39;ve been working on last weekends. Google hasn&#39;t shipped a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-senior-swe-bench-a-new-benchmark-focussed-on-realistically-u",
+      "source": "localllama",
+      "title": "Senior SWE Bench: a new benchmark focussed on realistically underspecified feature tasks",
+      "url": "t3_1ukzavr",
+      "published_at": "2026-07-01T21:52:55Z",
+      "summary": "      &#32; submitted by &#32;  /u/jordo45   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-my-reasons-to-run-local-models",
+      "source": "localllama",
+      "title": "My reasons to run local models",
+      "url": "t3_1ukz0t9",
+      "published_at": "2026-07-01T21:41:51Z",
+      "summary": " I can finetune any model on any dataset I want. I can use techniques like speculative decoding and other sota approaches to get the max tps The llm provides like anthropic and openai are not getting access to my data Th",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-end-of-an-agony-real-production-service-that-uses-llm-to-ear",
+      "source": "localllama",
+      "title": "End of an Agony. Real production service that uses LLM to earn money my team had made and now we are so happy that it will die. Here are some of my final \"experiences\".",
+      "url": "t3_1ukx9p1",
+      "published_at": "2026-07-01T20:35:22Z",
+      "summary": "Hello everyone. I had posted in this sub about making a production service about 8 months ago. Here the link of my previous post . The idea was the same. We wanted to make a real production service that we can provide to",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-zcode-new-agentic-code-editor-from-the-makers-of-glm",
+      "source": "localllama",
+      "title": "ZCode: New Agentic Code Editor from the Makers of GLM",
+      "url": "t3_1ukww17",
+      "published_at": "2026-07-01T20:21:18Z",
+      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-01-i-pulled-the-actual-search-numbers-for-ai-coding-tools",
       "source": "localllama",
@@ -19,6 +96,17 @@
       "url": "t3_1ukvvvm",
       "published_at": "2026-07-01T19:44:08Z",
       "summary": "I&#39;m always keeping an eye on competitive hardware and was looking at tenstorrent cards, particularly the p150a which while its memory bandwidth is only 512GB/s, it does have 32 GB of GDDR6 and a high-speed Ethernet f",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-what-should-i-test-when-comparing-qwen36-27b-quants-for-real",
+      "source": "localllama",
+      "title": "What should I test when comparing Qwen3.6-27b quants for real world effects that humans could reason about?",
+      "url": "t3_1ukvbnc",
+      "published_at": "2026-07-01T19:23:17Z",
+      "summary": "I tried to find some good comparisons on how different quants of Qwen3.6-27b perform in different scenarios, but I failed to find good information on what kinds of real world effects there are to running different quants",
       "tags": [
         "localllama"
       ]
@@ -46,72 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-01-deepseek-flash-v4-at-iq2-or-qwen-36-27b-q5km-any-tests-or-be",
-      "source": "localllama",
-      "title": "Deepseek Flash V4 at IQ2 or Qwen 3.6 27B Q5KM ? Any tests or benchmarks ?",
-      "url": "t3_1ukt1hc",
-      "published_at": "2026-07-01T18:01:09Z",
-      "summary": "Deepseek Flash V4 at IQ2 or Qwen 3.6 27B Q5KM ? Any tests or benchmarks ? Wondering which one would be better at speed / coding / reasoning  &#32; submitted by &#32;  /u/soyalemujica   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-plurality-released-fully-free-and-open-source-ai-agentschatb",
-      "source": "localllama",
-      "title": "Plurality Released: fully Free and Open Source AI agents/chatbot platform for local AI",
-      "url": "t3_1ukrm9q",
-      "published_at": "2026-07-01T17:08:35Z",
-      "summary": "      Hello everyone! Some of you might recognize my user from the work I have done on Cosmos Cloud, but today I am here to talk to you about an entirely different project: Plurality. https://github.com/azukaar/plurality",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-how-to-improve-ram-offload",
-      "source": "localllama",
-      "title": "How to improve RAM offload?",
-      "url": "t3_1ukrjxa",
-      "published_at": "2026-07-01T17:06:16Z",
-      "summary": "      I have only 12GB VRAM (RTX3060) but have enough RAM to run Qwen3.6 27B Q4 with offload. Something tells me that it won&#39;t achieve maximum performance but why DRAM speed is only around 30GB/s (HWiNFO data) during",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-couldnt-hold-back",
-      "source": "localllama",
-      "title": "Couldn't hold back",
-      "url": "t3_1ukqp20",
-      "published_at": "2026-07-01T16:34:51Z",
-      "summary": "      Had been waiting for months and the cards finally got delivered today. No one at my workplace was excited, maybe because no one cares for AI stuff that i work on. But I just wanted to share it with you guys. Can&#3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-july-2026-where-are-intels-gpu-speeds-today-at",
-      "source": "localllama",
-      "title": "July 2026; where are Intel's GPU speeds today at?",
-      "url": "t3_1ukq7ez",
-      "published_at": "2026-07-01T16:16:45Z",
-      "summary": "Hey all, it is 1st of July, 2H26, and I hope that Intel has been catching up on their firmware support for their B50-B70 cards in recent months. In some places of the world, they do sound like a good VRAM/money offer, an",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-looking-for-open-source-ai-meeting-note-takers-like-fathom-f",
-      "source": "localllama",
-      "title": "Looking for open-source AI meeting note-takers (like Fathom, Fireflies, Notion AI)",
-      "url": "t3_1ukpttx",
-      "published_at": "2026-07-01T16:03:03Z",
-      "summary": "I&#39;m looking for open-source repositories or projects that serve as AI meeting assistants. I want a program or repository that can take notes using AI, create a summary, and record voice locally. I prefer everything t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "meta-2026-07-01-metas-ai-storage-blueprint-at-scale",
       "source": "meta",
       "title": "Meta’s AI Storage Blueprint at Scale",
@@ -120,28 +142,6 @@
       "summary": "Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks.",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-the-gap-between-closed-and-open-models-might-be-much-smaller",
-      "source": "localllama",
-      "title": "The gap between closed and open models might be much smaller than commonly assumed, because we don’t know what closed model providers do *in addition to* model inference",
-      "url": "t3_1ukp2bu",
-      "published_at": "2026-07-01T15:35:24Z",
-      "summary": "When Claude dominates GLM-5.2 in benchmarks, it’s usually assumed that Anthropic has superior model architectures, superior training pipelines, and other advanced machine learning techniques that make their models better",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-open-models---june-2026",
-      "source": "localllama",
-      "title": "Open Models - June 2026",
-      "url": "t3_1ukorvr",
-      "published_at": "2026-07-01T15:24:50Z",
-      "summary": "      After overwhelming April, OK May, here&#39;s June. Yeah, Graph has only less items. Because we got other items here last month. Finetunes:  Nex-N2 Ornith-1.0 Agents-A1 Holo3.1 Tmax-27b MusaCoder-27B VibeThinker-3B ",
-      "tags": [
-        "localllama"
       ]
     },
     {

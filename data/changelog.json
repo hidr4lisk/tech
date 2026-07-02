@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T20:02:34Z",
+  "updated_at": "2026-07-02T03:59:49Z",
   "releases": [
     {
       "id": "llama-cpp-b9859",
@@ -6255,33 +6255,6 @@
       "published_at": "2026-04-03T22:14:33Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "vllm-v0.19.0",
-      "project": "vllm",
-      "version": "v0.19.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.19.0",
-      "published_at": "2026-04-03T02:19:12Z",
-      "body_excerpt": "vLLM v0.19.0 Highlights This release features 448 commits from 197 contributors (54 new)! Gemma 4 support: Full Google Gemma 4 architecture support including MoE, multimodal, reasoning, and tool-use capabilities (#38826, #38847). Requires . We recommend using pre-built docker image for out of box usage. Zero-bubble async scheduling + speculative decoding: Async scheduling now supports speculative ",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.1.0",
-      "project": "localai",
-      "version": "v4.1.0",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.1.0",
-      "published_at": "2026-04-02T22:14:48Z",
-      "body_excerpt": "🎉 LocalAI 4.1.0 Release! 🚀 LocalAI 4.1.0 is out! 🔥 Just weeks after the landmark 4.0, we're back with another massive drop. This release turns LocalAI into a production-grade AI platform: spin up a distributed cluster with smart routing and autoscaling, lock it down with built-in auth and per-user quotas, fine-tune models without leaving the UI, and much more. If 4.0 was the foundation, 4.1 is the",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.35-beta",
-      "project": "unsloth",
-      "version": "v0.1.35-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.35-beta",
-      "published_at": "2026-04-02T20:02:41Z",
-      "body_excerpt": "Google releases Gemma 4 with four new models: E2B, E4B, 26B-A4B, 31B. You can now run and train the Gemma 4 models in Unsloth. Guide / Blog: Run E2B and E4B on 6GB RAM, and on phones. Run 26B-A4B and 31B on ~18GB. GGUFs: Updates Tool calls for smaller models are now more stable and don't cut off anymore Pre-compiled binaries for llama.cpp for 2 Gemma 4 fixes: vocab: fix Gemma4 tokenizer - (#21343)",
-      "type": "tool"
     }
   ]
 }
