@@ -1,112 +1,134 @@
 {
-  "updated_at": "2026-07-01T20:02:27Z",
+  "updated_at": "2026-07-02T09:20:51Z",
   "items": [
     {
-      "id": "localllama-2026-07-01-i-pulled-the-actual-search-numbers-for-ai-coding-tools",
+      "id": "localllama-2026-07-02-whats-in-your-rag",
       "source": "localllama",
-      "title": "I pulled the actual search numbers for AI coding tools",
-      "url": "t3_1ukw2mk",
-      "published_at": "2026-07-01T19:51:09Z",
-      "summary": "      Was curious how the AI coding tools actually stack up on mindshare, so I pulled global monthly search volume. The spread surprised me: Claude Code: ~2.06M/mo GitHub Copilot: ~721K Cursor: ~584K OpenCode: ~298K Clau",
+      "title": "What's in your RAG?",
+      "url": "t3_1ulclpr",
+      "published_at": "2026-07-02T08:42:24Z",
+      "summary": "I want to up my game, with RAG. I tested it ages ago, but haven&#39;t found a usecase. I play with coding, projects, and light sysadmin work. # Thoughts RFC library - seems verbose unnecessary industry standards - typica",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-anyone-using-tenstorrent-gpus-for-your-local-ai-whats-been-y",
+      "id": "localllama-2026-07-02-palantir-ceo-rages-against-closed-models",
       "source": "localllama",
-      "title": "Anyone using TensTorrent gpus for your local ai? What's been your experience?",
-      "url": "t3_1ukvvvm",
-      "published_at": "2026-07-01T19:44:08Z",
-      "summary": "I&#39;m always keeping an eye on competitive hardware and was looking at tenstorrent cards, particularly the p150a which while its memory bandwidth is only 512GB/s, it does have 32 GB of GDDR6 and a high-speed Ethernet f",
+      "title": "Palantir CEO rages against closed models",
+      "url": "t3_1ulb4nx",
+      "published_at": "2026-07-02T07:15:05Z",
+      "summary": "      For context, this week they struck a deal to buy Nvidia chips and run local models for their enterprise clients. So in this video he is railing against Anthropic and OpenAI saying they are ripping everyone off whil",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-open-benchmark-how-well-can-multimodal-llms-read-a-calendar",
+      "id": "localllama-2026-07-02-a-cheap-trick-for-reliable-structured-output-feed-the-valida",
       "source": "localllama",
-      "title": "Open benchmark: how well can multimodal LLMs read a calendar week-view from a screenshot? Humans ~99%, Q4 local models.....",
-      "url": "t3_1ukuph9",
-      "published_at": "2026-07-01T19:01:20Z",
-      "summary": "Some backstory I&#39;ve been working on my local agent (openclaw), and I wanted to give it the skill to reconstruct calendar entries from a photo of the screen. I couldn&#39;t get at the calendar through an API (long sto",
+      "title": "A cheap trick for reliable structured output: feed the validation error back into the retry",
+      "url": "t3_1ulatl7",
+      "published_at": "2026-07-02T06:57:32Z",
+      "summary": "If you generate structured output from an LLM and validate against a schema, you know the failure mode: usually fine, occasionally a missing field or an unparseable response. The common fix is a retry, but a plain retry ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-llama-b9856-win-cuda-124---windows-defender-claims-its-a-tro",
+      "id": "localllama-2026-07-02-qwen-36-35a3b-on-32gb-ram-8gb-vram",
       "source": "localllama",
-      "title": "Llama-b9856 Win Cuda 12.4 - Windows Defender claims it's a trojan",
-      "url": "t3_1ukt773",
-      "published_at": "2026-07-01T18:06:56Z",
-      "summary": "Hi, just downloaded this release earlier today. Attempted to run llama-server, and Windows Defender shut it down. It says it&#39;s Wacatac.H!ml. It removed the llama-server-impl.dll file from the folder. Older releases w",
+      "title": "qwen 3.6 35a3b on 32gb ram + 8gb vram?",
+      "url": "t3_1ula7q6",
+      "published_at": "2026-07-02T06:22:03Z",
+      "summary": "is it possible to run a reasonable quant of qwen 3.6 (or I guess even ornith/3.5) 35B A3B on a laptop with 32gb of lpddr5 (7500 mt/s so technically faster/higher bandwith than standard ddr5) and an rtx 5060 laptop gpu (w",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-deepseek-flash-v4-at-iq2-or-qwen-36-27b-q5km-any-tests-or-be",
+      "id": "localllama-2026-07-02-sensenova-u1-8b-mot-infographic-v2-released-yesterday---an-o",
       "source": "localllama",
-      "title": "Deepseek Flash V4 at IQ2 or Qwen 3.6 27B Q5KM ? Any tests or benchmarks ?",
-      "url": "t3_1ukt1hc",
-      "published_at": "2026-07-01T18:01:09Z",
-      "summary": "Deepseek Flash V4 at IQ2 or Qwen 3.6 27B Q5KM ? Any tests or benchmarks ? Wondering which one would be better at speed / coding / reasoning  &#32; submitted by &#32;  /u/soyalemujica   [link] &#32; [comments]",
+      "title": "SenseNova-U1-8b-MoT-Infographic-V2 (released yesterday) - An open source SOTA beast for infographic design and image editing.",
+      "url": "t3_1ul7za1",
+      "published_at": "2026-07-02T04:22:38Z",
+      "summary": "      I’m pretty jaded like most of y’all. I don’t really get excited by new models much anymore. Last few weeks have been kinda meh to be honest. Monday, I stumbled upon SenseNova’s Mixture of Transformers models and th",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-plurality-released-fully-free-and-open-source-ai-agentschatb",
+      "id": "localllama-2026-07-02-benchmark-kimi-k27-code-q3-on-mac-studio-m3-ultra-rtx-pro-60",
       "source": "localllama",
-      "title": "Plurality Released: fully Free and Open Source AI agents/chatbot platform for local AI",
-      "url": "t3_1ukrm9q",
-      "published_at": "2026-07-01T17:08:35Z",
-      "summary": "      Hello everyone! Some of you might recognize my user from the work I have done on Cosmos Cloud, but today I am here to talk to you about an entirely different project: Plurality. https://github.com/azukaar/plurality",
+      "title": "[Benchmark] Kimi K2.7 Code Q3 on Mac Studio M3 Ultra + RTX PRO 6000 over llama.cpp RPC: prefill improves, no changes in token generation/decode",
+      "url": "t3_1ul7qb6",
+      "published_at": "2026-07-02T04:09:57Z",
+      "summary": "I came across this interesting article https://blog.exolabs.net/nvidia-dgx-spark/ while I don&#39;t have the DGX spark but it made me curious will this kind of arch speed up my setup for LLMs?  Mac can host large models ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-how-to-improve-ram-offload",
+      "id": "localllama-2026-07-02-they-fit-mostly-2x-3090-thermaltake-core-p3",
       "source": "localllama",
-      "title": "How to improve RAM offload?",
-      "url": "t3_1ukrjxa",
-      "published_at": "2026-07-01T17:06:16Z",
-      "summary": "      I have only 12GB VRAM (RTX3060) but have enough RAM to run Qwen3.6 27B Q4 with offload. Something tells me that it won&#39;t achieve maximum performance but why DRAM speed is only around 30GB/s (HWiNFO data) during",
+      "title": "They fit! Mostly.... 2x 3090, Thermaltake Core p3",
+      "url": "t3_1ul7ki2",
+      "published_at": "2026-07-02T04:02:01Z",
+      "summary": "      Got another 3090 had to print a bracket to angle the radiator and make room for the GPUs 💀 ended up liking the look more than I thought ..qwen 27b go brrrrr  &#32; submitted by &#32;  /u/anthonyg45157   [link] &#32",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-couldnt-hold-back",
+      "id": "localllama-2026-07-02-making-llms-better-at-creative-writing-using-entropy",
       "source": "localllama",
-      "title": "Couldn't hold back",
-      "url": "t3_1ukqp20",
-      "published_at": "2026-07-01T16:34:51Z",
-      "summary": "      Had been waiting for months and the cards finally got delivered today. No one at my workplace was excited, maybe because no one cares for AI stuff that i work on. But I just wanted to share it with you guys. Can&#3",
+      "title": "Making LLMs Better at Creative Writing using Entropy",
+      "url": "t3_1ul6enz",
+      "published_at": "2026-07-02T03:06:06Z",
+      "summary": "      &#32; submitted by &#32;  /u/CountBayesie   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-july-2026-where-are-intels-gpu-speeds-today-at",
+      "id": "localllama-2026-07-02-i-added-mtp-to-local-sota-agentic-coding-model-ornith-35b-fp",
       "source": "localllama",
-      "title": "July 2026; where are Intel's GPU speeds today at?",
-      "url": "t3_1ukq7ez",
-      "published_at": "2026-07-01T16:16:45Z",
-      "summary": "Hey all, it is 1st of July, 2H26, and I hope that Intel has been catching up on their firmware support for their B50-B70 cards in recent months. In some places of the world, they do sound like a good VRAM/money offer, an",
+      "title": "I added MTP to local SoTA Agentic Coding Model Ornith 35B FP8 E4M3",
+      "url": "t3_1ul3rr2",
+      "published_at": "2026-07-02T01:03:05Z",
+      "summary": "      Just wanted to share that I was looking for an optimal way to run Ornith 35B in FP8 with E4M3 and MTP with vLLM but there was no out-of-the-box model with MTP drafter support. So I grafted this new model! It&#39;s ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-01-looking-for-open-source-ai-meeting-note-takers-like-fathom-f",
+      "id": "localllama-2026-07-01-i-extended-gemma4-31b-to-44b-88-layers-since-google-wont-giv",
       "source": "localllama",
-      "title": "Looking for open-source AI meeting note-takers (like Fathom, Fireflies, Notion AI)",
-      "url": "t3_1ukpttx",
-      "published_at": "2026-07-01T16:03:03Z",
-      "summary": "I&#39;m looking for open-source repositories or projects that serve as AI meeting assistants. I want a program or repository that can take notes using AI, create a summary, and record voice locally. I prefer everything t",
+      "title": "I extended Gemma4-31B to 44B (88 layers) — since Google won't give us anything bigger than 31B",
+      "url": "t3_1ul0cx9",
+      "published_at": "2026-07-01T22:35:11Z",
+      "summary": "      I&#39;ve been just sit on this thread for a while now, both as a reader and occasional poster, so I figured it was finally time to share something I&#39;ve been working on last weekends. Google hasn&#39;t shipped a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-senior-swe-bench-a-new-benchmark-focussed-on-realistically-u",
+      "source": "localllama",
+      "title": "Senior SWE Bench: a new benchmark focussed on realistically underspecified feature tasks",
+      "url": "t3_1ukzavr",
+      "published_at": "2026-07-01T21:52:55Z",
+      "summary": "      &#32; submitted by &#32;  /u/jordo45   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-01-my-reasons-to-run-local-models",
+      "source": "localllama",
+      "title": "My reasons to run local models",
+      "url": "t3_1ukz0t9",
+      "published_at": "2026-07-01T21:41:51Z",
+      "summary": " I can finetune any model on any dataset I want. I can use techniques like speculative decoding and other sota approaches to get the max tps The llm provides like anthropic and openai are not getting access to my data Th",
       "tags": [
         "localllama"
       ]
@@ -120,28 +142,6 @@
       "summary": "Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks.",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-the-gap-between-closed-and-open-models-might-be-much-smaller",
-      "source": "localllama",
-      "title": "The gap between closed and open models might be much smaller than commonly assumed, because we don’t know what closed model providers do *in addition to* model inference",
-      "url": "t3_1ukp2bu",
-      "published_at": "2026-07-01T15:35:24Z",
-      "summary": "When Claude dominates GLM-5.2 in benchmarks, it’s usually assumed that Anthropic has superior model architectures, superior training pipelines, and other advanced machine learning techniques that make their models better",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-open-models---june-2026",
-      "source": "localllama",
-      "title": "Open Models - June 2026",
-      "url": "t3_1ukorvr",
-      "published_at": "2026-07-01T15:24:50Z",
-      "summary": "      After overwhelming April, OK May, here&#39;s June. Yeah, Graph has only less items. Because we got other items here last month. Finetunes:  Nex-N2 Ornith-1.0 Agents-A1 Holo3.1 Tmax-27b MusaCoder-27B VibeThinker-3B ",
-      "tags": [
-        "localllama"
       ]
     },
     {
