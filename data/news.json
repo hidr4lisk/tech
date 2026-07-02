@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-07-02T03:59:44Z",
+  "updated_at": "2026-07-02T09:20:51Z",
   "items": [
+    {
+      "id": "localllama-2026-07-02-whats-in-your-rag",
+      "source": "localllama",
+      "title": "What's in your RAG?",
+      "url": "t3_1ulclpr",
+      "published_at": "2026-07-02T08:42:24Z",
+      "summary": "I want to up my game, with RAG. I tested it ages ago, but haven&#39;t found a usecase. I play with coding, projects, and light sysadmin work. # Thoughts RFC library - seems verbose unnecessary industry standards - typica",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-palantir-ceo-rages-against-closed-models",
+      "source": "localllama",
+      "title": "Palantir CEO rages against closed models",
+      "url": "t3_1ulb4nx",
+      "published_at": "2026-07-02T07:15:05Z",
+      "summary": "      For context, this week they struck a deal to buy Nvidia chips and run local models for their enterprise clients. So in this video he is railing against Anthropic and OpenAI saying they are ripping everyone off whil",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-a-cheap-trick-for-reliable-structured-output-feed-the-valida",
+      "source": "localllama",
+      "title": "A cheap trick for reliable structured output: feed the validation error back into the retry",
+      "url": "t3_1ulatl7",
+      "published_at": "2026-07-02T06:57:32Z",
+      "summary": "If you generate structured output from an LLM and validate against a schema, you know the failure mode: usually fine, occasionally a missing field or an unparseable response. The common fix is a retry, but a plain retry ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-qwen-36-35a3b-on-32gb-ram-8gb-vram",
+      "source": "localllama",
+      "title": "qwen 3.6 35a3b on 32gb ram + 8gb vram?",
+      "url": "t3_1ula7q6",
+      "published_at": "2026-07-02T06:22:03Z",
+      "summary": "is it possible to run a reasonable quant of qwen 3.6 (or I guess even ornith/3.5) 35B A3B on a laptop with 32gb of lpddr5 (7500 mt/s so technically faster/higher bandwith than standard ddr5) and an rtx 5060 laptop gpu (w",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-sensenova-u1-8b-mot-infographic-v2-released-yesterday---an-o",
+      "source": "localllama",
+      "title": "SenseNova-U1-8b-MoT-Infographic-V2 (released yesterday) - An open source SOTA beast for infographic design and image editing.",
+      "url": "t3_1ul7za1",
+      "published_at": "2026-07-02T04:22:38Z",
+      "summary": "      I’m pretty jaded like most of y’all. I don’t really get excited by new models much anymore. Last few weeks have been kinda meh to be honest. Monday, I stumbled upon SenseNova’s Mixture of Transformers models and th",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-benchmark-kimi-k27-code-q3-on-mac-studio-m3-ultra-rtx-pro-60",
+      "source": "localllama",
+      "title": "[Benchmark] Kimi K2.7 Code Q3 on Mac Studio M3 Ultra + RTX PRO 6000 over llama.cpp RPC: prefill improves, no changes in token generation/decode",
+      "url": "t3_1ul7qb6",
+      "published_at": "2026-07-02T04:09:57Z",
+      "summary": "I came across this interesting article https://blog.exolabs.net/nvidia-dgx-spark/ while I don&#39;t have the DGX spark but it made me curious will this kind of arch speed up my setup for LLMs?  Mac can host large models ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-they-fit-mostly-2x-3090-thermaltake-core-p3",
+      "source": "localllama",
+      "title": "They fit! Mostly.... 2x 3090, Thermaltake Core p3",
+      "url": "t3_1ul7ki2",
+      "published_at": "2026-07-02T04:02:01Z",
+      "summary": "      Got another 3090 had to print a bracket to angle the radiator and make room for the GPUs 💀 ended up liking the look more than I thought ..qwen 27b go brrrrr  &#32; submitted by &#32;  /u/anthonyg45157   [link] &#32",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-02-making-llms-better-at-creative-writing-using-entropy",
       "source": "localllama",
@@ -52,83 +129,6 @@
       "url": "t3_1ukz0t9",
       "published_at": "2026-07-01T21:41:51Z",
       "summary": " I can finetune any model on any dataset I want. I can use techniques like speculative decoding and other sota approaches to get the max tps The llm provides like anthropic and openai are not getting access to my data Th",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-end-of-an-agony-real-production-service-that-uses-llm-to-ear",
-      "source": "localllama",
-      "title": "End of an Agony. Real production service that uses LLM to earn money my team had made and now we are so happy that it will die. Here are some of my final \"experiences\".",
-      "url": "t3_1ukx9p1",
-      "published_at": "2026-07-01T20:35:22Z",
-      "summary": "Hello everyone. I had posted in this sub about making a production service about 8 months ago. Here the link of my previous post . The idea was the same. We wanted to make a real production service that we can provide to",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-zcode-new-agentic-code-editor-from-the-makers-of-glm",
-      "source": "localllama",
-      "title": "ZCode: New Agentic Code Editor from the Makers of GLM",
-      "url": "t3_1ukww17",
-      "published_at": "2026-07-01T20:21:18Z",
-      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-i-pulled-the-actual-search-numbers-for-ai-coding-tools",
-      "source": "localllama",
-      "title": "I pulled the actual search numbers for AI coding tools",
-      "url": "t3_1ukw2mk",
-      "published_at": "2026-07-01T19:51:09Z",
-      "summary": "      Was curious how the AI coding tools actually stack up on mindshare, so I pulled global monthly search volume. The spread surprised me: Claude Code: ~2.06M/mo GitHub Copilot: ~721K Cursor: ~584K OpenCode: ~298K Clau",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-anyone-using-tenstorrent-gpus-for-your-local-ai-whats-been-y",
-      "source": "localllama",
-      "title": "Anyone using TensTorrent gpus for your local ai? What's been your experience?",
-      "url": "t3_1ukvvvm",
-      "published_at": "2026-07-01T19:44:08Z",
-      "summary": "I&#39;m always keeping an eye on competitive hardware and was looking at tenstorrent cards, particularly the p150a which while its memory bandwidth is only 512GB/s, it does have 32 GB of GDDR6 and a high-speed Ethernet f",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-what-should-i-test-when-comparing-qwen36-27b-quants-for-real",
-      "source": "localllama",
-      "title": "What should I test when comparing Qwen3.6-27b quants for real world effects that humans could reason about?",
-      "url": "t3_1ukvbnc",
-      "published_at": "2026-07-01T19:23:17Z",
-      "summary": "I tried to find some good comparisons on how different quants of Qwen3.6-27b perform in different scenarios, but I failed to find good information on what kinds of real world effects there are to running different quants",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-open-benchmark-how-well-can-multimodal-llms-read-a-calendar",
-      "source": "localllama",
-      "title": "Open benchmark: how well can multimodal LLMs read a calendar week-view from a screenshot? Humans ~99%, Q4 local models.....",
-      "url": "t3_1ukuph9",
-      "published_at": "2026-07-01T19:01:20Z",
-      "summary": "Some backstory I&#39;ve been working on my local agent (openclaw), and I wanted to give it the skill to reconstruct calendar entries from a photo of the screen. I couldn&#39;t get at the calendar through an API (long sto",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-01-llama-b9856-win-cuda-124---windows-defender-claims-its-a-tro",
-      "source": "localllama",
-      "title": "Llama-b9856 Win Cuda 12.4 - Windows Defender claims it's a trojan",
-      "url": "t3_1ukt773",
-      "published_at": "2026-07-01T18:06:56Z",
-      "summary": "Hi, just downloaded this release earlier today. Attempted to run llama-server, and Windows Defender shut it down. It says it&#39;s Wacatac.H!ml. It removed the llama-server-impl.dll file from the folder. Older releases w",
       "tags": [
         "localllama"
       ]

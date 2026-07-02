@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-02T03:59:49Z",
+  "updated_at": "2026-07-02T09:20:58Z",
   "releases": [
+    {
+      "id": "hf-microsoft-HARC-Qwen2.5-7B-Instruct",
+      "project": "microsoft",
+      "version": "HARC-Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
+      "published_at": "2026-07-02T05:50:15Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-HARC-Llama-3.1-8B-Instruct",
+      "project": "microsoft",
+      "version": "HARC-Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/microsoft/HARC-Llama-3.1-8B-Instruct",
+      "published_at": "2026-07-02T05:50:14Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b9859",
       "project": "llama-cpp",
@@ -3537,6 +3555,15 @@
       "published_at": "2026-06-02T02:42:15Z",
       "body_excerpt": "opencl: fix compiler warnings for non-adreno path (#23922) opencl: fix compiler warnings for non-adreno path opencl: fix const cast warning macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-HARC",
+      "project": "microsoft",
+      "version": "HARC",
+      "url": "https://huggingface.co/microsoft/HARC",
+      "published_at": "2026-06-02T02:33:07Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "hf-google-gemma-4-E4B-it-qat-mobile-ct",
