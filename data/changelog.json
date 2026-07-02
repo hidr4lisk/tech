@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-02T14:12:06Z",
+  "updated_at": "2026-07-02T19:39:16Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9860",
+      "project": "llama-cpp",
+      "version": "b9860",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9860",
+      "published_at": "2026-07-02T16:23:41Z",
+      "body_excerpt": "llama : add llama_model_ftype_name() (#25134) llama : add llama_model_ftype_name() Expose the model file type (quantization) name, e.g. \"Q8_0\" or \"Q4_K - Medium\", through a new public C API. The returned pointer is valid for the lifetime of the model and nullptr when the model is invalid or the file type is unknown. Signed-off-by: Adrien Gallouët Export enum Signed-off-by: Adrien Gallouët s/llama_",
+      "type": "tool"
+    },
     {
       "id": "hf-microsoft-HARC-Qwen2.5-7B-Instruct",
       "project": "microsoft",
@@ -2727,6 +2736,24 @@
       "published_at": "2026-06-08T11:08:39Z",
       "body_excerpt": "metal : fix im2col 1D case (audio models) (#24220) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Win",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Privasis-Cleaner-0.6B",
+      "project": "nvidia",
+      "version": "Privasis-Cleaner-0.6B",
+      "url": "https://huggingface.co/nvidia/Privasis-Cleaner-0.6B",
+      "published_at": "2026-06-08T05:54:16Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Privasis-Cleaner-4B",
+      "project": "nvidia",
+      "version": "Privasis-Cleaner-4B",
+      "url": "https://huggingface.co/nvidia/Privasis-Cleaner-4B",
+      "published_at": "2026-06-08T05:53:52Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.30.7-rc1",
