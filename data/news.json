@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-07-03T03:43:55Z",
+  "updated_at": "2026-07-03T09:26:44Z",
   "items": [
+    {
+      "id": "localllama-2026-07-03-mapping-local-nodes---mildlyinteresting",
+      "source": "localllama",
+      "title": "Mapping Local Nodes - Mildlyinteresting",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1um8pl0/mapping_local_nodes_mildlyinteresting/",
+      "published_at": "2026-07-03T08:30:39Z",
+      "summary": "      I&#39;ve been working on mapping (with tags) and steering local models based on their activation path in specific context to questioning during a/b testing. There is no insight or &quot;how to&quot; here, no benchm",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-follow-up-deepseek-v4-flash-on-2x-rtx-pro-6000-finishes-real",
+      "source": "localllama",
+      "title": "Follow-up: DeepSeek V4 Flash on 2x RTX PRO 6000 finishes real coding tasks faster than Sonnet and Opus, at about Sonnet quality",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1um84bd/followup_deepseek_v4_flash_on_2x_rtx_pro_6000/",
+      "published_at": "2026-07-03T07:55:54Z",
+      "summary": "      This is a follow-up to post about which local models stay fast deep into long context and I learned a lot from people here. I kept measuring after that and it turned into a proper indie coding bench. With DeepSeek ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-claude-code-and-china-the-mechanism-is-activated-when-the-us",
+      "source": "localllama",
+      "title": "Claude Code and China: The mechanism is activated when the user sets the ANTHROPIC_BASE_URL environment variable (used for local models)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1um702y/claude_code_and_china_the_mechanism_is_activated/",
+      "published_at": "2026-07-03T06:50:32Z",
+      "summary": "      The list of suspicious hostnames is not stored in plaintext within the code; instead, it is Base64-encoded and then encrypted using a simple XOR operation with a key of 91. Once decoded, it reveals domains belongin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-follow-up-glm-52-nvfp4-on-four-dgx-sparks-the-mtp-mystery-is",
+      "source": "localllama",
+      "title": "Follow-up: GLM-5.2 NVFP4 on four DGX Sparks — the MTP mystery is solved, and it's now ~24 tok/s at 128K context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1um6pea/followup_glm52_nvfp4_on_four_dgx_sparks_the_mtp/",
+      "published_at": "2026-07-03T06:33:30Z",
+      "summary": "Follow-up: GLM-5.2 NVFP4 on four DGX Sparks — the MTP mystery is solved, and it&#39;s now ~24 tok/s at 128K context This is a follow-up to my earlier post about running GLM-5.2 NVFP4 on 4x DGX Spark at 128K context. Shor",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-pay-attention-a-few-chats-waiting-in-tray-reserve-1gb-vram-f",
+      "source": "localllama",
+      "title": "Pay attention: a few chats waiting in tray reserve 1GB VRAM for themselves.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1um5ik2/pay_attention_a_few_chats_waiting_in_tray_reserve/",
+      "published_at": "2026-07-03T05:28:58Z",
+      "summary": "If an application uses a Web-based interface and &quot;hardware acceleration&quot;, it constructs its frame in VRAM and sometimes keeps it reserved even if the app is minimised. On my Linux machine, Discord is the worst ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-toolport-use-as-many-mcp-servers-as-you-want-without-the-tok",
+      "source": "localllama",
+      "title": "Toolport: Use as many MCP servers as you want without the token tax",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1um4pig/toolport_use_as_many_mcp_servers_as_you_want/",
+      "published_at": "2026-07-03T04:47:28Z",
+      "summary": "      Disclaimer, this is a self promotion post but I truly believe it belongs here and is quite useful and relevant to this crowd specifically. I built Toolport after getting tired of reconfiguring MCP servers in every ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-03-can-we-use-slms-to-compress-data",
       "source": "localllama",
@@ -63,72 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulwo4a/made_a_new_350m_model_to_compete_with_lfm25_but/",
       "published_at": "2026-07-02T22:28:05Z",
       "summary": "      I liked the idea of a nano llm, but decided to actually challenge myself with developing one. Keep in mind I developed this model, do your own research and your own benchmarks. It has been a while since I posted on",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-toward-better-hip-kernel-generation-for-amd-gpus-synthetic-d",
-      "source": "localllama",
-      "title": "Toward Better HIP Kernel Generation for AMD GPUs: Synthetic Data, Multi-Agent Search, and Reinforcement Learning",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulw7uq/toward_better_hip_kernel_generation_for_amd_gpus/",
-      "published_at": "2026-07-02T22:10:05Z",
-      "summary": "      Credit to /u/Superb-Translator236 for original posting on another sub - this sub doesn’t allow cross-posting.  &#32; submitted by &#32;  /u/Thrumpwart   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-researchers-build-self-replicating-ai-worm-that-operates-ent",
-      "source": "localllama",
-      "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulw1wp/researchers_build_selfreplicating_ai_worm_that/",
-      "published_at": "2026-07-02T22:03:34Z",
-      "summary": "      Arxiv paper: https://arxiv.org/abs/2606.03811  &#32; submitted by &#32;  /u/Thrumpwart   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-toward-better-hip-kernel-generation-for-amd-gpus",
-      "source": "localllama",
-      "title": "Toward Better HIP Kernel Generation for AMD GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulvzer/toward_better_hip_kernel_generation_for_amd_gpus/",
-      "published_at": "2026-07-02T22:00:58Z",
-      "summary": "https://scalingintelligence.stanford.edu/blogs/hipkernels/  &#32; submitted by &#32;  /u/Superb-Translator236   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-tip-use-this-llamacpp-pr-to-improve-pp-on-intel-arc",
-      "source": "localllama",
-      "title": "Tip: use this llama.cpp PR to improve PP on Intel ARC",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulv6g5/tip_use_this_llamacpp_pr_to_improve_pp_on_intel/",
-      "published_at": "2026-07-02T21:29:36Z",
-      "summary": "https://github.com/ggml-org/llama.cpp/pull/25222 Another win for Intel ARC users (all 4 of us). The community keeps improving llama.cpp for Intel ARC. This time, the hero from that Pull Request (with the help of Claude) ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-local-benchmarks-with-a-rtx-3090---qwen36-27b-vs-ornith",
-      "source": "localllama",
-      "title": "Local benchmarks with a RTX 3090 - Qwen3.6 27b vs Ornith",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulthkp/local_benchmarks_with_a_rtx_3090_qwen36_27b_vs/",
-      "published_at": "2026-07-02T20:24:29Z",
-      "summary": "Hey folks. I&#39;ve been frustrated by how difficult it is to get an idea of how good each new model (or fine-tune) is, and I&#39;ve not been satisfied with the one-off &quot;draw a pelican riding a bike&quot; style test",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-its-officially-over-one-of-the-fathers-of-ai-at-nvidia-doesn",
-      "source": "localllama",
-      "title": "It's officially over. One of the fathers of AI at Nvidia doesn't believe in AGI and compares OpenAI and Anthropic's closed models to AOL and Prodigy's closed internets. Says the future is every business having a customized open source model.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ult0f4/its_officially_over_one_of_the_fathers_of_ai_at/",
-      "published_at": "2026-07-02T20:06:22Z",
-      "summary": "      &#32; submitted by &#32;  /u/9gxa05s8fa8sh   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]

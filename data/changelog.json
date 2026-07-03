@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-03T03:43:59Z",
+  "updated_at": "2026-07-03T09:26:49Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9861",
+      "project": "llama-cpp",
+      "version": "b9861",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9861",
+      "published_at": "2026-07-03T09:05:43Z",
+      "body_excerpt": "vendor : update cpp-httplib to 0.49.0 (#25218) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9860",
       "project": "llama-cpp",
@@ -6245,15 +6254,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.1.1",
       "published_at": "2026-04-05T00:06:56Z",
       "body_excerpt": "This is a patch release to address few regressions from the last release and the upcoming Gemma4, most importantly: Fixes Gemma 4 tokenization with llama.cpp Show login in api key only mode Small fixes to improve Anthropic API compatibility What's Changed Other Changes docs: Update Home Assistant integrations list by @loryanstrant in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot i",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.20.2",
-      "project": "ollama",
-      "version": "v0.20.2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.2",
-      "published_at": "2026-04-04T06:22:05Z",
-      "body_excerpt": "What's Changed app: default app home view to new chat instead of launch by @jmorganca in Full Changelog:",
       "type": "tool"
     }
   ]
