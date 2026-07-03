@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-03T14:19:53Z",
+  "updated_at": "2026-07-03T19:36:29Z",
   "releases": [
+    {
+      "id": "transformers-v5.13.0",
+      "project": "transformers",
+      "version": "v5.13.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.13.0",
+      "published_at": "2026-07-03T16:06:27Z",
+      "body_excerpt": "Release v5.13.0 New Model additions KimiK 2.5, 2.6, and 2.7 This release includes the architecture for Kimi 2.5 which is used by 2.5-2.7: Kimi K2.5 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration. The model was proposed in Kimi K2.5: Visual Agenti",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9867",
+      "project": "llama-cpp",
+      "version": "b9867",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9867",
+      "published_at": "2026-07-03T14:56:03Z",
+      "body_excerpt": "spec: support spec-draft-p-min in DFlash (#25246) spec: support spec-draft-p-min in DFlash dflash: add n_min guard dflash: guard both n_min and n_max macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9866",
+      "project": "llama-cpp",
+      "version": "b9866",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9866",
+      "published_at": "2026-07-03T14:20:50Z",
+      "body_excerpt": "cuda: enable topk-moe fusion for 288 experts (#25267) cuda: enable topk-moe fusion for 288 experts The topk-moe fusion only accepted power-of-2 expert counts (or the special-cased 576), so models with 288 experts (e.g. Step-3.7-Flash) fell back to the unfused per-layer routing chain: softmax/sigmoid, argsort, get_rows, sum_rows, div, clamp, scale. At batch size 1 that is ~330 extra tiny graph node",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9864",
       "project": "llama-cpp",
