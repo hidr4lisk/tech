@@ -1,37 +1,147 @@
 {
-  "updated_at": "2026-07-02T19:39:08Z",
+  "updated_at": "2026-07-03T03:43:55Z",
   "items": [
     {
-      "id": "localllama-2026-07-02-6x-p40-running-minimax-m27-q3-xl",
+      "id": "localllama-2026-07-03-can-we-use-slms-to-compress-data",
       "source": "localllama",
-      "title": "6x P40 running Minimax M2.7_Q3_XL",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqyxj/6x_p40_running_minimax_m27_q3_xl/",
-      "published_at": "2026-07-02T18:49:50Z",
-      "summary": "      I&#39;ve been a lurker for a while and have been building my own home lab with P40&#39;s and MI50&#39;s. I&#39;ve learned so much from the community and I just felt like it&#39;s time to give back. Even though I&#3",
+      "title": "Can we use SLMs to compress data?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1um39ca/can_we_use_slms_to_compress_data/",
+      "published_at": "2026-07-03T03:34:35Z",
+      "summary": "Forgetting the villainization of overfitting, what happens when you just take a massive amount of training data and overfit the model on that. Is it possible to achieve meaningful compression with &quot;perfect&quot; acc",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-02-fine-tuned-gemma-4-31b-specifically-for-copywriting-creative",
+      "id": "localllama-2026-07-03-audiocpp-the-sound-of-ggml-cggml-native-ace-step-stable-audi",
       "source": "localllama",
-      "title": "Fine-tuned Gemma-4-31B specifically for Copywriting & Creative Writing Tasks (Scored +290 Elo over base using EqBench3)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqg4i/finetuned_gemma431b_specifically_for_copywriting/",
-      "published_at": "2026-07-02T18:30:54Z",
-      "summary": "Hey r/LocalLLaMA, Wanted to share a narrow fine-tune I&#39;ve been working on and get some technical feedback from people who&#39;ve done similar domain-specific work if possible. The problem: general chat models can wri",
+      "title": "[audio.cpp] The Sound of GGML — C++/GGML native ACE-Step, Stable Audio, HeartMuLa, RoFormer, HTDemucs released. 10-Minute Music in 60 Seconds!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1um2tbf/audiocpp_the_sound_of_ggml_cggml_native_acestep/",
+      "published_at": "2026-07-03T03:12:14Z",
+      "summary": "I just released a big music/audio expansion in audio.cpp. This batch adds music generation, SFX generation, and source separation to the released framework surface: Newly released: - ACE-Step 1.5 Turbo / Base - HeartMuLa",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-02-localaimaxxing---i-analyzed-23k-local-ai-apps-to-find-the-be",
+      "id": "localllama-2026-07-03-i-benchmarked-rag-techniques-on-a-synthetic-healthcare-datab",
       "source": "localllama",
-      "title": "LocalAIMaxxing - I analyzed 2.3k local AI Apps to find the best in each category",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqdvo/localaimaxxing_i_analyzed_23k_local_ai_apps_to/",
-      "published_at": "2026-07-02T18:28:42Z",
-      "summary": "      Local AI for Mac Directory (https://bunnysoft.app/local-ai-mac-apps) Hello friends! As a local LLM enthusiast, I&#39;ve been very open to ways to increase my local AI usage. Previously, I&#39;ve tried running local",
+      "title": "I benchmarked RAG techniques on a synthetic healthcare database. The biggest gains came from document shape, not model tweaks.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1um1wvh/i_benchmarked_rag_techniques_on_a_synthetic/",
+      "published_at": "2026-07-03T02:28:27Z",
+      "summary": "      I built a small RAG benchmark over a synthetic clinic database because I wanted to test the usual advice instead of just repeating it. Benchmark The database has fake patients, doctors, departments, appointments, m",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-looks-like-step-37-flashs-long-reasoning-might-get-fixed-lla",
+      "source": "localllama",
+      "title": "Looks like Step 3.7 Flash's long reasoning might get fixed ( llama.cpp )",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulzo41/looks_like_step_37_flashs_long_reasoning_might/",
+      "published_at": "2026-07-03T00:41:43Z",
+      "summary": "https://github.com/ggml-org/llama.cpp/pull/25238 Turns out that trimming the input was the wrong thing to do.  Fingers crossed that this model can become useable soon. I&#39;m still using Step 3.5 Flash because of how sl",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-llamacpp-patch---deepseek-v4-flash-running-with-full-1m-toke",
+      "source": "localllama",
+      "title": "llamacpp patch - DeepSeek V4 Flash running with full 1M token context locally on RTX 5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulymml/llamacpp_patch_deepseek_v4_flash_running_with/",
+      "published_at": "2026-07-02T23:54:02Z",
+      "summary": "Wanted to try running DeepSeek V4 Flash locally but found it asking for absurd amounts of VRAM at higher context lengths (~256GB at 1M). Turned out the DSA lightning indexer lacks proper llamacpp support. Did a bit of di",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-made-a-new-350m-model-to-compete-with-lfm25-but-with-an-open",
+      "source": "localllama",
+      "title": "Made a new 350M model to compete with lfm2.5 but with an open license",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulwo4a/made_a_new_350m_model_to_compete_with_lfm25_but/",
+      "published_at": "2026-07-02T22:28:05Z",
+      "summary": "      I liked the idea of a nano llm, but decided to actually challenge myself with developing one. Keep in mind I developed this model, do your own research and your own benchmarks. It has been a while since I posted on",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-toward-better-hip-kernel-generation-for-amd-gpus-synthetic-d",
+      "source": "localllama",
+      "title": "Toward Better HIP Kernel Generation for AMD GPUs: Synthetic Data, Multi-Agent Search, and Reinforcement Learning",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulw7uq/toward_better_hip_kernel_generation_for_amd_gpus/",
+      "published_at": "2026-07-02T22:10:05Z",
+      "summary": "      Credit to /u/Superb-Translator236 for original posting on another sub - this sub doesn’t allow cross-posting.  &#32; submitted by &#32;  /u/Thrumpwart   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-researchers-build-self-replicating-ai-worm-that-operates-ent",
+      "source": "localllama",
+      "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulw1wp/researchers_build_selfreplicating_ai_worm_that/",
+      "published_at": "2026-07-02T22:03:34Z",
+      "summary": "      Arxiv paper: https://arxiv.org/abs/2606.03811  &#32; submitted by &#32;  /u/Thrumpwart   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-toward-better-hip-kernel-generation-for-amd-gpus",
+      "source": "localllama",
+      "title": "Toward Better HIP Kernel Generation for AMD GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulvzer/toward_better_hip_kernel_generation_for_amd_gpus/",
+      "published_at": "2026-07-02T22:00:58Z",
+      "summary": "https://scalingintelligence.stanford.edu/blogs/hipkernels/  &#32; submitted by &#32;  /u/Superb-Translator236   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-tip-use-this-llamacpp-pr-to-improve-pp-on-intel-arc",
+      "source": "localllama",
+      "title": "Tip: use this llama.cpp PR to improve PP on Intel ARC",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulv6g5/tip_use_this_llamacpp_pr_to_improve_pp_on_intel/",
+      "published_at": "2026-07-02T21:29:36Z",
+      "summary": "https://github.com/ggml-org/llama.cpp/pull/25222 Another win for Intel ARC users (all 4 of us). The community keeps improving llama.cpp for Intel ARC. This time, the hero from that Pull Request (with the help of Claude) ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-local-benchmarks-with-a-rtx-3090---qwen36-27b-vs-ornith",
+      "source": "localllama",
+      "title": "Local benchmarks with a RTX 3090 - Qwen3.6 27b vs Ornith",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulthkp/local_benchmarks_with_a_rtx_3090_qwen36_27b_vs/",
+      "published_at": "2026-07-02T20:24:29Z",
+      "summary": "Hey folks. I&#39;ve been frustrated by how difficult it is to get an idea of how good each new model (or fine-tune) is, and I&#39;ve not been satisfied with the one-off &quot;draw a pelican riding a bike&quot; style test",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-02-its-officially-over-one-of-the-fathers-of-ai-at-nvidia-doesn",
+      "source": "localllama",
+      "title": "It's officially over. One of the fathers of AI at Nvidia doesn't believe in AGI and compares OpenAI and Anthropic's closed models to AOL and Prodigy's closed internets. Says the future is every business having a customized open source model.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ult0f4/its_officially_over_one_of_the_fathers_of_ai_at/",
+      "published_at": "2026-07-02T20:06:22Z",
+      "summary": "      &#32; submitted by &#32;  /u/9gxa05s8fa8sh   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-02-llm-coding-agent-01a0",
+      "source": "simonw",
+      "title": "llm-coding-agent 0.1a0",
+      "url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+      "published_at": "2026-07-02T19:33:12Z",
+      "summary": "Release: llm-coding-agent 0.1a0\n        Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it.\nI started a",
+      "tags": [
+        "simonw"
       ]
     },
     {
@@ -46,39 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-02-gemma-4-webgpu-kernels-255-toks-by-xxenovacom",
-      "source": "localllama",
-      "title": "Gemma 4 WebGPU Kernels 255 tok/s by x/@xenovacom",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulpq3o/gemma_4_webgpu_kernels_255_toks_by_xxenovacom/",
-      "published_at": "2026-07-02T18:04:57Z",
-      "summary": "      We need more of this, 100+ T/s on dense models is the difference between defaulting to Claude/Codex for everything vs having a local private model doing most of the heavy lifting and only reaching for frontier for ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-dual-r9700-best-formula-for-qwen36-27b",
-      "source": "localllama",
-      "title": "Dual R9700: Best formula for Qwen3.6 27B?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulpp2n/dual_r9700_best_formula_for_qwen36_27b/",
-      "published_at": "2026-07-02T18:03:56Z",
-      "summary": "I&#39;m struggling to find the right setup with llama.cpp. Ubuntu 26.04, AMD 5900X, 128GB DDR4-3600, R9700s are running PCIe x8/Gen4 Model config: [Qwen3.6-27B] mmproj = /models/Qwen3.6-27B-mmproj-BF16.gguf model = /mode",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-openlumara-my-manually-coded-super-token-efficient-harness-n",
-      "source": "localllama",
-      "title": "openlumara, my manually coded super-token-efficient harness, now works across any UI that can connect to an openAI endpoint! koboldlite, openwebui, you name it. basically, openAI bridge. yay!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulol44/openlumara_my_manually_coded_supertokenefficient/",
-      "published_at": "2026-07-02T17:23:58Z",
-      "summary": "      this was a long time coming, but it&#39;s finally here! you can now basically supercharge whichever UI you&#39;re already using with the power of openlumara. click that link for more information about openlumara it",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-02-understand-to-participate",
       "source": "simonw",
       "title": "Understand to participate",
@@ -87,72 +164,6 @@
       "summary": "I saw Geoffrey Litt speak at AIE yesterday, and one framing he used particularly resonated with me:\nUnderstand to participate\nGeoffrey was talking about the challenge of collaborating with coding agents as they construct",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-agents-are-collaboratively-writing-a-massive-wiki-on-rl-for",
-      "source": "localllama",
-      "title": "Agents are collaboratively writing a massive wiki on RL for LLMs (200+ papers so far) and anyone can join",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulnwop/agents_are_collaboratively_writing_a_massive_wiki/",
-      "published_at": "2026-07-02T16:59:52Z",
-      "summary": "      &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-software-developers-appreciation-post",
-      "source": "localllama",
-      "title": "Software developers appreciation post",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uln2ol/software_developers_appreciation_post/",
-      "published_at": "2026-07-02T16:28:58Z",
-      "summary": "Im on the bus to work and just felt like i dont see enough grattitude for the men, women, children, and people who contribute thier time and effort on open projects. Just last night i saw ive been sleeping while vllm dev",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-rebuilding-gemma-4-31b-better-as-26b",
-      "source": "localllama",
-      "title": "Rebuilding Gemma 4 31b... better... As 26b...",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulmez2/rebuilding_gemma_4_31b_better_as_26b/",
-      "published_at": "2026-07-02T16:05:09Z",
-      "summary": "Sooo... I decided screw it. I&#39;m going to rebuild Gemma 4 31b.  I really like the model. So the current plan is to rebuild the SWA layers.  Currently running all the proper ablation tests to figure out what SWA layer ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-kimi-k27-code-is-generally-available-in-github-copilot",
-      "source": "localllama",
-      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulm1gt/kimi_k27_code_is_generally_available_in_github/",
-      "published_at": "2026-07-02T15:51:29Z",
-      "summary": "      &#32; submitted by &#32;  /u/zxyzyxz   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-poolsidelaguna-xs-21",
-      "source": "localllama",
-      "title": "poolside/Laguna-XS-2.1",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ullxg7/poolsidelagunaxs21/",
-      "published_at": "2026-07-02T15:47:10Z",
-      "summary": "      &#32; submitted by &#32;  /u/a_slay_nub   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-02-im-switching-to-linux-is-ubuntu-the-most-compatible-with-loc",
-      "source": "localllama",
-      "title": "I’m switching to Linux, is Ubuntu the most compatible with local AI?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ull771/im_switching_to_linux_is_ubuntu_the_most/",
-      "published_at": "2026-07-02T15:20:16Z",
-      "summary": "I will definitely use vLLM now (unless there is something faster now) but i want to make sure ggufs + llamacpp works along with comfyui and things of that nature too.   &#32; submitted by &#32;  /u/XiRw   [link] &#32; [c",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -338,17 +349,6 @@
       "url": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
       "published_at": "2026-06-26T21:15:09Z",
       "summary": "This is like saying there's no learning curve to being a manager because your employees will just do whatever you tell them to do.\n&mdash; Timothy B. Lee, on the idea that LLMs take no skill and have no learning curve\n\n ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-26-what-happened-after-2000-people-tried-to-hack-my-ai-assistan",
-      "source": "simonw",
-      "title": "What happened after 2,000 people tried to hack my AI assistant",
-      "url": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
-      "published_at": "2026-06-26T18:33:14Z",
-      "summary": "What happened after 2,000 people tried to hack my AI assistant\nFernando Irarrázaval ran a challenge on hackmyclaw.com to see if anyone could leak secrets held by his OpenClaw test instance by sending it email.\nSurprising",
       "tags": [
         "simonw"
       ]

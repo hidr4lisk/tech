@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T19:39:16Z",
+  "updated_at": "2026-07-03T03:43:59Z",
   "releases": [
     {
       "id": "llama-cpp-b9860",
@@ -1899,6 +1899,15 @@
       "published_at": "2026-06-16T05:07:14Z",
       "body_excerpt": "vulkan: add col2im_1d op (#24425) vulkan: add GGML_OP_COL2IM_1D, follow-up to the CPU op vulkan: col2im_1d bounded gather loop instead of full-K scan with modulo vulkan: col2im_1d address review from @jeffbolznv vulkan: col2im_1d return nullptr for unsupported types, address review from @0cc4m macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-MiniMax-M2.7-DFlash",
+      "project": "nvidia",
+      "version": "MiniMax-M2.7-DFlash",
+      "url": "https://huggingface.co/nvidia/MiniMax-M2.7-DFlash",
+      "published_at": "2026-06-16T00:08:33Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9660",
@@ -6246,69 +6255,6 @@
       "published_at": "2026-04-04T06:22:05Z",
       "body_excerpt": "What's Changed app: default app home view to new chat instead of launch by @jmorganca in Full Changelog:",
       "type": "tool"
-    },
-    {
-      "id": "ollama-v0.20.1",
-      "project": "ollama",
-      "version": "v0.20.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.1",
-      "published_at": "2026-04-03T22:37:43Z",
-      "body_excerpt": "What's Changed bench: add prompt calibration, context size flag, and NumCtx reporting by @dhiltgen in model/parsers: fix gemma4 arg parsing when quoted strings contain \" by @drifkin in ggml: skip cublasGemmBatchedEx during graph reservation by @jessegross in gemma4: enable flash attention by @dhiltgen in ggml: fix ROCm build for cublasGemmBatchedEx reserve wrapper by @jessegross in model/parsers: ",
-      "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-Dayhoff-170M-GRS-SS-134000",
-      "project": "microsoft",
-      "version": "Dayhoff-170M-GRS-SS-134000",
-      "url": "https://huggingface.co/microsoft/Dayhoff-170M-GRS-SS-134000",
-      "published_at": "2026-04-03T22:16:56Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Dayhoff-170M-GRS-SS-122000",
-      "project": "microsoft",
-      "version": "Dayhoff-170M-GRS-SS-122000",
-      "url": "https://huggingface.co/microsoft/Dayhoff-170M-GRS-SS-122000",
-      "published_at": "2026-04-03T22:16:27Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Dayhoff-170M-GRS-SS-110000",
-      "project": "microsoft",
-      "version": "Dayhoff-170M-GRS-SS-110000",
-      "url": "https://huggingface.co/microsoft/Dayhoff-170M-GRS-SS-110000",
-      "published_at": "2026-04-03T22:15:59Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Dayhoff-170M-GRS-SS-98000",
-      "project": "microsoft",
-      "version": "Dayhoff-170M-GRS-SS-98000",
-      "url": "https://huggingface.co/microsoft/Dayhoff-170M-GRS-SS-98000",
-      "published_at": "2026-04-03T22:15:31Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Dayhoff-170M-GRS-SS-86000",
-      "project": "microsoft",
-      "version": "Dayhoff-170M-GRS-SS-86000",
-      "url": "https://huggingface.co/microsoft/Dayhoff-170M-GRS-SS-86000",
-      "published_at": "2026-04-03T22:15:01Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Dayhoff-170M-GRS-SS-74000",
-      "project": "microsoft",
-      "version": "Dayhoff-170M-GRS-SS-74000",
-      "url": "https://huggingface.co/microsoft/Dayhoff-170M-GRS-SS-74000",
-      "published_at": "2026-04-03T22:14:33Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
