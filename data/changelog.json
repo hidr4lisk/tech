@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-04T03:36:42Z",
+  "updated_at": "2026-07-04T08:44:11Z",
   "releases": [
+    {
+      "id": "localai-v4.6.0",
+      "project": "localai",
+      "version": "v4.6.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.6.0",
+      "published_at": "2026-07-04T07:20:05Z",
+      "body_excerpt": "🎉 LocalAI 4.6.0 Release! 🚀 LocalAI 4.6.0 is out! This is a reliability-focused release: AMD ROCm backends now run on-GPU at full speed, distributed model loads no longer wedge when a worker dies, and realtime sessions warm up predictably. It also brings conversation forking to the built-in chat UI, a Prometheus counter for PII/audit events, and an SSRF fix for the model gallery. Highlights: 🔴 AMD ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9870",
       "project": "llama-cpp",
