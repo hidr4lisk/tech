@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-04T08:44:11Z",
+  "updated_at": "2026-07-04T13:44:19Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9871",
+      "project": "llama-cpp",
+      "version": "b9871",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9871",
+      "published_at": "2026-07-04T12:17:22Z",
+      "body_excerpt": "ggml : fix broken CPU concat implementation for quantized types (#25247) ggml : fix broken CPU concat implementation for quantized types tests : concat tests for quantized types --------- Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu",
+      "type": "tool"
+    },
     {
       "id": "localai-v4.6.0",
       "project": "localai",
