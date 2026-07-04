@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-07-04T13:44:12Z",
+  "updated_at": "2026-07-04T19:21:23Z",
   "items": [
+    {
+      "id": "localllama-2026-07-04-is-there-some-kdl-chart-for-mimo-v25-or-something-regarding",
+      "source": "localllama",
+      "title": "Is there some KDL chart for MiMo-V2.5 or something regarding the quants quality?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unfyfo/is_there_some_kdl_chart_for_mimov25_or_something/",
+      "published_at": "2026-07-04T18:12:47Z",
+      "summary": "I&#39;m using the model with opencode and the issue is it&#39;s looping hard when reasoning. It&#39;s not a deranged babbling though, the reasoning is legit large spans of text, it just can&#39;t get outside of the loop ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-gemma-4-12b---mlx-kernel",
+      "source": "localllama",
+      "title": "Gemma 4 12B - MLX Kernel",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uneztp/gemma_4_12b_mlx_kernel/",
+      "published_at": "2026-07-04T17:34:00Z",
+      "summary": "I&#39;ve mentioned this kernel project I was working on in a few posts and figured I would just open the project code for anyone curious: MLX Gemma 12B The main constraints for this on my end is an M5 16GB Macbook Pro. I",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-i-merged-fixes-for-quantized-kv-cache-into-my-deepseek-v4-br",
+      "source": "localllama",
+      "title": "I merged fixes for quantized KV cache into my DeepSeek V4 branch",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1une2il/i_merged_fixes_for_quantized_kv_cache_into_my/",
+      "published_at": "2026-07-04T16:57:06Z",
+      "summary": "Check it out: https://github.com/fairydreaming/llama.cpp/tree/dsv4 They are PRs #25247, #25303 (mine) and #25202 (from am17an) but I omitted some padding changes from the last one that I think are not necessary. So if it",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-ran-a-classicmedival-europe-fantasy-rpagentic-benchmark-acro",
+      "source": "localllama",
+      "title": "Ran a classic(medival europe) fantasy RP/agentic benchmark across 8 local models Qwen3.6-27B held up better than its size suggests",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unbm45/ran_a_classicmedival_europe_fantasy_rpagentic/",
+      "published_at": "2026-07-04T15:15:49Z",
+      "summary": "      Threw together a benchmark suite (quest completion, scene endings, item/time tracking, character detection, storytelling, drafting) and ran it across 8 models people talk about a lot on here. Judged with an externa",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-using-local-models-with-hermes-vs-claude-code",
+      "source": "localllama",
+      "title": "Using local models with Hermes vs Claude code",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unbjr2/using_local_models_with_hermes_vs_claude_code/",
+      "published_at": "2026-07-04T15:13:11Z",
+      "summary": "      Today I saw this in StepFun’s blog for their Step 3.7 Flash model. Running the model with CC performed better results vs Hermes. Curious why?  &#32; submitted by &#32;  /u/GreatMammad   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-qwen36-27b-on-a-5090-64k-sample-toks-distribution-after-tuni",
+      "source": "localllama",
+      "title": "Qwen3.6 27B on a 5090, 6.4k sample tok/s distribution after tuning MTP/cache settings",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unbi4a/qwen36_27b_on_a_5090_64k_sample_toks_distribution/",
+      "published_at": "2026-07-04T15:11:17Z",
+      "summary": "      Spent a while tuning llama.cpp for Qwen3.6 27B on a 9800X3D / 64GB / 5090 box and wanted to share the real distribution instead of just a headline number, since averages hide a lot. Ran with q8 KV cache, 192k conte",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-dgx-spark-and-overtemps",
+      "source": "localllama",
+      "title": "DGX Spark and Overtemps",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unavzr/dgx_spark_and_overtemps/",
+      "published_at": "2026-07-04T14:45:45Z",
+      "summary": "For anyone who has a DGX-Spark and is having problems during these very hot summer months, you can underclock with: sudo nvidia-smi -lgc 0,900 My temps dropped from 85C to 60C and this fixed my problem of overtemp lockup",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-04-gemma4-with-audio-input-168-toks-on-macbook-m2-max-64gb",
       "source": "localllama",
@@ -52,83 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un6njn/doing_the_actual_math_on_a_20k_local_ai_rig/",
       "published_at": "2026-07-04T11:27:31Z",
       "summary": "      Everyone under the sun says &quot;it&#39;s free after you buy the hardware&quot; and skips the electricity bill. Ran the numbers against a mid tier subscription to see where the crossover actually sits. Every threa",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-is-dspark-dflash-mtp-qat-and-similar-tech-going-to-increase",
-      "source": "localllama",
-      "title": "Is dSpark, dflash, MTP, QAT, and similar tech going to increase inference speed enough to where model spillover to disk will be more tolerable?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un6f8u/is_dspark_dflash_mtp_qat_and_similar_tech_going/",
-      "published_at": "2026-07-04T11:14:47Z",
-      "summary": "We’re seeing all these performance boosts coming to inference lately with things like dSpark, dllash, MTP, etc. and I know the whole model spillover-to-disk has always been the inflection point where a model would go fro",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-rtx5090-gemma-4-31b-it-q6-kgguf-context-before---35k-after",
-      "source": "localllama",
-      "title": "RTX5090, gemma-4-31B-it-Q6_K.gguf. Context: before - 35k, after - 80k!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un6c4s/rtx5090_gemma431bitq6_kgguf_context_before_35k/",
-      "published_at": "2026-07-04T11:09:59Z",
-      "summary": "      Yesterday there was a message that you can increase the context for Deepseek Flash. But it turned out that everything works for Gemma4 too! function dockergemma () { docker run \\ -e GGML_CUDA_NO_PINNED=1 \\ -p &quot",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-googletabfm-100",
-      "source": "localllama",
-      "title": "google/tabfm-1.0.0",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un5hyi/googletabfm100/",
-      "published_at": "2026-07-04T10:20:58Z",
-      "summary": "      TabFM is a zero-shot tabular foundation model from Google Research. It supports classification and regression on structured/tabular data with mixed numerical and categorical columns, requiring no fine-tuning or hyp",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-a-fully-local-self-hosted-repo-index-for-coding-agents-rust",
-      "source": "localllama",
-      "title": "A fully local, self-hosted repo index for coding agents (Rust, MIT, runs offline)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un430x/a_fully_local_selfhosted_repo_index_for_coding/",
-      "published_at": "2026-07-04T08:54:19Z",
-      "summary": "If you run local models for coding, feeding them repo context without blowing the context window is half the battle. I built basemind to index a repo locally and serve it over MCP: a code map across 300+ languages, git h",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-looking-for-thoughts-on-card-purchase-v620-mi50-v100",
-      "source": "localllama",
-      "title": "Looking for thoughts on card purchase: V620, MI50, V100",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un28zb/looking_for_thoughts_on_card_purchase_v620_mi50/",
-      "published_at": "2026-07-04T07:04:13Z",
-      "summary": "Hey guys/gals, I currently have a 9070 XT and use that for comfyui &amp; llama.cpp currently running Gemma 4 26B A4B Q5, at this time I want to add a secondary card to my computer. I would like to not have to use the 907",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-qwen36-27b-mtp-q8-successfully-created-an-a-pathfinding-impl",
-      "source": "localllama",
-      "title": "Qwen3.6-27b-mtp-q8 successfully created an A* pathfinding implementation on a test game built in Java from scratch.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umvwb9/qwen3627bmtpq8_successfully_created_an_a/",
-      "published_at": "2026-07-04T01:28:47Z",
-      "summary": "      I used Claude Code locally running this model. Took a surprisingly long amount of time to pull off.  This game is just a test game my friend is making and we&#39;re both vibecoding. He uses Codex due to lack of har",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-glm52-performance",
-      "source": "localllama",
-      "title": "GLM5.2 performance.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umtiw4/glm52_performance/",
-      "published_at": "2026-07-03T23:33:50Z",
-      "summary": "I was wondering how fast GLM5.2 (Nvidia’s 460GB nvfp4 checkpoint) is running on your rigs. I have it running at ~1tok/s in the simulation harness. The data extrapolates to 75tok/s on the real Cuda MGPU machine. So I woul",
       "tags": [
         "localllama"
       ]
