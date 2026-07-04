@@ -1,6 +1,138 @@
 {
-  "updated_at": "2026-07-03T19:36:25Z",
+  "updated_at": "2026-07-04T03:36:34Z",
   "items": [
+    {
+      "id": "localllama-2026-07-04-qwen36-27b-mtp-q8-successfully-created-an-a-pathfinding-impl",
+      "source": "localllama",
+      "title": "Qwen3.6-27b-mtp-q8 successfully created an A* pathfinding implementation on a test game built in Java from scratch.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umvwb9/qwen3627bmtpq8_successfully_created_an_a/",
+      "published_at": "2026-07-04T01:28:47Z",
+      "summary": "      I used Claude Code locally running this model. Took a surprisingly long amount of time to pull off.  This game is just a test game my friend is making and we&#39;re both vibecoding. He uses Codex due to lack of har",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-glm52-performance",
+      "source": "localllama",
+      "title": "GLM5.2 performance.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umtiw4/glm52_performance/",
+      "published_at": "2026-07-03T23:33:50Z",
+      "summary": "I was wondering how fast GLM5.2 (Nvidia’s 460GB nvfp4 checkpoint) is running on your rigs. I have it running at ~1tok/s in the simulation harness. The data extrapolates to 75tok/s on the real Cuda MGPU machine. So I woul",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-deepseek-v4-flash-running-on-rtx-5090-moe",
+      "source": "localllama",
+      "title": "Deepseek V4 Flash running on RTX 5090 MoE",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umsik8/deepseek_v4_flash_running_on_rtx_5090_moe/",
+      "published_at": "2026-07-03T22:48:11Z",
+      "summary": "      Here is the results of optimizing it for my setup: Benchmark results of the optimisation showing TG T/S from 22.7 to 21.3, and PP T/S from 1105 to 927, test ranges Prompt Processing from 8192 tokens to 65536 tokens",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-claude-desktop-code-but-use-local-api",
+      "source": "localllama",
+      "title": "Claude Desktop (code) but use local API?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ums14f/claude_desktop_code_but_use_local_api/",
+      "published_at": "2026-07-03T22:26:22Z",
+      "summary": "Hey all, So I tend to favor the Claude Desktop app in Code mode as the GUI does a great job of previewing code, MCP browser interactions/screenshot evals/etc. But I recall people saying they could get Claude Desktop to u",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-03-open-source-ai-gap-map",
+      "source": "simonw",
+      "title": "Open Source AI Gap Map",
+      "url": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
+      "published_at": "2026-07-03T22:04:31Z",
+      "summary": "Open Source AI Gap Map\nCurrent AI is \"a global partnership building a public option for AI\", founded as a non-profit at the AI Action Summit in Paris in February 2025 and backed by serious capital ($400m already committe",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-this-3-slot-3080-20gb-with-12v2x6-i-got-for-42245",
+      "source": "localllama",
+      "title": "This 3 slot 3080 20GB with 12v2x6 I got for €422,45",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umrcbi/this_3_slot_3080_20gb_with_12v2x6_i_got_for_42245/",
+      "published_at": "2026-07-03T21:56:27Z",
+      "summary": "      &#32; submitted by &#32;  /u/xw1y   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-03-quoting-josh-w-comeau",
+      "source": "simonw",
+      "title": "Quoting Josh W. Comeau",
+      "url": "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything",
+      "published_at": "2026-07-03T21:25:52Z",
+      "summary": "I just launched my third course, Whimsical Animations, and so far, it’s on track to sell roughly ⅓ as many copies as a typical course launch.\nIt’s a similar story with my two existing courses. Sales are down significantl",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-particle-scattering-sampler-for-llamacpp",
+      "source": "localllama",
+      "title": "Particle Scattering Sampler for llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umqgnl/particle_scattering_sampler_for_llamacpp/",
+      "published_at": "2026-07-03T21:19:37Z",
+      "summary": "https://github.com/IceFog72/llama.cpp I added an experimental sampler to llama.cpp called scatter. The short version: it slightly smooths the model’s next-token probability distribution inside the already-selected top ca",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-gemma4-e2b-is-really-good-what-other-small-models-work-on-cr",
+      "source": "localllama",
+      "title": "gemma4 e2b is really good, what other small models work on crappy computers?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umpxhg/gemma4_e2b_is_really_good_what_other_small_models/",
+      "published_at": "2026-07-03T20:58:19Z",
+      "summary": "I run it on i5 6500 and I get 9t/s its really fast and the output is a lot better than ChatGPT 3.5 and maybe its as good as ChatGPT 4 but I didn&#39;t use that 4.0 much. What are other good small models? I used Qwen 3.5 ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-whats-the-catch-with-swireasoning",
+      "source": "localllama",
+      "title": "Whats the catch with SwiReasoning?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ump3nw/whats_the_catch_with_swireasoning/",
+      "published_at": "2026-07-03T20:23:52Z",
+      "summary": "I just heard about SwiReasoning and tried it out on Qwen 3.6 27b and im kinda surprised.  Its answers are more on point and it solves questions aloooot quicker.  It seems a bit slower in t/s but the amount of tokens it n",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-uh-honey-how-do-you-feel-about-takeout",
+      "source": "localllama",
+      "title": "Uh.. Honey, how do you feel about takeout?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umokhj/uh_honey_how_do_you_feel_about_takeout/",
+      "published_at": "2026-07-03T20:02:26Z",
+      "summary": "      - 2x RTX Pro 6000 Max-Q (96GB) - 8x RTX 3090 (24GB) - 2x RTX 5090 (32GB) - 3 PSUs - 128GB DDR5 SDIMM RAM (4-channel) - Threadripper 9960x - 1x Ryobi Portable Fan - 1x large Uber Eats bill 448GB VRAM Running MiniMax",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-03-longcat-2-model-weights-have-been-published",
+      "source": "localllama",
+      "title": "Longcat 2 model weights have been published",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umo8zu/longcat_2_model_weights_have_been_published/",
+      "published_at": "2026-07-03T19:49:38Z",
+      "summary": "https://huggingface.co/meituan-longcat/LongCat-2.0-INT8 https://huggingface.co/meituan-longcat/LongCat-2.0-FP8  &#32; submitted by &#32;  /u/RhubarbSimilar1683   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-03-darios-favorite-model",
       "source": "localllama",
@@ -24,56 +156,12 @@
       ]
     },
     {
-      "id": "localllama-2026-07-03-any-idea-why-bartowski-claims-deepseek-v4-flash-is-mxfp4",
+      "id": "localllama-2026-07-03-for-rag-specifically-prefill-speed-matters-more-than-decode",
       "source": "localllama",
-      "title": "Any idea why bartowski claims DeepSeek-V4-Flash is MXFP4?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umka9t/any_idea_why_bartowski_claims_deepseekv4flash_is/",
-      "published_at": "2026-07-03T17:14:03Z",
-      "summary": "https://huggingface.co/bartowski/DeepSeek-V4-Flash-GGUF  This model is in MXFP4 and as such has only been provided in MXFP4 format! Original model: https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash  But on original&#3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-help-using-llamacpp-with-intel-n100",
-      "source": "localllama",
-      "title": "Help using llama.cpp with intel n100?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umk9of/help_using_llamacpp_with_intel_n100/",
-      "published_at": "2026-07-03T17:13:24Z",
-      "summary": "I have an intel n100 mini pc that&#39;s on 24/7 running proxmox. I want to use llama.cpp server with gemma 4 E2B for small tasks. Should I use the CPU only, or the iGPU? And if I were to use the iGPU, what backend should",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-qwen-27b",
-      "source": "localllama",
-      "title": "Qwen 27B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umk3ax/qwen_27b/",
-      "published_at": "2026-07-03T17:06:34Z",
-      "summary": "Just a datapoint I wanted to share.Qwen 27b, at q6kxl, with multi-token prediction, on a 4090+3090 system, using lcpp, puts out 50-90 tokens/s decode and 1500-2200 token/s pre-fill. Regardless of harness, it reliably int",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-portugal-just-released-their-own-llm-amalia-9b",
-      "source": "localllama",
-      "title": "Portugal just released their own LLM Amalia (9B)!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umhrn8/portugal_just_released_their_own_llm_amalia_9b/",
-      "published_at": "2026-07-03T15:38:16Z",
-      "summary": "      I didnt see any mention here. Source: https://portugal.gov.pt/en/gc25/communication/news/llm-amalia-shows-portugals-potential HF link SFT: https://huggingface.co/amalia-llm/AMALIA-9B-0626-SFT HF link DFO (Direct Pr",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-according-to-bernstein-sk-hynix-has-90-profit-margin-on-dram",
-      "source": "localllama",
-      "title": "According to Bernstein, SK Hynix has 90% profit margin on dram",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umgsu2/according_to_bernstein_sk_hynix_has_90_profit/",
-      "published_at": "2026-07-03T15:00:52Z",
-      "summary": "https://x.com/jukan05/status/2073032040451366952 https://www.google.com/search?q=bernstein+dram+report Now if we could get them down to a typical automotive profit margin of 5%, then we would have ram for our local syste",
+      "title": "For RAG specifically, prefill speed matters more than decode and why Strix Halo struggles for interactive use",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umlqwn/for_rag_specifically_prefill_speed_matters_more/",
+      "published_at": "2026-07-03T18:10:17Z",
+      "summary": "      Seeing a lot of &quot;what hardware for local RAG&quot; threads lately, and the framing that keeps getting missed is: decode tok/s is not the bottleneck for RAG. Prefill is the bottleneck for RAG. RAG queries stuff",
       "tags": [
         "localllama"
       ]
@@ -87,72 +175,6 @@
       "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here.\nThis month:\n\nClaude Fable 5, GPT-5.6, and US export restrictions\nGLM-5.2 is",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-mistral-released-leanstral-15-119b-a6b",
-      "source": "localllama",
-      "title": "Mistral released Leanstral-1.5-119B-A6B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umgdhx/mistral_released_leanstral15119ba6b/",
-      "published_at": "2026-07-03T14:44:12Z",
-      "summary": "       Leanstral 1.5, a free Apache-2.0 licensed model with 6B active parameters, delivers a major performance upgrade in formal verification, saturating miniF2F, solving 587/672 PutnamBench problems, and achieving state",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-blockpilot-instance-adaptive-policy-learning-for-diffusion-b",
-      "source": "localllama",
-      "title": "BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umgb79/blockpilot_instanceadaptive_policy_learning_for/",
-      "published_at": "2026-07-03T14:41:45Z",
-      "summary": "       Speculative decoding accelerates inference by using a lightweight draft model to generate candidate tokens in parallel, and are then verified by the target model, enabling lossless acceleration. Recently, diffusio",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-eldr-expert-locality-aware-decode-routing-for-pd-disaggregat",
-      "source": "localllama",
-      "title": "ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umfr10/eldr_expertlocalityaware_decode_routing_for/",
-      "published_at": "2026-07-03T14:19:27Z",
-      "summary": "       In prefill-decode (PD) disaggregated LLM serving, each request is assigned to a decode worker after prefill. Existing decode routers balance only load; for mixture-of-experts (MoE) models this is incomplete: equal",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-glm-52-is-really-good",
-      "source": "localllama",
-      "title": "GLM 5.2 is really good!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umf032/glm_52_is_really_good/",
-      "published_at": "2026-07-03T13:49:32Z",
-      "summary": "I&#39;m probably late to the party when it comes to reviewing GLM 5.2, but I&#39;ve been using it recently and I&#39;m impressed. My use case: I have a Bible Scholar agent that I use to study Scripture. It uses RAG with ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-micro-world---action-controlled-interactive-world-model---am",
-      "source": "localllama",
-      "title": "Micro-World - Action-controlled Interactive world model - AMD",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umey6p/microworld_actioncontrolled_interactive_world/",
-      "published_at": "2026-07-03T13:47:26Z",
-      "summary": "       In this work, we introduce Micro-World, an action-controlled interactive world model designed to generate high-quality, open-domain scenes. Built on top of the Wan2.1 family of models, we train both image-to-world",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-gemma-avatar-talk-to-gemma-4-31b-face-to-face",
-      "source": "localllama",
-      "title": "Gemma Avatar: Talk to Gemma 4-31B face to face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umee2i/gemma_avatar_talk_to_gemma_431b_face_to_face/",
-      "published_at": "2026-07-03T13:23:37Z",
-      "summary": "      This is a voice chat with Gemma 4 31B where you talk to a 3D avatar. It listens while you speak, answers with a voice and a face (the avatar is exposed to the LLM as function tools: set_mood, make_hand_gesture, mak",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -329,28 +351,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-29-ornith-10-self-scaffolding-llms-for-agentic-coding",
-      "source": "simonw",
-      "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
-      "url": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
-      "published_at": "2026-06-29T16:17:59Z",
-      "summary": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding\nThis is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce.\n\n[...] with variants including 9B Dense, 31B Dense, 35B MoE, ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-28-quoting-jon-udell",
-      "source": "simonw",
-      "title": "Quoting Jon Udell",
-      "url": "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
-      "published_at": "2026-06-28T21:57:41Z",
-      "summary": "Human Agent in the loop\nI dislike the phrase “human in the loop” because it cedes authority to the machines. Let’s flip the narrative. It’s our loop, we work the same way we always have, now we recruit agents to join the",
-      "tags": [
-        "simonw"
       ]
     },
     {
