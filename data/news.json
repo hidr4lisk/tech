@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-07-04T08:44:04Z",
+  "updated_at": "2026-07-04T13:44:12Z",
   "items": [
+    {
+      "id": "localllama-2026-07-04-gemma4-with-audio-input-168-toks-on-macbook-m2-max-64gb",
+      "source": "localllama",
+      "title": "Gemma4 with audio input: 16.8 tok/s on Macbook M2 Max 64GB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un9cjq/gemma4_with_audio_input_168_toks_on_macbook_m2/",
+      "published_at": "2026-07-04T13:39:30Z",
+      "summary": "Here&#39;s the setup I decided on for embedding gemma4-12b into a Tauri2 desktop app:  Native Rust FFI into llama.cpp via llama-cpp-2 (Metal enabled) Model:gemma-4-12b-it-Q5_K_S quantized by Unsloth, Q5_K - Small Audio i",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-first-time-i-have-seen-this-my-model-seemed-aware-of-its-con",
+      "source": "localllama",
+      "title": "First time I have seen this: my model seemed aware of its context usage ask me for compaction!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un9chv/first_time_i_have_seen_this_my_model_seemed_aware/",
+      "published_at": "2026-07-04T13:39:26Z",
+      "summary": "I was in a middle of a Claude Code session with GLM 5.2. Context usage 537k/1M. After finishing a task, GLM asked me this:  Context note: this session has run long and context is getting heavy. (...) I&#39;d suggest eith",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-paper-gear-guided-end-to-end-autoregression-for-image-synthe",
+      "source": "localllama",
+      "title": "[Paper] GEAR: Guided End-to-End AutoRegression for Image Synthesis",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un9955/paper_gear_guided_endtoend_autoregression_for/",
+      "published_at": "2026-07-04T13:35:08Z",
+      "summary": "       Visual generative models are typically trained in two stages. A tokenizer is first trained for reconstruction and then frozen, after which a generator is trained on its discrete indices or continuous latents. This",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-paper-multi-block-diffusion-language-models",
+      "source": "localllama",
+      "title": "[Paper] Multi-Block Diffusion Language Models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un8y5p/paper_multiblock_diffusion_language_models/",
+      "published_at": "2026-07-04T13:21:18Z",
+      "summary": "       Block Diffusion Language Models (BD-LMs) improve diffusion-based text generation with KV caching and flexible-length generation. A natural next step is to extend them from Single-Block Diffusion (SingleBD) to Mult",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-doing-the-actual-math-on-a-20k-local-ai-rig-breakeven",
+      "source": "localllama",
+      "title": "Doing the actual math on a $20k local AI rig breakeven",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un6njn/doing_the_actual_math_on_a_20k_local_ai_rig/",
+      "published_at": "2026-07-04T11:27:31Z",
+      "summary": "      Everyone under the sun says &quot;it&#39;s free after you buy the hardware&quot; and skips the electricity bill. Ran the numbers against a mid tier subscription to see where the crossover actually sits. Every threa",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-is-dspark-dflash-mtp-qat-and-similar-tech-going-to-increase",
+      "source": "localllama",
+      "title": "Is dSpark, dflash, MTP, QAT, and similar tech going to increase inference speed enough to where model spillover to disk will be more tolerable?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un6f8u/is_dspark_dflash_mtp_qat_and_similar_tech_going/",
+      "published_at": "2026-07-04T11:14:47Z",
+      "summary": "We’re seeing all these performance boosts coming to inference lately with things like dSpark, dllash, MTP, etc. and I know the whole model spillover-to-disk has always been the inflection point where a model would go fro",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-rtx5090-gemma-4-31b-it-q6-kgguf-context-before---35k-after",
+      "source": "localllama",
+      "title": "RTX5090, gemma-4-31B-it-Q6_K.gguf. Context: before - 35k, after - 80k!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un6c4s/rtx5090_gemma431bitq6_kgguf_context_before_35k/",
+      "published_at": "2026-07-04T11:09:59Z",
+      "summary": "      Yesterday there was a message that you can increase the context for Deepseek Flash. But it turned out that everything works for Gemma4 too! function dockergemma () { docker run \\ -e GGML_CUDA_NO_PINNED=1 \\ -p &quot",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-googletabfm-100",
+      "source": "localllama",
+      "title": "google/tabfm-1.0.0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un5hyi/googletabfm100/",
+      "published_at": "2026-07-04T10:20:58Z",
+      "summary": "      TabFM is a zero-shot tabular foundation model from Google Research. It supports classification and regression on structured/tabular data with mixed numerical and categorical columns, requiring no fine-tuning or hyp",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-a-fully-local-self-hosted-repo-index-for-coding-agents-rust",
+      "source": "localllama",
+      "title": "A fully local, self-hosted repo index for coding agents (Rust, MIT, runs offline)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un430x/a_fully_local_selfhosted_repo_index_for_coding/",
+      "published_at": "2026-07-04T08:54:19Z",
+      "summary": "If you run local models for coding, feeding them repo context without blowing the context window is half the battle. I built basemind to index a repo locally and serve it over MCP: a code map across 300+ languages, git h",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-04-looking-for-thoughts-on-card-purchase-v620-mi50-v100",
       "source": "localllama",
@@ -35,28 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-03-deepseek-v4-flash-running-on-rtx-5090-moe",
-      "source": "localllama",
-      "title": "Deepseek V4 Flash running on RTX 5090 MoE",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umsik8/deepseek_v4_flash_running_on_rtx_5090_moe/",
-      "published_at": "2026-07-03T22:48:11Z",
-      "summary": "      Here is the results of optimizing it for my setup: Benchmark results of the optimisation showing TG T/S from 22.7 to 21.3, and PP T/S from 1105 to 927, test ranges Prompt Processing from 8192 tokens to 65536 tokens",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-claude-desktop-code-but-use-local-api",
-      "source": "localllama",
-      "title": "Claude Desktop (code) but use local API?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ums14f/claude_desktop_code_but_use_local_api/",
-      "published_at": "2026-07-03T22:26:22Z",
-      "summary": "Hey all, So I tend to favor the Claude Desktop app in Code mode as the GUI does a great job of previewing code, MCP browser interactions/screenshot evals/etc. But I recall people saying they could get Claude Desktop to u",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-03-open-source-ai-gap-map",
       "source": "simonw",
       "title": "Open Source AI Gap Map",
@@ -68,17 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-03-this-3-slot-3080-20gb-with-12v2x6-i-got-for-42245",
-      "source": "localllama",
-      "title": "This 3 slot 3080 20GB with 12v2x6 I got for €422,45",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umrcbi/this_3_slot_3080_20gb_with_12v2x6_i_got_for_42245/",
-      "published_at": "2026-07-03T21:56:27Z",
-      "summary": "      &#32; submitted by &#32;  /u/xw1y   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-03-quoting-josh-w-comeau",
       "source": "simonw",
       "title": "Quoting Josh W. Comeau",
@@ -87,72 +153,6 @@
       "summary": "I just launched my third course, Whimsical Animations, and so far, it’s on track to sell roughly ⅓ as many copies as a typical course launch.\nIt’s a similar story with my two existing courses. Sales are down significantl",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-particle-scattering-sampler-for-llamacpp",
-      "source": "localllama",
-      "title": "Particle Scattering Sampler for llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umqgnl/particle_scattering_sampler_for_llamacpp/",
-      "published_at": "2026-07-03T21:19:37Z",
-      "summary": "https://github.com/IceFog72/llama.cpp I added an experimental sampler to llama.cpp called scatter. The short version: it slightly smooths the model’s next-token probability distribution inside the already-selected top ca",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-gemma4-e2b-is-really-good-what-other-small-models-work-on-cr",
-      "source": "localllama",
-      "title": "gemma4 e2b is really good, what other small models work on crappy computers?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umpxhg/gemma4_e2b_is_really_good_what_other_small_models/",
-      "published_at": "2026-07-03T20:58:19Z",
-      "summary": "I run it on i5 6500 and I get 9t/s its really fast and the output is a lot better than ChatGPT 3.5 and maybe its as good as ChatGPT 4 but I didn&#39;t use that 4.0 much. What are other good small models? I used Qwen 3.5 ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-whats-the-catch-with-swireasoning",
-      "source": "localllama",
-      "title": "Whats the catch with SwiReasoning?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ump3nw/whats_the_catch_with_swireasoning/",
-      "published_at": "2026-07-03T20:23:52Z",
-      "summary": "I just heard about SwiReasoning and tried it out on Qwen 3.6 27b and im kinda surprised.  Its answers are more on point and it solves questions aloooot quicker.  It seems a bit slower in t/s but the amount of tokens it n",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-uh-honey-how-do-you-feel-about-takeout",
-      "source": "localllama",
-      "title": "Uh.. Honey, how do you feel about takeout?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umokhj/uh_honey_how_do_you_feel_about_takeout/",
-      "published_at": "2026-07-03T20:02:26Z",
-      "summary": "      - 2x RTX Pro 6000 Max-Q (96GB) - 8x RTX 3090 (24GB) - 2x RTX 5090 (32GB) - 3 PSUs - 128GB DDR5 SDIMM RAM (4-channel) - Threadripper 9960x - 1x Ryobi Portable Fan - 1x large Uber Eats bill 448GB VRAM Running MiniMax",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-longcat-2-model-weights-have-been-published",
-      "source": "localllama",
-      "title": "Longcat 2 model weights have been published",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umo8zu/longcat_2_model_weights_have_been_published/",
-      "published_at": "2026-07-03T19:49:38Z",
-      "summary": "https://huggingface.co/meituan-longcat/LongCat-2.0-INT8 https://huggingface.co/meituan-longcat/LongCat-2.0-FP8  &#32; submitted by &#32;  /u/RhubarbSimilar1683   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-03-darios-favorite-model",
-      "source": "localllama",
-      "title": "Dario's favorite model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umnbwy/darios_favorite_model/",
-      "published_at": "2026-07-03T19:12:20Z",
-      "summary": "      found this here https://huggingface.co/ideogram-ai/ideogram-4-fp8/discussions/3#6a2070c21bfe5300af2887b2  &#32; submitted by &#32;  /u/po_stulate   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
