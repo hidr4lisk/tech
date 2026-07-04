@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-03T19:36:29Z",
+  "updated_at": "2026-07-04T03:36:42Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9870",
+      "project": "llama-cpp",
+      "version": "b9870",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9870",
+      "published_at": "2026-07-03T21:38:29Z",
+      "body_excerpt": "chat: trim messages sent to StepFun parser (fixes long reasoning loops) (#25238) chat: trim messages sent to StepFun parser (fixes long reasoning loops) add regression test; remove duplicate template chat: trim StepFun content parts before rendering The StepFun trim workaround ran on the already-rendered messages, where typed content parts have been concatenated into a single string, so the per-pa",
+      "type": "tool"
+    },
     {
       "id": "transformers-v5.13.0",
       "project": "transformers",
@@ -6299,15 +6308,6 @@
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.10",
       "published_at": "2026-04-06T04:42:12Z",
       "body_excerpt": "Highlights Piecewise CUDA Graph Enabled by Default: Piecewise CUDA graph capture is now the default execution mode, reducing memory overhead and improving throughput for models with complex control flow patterns: #16331 Elastic EP for Partial Failure Tolerance: Integrate Elastic NIXL-EP into SGLang, enabling partial failure tolerance for DeepSeek MoE deployments — when a GPU fails, the system redi",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.1.1",
-      "project": "localai",
-      "version": "v4.1.1",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.1.1",
-      "published_at": "2026-04-05T00:06:56Z",
-      "body_excerpt": "This is a patch release to address few regressions from the last release and the upcoming Gemma4, most importantly: Fixes Gemma 4 tokenization with llama.cpp Show login in api key only mode Small fixes to improve Anthropic API compatibility What's Changed Other Changes docs: Update Home Assistant integrations list by @loryanstrant in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot i",
       "type": "tool"
     }
   ]
