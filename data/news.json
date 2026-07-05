@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-07-05T03:55:29Z",
+  "updated_at": "2026-07-05T09:12:19Z",
   "items": [
+    {
+      "id": "localllama-2026-07-05-gh-copilots-byok-blocking-for-inline-completion-makes-no-sen",
+      "source": "localllama",
+      "title": "GH Copilot’s BYOK Blocking for Inline Completion Makes No Sense. [THE FIX]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unxezp/gh_copilots_byok_blocking_for_inline_completion/",
+      "published_at": "2026-07-05T09:05:09Z",
+      "summary": "      GitHub Copilot allows Bring Your Own Key (BYOK) for its Chat window, but it explicitly blocks those exact same custom models from being used for inline code auto-completion. The official justification from the VS C",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-deepseek-v4-flash-in-mxfp4-is-too-slow-on-cpu",
+      "source": "localllama",
+      "title": "DeepSeek-V4-Flash in MXFP4 is too slow on CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unvy5i/deepseekv4flash_in_mxfp4_is_too_slow_on_cpu/",
+      "published_at": "2026-07-05T07:35:58Z",
+      "summary": "I have an old Xeon rig with 512Gb of 4-channel DDR4 2133 memory and E5-2699v4 processor. For GPU I have GTX 1060 with 6Gb of VRAM, so I use CPU only mode. I can run GLM 5.2 with 40B active parameters in Q4_K_XL at 1.8 t/",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-a-planetary-test-for-local-models",
+      "source": "localllama",
+      "title": "A planetary test for local models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unuruo/a_planetary_test_for_local_models/",
+      "published_at": "2026-07-05T06:26:35Z",
+      "summary": "Here is a fun test prompt: Imagine a date in the next 1000 years where the Sun, along with its gravity, suddenly disappeared. When that happens, all planets in our solar system would stop orbiting and carry in a straight",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-5060-worth-it",
+      "source": "localllama",
+      "title": "5060 worth it?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unsbbi/5060_worth_it/",
+      "published_at": "2026-07-05T04:06:25Z",
+      "summary": "I had built a pc in 2023 for pretty cheap, it has a RTX 4090 and intel i9 13900K. I’m thinking of adding a 5060Ti for additional LLM workloads. I primarily use my GPU for training SLMs and llama.cpp inference. Since the ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-i-benchmarked-13-models-at-65k-128k-context-to-find-out-what",
+      "source": "localllama",
+      "title": "I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/",
+      "published_at": "2026-07-05T03:37:23Z",
+      "summary": "I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads — prefill dominates everything, and KV head count beats parameter count I&#39;ve been running local LLMs for agentic wor",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-05-concurrency-plus-nvfp4-on-blackwell",
       "source": "localllama",
@@ -30,6 +85,17 @@
       "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
       "published_at": "2026-07-05T01:00:48Z",
       "summary": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I f",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-05-sqlite-utils-40rc2",
+      "source": "simonw",
+      "title": "sqlite-utils 4.0rc2",
+      "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything",
+      "published_at": "2026-07-05T00:47:38Z",
+      "summary": "Release: sqlite-utils 4.0rc2\n        See sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25).",
       "tags": [
         "simonw"
       ]
@@ -96,61 +162,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uneztp/gemma_4_12b_mlx_kernel/",
       "published_at": "2026-07-04T17:34:00Z",
       "summary": "I&#39;ve mentioned this kernel project I was working on in a few posts and figured I would just open the project code for anyone curious: MLX Gemma 12B The main constraints for this on my end is an M5 16GB Macbook Pro. I",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-i-merged-fixes-for-quantized-kv-cache-into-my-deepseek-v4-br",
-      "source": "localllama",
-      "title": "I merged fixes for quantized KV cache into my DeepSeek V4 branch",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1une2il/i_merged_fixes_for_quantized_kv_cache_into_my/",
-      "published_at": "2026-07-04T16:57:06Z",
-      "summary": "Check it out: https://github.com/fairydreaming/llama.cpp/tree/dsv4 They are PRs #25247, #25303 (mine) and #25202 (from am17an) but I omitted some padding changes from the last one that I think are not necessary. So if it",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-ran-a-classicmedival-europe-fantasy-rpagentic-benchmark-acro",
-      "source": "localllama",
-      "title": "Ran a classic(medival europe) fantasy RP/agentic benchmark across 8 local models Qwen3.6-27B held up better than its size suggests",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unbm45/ran_a_classicmedival_europe_fantasy_rpagentic/",
-      "published_at": "2026-07-04T15:15:49Z",
-      "summary": "      Threw together a benchmark suite (quest completion, scene endings, item/time tracking, character detection, storytelling, drafting) and ran it across 8 models people talk about a lot on here. Judged with an externa",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-using-local-models-with-hermes-vs-claude-code",
-      "source": "localllama",
-      "title": "Using local models with Hermes vs Claude code",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unbjr2/using_local_models_with_hermes_vs_claude_code/",
-      "published_at": "2026-07-04T15:13:11Z",
-      "summary": "      Today I saw this in StepFun’s blog for their Step 3.7 Flash model. Running the model with CC performed better results vs Hermes. Curious why?  &#32; submitted by &#32;  /u/GreatMammad   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-qwen36-27b-on-a-5090-64k-sample-toks-distribution-after-tuni",
-      "source": "localllama",
-      "title": "Qwen3.6 27B on a 5090, 6.4k sample tok/s distribution after tuning MTP/cache settings",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unbi4a/qwen36_27b_on_a_5090_64k_sample_toks_distribution/",
-      "published_at": "2026-07-04T15:11:17Z",
-      "summary": "      Spent a while tuning llama.cpp for Qwen3.6 27B on a 9800X3D / 64GB / 5090 box and wanted to share the real distribution instead of just a headline number, since averages hide a lot. Ran with q8 KV cache, 192k conte",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-dgx-spark-and-overtemps",
-      "source": "localllama",
-      "title": "DGX Spark and Overtemps",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unavzr/dgx_spark_and_overtemps/",
-      "published_at": "2026-07-04T14:45:45Z",
-      "summary": "For anyone who has a DGX-Spark and is having problems during these very hot summer months, you can underclock with: sudo nvidia-smi -lgc 0,900 My temps dropped from 85C to 60C and this fixed my problem of overtemp lockup",
       "tags": [
         "localllama"
       ]
@@ -272,17 +283,6 @@
       "url": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
       "published_at": "2026-06-30T22:15:35Z",
       "summary": "Nano Banana 2 Lite\nAlso known as Gemini 3.1 Flash Lite Image (gemini-3.1-flash-lite-image in their API), this is the \"fastest and cheapest Gemini image model, engineered for velocity and scale\".\nI used AI studio to run t",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-30-whats-new-in-claude-sonnet-5",
-      "source": "simonw",
-      "title": "What's new in Claude Sonnet 5",
-      "url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
-      "published_at": "2026-06-30T21:23:02Z",
-      "summary": "What&#x27;s new in Claude Sonnet 5\nClaude Sonnet 5 came out this morning. I always head straight for the \"what's new\" developer docs because they tend to have more actionable information than the official announcement po",
       "tags": [
         "simonw"
       ]
