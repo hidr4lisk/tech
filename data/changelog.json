@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-05T13:50:44Z",
+  "updated_at": "2026-07-05T19:25:02Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9877",
+      "project": "llama-cpp",
+      "version": "b9877",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9877",
+      "published_at": "2026-07-05T19:12:59Z",
+      "body_excerpt": "abort if we see a multi buffer (#25276) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9876",
+      "project": "llama-cpp",
+      "version": "b9876",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9876",
+      "published_at": "2026-07-05T18:29:08Z",
+      "body_excerpt": "ggml : fix tensor-parallel + -ncmoe crash on MoE models (#25028) Tensor parallelism (-sm tensor) combined with -ncmoe (CPU-offloaded MoE experts) aborts during warm-up on MoE models with GGML_ASSERT(ggml_is_contiguous(tensor)) in ggml-backend-meta.cpp. The failing tensor is the MoE router output (ffn_moe_topk): it is mirrored (GGML_BACKEND_SPLIT_AXIS_MIRRORED, replicated across backends since rout",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9874",
+      "project": "llama-cpp",
+      "version": "b9874",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9874",
+      "published_at": "2026-07-05T15:53:37Z",
+      "body_excerpt": "cuda : concat implementation for quantized types (#25303) cuda : concat implementation for quantized types chore : apply am17an clever suggestion to shorten the code --------- Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU)",
+      "type": "tool"
+    },
     {
       "id": "hf-nvidia-gr00t17-lerobot-libero_goal-640",
       "project": "nvidia",
@@ -6345,15 +6372,6 @@
       "published_at": "2026-04-06T23:05:27Z",
       "body_excerpt": "What's Changed Bug fixes :bug: fix(token): login via legacy api keys by @mudler in fix(anthropic): do not emit empty tokens and fix SSE tool calls by @mudler in fix(gpu): better detection for MacOS and Thor by @mudler in 👒 Dependencies chore(deps): bump google.golang.org/grpc from 1.79.3 to 1.80.0 by @dependabot[bot] in chore(deps): bump github.com/jaypipes/ghw from 0.23.0 to 0.24.0 by @dependabot",
       "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-vermeer",
-      "project": "microsoft",
-      "version": "vermeer",
-      "url": "https://huggingface.co/microsoft/vermeer",
-      "published_at": "2026-04-06T15:49:36Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
