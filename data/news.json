@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-07-04T19:21:23Z",
+  "updated_at": "2026-07-05T03:55:29Z",
   "items": [
+    {
+      "id": "localllama-2026-07-05-concurrency-plus-nvfp4-on-blackwell",
+      "source": "localllama",
+      "title": "Concurrency plus nvfp4 on Blackwell",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unqkjy/concurrency_plus_nvfp4_on_blackwell/",
+      "published_at": "2026-07-05T02:29:24Z",
+      "summary": "      Parsed from VLLM log file ~2000 tps in aggregate performing bulk captioning on images. Above is parsed from vllm log while a client runs 30 concurrent streams, each concurrent stream has 1 request with an image and",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-getting-close-to-100k-context-on-32gb-vram-with-qwen36-27-at",
+      "source": "localllama",
+      "title": "Getting close to 100K context on 32GB VRAM with Qwen3.6-27 at Q8",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unpelb/getting_close_to_100k_context_on_32gb_vram_with/",
+      "published_at": "2026-07-05T01:24:03Z",
+      "summary": "Not really a tutorial, but more of sharing my attempts at getting higher contexts on Q8 of Qwen3.6-27 with 32GB VRAM. Disclaimer: Not in-depth research. Crowd wisdom suggests that Qwen is more tolerant of model quantizat",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-05-sqlite-utils-40rc2-mostly-written-by-claude-fable-for-about",
+      "source": "simonw",
+      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+      "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
+      "published_at": "2026-07-05T01:00:48Z",
+      "summary": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I f",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-using-applications-to-make-a-smaller-model-more-effective-at",
+      "source": "localllama",
+      "title": "Using \"applications\" to make a smaller model more effective at bigger tasks.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unobl4/using_applications_to_make_a_smaller_model_more/",
+      "published_at": "2026-07-05T00:26:43Z",
+      "summary": "      deleted and reposted due to accidental inclusion of personal information in original post. Demo of an idea I had for my personal JARVIS, quickly put together with a vibe coded browser based display so I could easil",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-appreciation-post",
+      "source": "localllama",
+      "title": "Appreciation post!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unn4j3/appreciation_post/",
+      "published_at": "2026-07-04T23:28:26Z",
+      "summary": "      Brought my first 3090 and been running Qwen 27B with 200K context, couldn&#39;t be happier. I&#39;m using the club 3090 configuration and I highly recommend it! https://github.com/noonghunna/club-3090/tree/master  ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-04-better-models-worse-tools",
+      "source": "simonw",
+      "title": "Better Models: Worse Tools",
+      "url": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything",
+      "published_at": "2026-07-04T22:53:52Z",
+      "summary": "Better Models: Worse Tools\nArmin reports on a weird problem he ran into while hacking on Pi:\n\nThe short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[] ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-04-possible-evidence-of-literal-prompt-injection-by-anthropic",
+      "source": "localllama",
+      "title": "possible evidence of literal prompt injection by anthropic",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unif51/possible_evidence_of_literal_prompt_injection_by/",
+      "published_at": "2026-07-04T19:54:57Z",
+      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-04-is-there-some-kdl-chart-for-mimo-v25-or-something-regarding",
       "source": "localllama",
@@ -74,61 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unavzr/dgx_spark_and_overtemps/",
       "published_at": "2026-07-04T14:45:45Z",
       "summary": "For anyone who has a DGX-Spark and is having problems during these very hot summer months, you can underclock with: sudo nvidia-smi -lgc 0,900 My temps dropped from 85C to 60C and this fixed my problem of overtemp lockup",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-gemma4-with-audio-input-168-toks-on-macbook-m2-max-64gb",
-      "source": "localllama",
-      "title": "Gemma4 with audio input: 16.8 tok/s on Macbook M2 Max 64GB",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un9cjq/gemma4_with_audio_input_168_toks_on_macbook_m2/",
-      "published_at": "2026-07-04T13:39:30Z",
-      "summary": "Here&#39;s the setup I decided on for embedding gemma4-12b into a Tauri2 desktop app:  Native Rust FFI into llama.cpp via llama-cpp-2 (Metal enabled) Model:gemma-4-12b-it-Q5_K_S quantized by Unsloth, Q5_K - Small Audio i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-first-time-i-have-seen-this-my-model-seemed-aware-of-its-con",
-      "source": "localllama",
-      "title": "First time I have seen this: my model seemed aware of its context usage ask me for compaction!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un9chv/first_time_i_have_seen_this_my_model_seemed_aware/",
-      "published_at": "2026-07-04T13:39:26Z",
-      "summary": "I was in a middle of a Claude Code session with GLM 5.2. Context usage 537k/1M. After finishing a task, GLM asked me this:  Context note: this session has run long and context is getting heavy. (...) I&#39;d suggest eith",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-paper-gear-guided-end-to-end-autoregression-for-image-synthe",
-      "source": "localllama",
-      "title": "[Paper] GEAR: Guided End-to-End AutoRegression for Image Synthesis",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un9955/paper_gear_guided_endtoend_autoregression_for/",
-      "published_at": "2026-07-04T13:35:08Z",
-      "summary": "       Visual generative models are typically trained in two stages. A tokenizer is first trained for reconstruction and then frozen, after which a generator is trained on its discrete indices or continuous latents. This",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-paper-multi-block-diffusion-language-models",
-      "source": "localllama",
-      "title": "[Paper] Multi-Block Diffusion Language Models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un8y5p/paper_multiblock_diffusion_language_models/",
-      "published_at": "2026-07-04T13:21:18Z",
-      "summary": "       Block Diffusion Language Models (BD-LMs) improve diffusion-based text generation with KV caching and flexible-length generation. A natural next step is to extend them from Single-Block Diffusion (SingleBD) to Mult",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-doing-the-actual-math-on-a-20k-local-ai-rig-breakeven",
-      "source": "localllama",
-      "title": "Doing the actual math on a $20k local AI rig breakeven",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un6njn/doing_the_actual_math_on_a_20k_local_ai_rig/",
-      "published_at": "2026-07-04T11:27:31Z",
-      "summary": "      Everyone under the sun says &quot;it&#39;s free after you buy the hardware&quot; and skips the electricity bill. Ran the numbers against a mid tier subscription to see where the crossover actually sits. Every threa",
       "tags": [
         "localllama"
       ]
@@ -274,28 +296,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-30-the-ai-compass",
-      "source": "simonw",
-      "title": "The AI Compass",
-      "url": "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything",
-      "published_at": "2026-06-30T17:39:23Z",
-      "summary": "The AI Compass\nThis political compass style quiz by bambamramfan is pretty neat - answer 29 questions about AI and AI ethics to see which of the 30 archetypes you best fit.\nI'm impressed that my answers on my first time ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-30-have-your-agent-record-video-demos-of-its-work-with-shot-scr",
-      "source": "simonw",
-      "title": "Have your agent record video demos of its work with shot-scraper video",
-      "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
-      "published_at": "2026-06-30T16:54:26Z",
-      "summary": "shot-scraper video is a new command introduced in today's shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that ro",
-      "tags": [
-        "simonw"
       ]
     },
     {
