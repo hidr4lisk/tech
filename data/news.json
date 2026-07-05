@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-07-05T09:12:19Z",
+  "updated_at": "2026-07-05T13:50:37Z",
   "items": [
+    {
+      "id": "localllama-2026-07-05-is-lm-link-just-too-uncookedexperimental",
+      "source": "localllama",
+      "title": "is LM Link just too uncooked/experimental?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uo2p1t/is_lm_link_just_too_uncookedexperimental/",
+      "published_at": "2026-07-05T13:49:29Z",
+      "summary": "Newbie here. Setup LM Studio with Gemma and QWen, setup a local SearXNG container, verified that it works in the browser, linked LM Studio and the SearXNG instance using rzk/searxng-search. Everything works locally and b",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-using-llamacpp-with-pi",
+      "source": "localllama",
+      "title": "Using llama.cpp with pi",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unzxs1/using_llamacpp_with_pi/",
+      "published_at": "2026-07-05T11:35:30Z",
+      "summary": "      A lot of people have their own setups using pi with llama.cpp. I have my own so thought I&#39;ll share. This is the extension I and deepseek wrote: https://github.com/am17an/pi-llama-server . It allows you to do tw",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-longcat-20-16t-48b-active-weights-are-now-open-under-mit-lic",
+      "source": "localllama",
+      "title": "longcat 2.0 (1.6T, ~48B active) weights are now open under MIT license",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unyvnz/longcat_20_16t_48b_active_weights_are_now_open/",
+      "published_at": "2026-07-05T10:35:23Z",
+      "summary": "      From: elie on 𝕏: https://x.com/eliebakouch/status/2073690402503487902 ModelScope on 𝕏: https://x.com/ModelScope2022/status/2073710226365165679 Technical blog post (June, 30): https://longcat.chat/blog/longcat-2.0/ ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-considering-buying-another-rtx-3090---benefits",
+      "source": "localllama",
+      "title": "Considering Buying Another RTX 3090 - Benefits?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unyhom/considering_buying_another_rtx_3090_benefits/",
+      "published_at": "2026-07-05T10:11:50Z",
+      "summary": "Currently using dual RTX 3090s, and am happy with it. But never satisfied lol :)  I know I&#39;ve basically maxed out my single stream TPS. (140+ on standard benchmarks now). But I only have 48GB VRAM, So I can only do t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-any-word-on-qwen-37-9b-also-looking-for-9b-class-alternative",
+      "source": "localllama",
+      "title": "Any word on Qwen 3.7 9B? (Also looking for 9B-class alternatives to Qwen 3.5)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uny822/any_word_on_qwen_37_9b_also_looking_for_9bclass/",
+      "published_at": "2026-07-05T09:55:48Z",
+      "summary": "Given that Alibaba went proprietary/API-only for the Qwen 3.7 Max and Plus launches back in May, do we have any rumors or roadmap for a local 9B open-weights release? In the meantime, I&#39;m trying to figure out my next",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-agents-a1-q8-0-gguf-works-pretty-well-for-me-anecdotal-feedb",
+      "source": "localllama",
+      "title": "Agents-A1-Q8_0-GGUF works pretty well for me (anecdotal feedback)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unxrjw/agentsa1q8_0gguf_works_pretty_well_for_me/",
+      "published_at": "2026-07-05T09:26:34Z",
+      "summary": "For the last day or so I&#39;ve been using Agents A1 Q8 InternScience/Agents-A1-Q8_0-GGUF on my M1 Max mac (64GB) just like this: llama-server -hf InternScience/Agents-A1-Q8_0-GGUF --host 0.0.0.0 --port 8080 --temp 0.85 ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-paper-multi-resolution-flow-matching-training-free-diffusion",
+      "source": "localllama",
+      "title": "[Paper] Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unxqw5/paper_multiresolution_flow_matching_trainingfree/",
+      "published_at": "2026-07-05T09:25:25Z",
+      "summary": "       Hardware-agnostic strategies for accelerating text-to-image diffusion, such as timestep distillation and feature caching, can reduce inference time without custom kernels or system-level optimization. Among them, ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-05-best-choice-of-model-40b-parameters",
+      "source": "localllama",
+      "title": "Best choice of model 40B+ Parameters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unxohg/best_choice_of_model_40b_parameters/",
+      "published_at": "2026-07-05T09:21:17Z",
+      "summary": "currently using Qwen3.6 35B as my main assistant model + coding agent but I think sometimes it misses basical general knowledge things, and it is more like executioner that assistant. That&#39;s why I though should I go ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-05-gh-copilots-byok-blocking-for-inline-completion-makes-no-sen",
       "source": "localllama",
@@ -46,39 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-05-i-benchmarked-13-models-at-65k-128k-context-to-find-out-what",
-      "source": "localllama",
-      "title": "I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/",
-      "published_at": "2026-07-05T03:37:23Z",
-      "summary": "I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads — prefill dominates everything, and KV head count beats parameter count I&#39;ve been running local LLMs for agentic wor",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-05-concurrency-plus-nvfp4-on-blackwell",
-      "source": "localllama",
-      "title": "Concurrency plus nvfp4 on Blackwell",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unqkjy/concurrency_plus_nvfp4_on_blackwell/",
-      "published_at": "2026-07-05T02:29:24Z",
-      "summary": "      Parsed from VLLM log file ~2000 tps in aggregate performing bulk captioning on images. Above is parsed from vllm log while a client runs 30 concurrent streams, each concurrent stream has 1 request with an image and",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-05-getting-close-to-100k-context-on-32gb-vram-with-qwen36-27-at",
-      "source": "localllama",
-      "title": "Getting close to 100K context on 32GB VRAM with Qwen3.6-27 at Q8",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unpelb/getting_close_to_100k_context_on_32gb_vram_with/",
-      "published_at": "2026-07-05T01:24:03Z",
-      "summary": "Not really a tutorial, but more of sharing my attempts at getting higher contexts on Q8 of Qwen3.6-27 with 32GB VRAM. Disclaimer: Not in-depth research. Crowd wisdom suggests that Qwen is more tolerant of model quantizat",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-05-sqlite-utils-40rc2-mostly-written-by-claude-fable-for-about",
       "source": "simonw",
       "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
@@ -101,28 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-05-using-applications-to-make-a-smaller-model-more-effective-at",
-      "source": "localllama",
-      "title": "Using \"applications\" to make a smaller model more effective at bigger tasks.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unobl4/using_applications_to_make_a_smaller_model_more/",
-      "published_at": "2026-07-05T00:26:43Z",
-      "summary": "      deleted and reposted due to accidental inclusion of personal information in original post. Demo of an idea I had for my personal JARVIS, quickly put together with a vibe coded browser based display so I could easil",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-appreciation-post",
-      "source": "localllama",
-      "title": "Appreciation post!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unn4j3/appreciation_post/",
-      "published_at": "2026-07-04T23:28:26Z",
-      "summary": "      Brought my first 3090 and been running Qwen 27B with 200K context, couldn&#39;t be happier. I&#39;m using the club 3090 configuration and I highly recommend it! https://github.com/noonghunna/club-3090/tree/master  ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-04-better-models-worse-tools",
       "source": "simonw",
       "title": "Better Models: Worse Tools",
@@ -131,39 +164,6 @@
       "summary": "Better Models: Worse Tools\nArmin reports on a weird problem he ran into while hacking on Pi:\n\nThe short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[] ",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-possible-evidence-of-literal-prompt-injection-by-anthropic",
-      "source": "localllama",
-      "title": "possible evidence of literal prompt injection by anthropic",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unif51/possible_evidence_of_literal_prompt_injection_by/",
-      "published_at": "2026-07-04T19:54:57Z",
-      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-is-there-some-kdl-chart-for-mimo-v25-or-something-regarding",
-      "source": "localllama",
-      "title": "Is there some KDL chart for MiMo-V2.5 or something regarding the quants quality?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unfyfo/is_there_some_kdl_chart_for_mimov25_or_something/",
-      "published_at": "2026-07-04T18:12:47Z",
-      "summary": "I&#39;m using the model with opencode and the issue is it&#39;s looping hard when reasoning. It&#39;s not a deranged babbling though, the reasoning is legit large spans of text, it just can&#39;t get outside of the loop ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-04-gemma-4-12b---mlx-kernel",
-      "source": "localllama",
-      "title": "Gemma 4 12B - MLX Kernel",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uneztp/gemma_4_12b_mlx_kernel/",
-      "published_at": "2026-07-04T17:34:00Z",
-      "summary": "I&#39;ve mentioned this kernel project I was working on in a few posts and figured I would just open the project code for anyone curious: MLX Gemma 12B The main constraints for this on my end is an M5 16GB Macbook Pro. I",
-      "tags": [
-        "localllama"
       ]
     },
     {
