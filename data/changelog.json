@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-05T03:55:36Z",
+  "updated_at": "2026-07-05T09:12:24Z",
   "releases": [
+    {
+      "id": "hf-nvidia-gr00t17-lerobot-libero_10-640",
+      "project": "nvidia",
+      "version": "gr00t17-lerobot-libero_10-640",
+      "url": "https://huggingface.co/nvidia/gr00t17-lerobot-libero_10-640",
+      "published_at": "2026-07-05T06:17:17Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-gr00t17-lerobot-libero_object-640",
+      "project": "nvidia",
+      "version": "gr00t17-lerobot-libero_object-640",
+      "url": "https://huggingface.co/nvidia/gr00t17-lerobot-libero_object-640",
+      "published_at": "2026-07-05T06:14:59Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-gr00t17-lerobot-libero_spatial-640",
+      "project": "nvidia",
+      "version": "gr00t17-lerobot-libero_spatial-640",
+      "url": "https://huggingface.co/nvidia/gr00t17-lerobot-libero_spatial-640",
+      "published_at": "2026-07-05T05:57:59Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b9873",
       "project": "llama-cpp",
@@ -6318,24 +6345,6 @@
       "published_at": "2026-04-06T15:49:36Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "localai-v4.1.2",
-      "project": "localai",
-      "version": "v4.1.2",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.1.2",
-      "published_at": "2026-04-06T08:54:04Z",
-      "body_excerpt": "What's Changed Bug fixes :bug: fix(autoparser): correctly pass by logprobs by @mudler in fix(chat): do not retry if we had chatdeltas or tooldeltas from backend by @mudler in Exciting New Features 🎉 feat(llama.cpp): wire speculative decoding settings by @mudler in Other Changes Update index.yaml and add Qwen3.5 model files by @ER-EPR in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bo",
-      "type": "tool"
-    },
-    {
-      "id": "sglang-v0.5.10",
-      "project": "sglang",
-      "version": "v0.5.10",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.10",
-      "published_at": "2026-04-06T04:42:12Z",
-      "body_excerpt": "Highlights Piecewise CUDA Graph Enabled by Default: Piecewise CUDA graph capture is now the default execution mode, reducing memory overhead and improving throughput for models with complex control flow patterns: #16331 Elastic EP for Partial Failure Tolerance: Integrate Elastic NIXL-EP into SGLang, enabling partial failure tolerance for DeepSeek MoE deployments — when a GPU fails, the system redi",
-      "type": "tool"
     }
   ]
 }
