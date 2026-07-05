@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-04T19:21:27Z",
+  "updated_at": "2026-07-05T03:55:36Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9873",
+      "project": "llama-cpp",
+      "version": "b9873",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9873",
+      "published_at": "2026-07-04T21:09:56Z",
+      "body_excerpt": "llama : add guard for K/V rotation input when buffer is unallocated (#25215) llm_graph_input_attn_kv::set_input and llm_graph_input_attn_kv_iswa::set_input call set_input_k_rot / set_input_v_rot whenever the rotation tensor pointer is non-null, but the tensor's buffer can be unallocated (NULL) when a graph only stores K/V without attending -- e.g. DFlash speculative decoding's KV-injection pass. s",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9871",
       "project": "llama-cpp",
