@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-06T15:43:15Z",
+  "updated_at": "2026-07-06T20:04:41Z",
   "releases": [
+    {
+      "id": "localai-v4.6.2",
+      "project": "localai",
+      "version": "v4.6.2",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.6.2",
+      "published_at": "2026-07-06T19:41:52Z",
+      "body_excerpt": "What's Changed 👒 Dependencies chore(deps): bump actions/cache from 4 to 6 by @dependabot[bot] in Other Changes refactor: use slices.Contains to simplify code by @weifanglab in fix(ci): shard single-arch backend matrix under GitHub's 256-job limit by @localai-bot in chore(model gallery): add MiniCPM series models by @ZMXJJ in New Contributors @weifanglab made their first contribution in @ZMXJJ made",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9888",
       "project": "llama-cpp",
@@ -6416,15 +6425,6 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.36-beta",
       "published_at": "2026-04-08T13:18:40Z",
       "body_excerpt": "Hey everyone, we’ve updated Gemma 4 training and quants with many fixes. The bugs are universal and affected all packages and implementations and did NOT originate from Unsloth. We identified the bugs, fixed them, and Gemma 4 training now works properly only in Unsloth. You need 8GB VRAM to train Gemma-4-E2B locally. Unsloth trains Gemma 4 \\~1.5x faster with \\~60% less VRAM than FA2 setups. You ca",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.20.4",
-      "project": "ollama",
-      "version": "v0.20.4",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.4",
-      "published_at": "2026-04-07T17:57:51Z",
-      "body_excerpt": "What's Changed mlx: Improve M5 performance with NAX gemma4: enable flash attention Full Changelog:",
       "type": "tool"
     }
   ]

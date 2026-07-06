@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T15:43:09Z",
+  "updated_at": "2026-07-06T20:04:34Z",
   "items": [
     {
       "id": "huggingface-2026-07-07-lerobot-v060-imagine-evaluate-improve",
@@ -10,6 +10,94 @@
       "summary": "",
       "tags": [
         "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-i-told-gemma-4-12b-q8-0-no-cache-quant-to-write-a-single-fil",
+      "source": "localllama",
+      "title": "I told Gemma 4 12B (Q8_0, no cache quant) to write a single-file 3D bowling simulator in WebGL. It's terrible, but honestly better than I expected.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up78iv/i_told_gemma_4_12b_q8_0_no_cache_quant_to_write_a/",
+      "published_at": "2026-07-06T19:16:51Z",
+      "summary": "      Just sharing some slop. Used opencode as the harness. I know this model isn&#39;t really recommended for coding, but I was just curious how it would handle this at near-lossless Q8_0. It made a couple tool call err",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-got-my-ascent-gx10-two-days-ago-ran-reap-pruned-nvfp4-deepse",
+      "source": "localllama",
+      "title": "Got my Ascent GX10 two days ago, ran REAP-pruned NVFP4 DeepSeek-V4-Flash on a single Spark, and it stays consistent at long context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up6t50/got_my_ascent_gx10_two_days_ago_ran_reappruned/",
+      "published_at": "2026-07-06T19:01:27Z",
+      "summary": "      Got my Ascent GX10 two days ago and spent the last couple of days pushing a REAP-pruned NVFP4 DeepSeek-V4-Flash setup on a single Spark by patching the eugr/spark-vllm-docker image. Credit where it’s due: the REAPs",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-opencomputer-an-open-source-computer-built-for-agents",
+      "source": "localllama",
+      "title": "OpenComputer | An Open Source Computer Built For Agents.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up6swc/opencomputer_an_open_source_computer_built_for/",
+      "published_at": "2026-07-06T19:01:13Z",
+      "summary": "      Open Computer running in an isolated VM with inference running M4 Pro via LM Studio Gemma 4 13B QAT Hey everyone,  Tim from AnythingLLM, where we have been building productive an on-device agent and AI assistant ex",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-impact-of-dual-pcie-5-x8-vs-dual-pcie-5-x16-for-dual-rtx-600",
+      "source": "localllama",
+      "title": "Impact of dual PCIe 5 x8 vs dual PCIe 5 x16 for dual Rtx 6000 pro max-q",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up4d62/impact_of_dual_pcie_5_x8_vs_dual_pcie_5_x16_for/",
+      "published_at": "2026-07-06T17:38:33Z",
+      "summary": "i have an existing system with: Asus ROG MAXIMUS Z790 DARK HERO LGA1700 Intel Core i9-14900K G.Skill Trident Z5 RGB 2x48GB DDR5 6800MHz CL34 (x2, 4 sticks in total), right now im running only 2 sticks. The issue with my ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-ant-group-released-lingbot-vision-dino-family-vision-backbon",
+      "source": "localllama",
+      "title": "Ant Group released LingBot-Vision: DINO-family vision backbones in 4 sizes, and the 0.3B ViT-L matches DINOv3-7B on NYUv2 depth with ~23x fewer params",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up47qv/ant_group_released_lingbotvision_dinofamily/",
+      "published_at": "2026-07-06T17:33:16Z",
+      "summary": "      Weights, all 4 sizes, Apache-2.0 (ViT-S / ViT-B / ViT-L / ViT-g): https://huggingface.co/collections/robbyant/lingbot-vision Code: https://github.com/robbyant/lingbot-vision Project page: https://technology.robbyan",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-thinkingcap-qwen36-27b-same-accuracy-as-base-qwen36-with-50",
+      "source": "localllama",
+      "title": "ThinkingCap-Qwen3.6-27B: same accuracy as base Qwen3.6 with ~50% fewer thinking",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up3mui/thinkingcapqwen3627b_same_accuracy_as_base_qwen36/",
+      "published_at": "2026-07-06T17:13:16Z",
+      "summary": "       We rigorously evaluate the resulting checkpoint across general reasoning, non-reasoning multiple-choice question answering, everyday multi-turn conversations, system prompt adherence, safety, math, code and agenti",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-new-strix-halo-box-gmktec-evo-x3-superior-cooling-to-avoid-t",
+      "source": "localllama",
+      "title": "New strix halo box: GMKtec EVO-X3, superior cooling to avoid thermal throttling, $3,600",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up3eg4/new_strix_halo_box_gmktec_evox3_superior_cooling/",
+      "published_at": "2026-07-06T17:05:12Z",
+      "summary": "https://www.gmktec.com/products/gmktec-evo-x3-ai-mini-pc-amd-ryzen-ai-max-395 Features: USB 4. Adds a dedicated OCuLink port. OCuLink provides a direct, high-speed cable connection to a desktop graphics card, minimizing ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-pulpie-orange-small-pareto-optimal-html-content-extraction",
+      "source": "localllama",
+      "title": "Pulpie Orange Small: Pareto-optimal HTML content extraction",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up38ap/pulpie_orange_small_paretooptimal_html_content/",
+      "published_at": "2026-07-06T16:59:29Z",
+      "summary": "      &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
       ]
     },
     {
@@ -63,94 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoxdp8/ggmlcpu_use_ue4m3_lut_in_arm_nvfp4_dot_product_by/",
       "published_at": "2026-07-06T13:28:33Z",
       "summary": "      Overview This PR extends the UE4M3 lookup table optimization introduced in #23961 to the ARM implementation of the NVFP4 dot product. The ARM implementation now uses the existing GGML_CPU_UE4M3_TO_FP32 lookup table",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-15b-local-models-to-test-on-medical-benchmark",
-      "source": "localllama",
-      "title": "<15B local models to test on medical benchmark?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uowbmv/15b_local_models_to_test_on_medical_benchmark/",
-      "published_at": "2026-07-06T12:45:33Z",
-      "summary": "HI, in a few weeks the medical exam for italian residents will drop, and I would like to compare small models that run on my laptop against it. It would not be a standard benchmark for llms but it would give a sense on h",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-github---kallewooftftf-transforming-transformers----ultra-li",
-      "source": "localllama",
-      "title": "GitHub - kallewoof/tftf: Transforming Transformers -- ultra light-weight pipeline for enormous transformer model manipulation with minimal overhead",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uow9wf/github_kallewooftftf_transforming_transformers/",
-      "published_at": "2026-07-06T12:43:29Z",
-      "summary": "Working with large models that don&#39;t fit in your VRAM+RAM is extremely annoying when you want to do things like LoRA merging or converting between formats, so I started the tftf (transforming transformers) project. T",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-using-codex-instead-of-opencode",
-      "source": "localllama",
-      "title": "Using Codex instead of Opencode",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uouw10/using_codex_instead_of_opencode/",
-      "published_at": "2026-07-06T11:41:42Z",
-      "summary": "Hello everyone, I have spent quite a lot of time trying to make Opencode feel more like Codex (the Windows app), and it got me thinking If I am chasing a &quot;Codex&quot; like experience, is there any reason to use Open",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-new-model-gigachat35-432b-a28b-with-day-0-gguf-support",
-      "source": "localllama",
-      "title": "New model: GigaChat3.5-432B-A28B (with day-0 GGUF support!)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uotkm7/new_model_gigachat35432ba28b_with_day0_gguf/",
-      "published_at": "2026-07-06T10:34:31Z",
-      "summary": "New model from Sberbank:  https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B Base version also available: https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B-base Most important is the&#39;re also made a GGUF version:",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-ggml-hip-enable--ffast-math-for-hip-builds-by-a-huk-pull-req",
-      "source": "localllama",
-      "title": "ggml-hip: enable -ffast-math for HIP builds by a-huk · Pull Request #23862 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoqdxj/ggmlhip_enable_ffastmath_for_hip_builds_by_ahuk/",
-      "published_at": "2026-07-06T07:30:02Z",
-      "summary": "      Benchmarks Benchmarked on gfx1151 (RDNA3.5/Strix Halo, 40 CUs) against latest master (2f6c815). These two models cover both the FA paths. Qwen3.5-27B Q4_K_M — head_dim=256 (TILE path), FA=1, prompt t/s:   pp upstre",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-is-deepseek-v4-flash-really-extremely-cheap-to-run-if-yes-ho",
-      "source": "localllama",
-      "title": "Is DeepSeek v4 (Flash) really extremely cheap to run? If yes, how?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoq1wi/is_deepseek_v4_flash_really_extremely_cheap_to/",
-      "published_at": "2026-07-06T07:09:58Z",
-      "summary": "Hi. I don&#39;t have a GPU. So my biggest &quot;local LLM&quot; experience has been running ~26B models with single-digits tps values.  However, the &quot;serving economy&quot; of DSv4 models look like a riddle to me. Th",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-qwen-gemma-on-deadlock-situation-for-benchmarks-numbers",
-      "source": "localllama",
-      "title": "Qwen & Gemma on deadlock situation (For Benchmarks Numbers)?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoppuz/qwen_gemma_on_deadlock_situation_for_benchmarks/",
-      "published_at": "2026-07-06T06:51:09Z",
-      "summary": "      I have this feeling for sometime. Also noticed few similar tweets online before.  &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-if-trends-hold-sk-hynix-capability-may-be-building-dyson-sph",
-      "source": "localllama",
-      "title": "If trends hold, SK-Hynix capability may be building dyson spheres within ~2 years",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uopgf5/if_trends_hold_skhynix_capability_may_be_building/",
-      "published_at": "2026-07-06T06:36:09Z",
-      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
