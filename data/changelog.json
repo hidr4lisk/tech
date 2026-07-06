@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-07-06T10:47:24Z",
+  "updated_at": "2026-07-06T15:43:15Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9888",
+      "project": "llama-cpp",
+      "version": "b9888",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9888",
+      "published_at": "2026-07-06T14:57:29Z",
+      "body_excerpt": "CUDA: extend K-type validation to V-types for flash attention (#24403) CUDA: extend K-type validation to V-types for flash attention reorder macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9886",
+      "project": "llama-cpp",
+      "version": "b9886",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9886",
+      "published_at": "2026-07-06T11:47:00Z",
+      "body_excerpt": "ggml-cpu: use UE4M3 LUT in ARM NVFP4 dot product (#25331) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9885",
+      "project": "llama-cpp",
+      "version": "b9885",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9885",
+      "published_at": "2026-07-06T11:04:44Z",
+      "body_excerpt": "ggml-cpu: Enable tiled matmul on AIX (#25199) The matmul_tiled path uses large local stack buffers for A_pack and B_pack. On AIX this can trigger a segmentation fault, so reduce the buffer footprint there to keep the tiled path usable. Performance Impact: ~ 2x gains in PP_Speed for FP32, Q4_0 and Q8_0 models tested with llama-bench, llama-batched-bench and llama-cli. Models used: Llama3.2 3b Instr",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.6.1",
+      "project": "localai",
+      "version": "v4.6.1",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.6.1",
+      "published_at": "2026-07-06T10:57:02Z",
+      "body_excerpt": "What's Changed Other Changes fix(auth): log the real cause of OIDC/OAuth user-info failures by @localai-bot in feat(api): add GET /v1/models/capabilities endpoint by @localai-bot in chore: :arrow_up: Update CrispStrobe/CrispASR to by @localai-bot in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in chore(model-gallery): :arrow_up: update checksum by @localai-bot in chore: :arrow_up",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9884",
       "project": "llama-cpp",

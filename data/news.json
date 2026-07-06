@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-07-06T10:47:19Z",
+  "updated_at": "2026-07-06T15:43:09Z",
   "items": [
+    {
+      "id": "huggingface-2026-07-07-lerobot-v060-imagine-evaluate-improve",
+      "source": "huggingface",
+      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+      "url": "https://huggingface.co/blog/lerobot-release-v060",
+      "published_at": "2026-07-07T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-07-06-prx-part-4-our-data-strategy",
+      "source": "huggingface",
+      "title": "PRX Part 4: Our Data Strategy",
+      "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+      "published_at": "2026-07-06T15:30:55Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-kyutais-pocket-tts-clones-a-voice-from-5-seconds-of-audio-on",
+      "source": "localllama",
+      "title": "Kyutai's Pocket TTS clones a voice from 5 seconds of audio, on CPU, under MIT. Benchmarked against Kokoro, Supertonic, and Inflect-Nano for Eng. TTS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up07mk/kyutais_pocket_tts_clones_a_voice_from_5_seconds/",
+      "published_at": "2026-07-06T15:14:18Z",
+      "summary": "      Kyutai dropped Pocket TTS a bit ago and I&#39;ve been sitting on it for a benchmark. Finally ran it head to head against the three CPU TTS models that have been getting attention (Kokoro 82M, Supertonic 3, Inflect-",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-am-i-expecting-too-much",
+      "source": "localllama",
+      "title": "Am I Expecting Too Much?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up01zs/am_i_expecting_too_much/",
+      "published_at": "2026-07-06T15:08:42Z",
+      "summary": "I’ve been trying to get started with local coding help after finding Claude Code really useful but I’m just running into a ton of problems. On my RTX 5090, I’ve been running Qwen 3.6 27B UD_4 at 131K context, no KV quant",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-how-to-handle-frame-deduplication-for-vlms-analyzing-long-vi",
+      "source": "localllama",
+      "title": "How to handle frame deduplication for VLMs? (Analyzing long videos with MiniCPM-V)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoxjty/how_to_handle_frame_deduplication_for_vlms/",
+      "published_at": "2026-07-06T13:35:15Z",
+      "summary": "Hey everyone,  I&#39;m trying to use MiniCPM-V to analyze long react-style videos (where a creator is on-screen commenting on a piece of content, photo, or text shown next to them). Right now, I have the audio side figur",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-ggml-cpu-use-ue4m3-lut-in-arm-nvfp4-dot-product-by-ragz4125",
+      "source": "localllama",
+      "title": "ggml-cpu: use UE4M3 LUT in ARM NVFP4 dot product by ragz4125 · Pull Request #25331 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoxdp8/ggmlcpu_use_ue4m3_lut_in_arm_nvfp4_dot_product_by/",
+      "published_at": "2026-07-06T13:28:33Z",
+      "summary": "      Overview This PR extends the UE4M3 lookup table optimization introduced in #23961 to the ARM implementation of the NVFP4 dot product. The ARM implementation now uses the existing GGML_CPU_UE4M3_TO_FP32 lookup table",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-15b-local-models-to-test-on-medical-benchmark",
+      "source": "localllama",
+      "title": "<15B local models to test on medical benchmark?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uowbmv/15b_local_models_to_test_on_medical_benchmark/",
+      "published_at": "2026-07-06T12:45:33Z",
+      "summary": "HI, in a few weeks the medical exam for italian residents will drop, and I would like to compare small models that run on my laptop against it. It would not be a standard benchmark for llms but it would give a sense on h",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-github---kallewooftftf-transforming-transformers----ultra-li",
+      "source": "localllama",
+      "title": "GitHub - kallewoof/tftf: Transforming Transformers -- ultra light-weight pipeline for enormous transformer model manipulation with minimal overhead",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uow9wf/github_kallewooftftf_transforming_transformers/",
+      "published_at": "2026-07-06T12:43:29Z",
+      "summary": "Working with large models that don&#39;t fit in your VRAM+RAM is extremely annoying when you want to do things like LoRA merging or converting between formats, so I started the tftf (transforming transformers) project. T",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-using-codex-instead-of-opencode",
+      "source": "localllama",
+      "title": "Using Codex instead of Opencode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uouw10/using_codex_instead_of_opencode/",
+      "published_at": "2026-07-06T11:41:42Z",
+      "summary": "Hello everyone, I have spent quite a lot of time trying to make Opencode feel more like Codex (the Windows app), and it got me thinking If I am chasing a &quot;Codex&quot; like experience, is there any reason to use Open",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-06-new-model-gigachat35-432b-a28b-with-day-0-gguf-support",
       "source": "localllama",
@@ -57,17 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-06-new-open-model-from-tencent-hy-hy3-295b-total-21b-active---a",
-      "source": "localllama",
-      "title": "New open model from Tencent Hy: Hy3 (295B total 21B active - apache 2.0)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoozt4/new_open_model_from_tencent_hy_hy3_295b_total_21b/",
-      "published_at": "2026-07-06T06:09:27Z",
-      "summary": "      Collection: https://huggingface.co/collections/tencent/hy3 From elie on 𝕏: https://x.com/eliebakouch/status/2074011171661701466 edit: To clarify: this is the non-preview version of Hy3 and they changed their licens",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-06-sqlite-utils-40rc3",
       "source": "simonw",
       "title": "sqlite-utils 4.0rc3",
@@ -76,72 +164,6 @@
       "summary": "Release: sqlite-utils 4.0rc3\n        I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-as-promised-here-is-the-github-link-for-my-100-local-voice-t",
-      "source": "localllama",
-      "title": "As promised, here is the GitHub link for my 100% local voice-to-voice assistant",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uom9zb/as_promised_here_is_the_github_link_for_my_100/",
-      "published_at": "2026-07-06T03:44:55Z",
-      "summary": "I&#39;ve posted up earlier versions of this project before, promising a GitHub link, but never got around to pushing the code from my local system. Sorry all, I have a very busy life :P Anyway, without further ado: GitHu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-local-llm-for-legal-document-adaptation-keeps-hallucinating",
-      "source": "localllama",
-      "title": "Local LLM for legal-document adaptation keeps hallucinating citations with total confidence — grounding/model/pipeline ideas?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uolb4y/local_llm_for_legaldocument_adaptation_keeps/",
-      "published_at": "2026-07-06T02:57:26Z",
-      "summary": "## Why local is non-negotiable I&#39;m a criminal defense lawyer and the documents I&#39;d feed this contain **client-confidential case material**. Sending real case content to a cloud API isn&#39;t an option for me, so ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-built-a-local-first-video-indexing-pipeline-for-llms-mcp-off",
-      "source": "localllama",
-      "title": "Built a local-first video indexing pipeline for LLMs (MCP + offline)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uojlsg/built_a_localfirst_video_indexing_pipeline_for/",
-      "published_at": "2026-07-06T01:32:04Z",
-      "summary": "I&#39;ve been trying to keep as much of my AI workflow local as possible. One thing I couldn&#39;t find was a good way to work with videos without repeatedly sending them through a multimodal model. My use case is mostly",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-i-wrote-a-gguf-inferencer-from-scratch-ama",
-      "source": "localllama",
-      "title": "I wrote a GGUF inferencer from scratch, AMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoj0um/i_wrote_a_gguf_inferencer_from_scratch_ama/",
-      "published_at": "2026-07-06T01:03:20Z",
-      "summary": "*for a specific model, in the R language. veeery impractical. 60 seconds per token, yum 😋 not vibecoded, I just wanted to learn how the architecture works on our end lmao (and all of karpathy&#39;s guides are outdated 😢)",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-if-trends-hold-mythos-class-capability-may-be-running-on-hig",
-      "source": "localllama",
-      "title": "If trends hold, Mythos-class capability may be running on high-end consumer hardware within ~2 years",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoij3s/if_trends_hold_mythosclass_capability_may_be/",
-      "published_at": "2026-07-06T00:40:32Z",
-      "summary": "      &#32; submitted by &#32;  /u/PetersOdyssey   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-a-community-project-to-build-open-source-models",
-      "source": "localllama",
-      "title": "A community project to build open source models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoiggv/a_community_project_to_build_open_source_models/",
-      "published_at": "2026-07-06T00:37:04Z",
-      "summary": "This is probably a dumb question, but I am going to ask it anyway. In light of open source models getting so popular, the chance any of us have to train a large frontier sized model on our own, at least for most of us, j",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -450,28 +472,6 @@
       "summary": "Smart glasses like the Ray-Ban Meta and Oakley Meta Vanguards need to pack enough energy to power features like cameras, speakers, AI workloads, and even a display. But it all has to fit into the glasses’ temple arms. So",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-23-build-real-agentic-apps-using-cuga-two-dozen-working-example",
-      "source": "huggingface",
-      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "published_at": "2026-06-23T12:51:55Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-23-shipping-huggingface-hub-every-week-with-ai-open-tools-and-a",
-      "source": "huggingface",
-      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "published_at": "2026-06-23T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
