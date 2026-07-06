@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-06T04:01:53Z",
+  "updated_at": "2026-07-06T10:47:24Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9884",
+      "project": "llama-cpp",
+      "version": "b9884",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9884",
+      "published_at": "2026-07-06T09:35:57Z",
+      "body_excerpt": "vulkan: fix 32-bit integer overflow in CEIL_DIV (#25245) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9882",
+      "project": "llama-cpp",
+      "version": "b9882",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9882",
+      "published_at": "2026-07-06T09:01:29Z",
+      "body_excerpt": "scripts : use HF_TOKEN when downloading UI assets (#25280) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9881",
+      "project": "llama-cpp",
+      "version": "b9881",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9881",
+      "published_at": "2026-07-06T08:23:11Z",
+      "body_excerpt": "ggml-hip: enable -ffast-math for HIP builds (#23862) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9878",
       "project": "llama-cpp",
@@ -6362,15 +6389,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.4",
       "published_at": "2026-04-07T17:57:51Z",
       "body_excerpt": "What's Changed mlx: Improve M5 performance with NAX gemma4: enable flash attention Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.20.3",
-      "project": "ollama",
-      "version": "v0.20.3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.3",
-      "published_at": "2026-04-07T05:19:10Z",
-      "body_excerpt": "What's Changed Gemma 4 Tool Calling improvements Added latest models to Ollama App OpenClaw fixes for launching TUI Full Changelog:",
       "type": "tool"
     }
   ]
