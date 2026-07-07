@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-07-07T14:47:46Z",
+  "updated_at": "2026-07-07T20:02:54Z",
   "items": [
+    {
+      "id": "localllama-2026-07-07-i-built-a-tiny-proxy-that-gives-glm-52-vision-or-any-text-ll",
+      "source": "localllama",
+      "title": "I built a tiny proxy that gives GLM 5.2 vision (or any text LLM) – MIT",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq5qqs/i_built_a_tiny_proxy_that_gives_glm_52_vision_or/",
+      "published_at": "2026-07-07T19:43:03Z",
+      "summary": "      VisionBridge lets you give text-only LLMs vision.  It&#39;s tiny OpenAI-compatible proxy that lets reasoning models (DeepSeek, Qwen, GLM…) see images by querying a separate vision model through tools: look, OCR, sc",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-07-sqlite-utils-40-now-with-database-schema-migrations",
+      "source": "simonw",
+      "title": "sqlite-utils 4.0, now with database schema migrations",
+      "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
+      "published_at": "2026-07-07T19:32:57Z",
+      "summary": "This morning I released sqlite-utils 4.0, the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upgra",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-07-glm-52-on-8xb200-the-deployment-math-nobody-spells-out---nvf",
+      "source": "localllama",
+      "title": "GLM-5.2 on 8xB200: the deployment math nobody spells out - NVFP4 + 2x TP=4 replicas should beat TP=8 by ~2x. Full config guidance inside.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq4oeg/glm52_on_8xb200_the_deployment_math_nobody_spells/",
+      "published_at": "2026-07-07T19:06:12Z",
+      "summary": "We have 8xB200 nodes and users keep asking us how to serve GLM-5.2 on them. Our engineering team went through everything published so far, and the optimal config is not the obvious one. Sharing the analysis because most ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-07-local-already-feels-good-enough",
+      "source": "localllama",
+      "title": "local already feels good enough",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq2ouy/local_already_feels_good_enough/",
+      "published_at": "2026-07-07T17:58:34Z",
+      "summary": "This is specifically for coding, technical planning, and hardware setup.  _____ The only times Qwen 3.6 35B A3B has let me down, it has been something that is resolved with a workflow/discipline improvement. If I go thro",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-07-gepard-06b-streaming-tts-built-for-real-time-dialogue---20-r",
+      "source": "localllama",
+      "title": "Gepard : 0.6B streaming TTS built for real-time dialogue - 20× realtime factor, ~50ms time-to-first-audio, vLLM-native, Apache 2.0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq10cw/gepard_06b_streaming_tts_built_for_realtime/",
+      "published_at": "2026-07-07T16:59:30Z",
+      "summary": "      We just open-sourced Gepard 1.0, a TTS model built for real-time conversation. It’s streaming-first: audio starts the moment text arrives, generated frame by frame instead of waiting for a full sentence. - ~555M pa",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-07-i-tested-freshly-merged-dflash-in-llamacpp-on-qwen-36-27b-lo",
+      "source": "localllama",
+      "title": "I tested freshly merged DFlash in llama.cpp on Qwen 3.6 27B Local AI win. 4.44x faster at 36K context. Here are my findings RTX 6000 PRO.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq0h4o/i_tested_freshly_merged_dflash_in_llamacpp_on/",
+      "published_at": "2026-07-07T16:40:32Z",
+      "summary": "      Hey guys, A month ago I posted my MTP benchmarks here (3.34x on Gemma 4). DFlash support just merged into llama.cpp (PR #22105), so I ran it on the same rig with the Qwen 3.6 27B and it beat my best MTP numbers at ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-07-qwen36-27b---effect-of-kv-quantization-on-kld---q8-q6-q5-bar",
+      "source": "localllama",
+      "title": "Qwen3.6-27B - Effect of KV quantization on KLD - Q8, Q6, Q5 (bartowski)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq0fpe/qwen3627b_effect_of_kv_quantization_on_kld_q8_q6/",
+      "published_at": "2026-07-07T16:39:09Z",
+      "summary": "      Lower is better - Quantization increases from right to left I recently made a post here about how I squeezed more context into a Q8 model of bartowski&#39;s Qwen3.6-27B. My reasoning was that in my (anecdotal) expe",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-07-mistralrs-v090-up-to-18x-faster-cpu-decode-than-llamacpp-on",
+      "source": "localllama",
+      "title": "mistral.rs v0.9.0: up to 1.8x faster CPU decode than llama.cpp on x86 and ARM!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upynpt/mistralrs_v090_up_to_18x_faster_cpu_decode_than/",
+      "published_at": "2026-07-07T15:36:05Z",
+      "summary": "      https://preview.redd.it/nuk5rxceptbh1.png?width=1448&amp;format=png&amp;auto=webp&amp;s=300344dd4c6552379e8536b81ba288be3d6dca3f On Qwen3 4B Q4_K, mistral.rs decodes faster than llama.cpp at every context depth we ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-07-07-hugging-face-models-on-foundry-managed-compute",
+      "source": "huggingface",
+      "title": "Hugging Face Models on Foundry Managed Compute",
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "published_at": "2026-07-07T15:20:06Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-07-i-tested-anthropics-new-jacobian-lens-on-open-models-then-it",
+      "source": "localllama",
+      "title": "I tested Anthropic’s new Jacobian Lens on open models, then it turned into a local-model hallucination router",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upy31x/i_tested_anthropics_new_jacobian_lens_on_open/",
+      "published_at": "2026-07-07T15:15:59Z",
+      "summary": "      Anthropic dropped their Global Workspace / Jacobian Lens paper yesterday, and I thought it was too cool not to try on open models. At first I was just curious what models looked like inside. Normal prompts, emotion",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-07-liquid-ai---antidoom-the-doom-loop-remover",
+      "source": "localllama",
+      "title": "Liquid AI - Antidoom (the doom loop remover)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upxqq0/liquid_ai_antidoom_the_doom_loop_remover/",
+      "published_at": "2026-07-07T15:04:04Z",
+      "summary": "https://x.com/liquidai/status/2074494130126811473 Today we release Antidoom, an open-source method that removes a common failure mode in reasoning models: the doom loop. Doom-loop rates before and after, with eval scores",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-07-beijing-is-not-looking-at-curbing-overseas-access-to-chinas",
       "source": "localllama",
@@ -35,109 +156,21 @@
       ]
     },
     {
-      "id": "localllama-2026-07-07-chinese-ai-models-are-gaining-ground-with-us-companies-as-op",
-      "source": "localllama",
-      "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upsezw/chinese_ai_models_are_gaining_ground_with_us/",
-      "published_at": "2026-07-07T11:34:48Z",
-      "summary": "      &#32; submitted by &#32;  /u/pscoutou   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-07-nvidianvidia-nemotron-labs-3-puzzle-75b-a9b-bf16-hugging-fac",
-      "source": "localllama",
-      "title": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16 · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upsdmi/nvidianvidianemotronlabs3puzzle75ba9bbf16_hugging/",
-      "published_at": "2026-07-07T11:32:56Z",
-      "summary": "      Nemotron-Labs-3-Puzzle-75B-A9B is a deployment-optimized large language model developed by NVIDIA, derived from Nemotron-3-Super-120B-A12B. The model is produced using Iterative Puzzle, a post-training compression ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-07-are-there-any-local-asr-models-that-surpass-whisper-right-no",
-      "source": "localllama",
-      "title": "Are there any local ASR models that surpass Whisper right now?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ups1c8/are_there_any_local_asr_models_that_surpass/",
-      "published_at": "2026-07-07T11:16:30Z",
-      "summary": "Hey everyone, I&#39;m currently using faster-whisper(medium/large turbo) for local speech recognition, running it on an 8GB VRAM GPU. It works great, but I was wondering if there are any new open-source/local models that",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-07-beijing-is-looking-at-curbing-overseas-access-to-chinas-top",
-      "source": "localllama",
-      "title": "Beijing is looking at curbing overseas access to China's top AI models (Reuters)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uprmso/beijing_is_looking_at_curbing_overseas_access_to/",
-      "published_at": "2026-07-07T10:56:27Z",
-      "summary": "      Reuters: Beijing is looking at curbing overseas access to China&#39;s top AI models, sources say: https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-07-gemma-4-technical-report",
-      "source": "localllama",
-      "title": "Gemma 4 Technical Report",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uprjf3/gemma_4_technical_report/",
-      "published_at": "2026-07-07T10:51:32Z",
-      "summary": "      https://arxiv.org/pdf/2607.02770  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-07-laravel-dev-running-qwen-36-35b-a3bdo-we-really-need-all-the",
-      "source": "localllama",
-      "title": "Laravel dev running Qwen 3.6 35B A3B—do we really need all these languages?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uprb5c/laravel_dev_running_qwen_36_35b_a3bdo_we_really/",
-      "published_at": "2026-07-07T10:39:53Z",
-      "summary": "I run Qwen3.6-35B-A3B daily for Laravel + Vue full-stack work, and it genuinely bugs me that a 20GB+ model spends weights on French, Chinese, Spanish—languages I will never prompt in. My variables are $user, $product, $o",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-07-trained-a-117m-parameters-silia-model-on-an-h100-in-5-hours",
-      "source": "localllama",
-      "title": "Trained a 117M parameters Silia model on an H100 in 5 hours.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upqmjt/trained_a_117m_parameters_silia_model_on_an_h100/",
-      "published_at": "2026-07-07T10:03:50Z",
-      "summary": "About a month ago I posted my very first paper about my custom Silia architecture here https://www.reddit.com/r/LocalLLaMA/s/J19Qi4NXeJ With the help of Ok-Internal9317 who decided to sponsor the paper with compute I was",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-07-koder-browser-ui-based-harness-for-coding-and-computer-use",
-      "source": "localllama",
-      "title": "Koder: browser UI based harness for coding and computer use",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upqbqz/koder_browser_ui_based_harness_for_coding_and/",
-      "published_at": "2026-07-07T09:47:30Z",
-      "summary": "Warning: Incoming self-promotion of 11-weeks worth (1300 commits) of AI vibe-coding. I&#39;ll take the down-votes if they come - and I&#39;ll understand since it&#39;s pouring in with projects nowadays, but I thought I&#",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-07-paper-how-much-do-language-models-memorize",
-      "source": "localllama",
-      "title": "[Paper] How much do language models memorize?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upq1rc/paper_how_much_do_language_models_memorize/",
-      "published_at": "2026-07-07T09:32:09Z",
-      "summary": "       We propose a new method for estimating how much a model knows about a datapoint and use it to measure the capacity of modern language models. Prior studies of language model memorization have struggled to disentan",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-07-lerobot-v060-imagine-evaluate-improve",
       "source": "huggingface",
       "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
       "url": "https://huggingface.co/blog/lerobot-release-v060",
+      "published_at": "2026-07-07T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-07-07-run-ai-workloads-on-any-cloud-store-on-hugging-face-zero-egr",
+      "source": "huggingface",
+      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+      "url": "https://huggingface.co/blog/skypilot-hf-storage",
       "published_at": "2026-07-07T00:00:00Z",
       "summary": "",
       "tags": [
@@ -288,17 +321,6 @@
       ]
     },
     {
-      "id": "simonw-2026-07-02-understand-to-participate",
-      "source": "simonw",
-      "title": "Understand to participate",
-      "url": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
-      "published_at": "2026-07-02T17:07:14Z",
-      "summary": "I saw Geoffrey Litt speak at AIE yesterday, and one framing he used particularly resonated with me:\nUnderstand to participate\nGeoffrey was talking about the challenge of collaborating with coding agents as they construct",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "meta-2026-07-01-metas-ai-storage-blueprint-at-scale",
       "source": "meta",
       "title": "Meta’s AI Storage Blueprint at Scale",
@@ -431,17 +453,6 @@
       ]
     },
     {
-      "id": "huggingface-2026-06-24-accelerating-transformers-fine-tuning-with-nvidia-nemo-autom",
-      "source": "huggingface",
-      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "published_at": "2026-06-24T16:00:13Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "microsoft-2026-06-24-talos-scaling-rare-disease-diagnosis-with-automated-iterativ",
       "source": "microsoft",
       "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
@@ -450,17 +461,6 @@
       "summary": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert rev",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-24-introducing-the-ffasr-leaderboard-benchmarking-asr-in-the-re",
-      "source": "huggingface",
-      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
-      "url": "https://huggingface.co/blog/ffasr-leaderboard",
-      "published_at": "2026-06-24T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
