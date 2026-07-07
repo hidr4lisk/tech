@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-07T03:53:01Z",
+  "updated_at": "2026-07-07T09:51:11Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9895",
+      "project": "llama-cpp",
+      "version": "b9895",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9895",
+      "published_at": "2026-07-07T09:36:32Z",
+      "body_excerpt": "speculative : fix out-of-bounds read in ngram-map on prompt shrink (#23936) speculative : fix out-of-bounds read in ngram-map on prompt shrink speculative : fix ngram-map cleanup cutoff after prompt shrink macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9894",
+      "project": "llama-cpp",
+      "version": "b9894",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9894",
+      "published_at": "2026-07-07T05:30:42Z",
+      "body_excerpt": "vulkan : check src0 type in GGML_OP_SET_ROWS to avoid failures due to unimplemented f16 support (#25351) vulkan : check src0 type in GGML_OP_SET_ROWS to avoid failures due to unimplemented f16 support chore : get rid of else --------- Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Li",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9893",
       "project": "llama-cpp",
