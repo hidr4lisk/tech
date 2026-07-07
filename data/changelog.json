@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-06T20:04:41Z",
+  "updated_at": "2026-07-07T03:53:01Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9893",
+      "project": "llama-cpp",
+      "version": "b9893",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9893",
+      "published_at": "2026-07-07T03:38:16Z",
+      "body_excerpt": "opencl: general flash attention decode performance optimizations (#25366) opencl: vec flash-attention decode kernels for f16/q8_0/q4_0 KV opencl: improve non FA KQ mv kernels opencl: tweaks for multiquery FA opencl: some tweaks for FA q1 kernels opencl: FA with DK=DV=512 for gemma-4 opencl: various fixes opencl: cleanup opencl: fix FA decode crash for DK=512 (gemma-4) The DK=512 decode-only progra",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.31.2-rc1",
+      "project": "ollama",
+      "version": "v0.31.2-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1",
+      "published_at": "2026-07-06T22:28:22Z",
+      "body_excerpt": "What's Changed ci: avoid unbounded parallelism by @dhiltgen in fix cuda toolkit lookup and parallel by @MarkWard0110 in docs(cloud): update retirement list by @mxyng in discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in agent: harness core by @ParthSareen in llama: clean up dead code from llama-server work by @dhiltgen in rocm: remove no longer supported de",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9892",
+      "project": "llama-cpp",
+      "version": "b9892",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9892",
+      "published_at": "2026-07-06T22:05:59Z",
+      "body_excerpt": "common: Set optimal default thread count for ppc ( linux as well as AIX) (#25237) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9891",
+      "project": "llama-cpp",
+      "version": "b9891",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9891",
+      "published_at": "2026-07-06T21:23:00Z",
+      "body_excerpt": "metal: add col2im_1d op (f32/f16/bf16) (#25176) metal: add col2im_1d op (f32/f16/bf16) Gather kernel mirroring the CPU/CUDA path: each output (t_out, oc) reads its ceil(K/s0) source columns with an F32 accumulator, a single write and no atomics. One thread per output element, 256 per threadgroup. metal: check dst contiguity and type match in supports_op for COL2IM_1D Align the GGML_OP_COL2IM_1D pr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9890",
+      "project": "llama-cpp",
+      "version": "b9890",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9890",
+      "published_at": "2026-07-06T20:45:35Z",
+      "body_excerpt": "CUDA: remove -sm row, refactor cuBLAS (#24216) CUDA: remove -sm row, refactor cuBLAS fix CDNA + BF16 logic fix bad return fix src0 strides, contiguous requirements fix GGML_CUDA_FORCE_CUBLAS fix casts to BF16 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) U",
+      "type": "tool"
+    },
     {
       "id": "localai-v4.6.2",
       "project": "localai",
@@ -9,6 +54,24 @@
       "published_at": "2026-07-06T19:41:52Z",
       "body_excerpt": "What's Changed 👒 Dependencies chore(deps): bump actions/cache from 4 to 6 by @dependabot[bot] in Other Changes refactor: use slices.Contains to simplify code by @weifanglab in fix(ci): shard single-arch backend matrix under GitHub's 256-job limit by @localai-bot in chore(model gallery): add MiniCPM series models by @ZMXJJ in New Contributors @weifanglab made their first contribution in @ZMXJJ made",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-Labs-Audex-2B",
+      "project": "nvidia",
+      "version": "Nemotron-Labs-Audex-2B",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B",
+      "published_at": "2026-07-06T16:21:07Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-Labs-Audex-30B-A3B",
+      "project": "nvidia",
+      "version": "Nemotron-Labs-Audex-30B-A3B",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B",
+      "published_at": "2026-07-06T16:20:28Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9888",

@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-07-06T20:04:34Z",
+  "updated_at": "2026-07-07T03:52:54Z",
   "items": [
+    {
+      "id": "localllama-2026-07-07-a-hippocampus-for-linear-attention-an-exact-memory-for-what",
+      "source": "localllama",
+      "title": "A Hippocampus for Linear Attention: An Exact Memory for What the Recurrent State Forgets",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upjq05/a_hippocampus_for_linear_attention_an_exact/",
+      "published_at": "2026-07-07T03:46:12Z",
+      "summary": "      Linear-attention and state-space language models compress the prefix into a fixed-size recurrent state, yielding O(1) memory at the cost of a lossy exact memory: when many key--value associations compete, earlier f",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-07-update-i-built-a-tool-to-turn-your-claude-code-sessions-into",
+      "source": "localllama",
+      "title": "UPDATE: I built a tool to turn your Claude Code sessions into fine-tuning data for local models (You can now convert your Codex and Pi sessions)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upjgqs/update_i_built_a_tool_to_turn_your_claude_code/",
+      "published_at": "2026-07-07T03:33:30Z",
+      "summary": "A few days ago I shared this resource I created to convert your Claude Code sessions into training data (Thank you so much for all the support :D ): Original Post Today I&#39;m sharing that I just released version 1.5.0,",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-07-qwen-36-27b-absolutely-fails-at-agentic-work",
+      "source": "localllama",
+      "title": "Qwen 3.6 27B absolutely fails at agentic work",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uphzhj/qwen_36_27b_absolutely_fails_at_agentic_work/",
+      "published_at": "2026-07-07T02:24:42Z",
+      "summary": "I have been running Qwen 3.5 122B at 4 bit for quite a while, and have started running it at 5 bit recently now that Llama.cpp has comparable performance to VLLM. I have also tried, several times, to use Qwen 3.6 27B at ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-07-running-gemini-nano-locally",
+      "source": "localllama",
+      "title": "Running Gemini nano locally.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uph9hb/running_gemini_nano_locally/",
+      "published_at": "2026-07-07T01:52:47Z",
+      "summary": "You know that chrome lately downloads a local model (Gemini Nano). Which probably is a gemma vision quantized model. I tested it inside the browser, but I wonder, how could I load the &quot;weights.bin&quot; file from a ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-07-late-to-the-party-but-holy-mtp",
+      "source": "localllama",
+      "title": "Late to the party but... Holy MTP",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upezt0/late_to_the_party_but_holy_mtp/",
+      "published_at": "2026-07-07T00:10:55Z",
+      "summary": "Just ran Qwen 3.6 27B using MTP for the first time. Doubled my t/s. Wow. That is all. I&#39;m going to go look for abliterated MTP models now.  &#32; submitted by &#32;  /u/UniqueIdentifier00   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "huggingface-2026-07-07-lerobot-v060-imagine-evaluate-improve",
       "source": "huggingface",
@@ -10,6 +65,61 @@
       "summary": "",
       "tags": [
         "huggingface"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-06-tencenthy3",
+      "source": "simonw",
+      "title": "tencent/Hy3",
+      "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
+      "published_at": "2026-07-06T23:57:35Z",
+      "summary": "tencent/Hy3\nNew Apache 2.0 licensed model from Tencent in China:\n\nHy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Followi",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-local-models-big-context-slow-how-are-you-orchestrating-map",
+      "source": "localllama",
+      "title": "Local models + big context = slow. How are you orchestrating \"map-reduce\" style agent workflows?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upatna/local_models_big_context_slow_how_are_you/",
+      "published_at": "2026-07-06T21:28:39Z",
+      "summary": "I tried running local models (qwen3.6*, ds4 flash, gemma4*, etc) on my mbp pro m5 with 128Gb of unified memory and concluded the bottleneck is context size. The moment a conversation gets long (16k is already the bottlen",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-blower-5060-tis-from-alibaba-good-idea",
+      "source": "localllama",
+      "title": "Blower 5060 Ti's from Alibaba, good idea?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upak6s/blower_5060_tis_from_alibaba_good_idea/",
+      "published_at": "2026-07-06T21:18:53Z",
+      "summary": "      Asking price is 580 USD on Alibaba, maybe stacking a few of these together for a &quot;power-efficient&quot; system is a good idea? They have 8 pin connectors as usual. I&#39;m aware the 3080 20GB exists for 500 US",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-prefill-vs-decoding-and-local-llm-roi-is-prefill-underrated",
+      "source": "localllama",
+      "title": "Prefill vs. decoding and local LLM ROI: is prefill underrated?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up9054/prefill_vs_decoding_and_local_llm_roi_is_prefill/",
+      "published_at": "2026-07-06T20:20:52Z",
+      "summary": "      I&#39;m trying to understand why, when people discuss the ROI of running LLMs locally, they almost always focus on output speed (decoding) and rarely on input speed (prefill), which seems like it could have a signi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-06-the-cyber-shelf---4x-16gb-home-lab",
+      "source": "localllama",
+      "title": "The cyber shelf - 4x 16gb home lab",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up8kdi/the_cyber_shelf_4x_16gb_home_lab/",
+      "published_at": "2026-07-06T20:05:08Z",
+      "summary": "      Been a long time lurker of this subreddit, learned a whole lot from here and Gemini. I&#39;ve finally got my rig somewhere I feel I could share. Lot of people talk about racks for their home lab but all I managed w",
+      "tags": [
+        "localllama"
       ]
     },
     {
@@ -46,61 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-06-impact-of-dual-pcie-5-x8-vs-dual-pcie-5-x16-for-dual-rtx-600",
-      "source": "localllama",
-      "title": "Impact of dual PCIe 5 x8 vs dual PCIe 5 x16 for dual Rtx 6000 pro max-q",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up4d62/impact_of_dual_pcie_5_x8_vs_dual_pcie_5_x16_for/",
-      "published_at": "2026-07-06T17:38:33Z",
-      "summary": "i have an existing system with: Asus ROG MAXIMUS Z790 DARK HERO LGA1700 Intel Core i9-14900K G.Skill Trident Z5 RGB 2x48GB DDR5 6800MHz CL34 (x2, 4 sticks in total), right now im running only 2 sticks. The issue with my ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-ant-group-released-lingbot-vision-dino-family-vision-backbon",
-      "source": "localllama",
-      "title": "Ant Group released LingBot-Vision: DINO-family vision backbones in 4 sizes, and the 0.3B ViT-L matches DINOv3-7B on NYUv2 depth with ~23x fewer params",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up47qv/ant_group_released_lingbotvision_dinofamily/",
-      "published_at": "2026-07-06T17:33:16Z",
-      "summary": "      Weights, all 4 sizes, Apache-2.0 (ViT-S / ViT-B / ViT-L / ViT-g): https://huggingface.co/collections/robbyant/lingbot-vision Code: https://github.com/robbyant/lingbot-vision Project page: https://technology.robbyan",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-thinkingcap-qwen36-27b-same-accuracy-as-base-qwen36-with-50",
-      "source": "localllama",
-      "title": "ThinkingCap-Qwen3.6-27B: same accuracy as base Qwen3.6 with ~50% fewer thinking",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up3mui/thinkingcapqwen3627b_same_accuracy_as_base_qwen36/",
-      "published_at": "2026-07-06T17:13:16Z",
-      "summary": "       We rigorously evaluate the resulting checkpoint across general reasoning, non-reasoning multiple-choice question answering, everyday multi-turn conversations, system prompt adherence, safety, math, code and agenti",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-new-strix-halo-box-gmktec-evo-x3-superior-cooling-to-avoid-t",
-      "source": "localllama",
-      "title": "New strix halo box: GMKtec EVO-X3, superior cooling to avoid thermal throttling, $3,600",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up3eg4/new_strix_halo_box_gmktec_evox3_superior_cooling/",
-      "published_at": "2026-07-06T17:05:12Z",
-      "summary": "https://www.gmktec.com/products/gmktec-evo-x3-ai-mini-pc-amd-ryzen-ai-max-395 Features: USB 4. Adds a dedicated OCuLink port. OCuLink provides a direct, high-speed cable connection to a desktop graphics card, minimizing ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-pulpie-orange-small-pareto-optimal-html-content-extraction",
-      "source": "localllama",
-      "title": "Pulpie Orange Small: Pareto-optimal HTML content extraction",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up38ap/pulpie_orange_small_paretooptimal_html_content/",
-      "published_at": "2026-07-06T16:59:29Z",
-      "summary": "      &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-06-prx-part-4-our-data-strategy",
       "source": "huggingface",
       "title": "PRX Part 4: Our Data Strategy",
@@ -109,50 +164,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-kyutais-pocket-tts-clones-a-voice-from-5-seconds-of-audio-on",
-      "source": "localllama",
-      "title": "Kyutai's Pocket TTS clones a voice from 5 seconds of audio, on CPU, under MIT. Benchmarked against Kokoro, Supertonic, and Inflect-Nano for Eng. TTS",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up07mk/kyutais_pocket_tts_clones_a_voice_from_5_seconds/",
-      "published_at": "2026-07-06T15:14:18Z",
-      "summary": "      Kyutai dropped Pocket TTS a bit ago and I&#39;ve been sitting on it for a benchmark. Finally ran it head to head against the three CPU TTS models that have been getting attention (Kokoro 82M, Supertonic 3, Inflect-",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-am-i-expecting-too-much",
-      "source": "localllama",
-      "title": "Am I Expecting Too Much?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up01zs/am_i_expecting_too_much/",
-      "published_at": "2026-07-06T15:08:42Z",
-      "summary": "I’ve been trying to get started with local coding help after finding Claude Code really useful but I’m just running into a ton of problems. On my RTX 5090, I’ve been running Qwen 3.6 27B UD_4 at 131K context, no KV quant",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-how-to-handle-frame-deduplication-for-vlms-analyzing-long-vi",
-      "source": "localllama",
-      "title": "How to handle frame deduplication for VLMs? (Analyzing long videos with MiniCPM-V)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoxjty/how_to_handle_frame_deduplication_for_vlms/",
-      "published_at": "2026-07-06T13:35:15Z",
-      "summary": "Hey everyone,  I&#39;m trying to use MiniCPM-V to analyze long react-style videos (where a creator is on-screen commenting on a piece of content, photo, or text shown next to them). Right now, I have the audio side figur",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-06-ggml-cpu-use-ue4m3-lut-in-arm-nvfp4-dot-product-by-ragz4125",
-      "source": "localllama",
-      "title": "ggml-cpu: use UE4M3 LUT in ARM NVFP4 dot product by ragz4125 · Pull Request #25331 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoxdp8/ggmlcpu_use_ue4m3_lut_in_arm_nvfp4_dot_product_by/",
-      "published_at": "2026-07-06T13:28:33Z",
-      "summary": "      Overview This PR extends the UE4M3 lookup table optimization introduced in #23961 to the ARM implementation of the NVFP4 dot product. The ARM implementation now uses the existing GGML_CPU_UE4M3_TO_FP32 lookup table",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -307,17 +318,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-06-30-quoting-anthropic",
-      "source": "simonw",
-      "title": "Quoting Anthropic",
-      "url": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
-      "published_at": "2026-06-30T23:58:15Z",
-      "summary": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.\nWe'll begin restoring access tomorrow, and will share an update soon.\n&mdash; Anthropic, on Twitter\n\n    Ta",
-      "tags": [
-        "simonw"
       ]
     },
     {
