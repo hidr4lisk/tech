@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-07T09:51:11Z",
+  "updated_at": "2026-07-07T14:47:52Z",
   "releases": [
+    {
+      "id": "unsloth-v0.1.48-beta",
+      "project": "unsloth",
+      "version": "v0.1.48-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.48-beta",
+      "published_at": "2026-07-07T14:43:29Z",
+      "body_excerpt": "Unsloth Studio can now export to NVFP4, FP8, imatrix GGUFs after training, can act as a llama-swap API system, includes Japanese and Brazilian language support, includes MLX, safetensors tool calling + healing support and much more! Unsloth core makes GRPO 1.3x faster, have HTTP fallback for stalled downloads, make MoE training 3 to 5x faster, and fixes many bugs! This release series uses . Smarte",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9898",
+      "project": "llama-cpp",
+      "version": "b9898",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9898",
+      "published_at": "2026-07-07T14:18:45Z",
+      "body_excerpt": "sycl : use sycl func to fix AOT double type issue (#25081) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9897",
+      "project": "llama-cpp",
+      "version": "b9897",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9897",
+      "published_at": "2026-07-07T13:21:38Z",
+      "body_excerpt": "sycl : rename the env vars from \"disable\" to \"enable\" (#25042) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9895",
       "project": "llama-cpp",
@@ -1168,6 +1195,33 @@
       "version": "OlmoEarth-v1_2-Nano",
       "url": "https://huggingface.co/allenai/OlmoEarth-v1_2-Nano",
       "published_at": "2026-06-24T16:10:21Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
+      "published_at": "2026-06-24T15:33:18Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+      "published_at": "2026-06-24T15:32:34Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+      "published_at": "2026-06-24T15:31:37Z",
       "body_excerpt": "",
       "type": "model"
     },
@@ -6497,15 +6551,6 @@
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.10.post1",
       "published_at": "2026-04-09T03:21:07Z",
       "body_excerpt": "6.7.post2 to v0.6.7.post3 to resolve an issue in its jit cubin downloader.",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.36-beta",
-      "project": "unsloth",
-      "version": "v0.1.36-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.36-beta",
-      "published_at": "2026-04-08T13:18:40Z",
-      "body_excerpt": "Hey everyone, we’ve updated Gemma 4 training and quants with many fixes. The bugs are universal and affected all packages and implementations and did NOT originate from Unsloth. We identified the bugs, fixed them, and Gemma 4 training now works properly only in Unsloth. You need 8GB VRAM to train Gemma-4-E2B locally. Unsloth trains Gemma 4 \\~1.5x faster with \\~60% less VRAM than FA2 setups. You ca",
       "type": "tool"
     }
   ]
