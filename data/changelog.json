@@ -1,13 +1,40 @@
 {
-  "updated_at": "2026-07-07T14:47:52Z",
+  "updated_at": "2026-07-07T20:03:00Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9902",
+      "project": "llama-cpp",
+      "version": "b9902",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9902",
+      "published_at": "2026-07-07T17:15:46Z",
+      "body_excerpt": "[SYCL] support OP cross_entropy_loss, cross_entropy_loss_back (#25236) support OP cross_entropy_loss, cross_entropy_loss_back correct format issue macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9901",
+      "project": "llama-cpp",
+      "version": "b9901",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9901",
+      "published_at": "2026-07-07T16:41:39Z",
+      "body_excerpt": "sycl : set K_QUANTS_PER_ITERATION to 1 on DMMV path (#25063) sycl: add supported types to ggml_sycl_supports_reorder_dmmv The reordered feature is implemented in ggml_sycl_op_dequantize_mul_mat_vec, but gated by ggml_sycl_supports_reorder_dmmv. This commit fixes the gate. Signed-off-by: Todd Malsbary sycl: set K_QUANTS_PER_ITERATION=1 to improve utilization When combined with opening the reorder g",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9899",
+      "project": "llama-cpp",
+      "version": "b9899",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9899",
+      "published_at": "2026-07-07T15:19:10Z",
+      "body_excerpt": "sycl : enhance argsort to support all UT cases (#25125) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
+      "type": "tool"
+    },
     {
       "id": "unsloth-v0.1.48-beta",
       "project": "unsloth",
       "version": "v0.1.48-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.48-beta",
       "published_at": "2026-07-07T14:43:29Z",
-      "body_excerpt": "Unsloth Studio can now export to NVFP4, FP8, imatrix GGUFs after training, can act as a llama-swap API system, includes Japanese and Brazilian language support, includes MLX, safetensors tool calling + healing support and much more! Unsloth core makes GRPO 1.3x faster, have HTTP fallback for stalled downloads, make MoE training 3 to 5x faster, and fixes many bugs! This release series uses . Smarte",
+      "body_excerpt": "Unsloth Studio can now export to NVFP4, FP8, imatrix GGUFs after training, can act as a llama-swap API system, includes Japanese and Brazilian language support, includes MLX, safetensors tool calling + healing support and much more! Unsloth core makes GRPO 1.3x faster, have HTTP fallback for stalled downloads, better offline mode, makes MoE training 3 to 5x faster, and fixes many bugs! This releas",
       "type": "tool"
     },
     {
