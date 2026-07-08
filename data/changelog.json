@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-07-07T20:03:00Z",
+  "updated_at": "2026-07-08T03:19:53Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9908",
+      "project": "llama-cpp",
+      "version": "b9908",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9908",
+      "published_at": "2026-07-08T02:53:37Z",
+      "body_excerpt": "server: enforce prompt cache RAM limit (#25070) Before this commit, --cache-ram was not a hard limit: The cache always kept at least one entry, even if that entry exceeded the RAM/token limits. Old entries were only evicted for the RAM/token limits after saving the new one, which could cause the cache to temporarily exceed the RAM/token limits even if individual entries were below the limit. Now, ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9907",
+      "project": "llama-cpp",
+      "version": "b9907",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9907",
+      "published_at": "2026-07-08T02:22:07Z",
+      "body_excerpt": "common : add missing include in common.h (#25220) Signed-off-by: zhangrunda macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9906",
+      "project": "llama-cpp",
+      "version": "b9906",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9906",
+      "published_at": "2026-07-08T01:49:38Z",
+      "body_excerpt": "ggml-hip : add -fno-finite-math-only alongside -ffast-math (#25373) -ffast-math implies -ffinite-math-only under ROCm/clang 22, which disables INFINITY/NaN and triggers -Wnan-infinity-disabled (errors under -Werror in CI). Re-enable infinity handling without dropping the rest of fast-math. Fixes #25361 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED ma",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9905",
+      "project": "llama-cpp",
+      "version": "b9905",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9905",
+      "published_at": "2026-07-08T00:23:39Z",
+      "body_excerpt": "llama: fix quantized kv-cache for dsv4 (#25202) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) W",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9904",
+      "project": "llama-cpp",
+      "version": "b9904",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9904",
+      "published_at": "2026-07-07T23:49:10Z",
+      "body_excerpt": "[SYCL] fix unsupported UT cases of CONT & CPY (#25231) fix unsupported UT cases of CONT & CPY update ops.md rm unused head file macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVI",
+      "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-CWIP-1.0",
+      "project": "nvidia",
+      "version": "CWIP-1.0",
+      "url": "https://huggingface.co/nvidia/CWIP-1.0",
+      "published_at": "2026-07-07T20:57:08Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b9902",
       "project": "llama-cpp",
@@ -92,6 +146,15 @@
       "type": "tool"
     },
     {
+      "id": "ollama-v0.31.2-rc2",
+      "project": "ollama",
+      "version": "v0.31.2-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2",
+      "published_at": "2026-07-06T22:28:22Z",
+      "body_excerpt": "What's Changed ci: avoid unbounded parallelism by @dhiltgen in fix cuda toolkit lookup and parallel by @MarkWard0110 in docs(cloud): update retirement list by @mxyng in discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in agent: harness core by @ParthSareen in llama: clean up dead code from llama-server work by @dhiltgen in rocm: remove no longer supported de",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b9892",
       "project": "llama-cpp",
       "version": "b9892",
@@ -117,6 +180,15 @@
       "published_at": "2026-07-06T20:45:35Z",
       "body_excerpt": "CUDA: remove -sm row, refactor cuBLAS (#24216) CUDA: remove -sm row, refactor cuBLAS fix CDNA + BF16 logic fix bad return fix src0 strides, contiguous requirements fix GGML_CUDA_FORCE_CUBLAS fix casts to BF16 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) U",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Kimi-K2.7-Code-NVFP4",
+      "project": "nvidia",
+      "version": "Kimi-K2.7-Code-NVFP4",
+      "url": "https://huggingface.co/nvidia/Kimi-K2.7-Code-NVFP4",
+      "published_at": "2026-07-06T19:47:06Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "localai-v4.6.2",
@@ -394,6 +466,24 @@
       "version": "HARC-Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/microsoft/HARC-Llama-3.1-8B-Instruct",
       "published_at": "2026-07-02T05:50:14Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-swash-3b-a600m",
+      "project": "ibm-granite",
+      "version": "granite-swash-3b-a600m",
+      "url": "https://huggingface.co/ibm-granite/granite-swash-3b-a600m",
+      "published_at": "2026-07-01T21:35:20Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-swash-2b",
+      "project": "ibm-granite",
+      "version": "granite-swash-2b",
+      "url": "https://huggingface.co/ibm-granite/granite-swash-2b",
+      "published_at": "2026-07-01T21:29:03Z",
       "body_excerpt": "",
       "type": "model"
     },
