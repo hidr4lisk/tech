@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-07-08T03:19:46Z",
+  "updated_at": "2026-07-08T08:36:41Z",
   "items": [
+    {
+      "id": "localllama-2026-07-08-literature-review-llm-inference-at-the-edge-mobile-npu-and-g",
+      "source": "localllama",
+      "title": "Literature Review: LLM Inference at the Edge: Mobile, NPU, and GPU Performance Efficiency Trade-offs Under Sustained Load | Bnechmarking LLMs on Phones [R]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqmbv7/literature_review_llm_inference_at_the_edge/",
+      "published_at": "2026-07-08T08:09:32Z",
+      "summary": "      Just finished reading the paper: LLM Inference at the Edge: Mobile, NPU, and GPU Performance Efficiency Trade-offs Under Sustained Load I am starting to benchmark LLMs on edge devices, particularly phones thus been",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-08-introducing-horus-hiero-a-hieroglyphic-language-translation",
+      "source": "localllama",
+      "title": "Introducing Horus Hiero | A Hieroglyphic Language Translation Model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqk69n/introducing_horus_hiero_a_hieroglyphic_language/",
+      "published_at": "2026-07-08T06:06:08Z",
+      "summary": "      Our new open-source AI model for Ancient Egyptian hieroglyph translation. Available in two versions:  Horus Hiero 9B Horus Hiero Mini 4B (optimized for CPUs and mobile devices)  Built on Qwen 3.5, Horus Hiero suppo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-08-what-is-the-current-memory-meta",
+      "source": "localllama",
+      "title": "What is the current Memory Meta?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqfh7r/what_is_the_current_memory_meta/",
+      "published_at": "2026-07-08T02:11:18Z",
+      "summary": "Hey guys, Despite browsing this sub, and the myriad of other LLM reddits, I feel no closer to understanding what the best memory system is these days. I doubt this problem is &quot;solved&quot; by any means, but surely i",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-08-i-need-an-adult-j-space-aware-pruningmergingdistillation",
       "source": "localllama",
@@ -8,6 +41,17 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqd8i7/i_need_an_adult_jspaceaware/",
       "published_at": "2026-07-08T00:29:49Z",
       "summary": "Warning: I am an accountant and not an ML engineer of any kind, and I&#39;m potentially missing some important points. I wrote all this by hand, but I&#39;ll link my gemini chat where I was trying to understand this at t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-08-tutorial-learning-flashattention-the-hard-way-the-algebraic",
+      "source": "localllama",
+      "title": "Tutorial: Learning FlashAttention the Hard Way. The Algebraic Foundation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqcl5b/tutorial_learning_flashattention_the_hard_way_the/",
+      "published_at": "2026-07-08T00:02:23Z",
+      "summary": "I&#39;m writing a short series of tutorials on FlashAttention: from theory to efficient CUDA kernels. Part 1 is the theoretical foundation. It walks through a modern algebraic formalism showing that FlashAttention is an ",
       "tags": [
         "localllama"
       ]
@@ -112,28 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-07-i-tested-freshly-merged-dflash-in-llamacpp-on-qwen-36-27b-lo",
-      "source": "localllama",
-      "title": "I tested freshly merged DFlash in llama.cpp on Qwen 3.6 27B Local AI win. 4.44x faster at 36K context. Here are my findings RTX 6000 PRO.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq0h4o/i_tested_freshly_merged_dflash_in_llamacpp_on/",
-      "published_at": "2026-07-07T16:40:32Z",
-      "summary": "      Hey guys, A month ago I posted my MTP benchmarks here (3.34x on Gemma 4). DFlash support just merged into llama.cpp (PR #22105), so I ran it on the same rig with the Qwen 3.6 27B and it beat my best MTP numbers at ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-07-qwen36-27b---effect-of-kv-quantization-on-kld---q8-q6-q5-bar",
-      "source": "localllama",
-      "title": "Qwen3.6-27B - Effect of KV quantization on KLD - Q8, Q6, Q5 (bartowski)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq0fpe/qwen3627b_effect_of_kv_quantization_on_kld_q8_q6/",
-      "published_at": "2026-07-07T16:39:09Z",
-      "summary": "      Lower is better - Quantization increases from right to left I recently made a post here about how I squeezed more context into a Q8 model of bartowski&#39;s Qwen3.6-27B. My reasoning was that in my (anecdotal) expe",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-07-github-code-web-component",
       "source": "simonw",
       "title": "github-code Web Component",
@@ -145,17 +167,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-07-mistralrs-v090-up-to-18x-faster-cpu-decode-than-llamacpp-on",
-      "source": "localllama",
-      "title": "mistral.rs v0.9.0: up to 1.8x faster CPU decode than llama.cpp on x86 and ARM!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upynpt/mistralrs_v090_up_to_18x_faster_cpu_decode_than/",
-      "published_at": "2026-07-07T15:36:05Z",
-      "summary": "      https://preview.redd.it/nuk5rxceptbh1.png?width=1448&amp;format=png&amp;auto=webp&amp;s=300344dd4c6552379e8536b81ba288be3d6dca3f On Qwen3 4B Q4_K, mistral.rs decodes faster than llama.cpp at every context depth we ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-07-hugging-face-models-on-foundry-managed-compute",
       "source": "huggingface",
       "title": "Hugging Face Models on Foundry Managed Compute",
@@ -164,17 +175,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-07-i-tested-anthropics-new-jacobian-lens-on-open-models-then-it",
-      "source": "localllama",
-      "title": "I tested Anthropic’s new Jacobian Lens on open models, then it turned into a local-model hallucination router",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upy31x/i_tested_anthropics_new_jacobian_lens_on_open/",
-      "published_at": "2026-07-07T15:15:59Z",
-      "summary": "      Anthropic dropped their Global Workspace / Jacobian Lens paper yesterday, and I thought it was too cool not to try on open models. At first I was just curious what models looked like inside. Normal prompts, emotion",
-      "tags": [
-        "localllama"
       ]
     },
     {

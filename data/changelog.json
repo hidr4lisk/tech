@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-07-08T03:19:53Z",
+  "updated_at": "2026-07-08T08:36:49Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9912",
+      "project": "llama-cpp",
+      "version": "b9912",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9912",
+      "published_at": "2026-07-08T07:53:29Z",
+      "body_excerpt": "spec : fix naming, spacing (#25410) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wind",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9911",
+      "project": "llama-cpp",
+      "version": "b9911",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9911",
+      "published_at": "2026-07-08T06:58:47Z",
+      "body_excerpt": "CUDA: Fuse MMVQ post-scale for NVFP4 (#24481) CUDA: Fuse MMVQ for NVFP4 and BS 1 TODO: 1. Add tests to test-backend-ops (did verify correctness manually for one model) 2. Reorder bias/scale once PRs for NVFP4 are merged/landed Add dense MMVQ fusion as well Perf numbers on B4500. Note qwen35 is FP8->Q8 ./scripts/compare-llama-bench.py -b master -c osimons/nvfp4_fuse_mmvq --tool llama-bench -i llama",
+      "type": "tool"
+    },
+    {
+      "id": "hf-EleutherAI-GPT-2-wikitext-chunks-epsroot-0",
+      "project": "EleutherAI",
+      "version": "GPT-2-wikitext-chunks-epsroot-0",
+      "url": "https://huggingface.co/EleutherAI/GPT-2-wikitext-chunks-epsroot-0",
+      "published_at": "2026-07-08T06:33:45Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-EleutherAI-GPT-2-wikitext-chunks",
+      "project": "EleutherAI",
+      "version": "GPT-2-wikitext-chunks",
+      "url": "https://huggingface.co/EleutherAI/GPT-2-wikitext-chunks",
+      "published_at": "2026-07-08T06:08:55Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b9910",
+      "project": "llama-cpp",
+      "version": "b9910",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9910",
+      "published_at": "2026-07-08T04:25:04Z",
+      "body_excerpt": "server : fix draft model fit vs load inconsistency (#25056) fix: draft model fit vs load inconsistency refactor(server): unify draft/mtp parameter initialization, model, and context load moves speculative init to speculative.cpp changes server_context_impl model_dft and ctx_dft to use raw pointers fix: don't throttle progress callback when loading draft model refactor: rename draft model/ctx load ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9909",
+      "project": "llama-cpp",
+      "version": "b9909",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9909",
+      "published_at": "2026-07-08T03:31:58Z",
+      "body_excerpt": "server : add timings and progress to /responses API stream (#25348) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9908",
       "project": "llama-cpp",
@@ -5348,6 +5402,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-ibm-granite-granite-timeseries-ttm-r3",
+      "project": "ibm-granite",
+      "version": "granite-timeseries-ttm-r3",
+      "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r3",
+      "published_at": "2026-05-21T13:22:39Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9264",
       "project": "llama-cpp",
       "version": "b9264",
@@ -6578,96 +6641,6 @@
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.2",
       "published_at": "2026-04-09T14:05:16Z",
       "body_excerpt": "Small patch dedicated to optimizing gemma4, fixing inference with due to k/v states sharing between layers, as well as conversion mappings for some models that would inconsistently serialize their weight names. It contains the following PRs: Add MoE to Gemma4 TP plan (#45219) by @sywangyi and @Cyrilvallez [gemma4] Dissociate kv states sharing from the Cache (#45312) by @Cyrilvallez [gemma4] Remove",
-      "type": "tool"
-    },
-    {
-      "id": "hf-google-tipsv2-g14-dpt",
-      "project": "google",
-      "version": "tipsv2-g14-dpt",
-      "url": "https://huggingface.co/google/tipsv2-g14-dpt",
-      "published_at": "2026-04-09T06:52:14Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv2-so400m14-dpt",
-      "project": "google",
-      "version": "tipsv2-so400m14-dpt",
-      "url": "https://huggingface.co/google/tipsv2-so400m14-dpt",
-      "published_at": "2026-04-09T06:51:48Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv2-l14-dpt",
-      "project": "google",
-      "version": "tipsv2-l14-dpt",
-      "url": "https://huggingface.co/google/tipsv2-l14-dpt",
-      "published_at": "2026-04-09T06:51:32Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv2-b14-dpt",
-      "project": "google",
-      "version": "tipsv2-b14-dpt",
-      "url": "https://huggingface.co/google/tipsv2-b14-dpt",
-      "published_at": "2026-04-09T06:50:51Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv2-g14",
-      "project": "google",
-      "version": "tipsv2-g14",
-      "url": "https://huggingface.co/google/tipsv2-g14",
-      "published_at": "2026-04-09T06:29:08Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv2-so400m14",
-      "project": "google",
-      "version": "tipsv2-so400m14",
-      "url": "https://huggingface.co/google/tipsv2-so400m14",
-      "published_at": "2026-04-09T06:29:07Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv2-b14",
-      "project": "google",
-      "version": "tipsv2-b14",
-      "url": "https://huggingface.co/google/tipsv2-b14",
-      "published_at": "2026-04-09T06:28:59Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv2-l14",
-      "project": "google",
-      "version": "tipsv2-l14",
-      "url": "https://huggingface.co/google/tipsv2-l14",
-      "published_at": "2026-04-09T05:55:21Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "transformers-v5.5.1",
-      "project": "transformers",
-      "version": "v5.5.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.1",
-      "published_at": "2026-04-09T05:53:03Z",
-      "body_excerpt": "Patch release v5.5.1 This patch is very small and focuses on vLLM and Gemma4! Fix export for gemma4 and add Integration tests (#45285) by @Cyrilvallez Fix vllm cis (#45139) by @ArthurZucker",
-      "type": "tool"
-    },
-    {
-      "id": "sglang-v0.5.10.post1",
-      "project": "sglang",
-      "version": "v0.5.10.post1",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.10.post1",
-      "published_at": "2026-04-09T03:21:07Z",
-      "body_excerpt": "6.7.post2 to v0.6.7.post3 to resolve an issue in its jit cubin downloader.",
       "type": "tool"
     }
   ]
