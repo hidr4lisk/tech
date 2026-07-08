@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-07-08T14:25:54Z",
+  "updated_at": "2026-07-08T19:40:38Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9928",
+      "project": "llama-cpp",
+      "version": "b9928",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9928",
+      "published_at": "2026-07-08T19:15:01Z",
+      "body_excerpt": "hexagon: new vtcm layouts and improved pipelines for MUL_MAT, MUL_MAT_ID and FLASH_ATTN_EXT (#25425) hex-fa: refactor kernel param compute to use common layout builder hmx: add explicit compiler barriers to make hmx funcs more robust hex-vtcm: more generic vtcm layout builder for mm and flash-attn kernels hex-hmx: unroll inner kernels hex-hmx: use inline asm instead of intrinsics to avoid compiler",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9927",
+      "project": "llama-cpp",
+      "version": "b9927",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9927",
+      "published_at": "2026-07-08T18:28:45Z",
+      "body_excerpt": "cli : move to HTTP-based implementation (#24948) cli: move to HTTP-based implementation wip working remote server ok cli support router mode Co-authored-by: Piotr Wilkin case: router with only one model Apply suggestions from code review Co-authored-by: Piotr Wilkin (ilintar) remove outdated comment use destructor instead add ftype cli-view --> cli-ui pimpl no more json in header nits fixes also s",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9925",
+      "project": "llama-cpp",
+      "version": "b9925",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9925",
+      "published_at": "2026-07-08T16:52:32Z",
+      "body_excerpt": "cuda : add support for f16->f16 GGML_OP_SET_ROWS (#25367) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9924",
+      "project": "llama-cpp",
+      "version": "b9924",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9924",
+      "published_at": "2026-07-08T16:12:57Z",
+      "body_excerpt": "llama: refactor fused ops (#24646) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9923",
+      "project": "llama-cpp",
+      "version": "b9923",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9923",
+      "published_at": "2026-07-08T15:26:17Z",
+      "body_excerpt": "server-stream: follow-up on SSE Replay Buffer (#23226) (#25047) server-stream : pimpl server-stream: prefix free functions with server_stream_ address review from ggerganov: scope the public stream functions under the server_stream_ prefix, matching server_stream_session_manager_start/stop. server-stream: guard session and manager state with the mutex address review from ggerganov: make done, comp",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9922",
+      "project": "llama-cpp",
+      "version": "b9922",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9922",
+      "published_at": "2026-07-08T14:51:17Z",
+      "body_excerpt": "llama-batch: add n_keep_tail in split_equal for recurrent models (#25278) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9918",
       "project": "llama-cpp",
@@ -33,6 +87,15 @@
       "project": "EleutherAI",
       "version": "OLMo-2-7B-recall-9000",
       "url": "https://huggingface.co/EleutherAI/OLMo-2-7B-recall-9000",
+      "published_at": "2026-07-08T12:58:51Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-EleutherAI-Olmo-3-7B-Instruct-recall-9000",
+      "project": "EleutherAI",
+      "version": "Olmo-3-7B-Instruct-recall-9000",
+      "url": "https://huggingface.co/EleutherAI/Olmo-3-7B-Instruct-recall-9000",
       "published_at": "2026-07-08T12:58:51Z",
       "body_excerpt": "",
       "type": "model"
@@ -218,6 +281,15 @@
       "type": "tool"
     },
     {
+      "id": "unsloth-v0.1.481-beta",
+      "project": "unsloth",
+      "version": "v0.1.481-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.481-beta",
+      "published_at": "2026-07-07T14:43:29Z",
+      "body_excerpt": "Unsloth Studio can now export to NVFP4, FP8, imatrix GGUFs after training, can act as a llama-swap API system, includes Japanese and Brazilian language support, includes MLX, safetensors tool calling + healing support and much more! Unsloth core makes GRPO 1.3x faster, have HTTP fallback for stalled downloads, better offline mode, makes MoE training 3 to 5x faster, and fixes many bugs! This releas",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b9898",
       "project": "llama-cpp",
       "version": "b9898",
@@ -276,6 +348,15 @@
       "project": "ollama",
       "version": "v0.31.2-rc2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2",
+      "published_at": "2026-07-06T22:28:22Z",
+      "body_excerpt": "What's Changed ci: avoid unbounded parallelism by @dhiltgen in fix cuda toolkit lookup and parallel by @MarkWard0110 in docs(cloud): update retirement list by @mxyng in discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in agent: harness core by @ParthSareen in llama: clean up dead code from llama-server work by @dhiltgen in rocm: remove no longer supported de",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.31.2",
+      "project": "ollama",
+      "version": "v0.31.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2",
       "published_at": "2026-07-06T22:28:22Z",
       "body_excerpt": "What's Changed ci: avoid unbounded parallelism by @dhiltgen in fix cuda toolkit lookup and parallel by @MarkWard0110 in docs(cloud): update retirement list by @mxyng in discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in agent: harness core by @ParthSareen in llama: clean up dead code from llama-server work by @dhiltgen in rocm: remove no longer supported de",
       "type": "tool"
@@ -6686,24 +6767,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.6",
       "published_at": "2026-04-12T22:59:47Z",
       "body_excerpt": "What's Changed Gemma 4 tool calling ability is improved and updated to use Google's latest post-launch fixes Parallel tool calling improved for streaming responses Hermes agent Ollama integration guide is now available Ollama app is updated to fix image attachment errors New Contributors @matteocelani made their first contribution in #15272 Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.20.5",
-      "project": "ollama",
-      "version": "v0.20.5",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.5",
-      "published_at": "2026-04-09T18:11:20Z",
-      "body_excerpt": "OpenClaw channel setup with What's Changed - OpenClaw channel setup: connect WhatsApp, Telegram, Discord, and other messaging channels through - Enable flash attention for Gemma 4 on compatible GPUs - now detects curl-based OpenCode installs at - Fix command for models imported from safetensors New Contributors @sjhddh made their first contribution in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.5.3",
-      "project": "transformers",
-      "version": "v5.5.3",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.3",
-      "published_at": "2026-04-09T15:53:11Z",
-      "body_excerpt": "Small patch release to fix support for Gemma4! It contains the following commit: [gemma4] Fix device map auto (#45347) by @Cyrilvallez",
       "type": "tool"
     }
   ]
