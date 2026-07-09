@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-07-09T09:54:00Z",
+  "updated_at": "2026-07-09T15:20:22Z",
   "items": [
+    {
+      "id": "localllama-2026-07-09-llamacpp-update-ggml-hip-enable--funsafe-math-optimizations",
+      "source": "localllama",
+      "title": "Llama.cpp update: ggml-hip: enable -funsafe-math-optimizations",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urrqp1/llamacpp_update_ggmlhip_enable/",
+      "published_at": "2026-07-09T14:22:30Z",
+      "summary": "https://github.com/ggml-org/llama.cpp/commit/ccb0c3422394fbbfc28fd91f8c77111b748cfa09 It seems to be time for another llama.cpp rebuild, at least if you are on amds ROCm/HIP. There are no benchmarks included and i am sti",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-did-cpu-recommendations-change-due-to-agents",
+      "source": "localllama",
+      "title": "Did CPU recommendations change due to agents?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urr4q4/did_cpu_recommendations_change_due_to_agents/",
+      "published_at": "2026-07-09T14:00:15Z",
+      "summary": "My use case: - LLM for coding (chat and agents, be prepared for future hybrid inference). - Code compilation Many CPU recommendations state that a Ryzen X3D is not worth the premium (for LLMs), it could be even slower du",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-step-37-flash-iq4-xs-gguf-with-preserve-thinking",
+      "source": "localllama",
+      "title": "Step 3.7 Flash IQ4_XS GGUF with preserve_thinking",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urqd5i/step_37_flash_iq4_xs_gguf_with_preserve_thinking/",
+      "published_at": "2026-07-09T13:30:07Z",
+      "summary": "      &#32; submitted by &#32;  /u/tarruda   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-glm-52-generated-most-of-this-playable-3d-game-in-the-first",
+      "source": "localllama",
+      "title": "GLM 5.2 generated most of this playable 3D game in the first iteration",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urol1a/glm_52_generated_most_of_this_playable_3d_game_in/",
+      "published_at": "2026-07-09T12:16:41Z",
+      "summary": "      https://preview.redd.it/ah7aif6od7ch1.png?width=3813&amp;format=png&amp;auto=webp&amp;s=32bdca0eb64d36e1a1097473ed0689b2947610bb I made this simple 3D Geometry Wars-style game using my coding agent, Jarvis Code, wi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-reasoning-medical01-27b-qwen35-27b-medical-finetune-claims-t",
+      "source": "localllama",
+      "title": "Reasoning-Medical0.1-27B (Qwen3.5-27B medical finetune, claims to surpass MedGemma)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urni78/reasoningmedical0127b_qwen3527b_medical_finetune/",
+      "published_at": "2026-07-09T11:27:01Z",
+      "summary": "      &#32; submitted by &#32;  /u/beneath_steel_sky   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-modded-rtx-4090-48gb-vs-radeon-ai-pro-r9700-vs-arc-pro-b70-f",
+      "source": "localllama",
+      "title": "Modded RTX 4090 48GB vs Radeon AI Pro R9700 vs Arc Pro B70 for local coding LLMs?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urn2zh/modded_rtx_4090_48gb_vs_radeon_ai_pro_r9700_vs/",
+      "published_at": "2026-07-09T11:06:20Z",
+      "summary": "Building a personal rig mainly for running coding LLMs locally (inference,maybe light fine-tuning).  Already have the motherboard/rest of the platform sorted — just deciding on the GPU. Three options I keep coming back t",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-09-glm-52-fearmongering-in-the-press",
       "source": "localllama",
@@ -68,50 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-09-which-open-models-help-the-eco-system-more",
-      "source": "localllama",
-      "title": "Which open models help the eco system more?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urbn11/which_open_models_help_the_eco_system_more/",
-      "published_at": "2026-07-09T01:09:17Z",
-      "summary": "      https://artificialanalysis.ai/evaluations/artificial-analysis-openness-index In case you want to support openness, some models are more open than others. Update: K2 think v2 is rated highest because it supplies its",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-can-you-explain-the-concept-behind-each-of-the-main-size-ran",
-      "source": "localllama",
-      "title": "Can you explain the concept behind each of the main size ranges of LLM models, as in, what hardware setups the different size niches are meant to fit into (~30b, ~70b, ~120b, ~230b, etc). Like is it mainly based on pro hardware sizing for 8-bit, or consumer GPU vram for ~Q4, or some mixture?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uramdp/can_you_explain_the_concept_behind_each_of_the/",
-      "published_at": "2026-07-09T00:23:38Z",
-      "summary": "I am curious about intended sizings of the main size niches of the popular local LLM models. As in, we can see there is a major niche at 26b-35b, then hardly anything from 36 through 69b, then (formerly) another major ni",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-qwen35-122b-is-the-best",
-      "source": "localllama",
-      "title": "Qwen3.5 122B is the best?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ura4d0/qwen35_122b_is_the_best/",
-      "published_at": "2026-07-09T00:01:54Z",
-      "summary": "I’m using Opencode and a computer with 128gb. So maybe the results would be different on system.  I’ve exhaustingly tried Qwen3.6 27B and Qwen3.6 33B. I have no idea why but they just fall apart when doing more complex t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-08-what-gui-first-coding-tool-tool-are-you-pairing-your-local-l",
-      "source": "localllama",
-      "title": "What GUI-first coding tool tool are you pairing your local LLMs with? Opencode isn't it for me.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ura06l/what_guifirst_coding_tool_tool_are_you_pairing/",
-      "published_at": "2026-07-08T23:57:35Z",
-      "summary": "I&#39;ve grown very frustrated with OpenCode. The web GUI and desktop app ideas are good, but the execution not so much. The GUI is lacking so many basic features. It&#39;s clear that the TUI is more important to the dev",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-08-rewriting-bun-in-rust",
       "source": "simonw",
       "title": "Rewriting Bun in Rust",
@@ -131,28 +153,6 @@
       "summary": "Introducing GPT‑Live\nOpenAI finally upgraded the model used by ChatGPT voice mode!\nI've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off hard",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-08-what-china-said-at-the-uns-first-global-dialogue-on-ai-gover",
-      "source": "localllama",
-      "title": "What China Said at the UN’s First Global Dialogue on AI Governance",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ur4tz5/what_china_said_at_the_uns_first_global_dialogue/",
-      "published_at": "2026-07-08T20:36:16Z",
-      "summary": "      Open source AI is a shared asset for all humanity. Chinese open source models such as DeepSeek and Qwen have significantly lowered the barriers and costs of AI adoption. China is committed to further promoting open",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-08-4-bit-glm-52-753b-moe-on-4-dgx-spark-708-on-terminal-bench-2",
-      "source": "localllama",
-      "title": "4-bit GLM-5.2 (753B MoE) on 4× DGX Spark: 70.8% on Terminal-Bench 2.1 vs 81.0% for the full model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ur41ou/4bit_glm52_753b_moe_on_4_dgx_spark_708_on/",
-      "published_at": "2026-07-08T20:08:08Z",
-      "summary": "TL;DR: Full GLM-5.2 (753B MoE) quantized to Int4-Int8Mix + NVFP4 4-bit KV cache, TP=4 across 4× DGX Spark (GB10) at 100K context, run on Terminal-Bench 2.1 with the same agent scaffold (Terminus-2) as the official number",
-      "tags": [
-        "localllama"
       ]
     },
     {
