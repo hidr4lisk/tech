@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-09T03:46:02Z",
+  "updated_at": "2026-07-09T09:54:08Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9937",
+      "project": "llama-cpp",
+      "version": "b9937",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9937",
+      "published_at": "2026-07-09T08:30:17Z",
+      "body_excerpt": "cuda: align snake fusion matcher with the other backends (#25460) cuda: fix snake fusion type predicate, a and inv_b are F32 The matcher required a->type == x->type while launch_snake reads both as const float , matching the CPU and Metal contract where a and inv_b stay F32. F16/BF16 chains never fused and fell back to the naive path, and a hypothetical all F16 chain would have read F16 bits as fl",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9936",
+      "project": "llama-cpp",
+      "version": "b9936",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9936",
+      "published_at": "2026-07-09T07:09:58Z",
+      "body_excerpt": "server : respect min-step when splitting prompt batches (#25420) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Andr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9935",
+      "project": "llama-cpp",
+      "version": "b9935",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9935",
+      "published_at": "2026-07-09T05:32:02Z",
+      "body_excerpt": "hexagon: add VISION RoPE support (#25216) hexagon: add VISION RoPE support hexagon: support RoPE on strided half-dim views for all modes hex-rope: decouple src0 DMA copy size from row stride hex-rope: support non-contiguous dst for RoPE hex-rope: fix dst spad pitch for non-contiguous dst macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9934",
       "project": "llama-cpp",
