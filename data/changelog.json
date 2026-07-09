@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-07-08T19:40:38Z",
+  "updated_at": "2026-07-09T03:46:02Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9934",
+      "project": "llama-cpp",
+      "version": "b9934",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9934",
+      "published_at": "2026-07-09T00:19:17Z",
+      "body_excerpt": "ggml-webgpu: tune subgroup split (d_split) in flash_attn_vec (#25418) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9933",
+      "project": "llama-cpp",
+      "version": "b9933",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9933",
+      "published_at": "2026-07-08T23:22:46Z",
+      "body_excerpt": "opencl: Q6_K GEMM/GEMV fix for ne01 of weights that are not multiples of 128. (#25464) opencl: fix garbled output for Q6_K weights with ne01 % 128 != 0 on Adreno Observed with granite-3.1-3b-a800m-instruct, whose vocab is an odd number. Route Q6_K dense mul_mat with ne01 % 128 != 0 off the noshuffle path: decode (ne1==1) uses the correct flat GEMV and the matching GEMM (ne1>1) falls back to CPU (t",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9932",
+      "project": "llama-cpp",
+      "version": "b9932",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9932",
+      "published_at": "2026-07-08T21:45:59Z",
+      "body_excerpt": "vulkan: disable FA mask_opt on GCN to improve performance (#24362) vulkan: disable FA mask_opt on GCN to improve performance reenable mask opt over attention head size 256 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulk",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9931",
+      "project": "llama-cpp",
+      "version": "b9931",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9931",
+      "published_at": "2026-07-08T21:11:39Z",
+      "body_excerpt": "opencl: ragged-tile MoE prefill FP16 GEMM optimization (skip padded expert tiles) (#25433) opencl: ragged-tile MoE prefill GEMM (skip padded expert tiles) The MoE prefill GEMM groups tokens into TILESIZE_N=32 per-expert tiles; at low tokens-per-expert most tiles are mostly padding. When a tile's upper 16 slots are all padding (router index 0xFFFFFFFF), skip the second dotx16_reduce8 half. Numerica",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9930",
+      "project": "llama-cpp",
+      "version": "b9930",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9930",
+      "published_at": "2026-07-08T20:36:36Z",
+      "body_excerpt": "llama-batch: fix allowed decreasing pos in a seq (#25449) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9929",
+      "project": "llama-cpp",
+      "version": "b9929",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9929",
+      "published_at": "2026-07-08T19:53:39Z",
+      "body_excerpt": "vulkan: for small AMD GPUs, reduce submission threshold based on CU count (#25240) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL F",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9928",
       "project": "llama-cpp",
@@ -358,7 +412,7 @@
       "version": "v0.31.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2",
       "published_at": "2026-07-06T22:28:22Z",
-      "body_excerpt": "What's Changed ci: avoid unbounded parallelism by @dhiltgen in fix cuda toolkit lookup and parallel by @MarkWard0110 in docs(cloud): update retirement list by @mxyng in discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in agent: harness core by @ParthSareen in llama: clean up dead code from llama-server work by @dhiltgen in rocm: remove no longer supported de",
+      "body_excerpt": "What's Changed Enabled flash attention on older NVIDIA GPUs (compute capability 6.x) iGPU can now offload vision models with padding to fit available memory Fixed structured output for thinking models when thinking is disabled Hardened GGUF model creation for Claude Code now disables telemetry by default Fixed loading models on paths with non-UTF-8 characters Updated the MLX and llama.cpp engines ",
       "type": "tool"
     },
     {
