@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-09T09:54:08Z",
+  "updated_at": "2026-07-09T15:20:29Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9940",
+      "project": "llama-cpp",
+      "version": "b9940",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9940",
+      "published_at": "2026-07-09T11:38:20Z",
+      "body_excerpt": "llama-bench : init params.offline (#25476) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9939",
+      "project": "llama-cpp",
+      "version": "b9939",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9939",
+      "published_at": "2026-07-09T10:58:24Z",
+      "body_excerpt": "metal : add CONV_2D_DW (depthwise convolution) support (#21565) metal : add CONV_2D_DW (depthwise 2D convolution) support test : add perf cases for CONV_2D_DW metal : use 3D dispatch for CONV_2D_DW kernel metal : add channel-tiled CONV_2D_DW kernel for non-contiguous layouts metal : simplify CONV_2D_DW dispatch and trim comments metal : merge duplicate CONV_2D_DW pipeline getters tests : add F16 C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9938",
+      "project": "llama-cpp",
+      "version": "b9938",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9938",
+      "published_at": "2026-07-09T10:08:19Z",
+      "body_excerpt": "ggml-hip: enable -funsafe-math-optimizations (#24668) CUDA is compiled with fast math and AMD/HIP is not — this flag lets AMD use fast math too. We can't use -ffast-math: it implies -ffinite-math-only, which won't compile (ggml uses INFINITY for masking) and produces NaNs. -funsafe-math-optimizations gives the speedup without the NaN problems. Co-authored-by: Mark Caldwell macOS/iOS: macOS Apple S",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9937",
       "project": "llama-cpp",
