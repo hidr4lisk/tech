@@ -1,6 +1,138 @@
 {
-  "updated_at": "2026-07-08T19:40:33Z",
+  "updated_at": "2026-07-09T03:45:54Z",
   "items": [
+    {
+      "id": "localllama-2026-07-09-82-tps-on-qwen-36-27b-on-a-macbook-pro-introducing-mtplx-v2",
+      "source": "localllama",
+      "title": "82 TPS On Qwen 3.6 27b On A Macbook Pro | Introducing MTPLX V2: The Fastest Way To Run MLX Models.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ure84m/82_tps_on_qwen_36_27b_on_a_macbook_pro/",
+      "published_at": "2026-07-09T03:08:56Z",
+      "summary": "      Hey Everyone, here is an update on MTPLX! One month after releasing MTPLX V1 which brought a swift based app and upgraded CLI for coding use I am happy to announce MTPLX V2. The biggest change is Turbo Mode: using ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-4-gpus-mi50-llamacpp-or-vllm",
+      "source": "localllama",
+      "title": "4 GPUs (MI50) llama.cpp or vLLM?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urd4wb/4_gpus_mi50_llamacpp_or_vllm/",
+      "published_at": "2026-07-09T02:18:00Z",
+      "summary": "Hi, I&#39;ve been running vLLM on my MI50 because of tensor-parallel support. It works, but I have some complaints. For one, the quants seem much harder to find than GGUFs. Also, model switching is a pain, especially wit",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-audiocpp-what-does-the-fox-say-4-asr-models-nemotron-35-asr",
+      "source": "localllama",
+      "title": "[audio.cpp] What Does the Fox Say: 4 ASR models (Nemotron 3.5 ASR, Higgs Audio STT, VibeVoice ASR, and Hviske ASR) in native C++/GGML, init streaming support, and 327s of audio transcribed in 2.17s.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urd4ln/audiocpp_what_does_the_fox_say_4_asr_models/",
+      "published_at": "2026-07-09T02:17:39Z",
+      "summary": "I just pushed a new audio.cpp update with streaming support and 4 ASR models: Nemotron 3.5 ASR, Higgs Audio STT, VibeVoice ASR, and Hviske ASR (da only). Overall 1.07x to 2.41x faster than Python. I decided to drop Parak",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-which-open-models-help-the-eco-system-more",
+      "source": "localllama",
+      "title": "Which open models help the eco system more?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urbn11/which_open_models_help_the_eco_system_more/",
+      "published_at": "2026-07-09T01:09:17Z",
+      "summary": "      https://artificialanalysis.ai/evaluations/artificial-analysis-openness-index In case you want to support openness, some models are more open than others. Update: K2 think v2 is rated highest because it supplies its",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-can-you-explain-the-concept-behind-each-of-the-main-size-ran",
+      "source": "localllama",
+      "title": "Can you explain the concept behind each of the main size ranges of LLM models, as in, what hardware setups the different size niches are meant to fit into (~30b, ~70b, ~120b, ~230b, etc). Like is it mainly based on pro hardware sizing for 8-bit, or consumer GPU vram for ~Q4, or some mixture?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uramdp/can_you_explain_the_concept_behind_each_of_the/",
+      "published_at": "2026-07-09T00:23:38Z",
+      "summary": "I am curious about intended sizings of the main size niches of the popular local LLM models. As in, we can see there is a major niche at 26b-35b, then hardly anything from 36 through 69b, then (formerly) another major ni",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-qwen35-122b-is-the-best",
+      "source": "localllama",
+      "title": "Qwen3.5 122B is the best?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ura4d0/qwen35_122b_is_the_best/",
+      "published_at": "2026-07-09T00:01:54Z",
+      "summary": "I’m using Opencode and a computer with 128gb. So maybe the results would be different on system.  I’ve exhaustingly tried Qwen3.6 27B and Qwen3.6 33B. I have no idea why but they just fall apart when doing more complex t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-08-what-gui-first-coding-tool-tool-are-you-pairing-your-local-l",
+      "source": "localllama",
+      "title": "What GUI-first coding tool tool are you pairing your local LLMs with? Opencode isn't it for me.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ura06l/what_guifirst_coding_tool_tool_are_you_pairing/",
+      "published_at": "2026-07-08T23:57:35Z",
+      "summary": "I&#39;ve grown very frustrated with OpenCode. The web GUI and desktop app ideas are good, but the execution not so much. The GUI is lacking so many basic features. It&#39;s clear that the TUI is more important to the dev",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-08-rewriting-bun-in-rust",
+      "source": "simonw",
+      "title": "Rewriting Bun in Rust",
+      "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
+      "published_at": "2026-07-08T23:57:21Z",
+      "summary": "Rewriting Bun in Rust\nJarred Sumner has been promising this blog post (since May 9th) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite.\nHonestly, it was worth the wait.",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-08-introducing-gptlive",
+      "source": "simonw",
+      "title": "Introducing GPT‑Live",
+      "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+      "published_at": "2026-07-08T23:20:48Z",
+      "summary": "Introducing GPT‑Live\nOpenAI finally upgraded the model used by ChatGPT voice mode!\nI've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off hard",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-08-what-china-said-at-the-uns-first-global-dialogue-on-ai-gover",
+      "source": "localllama",
+      "title": "What China Said at the UN’s First Global Dialogue on AI Governance",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ur4tz5/what_china_said_at_the_uns_first_global_dialogue/",
+      "published_at": "2026-07-08T20:36:16Z",
+      "summary": "      Open source AI is a shared asset for all humanity. Chinese open source models such as DeepSeek and Qwen have significantly lowered the barriers and costs of AI adoption. China is committed to further promoting open",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-08-4-bit-glm-52-753b-moe-on-4-dgx-spark-708-on-terminal-bench-2",
+      "source": "localllama",
+      "title": "4-bit GLM-5.2 (753B MoE) on 4× DGX Spark: 70.8% on Terminal-Bench 2.1 vs 81.0% for the full model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ur41ou/4bit_glm52_753b_moe_on_4_dgx_spark_708_on/",
+      "published_at": "2026-07-08T20:08:08Z",
+      "summary": "TL;DR: Full GLM-5.2 (753B MoE) quantized to Int4-Int8Mix + NVFP4 4-bit KV cache, TP=4 across 4× DGX Spark (GB10) at 100K context, run on Terminal-Bench 2.1 with the same agent scaffold (Terminus-2) as the official number",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-08-quoting-kenton-varda",
+      "source": "simonw",
+      "title": "Quoting Kenton Varda",
+      "url": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
+      "published_at": "2026-07-08T20:03:34Z",
+      "summary": "I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team.\nAI was writing change descriptions that were worse than useless to me as I tried to rev",
+      "tags": [
+        "simonw"
+      ]
+    },
     {
       "id": "localllama-2026-07-08-complete-local-model-asset-generation-pipeline",
       "source": "localllama",
@@ -35,72 +167,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-08-i-created-a-140-gb-iq2-xxs-reap-quant-of-glm-52-for-coding-l",
-      "source": "localllama",
-      "title": "I created a 140 GB IQ2_XXS REAP quant of GLM 5.2 for coding. Looking for testers.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ur08mq/i_created_a_140_gb_iq2_xxs_reap_quant_of_glm_52/",
-      "published_at": "2026-07-08T17:55:20Z",
-      "summary": "GLM-5.2-504B-Code-GGUF is an imatrix calibrated quant of the most liked REAP, which is 0xSero/GLM-5.2-REAP-504B-GGUF. I also uploaded the imatrix file and the modified llama-quant.cpp so you can compile llama.cpp and cre",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-08-running-glm-52-on-4xgb10-with-a-100g-switch-330k-ctx-25-ts-t",
-      "source": "localllama",
-      "title": "Running GLM 5.2 on 4xGB10 with a 100G Switch, 330k ctx, ~25 t/s tg, ~650 t/s pp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ur022r/running_glm_52_on_4xgb10_with_a_100g_switch_330k/",
-      "published_at": "2026-07-08T17:49:06Z",
-      "summary": "      TP4+DCP2 for a ~360k kV pool. Prefill increases to 900-1000 t/s with longer prompts. You can also run DCP4 for 660k, but prefill gets shaved to ~400. Dropping DCP raises prefil to ~750. I&#39;m running 4 drafted to",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-08-hf-viewer-tons-of-new-features",
-      "source": "localllama",
-      "title": "HF Viewer tons of new features!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqzwdy/hf_viewer_tons_of_new_features/",
-      "published_at": "2026-07-08T17:43:37Z",
-      "summary": "      I&#39;m glad to announce that we have completely revamped the site, so that you can now search the over 2000 viewable models instantly!  You can also log in with your Hugging Face account to write cool interactive ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-08-seasonic-psu-calculator-now-mentions-rtx-5080-super-24gb-rtx",
-      "source": "localllama",
-      "title": "Seasonic PSU calculator now mentions RTX 5080 SUPER (24GB), RTX 5070 Ti SUPER (24GB) and RTX 5070 SUPER (18GB)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqzv4q/seasonic_psu_calculator_now_mentions_rtx_5080/",
-      "published_at": "2026-07-08T17:42:25Z",
-      "summary": "      &#32; submitted by &#32;  /u/panchovix   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-08-qwen36-27b-does-not-understand-software-architechure",
-      "source": "localllama",
-      "title": "Qwen3.6-27b does not understand software architechure.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqzjdy/qwen3627b_does_not_understand_software/",
-      "published_at": "2026-07-08T17:31:13Z",
-      "summary": "Been using this for real software development for a commercial app. i.e. Not a single file HTML app. I mean a large scale 100k+ loc project that needs proper architecture to work with in a maintainable way. As much as I ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-08-how-big-of-a-model-do-you-guys-think-google-overview-model-i",
-      "source": "localllama",
-      "title": "How big of a model do you guys think google overview model is?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqze9g/how_big_of_a_model_do_you_guys_think_google/",
-      "published_at": "2026-07-08T17:26:25Z",
-      "summary": "It&#39;s perhaps the model AI model in the world right know, and I just wanted to understand, if you are serving a billion plus requests a day, what size of model could be actually used in the real world? Edit: I don&#39",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-08-data-for-agents",
       "source": "huggingface",
       "title": "Data for Agents",
@@ -109,39 +175,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-08-the-standard-free-chatgpt-llm-you-get-after-a-few-messages-h",
-      "source": "localllama",
-      "title": "The standard free ChatGPT LLM you get after a few messages HAS to be some sub-20b model with online search enabled, no other way to explain how awful it is",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqz1d4/the_standard_free_chatgpt_llm_you_get_after_a_few/",
-      "published_at": "2026-07-08T17:13:56Z",
-      "summary": "Recently bought into the local LLM hype by buying a 32gb vram gpu and holy shit, gemma 4 31b at 5bits blows the standard ChatGPT model out of the fucking water. I just can&#39;t unsee the quality difference now that I&#3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-08-qllm-no-transformer-no-mamba-and-new-noval-architecture-with",
-      "source": "localllama",
-      "title": "QLLM, no transformer, no mamba and new noval architecture with O(1) inference is finally out as model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqykgh/qllm_no_transformer_no_mamba_and_new_noval/",
-      "published_at": "2026-07-08T16:58:12Z",
-      "summary": "okay so you might be following me or not.. but I have been working in AI since last 10+ years and our first product in AI was released in 2014 https://web.archive.org/web/20141027082348/http://xepan.org/ and we have to t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-08-llamacpp-fix-for-deepseek-v4-flash-crash-and-stall",
-      "source": "localllama",
-      "title": "llama.cpp fix for DeepSeek V4 Flash crash and stall",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqy37j/llamacpp_fix_for_deepseek_v4_flash_crash_and_stall/",
-      "published_at": "2026-07-08T16:41:36Z",
-      "summary": "Hey all, I&#39;ve been working with DSV4 on my Frankenstein rig (5-GPU box: 2x3090 + 5060 Ti + 2x4060 Ti, 96 GiB VRAM, 125 GiB DDR4) doing agentic coding with pi and ran into some serious issues. After much work I submit",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -327,39 +360,6 @@
       "url": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
       "published_at": "2026-07-03T22:04:31Z",
       "summary": "Open Source AI Gap Map\nCurrent AI is \"a global partnership building a public option for AI\", founded as a non-profit at the AI Action Summit in Paris in February 2025 and backed by serious capital ($400m already committe",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-03-quoting-josh-w-comeau",
-      "source": "simonw",
-      "title": "Quoting Josh W. Comeau",
-      "url": "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything",
-      "published_at": "2026-07-03T21:25:52Z",
-      "summary": "I just launched my third course, Whimsical Animations, and so far, it’s on track to sell roughly ⅓ as many copies as a typical course launch.\nIt’s a similar story with my two existing courses. Sales are down significantl",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-03-fables-judgement",
-      "source": "simonw",
-      "title": "Fable's judgement",
-      "url": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
-      "published_at": "2026-07-03T18:51:06Z",
-      "summary": "One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-03-june-2026-newsletter",
-      "source": "simonw",
-      "title": "June 2026 newsletter",
-      "url": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
-      "published_at": "2026-07-03T14:50:50Z",
-      "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here.\nThis month:\n\nClaude Fable 5, GPT-5.6, and US export restrictions\nGLM-5.2 is",
       "tags": [
         "simonw"
       ]
