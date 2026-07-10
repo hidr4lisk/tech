@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-10T14:38:41Z",
+  "updated_at": "2026-07-10T19:39:19Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9952",
+      "project": "llama-cpp",
+      "version": "b9952",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9952",
+      "published_at": "2026-07-10T17:18:39Z",
+      "body_excerpt": "llama : make all KQ masks f16 if FA is used, remove zero attention bias, remove raw_k repeats in DeepSeek V4 (#25370) llama : make all KQ masks (except the lightning indexer one) f16 if FA is used and remove zero attention bias in DeepSeek V4 llama : remove dead code that repeats unified raw_k cache for each stream in DeepSeek V4 - no longer needed as raw_k is always non-unified. --------- Co-auth",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9951",
+      "project": "llama-cpp",
+      "version": "b9951",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9951",
+      "published_at": "2026-07-10T16:15:00Z",
+      "body_excerpt": "ggml-et: Initial ET backend (#24179) ggml-et: Add performance logging ggml-et: Quants helpers ggml-et: Add MUL_MAT kernel ggml-et: Add ROPE kernel ggml-et: Add RMS_NORM kernel ggml-et: Add GLU kernel ggml-et: Add SOFT_MAX kernel ggml-et: Add GET_ROWS kernel ggml-et: Add CONT kernel ggml-et: Add SET_ROWS kernel ggml-et: Add MUL_MAT_ID kernel ggml-et: Build et kernels as part of ggml ggml-et: Embed ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9950",
       "project": "llama-cpp",
