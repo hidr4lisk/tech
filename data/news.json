@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-07-10T03:47:42Z",
+  "updated_at": "2026-07-10T09:44:19Z",
   "items": [
+    {
+      "id": "localllama-2026-07-10-how-fast-can-i-get-a-voice-assistant-to-respond-without-a-gp",
+      "source": "localllama",
+      "title": "How fast can I get a voice assistant to respond without a GPU? Qwen3-ASR and Kokoro-TTS ONNX on CPU.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usiino/how_fast_can_i_get_a_voice_assistant_to_respond/",
+      "published_at": "2026-07-10T09:19:56Z",
+      "summary": "      Been testing out the ONNX models to see how far I can push the CPU to take on ASR and TTS, so the GPU is completely free for running the LLM. The video attached shows me testing latency on a 2022 Macbook M2 and an ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-10-initial-et-backend-by-marty1885-pull-request-24179-ggml-orgl",
+      "source": "localllama",
+      "title": "Initial ET backend by marty1885 · Pull Request #24179 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ush79v/initial_et_backend_by_marty1885_pull_request/",
+      "published_at": "2026-07-10T08:02:48Z",
+      "summary": "      This PR is developed by AINekko and by members of AIFoundry (AINekko&#39;s OSS community) and adds the ET backend that supports the ET-SOC-1 processor. ET-SOC-1 was originally created by Esperanto Technologies whic",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-10-tips-on-keeping-projects-organised-outside-of-sessionschats",
+      "source": "localllama",
+      "title": "Tips on keeping projects organised outside of sessions/chats",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usgq06/tips_on_keeping_projects_organised_outside_of/",
+      "published_at": "2026-07-10T07:34:26Z",
+      "summary": "I&#39;ve been using Task Warrior (https://taskwarrior.org) - no affiliation, which works pretty well but feel like there could be better ways of keeping things organised within a project despite hundreds of different cli",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-10-someone-tweeted-after-3-years-about-his-model-release",
+      "source": "localllama",
+      "title": "Someone tweeted after 3 years. About his model release",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usg4ox/someone_tweeted_after_3_years_about_his_model/",
+      "published_at": "2026-07-10T07:01:09Z",
+      "summary": "      Tweet Lets see this is gonna happen soon/later or not  &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-10-i-built-barebrowse-give-a-local-model-agent-a-browser-withou",
+      "source": "localllama",
+      "title": "I built barebrowse: give a local-model agent a browser without Playwright — pruned ARIA snapshots instead of raw HTML (far fewer tokens)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usg4cq/i_built_barebrowse_give_a_localmodel_agent_a/",
+      "published_at": "2026-07-10T07:00:43Z",
+      "summary": "Author here, sharing something I built. If you run agents on a local model, feeding a whole page as raw HTML burns your context fast. barebrowse turns a URL into a pruned ARIA snapshot — the semantic tree with nav/ads/bo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-10-producing-structured-outputs-from-llms-with-constrained-samp",
+      "source": "localllama",
+      "title": "Producing Structured Outputs from LLMs with Constrained Sampling",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1use8qp/producing_structured_outputs_from_llms_with/",
+      "published_at": "2026-07-10T05:16:24Z",
+      "summary": "      &#32; submitted by &#32;  /u/lonelyroom-eklaghor   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-10-neuralwatt-pricing-will-double-from-0716---got-this-email",
+      "source": "localllama",
+      "title": "Neuralwatt Pricing will Double From 07/16 - Got This Email",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1use2ee/neuralwatt_pricing_will_double_from_0716_got_this/",
+      "published_at": "2026-07-10T05:07:10Z",
+      "summary": "      Welp, the age of cheap tokens coming to an end. Many here use this service to access GLM 5.2. Looks like only sustainable way moving forward to local LLM.  &#32; submitted by &#32;  /u/BoogerheadCult   [link] &#32;",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-10-paper-sparse-delta-memory-scaling-the-state-of-linear-rnns-t",
+      "source": "localllama",
+      "title": "[Paper] Sparse Delta Memory: Scaling the State of Linear RNNs through Sparsity",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usdn4c/paper_sparse_delta_memory_scaling_the_state_of/",
+      "published_at": "2026-07-10T04:45:16Z",
+      "summary": "       Linear attention models allow a fixed state size and a fixed amount of compute per token. However, due to their limited state size, linear attention models fall behind in long-context recall compared to softmax-at",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-10-ceo-token-efficiency-needs-to-drop-90-dude-just-write-no-thi",
+      "source": "localllama",
+      "title": "CEO: “token efficiency needs to drop 90%” Dude… just write “\\no_think” before you ‘summarize this email’ prompts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uscsin/ceo_token_efficiency_needs_to_drop_90_dude_just/",
+      "published_at": "2026-07-10T04:02:22Z",
+      "summary": "      “token efficiency needs to drop to as much as 20% over the next 12 months, and 90% by the following year”  &#32; submitted by &#32;  /u/JLeonsarmiento   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-10-qwen-36-q2-fp8-terminal-bench-2-and-gpqa-scores",
+      "source": "localllama",
+      "title": "Qwen 3.6 Q2-FP8 Terminal Bench 2 and GPQA Scores",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usclcz/qwen_36_q2fp8_terminal_bench_2_and_gpqa_scores/",
+      "published_at": "2026-07-10T03:52:43Z",
+      "summary": "      TL;DR: Quantization has a marked impact on agentic performance but little effect on knowledge. I manage a small HPC cluster at a university, and we have recently begun running common benchmarks to help our users un",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-10-meta-are-apparently-working-on-an-open-source-variant-of-mus",
       "source": "localllama",
@@ -24,17 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-10-locally-run-assistant-on-a-w-10-board-on-a-local-xiaozhi-ser",
-      "source": "localllama",
-      "title": "Locally run assistant on a w-10 board on a local Xiaozhi server",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us9yjo/locally_run_assistant_on_a_w10_board_on_a_local/",
-      "published_at": "2026-07-10T01:48:27Z",
-      "summary": "      Hello, Locallama!  &quot;long-time&quot; member here, from the days when the max context window doubled from 2K to a whooping 4K! Now I feel like I am living in a dream world, doing things I could not have imagined",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-10-quoting-openai",
       "source": "simonw",
       "title": "Quoting OpenAI",
@@ -46,80 +145,14 @@
       ]
     },
     {
-      "id": "localllama-2026-07-10-the-untuned-27b-beat-the-tuned-75b-as-an-agent",
-      "source": "localllama",
-      "title": "The untuned 27B beat the tuned 75B as an agent",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us8x06/the_untuned_27b_beat_the_tuned_75b_as_an_agent/",
-      "published_at": "2026-07-10T01:00:31Z",
-      "summary": "      I have to admit, a lot of people we&#39;re 100% correct to make the suggestion to try this model. I am sorry I ever doubted.  The 27B passed every agentic task on a neutral system prompt in 6-9 tool calls. The 75B ",
+      "id": "huggingface-2026-07-10-profiling-in-pytorch-part-3-attention-is-all-you-profile",
+      "source": "huggingface",
+      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "url": "https://huggingface.co/blog/torch-attention-profile",
+      "published_at": "2026-07-10T00:00:00Z",
+      "summary": "",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-has-anyone-tested-how-quantization-hits-different-capabiliti",
-      "source": "localllama",
-      "title": "Has anyone tested how quantization hits different capabilities separately? My results are surprising.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us7a22/has_anyone_tested_how_quantization_hits_different/",
-      "published_at": "2026-07-09T23:50:04Z",
-      "summary": "I&#39;ve been running some systematic tests on a few models comparing FP16 vs various GGUF quant levels, and instead of looking at one aggregate benchmark score, I broke it down by capability: math (GSM8K), code (HumanEv",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-koboldcpp-v1117-released",
-      "source": "localllama",
-      "title": "Koboldcpp v1.117 released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us5p0b/koboldcpp_v1117_released/",
-      "published_at": "2026-07-09T22:46:19Z",
-      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-glm-52-744b-moe-on-a-25gb-ram-consumer-machine",
-      "source": "localllama",
-      "title": "GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us5m0g/glm52_744b_moe_on_a_25gbram_consumer_machine/",
-      "published_at": "2026-07-09T22:43:02Z",
-      "summary": "      &#32; submitted by &#32;  /u/yogthos   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-whats-up-with-model-collapse",
-      "source": "localllama",
-      "title": "What's up with model collapse?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us4pbf/whats_up_with_model_collapse/",
-      "published_at": "2026-07-09T22:08:26Z",
-      "summary": "I&#39;m amazed by how much of the internet is clearly AI generated now. Everything from random articles to youtube videos to instagram images/reels, it&#39;s everywhere. Overall, I&#39;d say it has clearly lowered the qu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-mimo-v25-is-underrated-feels-like-the-tokens-are-pouring-out",
-      "source": "localllama",
-      "title": "MiMo v2.5 is underrated. Feels like the tokens are pouring out of the screen in OpenCode.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us4gim/mimo_v25_is_underrated_feels_like_the_tokens_are/",
-      "published_at": "2026-07-09T21:59:23Z",
-      "summary": "      When I recently built my inference server, I expected to deploy DeepSeek v4 flash, but that doesn&#39;t look like it&#39;s going to be fast for a long time, if ever. There is a massive gap, as we all know, in compe",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-if-you-already-pay-for-an-llm-service-running-local-embeddin",
-      "source": "localllama",
-      "title": "If You Already Pay for an LLM Service, Running Local Embeddings and Rerankers Feels More Useful Than Running Local LLMs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us3li5/if_you_already_pay_for_an_llm_service_running/",
-      "published_at": "2026-07-09T21:26:10Z",
-      "summary": "      https://preview.redd.it/v0xtn3jdu9ch1.png?width=2047&amp;format=png&amp;auto=webp&amp;s=628a6a541fe5f097d0f771ae0ba3b7f44126198f https://preview.redd.it/vjxiucsdu9ch1.png?width=2047&amp;format=png&amp;auto=webp&amp",
-      "tags": [
-        "localllama"
+        "huggingface"
       ]
     },
     {
@@ -131,28 +164,6 @@
       "summary": "OpenAI's latest flagship model hit general availability this morning, and comes in three sizes: Luna, Terra, and Sol (from smallest to largest).\nThe new models are priced per 1M input/output tokens as Luna $1/$6, Terra $",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-devs---do-you-use-mistral-medium-35-128b-dense-and-if-so---t",
-      "source": "localllama",
-      "title": "Devs - do you use Mistral Medium 3.5 (128b dense) and if so - thoughts?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urzsnk/devs_do_you_use_mistral_medium_35_128b_dense_and/",
-      "published_at": "2026-07-09T19:06:23Z",
-      "summary": "I&#39;ve picked up a 3-bit quant of this one (Unsloth - Q3_KS) - the best fit for my config right now. Normally I shy away from 3-bit quants but as this is a giant dense model, I figured... why not. I&#39;ve tested it a ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-6x-mi50s-96gb-vs-6-p40s-144gb-running-minimax-m27-reap-139b",
-      "source": "localllama",
-      "title": "6x MI50's (96gb) vs 6 P40's (144gb) running MiniMax M2.7 REAP 139B Q3_K_L",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urymln/6x_mi50s_96gb_vs_6_p40s_144gb_running_minimax_m27/",
-      "published_at": "2026-07-09T18:25:31Z",
-      "summary": "      Hey Guys, As promised here are the results from running MiniMax M2.7 REAP 139B Q3_K_L on llama-bench on 6x MI50&#39;s. Memory Load: https://preview.redd.it/7tp1nhrl79ch1.png?width=1628&amp;format=png&amp;auto=webp&",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -436,17 +447,6 @@
       "title": "Why Specialization Is Inevitable",
       "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
       "published_at": "2026-06-30T14:39:11Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-30-featuring-every-eval-ever-results-on-hugging-face-model-page",
-      "source": "huggingface",
-      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
-      "url": "https://huggingface.co/blog/eee-community-evals",
-      "published_at": "2026-06-30T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"
