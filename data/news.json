@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-07-09T19:52:51Z",
+  "updated_at": "2026-07-10T03:47:42Z",
   "items": [
+    {
+      "id": "localllama-2026-07-10-meta-are-apparently-working-on-an-open-source-variant-of-mus",
+      "source": "localllama",
+      "title": "Meta are apparently working on an open source variant of Muse Spark.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usbfz3/meta_are_apparently_working_on_an_open_source/",
+      "published_at": "2026-07-10T02:56:53Z",
+      "summary": "No real details or timescales yet, but this article has confirmation from Alexandr Wang that Meta are working on an open source variant of Muse Spark. One to keep an eye on. https://www.cnbc.com/2026/07/09/meta-jumps-int",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-10-deepseek-v4-flash-on-a-single-rtx-6000-pro---vllm-moet",
+      "source": "localllama",
+      "title": "Deepseek V4 Flash on a single RTX 6000 Pro - vLLM-Moet",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usacge/deepseek_v4_flash_on_a_single_rtx_6000_pro/",
+      "published_at": "2026-07-10T02:06:03Z",
+      "summary": "Wow... https://github.com/kacper-daftcode/vLLM-Moet Using this customized vllm provided as a docker, I&#39;m able to run DS V4 Flash on a single RTX 6000 Pro (apparently it also works on a single 5090 - check his readme,",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-10-locally-run-assistant-on-a-w-10-board-on-a-local-xiaozhi-ser",
+      "source": "localllama",
+      "title": "Locally run assistant on a w-10 board on a local Xiaozhi server",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us9yjo/locally_run_assistant_on_a_w10_board_on_a_local/",
+      "published_at": "2026-07-10T01:48:27Z",
+      "summary": "      Hello, Locallama!  &quot;long-time&quot; member here, from the days when the max context window doubled from 2K to a whooping 4K! Now I feel like I am living in a dream world, doing things I could not have imagined",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-10-quoting-openai",
+      "source": "simonw",
+      "title": "Quoting OpenAI",
+      "url": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+      "published_at": "2026-07-10T01:05:57Z",
+      "summary": "[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work thre",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-10-the-untuned-27b-beat-the-tuned-75b-as-an-agent",
+      "source": "localllama",
+      "title": "The untuned 27B beat the tuned 75B as an agent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us8x06/the_untuned_27b_beat_the_tuned_75b_as_an_agent/",
+      "published_at": "2026-07-10T01:00:31Z",
+      "summary": "      I have to admit, a lot of people we&#39;re 100% correct to make the suggestion to try this model. I am sorry I ever doubted.  The 27B passed every agentic task on a neutral system prompt in 6-9 tool calls. The 75B ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-has-anyone-tested-how-quantization-hits-different-capabiliti",
+      "source": "localllama",
+      "title": "Has anyone tested how quantization hits different capabilities separately? My results are surprising.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us7a22/has_anyone_tested_how_quantization_hits_different/",
+      "published_at": "2026-07-09T23:50:04Z",
+      "summary": "I&#39;ve been running some systematic tests on a few models comparing FP16 vs various GGUF quant levels, and instead of looking at one aggregate benchmark score, I broke it down by capability: math (GSM8K), code (HumanEv",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-koboldcpp-v1117-released",
+      "source": "localllama",
+      "title": "Koboldcpp v1.117 released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us5p0b/koboldcpp_v1117_released/",
+      "published_at": "2026-07-09T22:46:19Z",
+      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-glm-52-744b-moe-on-a-25gb-ram-consumer-machine",
+      "source": "localllama",
+      "title": "GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us5m0g/glm52_744b_moe_on_a_25gbram_consumer_machine/",
+      "published_at": "2026-07-09T22:43:02Z",
+      "summary": "      &#32; submitted by &#32;  /u/yogthos   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-whats-up-with-model-collapse",
+      "source": "localllama",
+      "title": "What's up with model collapse?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us4pbf/whats_up_with_model_collapse/",
+      "published_at": "2026-07-09T22:08:26Z",
+      "summary": "I&#39;m amazed by how much of the internet is clearly AI generated now. Everything from random articles to youtube videos to instagram images/reels, it&#39;s everywhere. Overall, I&#39;d say it has clearly lowered the qu",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-mimo-v25-is-underrated-feels-like-the-tokens-are-pouring-out",
+      "source": "localllama",
+      "title": "MiMo v2.5 is underrated. Feels like the tokens are pouring out of the screen in OpenCode.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us4gim/mimo_v25_is_underrated_feels_like_the_tokens_are/",
+      "published_at": "2026-07-09T21:59:23Z",
+      "summary": "      When I recently built my inference server, I expected to deploy DeepSeek v4 flash, but that doesn&#39;t look like it&#39;s going to be fast for a long time, if ever. There is a massive gap, as we all know, in compe",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-09-if-you-already-pay-for-an-llm-service-running-local-embeddin",
+      "source": "localllama",
+      "title": "If You Already Pay for an LLM Service, Running Local Embeddings and Rerankers Feels More Useful Than Running Local LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us3li5/if_you_already_pay_for_an_llm_service_running/",
+      "published_at": "2026-07-09T21:26:10Z",
+      "summary": "      https://preview.redd.it/v0xtn3jdu9ch1.png?width=2047&amp;format=png&amp;auto=webp&amp;s=628a6a541fe5f097d0f771ae0ba3b7f44126198f https://preview.redd.it/vjxiucsdu9ch1.png?width=2047&amp;format=png&amp;auto=webp&amp",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "simonw-2026-07-09-the-new-gpt-56-family-luna-terra-sol",
       "source": "simonw",
@@ -30,17 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urymln/6x_mi50s_96gb_vs_6_p40s_144gb_running_minimax_m27/",
       "published_at": "2026-07-09T18:25:31Z",
       "summary": "      Hey Guys, As promised here are the results from running MiniMax M2.7 REAP 139B Q3_K_L on llama-bench on 6x MI50&#39;s. Memory Load: https://preview.redd.it/7tp1nhrl79ch1.png?width=1628&amp;format=png&amp;auto=webp&",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-local-ai-news-you-missed---june-2026",
-      "source": "localllama",
-      "title": "Local AI News You Missed - June 2026",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urw6lq/local_ai_news_you_missed_june_2026/",
-      "published_at": "2026-07-09T17:01:11Z",
-      "summary": "      Compiled by u/vramkickedin EDIT : Wrong automatic thumbnail for the link(Check the link for long list)  &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -87,105 +197,6 @@
       "summary": "Release: llm 0.31.1\n        \n\nFix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521\n\n\nThis bug came up when I was testing llm-m",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-stripping-terminal-noise-from-agent-context-via-a-lazy-loade",
-      "source": "localllama",
-      "title": "Stripping terminal noise from agent context via a lazy-loaded local CLI layer. Looking for brutal feedback on this heuristic.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urugnh/stripping_terminal_noise_from_agent_context_via_a/",
-      "published_at": "2026-07-09T16:00:15Z",
-      "summary": "When building long-running coding agents, terminal output is one of the fastest ways to poison a context window. If an agent runs an intensive build, an install command, or a massive search (grep/find), it easily generat",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-exploring-flashattention-34-optimizations-on-rtx-gpus",
-      "source": "localllama",
-      "title": "Exploring FlashAttention-3/4 optimizations on RTX GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urucz1/exploring_flashattention34_optimizations_on_rtx/",
-      "published_at": "2026-07-09T15:56:33Z",
-      "summary": "I was curious whether any of the FA-3/4 optimizations transfer to RTX GPUs. vLLM/SGLang attention falls back to FA-2 on consumer cards (FA-3 and FA-4 are datacenter-only), so I wanted to know if there&#39;s any performan",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-nvidia-puzzle-75b-a9b-nvfp4-at-132-ts-on-33090-why-is-this-s",
-      "source": "localllama",
-      "title": "NVIDIA Puzzle-75B-A9B NVFP4 at 132 t/s on 3×3090 — Why is this size category a desert otherwise?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uru9ja/nvidia_puzzle75ba9b_nvfp4_at_132_ts_on_33090_why/",
-      "published_at": "2026-07-09T15:53:09Z",
-      "summary": "      TLDR: 75B-total / 9B-active MoE is the perfect shape for multi-24GB rigs, and almost nobody ships it. Qwen 27B is a great model and punches way above its weight-class, it is a frequent fallback for me. Nemotron-3-P",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-openmoss-teammoss-transcribe-diarize-hugging-face",
-      "source": "localllama",
-      "title": "OpenMOSS-Team/MOSS-Transcribe-Diarize · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uru6wf/openmossteammosstranscribediarize_hugging_face/",
-      "published_at": "2026-07-09T15:50:31Z",
-      "summary": "      MOSS-Transcribe-Diarize 0.9B is an end-to-end audio understanding model for long-form multi-speaker transcription, diarization, timestamps, and acoustic event awareness. Given an audio or video file, the model gene",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-openmed-18-apache-20-clinical-de-identification-that-runs-fu",
-      "source": "localllama",
-      "title": "OpenMed 1.8: Apache-2.0 clinical de-identification that runs fully local, now on Android, iOS, and in the browser. 400+ open issues if you want in on 1.9",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urt5o4/openmed_18_apache20_clinical_deidentification/",
-      "published_at": "2026-07-09T15:13:59Z",
-      "summary": "Maintainer here. OpenMed is an Apache-2.0 toolkit for clinical NLP with one hard rule: patient data never leaves your hardware. No cloud calls, no API keys, works in airplane mode. What shipped in 1.8 this week:  OpenMed",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-llamacpp-update-ggml-hip-enable--funsafe-math-optimizations",
-      "source": "localllama",
-      "title": "Llama.cpp update: ggml-hip: enable -funsafe-math-optimizations",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urrqp1/llamacpp_update_ggmlhip_enable/",
-      "published_at": "2026-07-09T14:22:30Z",
-      "summary": "https://github.com/ggml-org/llama.cpp/commit/ccb0c3422394fbbfc28fd91f8c77111b748cfa09 It seems to be time for another llama.cpp rebuild, at least if you are on amds ROCm/HIP. There are no benchmarks included and i am sti",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-did-cpu-recommendations-change-due-to-agents",
-      "source": "localllama",
-      "title": "Did CPU recommendations change due to agents?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urr4q4/did_cpu_recommendations_change_due_to_agents/",
-      "published_at": "2026-07-09T14:00:15Z",
-      "summary": "My use case: - LLM for coding (chat and agents, be prepared for future hybrid inference). - Code compilation Many CPU recommendations state that a Ryzen X3D is not worth the premium (for LLMs), it could be even slower du",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-step-37-flash-iq4-xs-gguf-with-preserve-thinking",
-      "source": "localllama",
-      "title": "Step 3.7 Flash IQ4_XS GGUF with preserve_thinking",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urqd5i/step_37_flash_iq4_xs_gguf_with_preserve_thinking/",
-      "published_at": "2026-07-09T13:30:07Z",
-      "summary": "      &#32; submitted by &#32;  /u/tarruda   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-09-glm-52-generated-most-of-this-playable-3d-game-in-the-first",
-      "source": "localllama",
-      "title": "GLM 5.2 generated most of this playable 3D game in the first iteration",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1urol1a/glm_52_generated_most_of_this_playable_3d_game_in/",
-      "published_at": "2026-07-09T12:16:41Z",
-      "summary": "      https://preview.redd.it/ah7aif6od7ch1.png?width=3813&amp;format=png&amp;auto=webp&amp;s=32bdca0eb64d36e1a1097473ed0689b2947610bb I made this simple 3D Geometry Wars-style game using my coding agent, Jarvis Code, wi",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -351,17 +362,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-06-sqlite-utils-40rc3",
-      "source": "simonw",
-      "title": "sqlite-utils 4.0rc3",
-      "url": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
-      "published_at": "2026-07-06T05:40:08Z",
-      "summary": "Release: sqlite-utils 4.0rc3\n        I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2",
-      "tags": [
-        "simonw"
       ]
     },
     {

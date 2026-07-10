@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-09T19:53:00Z",
+  "updated_at": "2026-07-10T03:47:49Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9946",
+      "project": "llama-cpp",
+      "version": "b9946",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9946",
+      "published_at": "2026-07-09T22:20:35Z",
+      "body_excerpt": "hexagon: tiling, tracing and optimizations for unary ops (#25474) hexagon: tile wide rows in pointwise unary ops to avoid VTCM overflow unary: reject permuted tensors for now (not used by models) hex-unary: replace divs with fastdiv hex-unary: add vtcm layout and host computed kernel params hex-unary: move fastdiv init into kernel params hex-unary: add specialized thread functions to improve gener",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9945",
+      "project": "llama-cpp",
+      "version": "b9945",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9945",
+      "published_at": "2026-07-09T21:47:16Z",
+      "body_excerpt": "server : move chat-template thinking probe inside the init try/catch (#24093) A model whose chat template parses at init but fails parser generation at apply time (e.g. uses {% call %}) throws std::invalid_argument from common_chat_templates_support_enable_thinking(), which ran outside the try/catch guarding common_chat_templates_init(). The throw was uncaught and llama-cli aborted (SIGABRT) inste",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9941",
+      "project": "llama-cpp",
+      "version": "b9941",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9941",
+      "published_at": "2026-07-09T20:17:48Z",
+      "body_excerpt": "Only index by compile times + always multiply/add (#25445) The first one avoids relying on compile to optimize local memory away, and the second is cheaper than issuing control flow statements macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulka",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9940",
       "project": "llama-cpp",
@@ -81,6 +108,15 @@
       "published_at": "2026-07-08T21:45:59Z",
       "body_excerpt": "vulkan: disable FA mask_opt on GCN to improve performance (#24362) vulkan: disable FA mask_opt on GCN to improve performance reenable mask opt over attention head size 256 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulk",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Kimi-K2.7-Code-DFlash",
+      "project": "nvidia",
+      "version": "Kimi-K2.7-Code-DFlash",
+      "url": "https://huggingface.co/nvidia/Kimi-K2.7-Code-DFlash",
+      "published_at": "2026-07-08T21:16:29Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9931",
@@ -767,6 +803,24 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-ARDY-G1-RP-25FPS-Horizon8",
+      "project": "nvidia",
+      "version": "ARDY-G1-RP-25FPS-Horizon8",
+      "url": "https://huggingface.co/nvidia/ARDY-G1-RP-25FPS-Horizon8",
+      "published_at": "2026-07-02T15:16:00Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-ARDY-Core-RP-20FPS-Horizon8",
+      "project": "nvidia",
+      "version": "ARDY-Core-RP-20FPS-Horizon8",
+      "url": "https://huggingface.co/nvidia/ARDY-Core-RP-20FPS-Horizon8",
+      "published_at": "2026-07-02T15:14:37Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "hf-microsoft-HARC-Qwen2.5-7B-Instruct",
       "project": "microsoft",
       "version": "HARC-Qwen2.5-7B-Instruct",
@@ -837,6 +891,24 @@
       "published_at": "2026-07-01T14:41:19Z",
       "body_excerpt": "hexagon: flash attention rework (optimizations, accuracy improvements, etc) (#25085) hex-mm: fold mm quant tasks into the main matmul threads hex-mm: minor formatting fixes hex-mm: cleanup is_quant checks in dma dispatch hex-mm: fix dst-spad alignment hex-mm: move fp kernels in the hvx-mm-kernels header hex-mm: fuse with ADD hex-fa: factor out ukernels into separate headers and unify the rest hex-",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-ARDY-G1-RP-25FPS-Horizon52",
+      "project": "nvidia",
+      "version": "ARDY-G1-RP-25FPS-Horizon52",
+      "url": "https://huggingface.co/nvidia/ARDY-G1-RP-25FPS-Horizon52",
+      "published_at": "2026-07-01T13:43:52Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-ARDY-Core-RP-20FPS-Horizon40",
+      "project": "nvidia",
+      "version": "ARDY-Core-RP-20FPS-Horizon40",
+      "url": "https://huggingface.co/nvidia/ARDY-Core-RP-20FPS-Horizon40",
+      "published_at": "2026-07-01T13:26:25Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9856",
