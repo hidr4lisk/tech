@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-10T09:44:24Z",
+  "updated_at": "2026-07-10T14:38:41Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9950",
+      "project": "llama-cpp",
+      "version": "b9950",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9950",
+      "published_at": "2026-07-10T14:15:21Z",
+      "body_excerpt": "llama-batch: add unit test (#25471) llama-batch: add unit test fix win32 builds add not implemented assertion in unused methods remove unreachable code macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9949",
+      "project": "llama-cpp",
+      "version": "b9949",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9949",
+      "published_at": "2026-07-10T10:37:26Z",
+      "body_excerpt": "opencl: cluster-parallel decode FA for Adreno (#25473) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9948",
       "project": "llama-cpp",
