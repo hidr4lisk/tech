@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-07-10T19:39:19Z",
+  "updated_at": "2026-07-11T08:03:36Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9960",
+      "project": "llama-cpp",
+      "version": "b9960",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9960",
+      "published_at": "2026-07-11T08:01:52Z",
+      "body_excerpt": "server: remove loading.html (#25500) server: remove loading.html apply ui changes macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9959",
+      "project": "llama-cpp",
+      "version": "b9959",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9959",
+      "published_at": "2026-07-11T06:45:17Z",
+      "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows ar",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.0-rc0",
+      "project": "ollama",
+      "version": "v0.32.0-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0-rc0",
+      "published_at": "2026-07-11T01:03:46Z",
+      "body_excerpt": "What's Changed create: select the qwen3.5 parser and renderer for Qwen3.5/Next by @jessegross in launch: warn before old agent models by @ParthSareen in cmd: agent UI by @ParthSareen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "sglang-v0.5.15",
+      "project": "sglang",
+      "version": "v0.5.15",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15",
+      "published_at": "2026-07-10T22:58:33Z",
+      "body_excerpt": "Highlights GLM-5.2 NVFP4, tuned for production: We took time this cycle to tune GLM-5.2 NVFP4 on Blackwell for optimized production serving. It now runs at 500+ tok/s/user on 8x B300, 450 on 4x GB300 (bs=1). Run GLM-5.2 with our cookbook. Spec V2 by default: zero-overhead scheduling via CUDA-graphable DSA draft-extend, dropped D2H/H2D syncs, fused metadata ops. +11% end-to-end TPS (#29413, #29343,",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9957",
+      "project": "llama-cpp",
+      "version": "b9957",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9957",
+      "published_at": "2026-07-10T20:17:38Z",
+      "body_excerpt": "server: improve tools, remove apply_diff (#25498) server: improve tools, remove apply_diff improve edit tool add tools_io abstraction add tools_io_basic fix build move utils to class member add const macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9956",
+      "project": "llama-cpp",
+      "version": "b9956",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9956",
+      "published_at": "2026-07-10T19:46:36Z",
+      "body_excerpt": "cli: fix crash on wrong server base url (#25497) llama-cli: fix crash on wrong server base url by catching exceptions and graceful exit review: leaner catch group: json error and standard exception macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9952",
       "project": "llama-cpp",

@@ -1,134 +1,134 @@
 {
-  "updated_at": "2026-07-10T19:39:12Z",
+  "updated_at": "2026-07-11T08:03:28Z",
   "items": [
     {
-      "id": "localllama-2026-07-10-training-an-llm-from-scratch-on-1800s-texts-160gb-dataset",
+      "id": "localllama-2026-07-11-can-we-reconstruct-a-closed-source-llm-tokenizer-using-only",
       "source": "localllama",
-      "title": "Training an LLM from scratch on 1800's texts (160GB dataset)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uswlq8/training_an_llm_from_scratch_on_1800s_texts_160gb/",
-      "published_at": "2026-07-10T18:51:37Z",
-      "summary": "      Hi everyone, A year ago I began pre-training language models exclusively on 1800’s London data. Recently I have completed my largest dataset ever, containing 40B tokens or 160GB of 1800-1875 english data from Engla",
+      "title": "Can we reconstruct a closed-source LLM tokenizer using only two oracles from the chat API?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utc5b9/can_we_reconstruct_a_closedsource_llm_tokenizer/",
+      "published_at": "2026-07-11T06:17:58Z",
+      "summary": "From the chat APIs alone, we can extract two useful oracles: 1. Token length oracle: Given any string s, return len(tokenize(s)).  Prefix token oracle: Given a string s and integer n, return the string decoded from the f",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-10-deepseek-v4-flash-on-4090-ddr5-my-experience",
+      "id": "localllama-2026-07-11-how-can-i-limit-reasoning-effort-on-the-qwen35-and-gemma4-mo",
       "source": "localllama",
-      "title": "DeepSeek v4 Flash on 4090 + DDR5, my experience",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ustyas/deepseek_v4_flash_on_4090_ddr5_my_experience/",
-      "published_at": "2026-07-10T17:17:54Z",
-      "summary": "Disclosure: No AI was used to write this My specs are:  RTX 4090 128 GB DDR5 5600 MT/s Intel Core Ultra 7 270k  Running nvidia-595 on ubuntu 26.04 with latest llama.cpp build (pulled and rebuilt this morning). Tried a lo",
+      "title": "How can i limit reasoning effort on the qwen3.5 and gemma4 models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utbros/how_can_i_limit_reasoning_effort_on_the_qwen35/",
+      "published_at": "2026-07-11T05:57:00Z",
+      "summary": "So, umhh, I am working on an agentic coding platform, and I need to make qwen3.5 and gemma4 models out of controlled reasoning chains. For example, at low, the model should prioritize finding the quickest solution and pr",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-10-nvidia-readies-geforce-rtx-5090-se-graphics-card---tpu",
+      "id": "localllama-2026-07-11-qwen36-35b-a3b-q8-0-no-kv-quant-single-prompt-in-opencode-cr",
       "source": "localllama",
-      "title": "NVIDIA Readies GeForce RTX 5090 SE Graphics Card - TPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ustlrg/nvidia_readies_geforce_rtx_5090_se_graphics_card/",
-      "published_at": "2026-07-10T17:05:35Z",
-      "summary": "      &#32; submitted by &#32;  /u/panchovix   [link] &#32; [comments] ",
+      "title": "Qwen3.6 35B-A3B (Q8_0, no KV quant) single prompt in opencode: \"Create a beautiful, relaxing flight simulator in a single html file with mountains, clouds, and endless procedural terrain\"",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utb6io/qwen36_35ba3b_q8_0_no_kv_quant_single_prompt_in/",
+      "published_at": "2026-07-11T05:24:45Z",
+      "summary": "      Told it that in plan mode, then told it to implement with no changes to the plan. This model punches far, far above its weight. I wasn&#39;t impressed until I switched from Q4_K_M on GPU to Q8_0 on CPU. It matters.",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-10-a-game-about-simulation-theory-that-includes-an-llm",
+      "id": "localllama-2026-07-11-some-testing-on-rtx-pro-4500-with-oculink-on-prismaquant-int",
       "source": "localllama",
-      "title": "A game about Simulation Theory that includes an LLM.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ustgdv/a_game_about_simulation_theory_that_includes_an/",
-      "published_at": "2026-07-10T17:00:22Z",
-      "summary": "      I made a game called &quot;Simulation Simulator&quot;. It&#39;s a freeform conversation game where you try to convince your AI best friend that reality is a simulation and you&#39;re inside a video game. The game h",
+      "title": "Some testing on RTX Pro 4500 (With Oculink) on PrismaQuant, INT4 Autoround and NVFP4 W4A4 quantized model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut8o8t/some_testing_on_rtx_pro_4500_with_oculink_on/",
+      "published_at": "2026-07-11T03:16:19Z",
+      "summary": "      This little beast has been around for a while after asking about whether it&#39;s possible to set up in this subreddit. Beelink SER 8 8745 HS, AooStar eg01, and RTX Pro 4500 32GB The Sakamakismile model I&#39;ve be",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-10-should-i-get-a-5090-or-a-strix-halo",
+      "id": "localllama-2026-07-11-benchmark-of-the-new-unslothqwen36-27b-nvfp4-on-4x-5060-tis",
       "source": "localllama",
-      "title": "Should I get a 5090 or a strix halo?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ust4is/should_i_get_a_5090_or_a_strix_halo/",
-      "published_at": "2026-07-10T16:48:30Z",
-      "summary": "tl:dr; RTX5090 for 3400€ or Bosgame M5 AI for 2500€? I have a fairly new computer with a 5080 and 64Gb of RAM. I&#39;ve been having loads of fun with local LLMs. In the end I find myself using thu free Claude and Deepsee",
+      "title": "Benchmark of the new unsloth/Qwen3.6-27B-NVFP4 on 4x 5060 ti's with P2P and PP=4 at 1,4,8,12, and 16 concurrency.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut6x55/benchmark_of_the_new_unslothqwen3627bnvfp4_on_4x/",
+      "published_at": "2026-07-11T01:51:26Z",
+      "summary": "Been trying to troubleshoot prefill around when I saw the newer (supposibly faster) nvfp4 quant. For those curious of prefill issues on 4x5060 ti&#39;s, hopefully this helps paint a picture for at what concurrency prefil",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-10-at-most-my-strix-halo-uses-048-a-day",
+      "id": "localllama-2026-07-11-hy3-295b-moe-and-nvidia-nemotron-labs-audex-30b-a3b-audio-ca",
       "source": "localllama",
-      "title": "At most my Strix Halo uses $0.48 a day",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ussasa/at_most_my_strix_halo_uses_048_a_day/",
-      "published_at": "2026-07-10T16:18:38Z",
-      "summary": "This is something that never gets mentioned when people complain that it&#39;s slow and new users are told to avoid them. This 48 cent figure is worst case scenario, running multiple models/compiling hitting CPU, GPU, an",
+      "title": "Hy3 (295B MoE) and NVIDIA Nemotron-Labs-Audex-30B-A3B (audio-capable 30B MoE) GGUF quants",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut66j7/hy3_295b_moe_and_nvidia_nemotronlabsaudex30ba3b/",
+      "published_at": "2026-07-11T01:15:31Z",
+      "summary": "Sharing two GGUF quant sets, both with the same treatment: imatrix quantization, KLD/PPL measured against BF16 reference logits, llama-bench throughput numbers, and all raw benchmark data included in the repos. No vibes-",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-10-a-much-improved-version-of-my-geometry-wars-style-game",
+      "id": "localllama-2026-07-10-mit-llm-serve-dashboard-i-am-making-open-source",
       "source": "localllama",
-      "title": "A much improved version of my Geometry Wars-style game",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usrufx/a_much_improved_version_of_my_geometry_warsstyle/",
-      "published_at": "2026-07-10T16:02:26Z",
-      "summary": "      https://preview.redd.it/6dugg54udfch1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=0adceba385c321d67be5114dad73c08cc4029e6f Some of you may remember the Geometry Wars-style game I posted yesterday. I took your",
+      "title": "MIT LLM Serve Dashboard I am making open source",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut3p89/mit_llm_serve_dashboard_i_am_making_open_source/",
+      "published_at": "2026-07-10T23:25:40Z",
+      "summary": "      A single-file, dependency-free live dashboard for your local LLM serving box — GPU utilization, per-model throughput, KV/context fill, and system stats for llama.cpp and vLLM, in one green terminal-styled page. No ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-10-according-to-databricks-pi-coding-agent-is-2x-cheaper-than-c",
+      "id": "localllama-2026-07-10-nostalgia-for-bloom",
       "source": "localllama",
-      "title": "According to DataBricks, pi-coding-agent is ~2x cheaper than CC/Codex, GLM 5.2 on par with Opus 4.8 high",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usrek0/according_to_databricks_picodingagent_is_2x/",
-      "published_at": "2026-07-10T15:46:22Z",
-      "summary": "      https://preview.redd.it/3p60zyf8afch1.png?width=1840&amp;format=png&amp;auto=webp&amp;s=10dcc90945f0db03352239579fca2132d0c90dfa https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-l",
+      "title": "Nostalgia for Bloom",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut1tno/nostalgia_for_bloom/",
+      "published_at": "2026-07-10T22:09:21Z",
+      "summary": "      Incredible how far we have come, I remember buying 768gb optane drives to try to run the full bloom with swap and waiting like 20 mins for one token. Anyone else play with these early models? I kind of want to go b",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-10-tencenthils-attention-7b-hugging-face",
+      "id": "localllama-2026-07-10-best-vlm-or-llm-for-192gb-ddr5-dual-channel-2x-5090",
       "source": "localllama",
-      "title": "tencent/HiLS-Attention-7B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uspqed/tencenthilsattention7b_hugging_face/",
-      "published_at": "2026-07-10T14:45:15Z",
-      "summary": "      HiLS-Attention is a chunk-wise sparse attention mechanism that learns chunk selection end-to-end under the language-modeling loss, enabling native sparse training for efficient long-context modeling. This repositor",
+      "title": "best vlm or llm for 192gb ddr5 (dual channel) + 2x 5090?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut1pu1/best_vlm_or_llm_for_192gb_ddr5_dual_channel_2x/",
+      "published_at": "2026-07-10T22:04:57Z",
+      "summary": "hey, haven&#39;t been up to date for longer about what currently are the best models. so whats the best recommended model for this? can be either vlm or llm. i saw qwen 27b in another thread? and any way to look in a ran",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-10-has-anyone-created-a-local-llm-survival-kit",
+      "id": "localllama-2026-07-10-is-lm-arena-over",
       "source": "localllama",
-      "title": "Has anyone created a \"Local LLM Survival Kit\"?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uspcg0/has_anyone_created_a_local_llm_survival_kit/",
-      "published_at": "2026-07-10T14:30:51Z",
-      "summary": "Here&#39;s what I&#39;m thinking about: A USB thumb drive that you can plug into any PC or laptop, and immediately get a usable knowledge base powered by an LLM, without requiring an Internet connection. I believe the te",
+      "title": "Is LM Arena over?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut0n1p/is_lm_arena_over/",
+      "published_at": "2026-07-10T21:22:35Z",
+      "summary": "I used to check LM Arena anytime new open models came out to see how they stacked up to the big closed ones.  But it seems like they’ve really cut back on displaying any newly released open models other than the largest.",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-10-25x-faster-qwen36-nvfp4-unsloth-quants",
+      "id": "localllama-2026-07-10-tencent-hy3-is-the-real-deal-on-128gb",
       "source": "localllama",
-      "title": "2.5x faster Qwen3.6 NVFP4 Unsloth quants",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usniqh/25x_faster_qwen36_nvfp4_unsloth_quants/",
-      "published_at": "2026-07-10T13:20:19Z",
-      "summary": "      Hey r/LocalLLaMA folks! We made NVFP4 quants 2.5x faster for Qwen3.6 27B and also 1.56x to 1.79x faster for 35B-A3B vs NVIDIA&#39;s NVFP4 quants without any accuracy degradation! We used W4A4 so actual 4bit tensor ",
+      "title": "Tencent-HY3 is the real deal on 128GB!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usy9ie/tencenthy3_is_the_real_deal_on_128gb/",
+      "published_at": "2026-07-10T19:53:09Z",
+      "summary": "I&#39;m really impressed with HY3. If you haven&#39;t heard of this model, it&#39;s a new 295B-A21B MoE release from Tencent that competes directly on the frontier of open weights models, at a significantly smaller size,",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-10-speculative-cache-warming-warms-your-cache-while-you-type-yo",
+      "id": "localllama-2026-07-10-looking-for-dual-gpu-tips-and-tricks",
       "source": "localllama",
-      "title": "Speculative cache warming: warms your cache while you type your prompt, save 10-20s of wait time",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uskb1g/speculative_cache_warming_warms_your_cache_while/",
-      "published_at": "2026-07-10T10:57:20Z",
-      "summary": "      https://preview.redd.it/0g9l1pvqsdch1.png?width=603&amp;format=png&amp;auto=webp&amp;s=33b554fa2e8344205dc586fb4080bb4e472c8abb Hello, I&#39;m continuously working on OpenFox (MIT-licensed - no business model whats",
+      "title": "Looking for Dual GPU Tips and tricks.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usxpog/looking_for_dual_gpu_tips_and_tricks/",
+      "published_at": "2026-07-10T19:32:13Z",
+      "summary": "      Just added a second 5060 16gb to my server for 32gb total VRAM + 80GB of ECC DDR4 It&#39;s pcie 3.0 so I think tensor parallel is not going to run well in any config but I get around 3200 tok/s prompt processing an",
       "tags": [
         "localllama"
       ]
