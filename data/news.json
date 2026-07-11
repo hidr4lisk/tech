@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-07-11T08:03:28Z",
+  "updated_at": "2026-07-11T13:37:25Z",
   "items": [
+    {
+      "id": "localllama-2026-07-11-are-epyc-ccds-all-you-need-benchmarks",
+      "source": "localllama",
+      "title": "Are EPYC CCDs all you need + benchmarks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utjleq/are_epyc_ccds_all_you_need_benchmarks/",
+      "published_at": "2026-07-11T13:03:56Z",
+      "summary": "Recently I&#39;ve found a deal to buy 9374f for cheap to replace my bottle-necked 9135. 8 CCD looked delicious. But first benchmarks showed me no decoding advantage. Until I used 48 threads. Non 64 or 32, which gave even",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-11-built-everfern-an-alternative-to-cowork-open-sourcelanggraph",
+      "source": "localllama",
+      "title": "Built EverFern, an alternative to cowork open-source(LangGraph + Electron). Tested it against Qwen3-8B, looking for feedback",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utjjw6/built_everfern_an_alternative_to_cowork/",
+      "published_at": "2026-07-11T13:02:01Z",
+      "summary": "      I built EverFern, an open-source (MIT) desktop agent that does computer use, browser control, and file/code tasks, aimed at people who don&#39;t want to pay $20–200/mo for Claude Cowork or Manus and send everything",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-11-literature-review-melting-point-mobile-evaluation-of-languag",
+      "source": "localllama",
+      "title": "Literature Review: MELTing point: Mobile Evaluation of Language Transformers | Bnechmarking LLMs on Phones",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utj1ly/literature_review_melting_point_mobile_evaluation/",
+      "published_at": "2026-07-11T12:38:52Z",
+      "summary": "      Finished reading the paper: MELTing point: Mobile Evaluation of Language Transformers I am starting to benchmark LLMs on edge devices, particularly phones thus been reading a lot on the what has been done and what ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-11-fastest-speculative-decoding-for-qwen",
+      "source": "localllama",
+      "title": "Fastest speculative decoding for qwen",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utiils/fastest_speculative_decoding_for_qwen/",
+      "published_at": "2026-07-11T12:13:50Z",
+      "summary": "Hey guys, we’ve built fastest speculative decoding for Qwen at least.  To run in sglang you can use our fork Hf link Would appreciate your feedback and tests. Please let us know what we can do to make your experience bet",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-11-the-us-tech-industry-is-increasingly-anxious-about-the-risin",
+      "source": "localllama",
+      "title": "The U.S. tech industry is increasingly anxious about the rising power and competitive price of open-source AI models from China — and whether the Trump administration will respond with yet another executive order | Politico",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uthozd/the_us_tech_industry_is_increasingly_anxious/",
+      "published_at": "2026-07-11T11:34:24Z",
+      "summary": "      Politico: Wall Street’s new obsession: Which CEOs have Trump’s ear?: https://www.politico.com/newsletters/politico-influence/2026/07/10/wall-streets-new-obsession-which-ceos-have-trumps-ear-00993324  &#32; submitte",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-11-running-qwen3-30b-a3b-at-50-toks-on-rtx-5060-ti",
+      "source": "localllama",
+      "title": "Running Qwen3 30B A3B at 50 tok/s on RTX 5060 Ti",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utefpr/running_qwen3_30b_a3b_at_50_toks_on_rtx_5060_ti/",
+      "published_at": "2026-07-11T08:29:07Z",
+      "summary": "      Experimented with some custom CUDA and C++ code that can now run a Qwen3-30B-A3B at 50-54 tok/s at float 8 on an RTX 5060 Ti with only 16 GB of VRAM. This speed is roughly 50% improvement to llama.cpp which runs at",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-11-can-we-reconstruct-a-closed-source-llm-tokenizer-using-only",
       "source": "localllama",
@@ -46,89 +112,23 @@
       ]
     },
     {
+      "id": "localllama-2026-07-11-grok-build-cli-uploads-your-whole-repo-full-git-history-env",
+      "source": "localllama",
+      "title": "Grok Build CLI uploads your whole repo — full git history + .env secrets — to xAI's cloud, and the opt-out doesn't stop it (wire-captured)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut7tis/grok_build_cli_uploads_your_whole_repo_full_git/",
+      "published_at": "2026-07-11T02:34:53Z",
+      "summary": "I ran Grok Build CLI (v0.2.93) through mitmproxy. It uploads your entire repo as a git bundle (full history) to xAI&#39;s Google Cloud — independent of what you open. With the prompt literally &quot;do not read or open a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
       "id": "localllama-2026-07-11-benchmark-of-the-new-unslothqwen36-27b-nvfp4-on-4x-5060-tis",
       "source": "localllama",
       "title": "Benchmark of the new unsloth/Qwen3.6-27B-NVFP4 on 4x 5060 ti's with P2P and PP=4 at 1,4,8,12, and 16 concurrency.",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut6x55/benchmark_of_the_new_unslothqwen3627bnvfp4_on_4x/",
       "published_at": "2026-07-11T01:51:26Z",
       "summary": "Been trying to troubleshoot prefill around when I saw the newer (supposibly faster) nvfp4 quant. For those curious of prefill issues on 4x5060 ti&#39;s, hopefully this helps paint a picture for at what concurrency prefil",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-11-hy3-295b-moe-and-nvidia-nemotron-labs-audex-30b-a3b-audio-ca",
-      "source": "localllama",
-      "title": "Hy3 (295B MoE) and NVIDIA Nemotron-Labs-Audex-30B-A3B (audio-capable 30B MoE) GGUF quants",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut66j7/hy3_295b_moe_and_nvidia_nemotronlabsaudex30ba3b/",
-      "published_at": "2026-07-11T01:15:31Z",
-      "summary": "Sharing two GGUF quant sets, both with the same treatment: imatrix quantization, KLD/PPL measured against BF16 reference logits, llama-bench throughput numbers, and all raw benchmark data included in the repos. No vibes-",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-10-mit-llm-serve-dashboard-i-am-making-open-source",
-      "source": "localllama",
-      "title": "MIT LLM Serve Dashboard I am making open source",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut3p89/mit_llm_serve_dashboard_i_am_making_open_source/",
-      "published_at": "2026-07-10T23:25:40Z",
-      "summary": "      A single-file, dependency-free live dashboard for your local LLM serving box — GPU utilization, per-model throughput, KV/context fill, and system stats for llama.cpp and vLLM, in one green terminal-styled page. No ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-10-nostalgia-for-bloom",
-      "source": "localllama",
-      "title": "Nostalgia for Bloom",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut1tno/nostalgia_for_bloom/",
-      "published_at": "2026-07-10T22:09:21Z",
-      "summary": "      Incredible how far we have come, I remember buying 768gb optane drives to try to run the full bloom with swap and waiting like 20 mins for one token. Anyone else play with these early models? I kind of want to go b",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-10-best-vlm-or-llm-for-192gb-ddr5-dual-channel-2x-5090",
-      "source": "localllama",
-      "title": "best vlm or llm for 192gb ddr5 (dual channel) + 2x 5090?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut1pu1/best_vlm_or_llm_for_192gb_ddr5_dual_channel_2x/",
-      "published_at": "2026-07-10T22:04:57Z",
-      "summary": "hey, haven&#39;t been up to date for longer about what currently are the best models. so whats the best recommended model for this? can be either vlm or llm. i saw qwen 27b in another thread? and any way to look in a ran",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-10-is-lm-arena-over",
-      "source": "localllama",
-      "title": "Is LM Arena over?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut0n1p/is_lm_arena_over/",
-      "published_at": "2026-07-10T21:22:35Z",
-      "summary": "I used to check LM Arena anytime new open models came out to see how they stacked up to the big closed ones.  But it seems like they’ve really cut back on displaying any newly released open models other than the largest.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-10-tencent-hy3-is-the-real-deal-on-128gb",
-      "source": "localllama",
-      "title": "Tencent-HY3 is the real deal on 128GB!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usy9ie/tencenthy3_is_the_real_deal_on_128gb/",
-      "published_at": "2026-07-10T19:53:09Z",
-      "summary": "I&#39;m really impressed with HY3. If you haven&#39;t heard of this model, it&#39;s a new 295B-A21B MoE release from Tencent that competes directly on the frontier of open weights models, at a significantly smaller size,",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-10-looking-for-dual-gpu-tips-and-tricks",
-      "source": "localllama",
-      "title": "Looking for Dual GPU Tips and tricks.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usxpog/looking_for_dual_gpu_tips_and_tricks/",
-      "published_at": "2026-07-10T19:32:13Z",
-      "summary": "      Just added a second 5060 16gb to my server for 32gb total VRAM + 80GB of ECC DDR4 It&#39;s pcie 3.0 so I think tensor parallel is not going to run well in any config but I get around 3200 tok/s prompt processing an",
       "tags": [
         "localllama"
       ]
