@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-11T13:37:32Z",
+  "updated_at": "2026-07-11T19:10:55Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9966",
+      "project": "llama-cpp",
+      "version": "b9966",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9966",
+      "published_at": "2026-07-11T18:54:38Z",
+      "body_excerpt": "llama : make tensor-split regex patterns static (#24710) llama_meta_device_get_split_state() recompiled 29 std::regex on every call. In -sm tensor mode the callback runs once per tensor per token, so this dominated the decode thread in profiling. Mark them static const so they are compiled once. Kept inside the function (local statics are thread-safe since C++11). Patterns are literal and stateles",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9965",
+      "project": "llama-cpp",
+      "version": "b9965",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9965",
+      "published_at": "2026-07-11T18:11:18Z",
+      "body_excerpt": "hexagon: improve ARGSORT performance for small tensors (#25512) hex-sort: add efficient bitomic sort in hvx regs up to 1024 elements hex-sort: fix inverted vrors hex-sort: specialize sort functions for the common cases hex-sort: add tracing and local context macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9964",
       "project": "llama-cpp",
