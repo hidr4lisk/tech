@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-11T08:03:36Z",
+  "updated_at": "2026-07-11T13:37:32Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9964",
+      "project": "llama-cpp",
+      "version": "b9964",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9964",
+      "published_at": "2026-07-11T10:52:59Z",
+      "body_excerpt": "arg: prevent duplicate spec model downloads (#25527) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.13.1",
+      "project": "transformers",
+      "version": "v5.13.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.13.1",
+      "published_at": "2026-07-11T09:15:36Z",
+      "body_excerpt": "Patch release v5.13.1 This patch is focused on enabling for the latest release of vllm! Be more defensive with remap_legacy_layer_types for custom models (#47245) from @hmellor Fix custom code which doesn't know about the new linear layer type names (#47174) from @hmellor Fix case where _LazyAutoMapping.register is passed a str key (#47148) from @hmellor",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9963",
+      "project": "llama-cpp",
+      "version": "b9963",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9963",
+      "published_at": "2026-07-11T08:38:28Z",
+      "body_excerpt": "mtmd: deepseek-ocr v1 multi-tile (#24717) mtmd: deepseek-ocr v1 multi-tile dynamic resolution + unified image-preprocessors for both versions (ds-ocr v1 and v2) remove hacky API fuse row into a long image almost working adapt to new preprocessor api rm debugging printf improve mtmd: dsocr-tiles fixes (#25481) ds-ocr img-preproc fuse_row tile-drop fix for multi rows and columns images mtmd drop the",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9960",
       "project": "llama-cpp",
