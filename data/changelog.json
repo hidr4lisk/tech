@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-12T08:24:22Z",
+  "updated_at": "2026-07-12T13:37:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9972",
+      "project": "llama-cpp",
+      "version": "b9972",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9972",
+      "published_at": "2026-07-12T13:07:51Z",
+      "body_excerpt": "server: allow stream for exec_shell_command (#25526) init stream add stream for shell tool add test nits update docs macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9971",
+      "project": "llama-cpp",
+      "version": "b9971",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9971",
+      "published_at": "2026-07-12T12:36:08Z",
+      "body_excerpt": "server: refactor server_stream (#25541) server: refactoring, remove spipe from server_http_res wip remove non-thread-safe rd.stop() call move server_res_spipe nits improve server_stream_create_spipe server-stream: update dev docs for the improved API --------- Co-authored-by: Pascal macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9970",
+      "project": "llama-cpp",
+      "version": "b9970",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9970",
+      "published_at": "2026-07-12T12:03:02Z",
+      "body_excerpt": "ggml : add GGML_OP_LIGHTNING_INDEXER that implements DeepSeek V3.2/V4 lightning indexer (#24231) ggml : add GGML_OP_LIGHTNING_INDEXER that implements DeepSeek V3.2/V4 lightning indexer ggml : remove scale parameters from lightning indexer OP, add f16 mask parameter tests : add GGML_OP_LIGHTNING_INDEXER tests ggml : bump RPC version chore : check if lightning indexer input tensors are not transpose",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9969",
       "project": "llama-cpp",
@@ -7119,33 +7146,6 @@
       "published_at": "2026-04-13T16:58:06Z",
       "body_excerpt": "Patch release v5.5.4 This is mostly some fixes that are good to have asap, mostly for tokenizers; Fix Kimi-K2.5 tokenizer regression and _patch_mistral_regex Attribute… (#45305) by ArthurZucker For training: Fix #45305 + add regression test GAS (#45349) by florian6973, SunMarc Fix IndexError with DeepSpeed ZeRO-3 when kernels rotary is active (#…) by ArthurZucker And for Qwen2.5-VL : Fix Qwen2.5-V",
       "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-skala-baselines",
-      "project": "microsoft",
-      "version": "skala-baselines",
-      "url": "https://huggingface.co/microsoft/skala-baselines",
-      "published_at": "2026-04-13T09:08:29Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-skala-1.0",
-      "project": "microsoft",
-      "version": "skala-1.0",
-      "url": "https://huggingface.co/microsoft/skala-1.0",
-      "published_at": "2026-04-13T08:45:00Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-skala-1.1",
-      "project": "microsoft",
-      "version": "skala-1.1",
-      "url": "https://huggingface.co/microsoft/skala-1.1",
-      "published_at": "2026-04-13T08:31:48Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }

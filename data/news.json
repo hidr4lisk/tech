@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-07-12T08:24:17Z",
+  "updated_at": "2026-07-12T13:37:30Z",
   "items": [
+    {
+      "id": "localllama-2026-07-12-if-you-use-open-code-or-other-agenting-programs-you-are-leav",
+      "source": "localllama",
+      "title": "If you use Open Code or other agenting programs you are leaving a lot of t/s if you don't actually use agents in parallel. Benchmark : RTX5090, Qwen3.6 35B loaded via LM studio with parallel tasks set to 8",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uueuks/if_you_use_open_code_or_other_agenting_programs/",
+      "published_at": "2026-07-12T13:00:07Z",
+      "summary": "As many of you know t/s is super important. It&#39;s how fast your stuff gets done. I create via open code benchtest and run it. Thanks to it i know that if i don&#39;t run at least 4 agents i basically leave HALF of per",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-12-working-around-qwen36-27bs-tool-call-failures-and-looping",
+      "source": "localllama",
+      "title": "Working around Qwen3.6-27B's tool-call failures and looping",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uue278/working_around_qwen3627bs_toolcall_failures_and/",
+      "published_at": "2026-07-12T12:24:34Z",
+      "summary": "Let&#39;s start a discussion about what can be done to make local models more reliable. I&#39;ve been using Qwen3.6-27B a lot lately, and have noticed the same thing that many others talk about here, which is the tool-ca",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-12-zer0fit-i-took-googles-new-tabfm-timesfm-ml-foundation-model",
+      "source": "localllama",
+      "title": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uudxi8/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
+      "published_at": "2026-07-12T12:18:28Z",
+      "summary": "      TL:DR: I’m a grad student in AI. I saw that Google released TabFM and TimesFM last week. I built an MCP wrapper to serve both transformer models in a single Docker container so you can connect their new ML transfor",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-12-current-state-of-voice-to-voice-models",
+      "source": "localllama",
+      "title": "Current state of Voice-To-Voice models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuc4dc/current_state_of_voicetovoice_models/",
+      "published_at": "2026-07-12T10:48:34Z",
+      "summary": "Hi, Has there been any improvement to Voice models (like RVC) in the last two years, or has nothing changed? Thanks!  &#32; submitted by &#32;  /u/Iwishlife   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-12-benchmark---4x-5060-ti-64gb-vram-p2p---qwen36-27b-int8-w-bf1",
+      "source": "localllama",
+      "title": "Benchmark - 4x 5060 Ti (64GB VRAM) (P2P) - Qwen3.6 27B (INT8 /w bf16 kv cache) @ 8 concurrency with SGLang. SGLang seems to handle higher concurrency better with this setup",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuc3pi/benchmark_4x_5060_ti_64gb_vram_p2p_qwen36_27b/",
+      "published_at": "2026-07-12T10:47:33Z",
+      "summary": "I recently posted some posts with VLLM showing issues with TTFT and concurrency with 4x 5060 ti&#39;s. Wanted to share this benchmark to provide what worked for me so other people that are planning to go the 4x 5060 ti r",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-12-voodoo-quant-beats-unsloth-dynamic-20-kld-by-95-in-qwen35-08",
+      "source": "localllama",
+      "title": "Voodoo Quant beats Unsloth Dynamic 2.0 KLD by 95% in Qwen3.5 0.8B and 2B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uua3jd/voodoo_quant_beats_unsloth_dynamic_20_kld_by_95/",
+      "published_at": "2026-07-12T08:52:41Z",
+      "summary": "      Hey all, here are two new high performance qwen3.5 gguf sets I created using a new state of the art technique for optimizing mixed precision called Voodoo Quant. https://huggingface.co/voodooquant/Qwen3.5-0.8B-MTP-",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-12-need-help-tuning-cache-in-llama-server",
       "source": "localllama",
@@ -68,61 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-12-i-didnt-give-up---extgemma4-40-5b-returned",
-      "source": "localllama",
-      "title": "I didn't give up - extGemma4-40_5B returned",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu4hxp/i_didnt_give_up_extgemma440_5b_returned/",
-      "published_at": "2026-07-12T03:49:53Z",
-      "summary": "      Continue from my previous posts: https://www.reddit.com/r/LocalLLaMA/comments/1ul0cx9/i_extended_gemma431b_to_44b_88_layers_since/ https://www.reddit.com/r/LocalLLaMA/comments/1um20ev/why_new_inserted_layers_kill_t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-qwenthropic",
-      "source": "localllama",
-      "title": "Qwenthropic",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu3545/qwenthropic/",
-      "published_at": "2026-07-12T02:40:01Z",
-      "summary": "Hey guys, I&#39;ve been running Qwen 3.6-27b locally on an RTX 3090 for a while now, and it&#39;s been genuinely great at solving software issues. However, life happened and I recently had to use Opus 4.8 alongside the Z",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-interactive-jacobian-lens-visualizer-and-live-steerer-for-gg",
-      "source": "localllama",
-      "title": "Interactive Jacobian-Lens visualizer and live steerer for GGUF models on llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu32z6/interactive_jacobianlens_visualizer_and_live/",
-      "published_at": "2026-07-12T02:37:07Z",
-      "summary": "      I saw a lot of (complete and abortive) jacobian lens projects for HF and PyTorch, but nothing for GGUFs or llama.cpp. So I set Fable 5 on xhigh to solve this problem (with close human supervision of course 😎). Insp",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-next-best-jump-from-qwen-36-27b",
-      "source": "localllama",
-      "title": "next best jump from qwen 3.6 27b",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu1g3m/next_best_jump_from_qwen_36_27b/",
-      "published_at": "2026-07-12T01:18:07Z",
-      "summary": "how much vram do you need and what model do you think is the next major upgrade from the good old qwen 3.6 27b as of today?  &#32; submitted by &#32;  /u/WhatTheFlukz   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-chinas-deepseek-developing-its-own-ai-chip-sources-say",
-      "source": "localllama",
-      "title": "China's DeepSeek developing its own AI chip, sources say",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu15mz/chinas_deepseek_developing_its_own_ai_chip/",
-      "published_at": "2026-07-12T01:04:07Z",
-      "summary": "&#32; submitted by &#32;  /u/TheRealMasonMac   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-11-sqlite-utils-41",
       "source": "simonw",
       "title": "sqlite-utils 4.1",
@@ -131,17 +142,6 @@
       "summary": "Release: sqlite-utils 4.1\n        The first dot-release since 4.0 a few days ago, introducing a number of minor new features.\n\n\nsqlite-utils insert and sqlite-utils upsert now accept a --code option for providing a block",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-11-measuring-pcie-transfer-under-dual-gpu-with-pipeline-tensor",
-      "source": "localllama",
-      "title": "Measuring PCIe transfer under dual GPU with pipeline & tensor llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utz50z/measuring_pcie_transfer_under_dual_gpu_with/",
-      "published_at": "2026-07-11T23:35:46Z",
-      "summary": "      Hello all, sharing some data points: In this setup there are 2 cards connected direct to motherboard via PCIE 3 16x slots. Running llama.cpp. Ubuntu 24.04, single xeon motherboard The cards are 1x RTX 3090 24GB pow",
-      "tags": [
-        "localllama"
       ]
     },
     {
