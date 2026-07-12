@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-11T19:10:55Z",
+  "updated_at": "2026-07-12T03:25:54Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9968",
+      "project": "llama-cpp",
+      "version": "b9968",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9968",
+      "published_at": "2026-07-12T01:12:46Z",
+      "body_excerpt": "opencl: add int8 dp4 dense and MoE prefill optimization for Adreno GPUs (#25537) opencl: add int8 dp4 dense and moe GEMM opencl: refactor --------- Co-authored-by: Li He macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9967",
+      "project": "llama-cpp",
+      "version": "b9967",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9967",
+      "published_at": "2026-07-12T00:43:27Z",
+      "body_excerpt": "server: accept null sampling params (#25538) server: accept null sampling params Extend the schema validation to treat a null value as absent, so clients can send null on nullable params (temperature, top_p, ...) to request the server default. This matches the OpenAI spec and the json_value convention used elsewhere. Add has_field() to skip null in the field eval guards. has_field -> has_value​ ma",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.25.0",
+      "project": "vllm",
+      "version": "v0.25.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0",
+      "published_at": "2026-07-11T20:06:44Z",
+      "body_excerpt": "vLLM v0.25.0 Release Notes Highlights This release features 558 commits from 232 contributors (64 new)! Model Runner V2 is now the default for all dense models (#44443). Building on quantized-model support from the previous release, MRv2 is now the standard execution path, with new support for EVS (#46535), realtime embeddings (#46762), prefix caching for Mamba hybrid models (#42406), multimodal-p",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9966",
       "project": "llama-cpp",
@@ -7110,15 +7137,6 @@
       "published_at": "2026-04-13T08:31:48Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "ollama-v0.20.6",
-      "project": "ollama",
-      "version": "v0.20.6",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.6",
-      "published_at": "2026-04-12T22:59:47Z",
-      "body_excerpt": "What's Changed Gemma 4 tool calling ability is improved and updated to use Google's latest post-launch fixes Parallel tool calling improved for streaming responses Hermes agent Ollama integration guide is now available Ollama app is updated to fix image attachment errors New Contributors @matteocelani made their first contribution in #15272 Full Changelog:",
-      "type": "tool"
     }
   ]
 }
