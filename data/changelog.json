@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-12T03:25:54Z",
+  "updated_at": "2026-07-12T08:24:22Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9969",
+      "project": "llama-cpp",
+      "version": "b9969",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9969",
+      "published_at": "2026-07-12T05:30:33Z",
+      "body_excerpt": "Vulkan: route large matmuls to medium tile on Adreno (#24877) [Vulkan] Fixes llama-cli breaking over longer promts sizes The llama-cli was breaking for longer promts sizes for q4_0 quantized networks. Causing due to insufficient shared memory. Removed the un-used Adreno device Updated matmul for small pipeline. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DI",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9968",
       "project": "llama-cpp",
