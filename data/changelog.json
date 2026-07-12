@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-12T13:37:37Z",
+  "updated_at": "2026-07-12T19:11:54Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9977",
+      "project": "llama-cpp",
+      "version": "b9977",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9977",
+      "published_at": "2026-07-12T16:18:10Z",
+      "body_excerpt": "server : fix image blocks in tool_result being dropped during Anthropic OpenAI conversion (#22536) server : fix image blocks in tool_result being dropped during Anthropic→OpenAI conversion server_chat_convert_anthropic_to_oai() silently discarded image blocks inside Anthropic tool_result content. This broke multimodal tool outputs (e.g. a tool that returns an image) because the model never receive",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9976",
+      "project": "llama-cpp",
+      "version": "b9976",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9976",
+      "published_at": "2026-07-12T15:22:50Z",
+      "body_excerpt": "Fix conditional to display 'LLAMA_SPLIT_MODE_TENSOR not implemented for architecture' message (#24926) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9975",
+      "project": "llama-cpp",
+      "version": "b9975",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9975",
+      "published_at": "2026-07-12T14:49:18Z",
+      "body_excerpt": "gguf : reject empty metadata keys (#24917) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9974",
+      "project": "llama-cpp",
+      "version": "b9974",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9974",
+      "published_at": "2026-07-12T14:16:29Z",
+      "body_excerpt": "cuda: Don't crash when querying memory on device with no free memory. (#25157) If a Cuda device has no or limited available memory, the actual call to cudaMemGetInfo() itself can cause a fatal crash due to a cuda out of memory error (there is not enough memory to actually query memory) This causes an issue because we query memory for all devices at startup even if the user isn't trying to use the ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9973",
+      "project": "llama-cpp",
+      "version": "b9973",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9973",
+      "published_at": "2026-07-12T13:40:08Z",
+      "body_excerpt": "DeepseekV4: clear cache only for seq rather than full (#25521) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9972",
       "project": "llama-cpp",
@@ -7136,15 +7181,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.20.7",
       "published_at": "2026-04-13T23:33:00Z",
       "body_excerpt": "What's Changed Fix quality of gemma:e2b and gemma:e4b when thinking is disabled ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.5.4",
-      "project": "transformers",
-      "version": "v5.5.4",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.4",
-      "published_at": "2026-04-13T16:58:06Z",
-      "body_excerpt": "Patch release v5.5.4 This is mostly some fixes that are good to have asap, mostly for tokenizers; Fix Kimi-K2.5 tokenizer regression and _patch_mistral_regex Attribute… (#45305) by ArthurZucker For training: Fix #45305 + add regression test GAS (#45349) by florian6973, SunMarc Fix IndexError with DeepSpeed ZeRO-3 when kernels rotary is active (#…) by ArthurZucker And for Qwen2.5-VL : Fix Qwen2.5-V",
       "type": "tool"
     }
   ]
