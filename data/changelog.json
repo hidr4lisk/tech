@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-12T19:11:54Z",
+  "updated_at": "2026-07-13T03:28:55Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9982",
+      "project": "llama-cpp",
+      "version": "b9982",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9982",
+      "published_at": "2026-07-13T01:28:35Z",
+      "body_excerpt": "server: honour per-request reasoning_budget_tokens in chat completions (#23116) server: honour per-request reasoning_budget_tokens in chat completions The reasoning-budget block in oaicompat_chat_params_parse read only the server-level default (opt.reasoning_budget, typically -1) and the Anthropic-style alias thinking_budget_tokens, but never the canonical reasoning_budget_tokens field from the re",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9981",
+      "project": "llama-cpp",
+      "version": "b9981",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9981",
+      "published_at": "2026-07-13T00:53:43Z",
+      "body_excerpt": "vendor : update cpp-httplib to 0.50.1 (#25576) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9980",
+      "project": "llama-cpp",
+      "version": "b9980",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9980",
+      "published_at": "2026-07-13T00:07:05Z",
+      "body_excerpt": "server: Don't consider models with --no-mmproj-auto as multimodal (#25590) If mmproj is explicitly disabled via the model preset or command-line parameters then the model won't be able to handle image/audio inputs and this shouldn't be declared as supported input modality on the /v1/models endpoint. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9979",
+      "project": "llama-cpp",
+      "version": "b9979",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9979",
+      "published_at": "2026-07-12T23:36:43Z",
+      "body_excerpt": "mtmd: fix silent prompt truncation on embedded NUL (#25548) mtmd: fix silent prompt truncation on embedded NUL mtmd_input_text carried the prompt as a bare const char with no length, so a NUL byte in message content cut the prompt at the tokenizer boundary and dropped every later message plus the assistant marker, with no log. Add an explicit text_len and thread it through, matching llama_tokenize",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9978",
+      "project": "llama-cpp",
+      "version": "b9978",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9978",
+      "published_at": "2026-07-12T21:32:41Z",
+      "body_excerpt": "server : evict checkpoints within min-step of each other (#25472) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9977",
       "project": "llama-cpp",
@@ -7136,51 +7181,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.21.0",
       "published_at": "2026-04-16T22:00:17Z",
       "body_excerpt": "Hermes Agent Hermes learns with you, automatically creating skills to better serve your workflows. Great for research and engineering tasks. What's Changed Gemma 4 on MLX. Added support for running Gemma 4 via MLX on Apple Silicon, including a text-only MLX runtime for the model. The MLX backend also picked up mixed-precision quantization, better capability detection, and a batch of new op wrapper",
-      "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-Dayhoff-3b-UR90-30000",
-      "project": "microsoft",
-      "version": "Dayhoff-3b-UR90-30000",
-      "url": "https://huggingface.co/microsoft/Dayhoff-3b-UR90-30000",
-      "published_at": "2026-04-14T00:33:33Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Dayhoff-3b-UR90-20350",
-      "project": "microsoft",
-      "version": "Dayhoff-3b-UR90-20350",
-      "url": "https://huggingface.co/microsoft/Dayhoff-3b-UR90-20350",
-      "published_at": "2026-04-14T00:30:50Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Dayhoff-3b-UR90-10000",
-      "project": "microsoft",
-      "version": "Dayhoff-3b-UR90-10000",
-      "url": "https://huggingface.co/microsoft/Dayhoff-3b-UR90-10000",
-      "published_at": "2026-04-14T00:27:13Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Dayhoff-3b-UR90-10",
-      "project": "microsoft",
-      "version": "Dayhoff-3b-UR90-10",
-      "url": "https://huggingface.co/microsoft/Dayhoff-3b-UR90-10",
-      "published_at": "2026-04-14T00:23:43Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "ollama-v0.20.7",
-      "project": "ollama",
-      "version": "v0.20.7",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.7",
-      "published_at": "2026-04-13T23:33:00Z",
-      "body_excerpt": "What's Changed Fix quality of gemma:e2b and gemma:e4b when thinking is disabled ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in Full Changelog:",
       "type": "tool"
     }
   ]
