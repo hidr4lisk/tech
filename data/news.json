@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-07-12T19:11:48Z",
+  "updated_at": "2026-07-13T03:28:50Z",
   "items": [
+    {
+      "id": "localllama-2026-07-13-deepseek-v4-flash-text-only-vs-mimo-25-omnimodal",
+      "source": "localllama",
+      "title": "DeepSeek v4 Flash (Text only) VS, Mimo 2.5 (Omnimodal)?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuyvxp/deepseek_v4_flash_text_only_vs_mimo_25_omnimodal/",
+      "published_at": "2026-07-13T02:27:28Z",
+      "summary": "Like the title say, which you prefer and why and experience if any? Deepseek Flash is definitely faster, but is text only, Mimo on the other hand is not slow but is Omnimodal so i think thats is a plus  &#32; submitted b",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-are-businesses-actually-using-agents-like-openclaw",
+      "source": "localllama",
+      "title": "Are businesses actually using agents like openclaw?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuyavp/are_businesses_actually_using_agents_like_openclaw/",
+      "published_at": "2026-07-13T01:59:51Z",
+      "summary": "I feel like it’s just not practical let alone secure. Is anyone using this for business? For what types of uses?   &#32; submitted by &#32;  /u/SadPhilosophy9202   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-running-qwen35-122b-on-mac-studio-96gb-fixed-3-bugs-that-mad",
+      "source": "localllama",
+      "title": "Running Qwen3.5-122B on Mac Studio 96GB: Fixed 3 bugs that made long-context inference usable",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuwrc0/running_qwen35122b_on_mac_studio_96gb_fixed_3/",
+      "published_at": "2026-07-13T00:47:05Z",
+      "summary": "Hey everyone, I recently switched from DS4 Flash to Qwen3.5-122B on my M3 Ultra Mac Studio for long-context agentic coding. While the model fit better, I hit a wall where follow-up messages took 3-5 minutes to start gene",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-12-directly-responsible-individuals-dri",
+      "source": "simonw",
+      "title": "Directly Responsible Individuals (DRI)",
+      "url": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
+      "published_at": "2026-07-12T23:57:14Z",
+      "summary": "Directly Responsible Individuals (DRI)\nI went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to de",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-12-why-do-people-keep-fine-tuning-on-summarizedcensored-sota-co",
+      "source": "localllama",
+      "title": "Why do people keep fine-tuning on summarized/censored SOTA CoT traces?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuvkw9/why_do_people_keep_finetuning_on/",
+      "published_at": "2026-07-12T23:54:52Z",
+      "summary": "Am I missing something? It seems like some people think distillation is magic and will raise the quality of output above what the base model is actually capable of. It&#39;s especially weird to me to see all these Fable ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-12-shot-scraper-111",
+      "source": "simonw",
+      "title": "shot-scraper 1.11",
+      "url": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+      "published_at": "2026-07-12T23:46:52Z",
+      "summary": "Release: shot-scraper 1.11\n        Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-12-what-will-you-do",
+      "source": "localllama",
+      "title": "What will you do?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuuwtd/what_will_you_do/",
+      "published_at": "2026-07-12T23:25:18Z",
+      "summary": "Hey guys. Just a curious and maybe been feeling a little burn out on this whole experiencing local AI and stuff. I own a rig with quad RTX3090s and 96GB for ddr5. But its on am5 platform so the pcie lanes aren&#39;t max ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-12-llamacpp-agentic-workflows-ctx-checkpoints-fix",
+      "source": "localllama",
+      "title": "llama.cpp Agentic Workflows Ctx Checkpoints Fix",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuue5p/llamacpp_agentic_workflows_ctx_checkpoints_fix/",
+      "published_at": "2026-07-12T23:03:21Z",
+      "summary": "b9978 Claude in one sentence what does this fix   llama.cpp b9978 fixes a checkpoint bug that hit agentic workloads hardest: every agent turn created a new checkpoint (bypassing min-step spacing), collapsing the coverage",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-12-apple-sues-openai-alleging-trade-secret-theft-says-scheme-wa",
+      "source": "localllama",
+      "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uus189/apple_sues_openai_alleging_trade_secret_theft/",
+      "published_at": "2026-07-12T21:25:47Z",
+      "summary": "      &#32; submitted by &#32;  /u/fallingdowndizzyvr   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-12-fable-gets-another-bump",
+      "source": "simonw",
+      "title": "Fable gets another bump",
+      "url": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
+      "published_at": "2026-07-12T21:20:07Z",
+      "summary": "One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans:\n\nWe're extending Claude Fabl",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-12-sqlite-utils-411",
+      "source": "simonw",
+      "title": "sqlite-utils 4.1.1",
+      "url": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
+      "published_at": "2026-07-12T20:55:30Z",
+      "summary": "Release: sqlite-utils 4.1.1\n        Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE.\n\n\ntable.transform() now raises a Transacti",
+      "tags": [
+        "simonw"
+      ]
+    },
     {
       "id": "localllama-2026-07-12-moondream31-9b-a2b",
       "source": "localllama",
@@ -52,83 +173,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uugulk/anthropic_found_claude_reasoning_in_silence/",
       "published_at": "2026-07-12T14:22:37Z",
       "summary": "Anthropic’s research on Claude found a silent internal workspace they call J-space — hidden reasoning that never shows up as visible text. Classic example: the model answers 49, but inside J-space they caught 21 → 42 → 4",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-local-image-to-3d-2gb-ram-20s-apple-silicon-iphone",
-      "source": "localllama",
-      "title": "Local Image to 3D (<2gb RAM, <20s, Apple Silicon, iPhone)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuga40/local_image_to_3d_2gb_ram_20s_apple_silicon_iphone/",
-      "published_at": "2026-07-12T14:00:21Z",
-      "summary": "      TLDR checkout the app here: github.com/ZimengXiong/Modelr My swift-mlx/python mlx port of Hunyuan3D-Paint and Hunyuan3D-Shape is finally complete! It&#39;s also available as a standalone image to 3D desktop app, th",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-if-you-use-open-code-or-other-agenting-programs-you-are-leav",
-      "source": "localllama",
-      "title": "If you use Open Code or other agenting programs you are leaving a lot of t/s if you don't actually use agents in parallel. Benchmark : RTX5090, Qwen3.6 35B loaded via LM studio with parallel tasks set to 8",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uueuks/if_you_use_open_code_or_other_agenting_programs/",
-      "published_at": "2026-07-12T13:00:07Z",
-      "summary": "As many of you know t/s is super important. It&#39;s how fast your stuff gets done. I create via open code benchtest and run it. Thanks to it i know that if i don&#39;t run at least 4 agents i basically leave HALF of per",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-i-got-nemotron-puzzle-75b-running-smoothly-on-a-64gb-m2-max",
-      "source": "localllama",
-      "title": "I got Nemotron Puzzle 75B running smoothly on a 64GB M2 Max",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uue46z/i_got_nemotron_puzzle_75b_running_smoothly_on_a/",
-      "published_at": "2026-07-12T12:27:04Z",
-      "summary": "      TL;DR: Added native nemotron_h_puzzle support to mlx-lm (PR #1535), then compared 4-bit vs 5-bit expert quantization (both with 6-bit dense layers, BF16 output head, group size 64) on a 64GB M2 Max. Results (same p",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-working-around-qwen36-27bs-tool-call-failures-and-looping",
-      "source": "localllama",
-      "title": "Working around Qwen3.6-27B's tool-call failures and looping",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uue278/working_around_qwen3627bs_toolcall_failures_and/",
-      "published_at": "2026-07-12T12:24:34Z",
-      "summary": "Let&#39;s start a discussion about what can be done to make local models more reliable. I&#39;ve been using Qwen3.6-27B a lot lately, and have noticed the same thing that many others talk about here, which is the tool-ca",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-zer0fit-i-took-googles-new-tabfm-timesfm-ml-foundation-model",
-      "source": "localllama",
-      "title": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uudxi8/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
-      "published_at": "2026-07-12T12:18:28Z",
-      "summary": "      TL:DR: I’m a grad student in AI. I saw that Google released TabFM and TimesFM last week. I built an MCP wrapper to serve both transformer models in a single Docker container so you can connect their new ML transfor",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-current-state-of-voice-to-voice-models",
-      "source": "localllama",
-      "title": "Current state of Voice-To-Voice models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuc4dc/current_state_of_voicetovoice_models/",
-      "published_at": "2026-07-12T10:48:34Z",
-      "summary": "Hi, Has there been any improvement to Voice models (like RVC) in the last two years, or has nothing changed? Thanks!  &#32; submitted by &#32;  /u/Iwishlife   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-benchmark---4x-5060-ti-64gb-vram-p2p---qwen36-27b-int8-w-bf1",
-      "source": "localllama",
-      "title": "Benchmark - 4x 5060 Ti (64GB VRAM) (P2P) - Qwen3.6 27B (INT8 /w bf16 kv cache) @ 8 concurrency with SGLang. SGLang seems to handle higher concurrency better with this setup",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuc3pi/benchmark_4x_5060_ti_64gb_vram_p2p_qwen36_27b/",
-      "published_at": "2026-07-12T10:47:33Z",
-      "summary": "I recently posted some posts with VLLM showing issues with TTFT and concurrency with 4x 5060 ti&#39;s. Wanted to share this benchmark to provide what worked for me so other people that are planning to go the 4x 5060 ti r",
       "tags": [
         "localllama"
       ]
@@ -244,17 +288,6 @@
       ]
     },
     {
-      "id": "simonw-2026-07-08-quoting-kenton-varda",
-      "source": "simonw",
-      "title": "Quoting Kenton Varda",
-      "url": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
-      "published_at": "2026-07-08T20:03:34Z",
-      "summary": "I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team.\nAI was writing change descriptions that were worse than useless to me as I tried to rev",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-08-data-for-agents",
       "source": "huggingface",
       "title": "Data for Agents",
@@ -299,28 +332,6 @@
       ]
     },
     {
-      "id": "simonw-2026-07-07-sqlite-utils-40-now-with-database-schema-migrations",
-      "source": "simonw",
-      "title": "sqlite-utils 4.0, now with database schema migrations",
-      "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
-      "published_at": "2026-07-07T19:32:57Z",
-      "summary": "This morning I released sqlite-utils 4.0, the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upgra",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-07-github-code-web-component",
-      "source": "simonw",
-      "title": "github-code Web Component",
-      "url": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
-      "published_at": "2026-07-07T16:18:16Z",
-      "summary": "Tool: github-code Web Component\n        An experimental Web Component built using GPT-5.5 and the following prompt:\n\nlet's build a Web Component for embedding code from GitHub\n&lt;github-code href=\"https://github.com/sim",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-07-hugging-face-models-on-foundry-managed-compute",
       "source": "huggingface",
       "title": "Hugging Face Models on Foundry Managed Compute",
@@ -329,17 +340,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-07-sqlite-utils-40rc4",
-      "source": "simonw",
-      "title": "sqlite-utils 4.0rc4",
-      "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
-      "published_at": "2026-07-07T05:36:15Z",
-      "summary": "Release: sqlite-utils 4.0rc4\n        The last RC before the 4.0 stable release. Mainly implements feedback from a detailed review by Claude Fable 5.\n    \n    \n        Tags: sqlite-utils, claude-mythos-fable",
-      "tags": [
-        "simonw"
       ]
     },
     {
