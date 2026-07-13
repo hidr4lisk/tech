@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-07-13T09:36:23Z",
+  "updated_at": "2026-07-13T14:45:05Z",
   "items": [
+    {
+      "id": "localllama-2026-07-13-qwen-32k-1m-with-yarn-same-weights-factor-32-what-actually-c",
+      "source": "localllama",
+      "title": "Qwen 32K → 1M with YaRN: same weights, factor 32 — what actually changes (and what breaks)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvdj5j/qwen_32k_1m_with_yarn_same_weights_factor_32_what/",
+      "published_at": "2026-07-13T14:42:51Z",
+      "summary": "      Qwen3&#39;s native window is ~32,768. People keep shipping &quot;1M context&quot; GGUFs of the same checkpoint. What&#39;s going on isn&#39;t a new brain. It&#39;s YaRN (Yet another RoPE extensioN): stretch the pos",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-wan-dancer-a-hierarchical-framework-for-minute-scale-coheren",
+      "source": "localllama",
+      "title": "Wan-Dancer: A Hierarchical Framework for Minute-scale Coherent Music-to-Dance Generation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvdaq7/wandancer_a_hierarchical_framework_for/",
+      "published_at": "2026-07-13T14:33:59Z",
+      "summary": "       Generating long-duration, high-definition, and rhythmically synchronized dance videos directly from music remains a significant challenge, primarily due to the temporal constraints of current diffusion models, whi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-qwen36-35b-a3b-mtp-built-this-website-with-pi-coding-agent-o",
+      "source": "localllama",
+      "title": "Qwen3.6-35B-A3B-MTP built this website with Pi Coding Agent on my laptop",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvd93y/qwen3635ba3bmtp_built_this_website_with_pi_coding/",
+      "published_at": "2026-07-13T14:32:15Z",
+      "summary": "      I tested Unsloth&#39;s Qwen3.6-35B-A3B-MTP-GGUF:UD-Q4_K_XL with simple Pi Coding Agent. No skill or extensions used. My laptop have 32GB RAM and 8GB VRAM. Without context it runs around 40 t/s. When context getting",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-i-benchmarked-15-e-waste-gpus-with-modern-workloads",
+      "source": "localllama",
+      "title": "I benchmarked 15 \"E-Waste\" GPUs with Modern Workloads",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvcjd0/i_benchmarked_15_ewaste_gpus_with_modern_workloads/",
+      "published_at": "2026-07-13T14:05:18Z",
+      "summary": "      I&#39;ve spent the last year building GPU coolers and a custom benchmarking tool to figure out if decommissioned NVIDIA enterprise GPUs have any use with modern workloads. Cards like the P100 (16GB) are going for a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-apple-m7-ultra-chip-planned-with-up-to-15-tb-of-unified-memo",
+      "source": "localllama",
+      "title": "Apple M7 Ultra Chip Planned With Up to 1.5 TB of Unified Memory",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvbzul/apple_m7_ultra_chip_planned_with_up_to_15_tb_of/",
+      "published_at": "2026-07-13T13:44:24Z",
+      "summary": "      &#32; submitted by &#32;  /u/Mochila-Mochila   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-zhipu-founder-backs-open-source-ai-as-global-security-debate",
+      "source": "localllama",
+      "title": "Zhipu founder backs open-source AI as global security debate intensifies",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvbgvx/zhipu_founder_backs_opensource_ai_as_global/",
+      "published_at": "2026-07-13T13:23:29Z",
+      "summary": "      &#32; submitted by &#32;  /u/computeruser420   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-production-qwen-36-27b-vllm-config",
+      "source": "localllama",
+      "title": "Production Qwen 3.6-27B VLLM config?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvacno/production_qwen_3627b_vllm_config/",
+      "published_at": "2026-07-13T12:36:41Z",
+      "summary": "UPDATE: If you are running Qwen3.6 27b or 35b with prefix caching and spec decode, you will run into corruption problems! Take a look at https://github.com/vllm-project/vllm/pull/48375; the patch there has resolved my pr",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-studymodels-flint-compressing-reasoning-without-breaking-it",
+      "source": "localllama",
+      "title": "[Study/Models] Flint: Compressing Reasoning Without Breaking It",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv9o2u/studymodels_flint_compressing_reasoning_without/",
+      "published_at": "2026-07-13T12:05:42Z",
+      "summary": "      TLDR: I trained Qwen3.5-4B and gemma-4-12b on self-distilled, compressed reasoning traces; compression was section-aware (compute and verification spans remain, fillers/narration/transitions get dropped/compressed)",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-colibri-streaming-for-hy3-run-hy3-on-10gb-vram",
+      "source": "localllama",
+      "title": "Colibri streaming for Hy3 (Run Hy3 on 10GB (V)RAM)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv8orn/colibri_streaming_for_hy3_run_hy3_on_10gb_vram/",
+      "published_at": "2026-07-13T11:18:50Z",
+      "summary": "Standing on the shoulders of giants, I vibe-coded a port of Colibri to work with Hy3 so you can run it on even smaller hardware specs (Colibri originally works with GLM 5.2 on 25GB, now you need no more than 10GB (even l",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-ovisocr2-a-promising-08b-local-document-parser",
+      "source": "localllama",
+      "title": "OvisOCR2: a promising 0.8B local document parser",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv88co/ovisocr2_a_promising_08b_local_document_parser/",
+      "published_at": "2026-07-13T10:55:51Z",
+      "summary": "      Just came across OvisOCR2, a new 0.8B end-to-end OCR model based on Qwen3.5-0.8B. https://preview.redd.it/adj3m8wu9zch1.png?width=5108&amp;format=png&amp;auto=webp&amp;s=c4f14a0f7bfd6e1417fa8f476479db76498af51b It ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-20gb-vram-64gb-ddr5---qwen36-35b-a3b-still-the-best-choice",
+      "source": "localllama",
+      "title": "20GB VRAM + 64GB DDR5 - Qwen3.6 35B A3B still the best choice?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv7cf5/20gb_vram_64gb_ddr5_qwen36_35b_a3b_still_the_best/",
+      "published_at": "2026-07-13T10:08:11Z",
+      "summary": "Hey everyone. Trying to figure out the best setup for my hardware. I&#39;ve got a 64GB DDR5 RAM laptop and A 20GB 7900xt egpu. Usecase is only pi-coding-agent locally. So far, Qwen3.6 35B A3B has been the only model I&#3",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-13-i-got-gemma-4-running-directly-inside-godot-using-only-gdscr",
       "source": "localllama",
@@ -8,83 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv66by/i_got_gemma_4_running_directly_inside_godot_using/",
       "published_at": "2026-07-13T09:01:46Z",
       "summary": "      I wanted to see if an LLM could run inside Godot without llama.cpp, Python, a server, or a GDExtension. It works. This Godot 4.7 project runs gemma-4-E2B-it-Q4_K_M.gguf locally. The model calculations run in Vulkan",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-compressed-version-of-qwen-36-27b-coming-from-prismml---khos",
-      "source": "localllama",
-      "title": "Compressed Version of Qwen-3.6-27B coming from PrismML - Khosla-Backed Startup Claims Breakthrough With Largest-Ever AI Model on an iPhone",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv54fv/compressed_version_of_qwen3627b_coming_from/",
-      "published_at": "2026-07-13T07:59:33Z",
-      "summary": "       The startup, PrismML, said it has shrunk down Qwen 3.6, an open-source large language model developed by Chinese internet giant Alibaba, to run on an iPhone 17 Pro. The model has 27 billion parameters, which are r",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-mellum2-with-mtp",
-      "source": "localllama",
-      "title": "Mellum2 with MTP?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv4y2n/mellum2_with_mtp/",
-      "published_at": "2026-07-13T07:49:00Z",
-      "summary": "When JetBrains introduced Mellum 2, they advertised its latency being as low as Qwen2.5-Coder 7B. This was achieved via MTP. In the GGUFs they&#39;ve published, I don&#39;t see layer resembling an MTP head, however. Is t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-experiment-autonomous-npcs-powered-by-gemma-4-e2b-in-the-bro",
-      "source": "localllama",
-      "title": "Experiment: autonomous NPCs powered by Gemma 4 E2B in the browser",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv3wnt/experiment_autonomous_npcs_powered_by_gemma_4_e2b/",
-      "published_at": "2026-07-13T06:48:30Z",
-      "summary": "      This weekend I got to what I consider a shareable state with this experiment to create little characters that can run commands to do funny things. I want something to play around with local AI on my laptop which is",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-flash-msa-accelerating-million-token-training-with-sparse-at",
-      "source": "localllama",
-      "title": "Flash-MSA: Accelerating Million-Token Training With Sparse Attention Kernels",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv1f1q/flashmsa_accelerating_milliontoken_training_with/",
-      "published_at": "2026-07-13T04:32:53Z",
-      "summary": "      &#32; submitted by &#32;  /u/nullc   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-deepseek-v4-flash-text-only-vs-mimo-25-omnimodal",
-      "source": "localllama",
-      "title": "DeepSeek v4 Flash (Text only) VS, Mimo 2.5 (Omnimodal)?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuyvxp/deepseek_v4_flash_text_only_vs_mimo_25_omnimodal/",
-      "published_at": "2026-07-13T02:27:28Z",
-      "summary": "Like the title say, which you prefer and why and experience if any? Deepseek Flash is definitely faster, but is text only, Mimo on the other hand is not slow but is Omnimodal so i think thats is a plus  &#32; submitted b",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-are-businesses-actually-using-agents-like-openclaw",
-      "source": "localllama",
-      "title": "Are businesses actually using agents like openclaw?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuyavp/are_businesses_actually_using_agents_like_openclaw/",
-      "published_at": "2026-07-13T01:59:51Z",
-      "summary": "I feel like it’s just not practical let alone secure. Is anyone using this for business? For what types of uses?   &#32; submitted by &#32;  /u/SadPhilosophy9202   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-running-qwen35-122b-on-mac-studio-96gb-fixed-3-bugs-that-mad",
-      "source": "localllama",
-      "title": "Running Qwen3.5-122B on Mac Studio 96GB: Fixed 3 bugs that made long-context inference usable",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuwrc0/running_qwen35122b_on_mac_studio_96gb_fixed_3/",
-      "published_at": "2026-07-13T00:47:05Z",
-      "summary": "Hey everyone, I recently switched from DS4 Flash to Qwen3.5-122B on my M3 Ultra Mac Studio for long-context agentic coding. While the model fit better, I hit a wall where follow-up messages took 3-5 minutes to start gene",
       "tags": [
         "localllama"
       ]
@@ -101,17 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-12-why-do-people-keep-fine-tuning-on-summarizedcensored-sota-co",
-      "source": "localllama",
-      "title": "Why do people keep fine-tuning on summarized/censored SOTA CoT traces?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuvkw9/why_do_people_keep_finetuning_on/",
-      "published_at": "2026-07-12T23:54:52Z",
-      "summary": "Am I missing something? It seems like some people think distillation is magic and will raise the quality of output above what the base model is actually capable of. It&#39;s especially weird to me to see all these Fable ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-12-shot-scraper-111",
       "source": "simonw",
       "title": "shot-scraper 1.11",
@@ -120,39 +153,6 @@
       "summary": "Release: shot-scraper 1.11\n        Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-what-will-you-do",
-      "source": "localllama",
-      "title": "What will you do?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuuwtd/what_will_you_do/",
-      "published_at": "2026-07-12T23:25:18Z",
-      "summary": "Hey guys. Just a curious and maybe been feeling a little burn out on this whole experiencing local AI and stuff. I own a rig with quad RTX3090s and 96GB for ddr5. But its on am5 platform so the pcie lanes aren&#39;t max ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-llamacpp-agentic-workflows-ctx-checkpoints-fix",
-      "source": "localllama",
-      "title": "llama.cpp Agentic Workflows Ctx Checkpoints Fix",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuue5p/llamacpp_agentic_workflows_ctx_checkpoints_fix/",
-      "published_at": "2026-07-12T23:03:21Z",
-      "summary": "b9978 Claude in one sentence what does this fix   llama.cpp b9978 fixes a checkpoint bug that hit agentic workloads hardest: every agent turn created a new checkpoint (bypassing min-step spacing), collapsing the coverage",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-apple-sues-openai-alleging-trade-secret-theft-says-scheme-wa",
-      "source": "localllama",
-      "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uus189/apple_sues_openai_alleging_trade_secret_theft/",
-      "published_at": "2026-07-12T21:25:47Z",
-      "summary": "      &#32; submitted by &#32;  /u/fallingdowndizzyvr   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
