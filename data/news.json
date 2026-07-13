@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-07-13T14:45:05Z",
+  "updated_at": "2026-07-13T19:34:50Z",
   "items": [
+    {
+      "id": "localllama-2026-07-13-glm-52-running-on-macbook-pro-m5-48-gb-ram-at-between-2---28",
+      "source": "localllama",
+      "title": "GLM 5.2 running on MacBook Pro M5 48 GB Ram at between 2 - 2.8t/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvlhxl/glm_52_running_on_macbook_pro_m5_48_gb_ram_at/",
+      "published_at": "2026-07-13T19:26:45Z",
+      "summary": "      I started reading about Flash MOE I have my own built Claude Desktop style app using Pi as the harness. Qwen3.6 27B is good but sometimes it falls short on some of the large codebases I work on so I wanted to see i",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-qwen36-35b-a3b-uncensored-genesis-hermes-v2-gguf",
+      "source": "localllama",
+      "title": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V2-GGUF",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvk1if/qwen3635ba3buncensoredgenesishermesv2gguf/",
+      "published_at": "2026-07-13T18:35:20Z",
+      "summary": "Here model: https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V2-GGUF Settings: temperature=0.6, top_p=0.95, top_k=20, min_p=0, presence_penalty=disabled, repeat_penalty=disabled, seed=42, thin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "meta-2026-07-13-modernizing-the-meta-ads-service-with-an-open-source-kernel",
+      "source": "meta",
+      "title": "Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler",
+      "url": "https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler/",
+      "published_at": "2026-07-13T16:00:50Z",
+      "summary": "TL; DR At Meta&#8217;s scale, a few milliseconds of latency degradation can have a significant negative impact on ads performance.  When a Linux kernel upgrade risked regressing latency across Meta&#8217;s ad serving fle",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "microsoft-2026-07-13-verifying-rust-cryptography-in-symcrypt-from-standards-to-co",
+      "source": "microsoft",
+      "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
+      "url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
+      "published_at": "2026-07-13T16:00:00Z",
+      "summary": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves.\nThe p",
+      "tags": [
+        "microsoft"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-ft-companies-turn-to-chinese-open-weight-models-to-cut-costs",
+      "source": "localllama",
+      "title": "FT: Companies Turn to Chinese Open Weight Models to Cut Costs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvenf1/ft_companies_turn_to_chinese_open_weight_models/",
+      "published_at": "2026-07-13T15:23:49Z",
+      "summary": "      &#32; submitted by &#32;  /u/chocolateUI   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-13-qwen-32k-1m-with-yarn-same-weights-factor-32-what-actually-c",
       "source": "localllama",
@@ -68,6 +123,17 @@
       ]
     },
     {
+      "id": "localllama-2026-07-13-mcp-is-bad",
+      "source": "localllama",
+      "title": "MCP…. Is bad?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvaqxp/mcp_is_bad/",
+      "published_at": "2026-07-13T12:54:23Z",
+      "summary": "So like many of you I realized I was creating custom tools for each one of my AI based applications and then realized alright I guess I should go forth and build a local MCP server. SOMEONE TELL ME IF IM DOING SOMETHING ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
       "id": "localllama-2026-07-13-production-qwen-36-27b-vllm-config",
       "source": "localllama",
       "title": "Production Qwen 3.6-27B VLLM config?",
@@ -85,50 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv9o2u/studymodels_flint_compressing_reasoning_without/",
       "published_at": "2026-07-13T12:05:42Z",
       "summary": "      TLDR: I trained Qwen3.5-4B and gemma-4-12b on self-distilled, compressed reasoning traces; compression was section-aware (compute and verification spans remain, fillers/narration/transitions get dropped/compressed)",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-colibri-streaming-for-hy3-run-hy3-on-10gb-vram",
-      "source": "localllama",
-      "title": "Colibri streaming for Hy3 (Run Hy3 on 10GB (V)RAM)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv8orn/colibri_streaming_for_hy3_run_hy3_on_10gb_vram/",
-      "published_at": "2026-07-13T11:18:50Z",
-      "summary": "Standing on the shoulders of giants, I vibe-coded a port of Colibri to work with Hy3 so you can run it on even smaller hardware specs (Colibri originally works with GLM 5.2 on 25GB, now you need no more than 10GB (even l",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-ovisocr2-a-promising-08b-local-document-parser",
-      "source": "localllama",
-      "title": "OvisOCR2: a promising 0.8B local document parser",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv88co/ovisocr2_a_promising_08b_local_document_parser/",
-      "published_at": "2026-07-13T10:55:51Z",
-      "summary": "      Just came across OvisOCR2, a new 0.8B end-to-end OCR model based on Qwen3.5-0.8B. https://preview.redd.it/adj3m8wu9zch1.png?width=5108&amp;format=png&amp;auto=webp&amp;s=c4f14a0f7bfd6e1417fa8f476479db76498af51b It ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-20gb-vram-64gb-ddr5---qwen36-35b-a3b-still-the-best-choice",
-      "source": "localllama",
-      "title": "20GB VRAM + 64GB DDR5 - Qwen3.6 35B A3B still the best choice?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv7cf5/20gb_vram_64gb_ddr5_qwen36_35b_a3b_still_the_best/",
-      "published_at": "2026-07-13T10:08:11Z",
-      "summary": "Hey everyone. Trying to figure out the best setup for my hardware. I&#39;ve got a 64GB DDR5 RAM laptop and A 20GB 7900xt egpu. Usecase is only pi-coding-agent locally. So far, Qwen3.6 35B A3B has been the only model I&#3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-i-got-gemma-4-running-directly-inside-godot-using-only-gdscr",
-      "source": "localllama",
-      "title": "I got Gemma 4 running directly inside Godot using only GDScript and Vulkan compute shaders",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv66by/i_got_gemma_4_running_directly_inside_godot_using/",
-      "published_at": "2026-07-13T09:01:46Z",
-      "summary": "      I wanted to see if an LLM could run inside Godot without llama.cpp, Python, a server, or a GDExtension. It works. This Godot 4.7 project runs gemma-4-E2B-it-Q4_K_M.gguf locally. The model calculations run in Vulkan",
       "tags": [
         "localllama"
       ]
@@ -855,28 +877,6 @@
       "url": "https://thegradient.pub/car-gpt/",
       "published_at": "2024-03-08T16:55:18Z",
       "summary": "Exploring the utility of large language models in autonomous driving: Can they be trusted for self-driving cars, and what are the key challenges?",
-      "tags": [
-        "gradient"
-      ]
-    },
-    {
-      "id": "gradient-2024-03-05-do-text-embeddings-perfectly-encode-text",
-      "source": "gradient",
-      "title": "Do text embeddings perfectly encode text?",
-      "url": "https://thegradient.pub/text-embedding-inversion/",
-      "published_at": "2024-03-05T20:15:58Z",
-      "summary": "'Vec2text' can serve as a solution for accurately reverting embeddings back into text, thus highlighting the urgent need for revisiting security protocols around embedded data.",
-      "tags": [
-        "gradient"
-      ]
-    },
-    {
-      "id": "gradient-2024-02-24-why-doesnt-my-model-work",
-      "source": "gradient",
-      "title": "Why Doesn’t My Model Work?",
-      "url": "https://thegradient.pub/why-doesnt-my-model-work/",
-      "published_at": "2024-02-24T18:41:54Z",
-      "summary": "Have you ever trained a model you thought was good, but then it failed miserably when applied to real world data? If so, you’re in good company.",
       "tags": [
         "gradient"
       ]

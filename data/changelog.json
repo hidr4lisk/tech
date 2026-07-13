@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-13T14:45:13Z",
+  "updated_at": "2026-07-13T19:34:57Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9988",
+      "project": "llama-cpp",
+      "version": "b9988",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9988",
+      "published_at": "2026-07-13T19:10:17Z",
+      "body_excerpt": "tests: Harmonize header use (#25616) tests: Harmonize the use of private ggml includes tests: In test-backend-ops, use quoted includes As with all other tests. This is to ensure that the build uses shipped headers over possibly system-installed ones. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9987",
+      "project": "llama-cpp",
+      "version": "b9987",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9987",
+      "published_at": "2026-07-13T15:40:41Z",
+      "body_excerpt": "gguf : add tensor shape accessor (#24405) gguf : add tensor shape accessors gguf : return tensor shape as const int64_t gguf : remove n_dims accessor, keep only gguf_get_tensor_ne macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9986",
       "project": "llama-cpp",
