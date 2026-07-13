@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-13T03:28:55Z",
+  "updated_at": "2026-07-13T09:36:30Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9986",
+      "project": "llama-cpp",
+      "version": "b9986",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9986",
+      "published_at": "2026-07-13T09:06:33Z",
+      "body_excerpt": "chat : fix reasoning leak with force-opened bare templates (#24674) chat : fix reasoning leak with force-opened bare templates The reasoning start tag inferred from prior turns can carry trailing whitespace (e.g. \\n) while a force-open template prefills a bare . Trim the tag used for the prefix split so the bare prefill is matched instead of being swallowed into content. chat : fix Nemotron Nano v",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9985",
+      "project": "llama-cpp",
+      "version": "b9985",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9985",
+      "published_at": "2026-07-13T08:32:45Z",
+      "body_excerpt": "sycl: add fused top-k MoE (#25217) sycl: add fused top-k MoE sycl: address review: GGML_SYCL_ENABLE_FUSION env, move fusion dispatch to topk-moe sycl: print GGML_SYCL_ENABLE_FUSION at startup like other env vars Co-Authored-By: Claude Fable 5 --------- Co-authored-by: Claude Fable 5 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9984",
+      "project": "llama-cpp",
+      "version": "b9984",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9984",
+      "published_at": "2026-07-13T07:38:28Z",
+      "body_excerpt": "sycl: add Q2_K to DMMV reorder path (#25064) Signed-off-by: Todd Malsbary macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9982",
       "project": "llama-cpp",
