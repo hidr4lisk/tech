@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-07-13T03:28:50Z",
+  "updated_at": "2026-07-13T09:36:23Z",
   "items": [
+    {
+      "id": "localllama-2026-07-13-i-got-gemma-4-running-directly-inside-godot-using-only-gdscr",
+      "source": "localllama",
+      "title": "I got Gemma 4 running directly inside Godot using only GDScript and Vulkan compute shaders",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv66by/i_got_gemma_4_running_directly_inside_godot_using/",
+      "published_at": "2026-07-13T09:01:46Z",
+      "summary": "      I wanted to see if an LLM could run inside Godot without llama.cpp, Python, a server, or a GDExtension. It works. This Godot 4.7 project runs gemma-4-E2B-it-Q4_K_M.gguf locally. The model calculations run in Vulkan",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-compressed-version-of-qwen-36-27b-coming-from-prismml---khos",
+      "source": "localllama",
+      "title": "Compressed Version of Qwen-3.6-27B coming from PrismML - Khosla-Backed Startup Claims Breakthrough With Largest-Ever AI Model on an iPhone",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv54fv/compressed_version_of_qwen3627b_coming_from/",
+      "published_at": "2026-07-13T07:59:33Z",
+      "summary": "       The startup, PrismML, said it has shrunk down Qwen 3.6, an open-source large language model developed by Chinese internet giant Alibaba, to run on an iPhone 17 Pro. The model has 27 billion parameters, which are r",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-mellum2-with-mtp",
+      "source": "localllama",
+      "title": "Mellum2 with MTP?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv4y2n/mellum2_with_mtp/",
+      "published_at": "2026-07-13T07:49:00Z",
+      "summary": "When JetBrains introduced Mellum 2, they advertised its latency being as low as Qwen2.5-Coder 7B. This was achieved via MTP. In the GGUFs they&#39;ve published, I don&#39;t see layer resembling an MTP head, however. Is t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-experiment-autonomous-npcs-powered-by-gemma-4-e2b-in-the-bro",
+      "source": "localllama",
+      "title": "Experiment: autonomous NPCs powered by Gemma 4 E2B in the browser",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv3wnt/experiment_autonomous_npcs_powered_by_gemma_4_e2b/",
+      "published_at": "2026-07-13T06:48:30Z",
+      "summary": "      This weekend I got to what I consider a shareable state with this experiment to create little characters that can run commands to do funny things. I want something to play around with local AI on my laptop which is",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-flash-msa-accelerating-million-token-training-with-sparse-at",
+      "source": "localllama",
+      "title": "Flash-MSA: Accelerating Million-Token Training With Sparse Attention Kernels",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv1f1q/flashmsa_accelerating_milliontoken_training_with/",
+      "published_at": "2026-07-13T04:32:53Z",
+      "summary": "      &#32; submitted by &#32;  /u/nullc   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-13-deepseek-v4-flash-text-only-vs-mimo-25-omnimodal",
       "source": "localllama",
@@ -120,61 +175,6 @@
       "summary": "Release: sqlite-utils 4.1.1\n        Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE.\n\n\ntable.transform() now raises a Transacti",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-moondream31-9b-a2b",
-      "source": "localllama",
-      "title": "moondream3.1-9B-A2B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uunqcz/moondream319ba2b/",
-      "published_at": "2026-07-12T18:40:55Z",
-      "summary": "      Moondream 3.1 is a vision language model with a mixture-of-experts architecture (9B total parameters, 2B active). It delivers state-of-the-art visual reasoning and detection while staying fast and cheap to deploy. ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-24gb-vram-llama-server-config-exchange-thread",
-      "source": "localllama",
-      "title": "24GB VRAM llama-server config exchange thread",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uukj2m/24gb_vram_llamaserver_config_exchange_thread/",
-      "published_at": "2026-07-12T16:43:42Z",
-      "summary": "For whom is this tread: Everyone with a 24GB GPU (rtx 3090, 7900xtx, rtx 4090)  What this Thread is for: Sharing proven/well working llama-server start configs. Requirements for the configs: - Utilizes the the VRAM as mu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-how-is-codex-as-a-harness-for-local-models",
-      "source": "localllama",
-      "title": "How is Codex as a harness for local models?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuib36/how_is_codex_as_a_harness_for_local_models/",
-      "published_at": "2026-07-12T15:19:50Z",
-      "summary": "I was surprised to see that Codex is actually open source, so to my understanding, if you use a local model, it works fully locally. How does it compare to the other popular harnesses like Pi Code and Open Code?  &#32; s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-kreuzberg-local-document-extraction-is-being-renamed-to-xber",
-      "source": "localllama",
-      "title": "Kreuzberg (local document extraction) is being renamed to Xberg - current version on LTS",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuhqlz/kreuzberg_local_document_extraction_is_being/",
-      "published_at": "2026-07-12T14:58:01Z",
-      "summary": "Hi all, I&#39;m the author of Kreuzberg. The next version of Kreuzberg will be released as Xberg - why? Well, we discovered that the name is not easy to pronounce or understand for people who don&#39;t have the German co",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-12-anthropic-found-claude-reasoning-in-silence-j-space-we-ran-t",
-      "source": "localllama",
-      "title": "Anthropic found Claude reasoning in silence (J-space) — we ran the same lens on open Qwen3-8B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uugulk/anthropic_found_claude_reasoning_in_silence/",
-      "published_at": "2026-07-12T14:22:37Z",
-      "summary": "Anthropic’s research on Claude found a silent internal workspace they call J-space — hidden reasoning that never shows up as visible text. Classic example: the model answers 49, but inside J-space they caught 21 → 42 → 4",
-      "tags": [
-        "localllama"
       ]
     },
     {
