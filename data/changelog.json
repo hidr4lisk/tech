@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-13T19:34:57Z",
+  "updated_at": "2026-07-14T02:51:14Z",
   "releases": [
+    {
+      "id": "llama-cpp-b9993",
+      "project": "llama-cpp",
+      "version": "b9993",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9993",
+      "published_at": "2026-07-13T23:09:16Z",
+      "body_excerpt": "model: add Hy3 (hy_v3) support with MTP speculative decoding (#25395) model: add Hy3 (hy_v3) architecture support Adds Tencent Hunyuan 3 (HF architecture HYV3ForCausalLM, GGUF arch hy_v3): a MoE decoder stack with per-head Q/K RMSNorm, a sigmoid router with expert selection bias, an always-active ungated shared expert, and leading dense block(s) (first_k_dense_replace). The base implementation is ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9992",
+      "project": "llama-cpp",
+      "version": "b9992",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9992",
+      "published_at": "2026-07-13T21:04:47Z",
+      "body_excerpt": "CUDA: refactor MMQ kernel configuration (#24127) CUDA: refactor MMQ kernel configuration fix Blackwell config remove legacy code macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenV",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9990",
+      "project": "llama-cpp",
+      "version": "b9990",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9990",
+      "published_at": "2026-07-13T19:51:41Z",
+      "body_excerpt": "spec: add Minimax2 eagle3 support Fix nullptr in minimax2 EAGLE3 minor : add newline --------- Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVIN",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b9988",
       "project": "llama-cpp",
@@ -269,6 +296,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0-rc0",
       "published_at": "2026-07-11T01:03:46Z",
       "body_excerpt": "What's Changed create: select the qwen3.5 parser and renderer for Qwen3.5/Next by @jessegross in launch: warn before old agent models by @ParthSareen in cmd: agent UI by @ParthSareen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.0",
+      "project": "ollama",
+      "version": "v0.32.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0",
+      "published_at": "2026-07-11T01:03:46Z",
+      "body_excerpt": "What's Changed - New interactive agent experience: running now launches an agent to help you code and delegate work - Renamed the Codex App integration to ChatGPT: use ollama launch chatgpt (and --restore to return to your usual ChatGPT profile) - Simplified integration selection: the ollama launch menu now only offers the most popular integrations (other integrations can be accessed through - War",
       "type": "tool"
     },
     {
