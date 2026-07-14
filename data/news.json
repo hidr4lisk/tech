@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-07-13T19:34:50Z",
+  "updated_at": "2026-07-14T02:51:07Z",
   "items": [
+    {
+      "id": "localllama-2026-07-14-model-add-hy3-hy-v3-support-with-mtp-speculative-decoding-by",
+      "source": "localllama",
+      "title": "model: add Hy3 (hy_v3) support with MTP speculative decoding by satindergrewal · Pull Request #25395 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvwbb2/model_add_hy3_hy_v3_support_with_mtp_speculative/",
+      "published_at": "2026-07-14T02:46:34Z",
+      "summary": "      Adds support for Tencent&#39;s Hy3 (hy_v3 / HYV3ForCausalLM, 299B MoE, 80 layers + 1 MTP layer), including its multi-token-prediction head as a draft-mtp speculative target.  &#32; submitted by &#32;  /u/pmttyji   ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-14-new-set-of-fp4-attention-kernels-for-b300-achieving-up-to-16",
+      "source": "localllama",
+      "title": "New set of FP4 attention kernels for B300, achieving up to 1.69x speedup over FA4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvtf7h/new_set_of_fp4_attention_kernels_for_b300/",
+      "published_at": "2026-07-14T00:35:13Z",
+      "summary": "&#32; submitted by &#32;  /u/tuananh_org   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-excel-work---best-model",
+      "source": "localllama",
+      "title": "Excel work - best model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvs9vp/excel_work_best_model/",
+      "published_at": "2026-07-13T23:45:39Z",
+      "summary": "I’ve been testing various local models for excel tasks related to my job. So far, Deepseek v4 Flash using DS4 has been best. Gets 30-40 tk/s with medium context and generally produces good results. However, looking to se",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-13-doomql",
+      "source": "simonw",
+      "title": "DOOMQL",
+      "url": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
+      "published_at": "2026-07-13T22:34:41Z",
+      "summary": "DOOMQL\nPeter Gostev built this using GPT-5.6 Sol. This is a lot of fun: \n\nDOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data?\nThe ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-self-hosted-voice-for-any-agentharness-of-your-choice-open-s",
+      "source": "localllama",
+      "title": "Self-hosted voice for any agent/harness of your choice (open-source)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvq9ke/selfhosted_voice_for_any_agentharness_of_your/",
+      "published_at": "2026-07-13T22:21:53Z",
+      "summary": "For a while now I&#39;ve been maintaining tts-bench (https://github.com/5uck1ess/tts-bench) and a blind voting arena (https://5uck1ess-tts-arena.hf.space) where people A/B test open text-to-speech (TTS) models without kn",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-j-wash-a-novel-way-to-brainwash-and-customize-large-language",
+      "source": "localllama",
+      "title": "J-Wash: A novel way to brainwash and customize large language models based on Anthropic's Jacobian-Lens!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvq1i3/jwash_a_novel_way_to_brainwash_and_customize/",
+      "published_at": "2026-07-13T22:12:52Z",
+      "summary": "      &#32; submitted by &#32;  /u/Extraaltodeus   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-13-datasette-code-frequency-chart-on-github",
+      "source": "simonw",
+      "title": "datasette code-frequency chart on GitHub",
+      "url": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
+      "published_at": "2026-07-13T21:45:27Z",
+      "summary": "datasette code-frequency chart on GitHub\nOut of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is th",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-joined-the-dual-rtx-6000-club",
+      "source": "localllama",
+      "title": "Joined the Dual RTX 6000 club",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvmon5/joined_the_dual_rtx_6000_club/",
+      "published_at": "2026-07-13T20:08:38Z",
+      "summary": "      I only spent 2 hours making the bios accept the dual gpus, only 5 hours configuring VLLM to run deepseek v4 flash dspark, but totally worth it. I truly believe in the near future we will have to rely on ourselves. ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-this-is-why-we-need-local-models-and-opensource-harnesses",
+      "source": "localllama",
+      "title": "This is why we need local models and opensource harnesses",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvlwz0/this_is_why_we_need_local_models_and_opensource/",
+      "published_at": "2026-07-13T19:41:33Z",
+      "summary": "      &#32; submitted by &#32;  /u/Comfortable-Rock-498   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-if-frontier-ai-is-so-dangerous-why-should-private-companies",
+      "source": "localllama",
+      "title": "If Frontier AI is so Dangerous, Why should private companies be allowed to develop it?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvll20/if_frontier_ai_is_so_dangerous_why_should_private/",
+      "published_at": "2026-07-13T19:29:54Z",
+      "summary": "There&#39;s a push by openAI and anthropic primarily. Well more than a push just straight fear mongering about open source ai and its dangers. If it&#39;s so dangerous why would the US gov. in particular continue to allo",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-13-glm-52-running-on-macbook-pro-m5-48-gb-ram-at-between-2---28",
       "source": "localllama",
@@ -8,6 +118,17 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvlhxl/glm_52_running_on_macbook_pro_m5_48_gb_ram_at/",
       "published_at": "2026-07-13T19:26:45Z",
       "summary": "      I started reading about Flash MOE I have my own built Claude Desktop style app using Pi as the harness. Qwen3.6 27B is good but sometimes it falls short on some of the large codebases I work on so I wanted to see i",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-13-mistral-community-feedback-survey",
+      "source": "localllama",
+      "title": "Mistral Community Feedback Survey",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvlhii/mistral_community_feedback_survey/",
+      "published_at": "2026-07-13T19:26:20Z",
+      "summary": "      This survey also includes various questions about running models locally and what kind of model sizes they should focus on in the future. As there are many requests for more open weight ~30-120B models here that pe",
       "tags": [
         "localllama"
       ]
@@ -52,105 +173,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvenf1/ft_companies_turn_to_chinese_open_weight_models/",
       "published_at": "2026-07-13T15:23:49Z",
       "summary": "      &#32; submitted by &#32;  /u/chocolateUI   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-qwen-32k-1m-with-yarn-same-weights-factor-32-what-actually-c",
-      "source": "localllama",
-      "title": "Qwen 32K → 1M with YaRN: same weights, factor 32 — what actually changes (and what breaks)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvdj5j/qwen_32k_1m_with_yarn_same_weights_factor_32_what/",
-      "published_at": "2026-07-13T14:42:51Z",
-      "summary": "      Qwen3&#39;s native window is ~32,768. People keep shipping &quot;1M context&quot; GGUFs of the same checkpoint. What&#39;s going on isn&#39;t a new brain. It&#39;s YaRN (Yet another RoPE extensioN): stretch the pos",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-wan-dancer-a-hierarchical-framework-for-minute-scale-coheren",
-      "source": "localllama",
-      "title": "Wan-Dancer: A Hierarchical Framework for Minute-scale Coherent Music-to-Dance Generation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvdaq7/wandancer_a_hierarchical_framework_for/",
-      "published_at": "2026-07-13T14:33:59Z",
-      "summary": "       Generating long-duration, high-definition, and rhythmically synchronized dance videos directly from music remains a significant challenge, primarily due to the temporal constraints of current diffusion models, whi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-qwen36-35b-a3b-mtp-built-this-website-with-pi-coding-agent-o",
-      "source": "localllama",
-      "title": "Qwen3.6-35B-A3B-MTP built this website with Pi Coding Agent on my laptop",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvd93y/qwen3635ba3bmtp_built_this_website_with_pi_coding/",
-      "published_at": "2026-07-13T14:32:15Z",
-      "summary": "      I tested Unsloth&#39;s Qwen3.6-35B-A3B-MTP-GGUF:UD-Q4_K_XL with simple Pi Coding Agent. No skill or extensions used. My laptop have 32GB RAM and 8GB VRAM. Without context it runs around 40 t/s. When context getting",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-i-benchmarked-15-e-waste-gpus-with-modern-workloads",
-      "source": "localllama",
-      "title": "I benchmarked 15 \"E-Waste\" GPUs with Modern Workloads",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvcjd0/i_benchmarked_15_ewaste_gpus_with_modern_workloads/",
-      "published_at": "2026-07-13T14:05:18Z",
-      "summary": "      I&#39;ve spent the last year building GPU coolers and a custom benchmarking tool to figure out if decommissioned NVIDIA enterprise GPUs have any use with modern workloads. Cards like the P100 (16GB) are going for a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-apple-m7-ultra-chip-planned-with-up-to-15-tb-of-unified-memo",
-      "source": "localllama",
-      "title": "Apple M7 Ultra Chip Planned With Up to 1.5 TB of Unified Memory",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvbzul/apple_m7_ultra_chip_planned_with_up_to_15_tb_of/",
-      "published_at": "2026-07-13T13:44:24Z",
-      "summary": "      &#32; submitted by &#32;  /u/Mochila-Mochila   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-zhipu-founder-backs-open-source-ai-as-global-security-debate",
-      "source": "localllama",
-      "title": "Zhipu founder backs open-source AI as global security debate intensifies",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvbgvx/zhipu_founder_backs_opensource_ai_as_global/",
-      "published_at": "2026-07-13T13:23:29Z",
-      "summary": "      &#32; submitted by &#32;  /u/computeruser420   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-mcp-is-bad",
-      "source": "localllama",
-      "title": "MCP…. Is bad?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvaqxp/mcp_is_bad/",
-      "published_at": "2026-07-13T12:54:23Z",
-      "summary": "So like many of you I realized I was creating custom tools for each one of my AI based applications and then realized alright I guess I should go forth and build a local MCP server. SOMEONE TELL ME IF IM DOING SOMETHING ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-production-qwen-36-27b-vllm-config",
-      "source": "localllama",
-      "title": "Production Qwen 3.6-27B VLLM config?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvacno/production_qwen_3627b_vllm_config/",
-      "published_at": "2026-07-13T12:36:41Z",
-      "summary": "UPDATE: If you are running Qwen3.6 27b or 35b with prefix caching and spec decode, you will run into corruption problems! Take a look at https://github.com/vllm-project/vllm/pull/48375; the patch there has resolved my pr",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-13-studymodels-flint-compressing-reasoning-without-breaking-it",
-      "source": "localllama",
-      "title": "[Study/Models] Flint: Compressing Reasoning Without Breaking It",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv9o2u/studymodels_flint_compressing_reasoning_without/",
-      "published_at": "2026-07-13T12:05:42Z",
-      "summary": "      TLDR: I trained Qwen3.5-4B and gemma-4-12b on self-distilled, compressed reasoning traces; compression was section-aware (compute and verification spans remain, fillers/narration/transitions get dropped/compressed)",
       "tags": [
         "localllama"
       ]
@@ -283,28 +305,6 @@
       "url": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
       "published_at": "2026-07-09T16:06:15Z",
       "summary": "Release: llm 0.31.1\n        \n\nFix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521\n\n\nThis bug came up when I was testing llm-m",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-08-rewriting-bun-in-rust",
-      "source": "simonw",
-      "title": "Rewriting Bun in Rust",
-      "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
-      "published_at": "2026-07-08T23:57:21Z",
-      "summary": "Rewriting Bun in Rust\nJarred Sumner has been promising this blog post (since May 9th) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite.\nHonestly, it was worth the wait.",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-08-introducing-gptlive",
-      "source": "simonw",
-      "title": "Introducing GPT‑Live",
-      "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
-      "published_at": "2026-07-08T23:20:48Z",
-      "summary": "Introducing GPT‑Live\nOpenAI finally upgraded the model used by ChatGPT voice mode!\nI've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off hard",
       "tags": [
         "simonw"
       ]
