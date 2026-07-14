@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-07-14T08:16:35Z",
+  "updated_at": "2026-07-14T13:55:54Z",
   "releases": [
+    {
+      "id": "localai-v4.7.0",
+      "project": "localai",
+      "version": "v4.7.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.7.0",
+      "published_at": "2026-07-14T13:24:24Z",
+      "body_excerpt": "🎉 LocalAI 4.7.0 Release! 🚀 LocalAI 4.7.0 is out! This release widens what LocalAI can generate and how you drive it: a UI-managed voice cloning library, local video and audio-driven avatar generation, and interleaved reasoning that travels with tool calls. It also lands new audio engines (one-pass diarized transcription, F5-TTS, true streaming TTS) and a batch of reliability fixes across auth, tra",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10001",
+      "project": "llama-cpp",
+      "version": "b10001",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10001",
+      "published_at": "2026-07-14T12:46:17Z",
+      "body_excerpt": "tests: export-graph-ops: exit gracefully when called w/o arguments (#25619) Fixes a segfault when is called without any arguments. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10000",
+      "project": "llama-cpp",
+      "version": "b10000",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10000",
+      "published_at": "2026-07-14T12:06:19Z",
+      "body_excerpt": "ggml: uniformize im2col dst_type for all conv ops (#23660) ggml: uniformize im2col dst_type for all conv ops Update ggml/src/ggml.c Co-authored-by: Georgi Gerganov ggml : uniformize im2col casting logic across all conv ops fix : allow im2col_f16 to accept any kernel type --------- Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) D",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9999",
+      "project": "llama-cpp",
+      "version": "b9999",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9999",
+      "published_at": "2026-07-14T11:23:47Z",
+      "body_excerpt": "kleidiai : add SME2 f32 kernel (#24414) kleidiai : add SME2 f32 kernel enable dynamic scheduling for SME2 f32 kernel macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9996",
+      "project": "llama-cpp",
+      "version": "b9996",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9996",
+      "published_at": "2026-07-14T10:41:38Z",
+      "body_excerpt": "arg: Flush log before exiting after usage() (#25504) Under certain conditions, it's possible for messages emitted via LOG() to get lost before exit, apparently because they are emitted by another thread. common_params_print_usage() uses printf directly, and is not affected. Flushing the log before exit seems to resolve this. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleidi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b9995",
+      "project": "llama-cpp",
+      "version": "b9995",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9995",
+      "published_at": "2026-07-14T09:44:45Z",
+      "body_excerpt": "sycl: set fattn_vec_nthreads to 256 for Battlemage (#25205) Currently detects lunarlake + battlemage / xe2 and sets the value to 256. Keeps default at 128, Intel's ARC Alchemist's prefered value. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vu",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.25.1",
+      "project": "vllm",
+      "version": "v0.25.1",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.1",
+      "published_at": "2026-07-14T08:51:20Z",
+      "body_excerpt": "vLLM v0.25.1 Highlights This release features 2 commits from 2 contributors (1 new)! v0.25.1 is a patch release containing two targeted bug fixes on top of v0.25.0. Bug Fixes Avoid blocking model launching when no system FFmpeg is available for TorchCodec (#47888). Previously raised a at import time when system FFmpeg was missing, which blocked startup (e.g. ) even when TorchCodec was not in use. ",
+      "type": "tool"
+    },
+    {
+      "id": "sglang-v0.5.15.post1",
+      "project": "sglang",
+      "version": "v0.5.15.post1",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15.post1",
+      "published_at": "2026-07-14T08:43:33Z",
+      "body_excerpt": "v0.5.15.post1 includes a few patches, mostly for GLM 5.2 #30454 #30627: Fix DSA model launching on non Cuda/HIP devices #30858: Fix flashinfer dependency on Cuda 12 images #31001: Fix NaN outputs caused by flashinfer trtllm FP4 MoE kernels on long input #30839: Fix GLM 5.2 IndexShare on PD disaggregation setting #30992: Fix GLM 5.2 IndexShare on Context Parallel setting",
+      "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-3-Embed-8B-BF16",
+      "project": "nvidia",
+      "version": "Nemotron-3-Embed-8B-BF16",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16",
+      "published_at": "2026-07-14T07:38:49Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-3-Embed-1B-BF16",
+      "project": "nvidia",
+      "version": "Nemotron-3-Embed-1B-BF16",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
+      "published_at": "2026-07-14T07:32:18Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b9994",
       "project": "llama-cpp",
