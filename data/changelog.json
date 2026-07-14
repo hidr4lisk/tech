@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-14T13:55:54Z",
+  "updated_at": "2026-07-14T19:26:16Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10005",
+      "project": "llama-cpp",
+      "version": "b10005",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10005",
+      "published_at": "2026-07-14T18:57:52Z",
+      "body_excerpt": "DeepseekV4: fix seq_rm (#25588) DeepseekV4: fix seq_rm implement proper seq_cp create actual update context macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10004",
+      "project": "llama-cpp",
+      "version": "b10004",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10004",
+      "published_at": "2026-07-14T18:17:12Z",
+      "body_excerpt": "vulkan/cpu: Support f16 as SET_ROWS src. (#25432) vulkan/cpu: Support f16 as SET_ROWS src. This adds full support for f16 SET_ROWS (equivalent to f32) to vulkan and CPU backends, and adds more backend tests. Set DenormPreserve 16 when supported, to try to fix failures on Intel tune error threshold update metal supports_op macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10003",
+      "project": "llama-cpp",
+      "version": "b10003",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10003",
+      "published_at": "2026-07-14T17:42:45Z",
+      "body_excerpt": "tokenize : align usage by using common args (#25516) Migrate the tokenize tool to common_params_parse, replacing its hand-rolled argv parsing, Windows UTF-8 handling and file reading with the shared common helpers. Expose the model-sourcing flags (-m, -mu, -dr, -hf, -hff, --offline, HF_TOKEN) to LLAMA_EXAMPLE_TOKENIZE, and register --ids, --stdin, --no-bos, --no-parse-special and --show-count as c",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.7.1",
+      "project": "localai",
+      "version": "v4.7.1",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.7.1",
+      "published_at": "2026-07-14T16:09:28Z",
+      "body_excerpt": "What's Changed Other Changes fix(config): only inject llama.cpp serving options on the llama.cpp path by @localai-bot in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10002",
+      "project": "llama-cpp",
+      "version": "b10002",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10002",
+      "published_at": "2026-07-14T15:19:55Z",
+      "body_excerpt": "ggml : add a set of functions for checking contiguity of inner tensor dimensions (#25650) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO)",
+      "type": "tool"
+    },
     {
       "id": "localai-v4.7.0",
       "project": "localai",
