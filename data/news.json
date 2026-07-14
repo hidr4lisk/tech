@@ -1,134 +1,145 @@
 {
-  "updated_at": "2026-07-14T13:55:46Z",
+  "updated_at": "2026-07-14T19:26:12Z",
   "items": [
     {
-      "id": "localllama-2026-07-14-spiritbuuns-vbr-variable-bit-rate-kv-cache-first-impressions",
+      "id": "localllama-2026-07-14-gemma-4-31b-antihal-gemma-steered-to-push-back-on-false-prem",
       "source": "localllama",
-      "title": "Spiritbuun's VBR (Variable Bit Rate) KV cache — first impressions",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw8773/spiritbuuns_vbr_variable_bit_rate_kv_cache_first/",
-      "published_at": "2026-07-14T13:07:35Z",
-      "summary": "Well, this is an appreciation post on the spiritbuun llama.cpp fork. Some weeks ago I was testing forks and configurations to find which one was the best for my secondary model on my 3060, and the winning combo turned ou",
+      "title": "Gemma-4-31B-AntiHal: Gemma steered to push back on false premises instead of hallucinating, without any impact to benchmark performance",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwhwt8/gemma431bantihal_gemma_steered_to_push_back_on/",
+      "published_at": "2026-07-14T18:59:33Z",
+      "summary": "I&#39;ve been experimenting with interpretability on Gemma-4-31B and ended up with something cool I think you guys might like: a variant that challenges a request&#39;s premise (like fabricated tools, made-up papers, wro",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-14-260707508-single-rollout-asynchronous-optimization-for-agent",
+      "id": "localllama-2026-07-14-bonsai-27b-the-first-27b-class-model-to-run-on-a-phone",
       "source": "localllama",
-      "title": "[2607.07508] Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw7rm8/260707508_singlerollout_asynchronous_optimization/",
-      "published_at": "2026-07-14T12:49:57Z",
-      "summary": "       Reinforcement learning (RL) is becoming increasingly important for post-training large language models (LLMs). Previous RL pipelines for LLMs were mostly synchronous and batch-interleaved, which is inefficient for",
+      "title": "Bonsai 27B: The First 27B-Class Model to Run on a Phone",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwhukq/bonsai_27b_the_first_27bclass_model_to_run_on_a/",
+      "published_at": "2026-07-14T18:57:20Z",
+      "summary": "&#32; submitted by &#32;  /u/yogthos   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-14-i-rl-trained-qwen36-35b-a3b-to-rl-train-small-task-specific",
+      "id": "simonw-2026-07-14-quoting-armin-ronacher",
+      "source": "simonw",
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything",
+      "published_at": "2026-07-14T18:04:23Z",
+      "summary": "The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has th",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-14-built-a-memory-pipeline-on-qwen3-235b-a22b-instruct-2507-tha",
       "source": "localllama",
-      "title": "I RL-trained Qwen3.6-35B-A3B to RL-train small task-specific Qwen models. Fully open source! 🤓",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw7oys/i_rltrained_qwen3635ba3b_to_rltrain_small/",
-      "published_at": "2026-07-14T12:46:43Z",
-      "summary": "      👋 Training my first RL model last year was super fun, now I&#39;ve RL-trained a model that RL-trains other models... wild times! The agent gets a task, writes the full training job (environment, reward, dataset, hy",
+      "title": "built a memory pipeline on Qwen3 235B A22B Instruct 2507 that scored #1 on LongMemEval-S (470/500) while being ~10x more token efficient than the next best system",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwfwsd/built_a_memory_pipeline_on_qwen3_235b_a22b/",
+      "published_at": "2026-07-14T17:49:56Z",
+      "summary": "      Over past ~10 months I&#39;ve been iterating on my memory system so I can make a proper assistant, like Rick&#39;s garage from Rick and Morty. I benched my latest iteration and it scored top out of any system I kno",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-14-nemotron-3-embed-1b8b",
+      "id": "localllama-2026-07-14-bonsai-27b-1-bit-dense-llm-running-locally-in-your-browser-u",
       "source": "localllama",
-      "title": "Nemotron-3-Embed 1B/8B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw7nak/nemotron3embed_1b8b/",
-      "published_at": "2026-07-14T12:44:44Z",
-      "summary": "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16 https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16 Nemotron-3-Embed-8B-BF16 is a versatile text embedding model trained by NVIDIA and optimized for retrieval and",
+      "title": "Bonsai 27B: 1-bit dense LLM running locally in your browser using custom WebGPU kernels",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwfva9/bonsai_27b_1bit_dense_llm_running_locally_in_your/",
+      "published_at": "2026-07-14T17:48:27Z",
+      "summary": "      Very impressive release by the PrismML team. 1-bit quantization shrinks it from 54GB to just 3.8GB (-93%), while retaining 90% of its intelligence.  - Collection on Hugging Face: https://huggingface.co/collections/",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-14-using-local-computer-vision-to-perform-mouse-actions-via-key",
+      "id": "localllama-2026-07-14-prism-ml-bonsai-qwen-36-27b",
       "source": "localllama",
-      "title": "Using local computer vision to perform mouse actions via keyboard",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw7iw2/using_local_computer_vision_to_perform_mouse/",
-      "published_at": "2026-07-14T12:39:26Z",
-      "summary": "      Hello,  I created this when I was suffering from hand pain due to mouse usage. It runs 100% locally. I&#39;ve optimized it as best as I can so it should run pretty well even on old hardware. You don&#39;t need a po",
+      "title": "Prism-ML Bonsai Qwen 3.6 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwf1x4/prismml_bonsai_qwen_36_27b/",
+      "published_at": "2026-07-14T17:19:44Z",
+      "summary": "      &#32; submitted by &#32;  /u/thoquz   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-14-llamacpp-milestone",
+      "id": "localllama-2026-07-14-prismmls-new-ternary-qwen36-27b-runs-near-fp16-precision-on",
       "source": "localllama",
-      "title": "llama.cpp milestone",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw5p73/llamacpp_milestone/",
-      "published_at": "2026-07-14T11:14:17Z",
-      "summary": "      Thanks to all contributors for our local inference!  &#32; submitted by &#32;  /u/sergeysi   [link] &#32; [comments] ",
+      "title": "PrismML’s new Ternary Qwen3.6 27B runs near fp16 precision on 10GB of memory!!!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwehzt/prismmls_new_ternary_qwen36_27b_runs_near_fp16/",
+      "published_at": "2026-07-14T17:00:15Z",
+      "summary": "       EDIT: &quot;near fp16 precision&quot; I intended performance in terms of benchmarks/output. Obviously 1,0,-1 cannot be fp16. Bad word choice :) EDIT 2: Now that more people have tested it reported in, consensus (a",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-14-good-podcasts",
+      "id": "localllama-2026-07-14-kimi-k3-in-the-next-few-hours-deepseek-v4-ga-later-in-the-we",
       "source": "localllama",
-      "title": "Good podcasts",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw5mfu/good_podcasts/",
-      "published_at": "2026-07-14T11:10:20Z",
-      "summary": "I&#39;m heading on vacation soon and want to download a few good podcasts about local LLMs, open-weight models, inference, tooling and the broader open-source AI ecosystem. Which podcasts or specific episodes do you genu",
+      "title": "Kimi K3 in the next few hours. Deepseek V4 GA later in the week. New Liquid models. New Mistral models sometime this month. And some rumours suggest GLM 5.5 is coming in August. Openweight AI is eating good.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwe542/kimi_k3_in_the_next_few_hours_deepseek_v4_ga/",
+      "published_at": "2026-07-14T16:47:10Z",
+      "summary": "      dam bois we eating good this week ngl, The velocity of the open_weight ecosystem right now is hitting a point where proprietary, closed-source APIs are losing their leverage on compute intelligence. When you have D",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-14-google-deepminds-demis-hassabis-calls-for-us-led-global-ai-w",
+      "id": "localllama-2026-07-14-kimi-k3-maybe-coming-very-soon",
       "source": "localllama",
-      "title": "Google DeepMind's Demis Hassabis calls for U.S.-led global AI watchdog",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw4vg1/google_deepminds_demis_hassabis_calls_for_usled/",
-      "published_at": "2026-07-14T10:31:40Z",
-      "summary": "      From Demis Hassabis on Substack: A Framework for Frontier AI and the Dawning of a New Age: https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age Article on 𝕏: https://x.com/d",
+      "title": "Kimi K3 maybe coming very soon",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwcek4/kimi_k3_maybe_coming_very_soon/",
+      "published_at": "2026-07-14T15:45:56Z",
+      "summary": "      https://preview.redd.it/b61u04bku7dh1.png?width=741&amp;format=png&amp;auto=webp&amp;s=9489ac892cfe4496b4063684cbb2a0a17ebb6722 Source: From kimi test page .They down the page now  &#32; submitted by &#32;  /u/Exte",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-14-foss-notebooklm-connected-to-redditytgoogleigtiktok-etc",
+      "id": "localllama-2026-07-14-a-new-glm-model-incoming",
       "source": "localllama",
-      "title": "FOSS NotebookLM connected to Reddit,YT,Google,IG,Tiktok etc",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw214g/foss_notebooklm_connected_to/",
-      "published_at": "2026-07-14T07:47:51Z",
-      "summary": "      NotebookLM is one of the best and most useful AI platforms out there, but once you start using it regularly you also feel its limitations leaving something to be desired more.  There are limits on the amount of sou",
+      "title": "👀A new GLM model incoming",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwbpmw/a_new_glm_model_incoming/",
+      "published_at": "2026-07-14T15:20:38Z",
+      "summary": "      Spoiler from one of the founders of Z.ai who released GLM 5.2 a month ago. Get ready for something new 🥳  &#32; submitted by &#32;  /u/serige   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-14-why-does-preserve-thinking-flag-exist",
+      "id": "localllama-2026-07-14-kat-coder-air-v25---open-model-soon",
       "source": "localllama",
-      "title": "Why does preserve thinking flag exist?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvzsvn/why_does_preserve_thinking_flag_exist/",
-      "published_at": "2026-07-14T05:41:42Z",
-      "summary": "Isn&#39;t it something that the harness should manage? Why bake it into the lower levels? I&#39;m talking about Qwen3.6 27B  &#32; submitted by &#32;  /u/Glad_Claim_6287   [link] &#32; [comments]",
+      "title": "KAT-Coder-Air V2.5 - Open model soon",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwbe7w/katcoderair_v25_open_model_soon/",
+      "published_at": "2026-07-14T15:09:00Z",
+      "summary": "      Tweet : https://xcancel.com/KwaiAICoder/status/2075482952696578544#m KAT-Coder-Air V2.5 is available on Openrouter. Somebody please check &amp; let us know about this model. KAT-Coder-V2.5 Technical Report  https:/",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-14-best-direction-forward-from-4080",
+      "id": "localllama-2026-07-14-source-the-trump-administration-and-industry-groups-discusse",
       "source": "localllama",
-      "title": "Best direction forward from 4080",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvzq59/best_direction_forward_from_4080/",
-      "published_at": "2026-07-14T05:37:24Z",
-      "summary": "I currently am running a solo 4080 for local models such as Qwen3.6 35B, Gemma and stuff like that. However, the VRAM is super limiting. Would throwing in a used budget card like a 2070, 3060 or etc for bigger dense mode",
+      "title": "Source: the Trump administration and industry groups discussed streamlining US open model releases of equal or lesser capability to leading Chinese open models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw9ucd/source_the_trump_administration_and_industry/",
+      "published_at": "2026-07-14T14:11:38Z",
+      "summary": "      &#32; submitted by &#32;  /u/pscoutou   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-14-hermes-agent-with-local-llms",
+      "id": "localllama-2026-07-14-how-does-mtp-actually-improve-performance-havent-understood",
       "source": "localllama",
-      "title": "Hermes Agent with local LLMs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvypn9/hermes_agent_with_local_llms/",
-      "published_at": "2026-07-14T04:44:18Z",
-      "summary": "Hey all, I have a 4090 + 5060ti setup with 64gb ram. I have been using opencode with MiMoV2 pro and its great but I don&#39;t think spending $20 daily is financially sound decision. I heard that using qwen3.6-27b with he",
+      "title": "How does MTP actually improve performance? Haven't understood the verification process",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw9g20/how_does_mtp_actually_improve_performance_havent/",
+      "published_at": "2026-07-14T13:56:42Z",
+      "summary": "Hi there, does anyone know how MTP works? I was trying to wrap my head around it, but things aren&#39;t adding up.  For example, the input string I give it is &quot;look up, &quot; and I want it to output &quot;the sky i",
       "tags": [
         "localllama"
       ]
@@ -294,17 +305,6 @@
       "url": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
       "published_at": "2026-07-09T16:12:20Z",
       "summary": "Release: llm-meta-ai 0.1\n        Let's LLM run prompts against the new muse-spark-1.1 model.\n    \n    \n        Tags: llm, meta",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-09-llm-0311",
-      "source": "simonw",
-      "title": "llm 0.31.1",
-      "url": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
-      "published_at": "2026-07-09T16:06:15Z",
-      "summary": "Release: llm 0.31.1\n        \n\nFix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521\n\n\nThis bug came up when I was testing llm-m",
       "tags": [
         "simonw"
       ]
