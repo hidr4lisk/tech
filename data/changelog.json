@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-07-14T19:26:16Z",
+  "updated_at": "2026-07-15T02:49:50Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10012",
+      "project": "llama-cpp",
+      "version": "b10012",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10012",
+      "published_at": "2026-07-14T21:34:17Z",
+      "body_excerpt": "hexagon: fix hmx-queue signal enum-narrowing problem (#25677) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10011",
+      "project": "llama-cpp",
+      "version": "b10011",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10011",
+      "published_at": "2026-07-14T20:55:37Z",
+      "body_excerpt": "server : refactor prompt cache state ownership (#25649) server : clear checkpoints upon prompt clear server : move the prompt state data to the server_prompt_cache Assisted-by: pi:llama.cpp/Qwen3.6-27B server : handle batched slot being cleared macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10010",
+      "project": "llama-cpp",
+      "version": "b10010",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10010",
+      "published_at": "2026-07-14T20:26:04Z",
+      "body_excerpt": "server: add --cors- options (#25655) server: add --cors- options add special \"localhost\" value add tests fix test add link to PR macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenV",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10007",
+      "project": "llama-cpp",
+      "version": "b10007",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10007",
+      "published_at": "2026-07-14T19:42:26Z",
+      "body_excerpt": "opencl: fix a dp4a bug for devices where cl_khr_integer_dot_product is unavailable (#25639) opencl: do not fail backend init on devices without cl_khr_integer_dot_product opencl: do not call dp4 kernels when dp is unavailable --------- Co-authored-by: Li He macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10005",
       "project": "llama-cpp",
@@ -117,6 +153,15 @@
       "published_at": "2026-07-14T08:43:33Z",
       "body_excerpt": "v0.5.15.post1 includes a few patches, mostly for GLM 5.2 #30454 #30627: Fix DSA model launching on non Cuda/HIP devices #30858: Fix flashinfer dependency on Cuda 12 images #31001: Fix NaN outputs caused by flashinfer trtllm FP4 MoE kernels on long input #30839: Fix GLM 5.2 IndexShare on PD disaggregation setting #30992: Fix GLM 5.2 IndexShare on Context Parallel setting",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-3-Embed-1B-NVFP4",
+      "project": "nvidia",
+      "version": "Nemotron-3-Embed-1B-NVFP4",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-NVFP4",
+      "published_at": "2026-07-14T07:46:58Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "hf-nvidia-Nemotron-3-Embed-8B-BF16",
