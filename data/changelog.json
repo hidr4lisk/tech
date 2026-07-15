@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-07-15T08:22:22Z",
+  "updated_at": "2026-07-15T13:52:39Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10020",
+      "project": "llama-cpp",
+      "version": "b10020",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10020",
+      "published_at": "2026-07-15T13:38:02Z",
+      "body_excerpt": "sycl : fix get_rows Q2_K, Q4_K, Q5_K (#25656) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10019",
+      "project": "llama-cpp",
+      "version": "b10019",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10019",
+      "published_at": "2026-07-15T13:01:03Z",
+      "body_excerpt": "sycl : support kernel type fp16 for conv2d_dw (#25653) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10018",
+      "project": "llama-cpp",
+      "version": "b10018",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10018",
+      "published_at": "2026-07-15T12:21:48Z",
+      "body_excerpt": "sycl : implement xielu op (#25550) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10017",
+      "project": "llama-cpp",
+      "version": "b10017",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10017",
+      "published_at": "2026-07-15T11:37:27Z",
+      "body_excerpt": "sycl: Increase minimum buffer size for USM system allocations (#25525) Raise the threshold for minimum buffer size from 1 GiB to 4 GiB, based on real-world experiments of overcommitting device memory with model weights larger than available VRAM, for example Qwen3.5-35B-A3B-Q8 running on a B70. Also add a debug message to better track USM system allocations. Signed-off-by: Francois Dugast macOS/iO",
+      "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-bitnet-embedding-0.6b",
+      "project": "microsoft",
+      "version": "bitnet-embedding-0.6b",
+      "url": "https://huggingface.co/microsoft/bitnet-embedding-0.6b",
+      "published_at": "2026-07-15T09:38:59Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-bitnet-embedding-270m",
+      "project": "microsoft",
+      "version": "bitnet-embedding-270m",
+      "url": "https://huggingface.co/microsoft/bitnet-embedding-270m",
+      "published_at": "2026-07-15T09:25:12Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b10016",
+      "project": "llama-cpp",
+      "version": "b10016",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10016",
+      "published_at": "2026-07-15T09:10:19Z",
+      "body_excerpt": "[SYCL] Flash Attention with XMX engine via oneDNN (#25222) [SYCL] F16 (default) Flash Attention with XMX engine via oneDNN graph API; Qwen3.6-27b-Q8_0 prefill speed up x1.21 at p=512 and x4.26 at p=80k [SYCL] Address review on FA oneDNN path. Result: llama-bench---pp512; 32% increase with fa1; llama-perplexity---0.11% difference; tested model: mradermacher/Meta-Llama-3.1-8B-Instruct-Q8_0.gguf PR-2",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10015",
       "project": "llama-cpp",
