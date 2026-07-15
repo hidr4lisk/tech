@@ -1,6 +1,149 @@
 {
-  "updated_at": "2026-07-15T13:52:32Z",
+  "updated_at": "2026-07-15T19:18:31Z",
   "items": [
+    {
+      "id": "localllama-2026-07-15-i-built-a-new-attention-mechanism-wave-field-runs-128k-conte",
+      "source": "localllama",
+      "title": "I built a new attention mechanism (wave field) — runs 128K context where standard attention OOMs, 80+ tok/s on laptop CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxe427/i_built_a_new_attention_mechanism_wave_field_runs/",
+      "published_at": "2026-07-15T18:21:35Z",
+      "summary": "Hey r/LocalLLaMA — solo researcher here. I built a new attention architecture and want independent testers. Wave Field LLM replaces O(N²) dot-product attention with FFT wave convolution on a field. Training is O(N log N)",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-thinking-machines-releases-first-open-weight-model-inkling",
+      "source": "localllama",
+      "title": "Thinking Machines releases first open-weight model “Inkling”",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxdv34/thinking_machines_releases_first_openweight_model/",
+      "published_at": "2026-07-15T18:12:43Z",
+      "summary": "      https://thinkingmachines.ai/news/introducing-inkling/  &#32; submitted by &#32;  /u/WhyLifeIs4   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-07-15-what-building-shippy-taught-us-about-building-agents",
+      "source": "huggingface",
+      "title": "What building Shippy taught us about building agents",
+      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "published_at": "2026-07-15T17:29:41Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-07-15-model-routing-is-simple-until-it-isnt",
+      "source": "huggingface",
+      "title": "Model Routing Is Simple. Until It Isn’t.",
+      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "published_at": "2026-07-15T17:27:01Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-audio-perception-layer-for-llm-agents-with-a-memory-that-gro",
+      "source": "localllama",
+      "title": "Audio perception layer for LLM agents, with a memory that grows through use",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxbzww/audio_perception_layer_for_llm_agents_with_a/",
+      "published_at": "2026-07-15T17:07:17Z",
+      "summary": "      LLMs handle speech well once you run speech-to-text. They don&#39;t hear the rest: a bird outside, a glass breaking two rooms away, a smoke alarm two floors down. I&#39;ve been working on an experimental open-sourc",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "meta-2026-07-15-exploring-hierarchical-interest-representation-for-meta-ads",
+      "source": "meta",
+      "title": "Exploring Hierarchical Interest Representation For Meta Ads Deep Funnel Optimization",
+      "url": "https://engineering.fb.com/2026/07/15/ai-research/exploring-hierarchical-interest-representation-for-meta-ads-deep-funnel-optimization/",
+      "published_at": "2026-07-15T17:00:52Z",
+      "summary": "Hierarchical Interest Representation is a research area for Meta Ads. We’re exploring an upstream representation layer over the universe of Ads entities – users, advertisers, products, services – learning unified embeddi",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-linus-torvalds-tells-people-to-stop-attacking-others-for-usi",
+      "source": "localllama",
+      "title": "Linus Torvalds tells people to stop attacking others for using AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxbrw4/linus_torvalds_tells_people_to_stop_attacking/",
+      "published_at": "2026-07-15T16:59:48Z",
+      "summary": "      The full quote:  I realize that some people really dislike AI, but this is an area where I&#39;m willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and i",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-agents-a1-4b-qwen37-4b-scaling-the-horizon-not-the-parameter",
+      "source": "localllama",
+      "title": "Agents-A1-4B (Qwen3.7-4B ???) : Scaling the Horizon, Not the Parameters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxb9zv/agentsa14b_qwen374b_scaling_the_horizon_not_the/",
+      "published_at": "2026-07-15T16:42:32Z",
+      "summary": "MODEL + GGUF : https://huggingface.co/InternScience/models?search=a1-4b Technical Report    Benchmark Qwen3.5-4B Agents-A1-4B Qwen3.5 Qwen3.6 Nex-N2-mini Agents-A1    🧠 Dense Models (~4B)   🔀 MoE Models (35B-A3B)      🔍 ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-rl-post-training-on-14-macs-across-4-countries",
+      "source": "localllama",
+      "title": "RL post-training on 14 Macs across 4 countries",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxb3zn/rl_posttraining_on_14_macs_across_4_countries/",
+      "published_at": "2026-07-15T16:36:43Z",
+      "summary": "      Disclosure: I work at Pluralis Research, the lab that built this. Code is open, and I&#39;m happy to answer questions. TL;DR: As far as we can tell, this is the first RL post-training run whose entire rollout fleet",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-german-ai-consortium-releases-soofi-s-an-open-30b-model-that",
+      "source": "localllama",
+      "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxao7y/german_ai_consortium_releases_soofi_s_an_open_30b/",
+      "published_at": "2026-07-15T16:21:16Z",
+      "summary": "      &#32; submitted by &#32;  /u/yogthos   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-hermes-on-android-graphene-os",
+      "source": "localllama",
+      "title": "Hermes on Android (Graphene OS)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxagr9/hermes_on_android_graphene_os/",
+      "published_at": "2026-07-15T16:14:22Z",
+      "summary": "https://youtu.be/oxpGq5FITgA?si=nkHWLReGCDYe7QfL I got Hermes running in the native Debian Terminal in Graphene OS and its really slick. Voice dictation works amazingly. Im using a remote Hermes gateway running on my lap",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-the-best-model-is-the-one-you-can-actually-run",
+      "source": "localllama",
+      "title": "The best model is the one you can actually run",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux9xze/the_best_model_is_the_one_you_can_actually_run/",
+      "published_at": "2026-07-15T15:57:25Z",
+      "summary": "      Don&#39;t get me wrong, all the big models are amazing, and every contribution to open source models is great. But I&#39;m GPU poor and I can&#39;t use them locally.  I&#39;m currently running gemma-4-12b-it-qat-GG",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-15-how-i-tricked-claude-into-leaking-your-deepest-darkest-secre",
+      "source": "simonw",
+      "title": "How I tricked Claude into leaking your deepest, darkest secrets",
+      "url": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+      "published_at": "2026-07-15T14:21:54Z",
+      "summary": "How I tricked Claude into leaking your deepest, darkest secrets\nI've been impressed by the way the Claude web_fetch tool is designed to avoid data exfiltration attacks. Ayush Paul found a hole in that design.\nTo recap: r",
+      "tags": [
+        "simonw"
+      ]
+    },
     {
       "id": "localllama-2026-07-15-i-had-grok-45-run-an-autoresearch-optimization-ladder-on-par",
       "source": "localllama",
@@ -35,109 +178,21 @@
       ]
     },
     {
-      "id": "localllama-2026-07-15-apple-in-talks-with-startup-prismml-that-shrinks-ai-models-t",
-      "source": "localllama",
-      "title": "Apple in talks with startup PrismML that shrinks AI models to run on an iPhone",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux4cn2/apple_in_talks_with_startup_prismml_that_shrinks/",
-      "published_at": "2026-07-15T12:23:39Z",
-      "summary": "      &#32; submitted by &#32;  /u/Ready_Performance_35   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-current-efficient-frontier-of-open-models",
-      "source": "localllama",
-      "title": "Current efficient frontier of open models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux41ue/current_efficient_frontier_of_open_models/",
-      "published_at": "2026-07-15T12:10:08Z",
-      "summary": "      Efficiency defined as score over active parameters.  Removed all the models that were not on the pareto frontier.  Yes I&#39;m aware that artificialanalysis.ai aggregate benchmark isn&#39;t perfect, but I have foun",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-ovisocr2-08b-first-end-to-end-model-to-top-omnidocbench---i",
-      "source": "localllama",
-      "title": "OvisOCR2 (0.8B): first end-to-end model to top OmniDocBench - I threw 827 real scanned medical docs at it, here's everything I learned",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux3nps/ovisocr2_08b_first_endtoend_model_to_top/",
-      "published_at": "2026-07-15T11:52:43Z",
-      "summary": "What it is: ATH-MaaS/OvisOCR2 - a 0.8B document-parsing VLM post-trained from Qwen3.5-0.8B (SFT + RL + OPD), Apache 2.0, runs on vLLM 0.22.1. One prompt per page image -&gt; complete markdown (HTML tables, LaTeX formulas",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-tencenthy-embodied-rxbrain-10-hugging-face",
-      "source": "localllama",
-      "title": "tencent/Hy-Embodied-RxBrain-1.0 · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux0x0v/tencenthyembodiedrxbrain10_hugging_face/",
-      "published_at": "2026-07-15T09:30:47Z",
-      "summary": "      Introduction RxBrain (Hy-Embodied-RxBrain-1.0) is a unified multimodal foundation model for embodied cognition — a single model that couples language reasoning with visual imagination to deliver three core capabili",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-recent-llamacpp-updates-for-syclintel",
-      "source": "localllama",
-      "title": "Recent llama.cpp updates for SYCL/Intel",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux08xo/recent_llamacpp_updates_for_syclintel/",
-      "published_at": "2026-07-15T08:52:17Z",
-      "summary": "Some fixes &amp; boost(pp) for SYCL/Intel. Merged PRs:  [SYCL] Flash Attention with XMX engine via oneDNN graph API (SDPA) on KV f16 for Xe2 ; Qwen3.6-27b-Q8_0 prefill speed up x1.21 at p=512 and x4.26 at p=80k #25222 sy",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-experiments-with-diffusion-llms-llada21-sumi-on-apple-silico",
-      "source": "localllama",
-      "title": "Experiments with diffusion LLMs (LLaDA2.1 & Sumi) on Apple Silicon",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwytcw/experiments_with_diffusion_llms_llada21_sumi_on/",
-      "published_at": "2026-07-15T07:29:35Z",
-      "summary": "With the help of a LLM-wiki and a lot of AI, I am running some experiments with dLLMs (and yes, the I does quite some heavy lifting...) Github-Repo: NeoDiffusion (NeoDiffusion because that&#39;s about my fourth attempt, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-exllamav3-v100---major-performance-upgrades",
-      "source": "localllama",
-      "title": "ExLlamaV3 v1.0.0 - Major Performance Upgrades",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwylut/exllamav3_v100_major_performance_upgrades/",
-      "published_at": "2026-07-15T07:17:43Z",
-      "summary": "      After over a year in development, ExLlamaV3 has had its first production release. Turboderp has been pulling 10 hour days with Fable to bring us this massive batch of improvements. Check out detailed performance me",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-rdestroymygame-destroyed-me-to-the-void-for-using-ai-i-used",
-      "source": "localllama",
-      "title": "r/DestroyMyGame destroyed me to the void for using AI. I used Qwen 3.6 27B Q8 with MTP for about 20% of this single HTML file physics shooter game. I remember last year being blown away by GLM 4.5 Air being able to write a somewhat coherent HTML webpage.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwyj5p/rdestroymygame_destroyed_me_to_the_void_for_using/",
-      "published_at": "2026-07-15T07:13:28Z",
-      "summary": "      Frontier models are just so good though. Fable 5... Gemini 3.1 Pro for design critique and brainstorming. Grok for verification passes. Antigravity with Gemini 3.5 Flash for rote plan execution. Opencode with Qwen ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-how-to-run-prism-bonsai-27b",
-      "source": "localllama",
-      "title": "How to run Prism Bonsai 27B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uww1t0/how_to_run_prism_bonsai_27b/",
-      "published_at": "2026-07-15T04:59:04Z",
-      "summary": "According to their GitHub, the file needed is the -Q2_0.gguf version, which requires compiling their version of llama.cpp. Easiest way to download is to use huggingface-cli if you have it available:  hf download prism-ml",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-15-introducing-real-world-voiceeq-measuring-the-human-quality-o",
       "source": "huggingface",
       "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
       "url": "https://huggingface.co/blog/real-world-voiceeq",
+      "published_at": "2026-07-15T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-07-15-welcome-inkling-by-thinking-machines",
+      "source": "huggingface",
+      "title": "Welcome Inkling by Thinking Machines",
+      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
       "published_at": "2026-07-15T00:00:00Z",
       "summary": "",
       "tags": [
@@ -310,17 +365,6 @@
       ]
     },
     {
-      "id": "simonw-2026-07-09-introducing-muse-spark-11",
-      "source": "simonw",
-      "title": "Introducing Muse Spark 1.1",
-      "url": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
-      "published_at": "2026-07-09T16:24:09Z",
-      "summary": "Introducing Muse Spark 1.1\nFollowing Muse Spark in April, here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use.\nThere are a lot more ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-08-data-for-agents",
       "source": "huggingface",
       "title": "Data for Agents",
@@ -409,17 +453,6 @@
       ]
     },
     {
-      "id": "huggingface-2026-07-06-kernels-major-updates",
-      "source": "huggingface",
-      "title": "🤗 Kernels: Major Updates",
-      "url": "https://huggingface.co/blog/revamped-kernels",
-      "published_at": "2026-07-06T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "meta-2026-07-01-metas-ai-storage-blueprint-at-scale",
       "source": "meta",
       "title": "Meta’s AI Storage Blueprint at Scale",
@@ -428,28 +461,6 @@
       "summary": "Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks.",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "huggingface-2026-07-01-hugging-face-and-cerebras-bring-gemma-4-to-real-time-voice-a",
-      "source": "huggingface",
-      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "published_at": "2026-07-01T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-30-scarfbench-benchmarking-ai-agents-for-enterprise-java-framew",
-      "source": "huggingface",
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "published_at": "2026-06-30T18:32:50Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
@@ -866,17 +877,6 @@
       "url": "https://thegradient.pub/mamba-explained/",
       "published_at": "2024-03-28T01:24:43Z",
       "summary": "Is Attention all you need? Mamba, a novel AI model based on State Space Models (SSMs), emerges as a formidable alternative to the widely used Transformer models, addressing their inefficiency in processing long sequences",
-      "tags": [
-        "gradient"
-      ]
-    },
-    {
-      "id": "gradient-2024-03-08-car-gpt-could-llms-finally-make-self-driving-cars-happen",
-      "source": "gradient",
-      "title": "Car-GPT: Could LLMs finally make self-driving cars happen?",
-      "url": "https://thegradient.pub/car-gpt/",
-      "published_at": "2024-03-08T16:55:18Z",
-      "summary": "Exploring the utility of large language models in autonomous driving: Can they be trusted for self-driving cars, and what are the key challenges?",
       "tags": [
         "gradient"
       ]

@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-15T13:52:39Z",
+  "updated_at": "2026-07-15T19:18:36Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10031",
+      "project": "llama-cpp",
+      "version": "b10031",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10031",
+      "published_at": "2026-07-15T19:15:50Z",
+      "body_excerpt": "tokenize : drop --stdin mutual-exclusion check (#25672) match cli and completion, which don't enforce it macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.14.0",
+      "project": "transformers",
+      "version": "v5.14.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.0",
+      "published_at": "2026-07-15T19:02:19Z",
+      "body_excerpt": "Release v5.14.0 New Model additions Inkling (fresh from Thinking Machines): 975B total, 41B active Add Inkling model #47347 by @molbap @Cyrilvallez @eustlb and @zucchini-nlp Inkling is a general-purpose multimodal model that accepts text, image and audio inputs and generates text outputs. It is intended for use in English and other languages, and across multiple coding languages. The model is desi",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.49-beta",
+      "project": "unsloth",
+      "version": "v0.1.49-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.49-beta",
+      "published_at": "2026-07-15T18:27:06Z",
+      "body_excerpt": "Unsloth Studio now supports Inkling, a new 975B parameter (41B active) open model with up to a 1M context window. Licensed under Apache 2.0, Inkling accepts text, images, and audio and generates text. Unsloth Studio natively supports it! Updating Unsloth To update Unsloth or install a fresh Unsloth Unsloth, use the commands below: macOS, Linux, WSL: Windows: What's Changed Bump install.sh / instal",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10025",
+      "project": "llama-cpp",
+      "version": "b10025",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10025",
+      "published_at": "2026-07-15T16:10:34Z",
+      "body_excerpt": "cuda : relax tensor contiguity requirements for quantized concat (#25678) cuda : relax tensor contiguity requirements for quantized concat tests : add test cases for non-contiguous quantized concat ggml : relax contiguity requirements for quantized concat --------- Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10021",
+      "project": "llama-cpp",
+      "version": "b10021",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10021",
+      "published_at": "2026-07-15T14:19:40Z",
+      "body_excerpt": "DeepseekV4: reduce graph splits (#25702) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows:",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10020",
       "project": "llama-cpp",
