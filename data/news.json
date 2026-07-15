@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-07-15T02:49:44Z",
+  "updated_at": "2026-07-15T08:22:17Z",
   "items": [
+    {
+      "id": "localllama-2026-07-15-experiments-with-diffusion-llms-llada21-sumi-on-apple-silico",
+      "source": "localllama",
+      "title": "Experiments with diffusion LLMs (LLaDA2.1 & Sumi) on Apple Silicon",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwytcw/experiments_with_diffusion_llms_llada21_sumi_on/",
+      "published_at": "2026-07-15T07:29:35Z",
+      "summary": "With the help of a LLM-wiki and a lot of AI, I am running some experiments with dLLMs (and yes, the I does quite some heavy lifting...) Github-Repo: NeoDiffusion (NeoDiffusion because that&#39;s about my fourth attempt, ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-exllamav3-v100---major-performance-upgrades",
+      "source": "localllama",
+      "title": "ExLlamaV3 v1.0.0 - Major Performance Upgrades",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwylut/exllamav3_v100_major_performance_upgrades/",
+      "published_at": "2026-07-15T07:17:43Z",
+      "summary": "      After over a year in development, ExLlamaV3 has had its first production release. Turboderp has been pulling 10 hour days with Fable to bring us this massive batch of improvements. Check out detailed performance me",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-how-to-run-prism-bonsai-27b",
+      "source": "localllama",
+      "title": "How to run Prism Bonsai 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uww1t0/how_to_run_prism_bonsai_27b/",
+      "published_at": "2026-07-15T04:59:04Z",
+      "summary": "According to their GitHub, the file needed is the -Q2_0.gguf version, which requires compiling their version of llama.cpp. Easiest way to download is to use huggingface-cli if you have it available:  hf download prism-ml",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-if-you-had-a-384gb-4x-blackwell-what-model-would-you-put-on",
+      "source": "localllama",
+      "title": "If you had a 384GB (4x Blackwell), what model would you put on it and why?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwv48k/if_you_had_a_384gb_4x_blackwell_what_model_would/",
+      "published_at": "2026-07-15T04:10:41Z",
+      "summary": "Hey guys, Company I work for is actually very interested in spending the money to host our own local model for the team. We expect probably 2-3 super users and at the worst case 10-20 concurrent users. The LLM would be m",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-15-some-of-yall-wonder-why-anyone-would-self-host-ai-would-you",
       "source": "localllama",
@@ -8,6 +52,17 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwqgqs/some_of_yall_wonder_why_anyone_would_self_host_ai/",
       "published_at": "2026-07-15T00:32:11Z",
       "summary": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/ Venture capitalists have been warning for awhile that OpenAI and Anthropic are getting access to sensitive business inf",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-qwen-35-122b-heretic-rocmfp4-imatrix",
+      "source": "localllama",
+      "title": "Qwen 3.5 122B Heretic ROCmFP4 iMatrix",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwq1ia/qwen_35_122b_heretic_rocmfp4_imatrix/",
+      "published_at": "2026-07-15T00:13:20Z",
+      "summary": "      My first time doing anything like this, and I built it because I wanted it. If anyone wants the non Heretic I&#39;ll mosey that out as compute allows. Strix Halo: 122B total · 10B active · 60.70 GiB · 28.45 tok/s ·",
       "tags": [
         "localllama"
       ]
@@ -90,50 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-14-mtp-decoding-patched-for-pre-ampere-gpus-keplermaxwellpascal",
-      "source": "localllama",
-      "title": "MTP decoding patched for pre-Ampere GPUs (Kepler/Maxwell/Pascal/Turing)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwjd45/mtp_decoding_patched_for_preampere_gpus/",
-      "published_at": "2026-07-14T19:53:18Z",
-      "summary": "      The current implementation of multi token prediction (MTP) in llama cpp could trigger BF16 compute selection on GPUs that don&#39;t support BF16, causing cuBLAS crashes on older architectures (tested on Kepler). I ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-14-looks-like-pytorch-is-getting-fast-thunderbolt-communication",
-      "source": "localllama",
-      "title": "Looks like PyTorch is getting fast thunderbolt communication backend (distributed models on Macs)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwj0f7/looks_like_pytorch_is_getting_fast_thunderbolt/",
-      "published_at": "2026-07-14T19:40:04Z",
-      "summary": "      &#32; submitted by &#32;  /u/Immediate_Sky_6566   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-14-gemma-4-31b-antihal-gemma-steered-to-push-back-on-false-prem",
-      "source": "localllama",
-      "title": "Gemma-4-31B-AntiHal: Gemma steered to push back on false premises instead of hallucinating, without any impact to benchmark performance",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwhwt8/gemma431bantihal_gemma_steered_to_push_back_on/",
-      "published_at": "2026-07-14T18:59:33Z",
-      "summary": "I&#39;ve been experimenting with interpretability on Gemma-4-31B and ended up with something cool I think you guys might like: a variant that challenges a request&#39;s premise (like fabricated tools, made-up papers, wro",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-14-bonsai-27b-the-first-27b-class-model-to-run-on-a-phone",
-      "source": "localllama",
-      "title": "Bonsai 27B: The First 27B-Class Model to Run on a Phone",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwhukq/bonsai_27b_the_first_27bclass_model_to_run_on_a/",
-      "published_at": "2026-07-14T18:57:20Z",
-      "summary": "&#32; submitted by &#32;  /u/yogthos   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-14-quoting-armin-ronacher",
       "source": "simonw",
       "title": "Quoting Armin Ronacher",
@@ -142,17 +153,6 @@
       "summary": "The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has th",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-14-built-a-memory-pipeline-on-qwen3-235b-a22b-instruct-2507-tha",
-      "source": "localllama",
-      "title": "built a memory pipeline on Qwen3 235B A22B Instruct 2507 that scored #1 on LongMemEval-S (470/500) while being ~10x more token efficient than the next best system",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwfwsd/built_a_memory_pipeline_on_qwen3_235b_a22b/",
-      "published_at": "2026-07-14T17:49:56Z",
-      "summary": "      Over past ~10 months I&#39;ve been iterating on my memory system so I can make a proper assistant, like Rick&#39;s garage from Rick and Morty. I benched my latest iteration and it scored top out of any system I kno",
-      "tags": [
-        "localllama"
       ]
     },
     {

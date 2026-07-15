@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-15T02:49:50Z",
+  "updated_at": "2026-07-15T08:22:22Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10015",
+      "project": "llama-cpp",
+      "version": "b10015",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10015",
+      "published_at": "2026-07-15T03:24:21Z",
+      "body_excerpt": "opencl: do not use when targeting CL 2.x (#25673) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10012",
       "project": "llama-cpp",
