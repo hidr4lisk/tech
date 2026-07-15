@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-07-15T08:22:17Z",
+  "updated_at": "2026-07-15T13:52:32Z",
   "items": [
+    {
+      "id": "localllama-2026-07-15-i-had-grok-45-run-an-autoresearch-optimization-ladder-on-par",
+      "source": "localllama",
+      "title": "I had Grok 4.5 run an autoresearch optimization ladder on Parakeet CPU ASR. Result: Upto 2.1x faster STT",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux6caj/i_had_grok_45_run_an_autoresearch_optimization/",
+      "published_at": "2026-07-15T13:46:29Z",
+      "summary": "      I set out to make Parakeet speech-to-text faster on CPU. Not a GPU demo. Just a real baseline and a keep gate.  I did not want to hand-babysit every ORT flag. I pointed Neo (our autonomous AI engineering agent) at ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-bonsai-27b-ternary-bonsai-27b---updates-on-prs",
+      "source": "localllama",
+      "title": "Bonsai-27B & Ternary-Bonsai-27B - Updates (on PRs)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux4wrx/bonsai27b_ternarybonsai27b_updates_on_prs/",
+      "published_at": "2026-07-15T12:48:16Z",
+      "summary": "Below Upstream Status sections are from https://github.com/PrismML-Eng/Bonsai-demo Upstream Status for Binary  Q1_0 is supported out of the box in upstream llama.cpp across many backends: CPU (generic, NEON, and optimize",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-ggml-zendnn-add-q8-0-quantization-support-by-z-sachin-pull-r",
+      "source": "localllama",
+      "title": "ggml-zendnn : add Q8_0 quantization support by z-sachin · Pull Request #23414 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux4co7/ggmlzendnn_add_q8_0_quantization_support_by/",
+      "published_at": "2026-07-15T12:23:42Z",
+      "summary": "      Benchmark Results Benchmark configuration:  threads = 96 type_k = bf16 type_v = bf16  Llama-3.1-8B-Instruct Q8_0   Prompt Size GGML_CPU_Q8_0 t/s ZenDNN_Q8_0 t/s Gain    256 472.28 730.87 54.75%   512 450.86 832.48 ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-apple-in-talks-with-startup-prismml-that-shrinks-ai-models-t",
+      "source": "localllama",
+      "title": "Apple in talks with startup PrismML that shrinks AI models to run on an iPhone",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux4cn2/apple_in_talks_with_startup_prismml_that_shrinks/",
+      "published_at": "2026-07-15T12:23:39Z",
+      "summary": "      &#32; submitted by &#32;  /u/Ready_Performance_35   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-current-efficient-frontier-of-open-models",
+      "source": "localllama",
+      "title": "Current efficient frontier of open models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux41ue/current_efficient_frontier_of_open_models/",
+      "published_at": "2026-07-15T12:10:08Z",
+      "summary": "      Efficiency defined as score over active parameters.  Removed all the models that were not on the pareto frontier.  Yes I&#39;m aware that artificialanalysis.ai aggregate benchmark isn&#39;t perfect, but I have foun",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-ovisocr2-08b-first-end-to-end-model-to-top-omnidocbench---i",
+      "source": "localllama",
+      "title": "OvisOCR2 (0.8B): first end-to-end model to top OmniDocBench - I threw 827 real scanned medical docs at it, here's everything I learned",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux3nps/ovisocr2_08b_first_endtoend_model_to_top/",
+      "published_at": "2026-07-15T11:52:43Z",
+      "summary": "What it is: ATH-MaaS/OvisOCR2 - a 0.8B document-parsing VLM post-trained from Qwen3.5-0.8B (SFT + RL + OPD), Apache 2.0, runs on vLLM 0.22.1. One prompt per page image -&gt; complete markdown (HTML tables, LaTeX formulas",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-tencenthy-embodied-rxbrain-10-hugging-face",
+      "source": "localllama",
+      "title": "tencent/Hy-Embodied-RxBrain-1.0 · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux0x0v/tencenthyembodiedrxbrain10_hugging_face/",
+      "published_at": "2026-07-15T09:30:47Z",
+      "summary": "      Introduction RxBrain (Hy-Embodied-RxBrain-1.0) is a unified multimodal foundation model for embodied cognition — a single model that couples language reasoning with visual imagination to deliver three core capabili",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-recent-llamacpp-updates-for-syclintel",
+      "source": "localllama",
+      "title": "Recent llama.cpp updates for SYCL/Intel",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux08xo/recent_llamacpp_updates_for_syclintel/",
+      "published_at": "2026-07-15T08:52:17Z",
+      "summary": "Some fixes &amp; boost(pp) for SYCL/Intel. Merged PRs:  [SYCL] Flash Attention with XMX engine via oneDNN graph API (SDPA) on KV f16 for Xe2 ; Qwen3.6-27b-Q8_0 prefill speed up x1.21 at p=512 and x4.26 at p=80k #25222 sy",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-15-experiments-with-diffusion-llms-llada21-sumi-on-apple-silico",
       "source": "localllama",
@@ -24,6 +112,17 @@
       ]
     },
     {
+      "id": "localllama-2026-07-15-rdestroymygame-destroyed-me-to-the-void-for-using-ai-i-used",
+      "source": "localllama",
+      "title": "r/DestroyMyGame destroyed me to the void for using AI. I used Qwen 3.6 27B Q8 with MTP for about 20% of this single HTML file physics shooter game. I remember last year being blown away by GLM 4.5 Air being able to write a somewhat coherent HTML webpage.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwyj5p/rdestroymygame_destroyed_me_to_the_void_for_using/",
+      "published_at": "2026-07-15T07:13:28Z",
+      "summary": "      Frontier models are just so good though. Fable 5... Gemini 3.1 Pro for design critique and brainstorming. Grok for verification passes. Antigravity with Gemini 3.5 Flash for rote plan execution. Opencode with Qwen ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
       "id": "localllama-2026-07-15-how-to-run-prism-bonsai-27b",
       "source": "localllama",
       "title": "How to run Prism Bonsai 27B",
@@ -35,58 +134,14 @@
       ]
     },
     {
-      "id": "localllama-2026-07-15-if-you-had-a-384gb-4x-blackwell-what-model-would-you-put-on",
-      "source": "localllama",
-      "title": "If you had a 384GB (4x Blackwell), what model would you put on it and why?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwv48k/if_you_had_a_384gb_4x_blackwell_what_model_would/",
-      "published_at": "2026-07-15T04:10:41Z",
-      "summary": "Hey guys, Company I work for is actually very interested in spending the money to host our own local model for the team. We expect probably 2-3 super users and at the worst case 10-20 concurrent users. The LLM would be m",
+      "id": "huggingface-2026-07-15-introducing-real-world-voiceeq-measuring-the-human-quality-o",
+      "source": "huggingface",
+      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+      "url": "https://huggingface.co/blog/real-world-voiceeq",
+      "published_at": "2026-07-15T00:00:00Z",
+      "summary": "",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-some-of-yall-wonder-why-anyone-would-self-host-ai-would-you",
-      "source": "localllama",
-      "title": "Some of y'all wonder why anyone would self host AI. Would you accept the opinion of the CEO of Microsoft?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwqgqs/some_of_yall_wonder_why_anyone_would_self_host_ai/",
-      "published_at": "2026-07-15T00:32:11Z",
-      "summary": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/ Venture capitalists have been warning for awhile that OpenAI and Anthropic are getting access to sensitive business inf",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-qwen-35-122b-heretic-rocmfp4-imatrix",
-      "source": "localllama",
-      "title": "Qwen 3.5 122B Heretic ROCmFP4 iMatrix",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwq1ia/qwen_35_122b_heretic_rocmfp4_imatrix/",
-      "published_at": "2026-07-15T00:13:20Z",
-      "summary": "      My first time doing anything like this, and I built it because I wanted it. If anyone wants the non Heretic I&#39;ll mosey that out as compute allows. Strix Halo: 122B total · 10B active · 60.70 GiB · 28.45 tok/s ·",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-audiocpp-10-hours-of-audio-generated-in-3-minutes-on-rtx-509",
-      "source": "localllama",
-      "title": "[audio.cpp] 10 hours of audio generated in 3 minutes on RTX 5090 (demo included)! C++/GGML based Supertonic 3, MOSS-TTS, IndexTTS2, and Irodori-TTS released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwpvt9/audiocpp_10_hours_of_audio_generated_in_3_minutes/",
-      "published_at": "2026-07-15T00:06:35Z",
-      "summary": "      audio.cpp again. Hopefully you are not sick of it yet :) Release 0.3 adds five new models: Supertonic 3, MOSS-TTS-Local, MOSS-TTS-Nano, IndexTTS2, and Irodori-TTS. The highlight is Supertonic 3. It can hit 200×+ re",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-14-prismml-bonsai-27b-is-surprisingly-usable-on-the-jetson-orin",
-      "source": "localllama",
-      "title": "PrismML Bonsai 27B is surprisingly usable on the Jetson Orin Nano 8GB",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwoemt/prismml_bonsai_27b_is_surprisingly_usable_on_the/",
-      "published_at": "2026-07-14T23:04:53Z",
-      "summary": "Ctx Size: 48k Prompt processing: 27t/s Token/s: 4.31 t/s RAM Usage (on cold start): 6.2GB with model loaded (no-mmap) Yes it is not very fast but it is a good AI setup consuming roughly 25W and it can do complex tasks pr",
-      "tags": [
-        "localllama"
+        "huggingface"
       ]
     },
     {
@@ -98,50 +153,6 @@
       "summary": "simonw/pedalican\nClearly I wasn't paying attention when these were first announced back in May, but today I accidentally activated a \"pet\" in Codex Desktop - a little animated robot, reminiscent of Clippy - and then lear",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-14-so-whats-the-consensus-on-1bit-models-is-it-still-a-pipe-dre",
-      "source": "localllama",
-      "title": "So what's the consensus on 1bit models? Is it still a pipe dream?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwnhlv/so_whats_the_consensus_on_1bit_models_is_it_still/",
-      "published_at": "2026-07-14T22:28:56Z",
-      "summary": "With Bonsai 8b at 1bit being 1gb~ size while being functional and the 27b being dropped also at 1bit while only being 5~gb, is the future for 1bit models looking bright? What will their primary use be?   &#32; submitted ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-14-me-one-shot-programming-is-useless-and-should-not-be-used-as",
-      "source": "localllama",
-      "title": "Me: one-shot programming is useless and should not be used as benchmark DeepSeek V4: hold my Atlas 500 SuperPod",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwm7fx/me_oneshot_programming_is_useless_and_should_not/",
-      "published_at": "2026-07-14T21:39:44Z",
-      "summary": "      Credit goes to: kdzzzds on Bilibili  Someone got access to a new version of DeepSeek V4 through A/B testing, and vibe coded / one-shot this No Man&#39;s Sky and Minecraft hybrid. Here is the chatlog:  https://opncd",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-14-glm-52-int4-int8-on-8-gb10-1200-ts-prefill-3354-ts-avg-decod",
-      "source": "localllama",
-      "title": "GLM-5.2-Int4-Int8 on 8× GB10: ~1,200 t/s prefill, 33–54 t/s avg decode",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwk7qc/glm52int4int8_on_8_gb10_1200_ts_prefill_3354_ts/",
-      "published_at": "2026-07-14T20:24:45Z",
-      "summary": "      GLM-5.2-Int4-Int8 on 8× GB10: ~1,200 t/s prefill, 33–54 t/s avg decode (generic - coding/structured) and memory remaining to run also a Mimo 2.5 in parallel for image/audio input, both tp 8. https://x.com/i/status/",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-14-can-we-get-a-not-base-model-flair",
-      "source": "localllama",
-      "title": "Can we get a \"not base model\" flair?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwjlo4/can_we_get_a_not_base_model_flair/",
-      "published_at": "2026-07-14T20:01:52Z",
-      "summary": "We have just gotten out of Ornith 2 weeks of spamming and now we start &quot; 1 bit almost fp16 quality&quot; BS. This is just pathetic. So can we get that flair to remove them from our feed and it should be mandatory if",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -461,17 +472,6 @@
       "summary": "This year marks Meta&#8217;s 10th consecutive year as a sponsor of the Python Software Foundation (PSF), the charitable organization dedicated to advancing, supporting, and protecting the open-source Python programming l",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "huggingface-2026-06-30-why-specialization-is-inevitable",
-      "source": "huggingface",
-      "title": "Why Specialization Is Inevitable",
-      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "published_at": "2026-06-30T14:39:11Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
