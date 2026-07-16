@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-07-16T08:25:24Z",
+  "updated_at": "2026-07-16T14:04:11Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10043",
+      "project": "llama-cpp",
+      "version": "b10043",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10043",
+      "published_at": "2026-07-16T14:02:33Z",
+      "body_excerpt": "CUDA: Support CUDA Virtual Devices (#25228) support cuda virtual devices disable NCCL path when virtual devices are used label virtual devices in description; add GPUx2 server CI jobs code refactor Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10042",
+      "project": "llama-cpp",
+      "version": "b10042",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10042",
+      "published_at": "2026-07-16T11:23:24Z",
+      "body_excerpt": "Enable CUDA graphs on volta+turing (#25749) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10041",
+      "project": "llama-cpp",
+      "version": "b10041",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10041",
+      "published_at": "2026-07-16T10:37:01Z",
+      "body_excerpt": "server: Ignore empty / non-existing headers (#25756) Otherwise this gives lots of unnecessary warnings: W srv operator(): (CORS) skip non-localhost origin: Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10040",
+      "project": "llama-cpp",
+      "version": "b10040",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10040",
+      "published_at": "2026-07-16T09:55:55Z",
+      "body_excerpt": "ggml-cuda : restore prop.integrated on HIP builds (#24233) PR #16308 set info.devices[id].integrated = false unconditionally for all CUDA/HIP devices as a workaround for corrupted output on Jetson Orin (#15034). On HIP/ROCm the device's real hipDeviceProp_t.integrated flag is needed: with the cached field forced to false, supports_buft() refuses CUDA host buffers on AMD APU/UMA parts, while get_ty",
+      "type": "tool"
+    },
+    {
+      "id": "hf-EleutherAI-bergson-smollm2-lds-8k",
+      "project": "EleutherAI",
+      "version": "bergson-smollm2-lds-8k",
+      "url": "https://huggingface.co/EleutherAI/bergson-smollm2-lds-8k",
+      "published_at": "2026-07-16T09:46:48Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "transformers-v5.14.1",
+      "project": "transformers",
+      "version": "v5.14.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.1",
+      "published_at": "2026-07-16T09:41:36Z",
+      "body_excerpt": "Patch release v5.14.1 This patch solves a few issues which appeared when integrating Inkling model, most notably an issue affecting models using EncoderDecoderCache during assisted generation. It also fixes an issue that could appear during prefill with StaticCache and sdpa without padding for Inkling which uses a position_bias. It contains the following commits: Fix sdpa prefill with position_bia",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10038",
       "project": "llama-cpp",
@@ -36,6 +90,15 @@
       "published_at": "2026-07-16T04:59:14Z",
       "body_excerpt": "cuda: extract Q1_0 elements via __byte_perm (#25628) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
       "type": "tool"
+    },
+    {
+      "id": "hf-EleutherAI-bergson-smollm2-lds-4k",
+      "project": "EleutherAI",
+      "version": "bergson-smollm2-lds-4k",
+      "url": "https://huggingface.co/EleutherAI/bergson-smollm2-lds-4k",
+      "published_at": "2026-07-16T04:32:56Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.32.1",
