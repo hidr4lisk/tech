@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-15T19:18:36Z",
+  "updated_at": "2026-07-16T02:56:30Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10034",
+      "project": "llama-cpp",
+      "version": "b10034",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10034",
+      "published_at": "2026-07-15T20:34:35Z",
+      "body_excerpt": "opencl: exclude some moe kernels on Adreno a7x (#25698) opencl: exclude Adreno A7x from using Adreno MoE kernels Some compilers for A7x devices miscompile the repack kernels, corrupting the weights and causing MoE models to generate garbage output opencl: exclude A6x and unknown Adreno from MoE weights repack macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10032",
+      "project": "llama-cpp",
+      "version": "b10032",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10032",
+      "published_at": "2026-07-15T19:52:26Z",
+      "body_excerpt": "cuda : CUDA GGML_OP_LIGHTNING_INDEXER implementation (generic vector kernel + wmma kernel) (#25545) cuda : CUDA GGML_OP_LIGHTNING_INDEXER implementation (generic vector kernel + wmma kernel) chore : remove indentation of #pragma unroll cuda : remove unnecessary kernel template declarations cuda : add WARPS_PER_BLOCK and K_VECS_PER_BLOCK template parameters in lightning indexer kernels to avoid dup",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10031",
       "project": "llama-cpp",
@@ -25,7 +43,7 @@
       "version": "v0.1.49-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.49-beta",
       "published_at": "2026-07-15T18:27:06Z",
-      "body_excerpt": "Unsloth Studio now supports Inkling, a new 975B parameter (41B active) open model with up to a 1M context window. Licensed under Apache 2.0, Inkling accepts text, images, and audio and generates text. Unsloth Studio natively supports it! Updating Unsloth To update Unsloth or install a fresh Unsloth Unsloth, use the commands below: macOS, Linux, WSL: Windows: What's Changed Bump install.sh / instal",
+      "body_excerpt": "Hey guys we got lots of new update for Unsloth, especially customization. Unsloth now yours to personalize: three color palettes plus custom colors and fonts, seven new display languages, and a new Voice settings tab for dictation and read-aloud. Agents get safer with a four-level tool-call permission selector (Ask, Approve for me, Off, Full access) and workspace isolation, and Intel GPUs finally ",
       "type": "tool"
     },
     {
@@ -7559,15 +7577,6 @@
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.19.1",
       "published_at": "2026-04-18T05:44:42Z",
       "body_excerpt": "This is a patch release on top of with Transformers v5.5.3 upgrade and bug fixes for Gemma4: Update to transformers v5 (#30566) [Bugfix] Fix invalid JSON in Gemma 4 streaming tool calls by stripping partial delimiters (#38992) [Bugfix][Frontend] Fix Gemma4 streaming HTML duplication after tool calls (#38909) [Bugfix] Fix Gemma4 streaming tool call corruption for split boolean/number values (#39114",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.21.0",
-      "project": "ollama",
-      "version": "v0.21.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.0",
-      "published_at": "2026-04-16T22:00:17Z",
-      "body_excerpt": "Hermes Agent Hermes learns with you, automatically creating skills to better serve your workflows. Great for research and engineering tasks. What's Changed Gemma 4 on MLX. Added support for running Gemma 4 via MLX on Apple Silicon, including a text-only MLX runtime for the model. The MLX backend also picked up mixed-precision quantization, better capability detection, and a batch of new op wrapper",
       "type": "tool"
     }
   ]

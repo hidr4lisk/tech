@@ -1,24 +1,156 @@
 {
-  "updated_at": "2026-07-15T19:18:31Z",
+  "updated_at": "2026-07-16T02:56:24Z",
   "items": [
     {
-      "id": "localllama-2026-07-15-i-built-a-new-attention-mechanism-wave-field-runs-128k-conte",
+      "id": "localllama-2026-07-16-qwen35-122b-a10b-rocmfp4-imatrix",
       "source": "localllama",
-      "title": "I built a new attention mechanism (wave field) — runs 128K context where standard attention OOMs, 80+ tok/s on laptop CPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxe427/i_built_a_new_attention_mechanism_wave_field_runs/",
-      "published_at": "2026-07-15T18:21:35Z",
-      "summary": "Hey r/LocalLLaMA — solo researcher here. I built a new attention architecture and want independent testers. Wave Field LLM replaces O(N²) dot-product attention with FFT wave convolution on a field. Training is O(N log N)",
+      "title": "Qwen3.5 122B-A10B · ROCmFP4 iMatrix",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxqgke/qwen35_122ba10b_rocmfp4_imatrix/",
+      "published_at": "2026-07-16T02:45:52Z",
+      "summary": "      Hola Strix and AMD stacker frendios. Read the Lineage and Credits, this uses charlie12345/ROCmFPX, won&#39;t work on native llama.cpp yet. 122B total · 10B active · 60.70 GiB · 28.50 tok/s MTP-off · BF16 KLD 0.0413",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-15-thinking-machines-releases-first-open-weight-model-inkling",
+      "id": "localllama-2026-07-16-psa-nvidias-cmp-170hx-full-compute-and-memory80gb-may-be-unl",
       "source": "localllama",
-      "title": "Thinking Machines releases first open-weight model “Inkling”",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxdv34/thinking_machines_releases_first_openweight_model/",
-      "published_at": "2026-07-15T18:12:43Z",
-      "summary": "      https://thinkingmachines.ai/news/introducing-inkling/  &#32; submitted by &#32;  /u/WhyLifeIs4   [link] &#32; [comments] ",
+      "title": "PSA: Nvidia's CMP 170HX Full Compute and Memory(80GB) may be unlockable via exploit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxqccx/psa_nvidias_cmp_170hx_full_compute_and_memory80gb/",
+      "published_at": "2026-07-16T02:40:10Z",
+      "summary": "If you don&#39;t know, the CMP 170HX is essentially a A100 that has had it&#39;s compute and memory crippled so it can only mine crypto. It was a product of the crypto craze, and was released shortly before the crypto cr",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-16-mermaid-to-unicode-box-art-grok-mermaid",
+      "source": "simonw",
+      "title": "Mermaid to Unicode box art (grok-mermaid)",
+      "url": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+      "published_at": "2026-07-16T00:33:18Z",
+      "summary": "Tool: Mermaid to Unicode box art (grok-mermaid)\n        While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs, a \"self-contained terminal renderer fo",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-15-xai-orggrok-build-now-open-source",
+      "source": "simonw",
+      "title": "xai-org/grok-build, now open source",
+      "url": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+      "published_at": "2026-07-15T23:59:30Z",
+      "summary": "xai-org/grok-build, now open source\nxAI's grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud b",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-kimiai-teasing-a-video-with-lots-of-3s-in-it",
+      "source": "localllama",
+      "title": "kimi.ai teasing a video with lots of 3's in it",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxm627/kimiai_teasing_a_video_with_lots_of_3s_in_it/",
+      "published_at": "2026-07-15T23:32:58Z",
+      "summary": "Suggesting Kimi k3 to be released soon. https://x.com/Kimi_Moonshot/status/2077521842080817296  Already on arena under codename kivine: https://x.com/AndrewCurran_/status/2077433196556554306 Post says good but slower tha",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-hy3-1bit-89-93-gb",
+      "source": "localllama",
+      "title": "Hy3 1Bit 89-93 GB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxm2d8/hy3_1bit_8993_gb/",
+      "published_at": "2026-07-15T23:28:46Z",
+      "summary": "      AngelSlim/Hy3-GGUF at hugging face (I am not affiliated just testing) I dont really make posts but I wanted to make sure everyone is aware that there is now a 1bit quant of Hy3 and now that models are getting large",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-qwen3635b-ud-q4-k-m-80-toks-on-nvidia-p40",
+      "source": "localllama",
+      "title": "Qwen3.6:35b UD Q4_K_M 80 tok/s on Nvidia P40",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxln6i/qwen3635b_ud_q4_k_m_80_toks_on_nvidia_p40/",
+      "published_at": "2026-07-15T23:10:58Z",
+      "summary": "      https://preview.redd.it/nrxkobib5hdh1.png?width=1147&amp;format=png&amp;auto=webp&amp;s=a36a282635bcbb23c0c2bdffa855689eab5e76f9 I&#39;m running Unsloth&#39;s Qwen3.6:35B UD Q4_K_M with a 100k context on a single N",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-maxing-out-64gb-of-ram---qwen35-122b-a10b-at-ud-q2-k-xl-w-mt",
+      "source": "localllama",
+      "title": "Maxing out 64GB of RAM - Qwen3.5 122B A10B at UD-Q2_K_XL w/ MTP fully replaced Qwen3 Next 80B at UD-Q4_K_XL for me",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxkltr/maxing_out_64gb_of_ram_qwen35_122b_a10b_at_udq2_k/",
+      "published_at": "2026-07-15T22:29:45Z",
+      "summary": "I&#39;ve got 64GB of regular RAM, and I ran Qwen3 Next 80B at UD-Q4_K_XL, enjoying both nice performance and a lot better internal knowledge than Qwen3.5 35B A3B, which itself is better than Qwen3.6 35B A3B. With DDR4, I",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-new-wave-of-miniboss-models-you-can-run-on-dual-dgx-spark",
+      "source": "localllama",
+      "title": "New wave of miniboss models you can run on dual DGX Spark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxkl8u/new_wave_of_miniboss_models_you_can_run_on_dual/",
+      "published_at": "2026-07-15T22:29:08Z",
+      "summary": "Two DGX Spark and a Connect-X7 cable give you about 250GB of usable memory for $7000 8000 USD. This allows using some interesting models at 4-bit. For what seemed like an eternity, the only serious models in that size we",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-has-anyone-using-antirez-ds4-compared-to-the-unsloth-gguf",
+      "source": "localllama",
+      "title": "Has anyone using antirez ds4 compared to the unsloth GGUF?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxil7b/has_anyone_using_antirez_ds4_compared_to_the/",
+      "published_at": "2026-07-15T21:15:38Z",
+      "summary": "I&#39;ve been using DS4 flash as a local &quot;big brain&quot; for when my qwen 3.6 35b a3b gets stuck on something, and for planning. I&#39;m blown away by how capable it is at a 2 bit quant Has anyone used the GGUF at ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-grok-build-open-sourced-under-apache-20-license",
+      "source": "localllama",
+      "title": "Grok Build open sourced under Apache 2.0 license",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxi5mf/grok_build_open_sourced_under_apache_20_license/",
+      "published_at": "2026-07-15T20:59:07Z",
+      "summary": "      &#32; submitted by &#32;  /u/FreemanDave   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-inkling-by-thinking-machines-is-the-1-us-open-weight-model-n",
+      "source": "localllama",
+      "title": "Inkling by Thinking Machines is the #1 US open weight model now",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxhpws/inkling_by_thinking_machines_is_the_1_us_open/",
+      "published_at": "2026-07-15T20:40:38Z",
+      "summary": "      Inkling by Thinking Machines Lab is a huge step forward for US open weight models to catchup w/ China.  Inkling solidly beats all US open models including NVIDIA Nemotron Ultra and ranks ~#5 of all open weight mode",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-the-benchmarks-of-thinking-machines-first-open-source-model",
+      "source": "localllama",
+      "title": "The Benchmarks of Thinking Machine's first open-source model Inkling",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxgi4c/the_benchmarks_of_thinking_machines_first/",
+      "published_at": "2026-07-15T19:53:07Z",
+      "summary": "      &#32; submitted by &#32;  /u/AloneCoffee4538   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-15-google-is-updating-gemma-4s-chat-templates-bringing-major-fi",
+      "source": "localllama",
+      "title": "Google is updating Gemma 4's chat templates, bringing major fixes to tool calling and reducing \"laziness\", and enabling Flash Attention 4 on Hopper GPUs, plus an interactive guide on how to work with and improve its vision!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxfu4k/google_is_updating_gemma_4s_chat_templates/",
+      "published_at": "2026-07-15T19:26:23Z",
+      "summary": "      ...And preserve_thinking!!!!!!!! Ignore the image links here is the source: https://x.com/googlegemma/status/2077449152062247219 https://huggingface.co/spaces/google/gemma4_vision_token_budget  &#32; submitted by &",
       "tags": [
         "localllama"
       ]
@@ -46,17 +178,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-15-audio-perception-layer-for-llm-agents-with-a-memory-that-gro",
-      "source": "localllama",
-      "title": "Audio perception layer for LLM agents, with a memory that grows through use",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxbzww/audio_perception_layer_for_llm_agents_with_a/",
-      "published_at": "2026-07-15T17:07:17Z",
-      "summary": "      LLMs handle speech well once you run speech-to-text. They don&#39;t hear the rest: a bird outside, a glass breaking two rooms away, a smoke alarm two floors down. I&#39;ve been working on an experimental open-sourc",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "meta-2026-07-15-exploring-hierarchical-interest-representation-for-meta-ads",
       "source": "meta",
       "title": "Exploring Hierarchical Interest Representation For Meta Ads Deep Funnel Optimization",
@@ -68,72 +189,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-15-linus-torvalds-tells-people-to-stop-attacking-others-for-usi",
-      "source": "localllama",
-      "title": "Linus Torvalds tells people to stop attacking others for using AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxbrw4/linus_torvalds_tells_people_to_stop_attacking/",
-      "published_at": "2026-07-15T16:59:48Z",
-      "summary": "      The full quote:  I realize that some people really dislike AI, but this is an area where I&#39;m willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-agents-a1-4b-qwen37-4b-scaling-the-horizon-not-the-parameter",
-      "source": "localllama",
-      "title": "Agents-A1-4B (Qwen3.7-4B ???) : Scaling the Horizon, Not the Parameters",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxb9zv/agentsa14b_qwen374b_scaling_the_horizon_not_the/",
-      "published_at": "2026-07-15T16:42:32Z",
-      "summary": "MODEL + GGUF : https://huggingface.co/InternScience/models?search=a1-4b Technical Report    Benchmark Qwen3.5-4B Agents-A1-4B Qwen3.5 Qwen3.6 Nex-N2-mini Agents-A1    🧠 Dense Models (~4B)   🔀 MoE Models (35B-A3B)      🔍 ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-rl-post-training-on-14-macs-across-4-countries",
-      "source": "localllama",
-      "title": "RL post-training on 14 Macs across 4 countries",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxb3zn/rl_posttraining_on_14_macs_across_4_countries/",
-      "published_at": "2026-07-15T16:36:43Z",
-      "summary": "      Disclosure: I work at Pluralis Research, the lab that built this. Code is open, and I&#39;m happy to answer questions. TL;DR: As far as we can tell, this is the first RL post-training run whose entire rollout fleet",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-german-ai-consortium-releases-soofi-s-an-open-30b-model-that",
-      "source": "localllama",
-      "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxao7y/german_ai_consortium_releases_soofi_s_an_open_30b/",
-      "published_at": "2026-07-15T16:21:16Z",
-      "summary": "      &#32; submitted by &#32;  /u/yogthos   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-hermes-on-android-graphene-os",
-      "source": "localllama",
-      "title": "Hermes on Android (Graphene OS)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxagr9/hermes_on_android_graphene_os/",
-      "published_at": "2026-07-15T16:14:22Z",
-      "summary": "https://youtu.be/oxpGq5FITgA?si=nkHWLReGCDYe7QfL I got Hermes running in the native Debian Terminal in Graphene OS and its really slick. Voice dictation works amazingly. Im using a remote Hermes gateway running on my lap",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-the-best-model-is-the-one-you-can-actually-run",
-      "source": "localllama",
-      "title": "The best model is the one you can actually run",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux9xze/the_best_model_is_the_one_you_can_actually_run/",
-      "published_at": "2026-07-15T15:57:25Z",
-      "summary": "      Don&#39;t get me wrong, all the big models are amazing, and every contribution to open source models is great. But I&#39;m GPU poor and I can&#39;t use them locally.  I&#39;m currently running gemma-4-12b-it-qat-GG",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-15-how-i-tricked-claude-into-leaking-your-deepest-darkest-secre",
       "source": "simonw",
       "title": "How I tricked Claude into leaking your deepest, darkest secrets",
@@ -142,39 +197,6 @@
       "summary": "How I tricked Claude into leaking your deepest, darkest secrets\nI've been impressed by the way the Claude web_fetch tool is designed to avoid data exfiltration attacks. Ayush Paul found a hole in that design.\nTo recap: r",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-i-had-grok-45-run-an-autoresearch-optimization-ladder-on-par",
-      "source": "localllama",
-      "title": "I had Grok 4.5 run an autoresearch optimization ladder on Parakeet CPU ASR. Result: Upto 2.1x faster STT",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux6caj/i_had_grok_45_run_an_autoresearch_optimization/",
-      "published_at": "2026-07-15T13:46:29Z",
-      "summary": "      I set out to make Parakeet speech-to-text faster on CPU. Not a GPU demo. Just a real baseline and a keep gate.  I did not want to hand-babysit every ORT flag. I pointed Neo (our autonomous AI engineering agent) at ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-bonsai-27b-ternary-bonsai-27b---updates-on-prs",
-      "source": "localllama",
-      "title": "Bonsai-27B & Ternary-Bonsai-27B - Updates (on PRs)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux4wrx/bonsai27b_ternarybonsai27b_updates_on_prs/",
-      "published_at": "2026-07-15T12:48:16Z",
-      "summary": "Below Upstream Status sections are from https://github.com/PrismML-Eng/Bonsai-demo Upstream Status for Binary  Q1_0 is supported out of the box in upstream llama.cpp across many backends: CPU (generic, NEON, and optimize",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-15-ggml-zendnn-add-q8-0-quantization-support-by-z-sachin-pull-r",
-      "source": "localllama",
-      "title": "ggml-zendnn : add Q8_0 quantization support by z-sachin · Pull Request #23414 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux4co7/ggmlzendnn_add_q8_0_quantization_support_by/",
-      "published_at": "2026-07-15T12:23:42Z",
-      "summary": "      Benchmark Results Benchmark configuration:  threads = 96 type_k = bf16 type_v = bf16  Llama-3.1-8B-Instruct Q8_0   Prompt Size GGML_CPU_Q8_0 t/s ZenDNN_Q8_0 t/s Gain    256 472.28 730.87 54.75%   512 450.86 832.48 ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -321,17 +343,6 @@
       ]
     },
     {
-      "id": "simonw-2026-07-10-quoting-openai",
-      "source": "simonw",
-      "title": "Quoting OpenAI",
-      "url": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
-      "published_at": "2026-07-10T01:05:57Z",
-      "summary": "[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work thre",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-10-profiling-in-pytorch-part-3-attention-is-all-you-profile",
       "source": "huggingface",
       "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
@@ -340,17 +351,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-09-the-new-gpt-56-family-luna-terra-sol",
-      "source": "simonw",
-      "title": "The new GPT-5.6 family: Luna, Terra, Sol",
-      "url": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
-      "published_at": "2026-07-09T19:46:38Z",
-      "summary": "OpenAI's latest flagship model hit general availability this morning, and comes in three sizes: Luna, Terra, and Sol (from smallest to largest).\nThe new models are priced per 1M input/output tokens as Luna $1/$6, Terra $",
-      "tags": [
-        "simonw"
       ]
     },
     {
