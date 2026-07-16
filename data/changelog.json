@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-16T02:56:30Z",
+  "updated_at": "2026-07-16T08:25:24Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10038",
+      "project": "llama-cpp",
+      "version": "b10038",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10038",
+      "published_at": "2026-07-16T06:57:28Z",
+      "body_excerpt": "ci : add official website link to release notes (#25728) Assisted-by: pi:llama.cpp/Qwen3.6-27B Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP3",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10037",
+      "project": "llama-cpp",
+      "version": "b10037",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10037",
+      "published_at": "2026-07-16T06:15:08Z",
+      "body_excerpt": "quant : allow using manual tensor types with --pure (#25716) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10036",
+      "project": "llama-cpp",
+      "version": "b10036",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10036",
+      "published_at": "2026-07-16T05:31:04Z",
+      "body_excerpt": "opencl: disable FA and MoE weights repack to work around compiler issues for Adreno 850 GPU (#25745) opencl: workaround for A850 compiler compat opencl: fix DX compiler version parsing and cleanup --------- Co-authored-by: Li He macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10035",
+      "project": "llama-cpp",
+      "version": "b10035",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10035",
+      "published_at": "2026-07-16T04:59:14Z",
+      "body_excerpt": "cuda: extract Q1_0 elements via __byte_perm (#25628) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.1",
+      "project": "ollama",
+      "version": "v0.32.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.1",
+      "published_at": "2026-07-16T03:27:23Z",
+      "body_excerpt": "What's Changed Improved Gemma 4 tool calling and multi-turn reasoning, including more reliable tool-response continuations Fixed a recurrent MLX model cache leak that could increase memory use across requests, and improved cache snapshot performance MLX text model loading now respects Agent web search and fetch now tell users to run when authentication is required The interactive agent now receive",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10034",
       "project": "llama-cpp",
