@@ -1,6 +1,160 @@
 {
-  "updated_at": "2026-07-16T14:04:05Z",
+  "updated_at": "2026-07-16T19:19:34Z",
   "items": [
+    {
+      "id": "localllama-2026-07-16-tried-predicting-which-moe-experts-get-used-next-token-to-sp",
+      "source": "localllama",
+      "title": "tried predicting which MoE experts get used next token to speed up cpu/gpu offload, got some real numbers, is this actually implementable or am i wasting my time (30tg/s -> 150-200tg/s)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uybm8y/tried_predicting_which_moe_experts_get_used_next/",
+      "published_at": "2026-07-16T18:47:00Z",
+      "summary": "      so ive been messing around with qwen3.6 35b a3b (MXFP4 gguf) on my 3060 12gb, doing the usual cpu/gpu offload thing where half the expert layers sit in ram and get pulled over pcie whenever needed. and like everyon",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-huggingfacespeech-to-speech-as-a-study-tool-with-a-completel",
+      "source": "localllama",
+      "title": "Huggingface/speech-to-speech as a study tool with a completely local LLM/TTS/STT setup.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uybhyr/huggingfacespeechtospeech_as_a_study_tool_with_a/",
+      "published_at": "2026-07-16T18:42:39Z",
+      "summary": "      Completely local setup using 4x 5060 ti (16GB each) and 1x 5070 (12GB) to run huggingface/speech-to-speech and Minachist/Qwen3.6-27B-INT8-Autoround.  I have always found the Feynman technique to be incredible usefu",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-kimi-k3-weights-to-be-released-on-the-27th",
+      "source": "localllama",
+      "title": "Kimi K3 weights to be released on the 27th.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyb88e/kimi_k3_weights_to_be_released_on_the_27th/",
+      "published_at": "2026-07-16T18:32:53Z",
+      "summary": "      https://mp.weixin.qq.com/s/V4xhEIy8xDXSMDPrPkmUAQ Their verified account. English version just released: https://www.kimi.com/blog/kimi-k3  &#32; submitted by &#32;  /u/Different_Fix_2217   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-dflash-makes-qwen36-27b-22x-faster-with-no-quality-loss",
+      "source": "localllama",
+      "title": "DFlash makes Qwen3.6 27B 2.2x faster with no quality loss",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyay0w/dflash_makes_qwen36_27b_22x_faster_with_no/",
+      "published_at": "2026-07-16T18:22:39Z",
+      "summary": "      We ran the same Qwen3.6-27B locally three ways on one RTX 6000: baseline, MTP, DFlash. The tasks were: quicksort, write a Steam library in JSON, solve a logic puzzle and write a sci-fi story. Outputs: Baseline: 44 ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-kimi-k3-release-video-made-with-kimi-k3",
+      "source": "localllama",
+      "title": "Kimi K3 Release Video [Made with Kimi K3]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyaiw2/kimi_k3_release_video_made_with_kimi_k3/",
+      "published_at": "2026-07-16T18:07:42Z",
+      "summary": "      Everyone&#39;s probably seen the remotion thing that went viral a couple months back with CC. Its basically that with Kimi K3 as the model provider. Prev. example with GLM 5.2: https://www.reddit.com/r/LocalLLaMA/c",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-kimi-k3-blogpost",
+      "source": "localllama",
+      "title": "Kimi K3 Blogpost",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uya5xn/kimi_k3_blogpost/",
+      "published_at": "2026-07-16T17:55:04Z",
+      "summary": "&#32; submitted by &#32;  /u/Charuru   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-16-quoting-thibault-sottiaux",
+      "source": "simonw",
+      "title": "Quoting Thibault Sottiaux",
+      "url": "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
+      "published_at": "2026-07-16T17:45:59Z",
+      "summary": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. \nWhat we have  found is that this most commonly occurs when:\n\nFull access mode is enabled and codex is run without sand",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-kimi-k3-benchmarks",
+      "source": "localllama",
+      "title": "Kimi K3 Benchmarks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy9cft/kimi_k3_benchmarks/",
+      "published_at": "2026-07-16T17:25:41Z",
+      "summary": "      &#32; submitted by &#32;  /u/WhyLifeIs4   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-openllm-franceluciole-23b-instruct-11-apache-20-license-8b-a",
+      "source": "localllama",
+      "title": "OpenLLM-France/Luciole-23B-Instruct-1.1 (Apache 2.0 license, 8B and 1B also available)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy9a8f/openllmfranceluciole23binstruct11_apache_20/",
+      "published_at": "2026-07-16T17:23:33Z",
+      "summary": "      Luciole-23B-Instruct-1.1 is a fine-tuned and aligned version of Luciole-23B-Base, an open-source, multilingual causal language model created by OpenLLM-France. Luciole-23B-Instruct-1.1 was developed by LINAGORA and",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-kimi-k3-is-28t-will-need-to-have-an-aggressive-iq2-xxs-or-iq",
+      "source": "localllama",
+      "title": "Kimi k3 is 2.8t! Will need to have an aggressive iQ2_XXS or IQ1.8!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy8dlg/kimi_k3_is_28t_will_need_to_have_an_aggressive/",
+      "published_at": "2026-07-16T16:51:05Z",
+      "summary": "I was hopping that Kimi would be 2t, but nope is huge @ 2.8t!! (tears falling) That will make it more difficult to run decently. I hope the Unsloth team can make magic with this model  &#32; submitted by &#32;  /u/Hannib",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-07-16-nvidia-nemotron-3-embed-ranks-1-overall-on-rteb-advancing-ag",
+      "source": "huggingface",
+      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "published_at": "2026-07-16T16:01:21Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-16-inkling-our-open-weights-model",
+      "source": "simonw",
+      "title": "Inkling: Our open-weights model",
+      "url": "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
+      "published_at": "2026-07-16T15:35:25Z",
+      "summary": "Inkling: Our open-weights model\nMira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is \"a Mixture-of-Experts transformer with 975B total parameters, 41B active\" - an Apache-2.0 licen",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-to-kl-diverge-or-not-to-kl-diverge-a-question-for-quants",
+      "source": "localllama",
+      "title": "To KL Diverge, or Not to KL Diverge: A Question for Quants",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy635o/to_kl_diverge_or_not_to_kl_diverge_a_question_for/",
+      "published_at": "2026-07-16T15:27:59Z",
+      "summary": "      Hey r/LocalLLaMA! Apparently, if you draw enough arrows between proxy rankings like KLD, perplexity, and BPW, and real deployment measurements, quantization evaluation starts to look like abstract modern art. Check",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-q2-deepseek-v4-flash-on-2x-3080-20gb-64gb-ddr5-17-tks-gen-27",
+      "source": "localllama",
+      "title": "Q2 DeepSeek V4 Flash on 2x 3080 20GB, 64GB DDR5 | 17 tk/s gen, 270 tk/s prefill",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy53xr/q2_deepseek_v4_flash_on_2x_3080_20gb_64gb_ddr5_17/",
+      "published_at": "2026-07-16T14:52:15Z",
+      "summary": "Hey, it&#39;s my first time posting here and I thought I&#39;d share my progress on getting Antirez&#39;s imatrix Q2 DeepSeek V4 Flash GGUF (86.7 GB) running on my build. I used this llama.cpp fork which fixed the model&",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-16-kimi-k3-released-on-web-and-app",
       "source": "localllama",
@@ -8,28 +162,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy3a0q/kimi_k3_released_on_web_and_app/",
       "published_at": "2026-07-16T13:43:09Z",
       "summary": "      https://preview.redd.it/4uqr0aggildh1.png?width=824&amp;format=png&amp;auto=webp&amp;s=cdc3ece2cd45914092d83bd3dd233b17d95d3f54 https://preview.redd.it/ertqvxhiildh1.png?width=998&amp;format=png&amp;auto=webp&amp;s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-mozillas-state-of-open-source-ai-report",
-      "source": "localllama",
-      "title": "Mozilla’s State of Open Source AI Report",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy35n6/mozillas_state_of_open_source_ai_report/",
-      "published_at": "2026-07-16T13:38:22Z",
-      "summary": "      Link to the report itself is at the bottom of the page.  &#32; submitted by &#32;  /u/pegasus912   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-deepseek-v4-flash-98gb-on-1x-4060ti-cpu-got-300-faster-this",
-      "source": "localllama",
-      "title": "DeepSeek V4 Flash (98GB) on 1x 4060ti + CPU got 300% faster this week [ 2->7t/s]",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy33fw/deepseek_v4_flash_98gb_on_1x_4060ti_cpu_got_300/",
-      "published_at": "2026-07-16T13:35:48Z",
-      "summary": "      This is an an insane budget box that I&#39;ve been using to test out a 98GB model using cpu generation on a 6 core CPU, 16gb vram.. for science.  This week it went from 2t/s -&gt; 7t/s on DeepSeek-V4-Flash-UD-Q2_K_",
       "tags": [
         "localllama"
       ]
@@ -46,28 +178,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-16-i-tried-ternary-decomposition-instead-of-quantization-it-wor",
-      "source": "localllama",
-      "title": "i tried ternary decomposition instead of quantization. it works as good at q4km but takes slightly more vram. while being completly ternary. and completly PTQ (no QAT)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy2dzx/i_tried_ternary_decomposition_instead_of/",
-      "published_at": "2026-07-16T13:07:13Z",
-      "summary": "      https://arxiv.org/pdf/2607.13511  &#32; submitted by &#32;  /u/LMTLS5   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-i-just-got-my-first-gpu-that-can-actually-run-an-llm-laptop",
-      "source": "localllama",
-      "title": "I just got my first GPU that can actually run an LLM (Laptop 5090 24 GB) what do I play with first?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy1yl8/i_just_got_my_first_gpu_that_can_actually_run_an/",
-      "published_at": "2026-07-16T12:49:51Z",
-      "summary": "I figure I can run 30b or even 72b models on it, but this is my first time running my own local LLM. I want to play with prompt engineering and see the most complex things I can get it to do. Any hot tips? I know it all ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-16-newer-models-same-advantage",
       "source": "huggingface",
       "title": "Newer Models, Same Advantage",
@@ -76,83 +186,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-nvidia-h200-disassembly-liquid-cooling-installation-with-ek",
-      "source": "localllama",
-      "title": "NVIDIA H200 Disassembly & Liquid-Cooling Installation with EK-Pro H200 NVL Water Block",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy0k62/nvidia_h200_disassembly_liquidcooling/",
-      "published_at": "2026-07-16T11:48:36Z",
-      "summary": "      This is a full teardown video of the NVIDIA H200 NVL and installation of an EK-Pro H200 NVL Water Block, covering the disassembly, prep and mount process, including:  PCB separation from the stock cooler using Torx",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-filings-dario-amodei-gave-1m-in-may-to-public-first-a-super",
-      "source": "localllama",
-      "title": "Filings: Dario Amodei gave $1M in May to Public First, a super PAC advocating for AI safety regulations, seemingly his first seven-figure political donation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy06cd/filings_dario_amodei_gave_1m_in_may_to_public/",
-      "published_at": "2026-07-16T11:30:13Z",
-      "summary": "&#32; submitted by &#32;  /u/pscoutou   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-major-open-weight-model-releases-grouped-by-license-and-benc",
-      "source": "localllama",
-      "title": "Major Open-Weight Model Releases grouped by license and benchmarks (as of July 2026)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxzflo/major_openweight_model_releases_grouped_by/",
-      "published_at": "2026-07-16T10:53:17Z",
-      "summary": "      benchmarks as of july 16 2026 -- Apache 2.0 Thinking Machines Lab: Inkling, July 15, 2026  -- MIT DeepSeek V4 Pro, April 24, 2026  Xiaomi MiMo-V2.5-Pro, April 22, 2026  GLM-5.2, June 13, 2026  -- Custom / restricte",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-qwen-36-35b-a3b-q8-0-create-an-svg-of-a-darth-vader-at-vario",
-      "source": "localllama",
-      "title": "Qwen 3.6 35B A3B Q8_0 \"Create an SVG of a Darth Vader.\" at various expert counts.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxyjw3/qwen_36_35b_a3b_q8_0_create_an_svg_of_a_darth/",
-      "published_at": "2026-07-16T10:05:53Z",
-      "summary": "      Specifically Qwen3.6-35B-A3B-uncensored-heretic-Q8_0.gguf, temp 0.0, &quot;Create an SVG of a Darth Vader.&quot; (In general text use, anything 4 experts or less seems to seriously break down. (8 is the default for",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-how-do-you-visualise-agent-tool-use",
-      "source": "localllama",
-      "title": "How do you visualise agent tool use?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxxsio/how_do_you_visualise_agent_tool_use/",
-      "published_at": "2026-07-16T09:22:43Z",
-      "summary": "      For those who look at tool use across multiple runs. I am personally quite fond of sankey charts.  &#32; submitted by &#32;  /u/SnooPeripherals5313   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-looks-like-hugging-face-is-down",
-      "source": "localllama",
-      "title": "Looks like Hugging face is down",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxwjl9/looks_like_hugging_face_is_down/",
-      "published_at": "2026-07-16T08:10:41Z",
-      "summary": "&#32; submitted by &#32;  /u/Kerub88   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-nvidia-nemotron-labs-3-puzzle-75b-a9b-on-2x3090s",
-      "source": "localllama",
-      "title": "NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B on 2x3090s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxuf99/nvidianemotronlabs3puzzle75ba9b_on_2x3090s/",
-      "published_at": "2026-07-16T06:09:01Z",
-      "summary": "I managed to get this model working on 2x 3090s with full 262k ctx and N=4, if anyone is interested to try it, thanks to this quant: https://huggingface.co/danielrmay/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-W4A16 Nemotron-",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -343,28 +376,6 @@
       ]
     },
     {
-      "id": "simonw-2026-07-12-fable-gets-another-bump",
-      "source": "simonw",
-      "title": "Fable gets another bump",
-      "url": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
-      "published_at": "2026-07-12T21:20:07Z",
-      "summary": "One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans:\n\nWe're extending Claude Fabl",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-12-sqlite-utils-411",
-      "source": "simonw",
-      "title": "sqlite-utils 4.1.1",
-      "url": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
-      "published_at": "2026-07-12T20:55:30Z",
-      "summary": "Release: sqlite-utils 4.1.1\n        Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE.\n\n\ntable.transform() now raises a Transacti",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-10-profiling-in-pytorch-part-3-attention-is-all-you-profile",
       "source": "huggingface",
       "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
@@ -436,17 +447,6 @@
       "title": "Hugging Face Models on Foundry Managed Compute",
       "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
       "published_at": "2026-07-07T15:20:06Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-07-07-lerobot-v060-imagine-evaluate-improve",
-      "source": "huggingface",
-      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "url": "https://huggingface.co/blog/lerobot-release-v060",
-      "published_at": "2026-07-07T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"
