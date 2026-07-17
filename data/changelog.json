@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-17T03:13:34Z",
+  "updated_at": "2026-07-17T08:17:52Z",
   "releases": [
+    {
+      "id": "hf-EleutherAI-sae-SmolLM2-1.7B-layer17-32x",
+      "project": "EleutherAI",
+      "version": "sae-SmolLM2-1.7B-layer17-32x",
+      "url": "https://huggingface.co/EleutherAI/sae-SmolLM2-1.7B-layer17-32x",
+      "published_at": "2026-07-17T08:01:44Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b10054",
       "project": "llama-cpp",
@@ -7758,15 +7767,6 @@
       "published_at": "2026-04-21T07:51:33Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "vllm-v0.19.1",
-      "project": "vllm",
-      "version": "v0.19.1",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.19.1",
-      "published_at": "2026-04-18T05:44:42Z",
-      "body_excerpt": "This is a patch release on top of with Transformers v5.5.3 upgrade and bug fixes for Gemma4: Update to transformers v5 (#30566) [Bugfix] Fix invalid JSON in Gemma 4 streaming tool calls by stripping partial delimiters (#38992) [Bugfix][Frontend] Fix Gemma4 streaming HTML duplication after tool calls (#38909) [Bugfix] Fix Gemma4 streaming tool call corruption for split boolean/number values (#39114",
-      "type": "tool"
     }
   ]
 }
