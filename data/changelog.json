@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-17T08:17:52Z",
+  "updated_at": "2026-07-17T13:48:30Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10059",
+      "project": "llama-cpp",
+      "version": "b10059",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10059",
+      "published_at": "2026-07-17T12:22:39Z",
+      "body_excerpt": "ggml-blas: default hadamard mul_mat to cpu routine (#25710) Signed-off-by: Aaron Teo Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "hf-EleutherAI-sae-SmolLM2-1.7B-layer17-32x-embedskip",
+      "project": "EleutherAI",
+      "version": "sae-SmolLM2-1.7B-layer17-32x-embedskip",
+      "url": "https://huggingface.co/EleutherAI/sae-SmolLM2-1.7B-layer17-32x-embedskip",
+      "published_at": "2026-07-17T11:54:16Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b10058",
+      "project": "llama-cpp",
+      "version": "b10058",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10058",
+      "published_at": "2026-07-17T11:44:06Z",
+      "body_excerpt": "vulkan: Support Q2_0 (#25430) vulkan: Support Q2_0 The backend perf tests for mat-vec-mul weren't very good at first (worse than q2_k), doubling the rows per workgroup made a big difference. reorder resolve merge conflict, adjust err threshold for f16->q2_0 set_rows Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramew",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10057",
+      "project": "llama-cpp",
+      "version": "b10057",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10057",
+      "published_at": "2026-07-17T10:22:26Z",
+      "body_excerpt": "sycl: fix row calculation when K_QUANTS_PER_ITERATION is 1 (#25690) sycl: fix incorrect row calculation when K_QUANTS_PER_ITERATION=1 Signed-off-by: Todd Malsbary sycl: use K_QUANTS_PER_ITERATION for non-reordered Q5_K kernel This is the only Q5_K kernel that was not using KQPI. Signed-off-by: Todd Malsbary sycl: add missing second half processing to reordered q5_k Error found while running GGML_S",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10056",
+      "project": "llama-cpp",
+      "version": "b10056",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10056",
+      "published_at": "2026-07-17T08:33:07Z",
+      "body_excerpt": "opencl: add ABS op (#25115) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Win",
+      "type": "tool"
+    },
     {
       "id": "hf-EleutherAI-sae-SmolLM2-1.7B-layer17-32x",
       "project": "EleutherAI",
