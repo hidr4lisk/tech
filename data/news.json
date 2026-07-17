@@ -1,68 +1,156 @@
 {
-  "updated_at": "2026-07-16T19:19:34Z",
+  "updated_at": "2026-07-17T03:13:29Z",
   "items": [
     {
-      "id": "localllama-2026-07-16-tried-predicting-which-moe-experts-get-used-next-token-to-sp",
+      "id": "localllama-2026-07-17-does-k3-really-live-up-to-the-hype-real-world-tasks",
       "source": "localllama",
-      "title": "tried predicting which MoE experts get used next token to speed up cpu/gpu offload, got some real numbers, is this actually implementable or am i wasting my time (30tg/s -> 150-200tg/s)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uybm8y/tried_predicting_which_moe_experts_get_used_next/",
-      "published_at": "2026-07-16T18:47:00Z",
-      "summary": "      so ive been messing around with qwen3.6 35b a3b (MXFP4 gguf) on my 3060 12gb, doing the usual cpu/gpu offload thing where half the expert layers sit in ram and get pulled over pcie whenever needed. and like everyon",
+      "title": "Does K3 really live up to the hype (real world tasks)?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uymonq/does_k3_really_live_up_to_the_hype_real_world/",
+      "published_at": "2026-07-17T02:14:59Z",
+      "summary": "I&#39;m curious on everyone&#39;s real world experience for this model in real codebases / tasks. Does K3 really exceed 5.5 and Opus 4.8 on your coding tasks or not really? Is it benchmaxxed or is just that good of a mod",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-16-huggingfacespeech-to-speech-as-a-study-tool-with-a-completel",
+      "id": "localllama-2026-07-17-anyone-else-completely-tuning-out-these-massive-open-weight",
       "source": "localllama",
-      "title": "Huggingface/speech-to-speech as a study tool with a completely local LLM/TTS/STT setup.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uybhyr/huggingfacespeechtospeech_as_a_study_tool_with_a/",
-      "published_at": "2026-07-16T18:42:39Z",
-      "summary": "      Completely local setup using 4x 5060 ti (16GB each) and 1x 5070 (12GB) to run huggingface/speech-to-speech and Minachist/Qwen3.6-27B-INT8-Autoround.  I have always found the Feynman technique to be incredible usefu",
+      "title": "Anyone else completely tuning out these massive \"open weight\" drops?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uylutc/anyone_else_completely_tuning_out_these_massive/",
+      "published_at": "2026-07-17T01:36:41Z",
+      "summary": "Tbh the benchmarks on stuff like GLM-5.2 look insane. 753B params, 1M context, MIT license... everyone is throwing a party on the front page right now. But like... what is actually &quot;local&quot; about this anymore? A",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-16-kimi-k3-weights-to-be-released-on-the-27th",
+      "id": "localllama-2026-07-17-introducing-lm-studio-bionic",
       "source": "localllama",
-      "title": "Kimi K3 weights to be released on the 27th.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyb88e/kimi_k3_weights_to_be_released_on_the_27th/",
-      "published_at": "2026-07-16T18:32:53Z",
-      "summary": "      https://mp.weixin.qq.com/s/V4xhEIy8xDXSMDPrPkmUAQ Their verified account. English version just released: https://www.kimi.com/blog/kimi-k3  &#32; submitted by &#32;  /u/Different_Fix_2217   [link] &#32; [comments] ",
+      "title": "Introducing LM Studio Bionic",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyl5xv/introducing_lm_studio_bionic/",
+      "published_at": "2026-07-17T01:05:28Z",
+      "summary": "      &#32; submitted by &#32;  /u/pegasus912   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-16-dflash-makes-qwen36-27b-22x-faster-with-no-quality-loss",
+      "id": "localllama-2026-07-16-added-searxng-and-i-dont-even-know-what-to-say-anymore",
       "source": "localllama",
-      "title": "DFlash makes Qwen3.6 27B 2.2x faster with no quality loss",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyay0w/dflash_makes_qwen36_27b_22x_faster_with_no/",
-      "published_at": "2026-07-16T18:22:39Z",
-      "summary": "      We ran the same Qwen3.6-27B locally three ways on one RTX 6000: baseline, MTP, DFlash. The tasks were: quicksort, write a Steam library in JSON, solve a logic puzzle and write a sci-fi story. Outputs: Baseline: 44 ",
+      "title": "Added SearXNG and I don't even know what to say anymore.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyjdfg/added_searxng_and_i_dont_even_know_what_to_say/",
+      "published_at": "2026-07-16T23:45:42Z",
+      "summary": "      I just have to show someone other than the guys at work who think I&#39;m crazy. I&#39;ve been working on this app since about early June of 2025 and while it has come a long way in its workspace tools, I had alway",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-16-kimi-k3-release-video-made-with-kimi-k3",
+      "id": "simonw-2026-07-16-firefox-in-webassembly",
+      "source": "simonw",
+      "title": "Firefox in WebAssembly",
+      "url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
+      "published_at": "2026-07-16T23:34:16Z",
+      "summary": "Firefox in WebAssembly\nThis is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser.\nHere's my blog, running in Firefox, running in WebAssembly, running in Chrome:\n\nThe",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-im-taking-a-break",
       "source": "localllama",
-      "title": "Kimi K3 Release Video [Made with Kimi K3]",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyaiw2/kimi_k3_release_video_made_with_kimi_k3/",
-      "published_at": "2026-07-16T18:07:42Z",
-      "summary": "      Everyone&#39;s probably seen the remotion thing that went viral a couple months back with CC. Its basically that with Kimi K3 as the model provider. Prev. example with GLM 5.2: https://www.reddit.com/r/LocalLLaMA/c",
+      "title": "I’m taking a break",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyita5/im_taking_a_break/",
+      "published_at": "2026-07-16T23:21:37Z",
+      "summary": "I’ve just formatted my MacBook Pro with an M2 Max and 32GB of RAM. I’m taking a break from local LLMs. I’ve spent the last few months tinkering with local models, MTP, quants, harnesses, Gemma, Qwen… It’s time to take a ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-16-kimi-k3-blogpost",
+      "id": "localllama-2026-07-16-will-we-have-a-27b-model-with-fable-capabilities-in-5-months",
       "source": "localllama",
-      "title": "Kimi K3 Blogpost",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uya5xn/kimi_k3_blogpost/",
-      "published_at": "2026-07-16T17:55:04Z",
-      "summary": "&#32; submitted by &#32;  /u/Charuru   [link] &#32; [comments]",
+      "title": "Will we have a 27B model with Fable capabilities in 5 months? History says yes",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyhdaf/will_we_have_a_27b_model_with_fable_capabilities/",
+      "published_at": "2026-07-16T22:21:47Z",
+      "summary": "      If history is any indication, open-source models in the 27B dense range should have caught up to what the US government banned two weeks ago because they thought they were too dangerous in less than half a year fro",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-anthropic-and-openai-dont-have-secret-sauce",
+      "source": "localllama",
+      "title": "Anthropic and OpenAI don't have secret sauce",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uygxt3/anthropic_and_openai_dont_have_secret_sauce/",
+      "published_at": "2026-07-16T22:04:16Z",
+      "summary": "I’ve always had this idea but can’t prove it. I think Anthropic and OpenAI don’t really have any secret sauce, their moat is just scale. Rumor has it Opus has 5T parameters and Mythos/Fable are 10T parameter models, whil",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-i-tested-all-llamacpps-speculative-decoding-methods-on-qwen",
+      "source": "localllama",
+      "title": "I tested all llama.cpp's speculative decoding methods on Qwen 3.6 27B: MTP ~2.7x, DFlash ~3.7x, n-gram stack ~6x on real coding. Local AI win. My findings on RTX 6000 PRO.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyg3za/i_tested_all_llamacpps_speculative_decoding/",
+      "published_at": "2026-07-16T21:35:55Z",
+      "summary": "      Hey guys, Last week I posted my DFlash benchmarks here (4.44x at 36K context) https://www.reddit.com/r/LocalLLaMA/comments/1uq0h4o/i_tested_freshly_merged_dflash_in_llamacpp_on/ . One of the comments form u/exact_c",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-how-long-before-dario-amodei-continue-to-sound-the-alarm-of",
+      "source": "localllama",
+      "title": "How long before Dario Amodei Continue to sound the Alarm of how Dangerous Open Weights after Kimi K3 release",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyfhfd/how_long_before_dario_amodei_continue_to_sound/",
+      "published_at": "2026-07-16T21:12:10Z",
+      "summary": "With all of the attention Kimi K3 is getting at the moment and likely for the coming weeks, would we be seeing Dario Amodei continue to further push to rid his competition with more fear mongering?  &#32; submitted by &#",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-16-kimi-k3-and-what-we-can-still-learn-from-the-pelican-benchma",
+      "source": "simonw",
+      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+      "published_at": "2026-07-16T20:19:30Z",
+      "summary": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-kimi-k3-beats-claude-fable-and-gpt-56-sol-in-arenaai",
+      "source": "localllama",
+      "title": "KIMI K3 Beats Claude Fable and GPT 5.6 sol in arena.ai!!!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uydii0/kimi_k3_beats_claude_fable_and_gpt_56_sol_in/",
+      "published_at": "2026-07-16T19:57:29Z",
+      "summary": "      Unbelievable to see kimi k3 beat frontier models that were &#39;too dangerous&#39; for public use.   &#32; submitted by &#32;  /u/Gohab2001   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-kimi-k3-shows-open-weight-models-are-about-to-overtake-the-f",
+      "source": "localllama",
+      "title": "Kimi K3 Shows Open-Weight Models Are About to Overtake the Frontier",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uydbmc/kimi_k3_shows_openweight_models_are_about_to/",
+      "published_at": "2026-07-16T19:50:20Z",
+      "summary": "      The gap is no longer measured in months. Open-weight models are catching up in real time, and Kimi K3 is already performing near Fable level. At this point, open models are not simply following the frontier anymore",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-16-kimi-k3-open-frontier-intelligence",
+      "source": "localllama",
+      "title": "Kimi K3: Open Frontier Intelligence",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uycfjp/kimi_k3_open_frontier_intelligence/",
+      "published_at": "2026-07-16T19:17:08Z",
+      "summary": "&#32; submitted by &#32;  /u/coder543   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
@@ -76,39 +164,6 @@
       "summary": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. \nWhat we have  found is that this most commonly occurs when:\n\nFull access mode is enabled and codex is run without sand",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-kimi-k3-benchmarks",
-      "source": "localllama",
-      "title": "Kimi K3 Benchmarks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy9cft/kimi_k3_benchmarks/",
-      "published_at": "2026-07-16T17:25:41Z",
-      "summary": "      &#32; submitted by &#32;  /u/WhyLifeIs4   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-openllm-franceluciole-23b-instruct-11-apache-20-license-8b-a",
-      "source": "localllama",
-      "title": "OpenLLM-France/Luciole-23B-Instruct-1.1 (Apache 2.0 license, 8B and 1B also available)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy9a8f/openllmfranceluciole23binstruct11_apache_20/",
-      "published_at": "2026-07-16T17:23:33Z",
-      "summary": "      Luciole-23B-Instruct-1.1 is a fine-tuned and aligned version of Luciole-23B-Base, an open-source, multilingual causal language model created by OpenLLM-France. Luciole-23B-Instruct-1.1 was developed by LINAGORA and",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-kimi-k3-is-28t-will-need-to-have-an-aggressive-iq2-xxs-or-iq",
-      "source": "localllama",
-      "title": "Kimi k3 is 2.8t! Will need to have an aggressive iQ2_XXS or IQ1.8!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy8dlg/kimi_k3_is_28t_will_need_to_have_an_aggressive/",
-      "published_at": "2026-07-16T16:51:05Z",
-      "summary": "I was hopping that Kimi would be 2t, but nope is huge @ 2.8t!! (tears falling) That will make it more difficult to run decently. I hope the Unsloth team can make magic with this model  &#32; submitted by &#32;  /u/Hannib",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -134,36 +189,14 @@
       ]
     },
     {
-      "id": "localllama-2026-07-16-to-kl-diverge-or-not-to-kl-diverge-a-question-for-quants",
-      "source": "localllama",
-      "title": "To KL Diverge, or Not to KL Diverge: A Question for Quants",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy635o/to_kl_diverge_or_not_to_kl_diverge_a_question_for/",
-      "published_at": "2026-07-16T15:27:59Z",
-      "summary": "      Hey r/LocalLLaMA! Apparently, if you draw enough arrows between proxy rankings like KLD, perplexity, and BPW, and real deployment measurements, quantization evaluation starts to look like abstract modern art. Check",
+      "id": "simonw-2026-07-16-mermaid-to-ascii-art-mermaid-ascii",
+      "source": "simonw",
+      "title": "Mermaid to ASCII art (mermaid-ascii)",
+      "url": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
+      "published_at": "2026-07-16T14:57:39Z",
+      "summary": "Tool: Mermaid to ASCII art (mermaid-ascii)\n        After building the Mermaid to ASCII tool based on Grok Build's Rust code I learned that there's an older, more fully-featured Go library called AlexanderGrooff/mermaid-a",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-q2-deepseek-v4-flash-on-2x-3080-20gb-64gb-ddr5-17-tks-gen-27",
-      "source": "localllama",
-      "title": "Q2 DeepSeek V4 Flash on 2x 3080 20GB, 64GB DDR5 | 17 tk/s gen, 270 tk/s prefill",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy53xr/q2_deepseek_v4_flash_on_2x_3080_20gb_64gb_ddr5_17/",
-      "published_at": "2026-07-16T14:52:15Z",
-      "summary": "Hey, it&#39;s my first time posting here and I thought I&#39;d share my progress on getting Antirez&#39;s imatrix Q2 DeepSeek V4 Flash GGUF (86.7 GB) running on my build. I used this llama.cpp fork which fixed the model&",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-16-kimi-k3-released-on-web-and-app",
-      "source": "localllama",
-      "title": "Kimi K3 released on web and app",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy3a0q/kimi_k3_released_on_web_and_app/",
-      "published_at": "2026-07-16T13:43:09Z",
-      "summary": "      https://preview.redd.it/4uqr0aggildh1.png?width=824&amp;format=png&amp;auto=webp&amp;s=cdc3ece2cd45914092d83bd3dd233b17d95d3f54 https://preview.redd.it/ertqvxhiildh1.png?width=998&amp;format=png&amp;auto=webp&amp;s",
-      "tags": [
-        "localllama"
+        "simonw"
       ]
     },
     {
@@ -321,17 +354,6 @@
       ]
     },
     {
-      "id": "simonw-2026-07-13-datasette-code-frequency-chart-on-github",
-      "source": "simonw",
-      "title": "datasette code-frequency chart on GitHub",
-      "url": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
-      "published_at": "2026-07-13T21:45:27Z",
-      "summary": "datasette code-frequency chart on GitHub\nOut of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is th",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "meta-2026-07-13-modernizing-the-meta-ads-service-with-an-open-source-kernel",
       "source": "meta",
       "title": "Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler",
@@ -351,28 +373,6 @@
       "summary": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves.\nThe p",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-12-directly-responsible-individuals-dri",
-      "source": "simonw",
-      "title": "Directly Responsible Individuals (DRI)",
-      "url": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
-      "published_at": "2026-07-12T23:57:14Z",
-      "summary": "Directly Responsible Individuals (DRI)\nI went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to de",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-12-shot-scraper-111",
-      "source": "simonw",
-      "title": "shot-scraper 1.11",
-      "url": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
-      "published_at": "2026-07-12T23:46:52Z",
-      "summary": "Release: shot-scraper 1.11\n        Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer",
-      "tags": [
-        "simonw"
       ]
     },
     {

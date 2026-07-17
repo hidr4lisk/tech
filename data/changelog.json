@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-07-16T19:19:39Z",
+  "updated_at": "2026-07-17T03:13:34Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10054",
+      "project": "llama-cpp",
+      "version": "b10054",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10054",
+      "published_at": "2026-07-17T00:29:02Z",
+      "body_excerpt": "docs: added a note about using OpenCl with Adreno 810 (#25786) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10052",
+      "project": "llama-cpp",
+      "version": "b10052",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10052",
+      "published_at": "2026-07-16T21:22:47Z",
+      "body_excerpt": "hexagon: L2 cache handling rework (dirty bit tracking with lazy flushing) and more MUL_MAT updates (#25762) hex-mm: fix artificial limit in the solver that restricted number of act-prep threads hex-mm: fix warning hex-prof: do not apply --top to the timeline report hmx-mm: add suport for tiled act-processing to better distribute hvx work hex-l2: add tracing for l2flush events workqueue: redo the l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10051",
+      "project": "llama-cpp",
+      "version": "b10051",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10051",
+      "published_at": "2026-07-16T20:49:17Z",
+      "body_excerpt": "kleidiai: Add SME vs SME2 distinction in kernel dispatch (#25478) The current integration treats SME as a single capability (CPU_FEATURE_SME) with no distinction between SME(v1) and SME2. The kernels dispatched under CPU_FEATURE_SME use SME2-specific instructions, making dispatch incorrect on SME(v1)-only hardware. We introduce build-time and runtime distinction between SME and SME2, and wire SME(",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10050",
+      "project": "llama-cpp",
+      "version": "b10050",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10050",
+      "published_at": "2026-07-16T20:08:10Z",
+      "body_excerpt": "vulkan: when using transfer queue for async copies, sync on event_wait to avoid race (#25229) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10048",
+      "project": "llama-cpp",
+      "version": "b10048",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10048",
+      "published_at": "2026-07-16T19:22:50Z",
+      "body_excerpt": "TP: fix Phi3, Bert, Plamo2/3, ChatGLM (#25536) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10047",
       "project": "llama-cpp",
