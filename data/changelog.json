@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-07-17T13:48:30Z",
+  "updated_at": "2026-07-17T19:17:33Z",
   "releases": [
+    {
+      "id": "hf-EleutherAI-bergson-smollm2-lds-32k",
+      "project": "EleutherAI",
+      "version": "bergson-smollm2-lds-32k",
+      "url": "https://huggingface.co/EleutherAI/bergson-smollm2-lds-32k",
+      "published_at": "2026-07-17T18:22:08Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b10064",
+      "project": "llama-cpp",
+      "version": "b10064",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10064",
+      "published_at": "2026-07-17T15:40:55Z",
+      "body_excerpt": "opencl: transpose q4_K noshuffle scales for coalesced reads (#25805) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10063",
+      "project": "llama-cpp",
+      "version": "b10063",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10063",
+      "published_at": "2026-07-17T14:58:33Z",
+      "body_excerpt": "sync : ggml Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) W",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10061",
+      "project": "llama-cpp",
+      "version": "b10061",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10061",
+      "published_at": "2026-07-17T14:18:08Z",
+      "body_excerpt": "tests : initialize all tensors in test_dsv4_hc to avoid NaNs in sentinel tensors (#25822) Co-authored-by: Stanisław Szymczyk Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10059",
       "project": "llama-cpp",
