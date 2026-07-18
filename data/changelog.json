@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-18T07:59:45Z",
+  "updated_at": "2026-07-18T13:25:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10067",
+      "project": "llama-cpp",
+      "version": "b10067",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10067",
+      "published_at": "2026-07-18T12:12:58Z",
+      "body_excerpt": "llama-quant : exclude i32 ffn_gate_tid2eid routing table from quantization (#25787) DeepSeek-V4's ffn_gate_tid2eid tensor is an i32 token-id -> expert-id index table, not weights. It was never added to the name-based exclusion list alongside ffn_gate_inp.weight, so llama-quantize tries to quantize it and fails since i32 cannot convert to a float type. Fixes ggml-org/llama.cpp#25754 Signed-off-by: ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10066",
       "project": "llama-cpp",
