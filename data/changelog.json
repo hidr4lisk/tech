@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-18T13:25:37Z",
+  "updated_at": "2026-07-18T19:11:23Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10068",
+      "project": "llama-cpp",
+      "version": "b10068",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10068",
+      "published_at": "2026-07-18T13:36:42Z",
+      "body_excerpt": "model: rotate injected K/V cache for DFlash (#25823) dflash: rotate injected K/V cache when using K/V quantization Update src/models/dflash.cpp Co-authored-by: Georgi Gerganov clearer format remove trailing whitespace --------- Co-authored-by: Georgi Gerganov Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10067",
       "project": "llama-cpp",
