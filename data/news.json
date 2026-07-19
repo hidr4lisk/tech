@@ -1,136 +1,147 @@
 {
-  "updated_at": "2026-07-18T19:11:16Z",
+  "updated_at": "2026-07-19T03:22:00Z",
   "items": [
     {
-      "id": "localllama-2026-07-18-arandu-v065-available",
+      "id": "localllama-2026-07-19-deepseek-v4-flash-on-80-gb-vram-and-128-gb-ddr4-ram",
       "source": "localllama",
-      "title": "Arandu v0.6.5 available",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v03zen/arandu_v065_available/",
-      "published_at": "2026-07-18T18:49:22Z",
-      "summary": "      Repository: https://github.com/fredconex/Arandu Hello Guys, This is Arandu a open source app to easily launch models using llama.cpp, it tries to integrate all in one place with easy multi version management of lla",
+      "title": "Deepseek v4 Flash on 80 GB VRAM and 128 GB DDR4 RAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0etj2/deepseek_v4_flash_on_80_gb_vram_and_128_gb_ddr4/",
+      "published_at": "2026-07-19T02:47:27Z",
+      "summary": "I am using unsloth Q8 Deepseek v4 Flash. So far I am able to run properly with the following command CUDA_DEVICE_ORDER=PCI_BUS_ID CUDA_VISIBLE_DEVICES=0,2,1 \\ llamacpp/llama.cpp/build/bin/llama-server \\ --model unsloth/D",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-18-model-add-openpangu-20-flash-92b-a6b-with-mla-latent-cache-d",
+      "id": "localllama-2026-07-19-whats-your-favorite-underrated-local-model",
       "source": "localllama",
-      "title": "model: add openPangu-2.0-Flash (92B-A6B) with MLA-latent cache, DSA/SWA, mHC, and multi-head MTP by joelfarthing · Pull Request #2065 · ikawrakow/ik_llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v03psf/model_add_openpangu20flash_92ba6b_with_mlalatent/",
-      "published_at": "2026-07-18T18:38:39Z",
-      "summary": "      openPangu-2.0-Flash - 92B A6B &amp; 512K Context Length Model : https://huggingface.co/openpangu/openPangu-2.0-Flash/blob/main/README_EN.md GGUF for ik_llama folks : https://huggingface.co/ji-farthing/openPangu-2.0",
+      "title": "What’s your favorite underrated local model?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0eszf/whats_your_favorite_underrated_local_model/",
+      "published_at": "2026-07-19T02:46:37Z",
+      "summary": "What’s your favorite underrated local model that you actually use every day? I’m not talking about the mainstream choices like Qwen 3.6 or Gemma 4. I’m looking for the hidden gems that deserve more attention. What do you",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-18-kimi-k3-ranks-1-on-afterquerys-spreadsheetbench-2-surpassing",
+      "id": "localllama-2026-07-19-i-tried-fine-tuning-a-ternary-model-bonsai-8b-on-metal",
       "source": "localllama",
-      "title": "Kimi K3 ranks #1 on @AfterQuery's SpreadsheetBench 2, surpassing Claude Fable 5",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzzecz/kimi_k3_ranks_1_on_afterquerys_spreadsheetbench_2/",
-      "published_at": "2026-07-18T15:50:06Z",
-      "summary": "      &#32; submitted by &#32;  /u/Charuru   [link] &#32; [comments] ",
+      "title": "I tried fine-tuning a ternary model, Bonsai 8b, on metal",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0egoi/i_tried_finetuning_a_ternary_model_bonsai_8b_on/",
+      "published_at": "2026-07-19T02:29:24Z",
+      "summary": "      We&#39;ve heard the hype around binary and ternary models, and it seems recently, their performance is starting to catch up and be competitive for every-day use across a range of devices, although there&#39;s still",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-18-model-catmind-12b",
+      "id": "localllama-2026-07-19-i-made-a-very-detailed-guide-on-how-to-run-qwen-27b-through",
       "source": "localllama",
-      "title": "[Model] catmind-1.2b",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzxov4/model_catmind12b/",
-      "published_at": "2026-07-18T14:41:28Z",
-      "summary": "      Everyone loves cats, even LLMs. If you are like me and can&#39;t resist the urge of petting a cat that approaches you, you will LOVE catmind. catmind-1.2b is a cat-thinking model: instead of thinking about your que",
+      "title": "I made a very detailed guide on how to run Qwen 27B through GHCP harness at highest performance and best quality",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0dyr5/i_made_a_very_detailed_guide_on_how_to_run_qwen/",
+      "published_at": "2026-07-19T02:04:23Z",
+      "summary": "https://www.reddit.com/r/LocalAIStack/s/ptJzZPKcy0 The guide is based on hundreds of hours of testing, actual usage on corporate partially air-gapped environments. The best settings for high performance, high quality, lo",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-18-consumer-grade-server-build---amd-ryzen-9-vs-intel-ultra-7-p",
+      "id": "localllama-2026-07-19-qwen-vs-gemma",
       "source": "localllama",
-      "title": "Consumer grade server build - AMD Ryzen 9 vs Intel Ultra 7 prompt processing speed",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzxhc1/consumer_grade_server_build_amd_ryzen_9_vs_intel/",
-      "published_at": "2026-07-18T14:33:10Z",
-      "summary": "      My AM4 server&#39;s motherboard&#39;s PCIe lanes got damaged, and I want to replace the platform because I don&#39;t want to invest in DDR4 ram. I have 2x RTX 3090. I am aware of the EPYC platforms, but I would hav",
+      "title": "Qwen vs Gemma",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0dksm/qwen_vs_gemma/",
+      "published_at": "2026-07-19T01:45:00Z",
+      "summary": "Hi! Been doing some local LLM stuff, and I can&#39;t help but notice: despite vastly-superior benchmark scores, Qwen 3.6 35a3B feels... substantially less intelligent than Gemma 4 26a4B (QAT). In terms of prompt adherenc",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-18-why-minimax-m3-branch-not-merged-to-main",
+      "id": "localllama-2026-07-19-inkling",
       "source": "localllama",
-      "title": "why minimax M3 branch not merged to main?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzvzyn/why_minimax_m3_branch_not_merged_to_main/",
-      "published_at": "2026-07-18T13:31:25Z",
-      "summary": "I was trying to load Minimax M3 using the `llama.cpp` main branch and realized that one needs to get an M3 branch. Is there any good reason why it isn&#39;t merged into the main branch?  &#32; submitted by &#32;  /u/arm2",
+      "title": "Inkling?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0djlq/inkling/",
+      "published_at": "2026-07-19T01:43:17Z",
+      "summary": "Has anyone gotten inkling working with llama cpp with cpu and ram only? If so can you share the launch script &amp; other details?   &#32; submitted by &#32;  /u/TurnoverTight395   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-18-basalt-labs-pulling-a-generationally-dumb-scam-incredibly-st",
+      "id": "localllama-2026-07-19-head-of-strategic-futures-from-openai-on-open-weight-chinese",
       "source": "localllama",
-      "title": "\"Basalt Labs\" pulling a generationally dumb scam. Incredibly stupid lmao. Claiming 99.44% on HLE with tools. Model they released is based on Qwen2.5-7B-Instruct and the model they're serving on their website is DeepSeek.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uztylz/basalt_labs_pulling_a_generationally_dumb_scam/",
-      "published_at": "2026-07-18T11:58:12Z",
-      "summary": "      &#32; submitted by &#32;  /u/WithoutReason1729   [link] &#32; [comments] ",
+      "title": "head of strategic futures from openai on open-weight chinese models.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0czbk/head_of_strategic_futures_from_openai_on/",
+      "published_at": "2026-07-19T01:15:23Z",
+      "summary": "      Dean W. Ball analyzes China&#39;s Kimi model, noting its strong performance while expressing surprise that the Chinese government permits open-sourcing such capable AI due to potential risks. He argues that open-we",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-18-if-youre-building-a-harness-here-is-a-simple-tool-to-catch-c",
+      "id": "localllama-2026-07-19-german-soofi-team-launches-soofi-s-30b-a3b-an-open-source-mi",
       "source": "localllama",
-      "title": "If you're building a harness, here is a simple tool to catch cache invalidation in your calls to LLMs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uztipo/if_youre_building_a_harness_here_is_a_simple_tool/",
-      "published_at": "2026-07-18T11:34:48Z",
-      "summary": "      https://preview.redd.it/o6c5enqx3zdh1.png?width=1371&amp;format=png&amp;auto=webp&amp;s=20f75d4cefa5f51f40c000db8f9bd7114758b354 Hello, I know we&#39;re a lot of harness builders out there, because it&#39;s fun and",
+      "title": "German SooFi team launches Soofi S 30B-A3B , an open-source Mixture-of-Experts (MoE) hybrid Mamba–Transformer foundation model for German and English.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0cyix/german_soofi_team_launches_soofi_s_30ba3b_an/",
+      "published_at": "2026-07-19T01:14:20Z",
+      "summary": "      &#32; submitted by &#32;  /u/epSos-DE   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-18-qwen-and-gemma-providers",
+      "id": "localllama-2026-07-18-fastflowlm-joins-amd-to-advance-ai-inference",
       "source": "localllama",
-      "title": "Qwen and Gemma providers",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzr4ia/qwen_and_gemma_providers/",
-      "published_at": "2026-07-18T09:17:05Z",
-      "summary": "I like to use the MoE modles qwen3.6-35B and Gemma-4-26B. I noticed differences in result quality between versions from different providers, like bartowski, unsloth, lm-studio, google, etc. My tests dont give me a clear ",
+      "title": "FastFlowLM Joins AMD to Advance AI Inference",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0axkk/fastflowlm_joins_amd_to_advance_ai_inference/",
+      "published_at": "2026-07-18T23:40:25Z",
+      "summary": "      Super excited to have the FLM team as co-workers!  &#32; submitted by &#32;  /u/jfowers_amd   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-18-what-kind-of-dark-magic-is-deepseek-using",
+      "id": "localllama-2026-07-18-sharing-minibot-v2-this-is-what-im-currently-using-i-gave-it",
       "source": "localllama",
-      "title": "What kind of dark magic is Deepseek using?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzqspl/what_kind_of_dark_magic_is_deepseek_using/",
-      "published_at": "2026-07-18T08:58:03Z",
-      "summary": "      I was taking a look at Kimi K3 scores on the Artificial analysis leaderboard and was quite baffled when I saw this chart. Granted, Deepseek has always been the king of price to performance, but this is still incred",
+      "title": "Sharing MiniBot v2, this is what I'm currently using I gave it a major update so I thought I'd share. I make things that do work for me, always have... and this is the latest.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0a9jn/sharing_minibot_v2_this_is_what_im_currently/",
+      "published_at": "2026-07-18T23:10:37Z",
+      "summary": "      It a single file 20k lines ;P https://github.com/illsk1lls/MiniBot (i previously posted v1 of this, which was not WPF) This is for local models only. Although it is OpenAI compatible. Have your favorite AI scan it ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-18-how-chinese-are-producing-so-many-models-even-higher-in-numb",
+      "id": "localllama-2026-07-18-cmp-170hx-8gb-perf-memory-pcie-gen2-unlock---nvidia-driver-6",
       "source": "localllama",
-      "title": "How Chinese are producing so many Models? Even higher in numbers and yes with comparable Quality",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzpn33/how_chinese_are_producing_so_many_models_even/",
-      "published_at": "2026-07-18T07:49:32Z",
-      "summary": "It appears that the quantity and quality of foundation models developed in China and the United States are changing rapidly. But it is mind boggling to me how Chinese are churning out models may be faster than the US or ",
+      "title": "CMP 170HX 8gb — Perf + Memory + PCIe Gen2 Unlock - NVIDIA Driver 610.43.03 (patched open kernel modules)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v088us/cmp_170hx_8gb_perf_memory_pcie_gen2_unlock_nvidia/",
+      "published_at": "2026-07-18T21:42:38Z",
+      "summary": "some proof: https://i.imgur.com/qqEjxmW.png https://github.com/amoghmunikote/cmpunlocker  CMP 170HX 8gb — Perf + Memory + PCIe Gen2 Unlock NVIDIA Driver 610.43.03 (patched open kernel modules)  GPU: CMP 170HX (0x20C2) Re",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-18-serving-a-fleet-of-qwen35-122b-sessions-on-a-single-mac-stud",
+      "id": "localllama-2026-07-18-byte-exact-kv-cache-grafting-on-frozen-gemma-4",
       "source": "localllama",
-      "title": "Serving a fleet of Qwen3.5 122b sessions on a single Mac Studio (96GB) without losing your sanity",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzpk4g/serving_a_fleet_of_qwen35_122b_sessions_on_a/",
-      "published_at": "2026-07-18T07:44:45Z",
-      "summary": "Hello all Just following up on a post I made last week about my experiment to try minmax my Mac Studio. In particular, I&#39;ve had quite a lot of success with pushing things even further. Across a 20 minute test with th",
+      "title": "Byte exact KV cache grafting on frozen Gemma 4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v07tib/byte_exact_kv_cache_grafting_on_frozen_gemma_4/",
+      "published_at": "2026-07-18T21:24:35Z",
+      "summary": "We published a method to store verified knowledge as KV state and restore it byte identical to fresh computation. On Gemma 4 12B, cached knowledge improved the same routing system from 76.7% to 90.0% on AIME 2025. I will",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-18-sqlite-query-explainer",
+      "source": "simonw",
+      "title": "SQLite Query Explainer",
+      "url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
+      "published_at": "2026-07-18T17:19:10Z",
+      "summary": "Tool: SQLite Query Explainer\n        Julia Evan's, in Learning a few things about running SQLite:\n\nMaybe one day I’ll learn to read a query plan.\n\nBig same.... which inspired me to have Fable build this interactive expla",
+      "tags": [
+        "simonw"
       ]
     },
     {
@@ -329,17 +340,6 @@
       "summary": "Hierarchical Interest Representation is a research area for Meta Ads. We’re exploring an upstream representation layer over the universe of Ads entities – users, advertisers, products, services – learning unified embeddi",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-15-how-i-tricked-claude-into-leaking-your-deepest-darkest-secre",
-      "source": "simonw",
-      "title": "How I tricked Claude into leaking your deepest, darkest secrets",
-      "url": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
-      "published_at": "2026-07-15T14:21:54Z",
-      "summary": "How I tricked Claude into leaking your deepest, darkest secrets\nI've been impressed by the way the Claude web_fetch tool is designed to avoid data exfiltration attacks. Ayush Paul found a hole in that design.\nTo recap: r",
-      "tags": [
-        "simonw"
       ]
     },
     {
