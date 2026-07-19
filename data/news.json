@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-07-19T08:25:50Z",
+  "updated_at": "2026-07-19T13:27:23Z",
   "items": [
+    {
+      "id": "localllama-2026-07-19-how-do-we-benefits-from-2-t-models",
+      "source": "localllama",
+      "title": "How do we benefits from 2+ T models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0py81/how_do_we_benefits_from_2_t_models/",
+      "published_at": "2026-07-19T12:58:26Z",
+      "summary": "Hey, I’ve been really excited to see the latest models being released, but I keep wondering: what are we actually supposed to do with them? I have 4× RTX 6000 Max-Q GPUs, 7× RX 7900 XTXs, 5× modded 48GB RTX 4090s, and a ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-19-qwen-36-27b-opencode-what-am-i-doing-wrong",
+      "source": "localllama",
+      "title": "Qwen 3.6 27B + Opencode: what am i doing wrong?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0pp3s/qwen_36_27b_opencode_what_am_i_doing_wrong/",
+      "published_at": "2026-07-19T12:46:30Z",
+      "summary": "Ok i&#39;m sort of getting desperate here. So i am currently running Qwen 3.6 27B locally at Q8_K_XL and with only ~105k CTX at q8_0. Before i tried it at Q8_0 but with F16 KV cache. Of course i also tried lower quants d",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-19-poor-mans-way-to-local-inference-on-the-go",
+      "source": "localllama",
+      "title": "poor man's way to local inference on the go",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0pnqd/poor_mans_way_to_local_inference_on_the_go/",
+      "published_at": "2026-07-19T12:44:48Z",
+      "summary": "      Many bring egpu to game on laptop, yet here I am fiddling with llama cpp params for 1-time crappy HW configuration for Qwen3.6 35B A3B. idk if I&#39;m having fun or not, but running llama bench runs are surely a go",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-19-oss-gathering-in-shanghai",
+      "source": "localllama",
+      "title": "OSS gathering in Shanghai",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0nm43/oss_gathering_in_shanghai/",
+      "published_at": "2026-07-19T11:02:22Z",
+      "summary": "      This seems awesome meetup. Within a day, Qwen started the move with 3.8 version. Hoping for more moves from others soon. Tweet : https://xcancel.com/RenLeanna/status/2078144481812185186#m  &#32; submitted by &#32; ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-19-qwen-38-max-is-now-live-on-app-too-chatqwenai",
+      "source": "localllama",
+      "title": "Qwen 3.8 Max is now live on app too (chat.qwen.ai)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0mxpd/qwen_38_max_is_now_live_on_app_too_chatqwenai/",
+      "published_at": "2026-07-19T10:23:31Z",
+      "summary": "      https://chat.qwen.ai/  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-19-introducing-asciitermdraw-bench-testing-the-ability-of-vlms",
+      "source": "localllama",
+      "title": "Introducing ASCIITermDraw Bench | Testing the ability of VLMs to Generate and Edit ASCII",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0ltno/introducing_asciitermdraw_bench_testing_the/",
+      "published_at": "2026-07-19T09:17:21Z",
+      "summary": "      ASCIITermDraw-Bench: Can a Model Actually Draw in ASCII? Do we really need a image generator to relay our thoughts about -   an architecture? a topology? a cluster og N nodes?  Is it possible to let our AI assistan",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-19-prepare-your-vram---qwen38-is-coming",
+      "source": "localllama",
+      "title": "Prepare your (v)ram - Qwen3.8 is coming!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0lewq/prepare_your_vram_qwen38_is_coming/",
+      "published_at": "2026-07-19T08:52:53Z",
+      "summary": "      &#32; submitted by &#32;  /u/xw1y   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-19-ahem-qwen-is-on-the-move-again",
       "source": "localllama",
@@ -76,83 +153,6 @@
       "summary": "In Rewriting Bun in Rust Jarred Sumner made the following claim:\n\nClaude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-19-are-you-guys-buying-huge-hdds-to-store-the-best-open-models",
-      "source": "localllama",
-      "title": "Are you guys buying huge HDDs to store the best open models just in case?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0g429/are_you_guys_buying_huge_hdds_to_store_the_best/",
-      "published_at": "2026-07-19T03:53:46Z",
-      "summary": "HuggingFace is nice and all, but can we take it for granted? 🤔 Edit: Thanks for the interesting replies. I learned about the existence of some useful alternative hubs, such as:  https://www.modelscope.ai/models https://c",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-19-deepseek-v4-flash-on-80-gb-vram-and-128-gb-ddr4-ram",
-      "source": "localllama",
-      "title": "Deepseek v4 Flash on 80 GB VRAM and 128 GB DDR4 RAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0etj2/deepseek_v4_flash_on_80_gb_vram_and_128_gb_ddr4/",
-      "published_at": "2026-07-19T02:47:27Z",
-      "summary": "I am using unsloth Q8 Deepseek v4 Flash. So far I am able to run properly with the following command CUDA_DEVICE_ORDER=PCI_BUS_ID CUDA_VISIBLE_DEVICES=0,2,1 \\ llamacpp/llama.cpp/build/bin/llama-server \\ --model unsloth/D",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-19-whats-your-favorite-underrated-local-model",
-      "source": "localllama",
-      "title": "What’s your favorite underrated local model?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0eszf/whats_your_favorite_underrated_local_model/",
-      "published_at": "2026-07-19T02:46:37Z",
-      "summary": "What’s your favorite underrated local model that you actually use every day? I’m not talking about the mainstream choices like Qwen 3.6 or Gemma 4. I’m looking for the hidden gems that deserve more attention. What do you",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-19-i-tried-fine-tuning-a-ternary-model-bonsai-8b-on-metal",
-      "source": "localllama",
-      "title": "I tried fine-tuning a ternary model, Bonsai 8b, on metal",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0egoi/i_tried_finetuning_a_ternary_model_bonsai_8b_on/",
-      "published_at": "2026-07-19T02:29:24Z",
-      "summary": "      We&#39;ve heard the hype around binary and ternary models, and it seems recently, their performance is starting to catch up and be competitive for every-day use across a range of devices, although there&#39;s still",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-19-i-made-a-very-detailed-guide-on-how-to-run-qwen-27b-through",
-      "source": "localllama",
-      "title": "I made a very detailed guide on how to run Qwen 27B through GHCP harness at highest performance and best quality",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0dyr5/i_made_a_very_detailed_guide_on_how_to_run_qwen/",
-      "published_at": "2026-07-19T02:04:23Z",
-      "summary": "https://www.reddit.com/r/LocalAIStack/s/ptJzZPKcy0 The guide is based on hundreds of hours of testing, actual usage on corporate partially air-gapped environments. The best settings for high performance, high quality, lo",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-19-qwen-vs-gemma",
-      "source": "localllama",
-      "title": "Qwen vs Gemma",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0dksm/qwen_vs_gemma/",
-      "published_at": "2026-07-19T01:45:00Z",
-      "summary": "Hi! Been doing some local LLM stuff, and I can&#39;t help but notice: despite vastly-superior benchmark scores, Qwen 3.6 35a3B feels... substantially less intelligent than Gemma 4 26a4B (QAT). In terms of prompt adherenc",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-19-inkling",
-      "source": "localllama",
-      "title": "Inkling?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0djlq/inkling/",
-      "published_at": "2026-07-19T01:43:17Z",
-      "summary": "Has anyone gotten inkling working with llama cpp with cpu and ram only? If so can you share the launch script &amp; other details?   &#32; submitted by &#32;  /u/TurnoverTight395   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
       ]
     },
     {
