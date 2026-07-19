@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-07-19T03:22:00Z",
+  "updated_at": "2026-07-19T08:25:50Z",
   "items": [
+    {
+      "id": "localllama-2026-07-19-ahem-qwen-is-on-the-move-again",
+      "source": "localllama",
+      "title": "Ahem! Qwen is on the move again",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0kqnn/ahem_qwen_is_on_the_move_again/",
+      "published_at": "2026-07-19T08:12:22Z",
+      "summary": "      https://preview.redd.it/0l8w2j67a5eh1.png?width=581&amp;format=png&amp;auto=webp&amp;s=cae9d3ef7cf80cea780e0670f7dede73d1c02d49 https://x.com/Alibaba_Qwen/status/2078754377473601787?s=20  &#32; submitted by &#32;  ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-19-thinking-machines-best-public-tinker-result-used-qwen3-235b",
+      "source": "localllama",
+      "title": "Thinking Machines' best public Tinker result used Qwen3-235B, not Inkling. is the base model actually that important?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0ka8g/thinking_machines_best_public_tinker_result_used/",
+      "published_at": "2026-07-19T07:45:27Z",
+      "summary": "I Went through the Inkling model card and the Bridgewater/Tinker case study instead of the press coverage. Coverage mostly quoted the 97.1% AIME 2026 number; the rest of the table tells a more mixed story. AIME 2026: Ink",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-19-dual-3090-gemma-4-31b-qat-mtp-performance-worse-than-without",
+      "source": "localllama",
+      "title": "Dual 3090 Gemma 4 31B QAT: MTP performance worse than without MTP.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0ipfe/dual_3090_gemma_4_31b_qat_mtp_performance_worse/",
+      "published_at": "2026-07-19T06:15:07Z",
+      "summary": "Been dealing with this issue for a while with no apparent explanation. My base TPS are around 39.7tps in tensor parallelism, about 31 to 33tps with --sm layer. However, using the MTP my TPS go wildly between 27 tps to 34",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-19-i-couldnt-find-anyone-making-full-movies-locally-on-a-mac-so",
+      "source": "localllama",
+      "title": "i couldnt find anyone making full movies locally on a mac, so heres what that looks like right now",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0ibu2/i_couldnt_find_anyone_making_full_movies_locally/",
+      "published_at": "2026-07-19T05:54:37Z",
+      "summary": "i searched around for people making actual finished films on their own hardware. not clips, whole movies with story, narration, music and credits, all local. couldnt really find anyone talking about it, so im posting min",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-19-192gb-gang---what-are-you-running",
+      "source": "localllama",
+      "title": "192GB gang - what are you running?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0hw0s/192gb_gang_what_are_you_running/",
+      "published_at": "2026-07-19T05:29:36Z",
+      "summary": "Understandably, most chat is around models that fit in 16/32GB VRAM. I totally get that. And I think Qwen3.6-27B is awesome. But, a while back, I bought an M2 Ultra Mac Pro specifically for AI, so my main interest is in ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-19-ai-mania-is-eviscerating-global-decision-making",
+      "source": "simonw",
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "url": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+      "published_at": "2026-07-19T05:06:21Z",
+      "summary": "AI Mania Is Eviscerating Global Decision-Making\nHere's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from an",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-19-claude-code-uses-bun-written-in-rust-now",
+      "source": "simonw",
+      "title": "Claude Code uses Bun written in Rust now",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+      "published_at": "2026-07-19T03:54:09Z",
+      "summary": "In Rewriting Bun in Rust Jarred Sumner made the following claim:\n\nClaude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-19-are-you-guys-buying-huge-hdds-to-store-the-best-open-models",
+      "source": "localllama",
+      "title": "Are you guys buying huge HDDs to store the best open models just in case?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0g429/are_you_guys_buying_huge_hdds_to_store_the_best/",
+      "published_at": "2026-07-19T03:53:46Z",
+      "summary": "HuggingFace is nice and all, but can we take it for granted? 🤔 Edit: Thanks for the interesting replies. I learned about the existence of some useful alternative hubs, such as:  https://www.modelscope.ai/models https://c",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-19-deepseek-v4-flash-on-80-gb-vram-and-128-gb-ddr4-ram",
       "source": "localllama",
@@ -63,72 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0djlq/inkling/",
       "published_at": "2026-07-19T01:43:17Z",
       "summary": "Has anyone gotten inkling working with llama cpp with cpu and ram only? If so can you share the launch script &amp; other details?   &#32; submitted by &#32;  /u/TurnoverTight395   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-19-head-of-strategic-futures-from-openai-on-open-weight-chinese",
-      "source": "localllama",
-      "title": "head of strategic futures from openai on open-weight chinese models.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0czbk/head_of_strategic_futures_from_openai_on/",
-      "published_at": "2026-07-19T01:15:23Z",
-      "summary": "      Dean W. Ball analyzes China&#39;s Kimi model, noting its strong performance while expressing surprise that the Chinese government permits open-sourcing such capable AI due to potential risks. He argues that open-we",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-19-german-soofi-team-launches-soofi-s-30b-a3b-an-open-source-mi",
-      "source": "localllama",
-      "title": "German SooFi team launches Soofi S 30B-A3B , an open-source Mixture-of-Experts (MoE) hybrid Mamba–Transformer foundation model for German and English.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0cyix/german_soofi_team_launches_soofi_s_30ba3b_an/",
-      "published_at": "2026-07-19T01:14:20Z",
-      "summary": "      &#32; submitted by &#32;  /u/epSos-DE   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-18-fastflowlm-joins-amd-to-advance-ai-inference",
-      "source": "localllama",
-      "title": "FastFlowLM Joins AMD to Advance AI Inference",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0axkk/fastflowlm_joins_amd_to_advance_ai_inference/",
-      "published_at": "2026-07-18T23:40:25Z",
-      "summary": "      Super excited to have the FLM team as co-workers!  &#32; submitted by &#32;  /u/jfowers_amd   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-18-sharing-minibot-v2-this-is-what-im-currently-using-i-gave-it",
-      "source": "localllama",
-      "title": "Sharing MiniBot v2, this is what I'm currently using I gave it a major update so I thought I'd share. I make things that do work for me, always have... and this is the latest.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0a9jn/sharing_minibot_v2_this_is_what_im_currently/",
-      "published_at": "2026-07-18T23:10:37Z",
-      "summary": "      It a single file 20k lines ;P https://github.com/illsk1lls/MiniBot (i previously posted v1 of this, which was not WPF) This is for local models only. Although it is OpenAI compatible. Have your favorite AI scan it ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-18-cmp-170hx-8gb-perf-memory-pcie-gen2-unlock---nvidia-driver-6",
-      "source": "localllama",
-      "title": "CMP 170HX 8gb — Perf + Memory + PCIe Gen2 Unlock - NVIDIA Driver 610.43.03 (patched open kernel modules)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v088us/cmp_170hx_8gb_perf_memory_pcie_gen2_unlock_nvidia/",
-      "published_at": "2026-07-18T21:42:38Z",
-      "summary": "some proof: https://i.imgur.com/qqEjxmW.png https://github.com/amoghmunikote/cmpunlocker  CMP 170HX 8gb — Perf + Memory + PCIe Gen2 Unlock NVIDIA Driver 610.43.03 (patched open kernel modules)  GPU: CMP 170HX (0x20C2) Re",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-18-byte-exact-kv-cache-grafting-on-frozen-gemma-4",
-      "source": "localllama",
-      "title": "Byte exact KV cache grafting on frozen Gemma 4",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v07tib/byte_exact_kv_cache_grafting_on_frozen_gemma_4/",
-      "published_at": "2026-07-18T21:24:35Z",
-      "summary": "We published a method to store verified knowledge as KV state and restore it byte identical to fresh computation. On Gemma 4 12B, cached knowledge improved the same routing system from 76.7% to 90.0% on AIME 2025. I will",
       "tags": [
         "localllama"
       ]
@@ -277,17 +299,6 @@
       ]
     },
     {
-      "id": "simonw-2026-07-16-mermaid-to-unicode-box-art-grok-mermaid",
-      "source": "simonw",
-      "title": "Mermaid to Unicode box art (grok-mermaid)",
-      "url": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
-      "published_at": "2026-07-16T00:33:18Z",
-      "summary": "Tool: Mermaid to Unicode box art (grok-mermaid)\n        While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs, a \"self-contained terminal renderer fo",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-16-security-incident-disclosure-july-2026",
       "source": "huggingface",
       "title": "Security incident disclosure — July 2026",
@@ -296,17 +307,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-15-xai-orggrok-build-now-open-source",
-      "source": "simonw",
-      "title": "xai-org/grok-build, now open source",
-      "url": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
-      "published_at": "2026-07-15T23:59:30Z",
-      "summary": "xai-org/grok-build, now open source\nxAI's grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud b",
-      "tags": [
-        "simonw"
       ]
     },
     {
