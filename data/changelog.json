@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T14:17:44Z",
+  "updated_at": "2026-07-20T19:48:38Z",
   "releases": [
     {
       "id": "unsloth-v0.1.50-beta",
@@ -1082,6 +1082,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-Cosmos3-Edge-Policy-DROID",
+      "project": "nvidia",
+      "version": "Cosmos3-Edge-Policy-DROID",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Edge-Policy-DROID",
+      "published_at": "2026-07-09T21:19:56Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b9941",
       "project": "llama-cpp",
       "version": "b9941",
@@ -1539,6 +1548,24 @@
       "published_at": "2026-07-07T03:38:16Z",
       "body_excerpt": "opencl: general flash attention decode performance optimizations (#25366) opencl: vec flash-attention decode kernels for f16/q8_0/q4_0 KV opencl: improve non FA KQ mv kernels opencl: tweaks for multiquery FA opencl: some tweaks for FA q1 kernels opencl: FA with DK=DV=512 for gemma-4 opencl: various fixes opencl: cleanup opencl: fix FA decode crash for DK=512 (gemma-4) The DK=512 decode-only progra",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Cosmos3-Super-Image2Video-4Step",
+      "project": "nvidia",
+      "version": "Cosmos3-Super-Image2Video-4Step",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video-4Step",
+      "published_at": "2026-07-07T01:00:23Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Cosmos3-Super-Text2Image-4Step",
+      "project": "nvidia",
+      "version": "Cosmos3-Super-Text2Image-4Step",
+      "url": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image-4Step",
+      "published_at": "2026-07-07T01:00:22Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.31.2-rc1",
