@@ -1,6 +1,138 @@
 {
-  "updated_at": "2026-07-20T19:48:30Z",
+  "updated_at": "2026-07-21T03:16:29Z",
   "items": [
+    {
+      "id": "localllama-2026-07-21-my-learnings-from-optimizing-training-pipeline-to-go-from-36",
+      "source": "localllama",
+      "title": "My learnings from optimizing training pipeline to go from 36 steps/minute to 47 steps/minute",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v25qbw/my_learnings_from_optimizing_training_pipeline_to/",
+      "published_at": "2026-07-21T02:35:06Z",
+      "summary": "      I got my ML model training pipeline to go from 36 steps/minute to 47 steps/minute by optimizing how they&#39;re stored on disk.  When training larger ML models on consumer hardware there are many limitations. One i",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-mtp-on-moe-matters",
+      "source": "localllama",
+      "title": "MTP on MoE matters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v25pwp/mtp_on_moe_matters/",
+      "published_at": "2026-07-21T02:34:33Z",
+      "summary": "      Hey everyone, Back when MTP came available on llama.cpp, it seemed like the common consensus was that MTP didn&#39;t matter much for MoE models. After spending an evening running tests, I got some really decent per",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-openai-released-gpt-oss-350-days-ago-will-we-ever-see-anothe",
+      "source": "localllama",
+      "title": "OpenAI released gpt-oss 350 days ago. Will we ever see another open-weight model from them?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v258lo/openai_released_gptoss_350_days_ago_will_we_ever/",
+      "published_at": "2026-07-21T02:12:47Z",
+      "summary": "      Nearly a year later, we&#39;ve had safeguard fine-tunes but no general-purpose base model or successor. Will Kimi, Qwen and GLM force their hand?  &#32; submitted by &#32;  /u/prescorn   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-motif-3-beta-released",
+      "source": "localllama",
+      "title": "Motif 3 Beta released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v23c6w/motif_3_beta_released/",
+      "published_at": "2026-07-21T00:46:39Z",
+      "summary": "      https://huggingface.co/Motif-Technologies/Motif-3-Beta Motif-Technologies is one of the tech company participated South Korea&#39;s AI Foundation Model project. Upstage(Solar Series), LG AI Research(EXAONE Series),",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-benchmarked-every-spec-decode-method-on-qwen36-27b-across-vl",
+      "source": "localllama",
+      "title": "Benchmarked every spec-decode method on Qwen3.6-27B across vLLM and SGLang (single RTX PRO 6000 Max-Q)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v22hu9/benchmarked_every_specdecode_method_on_qwen3627b/",
+      "published_at": "2026-07-21T00:08:33Z",
+      "summary": "      https://preview.redd.it/wluwwp6s4heh1.png?width=1248&amp;format=png&amp;auto=webp&amp;s=6e95d963645c5a0ef750bf81324a6d4dcbc0389e Spent the last few days measuring speculative decoding on Qwen3.6-27B (dense, NVFP4) ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-20-google-has-disappeared-completely-from-the-top-15",
+      "source": "localllama",
+      "title": "Google has disappeared completely from the top 15",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v21j14/google_has_disappeared_completely_from_the_top_15/",
+      "published_at": "2026-07-20T23:26:54Z",
+      "summary": "      Google hasn&#39;t shipped a model recently that is capable of competing with Sol or Fable.  The previous models were pretty disappointing and unreliable, it seems the more time goes on that they might have differen",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-20-kimi-k3-isnt-quite-better-than-fable-yet-but-its-definitely",
+      "source": "localllama",
+      "title": "Kimi-K3 isn’t quite better than Fable yet, but it’s definitely getting closer.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v20g29/kimik3_isnt_quite_better_than_fable_yet_but_its/",
+      "published_at": "2026-07-20T22:41:57Z",
+      "summary": "      Kimi-K3’s release, while impressive, is still months behind the closed-source frontier, so all the “it’s over for Anthropic” talk feels overblown. According to Artificial Analysis, though, Kimi-K3 has brought the o",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-20-i-gave-kimi-k3-a-shot-at-auditing-my-post-quantum-crypto-pro",
+      "source": "localllama",
+      "title": "I gave Kimi K3 a shot at auditing my post-quantum crypto project, it found 5 real bugs Fable/Opus 4.8 and GPT-5.6 Sol had all missed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1z4f0/i_gave_kimi_k3_a_shot_at_auditing_my_postquantum/",
+      "published_at": "2026-07-20T21:48:13Z",
+      "summary": "      (Slides because why not) I&#39;ve been building a serverless post-quantum group-encryption protocol for the last few weeks, mostly with Opus 4.8 and Fable, with GPT-5.6 Sol running adversarial review on the most ch",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-20-have-you-built-your-own-agent-instead-of-using-openclaw-or-h",
+      "source": "localllama",
+      "title": "Have you built your own agent instead of using openclaw or Hermes, how’s it going for you?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1ydyf/have_you_built_your_own_agent_instead_of_using/",
+      "published_at": "2026-07-20T21:19:23Z",
+      "summary": "I’m genuinely trying to wrap my mind around how these things work, and using either hermes or openclaw feels like it abstracts away too much, so I’m tempted to build my own local agent and in order to gain a better under",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-20-i-ran-ternary-bonsai-27b-2-bit-and-bonsai-27b-1-bit-on-termi",
+      "source": "localllama",
+      "title": "I ran Ternary-Bonsai-27B (2-bit) and Bonsai-27B (1-bit) on Terminal-Bench 2.0, in 8GB VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1ya97/i_ran_ternarybonsai27b_2bit_and_bonsai27b_1bit_on/",
+      "published_at": "2026-07-20T21:15:29Z",
+      "summary": "      I asked myself where the Bonsai models actually land, so I ran them and compared to the results I already have for qwen-3.6-35b-a3b and qwen-3.5-9b on the same harness. Thought it might interest more people. Setup:",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-20-american-ai-is-locked-down-and-proprietary-its-losing",
+      "source": "localllama",
+      "title": "American AI is locked down and proprietary. It's losing.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1xse3/american_ai_is_locked_down_and_proprietary_its/",
+      "published_at": "2026-07-20T20:56:46Z",
+      "summary": "      &#32; submitted by &#32;  /u/Kerub88   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-20-according-to-agent-arena-kimi-k3-ranks-at-same-level-as-opus",
+      "source": "localllama",
+      "title": "According to Agent Arena Kimi K3 ranks at same level as opus thinking",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1xh6h/according_to_agent_arena_kimi_k3_ranks_at_same/",
+      "published_at": "2026-07-20T20:44:43Z",
+      "summary": "      My testing with android suggest it is below that. Vision on Opus is the reason. But I don&#39;t doubt that for non vision tasks Kimi k3 is on par.  &#32; submitted by &#32;  /u/Terminator857   [link] &#32; [comment",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "simonw-2026-07-20-reverse-engineering-is-cheap-now",
       "source": "simonw",
@@ -10,28 +142,6 @@
       "summary": "I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes.\nI think this is an interesting illustration of the impact of the reduced cost of writing code.\nPrior to",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-20-head-of-us-ai-safety-agency-resigns",
-      "source": "localllama",
-      "title": "Head of US AI safety agency resigns",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1tmyz/head_of_us_ai_safety_agency_resigns/",
-      "published_at": "2026-07-20T18:25:05Z",
-      "summary": "&#32; submitted by &#32;  /u/fallingdowndizzyvr   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-20-would-you-trade-speed-for-accuracy",
-      "source": "localllama",
-      "title": "Would you trade speed for accuracy?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1rv6v/would_you_trade_speed_for_accuracy/",
-      "published_at": "2026-07-20T17:22:24Z",
-      "summary": "I&#39;ve been working with activation aware quantization. Today I noticed that I can increase accuracy but also see a correlated decrease in tps.  If you could choose a fast quantization or an accurate one, what would it",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -46,50 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-20-introducing-dwarf-55m-base",
-      "source": "localllama",
-      "title": "Introducing DWARF-55M-Base",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1q62r/introducing_dwarf55mbase/",
-      "published_at": "2026-07-20T16:21:16Z",
-      "summary": "Finally after months of research, the very first model made from the DWARF architecture is available for folks to check out and experiment with! DWARF is a nearly all-sparse attention architecture that uses 9 Dynamic Spa",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-20-so-what-happened-with-openclaw",
-      "source": "localllama",
-      "title": "So what happened with OpenClaw?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1pvgb/so_what_happened_with_openclaw/",
-      "published_at": "2026-07-20T16:10:30Z",
-      "summary": "It had an insanely meteoritic rise. It felt like it was the only thing anyone had been talking about for months. Then just, everyone stopped talking about it. Usage based pricing inevitably came and it seems like it was ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-20-running-a-13m-asr-conformer-on-a-microcontroller",
-      "source": "localllama",
-      "title": "Running a 13M ASR conformer on a microcontroller",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1pume/running_a_13m_asr_conformer_on_a_microcontroller/",
-      "published_at": "2026-07-20T16:09:37Z",
-      "summary": "      Hello everyone, I wanted to share a recent project of mine, which brings a 13.1 million parameter convolution transformer model to a &lt; $10 microcontroller (more specifically, the ESP32-S3). It&#39;s a distilled ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-20-local-llm-text-translation-or-transformation-in-gstreamer-wi",
-      "source": "localllama",
-      "title": "Local LLM text translation or transformation in GStreamer with llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1pkjl/local_llm_text_translation_or_transformation_in/",
-      "published_at": "2026-07-20T15:59:31Z",
-      "summary": "      I did a thing that I thought might be interesting for some people here. https://centricular.com/devlog/2026-07/llama-cpp/ In short: This is a GStreamer plugin that uses llama.cpp and can be used for e.g. subtitle t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-20-introducing-cosmos-3-edge",
       "source": "huggingface",
       "title": "Introducing Cosmos 3 Edge",
@@ -98,72 +164,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-20-testing-new-models-with-an-animated-svg-challenge-flamingo-m",
-      "source": "localllama",
-      "title": "Testing new models with an animated SVG challenge: flamingo moonwalking on a Sardinian beach",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1np1f/testing_new_models_with_an_animated_svg_challenge/",
-      "published_at": "2026-07-20T14:49:11Z",
-      "summary": "      Hello! With all the new model releases, I wanted to run another SVG-generation comparison and since the &quot;pelican riding a bicycle&quot; prompt seems fairly saturated by now, I tried a new prompt: Do not ask qu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-20-unsloth-now-supports-amd",
-      "source": "localllama",
-      "title": "Unsloth now supports AMD!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1nor4/unsloth_now_supports_amd/",
-      "published_at": "2026-07-20T14:48:52Z",
-      "summary": "      Hey r/LocalLLaMA folks! Unsloth now officially supports AMD hardware for local inference, fine-tuning, reinforcement learning, and deployment! It&#39;s been in the works for quite some time, but it works on Windows",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-20-543-toks-single-request-qwen36-35b-a3b-on-one-rtx-5090-over",
-      "source": "localllama",
-      "title": "543 tok/s single-request Qwen3.6-35B-A3B on one RTX 5090 over a 65K-token decode",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1no8e/543_toks_singlerequest_qwen3635ba3b_on_one_rtx/",
-      "published_at": "2026-07-20T14:48:19Z",
-      "summary": "An example TL;DR I have open-sourced NInfer, a from-scratch C++/CUDA inference engine currently specialized for two exact Qwen3.6 checkpoints on a single RTX 5090. Both the engine and the converted model artifacts are pu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-20-deepseek-v4-flash-release-version-appears-to-have-been-activ",
-      "source": "localllama",
-      "title": "DeepSeek v4 flash release version appears to have been activated on api. Open weights imminent?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1nj6e/deepseek_v4_flash_release_version_appears_to_have/",
-      "published_at": "2026-07-20T14:43:03Z",
-      "summary": "https://np.reddit.com/r/DeepSeek/s/skO7urrE2C DS4 sort of came and went from the spotlight. The consensus seemed to be that its most notable feature is its price, and then we got distracted by the next big releases. Howe",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-20-trelliscpp-now-has-a-studio",
-      "source": "localllama",
-      "title": "Trellis.cpp now has a studio!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1mlcw/trelliscpp_now_has_a_studio/",
-      "published_at": "2026-07-20T14:07:44Z",
-      "summary": "      When Trellis.cpp released, people were rightly complaining that while the port was nice, the usability barrier was still high since you had to navigate the command line and fetch all the weights manually. So now, T",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-20-openbmb-released-minicpm5-2b-not-yet-available-at-huggingfac",
-      "source": "localllama",
-      "title": "openbmb released MiniCPM5-2B, not yet available at huggingface",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1m264/openbmb_released_minicpm52b_not_yet_available_at/",
-      "published_at": "2026-07-20T13:47:33Z",
-      "summary": "      According to source, it is the locally ranked AI model, the best among 4b models Source : https://x.com/i/status/2079088670804767114  &#32; submitted by &#32;  /u/Illustrious-Swim9663   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
