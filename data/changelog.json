@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-20T19:48:38Z",
+  "updated_at": "2026-07-21T03:16:35Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10075",
+      "project": "llama-cpp",
+      "version": "b10075",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10075",
+      "published_at": "2026-07-20T23:47:43Z",
+      "body_excerpt": "hexagon: add CLAMP op (#25934) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: ",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.2-rc0",
+      "project": "ollama",
+      "version": "v0.32.2-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0",
+      "published_at": "2026-07-20T21:00:30Z",
+      "body_excerpt": "What's Changed launch: keep Claude Code channels available by @hoyyeva in cmd: remove dead agent prompt wrappers by @ParthSareen in agent: reorder working directory instruction by @ParthSareen in agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in anthropic: close text block before starting thin",
+      "type": "tool"
+    },
     {
       "id": "unsloth-v0.1.50-beta",
       "project": "unsloth",
@@ -7911,15 +7929,6 @@
       "published_at": "2026-04-22T06:03:55Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "ollama-v0.21.1",
-      "project": "ollama",
-      "version": "v0.21.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.1",
-      "published_at": "2026-04-22T00:18:02Z",
-      "body_excerpt": "What's Changed Kimi CLI You can now install and run the Kimi CLI through Ollama. Kimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system. MLX runner adds logprobs support for compatible models Faster MLX sampling with fused top-P and top-K in a single sort pass, plus repeat penalties applied in the sampler Improved MLX prompt tokenization by moving token",
-      "type": "tool"
     }
   ]
 }
