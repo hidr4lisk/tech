@@ -1,6 +1,138 @@
 {
-  "updated_at": "2026-07-21T14:04:00Z",
+  "updated_at": "2026-07-21T19:37:58Z",
   "items": [
+    {
+      "id": "localllama-2026-07-21-ds-v4-on-single-b300-only-770-toks-batched-in-vllm",
+      "source": "localllama",
+      "title": "DS V4 on single b300. only 770 tok/s batched in vLLM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2rtmk/ds_v4_on_single_b300_only_770_toks_batched_in_vllm/",
+      "published_at": "2026-07-21T19:01:05Z",
+      "summary": "Been running DeepSeek-V4-Flash for an offline batch job (cleaning a big pile of short text records, so lots of small prompts rather than chat). Single B300, vLLM 0.25.0, in-process LLM.chat over the batch. Reasoning on, ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-updated-gemma-4-chat-template-witchcraft-gemma-4-26b-a4b-sho",
+      "source": "localllama",
+      "title": "Updated Gemma-4 chat template witchcraft: Gemma-4-26B-a4B shows dominance over Qwen3.6-MoE and Qwen3.5-MoE fine tunes (Instruct mode and Reasoning efficiency)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2rqbd/updated_gemma4_chat_template_witchcraft/",
+      "published_at": "2026-07-21T18:58:08Z",
+      "summary": "      Kind of unexpected.  Happy for Gemma-4/Google, big win for us, LocalLLMers.  Yet Qwen3.6 still does better in Hermes than Gemma-4 somehow. We need Gemma-4.1 fine-tuned on Agentic-tasks. That would be killer.   &#32",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-laguna-s-21-released-cheaper-than-deepseek-v4-flash-better-t",
+      "source": "localllama",
+      "title": "Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2pg99/laguna_s_21_released_cheaper_than_deepseek_v4/",
+      "published_at": "2026-07-21T17:39:54Z",
+      "summary": "        Model Size Terminal-Bench 2.1 SWE-bench Multilingual SWE-Bench Pro (Public Dataset) DeepSWE SWE Atlas (Codebase QnA) Toolathlon Verified    Laguna S 2.1 118B-A8B 70.2% 78.5% 59.4% 40.4% 46.2% 49.7%   Finally the ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-poolsidelaguna-s-21-released-finally-an-interesting-120b-con",
+      "source": "localllama",
+      "title": "poolside/Laguna-S-2.1 released! Finally an interesting 120B contender!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2orhb/poolsidelagunas21_released_finally_an_interesting/",
+      "published_at": "2026-07-21T17:16:11Z",
+      "summary": "      HF: https://huggingface.co/poolside/Laguna-S-2.1 GGUFs available for use with llama.cpp custom fork: https://huggingface.co/poolside/Laguna-S-2.1-GGUF Posted on X: https://x.com/poolsideai/status/207961377734384846",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-new-model-nanbeige42-3b-looped-transformer-outperforms-4x-si",
+      "source": "localllama",
+      "title": "New Model: Nanbeige4.2-3B (Looped Transformer, outperforms 4x size)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2n7l6/new_model_nanbeige423b_looped_transformer/",
+      "published_at": "2026-07-21T16:21:12Z",
+      "summary": "      https://huggingface.co/Nanbeige/Nanbeige4.2-3B Nanbeige4.2-3B is a compact agentic model built on Nanbeige4.2-3B-Base, designed to combine strong agentic behavior with broad reasoning and alignment capabilities. It",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-sensenova-u1-8b-mot-infographic-v3-has-been-released-2-weeks",
+      "source": "localllama",
+      "title": "SenseNova-U1-8b-MoT-Infographic-V3 has been released (2 weeks after V2)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2mszh/sensenovau18bmotinfographicv3_has_been_released_2/",
+      "published_at": "2026-07-21T16:06:37Z",
+      "summary": "      Four things it does:  Local text editing: mark a region (or just say it in natural language) and replace specific text. Fixes typos, swaps numbers, changes titles — keeps everything else intact Local content editin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-20b-looping-model-paper-matches-or-beats-qwen3-coder-30b-at",
+      "source": "localllama",
+      "title": "20B Looping model (paper) matches or beats Qwen3 Coder 30B at 10% of pre-training tokens",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2mhmi/20b_looping_model_paper_matches_or_beats_qwen3/",
+      "published_at": "2026-07-21T15:55:39Z",
+      "summary": "No weights yet. I feel sad for them, that training run cost maybe 100s of thousands of dollars and they didn&#39;t even beat GPT-OSS 20B in every regard But the ability to train a model from scratch on 3.5 trillion token",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-what-are-some-important-smalltiny-local-models-to-download-t",
+      "source": "localllama",
+      "title": "What are some important small/tiny local models to download that aren't the main chatbot LLMs, but are things for like audio, TTS, STT, vision, or whatever random important miscellaneous things like that which might be useful to get before the bans and shutdowns come in?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2m3mh/what_are_some_important_smalltiny_local_models_to/",
+      "published_at": "2026-07-21T15:41:37Z",
+      "summary": "Most of us already know the main important mainline local LLMs to save like Qwen3.6 27b, Gemma4 31b, GLM5.2, etc. And then for diffusion models, Z-Image Turbo, Flux Klein, LTX2.3, and Wan2.2. But, what about those random",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-pi-0810-adds-support-for-llamacpp",
+      "source": "localllama",
+      "title": "pi 0.81.0 adds support for llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2lszl/pi_0810_adds_support_for_llamacpp/",
+      "published_at": "2026-07-21T15:31:03Z",
+      "summary": "      pi 0.81.0 now has integrated support for llama.cpp (llama-server router). https://pi.dev/docs/latest/llama-cpp This seems to be able to replace the huggingface/pi-llama extension and/or manually managing models in ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-anthropic-claims-local-models-are-stealing-from-it-meanwhile",
+      "source": "localllama",
+      "title": "Anthropic claims local models are stealing from it, meanwhile it pays $1.5B for theft",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2ky1e/anthropic_claims_local_models_are_stealing_from/",
+      "published_at": "2026-07-21T15:00:56Z",
+      "summary": " $1.5 billion settlement largest known payout in U.S. copyright case Case part of a wave of lawsuits from copyright holders against AI companies Some authors and publishers opted out and continue separate ​cases against ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-mindlab-researchmacaron-v1-venti-huggingface",
+      "source": "localllama",
+      "title": "mindlab-research/Macaron-V1-Venti • HuggingFace",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2k5hv/mindlabresearchmacaronv1venti_huggingface/",
+      "published_at": "2026-07-21T14:31:36Z",
+      "summary": "      https://preview.redd.it/67lb9m0pfleh1.jpg?width=2048&amp;format=pjpg&amp;auto=webp&amp;s=9cebf34a2b3b98815fe3aa525ebe412eedcf225f https://huggingface.co/mindlab-research/Macaron-V1-Venti https://macaron.im/zh/mindl",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-21-nativ-run-ai-models-locally-on-your-mac",
+      "source": "simonw",
+      "title": "Nativ: Run AI models locally on your Mac",
+      "url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
+      "published_at": "2026-07-21T14:22:27Z",
+      "summary": "Nativ: Run AI models locally on your Mac\nPrince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac.\nI'm really excited about his new project, which wraps MLX in",
+      "tags": [
+        "simonw"
+      ]
+    },
     {
       "id": "localllama-2026-07-21-there-is-no-need-to-worry-about-trump-banning-chinas-open-so",
       "source": "localllama",
@@ -21,127 +153,6 @@
       "summary": "Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-us-china-to-hold-ai-talks-in-september-sources-say",
-      "source": "localllama",
-      "title": "US, China to hold AI talks in September, sources say",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2hlhm/us_china_to_hold_ai_talks_in_september_sources_say/",
-      "published_at": "2026-07-21T12:53:20Z",
-      "summary": "https://www.reuters.com/world/china/us-china-hold-ai-talks-september-sources-say-2026-07-21/ https://www.cnbc.com/2026/07/21/us-china-ai-talks-bessent.html  &#32; submitted by &#32;  /u/External_Mood4719   [link] &#32; [",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-models-to-get-before-any-political-disruption",
-      "source": "localllama",
-      "title": "Models to get before any political disruption",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2hiyf/models_to_get_before_any_political_disruption/",
-      "published_at": "2026-07-21T12:50:16Z",
-      "summary": "What are the actually good models to download for systems up to 256GB of unified ram? Some are good for creative, others for coding, agentic, general chat, etc. Qwen3.5/6 Gemma 4 Hy3 Mimo 2.5 Flash Minimax M3 DS4 Flash M",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-mistral-is-a-fish---it-always-swim-against-current",
-      "source": "localllama",
-      "title": "Mistral is a Fish - It always swim against current",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2gqnf/mistral_is_a_fish_it_always_swim_against_current/",
-      "published_at": "2026-07-21T12:16:23Z",
-      "summary": "      &#32; submitted by &#32;  /u/VolkoTheWorst   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-torrents-arrived",
-      "source": "localllama",
-      "title": "Torrents arrived",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2glcx/torrents_arrived/",
-      "published_at": "2026-07-21T12:10:03Z",
-      "summary": "I&#39;ve been working on this project that makes LLM distributions decentralized and fast using torrents. Read more about tech on Github. Website: https://llama.garden Suggested client: Transmission News: - Added more we",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-ceo-of-hugging-face-banning-open-source-ai-would-hurt-defend",
-      "source": "localllama",
-      "title": "CEO of Hugging Face: Banning open-source AI would hurt defenders 10x more than attackers, which would make the world 10x more dangerous and this is a good example why!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2g9bc/ceo_of_hugging_face_banning_opensource_ai_would/",
-      "published_at": "2026-07-21T11:55:30Z",
-      "summary": "      From clem 🤗 on 𝕏: https://x.com/ClementDelangue/status/2079301434357456931 Fortune: Hugging Face says it resorted to a Chinese AI model to battle a fully autonomous cyberattack because U.S. model guardrails stymied",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-be-careful-when-purchasing-cmp-170hx-on-alibaba",
-      "source": "localllama",
-      "title": "Be Careful when Purchasing CMP 170HX on Alibaba!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2fm3s/be_careful_when_purchasing_cmp_170hx_on_alibaba/",
-      "published_at": "2026-07-21T11:23:47Z",
-      "summary": "Just a heads up. Shops in China are running like chickens without a head after the news the Falcon Exploit working to jailbreak some of the functions of these cards. Is not just happening on Alibaba but also Ebay. Usuall",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-unpopular-opinion-the-distillation-claim-is-overblown",
-      "source": "localllama",
-      "title": "Unpopular(?) opinion. The distillation claim is overblown.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2eses/unpopular_opinion_the_distillation_claim_is/",
-      "published_at": "2026-07-21T10:42:28Z",
-      "summary": "      There are people on twitter/X saying that Chinese models are as good as they are only due to distillation (source: https://x.com/scaling01/status/2079332469501727052 ). I don&#39;t buy that even for a minute. While",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-you-can-now-fine-tune-prism-mls-ternary-bonsai-models",
-      "source": "localllama",
-      "title": "you can now fine tune Prism-ML's ternary Bonsai models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2egi3/you_can_now_fine_tune_prismmls_ternary_bonsai/",
-      "published_at": "2026-07-21T10:24:46Z",
-      "summary": "examples included, use a high damn learning rate: https://github.com/electroglyph/ternary_QAT  &#32; submitted by &#32;  /u/terminoid_   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-dram-shortage-will-last-another-10-years-warns-adata-chairma",
-      "source": "localllama",
-      "title": "DRAM shortage will last another 10 years, warns ADATA chairman",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2duio/dram_shortage_will_last_another_10_years_warns/",
-      "published_at": "2026-07-21T09:51:25Z",
-      "summary": "      &#32; submitted by &#32;  /u/Mochila-Mochila   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-today-i-learnt-the-power-of-localllama",
-      "source": "localllama",
-      "title": "Today I learnt the power of LocalLlama",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2c341/today_i_learnt_the_power_of_localllama/",
-      "published_at": "2026-07-21T08:09:32Z",
-      "summary": "DISCLAIMER: No Ai was prompted in the creation of this post. Today I had an experience that complely blew my mind, I just had to write it down. As a bit of background I have been dabbling prompting local models using LM ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-us-govt-lobbied-by-major-us-labs-is-about-to-ban-open-source",
-      "source": "localllama",
-      "title": "US gov't lobbied by major US labs is about to ban open source models.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2bf3t/us_govt_lobbied_by_major_us_labs_is_about_to_ban/",
-      "published_at": "2026-07-21T07:30:06Z",
-      "summary": "      &#32; submitted by &#32;  /u/FlowCritikal   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -283,17 +294,6 @@
       "url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
       "published_at": "2026-07-16T23:34:16Z",
       "summary": "Firefox in WebAssembly\nThis is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser.\nHere's my blog, running in Firefox, running in WebAssembly, running in Chrome:\n\nThe",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-16-kimi-k3-and-what-we-can-still-learn-from-the-pelican-benchma",
-      "source": "simonw",
-      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
-      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
-      "published_at": "2026-07-16T20:19:30Z",
-      "summary": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release",
       "tags": [
         "simonw"
       ]
