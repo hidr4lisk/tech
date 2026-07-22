@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-07-22T03:14:41Z",
+  "updated_at": "2026-07-22T08:35:38Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10083",
+      "project": "llama-cpp",
+      "version": "b10083",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10083",
+      "published_at": "2026-07-22T08:33:34Z",
+      "body_excerpt": "cuda: add sqrt_softplus in topk-moe for dsv4 (#25896) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10082",
+      "project": "llama-cpp",
+      "version": "b10082",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10082",
+      "published_at": "2026-07-22T06:27:57Z",
+      "body_excerpt": "kleidiai : warn once when a weight type has no KleidiAI kernel (#25701) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10081",
+      "project": "llama-cpp",
+      "version": "b10081",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10081",
+      "published_at": "2026-07-22T05:43:10Z",
+      "body_excerpt": "common: resolve draft repo to its requested sidecar (#25955) With -hfd pointing to a repo shipping speculative sidecars, the draft resolved to the main model of that repo, since find_best_model() excludes sidecar files, and the explicit draft plan suppressed the sidecar discovery on the -hf repo. The draft plan already discovers its sidecars, they were just never consumed. Wire them as the draft, ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10080",
+      "project": "llama-cpp",
+      "version": "b10080",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10080",
+      "published_at": "2026-07-22T05:06:25Z",
+      "body_excerpt": "server: return 400 instead of 500 on validation error with X-Conversation-Id (#25760) server: return 400 instead of 500 on validation error with X-Conversation-Id set_req() attaches the spipe as soon as the header is present, before the request body is parsed. When params validation throws, set_next() never runs and next_orig stays empty, so on_complete() called it and crashed with std::bad_functi",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10079",
       "project": "llama-cpp",
@@ -114,6 +150,15 @@
       "project": "ollama",
       "version": "v0.32.2-rc3",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc3",
+      "published_at": "2026-07-20T21:00:30Z",
+      "body_excerpt": "What's Changed launch: keep Claude Code channels available by @hoyyeva in cmd: remove dead agent prompt wrappers by @ParthSareen in agent: reorder working directory instruction by @ParthSareen in agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in anthropic: close text block before starting thin",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.2",
+      "project": "ollama",
+      "version": "v0.32.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2",
       "published_at": "2026-07-20T21:00:30Z",
       "body_excerpt": "What's Changed launch: keep Claude Code channels available by @hoyyeva in cmd: remove dead agent prompt wrappers by @ParthSareen in agent: reorder working directory instruction by @ParthSareen in agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in anthropic: close text block before starting thin",
       "type": "tool"
@@ -7991,15 +8036,6 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.37-beta",
       "published_at": "2026-04-23T14:33:16Z",
       "body_excerpt": "Hey guys, we revamped the entire Unsloth Studio UI and UX experience to put an emphasis on chat and training: Added a collapsible sidebar based on community feedback You can now delete chats and search past conversations New Preserve Thinking toggle for models that support it like Qwen3.6 Cleaner, more consistent design with easier navigation Expanded Settings page with options to change your prof",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.6.1",
-      "project": "transformers",
-      "version": "v5.6.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.6.1",
-      "published_at": "2026-04-23T08:20:03Z",
-      "body_excerpt": "Patch release v5.6.1 Flash attention path was broken! Sorry everyone for this one 🤗 Fix AttributeError on s_aux=None in flash_attention_forward ( by @jamesbraza",
       "type": "tool"
     }
   ]
