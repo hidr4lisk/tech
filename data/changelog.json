@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-22T08:35:38Z",
+  "updated_at": "2026-07-22T14:06:58Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10087",
+      "project": "llama-cpp",
+      "version": "b10087",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10087",
+      "published_at": "2026-07-22T11:03:57Z",
+      "body_excerpt": "Add support for Laguna XS.2 & M.1 (#25165) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10085",
+      "project": "llama-cpp",
+      "version": "b10085",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10085",
+      "published_at": "2026-07-22T09:53:04Z",
+      "body_excerpt": "mtmd : use align_corners for qwen3vl vision position embedding interpolation (#25781) The Qwen3-VL learned position embedding is interpolated to the runtime patch grid with the default bilinear+antialias (align_corners=False) sampling, while the transformers reference uses align_corners=True (torch.linspace(0, side-1, T)). The mismatch scales grounding coordinates about the image center, growing w",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10084",
+      "project": "llama-cpp",
+      "version": "b10084",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10084",
+      "published_at": "2026-07-22T09:10:57Z",
+      "body_excerpt": "hexagon: check tensor type when reusing descriptors (#25968) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android:",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10083",
       "project": "llama-cpp",
