@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-07-22T03:14:35Z",
+  "updated_at": "2026-07-22T08:35:33Z",
   "items": [
+    {
+      "id": "localllama-2026-07-22-force-thinking-in-laguna-s-21",
+      "source": "localllama",
+      "title": "Force <thinking> in Laguna-S-2.1",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v39gwm/force_thinking_in_lagunas21/",
+      "published_at": "2026-07-22T07:56:12Z",
+      "summary": "Those who have tested the new Laguna model might have noticed how reluctant it is to think through medium-hard questions, and it does impact the output quality. It is great that the model does not &quot;Qwen over&quot; q",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-22-add-support-for-laguna-xs2-m1-by-joerowell-pull-request-2516",
+      "source": "localllama",
+      "title": "Add support for Laguna XS.2 & M.1 by joerowell · Pull Request #25165 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v38n5b/add_support_for_laguna_xs2_m1_by_joerowell_pull/",
+      "published_at": "2026-07-22T07:09:24Z",
+      "summary": "      https://huggingface.co/poolside/Laguna-S-2.1 Laguna S 2.1 is a 118B total parameter Mixture-of-Experts model with 8B activated parameters per token, designed for agentic coding and long-horizon work. It sits betwee",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-22-vram-disk-cache-of-moe-makes-340-pps-96-tgs-for-kimi-27-on-a",
+      "source": "localllama",
+      "title": "VRAM disk cache of MoE makes 340 pp/s 9.6 tg/s for Kimi 2.7 on a single dgx spark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v37lza/vram_disk_cache_of_moe_makes_340_pps_96_tgs_for/",
+      "published_at": "2026-07-22T06:12:24Z",
+      "summary": "this strategy effectively uses vram as cache over disk to keep MoE experts on cuda compute path in llama.cpp. numbers first. detailed explanation down below. Numbers on dgx spark Kimi-K2.7-Code.i1-IQ_S.gguf 204GB 1T.A32B",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-22-today-was-the-perfect-day-for-poolside-to-drop-laguna-s-21-b",
+      "source": "localllama",
+      "title": "Today was the perfect day for Poolside to drop Laguna S 2.1 because I just got these in! Finally have a half decent amount of VRAM. 3x V620 = 96 GB.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v353sh/today_was_the_perfect_day_for_poolside_to_drop/",
+      "published_at": "2026-07-22T04:03:39Z",
+      "summary": "      Laguna is the first model I&#39;m trying, Q4_K_M fits with 256K context @ F16. Doing the html flight simulator test now. These cards are getting 400 to 600 tok/s prefill and 16 to 20 tok/s gen so far (I have NOT en",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-22-unsloth-quantization-of-laguna-s-21-is-out",
+      "source": "localllama",
+      "title": "Unsloth Quantization of Laguna S 2.1 Is Out",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v34ob0/unsloth_quantization_of_laguna_s_21_is_out/",
+      "published_at": "2026-07-22T03:42:58Z",
+      "summary": "      Various quantization now available, thanks Unsloth team !  &#32; submitted by &#32;  /u/BoogerheadCult   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-22-flightsimulatorbench-small-moe-edition",
       "source": "localllama",
@@ -13,12 +68,34 @@
       ]
     },
     {
+      "id": "localllama-2026-07-22-nanbeige42-3b-drops-3b-params-claiming-to-beat-9b12b-models",
+      "source": "localllama",
+      "title": "Nanbeige4.2-3B drops: 3B params claiming to beat 9B/12B models on agentic tasks (atleast according to them)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v336od/nanbeige423b_drops_3b_params_claiming_to_beat/",
+      "published_at": "2026-07-22T02:33:52Z",
+      "summary": "      Nanbeige Lab released Nanbeige4.2-3B, and if the benchmark claims hold up, the numbers are pretty crazy for a model this small. It’s built on a &quot;Looped Transformer&quot; architecture that reuses transformer la",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
       "id": "localllama-2026-07-22-felix-rieseberg-anthropic-electronjs-has-released-a-free-mac",
       "source": "localllama",
       "title": "Felix Rieseberg (Anthropic, ElectronJS) has released a free Mac app designed to help people build their own LLMs from scratch.",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v32ob7/felix_rieseberg_anthropic_electronjs_has_released/",
       "published_at": "2026-07-22T02:11:13Z",
       "summary": "      Announcement tweet here.  Direct link: Language Model Builder From the site: &quot;Using the default settings, you’ll get a model that writes coherent, grammatical multi-paragraph text in as little as a day. On a M",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-22-when-a-translation-model-starts-solving-the-problem-instead",
+      "source": "localllama",
+      "title": "When a translation model starts solving the problem instead of translating it (small rant)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v31z4z/when_a_translation_model_starts_solving_the/",
+      "published_at": "2026-07-22T01:40:13Z",
+      "summary": "So I was translating samples from Dolci-Think-SFT-7B and I thought it&#39;d be an easy task, just deploy Gemma on vllm and write a quick translation prompt, specify the source and target languages and that&#39;s it but I",
       "tags": [
         "localllama"
       ]
@@ -57,50 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-21-openai-admits-responsibility-for-huggingface-attack---an-age",
-      "source": "localllama",
-      "title": "OpenAI admits responsibility for HuggingFace Attack - an agent from an internal evaluation is reportedly the cause.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2w7jl/openai_admits_responsibility_for_huggingface/",
-      "published_at": "2026-07-21T21:40:50Z",
-      "summary": "&#32; submitted by &#32;  /u/Qwen30bEnjoyer   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-arxiv-publication-skip-a-layer-or-loop-it-learning-program-o",
-      "source": "localllama",
-      "title": "arXiv publication: \"Skip a Layer or Loop It? Learning Program-of-Layers in LLMs\"",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2udpa/arxiv_publication_skip_a_layer_or_loop_it/",
-      "published_at": "2026-07-21T20:32:44Z",
-      "summary": "In this paper, Li, Li, and Zhou review formal theory describing how inference-time compute can be traded off for higher or lower inference competence, and apply that theory to a handful of familiar open-weight LLMs (Llam",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-i-ran-laguna-s-21-through-my-private-agentic-eval-vs-qwen35",
-      "source": "localllama",
-      "title": "I ran Laguna-S-2.1 through my private agentic eval vs Qwen3.5-122B on an RTX Pro 6000 (96GB). Fastest 100B+ I've tested and the best tool calling, but it invents facts under pressure.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2ua8g/i_ran_lagunas21_through_my_private_agentic_eval/",
-      "published_at": "2026-07-21T20:29:15Z",
-      "summary": "      Laguna-S-2.1 dropped few hours ago and as I am in the market for an upgrade to trusty qwen3.6 dense and the current daily 122B, I ran it through the same eval harness I use to pick the model that runs my local agen",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-openai-and-hugging-face-partner-to-address-security-incident",
-      "source": "localllama",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2u7v9/openai_and_hugging_face_partner_to_address/",
-      "published_at": "2026-07-21T20:26:47Z",
-      "summary": "&#32; submitted by &#32;  /u/Recoil42   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-07-21-the-state-of-simulation-for-physical-ai-an-overview",
       "source": "huggingface",
       "title": "The State of Simulation for Physical AI: An Overview",
@@ -109,39 +142,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-bessent-says-us-could-sanction-china-over-ai-model-theft",
-      "source": "localllama",
-      "title": "Bessent says U.S. could sanction China over AI model 'theft'",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2t67m/bessent_says_us_could_sanction_china_over_ai/",
-      "published_at": "2026-07-21T19:49:15Z",
-      "summary": "      &#32; submitted by &#32;  /u/fallingdowndizzyvr   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-ds-v4-on-single-b300-only-770-toks-batched-in-vllm",
-      "source": "localllama",
-      "title": "DS V4 on single b300. only 770 tok/s batched in vLLM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2rtmk/ds_v4_on_single_b300_only_770_toks_batched_in_vllm/",
-      "published_at": "2026-07-21T19:01:05Z",
-      "summary": "Been running DeepSeek-V4-Flash for an offline batch job (cleaning a big pile of short text records, so lots of small prompts rather than chat). Single B300, vLLM 0.25.0, in-process LLM.chat over the batch. Reasoning on, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-updated-gemma-4-chat-template-witchcraft-gemma-4-26b-a4b-sho",
-      "source": "localllama",
-      "title": "Updated Gemma-4 chat template witchcraft: Gemma-4-26B-a4B shows dominance over Qwen3.6-MoE and Qwen3.5-MoE fine tunes (Instruct mode and Reasoning efficiency)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2rqbd/updated_gemma4_chat_template_witchcraft/",
-      "published_at": "2026-07-21T18:58:08Z",
-      "summary": "      Kind of unexpected.  Happy for Gemma-4/Google, big win for us, LocalLLMers.  Yet Qwen3.6 still does better in Hermes than Gemma-4 somehow. We need Gemma-4.1 fine-tuned on Agentic-tasks. That would be killer.   &#32",
-      "tags": [
-        "localllama"
       ]
     },
     {
