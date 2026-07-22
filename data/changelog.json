@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-21T19:38:05Z",
+  "updated_at": "2026-07-22T03:14:41Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10079",
+      "project": "llama-cpp",
+      "version": "b10079",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10079",
+      "published_at": "2026-07-22T02:03:31Z",
+      "body_excerpt": "server : properly handle null llama_context (#25868) Co-authored-by: Stanisław Szymczyk Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10078",
+      "project": "llama-cpp",
+      "version": "b10078",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10078",
+      "published_at": "2026-07-21T22:38:35Z",
+      "body_excerpt": "vulkan: Refactor vk_queue to use per-instance mutexes and unique handles (#23570) Refactor vk_queue to use per-instance mutexes and unique handles integrates VK_KHR_internally_synchronized_queues, abstracting the queue submission into a polymorphic interface that completely bypasses host-side mutex locking when driver-side synchronization is supported fix compilation error fix duplicate pNext chai",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10077",
+      "project": "llama-cpp",
+      "version": "b10077",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10077",
+      "published_at": "2026-07-21T21:53:49Z",
+      "body_excerpt": "ggml-openvino: Add GGML_BACKEND_DL_IMPL invocation for OpenVINO backend (#25795) This adds the missing macro invocation, that other backends have. Fixes #25586 for me Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10076",
       "project": "llama-cpp",
@@ -9,6 +36,60 @@
       "published_at": "2026-07-21T15:52:50Z",
       "body_excerpt": "CUDA: vectorize same-type get_rows with int4 copy (#25929) k_get_rows_float did a scalar one-element-per-thread copy and recomputed the row-invariant work (index load, fast_div_modulo, src/dst row pointers) for every element. Hoist that out of the per-element loop, and add a vectorized path (k_get_rows_float_vec) that copies one int4 (16 B) per thread for the contiguous same-type (no-cast) case. T",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-Mage-Flow-Edit-Base",
+      "project": "microsoft",
+      "version": "Mage-Flow-Edit-Base",
+      "url": "https://huggingface.co/microsoft/Mage-Flow-Edit-Base",
+      "published_at": "2026-07-21T11:04:19Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Mage-Flow-Edit-Turbo",
+      "project": "microsoft",
+      "version": "Mage-Flow-Edit-Turbo",
+      "url": "https://huggingface.co/microsoft/Mage-Flow-Edit-Turbo",
+      "published_at": "2026-07-21T11:03:55Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Mage-Flow-Edit",
+      "project": "microsoft",
+      "version": "Mage-Flow-Edit",
+      "url": "https://huggingface.co/microsoft/Mage-Flow-Edit",
+      "published_at": "2026-07-21T11:00:55Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Mage-Flow-Turbo",
+      "project": "microsoft",
+      "version": "Mage-Flow-Turbo",
+      "url": "https://huggingface.co/microsoft/Mage-Flow-Turbo",
+      "published_at": "2026-07-21T11:00:22Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Mage-Flow",
+      "project": "microsoft",
+      "version": "Mage-Flow",
+      "url": "https://huggingface.co/microsoft/Mage-Flow",
+      "published_at": "2026-07-21T10:57:40Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Mage-Flow-Base",
+      "project": "microsoft",
+      "version": "Mage-Flow-Base",
+      "url": "https://huggingface.co/microsoft/Mage-Flow-Base",
+      "published_at": "2026-07-21T06:36:04Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10075",
@@ -24,6 +105,15 @@
       "project": "ollama",
       "version": "v0.32.2-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0",
+      "published_at": "2026-07-20T21:00:30Z",
+      "body_excerpt": "What's Changed launch: keep Claude Code channels available by @hoyyeva in cmd: remove dead agent prompt wrappers by @ParthSareen in agent: reorder working directory instruction by @ParthSareen in agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in anthropic: close text block before starting thin",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.2-rc3",
+      "project": "ollama",
+      "version": "v0.32.2-rc3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc3",
       "published_at": "2026-07-20T21:00:30Z",
       "body_excerpt": "What's Changed launch: keep Claude Code channels available by @hoyyeva in cmd: remove dead agent prompt wrappers by @ParthSareen in agent: reorder working directory instruction by @ParthSareen in agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in anthropic: close text block before starting thin",
       "type": "tool"
@@ -7910,15 +8000,6 @@
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.6.1",
       "published_at": "2026-04-23T08:20:03Z",
       "body_excerpt": "Patch release v5.6.1 Flash attention path was broken! Sorry everyone for this one 🤗 Fix AttributeError on s_aux=None in flash_attention_forward ( by @jamesbraza",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.21.2",
-      "project": "ollama",
-      "version": "v0.21.2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.21.2",
-      "published_at": "2026-04-23T02:29:24Z",
-      "body_excerpt": "What's Changed Improved reliability of the OpenClaw onboarding flow in Recommended models in now appear in a fixed, canonical order OpenClaw integration now bundles Ollama's web search plugin in OpenClaw New Contributors @madflow made their first contribution in Full Changelog:",
       "type": "tool"
     }
   ]
