@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-07-21T19:37:58Z",
+  "updated_at": "2026-07-22T03:14:35Z",
   "items": [
+    {
+      "id": "localllama-2026-07-22-flightsimulatorbench-small-moe-edition",
+      "source": "localllama",
+      "title": "FlightSimulatorBench: Small MoE edition",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v33dlq/flightsimulatorbench_small_moe_edition/",
+      "published_at": "2026-07-22T02:42:41Z",
+      "summary": "      Properly done this time.  Models as the GIFs are displayed:  Qwen3.6-27B - 4bit Qwen3.6-MoE - 6bit Ornith-35B - 6bit Gemma-4-26B - 6bit Qwen3.6-MoE - 4bit HuiHui-Qwen3.6-MoE - 6bit Agents-A1 - 6bit  Inference param",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-22-felix-rieseberg-anthropic-electronjs-has-released-a-free-mac",
+      "source": "localllama",
+      "title": "Felix Rieseberg (Anthropic, ElectronJS) has released a free Mac app designed to help people build their own LLMs from scratch.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v32ob7/felix_rieseberg_anthropic_electronjs_has_released/",
+      "published_at": "2026-07-22T02:11:13Z",
+      "summary": "      Announcement tweet here.  Direct link: Language Model Builder From the site: &quot;Using the default settings, you’ll get a model that writes coherent, grammatical multi-paragraph text in as little as a day. On a M",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-22-p40s-mi50s-rpc-on-550b-nemotron-ultra-q3-s",
+      "source": "localllama",
+      "title": "P40's + MI50's + RPC on 550B Nemotron Ultra Q3_S",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v31cc0/p40s_mi50s_rpc_on_550b_nemotron_ultra_q3_s/",
+      "published_at": "2026-07-22T01:11:43Z",
+      "summary": "      Hey guys, I went ahead and installed a 100Gbe NIC card on both my MI50 machine and my P40 machine and loaded Nemotron Ultra IQ3_S across both machines. I was pretty surprised on the throughput for such old hardware",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-gigatoken-a-new-open-source-tokenizer-100x-faster-than-tikto",
+      "source": "localllama",
+      "title": "Gigatoken: A new open source tokenizer ~100x faster than Tiktoken, -500-1000x faster than Huggingface",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2yfqp/gigatoken_a_new_open_source_tokenizer_100x_faster/",
+      "published_at": "2026-07-21T23:08:29Z",
+      "summary": "&#32; submitted by &#32;  /u/Thrumpwart   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-can-kimi-k3-solve-the-same-problems-that-claude-fable-can",
+      "source": "localllama",
+      "title": "Can Kimi K3 solve the same problems that Claude Fable can?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2xwsu/can_kimi_k3_solve_the_same_problems_that_claude/",
+      "published_at": "2026-07-21T22:46:57Z",
+      "summary": "Despite local models getting significantly better, it seems that no one is trying to replicate the existing accomplishments of closed models. When it inevitably drops, would someone be willing to run GLM or Kimi on their",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-openai-admits-responsibility-for-huggingface-attack---an-age",
+      "source": "localllama",
+      "title": "OpenAI admits responsibility for HuggingFace Attack - an agent from an internal evaluation is reportedly the cause.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2w7jl/openai_admits_responsibility_for_huggingface/",
+      "published_at": "2026-07-21T21:40:50Z",
+      "summary": "&#32; submitted by &#32;  /u/Qwen30bEnjoyer   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-arxiv-publication-skip-a-layer-or-loop-it-learning-program-o",
+      "source": "localllama",
+      "title": "arXiv publication: \"Skip a Layer or Loop It? Learning Program-of-Layers in LLMs\"",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2udpa/arxiv_publication_skip_a_layer_or_loop_it/",
+      "published_at": "2026-07-21T20:32:44Z",
+      "summary": "In this paper, Li, Li, and Zhou review formal theory describing how inference-time compute can be traded off for higher or lower inference competence, and apply that theory to a handful of familiar open-weight LLMs (Llam",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-i-ran-laguna-s-21-through-my-private-agentic-eval-vs-qwen35",
+      "source": "localllama",
+      "title": "I ran Laguna-S-2.1 through my private agentic eval vs Qwen3.5-122B on an RTX Pro 6000 (96GB). Fastest 100B+ I've tested and the best tool calling, but it invents facts under pressure.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2ua8g/i_ran_lagunas21_through_my_private_agentic_eval/",
+      "published_at": "2026-07-21T20:29:15Z",
+      "summary": "      Laguna-S-2.1 dropped few hours ago and as I am in the market for an upgrade to trusty qwen3.6 dense and the current daily 122B, I ran it through the same eval harness I use to pick the model that runs my local agen",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-openai-and-hugging-face-partner-to-address-security-incident",
+      "source": "localllama",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2u7v9/openai_and_hugging_face_partner_to_address/",
+      "published_at": "2026-07-21T20:26:47Z",
+      "summary": "&#32; submitted by &#32;  /u/Recoil42   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-07-21-the-state-of-simulation-for-physical-ai-an-overview",
+      "source": "huggingface",
+      "title": "The State of Simulation for Physical AI: An Overview",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "published_at": "2026-07-21T20:00:27Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-21-bessent-says-us-could-sanction-china-over-ai-model-theft",
+      "source": "localllama",
+      "title": "Bessent says U.S. could sanction China over AI model 'theft'",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2t67m/bessent_says_us_could_sanction_china_over_ai/",
+      "published_at": "2026-07-21T19:49:15Z",
+      "summary": "      &#32; submitted by &#32;  /u/fallingdowndizzyvr   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-21-ds-v4-on-single-b300-only-770-toks-batched-in-vllm",
       "source": "localllama",
@@ -24,105 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-21-laguna-s-21-released-cheaper-than-deepseek-v4-flash-better-t",
-      "source": "localllama",
-      "title": "Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2pg99/laguna_s_21_released_cheaper_than_deepseek_v4/",
-      "published_at": "2026-07-21T17:39:54Z",
-      "summary": "        Model Size Terminal-Bench 2.1 SWE-bench Multilingual SWE-Bench Pro (Public Dataset) DeepSWE SWE Atlas (Codebase QnA) Toolathlon Verified    Laguna S 2.1 118B-A8B 70.2% 78.5% 59.4% 40.4% 46.2% 49.7%   Finally the ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-poolsidelaguna-s-21-released-finally-an-interesting-120b-con",
-      "source": "localllama",
-      "title": "poolside/Laguna-S-2.1 released! Finally an interesting 120B contender!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2orhb/poolsidelagunas21_released_finally_an_interesting/",
-      "published_at": "2026-07-21T17:16:11Z",
-      "summary": "      HF: https://huggingface.co/poolside/Laguna-S-2.1 GGUFs available for use with llama.cpp custom fork: https://huggingface.co/poolside/Laguna-S-2.1-GGUF Posted on X: https://x.com/poolsideai/status/207961377734384846",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-new-model-nanbeige42-3b-looped-transformer-outperforms-4x-si",
-      "source": "localllama",
-      "title": "New Model: Nanbeige4.2-3B (Looped Transformer, outperforms 4x size)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2n7l6/new_model_nanbeige423b_looped_transformer/",
-      "published_at": "2026-07-21T16:21:12Z",
-      "summary": "      https://huggingface.co/Nanbeige/Nanbeige4.2-3B Nanbeige4.2-3B is a compact agentic model built on Nanbeige4.2-3B-Base, designed to combine strong agentic behavior with broad reasoning and alignment capabilities. It",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-sensenova-u1-8b-mot-infographic-v3-has-been-released-2-weeks",
-      "source": "localllama",
-      "title": "SenseNova-U1-8b-MoT-Infographic-V3 has been released (2 weeks after V2)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2mszh/sensenovau18bmotinfographicv3_has_been_released_2/",
-      "published_at": "2026-07-21T16:06:37Z",
-      "summary": "      Four things it does:  Local text editing: mark a region (or just say it in natural language) and replace specific text. Fixes typos, swaps numbers, changes titles — keeps everything else intact Local content editin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-20b-looping-model-paper-matches-or-beats-qwen3-coder-30b-at",
-      "source": "localllama",
-      "title": "20B Looping model (paper) matches or beats Qwen3 Coder 30B at 10% of pre-training tokens",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2mhmi/20b_looping_model_paper_matches_or_beats_qwen3/",
-      "published_at": "2026-07-21T15:55:39Z",
-      "summary": "No weights yet. I feel sad for them, that training run cost maybe 100s of thousands of dollars and they didn&#39;t even beat GPT-OSS 20B in every regard But the ability to train a model from scratch on 3.5 trillion token",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-what-are-some-important-smalltiny-local-models-to-download-t",
-      "source": "localllama",
-      "title": "What are some important small/tiny local models to download that aren't the main chatbot LLMs, but are things for like audio, TTS, STT, vision, or whatever random important miscellaneous things like that which might be useful to get before the bans and shutdowns come in?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2m3mh/what_are_some_important_smalltiny_local_models_to/",
-      "published_at": "2026-07-21T15:41:37Z",
-      "summary": "Most of us already know the main important mainline local LLMs to save like Qwen3.6 27b, Gemma4 31b, GLM5.2, etc. And then for diffusion models, Z-Image Turbo, Flux Klein, LTX2.3, and Wan2.2. But, what about those random",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-pi-0810-adds-support-for-llamacpp",
-      "source": "localllama",
-      "title": "pi 0.81.0 adds support for llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2lszl/pi_0810_adds_support_for_llamacpp/",
-      "published_at": "2026-07-21T15:31:03Z",
-      "summary": "      pi 0.81.0 now has integrated support for llama.cpp (llama-server router). https://pi.dev/docs/latest/llama-cpp This seems to be able to replace the huggingface/pi-llama extension and/or manually managing models in ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-anthropic-claims-local-models-are-stealing-from-it-meanwhile",
-      "source": "localllama",
-      "title": "Anthropic claims local models are stealing from it, meanwhile it pays $1.5B for theft",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2ky1e/anthropic_claims_local_models_are_stealing_from/",
-      "published_at": "2026-07-21T15:00:56Z",
-      "summary": " $1.5 billion settlement largest known payout in U.S. copyright case Case part of a wave of lawsuits from copyright holders against AI companies Some authors and publishers opted out and continue separate ​cases against ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-mindlab-researchmacaron-v1-venti-huggingface",
-      "source": "localllama",
-      "title": "mindlab-research/Macaron-V1-Venti • HuggingFace",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2k5hv/mindlabresearchmacaronv1venti_huggingface/",
-      "published_at": "2026-07-21T14:31:36Z",
-      "summary": "      https://preview.redd.it/67lb9m0pfleh1.jpg?width=2048&amp;format=pjpg&amp;auto=webp&amp;s=9cebf34a2b3b98815fe3aa525ebe412eedcf225f https://huggingface.co/mindlab-research/Macaron-V1-Venti https://macaron.im/zh/mindl",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-21-nativ-run-ai-models-locally-on-your-mac",
       "source": "simonw",
       "title": "Nativ: Run AI models locally on your Mac",
@@ -131,17 +153,6 @@
       "summary": "Nativ: Run AI models locally on your Mac\nPrince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac.\nI'm really excited about his new project, which wraps MLX in",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-21-there-is-no-need-to-worry-about-trump-banning-chinas-open-so",
-      "source": "localllama",
-      "title": "There is no need to worry about Trump banning China‘s open source model at all.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2huar/there_is_no_need_to_worry_about_trump_banning/",
-      "published_at": "2026-07-21T13:03:12Z",
-      "summary": "I’ve seen many people worrying that if Trump moves to block Chinese AI models, aggregators like OpenRouter will no longer be able to host them. As someone from China, let me reassure you: there is really no need for such",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -428,17 +439,6 @@
       "summary": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications.\nThe po",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "huggingface-2026-07-08-data-for-agents",
-      "source": "huggingface",
-      "title": "Data for Agents",
-      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-      "published_at": "2026-07-08T17:16:05Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
