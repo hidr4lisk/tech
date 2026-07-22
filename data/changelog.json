@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-22T14:06:58Z",
+  "updated_at": "2026-07-22T19:27:12Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10088",
+      "project": "llama-cpp",
+      "version": "b10088",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10088",
+      "published_at": "2026-07-22T16:18:39Z",
+      "body_excerpt": "llama-arch: fix DeepSeek4 APE tensor op (#25945) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10087",
       "project": "llama-cpp",
@@ -243,6 +252,24 @@
       "published_at": "2026-07-17T23:13:36Z",
       "body_excerpt": "opencl: load and use from bin kernel lib (#25797) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-Fara1.5-27B",
+      "project": "microsoft",
+      "version": "Fara1.5-27B",
+      "url": "https://huggingface.co/microsoft/Fara1.5-27B",
+      "published_at": "2026-07-17T20:09:59Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Fara1.5-4B",
+      "project": "microsoft",
+      "version": "Fara1.5-4B",
+      "url": "https://huggingface.co/microsoft/Fara1.5-4B",
+      "published_at": "2026-07-17T19:59:47Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "hf-EleutherAI-bergson-smollm2-lds-32k",
@@ -551,6 +578,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-MiniMax-M3-DSpark",
+      "project": "nvidia",
+      "version": "MiniMax-M3-DSpark",
+      "url": "https://huggingface.co/nvidia/MiniMax-M3-DSpark",
+      "published_at": "2026-07-15T20:47:13Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b10034",
       "project": "llama-cpp",
       "version": "b10034",
@@ -594,6 +630,15 @@
       "published_at": "2026-07-15T18:27:06Z",
       "body_excerpt": "Hey guys we got lots of new update for Unsloth, especially customization. Unsloth now yours to personalize: three color palettes plus custom colors and fonts, seven new display languages, and a new Voice settings tab for dictation and read-aloud. Agents get safer with a four-level tool-call permission selector (Ask, Approve for me, Off, Full access) and workspace isolation, and Intel GPUs finally ",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Ising-Decoder-ColorCode-1-Fast",
+      "project": "nvidia",
+      "version": "Ising-Decoder-ColorCode-1-Fast",
+      "url": "https://huggingface.co/nvidia/Ising-Decoder-ColorCode-1-Fast",
+      "published_at": "2026-07-15T16:22:56Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10025",
@@ -8019,51 +8064,6 @@
       "published_at": "2026-04-23T20:16:46Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "hf-google-gemma-4-31B-it-assistant",
-      "project": "google",
-      "version": "gemma-4-31B-it-assistant",
-      "url": "https://huggingface.co/google/gemma-4-31B-it-assistant",
-      "published_at": "2026-04-23T18:55:29Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-gemma-4-E4B-it-assistant",
-      "project": "google",
-      "version": "gemma-4-E4B-it-assistant",
-      "url": "https://huggingface.co/google/gemma-4-E4B-it-assistant",
-      "published_at": "2026-04-23T18:44:33Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "transformers-v5.6.2",
-      "project": "transformers",
-      "version": "v5.6.2",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.6.2",
-      "published_at": "2026-04-23T18:36:03Z",
-      "body_excerpt": "Patch release v5.6.2 Qwen 3.5 and 3.6 MoE (text-only) were broken when using with FP8. It should now work again with this :saluting_face: Fix configuration reading and error handling for kernels ( by @hmellor Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "hf-google-gemma-4-E2B-it-assistant",
-      "project": "google",
-      "version": "gemma-4-E2B-it-assistant",
-      "url": "https://huggingface.co/google/gemma-4-E2B-it-assistant",
-      "published_at": "2026-04-23T18:35:40Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "unsloth-v0.1.37-beta",
-      "project": "unsloth",
-      "version": "v0.1.37-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.37-beta",
-      "published_at": "2026-04-23T14:33:16Z",
-      "body_excerpt": "Hey guys, we revamped the entire Unsloth Studio UI and UX experience to put an emphasis on chat and training: Added a collapsible sidebar based on community feedback You can now delete chats and search past conversations New Preserve Thinking toggle for models that support it like Qwen3.6 Cleaner, more consistent design with easier navigation Expanded Settings page with options to change your prof",
-      "type": "tool"
     }
   ]
 }
