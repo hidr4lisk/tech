@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-23T03:21:44Z",
+  "updated_at": "2026-07-23T08:37:21Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10092",
+      "project": "llama-cpp",
+      "version": "b10092",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10092",
+      "published_at": "2026-07-23T05:30:53Z",
+      "body_excerpt": "ggml: enable PowerPC backend variants on AIX (#25983) ggml: enable PowerPC backend variants on AIX Allow the PowerPC CPU backend variants to be built on AIX by extending the platform check in the CMake configuration. This reuses the existing PowerPC backend implementations without changing their behavior. Also fix a missing semicolon in the PowerPC Q0 matmul implementation. Fix missing semicolon i",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.32.3-rc0",
       "project": "ollama",
