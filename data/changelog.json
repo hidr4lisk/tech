@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-07-22T19:27:12Z",
+  "updated_at": "2026-07-23T03:21:44Z",
   "releases": [
+    {
+      "id": "ollama-v0.32.3-rc0",
+      "project": "ollama",
+      "version": "v0.32.3-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0",
+      "published_at": "2026-07-23T00:44:28Z",
+      "body_excerpt": "What's Changed mlx update by @dhiltgen in model/parsers: finalize incomplete GLM tool calls by @dhiltgen in docs: update retirements by @mxyng in model: align Laguna with upstream llama.cpp by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10091",
+      "project": "llama-cpp",
+      "version": "b10091",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10091",
+      "published_at": "2026-07-22T21:07:01Z",
+      "body_excerpt": "ci : fix SYCL package shared library lookup (#25987) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10090",
+      "project": "llama-cpp",
+      "version": "b10090",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10090",
+      "published_at": "2026-07-22T20:23:31Z",
+      "body_excerpt": "webgpu : add CONV_2D_DW (depthwise conv2d) kernel (#25847) webgpu : add CONV_2D_DW (depthwise conv2d) kernel Implement GGML_OP_CONV_2D_DW for the WebGPU backend, ported from the Vulkan backend's conv2d_dw.comp. Assisted-by: Claude Opus-4.8 Remove unnecessary comments in webgpu support update supported ops tables, triggered by adding webgpu CONV_2D_DW Website: macOS/iOS: macOS Apple Silicon (arm64)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10089",
+      "project": "llama-cpp",
+      "version": "b10089",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10089",
+      "published_at": "2026-07-22T19:45:27Z",
+      "body_excerpt": "cuda: GET_ROWS quants (#25962) cuda: add k-quant support to GET_ROWS Device-side embedding lookups require GET_ROWS to handle the k-quants used by common GGUF recipes (Q4_K_M stores token_embd as q6_K). Without it the backend rejects the op and the scheduler falls back to the host, copying the full embedding matrix back on every token in single-device graphs. Factor the super-block dequantizers ou",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10088",
       "project": "llama-cpp",
@@ -8053,15 +8089,6 @@
       "version": "nanowhale-100m",
       "url": "https://huggingface.co/HuggingFaceTB/nanowhale-100m",
       "published_at": "2026-04-24T11:54:36Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-gemma-4-26B-A4B-it-assistant",
-      "project": "google",
-      "version": "gemma-4-26B-A4B-it-assistant",
-      "url": "https://huggingface.co/google/gemma-4-26B-A4B-it-assistant",
-      "published_at": "2026-04-23T20:16:46Z",
       "body_excerpt": "",
       "type": "model"
     }

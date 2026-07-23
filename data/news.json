@@ -1,134 +1,167 @@
 {
-  "updated_at": "2026-07-22T19:27:04Z",
+  "updated_at": "2026-07-23T03:21:37Z",
   "items": [
     {
-      "id": "localllama-2026-07-22-genesis-science-1-gs1-1t-open-weight-model-later-this-year-f",
+      "id": "localllama-2026-07-23-fyi-you-dont-need-expensive-networking-for-multi-node-gpu-30",
       "source": "localllama",
-      "title": "Genesis-Science-1 (GS1), 1T open-weight model later this year from Arcee AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3q47x/genesisscience1_gs1_1t_openweight_model_later/",
-      "published_at": "2026-07-22T19:19:07Z",
-      "summary": "      Today the Department of Energy (DOE) and Arcee AI announced the development of Genesis-Science-1 (GS1), an open model for scientific research. This is a joint effort to bring advanced AI into scientific research ac",
+      "title": "FYI You dont need expensive networking for multi-node gpu. 30t/s laguna Q2_K_XL (39.7GB) on 2x4060+1x4060 using a $20 usb->ethernet.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3xosh/fyi_you_dont_need_expensive_networking_for/",
+      "published_at": "2026-07-23T00:04:50Z",
+      "summary": "      Turns out a regular ethernet cable between 2 nodes can run laguna UD-Q2_K_XL (39.7GB) using a direct point to point network. Interestingly on `nvidia-smi dmon -s pucvmet -d 2`, the inter/intra gpu traffic is not re",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-22-built-a-from-scratch-bitnet-inference-engine-in-pure-c-18-fa",
+      "id": "simonw-2026-07-22-quoting-thomas-ptacek",
+      "source": "simonw",
+      "title": "Quoting Thomas Ptacek",
+      "url": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
+      "published_at": "2026-07-22T23:59:01Z",
+      "summary": "I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-22-openais-accidental-cyberattack-against-hugging-face-is-scien",
+      "source": "simonw",
+      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
+      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
+      "published_at": "2026-07-22T23:51:33Z",
+      "summary": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of Open",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-22-how-are-we-feeling-about-poolsides-laguna-s-21-only-comment",
       "source": "localllama",
-      "title": "Built a from-scratch BitNet inference engine in pure C — 1.8× faster than bitnet.cpp on Xeon (36 tok/s), zero dependencies [BitNet & Bonsai CPU testers wanted]",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3pn1w/built_a_fromscratch_bitnet_inference_engine_in/",
-      "published_at": "2026-07-22T19:02:27Z",
-      "summary": "Hey r/LocalLLM, Built Project Zero — a from-scratch CPU-only LLM inference engine in pure C99. It beats bitnet.cpp by 1.8× on the same hardware. We also fully support Qwen Bonsai-27B on CPU, and we are looking for the co",
+      "title": "How are we feeling about Poolside's Laguna S 2.1? (only comment if you've used it)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3wyre/how_are_we_feeling_about_poolsides_laguna_s_21/",
+      "published_at": "2026-07-22T23:34:11Z",
+      "summary": "I&#39;ve got some time tonight and am excited to run it through my agent loops and form my own opinion. Wanted to hear everyone else&#39;s as well, but without the barchart noise.  &#32; submitted by &#32;  /u/ForsookCom",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-22-mage-flow---an-efficient-native-resolution-foundation-model",
+      "id": "localllama-2026-07-22-247-subreddit-radio",
       "source": "localllama",
-      "title": "Mage-Flow - An Efficient Native-Resolution Foundation Model for Image Generation and Editing - Microsoft",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3o024/mageflow_an_efficient_nativeresolution_foundation/",
-      "published_at": "2026-07-22T18:05:43Z",
-      "summary": "      Models: (Check Model cards for so much sample demo images)  https://huggingface.co/microsoft/Mage-Flow https://huggingface.co/microsoft/Mage-Flow-Turbo https://huggingface.co/microsoft/Mage-Flow-Edit  Mage-Flow is ",
+      "title": "24/7 Subreddit Radio",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3woyv/247_subreddit_radio/",
+      "published_at": "2026-07-22T23:22:45Z",
+      "summary": "I built a 24/7 radio station about r/wallstreetbets  Everyone hears the same second at the same time. Real radio, not a playlist. You don&#39;t pick a track, you tune into wherever the tape is and vibe.  It&#39;s essenti",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-22-microsoftfara15-27b-hugging-face",
+      "id": "simonw-2026-07-22-are-ai-labs-pelicanmaxxing",
+      "source": "simonw",
+      "title": "Are AI labs pelicanmaxxing?",
+      "url": "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything",
+      "published_at": "2026-07-22T23:01:00Z",
+      "summary": "Are AI labs pelicanmaxxing?\nExcellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bicy",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-22-sanctions-on-open-source-hope-they-dont-do-anything-stupid-h",
       "source": "localllama",
-      "title": "microsoft/Fara1.5-27B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3ny84/microsoftfara1527b_hugging_face/",
-      "published_at": "2026-07-22T18:04:02Z",
-      "summary": "      Fara1.5-27B is a multimodal computer use agent (CUA) for web browsers, from Microsoft Research AI Frontiers. It observes the browser through screenshots and acts on the user&#39;s behalf by emitting structured tool",
+      "title": "Sanctions on Open Source. hope they don’t do anything stupid here.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3v75j/sanctions_on_open_source_hope_they_dont_do/",
+      "published_at": "2026-07-22T22:22:40Z",
+      "summary": "      &#32; submitted by &#32;  /u/MLExpert000   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-22-cactus-hybrid-we-taught-gemma-4-to-know-when-its-wrong",
+      "id": "localllama-2026-07-22-chinas-kimi-k3-fuels-fears-safety-curbs-are-holding-back-us",
       "source": "localllama",
-      "title": "Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3nw3j/cactus_hybrid_we_taught_gemma_4_to_know_when_its/",
-      "published_at": "2026-07-22T18:01:58Z",
-      "summary": "      Hey HN, Henry &amp; Roman here from Cactus. A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to ",
+      "title": "China’s Kimi K3 fuels fears safety curbs are holding back US AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3us2p/chinas_kimi_k3_fuels_fears_safety_curbs_are/",
+      "published_at": "2026-07-22T22:06:26Z",
+      "summary": "      interesting to see the reverse of the American frontier model makers&#39; stance coming from the Chinese side via South China Morning Post  &#32; submitted by &#32;  /u/zxyzyxz   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-22-dear-michael-llms-dont-run-on-proprietary-technology-but-the",
+      "id": "localllama-2026-07-22-1-if-you-are-friend-of-open-weight-models-and-would-rather-p",
       "source": "localllama",
-      "title": "Dear Michael, LLMs don't run on proprietary technology, but they do run on lots of proprietary data aka stolen IP",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3nff7/dear_michael_llms_dont_run_on_proprietary/",
-      "published_at": "2026-07-22T17:46:35Z",
-      "summary": "      &#32; submitted by &#32;  /u/ZenaMeTepe   [link] &#32; [comments] ",
+      "title": "+1 if you are friend of open weight models and would rather pay $20 for Kimi rather than closed cloud providers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3uoo1/1_if_you_are_friend_of_open_weight_models_and/",
+      "published_at": "2026-07-22T22:02:45Z",
+      "summary": "If you are a fan of local A.I. boycott the big cloud providers. I have several cloud accounts but I&#39;m planning on letting them expire. What do you think?  &#32; submitted by &#32;  /u/Terminator857   [link] &#32; [co",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-22-16x-amd-mi50-32gb-glm-52-q4-at-122-toks-with-llamacpp-rpc",
+      "id": "localllama-2026-07-22-introducing-antares-highly-efficient-open-weight-ai-models-f",
       "source": "localllama",
-      "title": "16x AMD MI50 32GB: GLM-5.2 Q4 at 12.2 tok/s with llama.cpp RPC",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3myq9/16x_amd_mi50_32gb_glm52_q4_at_122_toks_with/",
-      "published_at": "2026-07-22T17:30:27Z",
-      "summary": "GLM-5.2 UD-Q4_K_XL GGUF @ 12.2 tok/s output // 30.9 tok/s input on a real 10.7k-token document using llama.cpp RPC - At 10.7k context: 10.2 tok/s output with coherent long-form generation  Two parallel requests: 14.5 tok",
+      "title": "Introducing Antares: Highly Efficient Open Weight AI Models for Vulnerability Localization",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3tlpr/introducing_antares_highly_efficient_open_weight/",
+      "published_at": "2026-07-22T21:22:25Z",
+      "summary": "      Seems pretty impressive for its size!  That&#39;s the kind of thing I want to see more of, really small models that excel at specific fields.  &#32; submitted by &#32;  /u/suamai   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-22-mindcontrol---llamacpp-fork-to-guide-the-reasoning-process-v",
+      "id": "localllama-2026-07-22-archex-local-first-deterministic-code-context-for-coding-age",
       "source": "localllama",
-      "title": "MindControl - llama.cpp fork to guide the reasoning process via injection during sampling",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3ms3c/mindcontrol_llamacpp_fork_to_guide_the_reasoning/",
-      "published_at": "2026-07-22T17:24:14Z",
-      "summary": "      The primary driver of this project is that I&#39;d become frustrated with the reasoning behavior of smaller local models such as Qwen3.6-27B (i believe particularly at lower temperatures, and where system prompts a",
+      "title": "archex: local-first, deterministic code context for coding agents — 26 languages, zero telemetry, Apache 2.0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3si2v/archex_localfirst_deterministic_code_context_for/",
+      "published_at": "2026-07-22T20:41:50Z",
+      "summary": "      archex turns a repo into a ranked, token-budgeted context bundle for coding agents instead of letting them grep their way through it. BM25F + local embeddings + graph expansion for imports/types/callers, fully dete",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-22-laguna-s-21-runs-on-my-6-years-old-gaming-pc",
+      "id": "localllama-2026-07-22-session-adaptive-orthogonal-distillation-saod-technology-com",
       "source": "localllama",
-      "title": "Laguna-S-2.1 runs on my 6 years old gaming PC!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3m4ej/lagunas21_runs_on_my_6_years_old_gaming_pc/",
-      "published_at": "2026-07-22T17:02:07Z",
-      "summary": "Laguna-S-2.1 runs on my 2020 PC (RTX 3080 10GB, Ryzen 9 3950X, 64 GB RAM). Realistically only usable overnight though. I must not breathe too hard or I run out of both VRAM and host RAM. There&#39;s just enough RAM left ",
+      "title": "Session-Adaptive Orthogonal Distillation (SAOD)? Technology compresses 744B (1.5TB) to under 100GB?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3shir/sessionadaptive_orthogonal_distillation_saod/",
+      "published_at": "2026-07-22T20:41:20Z",
+      "summary": "      Tweet : https://xcancel.com/jun_song/status/2079914426334167258#m Looks like 8GB VRAM could do more like even run 70-100B MOE models possibly. Sorry about the clickbait title, I want more eyes on this..... zzz  &#3",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-22-instead-of-panicking-about-the-hugging-face-attack-people-ne",
+      "id": "localllama-2026-07-22-laguna-s-21-thinking-mode",
       "source": "localllama",
-      "title": "Instead of panicking about the Hugging Face attack, people need to start questioning OpenAI's insecure sandboxes.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3lo6k/instead_of_panicking_about_the_hugging_face/",
-      "published_at": "2026-07-22T16:46:37Z",
-      "summary": "One thing I noticed in American politics, whenever the government wants to push unpopular actions or laws, they often introduce fear to convince the public to support them. This is actually how i view the recent news abo",
+      "title": "Laguna S 2.1 Thinking mode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3sgon/laguna_s_21_thinking_mode/",
+      "published_at": "2026-07-22T20:40:28Z",
+      "summary": "If many people have noticed that there&#39;s no reasoning phase in Laguna S 2.1. I noticed the Poolside development team updated the chat template twice in the last 24 hours. There was a bug where, if preserve_thinking w",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-22-openai-hacking-huggingface-in-one-meme",
+      "id": "localllama-2026-07-22-laguna-s-21-looping-fix-incoming",
       "source": "localllama",
-      "title": "OpenAI hacking HuggingFace in one meme",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3k0ei/openai_hacking_huggingface_in_one_meme/",
-      "published_at": "2026-07-22T15:48:54Z",
-      "summary": "      &#32; submitted by &#32;  /u/linegel   [link] &#32; [comments] ",
+      "title": "Laguna S 2.1 looping fix incoming",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3s95n/laguna_s_21_looping_fix_incoming/",
+      "published_at": "2026-07-22T20:32:36Z",
+      "summary": "      EDIT - Poolside have updated the INT4, NVPF4, and FP8 versions with a fix for the looping issue many of us have been seeing. Full precision and GGUFs remain unchanged. Discussion - https://huggingface.co/poolside/L",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-22-got-these-baddies-in-the-mail-today-2x-3080-20gb",
+      "id": "localllama-2026-07-22-btl-3-27b-agentic-coding-and-tool-use-model-from-bad-theory",
       "source": "localllama",
-      "title": "Got these baddies in the mail today (2X 3080 20GB)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3jrc2/got_these_baddies_in_the_mail_today_2x_3080_20gb/",
-      "published_at": "2026-07-22T15:40:06Z",
-      "summary": "      About to plug them in. Currently running a single 3090. I got these for less than the price of a single 3090. 24GB wasn&#39;t enough for my use case, so 40 GB should be an upgrade.  Going to throw my 3090 on ebay v",
+      "title": "BTL-3 27B agentic coding and tool-use model from Bad Theory Labs (fits in 8.39GB)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3q86q/btl3_27b_agentic_coding_and_tooluse_model_from/",
+      "published_at": "2026-07-22T19:22:56Z",
+      "summary": "https://x.com/Badtheorylabs/status/2079306502897074249  A 27B open-weight agent model built for agentic coding, structural tool use . The complete thing fits in one 8.39GB file under 2.5 bits per parameter smaller than a",
       "tags": [
         "localllama"
       ]
@@ -274,39 +307,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-17-quoting-kimi-k3",
-      "source": "simonw",
-      "title": "Quoting Kimi K3",
-      "url": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
-      "published_at": "2026-07-17T13:43:53Z",
-      "summary": "Is there something I can actually help you with today?\n&mdash; Kimi K3, after refusing to leak its system prompt\n\n    Tags: kimi, ai-personality, generative-ai, ai, llms",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-17-llm-cliché-highlighter",
-      "source": "simonw",
-      "title": "LLM cliché highlighter",
-      "url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
-      "published_at": "2026-07-17T12:11:11Z",
-      "summary": "Tool: LLM cliché highlighter\n        I got frustrated reading yet another article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up t",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-16-firefox-in-webassembly",
-      "source": "simonw",
-      "title": "Firefox in WebAssembly",
-      "url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
-      "published_at": "2026-07-16T23:34:16Z",
-      "summary": "Firefox in WebAssembly\nThis is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser.\nHere's my blog, running in Firefox, running in WebAssembly, running in Chrome:\n\nThe",
-      "tags": [
-        "simonw"
       ]
     },
     {
