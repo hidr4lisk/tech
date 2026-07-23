@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-23T14:12:01Z",
+  "updated_at": "2026-07-23T19:25:04Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10094",
+      "project": "llama-cpp",
+      "version": "b10094",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10094",
+      "published_at": "2026-07-23T18:28:00Z",
+      "body_excerpt": "common: infer the speculative type from the draft repo sidecars (#25989) With -hfd pointing to a repo that ships mtp-/dflash-/eagle3- sidecars and no --spec-type given, the draft resolved to a full model while the sidecar was the intended draft. When the speculative types are still at their default, discover the sidecars of the draft repo, pick the first available following the existing mtp > dfla",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10093",
+      "project": "llama-cpp",
+      "version": "b10093",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10093",
+      "published_at": "2026-07-23T17:19:26Z",
+      "body_excerpt": "Fix DeepSeek4 crafted template (#25414) chat: fix DS4 template to explicitly follow reference behavior Support DeepSeekv4 flag (). fix: hook DS3.2 parser for DS4 as well fix: add tool result reordering fix: post-merge Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ub",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10092",
       "project": "llama-cpp",
@@ -17,6 +35,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0",
       "published_at": "2026-07-23T00:44:28Z",
       "body_excerpt": "What's Changed mlx update by @dhiltgen in model/parsers: finalize incomplete GLM tool calls by @dhiltgen in docs: update retirements by @mxyng in model: align Laguna with upstream llama.cpp by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.3",
+      "project": "ollama",
+      "version": "v0.32.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3",
+      "published_at": "2026-07-23T00:44:28Z",
+      "body_excerpt": "What's Changed Fixed model downloads that stall before sending data. Improved integrations: restored Claude Code Channels, fixed Anthropic thinking streams, and made Hermes Desktop respect . Expanded GPU support with CUDA on Windows ARM64, B200 support through CUDA 12, and lower memory use on Linux CUDA/ROCm iGPUs. Added chat, thinking, and tool calling support for Laguna 2.1 models, including a M",
       "type": "tool"
     },
     {
@@ -241,7 +268,7 @@
       "version": "v0.32.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2",
       "published_at": "2026-07-20T21:00:30Z",
-      "body_excerpt": "What's Changed launch: keep Claude Code channels available by @hoyyeva in cmd: remove dead agent prompt wrappers by @ParthSareen in agent: reorder working directory instruction by @ParthSareen in agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in anthropic: close text block before starting thin",
+      "body_excerpt": "Withdrawn, please use 0.32.3 or newer",
       "type": "tool"
     },
     {
@@ -981,6 +1008,24 @@
       "published_at": "2026-07-13T23:09:16Z",
       "body_excerpt": "model: add Hy3 (hy_v3) support with MTP speculative decoding (#25395) model: add Hy3 (hy_v3) architecture support Adds Tencent Hunyuan 3 (HF architecture HYV3ForCausalLM, GGUF arch hy_v3): a MoE decoder stack with per-head Q/K RMSNorm, a sigmoid router with expert selection bias, an always-active ungated shared expert, and leading dense block(s) (first_k_dense_replace). The base implementation is ",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Ising-Calibration-1.5-31B-NVFP4",
+      "project": "nvidia",
+      "version": "Ising-Calibration-1.5-31B-NVFP4",
+      "url": "https://huggingface.co/nvidia/Ising-Calibration-1.5-31B-NVFP4",
+      "published_at": "2026-07-13T21:21:11Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Ising-Calibration-1.5-31B-BF16",
+      "project": "nvidia",
+      "version": "Ising-Calibration-1.5-31B-BF16",
+      "url": "https://huggingface.co/nvidia/Ising-Calibration-1.5-31B-BF16",
+      "published_at": "2026-07-13T21:21:10Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b9992",
