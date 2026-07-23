@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-07-23T14:11:53Z",
+  "updated_at": "2026-07-23T19:24:59Z",
   "items": [
+    {
+      "id": "localllama-2026-07-23-deepseek-v4-flash-105-ts-on-two-nvidia-4090d-48g-ada-in-vllm",
+      "source": "localllama",
+      "title": "Deepseek V4 Flash ~105 t/s on two Nvidia 4090d 48G (ada) in vLLM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4n8wj/deepseek_v4_flash_105_ts_on_two_nvidia_4090d_48g/",
+      "published_at": "2026-07-23T19:01:22Z",
+      "summary": "      TLDR: I (with the help of AI) re-implemented every Blackwell-only kernel (DeepGEMM, FlashInfer sparse-MLA, block-scaled FP8) in Triton, because they simply don&#39;t exist for sm89. The performance is 2-3x more for",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-the-llm-distillation-process-simplified-for-politicians",
+      "source": "localllama",
+      "title": "The LLM distillation process simplified for politicians:",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4moxy/the_llm_distillation_process_simplified_for/",
+      "published_at": "2026-07-23T18:41:48Z",
+      "summary": "      /s  &#32; submitted by &#32;  /u/Porespellar   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-benchmarks-antling-30-flash-a-hybrid-reasoning-moe-model-bui",
+      "source": "localllama",
+      "title": "Benchmarks: AntLing-3.0-flash a hybrid-reasoning MoE model built for production-scale agents.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4mltt/benchmarks_antling30flash_a_hybridreasoning_moe/",
+      "published_at": "2026-07-23T18:38:46Z",
+      "summary": "      Now live on OpenRouter, and free to use through August 3, 2026. Hoping they will going openweight soon~  &#32; submitted by &#32;  /u/niacolhealth   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-antling-30-flash-is-now-live-on-openrouter-and-free-to-use-t",
+      "source": "localllama",
+      "title": "AntLing-3.0-flash is now live on OpenRouter, and free to use through August 3, 2026",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4m5cr/antling30flash_is_now_live_on_openrouter_and_free/",
+      "published_at": "2026-07-23T18:23:09Z",
+      "summary": "      https://openrouter.ai/inclusionai/ling-3.0-flash  &#32; submitted by &#32;  /u/derspenti   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-i-made-a-local-huggingface-on-my-nas",
+      "source": "localllama",
+      "title": "I Made a Local Huggingface On My NAS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4lpxe/i_made_a_local_huggingface_on_my_nas/",
+      "published_at": "2026-07-23T18:08:27Z",
+      "summary": "      https://preview.redd.it/u8alj38wr0fh1.png?width=1860&amp;format=png&amp;auto=webp&amp;s=3578776c60d9548a135a018702f44d0fddedd4b0 Little side project I&#39;m doing so I can easily transfer any model I want fast to m",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-cpu-only-inference-on-a-celeron-n5095-sbc-6-models-from-06b",
+      "source": "localllama",
+      "title": "CPU-only inference on a Celeron N5095 SBC: 6 models from 0.6B to 8B, benchmarked",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4lgo3/cpuonly_inference_on_a_celeron_n5095_sbc_6_models/",
+      "published_at": "2026-07-23T17:59:34Z",
+      "summary": "      I wanted to know how cheap you can go and still run local models, so I ran Ollama CPU-only on a Youyeetoo X1S. It&#39;s a single-board x86 machine with a Celeron N5095 (Jasper Lake, 4C/4T, 15W), 16GB of RAM, and a ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-apple-m5-isnt-making-full-use-of-its-matmul-cores-yet",
+      "source": "localllama",
+      "title": "Apple M5 isn't making full use of its matmul cores yet",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4iw0n/apple_m5_isnt_making_full_use_of_its_matmul_cores/",
+      "published_at": "2026-07-23T16:28:39Z",
+      "summary": "At the moment MLX (and Llama.cpp for Macs) run 16bit activations everywhere. Despite this, the M5 generation silicon actually does support INT8 activations - it actually allows w4a8 d_type. It&#39;s just that no inferenc",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-psa-on-laguna-s-21---use-the-updated-chat-template-and-gguf",
+      "source": "localllama",
+      "title": "PSA on Laguna S-2.1 - Use the updated chat template and GGUF",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4iqjx/psa_on_laguna_s21_use_the_updated_chat_template/",
+      "published_at": "2026-07-23T16:23:20Z",
+      "summary": "Link to their official GGUF repo: https://huggingface.co/poolside/Laguna-S-2.1-GGUF/tree/main All the GGUFs received this fix 5ish hours ago - correct yarn_attn_factor to 1.0 (llama.cpp derives mscale) And the chat templ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-i-trained-a-05m-model-on-1b-tokens-of-fineweb-edu-dataset",
+      "source": "localllama",
+      "title": "I trained a 0.5M model on 1B tokens of Fineweb-edu dataset.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4hrtz/i_trained_a_05m_model_on_1b_tokens_of_finewebedu/",
+      "published_at": "2026-07-23T15:50:04Z",
+      "summary": "      Hi everyone, About a month ago I publish my very first research paper on my neural network architecture called Silia. You can look at the model here: https://huggingface.co/Srijan-Srivastava/Silia-v2 Even though th",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-nota-aisolar-open2-250b-nota-int4-globalpruned-hugging-face",
+      "source": "localllama",
+      "title": "nota-ai/Solar-Open2-250B-Nota-INT4-GlobalPruned · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4el0u/notaaisolaropen2250bnotaint4globalpruned_hugging/",
+      "published_at": "2026-07-23T13:53:22Z",
+      "summary": "      I could be reading it wrong but it looks like they REAPed their own 250B model down to a 32B model. They claim their 250B model beats max-think deepseek-v4-flash   &#32; submitted by &#32;  /u/giveen   [link] &#32;",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-23-inclusionaillada22-flash-hugging-face",
       "source": "localllama",
@@ -19,116 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4bazy/minimax_27_vs_dsv4_flash_vs_laguna_s_21/",
       "published_at": "2026-07-23T11:34:05Z",
       "summary": "I got 192 GB of Vram to use and a long horizon agentic task about coding, I would like opinion from ppl who have had extensive experience on all 3 of those models . Whats the best quality (should include some cyber and d",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-kwaipilotkat-coder-v25-dev-hugging-face",
-      "source": "localllama",
-      "title": "Kwaipilot/KAT-Coder-V2.5-Dev · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4b9a8/kwaipilotkatcoderv25dev_hugging_face/",
-      "published_at": "2026-07-23T11:31:56Z",
-      "summary": "      from kwaipilot: Following the release of KAT-Coder-V2.5 in July, we are pleased to release the open-weight version KAT-Coder-V2.5-Dev, an MOE model with a total parameter count of 35B and 3B activated parameters, t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-the-little-tech-association-a-new-group-of-200-companies-acr",
-      "source": "localllama",
-      "title": "The Little Tech Association, a new group of ~200 companies across the startup community, including Y Combinator, urges Trump not to ban Chinese open-weight AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4b5nc/the_little_tech_association_a_new_group_of_200/",
-      "published_at": "2026-07-23T11:27:13Z",
-      "summary": "&#32; submitted by &#32;  /u/pscoutou   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-ceo-of-hugging-face-heading-to-san-francisco-to-have-a-littl",
-      "source": "localllama",
-      "title": "CEO of Hugging face: Heading to San Francisco to have a little chat with that “rogue agent”",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4avga/ceo_of_hugging_face_heading_to_san_francisco_to/",
-      "published_at": "2026-07-23T11:13:47Z",
-      "summary": "      From clem 🤗 on 𝕏: https://x.com/ClementDelangue/status/2080247567493837047  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-arcee-ai-has-spoken-out-against-the-ban-on-open-chinese-mode",
-      "source": "localllama",
-      "title": "Arcee AI has spoken out against the ban on open Chinese models in US",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4a10b/arcee_ai_has_spoken_out_against_the_ban_on_open/",
-      "published_at": "2026-07-23T10:31:05Z",
-      "summary": "      This is rather counterintuitive, since banning Chinese models would benefit them the most. Jensen Huang is also against the ban, although the interests here are more obvious. Do you think that if Arcee, Cohere or M",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-absurd-claim-the-distilled-model-outperforms-the-originals",
-      "source": "localllama",
-      "title": "Absurd claim: the distilled model outperforms the originals",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v49zi9/absurd_claim_the_distilled_model_outperforms_the/",
-      "published_at": "2026-07-23T10:29:00Z",
-      "summary": "      As an AI community of LLM experts, are we really going to stay silent while US officials make absurd claims to push anti-consumer laws? Not only does the release timeline between Fable and K3 make high-scale distil",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-deepseek-founders-4-hour-investor-meeting-deepseek-is-priori",
-      "source": "localllama",
-      "title": "DeepSeek Founder’s 4-hour investor meeting: DeepSeek is prioritizing AGI over user growth and commercialisation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v49lxp/deepseek_founders_4hour_investor_meeting_deepseek/",
-      "published_at": "2026-07-23T10:09:27Z",
-      "summary": "A Chinese article compiled 52 remarks from Liang Wenfeng’s four-hour investor meeting. I’ve summarised the most important ones below.  DeepSeek has one central objective: AGI. This is not the time to maximize returns thr",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-contrib-allow-all-ai-generated-code-in-general-by-ngxson-pul",
-      "source": "localllama",
-      "title": "contrib: allow all AI-generated code in general by ngxson · Pull Request #26012 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v48ssp/contrib_allow_all_aigenerated_code_in_general_by/",
-      "published_at": "2026-07-23T09:24:39Z",
-      "summary": "      Having read some merged PRs in the past, I know that they were fully written by Claude Code (or similar), so this basically fixes the delusion. But at the same time, we might start seeing more AI slop. I have mixed",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-model-distillation-accusations-are-getting-way-overblown-at",
-      "source": "localllama",
-      "title": "Model \"distillation\" accusations are getting way overblown at this point",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v47kp4/model_distillation_accusations_are_getting_way/",
-      "published_at": "2026-07-23T08:13:43Z",
-      "summary": "      The news about Anthropic settling a class action lawsuit for $1.5B over training data isn&#39;t just a legal headache for them, it&#39;s a massive warning sign for engineering teams relying entirely on closed API v",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-paddlepaddlehpd-parsing-hugging-face",
-      "source": "localllama",
-      "title": "PaddlePaddle/HPD-Parsing · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v479m5/paddlepaddlehpdparsing_hugging_face/",
-      "published_at": "2026-07-23T07:56:12Z",
-      "summary": "      HPD-Parsing: Hierarchical Parallel Document Parsing We introduce HPD-Parsing, a lightweight (1B) and high-throughput document parsing model built on a Hierarchical Parallel Decoding paradigm. Unified VLM-based pars",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-ai9stars-released-g9v3-3b",
-      "source": "localllama",
-      "title": "AI9Stars released G9v3-3B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v46ay5/ai9stars_released_g9v33b/",
-      "published_at": "2026-07-23T07:01:24Z",
-      "summary": "      AI9Stars has released G9v3-3B an open weights language model designed to deliver strong reasoning capabilities within a lightweight 3 billion parameter size. It is released under the Apache 2.0 license making it fu",
       "tags": [
         "localllama"
       ]
