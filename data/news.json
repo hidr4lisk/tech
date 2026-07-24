@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-07-23T19:24:59Z",
+  "updated_at": "2026-07-24T03:15:10Z",
   "items": [
+    {
+      "id": "localllama-2026-07-24-update---hugginghack-is-now-on-github",
+      "source": "localllama",
+      "title": "UPDATE - HuggingHack Is Now On Github",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4yljf/update_hugginghack_is_now_on_github/",
+      "published_at": "2026-07-24T02:37:07Z",
+      "summary": "Due to encouragement to move my local huggingface project, it is now available on Github! Let me know your thoughts! Repo: https://github.com/tyedalwaves/HuggingHack/  &#32; submitted by &#32;  /u/TyedalWaves   [link] &#",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-24-if-moes-have-small-experts-3b4b9b-etc-then-why-cant-we-have",
+      "source": "localllama",
+      "title": "If MOEs have small experts (3B/4B/9B etc), then why can’t we have small expert models as a whole rather than one large model with multiple experts? Like Qwen3.6-3B Coding Expert or something",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4x3k0/if_moes_have_small_experts_3b4b9b_etc_then_why/",
+      "published_at": "2026-07-24T01:27:02Z",
+      "summary": "Forgive me naiveness, I’m a little lost. Why must a model be jack of all trades? Why can’t we have a model expert in a single thing?  &#32; submitted by &#32;  /u/exaknight21   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-24-audiocpp-release-04-higgs-audio-v3-tts-4b-10x-real-time-fish",
+      "source": "localllama",
+      "title": "[audio.cpp] Release 0.4: Higgs Audio v3 TTS 4B (10x real time)+ Fish Audio S2 Pro in C++/GGML, full GGUF loading, Q8 speed and VRAM gains",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4w5cj/audiocpp_release_04_higgs_audio_v3_tts_4b_10x/",
+      "published_at": "2026-07-24T00:44:45Z",
+      "summary": "      audio.cpp again :) Release 0.4 is out. The headline this time is new high-quality TTS coverage plus GGUF becoming a first-class across the project. What’s new:  Added Higgs Audio v3 TTS 4B, Fish Audio S2 Pro, Voxtr",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-24-how-much-are-rtx-pro-6000s-going-for-in-your-countrystate",
+      "source": "localllama",
+      "title": "How much are RTX PRO 6000s going for in your country/state?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4vsiq/how_much_are_rtx_pro_6000s_going_for_in_your/",
+      "published_at": "2026-07-24T00:29:01Z",
+      "summary": "Hello guys, hoping you&#39;re doing fine! On the last 2-3 months, price of the RTX 6000 PRO seem to have gone insane. I will start on the price here on my country, Chile:  RTX 6000 PRO Workstation Edition: 21382 USD post",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-23-the-first-known-runaway-ai-agent---or-a-very-bad-marketing-s",
+      "source": "simonw",
+      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+      "published_at": "2026-07-23T22:53:08Z",
+      "summary": "The first known runaway AI agent - or a very bad marketing stunt?\nMartin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered.\nFirst, Hugging Fa",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-tested-the-updated-gemma-4-locally-on-coding-with-opencode",
+      "source": "localllama",
+      "title": "Tested (the updated) Gemma 4 locally on coding with OpenCode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4sm2m/tested_the_updated_gemma_4_locally_on_coding_with/",
+      "published_at": "2026-07-23T22:16:54Z",
+      "summary": "Gemma 4 was updated (mostly chat templates) and I took it for a test. On a local llama.cpp server running on M5 Pro with 48GB, 26B A4B (Q6) has about 60t/s and works well with OpenCode. It works quite well (given it&#39;",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-i-compared-local-models-and-different-quants-config-on-a-sub",
+      "source": "localllama",
+      "title": "I compared local models and different quants / config on a subset of swe-verified bench",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4qq4x/i_compared_local_models_and_different_quants/",
+      "published_at": "2026-07-23T21:05:28Z",
+      "summary": "      And gathered a lot of data. you can see them for yourself  And For the most curious, there are additional details here  In this graph, I regrouped the finetunes under their base models. but you can see the details ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-running-qwen-36-35b-moe-q4-k-m-on-a-zeus-xiaomi-12-pro-12gb",
+      "source": "localllama",
+      "title": "Running Qwen 3.6 35B MoE (Q4_K_M) on a Zeus (Xiaomi 12 Pro, 12GB RAM)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4q5gm/running_qwen_36_35b_moe_q4_k_m_on_a_zeus_xiaomi/",
+      "published_at": "2026-07-23T20:44:40Z",
+      "summary": "      Shoutout to this awesome guy - https://www.reddit.com/r/LLM/s/IDUyU3v9ap  Thanks to his project, BigMoeOnEdge https://github.com/Helldez/BigMoeOnEdge, I managed to successfully run a 35B MoE model on just 12GB of R",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-laguna-s-21-thinking-forever-loops-seem-to-be-a-quantization",
+      "source": "localllama",
+      "title": "Laguna-S-2.1 \"thinking forever\" loops seem to be a quantization artifact",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4p2f9/lagunas21_thinking_forever_loops_seem_to_be_a/",
+      "published_at": "2026-07-23T20:05:08Z",
+      "summary": "If you&#39;re running Laguna S 2.1 on llama.cpp and hitting thinking loops because it won&#39;t close its &lt;/think&gt; tags, you might want to look at your quant before you spend too much time tweaking settings. I spen",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-23-i-learned-electronics-to-build-a-pwm-fan-controller-for-my-g",
+      "source": "localllama",
+      "title": "I \"learned\" electronics to build a PWM fan controller for my ghetto server",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4o5yr/i_learned_electronics_to_build_a_pwm_fan/",
+      "published_at": "2026-07-23T19:33:13Z",
+      "summary": "      Original post: https://www.reddit.com/r/LocalLLaMA/comments/1tpdt5m/behold_probably_the_most_ghetto_local_ai_server/ I promised a writeup, but didn&#39;t have time yet, sorry. I barely had time to do this controlle",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-23-deepseek-v4-flash-105-ts-on-two-nvidia-4090d-48g-ada-in-vllm",
       "source": "localllama",
@@ -30,105 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4mltt/benchmarks_antling30flash_a_hybridreasoning_moe/",
       "published_at": "2026-07-23T18:38:46Z",
       "summary": "      Now live on OpenRouter, and free to use through August 3, 2026. Hoping they will going openweight soon~  &#32; submitted by &#32;  /u/niacolhealth   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-antling-30-flash-is-now-live-on-openrouter-and-free-to-use-t",
-      "source": "localllama",
-      "title": "AntLing-3.0-flash is now live on OpenRouter, and free to use through August 3, 2026",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4m5cr/antling30flash_is_now_live_on_openrouter_and_free/",
-      "published_at": "2026-07-23T18:23:09Z",
-      "summary": "      https://openrouter.ai/inclusionai/ling-3.0-flash  &#32; submitted by &#32;  /u/derspenti   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-i-made-a-local-huggingface-on-my-nas",
-      "source": "localllama",
-      "title": "I Made a Local Huggingface On My NAS",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4lpxe/i_made_a_local_huggingface_on_my_nas/",
-      "published_at": "2026-07-23T18:08:27Z",
-      "summary": "      https://preview.redd.it/u8alj38wr0fh1.png?width=1860&amp;format=png&amp;auto=webp&amp;s=3578776c60d9548a135a018702f44d0fddedd4b0 Little side project I&#39;m doing so I can easily transfer any model I want fast to m",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-cpu-only-inference-on-a-celeron-n5095-sbc-6-models-from-06b",
-      "source": "localllama",
-      "title": "CPU-only inference on a Celeron N5095 SBC: 6 models from 0.6B to 8B, benchmarked",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4lgo3/cpuonly_inference_on_a_celeron_n5095_sbc_6_models/",
-      "published_at": "2026-07-23T17:59:34Z",
-      "summary": "      I wanted to know how cheap you can go and still run local models, so I ran Ollama CPU-only on a Youyeetoo X1S. It&#39;s a single-board x86 machine with a Celeron N5095 (Jasper Lake, 4C/4T, 15W), 16GB of RAM, and a ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-apple-m5-isnt-making-full-use-of-its-matmul-cores-yet",
-      "source": "localllama",
-      "title": "Apple M5 isn't making full use of its matmul cores yet",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4iw0n/apple_m5_isnt_making_full_use_of_its_matmul_cores/",
-      "published_at": "2026-07-23T16:28:39Z",
-      "summary": "At the moment MLX (and Llama.cpp for Macs) run 16bit activations everywhere. Despite this, the M5 generation silicon actually does support INT8 activations - it actually allows w4a8 d_type. It&#39;s just that no inferenc",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-psa-on-laguna-s-21---use-the-updated-chat-template-and-gguf",
-      "source": "localllama",
-      "title": "PSA on Laguna S-2.1 - Use the updated chat template and GGUF",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4iqjx/psa_on_laguna_s21_use_the_updated_chat_template/",
-      "published_at": "2026-07-23T16:23:20Z",
-      "summary": "Link to their official GGUF repo: https://huggingface.co/poolside/Laguna-S-2.1-GGUF/tree/main All the GGUFs received this fix 5ish hours ago - correct yarn_attn_factor to 1.0 (llama.cpp derives mscale) And the chat templ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-i-trained-a-05m-model-on-1b-tokens-of-fineweb-edu-dataset",
-      "source": "localllama",
-      "title": "I trained a 0.5M model on 1B tokens of Fineweb-edu dataset.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4hrtz/i_trained_a_05m_model_on_1b_tokens_of_finewebedu/",
-      "published_at": "2026-07-23T15:50:04Z",
-      "summary": "      Hi everyone, About a month ago I publish my very first research paper on my neural network architecture called Silia. You can look at the model here: https://huggingface.co/Srijan-Srivastava/Silia-v2 Even though th",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-nota-aisolar-open2-250b-nota-int4-globalpruned-hugging-face",
-      "source": "localllama",
-      "title": "nota-ai/Solar-Open2-250B-Nota-INT4-GlobalPruned · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4el0u/notaaisolaropen2250bnotaint4globalpruned_hugging/",
-      "published_at": "2026-07-23T13:53:22Z",
-      "summary": "      I could be reading it wrong but it looks like they REAPed their own 250B model down to a 32B model. They claim their 250B model beats max-think deepseek-v4-flash   &#32; submitted by &#32;  /u/giveen   [link] &#32;",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-inclusionaillada22-flash-hugging-face",
-      "source": "localllama",
-      "title": "inclusionAI/LLaDA2.2-flash · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4csnj/inclusionaillada22flash_hugging_face/",
-      "published_at": "2026-07-23T12:41:19Z",
-      "summary": "      LLaDA2.2-flash is an agent-oriented diffusion language model in the LLaDA2 series. By introducing Levenshtein Editing (with DELETE and INSERT control tokens) to diffusion language modeling, it represents the LLaDA2",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-23-minimax-27-vs-dsv4-flash-vs-laguna-s-21",
-      "source": "localllama",
-      "title": "Minimax 2.7 vs DSv4 flash vs laguna S 2.1",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4bazy/minimax_27_vs_dsv4_flash_vs_laguna_s_21/",
-      "published_at": "2026-07-23T11:34:05Z",
-      "summary": "I got 192 GB of Vram to use and a long horizon agentic task about coding, I would like opinion from ppl who have had extensive experience on all 3 of those models . Whats the best quality (should include some cyber and d",
       "tags": [
         "localllama"
       ]
@@ -294,17 +305,6 @@
       "url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
       "published_at": "2026-07-18T17:19:10Z",
       "summary": "Tool: SQLite Query Explainer\n        Julia Evan's, in Learning a few things about running SQLite:\n\nMaybe one day I’ll learn to read a query plan.\n\nBig same.... which inspired me to have Fable build this interactive expla",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-18-claude-make-fable-5-permanent",
-      "source": "simonw",
-      "title": "Claude make Fable 5 permanent",
-      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
-      "published_at": "2026-07-18T06:00:13Z",
-      "summary": "Claude make Fable 5 permanent\nAn update from the @claudeai account on Twitter:\n\nBeginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits.\nPro and Team Standard users will con",
       "tags": [
         "simonw"
       ]

@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-23T19:25:04Z",
+  "updated_at": "2026-07-24T03:15:18Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10099",
+      "project": "llama-cpp",
+      "version": "b10099",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10099",
+      "published_at": "2026-07-23T23:34:13Z",
+      "body_excerpt": "CUDA: Improve NVFP4 W4A4 activation quantization (#25730) Squash history before conflict-resolution during rebase on master WIP commit Add 32-byte loads, restore per-block amax Use nvfp4x4 intrinsic when available Fuse per-channel amax and quantization kernels Do pointer arithmetic only once on x Remove unnecessary ternary in the load We assert on host side that ne00 is 64-aligned Add back scale-s",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10098",
+      "project": "llama-cpp",
+      "version": "b10098",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10098",
+      "published_at": "2026-07-23T20:12:00Z",
+      "body_excerpt": "hexagon: activation ops update (#25974) hex-geglu: optimized all-in-one geglu microkernel hex-geglu: enable non-contiguous src and strided DMA hex-act: enable non-contiguous srs and strided DMA for rest of ACT ops hex-act: generalize GLU per-thread functions via DEFINE_GLU_PER_THREAD macro hexagon: move UNARY_SILU and UNARY_GELU to unary-ops hex-act: replace the generic ops_context scratchpad usag",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10094",
       "project": "llama-cpp",
