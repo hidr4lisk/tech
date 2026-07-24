@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-24T08:33:25Z",
+  "updated_at": "2026-07-24T13:54:16Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10106",
+      "project": "llama-cpp",
+      "version": "b10106",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10106",
+      "published_at": "2026-07-24T11:34:41Z",
+      "body_excerpt": "CUDA: fix external compilation of q1_0 MMQ (#25778) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10105",
+      "project": "llama-cpp",
+      "version": "b10105",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10105",
+      "published_at": "2026-07-24T09:34:02Z",
+      "body_excerpt": "args: refactor mlock/mmap/directio into load-mode (#20834) args: overhaul mmap/mlock/dio into single arg Signed-off-by: Aaron Teo docs: update docs with llama-gen-docs Signed-off-by: Aaron Teo chore: satisfy code quality Signed-off-by: Aaron Teo args: make the sign an actual modifier now Signed-off-by: Aaron Teo chore: general code clean up + comments Signed-off-by: Aaron Teo arg: fix deprecated f",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10103",
       "project": "llama-cpp",
