@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-07-25T08:12:23Z",
+  "updated_at": "2026-07-25T13:44:54Z",
   "items": [
+    {
+      "id": "localllama-2026-07-25-llamacpp-mtp-speculative-simplified-for-july-2026-big-wins-o",
+      "source": "localllama",
+      "title": "llama.cpp MTP speculative simplified for July 2026 big wins on dense models, underwhelming on MoE",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v681iu/llamacpp_mtp_speculative_simplified_for_july_2026/",
+      "published_at": "2026-07-25T13:11:43Z",
+      "summary": "Wanted to consolidate where things actually stand now that the dust has settled on speculative decoding in llama.cpp, since the discourse a few months back was pretty scattered. The short version: native MTP (multi token",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-25-cachyllama-llamacpp-fork-with-persistent-ssd-backed-kv-cachi",
+      "source": "localllama",
+      "title": "CachyLLama: llama.cpp fork with persistent SSD-backed KV caching for local agent workflows",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v68164/cachyllama_llamacpp_fork_with_persistent/",
+      "published_at": "2026-07-25T13:11:17Z",
+      "summary": "If you run local agentic coding harnesses (Aider, Claude Code, etc.), prompt evaluation usually eats up most of your execution time. Every turn re-evaluates thousands of identical prefix tokens_system prompts, tool schem",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-25-my-gx10-died",
+      "source": "localllama",
+      "title": "My GX10 died",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v67tzg/my_gx10_died/",
+      "published_at": "2026-07-25T13:02:32Z",
+      "summary": "Everything ran fine, I was using UD 3.6 Q6 for 35 and 27B, each 4 concurrent requests at 200K context. I had Dify and Mastra to play around with, Unsloth studio to get around to and vLLM ready for whenever I decided to d",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-25-python-toolkit-a-gui-to-manage-python-venv-packages-reqs-ai",
+      "source": "localllama",
+      "title": "Python Toolkit: a GUI to manage python, venv, packages, reqs, AI interfaces and more...",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v64343/python_toolkit_a_gui_to_manage_python_venv/",
+      "published_at": "2026-07-25T09:53:43Z",
+      "summary": "      &#32; submitted by &#32;  /u/Kinda-Brazy   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-25-hwatu-a-verification-browser-for-local-coding-agents-headles",
+      "source": "localllama",
+      "title": "hwatu: a verification browser for local coding agents. Headless WebKit, DOM eval, pixel-diff with real match %, no Chromium (MIT, Rust)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v63nip/hwatu_a_verification_browser_for_local_coding/",
+      "published_at": "2026-07-25T09:28:48Z",
+      "summary": "      &#32; submitted by &#32;  /u/hongnoul   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-25-who-only-use-local-models",
+      "source": "localllama",
+      "title": "Who ONLY use local models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v62z48/who_only_use_local_models/",
+      "published_at": "2026-07-25T08:51:28Z",
+      "summary": "Please be honest. I would love to hear about guys really dedicated to local AI and who really reject subscriptions (especially to openai and anthropic). What do you use your model for?  &#32; submitted by &#32;  /u/takou",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-25-setup-for-always-on-assistant",
+      "source": "localllama",
+      "title": "Setup for always on assistant",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6195e/setup_for_always_on_assistant/",
+      "published_at": "2026-07-25T07:12:32Z",
+      "summary": "I have a dual 3090 rig that I use as coding assistant and while it works, it draws a lot of electricity. Now I want to add another rig that I can keep on all the time, or maybe a vps if that is suitable. This rig should ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-25-any-idea-about-these-jailbreaks",
       "source": "localllama",
@@ -57,17 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-25-microsofts-website-shows-openai-as-one-of-the-signatories-of",
-      "source": "localllama",
-      "title": "Microsoft's website shows OpenAI as one of the signatories of the open weight AI letter",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5uqa3/microsofts_website_shows_openai_as_one_of_the/",
-      "published_at": "2026-07-25T01:46:26Z",
-      "summary": "      https://preview.redd.it/a24z80gr6afh1.png?width=1181&amp;format=png&amp;auto=webp&amp;s=4a844ebe2319eb6230dbdc63c9caf492bed5ff47 So, this came up on: https://www.microsoft.com/en-us/corporate-responsibility/topics/",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-25-quoting-boris-cherny",
       "source": "simonw",
       "title": "Quoting Boris Cherny",
@@ -79,17 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-24-amd-instella-moe-16b-a3b",
-      "source": "localllama",
-      "title": "AMD Instella-MoE-16B-A3B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5sb5b/amd_instellamoe16ba3b/",
-      "published_at": "2026-07-24T23:58:31Z",
-      "summary": "https://huggingface.co/amd/Instella-MoE-16B-A3B-Think I was browsing HuggingFace and came across this model apparently uploaded a day ago, and thought to share it here. I&#39;ve not tried it out yet, but it&#39;s good to",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-24-introducing-claude-opus-5",
       "source": "simonw",
       "title": "Introducing Claude Opus 5",
@@ -98,61 +153,6 @@
       "summary": "Introducing Claude Opus 5\nI've been offline kayaking with sea otters for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's des",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-24-can-llms-solve-mazes",
-      "source": "localllama",
-      "title": "Can LLMs solve mazes?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5rvuq/can_llms_solve_mazes/",
-      "published_at": "2026-07-24T23:39:38Z",
-      "summary": "      https://reddit.com/link/1v5rvuq/video/bgmwc754i9fh1/player My goal was to create a benchmark to measure the spatial awareness and memory of models. Eventually, I came up with the simple idea of a maze where the mod",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-24-im-impressed-by-laguna-s-21",
-      "source": "localllama",
-      "title": "I'm impressed by Laguna S 2.1",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5qb9b/im_impressed_by_laguna_s_21/",
-      "published_at": "2026-07-24T22:33:26Z",
-      "summary": "Being excited about a new 120B-class model, I decided to test it on a problem that took me a few days to solve. The problem is to rearrange the data from one representation to another but do it within a fixed memory budg",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-24-gemma-4-26b-a4b-running-on-iphone-17-pro-via-model-paging",
-      "source": "localllama",
-      "title": "Gemma 4 26B A4B running on iPhone 17 Pro via model paging",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5p5sf/gemma_4_26b_a4b_running_on_iphone_17_pro_via/",
-      "published_at": "2026-07-24T21:47:40Z",
-      "summary": "      Hi everyone, Before I begin, I should mention that the system I&#39;m showcasing was developed by the team at Noema, which I founded.  I wanted to show a use case for Noema Overfit available today in the Noema app.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-24-getting-the-most-out-of-mtp",
-      "source": "localllama",
-      "title": "Getting the most out of MTP",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5p2v5/getting_the_most_out_of_mtp/",
-      "published_at": "2026-07-24T21:44:34Z",
-      "summary": "      If you want to get the most out of MTP. You have to run some tests / benchmarks to do so. Turning it on with defaults will get improvements, but for many models and card combinations, you are leaving a lot of perfo",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-24-what-i-think-the-forseeable-for-open-models-will-be",
-      "source": "localllama",
-      "title": "What i think the forseeable for open models will be",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5oojb/what_i_think_the_forseeable_for_open_models_will/",
-      "published_at": "2026-07-24T21:29:12Z",
-      "summary": "The realization hit when Qwen announced they&#39;ll be releasing 3.8 as open weights at &gt;2t weights. I think China strategically released open models in multiple phases, and they&#39;re now in their final phase. Phase",
-      "tags": [
-        "localllama"
       ]
     },
     {
