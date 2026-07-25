@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T13:44:59Z",
+  "updated_at": "2026-07-25T19:14:57Z",
   "releases": [
     {
       "id": "vllm-v0.26.0",
@@ -17,6 +17,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0",
       "published_at": "2026-07-25T02:22:12Z",
       "body_excerpt": "What's Changed x/create: quantize lm_head at 8-bit in the requested family by @jessegross in test: harden flaky updater and transfer unit tests by @dhiltgen in server: fix ps data race on scheduler loaded map by @dhiltgen in qwen3_5: fix expert quantization handling and gather packed gate_up in one launch by @jessegross in agent: permission skill loading by @ParthSareen in cmd/tui: agent system pr",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.4",
+      "project": "ollama",
+      "version": "v0.32.4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.4",
+      "published_at": "2026-07-25T02:22:12Z",
+      "body_excerpt": "What's Changed Support Laguna on Apple GPUs via the MLX engine Quantize draft-model output heads at the requested type when creating speculative-decoding drafts. Fixed Qwen3 MoE decoding for differently-quantized experts, plus faster packed gate/up projection (~4–9% on M5 Max). Full Changelog:",
       "type": "tool"
     },
     {
