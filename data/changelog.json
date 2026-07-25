@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-24T19:35:54Z",
+  "updated_at": "2026-07-25T03:14:10Z",
   "releases": [
+    {
+      "id": "ollama-v0.32.4-rc0",
+      "project": "ollama",
+      "version": "v0.32.4-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0",
+      "published_at": "2026-07-25T02:22:12Z",
+      "body_excerpt": "What's Changed x/create: quantize lm_head at 8-bit in the requested family by @jessegross in test: harden flaky updater and transfer unit tests by @dhiltgen in server: fix ps data race on scheduler loaded map by @dhiltgen in qwen3_5: fix expert quantization handling and gather packed gate_up in one launch by @jessegross in agent: permission skill loading by @ParthSareen in cmd/tui: agent system pr",
+      "type": "tool"
+    },
+    {
+      "id": "sglang-v0.5.16",
+      "project": "sglang",
+      "version": "v0.5.16",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.16",
+      "published_at": "2026-07-25T00:13:18Z",
+      "body_excerpt": "Highlights 574 PRs from 169 contributors. DSpark: confidence-driven speculative decoding: A new speculative algorithm. It drafts semi-autoregressively in blocks, then sizes each verify window from the draft's own confidence instead of a fixed draft length. Reaches 383.7 tok/s at accept length ~5 on DeepSeek-V4-Pro, TP8 on B300 (bs=1). Enable with and ; tune the block with (#30261, #31434, blog). I",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10107",
       "project": "llama-cpp",
@@ -286,6 +304,15 @@
       "version": "Mage-Flow",
       "url": "https://huggingface.co/microsoft/Mage-Flow",
       "published_at": "2026-07-21T10:57:40Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Cosmos-H-Dreams",
+      "project": "nvidia",
+      "version": "Cosmos-H-Dreams",
+      "url": "https://huggingface.co/nvidia/Cosmos-H-Dreams",
+      "published_at": "2026-07-21T10:50:34Z",
       "body_excerpt": "",
       "type": "model"
     },
