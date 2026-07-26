@@ -1,134 +1,145 @@
 {
-  "updated_at": "2026-07-25T19:14:49Z",
+  "updated_at": "2026-07-26T03:27:22Z",
   "items": [
     {
-      "id": "localllama-2026-07-25-sanity-check-using-a-headless-7800xt-desktop-to-serve-llms-t",
+      "id": "localllama-2026-07-26-m2-ultra-64gb-vs-m1-ultra-128gb",
       "source": "localllama",
-      "title": "Sanity Check: Using a headless 7800xt desktop to serve LLMs to my Mac for vibe coding. Am I missing anything crucial?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6g27c/sanity_check_using_a_headless_7800xt_desktop_to/",
-      "published_at": "2026-07-25T18:32:09Z",
-      "summary": "Looking for a sanity check / review of my system, plus opinions. I&#39;m a lifelong IT professional techie but not a software developer (I did HTML in the MySpace days, but it stopped there lol). I&#39;ve got Llama.cpp r",
+      "title": "M2 Ultra 64gb vs m1 ultra 128gb",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6s2dh/m2_ultra_64gb_vs_m1_ultra_128gb/",
+      "published_at": "2026-07-26T03:13:55Z",
+      "summary": "Trying to weigh if I should buy a $3000 m1 ultra at 128gb when I currently already have an M2 Ultra albeit at 64gb ram.  I run small models right now in my workflow but would appreciate more context and try out larger wo",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-25-mobile-offline-llms-what-do-you-use-them-for",
+      "id": "localllama-2026-07-26-we-open-sourced-logue-a-privacy-first-macos-meeting-notes-wr",
       "source": "localllama",
-      "title": "Mobile Offline LLMs: What do you use them for?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6fq6p/mobile_offline_llms_what_do_you_use_them_for/",
-      "published_at": "2026-07-25T18:19:20Z",
-      "summary": "I&#39;ve spent the last year or so playing around with open source MLX and GGUF models on iPhone hardware. Given the limitations in memory, GPU/CPU/ANE, and in turn the context window I&#39;ve been trying to figure out t",
+      "title": "We open-sourced Logue — a privacy-first macOS meeting-notes + writing app that runs on-device (MLX, Apple Silicon) entirely",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6q0d4/we_opensourced_logue_a_privacyfirst_macos/",
+      "published_at": "2026-07-26T01:33:35Z",
+      "summary": "      At Bitwize, we&#39;ve been building Logue, a native macOS app for AI meeting notes and writing, and we just open-sourced it (MIT). We&#39;re sharing it here because the whole point is that it runs 100% on-device — ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-25-best-local-model-for-analyzing-video",
+      "id": "localllama-2026-07-26-karparthy-removed-anthropic-from-his-bio",
       "source": "localllama",
-      "title": "Best local model for analyzing video",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6fglm/best_local_model_for_analyzing_video/",
-      "published_at": "2026-07-25T18:09:21Z",
-      "summary": "I’m trying to make a tool that edits my shorts for me and from my understanding, last time I tried to use llama and Gemma it didn’t let me upload video anyone know the best local options for uploading video. So far the b",
+      "title": "Karparthy removed Anthropic from his bio",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6pkji/karparthy_removed_anthropic_from_his_bio/",
+      "published_at": "2026-07-26T01:12:29Z",
+      "summary": "      Andrej Karpathy, a prominent advocate for open-source AI and a co-founder of OpenAI, appears to have removed Anthropic from his X bio, suggesting he may have left the company. Karpathy joined Anthropic only a few m",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-25-kimi-linear-48b-a3b",
+      "id": "localllama-2026-07-25-mi50-power-curve-tests",
       "source": "localllama",
-      "title": "Kimi Linear 48B A3B?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6f5vf/kimi_linear_48b_a3b/",
-      "published_at": "2026-07-25T17:58:17Z",
-      "summary": "      Just noticed this exists, 1M context MOE with 48B par seems just like what Ive been looking for - it runs pretty damn fast too compared to Qwen 3.6 35B. after some testing it seems capable of producing *not terribl",
+      "title": "MI50 power curve tests",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6ns73/mi50_power_curve_tests/",
+      "published_at": "2026-07-25T23:50:20Z",
+      "summary": "      tests done power limiting the GPU on LACT - real power usage varies wildy at 20W it ranges from 25W to 56W same behavior happens on every setting prompt for the test runs: https://github.com/lukesdevlab/youtube/blo",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-25-i-run-35b480b-coding-models-on-my-36-gb-macbook-by-streaming",
+      "id": "localllama-2026-07-25-llamacpp-now-has-full-mcp-support",
       "source": "localllama",
-      "title": "I run 35B–480B coding models on my 36 GB MacBook by streaming MoE experts from SSD — self-contained app, and I publish the benchmarks that *failed* too",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6eqvo/i_run_35b480b_coding_models_on_my_36_gb_macbook/",
-      "published_at": "2026-07-25T17:42:20Z",
-      "summary": "I got tired of &quot;your Mac can&#39;t run that&quot; so I forked llama.cpp to stream a MoE model&#39;s expert weights from SSD instead of forcing the whole thing into RAM. A MoE only fires a few experts per token, so m",
+      "title": "Llama.cpp now has full MCP support!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6n33i/llamacpp_now_has_full_mcp_support/",
+      "published_at": "2026-07-25T23:18:38Z",
+      "summary": "After a long and grueling effort spearheaded by ngxson, llama.cpp now fully supports MCP for all protocols. Over-the-web HTTP servers were already supported in the client (since they don&#39;t require any sort of plumbin",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-25-benchmarks-tensorsharp-vs-llamacpp",
+      "id": "localllama-2026-07-25-5700-48gb-ram-and-a-3090-24gb-best-os-and-frameworkmodel",
       "source": "localllama",
-      "title": "Benchmarks: TensorSharp vs. llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6ect8/benchmarks_tensorsharp_vs_llamacpp/",
-      "published_at": "2026-07-25T17:27:32Z",
-      "summary": "      Cuda and Vulkan Benchmark: TensorSharp vs. llama.cpp I would like to share my latest open source local Unsloth (GGUF) LLM inference engine and applications. It supports many models from Unsloth, like Gemma4, Diffus",
+      "title": "5700, 48GB RAM and a 3090 24Gb. Best OS and framework/model?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6mna4/5700_48gb_ram_and_a_3090_24gb_best_os_and/",
+      "published_at": "2026-07-25T22:59:23Z",
+      "summary": "Hi everyone, I have a system which I have been using for gaming, R7 5700X, 48GB DDR4, RTX3090 24GB. But I want to use it for Local AI to reduce my reliance on cloud AI providers (mainly usage limits - accepting some qual",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-25-lfm-25-230m-running-at-1440-toks-in-browser-through-a-custom",
+      "id": "localllama-2026-07-25-help-me-complete-my-ai-collection",
       "source": "localllama",
-      "title": "LFM 2.5 230M running at 1440 tok/s in-browser through a custom backend",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6e0uq/lfm_25_230m_running_at_1440_toks_inbrowser/",
-      "published_at": "2026-07-25T17:14:44Z",
-      "summary": "      Everything runs through WebGPU, in-browser or in electron/tauri apps. It&#39;s fully portable and supports either Nvidia and Apple Silicon (Metal). The actual kernels are optimized for the specific hardware of the ",
+      "title": "Help me complete my AI collection",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6mcvc/help_me_complete_my_ai_collection/",
+      "published_at": "2026-07-25T22:46:34Z",
+      "summary": "I’m building the ultimate AI tool vault, but every great collection has a few missing pieces.  Note: I will react to every comment AI&#39;s currently installed: Qwen3.5-0.8B-UD-Q4_K_XL.gguf(classification) Qwen3.5-2B-UD-",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-25-great-arguments-by-member-of-technical-staff-at-anthropic-d",
+      "id": "simonw-2026-07-25-ruff-v0160",
+      "source": "simonw",
+      "title": "Ruff v0.16.0",
+      "url": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+      "published_at": "2026-07-25T22:44:05Z",
+      "summary": "Ruff v0.16.0\nAstral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-25-4x-3090-96gb-vram-what-model-to-drive-hermes",
       "source": "localllama",
-      "title": "Great Arguments by Member of Technical Staff at Anthropic :D",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6dy7w/great_arguments_by_member_of_technical_staff_at/",
-      "published_at": "2026-07-25T17:12:04Z",
-      "summary": "      Tweet : https://xcancel.com/Mononofu/status/2080937562739531837#m  &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
+      "title": "4x 3090, 96gb vram what Model to drive Hermes?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6lrre/4x_3090_96gb_vram_what_model_to_drive_hermes/",
+      "published_at": "2026-07-25T22:20:47Z",
+      "summary": "3 year lurker, now i finally got my server up and running. dont know which model to choose. llama.cpp or vllm, what makes more sense? mainly single user with maybe 2-3 more additional users in family, if everything check",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-25-turns-out-open-ai-is-a-coalition-not-a-company",
+      "id": "localllama-2026-07-25-is-it-worth-getting-128gb-macbook-pro-will-it-ever-be-compar",
       "source": "localllama",
-      "title": "Turns out open AI is a coalition, not a company.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6drdx/turns_out_open_ai_is_a_coalition_not_a_company/",
-      "published_at": "2026-07-25T17:04:46Z",
-      "summary": "      &#32; submitted by &#32;  /u/InternationalGap3698   [link] &#32; [comments] ",
+      "title": "Is it worth getting 128GB MacBook Pro? Will it ever be comparable to today’s frontier models for coding?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6jpvn/is_it_worth_getting_128gb_macbook_pro_will_it/",
+      "published_at": "2026-07-25T20:56:22Z",
+      "summary": "I am a long time iOS app developer. In the last year I have been using Cursor+Claude/others to assist with app development. I am concerned that the current low pricing will disappear eventually. I am pricing out a new la",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-25-how-much-are-you-actually-using-your-local-models-these-days",
+      "id": "localllama-2026-07-25-deepseek-v4-flash---hy3-or-is-qwen36-27b-still-the-most-soli",
       "source": "localllama",
-      "title": "How much are you actually using your local models these days? Which ones do you reach for the most?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6dk8t/how_much_are_you_actually_using_your_local_models/",
-      "published_at": "2026-07-25T16:57:17Z",
-      "summary": "      I started tracking my local model usage about four weeks ago and was wondering if anyone else here keeps track of how much they use them. I’ve also been running some tests with the cheapest SOTA open-weight Chinese",
+      "title": "Deepseek V4 flash - Hy3 or is Qwen3.6 27B still the most solid for agentic/coding?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6jlva/deepseek_v4_flash_hy3_or_is_qwen36_27b_still_the/",
+      "published_at": "2026-07-25T20:51:31Z",
+      "summary": "I understand that the laguna model is either still buggy or potentially benchmaxxed. So I’d like to know for people who really tested, are DS flash or Hy3 really better in your usecase?  &#32; submitted by &#32;  /u/Lefl",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-25-medium-sized-moe-llm-models",
+      "id": "localllama-2026-07-25-ive-seen-this-movie-before",
       "source": "localllama",
-      "title": "Medium sized MoE LLM models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6d2ou/medium_sized_moe_llm_models/",
-      "published_at": "2026-07-25T16:37:58Z",
-      "summary": "What are some medium sized MoE models (up to 60B parameters in float8/110B in mxfp4) that are currently worth using? As far as I am aware there is Qwen 3.5 35B, Gemma 4 A4B, Nemotron 3 Nano. Qwen seems to dominate this b",
+      "title": "I've seen this movie before",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6ihwf/ive_seen_this_movie_before/",
+      "published_at": "2026-07-25T20:06:48Z",
+      "summary": "      &#32; submitted by &#32;  /u/VentureSatchel   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-25-google-comes-out-in-favor-of-openweight-models-it-is-now-eve",
+      "id": "localllama-2026-07-25-best-chat-model-that-fits-in-128gb",
       "source": "localllama",
-      "title": "Google comes out in favor of OpenWeight models. (It is now EVERY tech giant vs Anthropic)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6axx3/google_comes_out_in_favor_of_openweight_models_it/",
-      "published_at": "2026-07-25T15:12:42Z",
-      "summary": "&#32; submitted by &#32;  /u/MysteryWra   [link] &#32; [comments]",
+      "title": "Best chat model that fits in 128gb",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6ig61/best_chat_model_that_fits_in_128gb/",
+      "published_at": "2026-07-25T20:04:52Z",
+      "summary": "I&#39;m looking for a model to chat with, reasoning, maybe get some career or life coaching. I don&#39;t care at all about multimodal or coding ability Just it&#39;s intelligence in remembering context in a conversation ",
       "tags": [
         "localllama"
       ]
@@ -294,17 +305,6 @@
       "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
       "published_at": "2026-07-20T03:47:59Z",
       "summary": "We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability o",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-19-ai-mania-is-eviscerating-global-decision-making",
-      "source": "simonw",
-      "title": "AI Mania Is Eviscerating Global Decision-Making",
-      "url": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
-      "published_at": "2026-07-19T05:06:21Z",
-      "summary": "AI Mania Is Eviscerating Global Decision-Making\nHere's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from an",
       "tags": [
         "simonw"
       ]
