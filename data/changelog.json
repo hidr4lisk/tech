@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-07-26T08:33:08Z",
+  "updated_at": "2026-07-26T13:39:14Z",
   "releases": [
+    {
+      "id": "hf-microsoft-Mage-ViT",
+      "project": "microsoft",
+      "version": "Mage-ViT",
+      "url": "https://huggingface.co/microsoft/Mage-ViT",
+      "published_at": "2026-07-26T04:22:45Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "vllm-v0.26.0",
       "project": "vllm",
@@ -9,6 +18,15 @@
       "published_at": "2026-07-25T10:38:53Z",
       "body_excerpt": "vLLM v0.26.0 Release Notes Highlights This release features 411 commits from 212 contributors (61 new)! New Inkling model family with a full support stack: base modeling (#48799), piecewise CUDA graph support (#48822), Hopper FA4 relative attention (#48858), MTP=1 speculative decoding (#48869), LoRA (#48884), and standard ModelOpt NVFP4 quantization (#48990). DeepSeek-V4 performance push across ve",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-Mage-VL",
+      "project": "microsoft",
+      "version": "Mage-VL",
+      "url": "https://huggingface.co/microsoft/Mage-VL",
+      "published_at": "2026-07-25T08:29:09Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.32.4-rc0",
@@ -8100,15 +8118,6 @@
       "published_at": "2026-04-27T21:20:28Z",
       "body_excerpt": "vLLM v0.20.0 Highlights This release features 752 commits from 320 contributors (123 new)! DeepSeek V4: Initial DeepSeek V4 support landed (#40860), with DSML token-leakage fix in DSV4/3.2 (#40806), DSA + MTP IMA fix (#40772), and a silu clamp limit on the shared expert (#40950). CUDA 13.0 default: Default CUDA wheel on PyPI and image switched to CUDA 13.0; architecture lists and build-args cleane",
       "type": "tool"
-    },
-    {
-      "id": "hf-mistralai-Mistral-Medium-3.5-128B-EAGLE",
-      "project": "mistralai",
-      "version": "Mistral-Medium-3.5-128B-EAGLE",
-      "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE",
-      "published_at": "2026-04-27T13:35:34Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
