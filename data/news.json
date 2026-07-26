@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-07-26T03:27:22Z",
+  "updated_at": "2026-07-26T08:33:02Z",
   "items": [
+    {
+      "id": "localllama-2026-07-26-any-use-cases-for-rtx-pro-4500",
+      "source": "localllama",
+      "title": "Any use cases for RTX PRO 4500?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6ul6a/any_use_cases_for_rtx_pro_4500/",
+      "published_at": "2026-07-26T05:21:45Z",
+      "summary": "At its price point, PRO 4500 doesn’t offer as much raw performance due to its lower power draw at 300W. The 5090 can perform up to 60-70% in short spurts with 600W, but can also be undervolted down to 400W.  Are there le",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-26-glm-52-and-ik-llamaccp",
+      "source": "localllama",
+      "title": "GLM 5.2 and ik_llama.ccp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6uira/glm_52_and_ik_llamaccp/",
+      "published_at": "2026-07-26T05:18:04Z",
+      "summary": "Running GLM-5.2 (the new glm-dsa arch), Unsloth UD-Q4_K_XL, on a 4-socket Xeon E7-8880 v4 box with 1TB RAM and a single RTX 3060 12GB. ik_llama.cpp, experts on CPU (--cpu-moe), 24 attention layers on the GPU. Works great",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-26-m2-ultra-64gb-vs-m1-ultra-128gb",
       "source": "localllama",
@@ -8,6 +30,28 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6s2dh/m2_ultra_64gb_vs_m1_ultra_128gb/",
       "published_at": "2026-07-26T03:13:55Z",
       "summary": "Trying to weigh if I should buy a $3000 m1 ultra at 128gb when I currently already have an M2 Ultra albeit at 64gb ram.  I run small models right now in my workflow but would appreciate more context and try out larger wo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-26-16-bit-better-than-lower-quants-for-qwen36-27b",
+      "source": "localllama",
+      "title": "16 bit better than lower quants for Qwen3.6-27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6q6z5/16_bit_better_than_lower_quants_for_qwen3627b/",
+      "published_at": "2026-07-26T01:42:28Z",
+      "summary": "I am writing a fairly complex C++ windows MFC application. I have a few 3090s and can run F16 Qwen3.6-27B with 256K context and MTP. The quality of code is exceptional with this quant vs its lower quants. The others are ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-26-will-small-model-intelligence-be-limited-by-parameter-count",
+      "source": "localllama",
+      "title": "Will small model intelligence be limited by parameter count?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6q22t/will_small_model_intelligence_be_limited_by/",
+      "published_at": "2026-07-26T01:35:54Z",
+      "summary": "Qwen3.6-27b is fantastic! It makes me wonder if there&#39;s a hard ceiling to smaller sized models. Do you guys think the ceiling of intelligence for smaller models will be constrained by factors like parameter count, or",
       "tags": [
         "localllama"
       ]
@@ -96,50 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6lrre/4x_3090_96gb_vram_what_model_to_drive_hermes/",
       "published_at": "2026-07-25T22:20:47Z",
       "summary": "3 year lurker, now i finally got my server up and running. dont know which model to choose. llama.cpp or vllm, what makes more sense? mainly single user with maybe 2-3 more additional users in family, if everything check",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-25-is-it-worth-getting-128gb-macbook-pro-will-it-ever-be-compar",
-      "source": "localllama",
-      "title": "Is it worth getting 128GB MacBook Pro? Will it ever be comparable to today’s frontier models for coding?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6jpvn/is_it_worth_getting_128gb_macbook_pro_will_it/",
-      "published_at": "2026-07-25T20:56:22Z",
-      "summary": "I am a long time iOS app developer. In the last year I have been using Cursor+Claude/others to assist with app development. I am concerned that the current low pricing will disappear eventually. I am pricing out a new la",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-25-deepseek-v4-flash---hy3-or-is-qwen36-27b-still-the-most-soli",
-      "source": "localllama",
-      "title": "Deepseek V4 flash - Hy3 or is Qwen3.6 27B still the most solid for agentic/coding?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6jlva/deepseek_v4_flash_hy3_or_is_qwen36_27b_still_the/",
-      "published_at": "2026-07-25T20:51:31Z",
-      "summary": "I understand that the laguna model is either still buggy or potentially benchmaxxed. So I’d like to know for people who really tested, are DS flash or Hy3 really better in your usecase?  &#32; submitted by &#32;  /u/Lefl",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-25-ive-seen-this-movie-before",
-      "source": "localllama",
-      "title": "I've seen this movie before",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6ihwf/ive_seen_this_movie_before/",
-      "published_at": "2026-07-25T20:06:48Z",
-      "summary": "      &#32; submitted by &#32;  /u/VentureSatchel   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-25-best-chat-model-that-fits-in-128gb",
-      "source": "localllama",
-      "title": "Best chat model that fits in 128gb",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6ig61/best_chat_model_that_fits_in_128gb/",
-      "published_at": "2026-07-25T20:04:52Z",
-      "summary": "I&#39;m looking for a model to chat with, reasoning, maybe get some career or life coaching. I don&#39;t care at all about multimodal or coding ability Just it&#39;s intelligence in remembering context in a conversation ",
       "tags": [
         "localllama"
       ]
