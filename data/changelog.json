@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-07-27T09:59:37Z",
+  "updated_at": "2026-07-27T14:46:23Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10152",
+      "project": "llama-cpp",
+      "version": "b10152",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10152",
+      "published_at": "2026-07-27T14:13:29Z",
+      "body_excerpt": "fit : count nextn (MTP) blocks in n_gpu_layers so front layers stay on GPU (#26177) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10151",
+      "project": "llama-cpp",
+      "version": "b10151",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10151",
+      "published_at": "2026-07-27T13:24:07Z",
+      "body_excerpt": "sycl(build): parallelize ocloc invocations (#25903) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10150",
+      "project": "llama-cpp",
+      "version": "b10150",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10150",
+      "published_at": "2026-07-27T12:45:33Z",
+      "body_excerpt": "ggml : adjust logic for offloading ops to weight's backend (#25832) ggml : adjust logic for offloading ops to weight's backend llama : dsv4 graph fixes Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10149",
+      "project": "llama-cpp",
+      "version": "b10149",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10149",
+      "published_at": "2026-07-27T11:45:51Z",
+      "body_excerpt": "tests : remove unnecessary sync in test-save-load-state (#26166) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10148",
+      "project": "llama-cpp",
+      "version": "b10148",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10148",
+      "published_at": "2026-07-27T11:15:07Z",
+      "body_excerpt": "common: fix explicit -md precedence over draft sidecar resolution (#26165) common: fix explicit -md precedence over draft sidecar resolution Follow-up of #25955, an explicit --model-draft file given with -hfd was silently overridden by the sidecar resolution of the draft repo, and its path was never resolved to a local file. An explicit draft file selection now disables the sidecar resolution, so ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10146",
+      "project": "llama-cpp",
+      "version": "b10146",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10146",
+      "published_at": "2026-07-27T10:09:41Z",
+      "body_excerpt": "ggml-cpu: Enable BF16 tiled gemm optimization on PowerPC (#26068) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) And",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10145",
       "project": "llama-cpp",
