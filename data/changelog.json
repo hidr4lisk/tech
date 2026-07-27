@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-27T03:36:03Z",
+  "updated_at": "2026-07-27T09:59:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10145",
+      "project": "llama-cpp",
+      "version": "b10145",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10145",
+      "published_at": "2026-07-27T09:28:29Z",
+      "body_excerpt": "args: add where it mlocks but doesnt mmap (#26135) arg: add where it mlocks but doesnt mmap Signed-off-by: Aaron Teo docs: rm unwanted docs changes Signed-off-by: Aaron Teo docs: revert auto-formatting Signed-off-by: Aaron Teo bench: fix automated review point 3 Signed-off-by: Aaron Teo arg: revert the meaning of --mlock to non-mmap'ed mlock Signed-off-by: Aaron Teo docs: update docs Signed-off-by",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10144",
+      "project": "llama-cpp",
+      "version": "b10144",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10144",
+      "published_at": "2026-07-27T06:14:00Z",
+      "body_excerpt": "server + ui: fix stream routes for model names containing a slash (#26137) server + ui: refactor resumable stream routes to query string conv_id The conversation id can embed a model name containing slashes (ggml-org/...) in router mode, which the decoded path splits before the :conv_id param is captured, so stop and resume never matched the session. Move the id to the conv_id query string on the ",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.32.5-rc0",
       "project": "ollama",
