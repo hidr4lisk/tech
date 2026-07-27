@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-07-26T19:18:12Z",
+  "updated_at": "2026-07-27T03:36:03Z",
   "releases": [
+    {
+      "id": "ollama-v0.32.5-rc0",
+      "project": "ollama",
+      "version": "v0.32.5-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5-rc0",
+      "published_at": "2026-07-27T01:25:40Z",
+      "body_excerpt": "What's Changed mlx update by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.26.0",
+      "project": "vllm",
+      "version": "v0.26.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
+      "published_at": "2026-07-27T01:06:58Z",
+      "body_excerpt": "vLLM v0.26.0 Release Notes Highlights This release features 411 commits from 212 contributors (61 new)! New Inkling model family with a full support stack: base modeling (#48799), piecewise CUDA graph support (#48822), Hopper FA4 relative attention (#48858), MTP=1 speculative decoding (#48869), LoRA (#48884), and standard ModelOpt NVFP4 quantization (#48990). DeepSeek-V4 performance push across ve",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10142",
+      "project": "llama-cpp",
+      "version": "b10142",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10142",
+      "published_at": "2026-07-27T00:20:27Z",
+      "body_excerpt": "mtmd: Add Vision Support for Minimax-M3 (#25113) Add preliminary MiniMax-M3 support Text-only port that re-uses existing components: MiniMax-M2 style GQA with per-head QK-norm and partial rotary, DeepSeek-V3 style leading-dense and routed/shared experts, and swigluoai activation. Sparse attention is not yet supported (dense fallback); vision tower and MTP heads are dropped. MiniMax-M3 vision tower",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10141",
+      "project": "llama-cpp",
+      "version": "b10141",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10141",
+      "published_at": "2026-07-26T23:03:40Z",
+      "body_excerpt": "mtmd: fix android build (#26150) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows",
+      "type": "tool"
+    },
     {
       "id": "hf-microsoft-Mage-ViT",
       "project": "microsoft",
@@ -9,15 +45,6 @@
       "published_at": "2026-07-26T04:22:45Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "vllm-v0.26.0",
-      "project": "vllm",
-      "version": "v0.26.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
-      "published_at": "2026-07-25T10:38:53Z",
-      "body_excerpt": "vLLM v0.26.0 Release Notes Highlights This release features 411 commits from 212 contributors (61 new)! New Inkling model family with a full support stack: base modeling (#48799), piecewise CUDA graph support (#48822), Hopper FA4 relative attention (#48858), MTP=1 speculative decoding (#48869), LoRA (#48884), and standard ModelOpt NVFP4 quantization (#48990). DeepSeek-V4 performance push across ve",
-      "type": "tool"
     },
     {
       "id": "hf-microsoft-Mage-VL",
@@ -8108,15 +8135,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.22.0",
       "published_at": "2026-04-28T15:00:25Z",
       "body_excerpt": "New models NVIDIA's Nemotron 3 Omni Poolside's first open-weight coding model - Laguna XS.2 Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.20.0",
-      "project": "vllm",
-      "version": "v0.20.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.0",
-      "published_at": "2026-04-27T21:20:28Z",
-      "body_excerpt": "vLLM v0.20.0 Highlights This release features 752 commits from 320 contributors (123 new)! DeepSeek V4: Initial DeepSeek V4 support landed (#40860), with DSML token-leakage fix in DSV4/3.2 (#40806), DSA + MTP IMA fix (#40772), and a silu clamp limit on the shared expert (#40950). CUDA 13.0 default: Default CUDA wheel on PyPI and image switched to CUDA 13.0; architecture lists and build-args cleane",
       "type": "tool"
     }
   ]
