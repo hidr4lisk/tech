@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-27T14:46:23Z",
+  "updated_at": "2026-07-27T19:41:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10154",
+      "project": "llama-cpp",
+      "version": "b10154",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10154",
+      "published_at": "2026-07-27T16:59:26Z",
+      "body_excerpt": "common : add common_print_available_devices() (#26170) Signed-off-by: Adrien Gallouët Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10153",
+      "project": "llama-cpp",
+      "version": "b10153",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10153",
+      "published_at": "2026-07-27T15:56:00Z",
+      "body_excerpt": "model: Add support for Nanbeige4.2 (#25994) support nanbeige4.2 model fix fix flake8 Lint check fix loop bound check and drop redundant head_dim --------- Co-authored-by: root Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubunt",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10152",
       "project": "llama-cpp",
@@ -80,6 +98,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5-rc0",
       "published_at": "2026-07-27T01:25:40Z",
       "body_excerpt": "What's Changed mlx update by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.5",
+      "project": "ollama",
+      "version": "v0.32.5",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
+      "published_at": "2026-07-27T01:25:40Z",
+      "body_excerpt": "What's Changed Fixed an MLX Metal bug that could reduce output quality for NVFP4 models, particularly Laguna. Full Changelog:",
       "type": "tool"
     },
     {
@@ -8189,24 +8216,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.22.1",
       "published_at": "2026-04-28T20:30:57Z",
       "body_excerpt": "What's Changed Updated the Gemma 4 renderer for thinking and tool calling improvements Model recommendations are now updated without updating Ollama Aligned the desktop app's launch page with integrations Fixed the Poolside integration title in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.7.0",
-      "project": "transformers",
-      "version": "v5.7.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.7.0",
-      "published_at": "2026-04-28T18:32:50Z",
-      "body_excerpt": "Release v5.7.0 New Model additions Laguna Laguna is Poolside's mixture-of-experts language model family that extends standard SwiGLU MoE transformers with two key innovations. It features per-layer head counts allowing different decoder layers to have different query-head counts while sharing the same KV cache shape, and implements a sigmoid MoE router with auxiliary-loss-free load balancing that ",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.22.0",
-      "project": "ollama",
-      "version": "v0.22.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.22.0",
-      "published_at": "2026-04-28T15:00:25Z",
-      "body_excerpt": "New models NVIDIA's Nemotron 3 Omni Poolside's first open-weight coding model - Laguna XS.2 Full Changelog:",
       "type": "tool"
     }
   ]
