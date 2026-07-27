@@ -1,134 +1,134 @@
 {
-  "updated_at": "2026-07-27T14:46:16Z",
+  "updated_at": "2026-07-27T19:41:32Z",
   "items": [
     {
-      "id": "localllama-2026-07-27-kimi-k3-weights-drop-today-were-deploying-on-a100s-h200s-and",
+      "id": "localllama-2026-07-27-kimi-k3-on-hf-viewer",
       "source": "localllama",
-      "title": "Kimi K3 weights drop today. We're deploying on A100s, H200s and B300s this week and the A100 math is already rough",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v81qw0/kimi_k3_weights_drop_today_were_deploying_on/",
-      "published_at": "2026-07-27T14:18:45Z",
-      "summary": "tldr; we are going to host K3 on A100s (yes, thats correct, we&#39;ll try to see if it holds up), H200s &amp; B300s - expect results for A100s &amp; H200s this week while we setup the B300 cluster this weekend &amp; mayb",
+      "title": "Kimi K3 on HF Viewer!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8ab72/kimi_k3_on_hf_viewer/",
+      "published_at": "2026-07-27T19:20:39Z",
+      "summary": "      Wanted to let you know that Kimi K3 is now viewable on hfviewer.com! In addition to the full graph at multiple granularity levels, we also include an in-depth analysis of the 896 experts! https://hfviewer.com/moons",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-27-nvidia-ceo-jensen-huang-defends-open-source-ai-by-saying-dis",
+      "id": "localllama-2026-07-27-i-ran-the-35b-agentic-comparison-someone-asked-for-stock-vs",
       "source": "localllama",
-      "title": "Nvidia CEO Jensen Huang defends Open Source AI by saying distillation is fundamental to learning",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v81nqt/nvidia_ceo_jensen_huang_defends_open_source_ai_by/",
-      "published_at": "2026-07-27T14:15:27Z",
-      "summary": "      Nvidia CEO Jensen Huang “Distillation - learning from AI, learning from other people, and learning from other sources of knowledge, is fundamental to intelligence. We are constantly learning from one another. AI al",
+      "title": "I ran the 35B agentic comparison someone asked for (stock vs Ornith vs KAT-Coder, 120 runs)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v89yxj/i_ran_the_35b_agentic_comparison_someone_asked/",
+      "published_at": "2026-07-27T19:08:40Z",
+      "summary": "Someone in the comments of my 27B post-train bakeoff asked for the 35B version, so I ran it. Same setup as last time: fresh Coder workspaces on my k8s cluster, each driving my own agent (Hermes) headlessly, models on lla",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-27-nyt-protect-americas-lead-in-the-ai-race",
+      "id": "localllama-2026-07-27-funny-how-wide-the-spectrum-has-gotten",
       "source": "localllama",
-      "title": "NYT: Protect America’s lead in the A.I. race.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v81guk/nyt_protect_americas_lead_in_the_ai_race/",
-      "published_at": "2026-07-27T14:08:22Z",
-      "summary": "“China is working hard to catch up, and the United States should take steps to keep its advantage. Most important, it should continue to prohibit American companies from selling the most advanced chips and equipment to C",
+      "title": "Funny how wide the spectrum has gotten",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v895mm/funny_how_wide_the_spectrum_has_gotten/",
+      "published_at": "2026-07-27T18:40:15Z",
+      "summary": "      &#32; submitted by &#32;  /u/zkstx   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-27-ornith-397b-running-at-q4-on-a-single-rtx-pro-6000-blackwell",
+      "id": "localllama-2026-07-27-kimi-k3-text-only-for-llamacpp",
       "source": "localllama",
-      "title": "Ornith-397B running at Q4 on a single RTX PRO 6000 Blackwell 96GB - 2,354 tok/s prefill, ~20–24 tok/s decode",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v818gf/ornith397b_running_at_q4_on_a_single_rtx_pro_6000/",
-      "published_at": "2026-07-27T13:59:52Z",
-      "summary": "I&#39;ve been building Krasis, an MoE-focused runtime for streaming big models through limited VRAM on NVIDIA consumer/workstation GPUs, and I think this is the most interesting result so far: Ornith-1.0-397B running int",
+      "title": "Kimi K3 text-only for llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v87v71/kimi_k3_textonly_for_llamacpp/",
+      "published_at": "2026-07-27T17:57:12Z",
+      "summary": "      Now waiting for someone who can actually run the conversion and model to see if it works :)  &#32; submitted by &#32;  /u/ilintar   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-27-discussion-non-developers-what-are-some-use-cases-for-your-l",
+      "id": "localllama-2026-07-27-viable-ways-to-run-k3-locally",
       "source": "localllama",
-      "title": "[Discussion] non developers: what are some use cases for your local models?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v80sq5/discussion_non_developers_what_are_some_use_cases/",
-      "published_at": "2026-07-27T13:42:43Z",
-      "summary": "i get curious about this a lot, and majority of the times i get a response which is similar to mine that is : it fulfills a curiosity or playing around.  wondering what other everyday use cases are you using it for? and ",
+      "title": "Viable ways to run K3 locally",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v866sg/viable_ways_to_run_k3_locally/",
+      "published_at": "2026-07-27T16:58:47Z",
+      "summary": "just curious how would people run it cheap if they really want kimi k3.  dgx spark / strix halo clusters optane persistent memory platform + some gpus mac studio clusters orange pi 6 clusters ssd streaming + gpus multipl",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-27-just-another-benchmark-034-vs-2760-for-the-same-tasks-solved",
+      "id": "localllama-2026-07-27-ling-30-flash-weights-sglang-says-day-0-vllm-says-when-they",
       "source": "localllama",
-      "title": "just another benchmark: $0.34 vs $27.60 for the same tasks solved",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7z4is/just_another_benchmark_034_vs_2760_for_the_same/",
-      "published_at": "2026-07-27T12:35:09Z",
-      "summary": "      &#32; submitted by &#32;  /u/arsenyinfo   [link] &#32; [comments] ",
+      "title": "Ling-3.0-flash weights: SGLang says day-0, vLLM says when they land, llama.cpp closed the 2.6 request as not_planned",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v85hnf/ling30flash_weights_sglang_says_day0_vllm_says/",
+      "published_at": "2026-07-27T16:33:49Z",
+      "summary": "Some Ling-3.0-flash threads here last week ended on the same two questions with no real answer, so I went through the repos. State as of writing, with links so you can check instead of taking my word for it. SGLang publi",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-27-softmax-for-people-trying-to-run-models-on-fpgas",
+      "id": "localllama-2026-07-27-ai-labs-are-about-to-have-a-blast-of-a-day-composer-v3-comin",
       "source": "localllama",
-      "title": "Softmax for People Trying To Run Models on FPGAs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7z33m/softmax_for_people_trying_to_run_models_on_fpgas/",
-      "published_at": "2026-07-27T12:33:24Z",
-      "summary": "My weekend sideproject was implementing the paper &#39;Approximating Softmax for FPGAs with Taylor Series and Pade Approximants&#39; The paper’s motivation is the hardware constraints limiting exponential operations on F",
+      "title": "AI labs are about to have a blast of a day. (Composer v3 coming soon lmfao)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v843yk/ai_labs_are_about_to_have_a_blast_of_a_day/",
+      "published_at": "2026-07-27T15:45:20Z",
+      "summary": "      https://preview.redd.it/wsmogrh5msfh1.png?width=530&amp;format=png&amp;auto=webp&amp;s=c8359bcbaa83acb573cad819fcfbb27029425ba3 2.85k downloads. my god its only been an hour.   &#32; submitted by &#32;  /u/Ninjam5 ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-27-do-qwen-36-27b-quantizations-break-the-pelican",
+      "id": "localllama-2026-07-27-model-add-support-for-nanbeige42-by-zqlcode-pull-request-259",
       "source": "localllama",
-      "title": "Do Qwen 3.6 27B quantizations break the pelican?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7ycpd/do_qwen_36_27b_quantizations_break_the_pelican/",
-      "published_at": "2026-07-27T12:01:05Z",
-      "summary": "      &#32; submitted by &#32;  /u/pmigdal   [link] &#32; [comments] ",
+      "title": "[Model] Add support for Nanbeige4.2 by zqlcode · Pull Request #25994 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8426q/model_add_support_for_nanbeige42_by_zqlcode_pull/",
+      "published_at": "2026-07-27T15:43:25Z",
+      "summary": "      Model : https://huggingface.co/Nanbeige/Nanbeige4.2-3B  &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-27-jensen-huang-during-the-hugging-face-incident-closed-ai-bloc",
+      "id": "localllama-2026-07-27-kimi-k3-weights-now-released",
       "source": "localllama",
-      "title": "Jensen Huang: During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7yand/jensen_huang_during_the_hugging_face_incident/",
-      "published_at": "2026-07-27T11:59:03Z",
-      "summary": "      Jensen Huang on 𝕏: https://x.com/JensenHuang/status/2081698060330250294  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
+      "title": "Kimi K3 weights now released.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8364f/kimi_k3_weights_now_released/",
+      "published_at": "2026-07-27T15:11:07Z",
+      "summary": "      Kimi K3 weights are finally released!   &#32; submitted by &#32;  /u/SavunOski   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-27-qwen36-27b-speculative-decoding-gets-better-on-heavier-quant",
+      "id": "localllama-2026-07-27-you-can-now-fine-tune-my-396m-parameter-tts-on-your-own-voic",
       "source": "localllama",
-      "title": "Qwen3.6-27B speculative decoding gets better on heavier quants",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7wh6g/qwen3627b_speculative_decoding_gets_better_on/",
-      "published_at": "2026-07-27T10:27:44Z",
-      "summary": "      I finished the speed leg of my spec-decode benchmarking for Qwen3.6-27B, main algorithms across quants. Overall: the heavier the quant, the more spec-decode buys you (10 of 10 speculative configs rank Q8 &gt; Q6 &g",
+      "title": "You can now fine-tune my 3.96M-parameter TTS on your own voice or language",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v83537/you_can_now_finetune_my_396mparameter_tts_on_your/",
+      "published_at": "2026-07-27T15:10:07Z",
+      "summary": "When I released Inflect v2 last week, I thought most people would ask whether a TTS model this small actually sounded decent. Instead, I kept getting two questions: “Can I train it on my own voice?” “Can I move it to ano",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-27-for-v100-users-sglang-running-qwendflash-and-laguna",
+      "id": "localllama-2026-07-27-kimi-k3s-weights-are-out",
       "source": "localllama",
-      "title": "For V100 Users: SGLang running Qwen+Dflash and Laguna",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7wcmg/for_v100_users_sglang_running_qwendflash_and/",
-      "published_at": "2026-07-27T10:20:44Z",
-      "summary": "      Forked SGLang, wrote TeilLang FlashAttention for V100, used open-source marlin-v100, ungated flashinfer for sm70, made Dflash work for Qwen3.5/3.6 models, added Laguna S2.1 support, tried to make dflash work for La",
+      "title": "KIMI K3’s WEIGHTS ARE OUT!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v834tu/kimi_k3s_weights_are_out/",
+      "published_at": "2026-07-27T15:09:51Z",
+      "summary": "      &#32; submitted by &#32;  /u/BritishDudeGuy   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-07-27-the-entire-tech-industry-save-for-anthropic-has-come-out-in",
+      "id": "localllama-2026-07-27-here-it-is-boys-the-kimi-k3-28t",
       "source": "localllama",
-      "title": "The entire tech industry (save for Anthropic) has come out in favor of open source AI. So what happens next? Will Anthropic change its lobbying efforts? Not likely. Now the gaslighting begins: “Nobody is trying to ban open source.”",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7vts0/the_entire_tech_industry_save_for_anthropic_has/",
-      "published_at": "2026-07-27T09:52:17Z",
-      "summary": "&#32; submitted by &#32;  /u/SignificantLegs   [link] &#32; [comments]",
+      "title": "Here it is boys, The Kimi K3 2.8T",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v834tl/here_it_is_boys_the_kimi_k3_28t/",
+      "published_at": "2026-07-27T15:09:50Z",
+      "summary": "      The Fable dabler.   &#32; submitted by &#32;  /u/Altruistic_Heat_9531   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
