@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-07-28T14:20:37Z",
+  "updated_at": "2026-07-28T19:38:59Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10172",
+      "project": "llama-cpp",
+      "version": "b10172",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10172",
+      "published_at": "2026-07-28T19:27:30Z",
+      "body_excerpt": "ggml-webgpu: Fix some binding alias issues to support all archs, fix recurrent-state-rollback test (#25931) Add overlap glu variant to support all archs, fix recurrent-state-rollback test format Fix all arch overlapped ranges format diagnose bus error on apple ci More testing more testing more targeted testing Fix bug in alignment for > 4gb buffer offsets Fix bug in view offsets Try avoiding multi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10171",
+      "project": "llama-cpp",
+      "version": "b10171",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10171",
+      "published_at": "2026-07-28T18:53:06Z",
+      "body_excerpt": "opencl: skip the Adreno KQ/KQV image kernels for multi-stream batches (#26189) The Adreno KQ/KQV image1d kernels (ggml_cl_mul_mat_kq_kqv_adreno) ignore dim 3 entirely: the sub-buffer covers only nb02*ne02 bytes and the kernel receives no ne03/ne13/nb03/nb13 arguments. With the unified KV cache, multi-sequence batches (e.g. llama-perplexity with its default -b 2048, n_seq=4, or a multi-slot llama-s",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10167",
+      "project": "llama-cpp",
+      "version": "b10167",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10167",
+      "published_at": "2026-07-28T17:02:41Z",
+      "body_excerpt": "server: abstract llama_memory calls to common_memory (#26221) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10166",
+      "project": "llama-cpp",
+      "version": "b10166",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10166",
+      "published_at": "2026-07-28T16:15:51Z",
+      "body_excerpt": "ggml : set output of view src (#25729) llama-graph: set_outputs to t->view_src change set_output to GGML_ASSERT about views not being outputs sampler : avoid views in outputs cont : fix dist sampler cont : consistent logits handling ggml : set output of view src graph : simplify set_outputs() cont : cleanup Co-authored-by: Gaurav Garg --------- Co-authored-by: Georgi Gerganov Co-authored-by: Gaura",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10165",
+      "project": "llama-cpp",
+      "version": "b10165",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10165",
+      "published_at": "2026-07-28T15:29:38Z",
+      "body_excerpt": "vulkan: add iq4_nl support back to FA (#24585) vulkan: add iq4_nl support back to FA I was originally concerned about wasting shared memory on the LUT, but it's small and unlikely to matter in practice. Also support q1_0 for non-coopmat2. Fixes #23681 remove q1_0 FA support Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10164",
+      "project": "llama-cpp",
+      "version": "b10164",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10164",
+      "published_at": "2026-07-28T14:28:22Z",
+      "body_excerpt": "ggml-cuda: add chunked SSD matmul for Mamba-2 prefill acceleration (#22675) ggml-cuda: add chunked SSD matmul for Mamba-2 prefill acceleration cuda: added SSD CICD fixes for CUDA / HIP / MUSA / MSVC. ggml-cuda: review comments fixed. ggml-cuda: Fuse M matrix materialization into pre_matmul kernel and enabled test. ggml-cuda: test updates and fixes ggml-cuda: test updates to remove hardcoding of te",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10159",
       "project": "llama-cpp",
