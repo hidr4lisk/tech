@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-07-28T02:52:14Z",
+  "updated_at": "2026-07-28T08:41:59Z",
   "items": [
+    {
+      "id": "localllama-2026-07-28-medical-model-reasoning-medical-27b-qwen36-27b-finetune",
+      "source": "localllama",
+      "title": "Medical model: Reasoning-Medical-27B (Qwen3.6-27B finetune)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8qyl2/medical_model_reasoningmedical27b_qwen3627b/",
+      "published_at": "2026-07-28T07:19:27Z",
+      "summary": "From the description: &quot;Reasoning-Medical-27B is designed for universal advanced medical reasoning in professional medicine, medical genetics, college biology/medicine, and clinical knowledge. The model was fine-tune",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-28-update-your-chat-template-for-dsv4-if-youre-using-llamacpp",
+      "source": "localllama",
+      "title": "Update your chat template for dsv4 if you're using llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8oalz/update_your_chat_template_for_dsv4_if_youre_using/",
+      "published_at": "2026-07-28T04:58:07Z",
+      "summary": "Following some recent commits in llama.cpp, preserve_thinking behavior for chat templates included in older DSV4 ggufs got broken. This makes the model pretty dumb in a coding agent context. Adding kwargs won&#39;t fix i",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-28-i-built-a-tool-to-actually-test-which-weights-matter-before",
+      "source": "localllama",
+      "title": "I built a tool to actually test which weights matter before quantizing, instead of guessing (Qwen3.6-27B, 3 builds: Bedrock/Tightrope/Gambit)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8nj6o/i_built_a_tool_to_actually_test_which_weights/",
+      "published_at": "2026-07-28T04:19:24Z",
+      "summary": "Most quantization works like this: pick a bit depth, apply it everywhere, maybe let imatrix take a rough guess at what matters, ship it. Most don&#39;t check which specific weight groups can take a hit and which ones can",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-28-microsoftvibevoice-asr-bitnet",
+      "source": "localllama",
+      "title": "microsoft/VibeVoice-ASR-BitNet",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8ncmr/microsoftvibevoiceasrbitnet/",
+      "published_at": "2026-07-28T04:10:23Z",
+      "summary": "      VibeVoice-ASR-BitNet is a compressed variant of VibeVoice-ASR optimized for real-time inference on edge CPUs — no GPU required. Through heterogeneous quantization, the model is compressed from 4.62 GB to 1.58 GB wh",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-28-thinkingcap-qwen36-27b-warrants-a-look",
+      "source": "localllama",
+      "title": "ThinkingCap-Qwen3.6-27B warrants a look",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8lnz6/thinkingcapqwen3627b_warrants_a_look/",
+      "published_at": "2026-07-28T02:52:22Z",
+      "summary": "It has only been two days since I move 100% from Qwen3.5-27B F16 to ThinkingCap-Qwen3.6-27B F16. Where I was getting tps in 30-40 range (depending on the size of the context), I am definitely getting 35-45 range. Not muc",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-28-first-evidence-of-a-pending-qwen37-open-weights-release-qwen",
       "source": "localllama",
@@ -98,61 +153,6 @@
       "summary": "An opinionated guide to which AI to use to do stuff\nIt's interesting watching the evolution of Ethan Mollick's guide over time. \nA year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, ",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-27-openai-management-decided-earlier-today-not-to-join-the-open",
-      "source": "localllama",
-      "title": "OpenAI management decided earlier today not to join the \"Open Secure AI Alliance\", founded by Nvidia CEO Jensen Huang. The decision was shared internally and reportedly met with backlash from employees.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8e36c/openai_management_decided_earlier_today_not_to/",
-      "published_at": "2026-07-27T21:37:12Z",
-      "summary": "&#32; submitted by &#32;  /u/KickLassChewGum   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-27-kimi-k3-on-hf-viewer",
-      "source": "localllama",
-      "title": "Kimi K3 on HF Viewer!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8ab72/kimi_k3_on_hf_viewer/",
-      "published_at": "2026-07-27T19:20:39Z",
-      "summary": "      Wanted to let you know that Kimi K3 is now viewable on hfviewer.com! In addition to the full graph at multiple granularity levels, we also include an in-depth analysis of the 896 experts! https://hfviewer.com/moons",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-27-nifer-is-insane-700ts-with-qwen-36-35b-no-thinking-purpose-b",
-      "source": "localllama",
-      "title": "Nifer is insane. 700t/s with Qwen 3.6 35B (no thinking). Purpose build for RTX5090. Full 250k context too.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8a7wb/nifer_is_insane_700ts_with_qwen_36_35b_no/",
-      "published_at": "2026-07-27T19:17:24Z",
-      "summary": "      I just managed to get it running on windows and this thing is fucking insane. I get around 550-720t/s depending on task at hand. Previously to get to such numbers i would have to do batching and agents in parallel.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-27-i-ran-the-35b-agentic-comparison-someone-asked-for-stock-vs",
-      "source": "localllama",
-      "title": "I ran the 35B agentic comparison someone asked for (stock vs Ornith vs KAT-Coder, 120 runs)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v89yxj/i_ran_the_35b_agentic_comparison_someone_asked/",
-      "published_at": "2026-07-27T19:08:40Z",
-      "summary": "Someone in the comments of my 27B post-train bakeoff asked for the 35B version, so I ran it. Same setup as last time: fresh Coder workspaces on my k8s cluster, each driving my own agent (Hermes) headlessly, models on lla",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-27-funny-how-wide-the-spectrum-has-gotten",
-      "source": "localllama",
-      "title": "Funny how wide the spectrum has gotten",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v895mm/funny_how_wide_the_spectrum_has_gotten/",
-      "published_at": "2026-07-27T18:40:15Z",
-      "summary": "      &#32; submitted by &#32;  /u/zkstx   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
