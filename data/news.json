@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-07-29T14:20:31Z",
+  "updated_at": "2026-07-29T19:23:39Z",
   "items": [
+    {
+      "id": "localllama-2026-07-29-psa-llamacpp-now-loads-mtp-tensors-by-default-for-any-draft",
+      "source": "localllama",
+      "title": "PSA: llama.cpp now loads MTP tensors by default for any draft-mtp arch, even with MTP disabled",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va54em/psa_llamacpp_now_loads_mtp_tensors_by_default_for/",
+      "published_at": "2026-07-29T18:45:34Z",
+      "summary": "If your GGUF has MTP/NextN tensors baked in (GLM-5.2, hy_v3, qwen35moe, step35, etc.), recent llama.cpp builds load them by default — even if you never pass --spec-type draft-mtp. Before, they were skipped unless you act",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-29-ai-worming-through-word",
+      "source": "simonw",
+      "title": "AI Worming through Word",
+      "url": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+      "published_at": "2026-07-29T18:43:03Z",
+      "summary": "AI Worming through Word\nNeat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms:\n\nAn attacker places hidden instructions",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-ilintars-official-guide-to-model-selection",
+      "source": "localllama",
+      "title": "Ilintar's Official Guide To Model Selection",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va4i9e/ilintars_official_guide_to_model_selection/",
+      "published_at": "2026-07-29T18:23:54Z",
+      "summary": "      Inspired by multiple discussions here and on some Discords I frequent, I&#39;ve decided to share with you this high quality training material. You can thank me later ;)  &#32; submitted by &#32;  /u/ilintar   [link",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-07-29-quoting-matthew-green",
+      "source": "simonw",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+      "published_at": "2026-07-29T18:18:15Z",
+      "summary": "Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new post-quantum algorithms based on novel problems. This is why there a",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-everyone-posts-day-one-impressions-whats-still-in-your-stack",
+      "source": "localllama",
+      "title": "Everyone posts day-one impressions. What's still in your stack a month later?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va1zoc/everyone_posts_dayone_impressions_whats_still_in/",
+      "published_at": "2026-07-29T16:56:02Z",
+      "summary": "      Day one threads are the least useful thing we produce here and we produce a lot of them. Model drops, forty people run their favourite prompt, half say it&#39;s the best thing ever and half say benchmaxxed, and non",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-has-anyone-tried-qwen37-flash-on-openrouter-how-does-it-comp",
+      "source": "localllama",
+      "title": "Has anyone tried Qwen3.7 flash on openrouter? How does it compare to our Qwen 3.6 27B?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va118v/has_anyone_tried_qwen37_flash_on_openrouter_how/",
+      "published_at": "2026-07-29T16:22:53Z",
+      "summary": "This might be the next open weight release by qwen team. What you feel like is improved or have become worse from previous model? Please share your experience.  &#32; submitted by &#32;  /u/Kirito275   [link] &#32; [comm",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-first-kimi-k3-results-on-home-lab-4ts",
+      "source": "localllama",
+      "title": "First Kimi K3 results on home lab ~ 4t/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va0rce/first_kimi_k3_results_on_home_lab_4ts/",
+      "published_at": "2026-07-29T16:13:30Z",
+      "summary": "      I&#39;ve got better results than expected for 768gb DDR5 and 2x5090.  Using fork https://github.com/pwilkin/llama.cpp/tree/kimi-k3-text and https://huggingface.co/GrEarl/Kimi-K3-GGUF Q2_K quant. Prefill speed for b",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-i-tested-proven-orchestration-techniques-on-small-local-mode",
+      "source": "localllama",
+      "title": "I tested proven orchestration techniques on small local models. 90% failed. The 10% that survived roughly doubled task completion.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va0cj4/i_tested_proven_orchestration_techniques_on_small/",
+      "published_at": "2026-07-29T15:59:37Z",
+      "summary": "      Hey localllama brochacos, what&#39;s up? I&#39;m u/raydestar, long time local llm fan. SWE with about 10 years xp, and I have been cranking hard trying to skill up with agentic AI recently. Since open weights got g",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-5060ti-chads-vllm-updates-and-nvfp4",
+      "source": "localllama",
+      "title": "5060ti Chads, vllm updates and nvfp4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9zbcr/5060ti_chads_vllm_updates_and_nvfp4/",
+      "published_at": "2026-07-29T15:23:07Z",
+      "summary": "Hey y&#39;all! How is it going. Today this will be a short posting for posterity, mostly so the future llm/scraping overlords catch it since they like reddit and also for anyone out there trying this shit. I have also se",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-i-keep-coming-back-to-qwen-over-and-over-is-there-really-not",
+      "source": "localllama",
+      "title": "I keep coming back to Qwen... Over and Over. Is there really nothing better under 120B?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9xsi8/i_keep_coming_back_to_qwen_over_and_over_is_there/",
+      "published_at": "2026-07-29T14:27:51Z",
+      "summary": "I was looking for a strong coding model and a strong general model, both should be 120b or under. After weeks of researching, qwen3.6 27b(general) and qwen3 coder next(coding) are the top choices. I mean there has to be ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-29-uncensored-llms-are-measurably-more-optimistic-than-their-ba",
       "source": "localllama",
@@ -46,91 +156,14 @@
       ]
     },
     {
-      "id": "localllama-2026-07-29-model-add-nextnmtp-speculative-decoding-support-for-glm-dsa",
-      "source": "localllama",
-      "title": "model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2)- #25980 MERGED!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9ur6i/model_add_nextnmtp_speculative_decoding_support/",
-      "published_at": "2026-07-29T12:27:16Z",
-      "summary": "      https://preview.redd.it/0hyejovsw5gh1.png?width=2091&amp;format=png&amp;auto=webp&amp;s=102dbd7b2b8a76b7769e05fc04c79140e16aa118 model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) by satindergr",
+      "id": "simonw-2026-07-29-adding-a-custom-mcp-server-to-claude-and-chatgpt",
+      "source": "simonw",
+      "title": "Adding a custom MCP server to Claude and ChatGPT",
+      "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+      "published_at": "2026-07-29T00:13:18Z",
+      "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT\n        Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps.\n    \n    \n        Tags: ai, gener",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-microsoft-did-it-again-404-for-their-mage-flow-models-on-hf",
-      "source": "localllama",
-      "title": "Microsoft did it .... again! (404 for their Mage-Flow models on HF)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9swx1/microsoft_did_it_again_404_for_their_mageflow/",
-      "published_at": "2026-07-29T11:02:15Z",
-      "summary": "      Still you could grab GGUF, MLX, FP8, etc., from others on HuggingFace. https://huggingface.co/models?sort=trending&amp;search=Mage-Flow GitHub : https://github.com/microsoft/Mage Take backup of GitHub ASAP. Thanks ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-i-built-a-gbnf-grammar-compiler-that-makes-8b-models-reliabl",
-      "source": "localllama",
-      "title": "I built a GBNF grammar compiler that makes 8B models reliably call tools - here's how it works (deep dive)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9qvn3/i_built_a_gbnf_grammar_compiler_that_makes_8b/",
-      "published_at": "2026-07-29T09:14:09Z",
-      "summary": "I&#39;ve been building a local agent in Rust (Eris) that runs on llama.cpp and uses an Obsidian-compatible vault as memory. ~50 tools (vault read/write, memory, reminders, web fetch, email, calendar, vision). The biggest",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-is-laguna-s21-fixed",
-      "source": "localllama",
-      "title": "Is Laguna s2.1 fixed?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9p47o/is_laguna_s21_fixed/",
-      "published_at": "2026-07-29T07:33:06Z",
-      "summary": "Laguna s2.1 launched about a week ago, the benchmark&#39;s that they advertised were crazy good. But It was a mess, looping issues, tool ussage problems, not performing near the advertised benchmark. So I was gonna ask k",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-built-and-released-bettergpt-150m-a-compact-150m-parameter-c",
-      "source": "localllama",
-      "title": "Built and released BetterGPT-150M – A compact 150M parameter completion model (+ live HF Space demo)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9oa1u/built_and_released_bettergpt150m_a_compact_150m/",
-      "published_at": "2026-07-29T06:47:01Z",
-      "summary": "Hey everyone, ​I recently finished pre-training BetterGPT-150M, a small, lightweight causal language model with ~152 million parameters.Trained on 15B tokens. Dataset &amp; Training: Trained across stable and annealing p",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-dropped-4k-on-a-spark-am-i-crazy",
-      "source": "localllama",
-      "title": "dropped 4k on a spark, am I crazy?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9lijh/dropped_4k_on_a_spark_am_i_crazy/",
-      "published_at": "2026-07-29T04:23:29Z",
-      "summary": "Saw that the Asus Ascent 1tb was going for $3,950 from a few sources, couldn&#39;t stop thinking about it, finally just went ahead and did it. Am I completely insane? Will I regret this? I can&#39;t imagine the price wil",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-anyone-tried-the-q1-kimi-k3-yet-555gb",
-      "source": "localllama",
-      "title": "Anyone tried the Q1 Kimi K3 yet? (555GB)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9kmis/anyone_tried_the_q1_kimi_k3_yet_555gb/",
-      "published_at": "2026-07-29T03:40:38Z",
-      "summary": "      &#32; submitted by &#32;  /u/Hannibalj2ca   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-ax-k2-released",
-      "source": "localllama",
-      "title": "A.X-K2 released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9hpac/axk2_released/",
-      "published_at": "2026-07-29T01:27:42Z",
-      "summary": "      https://huggingface.co/skt/A.X-K2 https://huggingface.co/skt/A.X-K2-ALM https://huggingface.co/KRAFTON/A.X-K2-Raon-Speech-21B-A3B 688B-A33B + About South Korea&#39;s Soverign AI Foundation Model Project. South Kore",
-      "tags": [
-        "localllama"
+        "simonw"
       ]
     },
     {
@@ -285,39 +318,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-22-quoting-thomas-ptacek",
-      "source": "simonw",
-      "title": "Quoting Thomas Ptacek",
-      "url": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
-      "published_at": "2026-07-22T23:59:01Z",
-      "summary": "I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-22-openais-accidental-cyberattack-against-hugging-face-is-scien",
-      "source": "simonw",
-      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
-      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
-      "published_at": "2026-07-22T23:51:33Z",
-      "summary": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of Open",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-22-are-ai-labs-pelicanmaxxing",
-      "source": "simonw",
-      "title": "Are AI labs pelicanmaxxing?",
-      "url": "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything",
-      "published_at": "2026-07-22T23:01:00Z",
-      "summary": "Are AI labs pelicanmaxxing?\nExcellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bicy",
-      "tags": [
-        "simonw"
       ]
     },
     {
