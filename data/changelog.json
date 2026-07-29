@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-07-29T03:11:55Z",
+  "updated_at": "2026-07-29T08:47:54Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10175",
+      "project": "llama-cpp",
+      "version": "b10175",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10175",
+      "published_at": "2026-07-29T08:05:26Z",
+      "body_excerpt": "add rdna3.5, and 3 to mmq configs so they can be tuned independently. (#26199) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (S",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10174",
+      "project": "llama-cpp",
+      "version": "b10174",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10174",
+      "published_at": "2026-07-29T07:14:20Z",
+      "body_excerpt": "model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) (#25980) model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) Adds GLM-5.2 NextN/MTP as a --spec-type draft-mtp target: nextn tensor loading via the qwen35moe/step35-style presence probe, a graph_mtp builder (enorm/hnorm/eh_proj + dense MLA + sigmoid-gated MoE with shared expert + shared head with fallbacks,",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10173",
       "project": "llama-cpp",
