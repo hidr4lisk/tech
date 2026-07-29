@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-29T08:47:54Z",
+  "updated_at": "2026-07-29T14:20:36Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10179",
+      "project": "llama-cpp",
+      "version": "b10179",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10179",
+      "published_at": "2026-07-29T13:50:58Z",
+      "body_excerpt": "vendor: update BoringSSL to 0.20260728.0 (#26241) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10178",
+      "project": "llama-cpp",
+      "version": "b10178",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10178",
+      "published_at": "2026-07-29T13:01:04Z",
+      "body_excerpt": "server : add trace logging for slot similarity checking (#26271) Adds trace logging in server-context.cpp for slot similarity checking during prompt cache slot selection, including skip reasons and similarity calculation details. Assisted-by: llama.cpp:Qwen3.6-27B Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewor",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10176",
+      "project": "llama-cpp",
+      "version": "b10176",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10176",
+      "published_at": "2026-07-29T08:49:33Z",
+      "body_excerpt": "RPC: add tensor_memset (#25912) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows:",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10175",
       "project": "llama-cpp",

@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-07-29T08:47:48Z",
+  "updated_at": "2026-07-29T14:20:31Z",
   "items": [
+    {
+      "id": "localllama-2026-07-29-uncensored-llms-are-measurably-more-optimistic-than-their-ba",
+      "source": "localllama",
+      "title": "\"Uncensored\" LLMs are measurably more optimistic than their base models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9vwev/uncensored_llms_are_measurably_more_optimistic/",
+      "published_at": "2026-07-29T13:15:09Z",
+      "summary": "Hi. Many people think uncensored models are basically the same model that just doesn&#39;t refuse, but... I was recently checking whether uncensored models would give me better answers for stock market predictions (my id",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-the-idea-on-a-cpu-the-decode-speed-depends-on-the-active-par",
+      "source": "localllama",
+      "title": "The idea: on a CPU the decode speed depends on the active params per token, not the total. My objective is trying to run a 10B at 100tok/s on a mid level PC (No GPU).",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9vo75/the_idea_on_a_cpu_the_decode_speed_depends_on_the/",
+      "published_at": "2026-07-29T13:06:08Z",
+      "summary": "      On the CPU, batch 1 is memory bandwidth bound. But if token/s = bandwidth / (bytes_per_weight * active_weights_per_token) the total number of parameters doesnt slow down the generation speed. So building the archit",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-understand-kimi-k3-from-first-principles-a-recommended-order",
+      "source": "localllama",
+      "title": "Understand Kimi K3 from first principles: a recommended order for anyone trying to understand this beast",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9vnpk/understand_kimi_k3_from_first_principles_a/",
+      "published_at": "2026-07-29T13:05:37Z",
+      "summary": "      Everyone is talking about Kimi K3, but if you jump straight into the technical report, you’ll quickly realize it’s standing on years of research -- just like any breakthrough is! If you want to understand the work ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-a-slide-deck-you-can-edit-with-a-local-model-or-in-chrome-th",
+      "source": "localllama",
+      "title": "A slide deck you can edit with a local model or in Chrome — the whole deck is a JSON block in one HTML file (~640KB with editor and viewer included)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9vewv/a_slide_deck_you_can_edit_with_a_local_model_or/",
+      "published_at": "2026-07-29T12:56:08Z",
+      "summary": "      Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses, but a common complaint is to make even small edits we need to edit the code eithe",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-model-add-nextnmtp-speculative-decoding-support-for-glm-dsa",
+      "source": "localllama",
+      "title": "model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2)- #25980 MERGED!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9ur6i/model_add_nextnmtp_speculative_decoding_support/",
+      "published_at": "2026-07-29T12:27:16Z",
+      "summary": "      https://preview.redd.it/0hyejovsw5gh1.png?width=2091&amp;format=png&amp;auto=webp&amp;s=102dbd7b2b8a76b7769e05fc04c79140e16aa118 model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) by satindergr",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-microsoft-did-it-again-404-for-their-mage-flow-models-on-hf",
+      "source": "localllama",
+      "title": "Microsoft did it .... again! (404 for their Mage-Flow models on HF)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9swx1/microsoft_did_it_again_404_for_their_mageflow/",
+      "published_at": "2026-07-29T11:02:15Z",
+      "summary": "      Still you could grab GGUF, MLX, FP8, etc., from others on HuggingFace. https://huggingface.co/models?sort=trending&amp;search=Mage-Flow GitHub : https://github.com/microsoft/Mage Take backup of GitHub ASAP. Thanks ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-29-i-built-a-gbnf-grammar-compiler-that-makes-8b-models-reliabl",
+      "source": "localllama",
+      "title": "I built a GBNF grammar compiler that makes 8B models reliably call tools - here's how it works (deep dive)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9qvn3/i_built_a_gbnf_grammar_compiler_that_makes_8b/",
+      "published_at": "2026-07-29T09:14:09Z",
+      "summary": "I&#39;ve been building a local agent in Rust (Eris) that runs on llama.cpp and uses an Obsidian-compatible vault as memory. ~50 tools (vault read/write, memory, reminders, web fetch, email, calendar, vision). The biggest",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-29-is-laguna-s21-fixed",
       "source": "localllama",
@@ -57,50 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-29-i-tried-running-a-156tb-moe-model-on-a-6gb-rtx-4050-laptop-h",
-      "source": "localllama",
-      "title": "I tried running a 1.56TB MoE model on a 6GB RTX 4050 Laptop, Here’s the result",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9hd9u/i_tried_running_a_156tb_moe_model_on_a_6gb_rtx/",
-      "published_at": "2026-07-29T01:12:50Z",
-      "summary": "The Test Bench Setup I tested running a massive 1.56TB Mixture-of-Experts (MoE) checkpoint (96 shards, 93 layers, 896 experts/layer, ~4.46 bits/param MXFP4) on a budget gaming laptop. Laptop: HP Victus 15 GPU: NVIDIA RTX",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-nvidia-is-expected-to-raise-geforce-rtx-gpu-prices-again-by",
-      "source": "localllama",
-      "title": "Nvidia is expected to raise GeForce RTX GPU prices again by up to 30%",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9h6y9/nvidia_is_expected_to_raise_geforce_rtx_gpu/",
-      "published_at": "2026-07-29T01:05:03Z",
-      "summary": "      &#32; submitted by &#32;  /u/ab2377   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-28-zucks-opinion-the-ai-future-is-for-everyone",
-      "source": "localllama",
-      "title": "Zuck's opinion: The AI Future Is for Everyone",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9fetk/zucks_opinion_the_ai_future_is_for_everyone/",
-      "published_at": "2026-07-28T23:49:52Z",
-      "summary": "      ’Tis the season of AI open letters and manifestos, apparently. Mark Zuckerberg has now entered the debate over the future of AI with a WSJ op-ed published today - and frankly, his position is much more balanced and",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-28-too-soon",
-      "source": "localllama",
-      "title": "Too Soon?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9f3l8/too_soon/",
-      "published_at": "2026-07-28T23:36:51Z",
-      "summary": "      &#32; submitted by &#32;  /u/JLeonsarmiento   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-28-discovering-cryptographic-weaknesses-with-claude",
       "source": "simonw",
       "title": "Discovering cryptographic weaknesses with Claude",
@@ -109,39 +142,6 @@
       "summary": "Discovering cryptographic weaknesses with Claude\nThe best part of this article (here's the repo) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"ne",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-28-sk-hynix-stock-fell-some-40-in-the-last-30-days-finally-chea",
-      "source": "localllama",
-      "title": "SK Hynix stock fell some 40% in the last 30 days, finally cheap RAM and GPUs again?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9dm4u/sk_hynix_stock_fell_some_40_in_the_last_30_days/",
-      "published_at": "2026-07-28T22:37:04Z",
-      "summary": "They actually halted trading on the Korean stock exchange today. Finally some hope? And do you think the ruptures in the Korean market will finally free up supply again, and we can finally go back to normal? Or are we do",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-28-i-got-kimi-k3-running",
-      "source": "localllama",
-      "title": "I got Kimi-k3 running.....",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9cwfz/i_got_kimik3_running/",
-      "published_at": "2026-07-28T22:09:50Z",
-      "summary": "Results: prompt eval: 40 tokens / 97.5s → 0.41 tok/s eval: 400 tokens / 1769.9s → 0.23 tok/s total: 440 tokens / 1867s (31 min)  Prompt: &quot;Write a C++ function that reverses a linked list in place. Explain the pointe",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-28-anatomy-of-a-frontier-lab-agent-intrusion-a-technical-timeli",
-      "source": "localllama",
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9cph9/anatomy_of_a_frontier_lab_agent_intrusion_a/",
-      "published_at": "2026-07-28T22:02:24Z",
-      "summary": "       The first autonomous agent cyberattack is an unprecedented event that deserves unprecedented transparency. Today we&#39;re sharing everything we can: a full technical timeline, an interactive replay, and how we us",
-      "tags": [
-        "localllama"
       ]
     },
     {
