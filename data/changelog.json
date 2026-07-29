@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-07-29T14:20:36Z",
+  "updated_at": "2026-07-29T19:23:46Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10182",
+      "project": "llama-cpp",
+      "version": "b10182",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10182",
+      "published_at": "2026-07-29T17:01:01Z",
+      "body_excerpt": "llama: move suppress_tokens handling to common/sampling (#26276) llama: move suppress_tokens handling to common/sampling address security issues rm has_logit_bias Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulk",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.51-beta",
+      "project": "unsloth",
+      "version": "v0.1.51-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.51-beta",
+      "published_at": "2026-07-29T15:35:36Z",
+      "body_excerpt": "Kimi K3 + Parallel Chat + Deep Research Hey everyone! Kimi K3 can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many installer, MLX, export and inference fixes. Kimi K3 Moonshot AI’s",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10181",
+      "project": "llama-cpp",
+      "version": "b10181",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10181",
+      "published_at": "2026-07-29T15:09:10Z",
+      "body_excerpt": "ggml-cuda : disable MMQ on devices with less than 48 KiB shared memory (#26141) ggml_cuda_should_use_mmq() selects MMQ purely from the quantization type. The current MMQ configurations are designed and maintained against a minimum of 48 KiB per-block shared memory, the limit provided by NVIDIA Pascal GPUs and later. On devices that report less, no supported MMQ tile fits and mul_mat_q_switch_J() a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10180",
+      "project": "llama-cpp",
+      "version": "b10180",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10180",
+      "published_at": "2026-07-29T14:34:55Z",
+      "body_excerpt": "sycl: contiguous fast path + 32-bit index math for unary elementwise ops (#25946) sycl: contiguous fast path + 32-bit index math for unary elementwise ops sycl: use fastdiv for elementwise index math Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) U",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10179",
       "project": "llama-cpp",
