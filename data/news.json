@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-07-30T02:44:10Z",
+  "updated_at": "2026-07-30T08:34:41Z",
   "items": [
+    {
+      "id": "localllama-2026-07-30-2-radeon-r9700-for-local-ai-was-choosing-amd-instead-of-nvid",
+      "source": "localllama",
+      "title": "2× Radeon R9700 for Local AI Was Choosing AMD Instead of NVIDIA a Mistake Without CUDA?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vamrls/2_radeon_r9700_for_local_ai_was_choosing_amd/",
+      "published_at": "2026-07-30T07:35:34Z",
+      "summary": "Hello together I decided to go with 2× Radeon AI PRO R9700 GPUs (64 GB total VRAM) for my local AI server. However, I keep reading that AMD/ROCm is still not as mature as NVIDIA/CUDA when it comes to running local LLMs. ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-30-what-am-i-missing",
+      "source": "localllama",
+      "title": "What am I missing?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vamj9x/what_am_i_missing/",
+      "published_at": "2026-07-30T07:22:24Z",
+      "summary": "Training my own micro-llama-model on a dataset I have published with my own program, I somehow fail to get it working in Unsloth Studio and other applications. The Dataset is here: https://huggingface.co/datasets/Darlani",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-30-4090-5060-ti-64gb-ram-206-ts-on-a-35b-a3b-and-a-122b-at-37-t",
+      "source": "localllama",
+      "title": "4090 + 5060 Ti + 64GB RAM: 206 t/s on a 35B-A3B, and a 122B at 37 t/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1valwh8/4090_5060_ti_64gb_ram_206_ts_on_a_35ba3b_and_a/",
+      "published_at": "2026-07-30T06:46:44Z",
+      "summary": "I&#39;ve been benchmarking a two-card box for a few weeks and I still can&#39;t quite get over some of these numbers, so I&#39;m dumping them here. Box: RTX 4090 (24GB) + RTX 5060 Ti (16GB), i9-13900K, 64GB DDR5. WSL2 wi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-30-what-is-the-fastest-local-research-tool-deep-research",
+      "source": "localllama",
+      "title": "What is the fastest local research tool (deep research) ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vakz7g/what_is_the_fastest_local_research_tool_deep/",
+      "published_at": "2026-07-30T05:56:45Z",
+      "summary": "I&#39;ve tried grok and Claude&#39;s deep research mode and I was amazed with the speed considering the amount of sources analysed. Is there anything as fast that can run locally?  My guess would be that to run faster, s",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-30-anyone-tested-the-iq1-m-342gb-pruned-kimi-k3-is-it-usable",
+      "source": "localllama",
+      "title": "Anyone tested the IQ1_M 342GB Pruned Kimi K3? Is it usable?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vakvmg/anyone_tested_the_iq1_m_342gb_pruned_kimi_k3_is/",
+      "published_at": "2026-07-30T05:51:18Z",
+      "summary": "      &#32; submitted by &#32;  /u/Hannibalj2ca   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-30-jetson-nano-with-embedding-models",
+      "source": "localllama",
+      "title": "Jetson Nano with embedding models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vaje2y/jetson_nano_with_embedding_models/",
+      "published_at": "2026-07-30T04:32:47Z",
+      "summary": "Hello! Does anyone tried text embedding models on Jetson Nano 2/4Gb? I need it for the RAG. I want to know the speed. For example microsoft/harrier-oss-v1-0.6b  &#32; submitted by &#32;  /u/S_Anv   [link] &#32; [comments",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-29-bought-a-5090-to-escape-api-fees-ended-up-building-a-mini-da",
       "source": "localllama",
@@ -68,39 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-29-kimi-k3-for-local-use-156tb-594gb-compressed-and-released-by",
-      "source": "localllama",
-      "title": "Kimi K3 for local use (1.56TB → 594GB) compressed and released by Unsloth",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va6ot2/kimi_k3_for_local_use_156tb_594gb_compressed_and/",
-      "published_at": "2026-07-29T19:39:41Z",
-      "summary": "      The model was quantized to 8, 4, 2, and 1 bit. Characteristics:  Q8: 8-bit 1.56 TB, lossless Q4: 4-bit, 1.51 TB Q2: 2-bit: 861 GB Q1: 1-bit, 594 GB  The smallest Q1 model keeps 78.9% accuracy, while being almost 3 ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-i-pre-trained-a-700m-on-18b-tokens-optimized-for-python-and",
-      "source": "localllama",
-      "title": "I pre-trained a 700m on 18B tokens optimized for Python and Wikitext | TheOneWhoWill/Shibai-700M-Base · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va6dvv/i_pretrained_a_700m_on_18b_tokens_optimized_for/",
-      "published_at": "2026-07-29T19:29:11Z",
-      "summary": "      I know this is the 1000000th new sub billion parameter model out there and probably isn&#39;t as good as Qwen 3 0.6B or Qwen 3.5 0.8B but it still packs a decent punch. My intention to to continuously pre-train thi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-psa-llamacpp-now-loads-mtp-tensors-by-default-for-any-draft",
-      "source": "localllama",
-      "title": "PSA: llama.cpp now loads MTP tensors by default for any draft-mtp arch, even with MTP disabled",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va54em/psa_llamacpp_now_loads_mtp_tensors_by_default_for/",
-      "published_at": "2026-07-29T18:45:34Z",
-      "summary": "If your GGUF has MTP/NextN tensors baked in (GLM-5.2, hy_v3, qwen35moe, step35, etc.), recent llama.cpp builds load them by default — even if you never pass --spec-type draft-mtp. Before, they were skipped unless you act",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-29-ai-worming-through-word",
       "source": "simonw",
       "title": "AI Worming through Word",
@@ -112,17 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-07-29-ilintars-official-guide-to-model-selection",
-      "source": "localllama",
-      "title": "Ilintar's Official Guide To Model Selection",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va4i9e/ilintars_official_guide_to_model_selection/",
-      "published_at": "2026-07-29T18:23:54Z",
-      "summary": "      Inspired by multiple discussions here and on some Discords I frequent, I&#39;ve decided to share with you this high quality training material. You can thank me later ;)  &#32; submitted by &#32;  /u/ilintar   [link",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-07-29-quoting-matthew-green",
       "source": "simonw",
       "title": "Quoting Matthew Green",
@@ -131,28 +153,6 @@
       "summary": "Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new post-quantum algorithms based on novel problems. This is why there a",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-everyone-posts-day-one-impressions-whats-still-in-your-stack",
-      "source": "localllama",
-      "title": "Everyone posts day-one impressions. What's still in your stack a month later?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va1zoc/everyone_posts_dayone_impressions_whats_still_in/",
-      "published_at": "2026-07-29T16:56:02Z",
-      "summary": "      Day one threads are the least useful thing we produce here and we produce a lot of them. Model drops, forty people run their favourite prompt, half say it&#39;s the best thing ever and half say benchmaxxed, and non",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-has-anyone-tried-qwen37-flash-on-openrouter-how-does-it-comp",
-      "source": "localllama",
-      "title": "Has anyone tried Qwen3.7 flash on openrouter? How does it compare to our Qwen 3.6 27B?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va118v/has_anyone_tried_qwen37_flash_on_openrouter_how/",
-      "published_at": "2026-07-29T16:22:53Z",
-      "summary": "This might be the next open weight release by qwen team. What you feel like is improved or have become worse from previous model? Please share your experience.  &#32; submitted by &#32;  /u/Kirito275   [link] &#32; [comm",
-      "tags": [
-        "localllama"
       ]
     },
     {
