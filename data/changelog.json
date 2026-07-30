@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-30T08:34:46Z",
+  "updated_at": "2026-07-30T14:13:13Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10192",
+      "project": "llama-cpp",
+      "version": "b10192",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10192",
+      "published_at": "2026-07-30T13:44:53Z",
+      "body_excerpt": "sync : ggml Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) W",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10189",
+      "project": "llama-cpp",
+      "version": "b10189",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10189",
+      "published_at": "2026-07-30T09:33:47Z",
+      "body_excerpt": "Remove custom cpu op from the M3 graph, express with stock ops (#26297) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10188",
+      "project": "llama-cpp",
+      "version": "b10188",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10188",
+      "published_at": "2026-07-30T08:56:39Z",
+      "body_excerpt": "metal: fix memory unwire if model is freed without any GPU operations (#26082) metal: fix memory leak if model is freed without any GPU operations metal: run dummy work only if residency sets are used metal: wrap function in #if defined metal: measure system-wide wired memory in test metal: always build regression test Co-authored-by: YiChen Lv --------- Co-authored-by: YiChen Lv Website: macOS/iO",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10186",
       "project": "llama-cpp",
@@ -8368,42 +8395,6 @@
       "version": "stable-diffusion-3-medium-amdnpu",
       "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium-amdnpu",
       "published_at": "2026-05-01T16:08:06Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-switch-4.1-30b-preview",
-      "project": "ibm-granite",
-      "version": "granite-switch-4.1-30b-preview",
-      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b-preview",
-      "published_at": "2026-05-01T13:39:57Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-switch-4.1-8b-preview",
-      "project": "ibm-granite",
-      "version": "granite-switch-4.1-8b-preview",
-      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview",
-      "published_at": "2026-05-01T13:39:14Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-switch-4.1-3b-preview",
-      "project": "ibm-granite",
-      "version": "granite-switch-4.1-3b-preview",
-      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview",
-      "published_at": "2026-05-01T13:38:10Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-EleutherAI-less-replication-7b-warmup",
-      "project": "EleutherAI",
-      "version": "less-replication-7b-warmup",
-      "url": "https://huggingface.co/EleutherAI/less-replication-7b-warmup",
-      "published_at": "2026-05-01T10:40:25Z",
       "body_excerpt": "",
       "type": "model"
     }
