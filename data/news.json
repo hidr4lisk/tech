@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-07-30T08:34:41Z",
+  "updated_at": "2026-07-30T14:13:08Z",
   "items": [
+    {
+      "id": "localllama-2026-07-30-removed-by-reddit",
+      "source": "localllama",
+      "title": "[ Removed by Reddit ]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vau5c5/removed_by_reddit/",
+      "published_at": "2026-07-30T13:47:34Z",
+      "summary": "[ Removed by Reddit on account of violating the content policy. ]  &#32; submitted by &#32;  /u/Possible_Grocery8079   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-30-pr-for-running-ternary-bonsai-8b-q2-0gguf-in-llamacpp-with-c",
+      "source": "localllama",
+      "title": "PR for running Ternary-Bonsai-8B-Q2_0.gguf in llama.cpp with CUDA support just got merged",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vau4dh/pr_for_running_ternarybonsai8bq2_0gguf_in/",
+      "published_at": "2026-07-30T13:46:29Z",
+      "summary": "      Time to see what it&#39;s capable of  &#32; submitted by &#32;  /u/413205   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-30-unslothqwen36-27b-nvfp4-vs-intelqwen36-27b-int4-autoround-vs",
+      "source": "localllama",
+      "title": "unsloth/Qwen3.6-27B-NVFP4 vs. Intel/Qwen3.6-27B-int4-AutoRound vs. nvidia/Qwen3.6-27B-NVFP4 -- which one to choose?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vaswg8/unslothqwen3627bnvfp4_vs/",
+      "published_at": "2026-07-30T12:56:25Z",
+      "summary": "Are there any benchmarks on these 4 bit quants, like how Artificial Analysis runs a slew of various benchmarks? If not, how can I run one (5x over for consistency) on them? I&#39;m also very interested in hallucinations,",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-30-turbo-fieldfare-open-source-engine-running-gemma-4-26b-in-2",
+      "source": "localllama",
+      "title": "Turbo-fieldfare: Open-source engine running Gemma 4 26B in 2 GB RAM on Apple Silicon",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vasnys/turbofieldfare_opensource_engine_running_gemma_4/",
+      "published_at": "2026-07-30T12:46:12Z",
+      "summary": "      Its a custom Swift/Metal inference engine that runs Gemma 4 26B-A4B-IT on M-series Macs with very low RAM. It uses ~2GB instead of ~14 GB. The result is reportedly 5–6 tok/s on an 8 GB M2 MacBook Air and 31–35 tok/",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-30-think-of-the-children-another-excuse-for-them-to-go-after-op",
+      "source": "localllama",
+      "title": "Think of the children, another excuse for them to go after open source AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vapsbz/think_of_the_children_another_excuse_for_them_to/",
+      "published_at": "2026-07-30T10:28:13Z",
+      "summary": "      Source: https://web.archive.org/web/20260728093051/https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children  &#32; submitted by &#32;  /u/MaruluVR   [link] &#32",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-30-glm-52-with-vision-on-hugging-face",
+      "source": "localllama",
+      "title": "GLM 5.2 with vision on Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vapetj/glm_52_with_vision_on_hugging_face/",
+      "published_at": "2026-07-30T10:08:30Z",
+      "summary": "Hi all, I have not seen this model talked about here but it seems like baseten (inference provider on OpenRouter) merged the vision encoder from Kimi k2.6 into GLM 5.2. I think the lack of vision was one of the big compl",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-30-benchmarked-mindcontrol-for-llamacpp",
+      "source": "localllama",
+      "title": "Benchmarked: MindControl for Llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vapbnl/benchmarked_mindcontrol_for_llamacpp/",
+      "published_at": "2026-07-30T10:03:44Z",
+      "summary": "      I recently shared the original MindControl PoC (and on github) - sampler-level guided reasoning budgets for llama.cpp, nudging the model with self-aware statements about its own thinking budget instead of just hard",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-30-what-is-the-best-intelligencestable-model-currently-for-a-si",
+      "source": "localllama",
+      "title": "What is the best intelligence/stable model currently for a single GB10/DGX spark?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vaorm7/what_is_the_best_intelligencestable_model/",
+      "published_at": "2026-07-30T09:32:14Z",
+      "summary": "Is Qwen 3.6 27b still the go&#39; ol&#39; reliable at this point? I know 35b is faster but it just doesn&#39;t give as good results. Is it possible to run deepseek v4 flash on a single spark at decent tk/s without having",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-30-2-radeon-r9700-for-local-ai-was-choosing-amd-instead-of-nvid",
       "source": "localllama",
@@ -41,94 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vakz7g/what_is_the_fastest_local_research_tool_deep/",
       "published_at": "2026-07-30T05:56:45Z",
       "summary": "I&#39;ve tried grok and Claude&#39;s deep research mode and I was amazed with the speed considering the amount of sources analysed. Is there anything as fast that can run locally?  My guess would be that to run faster, s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-30-anyone-tested-the-iq1-m-342gb-pruned-kimi-k3-is-it-usable",
-      "source": "localllama",
-      "title": "Anyone tested the IQ1_M 342GB Pruned Kimi K3? Is it usable?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vakvmg/anyone_tested_the_iq1_m_342gb_pruned_kimi_k3_is/",
-      "published_at": "2026-07-30T05:51:18Z",
-      "summary": "      &#32; submitted by &#32;  /u/Hannibalj2ca   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-30-jetson-nano-with-embedding-models",
-      "source": "localllama",
-      "title": "Jetson Nano with embedding models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vaje2y/jetson_nano_with_embedding_models/",
-      "published_at": "2026-07-30T04:32:47Z",
-      "summary": "Hello! Does anyone tried text embedding models on Jetson Nano 2/4Gb? I need it for the RAG. I want to know the speed. For example microsoft/harrier-oss-v1-0.6b  &#32; submitted by &#32;  /u/S_Anv   [link] &#32; [comments",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-bought-a-5090-to-escape-api-fees-ended-up-building-a-mini-da",
-      "source": "localllama",
-      "title": "Bought a 5090 to escape API fees. Ended up building a mini datacenter. Sound familiar?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vacf09/bought_a_5090_to_escape_api_fees_ended_up/",
-      "published_at": "2026-07-29T23:16:20Z",
-      "summary": "I bought an RTX 5090 last year just to run 27B models natively. I even fine-tuned it with my own data using LoRA, building RAGs and was pretty damn happy with the results at first. But, Q8 quantization 130k context was b",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-extracting-moe-experts-from-kimi-k3",
-      "source": "localllama",
-      "title": "Extracting MoE experts from Kimi K3",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vac9e9/extracting_moe_experts_from_kimi_k3/",
-      "published_at": "2026-07-29T23:09:47Z",
-      "summary": "Has anyone yet tried to extract experts from kimi (or GLM 5.2) per chance? There is REAP that removes experts based on routing, but I could only run one K3 expert on my hardware. Could there maybe be a usual expert for d",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-3090-owners-what-vram-tempature-do-you-get-under-ai-load",
-      "source": "localllama",
-      "title": "3090 owners, what vram tempature do you get under ai load?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vabgly/3090_owners_what_vram_tempature_do_you_get_under/",
-      "published_at": "2026-07-29T22:37:39Z",
-      "summary": "Hello Can you please share the tempature you get on your rtx 3090 under active llm load? Im trying to findout if my rtx 3090&#39;s tempatures are healthy or not please share VRAM Tempature only, you can track it via gpu-",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-quantizing-kimi-k3-28t-a50b-to-gguf-ourselves---q3-k-s-works",
-      "source": "localllama",
-      "title": "Quantizing Kimi K3 (2.8T A50B) to GGUF ourselves - Q3_K_S works, 1.1 TB on disk",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vaaqdl/quantizing_kimi_k3_28t_a50b_to_gguf_ourselves_q3/",
-      "published_at": "2026-07-29T22:08:40Z",
-      "summary": "      we&#39;re experimenting with our own dynamic GGUF quants of kimi k3, made from the original weights with our llama.cpp fork. Q3_K_S is done and works 1114.76 GiB on disk. Q1 and Q2 are in progress, results on those",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-are-you-guys-not-scared-of-where-were-heading-a-year-ago-gpt",
-      "source": "localllama",
-      "title": "Are you guys not scared of where we're heading? A year ago, GPT-5 was considered one of the best models in the world. Today, we have open-weight models like Qwen3.6-27B that are competitive enough to run locally on high-end consumer hardware. The pace of progress is absolutely brutal.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va7nm7/are_you_guys_not_scared_of_where_were_heading_a/",
-      "published_at": "2026-07-29T20:13:52Z",
-      "summary": "      I think the claims about having Mythos level-model in our laptops in 1-2 years might not be so crazy of a theory  &#32; submitted by &#32;  /u/SilverRegion9394   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-29-the-open-weights-carousel-never-stops",
-      "source": "localllama",
-      "title": "The open-weights carousel never stops.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va73s6/the_openweights_carousel_never_stops/",
-      "published_at": "2026-07-29T19:54:19Z",
-      "summary": "      &#32; submitted by &#32;  /u/InternationalGap3698   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
