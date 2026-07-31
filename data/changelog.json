@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-07-31T08:56:07Z",
+  "updated_at": "2026-07-31T14:20:40Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10205",
+      "project": "llama-cpp",
+      "version": "b10205",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10205",
+      "published_at": "2026-07-31T13:26:25Z",
+      "body_excerpt": "ggml-zendnn : group matmul direct API for mul_mat_id (#25918) ggml-zendnn : group matmul API for mul_mat_id ggml-zendnn : scale MUL_MAT_ID fallback threshold by expert count Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10204",
+      "project": "llama-cpp",
+      "version": "b10204",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10204",
+      "published_at": "2026-07-31T12:45:21Z",
+      "body_excerpt": "sycl : support dev2dev memcpy by DEV2DEV_MEMCPY_FORWARD (#26234) Co-authored-by: Neo Zhang Jianyu Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10203",
+      "project": "llama-cpp",
+      "version": "b10203",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10203",
+      "published_at": "2026-07-31T12:14:34Z",
+      "body_excerpt": "[SYCL] Support q2 mul_mat (#26231) support q2_0 in mul_mat support more q2_0 case Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10202",
+      "project": "llama-cpp",
+      "version": "b10202",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10202",
+      "published_at": "2026-07-31T11:41:04Z",
+      "body_excerpt": "sycl: fuse RMS_NORM + MUL (#26015) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10201",
+      "project": "llama-cpp",
+      "version": "b10201",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10201",
+      "published_at": "2026-07-31T09:45:49Z",
+      "body_excerpt": "ggml-webgpu: improve flash_attn_vec for quantized KV at long contexts (#25956) improve fa of quantized kv cache Fix some bugs and some comments. fix v type check and some comments Fix build error caused by rebasing editorconfig checking pass Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CP",
+      "type": "tool"
+    },
+    {
+      "id": "hf-deepseek-ai-DeepSeek-V4-Flash-0731",
+      "project": "deepseek-ai",
+      "version": "DeepSeek-V4-Flash-0731",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "published_at": "2026-07-31T07:30:24Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b10199",
       "project": "llama-cpp",

@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-07-31T08:56:02Z",
+  "updated_at": "2026-07-31T14:20:32Z",
   "items": [
+    {
+      "id": "localllama-2026-07-31-the-chinese-llm-release-carousel-never-stops-place-your-bets",
+      "source": "localllama",
+      "title": "The Chinese LLM release carousel never stops. Place your bets for MiniMax next week.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbr5zj/the_chinese_llm_release_carousel_never_stops/",
+      "published_at": "2026-07-31T13:36:18Z",
+      "summary": "      &#32; submitted by &#32;  /u/Mountain_Patience231   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-31-rule-suggestion-open-models-without-weight-releases-should-b",
+      "source": "localllama",
+      "title": "Rule Suggestion: \"Open\" models without weight releases should be tagged [no weights]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbpi44/rule_suggestion_open_models_without_weight/",
+      "published_at": "2026-07-31T12:25:56Z",
+      "summary": "A lot of recent models are being announced with promised open weights, but the weights are either weeks away, or in some cases (looking at you Meta) not being released at all. This sub is about local LLMs - not &quot;may",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-31-i-ported-turbofieldfare-to-qwen-36-35b-and-it-runs-in-14-gb",
+      "source": "localllama",
+      "title": "I ported TurboFieldfare to Qwen 3.6 35B and it runs in 1.4 GB of RAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbp8te/i_ported_turbofieldfare_to_qwen_36_35b_and_it/",
+      "published_at": "2026-07-31T12:14:10Z",
+      "summary": "      Was playing around with TurboFieldfare, a Mac engine that runs Gemma 4 26B in ~2 GB by streaming MoE experts off SSD instead of loading them. It only supported that one model, so I added support for Qwen 3.6 35B-A3",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-31-deepseek-aideepseek-v4-flash-0731-on-huggingface",
+      "source": "localllama",
+      "title": "deepseek-ai/DeepSeek-V4-Flash-0731 on Huggingface",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbp7kb/deepseekaideepseekv4flash0731_on_huggingface/",
+      "published_at": "2026-07-31T12:12:35Z",
+      "summary": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731  &#32; submitted by &#32;  /u/cgs019283   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-31-how-to-use-multiple-gpus",
+      "source": "localllama",
+      "title": "How to use multiple GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vboppc/how_to_use_multiple_gpus/",
+      "published_at": "2026-07-31T11:50:01Z",
+      "summary": "I have a 5090 in my main PC and a 3090 in my last PC. I was planning on selling the older PC but now thinking it would be interesting to see what both GPUs could do with models. My understanding is the best way to utiliz",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-31-can-we-expect-deepseek-v4-distills-into-smaller-models",
+      "source": "localllama",
+      "title": "Can we expect Deepseek v4 distills into smaller models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbnwmt/can_we_expect_deepseek_v4_distills_into_smaller/",
+      "published_at": "2026-07-31T11:09:39Z",
+      "summary": "Remember when R1 had Llama and Qwen distills? Can we expect those for v4?  &#32; submitted by &#32;  /u/Aggravating-Push-207   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-07-31-why-are-ai-model-tests-always-the-same-generic-prompts",
+      "source": "localllama",
+      "title": "Why are AI model tests always the same generic prompts?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbm1tc/why_are_ai_model_tests_always_the_same_generic/",
+      "published_at": "2026-07-31T09:29:51Z",
+      "summary": "Okay, hear me out. Why is it that every time a new model comes out, all the tests I see are &quot;make a car game,&quot; &quot;make a website,&quot; or something equally generic, usually from a prompt that&#39;s barely a",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-07-31-has-anyone-actually-benchmarked-where-the-big-model-orchestr",
       "source": "localllama",
@@ -52,83 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbj6uf/huawei_opensouced_openpangu20pro_505ba18b/",
       "published_at": "2026-07-31T06:47:53Z",
       "summary": "openPangu-2.0-Pro is an MoE model trained on Ascend. The model has 505B total parameters and 18B activated parameters. Its context length is 512k. The total pretraining data contains 34T tokens. During Post-training, ope",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-31-i-predict-deepseek-v4-flash-0731s-artificial-analysis-score",
-      "source": "localllama",
-      "title": "I predict DeepSeek V4 Flash 0731's Artificial Analysis score to be 57 ± 1 point (Kimi K3 Level)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbj3cn/i_predict_deepseek_v4_flash_0731s_artificial/",
-      "published_at": "2026-07-31T06:42:32Z",
-      "summary": "      Deepseek&#39;s new model V4 Flash 0731 is much better, I (Claude lol) did a bit of linear regression with a leave one out style verification to predict its AA Score, and that puts it at Kimi K3 level, which is just",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-31-deepseek-v4-flash-has-a-nice-bump-in-capability",
-      "source": "localllama",
-      "title": "DeepSeek v4 Flash has a nice bump in Capability",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbimop/deepseek_v4_flash_has_a_nice_bump_in_capability/",
-      "published_at": "2026-07-31T06:18:00Z",
-      "summary": "DeepSeek V4 Flash: Preview → 2026-07-31   Benchmark Preview 0731 Δ    Terminal Bench* 56.9 82.7 +25.8   Toolathlon 51.8 70.3 +18.5   NL2Repo — 54.2 new   Cybergym — 76.7 new   DeepSWE — 54.4 new   Agent Last Exam — 25.2 ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-31-the-official-release-deepseek-v4-flash-is-live-on-the-api",
-      "source": "localllama",
-      "title": "The official release Deepseek V4 flash is live on the API",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbidxt/the_official_release_deepseek_v4_flash_is_live_on/",
-      "published_at": "2026-07-31T06:05:30Z",
-      "summary": "      &#32; submitted by &#32;  /u/mineyevfan   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-31-deepseek-v4-flash-has-been-updated-the-official-release-of-d",
-      "source": "localllama",
-      "title": "DeepSeek-V4-Flash has been updated, \"The official release of DeepSeek-V4-Pro will follow soon\"",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbidkp/deepseekv4flash_has_been_updated_the_official/",
-      "published_at": "2026-07-31T06:04:59Z",
-      "summary": "      https://api-docs.deepseek.com/updates/ Edit: official post on 𝕏: https://x.com/deepseek_ai/status/2083084415157022911  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-31-my-second-inspur-agx-2-with-another-x8-v100-arrived",
-      "source": "localllama",
-      "title": "My second Inspur AGX-2 with another x8 v100 arrived!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbft9q/my_second_inspur_agx2_with_another_x8_v100_arrived/",
-      "published_at": "2026-07-31T03:56:29Z",
-      "summary": "      So now full 512gb of vram, I think I will need to get a third one soon seeing that llms keep getting absurdly huge!  &#32; submitted by &#32;  /u/UltraFOV   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-31-all-oneshots-from-kimi-k3-looks-better-than-opus48",
-      "source": "localllama",
-      "title": "All oneshots from Kimi-K3, looks better than opus4.8.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbf4bp/all_oneshots_from_kimik3_looks_better_than_opus48/",
-      "published_at": "2026-07-31T03:23:37Z",
-      "summary": "      I&#39;ve ran Kimi-k3 through 34 oneshot prompts and evaluated the generated htmls, screenshots and gifs using sonnet 4.6. It came out to be better than opus4.8 from the evals. Kimi K3: https://oneshotlm.com/model/m",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-07-31-open-source-ternary-llm-engine-in-rustcuda-for-quantization",
-      "source": "localllama",
-      "title": "Open Source Ternary LLM Engine in Rust/CUDA for Quantization, Serving, and Training of models on consumer GPUs, called Tritium (Apache 2.0)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbf0nt/open_source_ternary_llm_engine_in_rustcuda_for/",
-      "published_at": "2026-07-31T03:18:53Z",
-      "summary": "This post was not written by a clanker. Hey guys, I&#39;m a comp sci major who wanted to introduce a cool project I built for quantizing models to ternary (1.58 bit) with as minimal of loss as possible, a process that ca",
       "tags": [
         "localllama"
       ]
