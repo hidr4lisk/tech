@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-07-31T14:20:40Z",
+  "updated_at": "2026-07-31T19:41:14Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10212",
+      "project": "llama-cpp",
+      "version": "b10212",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10212",
+      "published_at": "2026-07-31T19:25:45Z",
+      "body_excerpt": "llama : load MTP tensors only if they are really used (#26296) llama : load MTP tensors only if they are really used llama : skip loading MTP (if not used) in remaining models that support MTP --------- Co-authored-by: Stanisław Szymczyk Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10211",
+      "project": "llama-cpp",
+      "version": "b10211",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10211",
+      "published_at": "2026-07-31T18:49:45Z",
+      "body_excerpt": "vulkan: update vulkan sdk to 1.4.357.0 (#26303) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10210",
+      "project": "llama-cpp",
+      "version": "b10210",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10210",
+      "published_at": "2026-07-31T18:10:12Z",
+      "body_excerpt": "server: correct accepted tokens when need draft token replay (#26320) spec: correct accepted tokens when need draft token replay cont : naming --------- Co-authored-by: Georgi Gerganov Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulk",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10209",
+      "project": "llama-cpp",
+      "version": "b10209",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10209",
+      "published_at": "2026-07-31T17:29:12Z",
+      "body_excerpt": "cuda: extract Q2_0 elements via __byte_perm (#25603) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10208",
+      "project": "llama-cpp",
+      "version": "b10208",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10208",
+      "published_at": "2026-07-31T16:02:42Z",
+      "body_excerpt": "SYCL: add oneMKL GEMM flash attention for XMX-accelerated prompt proc… (#25025) SYCL: add oneMKL GEMM flash attention for XMX-accelerated prompt processing fattn-mkl: fix interleaved dst layout in normalize kernel Fix mkl_fa_normalize_head: use interleaved dst layout ((query n_q_heads + head) DV) matching TILE's flash_attn_combine_results. Previously used dense head-major layout which wrote head o",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10207",
+      "project": "llama-cpp",
+      "version": "b10207",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10207",
+      "published_at": "2026-07-31T15:12:45Z",
+      "body_excerpt": "[SYCL] support the missed types in cpy (#26005) support the missed types in cpy use correct funct rm unused code Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10206",
+      "project": "llama-cpp",
+      "version": "b10206",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10206",
+      "published_at": "2026-07-31T14:24:57Z",
+      "body_excerpt": "llama : enforce the same K and V cache types for DeepSeek V4; enable FA if V cache is quantized (#25871) llama : enforce the same K and V cache types for DeepSeek V4; enable FA if V cache is quantized llama : enforce the same K and V cache types for MLA models --------- Co-authored-by: Stanisław Szymczyk Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10205",
       "project": "llama-cpp",
