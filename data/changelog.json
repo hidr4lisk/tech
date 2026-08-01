@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-01T13:37:48Z",
+  "updated_at": "2026-08-01T19:16:43Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10219",
+      "project": "llama-cpp",
+      "version": "b10219",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10219",
+      "published_at": "2026-08-01T16:46:07Z",
+      "body_excerpt": "cli : persist reasoning_content in chat history (#26362) cli : persist reasoning_content in chat history llama-cli collected reasoning from the stream for display but only stored assistant content in messages, so --reasoning-preserve could not re-inject prior thoughts on later turns. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10218",
       "project": "llama-cpp",
