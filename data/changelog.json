@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-07-31T19:41:14Z",
+  "updated_at": "2026-08-01T03:25:36Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10216",
+      "project": "llama-cpp",
+      "version": "b10216",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10216",
+      "published_at": "2026-07-31T22:04:52Z",
+      "body_excerpt": "vulkan: add POOL_1D op (#25431) vulkan : add pool1d push constants and pipeline field Declared data structures needed for POOL1D OP, which are the vk_op_pool1d_push_constants struct and pipeline_pool1d_f32 field. vulkan : add pool1d compute shader Added pool1d.comp for Vulkan backend mirroring the existing pool2d shader. vulkan : add full GGML_OP_POOL_1D support Added pipeline creation and op disp",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10215",
+      "project": "llama-cpp",
+      "version": "b10215",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10215",
+      "published_at": "2026-07-31T21:31:40Z",
+      "body_excerpt": "vulkan: Introduce driver version check for Windows Intel GPU to mitigate crashing (#25192) Removed crash guard for Intel Crash fixed from driver 32.0.101.8860 Added driver version check for windows Change to convert from driverVersion rather than string No need to use signed Refactor allow GPU other than Xe2+ adjusted function body position Website: macOS/iOS: macOS Apple Silicon (arm64) macOS App",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10214",
+      "project": "llama-cpp",
+      "version": "b10214",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10214",
+      "published_at": "2026-07-31T20:46:09Z",
+      "body_excerpt": "mtmd: add n_embd_head (#26342) Co-authored-by: Daniel Han Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10213",
+      "project": "llama-cpp",
+      "version": "b10213",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10213",
+      "published_at": "2026-07-31T20:10:00Z",
+      "body_excerpt": "Support rotated kv cache quant (#26180) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10212",
       "project": "llama-cpp",
