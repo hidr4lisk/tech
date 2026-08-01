@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-01T03:25:36Z",
+  "updated_at": "2026-08-01T08:27:04Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10217",
+      "project": "llama-cpp",
+      "version": "b10217",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10217",
+      "published_at": "2026-08-01T06:50:00Z",
+      "body_excerpt": "chat : enable tool call in thinking for DS4 (#26269) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10216",
       "project": "llama-cpp",
@@ -268,7 +277,7 @@
       "version": "v0.1.51-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.51-beta",
       "published_at": "2026-07-29T15:35:36Z",
-      "body_excerpt": "Kimi K3 + Parallel Chat + Deep Research Hey everyone! Kimi K3 can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many installer, MLX, export and inference fixes. Kimi K3 Moonshot AI’s",
+      "body_excerpt": "Hey everyone! Kimi K3 can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many installer, MLX, export and inference fixes. Kimi K3 Moonshot AI’s Kimi K3 is a 2.8T-parameter MoE model w",
       "type": "tool"
     },
     {
@@ -8576,15 +8585,6 @@
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1",
       "published_at": "2026-05-04T10:36:26Z",
       "body_excerpt": "vLLM v0.20.1 This is a patch release on top of primarily focused on DeepSeek V4 stabilization and performance improvements, along with several important bug fixes. DeepSeek V4 Base model support (#41006). Multi-stream pre-attention GEMM (#41061), configurable pre-attn GEMM knob (#41443), and tuned default (#41526). BF16 and MXFP8 all-to-all support for FlashInfer one-sided communication (#40960). ",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.23.0",
-      "project": "ollama",
-      "version": "v0.23.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.0",
-      "published_at": "2026-05-03T03:34:11Z",
-      "body_excerpt": "Claude Desktop Claude Desktop is now supported with Ollama Launch. Claude Cowork and Claude Code are supported within the Claude Desktop App. Claude Cowork Claude Code Claude Code on the terminal can still be accessed through the CLI with: Not supported yet Web Search (coming soon) Extensions What's Changed Launch Claude Desktop with The Ollama app now surfaces featured models from server-driven r",
       "type": "tool"
     }
   ]
