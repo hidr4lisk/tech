@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-02T08:29:57Z",
+  "updated_at": "2026-08-02T13:38:19Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10228",
+      "project": "llama-cpp",
+      "version": "b10228",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10228",
+      "published_at": "2026-08-02T13:28:43Z",
+      "body_excerpt": "DeepseekV4 MTP + DSpark (#25784) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10227",
+      "project": "llama-cpp",
+      "version": "b10227",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10227",
+      "published_at": "2026-08-02T09:43:15Z",
+      "body_excerpt": "chat : add qwen3 specialized parser (#26252) Add tagged thinking tool parser chat : refactor and add permute helper cont : add support for omission cont : update tool delimiters cont : add comment for qwen3-coder cont : fix trigger pattern for Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10225",
+      "project": "llama-cpp",
+      "version": "b10225",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10225",
+      "published_at": "2026-08-02T08:30:08Z",
+      "body_excerpt": "model : load MiMo V2 MTP tensors only if used (#26412) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Andro",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10226",
       "project": "llama-cpp",
@@ -8630,15 +8657,6 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.39-beta",
       "published_at": "2026-05-05T13:08:48Z",
       "body_excerpt": "_v0.1.39-beta bug fix_ May 5th 2026 Fixes chat history not being shown (existing chat history is not lost) and attachments not attaching correctly. The bug was render-only - use or directly call or to update Run local LLMs with tools like Claude Code and Codex by connecting them to Unsloth’s API endpoint. This lets you run models like Qwen and Gemma locally, with additional features such as self-h",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.20.1",
-      "project": "vllm",
-      "version": "v0.20.1",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1",
-      "published_at": "2026-05-04T10:36:26Z",
-      "body_excerpt": "vLLM v0.20.1 This is a patch release on top of primarily focused on DeepSeek V4 stabilization and performance improvements, along with several important bug fixes. DeepSeek V4 Base model support (#41006). Multi-stream pre-attention GEMM (#41061), configurable pre-attn GEMM knob (#41443), and tuned default (#41526). BF16 and MXFP8 all-to-all support for FlashInfer one-sided communication (#40960). ",
       "type": "tool"
     }
   ]
