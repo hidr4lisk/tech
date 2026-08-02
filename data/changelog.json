@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-02T13:38:19Z",
+  "updated_at": "2026-08-02T19:17:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10232",
+      "project": "llama-cpp",
+      "version": "b10232",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10232",
+      "published_at": "2026-08-02T18:57:43Z",
+      "body_excerpt": "metal: implement DeepSeek V4 hyper-connections (#26459) Implement GGML_OP_DSV4_HC_COMB, GGML_OP_DSV4_HC_PRE, and GGML_OP_DSV4_HC_POST with SIMDgroup register and shuffle optimized kernels. Add Metal dispatch and support plumbing and test the production Sinkhorn iteration count and embedding width. Assisted-by: Codex Co-authored-by: Thiago Padilha Website: macOS/iOS: macOS Apple Silicon (arm64) mac",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10231",
+      "project": "llama-cpp",
+      "version": "b10231",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10231",
+      "published_at": "2026-08-02T18:14:07Z",
+      "body_excerpt": "common: support the DSpark sidecar resolution (#26458) The dspark- files resolve like the other speculative sidecars: the -hfd tag applies to them, a requested sidecar resolves without a full model at the tag, and an explicit -md selection disables the discovery. When no type is requested, dspark outranks dflash in the auto-selection since its sidecar carries the extra Markov head. Website: macOS/",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10229",
+      "project": "llama-cpp",
+      "version": "b10229",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10229",
+      "published_at": "2026-08-02T14:31:29Z",
+      "body_excerpt": "opencl: bugfix increment ref_count in ggml_backend_opencl_init() (#26162) Incrementing at the beginning is important later in the method of the at program end. If we do not increment the , the result would be -1 here, and consequently, the profiling data would not be flushed and written. ( #ifdef GGML_OPENCL_PROFILING ) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kl",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10228",
       "project": "llama-cpp",
@@ -359,6 +386,15 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.51-beta",
       "published_at": "2026-07-29T15:35:36Z",
       "body_excerpt": "Hey everyone! Kimi K3 can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many installer, MLX, export and inference fixes. Kimi K3 Moonshot AI’s Kimi K3 is a 2.8T-parameter MoE model w",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.511-beta",
+      "project": "unsloth",
+      "version": "v0.1.511-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.511-beta",
+      "published_at": "2026-07-29T15:35:36Z",
+      "body_excerpt": "Hey everyone! Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many installer, MLX, export and inference fixes. DeepSeek V4 Flash 0731 You can run our De",
       "type": "tool"
     },
     {
