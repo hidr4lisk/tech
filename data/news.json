@@ -1,134 +1,156 @@
 {
-  "updated_at": "2026-08-01T19:16:36Z",
+  "updated_at": "2026-08-02T03:25:21Z",
   "items": [
     {
-      "id": "localllama-2026-08-01-safety-and-reliability-of-a-dual-psu-config",
+      "id": "localllama-2026-08-02-deepseek-v4-flash-0731-local-setup-gotcha-model-tool-call-co",
       "source": "localllama",
-      "title": "Safety and reliability of a dual PSU config",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcvtpe/safety_and_reliability_of_a_dual_psu_config/",
-      "published_at": "2026-08-01T19:08:54Z",
-      "summary": "I&#39;m building a render monster for work, and the idea is to stuff as much GPU power in there as possible. GPUs are going to be some stack of RTX Pro 6000&#39;s and 5090&#39;s. The hope is a full 2,400W of cards. Going",
+      "title": "DeepSeek V4 Flash 0731 local setup gotcha: model, tool call & config setting",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd6nfg/deepseek_v4_flash_0731_local_setup_gotcha_model/",
+      "published_at": "2026-08-02T03:07:44Z",
+      "summary": "I spent a while debugging my local DeepSeek V4 Flash setup and wanted to share a few lessons from the process in case it saves someone else time. So far, I have worked through three blockers in this setup: Initially, I d",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-01-deepseek-v4-flash-0731-still-not-holding-up",
+      "id": "localllama-2026-08-02-ran-ds-v4-flash-0731-locally-on-3xmi50-32gb-15-ts-tg",
       "source": "localllama",
-      "title": "Deepseek v4 flash 0731 still not holding up.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vct09w/deepseek_v4_flash_0731_still_not_holding_up/",
-      "published_at": "2026-08-01T17:16:45Z",
-      "summary": "The biggest issue with preview was its inability to follow rules prompts and skills. It seems like no matter what you do it ignores them. I&#39;ve tried first person and second person. I&#39;ve tried Chinese and English.",
+      "title": "Ran DS V4-Flash-0731 Locally on 3xMI50 32GB @ ~15 t/s TG",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd51ey/ran_ds_v4flash0731_locally_on_3xmi50_32gb_15_ts_tg/",
+      "published_at": "2026-08-02T01:49:36Z",
+      "summary": "      Hey y&#39;all. I&#39;ll be concise. TL;DR: DS V4-Flash-0731 @ UD-IQ2_M running fully in VRAM on 3xMI50s (90.9 GB model, 96 GB VRAM). Actual speed on llama-server is: - Text Generation: ~15-16 tokens/second stable. ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-01-deepseek-v4-flash-0731-ud-q3-k-xl-3x3090-test-results",
+      "id": "localllama-2026-08-02-expert-only-iq3-requant-of-deepseek-v4-flash-0731-better-kld",
       "source": "localllama",
-      "title": "DeepSeek-V4-Flash-0731-UD-Q3_K_XL 3x3090 test results",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcsfng/deepseekv4flash0731udq3_k_xl_3x3090_test_results/",
-      "published_at": "2026-08-01T16:53:48Z",
-      "summary": "For anyone interested, here are the llama-bench results on 3 bit K_XL quantization. I think this could be pushed further but no luck so far. CURRENT RESULTS: full moe offloading  Prefill suffers 116 --&gt; 72 t/s , gener",
+      "title": "Expert-only IQ3 requant of DeepSeek-V4-Flash-0731: better KLD than UD-IQ3_S, 1.4x decode on a CPU-spill rig",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd44uv/expertonly_iq3_requant_of_deepseekv4flash0731/",
+      "published_at": "2026-08-02T01:05:20Z",
+      "summary": "Hey all, tldr / who this helps: you run a mixed multi-GPU box where the experts spill to RAM, and you want to stay in the 3-bit tier instead of dropping to Q2 to make it fit.  https://huggingface.co/TacoTakumi/DeepSeek-V",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-01-deepseek-v4-flash-0731-iq2-m-benchmark-for-dual-3060-and-96g",
+      "id": "localllama-2026-08-02-why-are-almost-all-new-benchmarks-and-leaderboards-coding-fo",
       "source": "localllama",
-      "title": "DeepSeek V4 Flash 0731 IQ2_M benchmark for Dual 3060 and 96GB RAM ≈ 3.5 tok/s.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcrd6d/deepseek_v4_flash_0731_iq2_m_benchmark_for_dual/",
-      "published_at": "2026-08-01T16:10:45Z",
-      "summary": "      Thanks to the community help I finally launched this llm. LM Studio refused to load weight onto second GPU but Unsloth Studio did so everything was done in there. Not a proper benchmark (used PC in parallel as well",
+      "title": "Why are almost all new benchmarks and leaderboards coding focused?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd2yk9/why_are_almost_all_new_benchmarks_and/",
+      "published_at": "2026-08-02T00:08:41Z",
+      "summary": "I know in in this community LLM&#39;s are generally used for coding but there are other usecases besides coding and those usecases should be tested too. I also know benchmarks can sometimes be benchmaxxed and the model c",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-01-eu-ai-act-takes-effect-tomorrow-august-2-2026",
+      "id": "localllama-2026-08-02-how-well-do-multiple-gpus-scale-for-llm-inference-trying-to",
       "source": "localllama",
-      "title": "EU AI Act takes effect tomorrow, August 2, 2026. 🤡",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcqpn4/eu_ai_act_takes_effect_tomorrow_august_2_2026/",
-      "published_at": "2026-08-01T15:44:58Z",
-      "summary": "Basically you now have to mark all AI generated images, audio, video and text as AI generated. :P  &#32; submitted by &#32;  /u/xoxaxo   [link] &#32; [comments]",
+      "title": "How well do multiple GPUs scale for LLM inference? (Trying to understand the basics)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd2wf1/how_well_do_multiple_gpus_scale_for_llm_inference/",
+      "published_at": "2026-08-02T00:05:58Z",
+      "summary": "Hi everyone, I’m fairly new to the multi-GPU side of local LLMs and I’m trying to understand how inference actually scales across multiple GPUs. Suppose I have a model running on a single GPU and then move to two or more",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-01-longcat-flash-lite-sparse-is-now-available-for-download",
+      "id": "localllama-2026-08-01-we-must-go-deeper---inception-style-experience-with-local-ai",
       "source": "localllama",
-      "title": "LongCat-Flash-Lite-Sparse Is Now Available for Download",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcpv6u/longcatflashlitesparse_is_now_available_for/",
-      "published_at": "2026-08-01T15:10:04Z",
-      "summary": "      The weights have now been added to the repo an hour ago. This model is built upon LongCat-Flash-Lite, the differences are that LongCat-Flash-Lite-Sparse:  Replaces dense MLA with LongCat Sparse Attention (LSA) Nati",
+      "title": "We must go deeper - Inception style experience with local AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd2q9f/we_must_go_deeper_inception_style_experience_with/",
+      "published_at": "2026-08-01T23:59:12Z",
+      "summary": "      https://preview.redd.it/6aodizfzpugh1.png?width=1252&amp;format=png&amp;auto=webp&amp;s=5749d622a050de8c325093549bb0cd31b1050cd9 I am trying to learn Japanese so I vibe coded scripts that convert book page images i",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-01-im-kinda-tired-of-obsession-for-one-shot-tests-in-coding-the",
+      "id": "localllama-2026-08-01-koboldcpp-v1118-released",
       "source": "localllama",
-      "title": "I'm kinda tired of obsession for one-shot tests in coding, there are good tests for multi-step debugging with analyzing output/images/videos?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcpsml/im_kinda_tired_of_obsession_for_oneshot_tests_in/",
-      "published_at": "2026-08-01T15:07:04Z",
-      "summary": "Personally, i think good coding model shouldn&#39;t be focused on one-shot &quot;everything in one html-file&quot; tests, but should be really good on debugging, fixing and modifying its own output. Anyone know such simp",
+      "title": "Koboldcpp v1.118 released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd13uv/koboldcpp_v1118_released/",
+      "published_at": "2026-08-01T22:45:47Z",
+      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-01-dsv4-flash-0731-running-on-unoptimized-single-3090-system",
+      "id": "simonw-2026-08-01-quoting-greg-brockman",
+      "source": "simonw",
+      "title": "Quoting Greg Brockman",
+      "url": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
+      "published_at": "2026-08-01T22:29:44Z",
+      "summary": "at openai, many people hook their chatgpt up to slack.\npeople really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by th",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-01-deepseek-v4-flash-0731-on-bosgame-m5-with-rtx-pro-6000-max-q",
       "source": "localllama",
-      "title": "DSv4 Flash 0731 Running on Unoptimized Single 3090 System",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcpnzw/dsv4_flash_0731_running_on_unoptimized_single/",
-      "published_at": "2026-08-01T15:01:53Z",
-      "summary": "      https://preview.redd.it/eqqebec92sgh1.png?width=873&amp;format=png&amp;auto=webp&amp;s=4e9a120e439dc0a64ee4aef87d84b45c51f6bf02 - 3x32 DDR4 2400 Mhz ECC. CPU itself supports quad channel, and we already know why am",
+      "title": "DeepSeek-V4-Flash-0731 on Bosgame M5 with RTX PRO 6000 Max-Q eGPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vczae3/deepseekv4flash0731_on_bosgame_m5_with_rtx_pro/",
+      "published_at": "2026-08-01T21:27:56Z",
+      "summary": "Here are my numbers:   Quant Size Layout Decode Prefill Draft acceptance    UD-Q8_K_XL 150.8 GiB 20 layers CUDA0 / 23 ROCm0 + drafter 44.0 t/s 564 t/s 0.535   UD-Q4_K_XL 144.4 GiB 22 / 21 + drafter 48.4 t/s 585 t/s 0.532",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-01-new-official-weights-for-laguna-s-21-fp8-nvfp4-are-now-avail",
+      "id": "localllama-2026-08-01-deepseek-v4-flash-0731-ud-iq3-s-125-toks-on-rtx-3090-128gb-d",
       "source": "localllama",
-      "title": "New official weights for Laguna S 2.1 FP8 & NVFP4 are now available",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcn9uw/new_official_weights_for_laguna_s_21_fp8_nvfp4/",
-      "published_at": "2026-08-01T13:20:13Z",
-      "summary": "      Poolside have updated the FP8 and NVFP4 checkpoints for Laguna S 2.1, increasing the default context size to 1 million, and updating the configs. Here&#39;s hoping they fixed the looping issue, this model has been ",
+      "title": "DeepSeek-V4-Flash-0731 UD-IQ3_S 12.5 tok/s on RTX 3090 +128GB DDR5",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcz61x/deepseekv4flash0731_udiq3_s_125_toks_on_rtx_3090/",
+      "published_at": "2026-08-01T21:22:44Z",
+      "summary": "      I managed to run DeepSeek-V4-Flash-0731 UD-IQ3_S in text-generation-webui with:  RTX 3090 24 GB 128 GB DDR5 overclocked to 5600 MHz using AMD EXPO llama.cpp loader  First, I had to use a rather brutal workaround: I",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-01-gemma4-31b-bf16-constantly-fails-to-edit-files-due-to-mismat",
+      "id": "localllama-2026-08-01-a-collection-of-small-domain-specific-benchmarks-for-local-m",
       "source": "localllama",
-      "title": "Gemma4 (31B, bf16) constantly fails to edit files due to mismatches in original text - just me?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcn0w2/gemma4_31b_bf16_constantly_fails_to_edit_files/",
-      "published_at": "2026-08-01T13:09:33Z",
-      "summary": "I&#39;ve been trying to find a good model to run locally, and in the benchmarks I can Gemma4 does well. However, whenever I give it anything that involves writing any code, it sits in loops trying to edit files sending t",
+      "title": "A collection of small domain-specific benchmarks for local models (30+ and growing)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcz4b4/a_collection_of_small_domainspecific_benchmarks/",
+      "published_at": "2026-08-01T21:20:42Z",
+      "summary": "      Hello fellow local AI people! I took &quot;you must create your own benchmarks&quot; literally, and built a website for this. How does the end result look like Let&#39;s say I want to know which model has most comm",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-01-ds4-flash-0731---acquarium-panel-failure---q3-k-xl-unsloth",
+      "id": "simonw-2026-08-01-ten-advances-in-mathematics-and-theoretical-computer-science",
+      "source": "simonw",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+      "published_at": "2026-08-01T20:34:49Z",
+      "summary": "Ten advances in mathematics and theoretical computer science\nA few days ago it was Anthropic discovering cryptographic weaknesses with Claude using Mythos Preview, spending $100,000 on tokens and with prompts that includ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-01-whats-next-for-qwen-open-source-releases",
       "source": "localllama",
-      "title": "DS4 flash 0731 - Acquarium Panel Failure - Q3_K_XL Unsloth",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vckcue/ds4_flash_0731_acquarium_panel_failure_q3_k_xl/",
-      "published_at": "2026-08-01T11:00:39Z",
-      "summary": "      https://preview.redd.it/1a39x4zivqgh1.png?width=1550&amp;format=png&amp;auto=webp&amp;s=de591c039cc18782a6b5d8e402fdc1594be05132 start C:\\llm\\llamam5\\build\\bin\\llama-server.exe --model &quot;H:\\UD-Q3_K_XL\\DeepSeek-",
+      "title": "What’s next for Qwen open-source releases?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcx7ns/whats_next_for_qwen_opensource_releases/",
+      "published_at": "2026-08-01T20:03:51Z",
+      "summary": "Been using Qwen 3.6 35B-A3B quite extensively lately and honestly, I’m pretty happy with it. Also tried a few community improvements like Ornith 1.0, which add some interesting tweaks. That said, I’m curious about what t",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-01-38",
+      "id": "localllama-2026-08-01-is-there-a-point-where-models-just-cannot-get-any-smaller-wi",
       "source": "localllama",
-      "title": "…3.8…",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcjj3r/38/",
-      "published_at": "2026-08-01T10:13:49Z",
-      "summary": "      Like when?  &#32; submitted by &#32;  /u/JLeonsarmiento   [link] &#32; [comments] ",
+      "title": "Is there a point where models just cannot get any smaller without losing intelligence?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcwl43/is_there_a_point_where_models_just_cannot_get_any/",
+      "published_at": "2026-08-01T19:39:03Z",
+      "summary": "DeepSeek V4 Flash got me thinking... We keep seeing smaller models get way better. A model at a certain parameter count today can be much smarter than a model of the same size from a year or two ago. Better training, bet",
       "tags": [
         "localllama"
       ]
@@ -252,28 +274,6 @@
       "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. \nThe post EvoLib",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-30-llm-chat-completions-server-01a0",
-      "source": "simonw",
-      "title": "llm-chat-completions-server 0.1a0",
-      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
-      "published_at": "2026-07-30T15:43:16Z",
-      "summary": "Release: llm-chat-completions-server 0.1a0\n        A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the pre",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-30-llm-032rc1",
-      "source": "simonw",
-      "title": "llm 0.32rc1",
-      "url": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
-      "published_at": "2026-07-30T15:30:20Z",
-      "summary": "Release: llm 0.32rc1\n        This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by t",
-      "tags": [
-        "simonw"
       ]
     },
     {
