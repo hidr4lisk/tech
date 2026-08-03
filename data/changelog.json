@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-03T09:54:38Z",
+  "updated_at": "2026-08-03T14:49:29Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10240",
+      "project": "llama-cpp",
+      "version": "b10240",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10240",
+      "published_at": "2026-08-03T11:24:29Z",
+      "body_excerpt": "server: add notice for upcoming default port change 8080 --> 9931 (#26508) server: add notice for upcoming default port change 8080 --> 9931 add link to PR correct to 9931 Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10238",
       "project": "llama-cpp",
@@ -449,6 +458,15 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.511-beta",
       "published_at": "2026-07-29T15:35:36Z",
       "body_excerpt": "Hey everyone! Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many installer, MLX, export and inference fixes. DeepSeek V4 Flash 0731 You can run our De",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.512-beta",
+      "project": "unsloth",
+      "version": "v0.1.512-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.512-beta",
+      "published_at": "2026-07-29T15:35:36Z",
+      "body_excerpt": "Hey everyone! Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many installer, MLX, export and inference fixes. DeepSeek V4 Flash 0731 (August 2 Update) ",
       "type": "tool"
     },
     {
@@ -8738,15 +8756,6 @@
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.8.0",
       "published_at": "2026-05-05T16:52:21Z",
       "body_excerpt": "Release v5.8.0 New Model additions DeepSeek-V4 DeepSeek-V4 is the next-generation MoE (Mixture of Experts) language model from DeepSeek that introduces several architectural innovations over DeepSeek-V3. The architecture replaces Multi-head Latent Attention (MLA) with a hybrid local + long-range attention design, swaps residual connections for Manifold-Constrained Hyper-Connections (mHC), and boot",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.39-beta",
-      "project": "unsloth",
-      "version": "v0.1.39-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.39-beta",
-      "published_at": "2026-05-05T13:08:48Z",
-      "body_excerpt": "_v0.1.39-beta bug fix_ May 5th 2026 Fixes chat history not being shown (existing chat history is not lost) and attachments not attaching correctly. The bug was render-only - use or directly call or to update Run local LLMs with tools like Claude Code and Codex by connecting them to Unsloth’s API endpoint. This lets you run models like Qwen and Gemma locally, with additional features such as self-h",
       "type": "tool"
     }
   ]
