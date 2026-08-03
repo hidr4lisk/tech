@@ -1,134 +1,145 @@
 {
-  "updated_at": "2026-08-02T19:17:19Z",
+  "updated_at": "2026-08-03T03:27:21Z",
   "items": [
     {
-      "id": "localllama-2026-08-02-deepseek-v4-flash-0731-surpasses-fable-5-sol-kimi-k3-on-ches",
+      "id": "localllama-2026-08-03-minimax-h3-now-on-huggingface",
       "source": "localllama",
-      "title": "DeepSeek-V4-Flash-0731: surpasses Fable-5, Sol & Kimi-K3 on Chess Benchmark",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdq8en/deepseekv4flash0731_surpasses_fable5_sol_kimik3/",
-      "published_at": "2026-08-02T18:54:26Z",
-      "summary": "      &#32; submitted by &#32;  /u/mrwang89   [link] &#32; [comments] ",
+      "title": "MiniMax-H3 now on huggingface",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve1mvh/minimaxh3_now_on_huggingface/",
+      "published_at": "2026-08-03T03:06:38Z",
+      "summary": "      MiniMax H3 is a general-purpose, omni-modal generative system. It supports unified understanding of multimodal contexts composed of text, images, video, and audio, and can generate video with native stereo audio at",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-02-dspark-benchmark-result-on-deepseek-v4-flash-0731",
+      "id": "localllama-2026-08-03-strategies-for-capping-thinking-on-ds4-flash-0731",
       "source": "localllama",
-      "title": "DSpark Benchmark Result on Deepseek v4 Flash 0731",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdpe1k/dspark_benchmark_result_on_deepseek_v4_flash_0731/",
-      "published_at": "2026-08-02T18:21:49Z",
-      "summary": "      TensorSharp supports DSpark on Deepseek v4 Flash 0731 now. Here is the benchmark result on 4x Nvidia A40 GPUs, cuda 12.8 with/without DSpark: Model: DeepSeek-V4-Flash-0731-UD-Q8_K_XL from https://huggingface.co/uns",
+      "title": "Strategies for capping thinking on ds4 flash 0731",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve1eh4/strategies_for_capping_thinking_on_ds4_flash_0731/",
+      "published_at": "2026-08-03T02:55:36Z",
+      "summary": "I like the outputs from this model, but DAMN does it over think. Has anyone found a robust fix for this that isn&#39;t just capping output tokens? Anyone working on a &#39;thinking cap&#39; for it? Some combo of llama pa",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-02-all-qwen-model-oneshots-1109-outputs-to-look-at-and-compare",
+      "id": "localllama-2026-08-03-qwen38-27b-announced-alongside-qwen38-max",
       "source": "localllama",
-      "title": "All Qwen model oneshots: 1109 outputs to look at and compare!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdn7zl/all_qwen_model_oneshots_1109_outputs_to_look_at/",
-      "published_at": "2026-08-02T16:57:30Z",
-      "summary": "      I&#39;ve been busy this weekend generating oneshots for all the cheapest models on the openrouter and ended up going through all 33 qwen models across 35 prompts (there were some failures and only 1109 made out of ",
+      "title": "Qwen3.8-27B announced alongside Qwen3.8-Max",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve0psn/qwen3827b_announced_alongside_qwen38max/",
+      "published_at": "2026-08-03T02:21:49Z",
+      "summary": "      https://preview.redd.it/gy0tgokdl2hh1.png?width=540&amp;format=png&amp;auto=webp&amp;s=7db9e034613a915cb33d378b99ad72c31c7cc18f source: https://x.com/Alibaba_Qwen/status/2084100707423289643  &#32; submitted by &#32",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-02-are-you-ready-for-le-chaton-fat-or-still-wasting-money-on-gp",
+      "id": "localllama-2026-08-03-github---sqliteaiwaste-run-the-full-278-trillion-parameter-k",
       "source": "localllama",
-      "title": "Are you ready for Le Chaton FAT or still wasting money on GPUs?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdmfmi/are_you_ready_for_le_chaton_fat_or_still_wasting/",
-      "published_at": "2026-08-02T16:25:41Z",
-      "summary": "      According to rumors (spread by myself) Le Chaton FAT will be 26T-a3b and I AM READY for it.  Let&#39;s be real, I can&#39;t afford that many 5060Ti, so I got 12x Gen 4 3.2 TB (two per card). This gives me about 60G",
+      "title": "GitHub - sqliteai/waste: Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdy1nd/github_sqliteaiwaste_run_the_full/",
+      "published_at": "2026-08-03T00:16:56Z",
+      "summary": "      WASTE is an embeddable inference engine written in C, with no third-party runtime dependencies. It keeps the model trunk in memory, streams selected experts directly from disk, and uses the remaining RAM as a bound",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-02-deepseek-v4-flash---100-150-faster-ts-in-prefillpp",
+      "id": "localllama-2026-08-03-question-about-quant-versus-size",
       "source": "localllama",
-      "title": "Deepseek v4 flash - 100-150 faster t/s in prefill/pp.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdm4z8/deepseek_v4_flash_100150_faster_ts_in_prefillpp/",
-      "published_at": "2026-08-02T16:13:56Z",
-      "summary": "You have two choices here (in order of pref):  Downgrade CUDA from 13.3 to 13.1 (skip 13.2 due to bugs) &lt;- prefer this (thanks to u/fairydreaming for pointing this out) Use this vibed fork that works with CUDA 13.3 ht",
+      "title": "Question about Quant versus Size.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdxvc5/question_about_quant_versus_size/",
+      "published_at": "2026-08-03T00:09:10Z",
+      "summary": "Sorry if this is asked a lot, but I was wondering if there is any clear winner on the Quantization versus Model Size debate? I can run Qwen3.6 27b at Q8, Laguna at Q6, and the new Deepseek Flash at Q3 bit. I am in the pr",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-02-running-deepseek-v4-flash-0731-155-gb-moe-on-a-dgx-spark-wit",
+      "id": "localllama-2026-08-02-anyone-used-minimax-h3-yet-open-weights-are-out-today",
       "source": "localllama",
-      "title": "Running DeepSeek-V4-Flash-0731 (155 GB MoE) on a DGX Spark with vLLM-Moet 2-bit quantization - AI's narrative",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdm29u/running_deepseekv4flash0731_155_gb_moe_on_a_dgx/",
-      "published_at": "2026-08-02T16:10:59Z",
-      "summary": "# Running DeepSeek-V4-Flash-0731 (155 GB MoE) on a DGX Spark with vLLM-Moet 2-bit quantization I used Deepseek-v4-Flash-0731 cloud API settig up vllm-moet to run deepseek-v4-flash with MTP locally on single DGX Spark at ",
+      "title": "Anyone Used MiniMAx H3 yet? Open Weights are out today!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdxeb2/anyone_used_minimax_h3_yet_open_weights_are_out/",
+      "published_at": "2026-08-02T23:48:12Z",
+      "summary": "I am curious if anyone have used it. I would love to feed it key frames and test if it can create in-between frames between my keys. Anyone have tried it, any thoughts?  &#32; submitted by &#32;  /u/Hannibalj2ca   [link]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-02-what-is-opencode-privacy-situation-when-pairing-with-outside",
+      "id": "simonw-2026-08-02-condense-json-10",
+      "source": "simonw",
+      "title": "condense-json 1.0",
+      "url": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
+      "published_at": "2026-08-02T22:19:59Z",
+      "summary": "Release: condense-json 1.0\n        I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-02-you-really-should-not-quantize-kv-cache-for-deepseek-v4-flas",
       "source": "localllama",
-      "title": "What is OpenCode privacy situation when pairing with outside providers?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdllr3/what_is_opencode_privacy_situation_when_pairing/",
-      "published_at": "2026-08-02T15:53:05Z",
-      "summary": "Hi all, I recently discovered that MiniMax offers ~1.7B tokens/month for a basic $20 subscription, and I was genuinely shocked! I wanted to try it out and paired it with OpenCode. Everything is working amazingly well, bu",
+      "title": "You really should not quantize KV Cache for DeepSeek V4 Flash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vduxth/you_really_should_not_quantize_kv_cache_for/",
+      "published_at": "2026-08-02T22:01:32Z",
+      "summary": "I don&#39;t think anyone should quantize the KV with DS4F. I checked the the quality impact (PPL, KLD, Same TopP) for swhitching from BF16 KV to Q8 KV, and it appears significant. Very much in contrast to Qwen 397B. Here",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-02-deepseek-v4-flash-0731-dwarfstar-on-mac",
+      "id": "localllama-2026-08-02-chinas-dfsx-offers-2x-the-memory-bandwidth-of-nvidias-gb200",
       "source": "localllama",
-      "title": "Deepseek-V4-Flash-0731 Dwarfstar on Mac",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdld4v/deepseekv4flash0731_dwarfstar_on_mac/",
-      "published_at": "2026-08-02T15:43:30Z",
-      "summary": "      Here is the prefill performance in an M2 Ultra with 192GB of RAM. For decode, at the following depth: Start: 28 t/s 45k: 23.5 t/s 192k: 18 t/s That speed is maintained with 8k token output at those depths.  &#32; s",
+      "title": "China’s DFSX Offers 2x The Memory Bandwidth Of NVIDIA’s GB200",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vduej3/chinas_dfsx_offers_2x_the_memory_bandwidth_of/",
+      "published_at": "2026-08-02T21:39:15Z",
+      "summary": "      &#32; submitted by &#32;  /u/MundanePercentage674   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-02-conclusion-rlocalllama-still-has-brilliant-open-weight-resea",
+      "id": "localllama-2026-08-02-psa-llamaapp-mac-app-and-llama-serve-from-llamacpp",
       "source": "localllama",
-      "title": "Conclusion: r/LocalLLaMA still has brilliant open-weight research, but finding it requires wading through endless benchmark drama, non-local Discussion Points and repetitive hardware flexes.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdku4r/conclusion_rlocalllama_still_has_brilliant/",
-      "published_at": "2026-08-02T15:22:17Z",
-      "summary": "I let Gemma4-31b run on my laptop for like almost a day using a heavily altered pi to do a deep dive on our beloved Llama tangentially related Subreddit, and this was the conclusion.  Feels pretty accurate. Kind funny to",
+      "title": "PSA: llama.app, Mac app and llama serve from llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdt1i2/psa_llamaapp_mac_app_and_llama_serve_from_llamacpp/",
+      "published_at": "2026-08-02T20:44:13Z",
+      "summary": "      https://llama.app/ Been using llama.cpp for years now and im on here all the time (im a mod..), but somehow I totally missed that llama.app exists and its official from the HF/llama.cpp team. So posting this as I&#",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-02-has-qwen-38-has-dropped-yet-day-90",
+      "id": "localllama-2026-08-02-httpshuggingfacecopoolsidelaguna-s-21-nvfp4",
       "source": "localllama",
-      "title": "Has Qwen 3.8 has dropped yet? Day 90...",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdhrw1/has_qwen_38_has_dropped_yet_day_90/",
-      "published_at": "2026-08-02T13:12:45Z",
-      "summary": "      &#32; submitted by &#32;  /u/mailto_devnull   [link] &#32; [comments] ",
+      "title": "https://huggingface.co/poolside/Laguna-S-2.1-NVFP4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdssj7/httpshuggingfacecopoolsidelagunas21nvfp4/",
+      "published_at": "2026-08-02T20:34:09Z",
+      "summary": "Updated release (August 2026). This is a new checkpoint that supersedes the earlier version of this repository. The weights have changed, not only the config, so if you downloaded a previous copy please re-download to pi",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-02-llamacpp-just-added-mtp-dspark-support-for-deepseek-v4-flash",
+      "id": "localllama-2026-08-02-deepseek-v4-iq3xxs-on-m1-ultra-128gb--16-toks-in-lm-studio-a",
       "source": "localllama",
-      "title": "llama.cpp just added MTP / DSpark support for DeepSeek V4 Flash",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdhgq9/llamacpp_just_added_mtp_dspark_support_for/",
-      "published_at": "2026-08-02T12:58:52Z",
-      "summary": "      &#32; submitted by &#32;  /u/rmhubbert   [link] &#32; [comments] ",
+      "title": "DeepSeek V4 @ IQ3XXS on M1 Ultra 128GB- 16 tok/s in LM Studio after patch",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdsmnk/deepseek_v4_iq3xxs_on_m1_ultra_128gb_16_toks_in/",
+      "published_at": "2026-08-02T20:27:40Z",
+      "summary": "      M1 Ultra 128GB, Unsloth UD-IQ3_XXS, wired limit at 120GB. I was at 5-6 tok/s before the patch. Getting 15-16 tok/s now with the patched engine, and the output seems to have improved. Big thanks to this guy.   &#32;",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-02-vacuum-16t",
+      "id": "localllama-2026-08-02-parlor-v2-best-effort-fully-local-gpt-live-clone-on-an-m3-pr",
       "source": "localllama",
-      "title": "Vacuum 16T",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdh1us/vacuum_16t/",
-      "published_at": "2026-08-02T12:39:00Z",
-      "summary": "https://huggingface.co/tsfrm/vacuum-16t A 16.5-trillion-parameter model that contains nothing. This model is just a ████ you to the labs and companies who say that &quot;haha I have the biggest model out there!&quot;. We",
+      "title": "Parlor v2: best-effort fully local GPT-Live clone on an M3 Pro",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdrb0y/parlor_v2_besteffort_fully_local_gptlive_clone_on/",
+      "published_at": "2026-08-02T19:36:04Z",
+      "summary": "      GPT-Live is so good that I use it almost every day. I&#39;ve been wanting to replicate it since it was released. My first attempt was to fine-tune Gemma 4 12B to behave like a full-duplex model. Something like graf",
       "tags": [
         "localllama"
       ]
@@ -250,17 +261,6 @@
       "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
       "published_at": "2026-07-30T23:58:42Z",
       "summary": "Advancing the price-performance frontier with GPT‑5.6\nHuge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop.\nOpenAI credit 5.6 Sol with enabling this: in How GPT‑5.",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-30-investigating-three-real-world-incidents-in-our-cybersecurit",
-      "source": "simonw",
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-      "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
-      "published_at": "2026-07-30T23:41:29Z",
-      "summary": "Investigating three real-world incidents in our cybersecurity evaluations\nIt happened again! This is turning into something of a pattern.\nLast week OpenAI accidentally exploited Hugging Face when one of their frontier mo",
       "tags": [
         "simonw"
       ]
