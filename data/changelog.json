@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-02T19:17:25Z",
+  "updated_at": "2026-08-03T03:27:28Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10235",
+      "project": "llama-cpp",
+      "version": "b10235",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10235",
+      "published_at": "2026-08-02T21:02:39Z",
+      "body_excerpt": "metal : add SILU_BACK (#25982) feat(silu_back): implemented silu_back op for f32 fix(silu_back): removed redundant asserts in ggml-metal-ops.cpp function ggml_metal_op_silu_back. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10234",
+      "project": "llama-cpp",
+      "version": "b10234",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10234",
+      "published_at": "2026-08-02T20:17:59Z",
+      "body_excerpt": "metal : add F16 support for bin ops (#26465) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10233",
+      "project": "llama-cpp",
+      "version": "b10233",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10233",
+      "published_at": "2026-08-02T19:39:12Z",
+      "body_excerpt": "opencl: limit local workgroup size for GLU operation (#26383) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10232",
       "project": "llama-cpp",
