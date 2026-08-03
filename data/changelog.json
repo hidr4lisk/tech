@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-03T14:49:29Z",
+  "updated_at": "2026-08-03T19:43:45Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10242",
+      "project": "llama-cpp",
+      "version": "b10242",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10242",
+      "published_at": "2026-08-03T17:22:43Z",
+      "body_excerpt": "CUDA: Add backend sampler for penalties sampler (#25262) sampling: enhance penalty handling in common_sampler_init Set default value for penalty_last_n based on model context if not specified. Ensure penalty_last_n and n_prev are non-negative. Update llama_sampler_penalties structure to inherit from llama_sampler_backend and add backend input handling for penalties. Implement backend initializatio",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10241",
+      "project": "llama-cpp",
+      "version": "b10241",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10241",
+      "published_at": "2026-08-03T14:58:22Z",
+      "body_excerpt": "CUDA: Fix data-races when reusing SMEM in block_reduce (#26385) CUDA: Fix data-races when reusing block_reduce block_reduce currently doesn't resync after reading from SMEM, causing potential data-races when reusing SMEM for multiple reductions. One may consider simply always adding this in block_reduce, but this comes at a potential perf cost double-buffering for single-row softmax double-bufferi",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10240",
       "project": "llama-cpp",
@@ -8738,24 +8756,6 @@
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.11",
       "published_at": "2026-05-05T21:28:56Z",
       "body_excerpt": "Highlights CUDA 13 + Torch 2.11: Default CUDA version moves to 13.0 across SGLang, sgl-kernel, and Docker images, and PyTorch is upgraded from 2.9 to 2.11 — modernizing the build matrix and unlocking newer kernels: #21247, #24162, #24183, #23593 (tracking issue #21498) Speculative Decoding V2 by default: Spec V2 (with overlap scheduling to hide CPU overhead) is now the default, materially reducing",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.23.1",
-      "project": "ollama",
-      "version": "v0.23.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.1",
-      "published_at": "2026-05-05T17:13:31Z",
-      "body_excerpt": "Gemma 4 MTP (Multi-token Processing) for the MLX runner Gemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks. What's Changed Update MLX and MLX-C with threading fixes by @dhiltgen in go: bump to 1.26 by @ParthSareen in Add Gemma 4 MTP speculative decoding by @pdevine in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.8.0",
-      "project": "transformers",
-      "version": "v5.8.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.8.0",
-      "published_at": "2026-05-05T16:52:21Z",
-      "body_excerpt": "Release v5.8.0 New Model additions DeepSeek-V4 DeepSeek-V4 is the next-generation MoE (Mixture of Experts) language model from DeepSeek that introduces several architectural innovations over DeepSeek-V3. The architecture replaces Multi-head Latent Attention (MLA) with a hybrid local + long-range attention design, swaps residual connections for Manifold-Constrained Hyper-Connections (mHC), and boot",
       "type": "tool"
     }
   ]
