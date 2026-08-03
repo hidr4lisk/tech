@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-08-03T03:27:21Z",
+  "updated_at": "2026-08-03T09:54:34Z",
   "items": [
+    {
+      "id": "localllama-2026-08-03-release-suprabrain-50m-v01",
+      "source": "localllama",
+      "title": "[RELEASE] SupraBrain-50M-v0.1",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve7vo1/release_suprabrain50mv01/",
+      "published_at": "2026-08-03T08:49:08Z",
+      "summary": "      Hey there! So today we&#39;re releasing SupraBrain-50M, a hybrid language model that combines Gated DeltaNet linear recurrence with Sliding-Window Attention and Surprise-Gated update mechanisms to deliver very stro",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-03-döner-bench-deepseek-v4-flash-iq2-xs-running-on-a-single-rtx",
+      "source": "localllama",
+      "title": "Döner Bench DeepSeek-V4-Flash IQ2_XS running on a single RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve6ds2/döner_bench_deepseekv4flash_iq2_xs_running_on_a/",
+      "published_at": "2026-08-03T07:21:27Z",
+      "summary": "      https://preview.redd.it/3zcvpbds14hh1.png?width=1911&amp;format=png&amp;auto=webp&amp;s=a79aafb71eeca97638da93d2591902631e897fd5 I tried a test similar to the recent model-quant comparisons, but this time I focused",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-03-i-benchmarked-classic-vector-rag-vs-googles-new-okf-format-v",
+      "source": "localllama",
+      "title": "I benchmarked classic vector RAG vs Google's new OKF format vs both combined — same corpus, same 7 questions, all local (Ollama + ChromaDB)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve5r8y/i_benchmarked_classic_vector_rag_vs_googles_new/",
+      "published_at": "2026-08-03T06:46:31Z",
+      "summary": "Google Cloud published OKF (Open Knowledge Format) on June 12th — a spec for storing curated knowledge as a directory of markdown files with YAML frontmatter. One concept per file, linked to each other, with an index.md ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-03-daniel-han-of-unsloth-validates-qwen38-27b-will-run-only-17g",
+      "source": "localllama",
+      "title": "Daniel Han of Unsloth validates Qwen3.8-27B will run only 17GB VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve4uoe/daniel_han_of_unsloth_validates_qwen3827b_will/",
+      "published_at": "2026-08-03T05:55:11Z",
+      "summary": "      Super excited about this release for the new 27B. Who else is with me. Only 17GB VRAM needed 😍😍  &#32; submitted by &#32;  /u/quantier   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-03-cant-wait-to-see-qwen38-27b",
+      "source": "localllama",
+      "title": "Can't wait to see Qwen3.8-27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve3no7/cant_wait_to_see_qwen3827b/",
+      "published_at": "2026-08-03T04:50:14Z",
+      "summary": "Qwen announced Qwen3.8 a few hours ago, and it looks like we’re getting a new 27B model! Really excited to try this one locally.   &#32; submitted by &#32;  /u/FormOne2615   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-03-seedance-25-vs-minimax-h3-open-weight-excellent-output-compa",
+      "source": "localllama",
+      "title": "Seedance 2.5 Vs Minimax H3 (Open Weight). Excellent Output Comparison!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve34be/seedance_25_vs_minimax_h3_open_weight_excellent/",
+      "published_at": "2026-08-03T04:21:45Z",
+      "summary": "      &#32; submitted by &#32;  /u/Hannibalj2ca   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-03-minimax-h3-now-on-huggingface",
       "source": "localllama",
@@ -76,72 +142,6 @@
       "summary": "Release: condense-json 1.0\n        I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-02-you-really-should-not-quantize-kv-cache-for-deepseek-v4-flas",
-      "source": "localllama",
-      "title": "You really should not quantize KV Cache for DeepSeek V4 Flash",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vduxth/you_really_should_not_quantize_kv_cache_for/",
-      "published_at": "2026-08-02T22:01:32Z",
-      "summary": "I don&#39;t think anyone should quantize the KV with DS4F. I checked the the quality impact (PPL, KLD, Same TopP) for swhitching from BF16 KV to Q8 KV, and it appears significant. Very much in contrast to Qwen 397B. Here",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-02-chinas-dfsx-offers-2x-the-memory-bandwidth-of-nvidias-gb200",
-      "source": "localllama",
-      "title": "China’s DFSX Offers 2x The Memory Bandwidth Of NVIDIA’s GB200",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vduej3/chinas_dfsx_offers_2x_the_memory_bandwidth_of/",
-      "published_at": "2026-08-02T21:39:15Z",
-      "summary": "      &#32; submitted by &#32;  /u/MundanePercentage674   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-02-psa-llamaapp-mac-app-and-llama-serve-from-llamacpp",
-      "source": "localllama",
-      "title": "PSA: llama.app, Mac app and llama serve from llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdt1i2/psa_llamaapp_mac_app_and_llama_serve_from_llamacpp/",
-      "published_at": "2026-08-02T20:44:13Z",
-      "summary": "      https://llama.app/ Been using llama.cpp for years now and im on here all the time (im a mod..), but somehow I totally missed that llama.app exists and its official from the HF/llama.cpp team. So posting this as I&#",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-02-httpshuggingfacecopoolsidelaguna-s-21-nvfp4",
-      "source": "localllama",
-      "title": "https://huggingface.co/poolside/Laguna-S-2.1-NVFP4",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdssj7/httpshuggingfacecopoolsidelagunas21nvfp4/",
-      "published_at": "2026-08-02T20:34:09Z",
-      "summary": "Updated release (August 2026). This is a new checkpoint that supersedes the earlier version of this repository. The weights have changed, not only the config, so if you downloaded a previous copy please re-download to pi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-02-deepseek-v4-iq3xxs-on-m1-ultra-128gb--16-toks-in-lm-studio-a",
-      "source": "localllama",
-      "title": "DeepSeek V4 @ IQ3XXS on M1 Ultra 128GB- 16 tok/s in LM Studio after patch",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdsmnk/deepseek_v4_iq3xxs_on_m1_ultra_128gb_16_toks_in/",
-      "published_at": "2026-08-02T20:27:40Z",
-      "summary": "      M1 Ultra 128GB, Unsloth UD-IQ3_XXS, wired limit at 120GB. I was at 5-6 tok/s before the patch. Getting 15-16 tok/s now with the patched engine, and the output seems to have improved. Big thanks to this guy.   &#32;",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-02-parlor-v2-best-effort-fully-local-gpt-live-clone-on-an-m3-pr",
-      "source": "localllama",
-      "title": "Parlor v2: best-effort fully local GPT-Live clone on an M3 Pro",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdrb0y/parlor_v2_besteffort_fully_local_gptlive_clone_on/",
-      "published_at": "2026-08-02T19:36:04Z",
-      "summary": "      GPT-Live is so good that I use it almost every day. I&#39;ve been wanting to replicate it since it was released. My first attempt was to fine-tune Gemma 4 12B to behave like a full-duplex model. Something like graf",
-      "tags": [
-        "localllama"
       ]
     },
     {
