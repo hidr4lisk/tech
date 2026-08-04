@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-08-04T14:26:47Z",
+  "updated_at": "2026-08-04T19:42:38Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10271",
+      "project": "llama-cpp",
+      "version": "b10271",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10271",
+      "published_at": "2026-08-04T18:56:20Z",
+      "body_excerpt": "ui: CWD for agent (#26518) server : extend file_glob_search for UI pickers ui : add per-conversation working directory with picker ui : add path navigation and search scope to cwd picker Treat path-like queries (starting with / or ~) as directory navigation instead of glob-matching the whole query: search the parent for the last segment, and descend into an exactly-typed directory by listing its c",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.6-rc0",
+      "project": "ollama",
+      "version": "v0.32.6-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
+      "published_at": "2026-08-04T18:49:20Z",
+      "body_excerpt": "What's Changed - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically - streaming now matches OpenAI's wire format: only on the first chunk, on its own chunk, and usage in a separate chunk with . - Truncated OpenAI responses now report instead of . - now offers for cloud-only models that publish no default tag, instead of failing. - T",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10270",
+      "project": "llama-cpp",
+      "version": "b10270",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10270",
+      "published_at": "2026-08-04T18:03:46Z",
+      "body_excerpt": "mtmd: support Qwen3-TTS (note: breaking change to llama-tts binary) (#26254) convert text model main model load ok convert encoder ok speaker encoder loading ok speaker enc graph adapt vocab for backbone (with some tricks) add suppress_tokens poc new mtmd gen api convert code_predictor to gguf load gen_code model ok add clip_encode wire up code gen cgraph init version Co-authored-by: Pascal code2w",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10269",
+      "project": "llama-cpp",
+      "version": "b10269",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10269",
+      "published_at": "2026-08-04T17:22:20Z",
+      "body_excerpt": "models : fix dflash wo_a reshape on load (#26577) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10268",
+      "project": "llama-cpp",
+      "version": "b10268",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10268",
+      "published_at": "2026-08-04T16:38:53Z",
+      "body_excerpt": "ci: fix pre-built binaries no longer working on macOS 15 and below (#26375) ci: fix pre-built binaries no longer working on macOS 15 and below ci: add macOS deployment target to disabled KleidiAI build Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU)",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.52-beta",
+      "project": "unsloth",
+      "version": "v0.1.52-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.52-beta",
+      "published_at": "2026-08-04T16:06:43Z",
+      "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 You can run our DeepSeek V4 Dynamic GGUFs through Unsloth. Unsloth automatically detec",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10267",
+      "project": "llama-cpp",
+      "version": "b10267",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10267",
+      "published_at": "2026-08-04T15:55:03Z",
+      "body_excerpt": "speculative : refactor enabled configs common_speculative_init (#26510) This commit contains a suggestion to reduce some code duplication in common_speculative_init when adding the enabled speculative decoding configurations. No tests were added but the existing server tests still passes with this change: Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
+      "type": "tool"
+    },
+    {
+      "id": "whisper-cpp-v1.9.2",
+      "project": "whisper-cpp",
+      "version": "v1.9.2",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.2",
+      "published_at": "2026-08-04T15:31:37Z",
+      "body_excerpt": "What's Changed sync : ggml by @ggerganov in include parakeet in build-xcframework.sh by @daaku in Fix pkgconfig configuration (Nix build failure) by @nmouha in examples : update model names in parakeet-cli README.md [no ci] by @danbev in examples: Fix argument flag for min speech duration in VAD by @QuantiusBenignus in sync : ggml by @ggerganov in examples : Improved inference performance of Andro",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10265",
+      "project": "llama-cpp",
+      "version": "b10265",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10265",
+      "published_at": "2026-08-04T15:10:27Z",
+      "body_excerpt": "sync : ggml Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) W",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10262",
       "project": "llama-cpp",
