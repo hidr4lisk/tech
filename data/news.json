@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-08-04T02:55:56Z",
+  "updated_at": "2026-08-04T08:45:17Z",
   "items": [
+    {
+      "id": "localllama-2026-08-04-is-lm-studio-abandoning-their-core-product",
+      "source": "localllama",
+      "title": "Is LM Studio abandoning their core product?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vf2hhp/is_lm_studio_abandoning_their_core_product/",
+      "published_at": "2026-08-04T06:38:00Z",
+      "summary": "Some of you may be aware that a few weeks ago, LM Studio announced a new agent, Bionic. This is pretty much an agentic harness for both local models and paid cloud models. But most aren&#39;t aware that LM Studio replace",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-can-someone-create-a-website-where-people-share-specific-har",
+      "source": "localllama",
+      "title": "can someone create a website where people share specific hardware specs with specific llama cpp flags so we see what works?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1veyxkf/can_someone_create_a_website_where_people_share/",
+      "published_at": "2026-08-04T03:28:53Z",
+      "summary": "title  &#32; submitted by &#32;  /u/Rank201AltAccount   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-has-anyone-been-working-on-a-solid-setup-for-dsv4f-on-x2-r97",
+      "source": "localllama",
+      "title": "Has anyone been working on a solid setup for DSV4F on x2+ R9700s?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1veyhzj/has_anyone_been_working_on_a_solid_setup_for/",
+      "published_at": "2026-08-04T03:08:05Z",
+      "summary": "I&#39;m hoping that one of you guys has been working on an inference engine or has somehow found improvements to running DSV4F on RDNA4 multi-GPU setups. I am currently building a custom inference engine in Rust using HI",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-04-special-architecture-in-afm3-20b-instruction-following-pruni",
       "source": "localllama",
@@ -118,39 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1veow4b/deepseek_v4flash_284b_moe_at_33_toks_single_68/",
       "published_at": "2026-08-03T20:25:21Z",
       "summary": "      Ran DeepSeek V4-Flash-0731 — the full official checkpoint, not a re-quant — on commodity used hardware. Sharing because I couldn&#39;t find anyone else publishing Ampere results for this engine. Edit / update: a co",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-03-i-ran-my-own-benchmarks-on-it-seems-to-be-pretty-common-comm",
-      "source": "localllama",
-      "title": "'I ran my own benchmarks on it' seems to be pretty common comment around here. How about dedicating a thread for this and sharing?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1veodfd/i_ran_my_own_benchmarks_on_it_seems_to_be_pretty/",
-      "published_at": "2026-08-03T20:06:09Z",
-      "summary": "Of course, the concern is that in the end, this thread will be fed into the models&#39; training data, but I feel benchmarking isn&#39;t so open and very fragmented.  &#32; submitted by &#32;  /u/jinnyjuice   [link] &#32",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-03-we-tested-deepseek-v4-flash-glm-52-and-kimi-k3-on-hard-agent",
-      "source": "localllama",
-      "title": "We tested Deepseek v4 flash, GLM 5.2, and Kimi K3 on hard agentic tasks, and DeepSeek just crushed",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1venecp/we_tested_deepseek_v4_flash_glm_52_and_kimi_k3_on/",
-      "published_at": "2026-08-03T19:30:18Z",
-      "summary": "      https://preview.redd.it/uybjxyypj7hh1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=8293e8da332a14920b335caee52473762c09530d As part of our internal eval report, we (@Composio) regularly test the models on some",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-03-speculative-decoding-with-deepseek-v4-flash-0731",
-      "source": "localllama",
-      "title": "Speculative decoding with deepseek v4 flash 0731?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ven4f7/speculative_decoding_with_deepseek_v4_flash_0731/",
-      "published_at": "2026-08-03T19:20:10Z",
-      "summary": "Has anyone figured out how to enable speculative decoding with deepseek v4 flash 0731 on llamacpp? I’m on the right release for llamacpp (b10228 or earlier) and running am17an’s draft model with unsloth’s UD-Q8 model. Ru",
       "tags": [
         "localllama"
       ]
