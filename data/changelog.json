@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-08-03T19:43:45Z",
+  "updated_at": "2026-08-04T02:56:04Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10250",
+      "project": "llama-cpp",
+      "version": "b10250",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10250",
+      "published_at": "2026-08-04T02:06:21Z",
+      "body_excerpt": "tests: add model resolution test on synthetic repo listings (#26172) tests: add model resolution test on synthetic repo listings Include download.cpp and arg.cpp inside a namespace with hf_cache monkey patched to serve hardcoded listings, so the resolution and the model handler assembly are tested end-to-end through the real CLI parsing, without modifying the tested code and without network access",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10249",
+      "project": "llama-cpp",
+      "version": "b10249",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10249",
+      "published_at": "2026-08-04T01:36:29Z",
+      "body_excerpt": "server: add get_info tool (#26522) server: add get_info tool fix --rpc in docs server: harden get_info probe result handling Report the OS as unknown when the probe process fails to spawn or times out, so the diagnostic text from run() is never returned as an OS name. Strip the probe output on both ends, which also drops the blank line that ver prints before the version on Windows. Name the output",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10248",
+      "project": "llama-cpp",
+      "version": "b10248",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10248",
+      "published_at": "2026-08-04T01:01:35Z",
+      "body_excerpt": "vocab : validate default special token ids (#26506) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10247",
+      "project": "llama-cpp",
+      "version": "b10247",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10247",
+      "published_at": "2026-08-04T00:22:34Z",
+      "body_excerpt": "ggml: use dynamic allocation for split graph inputs (#22789) ggml: use dynamic allocation for split graph inputs Replace fixed-size GGML_SCHED_MAX_SPLIT_INPUTS arrays with dynamically allocated buffers in the backend scheduler. This fixes crashes when loading wide MoE models (Gemma 4, Qwen MoE, Mixtral, DeepSeek) on multi-backend setups where graph splits exceed 30 input tensors. split->inputs: dy",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10246",
+      "project": "llama-cpp",
+      "version": "b10246",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10246",
+      "published_at": "2026-08-03T23:39:15Z",
+      "body_excerpt": "opencl: route large q6_K lm_head to the flat GEMV (#26427) add a direct size condition for weights; the original dimension condition is insufficient -- q6_K lm_head for gemma-4 E2B has [1536, 262144], which is big enough to slowdown gemv_noshuffle but does not satisfy the dimension condition (ne0 >= 2048) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10245",
+      "project": "llama-cpp",
+      "version": "b10245",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10245",
+      "published_at": "2026-08-03T22:57:59Z",
+      "body_excerpt": "graph : fix unused input tensors in minimax m3 graph (#26519) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10244",
+      "project": "llama-cpp",
+      "version": "b10244",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10244",
+      "published_at": "2026-08-03T22:13:49Z",
+      "body_excerpt": "model: M3: Move MSA into a new memory implementation (#26338) Move MSA logic from llama-kv-cache into llama-kv-cache-msa cont : minor cont : ws fix --------- Co-authored-by: Georgi Gerganov Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10243",
+      "project": "llama-cpp",
+      "version": "b10243",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10243",
+      "published_at": "2026-08-03T20:10:56Z",
+      "body_excerpt": "llama : allocate indexer cache only in \"full\" indexer layers (#26474) Co-authored-by: Stanisław Szymczyk Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10242",
       "project": "llama-cpp",
@@ -450,6 +522,15 @@
       "published_at": "2026-07-30T04:40:01Z",
       "body_excerpt": "mimo2: address MTP review feedback (#26228) Co-authored-by: tnhnyc Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-NemotronLabs-VoiceChat-11B",
+      "project": "nvidia",
+      "version": "NVIDIA-NemotronLabs-VoiceChat-11B",
+      "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+      "published_at": "2026-07-29T17:46:48Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10182",
@@ -8748,15 +8829,6 @@
       "published_at": "2026-05-07T05:00:37Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "sglang-v0.5.11",
-      "project": "sglang",
-      "version": "v0.5.11",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.11",
-      "published_at": "2026-05-05T21:28:56Z",
-      "body_excerpt": "Highlights CUDA 13 + Torch 2.11: Default CUDA version moves to 13.0 across SGLang, sgl-kernel, and Docker images, and PyTorch is upgraded from 2.9 to 2.11 — modernizing the build matrix and unlocking newer kernels: #21247, #24162, #24183, #23593 (tracking issue #21498) Speculative Decoding V2 by default: Spec V2 (with overlap scheduling to hide CPU overhead) is now the default, materially reducing",
-      "type": "tool"
     }
   ]
 }
