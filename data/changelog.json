@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-04T08:45:23Z",
+  "updated_at": "2026-08-04T14:26:47Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10262",
+      "project": "llama-cpp",
+      "version": "b10262",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10262",
+      "published_at": "2026-08-04T13:54:19Z",
+      "body_excerpt": "vulkan backend ops: implemented GATED_LINEAR_ATTN (#25601) vulkan : add GATED_LINEAR_ATTN op docs : update Vulkan ops vulkan : remove unused GLA spec constant Updated ops.md ops.md update Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (V",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10261",
+      "project": "llama-cpp",
+      "version": "b10261",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10261",
+      "published_at": "2026-08-04T13:09:49Z",
+      "body_excerpt": "vocab : validate plamo2 byte tokens (#26511) validate plamo2 byte tokens --typo Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10259",
+      "project": "llama-cpp",
+      "version": "b10259",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10259",
+      "published_at": "2026-08-04T12:18:00Z",
+      "body_excerpt": "model : allow reshape of tensors during load (#26531) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10258",
+      "project": "llama-cpp",
+      "version": "b10258",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10258",
+      "published_at": "2026-08-04T09:22:08Z",
+      "body_excerpt": "llama : move n_vocab from llama_sampler_data to penalty_sampler (#26520) This matches how it is done for logit_bias and mirostat samplers, see Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10256",
       "project": "llama-cpp",
@@ -1611,6 +1647,15 @@
       "published_at": "2026-07-16T10:37:01Z",
       "body_excerpt": "server: Ignore empty / non-existing headers (#25756) Otherwise this gives lots of unnecessary warnings: W srv operator(): (CORS) skip non-localhost origin: Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubu",
       "type": "tool"
+    },
+    {
+      "id": "hf-mistralai-Shieldstral-1.0-3B",
+      "project": "mistralai",
+      "version": "Shieldstral-1.0-3B",
+      "url": "https://huggingface.co/mistralai/Shieldstral-1.0-3B",
+      "published_at": "2026-07-16T10:24:13Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10040",
