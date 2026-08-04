@@ -1,13 +1,145 @@
 {
-  "updated_at": "2026-08-04T14:26:39Z",
+  "updated_at": "2026-08-04T19:42:33Z",
   "items": [
     {
-      "id": "localllama-2026-08-04-deepseek-v4-flash-0731-full-1m-context-on-a-single-rtx5090-d",
+      "id": "simonw-2026-08-04-pipenetworkminimax-h3-mlx",
+      "source": "simonw",
+      "title": "PipeNetwork/minimax-h3-mlx",
+      "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
+      "published_at": "2026-08-04T19:10:09Z",
+      "summary": "PipeNetwork/minimax-h3-mlx\nMiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-hugging-face-ceo-says-china-is-winning-the-ai-race-and-domin",
       "source": "localllama",
-      "title": "[Deepseek-V4-Flash-0731] Full 1M context on a single RTX5090 + DDR5 Desktop Setup with VLLM CPU/Ram Offloading, ~800 tps pp & 15+ tps decode [Agentic Coding]",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfbcgx/deepseekv4flash0731_full_1m_context_on_a_single/",
-      "published_at": "2026-08-04T14:06:09Z",
-      "summary": "First of all, obviously I took some help from AI to type this post and this is the topic that enabled me to accomplish all that: https://old.reddit.com/r/LocalLLaMA/comments/1veow4b/deepseek_v4flash_284b_moe_at_33_toks_s",
+      "title": "Hugging Face CEO says China is winning the AI race and dominating on open models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfj3q7/hugging_face_ceo_says_china_is_winning_the_ai/",
+      "published_at": "2026-08-04T18:42:38Z",
+      "summary": "      This is something that was spoken here and there, and now it is like writing on the wall. The main additional point is that China has created an independent supply chain. Starting from raw materials and home-made l",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-introducing-shieldstral-mistral-ai",
+      "source": "localllama",
+      "title": "Introducing Shieldstral. | Mistral AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfj3me/introducing_shieldstral_mistral_ai/",
+      "published_at": "2026-08-04T18:42:32Z",
+      "summary": "      &#32; submitted by &#32;  /u/tengo_harambe   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-has-anyone-tried-mach-1-additive-95-of-performance-of-qwen-3",
+      "source": "localllama",
+      "title": "Has anyone tried Mach-1 Additive? 95% of performance of Qwen 3.6 35B while being 10x smaller",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfirld/has_anyone_tried_mach1_additive_95_of_performance/",
+      "published_at": "2026-08-04T18:30:40Z",
+      "summary": "      Why nobody is talking about this? Seems pretty significant to the community  &#32; submitted by &#32;  /u/MuzafferMahi   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-deepseek-v4-flash-vs-qwen36-27b-35-122b-and-gemma-4-31b-benc",
+      "source": "localllama",
+      "title": "DeepSeek v4 Flash vs. Qwen3.6-27B, 3.5-122B, and Gemma 4 31B Benchmark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfhqkm/deepseek_v4_flash_vs_qwen3627b_35122b_and_gemma_4/",
+      "published_at": "2026-08-04T17:54:52Z",
+      "summary": "      Just wanted to share my agentic coding benchmark run of DSv4F 0731 at both High and Low reasoning efforts (not Max)... I ran a 109-question subset of Aider Polyglot (the JS/C++/Python languages), based on the codin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-a-llamacpp-pr-caches-hot-moe-experts-on-the-gpu-33-56-toks-r",
+      "source": "localllama",
+      "title": "A llama.cpp PR caches “hot” MoE experts on the GPU — 33 → 56 tok/s reported with 8GB VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfhns3/a_llamacpp_pr_caches_hot_moe_experts_on_the_gpu/",
+      "published_at": "2026-08-04T17:52:04Z",
+      "summary": "A new llama.cpp PR (#26563) adds a heatmap that tracks which MoE experts are used most often. Instead of keeping every expert on the GPU or offloading all of them, it caches the frequently selected experts in VRAM while ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-no-more-slm-open-source",
+      "source": "localllama",
+      "title": "No more SLM open-source??",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfhhpq/no_more_slm_opensource/",
+      "published_at": "2026-08-04T17:45:56Z",
+      "summary": "      https://x.com/xiong_hui_chen/status/2084695353346117760?s=20  &#32; submitted by &#32;  /u/Capital-Remove-6150   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-lfm25-26b-is-out",
+      "source": "localllama",
+      "title": "LFM2.5-2.6B is out",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfh1sn/lfm2526b_is_out/",
+      "published_at": "2026-08-04T17:30:34Z",
+      "summary": "Released today, with emphasis on agentic capabilities. I really like their models for simple, high volume tasks (&quot;summarize these gazillion documents&quot;) and their 8b-a1b was my go-to for certain tasks so I&#39;m",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-cursor-releases-their-mixture-of-kittens-megakernel-for-trai",
+      "source": "localllama",
+      "title": "Cursor releases their Mixture-of-Kittens megakernel for training MoE models - Claims to nearly double TFLOP/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfgxh4/cursor_releases_their_mixtureofkittens_megakernel/",
+      "published_at": "2026-08-04T17:26:24Z",
+      "summary": "Link: https://cursor.com/blog/mixture-of-kittens GitHub: https://github.com/cursor/mixture-of-kittens Seems like a neat way to squeeze more performance out of MoE. I&#39;m sure everyone has a favorite MoE model they&#39;",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-deepseek-v4-flash-0731-ranks-21-on-agent-arena",
+      "source": "localllama",
+      "title": "Deepseek V4 flash 0731 ranks #21 on Agent Arena",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vff300/deepseek_v4_flash_0731_ranks_21_on_agent_arena/",
+      "published_at": "2026-08-04T16:21:42Z",
+      "summary": "      https://preview.redd.it/522fsdwvtdhh1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=6a6cf7a467514167a8193029dbd20fb3a9ba4f6c It ranks lower than both Sonnet 4.6 and Luna. I&#39;d wager Luna costs in the same ba",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-design-systems-from-code-alone---without-external-images-lin",
+      "source": "localllama",
+      "title": "Design systems from code alone - Without external images, Ling-3.0-flash generated webpages across Bauhaus, Bohemian, acid design, and more—using CSS gradients, SVG paths, typography, and layout to preserve each visual language.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfem5v/design_systems_from_code_alone_without_external/",
+      "published_at": "2026-08-04T16:05:04Z",
+      "summary": "      Weights went up today so this is downloadable now, MIT, ~128GB for the official FP8. I ran these on the API before that landed, so treat it as a preview of what you&#39;d be pulling rather than a local benchmark  &",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-gemma-4-on-500mb",
+      "source": "localllama",
+      "title": "Gemma 4 on 500MB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfeick/gemma_4_on_500mb/",
+      "published_at": "2026-08-04T16:01:27Z",
+      "summary": "      https://x.com/i/status/2084656348617392261 https://www.reddit.com/r/LLMDevs/s/9oL5ogmE6s  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-04-decrease-the-power-limit-of-your-5090-to-at-least-480w---the",
+      "source": "localllama",
+      "title": "Decrease the power limit of your 5090 to at least 480W - the performance penalty for inference is negligible.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfdwox/decrease_the_power_limit_of_your_5090_to_at_least/",
+      "published_at": "2026-08-04T15:39:31Z",
+      "summary": "I run my inference machine in the living room, so noise and heat output are a significant concern.  Ran a quick test using my daily driver model (Qwen 3.6-27b) and at 480W, the card outputs only 2.1% less t/s in decode a",
       "tags": [
         "localllama"
       ]
@@ -21,127 +153,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-i-built-a-dwarfstar-inspired-vulkanmetal-inference-engine-fo",
-      "source": "localllama",
-      "title": "I built a DwarfStar-inspired Vulkan/Metal inference engine for Qwen3.6-35B-A3B on 16 GB machines",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfacdz/i_built_a_dwarfstarinspired_vulkanmetal_inference/",
-      "published_at": "2026-08-04T13:26:51Z",
-      "summary": "       Disclosure: I’m the author and maintainer of QuarkStar.  I built QuarkStar, a small native inference engine inspired by Antirez’s DwarfStar. QuarkStar currently supports:  Qwen3.6-35B-A3B, using the same Antirez-i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-sk-hynix-in-collaboration-with-sandisk-unveils-the-new-high",
-      "source": "localllama",
-      "title": "SK hynix, In Collaboration With SanDisk, Unveils The New High Bandwidth Flash (HBF) Standard, Helping To Resolve AI Inference Bottlenecks, Targeting Up To 3TB/s Bandwidth",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfa3tq/sk_hynix_in_collaboration_with_sandisk_unveils/",
-      "published_at": "2026-08-04T13:17:20Z",
-      "summary": "      Hopefully this would let us have faster local models....but it will probably be out of our price range.   &#32; submitted by &#32;  /u/giveen   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-llamacpp-pr-8-speed-boost",
-      "source": "localllama",
-      "title": "Llama.cpp PR 8% speed boost",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vf8obs/llamacpp_pr_8_speed_boost/",
-      "published_at": "2026-08-04T12:16:20Z",
-      "summary": "Llama.cpp currently uses cpu based sampling for user with mtp enabled. The PR moves sampling to the gpu, which on a 5090 boasts an 8% increase in tok/s for qwen3.6:35b. I tested it on my P40 and observed a 4% increase in",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-deepseek-v4-flash-0731ggufs-with-updated-template-supports-r",
-      "source": "localllama",
-      "title": "DeepSeek V4 Flash 0731GGUFs with updated template (supports reasoning levels)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vf8944/deepseek_v4_flash_0731ggufs_with_updated_template/",
-      "published_at": "2026-08-04T11:57:41Z",
-      "summary": "&#32; submitted by &#32;  /u/tarruda   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-why-are-chinese-models-better-at-frontend-than-the-western-t",
-      "source": "localllama",
-      "title": "Why are Chinese models better* at Frontend than the western top labs?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vf7c91/why_are_chinese_models_better_at_frontend_than/",
-      "published_at": "2026-08-04T11:12:09Z",
-      "summary": "I use A LOT both openAI and Anthropic products. When I need some frontend work (pure web dev) (or answer that feel less verbose and more to the point) I use Anthropic. For multimodality openAI feels better (understanding",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-deepseek-v4-flash-0731-4bit-50tps-prefill-1tps-decode-on-m5",
-      "source": "localllama",
-      "title": "DeepSeek v4 Flash 0731 4bit ~50tps prefill, ~1tps decode on M5 Air 32gb",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vf79h7/deepseek_v4_flash_0731_4bit_50tps_prefill_1tps/",
-      "published_at": "2026-08-04T11:08:15Z",
-      "summary": "Currently running some experiments using the streamed experts trick that&#39;s been floating around this sub as well as some of my own trickery to get prefill to run a bit faster. It&#39;s been quite a bit of fun so far ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-probably-the-best-way-to-run-ds4-flash-on-a-mac-right-now-19",
-      "source": "localllama",
-      "title": "Probably the best way to run DS4 flash on a mac right now (192gb+ vram)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vf6us9/probably_the_best_way_to_run_ds4_flash_on_a_mac/",
-      "published_at": "2026-08-04T10:47:24Z",
-      "summary": "      Found this quant, so thought I would share, since its the best I&#39;ve found so far for running on my mac (m3 ultra). It&#39;s got dspark/mtp support so runs faster than anything else I&#39;ve tried. The tok/s on ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-optimised-dsv4-flash-for-2x-gh200-10000-toks-pp-300-toks-tg",
-      "source": "localllama",
-      "title": "Optimised DSv4-Flash for 2x GH200: 10,000 tok/s PP, >300 tok/s TG on SGLang",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vf64mz/optimised_dsv4flash_for_2x_gh200_10000_toks_pp/",
-      "published_at": "2026-08-04T10:08:45Z",
-      "summary": "There are some PRs to use and a nice trick to speed up PP on really longs contexts in my write up. Hope it helps! TL;DR: On this dual GH200 box, you build vLLM v0.26.0 from source, add the merged DSV4 cache-layout patch ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-time-to-finally-migrate-from-lm-studio---llamacpp-your-exper",
-      "source": "localllama",
-      "title": "Time to finally migrate from LM Studio -> llama.cpp, your experience?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vf5gpp/time_to_finally_migrate_from_lm_studio_llamacpp/",
-      "published_at": "2026-08-04T09:30:53Z",
-      "summary": "Has anyone moved from LM Studio to llama.cpp? What was your experience like? What did you have to learn in order to recreate your experience? Which harness/GUI did you switch to? Thanks in advance!  &#32; submitted by &#",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-is-lm-studio-abandoning-their-core-product",
-      "source": "localllama",
-      "title": "Is LM Studio abandoning their core product?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vf2hhp/is_lm_studio_abandoning_their_core_product/",
-      "published_at": "2026-08-04T06:38:00Z",
-      "summary": "Some of you may be aware that a few weeks ago, LM Studio announced a new agent, Bionic. This is pretty much an agentic harness for both local models and paid cloud models. But most aren&#39;t aware that LM Studio replace",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-can-someone-create-a-website-where-people-share-specific-har",
-      "source": "localllama",
-      "title": "can someone create a website where people share specific hardware specs with specific llama cpp flags so we see what works?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1veyxkf/can_someone_create_a_website_where_people_share/",
-      "published_at": "2026-08-04T03:28:53Z",
-      "summary": "title  &#32; submitted by &#32;  /u/Rank201AltAccount   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -283,17 +294,6 @@
       "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
       "published_at": "2026-07-31T23:13:22Z",
       "summary": "Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-07-31-llm-mcp-client-01a0",
-      "source": "simonw",
-      "title": "llm-mcp-client 0.1a0",
-      "url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
-      "published_at": "2026-07-31T23:03:47Z",
-      "summary": "Release: llm-mcp-client 0.1a0\n        See this blog entry.\n    \n    \n        Tags: llm, model-context-protocol",
       "tags": [
         "simonw"
       ]
