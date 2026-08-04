@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-08-04T02:56:04Z",
+  "updated_at": "2026-08-04T08:45:23Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10256",
+      "project": "llama-cpp",
+      "version": "b10256",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10256",
+      "published_at": "2026-08-04T06:39:15Z",
+      "body_excerpt": "sycl: parallelize the non-contiguous concat kernel (#25852) sycl: parallelize the non-contiguous concat kernel Launch geometry only: the non-contiguous concat kernel launched a single-lane work-group (1, 1, 1), now it will launch a (1, 1, SYCL_CONCAT_BLOCK_SIZE) one. SYCL_CONCAT_BLOCK_SIZE is defined in . llama-bench (Arc Pro B70, Qwen3.6-27B-UD-Q4_K_XL, -fa on, q8_0 KV), on top of upstream master",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10255",
+      "project": "llama-cpp",
+      "version": "b10255",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10255",
+      "published_at": "2026-08-04T05:39:04Z",
+      "body_excerpt": "Extended SYCL oneDNN SDPA to non-FP16 KV caches (Q4_0–Q8_0 and FP32) (#25874) sycl: extend oneDNN SDPA to Q4_0-Q8_0 and F32 KV caches Extends the oneDNN SDPA path (PR #25222) to handle non-F16 KV caches by dequantizing or converting K/V to dense FP16 on-device before feeding them into the SDPA graph. The fused systolic kernel then runs identically to the native FP16 path. Supported KV types: - Q4_",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10254",
+      "project": "llama-cpp",
+      "version": "b10254",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10254",
+      "published_at": "2026-08-04T04:53:21Z",
+      "body_excerpt": "chat : add new template for DeepSeek V4 Flash 0731 (#26398) common/chat: update DeepSeek V4 templates Align the DeepSeek V4 templates with the official encoders while keeping parser behavior out of this change. Default drop_thinking for DeepSeek V4 history so prior thinking is omitted unless preserve_reasoning is requested or tools are present. Add structured output response-format instructions to",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10253",
+      "project": "llama-cpp",
+      "version": "b10253",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10253",
+      "published_at": "2026-08-04T04:22:36Z",
+      "body_excerpt": "vendor : update cpp-httplib to 0.52.0 (#26485) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10252",
+      "project": "llama-cpp",
+      "version": "b10252",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10252",
+      "published_at": "2026-08-04T03:47:33Z",
+      "body_excerpt": "vendor : update BoringSSL to 0.20260803.0 (#26523) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10251",
+      "project": "llama-cpp",
+      "version": "b10251",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10251",
+      "published_at": "2026-08-04T03:06:31Z",
+      "body_excerpt": "model : support MTP in GLM-4.7-Flash (#24868) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10250",
       "project": "llama-cpp",
