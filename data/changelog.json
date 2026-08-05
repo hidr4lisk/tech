@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T02:51:49Z",
+  "updated_at": "2026-08-05T08:42:39Z",
   "releases": [
     {
       "id": "llama-cpp-b10276",
@@ -87,6 +87,15 @@
       "project": "unsloth",
       "version": "v0.1.52-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.52-beta",
+      "published_at": "2026-08-04T16:06:43Z",
+      "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 You can run our DeepSeek V4 Dynamic GGUFs through Unsloth. Unsloth automatically detec",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.521-beta",
+      "project": "unsloth",
+      "version": "v0.1.521-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.521-beta",
       "published_at": "2026-08-04T16:06:43Z",
       "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 You can run our DeepSeek V4 Dynamic GGUFs through Unsloth. Unsloth automatically detec",
       "type": "tool"
@@ -9036,15 +9045,6 @@
       "published_at": "2026-05-07T20:23:10Z",
       "body_excerpt": "What's Changed no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. Use to restore Claude Desktop to its normal state. responses are now cached, improving median latency by ~6.7x which will increase load speed for integrations like VS Code. Improved backup workflow when managing launch integrations Cleaner image generation layout in the MLX runner",
       "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-Phi-Ground-Any",
-      "project": "microsoft",
-      "version": "Phi-Ground-Any",
-      "url": "https://huggingface.co/microsoft/Phi-Ground-Any",
-      "published_at": "2026-05-07T05:00:37Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }

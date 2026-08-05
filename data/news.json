@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-08-05T02:51:44Z",
+  "updated_at": "2026-08-05T08:42:35Z",
   "items": [
+    {
+      "id": "localllama-2026-08-05-qwen3-tts-voice-cloning-is-now-in-mainline-llamacpp-the-old",
+      "source": "localllama",
+      "title": "Qwen3-TTS voice cloning is now in mainline llama.cpp — the old demo finally became real support",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg0q6r/qwen3tts_voice_cloning_is_now_in_mainline/",
+      "published_at": "2026-08-05T07:47:51Z",
+      "summary": "      People may remember the Qwen3-TTS llama.cpp demo from a few months ago. That PR said it probably wouldn’t be merged because llama.cpp was missing some of the graph and API pieces it needed. A new implementation was",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-05-intern-s2-mobius",
+      "source": "localllama",
+      "title": "Intern S2 Mobius",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfv27k/intern_s2_mobius/",
+      "published_at": "2026-08-05T02:49:24Z",
+      "summary": "A Qwen3.5-35B derived model with an interesting architectural difference that results in larger throughput and less token consumption (allegedly): https://huggingface.co/internlm/Intern-S2-Mobius  &#32; submitted by &#32",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-05-gpt-x25-135m-scores-3rd-place-on-open-slm-leaderboard-on-hug",
+      "source": "localllama",
+      "title": "GPT-X2.5-135M scores 3rd place on Open SLM Leaderboard on Huggingface, Beating Facebook's MobileLLM-R1-140M",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfuo9d/gptx25135m_scores_3rd_place_on_open_slm/",
+      "published_at": "2026-08-05T02:31:19Z",
+      "summary": "      &#32; submitted by &#32;  /u/Megneous   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-05-chinas-open-weight-models-will-be-spared-us-safety-tests",
       "source": "localllama",
@@ -13,12 +46,34 @@
       ]
     },
     {
+      "id": "localllama-2026-08-05-vibevoice-15b-running-locallyon-an-iphone-only-22-gb-of-memo",
+      "source": "localllama",
+      "title": "VibeVoice 1.5B Running Locally...On an iPhone! Only ~2.2 GB of Memory and Up to 1.28× Real-Time Speed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfuawi/vibevoice_15b_running_locallyon_an_iphone_only_22/",
+      "published_at": "2026-08-05T02:14:35Z",
+      "summary": "      I speed up the generation part of the demo in case you get bored 😄 I also tested another long-form generation, and the VRAM usage looks stable. The demo is about a minute long, and I posted it on X. This started as",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
       "id": "localllama-2026-08-05-thinking-of-buying-more-dram-right-now",
       "source": "localllama",
       "title": "Thinking of buying more DRAM right now...",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfstpj/thinking_of_buying_more_dram_right_now/",
       "published_at": "2026-08-05T01:07:21Z",
       "summary": "So I&#39;m looking at https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF and I realize my 128GB of DRAM just isn&#39;t cutting it for this (incredibly powerful) model. If only I had another 64GB, I thought... EVE",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-05-psa-update-cuda-from-132-to-133-to-solve-deepseek-v4-flash-0",
+      "source": "localllama",
+      "title": "PSA Update CUDA from 13.2 to 13.3 to solve DeepSeek V4 Flash 0731 Looping Problem!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfshny/psa_update_cuda_from_132_to_133_to_solve_deepseek/",
+      "published_at": "2026-08-05T00:52:05Z",
+      "summary": "So one of yall mentioned that cuda 13.1 or 13.2 is broken for unsloth so I looked in to it, and they were right. I had 13.2 installed, after I switched to 13.3 no more looping!!! Before the cuda update, the model was lit",
       "tags": [
         "localllama"
       ]
@@ -101,28 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-04-a-26b-model-with-tool-calling-and-128k-context-now-runs-at-3",
-      "source": "localllama",
-      "title": "A 2.6B model with tool calling and 128K context now runs at 30 tok/s on a phone",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfn9vc/a_26b_model_with_tool_calling_and_128k_context/",
-      "published_at": "2026-08-04T21:15:16Z",
-      "summary": "      Liquid AI released LFM2.5-2.6B today, and this might be more relevant to local AI than another massive model most people cannot run. The model is only 2.69B parameters, has 128K context, supports tool calling and w",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-kimi-k3-full-model-running-on-16x-gb10-cluster-at-20tps",
-      "source": "localllama",
-      "title": "Kimi K3 full model running on 16x GB10 cluster at 20+tps",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfl525/kimi_k3_full_model_running_on_16x_gb10_cluster_at/",
-      "published_at": "2026-08-04T19:56:16Z",
-      "summary": "      Kimi K3 full model running on 16x GB10 cluster at 20+tps average (llama-benchy coherent corpus) 38tps peak, 750tps prefill. This is the first run of full k3 with dspark on my cluster. I will be doing some tests and",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-08-04-pipenetworkminimax-h3-mlx",
       "source": "simonw",
       "title": "PipeNetwork/minimax-h3-mlx",
@@ -131,39 +164,6 @@
       "summary": "PipeNetwork/minimax-h3-mlx\nMiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use ",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-hugging-face-ceo-says-china-is-winning-the-ai-race-and-domin",
-      "source": "localllama",
-      "title": "Hugging Face CEO says China is winning the AI race and dominating on open models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfj3q7/hugging_face_ceo_says_china_is_winning_the_ai/",
-      "published_at": "2026-08-04T18:42:38Z",
-      "summary": "      This is something that was spoken here and there, and now it is like writing on the wall. The main additional point is that China has created an independent supply chain. Starting from raw materials and home-made l",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-introducing-shieldstral-mistral-ai",
-      "source": "localllama",
-      "title": "Introducing Shieldstral. | Mistral AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfj3me/introducing_shieldstral_mistral_ai/",
-      "published_at": "2026-08-04T18:42:32Z",
-      "summary": "      &#32; submitted by &#32;  /u/tengo_harambe   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-04-has-anyone-tried-mach-1-additive-95-of-performance-of-qwen-3",
-      "source": "localllama",
-      "title": "Has anyone tried Mach-1 Additive? 95% of performance of Qwen 3.6 35B while being 10x smaller",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfirld/has_anyone_tried_mach1_additive_95_of_performance/",
-      "published_at": "2026-08-04T18:30:40Z",
-      "summary": "      Why nobody is talking about this? Seems pretty significant to the community  &#32; submitted by &#32;  /u/MuzafferMahi   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
