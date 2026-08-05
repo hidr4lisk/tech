@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-05T08:42:39Z",
+  "updated_at": "2026-08-05T14:19:39Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10282",
+      "project": "llama-cpp",
+      "version": "b10282",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10282",
+      "published_at": "2026-08-05T13:50:09Z",
+      "body_excerpt": "server: Adding spec-decode counters to /metrics endpoint (#26389) server: add spec-decode counters to /metrics endpoint server: fixed review comments and now aligned param names exactly with vLLM. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10280",
+      "project": "llama-cpp",
+      "version": "b10280",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10280",
+      "published_at": "2026-08-05T11:35:24Z",
+      "body_excerpt": "vendor : apply patches for subprocess.h (#26606) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.8.0",
+      "project": "localai",
+      "version": "v4.8.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.0",
+      "published_at": "2026-08-05T10:24:01Z",
+      "body_excerpt": "🎉 LocalAI 4.8.0 Release! 🚀 LocalAI 4.8.0 is out! Twenty-two days, 386 pull requests, and three new modalities. This release introduces vllm.cpp, a C++20 engine maintained by the LocalAI team, which began as a vLLM port and now carries its own featureset, shipping as the backend in alpha development builds. Around it: 3D generation as a new modality, a multi-family audio.cpp engine, gallery entries",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10278",
+      "project": "llama-cpp",
+      "version": "b10278",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10278",
+      "published_at": "2026-08-05T10:16:19Z",
+      "body_excerpt": "build : remove GGML_METAL_USE_BF16 from all build scripts (#26604) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10276",
       "project": "llama-cpp",
