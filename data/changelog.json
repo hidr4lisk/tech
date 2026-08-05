@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-04T19:42:38Z",
+  "updated_at": "2026-08-05T02:51:49Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10276",
+      "project": "llama-cpp",
+      "version": "b10276",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10276",
+      "published_at": "2026-08-05T00:21:08Z",
+      "body_excerpt": "Prefer npm ci over install for security (#26601) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10275",
+      "project": "llama-cpp",
+      "version": "b10275",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10275",
+      "published_at": "2026-08-04T23:49:05Z",
+      "body_excerpt": "server: decode Windows OEM output to UTF-8 in built-in tools (#26597) a child process writes in the OEM code page, which is not UTF-8 on a western Windows install, so accented output reaches the JSON layer as invalid bytes and gets replaced there, silently losing the characters run() spawns without a console, so the child never inherits the console code page and GetOEMCP is the one that applies de",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10274",
+      "project": "llama-cpp",
+      "version": "b10274",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10274",
+      "published_at": "2026-08-04T23:11:48Z",
+      "body_excerpt": "mtmd: correcting duplicate empty audio chunks for short inputs (#26536) correcting duplicate empty audio chunks for short inputs tests.sh code restored Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10273",
+      "project": "llama-cpp",
+      "version": "b10273",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10273",
+      "published_at": "2026-08-04T20:31:56Z",
+      "body_excerpt": "sampler : remove \"full-context windows\" from history-based samplers (#26524) Resolve -1 to 1024 instead of ctx-len for samplers Because of backend-sampling we initialize samplers before the complete llama_context is there. Therefore, we cannot infer the resolved context length yet at the time we construct the samplers. Shared default of 64 for history-based samplers, remove context_size Website: m",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10271",
       "project": "llama-cpp",
