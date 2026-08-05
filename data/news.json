@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-08-05T14:19:33Z",
+  "updated_at": "2026-08-05T19:41:44Z",
   "items": [
+    {
+      "id": "meta-2026-08-05-from-user-sequences-to-scaling-laws-a-multi-stage-architectu",
+      "source": "meta",
+      "title": "From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking",
+      "url": "https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking/",
+      "published_at": "2026-08-05T19:20:20Z",
+      "summary": "Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequ",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-05-utilize-a-nvidia-gpu-and-amd-gpu-together-for-2-different-ai",
+      "source": "localllama",
+      "title": "Utilize a nvidia gpu and amd gpu together for 2 different ai models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgg2nk/utilize_a_nvidia_gpu_and_amd_gpu_together_for_2/",
+      "published_at": "2026-08-05T18:43:26Z",
+      "summary": "We run a local model instance in our company that the dev we hired built for us. We&#39;re a trade business and we want to further use our on hand hardware for it. The specs given we have is a 5090 gpu with 64gb of ram a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-05-scenema-audio-comes-to-comfyui-runs-on-8gb-vram",
+      "source": "localllama",
+      "title": "Scenema Audio Comes to ComfyUI, Runs on 8GB VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgfmee/scenema_audio_comes_to_comfyui_runs_on_8gb_vram/",
+      "published_at": "2026-08-05T18:27:14Z",
+      "summary": "      Hey everyone! Scenema Audio is now a native ComfyUI custom node. Same model that powers scenema.ai now quantized so it fits on 8GB VRAM. When we first released it a few months ago as an API and Docker stack, the fu",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-05-honest-question-x8-nvidia-v100-32gb-be-good-for-deepseek-v4",
+      "source": "localllama",
+      "title": "Honest Question: x8 NVIDIA V100 32GB be good for DeepSeek V4 Flash for 30-50 users?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgf7op/honest_question_x8_nvidia_v100_32gb_be_good_for/",
+      "published_at": "2026-08-05T18:12:38Z",
+      "summary": "Title. I am interested in giving a suitable solution for my team.  &#32; submitted by &#32;  /u/MKU64   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-05-mistral-releases-premier-not-hotdog-model",
+      "source": "localllama",
+      "title": "Mistral Releases premier Not-Hotdog model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vge6yo/mistral_releases_premier_nothotdog_model/",
+      "published_at": "2026-08-05T17:36:42Z",
+      "summary": "      https://huggingface.co/mistralai/Shieldstral-1.0-3B  &#32; submitted by &#32;  /u/rpiguy9907   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-05-deepseek-v4-flash-0731-at-1017-ts-nothink-on-macbook-m5-pro",
+      "source": "localllama",
+      "title": "DeepSeek V4 Flash 0731 at 10–17 t/s (nothink) on MacBook M5 Pro **64GB***, partly via SSD streaming",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vge4l5/deepseek_v4_flash_0731_at_1017_ts_nothink_on/",
+      "published_at": "2026-08-05T17:34:25Z",
+      "summary": "Inspired by a post from u/giveen I motivated claude (no patinence on my side to work through everything myself) to help me get DS running on my MacBook M5 Pro 64GB and it exceeded my expectations.. because it worked, and",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-05-agent-memory-layers-dont-need-an-llm-deciding-what-to-rememb",
+      "source": "localllama",
+      "title": "Agent memory layers don't need an LLM deciding what to remember",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgbi5m/agent_memory_layers_dont_need_an_llm_deciding/",
+      "published_at": "2026-08-05T16:01:45Z",
+      "summary": "      Most agent memory setups run a model call on the way in. Something reads the turn, decides whether it&#39;s worth keeping, rewrites it into a &quot;memory&quot;, tags it with a type and an importance score. That&#3",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-05-ling-30-flash-mxfp4-released-and-running-locally-on-one-dgx",
+      "source": "localllama",
+      "title": "Ling-3.0-flash MXFP4 released and running locally on one DGX Spark.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgawrk/ling30flash_mxfp4_released_and_running_locally_on/",
+      "published_at": "2026-08-05T15:40:39Z",
+      "summary": "      In tests: ~80 tok/s decoding 2,500–3,500 tok/s long-input prefilling Smooth use by 3–4 concurrent users  Private, on-device inference for coding, agents, and offline batch jobs  &#32; submitted by &#32;  /u/niacolh",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-05-the-session-you-cannot-take-with-you-earendil",
+      "source": "localllama",
+      "title": "The Session You Cannot Take With You | EARENDIL",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg9jo8/the_session_you_cannot_take_with_you_earendil/",
+      "published_at": "2026-08-05T14:51:28Z",
+      "summary": "      &#32; submitted by &#32;  /u/MoneyPowerNexis   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-05-lfm25-26b-on-a-oneplus-13-at-17-toks-pure-cpu",
+      "source": "localllama",
+      "title": "LFM2.5-2.6B on a OnePlus 13 at 17 tok/s ~ Pure CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg8qfv/lfm2526b_on_a_oneplus_13_at_17_toks_pure_cpu/",
+      "published_at": "2026-08-05T14:20:47Z",
+      "summary": "      As you all know the model is 2.69B parameters with a 128K context window and purpose-built for multi-step agent workflows. What you are seeing is the Q4_K_M GGUF running on my own inference engine built from scratc",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-05-dgx-spark-now-sells-for-6000-8000-euros-i-still-remember-whe",
       "source": "localllama",
@@ -30,105 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg885f/a_460m_vlm_gets_firsttoken_latency_down_to_03s_on/",
       "published_at": "2026-08-05T14:01:06Z",
       "summary": "      A new 460M vision model called VisionPsy-Nano-460M-Flash is taking a slightly different approach to on-device VLM speed. Instead of making the language model much smaller, it reduces how much visual information rea",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-jabbatheduckdeepseek-v4-flash-mini-hugging-face",
-      "source": "localllama",
-      "title": "jabbatheduck/DeepSeek-v4-flash-mini · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg7gq9/jabbatheduckdeepseekv4flashmini_hugging_face/",
-      "published_at": "2026-08-05T13:31:12Z",
-      "summary": "      Because why not? How far can we go and make DeepSeek work?   &#32; submitted by &#32;  /u/giveen   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-moe-cpu-offload-benchmark-on-deepseek-v4gemma4qwengpt-oss-te",
-      "source": "localllama",
-      "title": "MoE CPU-offload benchmark on Deepseek V4/Gemma4/Qwen/GPT-OSS — TensorSharp vs llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg71ci/moe_cpuoffload_benchmark_on_deepseek/",
-      "published_at": "2026-08-05T13:13:53Z",
-      "summary": "      TensorSharp&#39;s MoE CPU-offload feature has been merged into main. Here is the parameters description of this feature: Mixture-of-Experts CPU offload: --n-cpu-moe &lt;N&gt; | -ncmoe &lt;N&gt; Keep the routed MoE ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-minimax-issues",
-      "source": "localllama",
-      "title": "MiniMax issues",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg5ugz/minimax_issues/",
-      "published_at": "2026-08-05T12:22:48Z",
-      "summary": "      https://www.reddit.com/r/StableDiffusion/s/HrU7odaJe6 I think this is more important that all the political stuff you share here   &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-qwen-developers-responses-from-their-recent-twitterx-ama",
-      "source": "localllama",
-      "title": "Qwen Developers' responses from their recent Twitter/X AMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg569y/qwen_developers_responses_from_their_recent/",
-      "published_at": "2026-08-05T11:51:37Z",
-      "summary": "      Questions &amp; Responses(in BOLD) below.  Favorite question(s) moved to end of the thread with combined responses(removed duplicates). Be optimistic folks. I&#39;m sure we&#39;re getting other models too apart fro",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-i-updated-my-localy-run-benchmark-with-deepseek-v4-flash-073",
-      "source": "localllama",
-      "title": "I updated my localy run benchmark with DeepSeek V4 Flash 0731",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg41ot/i_updated_my_localy_run_benchmark_with_deepseek/",
-      "published_at": "2026-08-05T10:55:29Z",
-      "summary": "      It&#39;s the purple cluster on the top left (the good corner...) I&#39;m running the MXFP4 version from Bartoswski with Dspark at 1K t/s prefill and 90 t/s gen (average). I tried different sampling params, you can ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-anyone-interested-in-building-a-harness-only-benchmark",
-      "source": "localllama",
-      "title": "Anyone interested in building a harness-only benchmark?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg40w8/anyone_interested_in_building_a_harnessonly/",
-      "published_at": "2026-08-05T10:54:23Z",
-      "summary": "There are a lot of LLM benchmarks but few, if any, harness benchmarks. I am thinking this would be a really good community project to build one. End goal: a leaderboard of harness performance (multiple axis) on a set of ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-building-a-fully-local-pdf-read-aloud-pdf-to-audiobook-deskt",
-      "source": "localllama",
-      "title": "Building a Fully Local PDF Read-Aloud & PDF-to-Audiobook Desktop App with Kokoro 82M, Qwen, and llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg1dqw/building_a_fully_local_pdf_readaloud/",
-      "published_at": "2026-08-05T08:26:25Z",
-      "summary": "      Hey everyone, I’ve been building Speechfony - a desktop app for reading PDFs (and EPUBs) with offline text-to-speech. Open a document, listen sentence-by-sentence with highlighting, or export selected pages to an M",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-qwen3-tts-voice-cloning-is-now-in-mainline-llamacpp-the-old",
-      "source": "localllama",
-      "title": "Qwen3-TTS voice cloning is now in mainline llama.cpp — the old demo finally became real support",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg0q6r/qwen3tts_voice_cloning_is_now_in_mainline/",
-      "published_at": "2026-08-05T07:47:51Z",
-      "summary": "      People may remember the Qwen3-TTS llama.cpp demo from a few months ago. That PR said it probably wouldn’t be merged because llama.cpp was missing some of the graph and API pieces it needed. A new implementation was",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-intern-s2-mobius",
-      "source": "localllama",
-      "title": "Intern S2 Mobius",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfv27k/intern_s2_mobius/",
-      "published_at": "2026-08-05T02:49:24Z",
-      "summary": "A Qwen3.5-35B derived model with an interesting architectural difference that results in larger throughput and less token consumption (allegedly): https://huggingface.co/internlm/Intern-S2-Mobius  &#32; submitted by &#32",
       "tags": [
         "localllama"
       ]
@@ -657,17 +668,6 @@
       "url": "https://engineering.fb.com/2026/04/21/ml-applications/modernizing-the-facebook-groups-search-to-unlock-the-power-of-community-knowledge/",
       "published_at": "2026-04-21T16:00:19Z",
       "summary": "We’ve fundamentally transformed Facebook Groups Search to help people more reliably discover, sort through, and validate community content that’s most relevant to them. We’ve adopted a new hybrid retrieval architecture a",
-      "tags": [
-        "meta"
-      ]
-    },
-    {
-      "id": "meta-2026-04-16-capacity-efficiency-at-meta-how-unified-ai-agents-optimize-p",
-      "source": "meta",
-      "title": "Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale",
-      "url": "https://engineering.fb.com/2026/04/16/developer-tools/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale/",
-      "published_at": "2026-04-16T16:00:34Z",
-      "summary": "We&#8217;re sharing insights into Meta&#8217;s Capacity Efficiency Program, where we&#8217;ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leverag",
       "tags": [
         "meta"
       ]

@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-08-05T14:19:39Z",
+  "updated_at": "2026-08-05T19:41:52Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10288",
+      "project": "llama-cpp",
+      "version": "b10288",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10288",
+      "published_at": "2026-08-05T17:40:40Z",
+      "body_excerpt": "tests: re-enable MiniMax M3 in (#26633) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10287",
+      "project": "llama-cpp",
+      "version": "b10287",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10287",
+      "published_at": "2026-08-05T17:04:13Z",
+      "body_excerpt": "mtmd: Unlimited-OCR fix max_tiles, setting in converter (#25614) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10286",
+      "project": "llama-cpp",
+      "version": "b10286",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10286",
+      "published_at": "2026-08-05T16:23:08Z",
+      "body_excerpt": "grammar : degrade max repetition >= 2000 to unbounded (#26613) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10285",
+      "project": "llama-cpp",
+      "version": "b10285",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10285",
+      "published_at": "2026-08-05T15:20:58Z",
+      "body_excerpt": "mtmd: support multi-row batching for deepseek-ocr (#26154) mtmd: support multi-row batching for deepseek-ocr mtmd: weave deepseek-ocr rows in one shot instead of per row (#26615) --------- Co-authored-by: Saba Fallah Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10284",
+      "project": "llama-cpp",
+      "version": "b10284",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10284",
+      "published_at": "2026-08-05T14:37:27Z",
+      "body_excerpt": "fit: Fix memory allocation for MTP layers (#26605) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10282",
       "project": "llama-cpp",
@@ -87,6 +132,15 @@
       "project": "ollama",
       "version": "v0.32.6-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
+      "published_at": "2026-08-04T18:49:20Z",
+      "body_excerpt": "What's Changed - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically - streaming now matches OpenAI's wire format: only on the first chunk, on its own chunk, and usage in a separate chunk with . - Truncated OpenAI responses now report instead of . - now offers for cloud-only models that publish no default tag, instead of failing. - T",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.6",
+      "project": "ollama",
+      "version": "v0.32.6",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6",
       "published_at": "2026-08-04T18:49:20Z",
       "body_excerpt": "What's Changed - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically - streaming now matches OpenAI's wire format: only on the first chunk, on its own chunk, and usage in a separate chunk with . - Truncated OpenAI responses now report instead of . - now offers for cloud-only models that publish no default tag, instead of failing. - T",
       "type": "tool"
