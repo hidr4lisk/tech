@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-05T02:51:49Z",
+  "updated_at": "2026-08-05T14:19:39Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10282",
+      "project": "llama-cpp",
+      "version": "b10282",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10282",
+      "published_at": "2026-08-05T13:50:09Z",
+      "body_excerpt": "server: Adding spec-decode counters to /metrics endpoint (#26389) server: add spec-decode counters to /metrics endpoint server: fixed review comments and now aligned param names exactly with vLLM. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10280",
+      "project": "llama-cpp",
+      "version": "b10280",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10280",
+      "published_at": "2026-08-05T11:35:24Z",
+      "body_excerpt": "vendor : apply patches for subprocess.h (#26606) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.8.0",
+      "project": "localai",
+      "version": "v4.8.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.0",
+      "published_at": "2026-08-05T10:24:01Z",
+      "body_excerpt": "🎉 LocalAI 4.8.0 Release! 🚀 LocalAI 4.8.0 is out! Twenty-two days, 386 pull requests, and three new modalities. This release introduces vllm.cpp, a C++20 engine maintained by the LocalAI team, which began as a vLLM port and now carries its own featureset, shipping as the backend in alpha development builds. Around it: 3D generation as a new modality, a multi-family audio.cpp engine, gallery entries",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10278",
+      "project": "llama-cpp",
+      "version": "b10278",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10278",
+      "published_at": "2026-08-05T10:16:19Z",
+      "body_excerpt": "build : remove GGML_METAL_USE_BF16 from all build scripts (#26604) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10276",
       "project": "llama-cpp",
@@ -87,6 +123,15 @@
       "project": "unsloth",
       "version": "v0.1.52-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.52-beta",
+      "published_at": "2026-08-04T16:06:43Z",
+      "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 You can run our DeepSeek V4 Dynamic GGUFs through Unsloth. Unsloth automatically detec",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.521-beta",
+      "project": "unsloth",
+      "version": "v0.1.521-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.521-beta",
       "published_at": "2026-08-04T16:06:43Z",
       "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 You can run our DeepSeek V4 Dynamic GGUFs through Unsloth. Unsloth automatically detec",
       "type": "tool"
@@ -9036,15 +9081,6 @@
       "published_at": "2026-05-07T20:23:10Z",
       "body_excerpt": "What's Changed no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. Use to restore Claude Desktop to its normal state. responses are now cached, improving median latency by ~6.7x which will increase load speed for integrations like VS Code. Improved backup workflow when managing launch integrations Cleaner image generation layout in the MLX runner",
       "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-Phi-Ground-Any",
-      "project": "microsoft",
-      "version": "Phi-Ground-Any",
-      "url": "https://huggingface.co/microsoft/Phi-Ground-Any",
-      "published_at": "2026-05-07T05:00:37Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
