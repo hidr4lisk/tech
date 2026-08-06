@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-06T08:44:32Z",
+  "updated_at": "2026-08-06T14:23:21Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10297",
+      "project": "llama-cpp",
+      "version": "b10297",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10297",
+      "published_at": "2026-08-06T13:42:02Z",
+      "body_excerpt": "server: fix empty response for /cors-proxy (#26656) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10295",
+      "project": "llama-cpp",
+      "version": "b10295",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10295",
+      "published_at": "2026-08-06T12:56:29Z",
+      "body_excerpt": "model-loader : fix quantized reshaped tensor strides (#26672) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10293",
+      "project": "llama-cpp",
+      "version": "b10293",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10293",
+      "published_at": "2026-08-06T09:12:47Z",
+      "body_excerpt": "ci : onboard AMD ROCm CI with gfx1151 fixes (#26544) ci: prepare for amd rocm ci Signed-off-by: Aaron Teo ci: fix editorconfig-checker Signed-off-by: Aaron Teo ci: fix device not recognised Signed-off-by: Aaron Teo ci: rename gpu-amd to gpu-hip Signed-off-by: Aaron Teo ci: gpu-hip to gpu-rocm haha Signed-off-by: Aaron Teo CUDA: allow integrated-GPU host output buffer in debug assert On integrated ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10291",
       "project": "llama-cpp",
