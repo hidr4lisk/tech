@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-06T02:55:38Z",
+  "updated_at": "2026-08-06T08:44:32Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10291",
+      "project": "llama-cpp",
+      "version": "b10291",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10291",
+      "published_at": "2026-08-06T08:01:13Z",
+      "body_excerpt": "vulkan: fix submission batching size, add debug tools for diagnosing causes of DeviceLost drivers errors (#26371) vulkan: add debug tooling to get more information about a DeviceLost error fix submission threshold applied too late use logging macros, throw instead of aborting clean up circular dependency Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10290",
       "project": "llama-cpp",
@@ -9144,15 +9153,6 @@
       "published_at": "2026-05-10T07:37:57Z",
       "body_excerpt": "vLLM v0.20.2 Highlights This release features 6 commits from 6 contributors (0 new)! This is a small patch release with bug fixes for DeepSeek V4, gpt-oss, and Qwen3-VL Bug Fixes DeepSeek V4 sparse attention: Re-enable the persistent topk path on Hopper and ensure the memset kernel runs at CUDA graph capture time regardless of , fixing the MTP=1 hang on DeepSeek V4 (#41665, revert of #41605). Deep",
       "type": "tool"
-    },
-    {
-      "id": "hf-EleutherAI-bergson-magic-gpt-2",
-      "project": "EleutherAI",
-      "version": "bergson-magic-gpt-2",
-      "url": "https://huggingface.co/EleutherAI/bergson-magic-gpt-2",
-      "published_at": "2026-05-08T07:32:14Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
