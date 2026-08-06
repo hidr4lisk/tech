@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-08-06T08:44:27Z",
+  "updated_at": "2026-08-06T14:23:12Z",
   "items": [
+    {
+      "id": "localllama-2026-08-06-how-come-artificialanalysisai-ranks-gemma4-above-qwen36-27b",
+      "source": "localllama",
+      "title": "How come artificialanalysis.ai ranks Gemma4 above Qwen3.6 27b in SciCode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vh4490/how_come_artificialanalysisai_ranks_gemma4_above/",
+      "published_at": "2026-08-06T13:21:59Z",
+      "summary": "      Just came across this coding benchmark: SciCode Artificialanalysis.ai reports a ranking which contradicts the feeling we&#39;ve towards those models in real life coding. Is Gemma 4 really that good, or a benchmarki",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-06-the-death-of-slms",
+      "source": "localllama",
+      "title": "The death of SLMs?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vh4275/the_death_of_slms/",
+      "published_at": "2026-08-06T13:19:44Z",
+      "summary": "I love to see these impressive models coming out that compete with the giants from companies like Z.ai, Moonshot, Alibaba, etc. A win for the open source/weight community is always welcome. While I am grateful, I worry w",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-06-i-built-my-own-voice-cloning-model-looking-for-people-to-tes",
+      "source": "localllama",
+      "title": "I built my own voice cloning model — looking for people to test it",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vh3sp9/i_built_my_own_voice_cloning_model_looking_for/",
+      "published_at": "2026-08-06T13:08:55Z",
+      "summary": "      My app - completely free, no signup Hey everyone, I’ve been working on a voice cloning model and finally got it to a point where other people can try it out. I’d really appreciate some honest feedback on the voice ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-06-knowledge-vs-hallucination-rate-what-is-your-favorite-model",
+      "source": "localllama",
+      "title": "Knowledge vs. hallucination rate: what is your favorite model?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vh3ani/knowledge_vs_hallucination_rate_what_is_your/",
+      "published_at": "2026-08-06T12:47:46Z",
+      "summary": "      https://preview.redd.it/h7dwy09z2rhh1.png?width=1240&amp;format=png&amp;auto=webp&amp;s=7285448ac2d9c895c9a11062557044fc97504fa3 I was evaluating which model to test for text summarization and rewriting in a scenar",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-06-they-almost-catched-up-on-frontier-performance-so-now-catchi",
+      "source": "localllama",
+      "title": "They almost catched up on Frontier performance, so now catching up on prices",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vh2pss/they_almost_catched_up_on_frontier_performance_so/",
+      "published_at": "2026-08-06T12:22:12Z",
+      "summary": "      Users also report that the free version was significantly downgraded after the release of the new models this is very important for us when considering local hosting. A lot of people decided not to buy expensive ha",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-06-auto-fit-vs-tuned-moe-offload-564-1330-pp-toks-unchanged-dec",
+      "source": "localllama",
+      "title": "Auto-fit vs tuned MoE offload: 564 → 1330 pp tok/s, unchanged decode (Qwen3.6-35B-A3B Q6 / RTX 3090)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vh22c8/autofit_vs_tuned_moe_offload_564_1330_pp_toks/",
+      "published_at": "2026-08-06T11:52:59Z",
+      "summary": "TL;DR: On a Qwen3.6-35B-A3B Q6 setup sized for 64K context on a 24GB RTX 3090, spilling eight MoE expert layers to CPU freed enough VRAM to increase -b from 512 to 1024 and -ub from 128 to 512. Prompt processing improved",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-06-final-optimization-from-10-toks-to-15-toks-on-deepseek-v4-fl",
+      "source": "localllama",
+      "title": "Final optimization: from ~10 tok/s to ~15 tok/s on DeepSeek-V4-Flash-0731 at 128K ctx - 1 RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vh1qn3/final_optimization_from_10_toks_to_15_toks_on/",
+      "published_at": "2026-08-06T11:36:54Z",
+      "summary": "      J&#39;ai consacré beaucoup de temps à l&#39;optimisation de DeepSeek-V4-Flash-0731 GGUF sur une seule RTX 3090. Mon exigence absolue pour chaque configuration était la suivante : Le modèle doit rester utilisable av",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-06-best-llama-cpp-flags-to-run-deepseek-flash-0731",
+      "source": "localllama",
+      "title": "Best llama cpp flags to run Deepseek-flash 0731",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgzp0q/best_llama_cpp_flags_to_run_deepseekflash_0731/",
+      "published_at": "2026-08-06T09:48:39Z",
+      "summary": "Hi all. These are my system specs: dual xeon e5 2696 v2 , 160gb DDR3 ram ECC(1600mhz), 3 gpus: 3060 12gb, p100 16gb, 3050 6gb. And a 400gb nvme sdd RAID0, 3000 mb/s. The model is Deepseek-flash-0731 UD_8_X_XL, loseless, ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-06-i-just-spent-weeks-rewriting-my-webui-from-scratch-getting-r",
       "source": "localllama",
@@ -46,50 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-06-how-many-people-in-this-sub-try-to-train-their-own-ai-from-s",
-      "source": "localllama",
-      "title": "How many people in this sub try to train their own AI from scratch on their systems just for fun and to test out techniques from research papers?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgswl5/how_many_people_in_this_sub_try_to_train_their/",
-      "published_at": "2026-08-06T03:30:03Z",
-      "summary": "As for me, I own a system with an RTX 5090, Ryzen 9 9950X3D2, and 64 GB of DDR5. Every time I see research come out with a new way to train AI, I immediately think to try it on my system to see the results I get. Applyin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-06-introducing-betterbench---more-accurate-pp-and-tps-measureme",
-      "source": "localllama",
-      "title": "Introducing BetterBench - more accurate PP and TPS measurement",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgrii0/introducing_betterbench_more_accurate_pp_and_tps/",
-      "published_at": "2026-08-06T02:23:46Z",
-      "summary": "      I built this because the existing benchmarks were using random data and with MTP content types can vary a lot on what performance you see. 5% or more with content types. BetterBench is designed to have content cons",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-06-get-ai-max-395-laptop-or-wait-for-rtx-spark",
-      "source": "localllama",
-      "title": "Get AI max+ 395 laptop or wait for rtx spark?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgqwyf/get_ai_max_395_laptop_or_wait_for_rtx_spark/",
-      "published_at": "2026-08-06T01:56:15Z",
-      "summary": "So I can either pull the trigger on a 128gb AI max+ 395 laptop or wait for RTX Spark for LLMs. Maybe I get it now and the price of the spark is super high so it&#39;s a good purchase or maybe the Spark shocks everyone wi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-06-zuck-will-share-more-on-open-source-soon",
-      "source": "localllama",
-      "title": "Zuck will \"share more on open source\" soon",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgp8y8/zuck_will_share_more_on_open_source_soon/",
-      "published_at": "2026-08-06T00:40:40Z",
-      "summary": "      &#32; submitted by &#32;  /u/realmvp77   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-08-06-an-ai-model-from-meta-also-hacked-another-company-during-tes",
       "source": "simonw",
       "title": "An AI model from Meta also hacked another company during testing",
@@ -98,6 +142,17 @@
       "summary": "An AI model from Meta also hacked another company during testing\nStop me if you've heard this one before:\n\nAn AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybers",
       "tags": [
         "simonw"
+      ]
+    },
+    {
+      "id": "huggingface-2026-08-06-baseten-on-hugging-face-inference-providers",
+      "source": "huggingface",
+      "title": "Baseten on Hugging Face Inference Providers 🔥",
+      "url": "https://huggingface.co/blog/baseten",
+      "published_at": "2026-08-06T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
       ]
     },
     {
@@ -131,50 +186,6 @@
       "summary": "Incident Report: unsanctioned agent behaviour during cyber testing\nIt happened again. This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with ",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-prime-agent---a-new-coding-harness-surpassing-codexccpi",
-      "source": "localllama",
-      "title": "Prime Agent - a new coding harness surpassing Codex/CC/PI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgnmny/prime_agent_a_new_coding_harness_surpassing/",
-      "published_at": "2026-08-05T23:30:17Z",
-      "summary": "      Prime Agent is an open-source coding and research agent for general and long-running work. A self-improving RLM harness for coding and long-running autonomous tasks. Designed to be both token-efficient and expressi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-i-remember-a-time-when-flash-meant-32b",
-      "source": "localllama",
-      "title": "I remember a time when 'flash' meant 32B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgn82g/i_remember_a_time_when_flash_meant_32b/",
-      "published_at": "2026-08-05T23:13:10Z",
-      "summary": "I mean, Deepseek V4 Flash is an absolutely fantastic model, even though I can&#39;t run it on my machine it&#39;s so fascinating to see how it performs. Knowing that potentially it could be run at home is really motivati",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-meta-model-muse-spark-11-hacked-another-company-during-cyber",
-      "source": "localllama",
-      "title": "Meta Model, Muse Spark 1.1 Hacked Another Company During Cybersecurity Testing, Breaching Systems and Making Changes to Internal Systems - The Information",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgm2h6/meta_model_muse_spark_11_hacked_another_company/",
-      "published_at": "2026-08-05T22:25:21Z",
-      "summary": "&#32; submitted by &#32;  /u/pscoutou   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-could-we-have-a---disk-moe-or---n-disk-moe-like---cpu-moe-or",
-      "source": "localllama",
-      "title": "Could we have a --disk-moe or --n-disk-moe like --cpu-moe or --n-cpu-moe so we can use disk/cpu/gpu ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgldw6/could_we_have_a_diskmoe_or_ndiskmoe_like_cpumoe/",
-      "published_at": "2026-08-05T21:58:35Z",
-      "summary": "Explicit title, It would be nice to have the ability to have 3 tiers moe offload :(   &#32; submitted by &#32;  /u/storm1er   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -425,17 +436,6 @@
       "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
       "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
       "published_at": "2026-07-17T15:57:54Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-07-16-nvidia-nemotron-3-embed-ranks-1-overall-on-rteb-advancing-ag",
-      "source": "huggingface",
-      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
-      "published_at": "2026-07-16T16:01:21Z",
       "summary": "",
       "tags": [
         "huggingface"
