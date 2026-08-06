@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-08-06T02:55:33Z",
+  "updated_at": "2026-08-06T08:44:27Z",
   "items": [
+    {
+      "id": "localllama-2026-08-06-i-just-spent-weeks-rewriting-my-webui-from-scratch-getting-r",
+      "source": "localllama",
+      "title": "i just spent weeks rewriting my webUI from scratch, getting rid of all AI slop within the codebase and switching it over to a proper lightweight framework (alpine.js). i am now comfortable suggesting it as an alternative to openwebUI, librechat and the like! it is made for local models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgx9m5/i_just_spent_weeks_rewriting_my_webui_from/",
+      "published_at": "2026-08-06T07:24:13Z",
+      "summary": "      [Fully open source under GPL3, made from the ground up for use with local models, no subscriptions, no corporate backing] When i first started this, it was meant to be a fully lightweight, extremely modular alterna",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-06-qwen38-24t-a95b-aka-qwen38-max-open-release-time-next-wednes",
+      "source": "localllama",
+      "title": "Qwen3.8-2.4T-A95B (aka Qwen3.8-Max) open release time: next wednesday",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgx8yu/qwen3824ta95b_aka_qwen38max_open_release_time/",
+      "published_at": "2026-08-06T07:23:10Z",
+      "summary": "      https://preview.redd.it/9zwlpcushphh1.png?width=972&amp;format=png&amp;auto=webp&amp;s=18cb49c738caba9799d22d4916337c772baa830f https://modelscope.cn/models/Qwen/Qwen3.8-2.4T-A95B  &#32; submitted by &#32;  /u/Huge",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-06-i-get-that-ai-labs-need-to-make-money-but-zero-warning-price",
+      "source": "localllama",
+      "title": "I get that AI labs need to make money, but zero-warning price spikes are a nightmare for production builds",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgx6cw/i_get_that_ai_labs_need_to_make_money_but/",
+      "published_at": "2026-08-06T07:19:01Z",
+      "summary": "Seen a ton of posts today about the DeepSeek API price hike. Half the feed is doom-posting, the other half is explaining basic GPU economics. Honestly, I get the cost side. Sub-cent tokens were never gonna last forever. ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-06-glmqwen-appreciation-post",
+      "source": "localllama",
+      "title": "GLM/Qwen Appreciation Post",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgtkgc/glmqwen_appreciation_post/",
+      "published_at": "2026-08-06T04:02:52Z",
+      "summary": "      https://preview.redd.it/o6ik6qboeohh1.png?width=1134&amp;format=png&amp;auto=webp&amp;s=4016f26c50c1d93bd3d0c7e880e9b55a2d75310f I have been running Qwen3.6 27b for a little while (mostly coding tasks) and recently",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-06-how-many-people-in-this-sub-try-to-train-their-own-ai-from-s",
+      "source": "localllama",
+      "title": "How many people in this sub try to train their own AI from scratch on their systems just for fun and to test out techniques from research papers?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgswl5/how_many_people_in_this_sub_try_to_train_their/",
+      "published_at": "2026-08-06T03:30:03Z",
+      "summary": "As for me, I own a system with an RTX 5090, Ryzen 9 9950X3D2, and 64 GB of DDR5. Every time I see research come out with a new way to train AI, I immediately think to try it on my system to see the results I get. Applyin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-06-introducing-betterbench---more-accurate-pp-and-tps-measureme",
+      "source": "localllama",
+      "title": "Introducing BetterBench - more accurate PP and TPS measurement",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgrii0/introducing_betterbench_more_accurate_pp_and_tps/",
+      "published_at": "2026-08-06T02:23:46Z",
+      "summary": "      I built this because the existing benchmarks were using random data and with MTP content types can vary a lot on what performance you see. 5% or more with content types. BetterBench is designed to have content cons",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-06-get-ai-max-395-laptop-or-wait-for-rtx-spark",
       "source": "localllama",
@@ -112,61 +178,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-05-deepseek-v4-flash-just-hit-colibri-does-anyone-have-numbers",
-      "source": "localllama",
-      "title": "Deepseek V4 Flash just hit Colibri, does anyone have numbers?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgjtm7/deepseek_v4_flash_just_hit_colibri_does_anyone/",
-      "published_at": "2026-08-05T20:58:19Z",
-      "summary": "I&#39;m mosty interested in 128-192GB VRAM with 128-256GB RAM to spare, so SSD streaming is basically not even necessary. Seems only FP4 is supported, so older hardware will likely be slow - no Unsloth GGUF supported eit",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-you-can-now-buy-llms-at-your-local-supermarket",
-      "source": "localllama",
-      "title": "you can now buy llm's at your local supermarket",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgj0h8/you_can_now_buy_llms_at_your_local_supermarket/",
-      "published_at": "2026-08-05T20:27:57Z",
-      "summary": "      &#32; submitted by &#32;  /u/ECrispy   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-xiaomi-robotics-1-new-robotics-model-released",
-      "source": "localllama",
-      "title": "Xiaomi-Robotics-1: New robotics model released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgizzm/xiaomirobotics1_new_robotics_model_released/",
-      "published_at": "2026-08-05T20:27:27Z",
-      "summary": "Xiaomi-Robotics-1 is a robot foundation model trained on over 100K hours of real-world manipulation trajectories. It is a Vision-Language-Action (VLA) model engineered for out-of-the-box mobile manipulation in unseen env",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-40-speedup-of-moe-training-with-faster-megakernel-by-cursor",
-      "source": "localllama",
-      "title": "40% speedup of MoE training with faster megakernel, by cursor, of all people (for B200s)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgio2p/40_speedup_of_moe_training_with_faster_megakernel/",
-      "published_at": "2026-08-05T20:15:22Z",
-      "summary": "      daily reminder not to trust benchmarks and run it yourself. claimed e2e speedup is ~40%, forwards are ~140% faster I would wager that compared to a naive kernel anyone can write it&#39;s more in the range of 10-20%",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-bootai",
-      "source": "localllama",
-      "title": "bootai",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vginkn/bootai/",
-      "published_at": "2026-08-05T20:14:54Z",
-      "summary": "      I was on here a while ago showcasing it. I&#39;ve stoped playing with it so I&#39;m open sourcing it. I figure I&#39;ll let other people play now.  &#32; submitted by &#32;  /u/Electrical_Ninja3805   [link] &#32; [",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-08-05-one-shotting-a-raccoon-heist-game-using-claude-fable-5",
       "source": "simonw",
       "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
@@ -186,17 +197,6 @@
       "summary": "Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequ",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-05-utilize-a-nvidia-gpu-and-amd-gpu-together-for-2-different-ai",
-      "source": "localllama",
-      "title": "Utilize a nvidia gpu and amd gpu together for 2 different ai models?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgg2nk/utilize_a_nvidia_gpu_and_amd_gpu_together_for_2/",
-      "published_at": "2026-08-05T18:43:26Z",
-      "summary": "We run a local model instance in our company that the dev we hired built for us. We&#39;re a trade business and we want to further use our on hand hardware for it. The specs given we have is a 5090 gpu with 64gb of ram a",
-      "tags": [
-        "localllama"
       ]
     },
     {
