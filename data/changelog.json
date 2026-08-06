@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-05T19:41:52Z",
+  "updated_at": "2026-08-06T02:55:38Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10290",
+      "project": "llama-cpp",
+      "version": "b10290",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10290",
+      "published_at": "2026-08-06T01:33:36Z",
+      "body_excerpt": "mtmd/ggml: add ggml_build_forward_order (#26649) ggml: add ggml_build_forward_order ggml_build_forward_expand marks the tensor and all its ancestors for compute, so using it as a pure ordering hint (keeping q, k and v together) defeats ggml_build_forward_select: the unselected branch is forced to run with inputs that were never uploaded. In the mtmd audio graph this makes GEN_WAV calls execute the",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10289",
+      "project": "llama-cpp",
+      "version": "b10289",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10289",
+      "published_at": "2026-08-05T20:02:56Z",
+      "body_excerpt": "server: harden the file_glob_search directory walk (#26626) server: don't walk Windows junctions in file_glob_search std::filesystem reports a junction as a plain directory, so the symlink guard misses it and a junction pointing back at an ancestor is walked until the path length gives out read the reparse tag and treat a symlink and a mount point as links, leaving any other reparse point walkable",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10288",
       "project": "llama-cpp",
@@ -186,6 +204,15 @@
       "project": "unsloth",
       "version": "v0.1.521-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.521-beta",
+      "published_at": "2026-08-04T16:06:43Z",
+      "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 You can run our DeepSeek V4 Dynamic GGUFs through Unsloth. Unsloth automatically detec",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.522-beta",
+      "project": "unsloth",
+      "version": "v0.1.522-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.522-beta",
       "published_at": "2026-08-04T16:06:43Z",
       "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 You can run our DeepSeek V4 Dynamic GGUFs through Unsloth. Unsloth automatically detec",
       "type": "tool"
@@ -9126,15 +9153,6 @@
       "published_at": "2026-05-08T07:32:14Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "ollama-v0.23.2",
-      "project": "ollama",
-      "version": "v0.23.2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.23.2",
-      "published_at": "2026-05-07T20:23:10Z",
-      "body_excerpt": "What's Changed no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. Use to restore Claude Desktop to its normal state. responses are now cached, improving median latency by ~6.7x which will increase load speed for integrations like VS Code. Improved backup workflow when managing launch integrations Cleaner image generation layout in the MLX runner",
-      "type": "tool"
     }
   ]
 }
