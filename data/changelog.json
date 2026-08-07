@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-08-07T13:14:06Z",
+  "updated_at": "2026-08-07T19:03:11Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10319",
+      "project": "llama-cpp",
+      "version": "b10319",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10319",
+      "published_at": "2026-08-07T18:08:09Z",
+      "body_excerpt": "mtmd: fix longest_edge ignoring min/max pixels (#26638) mtmd: fix longest_edge ignoring min/max pixels nits Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10318",
+      "project": "llama-cpp",
+      "version": "b10318",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10318",
+      "published_at": "2026-08-07T17:35:40Z",
+      "body_excerpt": "sync : ggml Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) W",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10313",
+      "project": "llama-cpp",
+      "version": "b10313",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10313",
+      "published_at": "2026-08-07T16:58:40Z",
+      "body_excerpt": "server: (router) add LRU scheduler (#26572) add lru_sched handle coalescing (req leaves waiting queue) add tests fix stream case address review comments Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10312",
+      "project": "llama-cpp",
+      "version": "b10312",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10312",
+      "published_at": "2026-08-07T16:18:45Z",
+      "body_excerpt": "server: (router) do not evict busy models (#26567) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.8.2",
+      "project": "localai",
+      "version": "v4.8.2",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.2",
+      "published_at": "2026-08-07T15:53:43Z",
+      "body_excerpt": "What's Changed 👒 Dependencies chore(deps): bump actions/stale from 10.4.0 to 11.0.0 by @dependabot[bot] in chore(deps): bump actions/checkout from 4 to 7 by @dependabot[bot] in Other Changes feat(gallery): fall back to mirrors and a cached index when the primary source fails by @localai-bot in chore(model-gallery): :arrow_up: update checksum by @localai-bot in docs: :arrow_up: update docs version ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10311",
+      "project": "llama-cpp",
+      "version": "b10311",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10311",
+      "published_at": "2026-08-07T15:44:38Z",
+      "body_excerpt": "mtmd: stop feeding the text stream again during Qwen3-TTS generation (#26706) The reference implementation has two mutually exclusive prompt layouts. In non streaming mode the prefill carries the whole utterance text plus tts_eos summed with codec_pad, and the trailing text hidden collapses to a single tts_pad row. In streaming mode the prefill carries only the first text token and the trailing ro",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10310",
+      "project": "llama-cpp",
+      "version": "b10310",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10310",
+      "published_at": "2026-08-07T14:59:07Z",
+      "body_excerpt": "ggml : add aarch64 HWCAP fallbacks and fix fp16 variant detection (#25554) ggml : add fallback definitions for missing aarch64 HWCAP bits ggml : require HWCAP_ASIMDHP for the aarch64 fp16 cpu variants Also rename has_fp16_va to has_fp16, the field gates the whole FEAT_FP16 extension, scalar and vector half-precision arithmetic together. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple S",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10308",
+      "project": "llama-cpp",
+      "version": "b10308",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10308",
+      "published_at": "2026-08-07T14:05:22Z",
+      "body_excerpt": "Mitigate crashing issue on Windows MSYS2 UCRT64 environment (GCC 16.1.0) (#26555) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10307",
+      "project": "llama-cpp",
+      "version": "b10307",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10307",
+      "published_at": "2026-08-07T13:19:38Z",
+      "body_excerpt": "sycl: fix UE4M3 parsing (#25608) The NVFP4 quantization format stores a scaling factor for every group of 16 weights, packed into a single UE4M3 byte. The SYCL GPU code was converting these scale values using the E4M3 path, but that's signed, and these are unsigned values. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS X",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10306",
       "project": "llama-cpp",
@@ -323,6 +404,15 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.524-beta",
       "published_at": "2026-08-04T16:06:43Z",
       "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 +DSpark You can run our DeepSeek V4 Dynamic GGUFs through Unsloth. Unsloth automatical",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.525-beta",
+      "project": "unsloth",
+      "version": "v0.1.525-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.525-beta",
+      "published_at": "2026-08-04T16:06:43Z",
+      "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fixes + Mac fixes and smoother installations. DeepSeek V4 Flash 0731 + DSpark You ",
       "type": "tool"
     },
     {

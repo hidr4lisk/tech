@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-08-07T13:13:58Z",
+  "updated_at": "2026-08-07T19:03:07Z",
   "items": [
+    {
+      "id": "localllama-2026-08-07-got-job-as-director-of-ai-and-systems-development-self-taugh",
+      "source": "localllama",
+      "title": "Got job as Director of AI and Systems development self-taught",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi8jlr/got_job_as_director_of_ai_and_systems_development/",
+      "published_at": "2026-08-07T18:24:25Z",
+      "summary": "Hey everyone, I just wanted to share my journey here for some motivation. Three years ago, I saw the sudden spike in AI and realized it was the future of tech. My goal at the time was to be an indie game dev, and seeing ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-08-07-tutormoments-do-ai-tutors-know-when-to-help-and-when-to-hold",
+      "source": "huggingface",
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "published_at": "2026-08-07T17:53:32Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-parakeetwgsl-fast-accurate-asr-in-the-browser-via-raw-webgpu",
+      "source": "localllama",
+      "title": "parakeet.wgsl – Fast, accurate ASR in the browser, via raw WebGPU & SIMD WASM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi77dr/parakeetwgsl_fast_accurate_asr_in_the_browser_via/",
+      "published_at": "2026-08-07T17:35:38Z",
+      "summary": "      High-performance inference of NVIDIA&#39;s Parakeet TDT 0.6B V2 English transcription model, in the browser. Check out the live demo: https://parakeet.narcotic.sh/ A fully custom, dependancy-free implementation wit",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-llamacpp-pr-reports-up-to-169-faster-quantized-kv-decode-at",
+      "source": "localllama",
+      "title": "llama.cpp PR reports up to 169% faster quantized-KV decode at 118K context on Intel Battlemage from one SYCL kernel switch",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi6hmw/llamacpp_pr_reports_up_to_169_faster_quantizedkv/",
+      "published_at": "2026-08-07T17:09:01Z",
+      "summary": "      A fresh llama.cpp PR (#26689) changes what looks like a tiny SYCL FlashAttention dispatch decision. With a quantized KV cache (&quot;q4_0&quot; / &quot;q8_0&quot;), decode was being sent through the VEC kernel. On ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-a-visualization-of-llm-api-costs-to-ask-for-local-resources",
+      "source": "localllama",
+      "title": "A visualization of LLM API costs to ask for local resources",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi5bzc/a_visualization_of_llm_api_costs_to_ask_for_local/",
+      "published_at": "2026-08-07T16:26:31Z",
+      "summary": "I have not been successful with management to get funding for local resources despite bringing forth solid arguments about data sovereignty and related architectures. What actually succeeded in getting a budget is showin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-am-i-just-hallucinating",
+      "source": "localllama",
+      "title": "Am I just hallucinating",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi5627/am_i_just_hallucinating/",
+      "published_at": "2026-08-07T16:20:31Z",
+      "summary": "Or is there any reason why I feel like model output quality seems to be better when I use higher micro-batch values (ub) in llama-cpp? I don&#39;t really have any hard numbers or anything (just running the same prompts),",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-07-the-tokenpocalypse-is-here-companies-are-scrambling-to-stop",
+      "source": "simonw",
+      "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
+      "url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything",
+      "published_at": "2026-08-07T16:18:51Z",
+      "summary": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI\nThere's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th:\n\n“We’re s",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-wan-animate-2-pushing-the-application-boundaries-of-characte",
+      "source": "localllama",
+      "title": "Wan-Animate-2: Pushing the Application Boundaries of Character Animation Models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi1r6t/wananimate2_pushing_the_application_boundaries_of/",
+      "published_at": "2026-08-07T14:12:16Z",
+      "summary": "      📝 Introduction We present Wan-Animate-2, a novel end-to-end character animation framework that directly consumes driving videos in a redesigned Diffusion Transformer, which achieves high-fidelity motion generation ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-lfm25-26b-modelkv-cache-quantization-report",
+      "source": "localllama",
+      "title": "LFM2.5-2.6B model+KV cache quantization report",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi0d4i/lfm2526b_modelkv_cache_quantization_report/",
+      "published_at": "2026-08-07T13:15:48Z",
+      "summary": "      LFM2.5-2.6B is a new tiny model by LiquidAI, with benchmarks that put it head to head with much larger models. I&#39;ve run llama-perplexity on many model GGUF quants, crossed with many KV cache quants, to understa",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-07-a-llamacpp-pr-makes-q2-0-3036x-faster-on-x86-cpus-8b-decode",
       "source": "localllama",
@@ -52,83 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhwilp/an_openweight_model_too_moonshot_joins_the_race/",
       "published_at": "2026-08-07T10:08:58Z",
       "summary": "      From Sauers 𝕏: https://x.com/Sauers_/status/2085585414954312113 Wired: One of China’s Most Powerful AI Models Has Also Escaped Containment: https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/  &#3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-gemma-4-qat-could-be-improved-further-by-google-aligning-the",
-      "source": "localllama",
-      "title": "Gemma 4 QAT could be improved further by Google aligning the QAT model to modern q4_k instead of q4_0",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhw4f5/gemma_4_qat_could_be_improved_further_by_google/",
-      "published_at": "2026-08-07T09:46:52Z",
-      "summary": "Hello, For the past few days I have been benchmarking Gemma 4 26b QAT UD Q4_K_XL extensively versus Bartowski&#39;s Q4_K_L. While QAT is certainly very effective and reducing memory consumption versus the highest q4 quan",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-i-made-a-simple-local-voice-input-extension-for-pi-nemotron",
-      "source": "localllama",
-      "title": "I made a simple local voice input extension for pi (nemotron 3.5 0.6B ASR)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhvblg/i_made_a_simple_local_voice_input_extension_for/",
-      "published_at": "2026-08-07T08:59:21Z",
-      "summary": "There are already plenty of different extensions for voice input, but all I found required having a second server running. I wanted something super simplistic: launching local STT server just for my pi coding terminal. N",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-black-hat-usa-2026-the-breaking-news-the-openaihugging-face",
-      "source": "localllama",
-      "title": "Black Hat USA 2026: The 'Breaking' News: The OpenAI–Hugging Face Incident",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhv8ka/black_hat_usa_2026_the_breaking_news_the/",
-      "published_at": "2026-08-07T08:53:55Z",
-      "summary": "      &#32; submitted by &#32;  /u/SilentLennie   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-ds4-flash-incoming-price-increase-weve-been-able-to-reproduc",
-      "source": "localllama",
-      "title": "DS4 Flash incoming price increase \"we've been able to reproduce their current prices even on rented GPUs\"",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhv2bz/ds4_flash_incoming_price_increase_weve_been_able/",
-      "published_at": "2026-08-07T08:43:34Z",
-      "summary": "      https://preview.redd.it/kvfk26z2uwhh1.png?width=598&amp;format=png&amp;auto=webp&amp;s=356a8793a6c31bc563d552aaa5a73112ced7372e https://preview.redd.it/xthbu87auwhh1.png?width=598&amp;format=png&amp;auto=webp&amp;s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-is-glm-52-kimi-27-still-worth-it",
-      "source": "localllama",
-      "title": "IS GLM 5.2, Kimi 2.7 still worth it?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhugot/is_glm_52_kimi_27_still_worth_it/",
-      "published_at": "2026-08-07T08:07:11Z",
-      "summary": "Since now we have kimi k3 and next week we are getting Qwen 3.8 Max and also soon V4 pro Deepseek. I am curious if the old power house like Kimi 2.6/7 code and GLM.5.2 are all that relevant. especially for long hours of ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-this-is-not-a-conspiracy",
-      "source": "localllama",
-      "title": "This is not a conspiracy",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhth0e/this_is_not_a_conspiracy/",
-      "published_at": "2026-08-07T07:06:55Z",
-      "summary": "      &#32; submitted by &#32;  /u/Neighbor_   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-custom-water-cooled-quad-7900-xtx-build-96-gb-vram",
-      "source": "localllama",
-      "title": "Custom Water Cooled Quad 7900 XTX Build 96 GB VRAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhs70b/custom_water_cooled_quad_7900_xtx_build_96_gb_vram/",
-      "published_at": "2026-08-07T05:54:20Z",
-      "summary": "      &#32; submitted by &#32;  /u/tictacturkey   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -299,17 +321,6 @@
       ]
     },
     {
-      "id": "simonw-2026-08-03-quoting-david-crawshaws-prompt",
-      "source": "simonw",
-      "title": "Quoting David Crawshaw's prompt",
-      "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
-      "published_at": "2026-08-03T16:15:27Z",
-      "summary": "Set up a nightly cron job that executes the prompt: fetch upstream changes to the &lt;software&gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current versio",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "microsoft-2026-08-03-orchard-an-open-framework-for-scalable-agentic-ai",
       "source": "microsoft",
       "title": "Orchard: An open framework for scalable agentic AI",
@@ -425,17 +436,6 @@
       "title": "Introducing Cosmos 3 Edge",
       "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
       "published_at": "2026-07-20T15:58:51Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-07-17-fine-tune-video-and-image-models-at-scale-with-nvidia-nemo-a",
-      "source": "huggingface",
-      "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
-      "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-      "published_at": "2026-07-17T15:57:54Z",
       "summary": "",
       "tags": [
         "huggingface"
