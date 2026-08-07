@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-07T07:23:13Z",
+  "updated_at": "2026-08-07T13:14:06Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10306",
+      "project": "llama-cpp",
+      "version": "b10306",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10306",
+      "published_at": "2026-08-07T12:33:55Z",
+      "body_excerpt": "sycl: glu flat path (#26354) tests: add SWIGLU perf cases perf mode had no GLU coverage. Adds SWIGLU at 17408 columns, 512 and 2048 tokens, f16 and f32, with the operands both fused and split. sycl: consolidate fused-GLU kernels They differed only in which op_ they called, so take the op as an argument and share a common launcher. Their block sizes were all 256, so launch geometry is unchanged; SY",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10305",
+      "project": "llama-cpp",
+      "version": "b10305",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10305",
+      "published_at": "2026-08-07T12:03:40Z",
+      "body_excerpt": "sycl : Support DSv4 OPs: LIGHTNING_INDEXER,DSV4_HC_COMB,DSV4_HC_POST,DSV4_HC_PRE (#26568) support DSv4 OPs: LIGHTNING_INDEXER,DSV4_HC_COMB,DSV4_HC_POST,DSV4_HC_PREwq update ops.md fix format issue Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10303",
+      "project": "llama-cpp",
+      "version": "b10303",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10303",
+      "published_at": "2026-08-07T11:15:38Z",
+      "body_excerpt": "sycl : fix error Error OP FLASH_ATTN_EXT on arc770 (#26441) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10301",
+      "project": "llama-cpp",
+      "version": "b10301",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10301",
+      "published_at": "2026-08-07T09:59:37Z",
+      "body_excerpt": "cuda: fix warnings for unused variable/function (#26688) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10299",
       "project": "llama-cpp",
