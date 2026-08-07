@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-08-07T07:23:07Z",
+  "updated_at": "2026-08-07T13:13:58Z",
   "items": [
+    {
+      "id": "localllama-2026-08-07-a-llamacpp-pr-makes-q2-0-3036x-faster-on-x86-cpus-8b-decode",
+      "source": "localllama",
+      "title": "A llama.cpp PR makes Q2_0 3.0–3.6x faster on x86 CPUs, 8B decode goes 2.39 → 8.20 tok/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhz989/a_llamacpp_pr_makes_q2_0_3036x_faster_on_x86_cpus/",
+      "published_at": "2026-08-07T12:27:41Z",
+      "summary": "      I was going through the current llama.cpp CPU PRs and #26348 stood out because this isn&#39;t the usual +5% kernel optimization. It adds an x86 VNNI implementation for the Q2_0 × Q8_0 dot product, and the author&#3",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-labyrinthbench-a-local-focused-judge-free-llm-benchmark-that",
+      "source": "localllama",
+      "title": "LabyrinthBench: a local-focused, judge-free LLM benchmark that measures context recall under interference for multi-step agentic tasks.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhz2rc/labyrinthbench_a_localfocused_judgefree_llm/",
+      "published_at": "2026-08-07T12:19:35Z",
+      "summary": "      LabyrinthBench measures the thing that actually kills long agent runs — whether a model can still use what it learned twenty turns ago — deterministically, with no LLM judge, on your own hardware, with a swappable ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-rtx-5090-owner-built-an-open-source-tool-that-shuts-down-pc",
+      "source": "localllama",
+      "title": "RTX 5090 Owner Built An Open-Source Tool That Shuts Down PC If It Detects The 12VHPWR Cable Drawing Too Much Power, But It Can Only Work On Specific GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhy2e6/rtx_5090_owner_built_an_opensource_tool_that/",
+      "published_at": "2026-08-07T11:31:42Z",
+      "summary": "      GitHub : https://github.com/humza-khalid/12vhpwr-guard Reddit thread : https://www.reddit.com/r/nvidia/comments/1vglua1/i_built_a_free_open_source_tool_that_shuts_your/  &#32; submitted by &#32;  /u/pmttyji   [link",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-anyone-running-deepseek-v4-flash-0731-on-mi325x-with-vllm-mi",
+      "source": "localllama",
+      "title": "Anyone running DeepSeek-V4-Flash-0731 on MI325X with vLLM? Mine is behaving completely broken",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhxtoy/anyone_running_deepseekv4flash0731_on_mi325x_with/",
+      "published_at": "2026-08-07T11:19:22Z",
+      "summary": "Is anyone here successfully running DeepSeek-V4-Flash-0731 locally with vLLM, especially on AMD MI325X? My setup:  GPU: 1x AMD Instinct MI325X Model: deepseek-ai/DeepSeek-V4-Flash-0731 vLLM: 0.26.0 ROCm image --tokenizer",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-an-open-weight-model-too-moonshot-joins-the-race-gently-this",
+      "source": "localllama",
+      "title": "An open-weight model too, Moonshot joins the race (gently this time)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhwilp/an_openweight_model_too_moonshot_joins_the_race/",
+      "published_at": "2026-08-07T10:08:58Z",
+      "summary": "      From Sauers 𝕏: https://x.com/Sauers_/status/2085585414954312113 Wired: One of China’s Most Powerful AI Models Has Also Escaped Containment: https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/  &#3",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-gemma-4-qat-could-be-improved-further-by-google-aligning-the",
+      "source": "localllama",
+      "title": "Gemma 4 QAT could be improved further by Google aligning the QAT model to modern q4_k instead of q4_0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhw4f5/gemma_4_qat_could_be_improved_further_by_google/",
+      "published_at": "2026-08-07T09:46:52Z",
+      "summary": "Hello, For the past few days I have been benchmarking Gemma 4 26b QAT UD Q4_K_XL extensively versus Bartowski&#39;s Q4_K_L. While QAT is certainly very effective and reducing memory consumption versus the highest q4 quan",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-i-made-a-simple-local-voice-input-extension-for-pi-nemotron",
+      "source": "localllama",
+      "title": "I made a simple local voice input extension for pi (nemotron 3.5 0.6B ASR)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhvblg/i_made_a_simple_local_voice_input_extension_for/",
+      "published_at": "2026-08-07T08:59:21Z",
+      "summary": "There are already plenty of different extensions for voice input, but all I found required having a second server running. I wanted something super simplistic: launching local STT server just for my pi coding terminal. N",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-black-hat-usa-2026-the-breaking-news-the-openaihugging-face",
+      "source": "localllama",
+      "title": "Black Hat USA 2026: The 'Breaking' News: The OpenAI–Hugging Face Incident",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhv8ka/black_hat_usa_2026_the_breaking_news_the/",
+      "published_at": "2026-08-07T08:53:55Z",
+      "summary": "      &#32; submitted by &#32;  /u/SilentLennie   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-ds4-flash-incoming-price-increase-weve-been-able-to-reproduc",
+      "source": "localllama",
+      "title": "DS4 Flash incoming price increase \"we've been able to reproduce their current prices even on rented GPUs\"",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhv2bz/ds4_flash_incoming_price_increase_weve_been_able/",
+      "published_at": "2026-08-07T08:43:34Z",
+      "summary": "      https://preview.redd.it/kvfk26z2uwhh1.png?width=598&amp;format=png&amp;auto=webp&amp;s=356a8793a6c31bc563d552aaa5a73112ced7372e https://preview.redd.it/xthbu87auwhh1.png?width=598&amp;format=png&amp;auto=webp&amp;s",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-is-glm-52-kimi-27-still-worth-it",
+      "source": "localllama",
+      "title": "IS GLM 5.2, Kimi 2.7 still worth it?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhugot/is_glm_52_kimi_27_still_worth_it/",
+      "published_at": "2026-08-07T08:07:11Z",
+      "summary": "Since now we have kimi k3 and next week we are getting Qwen 3.8 Max and also soon V4 pro Deepseek. I am curious if the old power house like Kimi 2.6/7 code and GLM.5.2 are all that relevant. especially for long hours of ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-07-this-is-not-a-conspiracy",
       "source": "localllama",
@@ -19,116 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhs70b/custom_water_cooled_quad_7900_xtx_build_96_gb_vram/",
       "published_at": "2026-08-07T05:54:20Z",
       "summary": "      &#32; submitted by &#32;  /u/tictacturkey   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-amd-acquires-taalas-to-advance-compute-solutions-for-rapidly",
-      "source": "localllama",
-      "title": "AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhrdo3/amd_acquires_taalas_to_advance_compute_solutions/",
-      "published_at": "2026-08-07T05:09:25Z",
-      "summary": "Press My earlier prediction that Tesla would buy them completely missed the mark. With AMD focusing heavily on the enterprise side, the idea of consumer-facing hot-swappable AI model chips looks pretty much dead.  Fast f",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-eschalabsqwen36-35b-a3b-escha-w2-hugging-face",
-      "source": "localllama",
-      "title": "EschaLabs/Qwen3.6-35B-A3B-Escha-W2 · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhqihc/eschalabsqwen3635ba3beschaw2_hugging_face/",
-      "published_at": "2026-08-07T04:23:49Z",
-      "summary": "      Hey peeps. I know you&#39;re tired of low quants giving hard to believe numbers. I&#39;m quite skeptical too and from what I tried I&#39;m often left with the impression that the claims fall short. So this model po",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-cant-wait-for-llms-to-be-benchmaxxed-on-this-s",
-      "source": "localllama",
-      "title": "cant wait for llms to be benchmaxxed on this /s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhpamn/cant_wait_for_llms_to_be_benchmaxxed_on_this_s/",
-      "published_at": "2026-08-07T03:22:20Z",
-      "summary": "      google facing yet another &quot;innovator&#39;s dilemma&quot; or some shi smh lgtb ig EDIT - WHEN THE FUCK WILL LE CHATON FAT COME RIGHT ON !!????  &#32; submitted by &#32;  /u/combo-user   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-my-issue-with-artificial-analysiss-intelligence-index",
-      "source": "localllama",
-      "title": "My issue with Artificial Analysis's 'intelligence index'",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhoyw1/my_issue_with_artificial_analysiss_intelligence/",
-      "published_at": "2026-08-07T03:06:05Z",
-      "summary": "I swear AA is not the bipartisan they so claim. An open source mode (Qwen 3.8 max) was number 1 on the agentic index, then they just so happen to launch &quot;v4.1.1&quot; of their index in which they just adjusted the w",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-please-talk-me-out-of-this-gpu-upgrade",
-      "source": "localllama",
-      "title": "Please talk me out of this GPU upgrade",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhopw3/please_talk_me_out_of_this_gpu_upgrade/",
-      "published_at": "2026-08-07T02:54:02Z",
-      "summary": "I&#39;m considering replacing a single RTX 3090 with two ASRock AMD Pro R9700s for about $2900 new out of the door. That would move me from 24GB to 64GB VRAM. Yes yes, CUDA/ROCm, but the real problem is power connector s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-echo-dot-2-can-run-28m-llm-at-decent-speed",
-      "source": "localllama",
-      "title": "Echo Dot 2 can run 28M LLM at decent speed",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhocl8/echo_dot_2_can_run_28m_llm_at_decent_speed/",
-      "published_at": "2026-08-07T02:36:36Z",
-      "summary": "      Code and instructions available here: https://github.com/albertoZurini/echo-dot-2-playground Hello there! After a few days of experimenting I was able to get a completely local voice pipeline running on an Amazon E",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-bbc-is-running-article-titled-artificial-intelligence-used-t",
-      "source": "localllama",
-      "title": "BBC is running article titled \"Artificial Intelligence used to design brand new viruses\" ... cue the \"We must regulate Open Weights Models to prevent the next Covid or worse\" articles in 3... 2..",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhn36d/bbc_is_running_article_titled_artificial/",
-      "published_at": "2026-08-07T01:37:43Z",
-      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-friday-humor",
-      "source": "localllama",
-      "title": "Friday humor",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhmyje/friday_humor/",
-      "published_at": "2026-08-07T01:31:46Z",
-      "summary": "      &#32; submitted by &#32;  /u/etherd0t   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-06-dual-3090-setup-400-pp-ts-to-1600-pp-ts-on-qwen-36-27b-with",
-      "source": "localllama",
-      "title": "Dual 3090 setup: 400 pp t/s to 1600 pp t/s on Qwen 3.6 27B... with slightly lower tps.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhkln6/dual_3090_setup_400_pp_ts_to_1600_pp_ts_on_qwen/",
-      "published_at": "2026-08-06T23:45:31Z",
-      "summary": "First of all, my setup: Ryzen 9 5950x DDR4 3200Mhz 64gb (2x32) Dual 3090s, no NVLINK  Runtime: llama.cpp Nvidia Drivers 610 Windows 11 25H2 Qwen 3.6 27B Q8  I&#39;ve been using llama-server with --split-mode tensor for a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-06-anyone-else-with-dual-3090s-and-like-50gb-ram-trying-to-run",
-      "source": "localllama",
-      "title": "Anyone else with dual 3090s and like 50gb ram trying to run DSV4 💀",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhkfcd/anyone_else_with_dual_3090s_and_like_50gb_ram/",
-      "published_at": "2026-08-06T23:37:43Z",
-      "summary": "I’m trying a reap model soon. Wish me luck. I hope it’s better than Qwen 27B 😂   &#32; submitted by &#32;  /u/Borkato   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
