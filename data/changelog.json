@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-07T00:06:02Z",
+  "updated_at": "2026-08-07T07:23:13Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10299",
+      "project": "llama-cpp",
+      "version": "b10299",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10299",
+      "published_at": "2026-08-07T07:15:32Z",
+      "body_excerpt": "metal : avoid matrix array instantiation in kernel_lightning_indexer (#26646) In MSL, declaring an array of matrix types like causes a 'no matching constructor' compilation error because MSL matrix types do not have zero-argument default constructors and threadgroup variables cannot have initializers. Fix this by declaring a POD array instead and casting to for matrix indexing. Signed-off-by: Jame",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10298",
       "project": "llama-cpp",
