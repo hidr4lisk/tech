@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-08-08T01:55:42Z",
+  "updated_at": "2026-08-08T07:00:29Z",
   "items": [
+    {
+      "id": "localllama-2026-08-08-deepseek-v4-flash-0731-appreciation-post",
+      "source": "localllama",
+      "title": "DeepSeek V4 Flash 0731 appreciation post",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vio0x6/deepseek_v4_flash_0731_appreciation_post/",
+      "published_at": "2026-08-08T06:00:09Z",
+      "summary": "I’m running DSV4F 0731 on dual spark, and honestly… wow. It’s an absolute workhorse, and the benchmarks are real. Everyday tasks with Hermes agent? Effortless. Coding tasks with OpenCode? I’m genuinely amazed at what it ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-anyone-else-amped-up-over-qwen-38",
+      "source": "localllama",
+      "title": "Anyone else amped up over Qwen 3.8?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vinzvu/anyone_else_amped_up_over_qwen_38/",
+      "published_at": "2026-08-08T05:58:31Z",
+      "summary": "I’ve been using 3.6 27B Q4, and that quant is fast on an M5. The code has been average, but consistently “good enough.” And, after a year, I can see home LLMs being served at home much like streaming music was introduced",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-qwen-35b-a3b-moe-vs-27b-dense-in-local-coding-tests-4-faster",
+      "source": "localllama",
+      "title": "Qwen 35B-A3B MoE vs 27B dense in local coding tests: ~4× faster, much smaller quality gap than I expected",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vinr66/qwen_35ba3b_moe_vs_27b_dense_in_local_coding/",
+      "published_at": "2026-08-08T05:44:38Z",
+      "summary": "I compared Qwen 35B-A3B MoE against Qwen 27B dense on a series of local coding-maintenance tasks. On my R9700/llama.cpp setup, the MoE model generated about 3.9× faster (~116 vs ~30 tok/s), but the coding-quality differe",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-4x2080ti-22gb-tensor-parallel-possible",
+      "source": "localllama",
+      "title": "4x2080Ti 22GB tensor parallel possible?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vimxq5/4x2080ti_22gb_tensor_parallel_possible/",
+      "published_at": "2026-08-08T04:59:55Z",
+      "summary": "Hi there, I have a setup with 4x 2080Ti 22GB, but am not able to see much benefits in running models larger than 16-20GB in speed. I did some research and saw something like tensor parallels are possible, but also that b",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-psa-for-anyone-with-multiple-v620s-or-other-gfx1030-cards-ha",
+      "source": "localllama",
+      "title": "PSA for anyone with multiple V620's or other gfx1030 cards having problems making llama.cpp tensor split work -- set \"-ub 384\" and -b to a multiple of that depending on number of GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vim2gt/psa_for_anyone_with_multiple_v620s_or_other/",
+      "published_at": "2026-08-08T04:14:02Z",
+      "summary": "Basically what the title says. For me, it would always crash and burn trying to use tensor split. Apparently, there&#39;s some bug where GPU memory gets corrupted with the default microbatch (512) or higher. I will be op",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-i-got-tired-of-my-300gb-model-loads-taking-5min-on-rpc-pr-26",
+      "source": "localllama",
+      "title": "I got tired of my 300GB model loads taking 5min on RPC. PR 26291 speeds it 300% to 1min30sec (4060ti+ddr4) + (4060ti+ddr5)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vilcil/i_got_tired_of_my_300gb_model_loads_taking_5min/",
+      "published_at": "2026-08-08T03:37:37Z",
+      "summary": "      - On b10173 - &quot;state&quot;:&quot;loading&quot; 4min54sec. - With this PR and GGML_RPC_LOAD_THREADS 12 - &quot;state&quot;:&quot;loading&quot; 1min38sec The PR is close to ready, will need a docs change if they",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-beellama-issues",
+      "source": "localllama",
+      "title": "BeeLLama issues",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viku98/beellama_issues/",
+      "published_at": "2026-08-08T03:12:11Z",
+      "summary": "Tried to use Beellama , and using the kvarn6 flag, i notice that its in llama-server --help but its not working. I must be doing something wrong.  trying to run the following: llama-server.exe ^ --model &quot;C:\\llamaROC",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-is-anyone-else-finding-deepseek-v4-flash-unreliable-for-non",
+      "source": "localllama",
+      "title": "Is anyone else finding DeepSeek-V4-Flash unreliable for non-coding tasks?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vikgrj/is_anyone_else_finding_deepseekv4flash_unreliable/",
+      "published_at": "2026-08-08T02:53:36Z",
+      "summary": "(I am not a native speaker, written by myself, so please bear with me) I really want to like DeepSeek-V4-Flash-0731. But it has serious flaws that don&#39;t align with the high score on intelligence benchmarks. And those",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-us-department-of-energy-launches-the-genesis-open-models-ini",
+      "source": "localllama",
+      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative and, with Arcee, Unveils Genesis-Science-1 — Its First Open-Weight Model for Scientific Research",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vijp8y/us_department_of_energy_launches_the_genesis_open/",
+      "published_at": "2026-08-08T02:16:09Z",
+      "summary": "&#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "simonw-2026-08-07-now-we-have-a-timeline-of-the-openai-accidental-attack-again",
       "source": "simonw",
@@ -46,17 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-07-which-model-would-be-best-for-delphi-development",
-      "source": "localllama",
-      "title": "Which model would be best for Delphi development?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viajy6/which_model_would_be_best_for_delphi_development/",
-      "published_at": "2026-08-07T19:39:19Z",
-      "summary": "Hey all, Are there any Delphi developers in the crowd? If so, which models would you say are best at doing development in Delphi? What are your thoughts/suggestions here, and is there a good GUI client/harnass you like f",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-08-07-moonlight-mayhem-raccoon-heist-by-codex-gpt-56-sol-ultra",
       "source": "simonw",
       "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
@@ -65,39 +153,6 @@
       "summary": "Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)\nOn Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5, where I had Claude Fable 5 build a full working game from a premise I",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-deepseek-v4-flash-0731---arc-agi-results",
-      "source": "localllama",
-      "title": "DeepSeek V4 Flash 0731 - ARC-AGI Results",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi9zls/deepseek_v4_flash_0731_arcagi_results/",
-      "published_at": "2026-08-07T19:17:49Z",
-      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-how-to-even-compare-quants-from-various-sources",
-      "source": "localllama",
-      "title": "How to even compare quants from various sources?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi9s64/how_to_even_compare_quants_from_various_sources/",
-      "published_at": "2026-08-07T19:10:16Z",
-      "summary": "How do you guys deal with so many variables? So many publishers, each calling their quants &quot;best&quot;, and then it&#39;s a mess to manage, download the weights, tweak the temperature etc. for each source?  It is re",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-got-job-as-director-of-ai-and-systems-development-self-taugh",
-      "source": "localllama",
-      "title": "Got job as Director of AI and Systems development self-taught",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi8jlr/got_job_as_director_of_ai_and_systems_development/",
-      "published_at": "2026-08-07T18:24:25Z",
-      "summary": "Hey everyone, I just wanted to share my journey here for some motivation. Three years ago, I saw the sudden spike in AI and realized it was the future of tech. My goal at the time was to be an indie game dev, and seeing ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -112,50 +167,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-07-parakeetwgsl-fast-accurate-asr-in-the-browser-via-raw-webgpu",
-      "source": "localllama",
-      "title": "parakeet.wgsl – Fast, accurate ASR in the browser, via raw WebGPU & SIMD WASM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi77dr/parakeetwgsl_fast_accurate_asr_in_the_browser_via/",
-      "published_at": "2026-08-07T17:35:38Z",
-      "summary": "      High-performance inference of NVIDIA&#39;s Parakeet TDT 0.6B V2 English transcription model, in the browser. Check out the live demo: https://parakeet.narcotic.sh/ A fully custom, dependancy-free implementation wit",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-llamacpp-pr-reports-up-to-169-faster-quantized-kv-decode-at",
-      "source": "localllama",
-      "title": "llama.cpp PR reports up to 169% faster quantized-KV decode at 118K context on Intel Battlemage from one SYCL kernel switch",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi6hmw/llamacpp_pr_reports_up_to_169_faster_quantizedkv/",
-      "published_at": "2026-08-07T17:09:01Z",
-      "summary": "      A fresh llama.cpp PR (#26689) changes what looks like a tiny SYCL FlashAttention dispatch decision. With a quantized KV cache (&quot;q4_0&quot; / &quot;q8_0&quot;), decode was being sent through the VEC kernel. On ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-a-visualization-of-llm-api-costs-to-ask-for-local-resources",
-      "source": "localllama",
-      "title": "A visualization of LLM API costs to ask for local resources",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi5bzc/a_visualization_of_llm_api_costs_to_ask_for_local/",
-      "published_at": "2026-08-07T16:26:31Z",
-      "summary": "I have not been successful with management to get funding for local resources despite bringing forth solid arguments about data sovereignty and related architectures. What actually succeeded in getting a budget is showin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-am-i-just-hallucinating",
-      "source": "localllama",
-      "title": "Am I just hallucinating",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi5627/am_i_just_hallucinating/",
-      "published_at": "2026-08-07T16:20:31Z",
-      "summary": "Or is there any reason why I feel like model output quality seems to be better when I use higher micro-batch values (ub) in llama-cpp? I don&#39;t really have any hard numbers or anything (just running the same prompts),",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-08-07-the-tokenpocalypse-is-here-companies-are-scrambling-to-stop",
       "source": "simonw",
       "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
@@ -164,17 +175,6 @@
       "summary": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI\nThere's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th:\n\n“We’re s",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-wan-animate-2-pushing-the-application-boundaries-of-characte",
-      "source": "localllama",
-      "title": "Wan-Animate-2: Pushing the Application Boundaries of Character Animation Models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi1r6t/wananimate2_pushing_the_application_boundaries_of/",
-      "published_at": "2026-08-07T14:12:16Z",
-      "summary": "      📝 Introduction We present Wan-Animate-2, a novel end-to-end character animation framework that directly consumes driving videos in a redesigned Diffusion Transformer, which achieves high-fidelity motion generation ",
-      "tags": [
-        "localllama"
       ]
     },
     {
