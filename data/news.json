@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-08-07T19:03:07Z",
+  "updated_at": "2026-08-08T01:55:42Z",
   "items": [
+    {
+      "id": "simonw-2026-08-07-now-we-have-a-timeline-of-the-openai-accidental-attack-again",
+      "source": "simonw",
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything",
+      "published_at": "2026-08-07T23:55:58Z",
+      "summary": "OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about \"the Hugging Face Incident\" (previously on this blog). The video was published yesterday. It's short and information dense and well wort",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-serving-deepseek-v4-flash-0731-on-2x-dgx-spark-5-7-gb-os-hea",
+      "source": "localllama",
+      "title": "Serving Deepseek v4 Flash 0731 on 2x DGX Spark — 5-7 GB OS headroom, what would you do to lower VRAM usage and increase OS available RAM?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vig3tw/serving_deepseek_v4_flash_0731_on_2x_dgx_spark_57/",
+      "published_at": "2026-08-07T23:25:18Z",
+      "summary": "Hey all, I&#39;m serving DSv4Flash 0731 on a cluster of 2x DGX Sparks but am running into constant issues with having almost no RAM (unified memory) left for the OS/cache and I&#39;d love to hear the community feedback o",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-qwen-36-27b-flagssettings-in-llamacpp",
+      "source": "localllama",
+      "title": "Qwen 3.6 27B flags/settings in llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vida0h/qwen_36_27b_flagssettings_in_llamacpp/",
+      "published_at": "2026-08-07T21:25:24Z",
+      "summary": "I run the following on a 5090 and have been okay with its performance, it does most things somewhere 80-100 t/s, though that can slow down at full 262k context - more like 40 t/s at times. I use it primarily in appdev ta",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-why-no-good-external-multi-gpu-solutions",
+      "source": "localllama",
+      "title": "Why no good external multi gpu solutions?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vicjm8/why_no_good_external_multi_gpu_solutions/",
+      "published_at": "2026-08-07T20:55:51Z",
+      "summary": "I guess we are a small market, but I would love a turnkey external dual and quad GPU box with built in pcie5 full 16 lane support for all GPUs so you get full p2p. Then I could just plug the thing into a mini pc instead ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-which-model-would-be-best-for-delphi-development",
+      "source": "localllama",
+      "title": "Which model would be best for Delphi development?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viajy6/which_model_would_be_best_for_delphi_development/",
+      "published_at": "2026-08-07T19:39:19Z",
+      "summary": "Hey all, Are there any Delphi developers in the crowd? If so, which models would you say are best at doing development in Delphi? What are your thoughts/suggestions here, and is there a good GUI client/harnass you like f",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-07-moonlight-mayhem-raccoon-heist-by-codex-gpt-56-sol-ultra",
+      "source": "simonw",
+      "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
+      "url": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
+      "published_at": "2026-08-07T19:18:09Z",
+      "summary": "Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)\nOn Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5, where I had Claude Fable 5 build a full working game from a premise I",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-deepseek-v4-flash-0731---arc-agi-results",
+      "source": "localllama",
+      "title": "DeepSeek V4 Flash 0731 - ARC-AGI Results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi9zls/deepseek_v4_flash_0731_arcagi_results/",
+      "published_at": "2026-08-07T19:17:49Z",
+      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-07-how-to-even-compare-quants-from-various-sources",
+      "source": "localllama",
+      "title": "How to even compare quants from various sources?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi9s64/how_to_even_compare_quants_from_various_sources/",
+      "published_at": "2026-08-07T19:10:16Z",
+      "summary": "How do you guys deal with so many variables? So many publishers, each calling their quants &quot;best&quot;, and then it&#39;s a mess to manage, download the weights, tweak the temperature etc. for each source?  It is re",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-07-got-job-as-director-of-ai-and-systems-development-self-taugh",
       "source": "localllama",
@@ -85,72 +173,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi1r6t/wananimate2_pushing_the_application_boundaries_of/",
       "published_at": "2026-08-07T14:12:16Z",
       "summary": "      📝 Introduction We present Wan-Animate-2, a novel end-to-end character animation framework that directly consumes driving videos in a redesigned Diffusion Transformer, which achieves high-fidelity motion generation ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-lfm25-26b-modelkv-cache-quantization-report",
-      "source": "localllama",
-      "title": "LFM2.5-2.6B model+KV cache quantization report",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi0d4i/lfm2526b_modelkv_cache_quantization_report/",
-      "published_at": "2026-08-07T13:15:48Z",
-      "summary": "      LFM2.5-2.6B is a new tiny model by LiquidAI, with benchmarks that put it head to head with much larger models. I&#39;ve run llama-perplexity on many model GGUF quants, crossed with many KV cache quants, to understa",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-a-llamacpp-pr-makes-q2-0-3036x-faster-on-x86-cpus-8b-decode",
-      "source": "localllama",
-      "title": "A llama.cpp PR makes Q2_0 3.0–3.6x faster on x86 CPUs, 8B decode goes 2.39 → 8.20 tok/s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhz989/a_llamacpp_pr_makes_q2_0_3036x_faster_on_x86_cpus/",
-      "published_at": "2026-08-07T12:27:41Z",
-      "summary": "      I was going through the current llama.cpp CPU PRs and #26348 stood out because this isn&#39;t the usual +5% kernel optimization. It adds an x86 VNNI implementation for the Q2_0 × Q8_0 dot product, and the author&#3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-labyrinthbench-a-local-focused-judge-free-llm-benchmark-that",
-      "source": "localllama",
-      "title": "LabyrinthBench: a local-focused, judge-free LLM benchmark that measures context recall under interference for multi-step agentic tasks.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhz2rc/labyrinthbench_a_localfocused_judgefree_llm/",
-      "published_at": "2026-08-07T12:19:35Z",
-      "summary": "      LabyrinthBench measures the thing that actually kills long agent runs — whether a model can still use what it learned twenty turns ago — deterministically, with no LLM judge, on your own hardware, with a swappable ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-rtx-5090-owner-built-an-open-source-tool-that-shuts-down-pc",
-      "source": "localllama",
-      "title": "RTX 5090 Owner Built An Open-Source Tool That Shuts Down PC If It Detects The 12VHPWR Cable Drawing Too Much Power, But It Can Only Work On Specific GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhy2e6/rtx_5090_owner_built_an_opensource_tool_that/",
-      "published_at": "2026-08-07T11:31:42Z",
-      "summary": "      GitHub : https://github.com/humza-khalid/12vhpwr-guard Reddit thread : https://www.reddit.com/r/nvidia/comments/1vglua1/i_built_a_free_open_source_tool_that_shuts_your/  &#32; submitted by &#32;  /u/pmttyji   [link",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-anyone-running-deepseek-v4-flash-0731-on-mi325x-with-vllm-mi",
-      "source": "localllama",
-      "title": "Anyone running DeepSeek-V4-Flash-0731 on MI325X with vLLM? Mine is behaving completely broken",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhxtoy/anyone_running_deepseekv4flash0731_on_mi325x_with/",
-      "published_at": "2026-08-07T11:19:22Z",
-      "summary": "Is anyone here successfully running DeepSeek-V4-Flash-0731 locally with vLLM, especially on AMD MI325X? My setup:  GPU: 1x AMD Instinct MI325X Model: deepseek-ai/DeepSeek-V4-Flash-0731 vLLM: 0.26.0 ROCm image --tokenizer",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-an-open-weight-model-too-moonshot-joins-the-race-gently-this",
-      "source": "localllama",
-      "title": "An open-weight model too, Moonshot joins the race (gently this time)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhwilp/an_openweight_model_too_moonshot_joins_the_race/",
-      "published_at": "2026-08-07T10:08:58Z",
-      "summary": "      From Sauers 𝕏: https://x.com/Sauers_/status/2085585414954312113 Wired: One of China’s Most Powerful AI Models Has Also Escaped Containment: https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/  &#3",
       "tags": [
         "localllama"
       ]
@@ -285,28 +307,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-04-quoting-steve-yegge",
-      "source": "simonw",
-      "title": "Quoting Steve Yegge",
-      "url": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
-      "published_at": "2026-08-04T00:42:45Z",
-      "summary": "Gas Town was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-03-dont-be-a-meat-proxy",
-      "source": "simonw",
-      "title": "Don't be a meat proxy",
-      "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
-      "published_at": "2026-08-03T23:45:04Z",
-      "summary": "Don&#x27;t be a meat proxy\nNiklas Gruhn coins an excellent new term - meat proxy - for people who blindly copy and paste the output of AI systems to their peers.\n\nBy all means, prompt AI. But don't just relay the output.",
-      "tags": [
-        "simonw"
       ]
     },
     {

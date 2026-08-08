@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-07T19:03:11Z",
+  "updated_at": "2026-08-08T01:55:47Z",
   "releases": [
+    {
+      "id": "sglang-v0.5.17",
+      "project": "sglang",
+      "version": "v0.5.17",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17",
+      "published_at": "2026-08-08T00:19:16Z",
+      "body_excerpt": "Highlights 582 PRs from 194 contributors. Kimi K3 day-0 support: A 2.8T-parameter multimodal LatentMoE (896 experts, top-16, routed in a 3584-dim latent space) with a 1M-token context, 69 KDA linear-attention layers interleaved with 24 MLA layers, and a MoonViT3d vision tower, shipping as a native MXFP4 checkpoint. SGLang serves it from day 0 with DCP, DSpark speculative decoding, chunked-prefill ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10326",
+      "project": "llama-cpp",
+      "version": "b10326",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10326",
+      "published_at": "2026-08-07T21:23:15Z",
+      "body_excerpt": "tts: account for the vocoder pass in the timings line (#26733) get_output runs the waveform work the pipeline defers to it, from a single trailing window to a full pass depending on the model. Measuring it keeps the reported total and the audio to process ratio honest. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFra",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10322",
+      "project": "llama-cpp",
+      "version": "b10322",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10322",
+      "published_at": "2026-08-07T19:51:22Z",
+      "body_excerpt": "sycl: coalesce the ssm_conv window loads (#26612) test-backend-ops perf -o SSM_CONV on an Arc Pro B70, interleaved A/B against master, 6 reps, us/run: ne_a=[515,3328,1,1] ne_b=[4,3328,1,1] n_t=512 97.68 -> 52.95 1.85x ne_a=[937,8192,1,1] ne_b=[4,8192,1,1] n_t=934 516.16 -> 276.13 1.87x ne_a=[4,3328,1,1] ne_b=[4,3328,1,1] n_t=1 2.73 -> 2.71 flat llama-bench on qwen35 27B Q4_K - Medium (48 of its 64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10321",
+      "project": "llama-cpp",
+      "version": "b10321",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10321",
+      "published_at": "2026-08-07T19:07:38Z",
+      "body_excerpt": "metal : fix NORM/RMS_NORM for row lengths that leave a partial simdgroup (#26708) ggml_metal_op_norm sized the threadgroup with , which can leave nth not a multiple of the simdgroup size. The kernels finish their row reduction with a cross-simdgroup step where each lane of the last simdgroup reads one per-simdgroup partial sum out of shmem_f32: if (tiisg == 0) { shmem_f32[sgitg] = sumf; } threadgr",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10319",
       "project": "llama-cpp",
