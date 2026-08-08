@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-08-08T07:00:29Z",
+  "updated_at": "2026-08-08T12:57:12Z",
   "items": [
+    {
+      "id": "localllama-2026-08-08-mi25-for-80-100-worth-it",
+      "source": "localllama",
+      "title": "MI25 for 80-100€ worth it?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viudgz/mi25_for_80100_worth_it/",
+      "published_at": "2026-08-08T12:09:52Z",
+      "summary": "seems to be about as good as a vega 56 with 16Gb of VRAM, is it worth it? (don’t want to deal with NVIDIA drivers on Linux, already have an rx6650xt and might simply use vulkan for llamacpp inference)  &#32; submitted by",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-has-anyone-here-fiddled-with-tpus-for-inference",
+      "source": "localllama",
+      "title": "Has anyone here fiddled with TPUs for inference ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viss65/has_anyone_here_fiddled_with_tpus_for_inference/",
+      "published_at": "2026-08-08T10:45:22Z",
+      "summary": "I discovered recently that Google uses their own TPUs, like tiny ASIC cards like the toy ones that existed for bitcoin. And while it sounds inefficient the fact they use thousands of them because...they can...means at sc",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-a-local-code-index-for-coding-agents-that-resolves-imports-w",
+      "source": "localllama",
+      "title": "A local code index for coding agents that resolves imports without a language server (Rust, MIT, runs offline)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1virmh4/a_local_code_index_for_coding_agents_that/",
+      "published_at": "2026-08-08T09:35:08Z",
+      "summary": "Last time I posted about this here someone asked the right question: why not just use rust-analyzer, and how do you build a call graph without real semantics? I did not have a good answer then. I do now, and it comes wit",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-2027-memory-capacity-is-reportedly-sold-out",
+      "source": "localllama",
+      "title": "2027 Memory Capacity Is Reportedly Sold Out",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viqtgm/2027_memory_capacity_is_reportedly_sold_out/",
+      "published_at": "2026-08-08T08:45:07Z",
+      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-qwen36-27b-35b-on-vllm-single-r9700-gfx1201",
+      "source": "localllama",
+      "title": "Qwen3.6 27B + 35B on vLLM, single R9700 (gfx1201)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viq0pq/qwen36_27b_35b_on_vllm_single_r9700_gfx1201/",
+      "published_at": "2026-08-08T07:55:36Z",
+      "summary": "I&#39;ve been tuning my new Radeon AI Pro R9700, and figured that this would be useful information for people who are trying to optimise their setups. I&#39;m pretty happy with these results and looking forward to Qwen3.",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-model-support-longcat-flash-need-testing-by-ngxson-pull-requ",
+      "source": "localllama",
+      "title": "model: support Longcat-Flash (need testing) by ngxson · Pull Request #19182 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vipk8z/model_support_longcatflash_need_testing_by_ngxson/",
+      "published_at": "2026-08-08T07:28:29Z",
+      "summary": "      This PR should be ready for testing now. I tested with a very small (8B params) sub-model extracted from the original one. Appreciate if someone can test with the bigger model. GGUF(for testing) from PR: (Please ch",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-08-deepseek-v4-flash-0731-appreciation-post",
       "source": "localllama",
@@ -68,39 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-08-beellama-issues",
-      "source": "localllama",
-      "title": "BeeLLama issues",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viku98/beellama_issues/",
-      "published_at": "2026-08-08T03:12:11Z",
-      "summary": "Tried to use Beellama , and using the kvarn6 flag, i notice that its in llama-server --help but its not working. I must be doing something wrong.  trying to run the following: llama-server.exe ^ --model &quot;C:\\llamaROC",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-is-anyone-else-finding-deepseek-v4-flash-unreliable-for-non",
-      "source": "localllama",
-      "title": "Is anyone else finding DeepSeek-V4-Flash unreliable for non-coding tasks?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vikgrj/is_anyone_else_finding_deepseekv4flash_unreliable/",
-      "published_at": "2026-08-08T02:53:36Z",
-      "summary": "(I am not a native speaker, written by myself, so please bear with me) I really want to like DeepSeek-V4-Flash-0731. But it has serious flaws that don&#39;t align with the high score on intelligence benchmarks. And those",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-us-department-of-energy-launches-the-genesis-open-models-ini",
-      "source": "localllama",
-      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative and, with Arcee, Unveils Genesis-Science-1 — Its First Open-Weight Model for Scientific Research",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vijp8y/us_department_of_energy_launches_the_genesis_open/",
-      "published_at": "2026-08-08T02:16:09Z",
-      "summary": "&#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-08-07-now-we-have-a-timeline-of-the-openai-accidental-attack-again",
       "source": "simonw",
       "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
@@ -109,39 +142,6 @@
       "summary": "OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about \"the Hugging Face Incident\" (previously on this blog). The video was published yesterday. It's short and information dense and well wort",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-serving-deepseek-v4-flash-0731-on-2x-dgx-spark-5-7-gb-os-hea",
-      "source": "localllama",
-      "title": "Serving Deepseek v4 Flash 0731 on 2x DGX Spark — 5-7 GB OS headroom, what would you do to lower VRAM usage and increase OS available RAM?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vig3tw/serving_deepseek_v4_flash_0731_on_2x_dgx_spark_57/",
-      "published_at": "2026-08-07T23:25:18Z",
-      "summary": "Hey all, I&#39;m serving DSv4Flash 0731 on a cluster of 2x DGX Sparks but am running into constant issues with having almost no RAM (unified memory) left for the OS/cache and I&#39;d love to hear the community feedback o",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-qwen-36-27b-flagssettings-in-llamacpp",
-      "source": "localllama",
-      "title": "Qwen 3.6 27B flags/settings in llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vida0h/qwen_36_27b_flagssettings_in_llamacpp/",
-      "published_at": "2026-08-07T21:25:24Z",
-      "summary": "I run the following on a 5090 and have been okay with its performance, it does most things somewhere 80-100 t/s, though that can slow down at full 262k context - more like 40 t/s at times. I use it primarily in appdev ta",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-07-why-no-good-external-multi-gpu-solutions",
-      "source": "localllama",
-      "title": "Why no good external multi gpu solutions?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vicjm8/why_no_good_external_multi_gpu_solutions/",
-      "published_at": "2026-08-07T20:55:51Z",
-      "summary": "I guess we are a small market, but I would love a turnkey external dual and quad GPU box with built in pcie5 full 16 lane support for all GPUs so you get full p2p. Then I could just plug the thing into a mini pc instead ",
-      "tags": [
-        "localllama"
       ]
     },
     {

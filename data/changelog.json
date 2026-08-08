@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T07:00:33Z",
+  "updated_at": "2026-08-08T12:57:19Z",
   "releases": [
     {
       "id": "llama-cpp-b10327",
@@ -9377,15 +9377,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.0",
       "published_at": "2026-05-11T12:48:17Z",
       "body_excerpt": "🎉 LocalAI 4.2.0 Release! 🚀 LocalAI 4.2.0 is out! This release teaches LocalAI to see and hear. New and endpoints, a full face-recognition pipeline with antispoofing, word-level timestamps for faster-whisper, and a client-cancellable Whisper. There is also a drop-in Ollama API, video generation in stable-diffusion.ggml, a redesigned chat with i18n and admin-configurable branding, eleven new backend",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.20.2",
-      "project": "vllm",
-      "version": "v0.20.2",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.2",
-      "published_at": "2026-05-10T07:37:57Z",
-      "body_excerpt": "vLLM v0.20.2 Highlights This release features 6 commits from 6 contributors (0 new)! This is a small patch release with bug fixes for DeepSeek V4, gpt-oss, and Qwen3-VL Bug Fixes DeepSeek V4 sparse attention: Re-enable the persistent topk path on Hopper and ensure the memset kernel runs at CUDA graph capture time regardless of , fixing the MTP=1 hang on DeepSeek V4 (#41665, revert of #41605). Deep",
       "type": "tool"
     }
   ]
