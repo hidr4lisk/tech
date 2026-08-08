@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-08T01:55:47Z",
+  "updated_at": "2026-08-08T07:00:33Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10327",
+      "project": "llama-cpp",
+      "version": "b10327",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10327",
+      "published_at": "2026-08-08T06:04:14Z",
+      "body_excerpt": "CUDA: fix thread/block count in quantized cpy kernel launches (#26731) CUDA: fix thread/block count in quantized cpy kernel launches tests: add uneven block count cpy case Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
+      "type": "tool"
+    },
     {
       "id": "sglang-v0.5.17",
       "project": "sglang",
