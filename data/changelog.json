@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-08T12:57:19Z",
+  "updated_at": "2026-08-08T18:43:57Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10330",
+      "project": "llama-cpp",
+      "version": "b10330",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10330",
+      "published_at": "2026-08-08T17:20:30Z",
+      "body_excerpt": "CUDA: fuse rms_norm + mul + rope (+ view + set_rows) (#26767) CUDA: fuse rms_norm + mul + rope (+ view + set_rows) tests: add broadcast weight case to rms_norm_mul_rope CUDA: check memory ranges before rms_norm rope fusion CUDA: check memory ranges in rope set_rows fusion Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XC",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10329",
+      "project": "llama-cpp",
+      "version": "b10329",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10329",
+      "published_at": "2026-08-08T16:00:17Z",
+      "body_excerpt": "server, ui: only offer a working directory when a tool reads it (#26762) The working directory chip showed up as soon as the server exposed any builtin tool, so a server started with just get_datetime, or a user who turned every filesystem tool off in the settings, still got a control that nothing would read. Tools now declare whether they resolve their paths and run against the working directory,",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10328",
+      "project": "llama-cpp",
+      "version": "b10328",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10328",
+      "published_at": "2026-08-08T15:22:20Z",
+      "body_excerpt": "server: add initial tool isolation support (via docker) (#26507) server: add initial tool isolation support (via docker) add docs adapt get_info py: fix type check cont separate tools_io_sandbox / tools_io_docker rename sandbox --> isolate x-tool-docker --> x-tool-runtime --------- Co-authored-by: Pascal Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10327",
       "project": "llama-cpp",
@@ -456,6 +483,15 @@
       "project": "unsloth",
       "version": "v0.1.525-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.525-beta",
+      "published_at": "2026-08-04T16:06:43Z",
+      "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fixes + Mac fixes and smoother installations. DeepSeek V4 Flash 0731 + DSpark You ",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.526-beta",
+      "project": "unsloth",
+      "version": "v0.1.526-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta",
       "published_at": "2026-08-04T16:06:43Z",
       "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fixes + Mac fixes and smoother installations. DeepSeek V4 Flash 0731 + DSpark You ",
       "type": "tool"
