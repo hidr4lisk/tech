@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-08-08T12:57:12Z",
+  "updated_at": "2026-08-08T18:43:49Z",
   "items": [
+    {
+      "id": "localllama-2026-08-08-repeated-generation-is-worth-it-and-self-evaluation-is-effec",
+      "source": "localllama",
+      "title": "Repeated generation is worth it and self-evaluation is effective",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj1d1i/repeated_generation_is_worth_it_and/",
+      "published_at": "2026-08-08T17:09:53Z",
+      "summary": "I made gemma4 12B write timestamp-anchored summaries of youtube video transcripts. I tested if the summaries have significant qualitative variance and if the SLM can pick the best one by itself. Below is the prompt texts",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-building-a-zero-dependency-c-inference-engine-for-bitnet-158",
+      "source": "localllama",
+      "title": "Building a zero-dependency C inference engine for BitNet (1.58-bit) - lessons from hitting 36 tok/s on a Xeon CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj1cin/building_a_zerodependency_c_inference_engine_for/",
+      "published_at": "2026-08-08T17:09:18Z",
+      "summary": "Over the past few months I have been building a CPU-first inference engine from scratch in pure C99 (no Python, no CUDA, no BLAS, just GCC and make). The focus has been running 1.58-bit ternary models natively without he",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-showoff-saturday-local-4x-6000-pro-multi-year-progression",
+      "source": "localllama",
+      "title": "Showoff Saturday: Local 4x 6000 Pro (multi-year progression)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj18h4/showoff_saturday_local_4x_6000_pro_multiyear/",
+      "published_at": "2026-08-08T17:04:42Z",
+      "summary": "      Not the biggest or shiniest, but it&#39;s mine From gaming machine inference on the original llama models, to a 4x RTX 6000 Pro Max Q + 4x 3090s local AI cluster. Pictures are in reverse chronological order! With t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-my-first-run-of-kimi-k3-locally",
+      "source": "localllama",
+      "title": "My first run of Kimi K3 locally.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj0hil/my_first_run_of_kimi_k3_locally/",
+      "published_at": "2026-08-08T16:34:31Z",
+      "summary": "      Running across 2 clusters using llama.cpp over RPC too.  Both clusters are not enough to hold everything in memory, so main cluster still partially offloads to run. Goal will be to get all the GPUs in one system an",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-128gb-vs-256gb-of-ram",
+      "source": "localllama",
+      "title": "128GB vs 256gb of ram",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viyvzo/128gb_vs_256gb_of_ram/",
+      "published_at": "2026-08-08T15:28:59Z",
+      "summary": "Imagine you have 128gb of VRAM. what accompanying ram capacity you would choose (DDR4 8channel)? For example Deepseek v4 flash in q8 takes around 170GB + 12GB Dflash + ~10GB per 1m context so it’s under 200gb. so 128 + 1",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-tesla-v100-qwen36-27b-performance",
+      "source": "localllama",
+      "title": "Tesla V100 Qwen3.6 27B Performance",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vixl0f/tesla_v100_qwen36_27b_performance/",
+      "published_at": "2026-08-08T14:34:41Z",
+      "summary": "      Looking for V100 users to share your config and it&#39;s performance. GPU: Tesla V100 PCIE 32Gb Qwen3.6 27B Q4_K_M + Q8_0 MTP 128K context length Pi coding agent  llama.cpp model preset: [*] spec-default = 1 ctx-si",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-08-now-we-have-a-timeline-of-the-openai-accidental-attack-again",
+      "source": "simonw",
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
+      "published_at": "2026-08-08T14:06:41Z",
+      "summary": "My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face &mdash; Hacker News.I think one of the most interesting details here might be tucked away in that first bulletin point:\n\nMay 7: Op",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-08-claude-code-in-9-lines-python",
+      "source": "localllama",
+      "title": "Claude Code in 9 lines python",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viwlgj/claude_code_in_9_lines_python/",
+      "published_at": "2026-08-08T13:52:24Z",
+      "summary": "I was wondering what a minimal coding agent implementation would look like that can be used like Claude Code or Codex Not feature-by-feature of course but basically stripping everything out that is not needed here is wha",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-08-mi25-for-80-100-worth-it",
       "source": "localllama",
@@ -52,83 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viq0pq/qwen36_27b_35b_on_vllm_single_r9700_gfx1201/",
       "published_at": "2026-08-08T07:55:36Z",
       "summary": "I&#39;ve been tuning my new Radeon AI Pro R9700, and figured that this would be useful information for people who are trying to optimise their setups. I&#39;m pretty happy with these results and looking forward to Qwen3.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-model-support-longcat-flash-need-testing-by-ngxson-pull-requ",
-      "source": "localllama",
-      "title": "model: support Longcat-Flash (need testing) by ngxson · Pull Request #19182 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vipk8z/model_support_longcatflash_need_testing_by_ngxson/",
-      "published_at": "2026-08-08T07:28:29Z",
-      "summary": "      This PR should be ready for testing now. I tested with a very small (8B params) sub-model extracted from the original one. Appreciate if someone can test with the bigger model. GGUF(for testing) from PR: (Please ch",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-deepseek-v4-flash-0731-appreciation-post",
-      "source": "localllama",
-      "title": "DeepSeek V4 Flash 0731 appreciation post",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vio0x6/deepseek_v4_flash_0731_appreciation_post/",
-      "published_at": "2026-08-08T06:00:09Z",
-      "summary": "I’m running DSV4F 0731 on dual spark, and honestly… wow. It’s an absolute workhorse, and the benchmarks are real. Everyday tasks with Hermes agent? Effortless. Coding tasks with OpenCode? I’m genuinely amazed at what it ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-anyone-else-amped-up-over-qwen-38",
-      "source": "localllama",
-      "title": "Anyone else amped up over Qwen 3.8?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vinzvu/anyone_else_amped_up_over_qwen_38/",
-      "published_at": "2026-08-08T05:58:31Z",
-      "summary": "I’ve been using 3.6 27B Q4, and that quant is fast on an M5. The code has been average, but consistently “good enough.” And, after a year, I can see home LLMs being served at home much like streaming music was introduced",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-qwen-35b-a3b-moe-vs-27b-dense-in-local-coding-tests-4-faster",
-      "source": "localllama",
-      "title": "Qwen 35B-A3B MoE vs 27B dense in local coding tests: ~4× faster, much smaller quality gap than I expected",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vinr66/qwen_35ba3b_moe_vs_27b_dense_in_local_coding/",
-      "published_at": "2026-08-08T05:44:38Z",
-      "summary": "I compared Qwen 35B-A3B MoE against Qwen 27B dense on a series of local coding-maintenance tasks. On my R9700/llama.cpp setup, the MoE model generated about 3.9× faster (~116 vs ~30 tok/s), but the coding-quality differe",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-4x2080ti-22gb-tensor-parallel-possible",
-      "source": "localllama",
-      "title": "4x2080Ti 22GB tensor parallel possible?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vimxq5/4x2080ti_22gb_tensor_parallel_possible/",
-      "published_at": "2026-08-08T04:59:55Z",
-      "summary": "Hi there, I have a setup with 4x 2080Ti 22GB, but am not able to see much benefits in running models larger than 16-20GB in speed. I did some research and saw something like tensor parallels are possible, but also that b",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-psa-for-anyone-with-multiple-v620s-or-other-gfx1030-cards-ha",
-      "source": "localllama",
-      "title": "PSA for anyone with multiple V620's or other gfx1030 cards having problems making llama.cpp tensor split work -- set \"-ub 384\" and -b to a multiple of that depending on number of GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vim2gt/psa_for_anyone_with_multiple_v620s_or_other/",
-      "published_at": "2026-08-08T04:14:02Z",
-      "summary": "Basically what the title says. For me, it would always crash and burn trying to use tensor split. Apparently, there&#39;s some bug where GPU memory gets corrupted with the default microbatch (512) or higher. I will be op",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-i-got-tired-of-my-300gb-model-loads-taking-5min-on-rpc-pr-26",
-      "source": "localllama",
-      "title": "I got tired of my 300GB model loads taking 5min on RPC. PR 26291 speeds it 300% to 1min30sec (4060ti+ddr4) + (4060ti+ddr5)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vilcil/i_got_tired_of_my_300gb_model_loads_taking_5min/",
-      "published_at": "2026-08-08T03:37:37Z",
-      "summary": "      - On b10173 - &quot;state&quot;:&quot;loading&quot; 4min54sec. - With this PR and GGML_RPC_LOAD_THREADS 12 - &quot;state&quot;:&quot;loading&quot; 1min38sec The PR is close to ready, will need a docs change if they",
       "tags": [
         "localllama"
       ]
@@ -283,17 +294,6 @@
       "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
       "published_at": "2026-08-04T19:10:09Z",
       "summary": "PipeNetwork/minimax-h3-mlx\nMiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-04-llm-032",
-      "source": "simonw",
-      "title": "llm 0.32",
-      "url": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
-      "published_at": "2026-08-04T17:15:33Z",
-      "summary": "Release: llm 0.32\n        See my detailed blog post about this release.\n    \n    \n        Tags: llm",
       "tags": [
         "simonw"
       ]
