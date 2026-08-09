@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-08T18:43:57Z",
+  "updated_at": "2026-08-09T02:03:54Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10331",
+      "project": "llama-cpp",
+      "version": "b10331",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10331",
+      "published_at": "2026-08-08T23:26:29Z",
+      "body_excerpt": "server: report the isolate working directory from get_info (#26773) server: report the isolate working directory from get_info Without an explicit cwd, get_info fell back to the server process working directory even when a tools runtime was configured. That named a host path no tool would ever run in, since an isolate starts in a directory of its own. It now asks the isolate for its working direct",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10330",
       "project": "llama-cpp",
