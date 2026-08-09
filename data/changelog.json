@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-09T07:03:03Z",
+  "updated_at": "2026-08-09T13:00:20Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10333",
+      "project": "llama-cpp",
+      "version": "b10333",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10333",
+      "published_at": "2026-08-09T11:21:50Z",
+      "body_excerpt": "ggml-cpu : fix missing Q5_0 dispatch in SpaceMiT backend (#26792) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) And",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10332",
+      "project": "llama-cpp",
+      "version": "b10332",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10332",
+      "published_at": "2026-08-09T10:48:38Z",
+      "body_excerpt": "ci: rm (#26760) Signed-off-by: Aaron Teo Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10331",
       "project": "llama-cpp",
@@ -9414,15 +9432,6 @@
       "published_at": "2026-05-11T18:43:23Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "localai-v4.2.0",
-      "project": "localai",
-      "version": "v4.2.0",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.0",
-      "published_at": "2026-05-11T12:48:17Z",
-      "body_excerpt": "🎉 LocalAI 4.2.0 Release! 🚀 LocalAI 4.2.0 is out! This release teaches LocalAI to see and hear. New and endpoints, a full face-recognition pipeline with antispoofing, word-level timestamps for faster-whisper, and a client-cancellable Whisper. There is also a drop-in Ollama API, video generation in stable-diffusion.ggml, a redesigned chat with i18n and admin-configurable branding, eleven new backend",
-      "type": "tool"
     }
   ]
 }

@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-08-09T07:02:56Z",
+  "updated_at": "2026-08-09T13:00:14Z",
   "items": [
+    {
+      "id": "localllama-2026-08-09-tencent-announce-worldclaw",
+      "source": "localllama",
+      "title": "Tencent announce WorldClaw",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjnqmh/tencent_announce_worldclaw/",
+      "published_at": "2026-08-09T11:42:28Z",
+      "summary": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/ Looks impressive from that site, hopefully they open weight this so we can all play with it.  &#32; submitted by &#32;  /u/Uncle___Marty   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-09-what-a-deal-thanks-newegg",
+      "source": "localllama",
+      "title": "What a deal. Thanks newegg",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjn1aw/what_a_deal_thanks_newegg/",
+      "published_at": "2026-08-09T11:03:37Z",
+      "summary": "      The gods have blessed me. Card came in. brand new. I couldn’t believe it.   &#32; submitted by &#32;  /u/Street-Buyer-2428   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-09-amd-llamacpp-reducing-mtp-buffer-overhead-gave-me-64k-149k-c",
+      "source": "localllama",
+      "title": "AMD llama.cpp: reducing MTP buffer overhead gave me 64K → 149K context for Qwen 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjmay5/amd_llamacpp_reducing_mtp_buffer_overhead_gave_me/",
+      "published_at": "2026-08-09T10:21:35Z",
+      "summary": "Available context length with and without the patch:   Model: QWEN 27B ROCm stock patched Vulkan stock patched    IQ4_XS Pure, single 16GB GPU 19.456 76.032 68,352 78,592   Q6_K_L on 16GB + 12GB 64,256 149,248 68,864 151",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-09-300b-on-32gb-moe-streaming-findings-optimisations",
+      "source": "localllama",
+      "title": "300b on 32gb MoE-streaming findings + optimisations",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjm6dn/300b_on_32gb_moestreaming_findings_optimisations/",
+      "published_at": "2026-08-09T10:14:06Z",
+      "summary": "The past week I&#39;ve been running DSv4 inference on my laptop by keeping everything RAM-resident except the MXFP4-experts (since expert pool is ~147GB and won&#39;t fit) TL;DR - read speed is the limiter more than the ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-09-deepseek-v4-flash-0731-hits-827-on-terminal-bench-21-in-an-i",
+      "source": "localllama",
+      "title": "DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1 in an independent public-harness run (445 trials)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/",
+      "published_at": "2026-08-09T08:39:12Z",
+      "summary": "Disclosure: I’m the author of Ante. DeepSeek recently reported an 82.7% score on Terminal-Bench 2.1 for DeepSeek V4 Flash 0731. Its evaluation used “DeepSeek Harness minimal mode,” which hasn’t been released yet. We want",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-09-best-embedding-reranking-model",
+      "source": "localllama",
+      "title": "Best Embedding + Reranking Model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjk57h/best_embedding_reranking_model/",
+      "published_at": "2026-08-09T08:10:52Z",
+      "summary": "What Local Embedding + Reranking Models are you guys running for RAG?  I went down this rabbit hole because I wanted a Embedding Model + Reranker for a Translation Memory Server.  Essentially, given X phrase/word/sentenc",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-09-updated-benchmark-deepseek-v4-flash-on-slopcodebench-local",
       "source": "localllama",
@@ -68,39 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-09-intel-optane---potential",
-      "source": "localllama",
-      "title": "Intel Optane - Potential?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjbjib/intel_optane_potential/",
-      "published_at": "2026-08-09T00:28:40Z",
-      "summary": "Intel&#39;s Optane technology as we know it has been discontinued. But while that&#39;s the case, I see it being highly promising still due to its role (or where it was meant to be) right in between system RAM and NVME S",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-09-no-wonder-qwen-and-gemma-are-so-different",
-      "source": "localllama",
-      "title": "No wonder Qwen and Gemma are so different",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjb15v/no_wonder_qwen_and_gemma_are_so_different/",
-      "published_at": "2026-08-09T00:04:15Z",
-      "summary": "Pasted the same HTML/JS code (330 lines) into Qwen 35B A3B and Gemma 26B A4B. Qwen: tokenized the input to 1609 tokens Gemma: tokenized the input to 4258 tokens. Damn. I&#39;ve never noticed this before and I haven&#39;t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-kimi-k3-unsloth-iq2-xxs-from-711gb-down-to-478gb-only-multi",
-      "source": "localllama",
-      "title": "Kimi K3 (Unsloth) IQ2-XXS from 711GB down to 478GB!!! Only Multi-language was removed to trim the size",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjanps/kimi_k3_unsloth_iq2xxs_from_711gb_down_to_478gb/",
-      "published_at": "2026-08-08T23:47:19Z",
-      "summary": "Firstly a big thanks to the poster &quot;hellohazine&quot;, he basically only removed the multi-lingual fat of the model and just kept the English language intact. It is the exact model, and the rest of the model still i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-08-08-auto-mode-is-now-the-default-in-claude-code-for-pro-max-and",
       "source": "simonw",
       "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
@@ -109,39 +142,6 @@
       "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans\nAnthropic are really confident in Claude Code's auto mode, to the point that they are making it the default setting for new sessions in most Claude",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-extremely-slow-dspark-draft-model-performance-1-2-ts-with-de",
-      "source": "localllama",
-      "title": "Extremely slow DSpark draft model performance (1-2 t/s) with DeepSeek-V4-Flash on llama-server compared to MTP?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj8xoh/extremely_slow_dspark_draft_model_performance_12/",
-      "published_at": "2026-08-08T22:28:01Z",
-      "summary": "Hey everyone, I could use some advice on setting up speculative decoding correctly with llama-server. My Hardware:  GPUs: RTX 4090 + RTX 6000 Pro (120GB total VRAM) RAM: 32GB  I am currently testing the DeepSeek-V4-Flash",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-is-microsoft-phi-dead",
-      "source": "localllama",
-      "title": "Is Microsoft-Phi dead?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj8bxf/is_microsoftphi_dead/",
-      "published_at": "2026-08-08T22:01:01Z",
-      "summary": "Phi was one of my favorite models with a bit of a mixed reputation with some claiming it&#39;s benchmaxxed and others seeing its potential and usecases. I was a big fan of Phi but the last major release was in december 2",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-08-enabling-pci-e-p2p-for-consumer-nvidia-cards-will-yield-you",
-      "source": "localllama",
-      "title": "enabling PCI-E p2p for consumer Nvidia cards will yield you more than you think",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj7wey/enabling_pcie_p2p_for_consumer_nvidia_cards_will/",
-      "published_at": "2026-08-08T21:42:00Z",
-      "summary": "Disclaimer - no LLM was used to write this post/note As larger post about my setup will come later, want to give heads-up to folks who use VLLM and &gt;= 2 GPUs. So I have pretty meaty server (8 channel AMD EPYC, ~150GB/",
-      "tags": [
-        "localllama"
       ]
     },
     {
