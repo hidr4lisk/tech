@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-08-10T07:49:40Z",
+  "updated_at": "2026-08-10T13:18:33Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10342",
+      "project": "llama-cpp",
+      "version": "b10342",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10342",
+      "published_at": "2026-08-10T12:47:43Z",
+      "body_excerpt": "model : Granite-Switch Architecture (#25107) granite-switch: add llama.cpp backend (POC, CPU) New \"granite-switch\" architecture: a dense, all-attention Granite-4.1 model with N embedded LoRA adapters selected per-token by control tokens. gguf-py schema (arch, KV keys, stacked LoRA tensor names) + writer helpers conversion/granite.py: GraniteSwitchModel converter (stacks N adapters + zero base slot",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.60-beta",
+      "project": "unsloth",
+      "version": "v0.1.60-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.60-beta",
+      "published_at": "2026-08-10T11:59:46Z",
+      "body_excerpt": "Meta has released Muse Glimmer, the first open model from Meta Superintelligence Labs. Muse Glimmer is a dense, 30B parameter model by Meta, built for local agentic and coding workflows. Released under the Apache 2.0 license you can run Muse Glimmer 30B via Unsloth and Unsloth Dynamic quants for the best performance. Run Muse Glimmer Fine-tune Muse Glimmer Muse Glimmer 30B can run locally on 20GB ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10338",
+      "project": "llama-cpp",
+      "version": "b10338",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10338",
+      "published_at": "2026-08-10T10:51:18Z",
+      "body_excerpt": "model-saver : fix expert shared/chunk FFN length key clobber (#26693) The saver called add_kv with LLM_KV_EXPERT_SHARED_FEED_FORWARD_LENGTH twice, the second time passing n_ff_chexp. gguf_set_val_u32 removes-then-appends, so the second call clobbers the first: the saved shared_feed_forward_length ends up as n_ff_chexp (0 for every arch except GroveMoE), and expert_chunk_feed_forward_length is neve",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.7",
+      "project": "ollama",
+      "version": "v0.32.7",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.7",
+      "published_at": "2026-08-10T10:49:15Z",
+      "body_excerpt": "Muse Glimmer > Note: Muse Glimmer is currently available via initial support via Ollama's MLX engine on Apple Silicon. Additional support and optimizations for Apple Silicon, NVIDIA, AMD, and other platforms will be available in the coming days. Muse Glimmer, Meta's newest open model and the first released by Meta Superintelligence Labs, is now available on Ollama. It's a 30B multimodal model purp",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.15.0",
+      "project": "transformers",
+      "version": "v5.15.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+      "published_at": "2026-08-10T10:28:13Z",
+      "body_excerpt": "Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as coding, document analysis, personal assistants, Claw- or Hermes-like setups. Muse Gli",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10336",
+      "project": "llama-cpp",
+      "version": "b10336",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10336",
+      "published_at": "2026-08-10T08:18:17Z",
+      "body_excerpt": "ggml-webgpu : refactor several wgsl files and simplify flash_attn wgsl. (#26134) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
+      "type": "tool"
+    },
     {
       "id": "unsloth-v0.1.527-beta",
       "project": "unsloth",
