@@ -1,90 +1,145 @@
 {
-  "updated_at": "2026-08-10T13:18:29Z",
+  "updated_at": "2026-08-10T19:03:10Z",
   "items": [
     {
-      "id": "localllama-2026-08-10-new-instagram-reel-benchmark",
+      "id": "localllama-2026-08-10-i-compared-gguf-quants-of-qwen36-27b-to-nvfp4-awq-autoround",
       "source": "localllama",
-      "title": "New Instagram reel benchmark",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkkl2k/new_instagram_reel_benchmark/",
-      "published_at": "2026-08-10T13:16:38Z",
-      "summary": "      Saw this question on Instagram and wanted to test which models would reach the same conclusion as me. It seems to expose some interesting model biases: reading between the lines, filling in unstated assumptions, an",
+      "title": "I compared GGUF quants of Qwen3.6 27B to NVFP4, AWQ, AutoRound, and FP8",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vksqju/i_compared_gguf_quants_of_qwen36_27b_to_nvfp4_awq/",
+      "published_at": "2026-08-10T18:16:29Z",
+      "summary": "       There&#39;s an interactive chart and some extra data in the blog post if you&#39;re interested.  There are plenty of KL-divergence benchmarks for GGUF models, but most of them compare one GGUF quant against anothe",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-10-mark-zuckerberg-on-releases",
+      "id": "localllama-2026-08-10-glimmer-2334-tps-on-5090-with-dflash",
       "source": "localllama",
-      "title": "Mark Zuckerberg on releases",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkk6vy/mark_zuckerberg_on_releases/",
-      "published_at": "2026-08-10T13:00:29Z",
-      "summary": "      https://x.com/i/status/2086755195535413696  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "title": "Glimmer: 233.4 tps on 5090 with Dflash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vksbd9/glimmer_2334_tps_on_5090_with_dflash/",
+      "published_at": "2026-08-10T18:01:20Z",
+      "summary": "That&#39;s insane yo! I haven&#39;t had a chance yet to test it on my 4090 at home but it sounds so promising. And read here that 256k CTX is easily reachable on 24gb unlike Qwen. Super excited!  &#32; submitted by &#32;",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-10-model-muse-glimmer-support-by-pcuenca-pull-request-26841-ggm",
+      "id": "localllama-2026-08-10-needle-2-14mb-agentic-llm-for-phones-wearables-smart-home-an",
       "source": "localllama",
-      "title": "model: Muse Glimmer Support by pcuenca · Pull Request #26841 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkjul1/model_muse_glimmer_support_by_pcuenca_pull/",
-      "published_at": "2026-08-10T12:45:58Z",
-      "summary": "      Day 0 support  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "title": "Needle 2: 14MB agentic LLM for phones, wearables, smart home and robots.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkqy66/needle_2_14mb_agentic_llm_for_phones_wearables/",
+      "published_at": "2026-08-10T17:12:46Z",
+      "summary": "      Hey LocalLlaMa, Henry from Cactus here! We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontro",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-10-native-long-video-understanding-models-locally",
+      "id": "localllama-2026-08-10-inclusionailing-30-tiny-8b-a13b-moe-hugging-face",
       "source": "localllama",
-      "title": "Native Long Video Understanding Models locally?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkiyuo/native_long_video_understanding_models_locally/",
-      "published_at": "2026-08-10T12:06:18Z",
-      "summary": "I&#39;ve been building a personal project and wanted to check with the community on multi-modal inputs since I can&#39;t find a lot of material around this online. Ultimately I&#39;m trying to build something that can in",
+      "title": "inclusionAI/Ling-3.0-tiny · 8B A1.3B MoE· Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkqwso/inclusionailing30tiny_8b_a13b_moe_hugging_face/",
+      "published_at": "2026-08-10T17:11:27Z",
+      "summary": "      Looks like the Ling team open weighted a much smaller version of the Ling-3.0-flash they open weighted a few days ago. It&#39;s 8B params with 1.3B active, and seems to fall between the 4B and 8-12B Qwen and Gemma ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-10-1m-context-with-17-gb-model-in-24-gb-vram-for-the-first-time",
+      "id": "localllama-2026-08-10-diffusiongemma-technical-report",
       "source": "localllama",
-      "title": "1M context with 17 GB model in 24 GB VRAM: \"for the first time I was able to load a context of almost 1M tokens and extract 7 needles from various parts of the text\"",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkicyd/1m_context_with_17_gb_model_in_24_gb_vram_for_the/",
-      "published_at": "2026-08-10T11:38:01Z",
-      "summary": "      https://preview.redd.it/xxjh11f38jih1.png?width=1852&amp;format=png&amp;auto=webp&amp;s=76850ed51e29a8bc86c2ca718d4320075eed4363 Just wanted to share a user report that I found to be very interesting. Some person w",
+      "title": "DiffusionGemma Technical Report",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkqqjx/diffusiongemma_technical_report/",
+      "published_at": "2026-08-10T17:05:25Z",
+      "summary": "      arXiv : https://arxiv.org/abs/2608.00146 Full Paper : https://arxiv.org/pdf/2608.00146 Tweet : https://xcancel.com/googlegemma/status/2086849199052845451#m FYI both (llama.cpp) PRs ( 24423 &amp; 24427 ) went to Dra",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-10-unslothmuse-glimmer-30b-gguf-hugging-face",
+      "id": "huggingface-2026-08-10-build-low-latency-multilingual-voice-agents-open-weights-ful",
+      "source": "huggingface",
+      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "published_at": "2026-08-10T16:25:36Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-deepseek-v4-flash-0731-is-the-killer-app-that-is-going-to-se",
       "source": "localllama",
-      "title": "unsloth/Muse-Glimmer-30B-GGUF · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkhbuc/unslothmuseglimmer30bgguf_hugging_face/",
-      "published_at": "2026-08-10T10:43:36Z",
-      "summary": "      Guide: https://unsloth.ai/docs/models/muse-glimmer  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
+      "title": "DeepSeek V4 Flash 0731 is the ‘killer app’ that is going to sell A LOT of DGX Sparks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkpm5p/deepseek_v4_flash_0731_is_the_killer_app_that_is/",
+      "published_at": "2026-08-10T16:25:32Z",
+      "summary": "Having a ‘Killer Application’ that everyone wants to use helps sell hardware, plain and simple. DeepSeek V4 Flash 0731 isn’t an app of course, but I think it’s going to be the major catalyst for getting a lot of people t",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-10-comparing-how-cline-kilo-and-qwen-code-handle-long-task-cont",
+      "id": "localllama-2026-08-10-best-current-erp-base-model-that-are-smart-and-uncensored",
       "source": "localllama",
-      "title": "Comparing how Cline, Kilo, and Qwen Code handle long-task context/state (and why context loops keep happening)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkh2k0/comparing_how_cline_kilo_and_qwen_code_handle/",
-      "published_at": "2026-08-10T10:28:48Z",
-      "summary": "I&#39;ve been comparing Cline / Kilo / Qwen Code lately since they all handle long-task state differently. Cline: has Focus Chain, a markdown file kept outside the conversation that gets reinjected on a cadence, plus Mem",
+      "title": "Best current ERP base model that are smart and uncensored?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkoxd7/best_current_erp_base_model_that_are_smart_and/",
+      "published_at": "2026-08-10T16:01:01Z",
+      "summary": "My daily driver is Qwen3-235b-a22b-instruct-2507-Q4_K_M.gguf and it has been for a long time. I get around 75 t/s prompt processing and starting lower context ~5.5 t/s generation, lowering to around ~4 at 8k. I&#39;ve tr",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-10-introducing-muse-glimmer-an-open-weight-model-optimized-for",
+      "id": "localllama-2026-08-10-gemma-4-good-hackathon-results-are-near-as-well",
       "source": "localllama",
-      "title": "Introducing Muse Glimmer: an open-weight model optimized for always-on local agent workflows",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkgsum/introducing_muse_glimmer_an_openweight_model/",
-      "published_at": "2026-08-10T10:14:15Z",
-      "summary": "      Hi r/LocalLLaMA 👋  Today we’re excited to release Muse Glimmer, a 30B open-weight model built specifically for local agent workflows. We’re releasing the weights to the community under a permissive Apache 2.0 licen",
+      "title": "Gemma 4 Good Hackathon results are near as well",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vknhf9/gemma_4_good_hackathon_results_are_near_as_well/",
+      "published_at": "2026-08-10T15:08:01Z",
+      "summary": "Google had hosted this Hackathon months ago- just checked that they are ready with the results and will release the results soon. Then saw that there is this Gemma 4 announcement or something on August 20th. Maybe they w",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-early-signs-that-muse-glimmer-30b-might-quantize-very-well-s",
+      "source": "localllama",
+      "title": "Early signs that Muse-Glimmer-30B might quantize *very* well? Share your experiences.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkn16q/early_signs_that_museglimmer30b_might_quantize/",
+      "published_at": "2026-08-10T14:51:27Z",
+      "summary": "      &#32; submitted by &#32;  /u/EmPips   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-best-local-llms---august-2026",
+      "source": "localllama",
+      "title": "Best Local LLMs - August 2026",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkmhyl/best_local_llms_august_2026/",
+      "published_at": "2026-08-10T14:31:16Z",
+      "summary": "Wowee!! Just when you thought it couldn&#39;t get better for open weight models, we probably have had our best period yet!?!?! Models that rival the closed frontier, Opus level models on non-insane hardware and more. A m",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-muse-glimmer-actually-fits-on-a-single-rtx-3090",
+      "source": "localllama",
+      "title": "Muse Glimmer ACTUALLY fits on a single RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkm42m/muse_glimmer_actually_fits_on_a_single_rtx_3090/",
+      "published_at": "2026-08-10T14:16:56Z",
+      "summary": "I did some testing this morning, and I was surprised to find that Muse Glimmer actually comfortably fits on a single RTX 3090 with full context + DFlash + mmproj at Q4_K_XL, unlike Qwen3.6-27B and Gemma-4-31B. Muse Glimm",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-motif-technologiesmotif-3-official-realese",
+      "source": "localllama",
+      "title": "Motif-Technologies/Motif-3 official realese",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkl6cs/motiftechnologiesmotif3_official_realese/",
+      "published_at": "2026-08-10T13:40:04Z",
+      "summary": "      Motif-Technologies is one of the tech company participated South Korea&#39;s AI Foundation Model project.(독파모) Upstage(Solar Series), LG AI Research(EXAONE Series), and SKT(A.X Series) are the competitors. Since LG",
       "tags": [
         "localllama"
       ]
@@ -98,50 +153,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-ive-added-maple-preview-to-mference-got-40-tps-generation-wi",
-      "source": "localllama",
-      "title": "I've added Maple-Preview to Mference, got 40 tps generation with 500MB of used RAM on Air M4",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkglog/ive_added_maplepreview_to_mference_got_40_tps/",
-      "published_at": "2026-08-10T10:03:03Z",
-      "summary": "I like the idea of running local models, but I don’t like the idea of having them eat up all of my memory. I’ve always thought that the best way to build an edge model would be to make something smart enough to reason ov",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-chat-uis-with-native-audio-input-for-multimodal-models",
-      "source": "localllama",
-      "title": "Chat UIs with native audio input for multimodal models?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkfo8f/chat_uis_with_native_audio_input_for_multimodal/",
-      "published_at": "2026-08-10T09:08:09Z",
-      "summary": "I&#39;ve been running Gemma 4 E4B with oMLX and I can&#39;t find any chat interfaces that directly send the audio file to the model instead of running the audio through a separate STT layer. I can confirm the audio layer",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-why-speculative-decoding-went-mature-in-2026",
-      "source": "localllama",
-      "title": "Why Speculative Decoding went mature in 2026?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkem3y/why_speculative_decoding_went_mature_in_2026/",
-      "published_at": "2026-08-10T08:02:43Z",
-      "summary": "Spec-dec has been a thing for a while, in fact, it&#39;s wasn&#39;t an idea that was born for LLM inference. E.g. Uber&#39;s https://github.com/uber/submitqueue applied it to a merge queue. Apple &amp; GDM had been relea",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-minimax-h3-a-new-open-weight-video-model-live-in-comfyui",
-      "source": "localllama",
-      "title": "MiniMax H3: A New Open-Weight Video Model, Live in ComfyUI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkdatu/minimax_h3_a_new_openweight_video_model_live_in/",
-      "published_at": "2026-08-10T06:44:57Z",
-      "summary": "       MiniMax H3 is an open-weight, general-purpose multimodal video generation model that works across text, images, video, and audio. In ComfyUI, you can use H3 for text-to-video, image-to-video, first- and last-frame",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -425,17 +436,6 @@
       "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
       "url": "https://huggingface.co/blog/nunchaku-diffusers",
       "published_at": "2026-07-23T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-07-21-the-state-of-simulation-for-physical-ai-an-overview",
-      "source": "huggingface",
-      "title": "The State of Simulation for Physical AI: An Overview",
-      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "published_at": "2026-07-21T20:00:27Z",
       "summary": "",
       "tags": [
         "huggingface"
