@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-11T13:15:42Z",
+  "updated_at": "2026-08-11T19:07:31Z",
   "releases": [
+    {
+      "id": "unsloth-v0.1.70-beta",
+      "project": "unsloth",
+      "version": "v0.1.70-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.70-beta",
+      "published_at": "2026-08-11T15:31:25Z",
+      "body_excerpt": "Unsloth Desktop is here! The first desktop app to run and train AI models locally. Research, export and deploy from the same open-source app on Windows, macOS and Linux. 🦥 Download Unsloth Desktop for Linux, Windows, MacOS Here's what you can do with Unsloth Desktop: Get up to 50% more accurate tool calling with self-healing calls and sandboxed code execution. Run Muse Glimmer 30B, Kimi K3, Qwen3.",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.62-beta",
+      "project": "unsloth",
+      "version": "v0.1.62-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.62-beta",
+      "published_at": "2026-08-11T13:25:36Z",
+      "body_excerpt": "Many bug fixes",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.9",
+      "project": "ollama",
+      "version": "v0.32.9",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.9",
+      "published_at": "2026-08-11T13:23:33Z",
+      "body_excerpt": "NVIDIA Nemotron 3.5 Lightning NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses like OpenClaw and Hermes Agent – all supported by the NVIDIA NemoClaw open source security and management stack for running always-on AI agents. What's Changed Added the Nemotron 3 archit",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10359",
       "project": "llama-cpp",
@@ -621,6 +648,15 @@
       "published_at": "2026-08-04T23:11:48Z",
       "body_excerpt": "mtmd: correcting duplicate empty audio chunks for short inputs (#26536) correcting duplicate empty audio chunks for short inputs tests.sh code restored Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
       "type": "tool"
+    },
+    {
+      "id": "hf-allenai-SamudrACE-E3SMv3",
+      "project": "allenai",
+      "version": "SamudrACE-E3SMv3",
+      "url": "https://huggingface.co/allenai/SamudrACE-E3SMv3",
+      "published_at": "2026-08-04T20:48:53Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10273",
@@ -9512,87 +9548,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.23.4",
       "published_at": "2026-05-13T20:40:22Z",
       "body_excerpt": "What's Changed now supports vision models with image inputs Fixed formatting of Claude tool results when using local image paths Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.0-rc21",
-      "project": "ollama",
-      "version": "v0.30.0-rc21",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc21",
-      "published_at": "2026-05-13T14:32:54Z",
-      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.0-rc22",
-      "project": "ollama",
-      "version": "v0.30.0-rc22",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc22",
-      "published_at": "2026-05-13T14:32:54Z",
-      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.0-rc23",
-      "project": "ollama",
-      "version": "v0.30.0-rc23",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc23",
-      "published_at": "2026-05-13T14:32:54Z",
-      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.0-rc27",
-      "project": "ollama",
-      "version": "v0.30.0-rc27",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc27",
-      "published_at": "2026-05-13T14:32:54Z",
-      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.0-rc28",
-      "project": "ollama",
-      "version": "v0.30.0-rc28",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc28",
-      "published_at": "2026-05-13T14:32:54Z",
-      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.0-rc29",
-      "project": "ollama",
-      "version": "v0.30.0-rc29",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc29",
-      "published_at": "2026-05-13T14:32:54Z",
-      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.0-rc31",
-      "project": "ollama",
-      "version": "v0.30.0-rc31",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc31",
-      "published_at": "2026-05-13T14:32:54Z",
-      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.0-rc32",
-      "project": "ollama",
-      "version": "v0.30.0-rc32",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc32",
-      "published_at": "2026-05-13T14:32:54Z",
-      "body_excerpt": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or deg",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.0",
-      "project": "ollama",
-      "version": "v0.30.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0",
-      "published_at": "2026-05-13T14:32:54Z",
-      "body_excerpt": "Ollama 0.30 is now available, with improved compatibility and performance using llama.cpp. This augments the MLX engine on Apple Silicon, bringing support to a wider range of hardware. This release brings support for a wider range of models, including GGUF-based models from Hugging Face and your own fine-tuned models along with faster performance on NVIDIA hardware. Known issues: is not yet suppor",
       "type": "tool"
     }
   ]
