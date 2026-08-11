@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-08-11T02:03:10Z",
+  "updated_at": "2026-08-11T07:14:55Z",
   "items": [
+    {
+      "id": "localllama-2026-08-11-i-ran-muse-glimmer-1m-context---all-tests-passed",
+      "source": "localllama",
+      "title": "I ran Muse Glimmer @ 1M context - All tests passed.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl9adk/i_ran_muse_glimmer_1m_context_all_tests_passed/",
+      "published_at": "2026-08-11T06:13:04Z",
+      "summary": "Heeeey all! I just completed some fun tests with Muse Glimmer, I thought I&#39;d let you know. In fact, the summary below was written by Muse itself! I ran a 2× DGX Spark cluster and got Meta&#39;s day-old Muse Glimmer 3",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-muse-glimmer-30b-dflash-speculative-decoding-on-vllm-6-patch",
+      "source": "localllama",
+      "title": "Muse Glimmer 30B + DFlash speculative decoding on vLLM: 6 patches needed, 25 → 57 tok/s. Dockerfile and numbers inside.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl8zt9/muse_glimmer_30b_dflash_speculative_decoding_on/",
+      "published_at": "2026-08-11T05:56:56Z",
+      "summary": "The vLLM recipe page for Muse Glimmer has this for speculative decoding: --speculative-config &#39;{&quot;method&quot;: &quot;dflash&quot;, &quot;model&quot;: &quot;meta-models/Muse-Glimmer-30B-assistant&quot;, &quot;num",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-qwen-38-27b-coming-this-week",
+      "source": "localllama",
+      "title": "Qwen 3.8-27b coming this week",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl8bpt/qwen_3827b_coming_this_week/",
+      "published_at": "2026-08-11T05:20:06Z",
+      "summary": "      Confirmed by the official Qwen account.  &#32; submitted by &#32;  /u/Bestlife73   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-nvidia-reportedly-testing-lower-memory-configs-of-rubin-ultr",
+      "source": "localllama",
+      "title": "Nvidia reportedly testing lower memory configs of Rubin Ultra as memory shortage bites back — designs tested include as little as 192 GB and step back to HBM4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl88t0/nvidia_reportedly_testing_lower_memory_configs_of/",
+      "published_at": "2026-08-11T05:15:43Z",
+      "summary": "      &#32; submitted by &#32;  /u/fallingdowndizzyvr   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-i-gave-deepseek-v4-flash-basic-vision-by-training-a-40m-conn",
+      "source": "localllama",
+      "title": "I gave DeepSeek V4 Flash basic vision by training a 40M connector on 100K examples",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl6ior/i_gave_deepseek_v4_flash_basic_vision_by_training/",
+      "published_at": "2026-08-11T03:45:19Z",
+      "summary": "      I wanted to find out whether a huge text-only MoE could be given basic vision without retraining the language model itself. The short answer is yes. I froze DeepSeek V4 Flash and a 417M-parameter MoonViT image enco",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-1-day-in-and-i-feel-okay-saying-muse-glimmer-30b-finally-bea",
+      "source": "localllama",
+      "title": "1 Day in and I feel okay saying Muse-Glimmer-30B finally beats 3.6-27B for the size in some use-cases",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl64et/1_day_in_and_i_feel_okay_saying_museglimmer30b/",
+      "published_at": "2026-08-11T03:25:38Z",
+      "summary": "A few things right off the bat:  it reasons very efficiently. Like Grok 4.5 levels of efficient thinking  it quantizes very well. My first few tests with iq3_xxs were better than Qwen/Gemma behaved at that size  its know",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-11-muse-glimmer-30b-hits-280-ts-in-real-production-coding",
       "source": "localllama",
@@ -74,72 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkxpnd/muse_glimmer_benchmark/",
       "published_at": "2026-08-10T21:19:10Z",
       "summary": "      Little less smart than Qwen, but way fewer tokens per task.  &#32; submitted by &#32;  /u/NoFaithlessness951   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-muse-spark-12-open-source-before-llama-4-behemoth",
-      "source": "localllama",
-      "title": "Muse Spark 1.2 Open Source before Llama 4 Behemoth!!?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkw0f7/muse_spark_12_open_source_before_llama_4_behemoth/",
-      "published_at": "2026-08-10T20:15:26Z",
-      "summary": "      I can’t believe it!! When Muse Spark just came out, I was already thinking they might consider open sourcing this. And now they’re actually gonna open source it!! And ever since Alexandr Wang took over, they’d be r",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-i-made-a-web-design-benchmark-for-local-models-muse-glimmer",
-      "source": "localllama",
-      "title": "I made a web-design benchmark for local models (Muse Glimmer 30B vs Qwen 3.6 27b vs Deepseek V4 Flash 0731)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkvdg0/i_made_a_webdesign_benchmark_for_local_models/",
-      "published_at": "2026-08-10T19:52:40Z",
-      "summary": "      &#32; submitted by &#32;  /u/ShadyShroomz   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-tested-muse-glimmer-locally-on-coding-with-opencode-agentic",
-      "source": "localllama",
-      "title": "Tested Muse Glimmer locally on coding with OpenCode & agentic work",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkvc1z/tested_muse_glimmer_locally_on_coding_with/",
-      "published_at": "2026-08-10T19:51:16Z",
-      "summary": "Ran the model with quants (Q4) by Unsloth with latest (build from master) llama.cpp server. It takes ~20GB ram running on M5 Pro with 48GB at about 17t/s. Didn&#39;t do any reasoning loops/overthinking. Overall, sits bel",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-achievable-253-ts---unslothmuse-glimmer-30b-ud-q5-k-m-on-a-5",
-      "source": "localllama",
-      "title": "Achievable 253 t/s - unsloth/Muse Glimmer 30B UD-Q5_K_M on a 5090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkuyju/achievable_253_ts_unslothmuse_glimmer_30b_udq5_k/",
-      "published_at": "2026-08-10T19:37:20Z",
-      "summary": "Benchmarked Muse Glimmer 30B on my RTX 5090 (32GB), 262k context, UD-Q5_K_M + dflash-kquant + mmproj.   Workload Stock master + DFlash ngram-simple PR #26842 + DFlash    Code patch 78 t/s 57 t/s 220-253 t/s   Mixed agent",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-please-share-your-experience-about-muse-glimmer",
-      "source": "localllama",
-      "title": "Please Share Your Experience About Muse Glimmer",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vku03t/please_share_your_experience_about_muse_glimmer/",
-      "published_at": "2026-08-10T19:02:08Z",
-      "summary": "I have a classic test for local LLM&#39;s. I asked for 8 ball pool game with only one HTML file and Muse Glimmer spend 21k Token(I m using full context so 128k) and only created a 220 lines of HTML and said its done. Wit",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-best-open-source-harness-like-claude-code",
-      "source": "localllama",
-      "title": "Best open-source harness like Claude Code?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vktpl2/best_opensource_harness_like_claude_code/",
-      "published_at": "2026-08-10T18:51:42Z",
-      "summary": "Avid claude code user here looking to do equivalent things with local models. Just want to plug in something like Qwen and have the interface be 1:1 with claude code. Any suggestion?  &#32; submitted by &#32;  /u/Neighbo",
       "tags": [
         "localllama"
       ]

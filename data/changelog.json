@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-11T02:03:18Z",
+  "updated_at": "2026-08-11T07:15:00Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10357",
+      "project": "llama-cpp",
+      "version": "b10357",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10357",
+      "published_at": "2026-08-11T05:17:49Z",
+      "body_excerpt": "opencl: transpose the K tile in local memory for FA prefill kernels (#26428) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SY",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10356",
+      "project": "llama-cpp",
+      "version": "b10356",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10356",
+      "published_at": "2026-08-11T02:46:08Z",
+      "body_excerpt": "ci : target ROCm 7.14 for build and release (#25775) Switch ROCm from 7.2.1 to 7.14 ROCm 7.14 is the first production release using TheRock build system. It can be installed using multi-arch deliverables from wheels, debs, rpms, tarballs or runfiles. Adjust ROCm targets for Linux and Windows to use this instead. ci: switch all other Windows ROCm jobs to ROCm 7.14 wheels Move the shared windows-set",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.32.8-rc0",
       "project": "ollama",
@@ -8,6 +26,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.8-rc0",
       "published_at": "2026-08-10T23:49:29Z",
       "body_excerpt": "What's Changed Add Muse Glimmer support for NVIDIA, AMD, and additional platforms Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.8",
+      "project": "ollama",
+      "version": "v0.32.8",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.8",
+      "published_at": "2026-08-10T23:49:29Z",
+      "body_excerpt": "Muse Glimmer Muse Glimmer is now available on all platforms. Muse Glimmer can power coding agent applications such as Claude Code, Codex, Pi and more, as well as long-running personal assistants such as OpenClaw and Hermes. Ollama's MLX engine provides state-of-the-art performance on Apple Silicon for this model, with support for DFlash and image input as of Ollama 0.32.7. To download and run Muse",
       "type": "tool"
     },
     {
@@ -9494,15 +9521,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0",
       "published_at": "2026-05-13T14:32:54Z",
       "body_excerpt": "Ollama 0.30 is now available, with improved compatibility and performance using llama.cpp. This augments the MLX engine on Apple Silicon, bringing support to a wider range of hardware. This release brings support for a wider range of models, including GGUF-based models from Hugging Face and your own fine-tuned models along with faster performance on NVIDIA hardware. Known issues: is not yet suppor",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.8.1",
-      "project": "transformers",
-      "version": "v5.8.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.8.1",
-      "published_at": "2026-05-13T03:21:23Z",
-      "body_excerpt": "Patch release v5.8.1 This release is mainly to fix the Deepseek V4 integration!!! [fix] Add fatal_error to ContinuousBatchingManager so the serving... by @qgallouedec, @remi-or Fix WeightConverter regex incorrectly matching shared_experts as experts by @silencelamb, @claude Fix deepseek v4 by @ArthurZucker (#45892) Deepseek v4 csa mask collapse by @ArthurZucker, @Sawyer117 (#45928)",
       "type": "tool"
     }
   ]
