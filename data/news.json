@@ -1,57 +1,145 @@
 {
-  "updated_at": "2026-08-10T19:03:10Z",
+  "updated_at": "2026-08-11T02:03:10Z",
   "items": [
     {
-      "id": "localllama-2026-08-10-i-compared-gguf-quants-of-qwen36-27b-to-nvfp4-awq-autoround",
+      "id": "localllama-2026-08-11-muse-glimmer-30b-hits-280-ts-in-real-production-coding",
       "source": "localllama",
-      "title": "I compared GGUF quants of Qwen3.6 27B to NVFP4, AWQ, AutoRound, and FP8",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vksqju/i_compared_gguf_quants_of_qwen36_27b_to_nvfp4_awq/",
-      "published_at": "2026-08-10T18:16:29Z",
-      "summary": "       There&#39;s an interactive chart and some extra data in the blog post if you&#39;re interested.  There are plenty of KL-divergence benchmarks for GGUF models, but most of them compare one GGUF quant against anothe",
+      "title": "Muse-Glimmer 30B Hits ~280 t/s in Real Production Coding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl2sv6/museglimmer_30b_hits_280_ts_in_real_production/",
+      "published_at": "2026-08-11T00:51:12Z",
+      "summary": "These numbers were captured during a real feature implementation task in Next.js and Nest.js (adding a theme switching system across components). The structural predictability of UI/state refactoring is likely why DFlash",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-10-glimmer-2334-tps-on-5090-with-dflash",
+      "id": "localllama-2026-08-11-observations-on-muse-glimmer-reasoning-traces-being-noticeab",
       "source": "localllama",
-      "title": "Glimmer: 233.4 tps on 5090 with Dflash",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vksbd9/glimmer_2334_tps_on_5090_with_dflash/",
-      "published_at": "2026-08-10T18:01:20Z",
-      "summary": "That&#39;s insane yo! I haven&#39;t had a chance yet to test it on my 4090 at home but it sounds so promising. And read here that 256k CTX is easily reachable on 24gb unlike Qwen. Super excited!  &#32; submitted by &#32;",
+      "title": "Observations on Muse-Glimmer reasoning traces being noticeably different from qwen / gemma models and questions for you guys",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl2iio/observations_on_museglimmer_reasoning_traces/",
+      "published_at": "2026-08-11T00:38:24Z",
+      "summary": "Just downloaded the model, UD-Q5_K_XL quant, asked it to generate a long story to test out reasoning and speed with dflash (super fast btw, ~ 90 to 160 tok/s on a 5090 depending on task) and was surprised at the reasonin",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-10-needle-2-14mb-agentic-llm-for-phones-wearables-smart-home-an",
+      "id": "simonw-2026-08-10-introducing-muse-glimmer",
+      "source": "simonw",
+      "title": "Introducing Muse Glimmer",
+      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "published_at": "2026-08-10T23:56:03Z",
+      "summary": "Introducing Muse Glimmer\nMeta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old).\nThey claim to have optimized it fo",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-muse-glimmer-on-12-amd-v620",
       "source": "localllama",
-      "title": "Needle 2: 14MB agentic LLM for phones, wearables, smart home and robots.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkqy66/needle_2_14mb_agentic_llm_for_phones_wearables/",
-      "published_at": "2026-08-10T17:12:46Z",
-      "summary": "      Hey LocalLlaMa, Henry from Cactus here! We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontro",
+      "title": "Muse Glimmer on 1/2 AMD v620",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkzdbl/muse_glimmer_on_12_amd_v620/",
+      "published_at": "2026-08-10T22:24:38Z",
+      "summary": "Hey. Just tried it on my old ass gpus 😄 Surprisingly Tensor Split is working on 2 gpus almost doubling PP (wonder how it will work with 4 gpus) Q6 — 1 GPU  llama-server \\ --model &lt;MODEL_DIR&gt;/Muse-Glimmer-30B-GGUF/M",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-10-inclusionailing-30-tiny-8b-a13b-moe-hugging-face",
+      "id": "localllama-2026-08-10-ling-30-flash-on-strix-halo",
       "source": "localllama",
-      "title": "inclusionAI/Ling-3.0-tiny · 8B A1.3B MoE· Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkqwso/inclusionailing30tiny_8b_a13b_moe_hugging_face/",
-      "published_at": "2026-08-10T17:11:27Z",
-      "summary": "      Looks like the Ling team open weighted a much smaller version of the Ling-3.0-flash they open weighted a few days ago. It&#39;s 8B params with 1.3B active, and seems to fall between the 4B and 8-12B Qwen and Gemma ",
+      "title": "Ling 3.0 Flash on Strix Halo",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkz5do/ling_30_flash_on_strix_halo/",
+      "published_at": "2026-08-10T22:15:36Z",
+      "summary": "      vLLM ROCm/HiP, 4 bit compressed-tensors (int4) Not a fair comparison, but Qwen-122b on the most optimized format possible I have run (rocmFP4) does not touch Ling in speed. https://x.com/ciruai/status/2085996633267",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-10-diffusiongemma-technical-report",
+      "id": "localllama-2026-08-10-i-trained-a-1b-parameter-llm-from-scratch-on-20b-tokens-for",
       "source": "localllama",
-      "title": "DiffusionGemma Technical Report",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkqqjx/diffusiongemma_technical_report/",
-      "published_at": "2026-08-10T17:05:25Z",
-      "summary": "      arXiv : https://arxiv.org/abs/2608.00146 Full Paper : https://arxiv.org/pdf/2608.00146 Tweet : https://xcancel.com/googlegemma/status/2086849199052845451#m FYI both (llama.cpp) PRs ( 24423 &amp; 24427 ) went to Dra",
+      "title": "I trained a 1B-parameter LLM from scratch on 20B tokens for about $200",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkydi5/i_trained_a_1bparameter_llm_from_scratch_on_20b/",
+      "published_at": "2026-08-10T21:44:43Z",
+      "summary": "      A few months ago, I had the idea of making a LLM from scratch as a personal project (for learning and partly for improving my resume). Since I learned a lot from other posts on here over the past year, I wanted to ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-muse-glimmer-benchmark",
+      "source": "localllama",
+      "title": "Muse glimmer benchmark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkxpnd/muse_glimmer_benchmark/",
+      "published_at": "2026-08-10T21:19:10Z",
+      "summary": "      Little less smart than Qwen, but way fewer tokens per task.  &#32; submitted by &#32;  /u/NoFaithlessness951   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-muse-spark-12-open-source-before-llama-4-behemoth",
+      "source": "localllama",
+      "title": "Muse Spark 1.2 Open Source before Llama 4 Behemoth!!?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkw0f7/muse_spark_12_open_source_before_llama_4_behemoth/",
+      "published_at": "2026-08-10T20:15:26Z",
+      "summary": "      I can’t believe it!! When Muse Spark just came out, I was already thinking they might consider open sourcing this. And now they’re actually gonna open source it!! And ever since Alexandr Wang took over, they’d be r",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-i-made-a-web-design-benchmark-for-local-models-muse-glimmer",
+      "source": "localllama",
+      "title": "I made a web-design benchmark for local models (Muse Glimmer 30B vs Qwen 3.6 27b vs Deepseek V4 Flash 0731)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkvdg0/i_made_a_webdesign_benchmark_for_local_models/",
+      "published_at": "2026-08-10T19:52:40Z",
+      "summary": "      &#32; submitted by &#32;  /u/ShadyShroomz   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-tested-muse-glimmer-locally-on-coding-with-opencode-agentic",
+      "source": "localllama",
+      "title": "Tested Muse Glimmer locally on coding with OpenCode & agentic work",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkvc1z/tested_muse_glimmer_locally_on_coding_with/",
+      "published_at": "2026-08-10T19:51:16Z",
+      "summary": "Ran the model with quants (Q4) by Unsloth with latest (build from master) llama.cpp server. It takes ~20GB ram running on M5 Pro with 48GB at about 17t/s. Didn&#39;t do any reasoning loops/overthinking. Overall, sits bel",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-achievable-253-ts---unslothmuse-glimmer-30b-ud-q5-k-m-on-a-5",
+      "source": "localllama",
+      "title": "Achievable 253 t/s - unsloth/Muse Glimmer 30B UD-Q5_K_M on a 5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkuyju/achievable_253_ts_unslothmuse_glimmer_30b_udq5_k/",
+      "published_at": "2026-08-10T19:37:20Z",
+      "summary": "Benchmarked Muse Glimmer 30B on my RTX 5090 (32GB), 262k context, UD-Q5_K_M + dflash-kquant + mmproj.   Workload Stock master + DFlash ngram-simple PR #26842 + DFlash    Code patch 78 t/s 57 t/s 220-253 t/s   Mixed agent",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-please-share-your-experience-about-muse-glimmer",
+      "source": "localllama",
+      "title": "Please Share Your Experience About Muse Glimmer",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vku03t/please_share_your_experience_about_muse_glimmer/",
+      "published_at": "2026-08-10T19:02:08Z",
+      "summary": "I have a classic test for local LLM&#39;s. I asked for 8 ball pool game with only one HTML file and Muse Glimmer spend 21k Token(I m using full context so 128k) and only created a 220 lines of HTML and said its done. Wit",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-10-best-open-source-harness-like-claude-code",
+      "source": "localllama",
+      "title": "Best open-source harness like Claude Code?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vktpl2/best_opensource_harness_like_claude_code/",
+      "published_at": "2026-08-10T18:51:42Z",
+      "summary": "Avid claude code user here looking to do equivalent things with local models. Just want to plug in something like Qwen and have the interface be 1:1 with claude code. Any suggestion?  &#32; submitted by &#32;  /u/Neighbo",
       "tags": [
         "localllama"
       ]
@@ -65,83 +153,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-deepseek-v4-flash-0731-is-the-killer-app-that-is-going-to-se",
-      "source": "localllama",
-      "title": "DeepSeek V4 Flash 0731 is the ‘killer app’ that is going to sell A LOT of DGX Sparks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkpm5p/deepseek_v4_flash_0731_is_the_killer_app_that_is/",
-      "published_at": "2026-08-10T16:25:32Z",
-      "summary": "Having a ‘Killer Application’ that everyone wants to use helps sell hardware, plain and simple. DeepSeek V4 Flash 0731 isn’t an app of course, but I think it’s going to be the major catalyst for getting a lot of people t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-best-current-erp-base-model-that-are-smart-and-uncensored",
-      "source": "localllama",
-      "title": "Best current ERP base model that are smart and uncensored?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkoxd7/best_current_erp_base_model_that_are_smart_and/",
-      "published_at": "2026-08-10T16:01:01Z",
-      "summary": "My daily driver is Qwen3-235b-a22b-instruct-2507-Q4_K_M.gguf and it has been for a long time. I get around 75 t/s prompt processing and starting lower context ~5.5 t/s generation, lowering to around ~4 at 8k. I&#39;ve tr",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-gemma-4-good-hackathon-results-are-near-as-well",
-      "source": "localllama",
-      "title": "Gemma 4 Good Hackathon results are near as well",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vknhf9/gemma_4_good_hackathon_results_are_near_as_well/",
-      "published_at": "2026-08-10T15:08:01Z",
-      "summary": "Google had hosted this Hackathon months ago- just checked that they are ready with the results and will release the results soon. Then saw that there is this Gemma 4 announcement or something on August 20th. Maybe they w",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-early-signs-that-muse-glimmer-30b-might-quantize-very-well-s",
-      "source": "localllama",
-      "title": "Early signs that Muse-Glimmer-30B might quantize *very* well? Share your experiences.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkn16q/early_signs_that_museglimmer30b_might_quantize/",
-      "published_at": "2026-08-10T14:51:27Z",
-      "summary": "      &#32; submitted by &#32;  /u/EmPips   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-best-local-llms---august-2026",
-      "source": "localllama",
-      "title": "Best Local LLMs - August 2026",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkmhyl/best_local_llms_august_2026/",
-      "published_at": "2026-08-10T14:31:16Z",
-      "summary": "Wowee!! Just when you thought it couldn&#39;t get better for open weight models, we probably have had our best period yet!?!?! Models that rival the closed frontier, Opus level models on non-insane hardware and more. A m",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-muse-glimmer-actually-fits-on-a-single-rtx-3090",
-      "source": "localllama",
-      "title": "Muse Glimmer ACTUALLY fits on a single RTX 3090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkm42m/muse_glimmer_actually_fits_on_a_single_rtx_3090/",
-      "published_at": "2026-08-10T14:16:56Z",
-      "summary": "I did some testing this morning, and I was surprised to find that Muse Glimmer actually comfortably fits on a single RTX 3090 with full context + DFlash + mmproj at Q4_K_XL, unlike Qwen3.6-27B and Gemma-4-31B. Muse Glimm",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-motif-technologiesmotif-3-official-realese",
-      "source": "localllama",
-      "title": "Motif-Technologies/Motif-3 official realese",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkl6cs/motiftechnologiesmotif3_official_realese/",
-      "published_at": "2026-08-10T13:40:04Z",
-      "summary": "      Motif-Technologies is one of the tech company participated South Korea&#39;s AI Foundation Model project.(독파모) Upstage(Solar Series), LG AI Research(EXAONE Series), and SKT(A.X Series) are the competitors. Since LG",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -305,17 +316,6 @@
       "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
       "published_at": "2026-08-05T23:58:35Z",
       "summary": "Introducing Muse Code and Muse Spark 1.2\nYet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-05-third-party-cyber-evaluations-involving-openai-models",
-      "source": "simonw",
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
-      "published_at": "2026-08-05T23:45:32Z",
-      "summary": "Third-party cyber evaluations involving OpenAI models\nAnd another one. I had to create a accidental-cyberattacks tag to keep track of them all!\nThis post from OpenAI covers both the UK AI Safety Institute attack (see my ",
       "tags": [
         "simonw"
       ]

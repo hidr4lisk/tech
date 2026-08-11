@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-08-10T19:03:17Z",
+  "updated_at": "2026-08-11T02:03:18Z",
   "releases": [
+    {
+      "id": "ollama-v0.32.8-rc0",
+      "project": "ollama",
+      "version": "v0.32.8-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.8-rc0",
+      "published_at": "2026-08-10T23:49:29Z",
+      "body_excerpt": "What's Changed Add Muse Glimmer support for NVIDIA, AMD, and additional platforms Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10355",
+      "project": "llama-cpp",
+      "version": "b10355",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10355",
+      "published_at": "2026-08-10T23:15:19Z",
+      "body_excerpt": "llama : support multi-output backend sampling (#25532) Enable backend sampling with token speculation Clamp the mask sum before converting it into the sampled index Add a numeric context parameter declaring the maximum outputs one sequence More fixes Don't reuse memory for output views. Match dist between CPU and GPU Fix CPU and backend sampling mismatches Simpify some of the changes Fix tests on ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10354",
+      "project": "llama-cpp",
+      "version": "b10354",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10354",
+      "published_at": "2026-08-10T22:38:07Z",
+      "body_excerpt": "ggml-cpu : fix CPU affinity mask being ignored on Android (#26838) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10353",
+      "project": "llama-cpp",
+      "version": "b10353",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10353",
+      "published_at": "2026-08-10T22:00:50Z",
+      "body_excerpt": "ggml : require contiguous src for ROLL on CUDA and Metal (#25928) ggml_roll only asserts nb[0] == ggml_type_size, so a permuted src is a valid input, but the CUDA and Metal roll kernels index by ne alone and never read the nb strides. A non-contiguous src therefore produced silently wrong results. Neither backend declared a contiguity requirement in supports_op, so the scheduler did not fall back ",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.27.0",
+      "project": "vllm",
+      "version": "v0.27.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0",
+      "published_at": "2026-08-10T21:18:11Z",
+      "body_excerpt": "vLLM v0.27.0 Release Notes Highlights This release features 561 commits from 242 contributors (64 new)! Kimi K3 support with a full stack landing in one release: core model files and kernels (#50089, #50000), Python (#50093) and Rust (#50104) frontends, AttnRes kernels (#50090), DeepGEMM support (#50458), compressed-tensors quantized checkpoints (#50500), DSpark AR fusion (#50242), and an option t",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10344",
       "project": "llama-cpp",
@@ -9459,24 +9504,6 @@
       "published_at": "2026-05-13T03:21:23Z",
       "body_excerpt": "Patch release v5.8.1 This release is mainly to fix the Deepseek V4 integration!!! [fix] Add fatal_error to ContinuousBatchingManager so the serving... by @qgallouedec, @remi-or Fix WeightConverter regex incorrectly matching shared_experts as experts by @silencelamb, @claude Fix deepseek v4 by @ArthurZucker (#45892) Deepseek v4 csa mask collapse by @ArthurZucker, @Sawyer117 (#45928)",
       "type": "tool"
-    },
-    {
-      "id": "localai-v4.2.3",
-      "project": "localai",
-      "version": "v4.2.3",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.3",
-      "published_at": "2026-05-12T22:41:34Z",
-      "body_excerpt": "What's Changed Other Changes chore: :arrow_up: Update ggml-org/whisper.cpp to by @localai-bot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-GridSFM_Open",
-      "project": "microsoft",
-      "version": "GridSFM_Open",
-      "url": "https://huggingface.co/microsoft/GridSFM_Open",
-      "published_at": "2026-05-12T19:04:04Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
