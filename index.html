@@ -8,8 +8,8 @@
   <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';
     connect-src 'self';
-    style-src   'self' https://fonts.googleapis.com;
-    font-src    'self' https://fonts.gstatic.com;
+    style-src   'self';
+    font-src    'self';
     script-src  'self';
     img-src     'self' data:;
     object-src  'none';
@@ -19,11 +19,19 @@
 
   <title>Hidr4lisk_Tech // AI Ecosystem Tracker</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700;800&family=Major+Mono+Display&family=VT323&display=swap" rel="stylesheet">
+  <!--
+    Fuentes self-hosted en hidra-kit/fonts/ (Inter, JetBrains Mono, Major Mono
+    Display, VT323). Antes venían de Google Fonts por CDN — cero CDN externo es
+    regla de la casa (supply-chain + privacidad).
+  -->
 
   <link rel="stylesheet" href="dist/styles.css">
+
+  <!-- El kit va DESPUÉS a propósito: pisa los tokens del sitio con la paleta
+       común (Inverse) sin obligar a reescribir main.css. Fuente de verdad en
+       hidralisk (hidra/static/hidra/landing-kit/); se distribuye con
+       scripts/sync-landings.sh. NO editar acá: el sync lo pisa. -->
+  <link rel="stylesheet" href="hidra-kit/kit.css">
 </head>
 <body>
   <div id="glitch-overlay" aria-hidden="true"></div>

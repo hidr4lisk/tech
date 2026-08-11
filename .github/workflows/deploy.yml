@@ -41,6 +41,7 @@ jobs:
           cp -r src/core _deploy/src/
           cp -r src/i18n _deploy/src/
           cp data/news.json data/models.json data/changelog.json _deploy/data/
+          cp -r hidra-kit _deploy/
           touch _deploy/.nojekyll
 
       - name: Inject commit hash
