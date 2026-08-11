@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-08-11T07:14:55Z",
+  "updated_at": "2026-08-11T13:15:37Z",
   "items": [
+    {
+      "id": "localllama-2026-08-11-the-small-open-weight-models-are-scarier-in-ai-development",
+      "source": "localllama",
+      "title": "The small open weight models are scarier in AI development",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlfyn4/the_small_open_weight_models_are_scarier_in_ai/",
+      "published_at": "2026-08-11T12:23:56Z",
+      "summary": "Imagine if your everyday laptop could run an AI model smart enough to take care of 90% of your work—totally private, lightning fast, and completely free of monthly fees. That is the exact tipping point of history where t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-revision-prompting-trades-slow-decoded-output-tokens-for-che",
+      "source": "localllama",
+      "title": "Revision Prompting: Trades slow (decoded) output tokens for cheap (prefilled) input tokens.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlfxr3/revision_prompting_trades_slow_decoded_output/",
+      "published_at": "2026-08-11T12:22:48Z",
+      "summary": "TL;DR: If you re-run the same prompt whenever the input changes, try sending the old input/output plus a diff of the input, and ask the model for a patch to the output. You generate ~2-10x fewer output tokens, and the un",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-we-even-got-a-fgn-manifesto-meta-is-on-a-run",
+      "source": "localllama",
+      "title": "We even got a fgn manifesto!! Meta is on a run!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlemgr/we_even_got_a_fgn_manifesto_meta_is_on_a_run/",
+      "published_at": "2026-08-11T11:19:22Z",
+      "summary": "      Zuck argues for releasing more open-weight models and invites governments to work with AI makers to test safety..who&#39;s I have yet to figure.   &#32; submitted by &#32;  /u/uhuge   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-tested-in-coding-bf16-muse-glimmer-vs-bf16-qwen36-27b",
+      "source": "localllama",
+      "title": "Tested in Coding: BF16 Muse Glimmer vs BF16 Qwen3.6 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vldngi/tested_in_coding_bf16_muse_glimmer_vs_bf16_qwen36/",
+      "published_at": "2026-08-11T10:27:34Z",
+      "summary": "I&#39;m guessing that many people have been waiting for this comparison. For clarity, both models are running at full FP16 KV-cache. Due to VRAM limitations, Muse Glimmer is running full 262,144 context, whilst Qwen3.6 2",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-what-can-us-8-gb-vram-poors-do",
+      "source": "localllama",
+      "title": "What can us 8 GB VRAM poors do?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlc4wn/what_can_us_8_gb_vram_poors_do/",
+      "published_at": "2026-08-11T08:59:45Z",
+      "summary": "I want to hook up a local model to Cline, but it seems the best model is still just Qwen 3.5 9B. Please can we have a Qwen 3.8 9B that gets close to Qwen 3.6 27B?  &#32; submitted by &#32;  /u/Aggravating-Push-207   [lin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-luth-2-new-state-of-the-art-french-small-language-models",
+      "source": "localllama",
+      "title": "Luth-2: New State-of-the-Art French Small Language Models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlbto8/luth2_new_stateoftheart_french_small_language/",
+      "published_at": "2026-08-11T08:41:13Z",
+      "summary": "      Hey everyone, Today we release Luth-2-0.8B and Luth2-2-2B, two non-reasoning models that set a new state of the art for French across a wide variety of tasks for their size 🚀 A few notable scores on French benchmar",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-deepseek-v4-flash-acting-as-my-linux-sysadmin",
+      "source": "localllama",
+      "title": "DeepSeek-V4-Flash acting as my Linux sysadmin",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlb90f/deepseekv4flash_acting_as_my_linux_sysadmin/",
+      "published_at": "2026-08-11T08:07:42Z",
+      "summary": "      I&#39;m very happy with some Linux admin tasks I&#39;m throwing at a locally running DeepSeek. My request was simple, check why &#39;samples&#39; folder is taking more and more space on one of the machines on my LA",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-why-have-8b-12b-models-been-dropped",
+      "source": "localllama",
+      "title": "Why have 8B-12B models been dropped?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlazx6/why_have_8b12b_models_been_dropped/",
+      "published_at": "2026-08-11T07:52:50Z",
+      "summary": "I am a Macbook Pro M4 user with the 16GB of unified ram. The best model I have been able to run on LM Studio is Gemma4 12B QAT, this model is 66 days old. After that the next best thing LM studio suggests is Nemotron 3 N",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-rumored-50-series-super-refresh-bumps-everything-50-vram",
+      "source": "localllama",
+      "title": "Rumored 50-series Super refresh bumps everything +50% VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlad91/rumored_50series_super_refresh_bumps_everything/",
+      "published_at": "2026-08-11T07:15:39Z",
+      "summary": "      leaked Super specs have the 5070 Ti and 5080 going 16GB to 24GB and the 5070 to 18GB, thanks to the new 3GB GDDR7 modules. 24GB on a Ti-class card is actually the number people here have been waiting for. thats eno",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-add-ci-targets-for-rocm-714-by-superm1-pull-request-25775-gg",
+      "source": "localllama",
+      "title": "Add CI targets for ROCm 7.14 by superm1 · Pull Request #25775 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl9t2k/add_ci_targets_for_rocm_714_by_superm1_pull/",
+      "published_at": "2026-08-11T06:43:09Z",
+      "summary": "      Available b10356 onwards. Overview ROCm 7.14 is the first production release using TheRock build system. It can be installed using multi-arch deliverables from wheels, debs, rpms, tarballs or runfiles. Add llama.cp",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-11-i-ran-muse-glimmer-1m-context---all-tests-passed",
       "source": "localllama",
@@ -24,72 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-11-qwen-38-27b-coming-this-week",
-      "source": "localllama",
-      "title": "Qwen 3.8-27b coming this week",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl8bpt/qwen_3827b_coming_this_week/",
-      "published_at": "2026-08-11T05:20:06Z",
-      "summary": "      Confirmed by the official Qwen account.  &#32; submitted by &#32;  /u/Bestlife73   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-nvidia-reportedly-testing-lower-memory-configs-of-rubin-ultr",
-      "source": "localllama",
-      "title": "Nvidia reportedly testing lower memory configs of Rubin Ultra as memory shortage bites back — designs tested include as little as 192 GB and step back to HBM4",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl88t0/nvidia_reportedly_testing_lower_memory_configs_of/",
-      "published_at": "2026-08-11T05:15:43Z",
-      "summary": "      &#32; submitted by &#32;  /u/fallingdowndizzyvr   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-i-gave-deepseek-v4-flash-basic-vision-by-training-a-40m-conn",
-      "source": "localllama",
-      "title": "I gave DeepSeek V4 Flash basic vision by training a 40M connector on 100K examples",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl6ior/i_gave_deepseek_v4_flash_basic_vision_by_training/",
-      "published_at": "2026-08-11T03:45:19Z",
-      "summary": "      I wanted to find out whether a huge text-only MoE could be given basic vision without retraining the language model itself. The short answer is yes. I froze DeepSeek V4 Flash and a 417M-parameter MoonViT image enco",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-1-day-in-and-i-feel-okay-saying-muse-glimmer-30b-finally-bea",
-      "source": "localllama",
-      "title": "1 Day in and I feel okay saying Muse-Glimmer-30B finally beats 3.6-27B for the size in some use-cases",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl64et/1_day_in_and_i_feel_okay_saying_museglimmer30b/",
-      "published_at": "2026-08-11T03:25:38Z",
-      "summary": "A few things right off the bat:  it reasons very efficiently. Like Grok 4.5 levels of efficient thinking  it quantizes very well. My first few tests with iq3_xxs were better than Qwen/Gemma behaved at that size  its know",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-muse-glimmer-30b-hits-280-ts-in-real-production-coding",
-      "source": "localllama",
-      "title": "Muse-Glimmer 30B Hits ~280 t/s in Real Production Coding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl2sv6/museglimmer_30b_hits_280_ts_in_real_production/",
-      "published_at": "2026-08-11T00:51:12Z",
-      "summary": "These numbers were captured during a real feature implementation task in Next.js and Nest.js (adding a theme switching system across components). The structural predictability of UI/state refactoring is likely why DFlash",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-observations-on-muse-glimmer-reasoning-traces-being-noticeab",
-      "source": "localllama",
-      "title": "Observations on Muse-Glimmer reasoning traces being noticeably different from qwen / gemma models and questions for you guys",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl2iio/observations_on_museglimmer_reasoning_traces/",
-      "published_at": "2026-08-11T00:38:24Z",
-      "summary": "Just downloaded the model, UD-Q5_K_XL quant, asked it to generate a long story to test out reasoning and speed with dflash (super fast btw, ~ 90 to 160 tok/s on a 5090 depending on task) and was surprised at the reasonin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-08-10-introducing-muse-glimmer",
       "source": "simonw",
       "title": "Introducing Muse Glimmer",
@@ -98,50 +142,6 @@
       "summary": "Introducing Muse Glimmer\nMeta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old).\nThey claim to have optimized it fo",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-muse-glimmer-on-12-amd-v620",
-      "source": "localllama",
-      "title": "Muse Glimmer on 1/2 AMD v620",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkzdbl/muse_glimmer_on_12_amd_v620/",
-      "published_at": "2026-08-10T22:24:38Z",
-      "summary": "Hey. Just tried it on my old ass gpus 😄 Surprisingly Tensor Split is working on 2 gpus almost doubling PP (wonder how it will work with 4 gpus) Q6 — 1 GPU  llama-server \\ --model &lt;MODEL_DIR&gt;/Muse-Glimmer-30B-GGUF/M",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-ling-30-flash-on-strix-halo",
-      "source": "localllama",
-      "title": "Ling 3.0 Flash on Strix Halo",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkz5do/ling_30_flash_on_strix_halo/",
-      "published_at": "2026-08-10T22:15:36Z",
-      "summary": "      vLLM ROCm/HiP, 4 bit compressed-tensors (int4) Not a fair comparison, but Qwen-122b on the most optimized format possible I have run (rocmFP4) does not touch Ling in speed. https://x.com/ciruai/status/2085996633267",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-i-trained-a-1b-parameter-llm-from-scratch-on-20b-tokens-for",
-      "source": "localllama",
-      "title": "I trained a 1B-parameter LLM from scratch on 20B tokens for about $200",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkydi5/i_trained_a_1bparameter_llm_from_scratch_on_20b/",
-      "published_at": "2026-08-10T21:44:43Z",
-      "summary": "      A few months ago, I had the idea of making a LLM from scratch as a personal project (for learning and partly for improving my resume). Since I learned a lot from other posts on here over the past year, I wanted to ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-10-muse-glimmer-benchmark",
-      "source": "localllama",
-      "title": "Muse glimmer benchmark",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkxpnd/muse_glimmer_benchmark/",
-      "published_at": "2026-08-10T21:19:10Z",
-      "summary": "      Little less smart than Qwen, but way fewer tokens per task.  &#32; submitted by &#32;  /u/NoFaithlessness951   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
