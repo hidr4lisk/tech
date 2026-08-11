@@ -1,6 +1,138 @@
 {
-  "updated_at": "2026-08-11T13:15:37Z",
+  "updated_at": "2026-08-11T19:07:25Z",
   "items": [
+    {
+      "id": "localllama-2026-08-11-nvidia-nemo-switchyard",
+      "source": "localllama",
+      "title": "Nvidia Nemo Switchyard",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlny3v/nvidia_nemo_switchyard/",
+      "published_at": "2026-08-11T17:25:57Z",
+      "summary": "https://github.com/NVIDIA-NeMo/Switchyard Finally an open source LLM router. An alternative to openrouter fusion and Sakana Fugu. Doesn&#39;t look like it does exactly what Sakana Fugu does according to its ICLR papers b",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-ling-30-flash-quant-ladder-on-one-dgx-spark-the-whole-thing",
+      "source": "localllama",
+      "title": "Ling-3.0-flash quant ladder on one DGX Spark: the whole thing sits in a 32 to 40 tok/s band",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlmun8/ling30flash_quant_ladder_on_one_dgx_spark_the/",
+      "published_at": "2026-08-11T16:47:20Z",
+      "summary": "      The interesting part of this one isn&#39;t the top number, it&#39;s how little distance there is between the top and the bottom of the ladder. Where it comes from: I work on Ling at inclusionAI, these aren&#39;t my",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-muse-glimmer-30b-running-locally-in-browser-with-custom-webg",
+      "source": "localllama",
+      "title": "Muse Glimmer 30B running locally in-browser with custom WebGPU kernels at ~25 tok/s on an M4 Max (same speed as llama.cpp)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlmnd4/muse_glimmer_30b_running_locally_inbrowser_with/",
+      "published_at": "2026-08-11T16:39:58Z",
+      "summary": "      &#32; submitted by &#32;  /u/xenovatech   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-deepseek-v4-flash-0731-at-27-ts-decode-on-strix-halo-vulkan",
+      "source": "localllama",
+      "title": "DeepSeek V4 Flash 0731 at 27+ t/s decode on Strix Halo — Vulkan + DSpark full guide",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlmh0b/deepseek_v4_flash_0731_at_27_ts_decode_on_strix/",
+      "published_at": "2026-08-11T16:33:30Z",
+      "summary": "Been benchmarking DSv4 Flash 0731 on a Flow Z13 (Ryzen AI MAX+ 395, Radeon 8060S / gfx1151, 128GB LPDDR5X) for the past week. Figured I&#39;d share what actually works and what doesn&#39;t — there are a lot of gotchas on",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-nvidianvidia-nemotron-35-lightning-30b-a3b-bf16",
+      "source": "localllama",
+      "title": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vllhz2/nvidianvidianemotron35lightning30ba3bbf16/",
+      "published_at": "2026-08-11T15:58:47Z",
+      "summary": "      &#32; submitted by &#32;  /u/TheRealMasonMac   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-encrypted-reasoning-from-closedai-et-al-100-recoverable",
+      "source": "localllama",
+      "title": "Encrypted reasoning from ClosedAI et al 100% recoverable",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vllbjh/encrypted_reasoning_from_closedai_et_al_100/",
+      "published_at": "2026-08-11T15:52:12Z",
+      "summary": "Interesting examples in the link Paper here: https://arxiv.org/abs/2608.09867 This is your prompt to go out and give us 10mil rows of Opus 5 traces on hf before they fix this workaround  &#32; submitted by &#32;  /u/Dany",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-i-built-a-weird-low-power-llamacpp-server-using-an-intel-n10",
+      "source": "localllama",
+      "title": "I built a weird, low-power llama.cpp server using an Intel N100 + RTX 5060Ti",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vljtv2/i_built_a_weird_lowpower_llamacpp_server_using_an/",
+      "published_at": "2026-08-11T14:58:36Z",
+      "summary": "      Everything started with the sudden death of my old ASRock J1900. While looking for the perfect ITX replacement, I stumbled upon the Chinese CW-NAS-ADLN-K motherboard, which looked perfect on paper: Intel N100, DDR5",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-introducing-unsloth-desktop-app",
+      "source": "localllama",
+      "title": "Introducing Unsloth Desktop app",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlj87v/introducing_unsloth_desktop_app/",
+      "published_at": "2026-08-11T14:36:02Z",
+      "summary": "      Hi LocalLlama, we&#39;re super excited to release Unsloth Desktop today! 🦥 It&#39;s the first desktop app that enables you to run and train models locally. Open-source. Available on Mac, Windows, and Linux  Support",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-i-put-gemma-4-e4b-and-e2b-into-an-e-reader-so-i-can-ask-my-w",
+      "source": "localllama",
+      "title": "I put Gemma 4 E4B and E2B into an e-reader so I can ask my weird questions and share my thoughts in private directly in app.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlicb0/i_put_gemma_4_e4b_and_e2b_into_an_ereader_so_i/",
+      "published_at": "2026-08-11T14:02:34Z",
+      "summary": "      Here&#39;s how it works in the app:  Framework: Runs on LiteRT-LM (like Google&#39;s AI Edge). Models: Downloads either the E2B (~2.5 GB) or E4B (~3.6 GB) INT4 quantized models directly from ungated litert-communit",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-08-11-thinking-of-ace-we-can-do-it-with-fewer-tokens",
+      "source": "huggingface",
+      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "published_at": "2026-08-11T13:37:10Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-cjk-mangamanhwamanhua-150m-ocr-model-hayai-ocr-v2-outperform",
+      "source": "localllama",
+      "title": "CJK Manga/Manhwa/Manhua 150M OCR model (hayai-ocr-v2) outperforming PaddleOCR-VL-For-Manga",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlhjb3/cjk_mangamanhwamanhua_150m_ocr_model_hayaiocrv2/",
+      "published_at": "2026-08-11T13:30:31Z",
+      "summary": "      https://preview.redd.it/o7794vsszqih1.png?width=687&amp;format=png&amp;auto=webp&amp;s=3b217db46fb51c517e103d12e2e2ca9813b7774f https://preview.redd.it/ci1as7nmzqih1.png?width=800&amp;format=png&amp;auto=webp&amp;s",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-11-nvidianvidia-nemotron-35-lightning-30b-a3b-bf16-hugging-face",
+      "source": "localllama",
+      "title": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16 · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlh9fg/nvidianvidianemotron35lightning30ba3bbf16_hugging/",
+      "published_at": "2026-08-11T13:19:16Z",
+      "summary": "      &#32; submitted by &#32;  /u/coder543   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-11-the-small-open-weight-models-are-scarier-in-ai-development",
       "source": "localllama",
@@ -8,127 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlfyn4/the_small_open_weight_models_are_scarier_in_ai/",
       "published_at": "2026-08-11T12:23:56Z",
       "summary": "Imagine if your everyday laptop could run an AI model smart enough to take care of 90% of your work—totally private, lightning fast, and completely free of monthly fees. That is the exact tipping point of history where t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-revision-prompting-trades-slow-decoded-output-tokens-for-che",
-      "source": "localllama",
-      "title": "Revision Prompting: Trades slow (decoded) output tokens for cheap (prefilled) input tokens.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlfxr3/revision_prompting_trades_slow_decoded_output/",
-      "published_at": "2026-08-11T12:22:48Z",
-      "summary": "TL;DR: If you re-run the same prompt whenever the input changes, try sending the old input/output plus a diff of the input, and ask the model for a patch to the output. You generate ~2-10x fewer output tokens, and the un",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-we-even-got-a-fgn-manifesto-meta-is-on-a-run",
-      "source": "localllama",
-      "title": "We even got a fgn manifesto!! Meta is on a run!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlemgr/we_even_got_a_fgn_manifesto_meta_is_on_a_run/",
-      "published_at": "2026-08-11T11:19:22Z",
-      "summary": "      Zuck argues for releasing more open-weight models and invites governments to work with AI makers to test safety..who&#39;s I have yet to figure.   &#32; submitted by &#32;  /u/uhuge   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-tested-in-coding-bf16-muse-glimmer-vs-bf16-qwen36-27b",
-      "source": "localllama",
-      "title": "Tested in Coding: BF16 Muse Glimmer vs BF16 Qwen3.6 27B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vldngi/tested_in_coding_bf16_muse_glimmer_vs_bf16_qwen36/",
-      "published_at": "2026-08-11T10:27:34Z",
-      "summary": "I&#39;m guessing that many people have been waiting for this comparison. For clarity, both models are running at full FP16 KV-cache. Due to VRAM limitations, Muse Glimmer is running full 262,144 context, whilst Qwen3.6 2",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-what-can-us-8-gb-vram-poors-do",
-      "source": "localllama",
-      "title": "What can us 8 GB VRAM poors do?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlc4wn/what_can_us_8_gb_vram_poors_do/",
-      "published_at": "2026-08-11T08:59:45Z",
-      "summary": "I want to hook up a local model to Cline, but it seems the best model is still just Qwen 3.5 9B. Please can we have a Qwen 3.8 9B that gets close to Qwen 3.6 27B?  &#32; submitted by &#32;  /u/Aggravating-Push-207   [lin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-luth-2-new-state-of-the-art-french-small-language-models",
-      "source": "localllama",
-      "title": "Luth-2: New State-of-the-Art French Small Language Models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlbto8/luth2_new_stateoftheart_french_small_language/",
-      "published_at": "2026-08-11T08:41:13Z",
-      "summary": "      Hey everyone, Today we release Luth-2-0.8B and Luth2-2-2B, two non-reasoning models that set a new state of the art for French across a wide variety of tasks for their size 🚀 A few notable scores on French benchmar",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-deepseek-v4-flash-acting-as-my-linux-sysadmin",
-      "source": "localllama",
-      "title": "DeepSeek-V4-Flash acting as my Linux sysadmin",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlb90f/deepseekv4flash_acting_as_my_linux_sysadmin/",
-      "published_at": "2026-08-11T08:07:42Z",
-      "summary": "      I&#39;m very happy with some Linux admin tasks I&#39;m throwing at a locally running DeepSeek. My request was simple, check why &#39;samples&#39; folder is taking more and more space on one of the machines on my LA",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-why-have-8b-12b-models-been-dropped",
-      "source": "localllama",
-      "title": "Why have 8B-12B models been dropped?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlazx6/why_have_8b12b_models_been_dropped/",
-      "published_at": "2026-08-11T07:52:50Z",
-      "summary": "I am a Macbook Pro M4 user with the 16GB of unified ram. The best model I have been able to run on LM Studio is Gemma4 12B QAT, this model is 66 days old. After that the next best thing LM studio suggests is Nemotron 3 N",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-rumored-50-series-super-refresh-bumps-everything-50-vram",
-      "source": "localllama",
-      "title": "Rumored 50-series Super refresh bumps everything +50% VRAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlad91/rumored_50series_super_refresh_bumps_everything/",
-      "published_at": "2026-08-11T07:15:39Z",
-      "summary": "      leaked Super specs have the 5070 Ti and 5080 going 16GB to 24GB and the 5070 to 18GB, thanks to the new 3GB GDDR7 modules. 24GB on a Ti-class card is actually the number people here have been waiting for. thats eno",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-add-ci-targets-for-rocm-714-by-superm1-pull-request-25775-gg",
-      "source": "localllama",
-      "title": "Add CI targets for ROCm 7.14 by superm1 · Pull Request #25775 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl9t2k/add_ci_targets_for_rocm_714_by_superm1_pull/",
-      "published_at": "2026-08-11T06:43:09Z",
-      "summary": "      Available b10356 onwards. Overview ROCm 7.14 is the first production release using TheRock build system. It can be installed using multi-arch deliverables from wheels, debs, rpms, tarballs or runfiles. Add llama.cp",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-i-ran-muse-glimmer-1m-context---all-tests-passed",
-      "source": "localllama",
-      "title": "I ran Muse Glimmer @ 1M context - All tests passed.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl9adk/i_ran_muse_glimmer_1m_context_all_tests_passed/",
-      "published_at": "2026-08-11T06:13:04Z",
-      "summary": "Heeeey all! I just completed some fun tests with Muse Glimmer, I thought I&#39;d let you know. In fact, the summary below was written by Muse itself! I ran a 2× DGX Spark cluster and got Meta&#39;s day-old Muse Glimmer 3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-11-muse-glimmer-30b-dflash-speculative-decoding-on-vllm-6-patch",
-      "source": "localllama",
-      "title": "Muse Glimmer 30B + DFlash speculative decoding on vLLM: 6 patches needed, 25 → 57 tok/s. Dockerfile and numbers inside.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl8zt9/muse_glimmer_30b_dflash_speculative_decoding_on/",
-      "published_at": "2026-08-11T05:56:56Z",
-      "summary": "The vLLM recipe page for Muse Glimmer has this for speculative decoding: --speculative-config &#39;{&quot;method&quot;: &quot;dflash&quot;, &quot;model&quot;: &quot;meta-models/Muse-Glimmer-30B-assistant&quot;, &quot;num",
       "tags": [
         "localllama"
       ]
@@ -425,17 +436,6 @@
       "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
       "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
       "published_at": "2026-07-27T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-07-23-bringing-nunchaku-4-bit-diffusion-inference-to-diffusers",
-      "source": "huggingface",
-      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-      "url": "https://huggingface.co/blog/nunchaku-diffusers",
-      "published_at": "2026-07-23T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"
