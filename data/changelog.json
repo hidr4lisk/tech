@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-12T02:20:25Z",
+  "updated_at": "2026-08-12T07:38:55Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10369",
+      "project": "llama-cpp",
+      "version": "b10369",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10369",
+      "published_at": "2026-08-12T04:52:57Z",
+      "body_excerpt": "mtmd: support pocket-tts (#26871) adapt the api text model ok working impl, need verify and clean up mtmd: build the pocket-tts transposed convolutions as GEMM + col2im ggml_conv_transpose_1d has no grouped mode, so the depthwise upsample was built as one convolution and one concat per channel, which floods the graph with small nodes and makes kernel launches dominate the decoder. Fold both cases ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10362",
       "project": "llama-cpp",
@@ -9558,15 +9567,6 @@
       "published_at": "2026-05-15T01:53:50Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "ollama-v0.24.0",
-      "project": "ollama",
-      "version": "v0.24.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
-      "published_at": "2026-05-14T02:24:24Z",
-      "body_excerpt": "Codex App Ollama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality. Built-in browser Codex can load local servers and sites in its built-in browser, enabling you to directly annotate on the page to request changes. Review mode Review code inside the app, leave comments, and iterate with",
-      "type": "tool"
     }
   ]
 }
