@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T13:19:49Z",
+  "updated_at": "2026-08-12T19:06:27Z",
   "releases": [
     {
       "id": "llama-cpp-b10375",
@@ -342,6 +342,24 @@
       "published_at": "2026-08-08T06:04:14Z",
       "body_excerpt": "CUDA: fix thread/block count in quantized cpy kernel launches (#26731) CUDA: fix thread/block count in quantized cpy kernel launches tests: add uneven block count cpy case Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
       "type": "tool"
+    },
+    {
+      "id": "hf-Qwen-Qwen3.8-2.4T-A95B",
+      "project": "Qwen",
+      "version": "Qwen3.8-2.4T-A95B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "published_at": "2026-08-08T01:50:52Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-Qwen3.8-2.4T-A95B-FP8",
+      "project": "Qwen",
+      "version": "Qwen3.8-2.4T-A95B-FP8",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
+      "published_at": "2026-08-08T01:49:49Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "sglang-v0.5.17",
