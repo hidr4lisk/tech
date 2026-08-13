@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T07:41:06Z",
+  "updated_at": "2026-08-13T13:21:24Z",
   "releases": [
     {
       "id": "llama-cpp-b10405",
@@ -18,6 +18,15 @@
       "published_at": "2026-08-13T06:03:55Z",
       "body_excerpt": "ggml : fix arm builds, unused var (#26991) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
       "type": "tool"
+    },
+    {
+      "id": "hf-deepseek-ai-DeepSeek-V4-Pro-0813",
+      "project": "deepseek-ai",
+      "version": "DeepSeek-V4-Pro-0813",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "published_at": "2026-08-13T03:05:06Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.32.10-rc1",
@@ -9593,15 +9602,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.5",
       "published_at": "2026-05-16T16:44:56Z",
       "body_excerpt": "What's Changed Bug fixes :bug: fix(ollama): guard nil filter in galleryop.ListModels (#9817) by @localai-bot in realtime: honor output_modalities to skip TTS in text-only mode by @localai-bot in fix(ollama): accept float-encoded integer options (fixes #9837) by @localai-bot in Other Changes chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in feat(llama-cpp): expose 12 missing common_",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.21.0",
-      "project": "vllm",
-      "version": "v0.21.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
-      "published_at": "2026-05-15T08:44:26Z",
-      "body_excerpt": "Highlights This release features 367 commits from 202 contributors (49 new)! Transformers v4 deprecated: This release formally deprecates v4 support (#40389). Users should migrate to v5. C++20 build requirement: vLLM now requires a C++20-compatible compiler for compatibility with PyTorch (#40380). This is a breaking build change. KV Offload + Hybrid Memory Allocator (HMA): The KV offloading subsys",
       "type": "tool"
     }
   ]
