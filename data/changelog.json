@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-13T02:22:06Z",
+  "updated_at": "2026-08-13T07:41:06Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10405",
+      "project": "llama-cpp",
+      "version": "b10405",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10405",
+      "published_at": "2026-08-13T07:32:37Z",
+      "body_excerpt": "ggml-hip : remove -funsafe-math-optimizations (#26696) It enables -fassociative-math, which reassociates FP reductions and can flip greedy argmax on RDNA3.5 (e.g. MTP speculative decode diverging from the non-speculative baseline). Drop it so HIP builds are IEEE-conformant. Co-authored-by: Jim Wu Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10400",
+      "project": "llama-cpp",
+      "version": "b10400",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10400",
+      "published_at": "2026-08-13T06:03:55Z",
+      "body_excerpt": "ggml : fix arm builds, unused var (#26991) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.32.10-rc1",
       "project": "ollama",
@@ -9585,24 +9603,6 @@
       "published_at": "2026-05-15T08:44:26Z",
       "body_excerpt": "Highlights This release features 367 commits from 202 contributors (49 new)! Transformers v4 deprecated: This release formally deprecates v4 support (#40389). Users should migrate to v5. C++20 build requirement: vLLM now requires a C++20-compatible compiler for compatibility with PyTorch (#40380). This is a breaking build change. KV Offload + Hybrid Memory Allocator (HMA): The KV offloading subsys",
       "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-Lens-Base",
-      "project": "microsoft",
-      "version": "Lens-Base",
-      "url": "https://huggingface.co/microsoft/Lens-Base",
-      "published_at": "2026-05-15T06:08:02Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Lens-Turbo",
-      "project": "microsoft",
-      "version": "Lens-Turbo",
-      "url": "https://huggingface.co/microsoft/Lens-Turbo",
-      "published_at": "2026-05-15T06:06:39Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
