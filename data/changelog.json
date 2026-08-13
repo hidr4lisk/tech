@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-08-13T13:21:24Z",
+  "updated_at": "2026-08-13T19:07:19Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10414",
+      "project": "llama-cpp",
+      "version": "b10414",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10414",
+      "published_at": "2026-08-13T18:40:34Z",
+      "body_excerpt": "metal : add TQ2_0 support (#26980) metal: add TQ2_0 support Add support for the GGML_TYPE_TQ2_0 (ternary, 2 bits per element) type in the Metal backend. Assisted-by: llama.cpp:DeepSeek-v4-Flash-0731 cont : optimize mul_mv kernel float ops over integer ops precalculate sums hoist coef out of the inner loop contiguous y loads llama.cpp:DeepSeek-v4-Flash-0731 Website: macOS/iOS: macOS Apple Silicon (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10413",
+      "project": "llama-cpp",
+      "version": "b10413",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10413",
+      "published_at": "2026-08-13T17:58:50Z",
+      "body_excerpt": "common : auto-detect spec type from draft GGUF metadata (#26814) common : auto-detect spec type from draft GGUF metadata When -md loads a local draft model without --spec-type, the sidecar inference in common_models_handler_apply only checks HF repo sidecars and misses local files. The draft model loads into VRAM but speculative decoding never activates (types stays NONE). Read general.architectur",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10412",
+      "project": "llama-cpp",
+      "version": "b10412",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10412",
+      "published_at": "2026-08-13T17:17:01Z",
+      "body_excerpt": "spec: enable backend sampling for both dflash & dspark (#26958) dflash: enable backend sampling for both dflash & dspark enable p_min > 0 in backend sampling and add guard cont : add TODO --------- Co-authored-by: Georgi Gerganov Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10411",
+      "project": "llama-cpp",
+      "version": "b10411",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10411",
+      "published_at": "2026-08-13T16:36:03Z",
+      "body_excerpt": "ggml-cpu/ops: vectorize flash-attention V-cache F16 to F32 conversion (#26947) Co-authored-by: jinzihao Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10410",
+      "project": "llama-cpp",
+      "version": "b10410",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10410",
+      "published_at": "2026-08-13T15:52:34Z",
+      "body_excerpt": "sycl: remove separate fp32 type promotion in gemm non-oneDNN path (#26372) sycl: use automatic fp16 promotion in gemm sycl: remove redundant comment Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.702-beta",
+      "project": "unsloth",
+      "version": "v0.1.702-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.702-beta",
+      "published_at": "2026-08-13T15:21:18Z",
+      "body_excerpt": "Unsloth Desktop is here! The first desktop app to run and train AI models locally. Research, export and deploy from the same open-source app on Windows, macOS and Linux. v0.1.702-beta Update (August 13th) Added tool calling / web search & more for all external providers Fixed bypass permissions not working for sandboxing UI and UX fixes - VRAM usage is now tunable 10% faster inference + reduced VR",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10408",
+      "project": "llama-cpp",
+      "version": "b10408",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10408",
+      "published_at": "2026-08-13T14:30:05Z",
+      "body_excerpt": "sycl : Add DMMV ESIMD Q3_K kernel (#26251) Add DMMV Q4_K and Q6_K ESIMD kernels Configure cmake build with -DGGML_SYCL_ESIMD=ON to enable. Signed-off-by: Todd Malsbary Refactor ESIMD kernels to share common code Signed-off-by: Todd Malsbary Move control of ESIMD from compile to runtime Signed-off-by: Todd Malsbary Use ESIMD by default when available Signed-off-by: Todd Malsbary Fix possible error ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10405",
       "project": "llama-cpp",
@@ -33,6 +96,15 @@
       "project": "ollama",
       "version": "v0.32.10-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.10-rc1",
+      "published_at": "2026-08-12T22:36:49Z",
+      "body_excerpt": "What's Changed Models that don't set a now default to 1.0 (off) instead of 1.1, matching other engines and speeding up speculative decoding; set a per-model parameter if an older model repeats itself. Faster prefill on NVFP4 MLX models with a global scale, about 7–8% on Qwen3.6 and Muse Glimmer. Fixed blob verification being skipped when an OCI manifest's config and layer share a digest. New Contr",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.10",
+      "project": "ollama",
+      "version": "v0.32.10",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.10",
       "published_at": "2026-08-12T22:36:49Z",
       "body_excerpt": "What's Changed Models that don't set a now default to 1.0 (off) instead of 1.1, matching other engines and speeding up speculative decoding; set a per-model parameter if an older model repeats itself. Faster prefill on NVFP4 MLX models with a global scale, about 7–8% on Qwen3.6 and Muse Glimmer. Fixed blob verification being skipped when an OCI manifest's config and layer share a digest. New Contr",
       "type": "tool"
@@ -2826,6 +2898,15 @@
       "published_at": "2026-07-15T03:24:21Z",
       "body_excerpt": "opencl: do not use when targeting CL 2.x (#25673) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU)",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-StormScope-NSRDB",
+      "project": "nvidia",
+      "version": "StormScope-NSRDB",
+      "url": "https://huggingface.co/nvidia/StormScope-NSRDB",
+      "published_at": "2026-07-15T01:01:32Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10012",
