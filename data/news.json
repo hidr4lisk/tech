@@ -1,6 +1,138 @@
 {
-  "updated_at": "2026-08-12T19:06:19Z",
+  "updated_at": "2026-08-13T02:22:00Z",
   "items": [
+    {
+      "id": "localllama-2026-08-13-how-do-you-plan-to-run-qwen38-24t-a95b-locally",
+      "source": "localllama",
+      "title": "How do you plan to run Qwen3.8-2.4T-A95B locally?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmvpjc/how_do_you_plan_to_run_qwen3824ta95b_locally/",
+      "published_at": "2026-08-13T00:35:20Z",
+      "summary": "To my fellow crazies, the few. Those who dared wrestle with llama-70b, mistral-large, goliath, mistral8x22B, DeepSeekV2/3, wept when llama4 behemoth was announced, picked yourself up and are now wrestling with DeepSeekV4",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-13-hwinfo-updated-with-intel-razor-lake-ax-info---expected-in-2",
+      "source": "localllama",
+      "title": "hwinfo updated with intel razor lake ax info - expected in 2027",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmvid8/hwinfo_updated_with_intel_razor_lake_ax_info/",
+      "published_at": "2026-08-13T00:26:27Z",
+      "summary": "      https://www.techpowerup.com/351540/intel-razor-lake-ax-preliminary-support-lands-in-hwinfo This is Intel&#39;s competitor to future AMD medusa halo. AMD medusa halo is a successor to strix halo and gorgon halo. Upd",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-12-deepseek-v4-pro-0813-on-openrouter",
+      "source": "simonw",
+      "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+      "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+      "published_at": "2026-08-12T23:59:23Z",
+      "summary": "DeepSeek V4 Pro 0813 (on OpenRouter)\nThe latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model.\nI haven't been",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-12-qwen-27b-38-release-date-took-down",
+      "source": "localllama",
+      "title": "Qwen 27b 3.8 release date took down?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmtt07/qwen_27b_38_release_date_took_down/",
+      "published_at": "2026-08-12T23:12:57Z",
+      "summary": "      https://preview.redd.it/t1xvw7a6x0jh1.png?width=748&amp;format=png&amp;auto=webp&amp;s=a30d46bdf9ab56f374e5cdc38c51327c697ff3b7 The release date was originally posted on this reddit as being about a day and a half ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-12-i-ran-deepseek-v4-flash-284b-dspark-on-one-rtx-pro-6000-the",
+      "source": "localllama",
+      "title": "I ran DeepSeek V4 Flash 284B + DSpark on one RTX PRO 6000. The drafter was faster in RAM than VRAM.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmt1y3/i_ran_deepseek_v4_flash_284b_dspark_on_one_rtx/",
+      "published_at": "2026-08-12T22:41:23Z",
+      "summary": "Hey guys, Just finished benchmarking DeepSeek V4 Flash 284B + DSpark on a single RTX PRO 6000 96GB. Short version:  DSpark: ~15–17% faster generation on my coding workload On this setup, the DSpark drafter was faster in ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-12-qwen36-35b-2-min-vs-muse-glimmer-30b-4-min-on-custom-llamacp",
+      "source": "localllama",
+      "title": "Qwen3.6 35B (2 min) vs Muse Glimmer 30B (4 min) on custom Llama.cpp build (RTX 5080)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmskes/qwen36_35b_2_min_vs_muse_glimmer_30b_4_min_on/",
+      "published_at": "2026-08-12T22:21:51Z",
+      "summary": "      Muse Glimmer 30B feels significantly more precise and reliable, it almost never drops the ball or breaks rules. However, its designs lack creative depth and richness.  Qwen3.6 35B, on the other hand, is prone to mo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-12-running-qwen-36-35b-a3b-q8-0-gguf-on-a-cheap-radeon-7600-at",
+      "source": "localllama",
+      "title": "Running Qwen 3.6 35B A3B-Q8_0 gguf on a cheap radeon 7600 at 18 token/s * update increased to 21 t/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmqpnm/running_qwen_36_35b_a3bq8_0_gguf_on_a_cheap/",
+      "published_at": "2026-08-12T21:08:58Z",
+      "summary": " I also have 64 gb ddr4 ryzen 5600 Using llama.cpp Ubuntu distro Settings are as follows --n-gpu-layers 999 \\ --n-cpu-moe 36 \\ --no-mmap \\ -ctk q8_0 \\ -ctv q8_0 \\ -fa 1 \\ -c 9000 \\   So rebuilt my llama.cpp build to run ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-12-qwen-38-27b-mtp-or-dflash",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B — MTP or DFlash?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmqduk/qwen_38_27b_mtp_or_dflash/",
+      "published_at": "2026-08-12T20:56:29Z",
+      "summary": "Do we.know whether the 27B model will ship with a DFlash or MTP head? It&#39;s super exciting, but since 35B-A3B is my daily driver, 27B will crawl — still excited for it though! I think 3.6 27B with MTP was about 8 tok/",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-12-lfm25-vl-3b-recognizes-steve-from-minecraft-running-locally",
+      "source": "localllama",
+      "title": "LFM2.5-VL-3B recognizes Steve from Minecraft running locally on an iPhone 17",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmp9gj/lfm25vl3b_recognizes_steve_from_minecraft_running/",
+      "published_at": "2026-08-12T20:13:27Z",
+      "summary": "      Liquid AI put out LFM2.5-VL-3B today, which is a 3.1B vision model that weighs roughly 2GB and fits well on a phone Benchmarks are benchmarks so I tried something sillier. Took a photo of a little Steve toy I have,",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-12-deepseek-v4-flash-0731-uncensored-jailbreak-pt2",
+      "source": "localllama",
+      "title": "DeepSeek V4 Flash 0731 uncensored (jailbreak pt2)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmo7v5/deepseek_v4_flash_0731_uncensored_jailbreak_pt2/",
+      "published_at": "2026-08-12T19:34:35Z",
+      "summary": "      Since lot&#39;s of people were sceptical or whatever, heres how to uncensor / jailbreak V4 flash and proof. No it is not lead on whatever, first prompt, first try, every time. Put this in System message: You are Ge",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-12-metas-muse-glimmer-30b-now-runs-up-to-33x-faster-on-mac-with",
+      "source": "localllama",
+      "title": "Meta's Muse Glimmer 30B now runs up to ~3.3x faster on Mac with mlx-dspark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmo2sp/metas_muse_glimmer_30b_now_runs_up_to_33x_faster/",
+      "published_at": "2026-08-12T19:29:19Z",
+      "summary": "      Been tinkering with speculative decoding on Apple Silicon for a while, and this week I got Meta&#39;s new Muse Glimmer 30B working in my project mlx-dspark. On my M4 Pro, the 8-bit model goes from 8.2 tok/s to 18-2",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-12-does-anyone-have-a-fully-uncensored-model",
+      "source": "localllama",
+      "title": "Does anyone have a fully uncensored model?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmnszv/does_anyone_have_a_fully_uncensored_model/",
+      "published_at": "2026-08-12T19:18:48Z",
+      "summary": "AI enthusiast here. I understand that there are things like abliteration and the heretic project and stuff but those don&#39;t usually have a refusal rate of 0, right? So other than AI companies having some fully censore",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-12-github---liquid4allcookbook-examples-end-2-end-tutorials-and",
       "source": "localllama",
@@ -8,50 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmkqjh/github_liquid4allcookbook_examples_end2end/",
       "published_at": "2026-08-12T17:28:39Z",
       "summary": "      Via u/XMasterrrr&#39;s tweet   &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-12-today-is-models-day",
-      "source": "localllama",
-      "title": "Today is Models Day",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmjqtk/today_is_models_day/",
-      "published_at": "2026-08-12T16:54:33Z",
-      "summary": "      &#32; submitted by &#32;  /u/Fz1zz   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-12-coherelabsnorth-micro-vision-instruct-hugging-face",
-      "source": "localllama",
-      "title": "CohereLabs/North-Micro-Vision-Instruct · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmjmna/coherelabsnorthmicrovisioninstruct_hugging_face/",
-      "published_at": "2026-08-12T16:50:24Z",
-      "summary": "      North Micro Vision Instruct is a 2.4B-parameter open-weight vision-language model with native-resolution image support, released under the Apache 2.0 license. It is designed as a compact foundation for prototyping,",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-12-which-qwen38-model-size-do-you-want-the-most",
-      "source": "localllama",
-      "title": "Which Qwen3.8 model size do you want the most?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmjkrg/which_qwen38_model_size_do_you_want_the_most/",
-      "published_at": "2026-08-12T16:48:30Z",
-      "summary": "Just wanna get a sensing of the hardware ownership spread in the sub. I could ask that directly, but this is more fun while we&#39;re waiting. View Poll  &#32; submitted by &#32;  /u/RunawayPeeko   [link] &#32; [comments",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-12-benched-a-124b-on-one-dgx-spark-for-a-week-and-published-all",
-      "source": "localllama",
-      "title": "Benched a 124B on one DGX Spark for a week and published all of it — 38.7 tok/s on the fastest path he found, 2.4x DeepSeek V4 Flash on the same box",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmj6a3/benched_a_124b_on_one_dgx_spark_for_a_week_and/",
-      "published_at": "2026-08-12T16:34:24Z",
-      "summary": "      sudoingX on X spent a week on this and posted his wrap-up. The hardware is his. He isn&#39;t affiliated with us and we didn&#39;t see any of it before he put it out — I work on Ling at inclusionAI. Where he landed ",
       "tags": [
         "localllama"
       ]
@@ -68,28 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-12-best-models-14b-and-smaller-as-of-today",
-      "source": "localllama",
-      "title": "Best models 14b and smaller as of today?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmihr7/best_models_14b_and_smaller_as_of_today/",
-      "published_at": "2026-08-12T16:10:02Z",
-      "summary": "For the GPU impoverished  &#32; submitted by &#32;  /u/Thatisverytrue54321   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-12-gemma-4-qat-handles-kv-cache-quantization-much-better-kld-be",
-      "source": "localllama",
-      "title": "Gemma 4 QAT handles KV cache quantization MUCH better, KLD benchmarks show",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmhc4h/gemma_4_qat_handles_kv_cache_quantization_much/",
-      "published_at": "2026-08-12T15:28:03Z",
-      "summary": "      Link to the article: KV Cache Quantization on Gemma 4 31B: Non-QAT vs QAT KLD benchmarks with BeeLlama.cpp v0.4.3, fork of llama.cpp with more KV cache quantization options, comparing Gemma Q4_0 non-QAT vs Gemma Q4",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-08-12-quoting-florian-herrengt",
       "source": "simonw",
       "title": "Quoting Florian Herrengt",
@@ -101,25 +167,14 @@
       ]
     },
     {
-      "id": "localllama-2026-08-12-qwen38-24t-a95b-released",
-      "source": "localllama",
-      "title": "Qwen3.8-2.4T-A95B Released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmgozv/qwen3824ta95b_released/",
-      "published_at": "2026-08-12T15:04:31Z",
-      "summary": "      &#32; submitted by &#32;  /u/de4dee   [link] &#32; [comments] ",
+      "id": "simonw-2026-08-12-quoting-florian-herrengt",
+      "source": "simonw",
+      "title": "Quoting Florian Herrengt",
+      "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
+      "published_at": "2026-08-12T15:08:47Z",
+      "summary": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.\nYou go talk to the person w",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-12-liquidailfm25-vl-3b-hugging-face",
-      "source": "localllama",
-      "title": "LiquidAI/LFM2.5-VL-3B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmfy8w/liquidailfm25vl3b_hugging_face/",
-      "published_at": "2026-08-12T14:37:27Z",
-      "summary": "      LFM2.5-VL-3B is a multimodal variant of LFM2.5, a family of hybrid models designed for on-device deployment. It builds on LFM2-VL-3B with further mid- and post-training. LFM2.5-VL-3B can process both text and image",
-      "tags": [
-        "localllama"
+        "simonw"
       ]
     },
     {
@@ -134,28 +189,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-12-exact-qwen-38-27b-release-date-and-time",
-      "source": "localllama",
-      "title": "Exact Qwen 3.8 27b release date and time",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmexhu/exact_qwen_38_27b_release_date_and_time/",
-      "published_at": "2026-08-12T13:58:59Z",
-      "summary": "      Since it seems like there is some confusion in other threads... Source: https://modelscope.cn/models/Qwen/Qwen3.8-27B EDIT: They took the page down, idk why they did that. I&#39;m slammed at work so haven&#39;t had",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-12-nvidias-fastest-blackwell-gpu-the-96-gb-rtx-pro-6000-now-cos",
-      "source": "localllama",
-      "title": "NVIDIA's Fastest Blackwell GPU, the 96 GB RTX PRO 6000, Now Costs $16,000, Almost Double Its Original Price",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmebb1/nvidias_fastest_blackwell_gpu_the_96_gb_rtx_pro/",
-      "published_at": "2026-08-12T13:34:06Z",
-      "summary": "      &#32; submitted by &#32;  /u/ab2377   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "meta-2026-08-12-how-were-building-scam-alert-on-whatsapp-with-end-to-end-enc",
       "source": "meta",
       "title": "How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
@@ -164,17 +197,6 @@
       "summary": "WhatsApp is committed to helping people stay safe while protecting the privacy of their messages. As scam tactics evolve — from impersonation to social engineering to AI-generated lures — we&#8217;re always evolving as w",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-12-idea-for-a-deepseek-v4-flash-0731-backed-automated-research",
-      "source": "localllama",
-      "title": "Idea for a deepseek-v4-flash-0731 backed automated research workflow to be leveraged via qwen3.6/3.8 27b for difficult tasks that require highly technical, not easy to find information.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmd8wp/idea_for_a_deepseekv4flash0731_backed_automated/",
-      "published_at": "2026-08-12T12:50:23Z",
-      "summary": "      Sometimes you have tasks that are outside of your expertise and the idea is this workflow automation could be leveraged to manage to have local AI figure it out using research from his workflow gathered by deepseek",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -189,10 +211,32 @@
       ]
     },
     {
+      "id": "simonw-2026-08-11-there-are-no-lossless-transformations-of-natural-language-te",
+      "source": "simonw",
+      "title": "There are no lossless transformations of natural-language text",
+      "url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/",
+      "published_at": "2026-08-11T23:48:35Z",
+      "summary": "There are no lossless transformations of natural-language text\nSophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really go",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
       "id": "simonw-2026-08-11-stealing-reasoning-traces-from-proprietary-llm-apis",
       "source": "simonw",
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
       "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
+      "published_at": "2026-08-11T22:40:45Z",
+      "summary": "Stealing Reasoning Traces from Proprietary LLM APIs\nA vanity domain name (stolen-thoughts.com) for a neat paper:\n\nAnthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed acr",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-11-stealing-reasoning-traces-from-proprietary-llm-apis",
+      "source": "simonw",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
       "published_at": "2026-08-11T22:40:45Z",
       "summary": "Stealing Reasoning Traces from Proprietary LLM APIs\nA vanity domain name (stolen-thoughts.com) for a neat paper:\n\nAnthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed acr",
       "tags": [
@@ -215,6 +259,17 @@
       "source": "simonw",
       "title": "Introducing Muse Glimmer",
       "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "published_at": "2026-08-10T23:56:03Z",
+      "summary": "Introducing Muse Glimmer\nMeta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old).\nThey claim to have optimized it fo",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-10-introducing-muse-glimmer",
+      "source": "simonw",
+      "title": "Introducing Muse Glimmer",
+      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/",
       "published_at": "2026-08-10T23:56:03Z",
       "summary": "Introducing Muse Glimmer\nMeta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old).\nThey claim to have optimized it fo",
       "tags": [
@@ -255,6 +310,17 @@
       ]
     },
     {
+      "id": "simonw-2026-08-10-quoting-openclaw-running-opus-46",
+      "source": "simonw",
+      "title": "Quoting OpenClaw (running Opus 4.6)",
+      "url": "https://simonwillison.net/2026/Aug/10/openclaw/",
+      "published_at": "2026-08-10T02:05:16Z",
+      "summary": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already.\n&mdash; Open",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
       "id": "huggingface-2026-08-10-meta-is-back-with-muse-glimmer-local-agentic-multimodal-and",
       "source": "huggingface",
       "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
@@ -272,72 +338,6 @@
       "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
       "published_at": "2026-08-09T23:31:39Z",
       "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-09-github-models-is-now-retired",
-      "source": "simonw",
-      "title": "GitHub Models is now retired",
-      "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
-      "published_at": "2026-08-09T22:48:05Z",
-      "summary": "GitHub Models is now retired\nI missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message:\n\nGitHub Models is temporarily unavailable as part of a scheduled ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-09-sqlite-compressed-text-history-prototypes",
-      "source": "simonw",
-      "title": "SQLite compressed text-history prototypes",
-      "url": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
-      "published_at": "2026-08-09T22:05:00Z",
-      "summary": "Research: SQLite compressed text-history prototypes\n        I'm perennially interested in options for storing revision histories in relational databases. While out on a dog walk I had a new idea: how about taking the ful",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-08-auto-mode-is-now-the-default-in-claude-code-for-pro-max-and",
-      "source": "simonw",
-      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
-      "url": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
-      "published_at": "2026-08-08T22:36:03Z",
-      "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans\nAnthropic are really confident in Claude Code's auto mode, to the point that they are making it the default setting for new sessions in most Claude",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-08-now-we-have-a-timeline-of-the-openai-accidental-attack-again",
-      "source": "simonw",
-      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-      "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
-      "published_at": "2026-08-08T14:06:41Z",
-      "summary": "My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face &mdash; Hacker News.I think one of the most interesting details here might be tucked away in that first bulletin point:\n\nMay 7: Op",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-07-now-we-have-a-timeline-of-the-openai-accidental-attack-again",
-      "source": "simonw",
-      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything",
-      "published_at": "2026-08-07T23:55:58Z",
-      "summary": "OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about \"the Hugging Face Incident\" (previously on this blog). The video was published yesterday. It's short and information dense and well wort",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-07-moonlight-mayhem-raccoon-heist-by-codex-gpt-56-sol-ultra",
-      "source": "simonw",
-      "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
-      "url": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
-      "published_at": "2026-08-07T19:18:09Z",
-      "summary": "Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)\nOn Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5, where I had Claude Fable 5 build a full working game from a premise I",
       "tags": [
         "simonw"
       ]
