@@ -1,136 +1,147 @@
 {
-  "updated_at": "2026-08-14T13:16:09Z",
+  "updated_at": "2026-08-14T18:59:47Z",
   "items": [
     {
-      "id": "localllama-2026-08-14-bitsandbytes-creator-teasing-new-quantization-method-glm-53",
+      "id": "localllama-2026-08-14-muse-glimmer-was-frontier-in-the-model-class-around-30b-mode",
       "source": "localllama",
-      "title": "bitsandbytes creator teasing new quantization method: GLM 5.3 on a single DGX Spark at 7t/s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo6vvs/bitsandbytes_creator_teasing_new_quantization/",
-      "published_at": "2026-08-14T13:10:39Z",
-      "summary": "      Don&#39;t get too hyped + take with a grain of salt as there have been an endless amount of quantization schemes with big promises that never really became a thing. Tim Dettmers is a pretty well known researcher th",
+      "title": "Muse Glimmer was frontier In the model class around 30b models for four days.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vofnnf/muse_glimmer_was_frontier_in_the_model_class/",
+      "published_at": "2026-08-14T18:39:53Z",
+      "summary": "      &#32; submitted by &#32;  /u/InternationalGap3698   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-14-fantastic-latest-llamacpp-server-webui-can-now-run-commands",
+      "id": "localllama-2026-08-14-qwen-38-27b---aquarium-burst-sample-test",
       "source": "localllama",
-      "title": "fantastic: latest llama.cpp server webui can now run commands for tools into rootless sandboxed containers",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo6fra/fantastic_latest_llamacpp_server_webui_can_now/",
-      "published_at": "2026-08-14T12:51:34Z",
-      "summary": "while having much fun testing LLMs Houdini-like attitudes and abilities to evade, excalate and escape from carefully reciprocally arranged security enhancing sandboxing VMs, containers, namespaces and jails, I&#39;ve dis",
+      "title": "Qwen 3.8 27B - Aquarium Burst Sample Test",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voer8u/qwen_38_27b_aquarium_burst_sample_test/",
+      "published_at": "2026-08-14T18:07:58Z",
+      "summary": "      Tested this prompt on the full version (BF16). Though this was a single prompt, I executed using vscode GH copilot extension on agent (allow all) mode and let it do its thing. So there were 54 model turns. Copilot ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-14-are-we-getting-qwen-38-35-a3b",
+      "id": "localllama-2026-08-14-qwen-27b-36-vs-38-on-web-design-tasks---first-thoughts",
       "source": "localllama",
-      "title": "Are we getting Qwen 3.8 35-A3B?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo63d4/are_we_getting_qwen_38_35a3b/",
-      "published_at": "2026-08-14T12:36:25Z",
-      "summary": "So far, it seems like Qwen 3.8 might drop today as a 27B dense model. If that’s the case, no MoE offloading this time , I used to run Qwen 3.6 35B-A3B at around 70 tok/s on an RTX 3060, but offloading a dense model is a ",
+      "title": "Qwen 27b 3.6 vs 3.8 on web design tasks - first thoughts?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voe9pw/qwen_27b_36_vs_38_on_web_design_tasks_first/",
+      "published_at": "2026-08-14T17:50:40Z",
+      "summary": "      https://preview.redd.it/4b23rwobodjh1.png?width=1263&amp;format=png&amp;auto=webp&amp;s=8f4329d4a45482bd8a5fbb92691adb0500b66053 All results for 3.6 https://thez.co/web-design-bench/model.php?id=8 All results for 3",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-14-what-kv-cache-tricks-do-you-guys-do-with-your-agents",
+      "id": "localllama-2026-08-14-ninfer-day0-support-for-qwen38-27b-200-toks-generation-with",
       "source": "localllama",
-      "title": "What KV cache tricks do you guys do with your agents?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo5im4/what_kv_cache_tricks_do_you_guys_do_with_your/",
-      "published_at": "2026-08-14T12:10:22Z",
-      "summary": "(Typing on my phone, apologies in advance for my “shorthand”.) I recently learned about prompt caching in llama.cpp. Basically, it’s a setting where your kv cache is stored in RAM as a copy and ejected on system prompt d",
+      "title": "NInfer day0 support for Qwen3.8 27b: ~200 tok/s generation, with tons of engine improvments",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vod417/ninfer_day0_support_for_qwen38_27b_200_toks/",
+      "published_at": "2026-08-14T17:07:52Z",
+      "summary": "Qwen3.8-27B is finally here, and NInfer already has Day-0 support! Weights: https://huggingface.co/neroued/Qwen3.8-27B-NInfer Just update to the latest source and give it a try. On a single RTX 5090, NInfer can still rea",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-14-a-modest-community-proposal-for-desloppification",
+      "id": "localllama-2026-08-14-alright-we-got-qwen38-27b-now-its-communitys-turn-to-make-it",
       "source": "localllama",
-      "title": "A modest community proposal for desloppification",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo4tim/a_modest_community_proposal_for_desloppification/",
-      "published_at": "2026-08-14T11:37:44Z",
-      "summary": "Over &amp; over I see people post slop and excusing it as &quot;english is not my native language&quot;. As if, if we could understand their language we&#39;d see they wrote it all by hand Fine then, new rule: &gt; if yo",
+      "title": "Alright, We got Qwen3.8-27B. Now it's community's turn to make it more better & faster",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voc15b/alright_we_got_qwen3827b_now_its_communitys_turn/",
+      "published_at": "2026-08-14T16:28:14Z",
+      "summary": "Facing any issues? Chat Template is fine?  Looping issue?  Too much reasoning thing? How&#39;s MTP with this one?  Any other issues faced by Qwen3.6-27B &amp; Qwen3.5-27B during release time? If I missed any other items,",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-14-lfm-25-26b-is-the-best-small-model-for-tool-use-i-have-ever",
+      "id": "localllama-2026-08-14-qwen-38-fp8-xhigh-lava-lamp-prompt-result",
       "source": "localllama",
-      "title": "LFM 2.5 2.6B is the best small model for tool use I have ever used.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo4oxw/lfm_25_26b_is_the_best_small_model_for_tool_use_i/",
-      "published_at": "2026-08-14T11:31:14Z",
-      "summary": "I&#39;m working on a local perplexity/AI search comprised of a custom harness and a further trained model. LFM 2.6 is almost to spec with no additional training, it is very good.  &#32; submitted by &#32;  /u/thebadslime",
+      "title": "Qwen 3.8 FP8 (xhigh) Lava lamp prompt result!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voc0xr/qwen_38_fp8_xhigh_lava_lamp_prompt_result/",
+      "published_at": "2026-08-14T16:28:02Z",
+      "summary": "      Prompt:  Generate a single, self-contained HTML file that renders an animated lava lamp. Requirements: - All HTML, CSS, and JavaScript inline in one file — no external assets, no CDNs. - A lamp silhouette (base, ne",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-14-a-preliminary-qwen38-27b-model-card-is-live",
+      "id": "localllama-2026-08-14-qwen-38-27b---generate-an-animate-svg-of-a-one-piece-ship-in",
       "source": "localllama",
-      "title": "A preliminary Qwen3.8-27B model card is live!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo2iiz/a_preliminary_qwen3827b_model_card_is_live/",
-      "published_at": "2026-08-14T09:30:11Z",
-      "summary": "      If you scroll down from the countdown at https://huggingface.co/Qwen/Qwen3.8-27B, you see a big model card with a bunch of sections: Highlights, Model Overview, Quickstart, Best Practices, Citation, etc! No benchma",
+      "title": "qwen 3.8 27b - Generate an animate SVG of a One Piece ship in a OCEAN (think 7 min)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vobssu/qwen_38_27b_generate_an_animate_svg_of_a_one/",
+      "published_at": "2026-08-14T16:19:52Z",
+      "summary": "      &#32; submitted by &#32;  /u/koloved   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-14-do-you-want-additional-models-just-askremindrequest-the-mode",
+      "id": "localllama-2026-08-14-qwen38-benchmarks-converted-to-charts",
       "source": "localllama",
-      "title": "Do you want additional models? Just ask/remind/request the Model creators",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo1gjq/do_you_want_additional_models_just/",
-      "published_at": "2026-08-14T08:27:14Z",
-      "summary": "      Looks like we need to let them know about our VRAM + RAM levels harder apart from Model size requests. Seems it works. Some creators are active on both Reddit, Twitter/X. Also it&#39;s time to post a thread again f",
+      "title": "Qwen3.8 Benchmarks Converted to Charts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vobndt/qwen38_benchmarks_converted_to_charts/",
+      "published_at": "2026-08-14T16:14:41Z",
+      "summary": "      https://preview.redd.it/uvdb7g4o7djh1.png?width=1600&amp;format=png&amp;auto=webp&amp;s=1db6176144bcf8f40efb15cc04e8370ad52bfe2f https://preview.redd.it/rj4l66eq7djh1.png?width=1257&amp;format=png&amp;auto=webp&amp",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-14-its-actually-crazy-how-good-dsv4-flash-0731-is",
+      "id": "localllama-2026-08-14-qwen38-27b-is-identical-to-qwen36-27b",
       "source": "localllama",
-      "title": "It's actually crazy how good DSv4 Flash 0731 is",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnyiqa/its_actually_crazy_how_good_dsv4_flash_0731_is/",
-      "published_at": "2026-08-14T05:37:05Z",
-      "summary": "      I didn&#39;t think we&#39;d get here so quickly. I can run this shit on a computer I spent less than $2k for (back before prices exploded). Crazy world Source: Artificial Analysis Intelligence Index v4.1.1  &#32; s",
+      "title": "Qwen3.8-27B is identical to Qwen3.6-27B!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voblcs/qwen3827b_is_identical_to_qwen3627b/",
+      "published_at": "2026-08-14T16:12:35Z",
+      "summary": "      Interestingly, the 3.8 version has exactly the same architecture - meaning all the capability gains come from training improvements! See the diff (0 changes) here! https://hfviewer.com/compare/qwen3.6-27b-vs-qwen3.",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-14-glm-53-released",
+      "id": "localllama-2026-08-14-asked-qwen38-27b-to-draw-a-pelican-it-proceeded-to-draw-an-e",
       "source": "localllama",
-      "title": "GLM 5.3 Released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vny9zs/glm_53_released/",
-      "published_at": "2026-08-14T05:23:43Z",
-      "summary": "      Official Announcement  https://z.ai/blog/glm-5.3  &#32; submitted by &#32;  /u/jmorant555   [link] &#32; [comments] ",
+      "title": "Asked Qwen3.8-27B to draw a pelican, it proceeded to draw an entire animation in svg!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vob9ch/asked_qwen3827b_to_draw_a_pelican_it_proceeded_to/",
+      "published_at": "2026-08-14T16:00:31Z",
+      "summary": "      &#32; submitted by &#32;  /u/Beamsters   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-14-deepseek-v4-flash-0731-oneshots-tetris-under-windows-xp-nyoc",
+      "id": "localllama-2026-08-14-poll-results-6-months-later-when-will-we-have-opus-level-wit",
       "source": "localllama",
-      "title": "DeepSeek v4 Flash 0731 Oneshots Tetris under Windows XP (NyoCoder 1.5.5 Release)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vny9r5/deepseek_v4_flash_0731_oneshots_tetris_under/",
-      "published_at": "2026-08-14T05:23:19Z",
-      "summary": "      Apologies for the low quality video, I think I had some trouble with OBS. Just thought I&#39;d share this, AI code assistance under Windows XP/VS2010. This video shows the harness along with DeepSeek v4 Flash 0731 ",
+      "title": "Poll results 6 months later: When will we have Opus level with 30b model? Optimists win!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vob107/poll_results_6_months_later_when_will_we_have/",
+      "published_at": "2026-08-14T15:51:49Z",
+      "summary": "Poll at beginning of the year: https://www.reddit.com/r/LocalLLaMA/comments/1qj935h/poll_when_will_we_have_a_30b_open_weight_model_as/ The least voted option, 6 months, wins in my opinion, with 18 votes, based on: https:",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-14-qwen-30b-moe---30tps---6gb-vram---done",
+      "id": "localllama-2026-08-14-open-labs-are-finally-embracing-the-power-of-continued-post",
       "source": "localllama",
-      "title": "Qwen 30b MoE - 30tps - 6GB vram - Done!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnvanp/qwen_30b_moe_30tps_6gb_vram_done/",
-      "published_at": "2026-08-14T02:52:15Z",
-      "summary": "      So, I have been dreaming of getting 17 tokens per second using my RTX 3050 6GB version on a decent context window for Hermes needed above 60k. The hope is that has was a 22GB of DDR 4, hoping they can take some of ",
+      "title": "Open labs are finally embracing the power of continued post training",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voacuz/open_labs_are_finally_embracing_the_power_of/",
+      "published_at": "2026-08-14T15:26:58Z",
+      "summary": "A few years ago, every generation of model releases came entirely as new models, such as Qwen, Qwen 1.5, 2, 2.5, 3, and 3.5, llama, llama 2, llama 3, etc. But with the events of the recent few days, I think we can conclu",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-08-14-state-of-open-models-summer-2026-observations",
+      "source": "huggingface",
+      "title": "State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "published_at": "2026-08-14T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
       ]
     },
     {
@@ -439,17 +450,6 @@
       "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. \nThe post EvoLib",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "huggingface-2026-07-30-gpu-management-why-idle-gpus-are-the-new-grounded-aircraft",
-      "source": "huggingface",
-      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-      "published_at": "2026-07-30T15:09:09Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {

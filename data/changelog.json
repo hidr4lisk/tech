@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-14T13:16:17Z",
+  "updated_at": "2026-08-14T18:59:54Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10433",
+      "project": "llama-cpp",
+      "version": "b10433",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10433",
+      "published_at": "2026-08-14T18:19:57Z",
+      "body_excerpt": "sync : ggml Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10431",
+      "project": "llama-cpp",
+      "version": "b10431",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10431",
+      "published_at": "2026-08-14T17:42:44Z",
+      "body_excerpt": "ggml : recurrent state rollback for ggml_ssm_scan (#26623) Initial changes for Recurrent state rollback for nemotron for cpu and cuda Removing CPU RS rollback. Will enable it in subsequent PRs addition of test case Removing assert and calling runtime API to check if op is supported removing extra API and updating the call sites for K replace static cuda detection to runtime fused_op api address re",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.12",
+      "project": "ollama",
+      "version": "v0.32.12",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
+      "published_at": "2026-08-14T16:37:00Z",
+      "body_excerpt": "Qwen 3.8 - 27B model support This release adds the support of Qwen 3.8 27B. For Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents. Qwen 3.8 model page: Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks.",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.800-beta",
+      "project": "unsloth",
+      "version": "v0.1.800-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.800-beta",
+      "published_at": "2026-08-14T14:18:49Z",
+      "body_excerpt": "Qwen3.8-27B and Qwen3.8-2.4T can now be run locally in Unsloth! Run on 17GB RAM via Unsloth Dynamic GGUFs. You can also fine-tune Qwen3.8-27B in Unsloth. Qwen3.8-27B is by far the strongest model for its size. We also uploaded NVFP4 quants. Guide: GGUF: See 1-bit Qwen3.8-2.4T GGUF running in Unsloth: Highlights Qwen3.8-27B + extra llama-server arguments allowed + custom VRAM toggle External provid",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10430",
       "project": "llama-cpp",
@@ -189,6 +225,15 @@
       "published_at": "2026-08-13T14:30:05Z",
       "body_excerpt": "sycl : Add DMMV ESIMD Q3_K kernel (#26251) Add DMMV Q4_K and Q6_K ESIMD kernels Configure cmake build with -DGGML_SYCL_ESIMD=ON to enable. Signed-off-by: Todd Malsbary Refactor ESIMD kernels to share common code Signed-off-by: Todd Malsbary Move control of ESIMD from compile to runtime Signed-off-by: Todd Malsbary Use ESIMD by default when available Signed-off-by: Todd Malsbary Fix possible error ",
       "type": "tool"
+    },
+    {
+      "id": "hf-Qwen-Qwen3.8-27B-FP8",
+      "project": "Qwen",
+      "version": "Qwen3.8-27B-FP8",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "published_at": "2026-08-13T08:01:58Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10405",
@@ -936,6 +981,15 @@
       "published_at": "2026-08-05T10:16:19Z",
       "body_excerpt": "build : remove GGML_METAL_USE_BF16 from all build scripts (#26604) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
       "type": "tool"
+    },
+    {
+      "id": "hf-Qwen-Qwen3.8-27B",
+      "project": "Qwen",
+      "version": "Qwen3.8-27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "published_at": "2026-08-05T08:22:59Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10276",
@@ -9791,24 +9845,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.6",
       "published_at": "2026-05-16T21:12:25Z",
       "body_excerpt": "What's Changed Other Changes feat(llama-cpp): bump to MTP-merge SHA and automatically set MTP defaults by @localai-bot in docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in chore: :arrow_up: Update leejet/stable-diffusion.cpp to by @localai-bot in Ful",
-      "type": "tool"
-    },
-    {
-      "id": "sglang-v0.5.12",
-      "project": "sglang",
-      "version": "v0.5.12",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.12",
-      "published_at": "2026-05-16T18:23:23Z",
-      "body_excerpt": "Highlights DeepSeek V4 support: Full inference path for DeepSeek-V4 (#23882), including: Day-0 Features: #23882 - Parallelism: Tensor Parallelism/Expert Parallelism/Context Parallelism/Data Parallel Attention - Hardware: Nvidia B300/B200/H200/H100/GB200/GB300, AMD MI35X - Prefill-Decode Disaggregation - HiSparse for offloading inactive KV cache to CPU memory - Reasoning parser and Tool Call Parser",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.2.5",
-      "project": "localai",
-      "version": "v4.2.5",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.2.5",
-      "published_at": "2026-05-16T16:44:56Z",
-      "body_excerpt": "What's Changed Bug fixes :bug: fix(ollama): guard nil filter in galleryop.ListModels (#9817) by @localai-bot in realtime: honor output_modalities to skip TTS in text-only mode by @localai-bot in fix(ollama): accept float-encoded integer options (fixes #9837) by @localai-bot in Other Changes chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in feat(llama-cpp): expose 12 missing common_",
       "type": "tool"
     }
   ]
