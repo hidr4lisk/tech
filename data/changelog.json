@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-08-13T19:07:19Z",
+  "updated_at": "2026-08-14T02:20:22Z",
   "releases": [
+    {
+      "id": "ollama-v0.32.11",
+      "project": "ollama",
+      "version": "v0.32.11",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.11",
+      "published_at": "2026-08-14T01:22:12Z",
+      "body_excerpt": "What's Changed launch: add Muse Code integration by @dhiltgen in model/renderers: match Muse Glimmer reasoning template by @dhiltgen in launch: add DeepSeek Harness integration by @ParthSareen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10423",
+      "project": "llama-cpp",
+      "version": "b10423",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10423",
+      "published_at": "2026-08-13T22:44:06Z",
+      "body_excerpt": "common: apply CPU parameters across tools (#27026) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10419",
+      "project": "llama-cpp",
+      "version": "b10419",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10419",
+      "published_at": "2026-08-13T22:11:34Z",
+      "body_excerpt": "OpenVINO: Qwen3.5, memory optimization, and test-recurrent-state-rollback (#26952) OpenVINO backend: 1) enable gpt-oss moe on OV bk; 2) enable mxfp4 support OpenVINO backend: disable TOPK_MOE op test OpenVINO Backend: Add op FILL support OpenVINO backend: enable set rows with multi dims fix the name missmatch in setrow + view OpenVINO backend: enable op GGML_UNARY_OP_SIGMOID OpenVINO Backend: enab",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10418",
+      "project": "llama-cpp",
+      "version": "b10418",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10418",
+      "published_at": "2026-08-13T21:36:06Z",
+      "body_excerpt": "[SYCL] Support host pinned mem to improve SYCL Host-to-Device Memory Access (#26789) support host pinned mem, ggml_backend_sycl_host_buffer_type_get_max_size, fix the thread-safe issue Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulk",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10417",
+      "project": "llama-cpp",
+      "version": "b10417",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10417",
+      "published_at": "2026-08-13T20:49:34Z",
+      "body_excerpt": "chat : fix LFM2 tool call arg name prefix ambiguity (#26960) Assisted-by: Claude Opus 5 Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL F",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10416",
+      "project": "llama-cpp",
+      "version": "b10416",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10416",
+      "published_at": "2026-08-13T20:05:56Z",
+      "body_excerpt": "server : serve index.html with no-cache (#27006) index.html was served with like the hashed assets, but its name is stable while its contents change every build, so a cached copy pins the UI to an old build. It now revalidates via its existing ETag, which keeps the 304 for unchanged builds. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10415",
+      "project": "llama-cpp",
+      "version": "b10415",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10415",
+      "published_at": "2026-08-13T19:29:10Z",
+      "body_excerpt": "spec : auto-detect mtp draft model type (#27005) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10414",
       "project": "llama-cpp",
