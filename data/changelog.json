@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-14T07:38:37Z",
+  "updated_at": "2026-08-14T13:16:17Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10430",
+      "project": "llama-cpp",
+      "version": "b10430",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10430",
+      "published_at": "2026-08-14T12:58:04Z",
+      "body_excerpt": "llama : allow virtual igpu devices (#26953) llama : allow virtual igpu devices cont : better comment Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10429",
+      "project": "llama-cpp",
+      "version": "b10429",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10429",
+      "published_at": "2026-08-14T12:13:37Z",
+      "body_excerpt": "server: allow accessing /metrics and /slots during llama_decode() (#27041) server_queue::worker call llama_decode inside yield_to_queue also handle process_mtmd_chunk clean up nits rm test Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10428",
+      "project": "llama-cpp",
+      "version": "b10428",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10428",
+      "published_at": "2026-08-14T09:05:43Z",
+      "body_excerpt": "tests : replace personal home directory paths with generic placeholders (#27043) Scrub developer-specific /home/ / paths from example docs and test fixtures so they don't leak into the tree. examples/test-cmake/README.md: /home/danbev/... -> /path/to/llama.cpp/... tests/test-chat.cpp: /home/jarvis/... -> /home/user/... (input and expected string kept identical so the parser test still passes) Co-a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10427",
+      "project": "llama-cpp",
+      "version": "b10427",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10427",
+      "published_at": "2026-08-14T08:14:14Z",
+      "body_excerpt": "sycl: fuse mul_mat(gate) + mul_mat(up) + GLU for q4_K dense FFN (#26779) Measured on Arc Pro B70 (Battlemage, Level Zero), llama-bench -r 20, two interleaved rounds, tg128: qwen2.5-3B-Instruct Q4_K_M 154.18 -> 158.53 t/s +2.8% gemma-2-2b-it Q4_K_M 162.45 -> 165.62 t/s +2.0% llama-batched-bench on qwen2.5-3B, S_TG by batch size: B=1 142.72 -> 147.57 t/s +3.4% B=2 243.72 -> 268.26 t/s +10.1% B=4 359",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10426",
       "project": "llama-cpp",
