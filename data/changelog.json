@@ -1,13 +1,40 @@
 {
-  "updated_at": "2026-08-14T02:20:22Z",
+  "updated_at": "2026-08-14T07:38:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10426",
+      "project": "llama-cpp",
+      "version": "b10426",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10426",
+      "published_at": "2026-08-14T07:29:04Z",
+      "body_excerpt": "ggml: force single thread on wasi (#25686) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10425",
+      "project": "llama-cpp",
+      "version": "b10425",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10425",
+      "published_at": "2026-08-14T06:50:50Z",
+      "body_excerpt": "sycl: fuse the gated-delta-net state writeback cpy (#26643) Port of Arc Pro B70, Qwen 3.6 27B Q4_K - Medium (48 of its 64 blocks run gated_delta_net), -ngl 99 -fa 1 -ctk f16 -ctv f16 -b 2048 -ub 2048, interleaved A/B passes of r=3: tg128 23.91 / 23.90 / 23.90 -> 24.19 / 24.17 / 24.20 +1.2% tg128 (rebuild) 23.81 / 23.81 -> 24.09 / 24.10 +1.2% pp2048 1050.8 / 1053.9 -> 1053.8 / 1054.5 flat 2 seqs, t",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10424",
+      "project": "llama-cpp",
+      "version": "b10424",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10424",
+      "published_at": "2026-08-14T05:44:30Z",
+      "body_excerpt": "dflash : clarify output logging of target_layer_ids (#27013) This commit tries to make the logging of target_layer_ids a bit clearer and easier to read. Currently the output generated looks like this: With the changes in the commit the output will be: Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubun",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.32.11",
       "project": "ollama",
       "version": "v0.32.11",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.11",
       "published_at": "2026-08-14T01:22:12Z",
-      "body_excerpt": "What's Changed launch: add Muse Code integration by @dhiltgen in model/renderers: match Muse Glimmer reasoning template by @dhiltgen in launch: add DeepSeek Harness integration by @ParthSareen in Full Changelog:",
+      "body_excerpt": "What's Changed now supports DeepSeek Harness, DeepSeek's open-source agent harness now supports Muse Code, Meta's agentic coding CLI The OpenAI-compatible Responses API now supports web search Muse Glimmer template updates Full Changelog:",
       "type": "tool"
     },
     {
