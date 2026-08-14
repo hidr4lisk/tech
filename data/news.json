@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-08-14T07:38:29Z",
+  "updated_at": "2026-08-14T13:16:09Z",
   "items": [
+    {
+      "id": "localllama-2026-08-14-bitsandbytes-creator-teasing-new-quantization-method-glm-53",
+      "source": "localllama",
+      "title": "bitsandbytes creator teasing new quantization method: GLM 5.3 on a single DGX Spark at 7t/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo6vvs/bitsandbytes_creator_teasing_new_quantization/",
+      "published_at": "2026-08-14T13:10:39Z",
+      "summary": "      Don&#39;t get too hyped + take with a grain of salt as there have been an endless amount of quantization schemes with big promises that never really became a thing. Tim Dettmers is a pretty well known researcher th",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-14-fantastic-latest-llamacpp-server-webui-can-now-run-commands",
+      "source": "localllama",
+      "title": "fantastic: latest llama.cpp server webui can now run commands for tools into rootless sandboxed containers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo6fra/fantastic_latest_llamacpp_server_webui_can_now/",
+      "published_at": "2026-08-14T12:51:34Z",
+      "summary": "while having much fun testing LLMs Houdini-like attitudes and abilities to evade, excalate and escape from carefully reciprocally arranged security enhancing sandboxing VMs, containers, namespaces and jails, I&#39;ve dis",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-14-are-we-getting-qwen-38-35-a3b",
+      "source": "localllama",
+      "title": "Are we getting Qwen 3.8 35-A3B?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo63d4/are_we_getting_qwen_38_35a3b/",
+      "published_at": "2026-08-14T12:36:25Z",
+      "summary": "So far, it seems like Qwen 3.8 might drop today as a 27B dense model. If that’s the case, no MoE offloading this time , I used to run Qwen 3.6 35B-A3B at around 70 tok/s on an RTX 3060, but offloading a dense model is a ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-14-what-kv-cache-tricks-do-you-guys-do-with-your-agents",
+      "source": "localllama",
+      "title": "What KV cache tricks do you guys do with your agents?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo5im4/what_kv_cache_tricks_do_you_guys_do_with_your/",
+      "published_at": "2026-08-14T12:10:22Z",
+      "summary": "(Typing on my phone, apologies in advance for my “shorthand”.) I recently learned about prompt caching in llama.cpp. Basically, it’s a setting where your kv cache is stored in RAM as a copy and ejected on system prompt d",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-14-a-modest-community-proposal-for-desloppification",
+      "source": "localllama",
+      "title": "A modest community proposal for desloppification",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo4tim/a_modest_community_proposal_for_desloppification/",
+      "published_at": "2026-08-14T11:37:44Z",
+      "summary": "Over &amp; over I see people post slop and excusing it as &quot;english is not my native language&quot;. As if, if we could understand their language we&#39;d see they wrote it all by hand Fine then, new rule: &gt; if yo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-14-lfm-25-26b-is-the-best-small-model-for-tool-use-i-have-ever",
+      "source": "localllama",
+      "title": "LFM 2.5 2.6B is the best small model for tool use I have ever used.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo4oxw/lfm_25_26b_is_the_best_small_model_for_tool_use_i/",
+      "published_at": "2026-08-14T11:31:14Z",
+      "summary": "I&#39;m working on a local perplexity/AI search comprised of a custom harness and a further trained model. LFM 2.6 is almost to spec with no additional training, it is very good.  &#32; submitted by &#32;  /u/thebadslime",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-14-a-preliminary-qwen38-27b-model-card-is-live",
+      "source": "localllama",
+      "title": "A preliminary Qwen3.8-27B model card is live!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo2iiz/a_preliminary_qwen3827b_model_card_is_live/",
+      "published_at": "2026-08-14T09:30:11Z",
+      "summary": "      If you scroll down from the countdown at https://huggingface.co/Qwen/Qwen3.8-27B, you see a big model card with a bunch of sections: Highlights, Model Overview, Quickstart, Best Practices, Citation, etc! No benchma",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-14-do-you-want-additional-models-just-askremindrequest-the-mode",
+      "source": "localllama",
+      "title": "Do you want additional models? Just ask/remind/request the Model creators",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo1gjq/do_you_want_additional_models_just/",
+      "published_at": "2026-08-14T08:27:14Z",
+      "summary": "      Looks like we need to let them know about our VRAM + RAM levels harder apart from Model size requests. Seems it works. Some creators are active on both Reddit, Twitter/X. Also it&#39;s time to post a thread again f",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-14-its-actually-crazy-how-good-dsv4-flash-0731-is",
       "source": "localllama",
@@ -41,94 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnvanp/qwen_30b_moe_30tps_6gb_vram_done/",
       "published_at": "2026-08-14T02:52:15Z",
       "summary": "      So, I have been dreaming of getting 17 tokens per second using my RTX 3050 6GB version on a decent context window for Hermes needed above 60k. The hope is that has was a 22GB of DDR 4, hoping they can take some of ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-14-mistral-is-now-hosting-glm-52",
-      "source": "localllama",
-      "title": "Mistral is now hosting GLM-5.2",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnuymy/mistral_is_now_hosting_glm52/",
-      "published_at": "2026-08-14T02:36:20Z",
-      "summary": "Not directly LOCALLlama related but I thought it was interesting since Mistral and Z.ai are competitors, and more surprisingly they are pricing it (GLM-5.2) even cheaper than their current flagship model Mistral Medium 3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-14-if-you-dont-like-how-deepseek-v4-flash-0731-talks-give-motif",
-      "source": "localllama",
-      "title": "If you don't like how DeepSeek V4 Flash 0731 talks, give Motif 3 NVFP4 a try (custom vLLM only) -- probably the most underrated model right now",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnuu2t/if_you_dont_like_how_deepseek_v4_flash_0731_talks/",
-      "published_at": "2026-08-14T02:30:04Z",
-      "summary": "https://huggingface.co/Motif-Technologies/Motif-3-NVFP4 On benchmarks, Motif 3 scores very, very close to DeepSeek V4 Flash 0731 in English vs. DeepSeek V4 Flash 0731 in English in various benchmarks, and they&#39;re sim",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-14-1bit-qwen-38-24t-a95b-unsloth-iq1-s-medium-reasoning",
-      "source": "localllama",
-      "title": "1BIT Qwen 3.8 2.4T a95b (unsloth iQ1_S) (MEDIUM Reasoning)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnu366/1bit_qwen_38_24t_a95b_unsloth_iq1_s_medium/",
-      "published_at": "2026-08-14T01:54:43Z",
-      "summary": "      Processing img az99qopcg8jh1... So same as my prior post 1bit test... although this 1bit is a bit interesting you can read on unlsoth blog https://unsloth.ai/docs/models/qwen3.8 508 gigs being used I am using unslo",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-14-how-ai-text-watermarking-works",
-      "source": "localllama",
-      "title": "How AI text watermarking works",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnrvr5/how_ai_text_watermarking_works/",
-      "published_at": "2026-08-14T00:13:25Z",
-      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-13-qwen38-24t-ud-q1-0---178-token-generation---11-min-38s---025",
-      "source": "localllama",
-      "title": "Qwen3.8 2.4T UD-Q1_0 - 178 token generation - 11 min 38s - 0.25 tokens/sec",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnq6gi/qwen38_24t_udq1_0_178_token_generation_11_min_38s/",
-      "published_at": "2026-08-13T22:59:59Z",
-      "summary": "      https://preview.redd.it/nqr9nj5028jh1.png?width=1516&amp;format=png&amp;auto=webp&amp;s=47af40a0737429dc65f2e455b87b2db81725cb14 So I wanted to see... is it possible/viable to run this perhaps once in a while some ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-13-ds4-cloud-30-min-vs-qwen36-36b-2-min-vs-muse-glimmer-30b-3-m",
-      "source": "localllama",
-      "title": "DS4 cloud (30 min) vs Qwen3.6 36B (2 min) vs Muse Glimmer 30B (3 min) on Llama.cpp (RTX 5080)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnpqb5/ds4_cloud_30_min_vs_qwen36_36b_2_min_vs_muse/",
-      "published_at": "2026-08-13T22:40:49Z",
-      "summary": "      Some people told me that the difference in richness and layout between Glimmer and Qwen wasn&#39;t clear to them. This example makes it super clear. I&#39;m aware that comparing Glimmer 30B (a dense model) with Qwe",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-13-is-waiting-for-qwen-38-27b-like-waiting-for-star-war-episode",
-      "source": "localllama",
-      "title": "Is waiting for Qwen 3.8 27B like waiting for Star War Episode one?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnp2ni/is_waiting_for_qwen_38_27b_like_waiting_for_star/",
-      "published_at": "2026-08-13T22:14:18Z",
-      "summary": "Is waiting for Qwen 3.8 27B like waiting for Star War Episode one? I&#39;m sweating waiting to get my hand on this to try it tomorrow morning. But it takes me back to Star Wars 1 and the disappointment after being so hyp",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-13-dots-studiodots3-note-prev-hugging-face",
-      "source": "localllama",
-      "title": "dots-studio/dots3-note-prev · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnod14/dotsstudiodots3noteprev_hugging_face/",
-      "published_at": "2026-08-13T21:46:11Z",
-      "summary": "      dots3-note preview is the first open-weight model in the dots3 family. It is a Mixture-of-Experts model with 280B total parameters, 16B activated parameters, and support for a context length of up to 512K tokens. T",
       "tags": [
         "localllama"
       ]
