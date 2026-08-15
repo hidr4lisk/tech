@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-15T12:45:57Z",
+  "updated_at": "2026-08-15T18:35:17Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10443",
+      "project": "llama-cpp",
+      "version": "b10443",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10443",
+      "published_at": "2026-08-15T18:04:03Z",
+      "body_excerpt": "fix: check gguf array type before reading (#27075) fix: check gguf array type before reading update skill Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10442",
+      "project": "llama-cpp",
+      "version": "b10442",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10442",
+      "published_at": "2026-08-15T14:58:24Z",
+      "body_excerpt": "vulkan: add SHMEM_STRIDE_PAD/APPLY_SLM_A_RESHAPE for coopmat1 on Intel Xe (#25380) vulkan: add SHMEM_STRIDE_PAD/APPLY_SLM_A_RESHAPE for coopmat mul_mm on Intel Xe vulkan: fix shmem estimate for Intel SHMEM_STRIDE_PAD=0 in matmul_shmem_support cacheline aligned for shared kvalues_mxfp4 vulkan: fix OOB read in kvalues_mxfp4 init after cacheline padding vulkan: restrict SLM-A reshape to Intel Windows",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10441",
       "project": "llama-cpp",
