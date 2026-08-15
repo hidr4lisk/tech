@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-15T06:45:34Z",
+  "updated_at": "2026-08-15T12:45:57Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10441",
+      "project": "llama-cpp",
+      "version": "b10441",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10441",
+      "published_at": "2026-08-15T11:24:40Z",
+      "body_excerpt": "common: migrate the deprecated --mmap/--no-mmap to --load-mode (#26934) Replace the deprecated --mmap, --no-mmap, --mlock, and --direct-io flags with the unified --load-mode argument across scripts, examples, and documentation. Internal warning message and env var docs updated accordingly. Signed-off-by: Fathi Boudra Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10437",
       "project": "llama-cpp",
