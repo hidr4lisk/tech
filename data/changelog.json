@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-15T01:27:48Z",
+  "updated_at": "2026-08-15T06:45:34Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10437",
+      "project": "llama-cpp",
+      "version": "b10437",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10437",
+      "published_at": "2026-08-15T05:24:03Z",
+      "body_excerpt": "model : add support for MiniMaxText01ForCausalLM and MiniMaxM1ForCausalLM (#27018) llama : support for MiniMax-Text-01 model chore : renames to match the other MiniMax models model : add logits mask as MiniMax-Text-01 embeddings tensor has zero-valued embeddings for tokens >= 200032 that produce zero logits disrupting the token sampling process llama : replace hardcoded conditions with hparams.is_",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10436",
+      "project": "llama-cpp",
+      "version": "b10436",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10436",
+      "published_at": "2026-08-15T04:11:49Z",
+      "body_excerpt": "mtmd, common: various fixes (#27071) apply fixes cont revert gguf fix Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (S",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10435",
       "project": "llama-cpp",
@@ -97,7 +115,7 @@
       "version": "v0.32.12",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
       "published_at": "2026-08-14T16:37:00Z",
-      "body_excerpt": "Qwen 3.8 - 27B model support This release adds the support of Qwen 3.8 27B. For Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents. Qwen 3.8 model page: Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks.",
+      "body_excerpt": "Qwen 3.8 27B This release adds the support of Qwen 3.8 27B. Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks. For Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents.",
       "type": "tool"
     },
     {
@@ -234,6 +252,15 @@
       "published_at": "2026-08-13T19:29:10Z",
       "body_excerpt": "spec : auto-detect mtp draft model type (#27005) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Kimi-K3-NVFP4",
+      "project": "nvidia",
+      "version": "Kimi-K3-NVFP4",
+      "url": "https://huggingface.co/nvidia/Kimi-K3-NVFP4",
+      "published_at": "2026-08-13T19:06:29Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10414",
@@ -9855,60 +9882,6 @@
       "published_at": "2026-05-17T22:54:32Z",
       "body_excerpt": "llama: avoid copying logits during prompt decode in MTP (#23198) llama: avoid copying logits during prompt decode in MTP review: update comment llama-graph: call set_output for t_h_pre_norm macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
       "type": "tool"
-    },
-    {
-      "id": "hf-stabilityai-SAME-L",
-      "project": "stabilityai",
-      "version": "SAME-L",
-      "url": "https://huggingface.co/stabilityai/SAME-L",
-      "published_at": "2026-05-17T02:18:14Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-stabilityai-SAME-S",
-      "project": "stabilityai",
-      "version": "SAME-S",
-      "url": "https://huggingface.co/stabilityai/SAME-S",
-      "published_at": "2026-05-17T02:17:58Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-stabilityai-stable-audio-3-small-music",
-      "project": "stabilityai",
-      "version": "stable-audio-3-small-music",
-      "url": "https://huggingface.co/stabilityai/stable-audio-3-small-music",
-      "published_at": "2026-05-17T01:51:33Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-stabilityai-stable-audio-3-small-sfx",
-      "project": "stabilityai",
-      "version": "stable-audio-3-small-sfx",
-      "url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx",
-      "published_at": "2026-05-17T01:51:16Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-stabilityai-stable-audio-3-medium",
-      "project": "stabilityai",
-      "version": "stable-audio-3-medium",
-      "url": "https://huggingface.co/stabilityai/stable-audio-3-medium",
-      "published_at": "2026-05-17T01:50:14Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-stabilityai-stable-audio-3-medium-base",
-      "project": "stabilityai",
-      "version": "stable-audio-3-medium-base",
-      "url": "https://huggingface.co/stabilityai/stable-audio-3-medium-base",
-      "published_at": "2026-05-17T01:44:44Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
