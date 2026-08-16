@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-16T06:46:51Z",
+  "updated_at": "2026-08-16T12:48:03Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10452",
+      "project": "llama-cpp",
+      "version": "b10452",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10452",
+      "published_at": "2026-08-16T11:21:52Z",
+      "body_excerpt": "chat: refactor handling supports_string_content / supports_typed_content (#27130) better supports_string_content cap detect test: add \"skip\" messages_inp_normalizer Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10451",
+      "project": "llama-cpp",
+      "version": "b10451",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10451",
+      "published_at": "2026-08-16T07:24:37Z",
+      "body_excerpt": "llama : check LoRA tensor data is within file bounds (#27056) llama : check LoRA tensor data is within file bounds Update src/llama-adapter.cpp Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10448",
       "project": "llama-cpp",
@@ -9899,24 +9917,6 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.405-beta",
       "published_at": "2026-05-18T13:40:58Z",
       "body_excerpt": "We've got lots of new updates. Please use the latest Unsloth , not which is older. ~2x faster GGUF inference with automatically enabled MTP API calling support for OpenAI, Anthropic etc. with auto prompt caching, web search, code execution Connect to external inference backends: vLLM, Ollama, llama-server Experimental MLX inference Proper support for non-English languages Security improvements MTP",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9209",
-      "project": "llama-cpp",
-      "version": "b9209",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9209",
-      "published_at": "2026-05-18T09:24:45Z",
-      "body_excerpt": "sycl: scalar SWAR byte-subtract in Q6_K MMVQ dot product (#22156) Signed-off-by: Chun Tao Co-authored-by: Chun Tao macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL F",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9208",
-      "project": "llama-cpp",
-      "version": "b9208",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9208",
-      "published_at": "2026-05-18T08:22:20Z",
-      "body_excerpt": "sycl: route small f32 matmuls to oneMKL, bypass oneDNN (#22150) Signed-off-by: Chun Tao Co-authored-by: Chun Tao macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP3",
       "type": "tool"
     }
   ]
