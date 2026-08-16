@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-16T12:48:03Z",
+  "updated_at": "2026-08-16T18:34:24Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10453",
+      "project": "llama-cpp",
+      "version": "b10453",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10453",
+      "published_at": "2026-08-16T12:54:19Z",
+      "body_excerpt": "model : remove some ggml_concat (#27176) Co-authored-by: Xuan Son Nguyen Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10452",
       "project": "llama-cpp",
@@ -51,6 +60,15 @@
       "project": "ollama",
       "version": "v0.32.14-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.14-rc0",
+      "published_at": "2026-08-15T19:41:23Z",
+      "body_excerpt": "What's Changed llm: transcode WebP images for llama-server renderers/qwen: tolerate non-leading system messages Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.14",
+      "project": "ollama",
+      "version": "v0.32.14",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.14",
       "published_at": "2026-08-15T19:41:23Z",
       "body_excerpt": "What's Changed llm: transcode WebP images for llama-server renderers/qwen: tolerate non-leading system messages Full Changelog:",
       "type": "tool"
@@ -9890,33 +9908,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9219",
       "published_at": "2026-05-18T19:25:00Z",
       "body_excerpt": "common : remove hf cache migration (#23266) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9216",
-      "project": "llama-cpp",
-      "version": "b9216",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9216",
-      "published_at": "2026-05-18T18:23:20Z",
-      "body_excerpt": "ui: Refactor models store, MCP service, and gate logs behind VITE_DEBUG (#23236) refactor: Scope console logs to + env vars refactor: skip MCP proxy probe when no server requires it refactor: suppress expected disconnect errors during MCP client shutdown refactor: Deduplicate requests refactor: deduplicate model fetching across ROUTER and MODEL modes refactor: Clean up models logic chore: Add file",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9213",
-      "project": "llama-cpp",
-      "version": "b9213",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9213",
-      "published_at": "2026-05-18T17:47:28Z",
-      "body_excerpt": "llama: initialize pre-norm embedding mask flag (#23256) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.405-beta",
-      "project": "unsloth",
-      "version": "v0.1.405-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.405-beta",
-      "published_at": "2026-05-18T13:40:58Z",
-      "body_excerpt": "We've got lots of new updates. Please use the latest Unsloth , not which is older. ~2x faster GGUF inference with automatically enabled MTP API calling support for OpenAI, Anthropic etc. with auto prompt caching, web search, code execution Connect to external inference backends: vLLM, Ollama, llama-server Experimental MLX inference Proper support for non-English languages Security improvements MTP",
       "type": "tool"
     }
   ]
