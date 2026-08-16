@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-08-16T01:39:28Z",
+  "updated_at": "2026-08-16T06:46:44Z",
   "items": [
+    {
+      "id": "localllama-2026-08-16-qwen38-27b-abliterated-fp8-refusal-6499-06-and-mmlugsm8k-mov",
+      "source": "localllama",
+      "title": "Qwen3.8-27B abliterated FP8: refusal 64–99% → 0–6%, and MMLU/GSM8K move less than 1.3 points",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vppox6/qwen3827b_abliterated_fp8_refusal_6499_06_and/",
+      "published_at": "2026-08-16T06:37:02Z",
+      "summary": "Been reading the eval table on the abliterated Qwen3.8-27B FP8 build instead of the release notes. It&#39;s published as red-team material, disclaimer and all, so the numbers are the interesting part. Refusal across the ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-16-anyone-managed-to-get-qwen-38-27b-running-smoothly-on-vllm-c",
+      "source": "localllama",
+      "title": "Anyone managed to get Qwen 3.8 27B running smoothly on vLLM? Can't get rid of endless thinking",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpotfv/anyone_managed_to_get_qwen_38_27b_running/",
+      "published_at": "2026-08-16T05:47:44Z",
+      "summary": "Title pretty much says it all. I’ve deployed Qwen 3.8 27B using vLLM on an RTX 6000 Pro (tried multiple vLLM releases and launch recipes), but I can&#39;t get it into a usable state because of crazy long reasoning passes",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-16-5090-windows-or-linux-for-qwen3827b",
+      "source": "localllama",
+      "title": "5090: Windows or Linux for Qwen3.8.27b",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpncov/5090_windows_or_linux_for_qwen3827b/",
+      "published_at": "2026-08-16T04:28:06Z",
+      "summary": "I&#39;ve got a dedicated AI rig sitting here with a RTX 5090 and 96GB RAM and for the past few years have been using Windows 11 and primarily LM Studio, but have also used vLLM, llama.cpp and Ollama. With Qwen3.8.27b I w",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-16-asus-b860m-with-two-32gb-large-bar-gpus",
+      "source": "localllama",
+      "title": "ASUS B860M with two 32GB large-BAR GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpmflq/asus_b860m_with_two_32gb_largebar_gpus/",
+      "published_at": "2026-08-16T03:40:16Z",
+      "summary": "Does anyone know if the ASUS B860M can handle two large BAR GPUs? I am considering a couple build options with this motherboard, but do not not have it in hand and before getting it and buying two large GPUs, hoping some",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-16-how-many-people-have-24gb-over-gpu-here",
+      "source": "localllama",
+      "title": "How many people have 24gb over gpu here?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpm70f/how_many_people_have_24gb_over_gpu_here/",
+      "published_at": "2026-08-16T03:27:29Z",
+      "summary": "I was surprised by the fact that the qwen 3.8 27b download count is about 1 million (globally). This means that even on this subreddit, very few people have used 27b. At most 50k–100k active users, and once you break dow",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-16-show-off-saturday-intel-arc-b140-build",
+      "source": "localllama",
+      "title": "Show-off Saturday: Intel Arc B140 build.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpkomt/showoff_saturday_intel_arc_b140_build/",
+      "published_at": "2026-08-16T02:10:38Z",
+      "summary": "      My local inference build, with: ASUS WS C422 PRO/SE 10-core Xeon W-2255 64GB ECC RAM 64GB VRAM Pimped case with TurboLEDz indicating the frequencies of the 10 xeon cores. Running llama.cpp with SYCL back-end. Khron",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-16-qwen38-27b-vs-qwen36-27b-writing-ray-tracers-in-basic",
       "source": "localllama",
@@ -63,72 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpdrxl/which_harness_for_local_coding_qwen_38_27b_do_you/",
       "published_at": "2026-08-15T20:51:09Z",
       "summary": "I know there are many posts about this, but I would explicitly like to know the harness names instead of having a general discussion. Let&#39;s see what the community actually uses! For others, please comment below. Feel",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-15-agentic-harness-for-small-models",
-      "source": "localllama",
-      "title": "Agentic harness for small models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpcj2j/agentic_harness_for_small_models/",
-      "published_at": "2026-08-15T19:59:31Z",
-      "summary": "Hello; I&#39;m a semi-beginner at local AI. I&#39;ve been experimenting with this tech for a while, and I still haven&#39;t found a proper harness that fits my models, hardware, and needs. My use case is pretty simple: w",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-15-rtx-pro-4500-vs-a100-x4---purchase-being-made-today",
-      "source": "localllama",
-      "title": "RTX Pro 4500 vs. A100 (x4) - purchase being made today",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpax07/rtx_pro_4500_vs_a100_x4_purchase_being_made_today/",
-      "published_at": "2026-08-15T18:54:16Z",
-      "summary": "Need some help from the community on this server build: RTX Pro 4500 x4 ($3,299) or used 40GB A100 x4 off eBay (around $4,000/ea). The RTX Pro 4500 means I have to go the route of getting a PCIe switch, inviting a fair a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-15-the-duality-of-man",
-      "source": "localllama",
-      "title": "The duality of man",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp95st/the_duality_of_man/",
-      "published_at": "2026-08-15T17:44:54Z",
-      "summary": "      Thoughts on the new model?  &#32; submitted by &#32;  /u/Tasty-Ad-3753   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-15-us-to-tell-partners-they-must-pick-sides-in-ai-race-with-chi",
-      "source": "localllama",
-      "title": "US to tell partners they must pick sides in AI race with China",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp7qrc/us_to_tell_partners_they_must_pick_sides_in_ai/",
-      "published_at": "2026-08-15T16:49:32Z",
-      "summary": "&#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-15-doing-image-recognition-tests-of-muse-glimmer-v-qwen-38-27b",
-      "source": "localllama",
-      "title": "Doing image recognition tests of Muse Glimmer v. Qwen 3.8 27B. Anyone else have notes?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp6xec/doing_image_recognition_tests_of_muse_glimmer_v/",
-      "published_at": "2026-08-15T16:16:40Z",
-      "summary": "Hi I do a lot of image recognition/classification in my work pipeline. On my initial tests of Muse Glimmer 30B vs Qwen 3.8 27B I&#39;m finding that Glimmer is outperforming Qwen in describing images. Qwen 3.8 is showing ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-15-model-add-kimi-k3-text-model-by-pwilkin-pull-request-26185-g",
-      "source": "localllama",
-      "title": "model: add Kimi-K3 text model by pwilkin · Pull Request #26185 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp6haw/model_add_kimik3_text_model_by_pwilkin_pull/",
-      "published_at": "2026-08-15T15:59:13Z",
-      "summary": "      u/ilintar 👍   &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
