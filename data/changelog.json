@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-08-15T18:35:17Z",
+  "updated_at": "2026-08-16T01:39:34Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10448",
+      "project": "llama-cpp",
+      "version": "b10448",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10448",
+      "published_at": "2026-08-15T20:48:35Z",
+      "body_excerpt": "model: add Kimi-K3 text model (#26185) model: add Kimi-K3 text model Hybrid KDA (linear) + MLA (full) attention as in Kimi-Linear-48B, plus five things that architecture does not have: 1. cross-layer residual attention (attn_res_block_size) 2. latent MoE (routed experts run at n_expert_latent) 3. situ activation (replaces SwiGLU everywhere) 4. MLA output gate (sigmoid gate before o_proj) 5. full-r",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10447",
+      "project": "llama-cpp",
+      "version": "b10447",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10447",
+      "published_at": "2026-08-15T20:14:19Z",
+      "body_excerpt": "server: re-design yield_to_queue thread model (#27133) run common_speculative_process in worker swap worker main thread design Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10446",
+      "project": "llama-cpp",
+      "version": "b10446",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10446",
+      "published_at": "2026-08-15T19:44:16Z",
+      "body_excerpt": "vendor: update BoringSSL to 0.20260813.0 (#27099) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.14-rc0",
+      "project": "ollama",
+      "version": "v0.32.14-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.14-rc0",
+      "published_at": "2026-08-15T19:41:23Z",
+      "body_excerpt": "What's Changed llm: transcode WebP images for llama-server renderers/qwen: tolerate non-leading system messages Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10444",
+      "project": "llama-cpp",
+      "version": "b10444",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10444",
+      "published_at": "2026-08-15T18:42:10Z",
+      "body_excerpt": "common: support --models-dir loading MTP assistant models (#24431) common: support --models-dir loading MTP assistant models common: preset: check for MTP models with strict prefix common: preset: Take advantage of PR #27005 handle other draft types drop eagle3 clean up --------- Co-authored-by: Xuan Son Nguyen Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI en",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10443",
       "project": "llama-cpp",
@@ -9872,42 +9917,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9208",
       "published_at": "2026-05-18T08:22:20Z",
       "body_excerpt": "sycl: route small f32 matmuls to oneMKL, bypass oneDNN (#22150) Signed-off-by: Chun Tao Co-authored-by: Chun Tao macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP3",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9204",
-      "project": "llama-cpp",
-      "version": "b9204",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9204",
-      "published_at": "2026-05-18T00:43:24Z",
-      "body_excerpt": "feat: Support d_conv=15 for ssm-conv.cu (#23017) Branch: ModalityConditionalAdapters AI-usage: none Signed-off-by: Gabe Goodhart macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubun",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9203",
-      "project": "llama-cpp",
-      "version": "b9203",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9203",
-      "published_at": "2026-05-18T00:18:59Z",
-      "body_excerpt": "cmake : fix LLAMA_BUILD_UI logic (#23190) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9202",
-      "project": "llama-cpp",
-      "version": "b9202",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9202",
-      "published_at": "2026-05-17T23:13:11Z",
-      "body_excerpt": "cmake : do not install conversion script (#23204) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9200",
-      "project": "llama-cpp",
-      "version": "b9200",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9200",
-      "published_at": "2026-05-17T22:54:32Z",
-      "body_excerpt": "llama: avoid copying logits during prompt decode in MTP (#23198) llama: avoid copying logits during prompt decode in MTP review: update comment llama-graph: call set_output for t_h_pre_norm macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
       "type": "tool"
     }
   ]
