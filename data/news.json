@@ -1,101 +1,134 @@
 {
-  "updated_at": "2026-08-17T12:52:21Z",
+  "updated_at": "2026-08-17T18:45:41Z",
   "items": [
     {
-      "id": "localllama-2026-08-17-how-many-tokenssecond-output-are-you-getting-with-qwen38-27b",
+      "id": "localllama-2026-08-17-qwen-38-35ba3b-wen",
       "source": "localllama",
-      "title": "How many tokens/second output are you getting with Qwen3.8-27B?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqjeub/how_many_tokenssecond_output_are_you_getting_with/",
-      "published_at": "2026-08-17T05:32:19Z",
-      "summary": "Trying to get a feel for where I stand. If you can list your relevant hardware and model used, that would be awesome. Here&#39;s mine: Model: Qwen3.8-27B-heretic-ara, Q5_K_M GGUF T/s: ~30-32 t/sec (I think, I&#39;ll veri",
+      "title": "Qwen 3.8 35bA3b wen?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vr0aps/qwen_38_35ba3b_wen/",
+      "published_at": "2026-08-17T18:21:02Z",
+      "summary": "Artificial analysis index scores  Qwen 3.5 27b: 35 Qwen 3.6 27b: 38 Qwen 3.8 27b: 52  What the hell kind of a jump was that? Even if it is benchmaxxed, the jump is insane.  Qwen3.6 35b A3b: 32  That&#39;s ~6 points behin",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-17-share-your-favorite-thoughts-and-reasoning-from-running-qwen",
+      "id": "localllama-2026-08-17-qwen38-27bs-result-on-artificial-analysis-is-insane",
       "source": "localllama",
-      "title": "Share your favorite thoughts and reasoning from running Qwen 3.8 27b. This is mine.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqhw5s/share_your_favorite_thoughts_and_reasoning_from/",
-      "published_at": "2026-08-17T04:10:17Z",
-      "summary": "      \\&quot;Ugh, both hypotheses fit J.\\&quot; I have it working on a bug and it though that without testing, it could just think through it, and had some frustration upon realizing it would have to actually test it&#39",
+      "title": "Qwen3.8 27B's result on Artificial Analysis is insane!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vr04tk/qwen38_27bs_result_on_artificial_analysis_is/",
+      "published_at": "2026-08-17T18:15:25Z",
+      "summary": "      &#32; submitted by &#32;  /u/FormOne2615   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-17-and-im-not-afraid-of-losing-my-social-credits",
+      "id": "localllama-2026-08-17-llamacpp-adaptive-mtp-pr27210",
       "source": "localllama",
-      "title": "…and I’m not afraid of losing my social credits.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqgt0x/and_im_not_afraid_of_losing_my_social_credits/",
-      "published_at": "2026-08-17T03:16:00Z",
-      "summary": "      &#32; submitted by &#32;  /u/JLeonsarmiento   [link] &#32; [comments] ",
+      "title": "llama.cpp adaptive MTP PR#27210",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqzud4/llamacpp_adaptive_mtp_pr27210/",
+      "published_at": "2026-08-17T18:05:12Z",
+      "summary": "      Just wanted to raise some attention to this PR I filed if anyone would like to try it out. This adds an adaptive MTP mode to llama.cpp which employs a fairly simple counting-style state machine to determine the app",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-17-i-just-ran-qwen-38-27-in-q4-against-gpt-56-sol-high---and-it",
+      "id": "localllama-2026-08-17-qwen38-27b-on-aa-index",
       "source": "localllama",
-      "title": "I just ran Qwen 3.8 27 in Q4 against GPT 5.6 Sol high - and it easily won against SOL - complex animated SVG tasks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqfyr6/i_just_ran_qwen_38_27_in_q4_against_gpt_56_sol/",
-      "published_at": "2026-08-17T02:35:31Z",
-      "summary": "I created 3 SVG prompts, each one rather hard. Perspective: A animated drone view perspective on a park. Beauty: A beach scene with an evil cat Composition: An AGI breaking out of a virtual sandbox prison in a lab I deli",
+      "title": "Qwen3.8 27B on AA Index",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqzu0h/qwen38_27b_on_aa_index/",
+      "published_at": "2026-08-17T18:04:51Z",
+      "summary": "      This is very impressive, it&#39;s basically gpt5.6 Luna level.  &#32; submitted by &#32;  /u/Tall_Abrocoma_3533   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-17-qwen-38-27b-in-24gb-of-vram",
+      "id": "localllama-2026-08-17-qwen38-27b-opus-5-medium-on-artificial-analysis-agentic-inde",
       "source": "localllama",
-      "title": "Qwen 3.8 27b in 24gb of VRAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqea0n/qwen_38_27b_in_24gb_of_vram/",
-      "published_at": "2026-08-17T01:14:51Z",
-      "summary": "Thought i would just add my own flags here for llama.cpp (literally pulled and rebuilt latest today). Running on a 4090 FE and 48gb of DDR4 ram on WSL2. Basically you have 3 knobs you can tune for maximum context. I pref",
+      "title": "Qwen3.8 27B > Opus 5 Medium on Artificial Analysis Agentic Index",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqzli2/qwen38_27b_opus_5_medium_on_artificial_analysis/",
+      "published_at": "2026-08-17T17:56:43Z",
+      "summary": "      https://preview.redd.it/xh1rloaf4zjh1.png?width=1628&amp;format=png&amp;auto=webp&amp;s=a536fae1b50b327f2bc55d4f4f874f94ae66e867 Thanks Qwen team!  &#32; submitted by &#32;  /u/secopsml   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-16-audiocpp-release-06-dotstts-minimax-h3-text2audio-up-to-3x-r",
+      "id": "localllama-2026-08-17-qwen38-27b-gpt-56-luna-compressed-into-27b",
       "source": "localllama",
-      "title": "[audio.cpp] Release 0.6: dots.tts, MiniMax-H3 text2audio (up to 3x realtime), MiniMax-Music3 (preview), and more new audio models. 5+ demos included.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqasuk/audiocpp_release_06_dotstts_minimaxh3_text2audio/",
-      "published_at": "2026-08-16T22:36:23Z",
-      "summary": "      Hi all :) audio.cpp release 0.6 has been out for a little while, so this is more of an update on what landed and what has been improving around it. 0.6 added 5 new model families: dots.tts, NeuTTS-2e, MuScriptor (M",
+      "title": "Qwen3.8 27B = GPT-5.6 Luna compressed into 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqysne/qwen38_27b_gpt56_luna_compressed_into_27b/",
+      "published_at": "2026-08-17T17:29:04Z",
+      "summary": "      How crazy is that?  &#32; submitted by &#32;  /u/kevinlch   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-16-simon-willison-qwen-38-27b-is-excellent-but-it-defaults-to-w",
+      "id": "localllama-2026-08-17-artificial-analysis-qwen38-27b-benchmarks-put-it-neck-and-ne",
       "source": "localllama",
-      "title": "Simon Willison: Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqaqgn/simon_willison_qwen_38_27b_is_excellent_but_it/",
-      "published_at": "2026-08-16T22:33:32Z",
-      "summary": "I look to Simon for a broad survey of current LLM tech. Here&#39;s his review of playing with Qwen 3.8 27B. His comment on Mastodon was &quot;I can&#39;t remember the last time I&#39;ve had this much fun playing with a l",
+      "title": "Artificial Analysis' Qwen3.8-27B benchmarks put it neck and neck with DeepSeek V4 and GPT-5.6 Luna Max",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqyq8r/artificial_analysis_qwen3827b_benchmarks_put_it/",
+      "published_at": "2026-08-17T17:26:46Z",
+      "summary": "&#32; submitted by &#32;  /u/anderspitman   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-16-llamacpp-rocm-72-714-upgrade-radeon-780m-igpu-benchmarks-roc",
+      "id": "localllama-2026-08-17-why-do-people-like-coding-harnesses-like-opencode-etc-instea",
       "source": "localllama",
-      "title": "Llama.cpp ROCm 7.2->7.14 upgrade, Radeon 780m iGPU benchmarks: ROCm vs Vulkan",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqa7qh/llamacpp_rocm_72714_upgrade_radeon_780m_igpu/",
-      "published_at": "2026-08-16T22:11:19Z",
-      "summary": "With all the new models released recently one important upgrade went unnoticed: Llama.cpp bumped ROCm from 7.2 to 7.14. I was waiting for that because in 7.14 support for gfx1103 (Radeon 780m) was introduced. Although it",
+      "title": "Why do people like coding harnesses like opencode etc instead of an IDE?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqxqxm/why_do_people_like_coding_harnesses_like_opencode/",
+      "published_at": "2026-08-17T16:53:34Z",
+      "summary": "Just curious - I like to be able to see and manage the scripts my agent is working on. I find stuff like Claude Code and Open Code useful for doing stuff on my linux box but I don&#39;t understand why people would use th",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-16-qwen-38-27b-vs-36-27b---how-good-is-with-a-turtle-library",
+      "id": "localllama-2026-08-17-ling-30-tiny-is-the-strongest-fastest-and-greatest-model-on",
       "source": "localllama",
-      "title": "Qwen 3.8 27b vs 3.6 27b - how good is with a Turtle library.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq9zc8/qwen_38_27b_vs_36_27b_how_good_is_with_a_turtle/",
-      "published_at": "2026-08-16T22:01:23Z",
-      "summary": "      Prompt: Provide complete working code for a realistic looking tree in Python using the Turtle graphics library and a recursive algorithm. Difference between 3.6 and 3.8 is huge!  &#32; submitted by &#32;  /u/Health",
+      "title": "Ling 3.0 Tiny is the strongest, fastest and greatest model on my low end PC!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqx6nd/ling_30_tiny_is_the_strongest_fastest_and/",
+      "published_at": "2026-08-17T16:34:29Z",
+      "summary": "      This Ling 3.0 Tiny 8b param with 1.3b active is the fastest, smartest model I can run on my poor old pc, with 4gb vram. It actually runs lightning fast, like 36 token / sec, as smart as Qwen 3.5 9b / Gemma 12, (Ver",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-17-qwen-38-27b-overthinking-it-has-to-be-done-it-has-to-be-over",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B Overthinking, It has to be done, it has to be overthinking to punch Opus 4.6",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqvrh0/qwen_38_27b_overthinking_it_has_to_be_done_it_has/",
+      "published_at": "2026-08-17T15:36:49Z",
+      "summary": "Yes, it sucks to waste time waiting on 16K+ reasoning tokens alone. But here&#39;s the thing, this is only a 27B model trying to perform on par with 1T+ parameter models. Something has to be sacrificed, and that sacrific",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-17-deepseek-harnness---why-is-feels-better",
+      "source": "localllama",
+      "title": "Deepseek Harnness - why is feels better",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqum89/deepseek_harnness_why_is_feels_better/",
+      "published_at": "2026-08-17T14:54:57Z",
+      "summary": "Guys, could someone smarter than me explain what makes Deepseek Harness so efficient? I run it with local Qwen 3.8 (Q6). I tried Opencode/Openchamber (my favourite so far), Pi agent and Hermes. New Qwen seems to overthin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-17-llamacpp-version-v010-has-been-released",
+      "source": "localllama",
+      "title": "llama.cpp version v0.1.0 has been released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqszw0/llamacpp_version_v010_has_been_released/",
+      "published_at": "2026-08-17T13:53:51Z",
+      "summary": "llama.cpp is apparently moving to semantic versioning instead of just sequential build numbers (like b10456). The first semantic version tag was created today: https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.0 Co",
       "tags": [
         "localllama"
       ]
@@ -109,39 +142,6 @@
       "summary": "Friday's big release was Qwen 3.8 27B, an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reas",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-16-dario-amodei-defends-his-policy-proposals-warns-open-weights",
-      "source": "localllama",
-      "title": "Dario Amodei defends his policy proposals, warns open weights won't decentralize power, endorses pre-launch vetting, says real accomplishments will earn trust",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq9sdv/dario_amodei_defends_his_policy_proposals_warns/",
-      "published_at": "2026-08-16T21:53:31Z",
-      "summary": "      &#32; submitted by &#32;  /u/f0urxio   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-16-anyone-else-get-a-kick-out-of-qwen-38-27b-reasoning-dialogue",
-      "source": "localllama",
-      "title": "Anyone else get a kick out of Qwen 3.8 27B Reasoning Dialogue?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq9lsl/anyone_else_get_a_kick_out_of_qwen_38_27b/",
-      "published_at": "2026-08-16T21:45:44Z",
-      "summary": "      I&#39;ve been paying attention to the reasoning because I&#39;m still evaluating the model, and I&#39;ve just noticed that sometimes I get a kick out of the way this model&#39;s internal monologue seems to play out",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-16-qwen-38-9b",
-      "source": "localllama",
-      "title": "Qwen 3.8 9b?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq8rsf/qwen_38_9b/",
-      "published_at": "2026-08-16T21:10:53Z",
-      "summary": "      &#32; submitted by &#32;  /u/Thatisverytrue54321   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
