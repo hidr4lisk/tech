@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-08-17T01:37:04Z",
+  "updated_at": "2026-08-17T07:03:39Z",
   "items": [
+    {
+      "id": "localllama-2026-08-17-how-many-tokenssecond-output-are-you-getting-with-qwen38-27b",
+      "source": "localllama",
+      "title": "How many tokens/second output are you getting with Qwen3.8-27B?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqjeub/how_many_tokenssecond_output_are_you_getting_with/",
+      "published_at": "2026-08-17T05:32:19Z",
+      "summary": "Trying to get a feel for where I stand. If you can list your relevant hardware and model used, that would be awesome. Here&#39;s mine: Model: Qwen3.8-27B-heretic-ara, Q5_K_M GGUF T/s: ~30-32 t/sec (I think, I&#39;ll veri",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-17-share-your-favorite-thoughts-and-reasoning-from-running-qwen",
+      "source": "localllama",
+      "title": "Share your favorite thoughts and reasoning from running Qwen 3.8 27b. This is mine.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqhw5s/share_your_favorite_thoughts_and_reasoning_from/",
+      "published_at": "2026-08-17T04:10:17Z",
+      "summary": "      \\&quot;Ugh, both hypotheses fit J.\\&quot; I have it working on a bug and it though that without testing, it could just think through it, and had some frustration upon realizing it would have to actually test it&#39",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-17-and-im-not-afraid-of-losing-my-social-credits",
+      "source": "localllama",
+      "title": "…and I’m not afraid of losing my social credits.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqgt0x/and_im_not_afraid_of_losing_my_social_credits/",
+      "published_at": "2026-08-17T03:16:00Z",
+      "summary": "      &#32; submitted by &#32;  /u/JLeonsarmiento   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-17-i-just-ran-qwen-38-27-in-q4-against-gpt-56-sol-high---and-it",
+      "source": "localllama",
+      "title": "I just ran Qwen 3.8 27 in Q4 against GPT 5.6 Sol high - and it easily won against SOL - complex animated SVG tasks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqfyr6/i_just_ran_qwen_38_27_in_q4_against_gpt_56_sol/",
+      "published_at": "2026-08-17T02:35:31Z",
+      "summary": "I created 3 SVG prompts, each one rather hard. Perspective: A animated drone view perspective on a park. Beauty: A beach scene with an evil cat Composition: An AGI breaking out of a virtual sandbox prison in a lab I deli",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-17-qwen-38-27b-in-24gb-of-vram",
+      "source": "localllama",
+      "title": "Qwen 3.8 27b in 24gb of VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqea0n/qwen_38_27b_in_24gb_of_vram/",
+      "published_at": "2026-08-17T01:14:51Z",
+      "summary": "Thought i would just add my own flags here for llama.cpp (literally pulled and rebuilt latest today). Running on a 4090 FE and 48gb of DDR4 ram on WSL2. Basically you have 3 knobs you can tune for maximum context. I pref",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-16-audiocpp-release-06-dotstts-minimax-h3-text2audio-up-to-3x-r",
       "source": "localllama",
@@ -85,61 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq8rsf/qwen_38_9b/",
       "published_at": "2026-08-16T21:10:53Z",
       "summary": "      &#32; submitted by &#32;  /u/Thatisverytrue54321   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-16-ninfer-rtx-4090-for-qwen-38-27b-update---up-to-250-350k-toke",
-      "source": "localllama",
-      "title": "NInfer RTX 4090 for Qwen 3.8 27B update - up to 250-350K tokens context in VRAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq881r/ninfer_rtx_4090_for_qwen_38_27b_update_up_to/",
-      "published_at": "2026-08-16T20:48:53Z",
-      "summary": "I&#39;ve made some improvements to my fork of NInfer, adding rk2v4-e8 quant option for the KV cache, which can reach up to 250-350K tokens of context window depending on the configuration like vision, MTP, etc, on my sin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-16-qwen38-27b-on-rtx-3090---82-tps-single-request-up-to-672-tps",
-      "source": "localllama",
-      "title": "Qwen3.8-27b on RTX 3090 - 82 tps single request, up to 672 tps peak",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq6fdj/qwen3827b_on_rtx_3090_82_tps_single_request_up_to/",
-      "published_at": "2026-08-16T19:38:07Z",
-      "summary": "Hi, After a long night of optimizations, I believe I have made the fastest inference engine for Qwen3.6-28B on a 3090. Quick metrics: - 250w power capped - Up to 195k context (ships with 150k for safety though) - 82 tps ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-16-why-are-rtx-6000-pros-still-getting-bought-at-16000-usd-and",
-      "source": "localllama",
-      "title": "Why are RTX 6000 PROs still getting bought at 16000+ USD? And who are buying them?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq6bs5/why_are_rtx_6000_pros_still_getting_bought_at/",
-      "published_at": "2026-08-16T19:34:08Z",
-      "summary": "Hello guys, hoping you&#39;re doing well. I bring this discussion since I have noticed on internet, be USA or EU, RTX 6000 PROs at 16000USD or more are still getting bought.  Even here on Chile, the other day they were i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-16-qwen38-27b-q2-vs-q3-vs-qwen36-35b-a3b-moe-on-12gb-vram",
-      "source": "localllama",
-      "title": "Qwen3.8 27B Q2 vs Q3 vs Qwen3.6 35B-A3B MoE on 12GB VRAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq60on/qwen38_27b_q2_vs_q3_vs_qwen36_35ba3b_moe_on_12gb/",
-      "published_at": "2026-08-16T19:21:58Z",
-      "summary": "      Did a quick local test because I wanted to see what is actually usable on my 12GB laptop GPU. I tested the newer Qwen3.8 27B dense files at Q2 and Q3, then compared them against Qwen3.6 35B-A3B MoE. Hardware: RTX 5",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-16-qwen-38-24t-at-288k-tokenss-on-nvidia-gb300-nvl72",
-      "source": "localllama",
-      "title": "Qwen 3.8 2.4T at 288k tokens/s on Nvidia GB300 NVL72",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq3ssg/qwen_38_24t_at_288k_tokenss_on_nvidia_gb300_nvl72/",
-      "published_at": "2026-08-16T17:57:26Z",
-      "summary": "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72/ 4k tokens per second per GPU of which there are 72. 350 tokens per second per user &quot",
       "tags": [
         "localllama"
       ]

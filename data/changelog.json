@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-17T01:37:10Z",
+  "updated_at": "2026-08-17T07:03:45Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10456",
+      "project": "llama-cpp",
+      "version": "b10456",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10456",
+      "published_at": "2026-08-17T06:29:29Z",
+      "body_excerpt": "sycl: fix thread/block count in quantized cpy kernel launches (#27160) Adjusts the thread/block count to be proportional to the size of the quant, reducing under/over subscription. Largest perf improvement is the q4_0 -> f32 path, with, on a Arc 70, throughput goes from 20.21 GB/s to 158.19 GB/s The rest of the quants are flat in performance uplift. Website: macOS/iOS: macOS Apple Silicon (arm64) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10455",
+      "project": "llama-cpp",
+      "version": "b10455",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10455",
+      "published_at": "2026-08-17T05:47:28Z",
+      "body_excerpt": "[SYCL] support OP OPT_STEP_ADAMW, OPT_STEP_SGD (#25268) fix conflict fix conflict of ops.md fix conflict of ops.md update the ops.md --------- Co-authored-by: Neo Zhang Jianyu Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubunt",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10453",
       "project": "llama-cpp",
