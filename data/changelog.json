@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-17T12:52:25Z",
+  "updated_at": "2026-08-17T18:45:47Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10472",
+      "project": "llama-cpp",
+      "version": "b10472",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10472",
+      "published_at": "2026-08-17T17:16:25Z",
+      "body_excerpt": "cuda : skip UMA override for HIP builds (#27083) AMD APUs report accurate memory via hipMemGetInfo. Using MemAvailable over-promises on small-carveout systems. fixes #18159 Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10470",
+      "project": "llama-cpp",
+      "version": "b10470",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10470",
+      "published_at": "2026-08-17T13:59:43Z",
+      "body_excerpt": "ci : push release tag explicitly in release.yml (#27261) Add a \"Create and push git tag\" step to the release job, right before the \"Create release\" step. The tag is created with git tag and pushed with the deploy key already configured by the Clone step, instead of relying on the Releases API (action-create-release) to create it as a side effect. The tag is lightweight, matching all existing b rel",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10456",
       "project": "llama-cpp",
@@ -9881,15 +9899,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9239",
       "published_at": "2026-05-20T02:42:47Z",
       "body_excerpt": "common: fix --fit verbosity with --verbosity 4 (#23282) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.41-beta",
-      "project": "unsloth",
-      "version": "v0.1.41-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.41-beta",
-      "published_at": "2026-05-19T14:49:27Z",
-      "body_excerpt": "Lots of bug fixes, UI, UX fixes to Studio! To get the latest updates do: macOS, Linux, WSL: Windows: Fixes 1. Fix not working well 2. Fix getting stuck on page 3. More offline mode support 4. Improve MTP not being faster on Macs, CPUs and GPUs - now it's much better! 5. Fix Desktop Shortcut not working after update 6. Many many UI UX bug fixes What's Changed in Unsloth install scripts: bump unslot",
       "type": "tool"
     }
   ]
