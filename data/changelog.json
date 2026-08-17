@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T18:34:24Z",
+  "updated_at": "2026-08-17T01:37:10Z",
   "releases": [
     {
       "id": "llama-cpp-b10453",
@@ -9872,42 +9872,6 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.41-beta",
       "published_at": "2026-05-19T14:49:27Z",
       "body_excerpt": "Lots of bug fixes, UI, UX fixes to Studio! To get the latest updates do: macOS, Linux, WSL: Windows: Fixes 1. Fix not working well 2. Fix getting stuck on page 3. More offline mode support 4. Improve MTP not being faster on Macs, CPUs and GPUs - now it's much better! 5. Fix Desktop Shortcut not working after update 6. Many many UI UX bug fixes What's Changed in Unsloth install scripts: bump unslot",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9222",
-      "project": "llama-cpp",
-      "version": "b9222",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9222",
-      "published_at": "2026-05-19T00:29:07Z",
-      "body_excerpt": "hexagon: add support for TRI op (#22822) Hexagon: TRI HVX Kernel addition to ggml hexagon HTP ops and context addressed PR review comments for TRI op hexagon: clang format hex-unary: remove merge conflict markers hex-ggml: remove duplicate op cases (merge conflict) hex-ggml: fix editor config errors --------- Co-authored-by: Todor Boinovski Co-authored-by: Max Krasnyansky macOS/iOS: macOS Apple Si",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9221",
-      "project": "llama-cpp",
-      "version": "b9221",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9221",
-      "published_at": "2026-05-18T23:16:57Z",
-      "body_excerpt": "ggml-hexagon: add PAD op HVX kernel (#23078) ggml-hexagon: add PAD op HVX kernel Implements GGML_OP_PAD on the Hexagon HTP backend using HVX vectorized kernels. Supports zero-padding and circular padding across all 4 tensor dimensions. hex-ggml: remove duplicate op cases (merge conflict) hex-pad: fix editorconfig checks and macro alignment --------- Co-authored-by: Max Krasnyansky macOS/iOS: macOS",
-      "type": "tool"
-    },
-    {
-      "id": "hf-stabilityai-stable-audio-3-optimized",
-      "project": "stabilityai",
-      "version": "stable-audio-3-optimized",
-      "url": "https://huggingface.co/stabilityai/stable-audio-3-optimized",
-      "published_at": "2026-05-18T19:38:34Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9219",
-      "project": "llama-cpp",
-      "version": "b9219",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9219",
-      "published_at": "2026-05-18T19:25:00Z",
-      "body_excerpt": "common : remove hf cache migration (#23266) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
       "type": "tool"
     }
   ]
