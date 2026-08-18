@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-08-18T06:50:59Z",
+  "updated_at": "2026-08-18T12:54:15Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10488",
+      "project": "llama-cpp",
+      "version": "b10488",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10488",
+      "published_at": "2026-08-18T11:05:53Z",
+      "body_excerpt": "ci : Update OpenVINO to 2026.3, skip nemotron-h rollback test (#27292) update to ov-2026.3, update device drivers ci: skip nemotron-h rollback test on OpenVINO The OpenVINO backend does not support SSM_SCAN, so the Nemotron-H recurrent state rollback graph is split and cannot preserve the recurrent cache output shape. Keep the test enabled for other backends and retain the qwen35 OpenVINO rollback",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10486",
+      "project": "llama-cpp",
+      "version": "b10486",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10486",
+      "published_at": "2026-08-18T10:43:36Z",
+      "body_excerpt": "mtmd: fix LFM2 image tiling threshold (#27057) mtmd: fix LFM2 image tiling threshold refactor testing fix fix on windows --------- Co-authored-by: Xuan Son Nguyen Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulk",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-v0.1.2",
+      "project": "llama-cpp",
+      "version": "v0.1.2",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.2",
+      "published_at": "2026-08-18T10:23:10Z",
+      "body_excerpt": "> [!NOTE] > Semantic versioning is still work in progress. > More info can be found in Nightly build: b10485 Change log since v0.1.1 1511ce3bc sync : ggml da786dc23 ggml : bump version to 0.20.2 (ggml/1589) 27e345b57 build : fix xcframework + cmake clean-up (#27304) 8b8640097 ci : create pre-release with change log and nightly link in make-release (#27302) 25ae3a9b3 CUDA: MMVQ nwarps=8 for bs=1 fo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10485",
+      "project": "llama-cpp",
+      "version": "b10485",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10485",
+      "published_at": "2026-08-18T10:08:32Z",
+      "body_excerpt": "sync : ggml Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10483",
+      "project": "llama-cpp",
+      "version": "b10483",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10483",
+      "published_at": "2026-08-18T09:24:57Z",
+      "body_excerpt": "build : fix xcframework + cmake clean-up (#27304) xcframework : fix build mtmd : remove unused include path vendor : use vendor::hash alias target in cmake CMake reserves \"::\" in target names for imported/alias targets, so the real target keeps the name vendor-hash and a vendor::hash ALIAS target is added. Consumers (mtmd, llama-gguf-hash) now link against the namespaced alias. Assisted-by: pi:lla",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10472",
       "project": "llama-cpp",
@@ -9836,15 +9881,6 @@
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.9.0",
       "published_at": "2026-05-20T14:12:54Z",
       "body_excerpt": "Release v5.9.0 New Model additions Cohere2Moe Command A+ is a Mixture-of-Experts (MoE) language model from Cohere that features a hybrid attention pattern combining sliding window and full attention layers. The model incorporates both shared and routed experts and supports a very large context window for processing extensive text sequences. Links: Documentation Add new cohere2_moe model (#46115) b",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9247",
-      "project": "llama-cpp",
-      "version": "b9247",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9247",
-      "published_at": "2026-05-20T12:09:47Z",
-      "body_excerpt": "metal : optimize pad + cpy (#23354) metal : optimize pad metal : optinmize cpy cont : better row packing in threadgroup macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (S",
       "type": "tool"
     }
   ]
