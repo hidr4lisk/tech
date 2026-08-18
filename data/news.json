@@ -1,136 +1,158 @@
 {
-  "updated_at": "2026-08-18T12:54:08Z",
+  "updated_at": "2026-08-18T18:43:22Z",
   "items": [
     {
-      "id": "localllama-2026-08-18-linux-improves-vram-management-in-73-kernel",
+      "id": "localllama-2026-08-18-ling-30-bailingmoe3-lands-in-llamacpp-mainline---quick-bench",
       "source": "localllama",
-      "title": "Linux Improves VRAM Management in 7.3 Kernel 🥳",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vro3vf/linux_improves_vram_management_in_73_kernel/",
-      "published_at": "2026-08-18T12:43:26Z",
-      "summary": "&#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments]",
+      "title": "Ling-3.0 (BailingMoE3) lands in llama.cpp mainline - Quick benchmarks on Intel Arc B580",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrxoxy/ling30_bailingmoe3_lands_in_llamacpp_mainline/",
+      "published_at": "2026-08-18T18:30:28Z",
+      "summary": "Finally llama.cpp now officially supports Ling-3.0! (Starting from build b10472+) If you want to run them locally, bartowski has already released the GGUF imatrix quantizations for both models: - Ling-3.0-tiny (8B) - Lin",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-18-hugging-face-just-surpassed-3-million-models-on-the-hub",
+      "id": "localllama-2026-08-18-idea-massively-compress-qwen-38-kv-cache-by-using-a-single-b",
       "source": "localllama",
-      "title": "Hugging Face just surpassed 3 million models on the Hub",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrnckt/hugging_face_just_surpassed_3_million_models_on/",
-      "published_at": "2026-08-18T12:09:54Z",
-      "summary": "      From Hugging Face on 𝕏: https://x.com/huggingface/status/2089673018737869242?s=20  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
+      "title": "Idea: massively compress Qwen 3.8 KV cache by using a single bit for the token \"wait\"",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrxgiu/idea_massively_compress_qwen_38_kv_cache_by_using/",
+      "published_at": "2026-08-18T18:22:11Z",
+      "summary": "Not even sure if I&#39;m joking, my thinking history is about 50% &quot;wait&quot;.  &#32; submitted by &#32;  /u/pixelpoet_nz   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-18-deepseek-v4-flash-0731-on-strix-halo-draft-model-n-max-sweep",
+      "id": "huggingface-2026-08-18-how-much-memory-does-your-agent-actually-need",
+      "source": "huggingface",
+      "title": "How Much Memory Does Your Agent Actually Need?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "published_at": "2026-08-18T18:09:38Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-18-memory-prices-climb-500-in-12-months-up-to-10x-the-lowest-ev",
       "source": "localllama",
-      "title": "DeepSeek V4 Flash 0731 on Strix Halo: draft model, n_max sweep, and a launch line that actually helps",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrm27o/deepseek_v4_flash_0731_on_strix_halo_draft_model/",
-      "published_at": "2026-08-18T11:07:12Z",
-      "summary": "      I know the front page is all Qwen3.8 27B right now. Fine model. I just finished a week of numbers on DeepSeek-V4-Flash-0731 on a Strix Halo box and figured I&#39;d dump them here before I forget what I actually mea",
+      "title": "Memory prices climb 500% in 12 months, up to 10x the lowest ever tracked prices - 128GB of DDR5 now $3,399",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrwsfl/memory_prices_climb_500_in_12_months_up_to_10x/",
+      "published_at": "2026-08-18T17:59:01Z",
+      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-18-dont-ignore-llamacpp-rpc-with-old-hardware-results-of-a-5070",
+      "id": "localllama-2026-08-18-qwen38-24t-open-weights-made-a-call-of-duty-clone",
       "source": "localllama",
-      "title": "Don't ignore llama.cpp RPC with old hardware. Results of a 5070 Ti and 1080 Ti over gigabit ethernet: it's actually functional.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrkxdt/dont_ignore_llamacpp_rpc_with_old_hardware/",
-      "published_at": "2026-08-18T10:07:30Z",
-      "summary": "Results up front: I had to prioritize prefill or token generation - there was no happy medium. Using UD-Q4_K_XL, q8 kv cache, and 96k max context:  focus on generation (MTP = 2): 350 pp and 36 tg @ 12k context focus on p",
+      "title": "Qwen3.8 2.4T open weights made a Call of Duty clone",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrwn1f/qwen38_24t_open_weights_made_a_call_of_duty_clone/",
+      "published_at": "2026-08-18T17:53:44Z",
+      "summary": "      Qwen released the 2.4T Max weights and I was curious how well it can re-create COD in one prompt I ran the model on a rented B200 cluster and used roughly 1.1M output tokens over a 5 hour time span Realistically ba",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-18-qwen-38-27b-saved-me-650-in-api-costs-this-evening",
+      "id": "localllama-2026-08-18-i-pushed-qwen38-27b-to-124-tps-on-a-single-request-on-a-rtx",
       "source": "localllama",
-      "title": "Qwen 3.8 27b saved me $650+ in API costs this evening",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrjk4m/qwen_38_27b_saved_me_650_in_api_costs_this_evening/",
-      "published_at": "2026-08-18T08:47:28Z",
-      "summary": "I&#39;ve been experimenting with Qwen3.8-27B using DeepSeek Harness. It&#39;s a monster at long-horizon tasks, and the results were pretty wild. DeepSeek Harness ran on my Windows PC and connected over LAN to NInfer on a",
+      "title": "I pushed Qwen3.8-27B to 124 tps on a single request on a RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrw4sz/i_pushed_qwen3827b_to_124_tps_on_a_single_request/",
+      "published_at": "2026-08-18T17:35:35Z",
+      "summary": "Two days ago I released a hyper-optimized Qwen3.8-27B inference engine for an RTX 3090 (82 tps single request, 672 peak) - yesterday&#39;s update took that to 99 tps single-user / ~1,000 tps at 64 concurrent. Since then ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-18-qwen-38-27b-is-faster-than-expected",
+      "id": "localllama-2026-08-18-qwen38-27b-slower-tokens-faster-and-better-results",
       "source": "localllama",
-      "title": "Qwen 3.8 27B is faster than expected",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vriwym/qwen_38_27b_is_faster_than_expected/",
-      "published_at": "2026-08-18T08:08:11Z",
-      "summary": "i ran this model on my two 5060 TI 16GB cards at Q4 in unsloth and LM studio ( i downloaded NVFP4 but didn&#39;t try it in vLLM ) i think it runs faster than expected it gives me 50 - 60 t/s with MTP. this is surprising ",
+      "title": "Qwen3.8-27B: slower tokens, faster and better results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vru16d/qwen3827b_slower_tokens_faster_and_better_results/",
+      "published_at": "2026-08-18T16:23:37Z",
+      "summary": "      &#32; submitted by &#32;  /u/surreal_tournament   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-18-qwen-38-27b-vs-deepseek-flash",
+      "id": "localllama-2026-08-18-anyone-running-qwen-38-27b-on-5070ti-16gb",
       "source": "localllama",
-      "title": "Qwen 3.8 27b vs Deepseek Flash",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrifat/qwen_38_27b_vs_deepseek_flash/",
-      "published_at": "2026-08-18T07:38:35Z",
-      "summary": "Hey Guys, What amazing weeks it has been for open source releases. I was really impresssed by DS flash final checkpoint and i have been playing around with it until qwen 3.8 released. I checked the benckmarks, and I dont",
+      "title": "Anyone running qwen 3.8 27b on 5070ti (16GB)?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrt7hy/anyone_running_qwen_38_27b_on_5070ti_16gb/",
+      "published_at": "2026-08-18T15:58:51Z",
+      "summary": "Hi everyone. I recently decided to shell out a few bucks and upgrade my 4070ti (12GB) to a 5070ti (16GB). I&#39;m wondering if there&#39;s a reasonable quant that I could run the new qwen 3.8 27b on and get decent tp/s, ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-18-tencentui-mate-27b-hugging-face",
+      "id": "localllama-2026-08-18-running-deepseek-v4-flash-q4-k-xl-at-100-toks-prompt-process",
       "source": "localllama",
-      "title": "tencent/UI-Mate-27B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrhg08/tencentuimate27b_hugging_face/",
-      "published_at": "2026-08-18T06:42:32Z",
-      "summary": "      Overview UI-Mate-27B is an open-weight foundation GUI agent for long-horizon work across applications and operating systems. It observes live screenshots, reasons over the visible state, and produces structured key",
+      "title": "Running DeepSeek V4 Flash Q4_K_XL at ~100 tok/s prompt processing on 4× RTX 3060 12GB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrqf4f/running_deepseek_v4_flash_q4_k_xl_at_100_toks/",
+      "published_at": "2026-08-18T14:15:29Z",
+      "summary": "      I managed to run the 143–144 GiB DeepSeek-V4-Flash-0731 UD-Q4_K_XL GGUF on four RTX 3060 12GB cards while keeping a 360k–376k context window. Hardware: CPU: Intel Core i9-10920X, 12C/24T RAM: 128 GB DDR4-3200, quad",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-18-qwen-38-27b-xhigh-vs-medium-small-comparison-others-for-fun",
+      "id": "localllama-2026-08-18-if-the-weights-never-change-is-it-really-recursive-self-impr",
       "source": "localllama",
-      "title": "Qwen 3.8 27B xhigh vs medium small comparison (+ others for fun)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrg907/qwen_38_27b_xhigh_vs_medium_small_comparison/",
-      "published_at": "2026-08-18T05:36:41Z",
-      "summary": "      It&#39;s a small experiment of mine to check thinking effort on Qwen and I do have to say xhigh does overthink but I&#39;m not sure if it&#39;s bad because the result is rather amazing. Although the prompt was very",
+      "title": "If the weights never change, is it really recursive self-improvement?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrqamv/if_the_weights_never_change_is_it_really/",
+      "published_at": "2026-08-18T14:10:40Z",
+      "summary": "      https://preview.redd.it/e0ydm43a55kh1.png?width=2902&amp;format=png&amp;auto=webp&amp;s=8c9b88ff5e4157811e8996ba5a1e96cc55c8ae6a This paper is using a much narrower definition of recursive self-improvement than the",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-18-the-goat-of-local-llm-youtube-is-back",
+      "id": "localllama-2026-08-18-is-ling-3-tiny-underrated-for-its-size",
       "source": "localllama",
-      "title": "The GOAT of local LLM youtube is back",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrfdjx/the_goat_of_local_llm_youtube_is_back/",
-      "published_at": "2026-08-18T04:50:01Z",
-      "summary": "      This guy has been the rock of my LLM understanding! So happy to see him back with a banger. Highly recommend his channel to anyone looking to understand the weeds of LLMs  &#32; submitted by &#32;  /u/bhavya6187   ",
+      "title": "Is Ling 3 tiny underrated for its size?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrq3na/is_ling_3_tiny_underrated_for_its_size/",
+      "published_at": "2026-08-18T14:03:26Z",
+      "summary": "I was checking out benchmarks of this model and apparantly better than Qwen3.5 9b reasoning across the bench on artificial analysis. I have used the 9b model for variety of stuff and it has been amazing, but if this is b",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-18-aa-is-the-reason-for-qwen38-27b-shipped-with-xhigh",
+      "id": "localllama-2026-08-18-what-sandbox-are-you-all-using-for-ai-agents",
       "source": "localllama",
-      "title": "AA is the reason for Qwen3.8 27B shipped with xhigh",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrf477/aa_is_the_reason_for_qwen38_27b_shipped_with_xhigh/",
-      "published_at": "2026-08-18T04:36:17Z",
-      "summary": "I know why Qwen3.8 27B shipped with xhigh reasoning as default, it&#39;s to do its best in benchmarks. Models from top labs often get benchmarked at multiple reasoning levels, but that same treatment doesn&#39;t apply to",
+      "title": "What sandbox are you all using for AI agents?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrps78/what_sandbox_are_you_all_using_for_ai_agents/",
+      "published_at": "2026-08-18T13:51:22Z",
+      "summary": "Hi everyone, I use AI agents to code and manage my personal files heavily. However, I am worried that the agents may accidentally delete some important files on my machine, outside of the defined scope. I am wondering wh",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-18-qwen-dev-says-not-to-wait-for-35b-a3b",
+      "id": "localllama-2026-08-18-opencode-overrides-the-samplers-for-qwen-models-to-the-wrong",
       "source": "localllama",
-      "title": "Qwen dev says not to wait for 35B-A3B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrdetw/qwen_dev_says_not_to_wait_for_35ba3b/",
-      "published_at": "2026-08-18T03:11:17Z",
-      "summary": "      What does this mean? Is there something else coming? Maybe 122B? Or no models?  &#32; submitted by &#32;  /u/Mean-Ad1493   [link] &#32; [comments] ",
+      "title": "OpenCode overrides the samplers for Qwen models to the wrong values",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vroao0/opencode_overrides_the_samplers_for_qwen_models/",
+      "published_at": "2026-08-18T12:51:35Z",
+      "summary": "This is invisible with llama.cpp or derivatives, but ninfer helpfully logs the sampler settings on each request and auto-configures the correct ones for the model. Basically, OpenCode will always send top-p=1.0 (which me",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-08-18-multi-vector-late-interaction-embedding-models-with-sentence",
+      "source": "huggingface",
+      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "published_at": "2026-08-18T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
       ]
     },
     {
@@ -381,28 +403,6 @@
       "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
       "url": "https://huggingface.co/blog/muse-glimmer",
       "published_at": "2026-08-10T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-08-07-tutormoments-do-ai-tutors-know-when-to-help-and-when-to-hold",
-      "source": "huggingface",
-      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "url": "https://huggingface.co/blog/allenai/tutormoments",
-      "published_at": "2026-08-07T17:53:32Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-08-06-baseten-on-hugging-face-inference-providers",
-      "source": "huggingface",
-      "title": "Baseten on Hugging Face Inference Providers 🔥",
-      "url": "https://huggingface.co/blog/baseten",
-      "published_at": "2026-08-06T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"
