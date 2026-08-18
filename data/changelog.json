@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T01:27:00Z",
+  "updated_at": "2026-08-18T06:50:59Z",
   "releases": [
     {
       "id": "llama-cpp-b10472",
@@ -9845,60 +9845,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9247",
       "published_at": "2026-05-20T12:09:47Z",
       "body_excerpt": "metal : optimize pad + cpy (#23354) metal : optimize pad metal : optinmize cpy cont : better row packing in threadgroup macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (S",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9245",
-      "project": "llama-cpp",
-      "version": "b9245",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9245",
-      "published_at": "2026-05-20T04:13:15Z",
-      "body_excerpt": "ggml-cuda: tune RDNA3 Q6_K MMVQ nwarps (#23349) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: W",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9244",
-      "project": "llama-cpp",
-      "version": "b9244",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9244",
-      "published_at": "2026-05-20T03:39:52Z",
-      "body_excerpt": "opencl: add MoE support for q4_k, q5_k, q6_k on Adreno (#23303) opencl: add q4_k moe support opencl: add q5_k moe support opencl: add q6_k moe support opencl: adjust format --------- Co-authored-by: Li He macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9243",
-      "project": "llama-cpp",
-      "version": "b9243",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9243",
-      "published_at": "2026-05-20T03:08:36Z",
-      "body_excerpt": "hexagon: add MROPE and IMROPE support in HTP rope op (#23317) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9235",
-      "project": "llama-cpp",
-      "version": "b9235",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9235",
-      "published_at": "2026-05-20T03:04:33Z",
-      "body_excerpt": "llama : MTP clean-up (#23269) llama : disable equal splits for recurrent memory with partial rollback spec : re-enable p-min with MTP drafts spec : re-enable ngram spec in combination with RS rollback spec : fix ngram-map- params spec : fix acceptance logic in combined ngram + draft configs graph : fix reuse for combined + batches spec : log parameters for each speculative implementation add LOG_I",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9240",
-      "project": "llama-cpp",
-      "version": "b9240",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9240",
-      "published_at": "2026-05-20T02:44:23Z",
-      "body_excerpt": "common: fix --help for --verbosity (#23278) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windo",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9239",
-      "project": "llama-cpp",
-      "version": "b9239",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9239",
-      "published_at": "2026-05-20T02:42:47Z",
-      "body_excerpt": "common: fix --fit verbosity with --verbosity 4 (#23282) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
       "type": "tool"
     }
   ]
