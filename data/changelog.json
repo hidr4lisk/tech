@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T12:54:15Z",
+  "updated_at": "2026-08-18T18:43:28Z",
   "releases": [
     {
       "id": "llama-cpp-b10488",
@@ -477,6 +477,15 @@
       "published_at": "2026-08-13T17:17:01Z",
       "body_excerpt": "spec: enable backend sampling for both dflash & dspark (#26958) dflash: enable backend sampling for both dflash & dspark enable p_min > 0 in backend sampling and add guard cont : add TODO --------- Co-authored-by: Georgi Gerganov Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ar",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-cmd",
+      "project": "nvidia",
+      "version": "cmd",
+      "url": "https://huggingface.co/nvidia/cmd",
+      "published_at": "2026-08-13T16:59:36Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10411",
@@ -9854,33 +9863,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9254",
       "published_at": "2026-05-20T21:38:57Z",
       "body_excerpt": "Programmatic Dependent Launch (PDL) for more performance on newer NVIDIA GPUs (Hopper+) (#22522) Adds initial PDL setup. Adds PDL barriers based on simple heuristic: place \"sync\" before first input pointer access, and \"launch\" after last write, e.g. to tensors like dst. Further optimization pass of the first half of kernels Optimized PDL barriers for the second batch of kernels Further refinements",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9253",
-      "project": "llama-cpp",
-      "version": "b9253",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9253",
-      "published_at": "2026-05-20T16:35:15Z",
-      "body_excerpt": "app : introduce the llama unified executable (#23296) app : introduce the llama unified executable Signed-off-by: Adrien Gallouët Use serve for server Signed-off-by: Adrien Gallouët Hide completion and bench, add help command Signed-off-by: Adrien Gallouët Remove STATIC Signed-off-by: Adrien Gallouët Use -impl targets instead of -lib Signed-off-by: Adrien Gallouët Revert \"Remove STATIC\" This rever",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9251",
-      "project": "llama-cpp",
-      "version": "b9251",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9251",
-      "published_at": "2026-05-20T15:31:30Z",
-      "body_excerpt": "mtmd: fit_params now take into account mmproj (#21489) mtmd: fit_params now take into account mmproj rename alloc_compute_meta to reserve_compute_meta rm unused functions add ggml_backend_dev_t support add debug log macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubu",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.9.0",
-      "project": "transformers",
-      "version": "v5.9.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.9.0",
-      "published_at": "2026-05-20T14:12:54Z",
-      "body_excerpt": "Release v5.9.0 New Model additions Cohere2Moe Command A+ is a Mixture-of-Experts (MoE) language model from Cohere that features a hybrid attention pattern combining sliding window and full attention layers. The model incorporates both shared and routed experts and supports a very large context window for processing extensive text sequences. Links: Documentation Add new cohere2_moe model (#46115) b",
       "type": "tool"
     }
   ]
