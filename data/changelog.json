@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-19T06:51:41Z",
+  "updated_at": "2026-08-19T12:55:20Z",
   "releases": [
+    {
+      "id": "transformers-v5.15.1",
+      "project": "transformers",
+      "version": "v5.15.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
+      "published_at": "2026-08-19T10:50:47Z",
+      "body_excerpt": "Patch release v5.15.1 This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter. It contains the following commits: Fix DFlash candidate token device mismatch with device_map=\"auto\" (#47877) by @sywangyi and @Cyrilvallez Align logit distributions for CandidateGenerat",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10488",
       "project": "llama-cpp",
