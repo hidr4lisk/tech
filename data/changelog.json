@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-19T12:55:20Z",
+  "updated_at": "2026-08-19T18:40:46Z",
   "releases": [
+    {
+      "id": "hf-nvidia-GR00TCRA",
+      "project": "nvidia",
+      "version": "GR00TCRA",
+      "url": "https://huggingface.co/nvidia/GR00TCRA",
+      "published_at": "2026-08-19T18:31:46Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "ollama-v0.32.15-rc1",
+      "project": "ollama",
+      "version": "v0.32.15-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
+      "published_at": "2026-08-19T17:25:16Z",
+      "body_excerpt": "What's Changed Add a model metadata cache to reduce Ollama’s per-request overhead New Contributors @gaugarg-nv made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10502",
+      "project": "llama-cpp",
+      "version": "b10502",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10502",
+      "published_at": "2026-08-19T13:26:32Z",
+      "body_excerpt": "ci : add attestation for signed release artifacts (#25933) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64",
+      "type": "tool"
+    },
     {
       "id": "transformers-v5.15.1",
       "project": "transformers",
@@ -9747,51 +9774,6 @@
       "published_at": "2026-05-21T19:52:00Z",
       "body_excerpt": "vocab : add Carbon-3B (HybridDNATokenizer) support (#23410) vocab : add Carbon-3B (HybridDNATokenizer) support Adds a new BPE pre-type LLAMA_VOCAB_PRE_TYPE_CARBON for the HybridDNATokenizer used by HuggingFaceBio/Carbon-{500M,3B,8B}. The base BPE is Qwen3-4B-Base's; what differs is that text inside ... regions is chunked into fixed 6-mers (right-padded with 'A' on the trailing partial), and any ba",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9267",
-      "project": "llama-cpp",
-      "version": "b9267",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9267",
-      "published_at": "2026-05-21T17:18:23Z",
-      "body_excerpt": "ggml : Check the right iface method before using the fallback 2d get (#23306) Probably no backends implement only one of 2d get/set, but this might be annoying for some future backend developer trying to add 2d get/set. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9266",
-      "project": "llama-cpp",
-      "version": "b9266",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9266",
-      "published_at": "2026-05-21T16:32:38Z",
-      "body_excerpt": "llama-graph: fix null-buffer crash in llm_graph_input_attn_kv_iswa for SWA-only models (#23131) When a model has zero non-SWA attention layers (e.g. a SWA-only slice of Gemma 4), the base KV cache has no layer tensors. The input tensors (self_k_idxs, self_v_idxs, self_kq_mask) are created as graph input nodes but never consumed by any compute node, so the backend scheduler never allocates a buffer",
-      "type": "tool"
-    },
-    {
-      "id": "hf-allenai-ACE2S-SHiELD-plus",
-      "project": "allenai",
-      "version": "ACE2S-SHiELD-plus",
-      "url": "https://huggingface.co/allenai/ACE2S-SHiELD-plus",
-      "published_at": "2026-05-21T15:25:14Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9265",
-      "project": "llama-cpp",
-      "version": "b9265",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9265",
-      "published_at": "2026-05-21T13:44:55Z",
-      "body_excerpt": "hexagon: ssm-conv fix for large prompts (#23307) hexagon: remove gathers and better handling of vtcm in ssm-conv hexagon: relax ssm-conv gating requirements hexagon: add new prefill ssm-conv backend test hexagon: remove trailing white space hex-rope: uninline rope_cache_init, otherwise it breaks after rebaseing with SSM_CONV changes --------- Co-authored-by: Max Krasnyansky macOS/iOS: macOS Apple ",
-      "type": "tool"
-    },
-    {
-      "id": "hf-ibm-granite-granite-timeseries-ttm-r3",
-      "project": "ibm-granite",
-      "version": "granite-timeseries-ttm-r3",
-      "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r3",
-      "published_at": "2026-05-21T13:22:39Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
