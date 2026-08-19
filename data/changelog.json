@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T01:34:44Z",
+  "updated_at": "2026-08-19T06:51:41Z",
   "releases": [
     {
       "id": "llama-cpp-b10488",
@@ -9783,78 +9783,6 @@
       "published_at": "2026-05-21T13:22:39Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9264",
-      "project": "llama-cpp",
-      "version": "b9264",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9264",
-      "published_at": "2026-05-21T06:07:31Z",
-      "body_excerpt": "app : show version (#23426) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU)",
-      "type": "tool"
-    },
-    {
-      "id": "hf-Qwen-Qwen-Image-Bench",
-      "project": "Qwen",
-      "version": "Qwen-Image-Bench",
-      "url": "https://huggingface.co/Qwen/Qwen-Image-Bench",
-      "published_at": "2026-05-21T04:15:56Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9263",
-      "project": "llama-cpp",
-      "version": "b9263",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9263",
-      "published_at": "2026-05-21T04:14:01Z",
-      "body_excerpt": "mtmd, model : merge HunyuanOCR into HunyuanVL and fix OCR vision precision (#23329) HunyuanOCR shares the same HF arch and vision layout as HunyuanVL butwas split into a separate path that skipped the +0.1 bilinear sampler used by the HF reference. Collapse OCR into the HUNYUANVL projector + HUNYUAN_VL text arch macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) m",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9260",
-      "project": "llama-cpp",
-      "version": "b9260",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9260",
-      "published_at": "2026-05-21T03:18:39Z",
-      "body_excerpt": "opencl: refactor backend initilization (#23318) opencl: refactor initialization opencl: refactor GPU identification opencl: rename for consistency opencl: cache global mem size in dev_ctx opencl: adjust log level opencl: load argsort and flash_attn kernels in supports_op argsort kernel must be built for supports_op for querying the max workgroups flash_attn kernel has many variants, only load them",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9259",
-      "project": "llama-cpp",
-      "version": "b9259",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9259",
-      "published_at": "2026-05-21T02:52:22Z",
-      "body_excerpt": "common/speculative : fix nullptr crash in get_devices_str (#23386) ggml_backend_dev_by_name always appends a nullptr sentinel to the devices vector. Skipping nullptr entries prevents assertion failure in ggml_backend_dev_name. Assisted-by: llama.cpp:local pi macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9258",
-      "project": "llama-cpp",
-      "version": "b9258",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9258",
-      "published_at": "2026-05-21T02:45:33Z",
-      "body_excerpt": "mtmd : DeepSeek-OCR image processing fixes, img_tool::resize padding refactor (#23345) mtmd : deepseek-ocr fixes, improvements and refactoring image processing changes to achieve full parity with Pillow (reference impl) SAM mask casting only when flash-attn is on SAM refactor (build_sam() extracted so deepseek-ocr-2 can reuse it) llama-chat changes to fix server/WebUI issue (new media_markers_firs",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9257",
-      "project": "llama-cpp",
-      "version": "b9257",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9257",
-      "published_at": "2026-05-21T02:27:08Z",
-      "body_excerpt": "vulkan: optimize operations in the IM2COL shader (#22685) vulkan: optimize operations in the IM2COL shader Add comments and improve the code formatting macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9255",
-      "project": "llama-cpp",
-      "version": "b9255",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9255",
-      "published_at": "2026-05-21T02:26:53Z",
-      "body_excerpt": "hexagon: HMX quantized matmul rework (#23368) hmx-mm: update debug logging in hmx-mm hmx-mm: update dequant logic to use HVX_vector_x2/4 hmx-mm: remove non-pipelined version of the quantize matmul It seems that we don't reall need non-pipelined version hmx-mm: use activation depth mode and update naming Co-authored-by: Kim-Chyan Gan hex-mm: minor hmx matmul naming updates hmx-mm: remove unused var",
-      "type": "tool"
     }
   ]
 }
