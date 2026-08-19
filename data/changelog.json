@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T18:43:28Z",
+  "updated_at": "2026-08-19T01:34:44Z",
   "releases": [
     {
       "id": "llama-cpp-b10488",
@@ -9854,15 +9854,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9255",
       "published_at": "2026-05-21T02:26:53Z",
       "body_excerpt": "hexagon: HMX quantized matmul rework (#23368) hmx-mm: update debug logging in hmx-mm hmx-mm: update dequant logic to use HVX_vector_x2/4 hmx-mm: remove non-pipelined version of the quantize matmul It seems that we don't reall need non-pipelined version hmx-mm: use activation depth mode and update naming Co-authored-by: Kim-Chyan Gan hex-mm: minor hmx matmul naming updates hmx-mm: remove unused var",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9254",
-      "project": "llama-cpp",
-      "version": "b9254",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9254",
-      "published_at": "2026-05-20T21:38:57Z",
-      "body_excerpt": "Programmatic Dependent Launch (PDL) for more performance on newer NVIDIA GPUs (Hopper+) (#22522) Adds initial PDL setup. Adds PDL barriers based on simple heuristic: place \"sync\" before first input pointer access, and \"launch\" after last write, e.g. to tensors like dst. Further optimization pass of the first half of kernels Optimized PDL barriers for the second batch of kernels Further refinements",
       "type": "tool"
     }
   ]
