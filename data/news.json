@@ -1,134 +1,145 @@
 {
-  "updated_at": "2026-08-19T12:55:13Z",
+  "updated_at": "2026-08-19T18:40:39Z",
   "items": [
     {
-      "id": "localllama-2026-08-19-qwen-38-35b-a3b-vagueposting",
+      "id": "localllama-2026-08-19-dflash2-speeds-qwen-38-27b-up-to-4-times",
       "source": "localllama",
-      "title": "Qwen 3.8 35B-A3B vagueposting",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsl6yf/qwen_38_35ba3b_vagueposting/",
-      "published_at": "2026-08-19T12:35:21Z",
-      "summary": "      It seems that they have no idea of what to do  &#32; submitted by &#32;  /u/Mean-Ad1493   [link] &#32; [comments] ",
+      "title": "DFlash2 speeds Qwen 3.8 27B up to 4 times",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsuaoj/dflash2_speeds_qwen_38_27b_up_to_4_times/",
+      "published_at": "2026-08-19T18:10:35Z",
+      "summary": "      llama.cpp pr #27342 adds dflash2, so i rented an rtx 6000 and ran the same four prompts through four decoding setups on qwen3.8 27B median results over the four tasks:  baseline 47.4 tok/s mtp 114.7 tok/s dflash 99",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-19-glm-53-is-out-on-aa-and-im-fed-up-with-their-intelligencecos",
+      "id": "localllama-2026-08-19-qwen-38-27b-vs-gemini-37-flash-high-for-real-coding-open-sou",
       "source": "localllama",
-      "title": "GLM-5.3 is out on AA, and I'm fed up with their Intelligence/cost plot",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vskfzh/glm53_is_out_on_aa_and_im_fed_up_with_their/",
-      "published_at": "2026-08-19T12:01:30Z",
-      "summary": "      I think AA&#39;s intelligence/cost plot is seriously misleading, so I decided to make my own. Their plot is in the second image. All points are at max thinking. All intelligence index scores are from AA. All cost s",
+      "title": "Qwen 3.8 27B vs Gemini 3.7 Flash (High) for real coding: open-source 27B model did a much better job",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vssd63/qwen_38_27b_vs_gemini_37_flash_high_for_real/",
+      "published_at": "2026-08-19T17:03:20Z",
+      "summary": "TL;DR: In this real-world C++/OrcaSlicer debugging project, Qwen 3.8 27B impressed me more than Gemini 3.7 Flash High. Gemini was faster and productive, but repeatedly declared success before the tests fully justified it",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-19-waiting-for-a-122b-because-of-world-knowledge",
+      "id": "localllama-2026-08-19-lfm-25-qad",
       "source": "localllama",
-      "title": "Waiting for a 122B because of world knowledge?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vskdwf/waiting_for_a_122b_because_of_world_knowledge/",
-      "published_at": "2026-08-19T11:59:37Z",
-      "summary": "Any LLM will hallucinate the world knowledge, even a 3T model. Use a 4B with a kiwix skill and local Wikipedia, 50gb and no more hallucinated world knowledge. Ask your coding agent to build your own, with your rules and ",
+      "title": "LFM 2.5 QAD",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vss944/lfm_25_qad/",
+      "published_at": "2026-08-19T16:59:34Z",
+      "summary": "      https://x.com/liquidai/status/2090078070929760295 https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-19-open-pr-llama-add---n-cpu-ffn-option-by-john-194-pull-reques",
+      "id": "localllama-2026-08-19-introducing-qwen38-27b-dynamic-v3-unsloth-ggufs",
       "source": "localllama",
-      "title": "[Open PR] llama : add --n-cpu-ffn option by John-194 · Pull Request #26622 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsjz2n/open_pr_llama_add_ncpuffn_option_by_john194_pull/",
-      "published_at": "2026-08-19T11:40:32Z",
-      "summary": "      PR by u/Stainless-Bacon 👍  It would be handy &amp; awesome to have options --n-cpu-ffn / --cpu-ffn for Dense models like how we have --n-cpu-moe / --cpu-moe for MOE models. Also check his threads:  On PR : llama.cp",
+      "title": "Introducing Qwen3.8-27B Dynamic v3 Unsloth GGUFs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsr67c/introducing_qwen3827b_dynamic_v3_unsloth_ggufs/",
+      "published_at": "2026-08-19T16:21:31Z",
+      "summary": "      Hey everyone! We’re releasing new Qwen3.8-27B GGUFs with 10% higher accuracy for the same size. This uses a new version of Dynamic v3.0 Unsloth Dynamic V3 outperforms others by &gt;10% on Div-300, KLD &amp; more be",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-19-i-transformed-pokelikexyz-into-a-llm-and-rl-benchmark",
+      "id": "localllama-2026-08-19-i-posit-qwen-team-will-dust-off-the-old-397b-a17b-architectu",
       "source": "localllama",
-      "title": "I transformed Pokelike.xyz into a LLM and RL benchmark!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsjda8/i_transformed_pokelikexyz_into_a_llm_and_rl/",
-      "published_at": "2026-08-19T11:10:32Z",
-      "summary": "      Hey everyone! I&#39;m a data scientist and I&#39;ve been pretty fascinated by reinforcement learning for a while. A few days ago, my friends showed me Pokelike. Obviously, my first thought was: &quot;wait, I could ",
+      "title": "I posit QWEN team will dust off the old 397B-A17B architecture to compete with Deepseek V4 0731 Flash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsqnl4/i_posit_qwen_team_will_dust_off_the_old_397ba17b/",
+      "published_at": "2026-08-19T16:03:42Z",
+      "summary": "To me, it just makes rational business sense. DS4 is king on openrouter and has been pretty much since the day it was launched. It&#39;s size, cost and intelligence seems to be the sweet spot for current developer requir",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-19-stop-anthropomorphisizing-intermediate-tokens-qwen38-doesnt",
+      "id": "localllama-2026-08-19-antlingve-open-sourced-6-base-model-checkpoints-for-ling-30",
       "source": "localllama",
-      "title": "Stop Anthropomorphisizing Intermediate Tokens: Qwen3.8 doesn't \"overthink\"",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsjcf7/stop_anthropomorphisizing_intermediate_tokens/",
-      "published_at": "2026-08-19T11:09:16Z",
-      "summary": "      Intermediate tokens, called &quot;thinking&quot; or &quot;reasoning&quot; actually are nothing like it. Humans do step-by-step reasoning leading to the conclusion. LLMs use intermediate traces to augment their prom",
+      "title": "AntLing’ve open-sourced 6 Base Model checkpoints for Ling-3.0-tiny & Ling-3.0-flash, covering pre-trained, mid-trained, and WSM-merged stages.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsqfmj/antlingve_opensourced_6_base_model_checkpoints/",
+      "published_at": "2026-08-19T15:56:11Z",
+      "summary": "      None has undergone post-training, giving researchers flexible starting points for continued pre-training, fine-tuning, and further research.  Two key highlights: - They use WSM to replace LR decay with weighted che",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-19-am-i-doing-something-wrong-qwen-38-27b-seems-useless-for-age",
+      "id": "localllama-2026-08-19-ling-30-flashtiny-base-models",
       "source": "localllama",
-      "title": "Am I doing something wrong? Qwen 3.8 27B seems useless for agentic coding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsinej/am_i_doing_something_wrong_qwen_38_27b_seems/",
-      "published_at": "2026-08-19T10:32:34Z",
-      "summary": "I have been using local models on/off for like 2 years or so but never really used them extensively because the closed ones were always much better. Once Qwen 3.8 27B was released I decided to give it another serious try",
+      "title": "ling 3.0 flash/tiny base models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsq7gh/ling_30_flashtiny_base_models/",
+      "published_at": "2026-08-19T15:47:55Z",
+      "summary": "      https://huggingface.co/inclusionAI/Ling-3.0-tiny-base https://huggingface.co/inclusionAI/Ling-3.0-flash-base-midtrain https://huggingface.co/inclusionAI/Ling-3.0-flash-base-30T https://huggingface.co/inclusionAI/Li",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-19-qwen38-27b-without-mtp",
+      "id": "localllama-2026-08-19-nvfp4-on-volta-despite-being-built-for-blackwell-i-made-four",
       "source": "localllama",
-      "title": "Qwen3.8 27B without MTP?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsi12v/qwen38_27b_without_mtp/",
-      "published_at": "2026-08-19T09:59:38Z",
-      "summary": "Not sure if this is a stupid question but unsloth&#39;s models has the MTP built into the model right? I assume that is at the cost of some memory. If i want to use dflash, should i use a model that doesn&#39;t have MTP ",
+      "title": "NVFP4 on VOLTA! Despite being built for Blackwell, I made four 2017 V100s run Qwen 3.8 NVFP4 natively and match my $6000 RTX 5090.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsq3zg/nvfp4_on_volta_despite_being_built_for_blackwell/",
+      "published_at": "2026-08-19T15:44:29Z",
+      "summary": "      Four Tesla V100s from 2017 matched my RTX 5090 on single-request Qwen 3.8 decode. Repo: https://github.com/dnv2003/v100-skinny https://i.redd.it/5ws2ak3uqckh1.gif The 5090 was not being held back. It ran NInfer, a ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-19-251107885-intelligence-per-watt-measuring-intelligence-effic",
+      "id": "localllama-2026-08-19-ornith-15-397b-deepswe-56-35b-a3b-9b",
       "source": "localllama",
-      "title": "[2511.07885] Intelligence per Watt: Measuring Intelligence Efficiency of Local AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsh04u/251107885_intelligence_per_watt_measuring/",
-      "published_at": "2026-08-19T09:01:01Z",
-      "summary": "      &#32; submitted by &#32;  /u/pscoutou   [link] &#32; [comments] ",
+      "title": "Ornith-1.5 (397B [DeepSWE 56], 35B-A3B, 9B)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsou3a/ornith15_397b_deepswe_56_35ba3b_9b/",
+      "published_at": "2026-08-19T14:58:07Z",
+      "summary": "      Aloha! 🌺Introducing Ornith-1.5, a family of open-source LLMs spanning 9B Dense, 35B MoE, and 397B MoE, trained with self-improving strategies. It achieves state-of-the-art performance among open-source models of co",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-19-thoughts-about-scaling-law---zai",
+      "id": "localllama-2026-08-19-ornith-15-9b-dense-and-35b397b-moes",
       "source": "localllama",
-      "title": "Thoughts About Scaling Law - Z.ai",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsf9eg/thoughts_about_scaling_law_zai/",
-      "published_at": "2026-08-19T07:18:00Z",
-      "summary": "       Thoughts About Scaling Law  Scaling, but not only of parameters. Every model release now ends with the same question: how many parameters? It isn&#39;t a question that can be answered on its own. Parameter count i",
+      "title": "Ornith 1.5: 9B dense and 35B/397B MoEs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsnllv/ornith_15_9b_dense_and_35b397b_moes/",
+      "published_at": "2026-08-19T14:12:25Z",
+      "summary": "&#32; submitted by &#32;  /u/tarruda   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-19-hw-for-deepseek-v4-flash-0731",
+      "id": "localllama-2026-08-19-we-have-q38-35b-at-home-3x-new-ornith-15-released",
       "source": "localllama",
-      "title": "HW for DeepSeek-V4-Flash-0731",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsdt09/hw_for_deepseekv4flash0731/",
-      "published_at": "2026-08-19T05:55:50Z",
-      "summary": "Lucebox now, or wait for the new Framework Desktop (Ryzen AI Max+ PRO 495 / 192 GB) + PCIe x4-to-x16 adapter &amp; Radeon AI PRO R9700?  &#32; submitted by &#32;  /u/MongoWithBongoss   [link] &#32; [comments]",
+      "title": "We have Q3.8 35B at home: 3x new Ornith 1.5 released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsn2xw/we_have_q38_35b_at_home_3x_new_ornith_15_released/",
+      "published_at": "2026-08-19T13:53:01Z",
+      "summary": "Anyone tried them yet? https://huggingface.co/ornith-ai/Ornith-1.5-9B https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B https://huggingface.co/ornith-ai/Ornith-1.5-397B https://huggingface.co/ornith-ai/Ornith-1.5-9B-GG",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-19-qwen38-27b-on-2x-3090-vllm-dflash2-218-toks-single-request",
+      "id": "huggingface-2026-08-19-lfm25-q4-0-checkpoints-from-quantization-aware-distillation",
+      "source": "huggingface",
+      "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+      "url": "https://huggingface.co/blog/LiquidAI/qad",
+      "published_at": "2026-08-19T13:48:49Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-19-updated-unslothqwen38-27b-gguf-hugging-face",
       "source": "localllama",
-      "title": "Qwen3.8-27B on 2x 3090 + vLLM + DFlash2: 218 tok/s single request",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsccit/qwen3827b_on_2x_3090_vllm_dflash2_218_toks_single/",
-      "published_at": "2026-08-19T04:39:19Z",
-      "summary": "      I hacked this together so there&#39;s probably more on the table in terms of performance. Measured with the Club-3090 canonical bench suite (bench.sh, 3 warmups + 5 measured runs, temp 0.6 / top_p 0.95 / top_k 20).",
+      "title": "updated unsloth/Qwen3.8-27B-GGUF · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsmdni/updated_unslothqwen3827bgguf_hugging_face/",
+      "published_at": "2026-08-19T13:25:18Z",
+      "summary": "      looks like GGUF files were just updated  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -392,17 +403,6 @@
       "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
       "published_at": "2026-08-10T10:05:36Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-08-10-meta-is-back-with-muse-glimmer-local-agentic-multimodal-and",
-      "source": "huggingface",
-      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "url": "https://huggingface.co/blog/muse-glimmer",
-      "published_at": "2026-08-10T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"
