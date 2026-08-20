@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T18:40:46Z",
+  "updated_at": "2026-08-20T01:28:08Z",
   "releases": [
     {
       "id": "hf-nvidia-GR00TCRA",
@@ -15,6 +15,15 @@
       "project": "ollama",
       "version": "v0.32.15-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
+      "published_at": "2026-08-19T17:25:16Z",
+      "body_excerpt": "What's Changed Add a model metadata cache to reduce Ollama’s per-request overhead New Contributors @gaugarg-nv made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.32.15",
+      "project": "ollama",
+      "version": "v0.32.15",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15",
       "published_at": "2026-08-19T17:25:16Z",
       "body_excerpt": "What's Changed Add a model metadata cache to reduce Ollama’s per-request overhead New Contributors @gaugarg-nv made their first contribution in Full Changelog:",
       "type": "tool"
@@ -9710,69 +9719,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9277",
       "published_at": "2026-05-22T01:28:47Z",
       "body_excerpt": "tests : move save-load-state from examples to tests (#23336) tests : move save-load-state from examples to tests Move examples/save-load-state/ to tests/test-save-load-state.cpp Remove subdirectory reference from examples/CMakeLists.txt Add test to tests/CMakeLists.txt as a model test Remove CODEOWNERS entry for removed example directory Assisted-by: llama.cpp:local pi cont : update ci macOS/iOS: ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9276",
-      "project": "llama-cpp",
-      "version": "b9276",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9276",
-      "published_at": "2026-05-22T00:48:34Z",
-      "body_excerpt": "server: expose prompt token counts in /slots endpoint (#23454) Add n_prompt_tokens, n_prompt_tokens_processed, and n_prompt_tokens_cache to the /slots JSON response. These fields are already tracked internally but were not exposed, making it impossible for clients to monitor prompt evaluation progress during processing. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI en",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9275",
-      "project": "llama-cpp",
-      "version": "b9275",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9275",
-      "published_at": "2026-05-21T22:59:46Z",
-      "body_excerpt": "metal : optimize concat kernel and fix set kernel threads (#23411) metal : fix GGML_OP_SET kernel threads tests : extend test_cpy to support different src/dst shapes Extend test_cpy to support different source and destination tensor shapes for CPY operations (reshaping), where the total number of elements must match. Renamed ne -> ne_src, added ne_dst parameter (default: use src shape) Added 50 ne",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9274",
-      "project": "llama-cpp",
-      "version": "b9274",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9274",
-      "published_at": "2026-05-21T21:52:18Z",
-      "body_excerpt": "server : free draft/MTP resources on sleep to fix VRAM leak (#23461) The destroy() function in server_context_impl only cleaned up the main model and context (via llama_init.reset()) but did not free the speculative decoder (spec), draft context (ctx_dft), or draft model (model_dft). For MTP (Multi-Token Prediction) models, ctx_dft holds GPU-allocated resources (KV cache, compute buffers) that are",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9273",
-      "project": "llama-cpp",
-      "version": "b9273",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9273",
-      "published_at": "2026-05-21T21:27:25Z",
-      "body_excerpt": "server: re-inject subcommand when router spawns children under unified binary (#23442) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9272",
-      "project": "llama-cpp",
-      "version": "b9272",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9272",
-      "published_at": "2026-05-21T20:55:33Z",
-      "body_excerpt": "app : add batched-bench, fit-params, quantize & perplexity (#23459) app : add batched-bench, fit-params, quantize & perplexity Signed-off-by: Adrien Gallouët Add missing main.cpp Signed-off-by: Adrien Gallouët Add EOL Signed-off-by: Adrien Gallouët --------- Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCF",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9271",
-      "project": "llama-cpp",
-      "version": "b9271",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9271",
-      "published_at": "2026-05-21T20:21:20Z",
-      "body_excerpt": "mtp: use inp_out_ids for skipping logit computation (#23433) when doing a follow-up decode for the draft model, we were always doing the logit computation even though it is not required. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9270",
-      "project": "llama-cpp",
-      "version": "b9270",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9270",
-      "published_at": "2026-05-21T19:52:00Z",
-      "body_excerpt": "vocab : add Carbon-3B (HybridDNATokenizer) support (#23410) vocab : add Carbon-3B (HybridDNATokenizer) support Adds a new BPE pre-type LLAMA_VOCAB_PRE_TYPE_CARBON for the HybridDNATokenizer used by HuggingFaceBio/Carbon-{500M,3B,8B}. The base BPE is Qwen3-4B-Base's; what differs is that text inside ... regions is chunked into fixed 6-mers (right-padded with 'A' on the trailing partial), and any ba",
       "type": "tool"
     }
   ]

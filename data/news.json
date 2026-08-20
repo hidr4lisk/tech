@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-08-19T18:40:39Z",
+  "updated_at": "2026-08-20T01:28:03Z",
   "items": [
+    {
+      "id": "localllama-2026-08-19-qwen38-23b-mini-me-a-depth-pruned-qwen38-27b-to-227bb",
+      "source": "localllama",
+      "title": "Qwen3.8-23B-Mini-Me: A Depth-Pruned Qwen3.8-27B (to ~22.7BB)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt2jef/qwen3823bminime_a_depthpruned_qwen3827b_to_227bb/",
+      "published_at": "2026-08-19T23:19:16Z",
+      "summary": "      I&#39;ve been working on a depth pruning approach and decided to try it out on the new Qwen3.8-27B model. I managed to get the model down to about 22.7B params without severe reasoning degradation. No fine-tuning w",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-19-smolmachines-smolvm-as-a-sandbox-for-untrusted-python-javasc",
+      "source": "simonw",
+      "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+      "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+      "published_at": "2026-08-19T23:16:00Z",
+      "summary": "Research: smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript\n        I tasked Claude Fable 5 running in Claude Code for web with the following research task:\n\nPut https://smolmachines.com through it",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-19-qwen-38-27b-slopcodebench-results",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B SlopCodeBench results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt2cjy/qwen_38_27b_slopcodebench_results/",
+      "published_at": "2026-08-19T23:11:28Z",
+      "summary": "Howdy, I&#39;m back again - running my favorite benchmark (it&#39;s still unsaturated for the time being so might as well!) previous runs a b https://github.com/michaelasper/benchmarks/blob/main/qwen3.8-27b-pi-on-slop-co",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-19-quoting-jeremy-morrell",
+      "source": "simonw",
+      "title": "Quoting Jeremy Morrell",
+      "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+      "published_at": "2026-08-19T22:56:31Z",
+      "summary": "My hypothesis is that there is a new opportunity for Extensible Software on the web. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good securit",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-19-conceptual-integrity-and-counting-lines-of-code",
+      "source": "simonw",
+      "title": "Conceptual integrity and counting lines of code",
+      "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+      "published_at": "2026-08-19T22:46:07Z",
+      "summary": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights fro",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-19-anyone-not-on-full-auto-when-coding-with-local-llms",
+      "source": "localllama",
+      "title": "Anyone NOT on full auto when coding with local LLMs?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt0y1g/anyone_not_on_full_auto_when_coding_with_local/",
+      "published_at": "2026-08-19T22:14:52Z",
+      "summary": "Would love to know who&#39;s letting a 9B just go ham locally, haha But in all seriousness, how many of you are keeping to manual or manual-ish dev workflows?  &#32; submitted by &#32;  /u/BatPlack   [link] &#32; [commen",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-19-s1-mini-by-superwhisper-running-100-locally-in-the-browser-o",
+      "source": "localllama",
+      "title": "S1-mini by Superwhisper running 100% locally in the browser on WebGPU with Transformers.js",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsze11/s1mini_by_superwhisper_running_100_locally_in_the/",
+      "published_at": "2026-08-19T21:14:53Z",
+      "summary": "      It&#39;s a 600M-parameter LLM designed to turn raw speech-to-text transcripts into clean written text. It removes false starts and self-corrections, adds punctuation and capitalization, and formats spoken numbers, ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-19-fluid-simulation-qwen38-27b-iq3-xxs",
+      "source": "localllama",
+      "title": "Fluid Simulation Qwen3.8 27B IQ3_XXS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsyj2o/fluid_simulation_qwen38_27b_iq3_xxs/",
+      "published_at": "2026-08-19T20:42:36Z",
+      "summary": "After reading this tweet: https://x.com/scaling01/status/2089784644400976254 where the author says Qwen3.8 27B is not comparable to Opus, I had to try it out myself. First of: GPT 5.6 Sol (High) also failed the task and ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-19-i-pushed-qwen38-27b-limits-again-dflash2---134-tps-on-a-rtx",
+      "source": "localllama",
+      "title": "I pushed Qwen3.8-27B limits again... Dflash2 - 134 tps on a RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsy4l2/i_pushed_qwen3827b_limits_again_dflash2_134_tps/",
+      "published_at": "2026-08-19T20:28:00Z",
+      "summary": "Edit: Title says 134 tps, it&#39;s actually 138 -- keep in mind my 3090 is power limited to 250w.  Three days ago I released a hyper-optimized Qwen3.8-27B inference engine for an RTX 3090 (82 tps single request, 672 peak",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-19-we-quantized-the-new-ornith-15-9b-and-35b-a3b",
+      "source": "localllama",
+      "title": "We quantized the new Ornith 1.5 9B and 35B-A3B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsx94f/we_quantized_the_new_ornith_15_9b_and_35ba3b/",
+      "published_at": "2026-08-19T19:56:28Z",
+      "summary": "      ornith lab dropped new ornith 1.5 today, a 9B dense with vision and a 35B-A3B MoE, both MIT, trained on a loop that generates its own tasks. in addition there was giant 397b model, but we didn&#39;t quantize it (bu",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-19-ornith-15-9b-might-not-be-bad-at-all",
+      "source": "localllama",
+      "title": "Ornith-1.5 9B might not be bad at all",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsvr7f/ornith15_9b_might_not_be_bad_at_all/",
+      "published_at": "2026-08-19T19:01:53Z",
+      "summary": "(my own experience) I have a mid-range gaming laptop from 2024 with 4GB VRAM and 16GB RAM. There is nothing that I can run other than small models at humble t/s.  I mostly use the models to generate scripts for medical p",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-19-dflash2-speeds-qwen-38-27b-up-to-4-times",
       "source": "localllama",
@@ -46,83 +167,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-19-i-posit-qwen-team-will-dust-off-the-old-397b-a17b-architectu",
-      "source": "localllama",
-      "title": "I posit QWEN team will dust off the old 397B-A17B architecture to compete with Deepseek V4 0731 Flash",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsqnl4/i_posit_qwen_team_will_dust_off_the_old_397ba17b/",
-      "published_at": "2026-08-19T16:03:42Z",
-      "summary": "To me, it just makes rational business sense. DS4 is king on openrouter and has been pretty much since the day it was launched. It&#39;s size, cost and intelligence seems to be the sweet spot for current developer requir",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-antlingve-open-sourced-6-base-model-checkpoints-for-ling-30",
-      "source": "localllama",
-      "title": "AntLing’ve open-sourced 6 Base Model checkpoints for Ling-3.0-tiny & Ling-3.0-flash, covering pre-trained, mid-trained, and WSM-merged stages.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsqfmj/antlingve_opensourced_6_base_model_checkpoints/",
-      "published_at": "2026-08-19T15:56:11Z",
-      "summary": "      None has undergone post-training, giving researchers flexible starting points for continued pre-training, fine-tuning, and further research.  Two key highlights: - They use WSM to replace LR decay with weighted che",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-ling-30-flashtiny-base-models",
-      "source": "localllama",
-      "title": "ling 3.0 flash/tiny base models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsq7gh/ling_30_flashtiny_base_models/",
-      "published_at": "2026-08-19T15:47:55Z",
-      "summary": "      https://huggingface.co/inclusionAI/Ling-3.0-tiny-base https://huggingface.co/inclusionAI/Ling-3.0-flash-base-midtrain https://huggingface.co/inclusionAI/Ling-3.0-flash-base-30T https://huggingface.co/inclusionAI/Li",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-nvfp4-on-volta-despite-being-built-for-blackwell-i-made-four",
-      "source": "localllama",
-      "title": "NVFP4 on VOLTA! Despite being built for Blackwell, I made four 2017 V100s run Qwen 3.8 NVFP4 natively and match my $6000 RTX 5090.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsq3zg/nvfp4_on_volta_despite_being_built_for_blackwell/",
-      "published_at": "2026-08-19T15:44:29Z",
-      "summary": "      Four Tesla V100s from 2017 matched my RTX 5090 on single-request Qwen 3.8 decode. Repo: https://github.com/dnv2003/v100-skinny https://i.redd.it/5ws2ak3uqckh1.gif The 5090 was not being held back. It ran NInfer, a ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-ornith-15-397b-deepswe-56-35b-a3b-9b",
-      "source": "localllama",
-      "title": "Ornith-1.5 (397B [DeepSWE 56], 35B-A3B, 9B)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsou3a/ornith15_397b_deepswe_56_35ba3b_9b/",
-      "published_at": "2026-08-19T14:58:07Z",
-      "summary": "      Aloha! 🌺Introducing Ornith-1.5, a family of open-source LLMs spanning 9B Dense, 35B MoE, and 397B MoE, trained with self-improving strategies. It achieves state-of-the-art performance among open-source models of co",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-ornith-15-9b-dense-and-35b397b-moes",
-      "source": "localllama",
-      "title": "Ornith 1.5: 9B dense and 35B/397B MoEs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsnllv/ornith_15_9b_dense_and_35b397b_moes/",
-      "published_at": "2026-08-19T14:12:25Z",
-      "summary": "&#32; submitted by &#32;  /u/tarruda   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-we-have-q38-35b-at-home-3x-new-ornith-15-released",
-      "source": "localllama",
-      "title": "We have Q3.8 35B at home: 3x new Ornith 1.5 released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsn2xw/we_have_q38_35b_at_home_3x_new_ornith_15_released/",
-      "published_at": "2026-08-19T13:53:01Z",
-      "summary": "Anyone tried them yet? https://huggingface.co/ornith-ai/Ornith-1.5-9B https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B https://huggingface.co/ornith-ai/Ornith-1.5-397B https://huggingface.co/ornith-ai/Ornith-1.5-9B-GG",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-08-19-lfm25-q4-0-checkpoints-from-quantization-aware-distillation",
       "source": "huggingface",
       "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
@@ -131,17 +175,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-updated-unslothqwen38-27b-gguf-hugging-face",
-      "source": "localllama",
-      "title": "updated unsloth/Qwen3.8-27B-GGUF · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsmdni/updated_unslothqwen3827bgguf_hugging_face/",
-      "published_at": "2026-08-19T13:25:18Z",
-      "summary": "      looks like GGUF files were just updated  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -321,17 +354,6 @@
       ]
     },
     {
-      "id": "simonw-2026-08-12-quoting-florian-herrengt",
-      "source": "simonw",
-      "title": "Quoting Florian Herrengt",
-      "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
-      "published_at": "2026-08-12T15:08:47Z",
-      "summary": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.\nYou go talk to the person w",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-08-12-lfm25-vl-3b-for-better-and-faster-vision-capabilities-for-th",
       "source": "huggingface",
       "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
@@ -351,28 +373,6 @@
       "summary": "WhatsApp is committed to helping people stay safe while protecting the privacy of their messages. As scam tactics evolve — from impersonation to social engineering to AI-generated lures — we&#8217;re always evolving as w",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-11-there-are-no-lossless-transformations-of-natural-language-te",
-      "source": "simonw",
-      "title": "There are no lossless transformations of natural-language text",
-      "url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
-      "published_at": "2026-08-11T23:48:35Z",
-      "summary": "There are no lossless transformations of natural-language text\nSophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really go",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-11-there-are-no-lossless-transformations-of-natural-language-te",
-      "source": "simonw",
-      "title": "There are no lossless transformations of natural-language text",
-      "url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/",
-      "published_at": "2026-08-11T23:48:35Z",
-      "summary": "There are no lossless transformations of natural-language text\nSophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really go",
-      "tags": [
-        "simonw"
       ]
     },
     {
