@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-20T12:57:09Z",
+  "updated_at": "2026-08-20T18:46:10Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10517",
+      "project": "llama-cpp",
+      "version": "b10517",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10517",
+      "published_at": "2026-08-20T17:43:32Z",
+      "body_excerpt": "vulkan : dequant q8_0 KV once in coopmat1 (#25494) vulkan : dequant q8_0 KV once in coopmat1 Assisted-by: Claude (Opus 4.8) vulkan : fall back instead of aborting when FA scratch exceeds maxStorageBufferRange vulkan : require KV-cache layout in FA dequant path Assisted-by: Claude (Opus 4.8) vulkan : skip FA dequant path on coopmat2 Assisted-by: Claude (Opus 4.8) tests : add contiguously-allocated ",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.801-beta",
+      "project": "unsloth",
+      "version": "v0.1.801-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.801-beta",
+      "published_at": "2026-08-20T16:58:37Z",
+      "body_excerpt": "Thanks for the support for Qwen3.8-27B and Unsloth Desktop last week! For this release, we merged 200+ PRs to introduce many new features, fixes including: Auto Compaction (Experimental) for longer chats beyond context limits Remote & LAN Access (Preview) for easy network access without Cloudflare links Faster Chat - Improved streaming performance, reduced UI lag, and smoother long conversations. ",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.9.0",
+      "project": "localai",
+      "version": "v4.9.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.9.0",
+      "published_at": "2026-08-20T15:59:49Z",
+      "body_excerpt": "🎉 LocalAI 4.9.0 Release! 🚀 LocalAI 4.9.0 is out! Thirteen days and 146 pull requests, spent on the parts of LocalAI you touch every day rather than on new engines. Authentication is now deny-by-default, chat gained end-to-end context compression, models and backends each have one canonical page instead of three, and grew a video modality serving MiniMax-H3 with a real audio track. Highlights: 🔐 Au",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10516",
+      "project": "llama-cpp",
+      "version": "b10516",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10516",
+      "published_at": "2026-08-20T13:20:04Z",
+      "body_excerpt": "vulkan: add null checks in ggml_vk_queue_command_pools_cleanup (#27353) Guard against null queue pointers. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu ",
+      "type": "tool"
+    },
     {
       "id": "whisper-cpp-v1.9.3",
       "project": "whisper-cpp",
@@ -90,6 +126,60 @@
       "published_at": "2026-08-19T17:25:16Z",
       "body_excerpt": "What's Changed Add a model metadata cache to reduce Ollama’s per-request overhead New Contributors @gaugarg-nv made their first contribution in Full Changelog:",
       "type": "tool"
+    },
+    {
+      "id": "hf-google-tipsv1-g14-lowres",
+      "project": "google",
+      "version": "tipsv1-g14-lowres",
+      "url": "https://huggingface.co/google/tipsv1-g14-lowres",
+      "published_at": "2026-08-19T16:41:21Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tipsv1-g14",
+      "project": "google",
+      "version": "tipsv1-g14",
+      "url": "https://huggingface.co/google/tipsv1-g14",
+      "published_at": "2026-08-19T16:40:35Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tipsv1-so400m14",
+      "project": "google",
+      "version": "tipsv1-so400m14",
+      "url": "https://huggingface.co/google/tipsv1-so400m14",
+      "published_at": "2026-08-19T15:02:28Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tipsv1-l14",
+      "project": "google",
+      "version": "tipsv1-l14",
+      "url": "https://huggingface.co/google/tipsv1-l14",
+      "published_at": "2026-08-19T14:56:11Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tipsv1-b14",
+      "project": "google",
+      "version": "tipsv1-b14",
+      "url": "https://huggingface.co/google/tipsv1-b14",
+      "published_at": "2026-08-19T14:48:47Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-tipsv1-s14",
+      "project": "google",
+      "version": "tipsv1-s14",
+      "url": "https://huggingface.co/google/tipsv1-s14",
+      "published_at": "2026-08-19T14:43:49Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10502",
@@ -9746,24 +9836,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9285",
       "published_at": "2026-05-22T19:47:03Z",
       "body_excerpt": "cmake : build router app only during standalone builds (#23521) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9284",
-      "project": "llama-cpp",
-      "version": "b9284",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9284",
-      "published_at": "2026-05-22T15:13:16Z",
-      "body_excerpt": "vocab : fix HybridDNA tokenizer (#23466) vocab : mark hybriddna k-mers to avoid BPE token collisions improved loop --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9283",
-      "project": "llama-cpp",
-      "version": "b9283",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9283",
-      "published_at": "2026-05-22T13:43:16Z",
-      "body_excerpt": "cmake : add install() for impl libraries + fix apple builds (#23511) pi : update ci : fix ios build ci : fix andoroid ci : fix apple builds cmake : add install() for impl libraries Add install(TARGETS LIBRARY) for all -impl libraries that were changed from STATIC to shared (controlled by BUILD_SHARED_LIBS) in commit bb28c1fe2. Without this, cmake --install fails to copy the shared libraries, causi",
       "type": "tool"
     }
   ]
