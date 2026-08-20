@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-20T01:28:08Z",
+  "updated_at": "2026-08-20T06:53:18Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10509",
+      "project": "llama-cpp",
+      "version": "b10509",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10509",
+      "published_at": "2026-08-20T06:52:43Z",
+      "body_excerpt": "ggml: add ggml_rope_set_offset (+ metal support) (#27120) add params cpu kernel metal kernel add test backend ops gate other backends ggml: (cuda) support ggml_rope_set_offset (#27121) rm cuda supports_op guard, fix webgpu clang-format ggml: support ggml_rope_set_offset on vulkan (#27344) ggml: support ggml_rope_set_offset on vulkan remove inplace optimization Website: macOS/iOS: macOS Apple Silic",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10507",
+      "project": "llama-cpp",
+      "version": "b10507",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10507",
+      "published_at": "2026-08-20T03:21:28Z",
+      "body_excerpt": "mtmd: add mtmd_bitmap_set_mergeable (#27348) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10506",
+      "project": "llama-cpp",
+      "version": "b10506",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10506",
+      "published_at": "2026-08-20T02:57:39Z",
+      "body_excerpt": "metal : dequantize q8_0 using packed types (#27370) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10505",
+      "project": "llama-cpp",
+      "version": "b10505",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10505",
+      "published_at": "2026-08-20T02:36:34Z",
+      "body_excerpt": "server: add dedup-cache-models preset option (#27346) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
+      "type": "tool"
+    },
     {
       "id": "hf-nvidia-GR00TCRA",
       "project": "nvidia",
@@ -9701,24 +9737,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9283",
       "published_at": "2026-05-22T13:43:16Z",
       "body_excerpt": "cmake : add install() for impl libraries + fix apple builds (#23511) pi : update ci : fix ios build ci : fix andoroid ci : fix apple builds cmake : add install() for impl libraries Add install(TARGETS LIBRARY) for all -impl libraries that were changed from STATIC to shared (controlled by BUILD_SHARED_LIBS) in commit bb28c1fe2. Without this, cmake --install fails to copy the shared libraries, causi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9279",
-      "project": "llama-cpp",
-      "version": "b9279",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9279",
-      "published_at": "2026-05-22T01:51:39Z",
-      "body_excerpt": "vulkan: fuse snake activation (mul, sin, sqr, mul, add) (#22855) vulkan: fuse snake activation (mul, sin, sqr, mul, add) Add snake.comp shader with F32 / F16 / BF16 pipelines and ggml_vk_snake_dispatch_fused. The matcher recognizes the naive 5 op decomposition emitted by audio decoders (BigVGAN, Vocos) for snake activation y = x + sin(ax)^2 inv_b and rewrites it to a single elementwise kernel. tes",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9277",
-      "project": "llama-cpp",
-      "version": "b9277",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9277",
-      "published_at": "2026-05-22T01:28:47Z",
-      "body_excerpt": "tests : move save-load-state from examples to tests (#23336) tests : move save-load-state from examples to tests Move examples/save-load-state/ to tests/test-save-load-state.cpp Remove subdirectory reference from examples/CMakeLists.txt Add test to tests/CMakeLists.txt as a model test Remove CODEOWNERS entry for removed example directory Assisted-by: llama.cpp:local pi cont : update ci macOS/iOS: ",
       "type": "tool"
     }
   ]

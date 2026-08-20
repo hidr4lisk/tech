@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-08-20T01:28:03Z",
+  "updated_at": "2026-08-20T06:53:13Z",
   "items": [
+    {
+      "id": "localllama-2026-08-20-spider-man-brand-new-day-does-peter-self-host-his-ai-spoiler",
+      "source": "localllama",
+      "title": "Spider-man: Brand New Day, does Peter self host his AI? (Spoilers)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtboss/spiderman_brand_new_day_does_peter_self_host_his/",
+      "published_at": "2026-08-20T06:37:03Z",
+      "summary": "This is gonna seem crazy off-topic, but I saw Spider-Man the other day and couldn’t help but notice how well executed E.V. is as an agentic system.  compared to Jarvis, it felt much more grounded and closer to reality. N",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-how-do-you-deal-with-long-context-sessions-after-restarting",
+      "source": "localllama",
+      "title": "How do you deal with long-context sessions after restarting llama.cpp?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt8v4c/how_do_you_deal_with_longcontext_sessions_after/",
+      "published_at": "2026-08-20T04:04:22Z",
+      "summary": "I run local models on a 128GB Strix Halo and restart llama.cpp fairly often while testing builds, backends and model parameters. The annoying part is long-running agent sessions. Hermes/OpenCode sessions can easily reach",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-qwen38-27b-took-a-serious-hit-to-knowledge-vs-36",
+      "source": "localllama",
+      "title": "Qwen3.8-27B took a serious hit to *knowledge* vs 3.6",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt7l3e/qwen3827b_took_a_serious_hit_to_knowledge_vs_36/",
+      "published_at": "2026-08-20T03:02:12Z",
+      "summary": "Like many of you I&#39;ve spent the last few days throwing Qwen3.8-27B against all of my usual use-cases and personal tasks/harnesses and workflows. It&#39;s great, phenomenal sometimes, but that&#39;s not what this post",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-qwen38-27b-has-the-highest-level-of-agency-ive-ever-seen-in",
+      "source": "localllama",
+      "title": "Qwen3.8-27b has the highest level of \"agency\" I've ever seen in a local model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt78xd/qwen3827b_has_the_highest_level_of_agency_ive/",
+      "published_at": "2026-08-20T02:45:59Z",
+      "summary": "      Off a single prompt, given my credentials and the name of my university, qwen3.8-27b was able to successfully pull my class schedule from the kinda shitty and convoluted web of university websites. It needed no hum",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-ornith-15-35b-a3b-q4-running-60tks-on-4070ti",
+      "source": "localllama",
+      "title": "Ornith-1.5-35B-A3B Q4 running 60tk/s on 4070Ti.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt6hwc/ornith1535ba3b_q4_running_60tks_on_4070ti/",
+      "published_at": "2026-08-20T02:11:39Z",
+      "summary": "Not everyone has the disposable income to build a small data center, so making this post for the underdogs as I was very surprised by the performance/results of this 35B MOE model. Context is admittedly tight and will ge",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-ling-30-tiny-makes-an-amazing-auxillery-model-for-hermes-qwe",
+      "source": "localllama",
+      "title": "Ling 3.0 Tiny makes an amazing auxillery model for Hermes (Qwen 3.8 27B as the primary model)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt3ttl/ling_30_tiny_makes_an_amazing_auxillery_model_for/",
+      "published_at": "2026-08-20T00:13:33Z",
+      "summary": "Just got the setup dialed in yesterday. Getting really good results and is making 3.8 usage feel faster in hermes. I got Qwen to specifically use Ling tiny for simple tasks like context compression and summerization task",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-19-qwen38-23b-mini-me-a-depth-pruned-qwen38-27b-to-227bb",
       "source": "localllama",
@@ -96,72 +162,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsy4l2/i_pushed_qwen3827b_limits_again_dflash2_134_tps/",
       "published_at": "2026-08-19T20:28:00Z",
       "summary": "Edit: Title says 134 tps, it&#39;s actually 138 -- keep in mind my 3090 is power limited to 250w.  Three days ago I released a hyper-optimized Qwen3.8-27B inference engine for an RTX 3090 (82 tps single request, 672 peak",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-we-quantized-the-new-ornith-15-9b-and-35b-a3b",
-      "source": "localllama",
-      "title": "We quantized the new Ornith 1.5 9B and 35B-A3B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsx94f/we_quantized_the_new_ornith_15_9b_and_35ba3b/",
-      "published_at": "2026-08-19T19:56:28Z",
-      "summary": "      ornith lab dropped new ornith 1.5 today, a 9B dense with vision and a 35B-A3B MoE, both MIT, trained on a loop that generates its own tasks. in addition there was giant 397b model, but we didn&#39;t quantize it (bu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-ornith-15-9b-might-not-be-bad-at-all",
-      "source": "localllama",
-      "title": "Ornith-1.5 9B might not be bad at all",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsvr7f/ornith15_9b_might_not_be_bad_at_all/",
-      "published_at": "2026-08-19T19:01:53Z",
-      "summary": "(my own experience) I have a mid-range gaming laptop from 2024 with 4GB VRAM and 16GB RAM. There is nothing that I can run other than small models at humble t/s.  I mostly use the models to generate scripts for medical p",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-dflash2-speeds-qwen-38-27b-up-to-4-times",
-      "source": "localllama",
-      "title": "DFlash2 speeds Qwen 3.8 27B up to 4 times",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsuaoj/dflash2_speeds_qwen_38_27b_up_to_4_times/",
-      "published_at": "2026-08-19T18:10:35Z",
-      "summary": "      llama.cpp pr #27342 adds dflash2, so i rented an rtx 6000 and ran the same four prompts through four decoding setups on qwen3.8 27B median results over the four tasks:  baseline 47.4 tok/s mtp 114.7 tok/s dflash 99",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-qwen-38-27b-vs-gemini-37-flash-high-for-real-coding-open-sou",
-      "source": "localllama",
-      "title": "Qwen 3.8 27B vs Gemini 3.7 Flash (High) for real coding: open-source 27B model did a much better job",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vssd63/qwen_38_27b_vs_gemini_37_flash_high_for_real/",
-      "published_at": "2026-08-19T17:03:20Z",
-      "summary": "TL;DR: In this real-world C++/OrcaSlicer debugging project, Qwen 3.8 27B impressed me more than Gemini 3.7 Flash High. Gemini was faster and productive, but repeatedly declared success before the tests fully justified it",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-lfm-25-qad",
-      "source": "localllama",
-      "title": "LFM 2.5 QAD",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vss944/lfm_25_qad/",
-      "published_at": "2026-08-19T16:59:34Z",
-      "summary": "      https://x.com/liquidai/status/2090078070929760295 https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-introducing-qwen38-27b-dynamic-v3-unsloth-ggufs",
-      "source": "localllama",
-      "title": "Introducing Qwen3.8-27B Dynamic v3 Unsloth GGUFs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsr67c/introducing_qwen3827b_dynamic_v3_unsloth_ggufs/",
-      "published_at": "2026-08-19T16:21:31Z",
-      "summary": "      Hey everyone! We’re releasing new Qwen3.8-27B GGUFs with 10% higher accuracy for the same size. This uses a new version of Dynamic v3.0 Unsloth Dynamic V3 outperforms others by &gt;10% on Div-300, KLD &amp; more be",
       "tags": [
         "localllama"
       ]
