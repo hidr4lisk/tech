@@ -1,79 +1,134 @@
 {
-  "updated_at": "2026-08-20T06:53:13Z",
+  "updated_at": "2026-08-20T12:57:02Z",
   "items": [
     {
-      "id": "localllama-2026-08-20-spider-man-brand-new-day-does-peter-self-host-his-ai-spoiler",
+      "id": "localllama-2026-08-20-the-boring-way-to-run-deepseek-v4-flash-0731-130-150-tks---1",
       "source": "localllama",
-      "title": "Spider-man: Brand New Day, does Peter self host his AI? (Spoilers)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtboss/spiderman_brand_new_day_does_peter_self_host_his/",
-      "published_at": "2026-08-20T06:37:03Z",
-      "summary": "This is gonna seem crazy off-topic, but I saw Spider-Man the other day and couldn’t help but notice how well executed E.V. is as an agentic system.  compared to Jarvis, it felt much more grounded and closer to reality. N",
+      "title": "The boring way to run Deepseek V4 Flash-0731 130-150 tks - 16x5060ti 16GB over 2 PLX88096 switches",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vthcwk/the_boring_way_to_run_deepseek_v4_flash0731/",
+      "published_at": "2026-08-20T11:53:54Z",
+      "summary": "        Component Validated configuration    Motherboard ASRock Rack SPC621D8U-2T/OVH   CPU Xeon Gold 6330 (Get gold/platinum if interested in Optane Pmem gimmicks)   GPU fabric Two Broadcom/PLX PEX88096 islands, eight G",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-20-how-do-you-deal-with-long-context-sessions-after-restarting",
+      "id": "localllama-2026-08-20-aurora-80k-releases-a-modern-tiny-language-model",
       "source": "localllama",
-      "title": "How do you deal with long-context sessions after restarting llama.cpp?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt8v4c/how_do_you_deal_with_longcontext_sessions_after/",
-      "published_at": "2026-08-20T04:04:22Z",
-      "summary": "I run local models on a 128GB Strix Halo and restart llama.cpp fairly often while testing builds, backends and model parameters. The annoying part is long-running agent sessions. Hermes/OpenCode sessions can easily reach",
+      "title": "Aurora-80K releases! A modern tiny language model.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vth6n3/aurora80k_releases_a_modern_tiny_language_model/",
+      "published_at": "2026-08-20T11:45:39Z",
+      "summary": "      I&#39;m introducing Aurora-80K, a small language model with exactly 80 thousand parameters. It uses a factorized 4,096-token vocabulary despite having only 80K parameters. The benchmarks:  Wikitext-2 BPB: 3.2902 BL",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-20-qwen38-27b-took-a-serious-hit-to-knowledge-vs-36",
+      "id": "localllama-2026-08-20-tencent-begins-testing-its-new-flagship-model-hunyuan-hy4",
       "source": "localllama",
-      "title": "Qwen3.8-27B took a serious hit to *knowledge* vs 3.6",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt7l3e/qwen3827b_took_a_serious_hit_to_knowledge_vs_36/",
-      "published_at": "2026-08-20T03:02:12Z",
-      "summary": "Like many of you I&#39;ve spent the last few days throwing Qwen3.8-27B against all of my usual use-cases and personal tasks/harnesses and workflows. It&#39;s great, phenomenal sometimes, but that&#39;s not what this post",
+      "title": "Tencent begins testing its new flagship model Hunyuan Hy4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vth4lo/tencent_begins_testing_its_new_flagship_model/",
+      "published_at": "2026-08-20T11:42:48Z",
+      "summary": "      From the screenshots: Hy4 is now live, labeled &quot;Expert-Level Model&quot; + &quot;Use Tools to Solve Problems&quot; Hy3 is tagged with &quot;New Upgrade,&quot; positioned as a brand-new general-purpose model De",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-20-qwen38-27b-has-the-highest-level-of-agency-ive-ever-seen-in",
+      "id": "localllama-2026-08-20-i-just-built-a-mini-kimi-k3-from-scratch-under-250-already-b",
       "source": "localllama",
-      "title": "Qwen3.8-27b has the highest level of \"agency\" I've ever seen in a local model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt78xd/qwen3827b_has_the_highest_level_of_agency_ive/",
-      "published_at": "2026-08-20T02:45:59Z",
-      "summary": "      Off a single prompt, given my credentials and the name of my university, qwen3.8-27b was able to successfully pull my class schedule from the kinda shitty and convoluted web of university websites. It needed no hum",
+      "title": "I just built a mini Kimi-K3 from Scratch under 250$. Already beats GPT-2 (124M)!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vth1c3/i_just_built_a_mini_kimik3_from_scratch_under_250/",
+      "published_at": "2026-08-20T11:38:22Z",
+      "summary": "      I pre-trained a 1.02-billion-parameter on Kimi K3 replica trained on 5.00 billion decontaminated tokens for $250.  This model has 1.02 billion parameters, of which 145 million are active per token.  It is roughly o",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-20-ornith-15-35b-a3b-q4-running-60tks-on-4070ti",
+      "id": "localllama-2026-08-20-draft---open-pr-avx2-speed-up-large-batch-size-prompt-proces",
       "source": "localllama",
-      "title": "Ornith-1.5-35B-A3B Q4 running 60tk/s on 4070Ti.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt6hwc/ornith1535ba3b_q4_running_60tks_on_4070ti/",
-      "published_at": "2026-08-20T02:11:39Z",
-      "summary": "Not everyone has the disposable income to build a small data center, so making this post for the underdogs as I was very surprised by the performance/results of this 35B MOE model. Context is admittedly tight and will ge",
+      "title": "[Draft - Open PR] AVX2: Speed up large batch size prompt processing of IQ models by bartowski1182 · Pull Request #27402 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtgyzf/draft_open_pr_avx2_speed_up_large_batch_size/",
+      "published_at": "2026-08-20T11:35:10Z",
+      "summary": "      IQ quants are particularly slow on CPU at large batch sizes (what you&#39;d see for imatrix and perplexity) Benchmark numbers I ran PPL against master and this PR to get speed and numbers on --chunks 50 for Qwen3.6",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-20-ling-30-tiny-makes-an-amazing-auxillery-model-for-hermes-qwe",
+      "id": "localllama-2026-08-20-airllm---recent-updates---with-qwen38-27b-kimi-k3-too",
       "source": "localllama",
-      "title": "Ling 3.0 Tiny makes an amazing auxillery model for Hermes (Qwen 3.8 27B as the primary model)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt3ttl/ling_30_tiny_makes_an_amazing_auxillery_model_for/",
-      "published_at": "2026-08-20T00:13:33Z",
-      "summary": "Just got the setup dialed in yesterday. Getting really good results and is making 3.8 usage feel faster in hermes. I got Qwen to specifically use Ling tiny for simple tasks like context compression and summerization task",
+      "title": "AirLLM - Recent Updates - with Qwen3.8-27B, Kimi-K3 too",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtfzjc/airllm_recent_updates_with_qwen3827b_kimik3_too/",
+      "published_at": "2026-08-20T10:45:55Z",
+      "summary": "      AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run 405B Llama 3.1 on 8GB, DeepSeek-",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-19-qwen38-23b-mini-me-a-depth-pruned-qwen38-27b-to-227bb",
+      "id": "localllama-2026-08-20-g9v3-39a5b-on-artificialanalysis-looks-good-has-anyone-teste",
       "source": "localllama",
-      "title": "Qwen3.8-23B-Mini-Me: A Depth-Pruned Qwen3.8-27B (to ~22.7BB)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt2jef/qwen3823bminime_a_depthpruned_qwen3827b_to_227bb/",
-      "published_at": "2026-08-19T23:19:16Z",
-      "summary": "      I&#39;ve been working on a depth pruning approach and decided to try it out on the new Qwen3.8-27B model. I managed to get the model down to about 22.7B params without severe reasoning degradation. No fine-tuning w",
+      "title": "G9v3-39A5B on artificialanalysis looks good. Has anyone tested it?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtfvov/g9v339a5b_on_artificialanalysis_looks_good_has/",
+      "published_at": "2026-08-20T10:40:22Z",
+      "summary": "      I see https://github.com/linuxid10t/llama.cpp/tree/feature/g9v3-support but yeah... Considering that some results place it above Qwen 3.6 27B (the top performer until a few days ago) and that it is an MoE model, I ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-new-benchmark-just-dropped",
+      "source": "localllama",
+      "title": "New benchmark just dropped!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtfcpu/new_benchmark_just_dropped/",
+      "published_at": "2026-08-20T10:11:55Z",
+      "summary": "      The pelican on a bicycle is sooo outdated, so I came up with a new, improved version.  Qwen3.8-27b medium (UD-Q4_K_XL) vs. Sol 5.6 high vs. Qwen3.6-35B (UD-Q6_K_XL)  Prompt (only real with typo!): &quot;Create a sv",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-tinysearch-v061---still-a-lightweight-web-research-tool-for",
+      "source": "localllama",
+      "title": "TinySearch v0.6.1 - still a lightweight web research tool for local LLMs, now with bring-your-own-browser support",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtf7mi/tinysearch_v061_still_a_lightweight_web_research/",
+      "published_at": "2026-08-20T10:04:20Z",
+      "summary": "      Hey everyone, Posted TinySearch here a few versions ago and got a bunch of useful feedback, so figured I&#39;d post an update because the thing has changed quite a bit since then. Repo: [https://github.com/TinySuit",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-syzygyresearchmach-1-additive-35b-gguf-hugging-face",
+      "source": "localllama",
+      "title": "SyzygyResearch/Mach-1-Additive-35B-GGUF · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtcz8t/syzygyresearchmach1additive35bgguf_hugging_face/",
+      "published_at": "2026-08-20T07:52:22Z",
+      "summary": "      They released both GGUFs &amp; custom llama.cpp fork today. 35B MOE in 7GB size which&#39;s good for Mobile &amp; Edge devices(Also low memory systems). Up to 120 t/s on Consumer Laptop. GGUFs:  https://huggingface",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-qwen-38-27b-kv-f16-vs-q8-0-are-not-equivalents",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B KV f16 vs q8_0 are not equivalents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtc4b4/qwen_38_27b_kv_f16_vs_q8_0_are_not_equivalents/",
+      "published_at": "2026-08-20T07:01:44Z",
+      "summary": "I&#39;m testing it since release, now with UD 3.0 in my AMD R9700 with ROCm, I always read everywhere that F16 and q8_0 for KV cache are essentially the same... well, I tested it and I can see differences. Some differenc",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-3-days-benchmarking-most-llamacpp-flags-on-my-weird-40gb-vra",
+      "source": "localllama",
+      "title": "3 days benchmarking most llama.cpp flags on my weird 40gb vram laptop + tb4 egpu setup. Got +70% generation, +40% prefill, 60k more context, and filed a bug in llama around MTP. What I learned.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtc0z7/3_days_benchmarking_most_llamacpp_flags_on_my/",
+      "published_at": "2026-08-20T06:56:49Z",
+      "summary": "      tldr:  went from 16~ t/s to 27~ t/s generation. got my usable context up from 220k to the full 262k without sacrificing anything. prefill also increased from 376 to 573  command I ended up with, fwiw:  llama-server",
       "tags": [
         "localllama"
       ]
@@ -87,17 +142,6 @@
       "summary": "Research: smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript\n        I tasked Claude Fable 5 running in Claude Code for web with the following research task:\n\nPut https://smolmachines.com through it",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-qwen-38-27b-slopcodebench-results",
-      "source": "localllama",
-      "title": "Qwen 3.8 27B SlopCodeBench results",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt2cjy/qwen_38_27b_slopcodebench_results/",
-      "published_at": "2026-08-19T23:11:28Z",
-      "summary": "Howdy, I&#39;m back again - running my favorite benchmark (it&#39;s still unsaturated for the time being so might as well!) previous runs a b https://github.com/michaelasper/benchmarks/blob/main/qwen3.8-27b-pi-on-slop-co",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -120,50 +164,6 @@
       "summary": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights fro",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-anyone-not-on-full-auto-when-coding-with-local-llms",
-      "source": "localllama",
-      "title": "Anyone NOT on full auto when coding with local LLMs?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt0y1g/anyone_not_on_full_auto_when_coding_with_local/",
-      "published_at": "2026-08-19T22:14:52Z",
-      "summary": "Would love to know who&#39;s letting a 9B just go ham locally, haha But in all seriousness, how many of you are keeping to manual or manual-ish dev workflows?  &#32; submitted by &#32;  /u/BatPlack   [link] &#32; [commen",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-s1-mini-by-superwhisper-running-100-locally-in-the-browser-o",
-      "source": "localllama",
-      "title": "S1-mini by Superwhisper running 100% locally in the browser on WebGPU with Transformers.js",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsze11/s1mini_by_superwhisper_running_100_locally_in_the/",
-      "published_at": "2026-08-19T21:14:53Z",
-      "summary": "      It&#39;s a 600M-parameter LLM designed to turn raw speech-to-text transcripts into clean written text. It removes false starts and self-corrections, adds punctuation and capitalization, and formats spoken numbers, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-fluid-simulation-qwen38-27b-iq3-xxs",
-      "source": "localllama",
-      "title": "Fluid Simulation Qwen3.8 27B IQ3_XXS",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsyj2o/fluid_simulation_qwen38_27b_iq3_xxs/",
-      "published_at": "2026-08-19T20:42:36Z",
-      "summary": "After reading this tweet: https://x.com/scaling01/status/2089784644400976254 where the author says Qwen3.8 27B is not comparable to Opus, I had to try it out myself. First of: GPT 5.6 Sol (High) also failed the task and ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-19-i-pushed-qwen38-27b-limits-again-dflash2---134-tps-on-a-rtx",
-      "source": "localllama",
-      "title": "I pushed Qwen3.8-27B limits again... Dflash2 - 134 tps on a RTX 3090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsy4l2/i_pushed_qwen3827b_limits_again_dflash2_134_tps/",
-      "published_at": "2026-08-19T20:28:00Z",
-      "summary": "Edit: Title says 134 tps, it&#39;s actually 138 -- keep in mind my 3090 is power limited to 250w.  Three days ago I released a hyper-optimized Qwen3.8-27B inference engine for an RTX 3090 (82 tps single request, 672 peak",
-      "tags": [
-        "localllama"
       ]
     },
     {

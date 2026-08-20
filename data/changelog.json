@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-20T06:53:18Z",
+  "updated_at": "2026-08-20T12:57:09Z",
   "releases": [
+    {
+      "id": "whisper-cpp-v1.9.3",
+      "project": "whisper-cpp",
+      "version": "v1.9.3",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.3",
+      "published_at": "2026-08-20T11:39:36Z",
+      "body_excerpt": "> [!NOTE] > Semantic versioning is still work in progress. > More info can be found in Nightly build: b4938 Change log since v1.9.2 371b5a75 release : v1.9.3 (#4000) 81c19056 cmake : update semver and release process [no ci] (#3996) 4834a232 talk-llama : sync llama.cpp 6b014cfb sync : ggml 8189458d ggml : bump version to 0.20.2 (ggml/1589) 51319a2c CUDA: MMVQ nwarps=8 for bs=1 for dense models on ",
+      "type": "tool"
+    },
+    {
+      "id": "whisper-cpp-b4938",
+      "project": "whisper-cpp",
+      "version": "b4938",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/b4938",
+      "published_at": "2026-08-20T11:33:19Z",
+      "body_excerpt": "",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10514",
+      "project": "llama-cpp",
+      "version": "b10514",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10514",
+      "published_at": "2026-08-20T11:17:28Z",
+      "body_excerpt": "model : GraniteSWAForCausalLM / GraniteMoeSWAForCausalLM (#25505) feat(convert): Add conversion for GraniteSWAForCausalLM Branch: GraniteSWAForCausalLM AI-usage: full (Bob, OpenCode + Qwen3.6-35b) Signed-off-by: Gabe Goodhart feat(llama): Add granite_swa support Branch: GraniteSWAForCausalLM AI-usage: full (Bob, OpenCode + Qwen3.6-35b) Signed-off-by: Gabe Goodhart feat(conversion): Add conversion ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10509",
       "project": "llama-cpp",
