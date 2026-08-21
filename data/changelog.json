@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-08-20T18:46:10Z",
+  "updated_at": "2026-08-21T01:38:24Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10534",
+      "project": "llama-cpp",
+      "version": "b10534",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10534",
+      "published_at": "2026-08-21T01:37:40Z",
+      "body_excerpt": "CUDA: adding switch points per HW and quant type to tune the mvq->MMQ decode crossover (#26079) CUDA: runtime GGML_CUDA_MMVQ_MAX to tune the mvq->MMQ decode crossover Add a runtime override of the mul_mat_vec_q -> MMQ batch crossover (default MMVQ_MAX_BATCH_SIZE). Lowering it routes batches above the threshold from the CUDA-core vector kernel to the int8 MMQ tensor-core path, which is faster once ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10533",
+      "project": "llama-cpp",
+      "version": "b10533",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10533",
+      "published_at": "2026-08-21T01:06:31Z",
+      "body_excerpt": "common : gracefully fallback on unsupported regex patterns in JSON schema (#26939) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10532",
+      "project": "llama-cpp",
+      "version": "b10532",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10532",
+      "published_at": "2026-08-21T00:42:58Z",
+      "body_excerpt": "metal : dequantize quantized KV to F16 before flash attention (#27390) metal: dequantize q8_0 KV to f16 before flash attention Add a preprocessing pass for GGML_OP_FLASH_ATTN_EXT on the Metal backend: when the KV cache is quantized (Q8_0 for now), dequantize K and V into a contiguous F16 scratch buffer and run the existing F16 flash attention kernels on it, instead of the in-kernel dequantization ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10531",
+      "project": "llama-cpp",
+      "version": "b10531",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10531",
+      "published_at": "2026-08-21T00:19:31Z",
+      "body_excerpt": "Revert \"tensor-split meta backend fixes (#26502)\" (#27433) This reverts commit d59d455fd8ea09e5a2e87ce2a9d668267ffb5ccd. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DI",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10520",
+      "project": "llama-cpp",
+      "version": "b10520",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10520",
+      "published_at": "2026-08-20T21:03:06Z",
+      "body_excerpt": "ggml-cpu: gate __fp16 on __ARM_FP16_FORMAT_IEEE (#26860) ggml-cpu: gate __fp16 on __ARM_FP16_FORMAT_IEEE __ARM_NEON only signals NEON availability. The __fp16 type also needs the IEEE half format, implied on AArch64 but selected with -mfp16-format=ieee on 32 bit Arm, where the compiler otherwise rejects the type. The guard keeps every toolchain that provides the type on the same code and sends tha",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10519",
+      "project": "llama-cpp",
+      "version": "b10519",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10519",
+      "published_at": "2026-08-20T20:31:11Z",
+      "body_excerpt": "server: refactor sleep handling, allow access /metrics during sleep (#27376) add cached responses refactor on_sleeping_state allow accessing metrics during sleep metrics task should not reset timer updated docs fix fix get_res_model_info add test fix a race condition split metrics and slots tasks / results should_reset_buckets Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS App",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10517",
       "project": "llama-cpp",
@@ -124,7 +178,7 @@
       "version": "v0.32.15",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15",
       "published_at": "2026-08-19T17:25:16Z",
-      "body_excerpt": "What's Changed Add a model metadata cache to reduce Ollama’s per-request overhead New Contributors @gaugarg-nv made their first contribution in Full Changelog:",
+      "body_excerpt": "What's Changed New desktop onboarding flow on first launch Caches resolved model metadata between requests, cutting time-to-first-token by roughly half (TTFT dropped from ~995 ms to ~524 ms in benchmarks) Fixes a bug where chat and generate could wedge after a mid-stream parser error Qwen 3.8 system messages are now normalized so non-leading system messages are handled consistently MLX and llama.c",
       "type": "tool"
     },
     {
@@ -9764,78 +9818,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9294",
       "published_at": "2026-05-23T01:49:32Z",
       "body_excerpt": "opencl: generalize Adreno MoE kernels on M (#23449) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
-      "type": "tool"
-    },
-    {
-      "id": "hf-google-gemma-4-12B-it-assistant",
-      "project": "google",
-      "version": "gemma-4-12B-it-assistant",
-      "url": "https://huggingface.co/google/gemma-4-12B-it-assistant",
-      "published_at": "2026-05-23T01:17:47Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-gemma-4-12B-it",
-      "project": "google",
-      "version": "gemma-4-12B-it",
-      "url": "https://huggingface.co/google/gemma-4-12B-it",
-      "published_at": "2026-05-23T01:17:15Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9291",
-      "project": "llama-cpp",
-      "version": "b9291",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9291",
-      "published_at": "2026-05-22T22:17:36Z",
-      "body_excerpt": "SYCL: improve MoE prefill throughput (#23142) change so that uses a precomputed contiguous mapping where all rows \"owned\" by an expert are in one slice with a know starts and ends switch the contraption to a counting sort-based procedure with complexity macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9292",
-      "project": "llama-cpp",
-      "version": "b9292",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9292",
-      "published_at": "2026-05-22T22:17:30Z",
-      "body_excerpt": "perplexity : fix integer overflow (#23496) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9290",
-      "project": "llama-cpp",
-      "version": "b9290",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9290",
-      "published_at": "2026-05-22T22:12:06Z",
-      "body_excerpt": "sycl : Level Zero detection in ggml_sycl_init (#23097) [SYCL] Centralize Level Zero detection in ggml_sycl_init use the same wording get back the warning macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) U",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9289",
-      "project": "llama-cpp",
-      "version": "b9289",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9289",
-      "published_at": "2026-05-22T21:36:51Z",
-      "body_excerpt": "SYCL : gated_delta_net K>1 (#23174) sycl_gated_delta_net K>1 editor_config macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9286",
-      "project": "llama-cpp",
-      "version": "b9286",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9286",
-      "published_at": "2026-05-22T20:54:32Z",
-      "body_excerpt": "ggml-zendnn : add Q8_0 quantization support (#23414) ggml-zendnn : add Q8_0 quantization support ggml-zendnn : sync with latest ZenDNN ggml-zendnn : address review comments for Q8_0 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vul",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9285",
-      "project": "llama-cpp",
-      "version": "b9285",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9285",
-      "published_at": "2026-05-22T19:47:03Z",
-      "body_excerpt": "cmake : build router app only during standalone builds (#23521) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
       "type": "tool"
     }
   ]
