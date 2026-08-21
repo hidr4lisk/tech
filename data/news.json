@@ -1,6 +1,149 @@
 {
-  "updated_at": "2026-08-21T12:55:59Z",
+  "updated_at": "2026-08-21T18:42:00Z",
   "items": [
+    {
+      "id": "localllama-2026-08-21-model-add-dots3-note-by-ngxson-pull-request-27060-ggml-orgll",
+      "source": "localllama",
+      "title": "model: add dots3-note by ngxson · Pull Request #27060 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vunrrp/model_add_dots3note_by_ngxson_pull_request_27060/",
+      "published_at": "2026-08-21T18:03:27Z",
+      "summary": "      dots3-note preview is the first open-weight model in the dots3 family. It is a Mixture-of-Experts model with 280B total parameters, 16B activated parameters, and support for a context length of up to 512K tokens. T",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-llamacpp-dspark-pc-tree-fork-up-to-3-295-faster",
+      "source": "localllama",
+      "title": "Llama.cpp DSpark PC Tree Fork (up to 3%-29.5% faster!)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vunqoz/llamacpp_dspark_pc_tree_fork_up_to_3295_faster/",
+      "published_at": "2026-08-21T18:02:21Z",
+      "summary": "Hello gang, I made an implementation of DSpark PC Tree (Parent conditioned drafting tree). This is an implementation of this research paper: https://arxiv.org/abs/2608.02123 Unaffiliated, just found it and implemented it",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-qwen-38-vs-36-27b-low-reasoning-loops-way-less-now",
+      "source": "localllama",
+      "title": "Qwen 3.8 vs 3.6 27b low reasoning loops way less now",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vulsom/qwen_38_vs_36_27b_low_reasoning_loops_way_less_now/",
+      "published_at": "2026-08-21T16:51:43Z",
+      "summary": "Have seen some people say Qwen 3.8 still overthinks even when reasoning is set to low. Which on my case has been way better compared to 3.6, eveb on a 3 bit quant. I think it&#39;s worth mentioning that the default is ac",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-whats-the-best-local-ai-harness-for-coding-general-use",
+      "source": "localllama",
+      "title": "What’s the best local AI harness for coding + general use?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vukppf/whats_the_best_local_ai_harness_for_coding/",
+      "published_at": "2026-08-21T16:11:56Z",
+      "summary": "So what’s actually the best local AI harness rn? I’ve read a TON about this already and somehow ended up more confused than when I started so I figured screw it, let the community decide. Right now I mainly run Qwen 3.6 ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-21-stop-making-tuis",
+      "source": "simonw",
+      "title": "Stop Making TUIs",
+      "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+      "published_at": "2026-08-21T16:07:32Z",
+      "summary": "Stop Making TUIs\nThomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almo",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-fireredaudio-fireredtts3-by-fireredteam---huggingface",
+      "source": "localllama",
+      "title": "FireRedAudio & FireRedTTS3 by FireRedTeam - Huggingface",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vukj3m/fireredaudio_fireredtts3_by_fireredteam/",
+      "published_at": "2026-08-21T16:05:05Z",
+      "summary": "      FireRedAudio: A General-Purpose Audio Language Model with Decoupled Continuous Representations for Understanding and Generation  HuggingFace : https://huggingface.co/FireRedTeam/FireRedAudio GitHub : https://github",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-ultrafast-qwen3-tts-at-34-ms-time-to-first-audio-handling-10",
+      "source": "localllama",
+      "title": "Ultrafast Qwen3-TTS at 34 ms Time-to-First-Audio, Handling 10 Requests Per Second [OSS]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vukf57/ultrafast_qwen3tts_at_34_ms_timetofirstaudio/",
+      "published_at": "2026-08-21T16:01:06Z",
+      "summary": "      Hey locallama! We recently open sourced a Qwen3-TTS 1.7B implementation that achieves 10 requests per second (RPS) and sub-50 ms p95 time-to-first-audio (TTFA) while maintaining real-time playback on 1 x H100. This",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-i-benchmarked-ox-alpha-on-swe-bench-verified-mini-50-tasks-9",
+      "source": "localllama",
+      "title": "I benchmarked Ox Alpha on SWE-bench Verified Mini (50 tasks): 96% resolved. Now I’m skeptical of myself.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuke8o/i_benchmarked_ox_alpha_on_swebench_verified_mini/",
+      "published_at": "2026-08-21T16:00:19Z",
+      "summary": "TL;DR: The result looks TOO GOOD TO BE TRUE — that&#39;s exactly why I&#39;m posting it. I ran Ox alpha on the entire SWE-bench Verified-Mini set with the official mini-swe-agent scaffold — the same agent used for the sw",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-21-quoting-matt-webb",
+      "source": "simonw",
+      "title": "Quoting Matt Webb",
+      "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+      "published_at": "2026-08-21T15:06:26Z",
+      "summary": "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-magicquant-qwen38-27b-ggufs-with-unsloth-v3-imatrix",
+      "source": "localllama",
+      "title": "MagicQuant Qwen3.8 27B GGUFs with Unsloth v3 & Imatrix",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuhl5a/magicquant_qwen38_27b_ggufs_with_unsloth_v3/",
+      "published_at": "2026-08-21T14:15:34Z",
+      "summary": "I just updated MagicQuant with the new Unsloth dynamic v3 and utilizing their imatrix:HuggingFace Repo Here Qwen3.8 27B was a more conservative run with some kld and size savings. But it was super interesting seeing the ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-nvidia-avo-got-100-on-arc-agi-3-it-completed-all-183-levels",
+      "source": "localllama",
+      "title": "NVIDIA AVO got 100% on ARC-AGI-3. It completed all 183 levels across all 25 public environments, figuring out what to do with no instructions, explicit rules, or stated goals.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuh7to/nvidia_avo_got_100_on_arcagi3_it_completed_all/",
+      "published_at": "2026-08-21T14:01:07Z",
+      "summary": "&#32; submitted by &#32;  /u/theologi   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-deepseek-harness-v011-released",
+      "source": "localllama",
+      "title": "DeepSeek Harness v0.1.1 released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vugyfe/deepseek_harness_v011_released/",
+      "published_at": "2026-08-21T13:51:00Z",
+      "summary": "      https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.1-rc.1 The DeepSeek adapter adds the multimodal visual understanding model DeepSeek-V4-Flash-Vision-Exp. It also supports configuring native ima",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-qwen-38-27b-is-strong-even-at-q3-xxs",
+      "source": "localllama",
+      "title": "Qwen 3.8 27b is strong even at Q3_xxs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vugryn/qwen_38_27b_is_strong_even_at_q3_xxs/",
+      "published_at": "2026-08-21T13:43:39Z",
+      "summary": "So usually I avoid Q3 quants because I have had bad experiences with it, models were usually too degraded, so the smallest I normally do is Q4, since I only have rtx 4060 ti 16gb. But since there hasn&#39;t been a 35b-3a",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-21-buying-a-v100older-nvidia-gpu-run-this-to-check-for-older-me",
       "source": "localllama",
@@ -13,124 +156,14 @@
       ]
     },
     {
-      "id": "localllama-2026-08-21-benchmark-dflash2-vs-mtp-comparison-5090rtx-qwen-38-27b-dyna",
-      "source": "localllama",
-      "title": "[Benchmark] DFlash2 vs MTP comparison. 5090RTX, Qwen 3.8 27B, Dynamic v3 GGUF, llama.cpp. Token generation, latency and available context.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vue4qk/benchmark_dflash2_vs_mtp_comparison_5090rtx_qwen/",
-      "published_at": "2026-08-21T11:48:57Z",
-      "summary": "TLDR: Caution advised. DFlash2 gives +20% generation speed at the expense of 38% of context size. Long running tasks and large context work (&gt;100k) makes DFlash2 lose it&#39;s advantage due to compaction and diminishi",
+      "id": "huggingface-2026-08-21-measuring-benchmark-optimization-in-speech-recognition",
+      "source": "huggingface",
+      "title": "Measuring benchmark optimization in speech recognition",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "published_at": "2026-08-21T00:00:00Z",
+      "summary": "",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-when-9-of-top-12-models-are-just-exactly-one",
-      "source": "localllama",
-      "title": "When 9 of top 12 models are just exactly one.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vud6va/when_9_of_top_12_models_are_just_exactly_one/",
-      "published_at": "2026-08-21T11:02:53Z",
-      "summary": "      &#32; submitted by &#32;  /u/Beamsters   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-ornith-15-35b-a3b-ninfer---250-toks-5-8k-prefill-5090",
-      "source": "localllama",
-      "title": "Ornith-1.5-35B-A3B-NInfer - 250 tok/s, 5-8k prefill, 5090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuce59/ornith1535ba3bninfer_250_toks_58k_prefill_5090/",
-      "published_at": "2026-08-21T10:21:21Z",
-      "summary": "      I tried this model yesterday, and it felt to me like the best one I&#39;ve tried for a local model for interactive use; the responses and reasoning are very fast, and it actually performs agentic tasks well. The sp",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-i-got-fed-up-with-locked-down-autocomplete-so-i-forked-conti",
-      "source": "localllama",
-      "title": "I got fed up with locked-down autocomplete, so I forked Continue and stripped it down to just tab-completion. Any model, no subscription and no remote telemetry",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vubpn4/i_got_fed_up_with_lockeddown_autocomplete_so_i/",
-      "published_at": "2026-08-21T09:45:18Z",
-      "summary": "I kept running into the same wall. Every agentic coding plugin ships an autocomplete, and almost all of them lock it down — no model choice, or a subscription, or both. I don&#39;t want a chat panel, I don&#39;t want an ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-deepseek-v4-flash-vision-exp",
-      "source": "localllama",
-      "title": "DeepSeek-V4-Flash-Vision-Exp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vubb20/deepseekv4flashvisionexp/",
-      "published_at": "2026-08-21T09:22:09Z",
-      "summary": "      &#32; submitted by &#32;  /u/Xhehab_   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-fastest-nvfp4-quant-of-qwen38-27b-out-there",
-      "source": "localllama",
-      "title": "Fastest NVFP4 quant of Qwen3.8 27B out there",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vub9od/fastest_nvfp4_quant_of_qwen38_27b_out_there/",
-      "published_at": "2026-08-21T09:19:54Z",
-      "summary": "      Here&#39;s a brand new Blackwell-native, prefill-optimized 4-bit quant that runs 50% faster on compatible hardware than a Q4 quant of the same memory footprint. And it runs 4-7% faster than other NVFP4 quants as be",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-does-pcie-matter-much-for-inference",
-      "source": "localllama",
-      "title": "Does PCIe matter much for inference?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vub1ff/does_pcie_matter_much_for_inference/",
-      "published_at": "2026-08-21T09:06:54Z",
-      "summary": "Speaking of -sm tensor. I have 2x5060ti and i get some 40-50tps form 3.8 27B q6. I used HWinfo to see how saturated the PCIes are during inference are and as expected both the PCIe 5x16 slot and PCIe 4x4 were fully satur",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-new-stealth-model-on-openrouter-ox-alph",
-      "source": "localllama",
-      "title": "New stealth model on OpenRouter: Ox Alph",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu8n8i/new_stealth_model_on_openrouter_ox_alph/",
-      "published_at": "2026-08-21T06:45:34Z",
-      "summary": "      Any idea which lab this is from? people are guessing this is a Chinese model.   &#32; submitted by &#32;  /u/Neosinic   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-qwen38-27b-at-262k-context-on-a-strix-halo-rtx-3090-ti-95",
-      "source": "localllama",
-      "title": "Qwen3.8-27B at 262K context on a Strix Halo + RTX 3090 Ti: 9.5 -> 153 tok/s, and it beats a dual-3090 vLLM box on HumanEval",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu7yce/qwen3827b_at_262k_context_on_a_strix_halo_rtx/",
-      "published_at": "2026-08-21T06:06:07Z",
-      "summary": "Spent a while treating layer placement, KV format and llama.cpp itself as experimental variables. 159 logged experiments. Numbers first, caveats after. Hardware: AMD Ryzen AI MAX+ 395 (Strix Halo, 128 GB unified) + RTX 3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-fastest-qwen-38-27b-for-amd-gpu",
-      "source": "localllama",
-      "title": "Fastest qwen 3.8 27b for AMD gpu?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu7m53/fastest_qwen_38_27b_for_amd_gpu/",
-      "published_at": "2026-08-21T05:47:36Z",
-      "summary": "Hey, just wondering if there are forks or exact gguf versions that give fastest prompt processing and token gen speeds for AMD gpu? Looking to run q8 or q6 Vram 96gb W7900 + w7800 both 48gb With bandwidth mismatch, tenso",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-ox-alpha-stealth-model-glm5-air-mimo-v3-or",
-      "source": "localllama",
-      "title": "Ox Alpha stealth model: GLM5 Air, Mimo V3 or ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu6lok/ox_alpha_stealth_model_glm5_air_mimo_v3_or/",
-      "published_at": "2026-08-21T04:53:04Z",
-      "summary": "      To anyone who needs AIR…  &#32; submitted by &#32;  /u/Miserable-Dare5090   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
+        "huggingface"
       ]
     },
     {
@@ -310,17 +343,6 @@
       ]
     },
     {
-      "id": "simonw-2026-08-13-llm-gemini-033",
-      "source": "simonw",
-      "title": "llm-gemini 0.33",
-      "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-      "published_at": "2026-08-13T19:37:34Z",
-      "summary": "Release: llm-gemini 0.33\n        It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash, gemini-3.5-flash-lite and two emb",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-08-13-record-train-and-deploy-from-one-place-with-strands-agents-l",
       "source": "huggingface",
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
@@ -340,17 +362,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-12-deepseek-v4-pro-0813-on-openrouter",
-      "source": "simonw",
-      "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
-      "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
-      "published_at": "2026-08-12T23:59:23Z",
-      "summary": "DeepSeek V4 Pro 0813 (on OpenRouter)\nThe latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model.\nI haven't been",
-      "tags": [
-        "simonw"
       ]
     },
     {
@@ -392,17 +403,6 @@
       "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
       "published_at": "2026-08-11T13:37:10Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-08-10-build-low-latency-multilingual-voice-agents-open-weights-ful",
-      "source": "huggingface",
-      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
-      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-      "published_at": "2026-08-10T16:25:36Z",
       "summary": "",
       "tags": [
         "huggingface"
