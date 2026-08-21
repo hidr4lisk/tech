@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-08-21T06:54:23Z",
+  "updated_at": "2026-08-21T12:55:59Z",
   "items": [
+    {
+      "id": "localllama-2026-08-21-buying-a-v100older-nvidia-gpu-run-this-to-check-for-older-me",
+      "source": "localllama",
+      "title": "Buying a V100/older NVIDIA GPU? Run this to check for older memory issues",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuf4pb/buying_a_v100older_nvidia_gpu_run_this_to_check/",
+      "published_at": "2026-08-21T12:34:49Z",
+      "summary": "      I recently bought a 32GB V100 off eBay and thought I was all set with rudimentary tests showing zero issues. But then I started seeing weird VRAM-related errors in llama.cpp. I sic&#39;ed Claude on it, to find that",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-benchmark-dflash2-vs-mtp-comparison-5090rtx-qwen-38-27b-dyna",
+      "source": "localllama",
+      "title": "[Benchmark] DFlash2 vs MTP comparison. 5090RTX, Qwen 3.8 27B, Dynamic v3 GGUF, llama.cpp. Token generation, latency and available context.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vue4qk/benchmark_dflash2_vs_mtp_comparison_5090rtx_qwen/",
+      "published_at": "2026-08-21T11:48:57Z",
+      "summary": "TLDR: Caution advised. DFlash2 gives +20% generation speed at the expense of 38% of context size. Long running tasks and large context work (&gt;100k) makes DFlash2 lose it&#39;s advantage due to compaction and diminishi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-when-9-of-top-12-models-are-just-exactly-one",
+      "source": "localllama",
+      "title": "When 9 of top 12 models are just exactly one.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vud6va/when_9_of_top_12_models_are_just_exactly_one/",
+      "published_at": "2026-08-21T11:02:53Z",
+      "summary": "      &#32; submitted by &#32;  /u/Beamsters   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-ornith-15-35b-a3b-ninfer---250-toks-5-8k-prefill-5090",
+      "source": "localllama",
+      "title": "Ornith-1.5-35B-A3B-NInfer - 250 tok/s, 5-8k prefill, 5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuce59/ornith1535ba3bninfer_250_toks_58k_prefill_5090/",
+      "published_at": "2026-08-21T10:21:21Z",
+      "summary": "      I tried this model yesterday, and it felt to me like the best one I&#39;ve tried for a local model for interactive use; the responses and reasoning are very fast, and it actually performs agentic tasks well. The sp",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-i-got-fed-up-with-locked-down-autocomplete-so-i-forked-conti",
+      "source": "localllama",
+      "title": "I got fed up with locked-down autocomplete, so I forked Continue and stripped it down to just tab-completion. Any model, no subscription and no remote telemetry",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vubpn4/i_got_fed_up_with_lockeddown_autocomplete_so_i/",
+      "published_at": "2026-08-21T09:45:18Z",
+      "summary": "I kept running into the same wall. Every agentic coding plugin ships an autocomplete, and almost all of them lock it down — no model choice, or a subscription, or both. I don&#39;t want a chat panel, I don&#39;t want an ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-deepseek-v4-flash-vision-exp",
+      "source": "localllama",
+      "title": "DeepSeek-V4-Flash-Vision-Exp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vubb20/deepseekv4flashvisionexp/",
+      "published_at": "2026-08-21T09:22:09Z",
+      "summary": "      &#32; submitted by &#32;  /u/Xhehab_   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-fastest-nvfp4-quant-of-qwen38-27b-out-there",
+      "source": "localllama",
+      "title": "Fastest NVFP4 quant of Qwen3.8 27B out there",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vub9od/fastest_nvfp4_quant_of_qwen38_27b_out_there/",
+      "published_at": "2026-08-21T09:19:54Z",
+      "summary": "      Here&#39;s a brand new Blackwell-native, prefill-optimized 4-bit quant that runs 50% faster on compatible hardware than a Q4 quant of the same memory footprint. And it runs 4-7% faster than other NVFP4 quants as be",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-does-pcie-matter-much-for-inference",
+      "source": "localllama",
+      "title": "Does PCIe matter much for inference?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vub1ff/does_pcie_matter_much_for_inference/",
+      "published_at": "2026-08-21T09:06:54Z",
+      "summary": "Speaking of -sm tensor. I have 2x5060ti and i get some 40-50tps form 3.8 27B q6. I used HWinfo to see how saturated the PCIes are during inference are and as expected both the PCIe 5x16 slot and PCIe 4x4 were fully satur",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-new-stealth-model-on-openrouter-ox-alph",
+      "source": "localllama",
+      "title": "New stealth model on OpenRouter: Ox Alph",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu8n8i/new_stealth_model_on_openrouter_ox_alph/",
+      "published_at": "2026-08-21T06:45:34Z",
+      "summary": "      Any idea which lab this is from? people are guessing this is a Chinese model.   &#32; submitted by &#32;  /u/Neosinic   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-21-qwen38-27b-at-262k-context-on-a-strix-halo-rtx-3090-ti-95",
       "source": "localllama",
@@ -35,72 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-21-new-stealth-model-ox-alpha-look-like-glm-or-mimo-new-model",
-      "source": "localllama",
-      "title": "New stealth model Ox Alpha look like glm or mimo new model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu620d/new_stealth_model_ox_alpha_look_like_glm_or_mimo/",
-      "published_at": "2026-08-21T04:24:18Z",
-      "summary": "      https://preview.redd.it/stgzmbpgnnkh1.jpg?width=2179&amp;format=pjpg&amp;auto=webp&amp;s=19a4fd0e1786cbcac0967e1bf1ec4898447e989a https://preview.redd.it/paub9gylnnkh1.png?width=680&amp;format=png&amp;auto=webp&amp",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-sensenova-u15-lite-full-release-expert-training-opd-distilla",
-      "source": "localllama",
-      "title": "SenseNova U1.5-Lite full release: expert training, OPD distillation, one model at inference",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu5dzi/sensenova_u15lite_full_release_expert_training/",
-      "published_at": "2026-08-21T03:52:03Z",
-      "summary": "      Benchmarks:   Benchmark U1 Preview Full    Qwen-Image-Bench 47.14 55.20 (PE) 60.18 (PE)   ImgEdit 3.9 4.37 4.59   GEdit-Bench-EN 7.47 8.14 8.26   Instead of just scaling up, they train task-specialized expert model",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-is-there-any-interest-in-a-self-hosted-open-source-version-o",
-      "source": "localllama",
-      "title": "Is there any interest in a self hosted open source version of manus/perplexity?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu3a1u/is_there_any_interest_in_a_self_hosted_open/",
-      "published_at": "2026-08-21T02:10:59Z",
-      "summary": "I have been working on a project for about 3 months because I found Vane to be awful and I wanted something like Manus for myself. I have a pretty solid app that&#39;s probably about ready to release, but I&#39;m not sur",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-make-jensen-huang-sound-like-anyone-new-streaming-voice-conv",
-      "source": "localllama",
-      "title": "Make Jensen Huang Sound Like Anyone. New Streaming Voice Conversion Model MeanVC2 Released!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu34b1/make_jensen_huang_sound_like_anyone_new_streaming/",
-      "published_at": "2026-08-21T02:03:29Z",
-      "summary": "      Finally see a new voice conversion model. MeanVC2 supports cross-gender and cross-language voice conversion. 3x realtime on CPU with audio.cpp. Disclaimer: The converted voice quality of MeanVC2 is decent; the nois",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-i-did-it-im-free-its-been-7-hours-since-i-used-claudecode",
-      "source": "localllama",
-      "title": "I did it! I'm free! It's been 7 hours since I used claudecode",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu1e3u/i_did_it_im_free_its_been_7_hours_since_i_used/",
-      "published_at": "2026-08-21T00:44:22Z",
-      "summary": "My Pro subscription expired today, they killed my access at 1pm local time. I&#39;m now using Qwen3.8-27b w/ 5090m 24gb vram and pi to do everything i was doing in claudecode. The only downside is claudecode let me code ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-qwen-38-27b---pi-agent-vs-opencode",
-      "source": "localllama",
-      "title": "Qwen 3.8 27b - PI AGENT vs OPENCODE",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu0u2v/qwen_38_27b_pi_agent_vs_opencode/",
-      "published_at": "2026-08-21T00:19:37Z",
-      "summary": "      https://www.reddit.com/r/LocalLLaMA/comments/1j7r47l/i_just_made_an_animation_of_a_ball_bouncing/ This post inspired me to make that test after a year ;) That is one of my many tests I make comparing output quality",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-08-20-chatgpt-search-now-uses-the-siteoperator-at-scale",
       "source": "simonw",
       "title": "ChatGPT search now uses the site:operator at scale",
@@ -109,39 +142,6 @@
       "summary": "ChatGPT search now uses the site:operator at scale\nPromptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-this-benchmark-is-getting-out-of-hand",
-      "source": "localllama",
-      "title": "This benchmark is getting out of hand",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtzyl9/this_benchmark_is_getting_out_of_hand/",
-      "published_at": "2026-08-20T23:42:34Z",
-      "summary": "      &#32; submitted by &#32;  /u/Nefilim314   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-gonna-be-huge-for-us-open-source",
-      "source": "localllama",
-      "title": "Gonna be huge for US open source",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtz1o1/gonna_be_huge_for_us_open_source/",
-      "published_at": "2026-08-20T23:03:37Z",
-      "summary": "      &#32; submitted by &#32;  /u/pmv143   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-been-tweaking-my-qwen-38-setup-up-to-45-steady-tps-at-8bit-q",
-      "source": "localllama",
-      "title": "Been tweaking my Qwen 3.8 setup, up to 45+ steady T/ps at 8bit quant. Realised I'm now top T/ps for this model+ctx across all benchmarked M-series chips. Full args linked below, happy to discuss as this was a pain of trial and error.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vty1g4/been_tweaking_my_qwen_38_setup_up_to_45_steady/",
-      "published_at": "2026-08-20T22:23:20Z",
-      "summary": "      https://omlx.ai/benchmarks/performance/2pko3m1k - you can expand the raw args, but I have full annotations of what worked and what didn&#39;t. I&#39;m now testing the model on acutal coding and haven&#39;t seen any",
-      "tags": [
-        "localllama"
       ]
     },
     {
