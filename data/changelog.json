@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-08-21T01:38:24Z",
+  "updated_at": "2026-08-21T06:54:28Z",
   "releases": [
+    {
+      "id": "hf-EleutherAI-gpt2-custom",
+      "project": "EleutherAI",
+      "version": "gpt2-custom",
+      "url": "https://huggingface.co/EleutherAI/gpt2-custom",
+      "published_at": "2026-08-21T05:45:47Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b10545",
+      "project": "llama-cpp",
+      "version": "b10545",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10545",
+      "published_at": "2026-08-21T03:49:10Z",
+      "body_excerpt": "metal : clamp K extent in tensor API mat-mat kernel for K not a multiple of 32 (#27450) The Tensor API mat-mat path of kernel_mul_mm (GGML_METAL_HAS_TENSOR) fed a static K=32 tile to the matmul2d op on every iteration. On the last, partial K tile (ne00 % 32 != 0) the src1 slice extends past the K extent of the tensor, and the op reads those out-of-bounds elements (undefined behavior per the MSL sp",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10541",
+      "project": "llama-cpp",
+      "version": "b10541",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10541",
+      "published_at": "2026-08-21T03:26:59Z",
+      "body_excerpt": "mtmd: add --mmproj-device argument (#23255) feat: add --mmproj-device arg & backwards compatible MTMD_BACKEND_DEVICE env var feat: load mmproj device backend immediately, add -mmdev shortflag fix: its a pointer now get the name clean up gen docs nits --------- Co-authored-by: Xuan Son Nguyen Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10539",
+      "project": "llama-cpp",
+      "version": "b10539",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10539",
+      "published_at": "2026-08-21T03:04:13Z",
+      "body_excerpt": "vulkan: FA MMQ should use fp32 for Q quantization calculations (#27413) Codex found that qd could be a denorm and 1/qd would overflow. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10538",
+      "project": "llama-cpp",
+      "version": "b10538",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10538",
+      "published_at": "2026-08-21T02:42:57Z",
+      "body_excerpt": "metal : dequant kv cache only for large batches (#27438) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10537",
+      "project": "llama-cpp",
+      "version": "b10537",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10537",
+      "published_at": "2026-08-21T02:22:19Z",
+      "body_excerpt": "CI: Use LLVM's OpenMP over MSVC_DEBUG_non_redist on Windows (#26678) CI: Use LLVM's OpenMP over MSFT_DEBUG_non_redist on Windows Currently, we ship the non-redist debug version of microsoft's libomp. This PR changes this to official LLVM's release, also packaging the license as needed. Remove LLVM SHA from job name to increase legibility Add temp validations to CI Revert \"Add temp validations to C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10536",
+      "project": "llama-cpp",
+      "version": "b10536",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10536",
+      "published_at": "2026-08-21T02:03:09Z",
+      "body_excerpt": "server: (router) lazy-load startup_models after main setup (#27424) server: (router) lazy-load startup_models after main setup only allow is_first_load to populate it nits nits 2 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10534",
       "project": "llama-cpp",
@@ -9800,24 +9863,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9295",
       "published_at": "2026-05-23T09:55:20Z",
       "body_excerpt": "vulkan: fix windows find_package of SPIRV-Headers (#23215) vulkan: fix windows find_package of SPIRV-Headers not windows-only macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "hf-google-gemma-4-12B",
-      "project": "google",
-      "version": "gemma-4-12B",
-      "url": "https://huggingface.co/google/gemma-4-12B",
-      "published_at": "2026-05-23T02:43:54Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9294",
-      "project": "llama-cpp",
-      "version": "b9294",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9294",
-      "published_at": "2026-05-23T01:49:32Z",
-      "body_excerpt": "opencl: generalize Adreno MoE kernels on M (#23449) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
       "type": "tool"
     }
   ]

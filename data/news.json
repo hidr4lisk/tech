@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-08-21T01:38:19Z",
+  "updated_at": "2026-08-21T06:54:23Z",
   "items": [
+    {
+      "id": "localllama-2026-08-21-qwen38-27b-at-262k-context-on-a-strix-halo-rtx-3090-ti-95",
+      "source": "localllama",
+      "title": "Qwen3.8-27B at 262K context on a Strix Halo + RTX 3090 Ti: 9.5 -> 153 tok/s, and it beats a dual-3090 vLLM box on HumanEval",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu7yce/qwen3827b_at_262k_context_on_a_strix_halo_rtx/",
+      "published_at": "2026-08-21T06:06:07Z",
+      "summary": "Spent a while treating layer placement, KV format and llama.cpp itself as experimental variables. 159 logged experiments. Numbers first, caveats after. Hardware: AMD Ryzen AI MAX+ 395 (Strix Halo, 128 GB unified) + RTX 3",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-fastest-qwen-38-27b-for-amd-gpu",
+      "source": "localllama",
+      "title": "Fastest qwen 3.8 27b for AMD gpu?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu7m53/fastest_qwen_38_27b_for_amd_gpu/",
+      "published_at": "2026-08-21T05:47:36Z",
+      "summary": "Hey, just wondering if there are forks or exact gguf versions that give fastest prompt processing and token gen speeds for AMD gpu? Looking to run q8 or q6 Vram 96gb W7900 + w7800 both 48gb With bandwidth mismatch, tenso",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-ox-alpha-stealth-model-glm5-air-mimo-v3-or",
+      "source": "localllama",
+      "title": "Ox Alpha stealth model: GLM5 Air, Mimo V3 or ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu6lok/ox_alpha_stealth_model_glm5_air_mimo_v3_or/",
+      "published_at": "2026-08-21T04:53:04Z",
+      "summary": "      To anyone who needs AIR…  &#32; submitted by &#32;  /u/Miserable-Dare5090   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-new-stealth-model-ox-alpha-look-like-glm-or-mimo-new-model",
+      "source": "localllama",
+      "title": "New stealth model Ox Alpha look like glm or mimo new model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu620d/new_stealth_model_ox_alpha_look_like_glm_or_mimo/",
+      "published_at": "2026-08-21T04:24:18Z",
+      "summary": "      https://preview.redd.it/stgzmbpgnnkh1.jpg?width=2179&amp;format=pjpg&amp;auto=webp&amp;s=19a4fd0e1786cbcac0967e1bf1ec4898447e989a https://preview.redd.it/paub9gylnnkh1.png?width=680&amp;format=png&amp;auto=webp&amp",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-sensenova-u15-lite-full-release-expert-training-opd-distilla",
+      "source": "localllama",
+      "title": "SenseNova U1.5-Lite full release: expert training, OPD distillation, one model at inference",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu5dzi/sensenova_u15lite_full_release_expert_training/",
+      "published_at": "2026-08-21T03:52:03Z",
+      "summary": "      Benchmarks:   Benchmark U1 Preview Full    Qwen-Image-Bench 47.14 55.20 (PE) 60.18 (PE)   ImgEdit 3.9 4.37 4.59   GEdit-Bench-EN 7.47 8.14 8.26   Instead of just scaling up, they train task-specialized expert model",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-is-there-any-interest-in-a-self-hosted-open-source-version-o",
+      "source": "localllama",
+      "title": "Is there any interest in a self hosted open source version of manus/perplexity?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu3a1u/is_there_any_interest_in_a_self_hosted_open/",
+      "published_at": "2026-08-21T02:10:59Z",
+      "summary": "I have been working on a project for about 3 months because I found Vane to be awful and I wanted something like Manus for myself. I have a pretty solid app that&#39;s probably about ready to release, but I&#39;m not sur",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-make-jensen-huang-sound-like-anyone-new-streaming-voice-conv",
+      "source": "localllama",
+      "title": "Make Jensen Huang Sound Like Anyone. New Streaming Voice Conversion Model MeanVC2 Released!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu34b1/make_jensen_huang_sound_like_anyone_new_streaming/",
+      "published_at": "2026-08-21T02:03:29Z",
+      "summary": "      Finally see a new voice conversion model. MeanVC2 supports cross-gender and cross-language voice conversion. 3x realtime on CPU with audio.cpp. Disclaimer: The converted voice quality of MeanVC2 is decent; the nois",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-21-i-did-it-im-free-its-been-7-hours-since-i-used-claudecode",
       "source": "localllama",
@@ -63,83 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vty1g4/been_tweaking_my_qwen_38_setup_up_to_45_steady/",
       "published_at": "2026-08-20T22:23:20Z",
       "summary": "      https://omlx.ai/benchmarks/performance/2pko3m1k - you can expand the raw args, but I have full annotations of what worked and what didn&#39;t. I&#39;m now testing the model on acutal coding and haven&#39;t seen any",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-fine-tuning-cactus-needle-2-can-match-deepseek-v4-on-the-spe",
-      "source": "localllama",
-      "title": "Fine-tuning Cactus Needle 2 can match DeepSeek v4 on the specific task",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtupep/finetuning_cactus_needle_2_can_match_deepseek_v4/",
-      "published_at": "2026-08-20T20:15:19Z",
-      "summary": "      Hey LocalLlama, Henry from Cactus here! When we trained Needle 2, I had a strict rule to not expose the model to any data sample that remotely felt like these benchmarks. It seemed over-the-top, but benchmarks are ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-i-pushed-qwen38-27b-to-381-tps-for-a-single-request-on-a-rtx",
-      "source": "localllama",
-      "title": "I pushed Qwen3.8-27B to 381 tps for a single request on a RTX 3090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtup5s/i_pushed_qwen3827b_to_381_tps_for_a_single/",
-      "published_at": "2026-08-20T20:15:04Z",
-      "summary": "Four days ago I released a hyper-optimized Qwen3.8-27B inference engine for an RTX 3090 (82 tps single request, 672 peak). Since then it went to ~114, then ~138 tps single-user with DFlash2 drafting and lookup-augmented ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-if-you-are-wondering-why-ornith-15-35b-a3b-with-mtp-is-so-sl",
-      "source": "localllama",
-      "title": "If you are wondering why Ornith 1.5 35B A3B with MTP is so slow, this is why",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtu555/if_you_are_wondering_why_ornith_15_35b_a3b_with/",
-      "published_at": "2026-08-20T19:55:16Z",
-      "summary": "      The author of the HuggingFace post discovered that Ornith-1.5-35B-A3B is currently being shipped with a MTP head that was never actually trained — it&#39;s just random initialization.  &#32; submitted by &#32;  /u/",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-nvidia-dropped-an-nvidia-hosted-cuda-mcp-for-ai-assisted-cud",
-      "source": "localllama",
-      "title": "NVIDIA dropped an NVIDIA-hosted CUDA MCP for AI-assisted CUDA operations, such as searching official, up-to-date documentation, writing optimized GPU code, and analyzing performance data",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vttie3/nvidia_dropped_an_nvidiahosted_cuda_mcp_for/",
-      "published_at": "2026-08-20T19:31:44Z",
-      "summary": "      &#32; submitted by &#32;  /u/swagonflyyyy   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-any-speculation-on-whether-or-not-google-will-announce-a-new",
-      "source": "localllama",
-      "title": "Any speculation on whether or not Google will announce a new Gemma model at the Gemma SF Celebration tonight?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vttdss/any_speculation_on_whether_or_not_google_will/",
-      "published_at": "2026-08-20T19:27:12Z",
-      "summary": "      From the Digg article (https://digg.com/tech/3pf3046j) “Google Gemma posted that the family of open models has achieved 1 billion downloads. The account is hosting an exclusive evening in San Francisco on August 20",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-qwen38-27b-scored-2930-on-aime-2026-with-fp8-xhigh-reasoning",
-      "source": "localllama",
-      "title": "Qwen3.8-27B scored 29/30 on AIME 2026 with FP8 + xhigh reasoning — BF16 vs FP8 results",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtsjsr/qwen3827b_scored_2930_on_aime_2026_with_fp8_xhigh/",
-      "published_at": "2026-08-20T18:59:31Z",
-      "summary": "I benchmarked Qwen3.8-27B on MathArena/aime_2026 dataset, comparing BF16 and FP8 weights at medium and xhigh reasoning effort. Interesting findings are:  quantized FP8 xhigh is better than BF 16 medium equally good as 16",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-aquas-self-improvement-updates-research-state-not-the-agent",
-      "source": "localllama",
-      "title": "AQuA's \"self-improvement\" updates research state, not the agent LM. What should a local port freeze?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtrxxb/aquas_selfimprovement_updates_research_state_not/",
-      "published_at": "2026-08-20T18:38:35Z",
-      "summary": "      AQuA&#39;s preprint uses &quot;recursive self-improvement&quot; for a bounded research loop. It does not say the research-agent LM rewrites its own weights. The paper separates three objects:  The language model dr",
       "tags": [
         "localllama"
       ]
