@@ -1,6 +1,138 @@
 {
-  "updated_at": "2026-08-20T18:46:04Z",
+  "updated_at": "2026-08-21T01:38:19Z",
   "items": [
+    {
+      "id": "localllama-2026-08-21-i-did-it-im-free-its-been-7-hours-since-i-used-claudecode",
+      "source": "localllama",
+      "title": "I did it! I'm free! It's been 7 hours since I used claudecode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu1e3u/i_did_it_im_free_its_been_7_hours_since_i_used/",
+      "published_at": "2026-08-21T00:44:22Z",
+      "summary": "My Pro subscription expired today, they killed my access at 1pm local time. I&#39;m now using Qwen3.8-27b w/ 5090m 24gb vram and pi to do everything i was doing in claudecode. The only downside is claudecode let me code ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-21-qwen-38-27b---pi-agent-vs-opencode",
+      "source": "localllama",
+      "title": "Qwen 3.8 27b - PI AGENT vs OPENCODE",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu0u2v/qwen_38_27b_pi_agent_vs_opencode/",
+      "published_at": "2026-08-21T00:19:37Z",
+      "summary": "      https://www.reddit.com/r/LocalLLaMA/comments/1j7r47l/i_just_made_an_animation_of_a_ball_bouncing/ This post inspired me to make that test after a year ;) That is one of my many tests I make comparing output quality",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-20-chatgpt-search-now-uses-the-siteoperator-at-scale",
+      "source": "simonw",
+      "title": "ChatGPT search now uses the site:operator at scale",
+      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "published_at": "2026-08-20T23:57:32Z",
+      "summary": "ChatGPT search now uses the site:operator at scale\nPromptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-this-benchmark-is-getting-out-of-hand",
+      "source": "localllama",
+      "title": "This benchmark is getting out of hand",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtzyl9/this_benchmark_is_getting_out_of_hand/",
+      "published_at": "2026-08-20T23:42:34Z",
+      "summary": "      &#32; submitted by &#32;  /u/Nefilim314   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-gonna-be-huge-for-us-open-source",
+      "source": "localllama",
+      "title": "Gonna be huge for US open source",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtz1o1/gonna_be_huge_for_us_open_source/",
+      "published_at": "2026-08-20T23:03:37Z",
+      "summary": "      &#32; submitted by &#32;  /u/pmv143   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-been-tweaking-my-qwen-38-setup-up-to-45-steady-tps-at-8bit-q",
+      "source": "localllama",
+      "title": "Been tweaking my Qwen 3.8 setup, up to 45+ steady T/ps at 8bit quant. Realised I'm now top T/ps for this model+ctx across all benchmarked M-series chips. Full args linked below, happy to discuss as this was a pain of trial and error.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vty1g4/been_tweaking_my_qwen_38_setup_up_to_45_steady/",
+      "published_at": "2026-08-20T22:23:20Z",
+      "summary": "      https://omlx.ai/benchmarks/performance/2pko3m1k - you can expand the raw args, but I have full annotations of what worked and what didn&#39;t. I&#39;m now testing the model on acutal coding and haven&#39;t seen any",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-fine-tuning-cactus-needle-2-can-match-deepseek-v4-on-the-spe",
+      "source": "localllama",
+      "title": "Fine-tuning Cactus Needle 2 can match DeepSeek v4 on the specific task",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtupep/finetuning_cactus_needle_2_can_match_deepseek_v4/",
+      "published_at": "2026-08-20T20:15:19Z",
+      "summary": "      Hey LocalLlama, Henry from Cactus here! When we trained Needle 2, I had a strict rule to not expose the model to any data sample that remotely felt like these benchmarks. It seemed over-the-top, but benchmarks are ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-i-pushed-qwen38-27b-to-381-tps-for-a-single-request-on-a-rtx",
+      "source": "localllama",
+      "title": "I pushed Qwen3.8-27B to 381 tps for a single request on a RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtup5s/i_pushed_qwen3827b_to_381_tps_for_a_single/",
+      "published_at": "2026-08-20T20:15:04Z",
+      "summary": "Four days ago I released a hyper-optimized Qwen3.8-27B inference engine for an RTX 3090 (82 tps single request, 672 peak). Since then it went to ~114, then ~138 tps single-user with DFlash2 drafting and lookup-augmented ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-if-you-are-wondering-why-ornith-15-35b-a3b-with-mtp-is-so-sl",
+      "source": "localllama",
+      "title": "If you are wondering why Ornith 1.5 35B A3B with MTP is so slow, this is why",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtu555/if_you_are_wondering_why_ornith_15_35b_a3b_with/",
+      "published_at": "2026-08-20T19:55:16Z",
+      "summary": "      The author of the HuggingFace post discovered that Ornith-1.5-35B-A3B is currently being shipped with a MTP head that was never actually trained — it&#39;s just random initialization.  &#32; submitted by &#32;  /u/",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-nvidia-dropped-an-nvidia-hosted-cuda-mcp-for-ai-assisted-cud",
+      "source": "localllama",
+      "title": "NVIDIA dropped an NVIDIA-hosted CUDA MCP for AI-assisted CUDA operations, such as searching official, up-to-date documentation, writing optimized GPU code, and analyzing performance data",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vttie3/nvidia_dropped_an_nvidiahosted_cuda_mcp_for/",
+      "published_at": "2026-08-20T19:31:44Z",
+      "summary": "      &#32; submitted by &#32;  /u/swagonflyyyy   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-any-speculation-on-whether-or-not-google-will-announce-a-new",
+      "source": "localllama",
+      "title": "Any speculation on whether or not Google will announce a new Gemma model at the Gemma SF Celebration tonight?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vttdss/any_speculation_on_whether_or_not_google_will/",
+      "published_at": "2026-08-20T19:27:12Z",
+      "summary": "      From the Digg article (https://digg.com/tech/3pf3046j) “Google Gemma posted that the family of open models has achieved 1 billion downloads. The account is hosting an exclusive evening in San Francisco on August 20",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-20-qwen38-27b-scored-2930-on-aime-2026-with-fp8-xhigh-reasoning",
+      "source": "localllama",
+      "title": "Qwen3.8-27B scored 29/30 on AIME 2026 with FP8 + xhigh reasoning — BF16 vs FP8 results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtsjsr/qwen3827b_scored_2930_on_aime_2026_with_fp8_xhigh/",
+      "published_at": "2026-08-20T18:59:31Z",
+      "summary": "I benchmarked Qwen3.8-27B on MathArena/aime_2026 dataset, comparing BF16 and FP8 weights at medium and xhigh reasoning effort. Interesting findings are:  quantized FP8 xhigh is better than BF 16 medium equally good as 16",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-20-aquas-self-improvement-updates-research-state-not-the-agent",
       "source": "localllama",
@@ -8,50 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtrxxb/aquas_selfimprovement_updates_research_state_not/",
       "published_at": "2026-08-20T18:38:35Z",
       "summary": "      AQuA&#39;s preprint uses &quot;recursive self-improvement&quot; for a bounded research loop. It does not say the research-agent LM rewrites its own weights. The paper separates three objects:  The language model dr",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-ladies-and-gentlemen-i-present-to-you-qwen38-27b-1bit-brain",
-      "source": "localllama",
-      "title": "Ladies and gentlemen I present to you Qwen3.8 27b 1bit brain damage quant",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtr3h0/ladies_and_gentlemen_i_present_to_you_qwen38_27b/",
-      "published_at": "2026-08-20T18:08:26Z",
-      "summary": "      I wanted to just test the unsloth 1bit quant of qwen 3.8 27b as I have just 8gb vram and ngl it gave me a good laugh  &#32; submitted by &#32;  /u/Ok-Health-7096   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-theres-surely-someone-out-there-whose-job-is-just-pumping-ou",
-      "source": "localllama",
-      "title": "Theres surely SOMEONE out there whose job is just pumping out low-poly oneshot ThreeJS assets..",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtqd5d/theres_surely_someone_out_there_whose_job_is_just/",
-      "published_at": "2026-08-20T17:42:17Z",
-      "summary": "..for that person AGI has effectively been achieved and is fully local. For everyone else - come up with new tests please!! I&#39;m going to lose my mind if I see another tech influencer post that damn pagoda  &#32; subm",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-ling-30-released-all-6-base-checkpoints-2-sizes-3-stages",
-      "source": "localllama",
-      "title": "Ling-3.0 released all 6 base checkpoints: 2 sizes × 3 stages",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtpsqf/ling30_released_all_6_base_checkpoints_2_sizes_3/",
-      "published_at": "2026-08-20T17:22:09Z",
-      "summary": "      AntLing has released the full six-checkpoint matrix for the Ling-3.0 base model.  tiny: pretrained, mid-trained, WSM-merged flash: pretrained, mid-trained, WSM-merged  The concrete artifact is six separate official",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-another-qwen-38-27b-showcase---gta-style-prompt---also-a-rem",
-      "source": "localllama",
-      "title": "Another qwen 3.8 27b showcase - gta style prompt - also a remainder to use ngram in your configs.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtpo6w/another_qwen_38_27b_showcase_gta_style_prompt/",
-      "published_at": "2026-08-20T17:17:23Z",
-      "summary": "      https://preview.redd.it/ewxbqcpuakkh1.png?width=2559&amp;format=png&amp;auto=webp&amp;s=e20b67d1c1444f5ba19cc0d6ccd10db84dc544bf Here is the link : https://cobalt-scheduler-2hj0.pagedrop.io/ fully playable small gt",
       "tags": [
         "localllama"
       ]
@@ -68,80 +156,14 @@
       ]
     },
     {
-      "id": "localllama-2026-08-20-qwenmix-37-kept-seeing-posts-about-qwen38-and-36-sharing-the",
-      "source": "localllama",
-      "title": "QwenMix-3.7: Kept seeing posts about Qwen3.8 and 3.6 sharing the same structure.. so I had Qwen3.8 combine them.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtozjq/qwenmix37_kept_seeing_posts_about_qwen38_and_36/",
-      "published_at": "2026-08-20T16:52:33Z",
-      "summary": "      I chose to do this thing, not because it was hard, but because it was silly. Posts kept discussing how 3.8 and 3.6 were functionally the same, but based on training (3.8 does have seven new tokens!).. so I figured ",
+      "id": "simonw-2026-08-20-a-shot-scraper-style-json-api-on-bun-14s-new-bunwebview",
+      "source": "simonw",
+      "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+      "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+      "published_at": "2026-08-20T15:37:00Z",
+      "summary": "Research: A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView\n        Today saw the long awaited release of Bun 1.4, the first stable version since the infamous Rust rewrite a few months ago.\nInterestingly, t",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-getting-better-at-coding-doesnt-make-a-model-better-at-every",
-      "source": "localllama",
-      "title": "Getting better at coding doesn't make a model better at everything else",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtoqr9/getting_better_at_coding_doesnt_make_a_model/",
-      "published_at": "2026-08-20T16:43:50Z",
-      "summary": "A majority of users in this sub use LLMs for coding/agentic tasks and I see why a lot of value is put into them but many try to say &quot;Well coding has improved therefore it can just use tool calling and/or just look u",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-claude-sonnet-46-was-really-good-at-estimating-the-future-qw",
-      "source": "localllama",
-      "title": "Claude sonnet 4.6 was really good at estimating the future qwen 3.8 27b performance",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtnuuk/claude_sonnet_46_was_really_good_at_estimating/",
-      "published_at": "2026-08-20T16:11:44Z",
-      "summary": "      On August 8th, I asked Claude to estimate what performance might I expect out of the soon coming qwen 3.8 27b release by telling it to extrapolate from the qwen 3.6 max to qwen 3.6 27b difference, and apply it to t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-glm-53-slopcodebench-results",
-      "source": "localllama",
-      "title": "GLM 5.3 SlopCodeBench Results",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtnnf0/glm_53_slopcodebench_results/",
-      "published_at": "2026-08-20T16:04:11Z",
-      "summary": "Howdy once again, I had a request to try out 5.3 on the benchmarks - they&#39;re unsaturated so it&#39;s a fun test right now! This one was interesting because I accidentally ran it on all 36 problems (rip $200) instead ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-massive-tiny-release---supra2-medium-base---a-tiny-25m-param",
-      "source": "localllama",
-      "title": "[MASSIVE TINY RELEASE] - Supra2-Medium-Base - a tiny 25M parameters model competing heavily with our previous 50M model!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtlmtx/massive_tiny_release_supra2mediumbase_a_tiny_25m/",
-      "published_at": "2026-08-20T14:50:15Z",
-      "summary": "      Hey guys! Supra2-Medium is finally out! It&#39;s a 25M parameters qwen3 architecture model trained entirely from scratch (on our new rig: RTX 5060 Ti 16GB + the new RTX 5060 8GB!). Here&#39;s how it competes in ben",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-qwen38-27b-just-exceeded-my-expectations-on-svg-generation-d",
-      "source": "localllama",
-      "title": "Qwen3.8 27b just exceeded my expectations on svg generation :D",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtkgdj/qwen38_27b_just_exceeded_my_expectations_on_svg/",
-      "published_at": "2026-08-20T14:04:51Z",
-      "summary": "      https://reddit.com/link/1vtkgdj/video/595yn0ckdjkh1/player I wanted to try out Qwen3.8 27B &#39;s SVG capabilities but with something different than the pelican on a bicycle. Promt was literally just : create a sin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-20-the-boring-way-to-run-deepseek-v4-flash-0731-130-150-tks---1",
-      "source": "localllama",
-      "title": "The boring way to run Deepseek V4 Flash-0731 130-150 tks - 16x5060ti 16GB over 2 PLX88096 switches",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vthcwk/the_boring_way_to_run_deepseek_v4_flash0731/",
-      "published_at": "2026-08-20T11:53:54Z",
-      "summary": "        Component Validated configuration    Motherboard ASRock Rack SPC621D8U-2T/OVH   CPU Xeon Gold 6330 (Get gold/platinum if interested in Optane Pmem gimmicks)   GPU fabric Two Broadcom/PLX PEX88096 islands, eight G",
-      "tags": [
-        "localllama"
+        "simonw"
       ]
     },
     {
@@ -332,17 +354,6 @@
       ]
     },
     {
-      "id": "simonw-2026-08-12-alchemy-utils-01a0",
-      "source": "simonw",
-      "title": "alchemy-utils 0.1a0",
-      "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
-      "published_at": "2026-08-12T19:51:30Z",
-      "summary": "Release: alchemy-utils 0.1a0\n        I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-08-12-introducing-olmoearth-embeddings-custom-embedding-exports-fr",
       "source": "huggingface",
       "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
@@ -351,17 +362,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-12-quoting-florian-herrengt",
-      "source": "simonw",
-      "title": "Quoting Florian Herrengt",
-      "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything",
-      "published_at": "2026-08-12T15:08:47Z",
-      "summary": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.\nYou go talk to the person w",
-      "tags": [
-        "simonw"
       ]
     },
     {
