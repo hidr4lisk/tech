@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-21T12:56:05Z",
+  "updated_at": "2026-08-21T18:42:05Z",
   "releases": [
+    {
+      "id": "llama-cpp-v0.2.0",
+      "project": "llama-cpp",
+      "version": "v0.2.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.2.0",
+      "published_at": "2026-08-21T18:32:48Z",
+      "body_excerpt": "Overview New version has been released. Nightly build: b10566 Web UI: the asset contains the tag of the corresponding nightly release More info: dist : releases and versioning of ggml-org projects Changelog since v0.1.2 bb4caa754 llama.cpp : bump version to 0.2.0 (#27498) c4b0225d8 scripts : add release.sh for release preparation (#27497) 5de25a748 sync : ggml 01ff204fb ggml : bump version to 0.21",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10566",
+      "project": "llama-cpp",
+      "version": "b10566",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10566",
+      "published_at": "2026-08-21T18:25:36Z",
+      "body_excerpt": "llama.cpp : bump version to 0.2.0 (#27498) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) And",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10549",
       "project": "llama-cpp",
@@ -9845,24 +9863,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9305",
       "published_at": "2026-05-24T11:31:20Z",
       "body_excerpt": "cmake : fix ui build (#23592) cmake/ui : add -fPIC to llama-ui static lib cmake : rename host compiled embed helper macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9297",
-      "project": "llama-cpp",
-      "version": "b9297",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9297",
-      "published_at": "2026-05-23T17:15:27Z",
-      "body_excerpt": "model : add NVFP4 MTP scale tensors (#23563) Add NVFP4 MTP scale tensors Link Qwen3.5 MTP tensors Aligned nullptr macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9296",
-      "project": "llama-cpp",
-      "version": "b9296",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9296",
-      "published_at": "2026-05-23T12:59:51Z",
-      "body_excerpt": "ggml : Check the right iface method before using the fallback 2d get (#23514) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
       "type": "tool"
     }
   ]
