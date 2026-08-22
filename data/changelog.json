@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-08-22T06:47:25Z",
+  "updated_at": "2026-08-22T12:48:03Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10581",
+      "project": "llama-cpp",
+      "version": "b10581",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10581",
+      "published_at": "2026-08-22T10:13:08Z",
+      "body_excerpt": "model : support DSpark for bailingmoe3 (#27508) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10580",
+      "project": "llama-cpp",
+      "version": "b10580",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10580",
+      "published_at": "2026-08-22T09:33:51Z",
+      "body_excerpt": "mtmd: support dots3-note vision+audio (#27524) text: conversion init impl mtmd: conversion impl mtmd cpp Update gguf-py/gguf/tensor_mapping.py Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10578",
+      "project": "llama-cpp",
+      "version": "b10578",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10578",
+      "published_at": "2026-08-22T09:10:17Z",
+      "body_excerpt": "ggml: optimize concat op by replacing per-element memcpy with row-level memcpy (#24575) ggml: optimize concat op by replacing per-element memcpy with row-level memcpy ggml: fix concat offsets for row-level copies ggml: add concat row contiguity asserts ggml: move concat block size asserts ggml: remove redundant concat asserts Update ggml/src/ggml-cpu/ops.cpp Co-authored-by: Sigbjørn Skjæret ------",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10577",
+      "project": "llama-cpp",
+      "version": "b10577",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10577",
+      "published_at": "2026-08-22T08:13:36Z",
+      "body_excerpt": "common : fix draft-mtp with embeddings (#26352, #27299) (#27400) common: fix draft-mtp with embeddings (#26352) --whitespace --------- Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10576",
+      "project": "llama-cpp",
+      "version": "b10576",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10576",
+      "published_at": "2026-08-22T07:49:02Z",
+      "body_excerpt": "sycl : add Q2_K reordered MMVQ and ESIMD kernels (again) (#27490) Revert \"Revert \"sycl : add Q2_K reordered MMVQ and ESIMD kernels (#26336)\" (#…\" This reverts commit 7a0e42fd01fb0acda644e4f04b1f1acbbb9e23ba. add gate params Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) U",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10573",
       "project": "llama-cpp",
@@ -70,7 +115,7 @@
       "version": "v0.2.0",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.2.0",
       "published_at": "2026-08-21T18:32:48Z",
-      "body_excerpt": "Overview This version marks the beginning of consistent semantic versioning for . The main goal is to make the job of downstream projects and users simpler when deciding which version of / to distribute and use. The new version tags of the format will mark \"stable\" versions of llama.cpp. The usual tags remain as before - created on almost every commit to the branch. The tags can be considered as \"",
+      "body_excerpt": "Overview This version marks the beginning of consistent semantic versioning for . The main goal is to make the job of downstream projects and users simpler when deciding which version of / to distribute and use. The new version tags of the format will mark \"stable\" versions of . The usual tags remain as before - created on almost every commit to the branch. The tags can be considered as \"nightly\" ",
       "type": "tool"
     },
     {
@@ -9917,15 +9962,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.0",
       "published_at": "2026-05-24T20:25:26Z",
       "body_excerpt": "🎉 LocalAI 4.3.0 Release! 🚀 LocalAI 4.3.0 is out! This release hardens the trust boundary and improves defaults for speed. Backend OCI images now ship with keyless cosign signatures and a per-gallery policy, with an opt-in strict mode that fails closed. The server-side prompt cache works by default: repeated system prompts (agents, OpenAI/Anthropic-compatible CLIs, coding assistants) collapse from ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9305",
-      "project": "llama-cpp",
-      "version": "b9305",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9305",
-      "published_at": "2026-05-24T11:31:20Z",
-      "body_excerpt": "cmake : fix ui build (#23592) cmake/ui : add -fPIC to llama-ui static lib cmake : rename host compiled embed helper macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL ",
       "type": "tool"
     }
   ]
