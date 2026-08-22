@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-08-21T18:42:05Z",
+  "updated_at": "2026-08-22T01:27:23Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10569",
+      "project": "llama-cpp",
+      "version": "b10569",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10569",
+      "published_at": "2026-08-22T01:17:52Z",
+      "body_excerpt": "model: add dots3-note (#27060) text: conversion init impl address review comments fix rope move to a new llama_kv_cache_dsa_iswa Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
+      "type": "tool"
+    },
+    {
+      "id": "sglang-v0.5.18",
+      "project": "sglang",
+      "version": "v0.5.18",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.18",
+      "published_at": "2026-08-22T00:09:15Z",
+      "body_excerpt": "Highlights 710 PRs from 212 contributors. New models in this release (see the cookbook for all supported models): | Model | Type | PRs | Cookbook | |---|---|---|---| | Muse Glimmer | Autoregressive (Multimodal) | #34262 | link | | Intern-S2-Mobius | Autoregressive | #33691 | link | | SANA-Video | Diffusion | #32921 | link | | LingBot-Video-MoE | Diffusion | #32341 | link | | LTX-2.5 | Diffusion | ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10568",
+      "project": "llama-cpp",
+      "version": "b10568",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10568",
+      "published_at": "2026-08-21T22:56:01Z",
+      "body_excerpt": "model: use ggml_rope_set_offset() (#27382) model: use ggml_rope_set_offset() partially apply to deepseek2 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.33.0-rc1",
+      "project": "ollama",
+      "version": "v0.33.0-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc1",
+      "published_at": "2026-08-21T22:52:46Z",
+      "body_excerpt": "What's Changed mlx: fix mac assumptions on linux/windows by @dhiltgen in mlx update by @dhiltgen in lint fixes by @dhiltgen in app: add claude desktop app by @ParthSareen in app: polish onboarding layout and disable zoom by @hoyyeva in launch: fall back to npx for DeepSeek Harness by @ParthSareen in mlxrunner: make prefix cache restore points survive cancelled and resumed prefills by @jessegross i",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10567",
+      "project": "llama-cpp",
+      "version": "b10567",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10567",
+      "published_at": "2026-08-21T18:59:08Z",
+      "body_excerpt": "ci : run ccache-clear as the last step of release jobs (#27503) ci : run ccache-clear as the last step of release jobs Assisted-by: pi:llama.cpp/Qwen3.8-27B update disabled job too to force rebase --------- Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ub",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-v0.2.0",
       "project": "llama-cpp",
