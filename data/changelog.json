@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-22T01:27:23Z",
+  "updated_at": "2026-08-22T06:47:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10573",
+      "project": "llama-cpp",
+      "version": "b10573",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10573",
+      "published_at": "2026-08-22T05:39:21Z",
+      "body_excerpt": "mtmd: support webp via ffmpeg (#27520) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10569",
       "project": "llama-cpp",
@@ -38,6 +47,15 @@
       "type": "tool"
     },
     {
+      "id": "ollama-v0.33.0-rc2",
+      "project": "ollama",
+      "version": "v0.33.0-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
+      "published_at": "2026-08-21T22:52:46Z",
+      "body_excerpt": "What's Changed mlx: fix mac assumptions on linux/windows by @dhiltgen in mlx update by @dhiltgen in lint fixes by @dhiltgen in app: add claude desktop app by @ParthSareen in app: polish onboarding layout and disable zoom by @hoyyeva in launch: fall back to npx for DeepSeek Harness by @ParthSareen in mlxrunner: make prefix cache restore points survive cancelled and resumed prefills by @jessegross i",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b10567",
       "project": "llama-cpp",
       "version": "b10567",
@@ -52,7 +70,7 @@
       "version": "v0.2.0",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.2.0",
       "published_at": "2026-08-21T18:32:48Z",
-      "body_excerpt": "Overview New version has been released. Nightly build: b10566 Web UI: the asset contains the tag of the corresponding nightly release More info: dist : releases and versioning of ggml-org projects Changelog since v0.1.2 bb4caa754 llama.cpp : bump version to 0.2.0 (#27498) c4b0225d8 scripts : add release.sh for release preparation (#27497) 5de25a748 sync : ggml 01ff204fb ggml : bump version to 0.21",
+      "body_excerpt": "Overview This version marks the beginning of consistent semantic versioning for . The main goal is to make the job of downstream projects and users simpler when deciding which version of / to distribute and use. The new version tags of the format will mark \"stable\" versions of llama.cpp. The usual tags remain as before - created on almost every commit to the branch. The tags can be considered as \"",
       "type": "tool"
     },
     {

@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-08-22T01:27:12Z",
+  "updated_at": "2026-08-22T06:47:20Z",
   "items": [
+    {
+      "id": "localllama-2026-08-22-llamacpp-version-020-is-out",
+      "source": "localllama",
+      "title": "Llama.cpp version 0.2.0 is out!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv4mei/llamacpp_version_020_is_out/",
+      "published_at": "2026-08-22T06:23:58Z",
+      "summary": "You can find the changelog and source code here: https://github.com/ggml-org/llama.cpp/releases/tag/v0.2.0 Associated pre-build is here: https://github.com/ggml-org/llama.cpp/releases/tag/b10566  &#32; submitted by &#32;",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-bro-wtf-qwen-lab-cooked-with-qwen-38-27b-its-so-fucking-good",
+      "source": "localllama",
+      "title": "Bro wtf, Qwen Lab cooked with Qwen 3.8 27B, it's so fucking good",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv47sr/bro_wtf_qwen_lab_cooked_with_qwen_38_27b_its_so/",
+      "published_at": "2026-08-22T06:01:31Z",
+      "summary": "      Context: Earlier, open-source large models like Mimo V2.5 Pro, DeepSeek V4 Pro (first version), and Kimi K2.5 used to struggle with this prompt, and Qwen 3.6 27B couldn&#39;t even render the globe properly. But now",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-sharp-template-to-ninfer--42-output-tokens-same-speed",
+      "source": "localllama",
+      "title": "Sharp template to NInfer: -42% output tokens, same speed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv3b6o/sharp_template_to_ninfer_42_output_tokens_same/",
+      "published_at": "2026-08-22T05:12:58Z",
+      "summary": "Sharp v22.1 is u/peculiar-ragdoll&#39;s system prompt that makes Qwen answer way more tersely without losing correctness. NInfer is a hyper-tailored inference engine that only runs certain Qwen models on 5090. NInfer doe",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-this-is-why-i-run-locally",
+      "source": "localllama",
+      "title": "This is why I run locally.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv1qfs/this_is_why_i_run_locally/",
+      "published_at": "2026-08-22T03:52:00Z",
+      "summary": "      It was only a matter of time...  &#32; submitted by &#32;  /u/Retumbo77   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-16-gb-vram-purgatory-discussion-thread",
+      "source": "localllama",
+      "title": "16 GB VRAM purgatory discussion thread",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuzz3j/16_gb_vram_purgatory_discussion_thread/",
+      "published_at": "2026-08-22T02:24:22Z",
+      "summary": "What models and configs are we using? Please share here On windows, I am using this copium pared down model https://huggingface.co/Bucoid/Qwen3.8-27B-Uncensored-IQ4-XS-MTP-16GB-VRAM-GGUF with MTP disabled, q4 k/q4 v mmpr",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-how-to-give-a-local-llmagent-access-to-a-real-web-browser",
+      "source": "localllama",
+      "title": "How to give a local LLM/agent access to a \"real\" web browser",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuykgj/how_to_give_a_local_llmagent_access_to_a_real_web/",
+      "published_at": "2026-08-22T01:17:29Z",
+      "summary": "I can&#39;t seem to find a good answer to this, my Hermes agent has access to Firecrawl and some other web scrapers for content extraction, but anyone know of a way to let a local LLM drive a &quot;real&quot; web browser",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-22-qwen-38-27b---pi-agent-vs-opencode---another-smaple",
       "source": "localllama",
@@ -68,50 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-21-strix-halo-8060s-gfx1151-qwen-38-27b-q8-and-q6-ud-v3-up-to-2",
-      "source": "localllama",
-      "title": "Strix Halo (8060S / gfx1151), Qwen-3.8-27B @ Q8 and Q6 UD v3, up to 256K ctx, llama.cpp, DFlash2, vision, real workloads quality and steady performances, optimized recipes, ...",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuqwd8/strix_halo_8060s_gfx1151_qwen3827b_q8_and_q6_ud/",
-      "published_at": "2026-08-21T19:58:02Z",
-      "summary": "Hi fellows fully-local halos, after manually following existing guides, I decided to build an LLM API endpoint installation and optimization guide that works even when autonomously followed by my pi agent, so I can insta",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-qwen38-27b-q6-is-a-beast-at-agentic-coding",
-      "source": "localllama",
-      "title": "Qwen3.8-27B Q6 is a beast at agentic coding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuotqr/qwen3827b_q6_is_a_beast_at_agentic_coding/",
-      "published_at": "2026-08-21T18:41:24Z",
-      "summary": "      A quick feedback after a really major test: nearly 20 hours of non-stop goal-oriented work with Qwen3.8-27B Q6, running across an RTX 3090 and an RTX 3060.  It maintained a speed of around 60–63 tokens/s throughout",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-model-add-dots3-note-by-ngxson-pull-request-27060-ggml-orgll",
-      "source": "localllama",
-      "title": "model: add dots3-note by ngxson · Pull Request #27060 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vunrrp/model_add_dots3note_by_ngxson_pull_request_27060/",
-      "published_at": "2026-08-21T18:03:27Z",
-      "summary": "      dots3-note preview is the first open-weight model in the dots3 family. It is a Mixture-of-Experts model with 280B total parameters, 16B activated parameters, and support for a context length of up to 512K tokens. T",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-llamacpp-dspark-pc-tree-fork-up-to-3-295-faster",
-      "source": "localllama",
-      "title": "Llama.cpp DSpark PC Tree Fork (up to 3%-29.5% faster!)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vunqoz/llamacpp_dspark_pc_tree_fork_up_to_3295_faster/",
-      "published_at": "2026-08-21T18:02:21Z",
-      "summary": "Hello gang, I made an implementation of DSpark PC Tree (Parent conditioned drafting tree). This is an implementation of this research paper: https://arxiv.org/abs/2608.02123 Unaffiliated, just found it and implemented it",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-08-21-llm-0321",
       "source": "simonw",
       "title": "llm 0.32.1",
@@ -131,28 +153,6 @@
       "summary": "Release: llm-openrouter 0.7\n        Now that this plugin is compatible with LLM 0.32 it works much better with reasoning LLMs available through OpenRouter.\n\n\nUpdated for compatibility with LLM 0.32.\nModels now use OpenRo",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-qwen-38-vs-36-27b-low-reasoning-loops-way-less-now",
-      "source": "localllama",
-      "title": "Qwen 3.8 vs 3.6 27b low reasoning loops way less now",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vulsom/qwen_38_vs_36_27b_low_reasoning_loops_way_less_now/",
-      "published_at": "2026-08-21T16:51:43Z",
-      "summary": "Have seen some people say Qwen 3.8 still overthinks even when reasoning is set to low. Which on my case has been way better compared to 3.6, eveb on a 3 bit quant. I think it&#39;s worth mentioning that the default is ac",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-whats-the-best-local-ai-harness-for-coding-general-use",
-      "source": "localllama",
-      "title": "What’s the best local AI harness for coding + general use?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vukppf/whats_the_best_local_ai_harness_for_coding/",
-      "published_at": "2026-08-21T16:11:56Z",
-      "summary": "So what’s actually the best local AI harness rn? I’ve read a TON about this already and somehow ended up more confused than when I started so I figured screw it, let the community decide. Right now I mainly run Qwen 3.6 ",
-      "tags": [
-        "localllama"
       ]
     },
     {
