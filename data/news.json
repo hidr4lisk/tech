@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-08-22T06:47:20Z",
+  "updated_at": "2026-08-22T12:47:57Z",
   "items": [
+    {
+      "id": "localllama-2026-08-22-web-search-tool-in-deepseek-harness-needs-api-key-from-deeps",
+      "source": "localllama",
+      "title": "web_search tool in deepseek harness needs api key from deepseek and deepseek charges you as deepseek-v4-flash usage.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vva30g/web_search_tool_in_deepseek_harness_needs_api_key/",
+      "published_at": "2026-08-22T11:35:34Z",
+      "summary": "I was experimenting with deepseek harness when found that even if you don&#39;t use deepseek models, you can configure the web_search tool with their api key and every hit will cost you as if you called deepseek-v4-flash",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-anyone-else-tried-out-kv-cache-blending",
+      "source": "localllama",
+      "title": "Anyone else tried out KV cache blending?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv9oe2/anyone_else_tried_out_kv_cache_blending/",
+      "published_at": "2026-08-22T11:14:40Z",
+      "summary": "Idea is simple-ish in abstract: instead of running normal prefill over all of a given prompt, split it into parts - generates caches for part A and part B in isolation, concatenate the result, feed it into decode like no",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-think-youre-going-to-get-cheap-ddr5-ram-think-again-even-if",
+      "source": "localllama",
+      "title": "Think you're going to get cheap DDR5 RAM? Think again, even if prices fall, scalper bots now outnumber shoppers 10 to 1 and will keep prices high",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv86lm/think_youre_going_to_get_cheap_ddr5_ram_think/",
+      "published_at": "2026-08-22T09:52:52Z",
+      "summary": "      &#32; submitted by &#32;  /u/DeltaSqueezer   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-artificial-analysis-intelligence-a-meaningless-benchmark",
+      "source": "localllama",
+      "title": "Artificial Analysis \"Intelligence\": A meaningless benchmark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv80xa/artificial_analysis_intelligence_a_meaningless/",
+      "published_at": "2026-08-22T09:43:38Z",
+      "summary": "      https://preview.redd.it/84zi5nsdawkh1.png?width=2368&amp;format=png&amp;auto=webp&amp;s=1109e69db807b153064b1f5b61d22cf1e9fbca05 Another user posted the benchmarks for Qwen 3.8 27B today, and while I think Qwen 27B",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-need-support-for-llamacpp-with-multi-gpu",
+      "source": "localllama",
+      "title": "Need support for llama.cpp with multi GPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv76b7/need_support_for_llamacpp_with_multi_gpu/",
+      "published_at": "2026-08-22T08:53:58Z",
+      "summary": "Using llama.cpp I seem to be unable to get my to GPUs working tougether correclty, so I need help somehow. Setup: 96GB RAM, one Blackwell 5000 (48GB) and one 3090 (24GB). I am trying to run the UD-Q3_K_XL quant of Deepse",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-antling-released-a-dspark-draft-model-for-ling-30-flash",
+      "source": "localllama",
+      "title": "AntLing released a dspark draft model for Ling-3.0-flash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv71pg/antling_released_a_dspark_draft_model_for/",
+      "published_at": "2026-08-22T08:46:11Z",
+      "summary": "No GGUFs yet on Huggingface though.   &#32; submitted by &#32;  /u/Ihtien   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-freetokens-project-is-impressive",
+      "source": "localllama",
+      "title": "Freetokens project is impressive",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv6v00/freetokens_project_is_impressive/",
+      "published_at": "2026-08-22T08:34:53Z",
+      "summary": "      A new project was released yesterday and I have the opportunity to test it today. Papper: https://arxiv.org/abs/2608.16157 Github: https://github.com/FlashML-org/FreeToken My initial tests with the following setup:",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-22-llamacpp-version-020-is-out",
       "source": "localllama",
@@ -52,83 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuzz3j/16_gb_vram_purgatory_discussion_thread/",
       "published_at": "2026-08-22T02:24:22Z",
       "summary": "What models and configs are we using? Please share here On windows, I am using this copium pared down model https://huggingface.co/Bucoid/Qwen3.8-27B-Uncensored-IQ4-XS-MTP-16GB-VRAM-GGUF with MTP disabled, q4 k/q4 v mmpr",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-how-to-give-a-local-llmagent-access-to-a-real-web-browser",
-      "source": "localllama",
-      "title": "How to give a local LLM/agent access to a \"real\" web browser",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuykgj/how_to_give_a_local_llmagent_access_to_a_real_web/",
-      "published_at": "2026-08-22T01:17:29Z",
-      "summary": "I can&#39;t seem to find a good answer to this, my Hermes agent has access to Firecrawl and some other web scrapers for content extraction, but anyone know of a way to let a local LLM drive a &quot;real&quot; web browser",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-qwen-38-27b---pi-agent-vs-opencode---another-smaple",
-      "source": "localllama",
-      "title": "Qwen 3.8 27b - PI AGENT vs OPENCODE - another smaple",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuwwww/qwen_38_27b_pi_agent_vs_opencode_another_smaple/",
-      "published_at": "2026-08-22T00:02:12Z",
-      "summary": "      That is the second comparison and the last one.  I will not be spamming again ;)  Continuation from: https://www.reddit.com/r/LocalLLaMA/comments/1vu0u2v/qwen_38_27b_pi_agent_vs_opencode/ That is one of my many tes",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-i-tried-to-do-agenic-coding-with-qwen-38-27b-3bit-quant-on-a",
-      "source": "localllama",
-      "title": "I tried to do agenic coding with Qwen 3.8 27B 3bit quant on a macbook air m2 24gb. It took 63 hours, but amazingly, the flight simulator worked.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuvx0t/i_tried_to_do_agenic_coding_with_qwen_38_27b_3bit/",
-      "published_at": "2026-08-21T23:19:10Z",
-      "summary": "I used LM Studio Bionic with Qwen 3.8 27B Q3_K_S with 57k context. It took a staggering 63 hours to finish coding. After the first prompt &quot;Create a beautiful, relaxing flight simulator in a single HTML page&quot; ta",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-im-really-hoping-were-in-2026s-2-month-gap-between-qwq-and-q",
-      "source": "localllama",
-      "title": "I'm really hoping we're in 2026's 2-month-gap between QwQ and Qwen3 right now",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vutzeu/im_really_hoping_were_in_2026s_2monthgap_between/",
-      "published_at": "2026-08-21T21:58:51Z",
-      "summary": "QwQ was genuine next-gen performance usable on local hardware, but the massive required context (it&#39;s reasoning style was akin to &quot;if I say every possible word, I&#39;ll notice the right one!&quot;) kinda made i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-qwen38-27b-different-thinking-levels",
-      "source": "localllama",
-      "title": "Qwen3.8-27B different thinking levels",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vusds8/qwen3827b_different_thinking_levels/",
-      "published_at": "2026-08-21T20:55:11Z",
-      "summary": "      Even the low preset is better than Qwen 3.7 plus or Qwen3.6-27B reasoning  &#32; submitted by &#32;  /u/Tall_Abrocoma_3533   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-qwen-38-low-and-medium-are-goated",
-      "source": "localllama",
-      "title": "Qwen 3.8 Low and Medium are goated",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vus4ko/qwen_38_low_and_medium_are_goated/",
-      "published_at": "2026-08-21T20:45:14Z",
-      "summary": "      Artificial Analysis just benchmarked them and the scores are crazy good, proving the earlier success wasn&#39;t only enabled by overthinking.   &#32; submitted by &#32;  /u/Eyelbee   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-21-i-feel-like-i-finally-graduated",
-      "source": "localllama",
-      "title": "I feel like I finally graduated.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vurjwc/i_feel_like_i_finally_graduated/",
-      "published_at": "2026-08-21T20:22:48Z",
-      "summary": "I finally made the move from LM Studio to vLLM thanks to this post https://www.reddit.com/r/LocalLLaMA/s/NmS9CgHvqz. I may not know what it all means yet but I’m going to start diving into the docs to learn as much as I ",
       "tags": [
         "localllama"
       ]
