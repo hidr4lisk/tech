@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-22T12:48:03Z",
+  "updated_at": "2026-08-22T18:36:26Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10586",
+      "project": "llama-cpp",
+      "version": "b10586",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10586",
+      "published_at": "2026-08-22T16:03:58Z",
+      "body_excerpt": "mtmd: use ggml_rope_set_offset (#27521) mtmd: use ggml_rope_set_offset add comment Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10585",
+      "project": "llama-cpp",
+      "version": "b10585",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10585",
+      "published_at": "2026-08-22T15:40:46Z",
+      "body_excerpt": "common: add json.h abstraction (#27511) add common/json migrate common adapt jinja migrate server big wip migrate tests wip revert some excessive changes wip wip 2 revert redundant changes fix server crash various fixes fix ci harden a bit clean up rm json-shim add some comments rm redundant decl Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10584",
+      "project": "llama-cpp",
+      "version": "b10584",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10584",
+      "published_at": "2026-08-22T15:06:15Z",
+      "body_excerpt": "fit: also take into account n_streams (#27496) fit: also take into account n_streams server: make the draft context follow the target context With a non-unified KV cache the target context now holds n_ctx_train tokens per sequence, while the draft context was still created with n_ctx = 0 and fell back to n_ctx_train / n_streams per sequence. A slot filled beyond that point makes the draft batch fa",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10582",
+      "project": "llama-cpp",
+      "version": "b10582",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10582",
+      "published_at": "2026-08-22T12:57:30Z",
+      "body_excerpt": "ci : Restore ROCm job for Ubuntu (#27399) Revert \"ci : disable ubuntu-rocm (#26969)\" This reverts commit 9558fa44c92746a58dd07ad1bf0c889715b938a6. ci: set ccache compiler_check=content for ROCm build The ROCm toolchain is pip-installed fresh on every run, so the clang binary's mtime changes each time. With ccache's default compiler_check=mtime that invalidates the whole cache and warm builds only ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10581",
       "project": "llama-cpp",
