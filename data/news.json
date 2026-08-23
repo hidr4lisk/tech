@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-08-23T01:41:09Z",
+  "updated_at": "2026-08-23T06:48:33Z",
   "items": [
+    {
+      "id": "localllama-2026-08-23-agent-quest-now-tells-you-when-claude-code-or-codex-needs-yo",
+      "source": "localllama",
+      "title": "Agent Quest now tells you when Claude Code or Codex needs you visually and with sound",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvzo4v/agent_quest_now_tells_you_when_claude_code_or/",
+      "published_at": "2026-08-23T06:38:14Z",
+      "summary": "      A few weeks ago I shared Agent Quest, my open-source experiment that turns Claude Code and Codex sessions into heroes living inside a small 2D world. The original idea was mainly about making it easier to understan",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-qwen-38-27b-is-a-game-changer",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B is a game changer.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvyacg/qwen_38_27b_is_a_game_changer/",
+      "published_at": "2026-08-23T05:19:48Z",
+      "summary": "Our devs got their hands on it a few days ago. One wired it into Codex to compare with GPT Luna, our usual workhorse right now for its cost effectiveness. Another tried it out on one of our OCR pipelines.  It&#39;s compa",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-would-it-be-possible-to-distill-deepseek-v4-flash-0731-onto",
+      "source": "localllama",
+      "title": "Would it be possible to distill DeepSeek V4 Flash 0731 onto Nemotron 3.5 Lightning?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvw4h5/would_it_be_possible_to_distill_deepseek_v4_flash/",
+      "published_at": "2026-08-23T03:24:53Z",
+      "summary": "Super new to this local LLM stuff. Just set up a 2x Asus Ascent GX10 cluster and have DeepSeek V4 Flash 0731 running on it.  Trying to think of things I could have the cluster working on all day while I’m at work or over",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-the-all-spark-cluster-upgrading-from-16---36-dgx-sparks",
+      "source": "localllama",
+      "title": "“The All Spark” Cluster: Upgrading from 16 - 36 DGX Sparks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvv7iv/the_all_spark_cluster_upgrading_from_16_36_dgx/",
+      "published_at": "2026-08-23T02:38:29Z",
+      "summary": "      Earlier this year I posted about building what at the time I believe was the first 16x DGX Spark Cluster. I’m now adding 20 more Sparks to the cluster in my homelab server rack, giving me 4.6TB of unified memory. •",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-qwen38-27b-one-week-later-the-rlocalllama-rlocalllm-verdict",
+      "source": "localllama",
+      "title": "# Qwen3.8-27B — One Week Later: The r/LocalLLaMA + r/LocalLLM Verdict",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvu15m/qwen3827b_one_week_later_the_rlocalllama/",
+      "published_at": "2026-08-23T01:39:46Z",
+      "summary": "Companion to the Qwen 3.8 Release Megathread. Compiled from ~2,000 posts scanned across both subs, with deep reads of the 45 highest-signal threads (560 posts and comments), Aug 15–22, 2026, plus independent X benchmarks",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-23-i-fine-tuned-gemma-4-12b-for-a-27x-improvement-on-tool-calli",
       "source": "localllama",
@@ -87,61 +142,6 @@
       "summary": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.\nI'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable an",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-create-tts-voice-from-actual-animal-sound-recording",
-      "source": "localllama",
-      "title": "Create tts voice from actual animal sound recording",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvnfy4/create_tts_voice_from_actual_animal_sound/",
-      "published_at": "2026-08-22T20:45:00Z",
-      "summary": "In short, I want to create voices for my real chickens that I&#39;m creating generated videos of. Ultimately I would like to create voices to be used in a tts application that are based on their real &quot;voice patterns",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-i-benchmark-dflash-2-pr-build-in-llamacpp-on-qwen-38-27b-aga",
-      "source": "localllama",
-      "title": "I benchmark DFlash 2 (PR build) in llama.cpp on Qwen 3.8 27B against all speculative methods for 3 days. 2.26x on 100 real coding prompts, 4.68x with one n-gram drafter on top. Up to 8x on specific cases.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvncyh/i_benchmark_dflash_2_pr_build_in_llamacpp_on_qwen/",
-      "published_at": "2026-08-22T20:41:35Z",
-      "summary": "      Hey guys, Inco AI shipped DFlash 2 a few days ago with a drafter for Qwen 3.8 27B and a llama.cpp PR. I built the PR and ran it against plain decoding, MTP, the n-gram lookup drafters, and my July DFlash 1 numbers ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-what-if-chain-of-thought-wasnt-lossy-exploring-reversible-lo",
-      "source": "localllama",
-      "title": "What if Chain-of-Thought wasn’t lossy? Exploring reversible logic (Toffoli/Fredkin-style) for edge LLMs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvn63i/what_if_chainofthought_wasnt_lossy_exploring/",
-      "published_at": "2026-08-22T20:33:52Z",
-      "summary": "Right now standard CoT is a one-way street. You generate forward, dump a pile of scratchpad tokens into the KV cache, and pray the model doesn’t hallucinate halfway through. On phones/laptops that creates two ugly proble",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-new-100b-liquid-ai-model-coming-soon",
-      "source": "localllama",
-      "title": "New 100B Liquid AI model coming soon",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvmxls/new_100b_liquid_ai_model_coming_soon/",
-      "published_at": "2026-08-22T20:24:18Z",
-      "summary": "      Liquid AI currently possesses among the fastest LLM architectures around, and some of the best SLMs (in terms of utility IMO) around, so I&#39;m very excited to see what a potential 100B LFM (3?) model would look l",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-glm-and-i-created-a-llamacpp-fork-optimized-for-amd-gfx906-m",
-      "source": "localllama",
-      "title": "GLM and I created a llama.cpp fork optimized for AMD GFX906 (Mi50, Mi60, Radeon VII, GCN HIP) - Machine Learning, LLMs, & AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvljbz/glm_and_i_created_a_llamacpp_fork_optimized_for/",
-      "published_at": "2026-08-22T19:29:19Z",
-      "summary": "      I felt the need to share this here. Looking for feedback.  &#32; submitted by &#32;  /u/milpster   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
