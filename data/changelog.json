@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-23T06:48:40Z",
+  "updated_at": "2026-08-23T12:49:02Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10593",
+      "project": "llama-cpp",
+      "version": "b10593",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10593",
+      "published_at": "2026-08-23T11:40:07Z",
+      "body_excerpt": "DeepseekV4: fix rollback with multi-seq (#26756) DeepseekV4: fix rollback with multi-seq fix model loading make pending rollback single use only clear cache for seq_id for full load add assert for compress ratio make graph topology static pass true instead of flags in clear_compressed cont : clean-up + TODOs --------- Co-authored-by: Georgi Gerganov Website: Attestations: macOS/iOS: macOS Apple Si",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10590",
+      "project": "llama-cpp",
+      "version": "b10590",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10590",
+      "published_at": "2026-08-23T08:20:51Z",
+      "body_excerpt": "vendor : update subprocess.h (#27409) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10589",
+      "project": "llama-cpp",
+      "version": "b10589",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10589",
+      "published_at": "2026-08-23T07:59:06Z",
+      "body_excerpt": "cuda : add POOL_1D support (#27573) cuda : add POOL_1D support fix: add missing trailing newline for editorconfig compliance Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.1",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10588",
       "project": "llama-cpp",
@@ -9989,24 +10016,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9311",
       "published_at": "2026-05-25T15:55:53Z",
       "body_excerpt": "vendor : update cpp-httplib to 0.45.1 (#23639) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9310",
-      "project": "llama-cpp",
-      "version": "b9310",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9310",
-      "published_at": "2026-05-25T11:50:27Z",
-      "body_excerpt": "server: fix checkpoints creation (#22929) common : add common_chat_split_by_role cont : fix spans to reach end of message server: fix checkpoints creation extract message_spans from chat templates find the prompt token position before the latest user message split prompt batching at that position create a context checkpoint before the latest user input avoid periodic mid-prompt checkpoints when th",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.3.1",
-      "project": "localai",
-      "version": "v4.3.1",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.1",
-      "published_at": "2026-05-25T07:28:08Z",
-      "body_excerpt": "What's Changed Other Changes Fix kokoros backend build break from Backend trait drift by @Copilot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in Full Changelog:",
       "type": "tool"
     }
   ]
