@@ -1,24 +1,145 @@
 {
-  "updated_at": "2026-08-22T18:36:21Z",
+  "updated_at": "2026-08-23T01:41:09Z",
   "items": [
     {
-      "id": "localllama-2026-08-22-current-best-model-for-narrative-chat-prompt-creation-so-bas",
+      "id": "localllama-2026-08-23-i-fine-tuned-gemma-4-12b-for-a-27x-improvement-on-tool-calli",
       "source": "localllama",
-      "title": "Current best model for narrative, chat, prompt creation (so basically everything except agentic coding)? - 5090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vviy88/current_best_model_for_narrative_chat_prompt/",
-      "published_at": "2026-08-22T17:49:39Z",
-      "summary": "Im looking to set up a new local llm (probably on unsloth studio as that seemed to be doing pretty well last time I tested it). This one won&#39;t need to do agentic coding or app building or anything (not this time) but",
+      "title": "I fine tuned Gemma 4 12B for a 2.7x improvement on tool calling because I can't fit anything else comfortably into my 16 GBs of Vram",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvtu9z/i_fine_tuned_gemma_4_12b_for_a_27x_improvement_on/",
+      "published_at": "2026-08-23T01:30:21Z",
+      "summary": "      Gemma 12B is obviously a very well trained model, I always thought the fine tuning they did on it wasn&#39;t really cut out for agentic coding. From my own experiences it struggles to use the tools it&#39;s given f",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-22-tesla-p40---use-f16-kv-instead-of-q8",
+      "id": "localllama-2026-08-23-closed-ai-has-been-real-quiet-since-qwen-38-27b-dropped",
       "source": "localllama",
-      "title": "Tesla P40 - use F16 KV instead of Q8",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvixex/tesla_p40_use_f16_kv_instead_of_q8/",
-      "published_at": "2026-08-22T17:48:47Z",
-      "summary": "If you use these cards together, you would think Q8 would be faster tps because it uses less VRAM. Well the reality is: Prompt TPS is nearly identical between the two (e.g. Q4@45k: 237.7 vs 237.6), so KV type doesn&#39;t",
+      "title": "Closed AI has been real quiet since Qwen 3.8 27B dropped.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvt7lo/closed_ai_has_been_real_quiet_since_qwen_38_27b/",
+      "published_at": "2026-08-23T00:59:42Z",
+      "summary": "This is something I&#39;ve noticed. Back when GLM 5.2 and Kimi K3 launched, there was a media push on pushing how dangerous open source models are.  We know why they were doing this; these open models are good enough to ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-has-anyone-actually-made-64k-feel-like-300k-with-recursive-l",
+      "source": "localllama",
+      "title": "Has anyone actually made 64k feel like 300k+ with recursive local agents?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvt3c4/has_anyone_actually_made_64k_feel_like_300k_with/",
+      "published_at": "2026-08-23T00:54:06Z",
+      "summary": "I&#39;m running Qwen 3.8 27B locally on a single GPU. I can push the context to 131k, but I&#39;d rather run it faster at 64k if the agent can manage context properly. What I have in mind is pretty simple:  one model sta",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-tested-in-coding-q8-k-xl-qwen38-27b-vs-bf16-qwen36-27b",
+      "source": "localllama",
+      "title": "Tested in Coding: Q8_K_XL Qwen3.8 27B vs BF16 Qwen3.6 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvsokm/tested_in_coding_q8_k_xl_qwen38_27b_vs_bf16/",
+      "published_at": "2026-08-23T00:34:31Z",
+      "summary": "Further to my last post, https://www.reddit.com/r/LocalLLaMA/comments/1vldngi/tested_in_coding_bf16_muse_glimmer_vs_bf16_qwen36/, I bring this requested comparison of Qwen3.8 27B. Context: Both models are running at full",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-best-harness-for-long-autonomous-tasks",
+      "source": "localllama",
+      "title": "Best harness for long autonomous tasks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvsgsp/best_harness_for_long_autonomous_tasks/",
+      "published_at": "2026-08-23T00:24:26Z",
+      "summary": "I read a lot of posts like &quot;I&#39;ve given this prompt to my Qwen 3.8 27b and it one-shotted me a 3d game after 24 hours&quot;. I wonder, what&#39;s the best harness for tasks like this? It has to have auto compacti",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-3-experiments-running-dsv4-flash-0731-q4-quants-on-128gb-ram",
+      "source": "localllama",
+      "title": "3 experiments running dsv4-flash-0731 q4+ quants on 128GB RAM + ~60 GB VRAM (with a quite bad pcie infra) with an acceptable tgs and relatively acceptable pp speed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvrcx5/3_experiments_running_dsv4flash0731_q4_quants_on/",
+      "published_at": "2026-08-22T23:34:46Z",
+      "summary": "The post describes some experiments I had while trying to desperately run deepseek-v4-flash-0731 4 bit+ quants on my machine which is supposed to support only q2 quants of the model, a or 2.xx bpw quants at best. Long st",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-best-tiiiny-model-for-session-compression",
+      "source": "localllama",
+      "title": "Best tiiiny model for session compression?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvnzwx/best_tiiiny_model_for_session_compression/",
+      "published_at": "2026-08-22T21:07:35Z",
+      "summary": "Happy with Qwen3.8-27B, but that xhigh thinking mode is chewing through context like nobody&#39;s business. I&#39;m hoping I can point Hermes at a tiny model for compression, without sacrificing quality of the output. I&",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-22-quoting-linus-torvalds",
+      "source": "simonw",
+      "title": "Quoting Linus Torvalds",
+      "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+      "published_at": "2026-08-22T21:04:26Z",
+      "summary": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.\nI'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable an",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-create-tts-voice-from-actual-animal-sound-recording",
+      "source": "localllama",
+      "title": "Create tts voice from actual animal sound recording",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvnfy4/create_tts_voice_from_actual_animal_sound/",
+      "published_at": "2026-08-22T20:45:00Z",
+      "summary": "In short, I want to create voices for my real chickens that I&#39;m creating generated videos of. Ultimately I would like to create voices to be used in a tts application that are based on their real &quot;voice patterns",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-i-benchmark-dflash-2-pr-build-in-llamacpp-on-qwen-38-27b-aga",
+      "source": "localllama",
+      "title": "I benchmark DFlash 2 (PR build) in llama.cpp on Qwen 3.8 27B against all speculative methods for 3 days. 2.26x on 100 real coding prompts, 4.68x with one n-gram drafter on top. Up to 8x on specific cases.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvncyh/i_benchmark_dflash_2_pr_build_in_llamacpp_on_qwen/",
+      "published_at": "2026-08-22T20:41:35Z",
+      "summary": "      Hey guys, Inco AI shipped DFlash 2 a few days ago with a drafter for Qwen 3.8 27B and a llama.cpp PR. I built the PR and ran it against plain decoding, MTP, the n-gram lookup drafters, and my July DFlash 1 numbers ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-what-if-chain-of-thought-wasnt-lossy-exploring-reversible-lo",
+      "source": "localllama",
+      "title": "What if Chain-of-Thought wasn’t lossy? Exploring reversible logic (Toffoli/Fredkin-style) for edge LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvn63i/what_if_chainofthought_wasnt_lossy_exploring/",
+      "published_at": "2026-08-22T20:33:52Z",
+      "summary": "Right now standard CoT is a one-way street. You generate forward, dump a pile of scratchpad tokens into the KV cache, and pray the model doesn’t hallucinate halfway through. On phones/laptops that creates two ugly proble",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-new-100b-liquid-ai-model-coming-soon",
+      "source": "localllama",
+      "title": "New 100B Liquid AI model coming soon",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvmxls/new_100b_liquid_ai_model_coming_soon/",
+      "published_at": "2026-08-22T20:24:18Z",
+      "summary": "      Liquid AI currently possesses among the fastest LLM architectures around, and some of the best SLMs (in terms of utility IMO) around, so I&#39;m very excited to see what a potential 100B LFM (3?) model would look l",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-22-glm-and-i-created-a-llamacpp-fork-optimized-for-amd-gfx906-m",
+      "source": "localllama",
+      "title": "GLM and I created a llama.cpp fork optimized for AMD GFX906 (Mi50, Mi60, Radeon VII, GCN HIP) - Machine Learning, LLMs, & AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvljbz/glm_and_i_created_a_llamacpp_fork_optimized_for/",
+      "published_at": "2026-08-22T19:29:19Z",
+      "summary": "      I felt the need to share this here. Looking for feedback.  &#32; submitted by &#32;  /u/milpster   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -35,28 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-22-who-is-leading-the-pack-for-best-llm-gateway-2k26",
-      "source": "localllama",
-      "title": "Who is leading the pack for best llm gateway 2k26?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvh7b1/who_is_leading_the_pack_for_best_llm_gateway_2k26/",
-      "published_at": "2026-08-22T16:41:41Z",
-      "summary": "Looking to upgrade our ai infra for the new year. We need something that handles more than just simple routing, specifically looking for features like prompt caching, granular cost attribution per team, and support for t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-does-anyone-actually-respect-benchmarks",
-      "source": "localllama",
-      "title": "Does anyone actually respect benchmarks?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvgyvk/does_anyone_actually_respect_benchmarks/",
-      "published_at": "2026-08-22T16:32:20Z",
-      "summary": "I get why they exist and in almost mostly any other hardware field we can see clearly the difference and what it respects throughout, but with ai, its so inconsistent and unpredictable, besides the very basic needle test",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-08-22-more-than-just-code-review",
       "source": "simonw",
       "title": "More than just code review",
@@ -65,94 +164,6 @@
       "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.\nSometi",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-multi-gpu-hardware-advice",
-      "source": "localllama",
-      "title": "Multi Gpu Hardware advice",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvfxzw/multi_gpu_hardware_advice/",
-      "published_at": "2026-08-22T15:51:47Z",
-      "summary": "I have a gigabyte ds3h v2 b450 motherboard. Currently hosting an RTX 3090 I have a spare 3070 and I wondered, can I run both? Got myself a riser cable and… Top slot card, bottom slot riser = card pushes the riser, doesn’",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-fixed-the-mtp-head-on-ornith15-35b-a3b-3-tps--33-wall-clock",
-      "source": "localllama",
-      "title": "Fixed the MTP head on Ornith1.5 35B A3B. +3% TPS -33% wall clock",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvft7b/fixed_the_mtp_head_on_ornith15_35b_a3b_3_tps_33/",
-      "published_at": "2026-08-22T15:46:27Z",
-      "summary": "I love the Ornith 35B local models, 1.0 has been running my HAM radio rig for me. I have a hackRF receiver and a 5 watt quansheng portable the both run headless through the PC. I tried out the new Ornith1.5 build and it ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-how-to-remove-trendy-speech-from-llms",
-      "source": "localllama",
-      "title": "How to remove trendy speech from llms?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvfbde/how_to_remove_trendy_speech_from_llms/",
-      "published_at": "2026-08-22T15:26:22Z",
-      "summary": "For example: Instead of saying: &quot;I created this new ID&quot; It says: &quot;I minted this new ID&quot; Instead of: &quot;This alternative path is available&quot; It says: &quot;this escape hatch is available&quot; T",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-your-own-gguf",
-      "source": "localllama",
-      "title": "Your own GGUF",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvf7tk/your_own_gguf/",
-      "published_at": "2026-08-22T15:22:23Z",
-      "summary": "Hello, I have a few questions that I can&#39;t seem to find a clear answer to. Does it make sense to make your own GGUF? I noticed that when I compile llamacpp (vulkan or rocm), the processing and generation is a bit bet",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-this-is-a-great-sub-regardless-of-what-complaints-people-hav",
-      "source": "localllama",
-      "title": "This is a great sub, regardless of what complaints people have about it.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vveabg/this_is_a_great_sub_regardless_of_what_complaints/",
-      "published_at": "2026-08-22T14:44:56Z",
-      "summary": "This is a genuine community of real generally respectful adult human beings. Despite the enthusiasm all of you have for local AI, you can recognize that there are times when local LLMs are flawed, and even how practical ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-qwen-35-4b-iq2-xs-1667-reasoning-performance-from-tensor-lev",
-      "source": "localllama",
-      "title": "Qwen 3.5 4B IQ2_XS: +16.67% Reasoning Performance From Tensor-Level Allocation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvc6pw/qwen_35_4b_iq2_xs_1667_reasoning_performance_from/",
-      "published_at": "2026-08-22T13:15:55Z",
-      "summary": "      I was finally able to replicate tensor level allocation outside the Gemma family. https://huggingface.co/ByteOtter/Qwen3.5-4B-CADA-IQ2_XS After the Gemma 4 12b, e4b and gemma 3 4b results, I attempted to expand int",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-newold-benchmark-that-provides-a-lot-of-answers-for-local-ll",
-      "source": "localllama",
-      "title": "New/Old benchmark that provides a lot of answers for local LLM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvbabx/newold_benchmark_that_provides_a_lot_of_answers/",
-      "published_at": "2026-08-22T12:34:39Z",
-      "summary": "New/Old benchmark that provides a lot of answers for local LLM. I present to you a new test that I developed somewhat by accident: https://huggingface.co/cHunter789/Qwen3.8-27B-i1-IQ4_KS_KT-GGUF/tree/main/ctx-cliff Its o",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-22-web-search-tool-in-deepseek-harness-needs-api-key-from-deeps",
-      "source": "localllama",
-      "title": "web_search tool in deepseek harness needs api key from deepseek and deepseek charges you as deepseek-v4-flash usage.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vva30g/web_search_tool_in_deepseek_harness_needs_api_key/",
-      "published_at": "2026-08-22T11:35:34Z",
-      "summary": "I was experimenting with deepseek harness when found that even if you don&#39;t use deepseek models, you can configure the web_search tool with their api key and every hit will cost you as if you called deepseek-v4-flash",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -307,17 +318,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-17-qwen-38-27b-scores-52-on-the-artificial-analysis-intelligenc",
-      "source": "simonw",
-      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
-      "published_at": "2026-08-17T23:58:14Z",
-      "summary": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index\nThat's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSee",
-      "tags": [
-        "simonw"
       ]
     },
     {
