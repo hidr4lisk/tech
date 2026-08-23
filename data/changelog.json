@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-23T12:49:02Z",
+  "updated_at": "2026-08-23T18:35:38Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10599",
+      "project": "llama-cpp",
+      "version": "b10599",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10599",
+      "published_at": "2026-08-23T17:39:41Z",
+      "body_excerpt": "test: move tools/parser to tests (#27548) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10598",
+      "project": "llama-cpp",
+      "version": "b10598",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10598",
+      "published_at": "2026-08-23T17:16:10Z",
+      "body_excerpt": "mtmd: use pillow-accurate algo, correct resize_algo for all models (#27594) mtmd: use pillow-accurate resize algo, correct resize_algo for all models speed optimization Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10595",
+      "project": "llama-cpp",
+      "version": "b10595",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10595",
+      "published_at": "2026-08-23T13:44:15Z",
+      "body_excerpt": "server : add LLAMA_SERVER_SLOTS_N_DIFF (#27600) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10594",
+      "project": "llama-cpp",
+      "version": "b10594",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10594",
+      "published_at": "2026-08-23T13:21:44Z",
+      "body_excerpt": "common : skip device_info loop if it's not going to be printed (#26692) The device_info loop iterates over the discovered devices and gets the available and total memory counts. With the CUDA backend (and possibly others too) this requires creating a GPU context, which, in case of CUDA, results in a 550 MB VRAM allocation. For this information to be used in any way, the log verbosity must be set t",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10593",
       "project": "llama-cpp",
@@ -9998,24 +10034,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9315",
       "published_at": "2026-05-25T18:38:02Z",
       "body_excerpt": "llama : document that only one on-device state can be saved per sequence (#23520) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andro",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9313",
-      "project": "llama-cpp",
-      "version": "b9313",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9313",
-      "published_at": "2026-05-25T17:12:20Z",
-      "body_excerpt": "ggml : Parallelize quant LUT init (#23595) Use OpenMP to parallelize iq2xs_init_impl and iq3xs_init_impl. Move the OpenMP detection from ggml-cpu to ggml-base. Update OpenMP dependencies in ggml-config.cmake.in. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9311",
-      "project": "llama-cpp",
-      "version": "b9311",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9311",
-      "published_at": "2026-05-25T15:55:53Z",
-      "body_excerpt": "vendor : update cpp-httplib to 0.45.1 (#23639) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wi",
       "type": "tool"
     }
   ]
