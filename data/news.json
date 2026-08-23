@@ -1,134 +1,134 @@
 {
-  "updated_at": "2026-08-23T06:48:33Z",
+  "updated_at": "2026-08-23T12:48:57Z",
   "items": [
     {
-      "id": "localllama-2026-08-23-agent-quest-now-tells-you-when-claude-code-or-codex-needs-yo",
+      "id": "localllama-2026-08-23-qwen38-27b-nvfp4-with-vision-451k-token-kv-cache-on-one-rtx",
       "source": "localllama",
-      "title": "Agent Quest now tells you when Claude Code or Codex needs you visually and with sound",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvzo4v/agent_quest_now_tells_you_when_claude_code_or/",
-      "published_at": "2026-08-23T06:38:14Z",
-      "summary": "      A few weeks ago I shared Agent Quest, my open-source experiment that turns Claude Code and Codex sessions into heroes living inside a small 2D world. The original idea was mainly about making it easier to understan",
+      "title": "Qwen3.8-27B NVFP4 with vision + 451K token KV-cache on one RTX 5090 (power limited to 400W) at 120 tokens/s average",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw5q47/qwen3827b_nvfp4_with_vision_451k_token_kvcache_on/",
+      "published_at": "2026-08-23T12:19:05Z",
+      "summary": "Hello, So I&#39;ve been trying lots of combinations in that never-ending landscape of options and settings. I wanted a proper quant of 3.8 27B running as fast as possible on my 5090 at 400W, with vision and with as much ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-23-qwen-38-27b-is-a-game-changer",
+      "id": "localllama-2026-08-23-gmktec-is-going-to-launch-new-hardware-with-ryzen-ai-max-pro",
       "source": "localllama",
-      "title": "Qwen 3.8 27B is a game changer.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvyacg/qwen_38_27b_is_a_game_changer/",
-      "published_at": "2026-08-23T05:19:48Z",
-      "summary": "Our devs got their hands on it a few days ago. One wired it into Codex to compare with GPT Luna, our usual workhorse right now for its cost effectiveness. Another tried it out on one of our OCR pipelines.  It&#39;s compa",
+      "title": "GMKtec is going to launch new hardware with Ryzen AI Max+ PRO 495 at IFA Berlin 2026",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw55zn/gmktec_is_going_to_launch_new_hardware_with_ryzen/",
+      "published_at": "2026-08-23T11:51:22Z",
+      "summary": "      &#32; submitted by &#32;  /u/fairydreaming   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-23-would-it-be-possible-to-distill-deepseek-v4-flash-0731-onto",
+      "id": "localllama-2026-08-23-deepseek-v4-flash-on-an-m2-ultra-repacked-to-141-gib-lossles",
       "source": "localllama",
-      "title": "Would it be possible to distill DeepSeek V4 Flash 0731 onto Nemotron 3.5 Lightning?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvw4h5/would_it_be_possible_to_distill_deepseek_v4_flash/",
-      "published_at": "2026-08-23T03:24:53Z",
-      "summary": "Super new to this local LLM stuff. Just set up a 2x Asus Ascent GX10 cluster and have DeepSeek V4 Flash 0731 running on it.  Trying to think of things I could have the cluster working on all day while I’m at work or over",
+      "title": "DeepSeek V4 Flash on an M2 Ultra: repacked to 141 GiB losslessly, smaller than the Q4 GGUF, at 25.8 t/s (42 t/s peak)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw4qzf/deepseek_v4_flash_on_an_m2_ultra_repacked_to_141/",
+      "published_at": "2026-08-23T11:28:58Z",
+      "summary": "This is one more vibe slopped custom optimization for, in this case, my hardware (m2 ultra 60 cores, 192gb). It is just a fork from llama.cpp with a few changes, it achieves: - DeepSeek V4 Flash, no kv cache quant - 141G",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-23-the-all-spark-cluster-upgrading-from-16---36-dgx-sparks",
+      "id": "localllama-2026-08-23-what-is-your-worst-sandboxing-fail",
       "source": "localllama",
-      "title": "“The All Spark” Cluster: Upgrading from 16 - 36 DGX Sparks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvv7iv/the_all_spark_cluster_upgrading_from_16_36_dgx/",
-      "published_at": "2026-08-23T02:38:29Z",
-      "summary": "      Earlier this year I posted about building what at the time I believe was the first 16x DGX Spark Cluster. I’m now adding 20 more Sparks to the cluster in my homelab server rack, giving me 4.6TB of unified memory. •",
+      "title": "What is your worst sandboxing fail?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw3rjp/what_is_your_worst_sandboxing_fail/",
+      "published_at": "2026-08-23T10:36:00Z",
+      "summary": "I am wondering if I am too paranoid about sandboxing the commands that come out of LLMs. It really makes my eyes twitch when I see that some IDEs, even commercial, tend to forget that they have to execute things in sandb",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-23-qwen38-27b-one-week-later-the-rlocalllama-rlocalllm-verdict",
+      "id": "localllama-2026-08-23-best-model-you-can-run-on-a-16gb-phone",
       "source": "localllama",
-      "title": "# Qwen3.8-27B — One Week Later: The r/LocalLLaMA + r/LocalLLM Verdict",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvu15m/qwen3827b_one_week_later_the_rlocalllama/",
-      "published_at": "2026-08-23T01:39:46Z",
-      "summary": "Companion to the Qwen 3.8 Release Megathread. Compiled from ~2,000 posts scanned across both subs, with deep reads of the 45 highest-signal threads (560 posts and comments), Aug 15–22, 2026, plus independent X benchmarks",
+      "title": "Best model you can run on a 16gb phone?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw3g70/best_model_you_can_run_on_a_16gb_phone/",
+      "published_at": "2026-08-23T10:18:02Z",
+      "summary": "Qwen 3.5 9B q6?   &#32; submitted by &#32;  /u/ikkiyikki   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-23-i-fine-tuned-gemma-4-12b-for-a-27x-improvement-on-tool-calli",
+      "id": "localllama-2026-08-23-dont-want-to-be-this-guy-but-i-need-qwen-38-35b-a3b",
       "source": "localllama",
-      "title": "I fine tuned Gemma 4 12B for a 2.7x improvement on tool calling because I can't fit anything else comfortably into my 16 GBs of Vram",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvtu9z/i_fine_tuned_gemma_4_12b_for_a_27x_improvement_on/",
-      "published_at": "2026-08-23T01:30:21Z",
-      "summary": "      Gemma 12B is obviously a very well trained model, I always thought the fine tuning they did on it wasn&#39;t really cut out for agentic coding. From my own experiences it struggles to use the tools it&#39;s given f",
+      "title": "Don't want to be this guy, but I need Qwen 3.8 35B A3B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw2cop/dont_want_to_be_this_guy_but_i_need_qwen_38_35b/",
+      "published_at": "2026-08-23T09:13:39Z",
+      "summary": "Qwen 3.8 27B is great, however it takes me ages to do tasks on xhigh. I need Qwen 3.8 35B A3B. It&#39;ll be a little dumber but faster. I am also aware of the fact that 27B gets its &quot;intelligence&quot; from the long",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-23-closed-ai-has-been-real-quiet-since-qwen-38-27b-dropped",
+      "id": "localllama-2026-08-23-qwen38-27b-klds",
       "source": "localllama",
-      "title": "Closed AI has been real quiet since Qwen 3.8 27B dropped.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvt7lo/closed_ai_has_been_real_quiet_since_qwen_38_27b/",
-      "published_at": "2026-08-23T00:59:42Z",
-      "summary": "This is something I&#39;ve noticed. Back when GLM 5.2 and Kimi K3 launched, there was a media push on pushing how dangerous open source models are.  We know why they were doing this; these open models are good enough to ",
+      "title": "Qwen3.8-27B KLDs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw2ayp/qwen3827b_klds/",
+      "published_at": "2026-08-23T09:10:44Z",
+      "summary": "      I have been lurking on reddit for like 6 years, and this is the first time posting, so apologies for the mistakes. I&#39;m not a native English speaker, so sorry for the bad English too. I used LLM to translate / r",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-23-has-anyone-actually-made-64k-feel-like-300k-with-recursive-l",
+      "id": "localllama-2026-08-23-i-hosted-kimi-k3-28t-parameters-using-8-b300s-92-toks-190-pe",
       "source": "localllama",
-      "title": "Has anyone actually made 64k feel like 300k+ with recursive local agents?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvt3c4/has_anyone_actually_made_64k_feel_like_300k_with/",
-      "published_at": "2026-08-23T00:54:06Z",
-      "summary": "I&#39;m running Qwen 3.8 27B locally on a single GPU. I can push the context to 131k, but I&#39;d rather run it faster at 64k if the agent can manage context properly. What I have in mind is pretty simple:  one model sta",
+      "title": "I hosted Kimi K3 (2.8T parameters) using 8 B300s. 92 tok/s, $190 per million tokens",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw1j2p/i_hosted_kimi_k3_28t_parameters_using_8_b300s_92/",
+      "published_at": "2026-08-23T08:25:35Z",
+      "summary": "      What I ran:  8x B300 on Modal, $56.79 per hour, vLLM, tensor parallel 8, native MXFP4 Cold boot ~27 min (1.56 TB load, JIT, 51 CUDA graph captures) TTFT 0.92 to 1.02 s, decode 92 tok/s steady, 83 tok/s average over",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-23-tested-in-coding-q8-k-xl-qwen38-27b-vs-bf16-qwen36-27b",
+      "id": "localllama-2026-08-23-amd-users-have-you-tried-the-llammacpp-amd-ecosystem-branch",
       "source": "localllama",
-      "title": "Tested in Coding: Q8_K_XL Qwen3.8 27B vs BF16 Qwen3.6 27B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvsokm/tested_in_coding_q8_k_xl_qwen38_27b_vs_bf16/",
-      "published_at": "2026-08-23T00:34:31Z",
-      "summary": "Further to my last post, https://www.reddit.com/r/LocalLLaMA/comments/1vldngi/tested_in_coding_bf16_muse_glimmer_vs_bf16_qwen36/, I bring this requested comparison of Qwen3.8 27B. Context: Both models are running at full",
+      "title": "AMD Users: Have you tried the llamma.cpp AMD-Ecosystem branch? Up to 2x PP Speed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw16z9/amd_users_have_you_tried_the_llammacpp/",
+      "published_at": "2026-08-23T08:05:40Z",
+      "summary": "AMD has it&#39;s own llama.cpp branch: https://github.com/AMD-Ecosystem/llama.cpp And despite the Deprecation warning it&#39;s actively maintained (things are later upstreamed to the normal llama.cpp). What i noticed wit",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-23-best-harness-for-long-autonomous-tasks",
+      "id": "localllama-2026-08-23-i-finally-switched-from-windows-to-linux-and-got-a-30-50-boo",
       "source": "localllama",
-      "title": "Best harness for long autonomous tasks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvsgsp/best_harness_for_long_autonomous_tasks/",
-      "published_at": "2026-08-23T00:24:26Z",
-      "summary": "I read a lot of posts like &quot;I&#39;ve given this prompt to my Qwen 3.8 27b and it one-shotted me a 3d game after 24 hours&quot;. I wonder, what&#39;s the best harness for tasks like this? It has to have auto compacti",
+      "title": "i finally switched from windows to linux and got a 30-50% boost in speed.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw15bm/i_finally_switched_from_windows_to_linux_and_got/",
+      "published_at": "2026-08-23T08:02:53Z",
+      "summary": "This is amazing.  All I did was switch from llamacpp on windows to vllm on linux.   &#32; submitted by &#32;  /u/unraveleverything   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-22-3-experiments-running-dsv4-flash-0731-q4-quants-on-128gb-ram",
+      "id": "localllama-2026-08-23-deepseek-harness-is-insanely-good",
       "source": "localllama",
-      "title": "3 experiments running dsv4-flash-0731 q4+ quants on 128GB RAM + ~60 GB VRAM (with a quite bad pcie infra) with an acceptable tgs and relatively acceptable pp speed",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvrcx5/3_experiments_running_dsv4flash0731_q4_quants_on/",
-      "published_at": "2026-08-22T23:34:46Z",
-      "summary": "The post describes some experiments I had while trying to desperately run deepseek-v4-flash-0731 4 bit+ quants on my machine which is supposed to support only q2 quants of the model, a or 2.xx bpw quants at best. Long st",
+      "title": "DeepSeek Harness is Insanely Good",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw10m3/deepseek_harness_is_insanely_good/",
+      "published_at": "2026-08-23T07:55:30Z",
+      "summary": "I don&#39;t know about you guys, but Deep-seek harness is insane. It&#39;s not focused on being a coder agent, it&#39;s webUI made it very easy to just checkin from time to time, and the best part? Why it&#39;s better th",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-22-best-tiiiny-model-for-session-compression",
+      "id": "localllama-2026-08-23-nvidia-poolside-deal-to-compete-with-chinese-open-weights",
       "source": "localllama",
-      "title": "Best tiiiny model for session compression?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvnzwx/best_tiiiny_model_for_session_compression/",
-      "published_at": "2026-08-22T21:07:35Z",
-      "summary": "Happy with Qwen3.8-27B, but that xhigh thinking mode is chewing through context like nobody&#39;s business. I&#39;m hoping I can point Hermes at a tiny model for compression, without sacrificing quality of the output. I&",
+      "title": "Nvidia Poolside deal to compete with Chinese Open Weights",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw0mcd/nvidia_poolside_deal_to_compete_with_chinese_open/",
+      "published_at": "2026-08-23T07:31:55Z",
+      "summary": "Nvidia is investing $1 billion in Poolside and paying $6 billion to license its technology and hire most of its engineers. Over 100 Poolside staff will move to Nvidia to work on Nemotron. Good news for us!  &#32; submitt",
       "tags": [
         "localllama"
       ]
