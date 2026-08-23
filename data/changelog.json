@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-22T18:36:26Z",
+  "updated_at": "2026-08-23T01:41:13Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10588",
+      "project": "llama-cpp",
+      "version": "b10588",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10588",
+      "published_at": "2026-08-22T23:40:48Z",
+      "body_excerpt": "common: json.h: fix clang lto (#27575) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10587",
+      "project": "llama-cpp",
+      "version": "b10587",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10587",
+      "published_at": "2026-08-22T20:11:39Z",
+      "body_excerpt": "vulkan : added the PAD_REFLECT_1D operation (#26586) vulkan : added PAD_REFLECT_1D operation Implemented the GGML_OP_PAD_REFLECT_1D operation for the Vulkan backend Changes: pad_reflect_1d.comp: implemented the GLSL compute shader with reflection logic vulkan-shaders-gen.cpp: register the shader for SPIR-V compilation ggml-vulkan.cpp: pushed constants struct, pipeline creation, supports_op, dispat",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10586",
       "project": "llama-cpp",
@@ -133,7 +151,7 @@
       "version": "v0.33.0-rc2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
       "published_at": "2026-08-21T22:52:46Z",
-      "body_excerpt": "What's Changed mlx: fix mac assumptions on linux/windows by @dhiltgen in mlx update by @dhiltgen in lint fixes by @dhiltgen in app: add claude desktop app by @ParthSareen in app: polish onboarding layout and disable zoom by @hoyyeva in launch: fall back to npx for DeepSeek Harness by @ParthSareen in mlxrunner: make prefix cache restore points survive cancelled and resumed prefills by @jessegross i",
+      "body_excerpt": "What's Changed Claude Desktop Ollama now integrates with Claude Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang where agent clients that cancel long prefills Pr",
       "type": "tool"
     },
     {
@@ -9989,15 +10007,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.1",
       "published_at": "2026-05-25T07:28:08Z",
       "body_excerpt": "What's Changed Other Changes Fix kokoros backend build break from Backend trait drift by @Copilot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.3.0",
-      "project": "localai",
-      "version": "v4.3.0",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.0",
-      "published_at": "2026-05-24T20:25:26Z",
-      "body_excerpt": "🎉 LocalAI 4.3.0 Release! 🚀 LocalAI 4.3.0 is out! This release hardens the trust boundary and improves defaults for speed. Backend OCI images now ship with keyless cosign signatures and a per-gallery policy, with an opt-in strict mode that fails closed. The server-side prompt cache works by default: repeated system prompts (agents, OpenAI/Anthropic-compatible CLIs, coding assistants) collapse from ",
       "type": "tool"
     }
   ]
