@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-08-23T18:35:33Z",
+  "updated_at": "2026-08-24T01:39:07Z",
   "items": [
+    {
+      "id": "localllama-2026-08-24-qwen-38-27b-just-wanted-to-say-thanks-to-you-guys",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B, just wanted to say thanks to you guys",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwowbu/qwen_38_27b_just_wanted_to_say_thanks_to_you_guys/",
+      "published_at": "2026-08-24T01:22:02Z",
+      "summary": "I commented on another Qwen 3.8 27B post that I was frustrated getting anything to work. You all gave some great comments. I nuked openwebui and straightened out my llama.cpp docker config. 1 hour of work and I have a mo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-convrot-quant-method-now-in-llama-cpp-turboquant",
+      "source": "localllama",
+      "title": "ConvRot Quant method now in llama-cpp-turboquant",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwoseh/convrot_quant_method_now_in_llamacppturboquant/",
+      "published_at": "2026-08-24T01:16:57Z",
+      "summary": "It started here , and now https://github.com/TheTom/llama-cpp-turboquant/ has it. Imagine a Q6 quant with nearly Q8 KLD/PPL. Q6_CR and Q5_CR have a slight improvement over their base counterparts. Also while you are ther",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-clean-your-dust-bunnies",
+      "source": "localllama",
+      "title": "clean your dust bunnies",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwon35/clean_your_dust_bunnies/",
+      "published_at": "2026-08-24T01:10:04Z",
+      "summary": "      Qwen 3.5 opus 4.6 distilled said I need to give him some maintenance. Featuring the wolfbox   &#32; submitted by &#32;  /u/TinFoilHat_69   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-any-upcoming-models-to-be-excited-about",
+      "source": "localllama",
+      "title": "Any upcoming models to be excited about?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwkicx/any_upcoming_models_to_be_excited_about/",
+      "published_at": "2026-08-23T22:07:42Z",
+      "summary": "I&#39;m kind of new to the community and this sub is my only source of information, so I&#39;d thought of asking if there are any upcoming models you guys are looking forward to.   &#32; submitted by &#32;  /u/zippydazoo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-looking-at-a-powercolor-r9700-for-qwen38-27b-q4-k-xl-llamacp",
+      "source": "localllama",
+      "title": "Looking at a PowerColor R9700 for Qwen3.8-27B, Q4_K_XL, llama.cpp/Vulkan.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwizvm/looking_at_a_powercolor_r9700_for_qwen3827b_q4_k/",
+      "published_at": "2026-08-23T21:05:37Z",
+      "summary": "Hi all Looking at a PowerColor R9700 for Qwen3.8-27B, Q4, llama.cpp/Vulkan. AMD&#39;s own blog quotes 51.8 tok/s but doesn&#39;t say what context length that&#39;s at, or whether MTP=2 was holding up. Separately I&#39;ve",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-best-general-purpose-uncensored-or-censored-coding-model-wit",
+      "source": "localllama",
+      "title": "Best general purpose uncensored or censored coding model with 6GB VRAM and 64GB of RAM?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwidnm/best_general_purpose_uncensored_or_censored/",
+      "published_at": "2026-08-23T20:41:30Z",
+      "summary": "I haven&#39;t had a lot of luck in the reliability of the output of any models so far for local coding use, and find myself relying on Claude&#39;s limited free sessions to assist with coding. My coding application varie",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-23-anthropics-best-ai-model-struggles-to-attract-users-as-cheap",
+      "source": "simonw",
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+      "published_at": "2026-08-23T20:24:52Z",
+      "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive\nA few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":\n\nAnthropic's \"annualized revenue\" for July is u",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-you-can-now-use-mtp-in-glm-air",
+      "source": "localllama",
+      "title": "you can now use MTP in GLM-Air",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwhj0l/you_can_now_use_mtp_in_glmair/",
+      "published_at": "2026-08-23T20:08:04Z",
+      "summary": "      If anyone still remembers GLM-4.5-Air from last year, you can now get a nice speedup by enabling MTP in llama.cpp. It is a 106B MoE with only 12B active parameters, which makes it interesting for machines with lots",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-qwen-38-27b-helped-me-with-something-unique-that-opus-4-coul",
+      "source": "localllama",
+      "title": "Qwen 3.8 27b helped me with something unique that Opus 4 couldn't - Firmware + Software preservation and emulation on an early 2000's ARM based POS system",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwhcuf/qwen_38_27b_helped_me_with_something_unique_that/",
+      "published_at": "2026-08-23T20:01:28Z",
+      "summary": "      Hi all, I made a post regarding how much Qwen 3.8 has improved over 3.6: https://www.reddit.com/r/LocalLLaMA/comments/1vqm51f/long_review_qwen_38_27b_is_very_good_at_tapping/ I made a very thorough write-up of how ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-23-quoting-drew-breunig",
+      "source": "simonw",
+      "title": "Quoting Drew Breunig",
+      "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+      "published_at": "2026-08-23T19:55:30Z",
+      "summary": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.\nBut then Fable land",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-23-we-quantized-qwen-38-27b-and-compared-the-quants-on-an-rtx-6",
+      "source": "localllama",
+      "title": "We quantized Qwen 3.8 27B and compared the quants on an RTX 6000",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwh3u7/we_quantized_qwen_38_27b_and_compared_the_quants/",
+      "published_at": "2026-08-23T19:52:11Z",
+      "summary": "      Me and my team made Atomic Dynamic GGUF quants for Qwen 3.8 27B, so we wanted to see the difference between them by giving each quant the same voxel island creation task First of all we were surprised at how well Q",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-23-nvidia-customers-notified-about-ai-related-price-hikes-above",
       "source": "localllama",
@@ -30,105 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwcn1s/crowdfunding_new_openweight_models/",
       "published_at": "2026-08-23T17:03:33Z",
       "summary": "There’s always lots of people asking for various specific new local models… I wonder if we could incentivize a specific model (e.g. Qwen3.8 35B MoE) via crowdfunding on Kickstarter or something. If everybody who’s been b",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-23-benchmark-results-what-is-the-best-and-fastest-engine-to-run",
-      "source": "localllama",
-      "title": "Benchmark results: what is the best and fastest engine to run Qwen3.8-27B on macOS",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwbyzr/benchmark_results_what_is_the_best_and_fastest/",
-      "published_at": "2026-08-23T16:37:44Z",
-      "summary": " WARNING: I think I made a mistake with omlx, and its results below seem to be without any kind of acceleration. I am rerunning them with Lightning MTP and ANE support for prefill. Will update the post once done.  The ne",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-23-has-anyone-tried-agent-lightning",
-      "source": "localllama",
-      "title": "Has anyone tried agent-lightning?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwazhv/has_anyone_tried_agentlightning/",
-      "published_at": "2026-08-23T16:00:31Z",
-      "summary": "      &#32; submitted by &#32;  /u/MrMrsPotts   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-23-ling-tiny-king-of-speed",
-      "source": "localllama",
-      "title": "Ling Tiny, King of Speed",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw9lp9/ling_tiny_king_of_speed/",
-      "published_at": "2026-08-23T15:06:31Z",
-      "summary": "      Ling Tiny has now replaced Gemma4-12B in my rig as an auxiliary model doing hindsight operations. This is on a 4060Ti, which is a reasonable GPU available out there, and the speed is phenomenal.  Don’t enable MTP, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-23-1100-44100-fine-tuning-a-450m-vlm-on-50k-browser-screenshots",
-      "source": "localllama",
-      "title": "1/100 → 44/100: fine-tuning a 450M VLM on 50K browser screenshots",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw9k4k/1100_44100_finetuning_a_450m_vlm_on_50k_browser/",
-      "published_at": "2026-08-23T15:04:50Z",
-      "summary": "      &#32; submitted by &#32;  /u/ButtercupLyn100   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-23-qwen-38-27b-for-actual-local-programming",
-      "source": "localllama",
-      "title": "Qwen 3.8 27B for actual local programming",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw8vuh/qwen_38_27b_for_actual_local_programming/",
-      "published_at": "2026-08-23T14:38:07Z",
-      "summary": "Most YouTube benchmarks only show trivial tasks like generating landing pages or simple Three.js games. Is a local model like Qwen 3.8 27B actually capable of real-world systems programming—such as building GTK4 or Qt 6 ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-23-i-trained-a-game-music-generator",
-      "source": "localllama",
-      "title": "I trained a game music generator",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw6zsq/i_trained_a_game_music_generator/",
-      "published_at": "2026-08-23T13:18:15Z",
-      "summary": "I trained a instrumental game music generator. The 1.2B DiT was trained on 1 cloud H100 from scratch in 8 days; I used the VAE from Stable Audio 3. https://huggingface.co/Localsong/Localsong https://huggingface.co/Locals",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-23-qwen35-9b-triple-loop",
-      "source": "localllama",
-      "title": "Qwen3.5-9B Triple-Loop",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw6nba/qwen359b_tripleloop/",
-      "published_at": "2026-08-23T13:02:37Z",
-      "summary": "I was fascinated by Nanbeige&#39;s outstanding performance for its size, so I started digging into how much a model can improve its own representation just by looping over itself (for fun). My prototype was a Qwen3-0.6B ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-23-qwen38-27b-nvfp4-with-vision-451k-token-kv-cache-on-one-rtx",
-      "source": "localllama",
-      "title": "Qwen3.8-27B NVFP4 with vision + 451K token KV-cache on one RTX 5090 (power limited to 400W) at 120 tokens/s average",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw5q47/qwen3827b_nvfp4_with_vision_451k_token_kvcache_on/",
-      "published_at": "2026-08-23T12:19:05Z",
-      "summary": "Hello, So I&#39;ve been trying lots of combinations in that never-ending landscape of options and settings. I wanted a proper quant of 3.8 27B running as fast as possible on my 5090 at 400W, with vision and with as much ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-23-gmktec-is-going-to-launch-new-hardware-with-ryzen-ai-max-pro",
-      "source": "localllama",
-      "title": "GMKtec is going to launch new hardware with Ryzen AI Max+ PRO 495 at IFA Berlin 2026",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw55zn/gmktec_is_going_to_launch_new_hardware_with_ryzen/",
-      "published_at": "2026-08-23T11:51:22Z",
-      "summary": "      &#32; submitted by &#32;  /u/fairydreaming   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -261,28 +283,6 @@
       "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
       "published_at": "2026-08-19T23:16:00Z",
       "summary": "Research: smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript\n        I tasked Claude Fable 5 running in Claude Code for web with the following research task:\n\nPut https://smolmachines.com through it",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-19-quoting-jeremy-morrell",
-      "source": "simonw",
-      "title": "Quoting Jeremy Morrell",
-      "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
-      "published_at": "2026-08-19T22:56:31Z",
-      "summary": "My hypothesis is that there is a new opportunity for Extensible Software on the web. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good securit",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-19-conceptual-integrity-and-counting-lines-of-code",
-      "source": "simonw",
-      "title": "Conceptual integrity and counting lines of code",
-      "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
-      "published_at": "2026-08-19T22:46:07Z",
-      "summary": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights fro",
       "tags": [
         "simonw"
       ]
