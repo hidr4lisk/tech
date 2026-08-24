@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-24T12:58:32Z",
+  "updated_at": "2026-08-24T18:47:05Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10612",
+      "project": "llama-cpp",
+      "version": "b10612",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10612",
+      "published_at": "2026-08-24T13:41:50Z",
+      "body_excerpt": "tests : disable DOTS3NOTE arch test for WebGPU (#27654) Co-authored-by: Stanisław Szymczyk Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10610",
+      "project": "llama-cpp",
+      "version": "b10610",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10610",
+      "published_at": "2026-08-24T13:16:46Z",
+      "body_excerpt": "ggml : shorten virtual device naming in CUDA and Metal (#27608) ggml : shorten virtual device naming in CUDA and Metal Assisted-by: llama.cpp:DeepSeek-V4-Flash-0731 ggml-metal : build device description at init Assisted-by: llama.cpp:DeepSeek-V4-Flash-0731 cont : naming Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10608",
       "project": "llama-cpp",
@@ -9935,60 +9953,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9351",
       "published_at": "2026-05-26T19:55:17Z",
       "body_excerpt": "macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - C",
-      "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-vermeer-XL-CA",
-      "project": "microsoft",
-      "version": "vermeer-XL-CA",
-      "url": "https://huggingface.co/microsoft/vermeer-XL-CA",
-      "published_at": "2026-05-26T17:55:46Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-vermeer-XL",
-      "project": "microsoft",
-      "version": "vermeer-XL",
-      "url": "https://huggingface.co/microsoft/vermeer-XL",
-      "published_at": "2026-05-26T17:55:37Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-vermeer-L-AP",
-      "project": "microsoft",
-      "version": "vermeer-L-AP",
-      "url": "https://huggingface.co/microsoft/vermeer-L-AP",
-      "published_at": "2026-05-26T17:55:01Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-vermeer-L",
-      "project": "microsoft",
-      "version": "vermeer-L",
-      "url": "https://huggingface.co/microsoft/vermeer-L",
-      "published_at": "2026-05-26T17:54:56Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-guardian-4.1-8b-GGUF",
-      "project": "ibm-granite",
-      "version": "granite-guardian-4.1-8b-GGUF",
-      "url": "https://huggingface.co/ibm-granite/granite-guardian-4.1-8b-GGUF",
-      "published_at": "2026-05-26T15:24:01Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "unsloth-v0.1.42-beta",
-      "project": "unsloth",
-      "version": "v0.1.42-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.42-beta",
-      "published_at": "2026-05-26T14:36:14Z",
-      "body_excerpt": "Hey guys, we're doing one more-ish update before a major revamp which is likely coming this week or next week. Our revamp will change a lot of things, especially with new major features and a lot of design changes. NEW: API calling support now with image generation + editing, proper web search, code execution, auto prompt caching. Connect OpenAI, Anthropic and more. should now work properly. For M",
       "type": "tool"
     }
   ]
