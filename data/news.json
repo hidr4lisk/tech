@@ -1,24 +1,156 @@
 {
-  "updated_at": "2026-08-24T12:58:28Z",
+  "updated_at": "2026-08-24T18:47:00Z",
   "items": [
     {
-      "id": "localllama-2026-08-24-who-would-buy-huggingface",
+      "id": "localllama-2026-08-24-one-llm-wrote-a-trading-feature-another-reviewed-it-both-mis",
       "source": "localllama",
-      "title": "Who would buy HuggingFace",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx15zb/who_would_buy_huggingface/",
-      "published_at": "2026-08-24T12:17:23Z",
-      "summary": "      Given OpenRouter.ai was snapped up by Stripe, who do we think would go after the &quot;GitHib&quot; of AI models? It is a big chunk of change they are looking ($13B). Apple may be a contender to give them a real ch",
+      "title": "One LLM wrote a trading feature. Another reviewed it. Both missed a future-data bug",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxajio/one_llm_wrote_a_trading_feature_another_reviewed/",
+      "published_at": "2026-08-24T18:09:22Z",
+      "summary": "      An AQuA research loop let one LLM write an intraday trading feature and a second LLM review it for causality. The feature divided the volume seen so far by the day&#39;s final total volume. At prediction time, that",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-24-benchmark-optimal-dflash2-quants-for-speed-and-context-size",
+      "id": "meta-2026-08-24-metaroce-a-new-rdma-transport-built-for-ai-scale-ethernet",
+      "source": "meta",
+      "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
+      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
+      "published_at": "2026-08-24T18:02:29Z",
+      "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles.  To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transpo",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-do-not-blindly-delete-your-older-models-some-are-still-preci",
       "source": "localllama",
-      "title": "[Benchmark] Optimal DFlash2 quants for speed and context size, 5090 RTX, llama.cpp, Qwen 3.8 27B Dynamic3 Unsloth. Comparison with MTP",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx14gl/benchmark_optimal_dflash2_quants_for_speed_and/",
-      "published_at": "2026-08-24T12:15:27Z",
-      "summary": "      Graph: A cumulative metric of Speed x Context Size - the higher the dot - the better. Helpful for looking for the most balanced solution. TLDR: Q4 quants for DFlash2 demonstrate the highest speeds due to their high",
+      "title": "Do not blindly delete your older models, some are still precious",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx9xt0/do_not_blindly_delete_your_older_models_some_are/",
+      "published_at": "2026-08-24T17:48:23Z",
+      "summary": "I have deleted tons and tons of older models to make space since I can&#39;t afford storage anymore. Easily 10TB... Anyways, I have been considering deleting DeepSeekV3.2 but decide to run it one more time. I have a prob",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "meta-2026-08-24-mtia-300-metas-first-training-chip-with-built-in-nics-and-co",
+      "source": "meta",
+      "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
+      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
+      "published_at": "2026-08-24T17:45:52Z",
+      "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the com",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-how-would-you-test-qwen38-27b-inside-a-coding-agent",
+      "source": "localllama",
+      "title": "How would you test Qwen3.8-27B inside a coding agent?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx9ao5/how_would_you_test_qwen3827b_inside_a_coding_agent/",
+      "published_at": "2026-08-24T17:25:52Z",
+      "summary": "I got Qwen3.8-27B running locally and connected it to EvoX. Basic chat works. That is the easy part. I am trying to find out whether I would trust it once a coding task gets messy and the agent has to read a repository, ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-this-is-what-qwen-38-27b-is-capable-of",
+      "source": "localllama",
+      "title": "This is what Qwen 3.8 27b is capable of",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx9302/this_is_what_qwen_38_27b_is_capable_of/",
+      "published_at": "2026-08-24T17:18:40Z",
+      "summary": "      Try it here: https://ocean.blackbeardlabs.dev/ Model: Qwen 3.8 27b Q8_X_KL Unsloth  Hardware: 3 x RTX3090  Harness:  DeepSeek Harness  Prompt: /goal I want you to create a **JavaScript + Node.js WebGL project** tha",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-qwen-38-27b-in-9th-position-on-code-arena-gemma-4-31b-is-80t",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B in 9th position on code arena. Gemma 4 31B is 80th.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx7pdh/qwen_38_27b_in_9th_position_on_code_arena_gemma_4/",
+      "published_at": "2026-08-24T16:29:21Z",
+      "summary": "&#32; submitted by &#32;  /u/tarruda   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-best-local-vision-language-models---august-2026",
+      "source": "localllama",
+      "title": "Best Local Vision Language Models - August 2026",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx7ei1/best_local_vision_language_models_august_2026/",
+      "published_at": "2026-08-24T16:18:56Z",
+      "summary": "Share what your favorite models are right now and why. Given the nature of the beast in evaluating VLMs (untrustworthiness of benchmarks, immature tooling, intrinsic stochasticity), please be as detailed as possible in d",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-bart-a-vintage-llm",
+      "source": "localllama",
+      "title": "Bart: A vintage llm",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx7aci/bart_a_vintage_llm/",
+      "published_at": "2026-08-24T16:14:44Z",
+      "summary": "      after 3 months and $800 burned... Unbounded Labs is proud to introduce Bart, our vintage LLM: 2.82B parameters trained from scratch on 20.1B tokens of English written before 1931. You can talk to it right now! Demo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-apple-m5-server",
+      "source": "localllama",
+      "title": "Apple M5 Server",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx6ivx/apple_m5_server/",
+      "published_at": "2026-08-24T15:47:16Z",
+      "summary": "      Credit to Twitter Post  &#32; submitted by &#32;  /u/Rymssss   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-whats-the-best-local-model-youve-found-for-8-gb-of-vram",
+      "source": "localllama",
+      "title": "What's the best local model you've found for 8 GB of VRAM?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx4k9g/whats_the_best_local_model_youve_found_for_8_gb/",
+      "published_at": "2026-08-24T14:34:40Z",
+      "summary": "I&#39;m curious what other people are using for local LLM coding / agentic coding with only 8 GB of VRAM. My current setup is:  Intel Core i7-11800H RTX 3070 Laptop, 8 GB VRAM 32 GB DDR4 RAM openSUSE Tumbleweed / KDE Uns",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-llamacpp-docs-now-have-a-new-home",
+      "source": "localllama",
+      "title": "llama.cpp docs now have a new home ❤️",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx4969/llamacpp_docs_now_have_a_new_home/",
+      "published_at": "2026-08-24T14:22:55Z",
+      "summary": "      &#32; submitted by &#32;  /u/unofficialmerve   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-paper-tomoe-converting-dense-large-language-models-to-mixtur",
+      "source": "localllama",
+      "title": "[Paper] ToMoE: Converting Dense Large Language Models to Mixture-of-Experts through Dynamic Structural Pruning",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx3img/paper_tomoe_converting_dense_large_language/",
+      "published_at": "2026-08-24T13:54:54Z",
+      "summary": "      ToMoE: Converting Dense Large Language Models to Mixture-of-Experts through Dynamic Structural Pruning  Large Language Models (LLMs) have demonstrated remarkable abilities in tackling a wide range of complex tasks.",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-tielcoders-22-gb-4-bit-quant-matches-opus46-medium-on-recent",
+      "source": "localllama",
+      "title": "TielCoder's 22 GB 4-bit quant matches Opus4.6 medium on recent real life coding issues, surpassing KAT-Coder and Nail as strongest and fastest MoE picks.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx33zj/tielcoders_22_gb_4bit_quant_matches_opus46_medium/",
+      "published_at": "2026-08-24T13:38:52Z",
+      "summary": "      Qwen3.8-27B is amazing, but it’s slow. A stronger 35B-A3B Mixture of Experts-coder that can run and solve real codebase issues fast (even on constrained hardware) is a valuable addition to the arsenal. This one is ",
       "tags": [
         "localllama"
       ]
@@ -32,116 +164,6 @@
       "summary": "Your executable is a SQLite database\nFarid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary.\nThe trick sets the SQLite file format's 4-byte appl",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-gpu-poor---dont-overlook-laguna-xs-21",
-      "source": "localllama",
-      "title": "GPU Poor - Don't overlook Laguna XS 2.1",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx09za/gpu_poor_dont_overlook_laguna_xs_21/",
-      "published_at": "2026-08-24T11:35:22Z",
-      "summary": "As per title. I&#39;m not affiliated with the team behind this model in any way, shape or form. As a GPU poor myself (8 GB VRAM laptop + 12 GB VRAM desktop), I found Laguna to be very promising on my laptop. It runs at 3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-4xr9700-2xmi210-or-4x4080s-32g",
-      "source": "localllama",
-      "title": "4xR9700, 2xMi210 or 4x4080S 32G",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx04j8/4xr9700_2xmi210_or_4x4080s_32g/",
-      "published_at": "2026-08-24T11:27:55Z",
-      "summary": "I am trying to get to 128G of VRAM with reasonable compute and bandwidth to run multiple models in parallel. DS4 Flash or GLM 5.3 in hybrid mode with custom checkpoints. But I am a bit confused these days given the milli",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-top-10-most-liked-models-on-qwens-huggingface-page",
-      "source": "localllama",
-      "title": "Top 10 most liked models on Qwen's HuggingFace page",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwzqu2/top_10_most_liked_models_on_qwens_huggingface_page/",
-      "published_at": "2026-08-24T11:09:03Z",
-      "summary": "      This shows how Qwen3.8-27B smashed all expectations and in less than a month got more likes than the next 4 models combined, finally surpassing their long reigning queen QwQ-32B. Next best thing is Qwen3.6-35B-A3B ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-agnes-aiagnes-25-pro-alpha-huggingface",
-      "source": "localllama",
-      "title": "Agnes-AI/Agnes-2.5-Pro-Alpha • HuggingFace",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwzoi0/agnesaiagnes25proalpha_huggingface/",
-      "published_at": "2026-08-24T11:05:55Z",
-      "summary": "      https://preview.redd.it/usib0obv1blh1.png?width=1171&amp;format=png&amp;auto=webp&amp;s=fa7b6e9155fcc461a2d397f9cf75aece4c72235c https://preview.redd.it/w453mok02blh1.png?width=2613&amp;format=png&amp;auto=webp&amp",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-at-a-certain-point-speed-smartness",
-      "source": "localllama",
-      "title": "At a certain point, speed >> smartness",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwyh1k/at_a_certain_point_speed_smartness/",
-      "published_at": "2026-08-24T10:02:41Z",
-      "summary": "It feels like a zig-zag: you don&#39;t want a model that&#39;s too dumb to do anything agentic. But once a model is good enough to be agentic, you don&#39;t want it to run so slow that iterating takes hours. For me the s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-qwen-38-27b-aider-score",
-      "source": "localllama",
-      "title": "Qwen 3.8 27B Aider score",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwwc31/qwen_38_27b_aider_score/",
-      "published_at": "2026-08-24T07:56:50Z",
-      "summary": "I ran the Aider benchmark on Qwen 3.8 27B FP8 with FP8 KV cache 256K context vLLM. The score: 72.9 This matches Gemini 2.5 Pro from 2025-04-12 which also scored 72.9. Beats Claude Opus 4 from 2025-05-25 which scored 72.0",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-best-model-for-16gb-ram-mac",
-      "source": "localllama",
-      "title": "Best model for 16gb ram Mac",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwwa62/best_model_for_16gb_ram_mac/",
-      "published_at": "2026-08-24T07:53:34Z",
-      "summary": "Hi everybody! Every now and then these days, we’re seeing really huge open-weight models popping up. But since not everybody has a DGX Station at home, I’m interested in really small models. It’s incredible to see how mu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-xiaomi-ai-cube-announced-with-12tbs-memory-bandwidth",
-      "source": "localllama",
-      "title": "Xiaomi AI Cube announced with 1.2TB/s memory bandwidth",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwvghi/xiaomi_ai_cube_announced_with_12tbs_memory/",
-      "published_at": "2026-08-24T07:04:32Z",
-      "summary": "      Xiaomi announced a prototype for their Xiaomi AI Cube. 3 chip system: - Xiaomi Xuanjie O3 - Xiaomi Xuanjie O100 - Xiaomi Xuanjie D100 The specs are impressive, but a bit confusing. The D100 chip (originally for the",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-hugging-face-for-sales",
-      "source": "localllama",
-      "title": "Hugging Face for sales? 👀",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwv6j1/hugging_face_for_sales/",
-      "published_at": "2026-08-24T06:48:38Z",
-      "summary": "wonder what would happen to open models, if the sales went through, and hf got acquired by a big tech shop? 👀  https://www.businessinsider.com/hugging-face-could-be-acquired-13-billion-2026-8 $13 billion not a bad price ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-best-ai-voice-cloning-in-2026-how-to-clone-your-voice-with-a",
-      "source": "localllama",
-      "title": "Best AI Voice Cloning in 2026: How to Clone Your Voice With AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwus60/best_ai_voice_cloning_in_2026_how_to_clone_your/",
-      "published_at": "2026-08-24T06:24:57Z",
-      "summary": "      &#32; submitted by &#32;  /u/NextgenAITrading   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -596,17 +618,6 @@
       ]
     },
     {
-      "id": "meta-2026-05-26-silvertorch-index-as-model-a-new-retrieval-paradigm-for-reco",
-      "source": "meta",
-      "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
-      "url": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
-      "published_at": "2026-05-26T16:00:01Z",
-      "summary": "We’re introducing SilverTorch, a reimagining of recommendation systems that unifies all retrieval components for user generated content under a unified architecture.  SilverTorch shows up to 23.7x higher throughput compa",
-      "tags": [
-        "meta"
-      ]
-    },
-    {
       "id": "microsoft-2026-05-21-magenticlite-magenticbrain-fara15-an-agentic-experience-opti",
       "source": "microsoft",
       "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
@@ -659,17 +670,6 @@
       "summary": "Introducing GridSFM, a small foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings. Learn how GridSFM gives grid operators direct visibility into congesti",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "meta-2026-05-13-reel-friends-building-social-discovery-that-scales-to-billio",
-      "source": "meta",
-      "title": "Reel Friends: Building Social Discovery that Scales to Billions",
-      "url": "https://engineering.fb.com/2026/05/13/ml-applications/reel-friends-building-social-discovery-that-scales-to-billions/",
-      "published_at": "2026-05-13T13:00:44Z",
-      "summary": "On its face the new Friend Bubbles feature looks simple enough. It highlights Reels your friends have watched and reacted to. But sometimes the features that seem the most straightforward require the deepest engineering ",
-      "tags": [
-        "meta"
       ]
     },
     {
