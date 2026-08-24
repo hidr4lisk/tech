@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-23T18:35:38Z",
+  "updated_at": "2026-08-24T01:39:14Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10603",
+      "project": "llama-cpp",
+      "version": "b10603",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10603",
+      "published_at": "2026-08-23T18:45:59Z",
+      "body_excerpt": "model : support MTP in GLM-4.5-Air (#26534) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10599",
       "project": "llama-cpp",
@@ -214,7 +223,7 @@
       "version": "v0.33.0-rc2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
       "published_at": "2026-08-21T22:52:46Z",
-      "body_excerpt": "What's Changed Claude Desktop Ollama now integrates with Claude Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang where agent clients that cancel long prefills Pr",
+      "body_excerpt": "What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trust",
       "type": "tool"
     },
     {
@@ -9989,51 +9998,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9329",
       "published_at": "2026-05-26T02:00:19Z",
       "body_excerpt": "CUDA: add fast walsh-hadamard transform (#23615) CUDA: add fast walsh-hadamard transform review: add unrolls + change size_t -> int warp size 64 --------- Co-authored-by: Johannes Gäßler macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9326",
-      "project": "llama-cpp",
-      "version": "b9326",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9326",
-      "published_at": "2026-05-26T00:32:13Z",
-      "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9320",
-      "project": "llama-cpp",
-      "version": "b9320",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9320",
-      "published_at": "2026-05-25T23:58:19Z",
-      "body_excerpt": "TP: fix ggml context size calculation (#22616) TP: fix ggml context size calculation, memory leak move split state cache back into the context revert to constant ggml context size for cgraphs increase headroom for statically allocated tensors remove obsolete include macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9319",
-      "project": "llama-cpp",
-      "version": "b9319",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9319",
-      "published_at": "2026-05-25T23:07:38Z",
-      "body_excerpt": "ggml: and (#22341) ggml: implement test: fix: memory breakdown for a model loaded with from a file is consistent with being loaded from a buffer fix: use Co-authored-by: Copilot fix: remove from fix: file offset calculation, rename to Co-authored-by: Copilot refactor: extract model loader bug fixes to another PR feat: add fix: always require a max expected size fix: change 's type to , change and ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9318",
-      "project": "llama-cpp",
-      "version": "b9318",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9318",
-      "published_at": "2026-05-25T20:25:36Z",
-      "body_excerpt": "server: MTP layer kv-cache should respect draft type ctk (#23646) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9315",
-      "project": "llama-cpp",
-      "version": "b9315",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9315",
-      "published_at": "2026-05-25T18:38:02Z",
-      "body_excerpt": "llama : document that only one on-device state can be saved per sequence (#23520) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andro",
       "type": "tool"
     }
   ]
