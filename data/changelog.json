@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-24T07:06:56Z",
+  "updated_at": "2026-08-24T12:58:32Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10608",
+      "project": "llama-cpp",
+      "version": "b10608",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10608",
+      "published_at": "2026-08-24T12:55:00Z",
+      "body_excerpt": "mtmd: video: fix moov atom at the end of file (#27596) mtmd: video: fix moov at the end of file Co-authored-by: rkfg fix SIGPIPE windows: handle broken pipe case --------- Co-authored-by: rkfg Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10606",
+      "project": "llama-cpp",
+      "version": "b10606",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10606",
+      "published_at": "2026-08-24T12:31:43Z",
+      "body_excerpt": "ggml : fix ggml_clamp (#27644) ggml : fix ggml_clamp cont : update ggml-alloc Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10605",
+      "project": "llama-cpp",
+      "version": "b10605",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10605",
+      "published_at": "2026-08-24T08:57:22Z",
+      "body_excerpt": "mamba2 : Flatten in/out projections to dispatch GEMM instead of GEMV (#27513) mamba2 : flatten mamba2 in/out projections to dispatch gemm instead of gemv mamba2 : remove redundant output reshape Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10604",
+      "project": "llama-cpp",
+      "version": "b10604",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10604",
+      "published_at": "2026-08-24T07:17:22Z",
+      "body_excerpt": "Deepseek 4: (#26490) DSV4: sm tensor set coarser granularity for head splits fix dspark add model saving for dsv4 + allow dflash to return on specific device add comment about dsv4 seq_rm simplify add shared expert delayed allreduce remove special test for dsv4 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10603",
       "project": "llama-cpp",
@@ -9953,15 +9989,6 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.42-beta",
       "published_at": "2026-05-26T14:36:14Z",
       "body_excerpt": "Hey guys, we're doing one more-ish update before a major revamp which is likely coming this week or next week. Our revamp will change a lot of things, especially with new major features and a lot of design changes. NEW: API calling support now with image generation + editing, proper web search, code execution, auto prompt caching. Connect OpenAI, Anthropic and more. should now work properly. For M",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9334",
-      "project": "llama-cpp",
-      "version": "b9334",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9334",
-      "published_at": "2026-05-26T09:00:23Z",
-      "body_excerpt": "CUDA: missing PDL sync for FWHT, better fallback (#23690) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Android: Android arm64 (CPU) Windows: Windows x64 (C",
       "type": "tool"
     }
   ]
