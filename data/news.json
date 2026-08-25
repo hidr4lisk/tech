@@ -1,13 +1,134 @@
 {
-  "updated_at": "2026-08-24T18:47:00Z",
+  "updated_at": "2026-08-25T01:34:11Z",
   "items": [
     {
-      "id": "localllama-2026-08-24-one-llm-wrote-a-trading-feature-another-reviewed-it-both-mis",
+      "id": "localllama-2026-08-25-scaffold-cot-a-cot-dataset-built-around-the-failures-of-smal",
       "source": "localllama",
-      "title": "One LLM wrote a trading feature. Another reviewed it. Both missed a future-data bug",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxajio/one_llm_wrote_a_trading_feature_another_reviewed/",
-      "published_at": "2026-08-24T18:09:22Z",
-      "summary": "      An AQuA research loop let one LLM write an intraday trading feature and a second LLM review it for causality. The feature divided the volume seen so far by the day&#39;s final total volume. At prediction time, that",
+      "title": "Scaffold CoT: A CoT dataset built around the failures of small model (>5B Params) free form thinking. Hope its useful to you guys!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxk6k1/scaffold_cot_a_cot_dataset_built_around_the/",
+      "published_at": "2026-08-25T00:12:55Z",
+      "summary": "TL;DR - A ~4M example, ~3B token CoT dataset designed around helping small models think more concisely, accurately and reliably. Hi all! For the past few months I have been working on a dataset designed around improving ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-260816157-freetoken-efficient-edge-native-moe-serving-with-b",
+      "source": "localllama",
+      "title": "[2608.16157] FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxjcsw/260816157_freetoken_efficient_edgenative_moe/",
+      "published_at": "2026-08-24T23:38:16Z",
+      "summary": "      Source of Claims: https://x.com/Andy_ShuoYang/status/2090856976880472439  Your gaming PC can now serve frontier models at interactive speed using official checkpoints without extreme quantization! Qwen3.6 35B → 8GB",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-i-just-tried-deepseek-harness-and-it-escaped-from-its-worksp",
+      "source": "localllama",
+      "title": "I just tried DeepSeek Harness and it escaped from its workspace folder",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxi7gp/i_just_tried_deepseek_harness_and_it_escaped_from/",
+      "published_at": "2026-08-24T22:50:49Z",
+      "summary": "It worked pretty well, digging through and analyzing some local files. Claude code regularly stops at some point and fails to continue while DSH worked for 2 h, recognized that it could benefit from reading more context ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-harness-for-non-coding-tasks",
+      "source": "localllama",
+      "title": "Harness for non-coding tasks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxhdjc/harness_for_noncoding_tasks/",
+      "published_at": "2026-08-24T22:17:21Z",
+      "summary": "What&#39;s the best harness for agentic workflows that&#39;s not coding related at all? My work involves digesting a set of documents, analyze/evaluate them, and produce certain set of work product documents, mostly for ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-the-journey-of-letting-qwen-3638-autonomously-coding-a-c-com",
+      "source": "localllama",
+      "title": "The journey of letting Qwen 3.6/3.8 autonomously coding a c compiler.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxg8be/the_journey_of_letting_qwen_3638_autonomously/",
+      "published_at": "2026-08-24T21:32:49Z",
+      "summary": "Hi,  Back in late march I begun playing around with Qwen 3.6 27b and found like everyone else that it&#39;s notoriously good at tool calls, where every model I tried before just derailed after a few turns it kept going a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-qwen-38-27b-nemotron-35-lightning-30b-a3b-ornith-15-35b-a3b",
+      "source": "localllama",
+      "title": "Qwen-3.8-27B, Nemotron-3.5-Lightning-30B-A3B, Ornith-1.5-35B-A3B, Muse-Glimmer-30B oQ8e comparison",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxg4vd/qwen3827b_nemotron35lightning30ba3b/",
+      "published_at": "2026-08-24T21:29:14Z",
+      "summary": "      Ornith does really well. TielCoder (https://llm-bench.io/benchmarks/cmt7kp2zj002r01lcmpchvlko) might be even a bit better in coding. Will give it a try soon. Details of the comparison see here: https://llm-bench.io",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-copilot-you-say",
+      "source": "localllama",
+      "title": "Copilot you say?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxescz/copilot_you_say/",
+      "published_at": "2026-08-24T20:39:33Z",
+      "summary": "      talking to any white collar employee  &#32; submitted by &#32;  /u/edge_compute_user   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-jetbrains-local-ai-using-qwen36-27b",
+      "source": "localllama",
+      "title": "JetBrains local AI (using Qwen3.6 27B)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxdvmv/jetbrains_local_ai_using_qwen36_27b/",
+      "published_at": "2026-08-24T20:06:20Z",
+      "summary": "      Sounds quite interesting, a big IDE provider optimizing for local AI with their coding harness. Especially that they picked Qwen3.6 over Qwen3.8 because of the thinking needs. Haven&#39;t read the full article yet,",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-please-join-rlowendlocalai-a-community-for-running-local-llm",
+      "source": "localllama",
+      "title": "Please join r/LowEndLocalAI, a community for running local LLMs on low spec hardware",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxd6yb/please_join_rlowendlocalai_a_community_for/",
+      "published_at": "2026-08-24T19:41:38Z",
+      "summary": "If you’re trying to run local LLMs on a normal laptop, an older desktop, integrated graphics, limited VRAM, or simply the hardware you already own, r/LowEndLocalAI is meant for you. The idea is simple: What useful things",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-qwen38-27b-rtx3090-httpsgithubcomsyv-aiqwen38-27b-rtx3090-is",
+      "source": "localllama",
+      "title": "qwen38-27b-rtx3090 (https://github.com/syv-ai/qwen38-27b-rtx3090) is extremely good with deepseek harness.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxch7l/qwen3827brtx3090/",
+      "published_at": "2026-08-24T19:15:40Z",
+      "summary": "With vision enabled I am able to run at 150k context on a single RTX 3090 and the results are just amazing. I was even able to write a gmail plugin for DeepSeek harness with locally hosted Qwen 3.8 27b. Funny enough, whe",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-planning-to-spend-100-benchmarking-differnet-qwen38-27b-quan",
+      "source": "localllama",
+      "title": "Planning to spend ~$100 benchmarking differnet Qwen3.8-27B quants and kv cache and looking for input before I start",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxc1gh/planning_to_spend_100_benchmarking_differnet/",
+      "published_at": "2026-08-24T19:00:54Z",
+      "summary": "TL;DR: I&#39;m planning to spend around $100 on cloud GPUs to benchmark Qwen3.8-27B with a focus on questions that actually matter when running it locally: different quant levels/providers, 8-bit vs 16-bit KV cache, GGUF",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-24-mobilemoe---a-facebook-collection",
+      "source": "localllama",
+      "title": "MobileMoE - a facebook Collection",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxbpcc/mobilemoe_a_facebook_collection/",
+      "published_at": "2026-08-24T18:49:26Z",
+      "summary": "      MobileMoE is a family of on-device Mixture-of-Experts (MoE) language models with sub-billion active parameters, designed to push the quality–efficiency Pareto frontier for on-device LLMs, including three model scal",
       "tags": [
         "localllama"
       ]
@@ -24,17 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-24-do-not-blindly-delete-your-older-models-some-are-still-preci",
-      "source": "localllama",
-      "title": "Do not blindly delete your older models, some are still precious",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx9xt0/do_not_blindly_delete_your_older_models_some_are/",
-      "published_at": "2026-08-24T17:48:23Z",
-      "summary": "I have deleted tons and tons of older models to make space since I can&#39;t afford storage anymore. Easily 10TB... Anyways, I have been considering deleting DeepSeekV3.2 but decide to run it one more time. I have a prob",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "meta-2026-08-24-mtia-300-metas-first-training-chip-with-built-in-nics-and-co",
       "source": "meta",
       "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
@@ -46,113 +156,14 @@
       ]
     },
     {
-      "id": "localllama-2026-08-24-how-would-you-test-qwen38-27b-inside-a-coding-agent",
-      "source": "localllama",
-      "title": "How would you test Qwen3.8-27B inside a coding agent?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx9ao5/how_would_you_test_qwen3827b_inside_a_coding_agent/",
-      "published_at": "2026-08-24T17:25:52Z",
-      "summary": "I got Qwen3.8-27B running locally and connected it to EvoX. Basic chat works. That is the easy part. I am trying to find out whether I would trust it once a coding task gets messy and the agent has to read a repository, ",
+      "id": "simonw-2026-08-24-llm-anthropic-027",
+      "source": "simonw",
+      "title": "llm-anthropic 0.27",
+      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+      "published_at": "2026-08-24T16:27:04Z",
+      "summary": "Release: llm-anthropic 0.27\n        This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2. OpenAI made ",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-this-is-what-qwen-38-27b-is-capable-of",
-      "source": "localllama",
-      "title": "This is what Qwen 3.8 27b is capable of",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx9302/this_is_what_qwen_38_27b_is_capable_of/",
-      "published_at": "2026-08-24T17:18:40Z",
-      "summary": "      Try it here: https://ocean.blackbeardlabs.dev/ Model: Qwen 3.8 27b Q8_X_KL Unsloth  Hardware: 3 x RTX3090  Harness:  DeepSeek Harness  Prompt: /goal I want you to create a **JavaScript + Node.js WebGL project** tha",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-qwen-38-27b-in-9th-position-on-code-arena-gemma-4-31b-is-80t",
-      "source": "localllama",
-      "title": "Qwen 3.8 27B in 9th position on code arena. Gemma 4 31B is 80th.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx7pdh/qwen_38_27b_in_9th_position_on_code_arena_gemma_4/",
-      "published_at": "2026-08-24T16:29:21Z",
-      "summary": "&#32; submitted by &#32;  /u/tarruda   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-best-local-vision-language-models---august-2026",
-      "source": "localllama",
-      "title": "Best Local Vision Language Models - August 2026",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx7ei1/best_local_vision_language_models_august_2026/",
-      "published_at": "2026-08-24T16:18:56Z",
-      "summary": "Share what your favorite models are right now and why. Given the nature of the beast in evaluating VLMs (untrustworthiness of benchmarks, immature tooling, intrinsic stochasticity), please be as detailed as possible in d",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-bart-a-vintage-llm",
-      "source": "localllama",
-      "title": "Bart: A vintage llm",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx7aci/bart_a_vintage_llm/",
-      "published_at": "2026-08-24T16:14:44Z",
-      "summary": "      after 3 months and $800 burned... Unbounded Labs is proud to introduce Bart, our vintage LLM: 2.82B parameters trained from scratch on 20.1B tokens of English written before 1931. You can talk to it right now! Demo",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-apple-m5-server",
-      "source": "localllama",
-      "title": "Apple M5 Server",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx6ivx/apple_m5_server/",
-      "published_at": "2026-08-24T15:47:16Z",
-      "summary": "      Credit to Twitter Post  &#32; submitted by &#32;  /u/Rymssss   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-whats-the-best-local-model-youve-found-for-8-gb-of-vram",
-      "source": "localllama",
-      "title": "What's the best local model you've found for 8 GB of VRAM?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx4k9g/whats_the_best_local_model_youve_found_for_8_gb/",
-      "published_at": "2026-08-24T14:34:40Z",
-      "summary": "I&#39;m curious what other people are using for local LLM coding / agentic coding with only 8 GB of VRAM. My current setup is:  Intel Core i7-11800H RTX 3070 Laptop, 8 GB VRAM 32 GB DDR4 RAM openSUSE Tumbleweed / KDE Uns",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-llamacpp-docs-now-have-a-new-home",
-      "source": "localllama",
-      "title": "llama.cpp docs now have a new home ❤️",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx4969/llamacpp_docs_now_have_a_new_home/",
-      "published_at": "2026-08-24T14:22:55Z",
-      "summary": "      &#32; submitted by &#32;  /u/unofficialmerve   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-paper-tomoe-converting-dense-large-language-models-to-mixtur",
-      "source": "localllama",
-      "title": "[Paper] ToMoE: Converting Dense Large Language Models to Mixture-of-Experts through Dynamic Structural Pruning",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx3img/paper_tomoe_converting_dense_large_language/",
-      "published_at": "2026-08-24T13:54:54Z",
-      "summary": "      ToMoE: Converting Dense Large Language Models to Mixture-of-Experts through Dynamic Structural Pruning  Large Language Models (LLMs) have demonstrated remarkable abilities in tackling a wide range of complex tasks.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-24-tielcoders-22-gb-4-bit-quant-matches-opus46-medium-on-recent",
-      "source": "localllama",
-      "title": "TielCoder's 22 GB 4-bit quant matches Opus4.6 medium on recent real life coding issues, surpassing KAT-Coder and Nail as strongest and fastest MoE picks.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx33zj/tielcoders_22_gb_4bit_quant_matches_opus46_medium/",
-      "published_at": "2026-08-24T13:38:52Z",
-      "summary": "      Qwen3.8-27B is amazing, but it’s slow. A stronger 35B-A3B Mixture of Experts-coder that can run and solve real codebase issues fast (even on constrained hardware) is a valuable addition to the arsenal. This one is ",
-      "tags": [
-        "localllama"
+        "simonw"
       ]
     },
     {
@@ -296,17 +307,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-20-a-shot-scraper-style-json-api-on-bun-14s-new-bunwebview",
-      "source": "simonw",
-      "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
-      "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
-      "published_at": "2026-08-20T15:37:00Z",
-      "summary": "Research: A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView\n        Today saw the long awaited release of Bun 1.4, the first stable version since the infamous Rust rewrite a few months ago.\nInterestingly, t",
-      "tags": [
-        "simonw"
       ]
     },
     {
