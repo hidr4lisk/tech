@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-25T01:34:16Z",
+  "updated_at": "2026-08-25T06:55:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10617",
+      "project": "llama-cpp",
+      "version": "b10617",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10617",
+      "published_at": "2026-08-25T06:44:51Z",
+      "body_excerpt": "sycl : mark tq2_0 as not supported (#27660) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10615",
       "project": "llama-cpp",
@@ -294,6 +303,15 @@
       "project": "ollama",
       "version": "v0.33.0-rc2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
+      "published_at": "2026-08-21T22:52:46Z",
+      "body_excerpt": "What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trust",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.33.0-rc3",
+      "project": "ollama",
+      "version": "v0.33.0-rc3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3",
       "published_at": "2026-08-21T22:52:46Z",
       "body_excerpt": "What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trust",
       "type": "tool"
@@ -9917,24 +9935,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9357",
       "published_at": "2026-05-27T10:17:48Z",
       "body_excerpt": "vulkan: avoid preferring transfer queue on AMD UMA devices (#22455) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Wind",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9354",
-      "project": "llama-cpp",
-      "version": "b9354",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9354",
-      "published_at": "2026-05-27T06:00:03Z",
-      "body_excerpt": "convert: add MiniCPM5 tokenizer support (#23384) Add minicpm5 pre-tokenizer hash via convert_hf_to_gguf_update.py and implement hardcoded regex handling in llama-vocab.cpp, consistent with other BPE pre-tokenizers. Co-authored-by: zhangtao macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9353",
-      "project": "llama-cpp",
-      "version": "b9353",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9353",
-      "published_at": "2026-05-27T05:48:48Z",
-      "body_excerpt": "server : fix the log message when using SSL (#23393) When llama-server is started with SSL key and cert, the log says that it listens on http instead of https. This patch fixes this. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vu",
       "type": "tool"
     }
   ]
