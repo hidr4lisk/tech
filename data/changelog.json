@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-25T12:54:37Z",
+  "updated_at": "2026-08-25T18:45:02Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10628",
+      "project": "llama-cpp",
+      "version": "b10628",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10628",
+      "published_at": "2026-08-25T18:06:50Z",
+      "body_excerpt": "rpc: support apple RDMA as an RPC transport (#26421) rpc: support apple RDMA as an RPC transport remove set_tensor micro optimization, rpc socket pinning per CR remove transparent reconnect trigger apple builds on RPC changes --------- Co-authored-by: Ryan Churaman Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10625",
+      "project": "llama-cpp",
+      "version": "b10625",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10625",
+      "published_at": "2026-08-25T17:26:21Z",
+      "body_excerpt": "chat : scope qwen3-coder workarounds (#27679) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android:",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.803-beta",
+      "project": "unsloth",
+      "version": "v0.1.803-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.803-beta",
+      "published_at": "2026-08-25T13:12:45Z",
+      "body_excerpt": "Thanks for the support for Qwen3.8-27B and Unsloth Desktop! This is a bug fix release with 170+ PRs. MLX fixed - Some MLX and Mac runtimes did not run correctly LAN API keyless / password-less + Keyboard shortcuts XET / HTTP download toggle - clearer download progress AMD bug fixes + 170 bug, reliability & performance fixes Features Auto Compaction (Experimental) for longer chats beyond context li",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10622",
       "project": "llama-cpp",
@@ -767,6 +794,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-ibm-granite-granite-speech-5.0-470m-turboctc-nc",
+      "project": "ibm-granite",
+      "version": "granite-speech-5.0-470m-turboctc-nc",
+      "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc-nc",
+      "published_at": "2026-08-17T17:29:48Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b10472",
       "project": "llama-cpp",
       "version": "b10472",
@@ -1136,6 +1172,87 @@
       "type": "tool"
     },
     {
+      "id": "hf-ibm-granite-granite-4.2-8b-nvfp4",
+      "project": "ibm-granite",
+      "version": "granite-4.2-8b-nvfp4",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b-nvfp4",
+      "published_at": "2026-08-13T21:05:48Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-8b-mxfp4",
+      "project": "ibm-granite",
+      "version": "granite-4.2-8b-mxfp4",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b-mxfp4",
+      "published_at": "2026-08-13T21:05:29Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-8b-fp8",
+      "project": "ibm-granite",
+      "version": "granite-4.2-8b-fp8",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b-fp8",
+      "published_at": "2026-08-13T21:05:07Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-3b-nvfp4",
+      "project": "ibm-granite",
+      "version": "granite-4.2-3b-nvfp4",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b-nvfp4",
+      "published_at": "2026-08-13T21:04:44Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-3b-mxfp4",
+      "project": "ibm-granite",
+      "version": "granite-4.2-3b-mxfp4",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b-mxfp4",
+      "published_at": "2026-08-13T21:04:23Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-3b-fp8",
+      "project": "ibm-granite",
+      "version": "granite-4.2-3b-fp8",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b-fp8",
+      "published_at": "2026-08-13T21:03:50Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-30b-nvfp4",
+      "project": "ibm-granite",
+      "version": "granite-4.2-30b-nvfp4",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-30b-nvfp4",
+      "published_at": "2026-08-13T21:03:19Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-30b-mxfp4",
+      "project": "ibm-granite",
+      "version": "granite-4.2-30b-mxfp4",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-30b-mxfp4",
+      "published_at": "2026-08-13T21:02:51Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-30b-fp8",
+      "project": "ibm-granite",
+      "version": "granite-4.2-30b-fp8",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-30b-fp8",
+      "published_at": "2026-08-13T21:02:02Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b10417",
       "project": "llama-cpp",
       "version": "b10417",
@@ -1296,6 +1413,33 @@
       "published_at": "2026-08-12T22:36:49Z",
       "body_excerpt": "What's Changed Models that don't set a now default to 1.0 (off) instead of 1.1, matching other engines and speeding up speculative decoding; set a per-model parameter if an older model repeats itself. Faster prefill on NVFP4 MLX models with a global scale, about 7–8% on Qwen3.6 and Muse Glimmer. Fixed blob verification being skipped when an OCI manifest's config and layer share a digest. New Contr",
       "type": "tool"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-30b-GGUF",
+      "project": "ibm-granite",
+      "version": "granite-4.2-30b-GGUF",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-30b-GGUF",
+      "published_at": "2026-08-12T15:58:46Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-8b-GGUF",
+      "project": "ibm-granite",
+      "version": "granite-4.2-8b-GGUF",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b-GGUF",
+      "published_at": "2026-08-12T15:58:45Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-3b-GGUF",
+      "project": "ibm-granite",
+      "version": "granite-4.2-3b-GGUF",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b-GGUF",
+      "published_at": "2026-08-12T15:58:45Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10375",
@@ -1719,6 +1863,24 @@
       "published_at": "2026-08-07T16:58:40Z",
       "body_excerpt": "server: (router) add LRU scheduler (#26572) add lru_sched handle coalescing (req leaves waiting queue) add tests fix stream case address review comments Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu",
       "type": "tool"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-30b",
+      "project": "ibm-granite",
+      "version": "granite-4.2-30b",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-30b",
+      "published_at": "2026-08-07T16:29:50Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-8b",
+      "project": "ibm-granite",
+      "version": "granite-4.2-8b",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b",
+      "published_at": "2026-08-07T16:29:09Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10312",
@@ -9899,87 +10061,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.2",
       "published_at": "2026-05-27T22:06:52Z",
       "body_excerpt": "What's Changed 👒 Dependencies chore(deps): bump github.com/nats-io/nats.go from 1.50.0 to 1.52.0 by @dependabot[bot] in chore(deps): bump github.com/aws/aws-sdk-go-v2/credentials from 1.19.15 to 1.19.17 by @dependabot[bot] in chore(deps): bump actions/stale from 10.2.0 to 10.3.0 by @dependabot[bot] in chore(deps): bump sentence-transformers from 5.5.0 to 5.5.1 in /backend/python/transformers by @d",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9370",
-      "project": "llama-cpp",
-      "version": "b9370",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9370",
-      "published_at": "2026-05-27T18:23:57Z",
-      "body_excerpt": "hexagon: add support for Q4_1 in MUL_MAT and MUL_MAT_ID (#23647) hex-mm: add support for Q4_1 matmul/matvec, hvx-only for now hmx-mm: add support for Q4_1 hex-mm: use Q8_1 dynamic quantization to avoid having to compute sums in the vec_dot hexagon: fix repack scratch buffer overflow hex-mm: fix Q4_1 repack buffer sizing hexagon: flip the build order for mm and fa (seems to help LTO) hex-mm: add ve",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9368",
-      "project": "llama-cpp",
-      "version": "b9368",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9368",
-      "published_at": "2026-05-27T18:12:11Z",
-      "body_excerpt": "vulkan: Switch MUL_MAT_VEC to 4 K per iteration for F16/32 (#22887) vulkan: Switch MUL_MAT_VEC to 4 K per iteration for F16/32 Against mesa git, this shows a 4.8% performance improvement for tg128 on Qwen3.5-9B:BF16 on Intel BMG. Note that this breaks some tests until the last commit which fixes OOB A reads. vulkan: Use aligned loads in mul_mat_vec when available Against mesa git, this shows a 3.3",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Qwen3.6-35B-A3B-NVFP4",
-      "project": "nvidia",
-      "version": "Qwen3.6-35B-A3B-NVFP4",
-      "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
-      "published_at": "2026-05-27T18:09:46Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9369",
-      "project": "llama-cpp",
-      "version": "b9369",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9369",
-      "published_at": "2026-05-27T17:40:25Z",
-      "body_excerpt": "ggml-webgpu: Fix how to dispatch WG to some ops (#23750) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Window",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9367",
-      "project": "llama-cpp",
-      "version": "b9367",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9367",
-      "published_at": "2026-05-27T17:35:51Z",
-      "body_excerpt": "vulkan: use GL_NV_cooperative_matrix_decode_vector for faster matmul (#23541) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Andro",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9366",
-      "project": "llama-cpp",
-      "version": "b9366",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9366",
-      "published_at": "2026-05-27T17:32:08Z",
-      "body_excerpt": "vulkan: add REPEAT op support for f16 to f16. (#23298) feat: extend repeat op for vulkan feat: add repeat_f16 vulkan pipeline fix: ensure same dst and src types fix: use type_size instead of data types fix: use int16 and int32 for repeat shader op chore: rename repeat_f to repeat_i chore: rename repeat vulkan pipelines macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9365",
-      "project": "llama-cpp",
-      "version": "b9365",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9365",
-      "published_at": "2026-05-27T17:05:13Z",
-      "body_excerpt": "ci : move ARM jobs to self-hosted + disable kleidiai mac release (#23780) ci : move ARM jobs to 3rd-party runners + disable kleidiai release cont : fix deps + fix names ocd : fix names cont : fix PR links macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubunt",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-GR00T-N1.5-3B_Assemble_Trocar",
-      "project": "nvidia",
-      "version": "GR00T-N1.5-3B_Assemble_Trocar",
-      "url": "https://huggingface.co/nvidia/GR00T-N1.5-3B_Assemble_Trocar",
-      "published_at": "2026-05-27T14:49:22Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9360",
-      "project": "llama-cpp",
-      "version": "b9360",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9360",
-      "published_at": "2026-05-27T13:13:43Z",
-      "body_excerpt": "common : fix env names to all have LLAMA_ARG_ prefix (#23778) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: W",
       "type": "tool"
     }
   ]

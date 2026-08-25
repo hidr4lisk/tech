@@ -1,24 +1,145 @@
 {
-  "updated_at": "2026-08-25T12:54:33Z",
+  "updated_at": "2026-08-25T18:44:55Z",
   "items": [
     {
-      "id": "localllama-2026-08-25-quantization-aware-healing-a-compressed-4-bit-model-that-out",
+      "id": "localllama-2026-08-25-about-the-huggingface-sale",
       "source": "localllama",
-      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxyiko/quantizationaware_healing_a_compressed_4bit_model/",
-      "published_at": "2026-08-25T12:31:26Z",
-      "summary": "      &#32; submitted by &#32;  /u/Decent-Hat-5807   [link] &#32; [comments] ",
+      "title": "About the Huggingface sale..",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy71my/about_the_huggingface_sale/",
+      "published_at": "2026-08-25T17:51:51Z",
+      "summary": ".. didn&#39;t llama.cpp aka ggml get acquired by Huggingface not too long ago? How would this sale affect llama.cpp and ggml? What are possible risks, and did ggerganov share his opinions or potential next steps on the m",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-25-qwen-38-flash-next-day-0-support-from-unsloth",
+      "id": "localllama-2026-08-25-qwen38-flash-next-this-architecture-could-be-surprisingly-lo",
       "source": "localllama",
-      "title": "Qwen 3.8 Flash Next day 0 support from unsloth",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxybmy/qwen_38_flash_next_day_0_support_from_unsloth/",
-      "published_at": "2026-08-25T12:23:11Z",
-      "summary": "      Prepare your disk space guys   &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "title": "Qwen3.8-Flash-Next. This architecture could be surprisingly local-friendly once the weights drop. 👀",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy6smx/qwen38flashnext_this_architecture_could_be/",
+      "published_at": "2026-08-25T17:42:49Z",
+      "summary": "      Qwen3.8-Flash-Next (~125B-A6B + 51B n-gram) memory estimate: Ideal 4-bit quant ≈ 82 GB (58 GB main weights + 24 GB n-gram tables) Real-world quants likely land in the 80–90 GB range. The big n-gram table is sparsel",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-cnbc-television-nvidia-partner-with-perplexity-ai-to-run-loc",
+      "source": "localllama",
+      "title": "CNBC Television: Nvidia partner with Perplexity AI to run locally in DGX Spark.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy6mjb/cnbc_television_nvidia_partner_with_perplexity_ai/",
+      "published_at": "2026-08-25T17:36:50Z",
+      "summary": "      &#32; submitted by &#32;  /u/dd32x   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-re-done-benchmarks-for-v620-on-windowsrocm-vulkan",
+      "source": "localllama",
+      "title": "Re-done benchmarks for V620 on Windows/ROCm & Vulkan",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy3t5h/redone_benchmarks_for_v620_on_windowsrocm_vulkan/",
+      "published_at": "2026-08-25T15:56:44Z",
+      "summary": "I&#39;m here to show some benchmarks while using llama.cpp with an AMD V620 on Windows 11 via Vulkan &amp; ROCm. These have been reuploaded &amp; older threads deleted ran it with longer tokens thanks to a rec by someone",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-mac-studio-m5-max-cost-analysis",
+      "source": "localllama",
+      "title": "Mac Studio M5 Max Cost Analysis",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy3lsp/mac_studio_m5_max_cost_analysis/",
+      "published_at": "2026-08-25T15:49:20Z",
+      "summary": "At $10k, you could get - 6.2B tokens with Qwen 3.8 Max (Qwen Pro plan) - 5.7B tokens with DeepSeek V4 Pro OpenRouter - 100B tokens with DeepSeek V4 Flash OpenRouter As a firm believer of local inference, unless you need ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-08-25-granite-42-llms-how-theyre-built",
+      "source": "huggingface",
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "published_at": "2026-08-25T15:14:14Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-ibm-granitegranite-42-30b-hugging-face",
+      "source": "localllama",
+      "title": "ibm-granite/granite-4.2-30b · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy2jz7/ibmgranitegranite4230b_hugging_face/",
+      "published_at": "2026-08-25T15:10:57Z",
+      "summary": "      Granite-4.2-30B is the flagship reasoning model in the Granite 4.2 family. It delivers the strongest performance across reasoning-intensive tasks by leveraging built-in &lt;think&gt;...&lt;/think&gt; chain-of-thoug",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-12-abliterated-gemma-4-12b-variants-one-base-165-gpu-hours",
+      "source": "localllama",
+      "title": "12 abliterated Gemma 4 12B variants, one base, 165 GPU hours - Abliterlitics",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy1q1l/12_abliterated_gemma_4_12b_variants_one_base_165/",
+      "published_at": "2026-08-25T14:39:42Z",
+      "summary": "I ran 11 uncensored variants of Gemma 4 12B that I grabbed from huggingface, sorting by downloads. 10 full abliterations plus 2 LoRA adapters which were requested to be added in the comparison, against the official base.",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-intel-arc-pro-b60-dual-48g-spotted",
+      "source": "localllama",
+      "title": "Intel Arc Pro B60 Dual 48G spotted",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy1g90/intel_arc_pro_b60_dual_48g_spotted/",
+      "published_at": "2026-08-25T14:29:04Z",
+      "summary": "      I spotted the Dual B60 48GB listed on Digitec/Galaxus. Initially it was said these wouldn&#39;t go into standard retail channels. At CHF 2500 (post tax, USD ~3000) not particularly competitive but worth keeping an ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-me-to-the-model-i-spent-all-weekend-fine-tuning",
+      "source": "localllama",
+      "title": "me to the model I spent all weekend fine-tuning",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy0knv/me_to_the_model_i_spent_all_weekend_finetuning/",
+      "published_at": "2026-08-25T13:55:57Z",
+      "summary": "      I just can&#39;t resist  &#32; submitted by &#32;  /u/close_Meal6005   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new",
+      "source": "localllama",
+      "title": "Apple unveils a more powerful Mac mini featuring the all-new M6 and M5 Pro",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy09xv/apple_unveils_a_more_powerful_mac_mini_featuring/",
+      "published_at": "2026-08-25T13:44:25Z",
+      "summary": "      &quot;A 12-core GPU, also with two more cores than before, now includes Neural Accelerators in each core for the first time on Mac mini, resulting in up to 4x faster AI performance and 2x faster graphics than Mac m",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-qwen-4-architecture-what-do-we-know",
+      "source": "localllama",
+      "title": "Qwen 4 architecture: What do we know?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxzjps/qwen_4_architecture_what_do_we_know/",
+      "published_at": "2026-08-25T13:15:12Z",
+      "summary": "My best bet is the embedding-offloaded linear where the 51b n-grams track semantics and context, like 3.8 with its loss of real world knowledge bolted back on. Otherwise? Sparse full-attention with dense routing? 6b acti",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-apple-releases-m5-ultra-at-12tbs-bandwith",
+      "source": "localllama",
+      "title": "Apple releases M5 ultra at 1.2TB/s bandwith",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxzgyt/apple_releases_m5_ultra_at_12tbs_bandwith/",
+      "published_at": "2026-08-25T13:12:03Z",
+      "summary": "      lpddr5x probably, the m7 ultra if is using ddr6 should be at 1.8 Tb/s  &#32; submitted by &#32;  /u/Last-Owl-8342   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -32,116 +153,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-new-llamacpp-adaptive-speculation-for-faster-inference",
-      "source": "localllama",
-      "title": "New: Llama.cpp adaptive speculation for faster inference",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxxa9x/new_llamacpp_adaptive_speculation_for_faster/",
-      "published_at": "2026-08-25T11:35:40Z",
-      "summary": "We have been working on some performance optimisations for Qwen3.8 and other models.  The main new feature that we introduced is adaptive speculation for Llama.cpp What is it? MTP and DFlash work well to speed up inferen",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-qwen38-flash-next",
-      "source": "localllama",
-      "title": "Qwen3.8 flash next",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxwu4g/qwen38_flash_next/",
-      "published_at": "2026-08-25T11:13:41Z",
-      "summary": "      &#32; submitted by &#32;  /u/RuthlessCriticismAll   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-qwen38-flash-next-tomorrow",
-      "source": "localllama",
-      "title": "Qwen3.8-Flash-Next tomorrow",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxwtyd/qwen38flashnext_tomorrow/",
-      "published_at": "2026-08-25T11:13:28Z",
-      "summary": "      &#32; submitted by &#32;  /u/rerri   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-glm-53-flash",
-      "source": "localllama",
-      "title": "Glm 5.3 flash?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxvth7/glm_53_flash/",
-      "published_at": "2026-08-25T10:21:03Z",
-      "summary": "      glm 5.3 flash While awaiting the release of the version 5.3 weights, this theory is gaining ground. OxAlpha is new GLM.  &#32; submitted by &#32;  /u/LegacyRemaster   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-tencentwemm-embedding-9b4b2b",
-      "source": "localllama",
-      "title": "tencent/WeMM-Embedding 9B/4B/2B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxv1iv/tencentwemmembedding_9b4b2b/",
-      "published_at": "2026-08-25T09:36:41Z",
-      "summary": "WeMM-Embedding-9B is a universal multimodal embedding model built on Qwen3.5. It accepts text, images, videos, visual documents, and interleaved multimodal inputs, and returns a 4,096-dimensional L2-normalized embedding.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-how-many-of-you-are-using-kiwixoffline-wikipedia-for-trainin",
-      "source": "localllama",
-      "title": "How many of you are using Kiwix/offline Wikipedia for training?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxtocq/how_many_of_you_are_using_kiwixoffline_wikipedia/",
-      "published_at": "2026-08-25T08:15:14Z",
-      "summary": "We are seeing every so often people mentioning using Kiwix or offline Wikipedia for training. It is not something Kiwix is actively involved in (as in, people found us rather than the other way around, and no one on the ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-fixed-7900-xtx-headless-linux-crashes-low-ram-oom-amdgpurunp",
-      "source": "localllama",
-      "title": "FIXED 7900 xtx + headless Linux crashes (Low RAM OOM) amdgpu.runpm=0",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxrh99/fixed_7900_xtx_headless_linux_crashes_low_ram_oom/",
-      "published_at": "2026-08-25T06:06:18Z",
-      "summary": "TL:DR: power management was doing auto-suspend and dumping model weights into RAM. Models weights 18gb+ RAM 16gb = no Bueno immediate crash. amdgpu.runpm=0 in your grub disables runtime power management, problem fixed.  ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-today-i-merged-the-first-feature-branch-written-entirely-by",
-      "source": "localllama",
-      "title": "Today I merged the first feature branch written entirely by my 4060Ti 16GB!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxpa9y/today_i_merged_the_first_feature_branch_written/",
-      "published_at": "2026-08-25T04:06:49Z",
-      "summary": "      Howdy folks, You might (or likely not) know me around here with shilling of Pi harness, and the use of Pi as productivity assistant and KB manager. Lately,  I have also been telling anyone who listens to try Qwen 3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-spent-a-day-seeing-how-far-extreme-moe-models-can-be-pushed",
-      "source": "localllama",
-      "title": "Spent a day seeing how far extreme MoE models can be pushed on a 4070 Ti + 32GB RAM. Kimi K3, DeepSeek V4 Flash, and Qwen3.5-122B results + research paper🔧",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxoif0/spent_a_day_seeing_how_far_extreme_moe_models_can/",
-      "published_at": "2026-08-25T03:28:19Z",
-      "summary": "I’ve been experimenting with a custom inference/runtime research project called CRANE V2, mostly because I wanted to answer a stupid question: How far can you push absurdly large MoE models on an ordinary consumer Window",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-qwen-38-27b-with-tools-and-directed-search-on-a-non-coding-p",
-      "source": "localllama",
-      "title": "Qwen 3.8 27b with tools and directed search on a non-coding professional suite",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxk763/qwen_38_27b_with_tools_and_directed_search_on_a/",
-      "published_at": "2026-08-25T00:13:37Z",
-      "summary": "Some data showing the value of tools on the professional intelligence of Qwen 3.8 27b. My workload with Qwen focuses on real estate, private equity, and adjacent finance stuff. It&#39;s not the typical coding domain, so ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -403,17 +414,6 @@
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
       "published_at": "2026-08-13T17:16:04Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-08-13-what-we-learned-by-reproducing-2200-papers-from-icml",
-      "source": "huggingface",
-      "title": "What We Learned by Reproducing 2,200 papers from ICML",
-      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "published_at": "2026-08-13T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"
