@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-08-25T06:55:25Z",
+  "updated_at": "2026-08-25T12:54:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10622",
+      "project": "llama-cpp",
+      "version": "b10622",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10622",
+      "published_at": "2026-08-25T12:16:56Z",
+      "body_excerpt": "metal : null-check buffer alloc to fix OOM crash (#25371) metal : null-check ggml_metal_buffer_init result to avoid OOM crash ggml_backend_metal_buffer_type_alloc_buffer used the result of ggml_metal_buffer_init without checking for NULL. ggml_metal_buffer_init returns NULL when the underlying Metal allocation fails (e.g. an out-of-memory condition), and the following ggml_metal_buffer_is_shared(r",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.802-beta",
+      "project": "unsloth",
+      "version": "v0.1.802-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.802-beta",
+      "published_at": "2026-08-25T11:27:29Z",
+      "body_excerpt": "Thanks for the support for Qwen3.8-27B and Unsloth Desktop! This is a bug fix release with 170+ PRs. MLX fixed - Some MLX and Mac runtimes did not run correctly LAN API keyless / password-less is now supported XET / HTTP download toggle - clearer download progress AMD bug fixes for Strix Halo, all RDNA GPUs + 170 bug fixes Features Auto Compaction (Experimental) for longer chats beyond context lim",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-v0.3.0",
+      "project": "llama-cpp",
+      "version": "v0.3.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.3.0",
+      "published_at": "2026-08-25T10:22:58Z",
+      "body_excerpt": "## Overview llama.cpp 0.3.0 introduces the dots3-note multimodal model (with a new DSA-ISWA KV cache), MTP support for GLM-4.5-Air, and tensor-split () plus multi-sequence rollback fixes for DeepSeek 4. ggml is bumped to v0.22.0 (meta-backend tensor split, per-op Metal kernels with parallel compilation, non-in-place ), while mtmd gains dots3-note vision/audio, WebP decoding and a Pillow-accurate r",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10621",
+      "project": "llama-cpp",
+      "version": "b10621",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10621",
+      "published_at": "2026-08-25T10:17:02Z",
+      "body_excerpt": "llama.cpp : bump version to 0.3.0 (#27696) llama.cpp : bump version to 0.3.0 ci : update release default desc scripts : add prompt for generating release summary Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10620",
+      "project": "llama-cpp",
+      "version": "b10620",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10620",
+      "published_at": "2026-08-25T09:34:33Z",
+      "body_excerpt": "sync : ggml Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wind",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10618",
+      "project": "llama-cpp",
+      "version": "b10618",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10618",
+      "published_at": "2026-08-25T07:06:56Z",
+      "body_excerpt": "grammar : parse \\- in char classes as literal hyphen (#27591) grammar : accept \"\\-\" escape in character classes gbnf_escape_char_class() escapes '-' as \"\\-\" but parse_char() rejected that escape, so generated tool-call grammars failed to parse. Assisted-by: Claude Code tests : add parser test for \"\\-\" in char classes Assisted-by: Claude Code tests : add integration test for \"\\-\" in char classes As",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10617",
       "project": "llama-cpp",
@@ -9926,15 +9980,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9360",
       "published_at": "2026-05-27T13:13:43Z",
       "body_excerpt": "common : fix env names to all have LLAMA_ARG_ prefix (#23778) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: W",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9357",
-      "project": "llama-cpp",
-      "version": "b9357",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9357",
-      "published_at": "2026-05-27T10:17:48Z",
-      "body_excerpt": "vulkan: avoid preferring transfer queue on AMD UMA devices (#22455) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Wind",
       "type": "tool"
     }
   ]
