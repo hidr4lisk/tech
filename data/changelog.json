@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-08-26T06:56:11Z",
+  "updated_at": "2026-08-26T13:00:41Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10636",
+      "project": "llama-cpp",
+      "version": "b10636",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10636",
+      "published_at": "2026-08-26T12:44:43Z",
+      "body_excerpt": "ci: Clean up UI builds from releases (#27706) ci : inline UI version resolution into ui-build.yml ci : build UI once and reuse the artifact in release jobs Server jobs now extract the ui-build artifact into tools/ui/dist instead of npm-building the UI. Also removes the get-version job and the no-op -DHF_UI_VERSION flags. Assisted-by: pi:Kimi-K3 ui : disable the npm UI build by default (LLAMA_BUILD",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.16.0",
+      "project": "transformers",
+      "version": "v5.16.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+      "published_at": "2026-08-26T12:35:15Z",
+      "body_excerpt": "Release v5.16.0 New Model additions Qwen4-Exp Qwen4-Exp builds on Qwen3.5's hybrid text and multimodal architecture with three key components: GatedResidual (GR), Qwen Sparse Attention (QSA), and Per-Layer Embedding (PLE). GR is a Qwen-developed residual architecture that combines Hyper-Connection with GatedNorm. It mixes multiple residual streams with fine-grained elementwise gating before each a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10635",
+      "project": "llama-cpp",
+      "version": "b10635",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10635",
+      "published_at": "2026-08-26T11:32:54Z",
+      "body_excerpt": "cuda: unblock mmq for MoE on sm_60 (#26264) cuda: unblock mmq for MoE on sm_60 cuda: duplicate mmq-config-pascal for dp4a and older cuda: reduce occupancy on non-dp4a pascal for Q2_K, Q4_K, Q5_K, Q6_K Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.28.0",
+      "project": "vllm",
+      "version": "v0.28.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "published_at": "2026-08-26T09:46:30Z",
+      "body_excerpt": "v0.28.0 Highlights This release features 584 commits from 270 contributors (76 new)! Kimi-K3 performance push: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation support for MegaMoE (#50510), GEMM-RS for sequence parallelism (#52079), combined all-gathers with",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10632",
+      "project": "llama-cpp",
+      "version": "b10632",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10632",
+      "published_at": "2026-08-26T09:29:44Z",
+      "body_excerpt": "ggml-metal: add chunked SSD MMA for Mamba-2 prefill optimization (#26647) metal: WIP chunked SSD SSM_SCAN kernels for multi-token prefill metal: drop scalar SSD path; MMA + sequential tail drop WIP ssm scan test noise remove state_from_dst and rename CS and NSG constants remove unrelated added whitespace padding added clarity to mma_tokens calculation added clarity to use_mma bool checks added com",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10631",
       "project": "llama-cpp",
@@ -180,6 +225,24 @@
       "published_at": "2026-08-24T08:57:22Z",
       "body_excerpt": "mamba2 : Flatten in/out projections to dispatch GEMM instead of GEMV (#27513) mamba2 : flatten mamba2 in/out projections to dispatch gemm instead of gemv mamba2 : remove redundant output reshape Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390",
       "type": "tool"
+    },
+    {
+      "id": "hf-Qwen-Qwen3.8-Flash-Next-FP8",
+      "project": "Qwen",
+      "version": "Qwen3.8-Flash-Next-FP8",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8",
+      "published_at": "2026-08-24T08:25:23Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-Qwen3.8-Flash-Next",
+      "project": "Qwen",
+      "version": "Qwen3.8-Flash-Next",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "published_at": "2026-08-24T08:24:59Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10604",
@@ -10061,15 +10124,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.3",
       "published_at": "2026-05-28T13:04:11Z",
       "body_excerpt": "What's Changed Other Changes chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in chore(model-gallery): :arrow_up: update checksum by @localai-bot in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in chore: :arrow_up: Update leejet/stable-diffusion.cpp to by @localai-bot in chore: :arrow_up: Update ggml-org/whisper.cpp to by @localai-bot in chore: :arrow_up: Update",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9374",
-      "project": "llama-cpp",
-      "version": "b9374",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9374",
-      "published_at": "2026-05-28T12:50:26Z",
-      "body_excerpt": "ci : refactor (#23789) ci : separate CUDA windows workflow + fix names ci : rename workflow ci : prefix cache names with workflow name ci : rename build.yml -> build-cpu.yml ci : cache keys ci : fix windows cuda/hip concurrency of release workflow ci : fix apple cache names ci : add TODOs cont : keep just the last cache ci : update release concurrency to queue ci : move the release trigger to ubun",
       "type": "tool"
     }
   ]
