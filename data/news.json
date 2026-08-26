@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-08-25T18:44:55Z",
+  "updated_at": "2026-08-26T01:38:55Z",
   "items": [
+    {
+      "id": "localllama-2026-08-26-fully-quantized-nvfp4-qwen38-27b-with-quasar-qad",
+      "source": "localllama",
+      "title": "Fully quantized NVFP4 Qwen3.8-27B with QUASAR QAD",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyie86/fully_quantized_nvfp4_qwen3827b_with_quasar_qad/",
+      "published_at": "2026-08-26T01:04:56Z",
+      "summary": "      We&#39;re releasing a fully quantized NVFP4 version of Qwen3.8-27B. The checkpoint was trained using quantization-aware distillation (QAD) with QUASAR, our new QAT algorithm. We used the original BF16 model as the ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-26-qwen38-27b-iq3-xxs-wrote-a-correct-multilayer-tmm-on-a-16-gb",
+      "source": "localllama",
+      "title": "Qwen3.8-27B IQ3_XXS wrote a correct multilayer TMM on a 16 GB Quadro — after 100 minutes, 3 compactions, and 108k output tokens",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyhcz3/qwen3827b_iq3_xxs_wrote_a_correct_multilayer_tmm/",
+      "published_at": "2026-08-26T00:19:09Z",
+      "summary": "      https://preview.redd.it/i8rjx0ar5mlh1.png?width=2160&amp;format=png&amp;auto=webp&amp;s=c2588bc7b2519ea71b176ca73faf566dfc585496 I wanted to see whether a heavily quantized 27B model running entirely on an older 16",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-m5-ultra-96gb-vs-m5-max-128gb-is-2x-bandwidth-worth-losing-3",
+      "source": "localllama",
+      "title": "M5 Ultra 96GB vs M5 Max 128GB — is 2x bandwidth worth losing 32GB of RAM, with Qwen3.8-Flash-Next dropping tomorrow?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyfved/m5_ultra_96gb_vs_m5_max_128gb_is_2x_bandwidth/",
+      "published_at": "2026-08-25T23:16:37Z",
+      "summary": "I’ve been going back and forth on this for a week and I can’t settle it, so I’m hoping someone here has hands-on numbers. The two configs (German prices, dealer quote, incl. VAT):   Config Price    Mac Studio M5 Max, 128",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-qwen-38-27b-has-threejs-locked-down",
+      "source": "localllama",
+      "title": "Qwen 3.8 27b has ThreeJs locked down.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyewwd/qwen_38_27b_has_threejs_locked_down/",
+      "published_at": "2026-08-25T22:37:04Z",
+      "summary": "      Generated on a 3090 Qwen 3.8 27b Q4 Thinking high.   &#32; submitted by &#32;  /u/Both_Opportunity5327   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-peak-portable-personal-datacenter",
+      "source": "localllama",
+      "title": "Peak Portable Personal Datacenter",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyephx/peak_portable_personal_datacenter/",
+      "published_at": "2026-08-25T22:28:30Z",
+      "summary": "      Portable rig for Qwen3.8-27B-BF16 200K+ token prompts. My work Panasonic Toughbook + the T1 + power brick + headphones all fit in my lunchbox.  Need the BF16 for huge context highly sensitive document OCR, image an",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-its-here",
+      "source": "localllama",
+      "title": "It's here!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vycbqw/its_here/",
+      "published_at": "2026-08-25T20:57:18Z",
+      "summary": "mrburns_excellent.gif  &#32; submitted by &#32;  /u/funding__secured   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-35b-a3b-tool-calling-benchmark-original-qwen-vs-kat-coder-or",
+      "source": "localllama",
+      "title": "35B-A3B tool calling benchmark: Original Qwen vs. KAT Coder, Ornith and Tiel-Coder",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyaxip/35ba3b_tool_calling_benchmark_original_qwen_vs/",
+      "published_at": "2026-08-25T20:07:51Z",
+      "summary": "      With hopes of a Qwen3.8-35B-A3B release now mostly dashed, many people including myself are looking at fine-tunes and other variants of Qwen3.6-35B-A3B to run on VRAM-limited hardware. I decided to try to benchmark",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-how-to-run-llms-as-regular-guy-with-low-resources",
+      "source": "localllama",
+      "title": "How to run LLMs as regular guy with low resources?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyajjd/how_to_run_llms_as_regular_guy_with_low_resources/",
+      "published_at": "2026-08-25T19:54:13Z",
+      "summary": "Hello everyone. I hope is all well with you all. I been around this sub for a few months and been quietly reading and I have seen how many of you are spending $10k on the Mac M5 and I am assuming you are using it for wor",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-granite-speech-50-turbo-ctc-extremely-fast-and-accurate-tran",
+      "source": "localllama",
+      "title": "Granite Speech 5.0 Turbo CTC: Extremely Fast and Accurate Transcription",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vya9ok/granite_speech_50_turbo_ctc_extremely_fast_and/",
+      "published_at": "2026-08-25T19:44:29Z",
+      "summary": "      &#32; submitted by &#32;  /u/coder543   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-25-you-think-they-could-have-tweaked-the-typeface-a-bit",
+      "source": "localllama",
+      "title": "You think they could have tweaked the typeface a bit?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy7i5b/you_think_they_could_have_tweaked_the_typeface_a/",
+      "published_at": "2026-08-25T18:07:32Z",
+      "summary": "      &#32; submitted by &#32;  /u/indicava   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-25-about-the-huggingface-sale",
       "source": "localllama",
@@ -24,39 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-08-25-cnbc-television-nvidia-partner-with-perplexity-ai-to-run-loc",
-      "source": "localllama",
-      "title": "CNBC Television: Nvidia partner with Perplexity AI to run locally in DGX Spark.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy6mjb/cnbc_television_nvidia_partner_with_perplexity_ai/",
-      "published_at": "2026-08-25T17:36:50Z",
-      "summary": "      &#32; submitted by &#32;  /u/dd32x   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-re-done-benchmarks-for-v620-on-windowsrocm-vulkan",
-      "source": "localllama",
-      "title": "Re-done benchmarks for V620 on Windows/ROCm & Vulkan",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy3t5h/redone_benchmarks_for_v620_on_windowsrocm_vulkan/",
-      "published_at": "2026-08-25T15:56:44Z",
-      "summary": "I&#39;m here to show some benchmarks while using llama.cpp with an AMD V620 on Windows 11 via Vulkan &amp; ROCm. These have been reuploaded &amp; older threads deleted ran it with longer tokens thanks to a rec by someone",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-mac-studio-m5-max-cost-analysis",
-      "source": "localllama",
-      "title": "Mac Studio M5 Max Cost Analysis",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy3lsp/mac_studio_m5_max_cost_analysis/",
-      "published_at": "2026-08-25T15:49:20Z",
-      "summary": "At $10k, you could get - 6.2B tokens with Qwen 3.8 Max (Qwen Pro plan) - 5.7B tokens with DeepSeek V4 Pro OpenRouter - 100B tokens with DeepSeek V4 Flash OpenRouter As a firm believer of local inference, unless you need ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-08-25-granite-42-llms-how-theyre-built",
       "source": "huggingface",
       "title": "Granite 4.2 LLMs: How They're Built",
@@ -65,83 +142,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-ibm-granitegranite-42-30b-hugging-face",
-      "source": "localllama",
-      "title": "ibm-granite/granite-4.2-30b · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy2jz7/ibmgranitegranite4230b_hugging_face/",
-      "published_at": "2026-08-25T15:10:57Z",
-      "summary": "      Granite-4.2-30B is the flagship reasoning model in the Granite 4.2 family. It delivers the strongest performance across reasoning-intensive tasks by leveraging built-in &lt;think&gt;...&lt;/think&gt; chain-of-thoug",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-12-abliterated-gemma-4-12b-variants-one-base-165-gpu-hours",
-      "source": "localllama",
-      "title": "12 abliterated Gemma 4 12B variants, one base, 165 GPU hours - Abliterlitics",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy1q1l/12_abliterated_gemma_4_12b_variants_one_base_165/",
-      "published_at": "2026-08-25T14:39:42Z",
-      "summary": "I ran 11 uncensored variants of Gemma 4 12B that I grabbed from huggingface, sorting by downloads. 10 full abliterations plus 2 LoRA adapters which were requested to be added in the comparison, against the official base.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-intel-arc-pro-b60-dual-48g-spotted",
-      "source": "localllama",
-      "title": "Intel Arc Pro B60 Dual 48G spotted",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy1g90/intel_arc_pro_b60_dual_48g_spotted/",
-      "published_at": "2026-08-25T14:29:04Z",
-      "summary": "      I spotted the Dual B60 48GB listed on Digitec/Galaxus. Initially it was said these wouldn&#39;t go into standard retail channels. At CHF 2500 (post tax, USD ~3000) not particularly competitive but worth keeping an ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-me-to-the-model-i-spent-all-weekend-fine-tuning",
-      "source": "localllama",
-      "title": "me to the model I spent all weekend fine-tuning",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy0knv/me_to_the_model_i_spent_all_weekend_finetuning/",
-      "published_at": "2026-08-25T13:55:57Z",
-      "summary": "      I just can&#39;t resist  &#32; submitted by &#32;  /u/close_Meal6005   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new",
-      "source": "localllama",
-      "title": "Apple unveils a more powerful Mac mini featuring the all-new M6 and M5 Pro",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy09xv/apple_unveils_a_more_powerful_mac_mini_featuring/",
-      "published_at": "2026-08-25T13:44:25Z",
-      "summary": "      &quot;A 12-core GPU, also with two more cores than before, now includes Neural Accelerators in each core for the first time on Mac mini, resulting in up to 4x faster AI performance and 2x faster graphics than Mac m",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-qwen-4-architecture-what-do-we-know",
-      "source": "localllama",
-      "title": "Qwen 4 architecture: What do we know?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxzjps/qwen_4_architecture_what_do_we_know/",
-      "published_at": "2026-08-25T13:15:12Z",
-      "summary": "My best bet is the embedding-offloaded linear where the 51b n-grams track semantics and context, like 3.8 with its loss of real world knowledge bolted back on. Otherwise? Sparse full-attention with dense routing? 6b acti",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-25-apple-releases-m5-ultra-at-12tbs-bandwith",
-      "source": "localllama",
-      "title": "Apple releases M5 ultra at 1.2TB/s bandwith",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxzgyt/apple_releases_m5_ultra_at_12tbs_bandwith/",
-      "published_at": "2026-08-25T13:12:03Z",
-      "summary": "      lpddr5x probably, the m7 ultra if is using ddr6 should be at 1.8 Tb/s  &#32; submitted by &#32;  /u/Last-Owl-8342   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {

@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-25T18:45:02Z",
+  "updated_at": "2026-08-26T01:38:59Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10630",
+      "project": "llama-cpp",
+      "version": "b10630",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10630",
+      "published_at": "2026-08-25T21:37:00Z",
+      "body_excerpt": "kleidiai: Rework KleidiAI Build System/Integration (#26077) Rework KleidiAI Build System/Integration Signed-off-by: Jonathan Clohessy Add fp16 guard, and fix cmake caching issue Signed-off-by: Jonathan Clohessy Fix formatting, and rebase issue Signed-off-by: Jonathan Clohessy --------- Signed-off-by: Jonathan Clohessy Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silico",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10629",
+      "project": "llama-cpp",
+      "version": "b10629",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10629",
+      "published_at": "2026-08-25T20:24:28Z",
+      "body_excerpt": "ci : update OS used for ROCM to Ubuntu 24.04 (#27681) This matches what other build targets use and also what AMD advertises wheels as supporting. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10628",
       "project": "llama-cpp",
@@ -395,6 +413,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3",
       "published_at": "2026-08-21T22:52:46Z",
       "body_excerpt": "What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trust",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.33.0",
+      "project": "ollama",
+      "version": "v0.33.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0",
+      "published_at": "2026-08-21T22:52:46Z",
+      "body_excerpt": "What's Changed Claude Desktop Claude Desktop is now supported through Ollama. Developers can now easily configure Claude Desktop to seamlessly work with Ollama as a third-party gateway provider. Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every restore point it crossed, so retries ",
       "type": "tool"
     },
     {
@@ -10044,24 +10071,6 @@
       "published_at": "2026-05-28T03:49:21Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9371",
-      "project": "llama-cpp",
-      "version": "b9371",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9371",
-      "published_at": "2026-05-27T23:45:52Z",
-      "body_excerpt": "ggml-webgpu: remove legacy constants (#23672) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows ",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.3.2",
-      "project": "localai",
-      "version": "v4.3.2",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.2",
-      "published_at": "2026-05-27T22:06:52Z",
-      "body_excerpt": "What's Changed 👒 Dependencies chore(deps): bump github.com/nats-io/nats.go from 1.50.0 to 1.52.0 by @dependabot[bot] in chore(deps): bump github.com/aws/aws-sdk-go-v2/credentials from 1.19.15 to 1.19.17 by @dependabot[bot] in chore(deps): bump actions/stale from 10.2.0 to 10.3.0 by @dependabot[bot] in chore(deps): bump sentence-transformers from 5.5.0 to 5.5.1 in /backend/python/transformers by @d",
-      "type": "tool"
     }
   ]
 }
