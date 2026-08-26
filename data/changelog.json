@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-26T01:38:59Z",
+  "updated_at": "2026-08-26T06:56:11Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10631",
+      "project": "llama-cpp",
+      "version": "b10631",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10631",
+      "published_at": "2026-08-26T06:04:59Z",
+      "body_excerpt": "ggml-meta: propagate buffer usage and call init on the new tensors (#27586) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) U",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10630",
       "project": "llama-cpp",
@@ -421,7 +430,7 @@
       "version": "v0.33.0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0",
       "published_at": "2026-08-21T22:52:46Z",
-      "body_excerpt": "What's Changed Claude Desktop Claude Desktop is now supported through Ollama. Developers can now easily configure Claude Desktop to seamlessly work with Ollama as a third-party gateway provider. Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every restore point it crossed, so retries ",
+      "body_excerpt": "What's Changed Claude Desktop Developers can now easily configure Claude Desktop to seamlessly work with Ollama as a third-party gateway provider. Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every restore point it crossed, so retries resume where they stopped instead of restarting ",
       "type": "tool"
     },
     {
@@ -10062,15 +10071,6 @@
       "published_at": "2026-05-28T12:50:26Z",
       "body_excerpt": "ci : refactor (#23789) ci : separate CUDA windows workflow + fix names ci : rename workflow ci : prefix cache names with workflow name ci : rename build.yml -> build-cpu.yml ci : cache keys ci : fix windows cuda/hip concurrency of release workflow ci : fix apple cache names ci : add TODOs cont : keep just the last cache ci : update release concurrency to queue ci : move the release trigger to ubun",
       "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Cosmos3-Super-Text2Image",
-      "project": "nvidia",
-      "version": "Cosmos3-Super-Text2Image",
-      "url": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image",
-      "published_at": "2026-05-28T03:49:21Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
