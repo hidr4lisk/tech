@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-26T13:00:41Z",
+  "updated_at": "2026-08-26T19:52:25Z",
   "releases": [
+    {
+      "id": "ollama-v0.33.1-rc1",
+      "project": "ollama",
+      "version": "v0.33.1-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1",
+      "published_at": "2026-08-26T18:09:57Z",
+      "body_excerpt": "What's Changed MLX: Qwen3.8 Flash Next support cmake: make external compat patches idempotent MLX and llama.cpp update mlxrunner: add structured output support mlxrunner: avoid Metal GPU timeouts when loading models from slow storage New Contributors @pd95 made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10639",
+      "project": "llama-cpp",
+      "version": "b10639",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10639",
+      "published_at": "2026-08-26T16:51:23Z",
+      "body_excerpt": "vulkan: warptiles currently assume warp sizes Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10638",
+      "project": "llama-cpp",
+      "version": "b10638",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10638",
+      "published_at": "2026-08-26T16:10:15Z",
+      "body_excerpt": "Implemented vulkan cross_entropy_loss and cross_entropy_loss_back (#27216) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.16.1",
+      "project": "transformers",
+      "version": "v5.16.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+      "published_at": "2026-08-26T14:50:01Z",
+      "body_excerpt": "Release v5.16.1 This is a special release as we include GLM! (and a few small fixes) GLM-5.3-Flash GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at one-tenth the price, while approaching Claude Opus 4.8 on coding and agentic benchmarks. GLM-5.3-Flas",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10636",
       "project": "llama-cpp",
@@ -10052,78 +10088,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9383",
       "published_at": "2026-05-28T19:56:56Z",
       "body_excerpt": "chat : add Granite 4.1 chat template (#23518) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9382",
-      "project": "llama-cpp",
-      "version": "b9382",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9382",
-      "published_at": "2026-05-28T18:57:20Z",
-      "body_excerpt": "vulkan: fix wrong index variable in inner loop (#23665) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-kokoro-82M-onnx-opt",
-      "project": "nvidia",
-      "version": "kokoro-82M-onnx-opt",
-      "url": "https://huggingface.co/nvidia/kokoro-82M-onnx-opt",
-      "published_at": "2026-05-28T18:52:47Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9381",
-      "project": "llama-cpp",
-      "version": "b9381",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9381",
-      "published_at": "2026-05-28T18:17:29Z",
-      "body_excerpt": "vulkan: Fix memory logger unsafe iterator access (#23667) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windo",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9380",
-      "project": "llama-cpp",
-      "version": "b9380",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9380",
-      "published_at": "2026-05-28T17:42:35Z",
-      "body_excerpt": "server, ui : Add support for HTTP ETags in llama-server (#23701) allow caching of ui elements in llama-server use fnv_hash Update tools/server/server-http.cpp etag has to be set always Co-authored-by: Xuan-Son Nguyen --------- Co-authored-by: Xuan-Son Nguyen macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9378",
-      "project": "llama-cpp",
-      "version": "b9378",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9378",
-      "published_at": "2026-05-28T17:03:46Z",
-      "body_excerpt": "cuda : fix KQ mask offset integer overflow in fattn MMA kernel (#23610) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9377",
-      "project": "llama-cpp",
-      "version": "b9377",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9377",
-      "published_at": "2026-05-28T16:22:49Z",
-      "body_excerpt": "perplexity : fix format specifier in LOG_ERR (#23788) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9375",
-      "project": "llama-cpp",
-      "version": "b9375",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9375",
-      "published_at": "2026-05-28T15:52:10Z",
-      "body_excerpt": "ggml: fixed Arm SVE usage bug in vec.h, vec.cpp (#22841) Updated vec.h/vec.cpp code to accumulate to F32 rather than F16 Change-Id: I0cb789347f2bf60ffaf9047319f727e788c825f8 Signed-off-by: Martin Klacer Co-authored-by: Milos Puzovic macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (C",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.3.3",
-      "project": "localai",
-      "version": "v4.3.3",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.3",
-      "published_at": "2026-05-28T13:04:11Z",
-      "body_excerpt": "What's Changed Other Changes chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in chore(model-gallery): :arrow_up: update checksum by @localai-bot in chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in chore: :arrow_up: Update leejet/stable-diffusion.cpp to by @localai-bot in chore: :arrow_up: Update ggml-org/whisper.cpp to by @localai-bot in chore: :arrow_up: Update",
       "type": "tool"
     }
   ]
