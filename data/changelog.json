@@ -1,6 +1,150 @@
 {
-  "updated_at": "2026-08-27T08:30:46Z",
+  "updated_at": "2026-08-27T22:03:17Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10662",
+      "project": "llama-cpp",
+      "version": "b10662",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10662",
+      "published_at": "2026-08-27T21:07:39Z",
+      "body_excerpt": "server: add ctx-per-slot (--kv-unified-per-slot) (#24124) Add ctx-per-slot argument for unifid KV cache Swap out ctx fractions for ctx pool slots Formatting cleanup Remove ctx-pool-slots, make ctx-per-slot an int refactor it --------- Co-authored-by: Xuan Son Nguyen Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10661",
+      "project": "llama-cpp",
+      "version": "b10661",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10661",
+      "published_at": "2026-08-27T20:37:55Z",
+      "body_excerpt": "ci : build only the ggml-hip backend for windows-rocm release (#27753) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.33.2-rc1",
+      "project": "ollama",
+      "version": "v0.33.2-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1",
+      "published_at": "2026-08-27T20:31:47Z",
+      "body_excerpt": "What's Changed app: restore system dark mode by @hoyyeva in proxy: continue requests when the model catalog changes by @ParthSareen in app: synchronize macOS app handoff by @ParthSareen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10660",
+      "project": "llama-cpp",
+      "version": "b10660",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10660",
+      "published_at": "2026-08-27T20:02:40Z",
+      "body_excerpt": "model: add Qwen3.8-Flash-Next (qwen4exp) (#27742) gguf: add qwen4exp (Qwen3.8-Flash-Next) arch and converter Adds the GGUF-side plumbing for HF model_type qwen4_exp: MODEL_ARCH.QWEN4EXP plus tensors for the low-rank hyper-connection variant (hc__norm/down/up/inject) and the PLE n-gram hash embeddings. The DeepSeek-V4 hc__fn/base/scale tensors are a different parameterisation, so these are separate",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10659",
+      "project": "llama-cpp",
+      "version": "b10659",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10659",
+      "published_at": "2026-08-27T19:07:21Z",
+      "body_excerpt": "ci : bundle HIP runtime DLLs with Windows ROCm release (#26973) Copy amdhip64_7, amd_comgr and rocm_kpack next to the binaries so the correct HIP runtime loads over the driver's copy in System32. Fixes #26929. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10658",
+      "project": "llama-cpp",
+      "version": "b10658",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10658",
+      "published_at": "2026-08-27T18:32:48Z",
+      "body_excerpt": "spec : add DFlash2 support (local convolution + candidate selector) (#27342) (#27816) spec : add DFlash2 support (local convolution + candidate selector) (#27342) support DFlash2 Add p_min in DFlash2 Assisted-by: Claude Opus 5 Revert unnecessary changes Assisted-by: Claude Opus 5 Revert draft sampling in rejection sampling Assisted-by: Claude Opus 5 Refactor code structure Assisted-by: Claude Opus",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10657",
+      "project": "llama-cpp",
+      "version": "b10657",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10657",
+      "published_at": "2026-08-27T18:06:59Z",
+      "body_excerpt": "opencl: add bin kernels , (#27768) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10656",
+      "project": "llama-cpp",
+      "version": "b10656",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10656",
+      "published_at": "2026-08-27T17:40:39Z",
+      "body_excerpt": "quantize: cap working memory size to avoid loading big tensors onto RAM (#27795) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10655",
+      "project": "llama-cpp",
+      "version": "b10655",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10655",
+      "published_at": "2026-08-27T14:18:13Z",
+      "body_excerpt": "Feature: Added LIGHTNING_INDEXER support for Deepseek V4 ops on Vulkan Backend (#27453) vulkan: add LIGHTNING_INDEXER op vulkan: updated lightning_indexer.comp and ggml-vulkan.cpp with 128-lane dot-product reduction moved from a shared-memory tree to subgroupAdd. vulkan: cleanup; Skip bounds checks vulkan: cleanup FA_K_ONLY Revert \"vulkan: cleanup FA_K_ONLY\" This reverts commit fdcbdd91511945d6878",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10653",
+      "project": "llama-cpp",
+      "version": "b10653",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10653",
+      "published_at": "2026-08-27T13:48:28Z",
+      "body_excerpt": "llama: model_loader: add TENSOR_READ_LAZY (#27794) llama: model_loader: add TENSOR_GET_ROW_LAZY add --tensor-read-lazy rename to TENSOR_READ_LAZY gen docs address comments Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vul",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.804-beta",
+      "project": "unsloth",
+      "version": "v0.1.804-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.804-beta",
+      "published_at": "2026-08-27T13:09:58Z",
+      "body_excerpt": "Qwen3.8-Flash-Next and GLM-5.3-Flash can now run locally in Unsloth! Run Qwen3.8-Flash on 75GB RAM, GLM-5.3-Flash on 102GB RAM+VRAM 5x Faster inference for RAM offloading \"Infinite\" repeated compaction now works 100+ chat, reliability and performance improvements Qwen Guide: Qwen GGUFs: GLM Guide: GLM GGUFs: Highlights Qwen3.8-Flash-Next on 75GB RAM GLM-5.3-Flash on 102GB total memory Smarter GPU ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10649",
+      "project": "llama-cpp",
+      "version": "b10649",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10649",
+      "published_at": "2026-08-27T12:28:28Z",
+      "body_excerpt": "spec: Add benchmark-only synthetic speculative acceptance options (#27711) Add benchmark-only synthetic speculative acceptance to llama-server and llama-cli Address review comments Address review comments Add some comments in the code Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10648",
+      "project": "llama-cpp",
+      "version": "b10648",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10648",
+      "published_at": "2026-08-27T11:59:24Z",
+      "body_excerpt": "model : simplify MiniMax-01 graph (#27790) Co-authored-by: Stanisław Szymczyk Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10647",
+      "project": "llama-cpp",
+      "version": "b10647",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10647",
+      "published_at": "2026-08-27T11:25:52Z",
+      "body_excerpt": "args: add --video- CLI arguments (#24318) args: add --video- CLI arguments gen docs nits add mtmd_helper_init_opt Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10646",
+      "project": "llama-cpp",
+      "version": "b10646",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10646",
+      "published_at": "2026-08-27T10:43:44Z",
+      "body_excerpt": "metal : fix memory leaks due to missing autoreleasepools (#27758) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10645",
+      "project": "llama-cpp",
+      "version": "b10645",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10645",
+      "published_at": "2026-08-27T10:02:19Z",
+      "body_excerpt": "llama : add --n-cpu-ffn option (#26622) common : dedupe --n-cpu-moe / --spec-draft-n-cpu-moe override loops common : add --n-cpu-ffn to CPU-offload dense FFN weights of first N layers common : generalize llm_ffn_block_regex over the FFN regex, drop TODO Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFrame",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10644",
       "project": "llama-cpp",
@@ -153,6 +297,15 @@
       "published_at": "2026-08-25T20:24:28Z",
       "body_excerpt": "ci : update OS used for ROCM to Ubuntu 24.04 (#27681) This matches what other build targets use and also what AMD advertises wheels as supporting. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Qwen3.8-2.4T-A95B-NVFP4",
+      "project": "nvidia",
+      "version": "Qwen3.8-2.4T-A95B-NVFP4",
+      "url": "https://huggingface.co/nvidia/Qwen3.8-2.4T-A95B-NVFP4",
+      "published_at": "2026-08-25T18:55:42Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10628",
@@ -9836,159 +9989,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.5",
       "published_at": "2026-05-29T23:18:59Z",
       "body_excerpt": "What's Changed Bug fixes :bug: fix: tool-call JSON leaks into content with stream+tools on tokenizer-template models (#10052) by @localai-bot in fix(openai): stop streaming tool-call double-emission when autoparser is active by @bozhouDev in fix(application): stop backend processes synchronously on shutdown by @richiejp in fix(functions): validate auto-detected XML tool-call names — robust glm-4.5",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9414",
-      "project": "llama-cpp",
-      "version": "b9414",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9414",
-      "published_at": "2026-05-29T21:01:24Z",
-      "body_excerpt": "mtmd: Add DeepSeekOCR 2 Support (#20975) mtmd: DeepSeek-OCR 2 support, with multi-tile dynamic resolution introduced clip_image_f32::add_viewsep address PR review drop redundant ggml_cpy ops in both deepseekocr versions build drop no-op ggml_cont in build_sam assert num_image_tokens deepseekocr2 view_seperator as (1, n_embd) at conversion (for both versions) drop redundant ggml_reshape_2d Update t",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-dvlt",
-      "project": "nvidia",
-      "version": "dvlt",
-      "url": "https://huggingface.co/nvidia/dvlt",
-      "published_at": "2026-05-29T19:43:40Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-gemma-4-31B-it-qat-q4_0-unquantized-assistant",
-      "project": "google",
-      "version": "gemma-4-31B-it-qat-q4_0-unquantized-assistant",
-      "url": "https://huggingface.co/google/gemma-4-31B-it-qat-q4_0-unquantized-assistant",
-      "published_at": "2026-05-29T19:19:43Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-gemma-4-26B-A4B-it-qat-q4_0-unquantized-assistant",
-      "project": "google",
-      "version": "gemma-4-26B-A4B-it-qat-q4_0-unquantized-assistant",
-      "url": "https://huggingface.co/google/gemma-4-26B-A4B-it-qat-q4_0-unquantized-assistant",
-      "published_at": "2026-05-29T19:19:16Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-gemma-4-E4B-it-qat-q4_0-unquantized-assistant",
-      "project": "google",
-      "version": "gemma-4-E4B-it-qat-q4_0-unquantized-assistant",
-      "url": "https://huggingface.co/google/gemma-4-E4B-it-qat-q4_0-unquantized-assistant",
-      "published_at": "2026-05-29T19:19:00Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9413",
-      "project": "llama-cpp",
-      "version": "b9413",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9413",
-      "published_at": "2026-05-29T18:42:08Z",
-      "body_excerpt": "CUDA: Check PTX version on host side to guard PDL dispatch (#23530) CUDA: Check PTX version on host side to guard PDL dispatch Checking on alone is insufficient for JIT, as this variable doesn't differentiate between compiling for say sm_90, sm_90a or sm_90f (so forward-jittable PTX vs. arch/family-specific PTX). Thus, one can have a bug when compiling with , where current code would wrongly dispa",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9412",
-      "project": "llama-cpp",
-      "version": "b9412",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9412",
-      "published_at": "2026-05-29T16:20:33Z",
-      "body_excerpt": "server: bump timeout to 3600s (#23842) server: bump timeout to 3600s nits: change wording macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED An",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9411",
-      "project": "llama-cpp",
-      "version": "b9411",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9411",
-      "published_at": "2026-05-29T15:30:44Z",
-      "body_excerpt": "model : support for DeepseekV32ForCausalLM with generic DeepSeek Sparse Attention (DSA) implementation (#23346) llama : support DeepSeek V3.2 model family (with DSA lightning indexer) convert : handle DeepseekV32ForCausalLM architecture ggml : support for f16 GGML_OP_FILL memory : separate hparams argument in llama_kv_cache constructor memory : add llama_kv_cache_dsa memory (KV cache + lightning i",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9410",
-      "project": "llama-cpp",
-      "version": "b9410",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9410",
-      "published_at": "2026-05-29T14:41:16Z",
-      "body_excerpt": "llama: use f16 mask for FA to save VRAM (#23764) llama: use f16 mask for FA review: add llama_cast + formatting simplify macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9409",
-      "project": "llama-cpp",
-      "version": "b9409",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9409",
-      "published_at": "2026-05-29T13:47:50Z",
-      "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Wind",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9406",
-      "project": "llama-cpp",
-      "version": "b9406",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9406",
-      "published_at": "2026-05-29T12:59:00Z",
-      "body_excerpt": "llama: add llm_graph_input_mtp (#23643) llama: add llm_graph_input_mtp rename input_mtp -> input_token_embd add TODO about mtmd embedding cont : clean-up --------- Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9405",
-      "project": "llama-cpp",
-      "version": "b9405",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9405",
-      "published_at": "2026-05-29T12:08:22Z",
-      "body_excerpt": "app : move licences to llama-app (#23824) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android ar",
-      "type": "tool"
-    },
-    {
-      "id": "whisper-cpp-v1.8.5",
-      "project": "whisper-cpp",
-      "version": "v1.8.5",
-      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.8.5",
-      "published_at": "2026-05-29T12:07:04Z",
-      "body_excerpt": "Overview Maintenance release + performance improvements all around: What's Changed ruby : fix dangling pointers, memory leak, and SEGV on parallel transcription by @KitaitiMakoto in sync : ggml by @ggerganov in vad : add streaming detect + explicit state reset by @danielbodart in bench : sync submit-results URL to ggml-org by @jinweihan-ai in sync : ggml by @ggerganov in sync : ggml by @ggerganov ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9404",
-      "project": "llama-cpp",
-      "version": "b9404",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9404",
-      "published_at": "2026-05-29T11:19:18Z",
-      "body_excerpt": "cuda : disables launch_fattn PDL enrollment due to compiler bug (#23825) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android ar",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.22.0",
-      "project": "vllm",
-      "version": "v0.22.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0",
-      "published_at": "2026-05-29T10:28:13Z",
-      "body_excerpt": "Highlights This release features 459 commits from 230 contributors (63 new)! DeepSeek V4 maturity: DeepSeek V4 received a major hardening pass this cycle — the model was reorganized into a dedicated package (#43004, #43039, #43073, #43077, #43149), gained NVFP4 fused MoE support (#42209), full + piecewise CUDA graph (#42604), and MTP speculative decoding (#43385). A large set of fused kernels (Meg",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9403",
-      "project": "llama-cpp",
-      "version": "b9403",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9403",
-      "published_at": "2026-05-29T10:26:01Z",
-      "body_excerpt": "meta : Add missing set in allreduce fallback !COMPUTE clear (#23480) Without this at least the vulkan backend will skip the for !COMPUTE tensors, causing corrupt output. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9402",
-      "project": "llama-cpp",
-      "version": "b9402",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9402",
-      "published_at": "2026-05-29T08:46:28Z",
-      "body_excerpt": "hexagon: basic/generic op fusion support and RMS_NORM+MUL fusion (#23835) Updating infra to enable op fusion and using RMS_NORM+MUL as the use-case. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.",
       "type": "tool"
     }
   ]
