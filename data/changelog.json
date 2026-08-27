@@ -1,11 +1,56 @@
 {
-  "updated_at": "2026-08-26T19:52:25Z",
+  "updated_at": "2026-08-27T08:30:46Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10644",
+      "project": "llama-cpp",
+      "version": "b10644",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10644",
+      "published_at": "2026-08-27T05:22:38Z",
+      "body_excerpt": "models : support nanbeige4.2-3B (#27730) Co-authored-by: admin Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SY",
+      "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-SQuadGen",
+      "project": "microsoft",
+      "version": "SQuadGen",
+      "url": "https://huggingface.co/microsoft/SQuadGen",
+      "published_at": "2026-08-27T04:53:22Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b10643",
+      "project": "llama-cpp",
+      "version": "b10643",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10643",
+      "published_at": "2026-08-27T02:14:48Z",
+      "body_excerpt": "hexagon: support for multi-NPU devices (IQ9, IQ10) and fully asynchronous backend (#26501) hexagon: use non-host bufs by default and make the backend fully async hex-hb: remove optional hostbuf support and fix async copy hex-unary: relax supported unary check hex-bufs: use same get_alignment for host bufs snapdragon: bump android_platform to 34 hex-rows: super hacky get/set rows for q8_0 hex-get-r",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10642",
+      "project": "llama-cpp",
+      "version": "b10642",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10642",
+      "published_at": "2026-08-26T22:00:33Z",
+      "body_excerpt": "llama: add token ID tracking to KV cell (#27762) kv: track token id rm get_prev_tokens, move it to the main pr nits add get_prev_tokens Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.33.1-rc1",
       "project": "ollama",
       "version": "v0.33.1-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1",
+      "published_at": "2026-08-26T18:09:57Z",
+      "body_excerpt": "What's Changed MLX: Qwen3.8 Flash Next support cmake: make external compat patches idempotent MLX and llama.cpp update mlxrunner: add structured output support mlxrunner: avoid Metal GPU timeouts when loading models from slow storage New Contributors @pd95 made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.33.1",
+      "project": "ollama",
+      "version": "v0.33.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1",
       "published_at": "2026-08-26T18:09:57Z",
       "body_excerpt": "What's Changed MLX: Qwen3.8 Flash Next support cmake: make external compat patches idempotent MLX and llama.cpp update mlxrunner: add structured output support mlxrunner: avoid Metal GPU timeouts when loading models from slow storage New Contributors @pd95 made their first contribution in Full Changelog:",
       "type": "tool"
@@ -9944,150 +9989,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9402",
       "published_at": "2026-05-29T08:46:28Z",
       "body_excerpt": "hexagon: basic/generic op fusion support and RMS_NORM+MUL fusion (#23835) Updating infra to enable op fusion and using RMS_NORM+MUL as the use-case. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9401",
-      "project": "llama-cpp",
-      "version": "b9401",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9401",
-      "published_at": "2026-05-29T06:51:14Z",
-      "body_excerpt": "mtmd-debug: add color and rainbow mode (#23829) mtmd-debug: add color and rainbow mode fix M_PI max_dist macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9400",
-      "project": "llama-cpp",
-      "version": "b9400",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9400",
-      "published_at": "2026-05-29T05:53:43Z",
-      "body_excerpt": "mtmd: fix gemma 4 projector pre_norm (#23822) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9399",
-      "project": "llama-cpp",
-      "version": "b9399",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9399",
-      "published_at": "2026-05-29T05:17:07Z",
-      "body_excerpt": "opencl: move backend info printing into its own function (#23702) opencl: move backend info print into its own function opencl: move new log line opencl: fix for non adreno path macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9395",
-      "project": "llama-cpp",
-      "version": "b9395",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9395",
-      "published_at": "2026-05-29T04:43:04Z",
-      "body_excerpt": "app : improve help output (#23805) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CP",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9394",
-      "project": "llama-cpp",
-      "version": "b9394",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9394",
-      "published_at": "2026-05-29T04:09:21Z",
-      "body_excerpt": "mtmd: n_head_kv defaults to n_head (#23782) removed AI-generated comment macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android ar",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9393",
-      "project": "llama-cpp",
-      "version": "b9393",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9393",
-      "published_at": "2026-05-29T03:27:29Z",
-      "body_excerpt": "mtmd: fix gemma 4 audio rms norm eps (#23815) mtmd: fix gemma 4 audio rms norm eps Update tools/mtmd/clip.cpp Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubun",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9391",
-      "project": "llama-cpp",
-      "version": "b9391",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9391",
-      "published_at": "2026-05-29T02:52:29Z",
-      "body_excerpt": "arg: Add LLAMA_ARG_API_KEY_FILE environment variable for --api-key-file (#23167) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: An",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9389",
-      "project": "llama-cpp",
-      "version": "b9389",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9389",
-      "published_at": "2026-05-29T02:17:02Z",
-      "body_excerpt": "ggml: auto apply iGPU flag CUDA/HIP if integrated device (#23007) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CP",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-NV-OneFormer",
-      "project": "nvidia",
-      "version": "NV-OneFormer",
-      "url": "https://huggingface.co/nvidia/NV-OneFormer",
-      "published_at": "2026-05-29T02:14:04Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9388",
-      "project": "llama-cpp",
-      "version": "b9388",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9388",
-      "published_at": "2026-05-29T01:44:19Z",
-      "body_excerpt": "mmvq Optim: add MMVQ_PARAMETERS_TURING(mmvq_parameter_table_id) for … (#23729) mmvq Optim: add MMVQ_PARAMETERS_TURING(mmvq_parameter_table_id) for SM75 TURING avoid a mismatch for JIT compilation of Turing device code for Ampere or newer Co-authored-by: Johannes Gäßler --------- Co-authored-by: Copilot Co-authored-by: Johannes Gäßler macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9387",
-      "project": "llama-cpp",
-      "version": "b9387",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9387",
-      "published_at": "2026-05-29T01:04:49Z",
-      "body_excerpt": "CUDA: route batch>=4 quantized matmul to MMQ on AMD MFMA hardware (#23227) CUDA: per-quant MMVQ/MMQ batch threshold on AMD MFMA hardware The dispatcher uses a single global threshold (MMVQ_MAX_BATCH_SIZE = 8) to choose between mul_mat_vec_q (per-row GEMV) and mul_mat_q (MFMA-tiled GEMM) for quantized matmul. On AMD CDNA, the optimal crossover differs substantially by quant family because the per-r",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9386",
-      "project": "llama-cpp",
-      "version": "b9386",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9386",
-      "published_at": "2026-05-29T00:28:44Z",
-      "body_excerpt": "server: minor tweaks to use more cpp features (#23785) misc(server): add default port to impl RAII misc(server): register_gcp_compat() can be const misc(server): use proper cpp const/auto methods misc(server): do not reset a unique_ptr, use make_unique instead to be exception safe macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XC",
-      "type": "tool"
-    },
-    {
-      "id": "hf-google-magenta-realtime-2",
-      "project": "google",
-      "version": "magenta-realtime-2",
-      "url": "https://huggingface.co/google/magenta-realtime-2",
-      "published_at": "2026-05-28T21:55:47Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "localai-v4.3.4",
-      "project": "localai",
-      "version": "v4.3.4",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.4",
-      "published_at": "2026-05-28T21:22:05Z",
-      "body_excerpt": "What's Changed Other Changes fix(turboquant): guard upstream-only grpc-server fields for fork by @localai-bot in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9384",
-      "project": "llama-cpp",
-      "version": "b9384",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9384",
-      "published_at": "2026-05-28T20:29:02Z",
-      "body_excerpt": "vulkan: fast path for walsh-hadamard transform (#23687) vulkan: fast path for walsh-hadamard transform disable for intel due to segfault macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9383",
-      "project": "llama-cpp",
-      "version": "b9383",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9383",
-      "published_at": "2026-05-28T19:56:56Z",
-      "body_excerpt": "chat : add Granite 4.1 chat template (#23518) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows ",
       "type": "tool"
     }
   ]
