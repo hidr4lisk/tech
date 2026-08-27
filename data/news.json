@@ -1,90 +1,134 @@
 {
-  "updated_at": "2026-08-27T08:30:41Z",
+  "updated_at": "2026-08-27T22:03:11Z",
   "items": [
     {
-      "id": "localllama-2026-08-27-dflash-2-speculative-decoding-by-samueloliveirads-pull-reque",
+      "id": "localllama-2026-08-27-qwen-38-flash-q4-35ts-on-32gb-ddr4-8gb-gpu",
       "source": "localllama",
-      "title": "Dflash 2 speculative decoding by SamuelOliveirads · Pull Request #2345 · ikawrakow/ik_llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzn10y/dflash_2_speculative_decoding_by_samueloliveirads/",
-      "published_at": "2026-08-27T07:23:50Z",
-      "summary": "      Didn&#39;t update on ik_llama.cpp updates for sometime. Updates from this month:  cuda : repair the HIP build, and validate IQ4_KS and IQ4_KT on RDNA3- #2339 vulkan : add IQ4_KS and IQ4_KT support- #2332 Initial im",
+      "title": "Qwen 3.8 Flash Q4 3.5t/s on 32GB DDR4 + 8GB GPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w07ily/qwen_38_flash_q4_35ts_on_32gb_ddr4_8gb_gpu/",
+      "published_at": "2026-08-27T21:43:58Z",
+      "summary": "I only have 32GB DDR4 and a 8GB GPU. Despite that, I downloaded Qwen 3.8 Flash Q4 quant 93GB in size from unsloth. Guess what, it gets up to 3.5t/s on Debian, freshly compiled. Way better than expected, you can actually ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-27-nvidia-buying-hf-isnt-a-good-thing-for-open-source",
+      "id": "localllama-2026-08-27-5090-now-officially-cost-5090",
       "source": "localllama",
-      "title": "NVIDIA buying HF isn't a good thing for open source",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzmqrk/nvidia_buying_hf_isnt_a_good_thing_for_open_source/",
-      "published_at": "2026-08-27T07:07:00Z",
-      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
+      "title": "5090 now officially cost 5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w05kbt/5090_now_officially_cost_5090/",
+      "published_at": "2026-08-27T20:30:22Z",
+      "summary": "      I was planning on another 5090, but then I realize... perhaps I am much better off getting an M5 Ultra Mac Studio with 256gb of ram. We are so genuinely cooked.  &#32; submitted by &#32;  /u/Sadge404   [link] &#32;",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-27-feat-support-dspark-nanbeige42-3b-by-zqlcode-pull-request-27",
+      "id": "localllama-2026-08-27-the-unsloth-appreciation-post-big-thanks-to-daniel-and-micha",
       "source": "localllama",
-      "title": "[feat] support dspark (Nanbeige4.2-3B) by zqlcode · Pull Request #27730 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzktbn/feat_support_dspark_nanbeige423b_by_zqlcode_pull/",
-      "published_at": "2026-08-27T05:17:39Z",
-      "summary": "      PR has before &amp; after t/s images  &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
+      "title": "The Unsloth appreciation post. BIG thanks to Daniel and Michael! Thanks from the community to you guys for so much!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w05clp/the_unsloth_appreciation_post_big_thanks_to/",
+      "published_at": "2026-08-27T20:22:55Z",
+      "summary": "With HF being bought out and its future feeling a little iffy, I got to thinking about the teams that have constantly looked out for the little guys and stayed true to their open-source roots. There are great developers ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-27-glm-53-weights-will-be-released-tomorrow",
+      "id": "localllama-2026-08-27-over-200k-context-on-16gb-vram-with-qwen-38-27b-ud-iq3-xxs",
       "source": "localllama",
-      "title": "GLM-5.3 weights will be released tomorrow",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzjlxd/glm53_weights_will_be_released_tomorrow/",
-      "published_at": "2026-08-27T04:12:35Z",
-      "summary": "      The promise has been fulfilled.  &#32; submitted by &#32;  /u/serige   [link] &#32; [comments] ",
+      "title": "Over 200k context on 16GB VRAM with Qwen 3.8 27B UD-IQ3_XXS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w04a5j/over_200k_context_on_16gb_vram_with_qwen_38_27b/",
+      "published_at": "2026-08-27T19:45:04Z",
+      "summary": "      I was using UD-Q3_K_XL until now with more than 140000 context. Quality wise it&#39;s very good, very few erroneous tool calls. Then I saw many others here reporting good results with IQ3_XXS, so I gave it a try. T",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-27-n-gram-vs-experts-explained",
+      "id": "localllama-2026-08-27-llamacpp-support-for-qwen38-flash-next-has-been-merged",
       "source": "localllama",
-      "title": "N-gram vs Experts explained",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzgtqf/ngram_vs_experts_explained/",
-      "published_at": "2026-08-27T02:00:40Z",
-      "summary": "Since Qwen&#39;s dropped the Qwen4Exp architecture bomb that focus on offloading parameters to n-gram instead of pure mixture of experts, I dug into this and learned quite a lot. Here&#39;s the summary. Expect mistakes f",
+      "title": "llama.cpp support for Qwen3.8-Flash-Next has been merged",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w03zdo/llamacpp_support_for_qwen38flashnext_has_been/",
+      "published_at": "2026-08-27T19:34:24Z",
+      "summary": "      finally I can download the GGUF I have 55 t/s - video in the comment  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-27-local-llm-harness-for-reverse-engineering-software",
+      "id": "localllama-2026-08-27-bill-gates-is-looking-to-meet-with-chinese-president-xi-jinp",
       "source": "localllama",
-      "title": "Local LLM harness for reverse engineering software?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzg84e/local_llm_harness_for_reverse_engineering_software/",
-      "published_at": "2026-08-27T01:33:48Z",
-      "summary": "Does anyone know of a decent reverse engineering harness/workspace setup for local models that I can just point the model at and have it go to work until it&#39;s reversed most if not all of the functions in a binary, ev",
+      "title": "Bill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence. He believes China might agree to restricting potentially dangerous AI model releases if US took initiative on that first",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w03gp8/bill_gates_is_looking_to_meet_with_chinese/",
+      "published_at": "2026-08-27T19:15:28Z",
+      "summary": "&#32; submitted by &#32;  /u/f0urxio   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-27-nvidia-has-been-in-talks-to-acquire-hugging-face-for-more-th",
+      "id": "localllama-2026-08-27-horus-cyber-nano-10",
       "source": "localllama",
-      "title": "Nvidia has been in talks to acquire Hugging Face for more than $13 billion - Business Insider",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzfwnd/nvidia_has_been_in_talks_to_acquire_hugging_face/",
-      "published_at": "2026-08-27T01:19:24Z",
-      "summary": "      https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8 Edit: The Information is reporting that the deal is done: Nvidia Agrees to Buy Open Source Model Repository Hugging Face",
+      "title": "Horus Cyber Nano 1.0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w02n18/horus_cyber_nano_10/",
+      "published_at": "2026-08-27T18:45:33Z",
+      "summary": "      Official Announcement: A First Look at Horus Cyber Nano 1.0  We are officially unveiling the first look at Horus Cyber Nano 1.0.  This announcement presents the benchmark results of Horus Cyber Nano 1.0, demonstrat",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-27-running-local-llms-as-agents-in-claude-code",
+      "id": "localllama-2026-08-27-with-huggingface-nvidia-is-also-acquiring-llamacpp-and-the-t",
       "source": "localllama",
-      "title": "Running local LLM's as agents in Claude Code",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vze6jl/running_local_llms_as_agents_in_claude_code/",
-      "published_at": "2026-08-27T00:03:15Z",
-      "summary": "I hit my token limit three times a day on my max subscription - got sick of that and designed this MCP setup to shift some of the coding load to my local Qwen3.8-27B model. I&#39;ve been iterating on it now for a bit, an",
+      "title": "With HuggingFace, Nvidia is also acquiring llama.cpp and the team behind it",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w01y1f/with_huggingface_nvidia_is_also_acquiring/",
+      "published_at": "2026-08-27T18:20:54Z",
+      "summary": "With this move Nvidia is not only acquiring the HuggingFace platform, but they might also effectively acquire the copyright to the llama.cpp project, together with the entire team behind it. In February 2026 the llama.cp",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-27-no-engrams-wont-let-you-run-1t-models-locally-it-does-someth",
+      "source": "localllama",
+      "title": "No, Engrams won't let you run 1T models locally. It does something even better.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0198r/no_engrams_wont_let_you_run_1t_models_locally_it/",
+      "published_at": "2026-08-27T17:56:34Z",
+      "summary": "Ever since Qwen 3.8 Flash Next dropped, there&#39;s a misconception going around that N-gram tables will let people run 1T+ parameter models on a single server with 980B parameters offloaded to SSD. I&#39;m here to disap",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-27-audiocpp-release-07-62-audio-model-families-85-variants-aren",
+      "source": "localllama",
+      "title": "[audio.cpp] Release 0.7: 62 audio model families (85+ variants), Arena UI for model comparison, MiniMax Music 3, FireRed TTS3/Audio, ControlFoley, Personaplex, and more",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w013g8/audiocpp_release_07_62_audio_model_families_85/",
+      "published_at": "2026-08-27T17:50:56Z",
+      "summary": "      audio.cpp 0.7 is out :) This release adds a lot of new audio models and a new way to compare them locally. Audio.cpp is now at 62 model families and 85+ model variants. And it keeps growing! The biggest user-facing",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-27-support-for-dflash2-in-llamacpp-has-been-merged---spec-add-d",
+      "source": "localllama",
+      "title": "Support for DFlash2 in llama.cpp has been merged! - spec : add DFlash2 support (local convolution + candidate selector) by SubSir · Pull Request #27342 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w00ngm/support_for_dflash2_in_llamacpp_has_been_merged/",
+      "published_at": "2026-08-27T17:35:16Z",
+      "summary": "      &#32; submitted by &#32;  /u/DjCanalex   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-27-nvidia-next-gen-vera-rubin-gpus-scheduled-for-mid-2027",
+      "source": "localllama",
+      "title": "NVIDIA Next Gen Vera Rubin GPUs scheduled for mid-2027",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzzkd6/nvidia_next_gen_vera_rubin_gpus_scheduled_for/",
+      "published_at": "2026-08-27T16:56:18Z",
+      "summary": "      Here’s hoping RTX 6090 also comes at MSRP of $6969 lol. With how expensive RTX 5090s and 6000 Pros have gotten it doesn’t sound too far fetched.  &#32; submitted by &#32;  /u/Leafytreedev   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -98,50 +142,6 @@
       "summary": "Qwen3.8-Flash-Next\nAnother open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\".\nIt's pretty big: 125B tokens, but only 6B active which",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-26-ama-announcement-apodex-thursday-8am-11am-pst",
-      "source": "localllama",
-      "title": "AMA Announcement: Apodex (Thursday, 8AM-11AM PST)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzdfw9/ama_announcement_apodex_thursday_8am11am_pst/",
-      "published_at": "2026-08-26T23:31:35Z",
-      "summary": "      &#32; submitted by &#32;  /u/XMasterrrr   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-26-qwen38-27b-c8-at-972-tg-5680-pp-on-4x-mi100-rig-65k-using-my",
-      "source": "localllama",
-      "title": "Qwen3.8 27B C8 at 972 TG / 5,680 PP on 4x MI100 rig ($6.5k) using my new INT8 vLLM fork",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vz9hqa/qwen38_27b_c8_at_972_tg_5680_pp_on_4x_mi100_rig/",
-      "published_at": "2026-08-26T20:54:18Z",
-      "summary": "Yet another vLLM fork thread here, but this time its for older INT8-centric hardware. This is a complete INT8 serving stack for Qwen3.8 27B based on vLLM, AITER, and a 27B GPTQ INT8 quant w/ DFlash2. Its not just another",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-26-how-to-fine-tune-an-llm-an-end-to-end-guide",
-      "source": "localllama",
-      "title": "How to Fine-Tune an LLM: An End-to-End Guide",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vz9dvn/how_to_finetune_an_llm_an_endtoend_guide/",
-      "published_at": "2026-08-26T20:50:14Z",
-      "summary": "      I ended up fine tuning a mistral 7b to outperform our costly foundational model and saved $300k. I previously thought that fine tuning was pointless (it&#39;s definitely not) and that all these problems could be so",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-26-compared-qwen-38-27b-community-quants-on-rtx-6000-vs-claude",
-      "source": "localllama",
-      "title": "Compared Qwen 3.8 27B community quants on RTX 6000 vs Claude Opus 4.6",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vz779w/compared_qwen_38_27b_community_quants_on_rtx_6000/",
-      "published_at": "2026-08-26T19:32:06Z",
-      "summary": "      *part 2 of an earlier post: previous quant comparison with voxel island creation this time I rented three rtx pro 6000 96gb, on each one I launched a qwen 3.8 27b quant and gave them 4 identical prompts:  classical",
-      "tags": [
-        "localllama"
       ]
     },
     {
