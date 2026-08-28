@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-27T22:03:17Z",
+  "updated_at": "2026-08-28T10:44:22Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10666",
+      "project": "llama-cpp",
+      "version": "b10666",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10666",
+      "published_at": "2026-08-28T07:13:38Z",
+      "body_excerpt": "tests : run test-save-load-state across all architectures (#27755) tests : run test-save-load-state across all architectures test-save-load-state previously only ran in ctest against a single downloaded model (tinyllamas/stories15M), i.e. only the llama arch. Add a --models DIR mode to test-save-load-state that runs the full save/load suite over every .gguf in a directory, reporting a per-model PA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10665",
+      "project": "llama-cpp",
+      "version": "b10665",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10665",
+      "published_at": "2026-08-28T00:17:21Z",
+      "body_excerpt": "model: add DSpark support for Nemotron3.5 (#27804) model: add DSpark support for Nemotron3.5 Update src/models/dflash.cpp Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret Co-authored-by: Xuan Son Nguyen Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10664",
+      "project": "llama-cpp",
+      "version": "b10664",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10664",
+      "published_at": "2026-08-27T22:47:46Z",
+      "body_excerpt": "ggml-hexagon: add HTP unary ops for ABS and LOG (#27786) Add HVX-accelerated implementations for GGML_OP_LOG and GGML_UNARY_OP_ABS on the HTP backend. Register HTP_OP_UNARY_ABS and HTP_OP_UNARY_LOG in op_remap_to_htp() Add ABS and LOG to ggml_backend_hexagon_device_supports_op() Implement hvx_abs_f32_aa() in hvx-arith.h using hvx_vec_abs_f32() Implement hvx_log_f32_aa() in hvx-log.h using hvx_vec_",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10663",
+      "project": "llama-cpp",
+      "version": "b10663",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10663",
+      "published_at": "2026-08-27T22:24:20Z",
+      "body_excerpt": "hex-unary: fix RMS_NORM_MUL weight-offset bugs for grouped/broadcast norms (#27798) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10662",
       "project": "llama-cpp",
@@ -396,6 +432,24 @@
       "published_at": "2026-08-25T06:44:51Z",
       "body_excerpt": "sycl : mark tq2_0 as not supported (#27660) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-3-Diarization-preview",
+      "project": "nvidia",
+      "version": "Nemotron-3-Diarization-preview",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization-preview",
+      "published_at": "2026-08-24T23:00:02Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-google-timesfm-3.0-pytorch",
+      "project": "google",
+      "version": "timesfm-3.0-pytorch",
+      "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
+      "published_at": "2026-08-24T22:05:51Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10615",
@@ -9953,42 +10007,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9431",
       "published_at": "2026-05-30T10:45:41Z",
       "body_excerpt": "ci : update ios-xcode release job to macos-26 (#23906) ci : disable libcommon build from xcframework ocd : fix name ci : ios-xcode change to macos-26 cont : pin xcode cont : pin xcode to minor version macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9430",
-      "project": "llama-cpp",
-      "version": "b9430",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9430",
-      "published_at": "2026-05-30T10:12:35Z",
-      "body_excerpt": "ggml : add some lsx support (#23798) loongarch : optimize LSX fp16 load/store with native intrinsics Use __lsx_vfcvtl_s_h and __lsx_vfcvt_h_s instead of scalar loops in __lsx_f16x4_load and __lsx_f16x4_store. loongarch : add LSX implementation for q8_0 dot product loongarch : add LSX implementation for q6_K dot product loongarch : add LSX implementation for iq4_xs dot product Improve reduce ops wh",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9428",
-      "project": "llama-cpp",
-      "version": "b9428",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9428",
-      "published_at": "2026-05-30T08:51:38Z",
-      "body_excerpt": "ci : fix s390x release job (#23898) ci : fix s390x release job ci : multi-thread build for ocd : names macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9415",
-      "project": "llama-cpp",
-      "version": "b9415",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9415",
-      "published_at": "2026-05-29T23:36:59Z",
-      "body_excerpt": "download: add option to skip_download (#23059) download: add option to skip_download fix fix 2 if file doesn't exist, respect skip_download flag macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) U",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.3.5",
-      "project": "localai",
-      "version": "v4.3.5",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.5",
-      "published_at": "2026-05-29T23:18:59Z",
-      "body_excerpt": "What's Changed Bug fixes :bug: fix: tool-call JSON leaks into content with stream+tools on tokenizer-template models (#10052) by @localai-bot in fix(openai): stop streaming tool-call double-emission when autoparser is active by @bozhouDev in fix(application): stop backend processes synchronously on shutdown by @richiejp in fix(functions): validate auto-detected XML tool-call names — robust glm-4.5",
       "type": "tool"
     }
   ]
