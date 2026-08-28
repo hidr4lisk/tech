@@ -1,136 +1,147 @@
 {
-  "updated_at": "2026-08-28T10:44:17Z",
+  "updated_at": "2026-08-28T22:00:04Z",
   "items": [
     {
-      "id": "localllama-2026-08-28-micron-hbm-requires-three-times-more-wafer-area-than-ddr5",
+      "id": "localllama-2026-08-28-release-sota-ggufs-for-qwen38-27b-gsq-rco-at-25-to-30-bpw",
       "source": "localllama",
-      "title": "Micron: HBM Requires Three Times More Wafer Area Than DDR5",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0mmk7/micron_hbm_requires_three_times_more_wafer_area/",
-      "published_at": "2026-08-28T10:19:44Z",
-      "summary": "      &quot;At Hot Chips 2026, Micron drew a notable comparison: For the same memory capacity, HBM requires approximately three times the wafer area of DDR5.&quot; &quot;When asked whether this ratio would improve with n",
+      "title": "[Release] SOTA GGUFs for Qwen3.8-27B: GSQ-RCO at 2.5 to 3.0 bpw",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w13vse/release_sota_ggufs_for_qwen3827b_gsqrco_at_25_to/",
+      "published_at": "2026-08-28T21:46:58Z",
+      "summary": "      We&#39;re releasing Qwen3.8-27B quantized with our newest methods, GSQ + RCO. Higher-quality models, same file size, now with the search and the quantizer both learned. What&#39;s inside:  GSQ (Gumbel-Softmax Quant",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-28-claude-mods-didnt-like-that-somehow",
+      "id": "localllama-2026-08-28-i-audited-443-gguf-quants-across-25-repos-64-of-them-cant-be",
       "source": "localllama",
-      "title": "claude mods didn't like that, somehow 🤷‍♀️",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0lz7e/claude_mods_didnt_like_that_somehow/",
-      "published_at": "2026-08-28T09:43:02Z",
-      "summary": "      &#32; submitted by &#32;  /u/peculiar-ragdoll   [link] &#32; [comments] ",
+      "title": "I audited 443 GGUF quants across 25 repos. 64 of them can't be the quant their filename claims.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w11ob5/i_audited_443_gguf_quants_across_25_repos_64_of/",
+      "published_at": "2026-08-28T20:20:26Z",
+      "summary": "      TL;DR: k-quants need tensor rows divisible by 256. When they aren&#39;t, llama-quantize quietly swaps in a ~4.5 bpw type and the file keeps its low-bit name. I audited 443 quants across 25 repos; 64 are affected. O",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-28-what-is-qwen-38-next-engram-usage",
+      "id": "localllama-2026-08-28-glm-53-on-hf-viewer",
       "source": "localllama",
-      "title": "What is Qwen 3.8 Next Engram usage?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0loos/what_is_qwen_38_next_engram_usage/",
-      "published_at": "2026-08-28T09:25:50Z",
-      "summary": "So there is a new model in town, incorporating Engram from Deepseek team. It contains most of the model parameters with about 51B params, but it act more like a knowledge / representation caching with little to no comput",
+      "title": "GLM-5.3 on HF Viewer",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w11epf/glm53_on_hf_viewer/",
+      "published_at": "2026-08-28T20:10:20Z",
+      "summary": "      GLM-5.3 is now ready to visualize in HF Viewer! Note again that the architecture is unchanged since GLM-5.2! Crazy improvements just from improved training! The graph visualization becomes quite complex at the expa",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-28-open-source-caught-up-because-its-open",
+      "id": "localllama-2026-08-28-qwen38-27b-on-a-24gb-rtx-pro-4000-blackwell-128k-real-contex",
       "source": "localllama",
-      "title": "open source caught up because it's open",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0kstl/open_source_caught_up_because_its_open/",
-      "published_at": "2026-08-28T08:33:44Z",
-      "summary": "Proof is in the method honestly. Closed model labs need to constantly reinvent the wheel to keep lead. Open source has a bunch of independent labs practically working somewhat together. Eventually when everyone is just r",
+      "title": "Qwen3.8-27B on a 24GB RTX PRO 4000 Blackwell: 128K real context, 785 tok/s prefill, 67 tok/s MTP3 decode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w10qem/qwen3827b_on_a_24gb_rtx_pro_4000_blackwell_128k/",
+      "published_at": "2026-08-28T19:45:33Z",
+      "summary": "I wanted to see whether NInfer could run Qwen3.8-27B on an RTX PRO 4000 Blackwell 24GB. Hardware/software:  NVIDIA RTX PRO 4000 Blackwell, 24GB 145W power limit CUDA 13.3 NVIDIA driver 610.x Ubuntu LXC under Proxmox Qwen",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-28-tencenthy4-preview-770b-a49b-weight-dropped",
+      "id": "localllama-2026-08-28-breeze-tts-2-initial-impressions-genuinely-frontier-tts",
       "source": "localllama",
-      "title": "Tencent/Hy4-preview 770B-A49B weight dropped",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0igxk/tencenthy4preview_770ba49b_weight_dropped/",
-      "published_at": "2026-08-28T06:14:02Z",
-      "summary": "      &#32; submitted by &#32;  /u/Beamsters   [link] &#32; [comments] ",
+      "title": "Breeze-TTS-2 initial impressions: genuinely 'frontier' TTS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1002h/breezetts2_initial_impressions_genuinely_frontier/",
+      "published_at": "2026-08-28T19:18:12Z",
+      "summary": "      You can test it out on breezblue&#39;s playground or use it locally, its only ~7GB.   &#32; submitted by &#32;  /u/Gohab2001   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-28-infinite-procedurally-generated-walking-simulator-coded-enti",
+      "id": "localllama-2026-08-28-i-benchmarked-9-open-models-on-spotting-fake-sources-during",
       "source": "localllama",
-      "title": "Infinite procedurally generated walking simulator coded entirely by Ornith-1.5-35B-Q4_K_M on an 8 GB RTX 4060",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0i01c/infinite_procedurally_generated_walking_simulator/",
-      "published_at": "2026-08-28T05:47:00Z",
-      "summary": "      I&#39;m very impressed with Ornith-1.5. It&#39;s the best model for my setup. It coded this in opencode.  &#32; submitted by &#32;  /u/Special_Condition671   [link] &#32; [comments] ",
+      "title": "I benchmarked 9 open models on spotting fake sources during agentic search (DeepSeek V4, Qwen 3.8, Nemotron 3 Ultra)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0zl5q/i_benchmarked_9_open_models_on_spotting_fake/",
+      "published_at": "2026-08-28T19:03:11Z",
+      "summary": "      I built a benchmark called EchoNet. An agent gets a factual question, then searches a syntheic web I made before answering. Some of that web is seeded with misinformation: one fake page, a fake page ranked first in",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-28-i-reverse-engineered-an-npu-vendors-engine-format-int8-weigh",
+      "id": "localllama-2026-08-28-can-i-do-anything-with-this",
       "source": "localllama",
-      "title": "I reverse-engineered an NPU vendor's engine format (int8 weights stored as two nibble planes) to run GGUFs with no model conversion — now 1.5× faster than the vendor's own runtime",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0hrrn/i_reverseengineered_an_npu_vendors_engine_format/",
-      "published_at": "2026-08-28T05:33:52Z",
-      "summary": "I&#39;ve been running Qwen3-0.6B on the M5Stack LLM-8850 card (Axera AX8850 NPU, 24 TOPS, 8GB LPDDR4x) hosted by a Raspberry Pi 5 — as a llama.cpp backend. The problem: the vendor stack requires converting every model th",
+      "title": "Can I do anything with this?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0yzva/can_i_do_anything_with_this/",
+      "published_at": "2026-08-28T18:41:30Z",
+      "summary": "      500GB of optane ram?  &#32; submitted by &#32;  /u/nosimsol   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-28-ornith-15-is-actually-pretty-good",
+      "id": "localllama-2026-08-28-rocm-100-a-decade-of-open-compute-built-for-the-age-of-agent",
       "source": "localllama",
-      "title": "Ornith 1.5 is actually pretty good",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0gk2z/ornith_15_is_actually_pretty_good/",
-      "published_at": "2026-08-28T04:29:03Z",
-      "summary": "hey guys i recently started using ornith 1.5 to rapidly test some tools im working on since qwen 3.8 27b was too slow for my testing loop. This model is actually really good. im getting around 130 tokens / second with mt",
+      "title": "ROCm 10.0: A Decade of Open Compute, Built for the Age of Agentic AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0yfmn/rocm_100_a_decade_of_open_compute_built_for_the/",
+      "published_at": "2026-08-28T18:20:40Z",
+      "summary": "      Their last version 7.14 was released just a month ago. llama.cpp PR(waiting for approval) for Version 10.0 https://github.com/ggml-org/llama.cpp/pull/27803 Hope this version comes with more boost &amp; improvements",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-28-ninfer-and-a-5090-with-38-27b-is-making-me-cry-tears-of-joy",
+      "id": "localllama-2026-08-28-local-agentic-coding-benchmark-qwen38-flash-next-nvfp4-vs-27",
       "source": "localllama",
-      "title": "Ninfer and a 5090 with 3.8 27B is making me cry tears of joy it's so good.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0fxos/ninfer_and_a_5090_with_38_27b_is_making_me_cry/",
-      "published_at": "2026-08-28T03:57:17Z",
-      "summary": "Built the latest and I&#39;m getting as much as 220 tokens per second and averaging in the 170s, I can&#39;t get over it. If anyone on here is on that project, fuckkkin&#39; chapeau man, really incredible job. I can&#39;",
+      "title": "Local agentic coding Benchmark : Qwen3.8-Flash-Next NVFP4 vs 27B (and the others...)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0x1r2/local_agentic_coding_benchmark_qwen38flashnext/",
+      "published_at": "2026-08-28T17:30:34Z",
+      "summary": "      Using https://huggingface.co/RadixArk/Qwen3.8-Flash-Next-NVFP4 and https://old.reddit.com/r/BlackwellPerformance/comments/1w04xb7/qwen38_flashnext_on_1x_rtx_pro_6000_171_ts_c1_428/ As usual, all the details in http",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-28-i-am-concerned-if-nvidia-acquires-llamacpp-dev-team-and-hf-a",
+      "id": "localllama-2026-08-28-glm-53-flash-benchmarks-on-tensorsharp-and-llamacpp",
       "source": "localllama",
-      "title": "I am Concerned if Nvidia Acquires Llama.CPP, Dev Team and HF, Anybody else?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0dl38/i_am_concerned_if_nvidia_acquires_llamacpp_dev/",
-      "published_at": "2026-08-28T02:04:06Z",
-      "summary": "I dont know about others, but Nvidia is aiming (potentially) to close the lid on older GPUs since they want to push their new technology. Llama and team has been the to go places for older GPUs like V100s. Knowing how Nv",
+      "title": "GLM-5.3-Flash Benchmarks on TensorSharp and llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0wgad/glm53flash_benchmarks_on_tensorsharp_and_llamacpp/",
+      "published_at": "2026-08-28T17:08:49Z",
+      "summary": "      Model: unsloth/GLM-5.3-Flash-GGUF UD-Q2_K_XL (4 shards, 101 GiB) + mmproj-BF16. Reference: llama.cpp PR #27754 (glm5next), CUDA 12.8, SM 120. Throughput Both engines back to back in one session, flash attention on,",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-28-do-you-think-a-few-qwen38-27b-models-working-together-could",
+      "id": "localllama-2026-08-28-ds4-branch-with-glm-53-flash-support",
       "source": "localllama",
-      "title": "Do you think a few Qwen3.8-27B models working together could score as well as Fable-5 on LiveCodeBench Hard?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0dgiv/do_you_think_a_few_qwen3827b_models_working/",
-      "published_at": "2026-08-28T01:58:27Z",
-      "summary": "      Has anyone tested this? Ensemble of small Qwen models claiming Fable 5-level coding performance. A new paper claims that running several Qwen3.8-27B models together matches Fable 5’s accuracy on LiveCodeBench. The ",
+      "title": "ds4 branch with GLM 5.3 Flash support",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0u82b/ds4_branch_with_glm_53_flash_support/",
+      "published_at": "2026-08-28T15:46:55Z",
+      "summary": "      As a happy user of ds4, I&#39;m very excited about this branch. Ran some prompts and it seems to be working well on my M4 Max 128gb! https://x.com/antirez/status/2093349448445243873  &#32; submitted by &#32;  /u/la",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-28-yall-are-sleeping-on-qwen-38-27b-q2-q2-dflash-q5-kv",
+      "id": "localllama-2026-08-28-qwen38-flash-on-rtx3090-64gb-ram-but-you-only-need-12gb-vram",
       "source": "localllama",
-      "title": "yall are sleeping on qwen 3.8 27b q2 + q2 dflash + q5 kv",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0bnv2/yall_are_sleeping_on_qwen_38_27b_q2_q2_dflash_q5/",
-      "published_at": "2026-08-28T00:36:22Z",
-      "summary": "ok bit more context: it&#39;s actually a QAT Q2 for Qwen 3.8 27 B: https://huggingface.co/sdkyuan/qwen3.8-27B-qat-q2_0-gguf QAT Q2 for DFlash model: https://huggingface.co/HermiHg/Qwen3.8-27B-DFlash2-Q2_K_S-MIX-GGUF Q5 K",
+      "title": "Qwen3.8-Flash on RTX3090 + 64GB RAM (but you only need 12GB VRAM)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0u24k/qwen38flash_on_rtx3090_64gb_ram_but_you_only_need/",
+      "published_at": "2026-08-28T15:40:53Z",
+      "summary": "I&#39;ve got Qwen3.8-Flash-next running on RTX 3090, Ryzen 9 3950X, a PCIe 3.0 motherboard, and 64GB DDR RAM from 2020. IQ4_XS weights, full kvarn5 context, vision on GPU, experts in host RAM, n-grams on disk. MTP works ",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-08-28-the-open-asr-leaderboard-adds-its-first-global-south-languag",
+      "source": "huggingface",
+      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "published_at": "2026-08-28T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
       ]
     },
     {
@@ -403,17 +414,6 @@
       "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
       "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
       "published_at": "2026-08-17T19:46:21Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-08-14-state-of-open-models-summer-2026-observations",
-      "source": "huggingface",
-      "title": "State of Open Models: Summer 2026 Observations",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "published_at": "2026-08-14T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"

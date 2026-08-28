@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-08-28T10:44:22Z",
+  "updated_at": "2026-08-28T22:00:09Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10679",
+      "project": "llama-cpp",
+      "version": "b10679",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10679",
+      "published_at": "2026-08-28T19:23:12Z",
+      "body_excerpt": "bench: add --tensor-read-lazy (#27881) bench: add --tensor-read-lazy rm the alias rename to LLAMA_LAZY_MODE_ Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (O",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10678",
+      "project": "llama-cpp",
+      "version": "b10678",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10678",
+      "published_at": "2026-08-28T18:51:43Z",
+      "body_excerpt": "model: qwen4exp: reduce number of graph splits (#27880) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10677",
+      "project": "llama-cpp",
+      "version": "b10677",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10677",
+      "published_at": "2026-08-28T18:27:33Z",
+      "body_excerpt": "vulkan: fix missing view-alias dependencies in ggml_vk_graph_optimize (#27812) vulkan: fix missing view-alias dependencies in ggml_vk_graph_optimize is_src_of doesn't treat two views of one tensor as dependent, so the optimizer reorders nodes across aliased reads and writes. Result: silently wrong tokens under greedy decoding, different output on every server start, and invalid speculative-decodin",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10676",
+      "project": "llama-cpp",
+      "version": "b10676",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10676",
+      "published_at": "2026-08-28T18:01:41Z",
+      "body_excerpt": "ggml : fix conv_transpose_2d for multiple batches (#26132) ggml : fix conv_transpose_2d for multiple batches ggml_compute_forward_conv_transpose_2d_impl only computed the first batch (ne[3] of the destination); every batch after the first was left as zero. Both the src1 permutation and the main compute loop now iterate over the batch dimension, and the work buffer size in ggml_graph_plan is scaled",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10675",
+      "project": "llama-cpp",
+      "version": "b10675",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10675",
+      "published_at": "2026-08-28T15:48:02Z",
+      "body_excerpt": "Vulkan: add hoisting support for row IDs and expert count in shaders (#26686) vulkan: add hoisting support for row IDs and expert count in shaders use hoisted row ids in coopmat2 vulkan: address review feedback on count_experts use vk_op_count_experts_push_constants instead of a raw uint vector apply the fastdiv trick to the ne00 div/mod in count_experts compute the per-expert offsets with subgrou",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10673",
+      "project": "llama-cpp",
+      "version": "b10673",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10673",
+      "published_at": "2026-08-28T14:30:22Z",
+      "body_excerpt": "metal : add fa-vec tunings for M4 (#27875) This adds fa_vec_tuned_table records for Apple M4 to ggml-metal-tuning.cpp. Includes F16, Q4_0, Q4_1, Q5_0, Q5_1, and Q8_0. (M4, 10 GPU Cores) Co-authored-by: Strongtut Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10672",
+      "project": "llama-cpp",
+      "version": "b10672",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10672",
+      "published_at": "2026-08-28T13:51:56Z",
+      "body_excerpt": "OpenVINO: Update OV to 2026.3.1, whisper.cpp support, Qwen3.5 on NPU, and new ops (#27843) OpenVINO Backend: Fuse IM2COL + MatMul convolution into OpenVINO convolution ci:ggml-ov: Skip recurrent state rollback tests ci:ggml-ov: Skip recurrent state rollback tests Update OPENVINO.md ggml-openvino : add env-var gated op support debugging Fix ggml_rope_set_offset case OpenVINO backend: Support Whispe",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10670",
+      "project": "llama-cpp",
+      "version": "b10670",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10670",
+      "published_at": "2026-08-28T13:12:53Z",
+      "body_excerpt": "sycl: use TILE for quantized KV decode on BMG (#26689) Route quantized KV decode to TILE on Xe2 (BMG) only, keep VEC on other archs until validated there. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10669",
+      "project": "llama-cpp",
+      "version": "b10669",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10669",
+      "published_at": "2026-08-28T12:44:20Z",
+      "body_excerpt": "sycl: bind the f16 KV cache in place for the oneDNN SDPA path (#27468) Measured at a live KV length of 34816 (32768 depth plus one 2048 ubatch), on Qwen3.8 27B Q4_K_S: per tensor 4 34816 256 2 B = 71.3 MB staged per call K and V, so 2x = 142.6 MB traffic per call read once, write once = 285.2 MB traffic per ubatch 285.2 MB 16 calls = 4.56 GB One ubatch is one ggml_cgraph submission (llama_context:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10668",
+      "project": "llama-cpp",
+      "version": "b10668",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10668",
+      "published_at": "2026-08-28T12:17:09Z",
+      "body_excerpt": "metal : add fa-vec tunings for M3 Max, M5 and M5 Pro (#27863) metal : add fa-vec tunings for M5 This is a followup contribution to efeda76b948f59ee52ea20db640bc4cf3dfe8ac1 as requested in to add support for additional Apple GPUs. I generated this output using the provided instructions: This ran on a machine with Apple M5. Assisted-by: pi:llama.cpp/Qwen3.8-27B metal : add fa-vec tunings for M5 Pro ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10667",
+      "project": "llama-cpp",
+      "version": "b10667",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10667",
+      "published_at": "2026-08-28T11:53:51Z",
+      "body_excerpt": "metal : add fa-vec tunings for M4 Pro (#27824) This is a followup contribution to efeda76b948f59ee52ea20db640bc4cf3dfe8ac1 as requested in to add support for additional Apple GPUs. I generated this output using the provided instructions: This ran on a MacBook Pro (14-inch, Nov 2024) with Apple M4 Pro. The command completed successfully in 1h 13m 1s with no other notable load on the system. Website",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10666",
       "project": "llama-cpp",
@@ -62,6 +161,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1",
       "published_at": "2026-08-27T20:31:47Z",
       "body_excerpt": "What's Changed app: restore system dark mode by @hoyyeva in proxy: continue requests when the model catalog changes by @ParthSareen in app: synchronize macOS app handoff by @ParthSareen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.33.2",
+      "project": "ollama",
+      "version": "v0.33.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.2",
+      "published_at": "2026-08-27T20:31:47Z",
+      "body_excerpt": "What's Changed Ollama's app now follows the system appearance again, restoring dark mode support Fixed the macOS app to properly hand off to an already-running instance instead of starting a second one The Claude Desktop proxy no longer interrupts in-flight requests when the model catalog updates Full Changelog:",
       "type": "tool"
     },
     {
@@ -9935,78 +10043,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9439",
       "published_at": "2026-05-31T06:57:37Z",
       "body_excerpt": "llama: only use one iGPU device by default (#23897) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Wi",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.3.6",
-      "project": "localai",
-      "version": "v4.3.6",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.3.6",
-      "published_at": "2026-05-30T21:23:53Z",
-      "body_excerpt": "What's Changed Other Changes chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in security(http): refuse redirects on outbound clients via hardened pkg/httpclient by @richiejp in feat(parakeet-cpp): add NVIDIA NeMo Parakeet ASR backend (parakeet.cpp) by @localai-bot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in chore: :arrow_up: Update mudler/parakeet.cpp to by @locala",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9437",
-      "project": "llama-cpp",
-      "version": "b9437",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9437",
-      "published_at": "2026-05-30T20:56:44Z",
-      "body_excerpt": "Support in llama-bench (#23714) Support in llama-bench Make the default value of -1, similar to other tools. Update README with latest usage and examples Address review comments macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9436",
-      "project": "llama-cpp",
-      "version": "b9436",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9436",
-      "published_at": "2026-05-30T17:43:37Z",
-      "body_excerpt": "opencl: support bf16 by converting to f16 (#23839) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Win",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-GR00T-H-N1.7",
-      "project": "nvidia",
-      "version": "GR00T-H-N1.7",
-      "url": "https://huggingface.co/nvidia/GR00T-H-N1.7",
-      "published_at": "2026-05-30T14:40:32Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9434",
-      "project": "llama-cpp",
-      "version": "b9434",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9434",
-      "published_at": "2026-05-30T14:25:45Z",
-      "body_excerpt": "TP: fix granularity for Qwen 3.5/3.6 + 3 GPUs (#23843) TP: fix granularity for Qwen 3.5/3.6 + 3 GPUs fix afmoe TP macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9433",
-      "project": "llama-cpp",
-      "version": "b9433",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9433",
-      "published_at": "2026-05-30T13:39:01Z",
-      "body_excerpt": "metal : restore im2col implementation for large kernels (#23901) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9432",
-      "project": "llama-cpp",
-      "version": "b9432",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9432",
-      "published_at": "2026-05-30T11:13:12Z",
-      "body_excerpt": "test: (test-llama-archs) log the config name first (#23885) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Win",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9431",
-      "project": "llama-cpp",
-      "version": "b9431",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9431",
-      "published_at": "2026-05-30T10:45:41Z",
-      "body_excerpt": "ci : update ios-xcode release job to macos-26 (#23906) ci : disable libcommon build from xcframework ocd : fix name ci : ios-xcode change to macos-26 cont : pin xcode cont : pin xcode to minor version macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6",
       "type": "tool"
     }
   ]
