@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-08-28T22:00:04Z",
+  "updated_at": "2026-08-29T06:31:32Z",
   "items": [
+    {
+      "id": "localllama-2026-08-29-saved-my-fiances-phone-with-qwen-38-27b",
+      "source": "localllama",
+      "title": "Saved my fiances phone with qwen 3.8 27b",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1cbb0/saved_my_fiances_phone_with_qwen_38_27b/",
+      "published_at": "2026-08-29T04:12:59Z",
+      "summary": "this model is really something incredible, saved us like 600 dollars. my fiance is always breaking her electronics and then getting me to fix them. The other day she brought me her phone and it was stuck in a boot loop t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-qwen-38-flash-or-glm-53-flash-thoughts-which-one-to-keep-or",
+      "source": "localllama",
+      "title": "Qwen 3.8 Flash Or GLM 5.3 Flash, thoughts which one to keep, or if both together",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1c27j/qwen_38_flash_or_glm_53_flash_thoughts_which_one/",
+      "published_at": "2026-08-29T04:00:12Z",
+      "summary": "What are you though between them, should stick to one or do they complement each other?   &#32; submitted by &#32;  /u/Hannibalj2ca   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-50-tg-increase-with-offloading-hot-experts-to-vram",
+      "source": "localllama",
+      "title": "50% tg increase with offloading \"hot\" experts to VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1996t/50_tg_increase_with_offloading_hot_experts_to_vram/",
+      "published_at": "2026-08-29T01:42:09Z",
+      "summary": "      I got a 50% performance boost (20 t/s -&gt; 30 t/s) in llama.cpp for MoE models that don’t fit entirely in VRAM—in my case, Qwen 3.8 Flash Next.  The idea is simple: instead of offloading entire layers to the GPU, ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-use-llms-to-auto-annotation-your-dataset-locally",
+      "source": "localllama",
+      "title": "use llms to auto annotation your dataset locally",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w18v86/use_llms_to_auto_annotation_your_dataset_locally/",
+      "published_at": "2026-08-29T01:23:13Z",
+      "summary": "      hi i make tool for this called llmog it&#39;s purpose to make llms free to - auto annotation datasets - reclassification existing yolo datasets running totally local using llama cpp or vllm or use external api you&",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-tenstorrent-quietbox-2-arrived",
+      "source": "localllama",
+      "title": "Tenstorrent Quietbox 2 Arrived!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w18pu9/tenstorrent_quietbox_2_arrived/",
+      "published_at": "2026-08-29T01:16:18Z",
+      "summary": "      Super excited to start dev on this. I&#39;ve already deployed a number of galaxy systems and want to really figure out the ideal models on this architecture that I haven&#39;t discovered. It&#39;s actually quite a ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-qwen-38-flash-next-ngram-look-up-table-offloaded-to-ssd-and",
+      "source": "localllama",
+      "title": "Qwen 3.8 Flash Next ngram look up table offloaded to SSD and streamed in SGLang",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w18b1k/qwen_38_flash_next_ngram_look_up_table_offloaded/",
+      "published_at": "2026-08-29T00:56:57Z",
+      "summary": "      Have anyone tried this yet? Looks promising, seems too good to be true with no performance loss.  &#32; submitted by &#32;  /u/Easy_Werewolf7903   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-atomicchatqwen38-flash-next-gguf-is-really-good",
+      "source": "localllama",
+      "title": "AtomicChat/Qwen3.8-Flash-Next-GGUF is Really Good",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w17zbg/atomicchatqwen38flashnextgguf_is_really_good/",
+      "published_at": "2026-08-29T00:41:27Z",
+      "summary": "      specs  hardware: M4 Max 128GB Studio inference engine: llama.cpp (qwen4exp branch) judge: claude-opus-4-6  AtomicChat/Qwen3.8-Flash-Next-GGUF Qwen3.8-Flash-Next is a great model I benched in my previous post, but i",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-28-hot-or-not",
+      "source": "localllama",
+      "title": "Hot or not?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w16nfx/hot_or_not/",
+      "published_at": "2026-08-28T23:41:49Z",
+      "summary": "      Does anyone else add active cooling to their DGX stack? Found mine was getting quite hot under extended load. This helps immensely with that so far. I will be adding some stats as they relate to comphy and DeepSeek",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-28-is-it-worth-running-qwen-38-flash-next-on-4x3090-vs-27b",
+      "source": "localllama",
+      "title": "Is it worth running Qwen 3.8 Flash Next on 4x3090 vs 27B?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w16kts/is_it_worth_running_qwen_38_flash_next_on_4x3090/",
+      "published_at": "2026-08-28T23:38:37Z",
+      "summary": "Can someone please tell me if it&#39;s worth running Qwen 3.8 Flash Next on 4x3090 yet over 27B? 27B is good but damn it is indecisive. I am getting frustrated watching it get &quot;so close&quot; to solving a problem, o",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-28-just-a-rumour-of-a-bug-is-enough-to-find-a-security-exploit",
+      "source": "simonw",
+      "title": "Just a rumour of a bug is enough to find a security exploit these days",
+      "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+      "published_at": "2026-08-28T22:12:02Z",
+      "summary": "Just a rumour of a bug is enough to find a security exploit these days\nAnil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he repo",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-28-today-i-hit-181-tokss-aggregate-on-qwen38-flash-next-on-2x-d",
+      "source": "localllama",
+      "title": "Today I hit 181 toks/s (aggregate) on Qwen3.8-Flash-Next on 2x DGX Sparks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1486l/today_i_hit_181_tokss_aggregate_on/",
+      "published_at": "2026-08-28T22:00:36Z",
+      "summary": "      Hey all, and hello fellow DGX Spark-ers! Today I managed some pretty crazy numbers: 181 tok/s aggregate on 2× DGX Spark on Qwen3.8-Flash-Next at 512Kcontext (2.8M kvc) I hit 181 tok/s aggregate today across a multi",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-28-release-sota-ggufs-for-qwen38-27b-gsq-rco-at-25-to-30-bpw",
       "source": "localllama",
@@ -19,116 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w11ob5/i_audited_443_gguf_quants_across_25_repos_64_of/",
       "published_at": "2026-08-28T20:20:26Z",
       "summary": "      TL;DR: k-quants need tensor rows divisible by 256. When they aren&#39;t, llama-quantize quietly swaps in a ~4.5 bpw type and the file keeps its low-bit name. I audited 443 quants across 25 repos; 64 are affected. O",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-28-glm-53-on-hf-viewer",
-      "source": "localllama",
-      "title": "GLM-5.3 on HF Viewer",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w11epf/glm53_on_hf_viewer/",
-      "published_at": "2026-08-28T20:10:20Z",
-      "summary": "      GLM-5.3 is now ready to visualize in HF Viewer! Note again that the architecture is unchanged since GLM-5.2! Crazy improvements just from improved training! The graph visualization becomes quite complex at the expa",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-28-qwen38-27b-on-a-24gb-rtx-pro-4000-blackwell-128k-real-contex",
-      "source": "localllama",
-      "title": "Qwen3.8-27B on a 24GB RTX PRO 4000 Blackwell: 128K real context, 785 tok/s prefill, 67 tok/s MTP3 decode",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w10qem/qwen3827b_on_a_24gb_rtx_pro_4000_blackwell_128k/",
-      "published_at": "2026-08-28T19:45:33Z",
-      "summary": "I wanted to see whether NInfer could run Qwen3.8-27B on an RTX PRO 4000 Blackwell 24GB. Hardware/software:  NVIDIA RTX PRO 4000 Blackwell, 24GB 145W power limit CUDA 13.3 NVIDIA driver 610.x Ubuntu LXC under Proxmox Qwen",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-28-breeze-tts-2-initial-impressions-genuinely-frontier-tts",
-      "source": "localllama",
-      "title": "Breeze-TTS-2 initial impressions: genuinely 'frontier' TTS",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1002h/breezetts2_initial_impressions_genuinely_frontier/",
-      "published_at": "2026-08-28T19:18:12Z",
-      "summary": "      You can test it out on breezblue&#39;s playground or use it locally, its only ~7GB.   &#32; submitted by &#32;  /u/Gohab2001   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-28-i-benchmarked-9-open-models-on-spotting-fake-sources-during",
-      "source": "localllama",
-      "title": "I benchmarked 9 open models on spotting fake sources during agentic search (DeepSeek V4, Qwen 3.8, Nemotron 3 Ultra)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0zl5q/i_benchmarked_9_open_models_on_spotting_fake/",
-      "published_at": "2026-08-28T19:03:11Z",
-      "summary": "      I built a benchmark called EchoNet. An agent gets a factual question, then searches a syntheic web I made before answering. Some of that web is seeded with misinformation: one fake page, a fake page ranked first in",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-28-can-i-do-anything-with-this",
-      "source": "localllama",
-      "title": "Can I do anything with this?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0yzva/can_i_do_anything_with_this/",
-      "published_at": "2026-08-28T18:41:30Z",
-      "summary": "      500GB of optane ram?  &#32; submitted by &#32;  /u/nosimsol   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-28-rocm-100-a-decade-of-open-compute-built-for-the-age-of-agent",
-      "source": "localllama",
-      "title": "ROCm 10.0: A Decade of Open Compute, Built for the Age of Agentic AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0yfmn/rocm_100_a_decade_of_open_compute_built_for_the/",
-      "published_at": "2026-08-28T18:20:40Z",
-      "summary": "      Their last version 7.14 was released just a month ago. llama.cpp PR(waiting for approval) for Version 10.0 https://github.com/ggml-org/llama.cpp/pull/27803 Hope this version comes with more boost &amp; improvements",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-28-local-agentic-coding-benchmark-qwen38-flash-next-nvfp4-vs-27",
-      "source": "localllama",
-      "title": "Local agentic coding Benchmark : Qwen3.8-Flash-Next NVFP4 vs 27B (and the others...)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0x1r2/local_agentic_coding_benchmark_qwen38flashnext/",
-      "published_at": "2026-08-28T17:30:34Z",
-      "summary": "      Using https://huggingface.co/RadixArk/Qwen3.8-Flash-Next-NVFP4 and https://old.reddit.com/r/BlackwellPerformance/comments/1w04xb7/qwen38_flashnext_on_1x_rtx_pro_6000_171_ts_c1_428/ As usual, all the details in http",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-28-glm-53-flash-benchmarks-on-tensorsharp-and-llamacpp",
-      "source": "localllama",
-      "title": "GLM-5.3-Flash Benchmarks on TensorSharp and llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0wgad/glm53flash_benchmarks_on_tensorsharp_and_llamacpp/",
-      "published_at": "2026-08-28T17:08:49Z",
-      "summary": "      Model: unsloth/GLM-5.3-Flash-GGUF UD-Q2_K_XL (4 shards, 101 GiB) + mmproj-BF16. Reference: llama.cpp PR #27754 (glm5next), CUDA 12.8, SM 120. Throughput Both engines back to back in one session, flash attention on,",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-28-ds4-branch-with-glm-53-flash-support",
-      "source": "localllama",
-      "title": "ds4 branch with GLM 5.3 Flash support",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0u82b/ds4_branch_with_glm_53_flash_support/",
-      "published_at": "2026-08-28T15:46:55Z",
-      "summary": "      As a happy user of ds4, I&#39;m very excited about this branch. Ran some prompts and it seems to be working well on my M4 Max 128gb! https://x.com/antirez/status/2093349448445243873  &#32; submitted by &#32;  /u/la",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-28-qwen38-flash-on-rtx3090-64gb-ram-but-you-only-need-12gb-vram",
-      "source": "localllama",
-      "title": "Qwen3.8-Flash on RTX3090 + 64GB RAM (but you only need 12GB VRAM)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0u24k/qwen38flash_on_rtx3090_64gb_ram_but_you_only_need/",
-      "published_at": "2026-08-28T15:40:53Z",
-      "summary": "I&#39;ve got Qwen3.8-Flash-next running on RTX 3090, Ryzen 9 3950X, a PCIe 3.0 motherboard, and 64GB DDR RAM from 2020. IQ4_XS weights, full kvarn5 context, vision on GPU, experts in host RAM, n-grams on disk. MTP works ",
       "tags": [
         "localllama"
       ]
@@ -327,17 +338,6 @@
       "url": "https://simonwillison.net/2026/Aug/21/llm/",
       "published_at": "2026-08-21T17:16:13Z",
       "summary": "Release: llm 0.32.1\n        Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx, and it turned out LLM depended on that library but only installed it via a tra",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-21-llm-openrouter-07",
-      "source": "simonw",
-      "title": "llm-openrouter 0.7",
-      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
-      "published_at": "2026-08-21T16:58:19Z",
-      "summary": "Release: llm-openrouter 0.7\n        Now that this plugin is compatible with LLM 0.32 it works much better with reasoning LLMs available through OpenRouter.\n\n\nUpdated for compatibility with LLM 0.32.\nModels now use OpenRo",
       "tags": [
         "simonw"
       ]
