@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-29T16:30:03Z",
+  "updated_at": "2026-08-29T20:44:09Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10687",
+      "project": "llama-cpp",
+      "version": "b10687",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10687",
+      "published_at": "2026-08-29T18:23:05Z",
+      "body_excerpt": "opencl: use a better matmul path on two Adreno GPU generations (#27640) opencl: default the Adreno xmem F16xF32 GEMM on for X2E kernel_mul_mm_f16_f32_l4_lm is the slowest matmul this backend has on Adreno: on the X2-90 it runs the gpt-oss-20b attention projections at roughly a quarter of what the tuned dense q4_0 GEMM reaches on the same device. That matters for any model whose non-expert weights ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10686",
+      "project": "llama-cpp",
+      "version": "b10686",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10686",
+      "published_at": "2026-08-29T16:46:00Z",
+      "body_excerpt": "metal : assert shared memory padding (#27951) metal : assert shared memory padding cont : add ref Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ub",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10685",
       "project": "llama-cpp",

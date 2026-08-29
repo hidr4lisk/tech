@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-08-29T16:29:56Z",
+  "updated_at": "2026-08-29T20:44:03Z",
   "items": [
+    {
+      "id": "localllama-2026-08-29-any-current-voice2voice-ai-model-that-runs-locally-thats-goo",
+      "source": "localllama",
+      "title": "Any current Voice2Voice AI model that runs locally that’s good?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1vw3c/any_current_voice2voice_ai_model_that_runs/",
+      "published_at": "2026-08-29T19:39:50Z",
+      "summary": "You guys remember sesame AI? With their really good AI voice model? Obviously ChatGPT has their voice model that’s also really good. Is there any smaller local variant that runs on like consumer grade gpu‘s (12,16 24gb?)",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-tenstorrent-qwen37-27b-benchmarks",
+      "source": "localllama",
+      "title": "Tenstorrent Qwen3.7-27b Benchmarks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1vtfo/tenstorrent_qwen3727b_benchmarks/",
+      "published_at": "2026-08-29T19:36:48Z",
+      "summary": "      I saw someone here posted about getting a Tenstorrent QuietBox 2, and I wanted to look into it the hardware. It&#39;s very difficult to find any benchmarks, but I managed to find some from an employee. The machine ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-qwen38-27b-thinking-xhigh-vs-thinking-off---apple-m5-max",
+      "source": "localllama",
+      "title": "Qwen3.8-27B thinking xhigh Vs. thinking off - Apple M5 Max",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1vbal/qwen3827b_thinking_xhigh_vs_thinking_off_apple_m5/",
+      "published_at": "2026-08-29T19:17:02Z",
+      "summary": "      I ran a few benchmarks on my MacBook Pro M5 Max with oMLX: Running Qwen3.8-27B with thinking off has a big effect on output quality. Running it with thinking on xhigh burns 5.5x the tokens and runs 6x longer. The a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-67-84-ts-deepseek-flash-v4-off-2x-gx10s",
+      "source": "localllama",
+      "title": "67-84 t/s DeepSeek flash v4 off 2x GX10s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1uug2/6784_ts_deepseek_flash_v4_off_2x_gx10s/",
+      "published_at": "2026-08-29T18:59:15Z",
+      "summary": "      Finally achieved usable results with 2 gx10 at over 65 tokens a second sustained. The 2570 prompt eval is really crucial for me as well. Overall stoked 10/10 edit: I followed this setup with 2 ASUS GX10 DGX compute",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-llamacpp-open-prs-list---cpuramdiskhybrid-related---better-f",
+      "source": "localllama",
+      "title": "llama.cpp Open PRs list - CPU/RAM/Disk/Hybrid Related - Better for CPU-only & Hybrid inference",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1uu6d/llamacpp_open_prs_list_cpuramdiskhybrid_related/",
+      "published_at": "2026-08-29T18:58:58Z",
+      "summary": "      Folks! We&#39;re just 50 PRs away from more faster inference. Hopefully by end of year.  Experts!, please chip in there. List of Open/Ongoing PRs(and also Discussions) related to CPU/RAM/Disk/Hybrid:   [Discussion]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-ninfer-fork-i-wanted-to-have-a-1m-context-qwen-38-27b-tp2-du",
+      "source": "localllama",
+      "title": "(NInfer Fork) I wanted to have a 1M context Qwen-3.8 27B, tp2, dual 5090s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1txyk/ninfer_fork_i_wanted_to_have_a_1m_context_qwen38/",
+      "published_at": "2026-08-29T18:24:17Z",
+      "summary": "      Hey! I forked NInfer (a from-scratch C++20/CUDA inference engine for Qwen models) and added two things: tensor-parallel across two GPUs, and YaRN ×4 rope scaling. Together they let Qwen3.8-27B NVFP4 run a 1,048,576",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-this-finance-model-benchmark-card-is-more-useful-for-what-it",
+      "source": "localllama",
+      "title": "This finance-model benchmark card is more useful for what it discloses than for who \"wins\"",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1tfkc/this_financemodel_benchmark_card_is_more_useful/",
+      "published_at": "2026-08-29T18:04:08Z",
+      "summary": "      The official benchmark card for Ling-3.0-flash-Fin is a useful reminder that the unit being tested is rarely just “the model.” The release says most runs used temperature 1, top_p 0.95 and the highest available rea",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-qwen38-flash-quants",
+      "source": "localllama",
+      "title": "Qwen3.8 Flash Quants",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1ou8x/qwen38_flash_quants/",
+      "published_at": "2026-08-29T15:02:24Z",
+      "summary": "~20–30GB smaller than Unsloth/AesSedai Q4 at similar PPL.  After several days of testing I released a set of mainline-compatible imatrix quants for Qwen3.8-Flash-Next.  Goal: same quality band as the popular Unsloth / Ae",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-29-tencent-compressed-hy4-preview-from-15tb-to-about-200gb-gguf",
       "source": "localllama",
@@ -41,94 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1nc1c/exo_labs_claiming_48_tbs_memory_bandwidth_through/",
       "published_at": "2026-08-29T14:00:49Z",
       "summary": "      Exo labs making some very exciting and interesting claims. The headline is bandwidth scales linearly on Mac Studio clusters with their solution. There is a thread over at localllm subreddit (https://www.reddit.com/",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-is-it-possible-to-run-it-with-a-combined-memory-setup-16-gb",
-      "source": "localllama",
-      "title": "Is it possible to run it with a combined memory setup: 16 GB VRAM + 64 GB RAM + SSD for offloading n-grams?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1lu77/is_it_possible_to_run_it_with_a_combined_memory/",
-      "published_at": "2026-08-29T12:55:14Z",
-      "summary": "Hardware: rtx 5080 16 gb vram; 64 gb ram ddr5 6000hz; ssd with unlimited memory; ryzen 7 9800 x3d. OS: Windows 11 Software: I’d prefer llama.cpp, but it’s not a strict requirement; I’ll use whatever you suggest, as long ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-qwen-38-27b-at-50-toks-with-100k-context-on-a-16gb-gpu-beell",
-      "source": "localllama",
-      "title": "Qwen 3.8 27B at 50 tok/s with 100k Context on a 16GB GPU! (beellama.cpp)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1lq7u/qwen_38_27b_at_50_toks_with_100k_context_on_a/",
-      "published_at": "2026-08-29T12:50:05Z",
-      "summary": "I wanted to share my successful setup for running a Qwen 3.8 27B model with a massive context window on a consumer 16GB GPU (RTX 4070 Ti SUPER). The goal was to fit everything into VRAM without sacrificing quality or spe",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-how-important-is-it-for-chinese-llms-to-reach-the-opus-48-le",
-      "source": "localllama",
-      "title": "How important is it for Chinese LLMs to reach the Opus 4.8 level?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1l3a2/how_important_is_it_for_chinese_llms_to_reach_the/",
-      "published_at": "2026-08-29T12:19:44Z",
-      "summary": "      In mid-August, Ramp published spending data collected from 70,000 U.S. companies: Fable 5 ,the most powerful and expensive model in Anthropic’s lineup, accounts for just 11% of what those businesses spend on the co",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-an-official-1-bit-quant-for-hy4",
-      "source": "localllama",
-      "title": "An official 1-bit quant for Hy4??? 👀",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1kt83/an_official_1bit_quant_for_hy4/",
-      "published_at": "2026-08-29T12:05:52Z",
-      "summary": "      Has anyone tried it? The results in their tweet look very promising! Sadly, I don’t have enough RAM yet… Accuracy barely moves vs BF16 📊 MCP Atlas 83.7→83.2 📊 SWE-Bench multi 82.9→81.3 📊 MRCR 81.3→81.1 📊 IFBench 73",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-were-designing-a-tiny-autonomous-research-agent",
-      "source": "localllama",
-      "title": "Were designing a tiny autonomous research agent",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1kg1v/were_designing_a_tiny_autonomous_research_agent/",
-      "published_at": "2026-08-29T11:47:42Z",
-      "summary": "      This base model is only 43m parameters trained on 3m arXiv abstracts. We plan to continue pre-training and post training. If you create fine-tuning datasets or if you know of any datasets that can help shape the be",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-if-your-ts-is-low-enough-you-can-see-speculative-decoding-wi",
-      "source": "localllama",
-      "title": "If your t/s is low enough, you can see speculative decoding with your own eyes",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1je5d/if_your_ts_is_low_enough_you_can_see_speculative/",
-      "published_at": "2026-08-29T10:51:58Z",
-      "summary": "The other day I was trying out a distillation of DS4 Pro, and it came with MTP. It was slow as hell on my hardware, barely 2-3 t/s, BUT the speed got bumps every once in a while, and I noticed it was in moments like:  Un",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-qwen38-next-streaming---150tps-prefill-36-tps-decode-on-m5-a",
-      "source": "localllama",
-      "title": "Qwen3.8-Next streaming - 150tps prefill, 3.6 tps decode on M5 Air",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1inuk/qwen38next_streaming_150tps_prefill_36_tps_decode/",
-      "published_at": "2026-08-29T10:10:40Z",
-      "summary": "Out of curiosity, I thought I&#39;d see if I could adapt my DSv4 streaming stack from a few weeks ago to take Qwen3.8-Next. It worked, better than I thought - it actually runs faster on my 32GB M5 than the dense 27b does",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-different-qwen-thinking-levels",
-      "source": "localllama",
-      "title": "Different Qwen thinking levels",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1gm8y/different_qwen_thinking_levels/",
-      "published_at": "2026-08-29T08:09:36Z",
-      "summary": "      &#32; submitted by &#32;  /u/Tall_Abrocoma_3533   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
