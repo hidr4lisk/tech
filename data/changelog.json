@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-08-29T06:31:38Z",
+  "updated_at": "2026-08-29T16:30:03Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10685",
+      "project": "llama-cpp",
+      "version": "b10685",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10685",
+      "published_at": "2026-08-29T16:23:58Z",
+      "body_excerpt": "metal : add remaining fa-vec tunings for M4 Pro (#27915) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10684",
+      "project": "llama-cpp",
+      "version": "b10684",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10684",
+      "published_at": "2026-08-29T15:57:32Z",
+      "body_excerpt": "sycl: make --fit respect --fit-target better (#27629) improve the --fit algorithm to take into account the actual peak required VRAM for a given context size on a SYCL backend. This includes both properly accounting for how much VRAM is required when the allocated context is fully used (which makes the reported context drop below what it did before, but stop it OOMing) as well as preventing some o",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10683",
+      "project": "llama-cpp",
+      "version": "b10683",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10683",
+      "published_at": "2026-08-29T15:25:27Z",
+      "body_excerpt": "vulkan: combine duplicated fastdiv functions, rename the one optimizing small divs (#27526) vulkan: combine duplicated fastdiv functions, rename the one optimizing small divs remove one more fastdiv Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10682",
+      "project": "llama-cpp",
+      "version": "b10682",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10682",
+      "published_at": "2026-08-29T15:01:16Z",
+      "body_excerpt": "metal : add fa-vec tunings for M1 Max (#27932) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10681",
+      "project": "llama-cpp",
+      "version": "b10681",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10681",
+      "published_at": "2026-08-29T14:34:34Z",
+      "body_excerpt": "vulkan: Change mul_mat_id to pad K rather than N (#27925) The N padding is needed for mul_mat, but not mul_mat_id. For mul_mat_id, we indirect the row index through a shared memory lookup table which avoids any OOB row coordinate. But that callback doesn't bounds check K, so we actually need K padding instead. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10679",
       "project": "llama-cpp",
@@ -10016,42 +10061,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9444",
       "published_at": "2026-05-31T21:51:08Z",
       "body_excerpt": "server : handle If-None-Match weak ETags (#23916) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Wind",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.43-beta",
-      "project": "unsloth",
-      "version": "v0.1.43-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.43-beta",
-      "published_at": "2026-05-31T14:06:11Z",
-      "body_excerpt": "To update Unsloth or install a new Unsloth Studio, you must use: macOS, Linux, WSL: Windows: > [!WARNING] > DO NOT USE since packaging will not get the latest updates Mac Updates Re-enabled prebuilt binaries for Apple Silicon (M1-M4) - Mac OS 14 / 15 / 26 (Tahoe) Apple Silicon Mac OS 13 (Ventura) is source build Intel (x86_64) for Mac OS 13.3 / 14 / 15 / 26 (Tahoe) uses prebuilt binaries Intel for",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9442",
-      "project": "llama-cpp",
-      "version": "b9442",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9442",
-      "published_at": "2026-05-31T11:07:43Z",
-      "body_excerpt": "vocab : add tokenizer support for jina-embeddings-v2-base-zh (#18756) vocab : add jina-embeddings-v2-base-zh (whitespace tokenizer) lowercase defaults to true type fix --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9441",
-      "project": "llama-cpp",
-      "version": "b9441",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9441",
-      "published_at": "2026-05-31T09:49:17Z",
-      "body_excerpt": "ui: fix ETag truncation with MSVC compiler (#23917) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Wi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9439",
-      "project": "llama-cpp",
-      "version": "b9439",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9439",
-      "published_at": "2026-05-31T06:57:37Z",
-      "body_excerpt": "llama: only use one iGPU device by default (#23897) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Wi",
       "type": "tool"
     }
   ]
