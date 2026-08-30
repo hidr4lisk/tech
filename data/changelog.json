@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-30T16:23:52Z",
+  "updated_at": "2026-08-30T20:49:22Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10701",
+      "project": "llama-cpp",
+      "version": "b10701",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10701",
+      "published_at": "2026-08-30T18:56:31Z",
+      "body_excerpt": "dflash: pass missing NVFP4 scales to attention operations (#28000) DFlash2 NVFP4 draft models produced almost no accepted speculative tokens because the Q, K, V, and output projection scales were not passed to the corresponding graph operations. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10700",
+      "project": "llama-cpp",
+      "version": "b10700",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10700",
+      "published_at": "2026-08-30T18:33:56Z",
+      "body_excerpt": "common: rename --tensor-read-lazy to --lazy-mode, add -lzm shorthand (#27969) Rename the --tensor-read-lazy CLI argument to --lazy-mode, to match the internal lazy_mode parameter, and add a -lzm shorthand. Sync the READMEs. Assisted-by: pi:llama.cpp/Qwen3.8-27B Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10699",
+      "project": "llama-cpp",
+      "version": "b10699",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10699",
+      "published_at": "2026-08-30T18:07:35Z",
+      "body_excerpt": "ggml : add ggml_backend_op_alloc_size_may_expand, use it in RPC (#27960) some backends (Metal, SYCL, WebGPU) require additional memory for fleeting data for certain ops, which is reflected in their get_alloc_size implementations. add ggml_backend_op_alloc_size_may_expand() to the backend utils, listing these ops, and assert in ggml_backend_buft_get_alloc_size that a backend expanding the alloc siz",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10698",
       "project": "llama-cpp",
@@ -10098,60 +10125,6 @@
       "published_at": "2026-06-01T23:40:57Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9464",
-      "project": "llama-cpp",
-      "version": "b9464",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9464",
-      "published_at": "2026-06-01T19:57:15Z",
-      "body_excerpt": "speculative : fix n_outputs_max and remove draft-simple auto-enable (#23988) speculative : add common_speculative_n_max helper function Extract the speculative max-draft-size logic from server_n_outputs_max into a reusable common_speculative_n_max() function in common/speculative. Assisted-by: llama.cpp:local pi cont : draft context always has n_parallel outputs llama : log n_outputs_max speculati",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9460",
-      "project": "llama-cpp",
-      "version": "b9460",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9460",
-      "published_at": "2026-06-01T19:23:22Z",
-      "body_excerpt": "llama: limit max outputs of (#23861) llama: save more VRAM by reserving n_outputs == n_seqs when possible add n_outputs_per_seq move n_outputs_max to server-context change ubatch to batch everywhere macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9459",
-      "project": "llama-cpp",
-      "version": "b9459",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9459",
-      "published_at": "2026-06-01T18:58:46Z",
-      "body_excerpt": "metal: template GLU kernels to support f16/f32 (#23882) Drops the hardcoded f32 GLU kernels in favor of a single template. We now load/store in the native tensor type (half or float) to save memory bandwidth, but keep the actual ALU compute in float to avoid exploding math in geglu/swiglu. Also opened up the dispatch gate to allow f16 inputs. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sili",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9458",
-      "project": "llama-cpp",
-      "version": "b9458",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9458",
-      "published_at": "2026-06-01T18:31:03Z",
-      "body_excerpt": "vulkan: don't hold the device mutex while compiling pipelines (#23641) vulkan: don't hold the device mutex while compiling pipelines We need to hold a lock while we traverse all pipelines and lazily initialize them, but we don't need to hold it while the pipeline is being compiled. And it doesn't need to be the same lock as the device mutex. We call load_shaders each time a pipeline is needed, so ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9457",
-      "project": "llama-cpp",
-      "version": "b9457",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9457",
-      "published_at": "2026-06-01T18:06:14Z",
-      "body_excerpt": "vulkan: reduce host memory lock contention (#23376) vulkan: reduces lock contention replace unique_lock with lock_guard macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubun",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9455",
-      "project": "llama-cpp",
-      "version": "b9455",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9455",
-      "published_at": "2026-06-01T17:20:46Z",
-      "body_excerpt": "TP: quantized KV cache support (#23792) TP: quantized KV cache support fix partial view remove overly strict assert macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x",
-      "type": "tool"
     }
   ]
 }
