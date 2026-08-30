@@ -1,24 +1,134 @@
 {
-  "updated_at": "2026-08-30T04:44:11Z",
+  "updated_at": "2026-08-30T11:36:44Z",
   "items": [
     {
-      "id": "localllama-2026-08-30-ran-qwen38-flash-next-79-gb-2-bit-at-350k-ctx-for-35-hours-o",
+      "id": "localllama-2026-08-30-is-it-possible-to-run-dlss-5-on-rtx-3000-series-gpus-with-an",
       "source": "localllama",
-      "title": "Ran Qwen3.8-Flash-Next (79 GB, 2-bit) at 350K ctx for 3.5 hours on a 128 GB M5 Max — speed vs context depth, 100 turns, one graph",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w26y0w/ran_qwen38flashnext_79_gb_2bit_at_350k_ctx_for_35/",
-      "published_at": "2026-08-30T03:56:19Z",
-      "summary": "      Setup: MacBook Pro M5 Max, 128 GB unified, macOS 26.5.2 · llama.cpp b10686 (Metal, 12 threads, batch 2048, flash-attn, kv-unified, ngram-mod spec decode) · Qwen3.8-Flash-Next UD-Q2_K_XL (Unsloth), 78.9 GB · 358,400",
+      "title": "Is it possible to run DLSS 5 on RTX 3000-series GPUs with an INT8 conversion?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2f1lf/is_it_possible_to_run_dlss_5_on_rtx_3000series/",
+      "published_at": "2026-08-30T11:27:23Z",
+      "summary": "I see this kind of approach quite often with local AI models. For example, when optimizing models for an RTX 3090, people sometimes convert them from FP8 to INT8 so they can run efficiently on Ampere GPUs. Could somethin",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-30-what-would-you-do-with-4000",
+      "id": "localllama-2026-08-30-qwen-38-flash-next-q6-k-xl-loads-ok-on-4-x-3090",
       "source": "localllama",
-      "title": "What would you do with $4,000?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2479z/what_would_you_do_with_4000/",
-      "published_at": "2026-08-30T01:38:29Z",
-      "summary": "I already have a 5090 that I use got Hermes and coding mostly. My only jealously is trying models that don’t fit in my VRAM. I do want to get into some more media creation (the 5090 would be better for it, I know) and I ",
+      "title": "Qwen 3.8 Flash Next Q6_K_XL loads OK on 4 x 3090.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2eumr/qwen_38_flash_next_q6_k_xl_loads_ok_on_4_x_3090/",
+      "published_at": "2026-08-30T11:16:47Z",
+      "summary": "22 tk/s. (vs 47 tk/s for Q4_K_XL)   No extensive testing. Got to limit the context a bit (200k) to avoid OOM. Did not iterate to find the optimum/maximum.  --load-mode none gains 0.5 tk/s on my system, as 64GB RAM and 32",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-i-fine-tuned-a-08b-local-model-for-dictation-cleanup-it-matc",
+      "source": "localllama",
+      "title": "I fine-tuned a 0.8B local model for dictation cleanup. It matched a hosted frontier model on this narrow task",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2elkb/i_finetuned_a_08b_local_model_for_dictation/",
+      "published_at": "2026-08-30T11:03:04Z",
+      "summary": "      I built SpeakoFlow Mini, an Apache-2.0 fine-tune of Qwen3.5-0.8B for dictation cleanup. It is not a chat model or a general rewriter. It takes speech-to-text output, applies corrections the speaker actually made, a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-experience-report---qwen-38-flash-next-on-memory-rich-gpu-po",
+      "source": "localllama",
+      "title": "Experience report - Qwen 3.8 Flash Next on memory rich, GPU poor setup",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2e40k/experience_report_qwen_38_flash_next_on_memory/",
+      "published_at": "2026-08-30T10:36:09Z",
+      "summary": "(not written by Claude, all errors and crappy text are result of too little coffee on a Sunday morning ;)  Our home server is a 2018 Thinkstation P520, bought for about 600eur in 2023.  It&#39;s been upgraded with a 2TB ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-when-you-say-because-i-can-limits-of-x870e",
+      "source": "localllama",
+      "title": "When you say, because I can. Limits of X870e",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2dij0/when_you_say_because_i_can_limits_of_x870e/",
+      "published_at": "2026-08-30T10:02:30Z",
+      "summary": "      As the heading goes, at some point it stopped being about improvements and just whether I can. So check out my abomination. GLM-5.3-Flash at IQ3_XXS gets about 20t/s generation in Unsloth Studio. Now if only I can ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-some-people-said-the-minecraft-clone-i-fully-vibecoded-with",
+      "source": "localllama",
+      "title": "Some people said the Minecraft clone I fully vibecoded with Qwen3.8-27B Q4 is not that impressive because Minecraft is in the training data, so I had the model add 4 things that are probably not.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2cxcw/some_people_said_the_minecraft_clone_i_fully/",
+      "published_at": "2026-08-30T09:28:27Z",
+      "summary": "      &#32; submitted by &#32;  /u/liright   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-koboldcpp-v1120-released",
+      "source": "localllama",
+      "title": "Koboldcpp v1.120 released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2c4el/koboldcpp_v1120_released/",
+      "published_at": "2026-08-30T08:42:07Z",
+      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-qwen38-flash-next-at-170k-context-on-a-single-96-gb-card-110",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next at 170K context on a single 96 GB card. ~110 tok/s.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2b2j0/qwen38flashnext_at_170k_context_on_a_single_96_gb/",
+      "published_at": "2026-08-30T07:41:06Z",
+      "summary": "I used the quantized n-gram to INT4, it&#39;s 32 GB, memory-mapped from disk. I confirmed that it works great on 150-160k context, and i was watching all the time my VRAM usage while doing single thread long horizon thin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-qwen38-flash-next-nvfp4-day-3-support-for-4xv100",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next NVFP4 Day-3 support for 4xV100",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w29ukk/qwen38flashnext_nvfp4_day3_support_for_4xv100/",
+      "published_at": "2026-08-30T06:31:25Z",
+      "summary": "      RadixArk/Qwen3.8-Flash-Next-NVFP4 is now supported in SGLang-V100. 4 V100 32GB running full context.  A little more than 50 GB ngram offloaded to system RAM. Prefill around 4000tks flat and decode around 60 tks all",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-qwen38-flash-next-optimised-for-macs",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next optimised for Macs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w296bx/qwen38flashnext_optimised_for_macs/",
+      "published_at": "2026-08-30T05:54:00Z",
+      "summary": "      EDIT: in the tests above, I forgot to enable one more optimisation - useful when RAM and cache are small. Doesn’t help my numbers with MTP off (since I can cache enough tensors), but with MTP on I can still reach 1",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-its-official-192gb-framework",
+      "source": "localllama",
+      "title": "It's official! 192GB Framework",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w28x8u/its_official_192gb_framework/",
+      "published_at": "2026-08-30T05:39:44Z",
+      "summary": "      Just noticed this on the website. At their current price tiers for the memory SKUs (32, 64, 128) I&#39;d expect this to be ~ 4.5k for the motherboard. The PCIe slot will be open at the back as well - that&#39;s wha",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-an-unscientific-qwen-38-flash-next-and-glm-53-flash-comparis",
+      "source": "localllama",
+      "title": "an unscientific qwen 3.8 flash next and glm 5.3 flash comparison",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w28alw/an_unscientific_qwen_38_flash_next_and_glm_53/",
+      "published_at": "2026-08-30T05:06:24Z",
+      "summary": "      I stole the reference image from a recent post on r/stablediffusion, and then asked both qwen 3.8 flash next (q4 K XL) and GLM flash (oQ4e MLX) to choose try to reproduce it into a &quot;video game or tech demo&quo",
       "tags": [
         "localllama"
       ]
@@ -32,116 +142,6 @@
       "summary": "Introducing Hy4 Preview\nNew open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face.\nThis is a big size in",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-nemotron-35-lightning-at-1177-gib-a-16-gb-option-for-a-model",
-      "source": "localllama",
-      "title": "Nemotron-3.5-Lightning at 11.77 GiB, a 16 GB option for a model that didn't have one",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w21d86/nemotron35lightning_at_1177_gib_a_16_gb_option/",
-      "published_at": "2026-08-29T23:27:11Z",
-      "summary": "TL;DR:  Every public low-bit GGUF of this model is secretly ~4.70 bpw. Shim the rows to 256 and it becomes a real 3.07 bpw / 11.77 GiB file that runs 262K context on 16GB. Needs patched llama.cpp — not LM Studio or Ollam",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-humaneval-benchmark-for-deepseek-v4-flash-0731-vs-glm53-flas",
-      "source": "localllama",
-      "title": "Humaneval benchmark for Deepseek V4 Flash 0731 vs GLM5.3 Flash on 2x DGX Spark setup",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w215qm/humaneval_benchmark_for_deepseek_v4_flash_0731_vs/",
-      "published_at": "2026-08-29T23:18:13Z",
-      "summary": "I have a 2 DGX Spark setup recently and I have been happily running Deepseek V4 Flash 0731. Since the release of GLM5.3 Flash and Qwen 3.8 Flash Next this week, a lot of folks are still waiting to see what model to run g",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-any-reason-to-use-qwen-38-next-ud-iq1-s-over-qwen-38-27b-ud",
-      "source": "localllama",
-      "title": "Any reason to use Qwen 3.8 Next UD IQ1_S over Qwen 3.8 27B UD Q4?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1zy1p/any_reason_to_use_qwen_38_next_ud_iq1_s_over_qwen/",
-      "published_at": "2026-08-29T22:25:26Z",
-      "summary": "It is 6 times slower on my system, and at Q1 it’s about 70+ accuracy.  &#32; submitted by &#32;  /u/freedomachiever   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-any-current-voice2voice-ai-model-that-runs-locally-thats-goo",
-      "source": "localllama",
-      "title": "Any current Voice2Voice AI model that runs locally that’s good?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1vw3c/any_current_voice2voice_ai_model_that_runs/",
-      "published_at": "2026-08-29T19:39:50Z",
-      "summary": "You guys remember sesame AI? With their really good AI voice model? Obviously ChatGPT has their voice model that’s also really good. Is there any smaller local variant that runs on like consumer grade gpu‘s (12,16 24gb?)",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-tenstorrent-qwen37-27b-benchmarks",
-      "source": "localllama",
-      "title": "Tenstorrent Qwen3.7-27b Benchmarks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1vtfo/tenstorrent_qwen3727b_benchmarks/",
-      "published_at": "2026-08-29T19:36:48Z",
-      "summary": "      I saw someone here posted about getting a Tenstorrent QuietBox 2, and I wanted to look into it the hardware. It&#39;s very difficult to find any benchmarks, but I managed to find some from an employee. The machine ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-qwen38-27b-thinking-xhigh-vs-thinking-off---apple-m5-max",
-      "source": "localllama",
-      "title": "Qwen3.8-27B thinking xhigh Vs. thinking off - Apple M5 Max",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1vbal/qwen3827b_thinking_xhigh_vs_thinking_off_apple_m5/",
-      "published_at": "2026-08-29T19:17:02Z",
-      "summary": "      I ran a few benchmarks on my MacBook Pro M5 Max with oMLX: Running Qwen3.8-27B with thinking off has a big effect on output quality. Running it with thinking on xhigh burns 5.5x the tokens and runs 6x longer. The a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-67-84-ts-deepseek-flash-v4-off-2x-gx10s",
-      "source": "localllama",
-      "title": "67-84 t/s DeepSeek flash v4 off 2x GX10s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1uug2/6784_ts_deepseek_flash_v4_off_2x_gx10s/",
-      "published_at": "2026-08-29T18:59:15Z",
-      "summary": "      Finally achieved usable results with 2 gx10 at over 65 tokens a second sustained. The 2570 prompt eval is really crucial for me as well. Overall stoked 10/10 edit: I followed this setup with 2 ASUS GX10 DGX compute",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-llamacpp-open-prs-list---cpuramdiskhybrid-related---better-f",
-      "source": "localllama",
-      "title": "llama.cpp Open PRs list - CPU/RAM/Disk/Hybrid Related - Better for CPU-only & Hybrid inference",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1uu6d/llamacpp_open_prs_list_cpuramdiskhybrid_related/",
-      "published_at": "2026-08-29T18:58:58Z",
-      "summary": "      Folks! We&#39;re just 50 PRs away from more faster inference. Hopefully by end of year.  Experts!, please chip in there. List of Open/Ongoing PRs(and also Discussions) related to CPU/RAM/Disk/Hybrid:   [Discussion]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-ninfer-fork-i-wanted-to-have-a-1m-context-qwen-38-27b-tp2-du",
-      "source": "localllama",
-      "title": "(NInfer Fork) I wanted to have a 1M context Qwen-3.8 27B, tp2, dual 5090s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1txyk/ninfer_fork_i_wanted_to_have_a_1m_context_qwen38/",
-      "published_at": "2026-08-29T18:24:17Z",
-      "summary": "      Hey! I forked NInfer (a from-scratch C++20/CUDA inference engine for Qwen models) and added two things: tensor-parallel across two GPUs, and YaRN ×4 rope scaling. Together they let Qwen3.8-27B NVFP4 run a 1,048,576",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-this-finance-model-benchmark-card-is-more-useful-for-what-it",
-      "source": "localllama",
-      "title": "This finance-model benchmark card is more useful for what it discloses than for who \"wins\"",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1tfkc/this_financemodel_benchmark_card_is_more_useful/",
-      "published_at": "2026-08-29T18:04:08Z",
-      "summary": "      The official benchmark card for Ling-3.0-flash-Fin is a useful reminder that the unit being tested is rarely just “the model.” The release says most runs used temperature 1, top_p 0.95 and the highest available rea",
-      "tags": [
-        "localllama"
       ]
     },
     {
