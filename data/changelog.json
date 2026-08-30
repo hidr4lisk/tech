@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-30T04:44:17Z",
+  "updated_at": "2026-08-30T11:36:50Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10690",
+      "project": "llama-cpp",
+      "version": "b10690",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10690",
+      "published_at": "2026-08-30T07:45:11Z",
+      "body_excerpt": "memory : copy Hadamard matrix to k_rot tensor only if it has buffer assigned to prevent crashes during context shift of unquantized K cache (#27967) Co-authored-by: Stanisław Szymczyk Co-authored-by: AesSedai Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CP",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10689",
       "project": "llama-cpp",
