@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-08-29T20:44:03Z",
+  "updated_at": "2026-08-30T04:44:11Z",
   "items": [
+    {
+      "id": "localllama-2026-08-30-ran-qwen38-flash-next-79-gb-2-bit-at-350k-ctx-for-35-hours-o",
+      "source": "localllama",
+      "title": "Ran Qwen3.8-Flash-Next (79 GB, 2-bit) at 350K ctx for 3.5 hours on a 128 GB M5 Max — speed vs context depth, 100 turns, one graph",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w26y0w/ran_qwen38flashnext_79_gb_2bit_at_350k_ctx_for_35/",
+      "published_at": "2026-08-30T03:56:19Z",
+      "summary": "      Setup: MacBook Pro M5 Max, 128 GB unified, macOS 26.5.2 · llama.cpp b10686 (Metal, 12 threads, batch 2048, flash-attn, kv-unified, ngram-mod spec decode) · Qwen3.8-Flash-Next UD-Q2_K_XL (Unsloth), 78.9 GB · 358,400",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-what-would-you-do-with-4000",
+      "source": "localllama",
+      "title": "What would you do with $4,000?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2479z/what_would_you_do_with_4000/",
+      "published_at": "2026-08-30T01:38:29Z",
+      "summary": "I already have a 5090 that I use got Hermes and coding mostly. My only jealously is trying models that don’t fit in my VRAM. I do want to get into some more media creation (the 5090 would be better for it, I know) and I ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-29-introducing-hy4-preview",
+      "source": "simonw",
+      "title": "Introducing Hy4 Preview",
+      "url": "https://simonwillison.net/2026/Aug/29/hy4/",
+      "published_at": "2026-08-29T23:53:13Z",
+      "summary": "Introducing Hy4 Preview\nNew open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face.\nThis is a big size in",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-nemotron-35-lightning-at-1177-gib-a-16-gb-option-for-a-model",
+      "source": "localllama",
+      "title": "Nemotron-3.5-Lightning at 11.77 GiB, a 16 GB option for a model that didn't have one",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w21d86/nemotron35lightning_at_1177_gib_a_16_gb_option/",
+      "published_at": "2026-08-29T23:27:11Z",
+      "summary": "TL;DR:  Every public low-bit GGUF of this model is secretly ~4.70 bpw. Shim the rows to 256 and it becomes a real 3.07 bpw / 11.77 GiB file that runs 262K context on 16GB. Needs patched llama.cpp — not LM Studio or Ollam",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-humaneval-benchmark-for-deepseek-v4-flash-0731-vs-glm53-flas",
+      "source": "localllama",
+      "title": "Humaneval benchmark for Deepseek V4 Flash 0731 vs GLM5.3 Flash on 2x DGX Spark setup",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w215qm/humaneval_benchmark_for_deepseek_v4_flash_0731_vs/",
+      "published_at": "2026-08-29T23:18:13Z",
+      "summary": "I have a 2 DGX Spark setup recently and I have been happily running Deepseek V4 Flash 0731. Since the release of GLM5.3 Flash and Qwen 3.8 Flash Next this week, a lot of folks are still waiting to see what model to run g",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-29-any-reason-to-use-qwen-38-next-ud-iq1-s-over-qwen-38-27b-ud",
+      "source": "localllama",
+      "title": "Any reason to use Qwen 3.8 Next UD IQ1_S over Qwen 3.8 27B UD Q4?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1zy1p/any_reason_to_use_qwen_38_next_ud_iq1_s_over_qwen/",
+      "published_at": "2026-08-29T22:25:26Z",
+      "summary": "It is 6 times slower on my system, and at Q1 it’s about 70+ accuracy.  &#32; submitted by &#32;  /u/freedomachiever   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-29-any-current-voice2voice-ai-model-that-runs-locally-thats-goo",
       "source": "localllama",
@@ -74,61 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1tfkc/this_financemodel_benchmark_card_is_more_useful/",
       "published_at": "2026-08-29T18:04:08Z",
       "summary": "      The official benchmark card for Ling-3.0-flash-Fin is a useful reminder that the unit being tested is rarely just “the model.” The release says most runs used temperature 1, top_p 0.95 and the highest available rea",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-qwen38-flash-quants",
-      "source": "localllama",
-      "title": "Qwen3.8 Flash Quants",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1ou8x/qwen38_flash_quants/",
-      "published_at": "2026-08-29T15:02:24Z",
-      "summary": "~20–30GB smaller than Unsloth/AesSedai Q4 at similar PPL.  After several days of testing I released a set of mainline-compatible imatrix quants for Qwen3.8-Flash-Next.  Goal: same quality band as the popular Unsloth / Ae",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-tencent-compressed-hy4-preview-from-15tb-to-about-200gb-gguf",
-      "source": "localllama",
-      "title": "Tencent compressed Hy4-preview from 1.5TB to about 200GB GGUF and kept about 98% performance.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1o324/tencent_compressed_hy4preview_from_15tb_to_about/",
-      "published_at": "2026-08-29T14:31:38Z",
-      "summary": "      &#32; submitted by &#32;  /u/RedditUsr2   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-someone-tested-various-models-on-the-political-compass-test",
-      "source": "localllama",
-      "title": "Someone tested various Models on the Political Compass test...",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1o1ji/someone_tested_various_models_on_the_political/",
-      "published_at": "2026-08-29T14:30:05Z",
-      "summary": "      &#32; submitted by &#32;  /u/Thrumpwart   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-did-anyone-else-notice-the-ornith-15-35b-ggufs-got-a-silent",
-      "source": "localllama",
-      "title": "Did anyone else notice the Ornith 1.5 35B GGUFs got a \"silent\" update?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1nhpp/did_anyone_else_notice_the_ornith_15_35b_ggufs/",
-      "published_at": "2026-08-29T14:07:10Z",
-      "summary": "Hey all, I stumbled onto something funny and figured I&#39;d share before it gets buried. I&#39;d been running the Ornith 1.5 35B A3B GGUF (Q4_K_M) for a while, then recently a new revision showed up in my HF cache and I",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-29-exo-labs-claiming-48-tbs-memory-bandwidth-through-m5u-mac-st",
-      "source": "localllama",
-      "title": "Exo labs claiming 4.8 tb/s memory bandwidth through m5u Mac Studio clustering",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1nc1c/exo_labs_claiming_48_tbs_memory_bandwidth_through/",
-      "published_at": "2026-08-29T14:00:49Z",
-      "summary": "      Exo labs making some very exciting and interesting claims. The headline is bandwidth scales linearly on Mac Studio clusters with their solution. There is a thread over at localllm subreddit (https://www.reddit.com/",
       "tags": [
         "localllama"
       ]
@@ -327,17 +338,6 @@
       "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
       "published_at": "2026-08-22T15:56:54Z",
       "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.\nSometi",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-21-llm-0321",
-      "source": "simonw",
-      "title": "llm 0.32.1",
-      "url": "https://simonwillison.net/2026/Aug/21/llm/",
-      "published_at": "2026-08-21T17:16:13Z",
-      "summary": "Release: llm 0.32.1\n        Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx, and it turned out LLM depended on that library but only installed it via a tra",
       "tags": [
         "simonw"
       ]
