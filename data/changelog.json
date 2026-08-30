@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-29T20:44:09Z",
+  "updated_at": "2026-08-30T04:44:17Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10689",
+      "project": "llama-cpp",
+      "version": "b10689",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10689",
+      "published_at": "2026-08-30T04:02:22Z",
+      "body_excerpt": "ggml: allow passing alloc dependencies in graph_optimize (#27301) ggml: allow passing alloc dependencies in graph_optimize add alloc dep tests add TODO about using flat array Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "hf-EleutherAI-bergson-wikitext-2-gpt2",
+      "project": "EleutherAI",
+      "version": "bergson-wikitext-2-gpt2",
+      "url": "https://huggingface.co/EleutherAI/bergson-wikitext-2-gpt2",
+      "published_at": "2026-08-30T03:10:05Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b10688",
+      "project": "llama-cpp",
+      "version": "b10688",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10688",
+      "published_at": "2026-08-30T00:11:22Z",
+      "body_excerpt": "metal : add fa-vec tunings for M2 (#27940) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10687",
       "project": "llama-cpp",
@@ -10070,15 +10097,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9451",
       "published_at": "2026-06-01T13:13:30Z",
       "body_excerpt": "vulkan: Removed unused functions (#23175) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9444",
-      "project": "llama-cpp",
-      "version": "b9444",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9444",
-      "published_at": "2026-05-31T21:51:08Z",
-      "body_excerpt": "server : handle If-None-Match weak ETags (#23916) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Wind",
       "type": "tool"
     }
   ]
