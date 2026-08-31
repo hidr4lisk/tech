@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-08-30T20:49:22Z",
+  "updated_at": "2026-08-31T04:47:24Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10711",
+      "project": "llama-cpp",
+      "version": "b10711",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10711",
+      "published_at": "2026-08-31T04:45:31Z",
+      "body_excerpt": "hexagon: fix CPY fence bug (#28033) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10710",
+      "project": "llama-cpp",
+      "version": "b10710",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10710",
+      "published_at": "2026-08-31T04:18:56Z",
+      "body_excerpt": "metal : add remaining Q4_1/Q5_0/Q5_1 fa-vec tunings for M2 (#28017) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10709",
+      "project": "llama-cpp",
+      "version": "b10709",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10709",
+      "published_at": "2026-08-31T03:48:13Z",
+      "body_excerpt": "rpc: avoid serializing buffers from other servers (#26500) rpc: avoid serializing buffers from other servers Only include remote buffer pointers when the buffer belongs to the RPC dispatcher receiving the graph. Add a two-server regression test for cross-server tensor serialization. Assisted-by: Codex cont : add ref --------- Co-authored-by: Georgi Gerganov Website: Attestations: macOS/iOS: macOS ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10708",
+      "project": "llama-cpp",
+      "version": "b10708",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10708",
+      "published_at": "2026-08-31T03:25:36Z",
+      "body_excerpt": "ggml : fix ggml_backend_buft_get_alloc_size() guard (#28038) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10707",
+      "project": "llama-cpp",
+      "version": "b10707",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10707",
+      "published_at": "2026-08-31T03:03:24Z",
+      "body_excerpt": "kv-cells: stop the sequence scan once all sequences are seen (#28011) for_each_token_in tested all LLAMA_MAX_SEQ sequences for every used cell, while a cell almost always belongs to one. The scan now stops once the cell's own sequences have been seen. Same visit order, same callback arguments, so behaviour is unchanged. get_prev_tokens is the only caller, so this affects the n-gram path. RTX PRO 6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10706",
+      "project": "llama-cpp",
+      "version": "b10706",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10706",
+      "published_at": "2026-08-31T02:38:21Z",
+      "body_excerpt": "ggml: add SWIGLU_CLAMP (#27930) ggml: add SWIGLU_CLAMP add vulkan shader Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10705",
+      "project": "llama-cpp",
+      "version": "b10705",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10705",
+      "published_at": "2026-08-30T23:15:03Z",
+      "body_excerpt": "llama: improve TENSOR_READ_LAZY handling (#27837) force lazy tensor on cpu if lazy is on llama: improve TENSOR_READ_LAZY handling Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROC",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10704",
+      "project": "llama-cpp",
+      "version": "b10704",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10704",
+      "published_at": "2026-08-30T22:54:26Z",
+      "body_excerpt": "CUDA: use the fast mm_ids_helper path for any n_expert_used (#27978) The optimized path grouped warp lanes by token and required warp_size % n_expert_used == 0, with a single hardcoded exception padding 6 up to 8. Every other count fell back to the generic path, which walks the tokens one at a time with a warp reduction per token, for each of the n_expert blocks. The lane group only has to divide ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10703",
+      "project": "llama-cpp",
+      "version": "b10703",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10703",
+      "published_at": "2026-08-30T22:31:49Z",
+      "body_excerpt": "hip: tune rdna 3 mmq config (#26284) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10702",
+      "project": "llama-cpp",
+      "version": "b10702",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10702",
+      "published_at": "2026-08-30T21:20:07Z",
+      "body_excerpt": "hip : optimize Q2_0 dot-product path for gfx1201 (#26753) hip/gfx1201: optimize q2_0 vec_dot_q2_0_q8_1 with native amdgcn perm Broadened HIP's Q2_0 perm optimization Remove redundant HIP perm availability guard Optimize HIP Q2_0 MMQ unpack with native perm cuda: label HIP preprocessor guard cuda: label HIP preprocessor guard Restore MMQ tile index handling Website: Attestations: macOS/iOS: macOS A",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10701",
       "project": "llama-cpp",
@@ -10071,60 +10161,6 @@
       "published_at": "2026-06-02T05:53:36Z",
       "body_excerpt": "server: real-time reasoning interruption via control endpoint (#23971) server: real-time reasoning interruption via control endpoint Builds on the manual reasoning budget trigger from #23949. Adds a CONTROL task that mirrors the CANCEL path on the live slot and calls common_sampler_reasoning_budget_force to end thinking mid-generation. POST /v1/chat/completions/control with { id_slot, action }, op",
       "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-4D-RGPT-8B",
-      "project": "nvidia",
-      "version": "4D-RGPT-8B",
-      "url": "https://huggingface.co/nvidia/4D-RGPT-8B",
-      "published_at": "2026-06-02T03:33:43Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9467",
-      "project": "llama-cpp",
-      "version": "b9467",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9467",
-      "published_at": "2026-06-02T03:30:25Z",
-      "body_excerpt": "clean up unused variables warnings (#23975) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9466",
-      "project": "llama-cpp",
-      "version": "b9466",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9466",
-      "published_at": "2026-06-02T02:42:15Z",
-      "body_excerpt": "opencl: fix compiler warnings for non-adreno path (#23922) opencl: fix compiler warnings for non-adreno path opencl: fix const cast warning macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu",
-      "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-HARC",
-      "project": "microsoft",
-      "version": "HARC",
-      "url": "https://huggingface.co/microsoft/HARC",
-      "published_at": "2026-06-02T02:33:07Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-gemma-4-E4B-it-qat-mobile-ct",
-      "project": "google",
-      "version": "gemma-4-E4B-it-qat-mobile-ct",
-      "url": "https://huggingface.co/google/gemma-4-E4B-it-qat-mobile-ct",
-      "published_at": "2026-06-01T23:41:22Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-gemma-4-E2B-it-qat-mobile-ct",
-      "project": "google",
-      "version": "gemma-4-E2B-it-qat-mobile-ct",
-      "url": "https://huggingface.co/google/gemma-4-E2B-it-qat-mobile-ct",
-      "published_at": "2026-06-01T23:40:57Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }

@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-08-30T20:49:17Z",
+  "updated_at": "2026-08-31T04:47:18Z",
   "items": [
+    {
+      "id": "localllama-2026-08-31-snkiisori-1b-audio-grounded-lm-trained-from-scratch-no-text",
+      "source": "localllama",
+      "title": "snkii/Sori-1B: Audio-Grounded LM Trained From Scratch (No Text-Only Pretraining)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w317fn/snkiisori1b_audiogrounded_lm_trained_from_scratch/",
+      "published_at": "2026-08-31T02:48:24Z",
+      "summary": "      Sori-1B is a 1B-parameter audio-language model built by a single SNU researcher whose core claim to fame is that its decoder is trained entirely from scratch on audio-paired text — no text-only pretraining, no pret",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-31-optimal-125-bit-quantization-of-qwen38-flash-next",
+      "source": "localllama",
+      "title": "Optimal 1.25 bit quantization of Qwen3.8-Flash-Next",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2zice/optimal_125_bit_quantization_of_qwen38flashnext/",
+      "published_at": "2026-08-31T01:29:22Z",
+      "summary": "Hello! I was looking into quantizing models and i saw how Hy4 was shrunk from 1.5 TB to 200GB with high retention in benchmarks (98% i think). I was wondering if: a) it would be worth it to attempt this method (since the",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-31-qwen38-flash-next-nvfp4-vs-qwen38-27b-fp-test-results",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next-NVFP4 vs Qwen3.8-27B-FP Test Results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2z2zo/qwen38flashnextnvfp4_vs_qwen3827bfp_test_results/",
+      "published_at": "2026-08-31T01:09:25Z",
+      "summary": "## Qwen3.8-Flash-Next-NVFP4 (inferact) vs Qwen3.8-27B-FP8 (qwen) Slammed with work and no time to pretty this up. Qwen wrote most of this but I checked the data. All tests done on the same rig, same prompts, and most tes",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-08-30-understanding-chatgpt-work",
+      "source": "simonw",
+      "title": "Understanding ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "published_at": "2026-08-30T23:59:47Z",
+      "summary": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far.\nChatGPT Work is a",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-calculate---override-tensor-for-llamacpp-using-qwen-models-a",
+      "source": "localllama",
+      "title": "Calculate --override-tensor for llama.cpp using QWEN models and Pi for 2 GPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2wre0/calculate_overridetensor_for_llamacpp_using_qwen/",
+      "published_at": "2026-08-30T23:25:24Z",
+      "summary": "      When using two GPU with llama.cpp with --split-mode layer you usually provide a --tensor-split value to fit the proportion of the allocation on each GPU, say you have 16GB + 12GB something like --tensor-split 0.6,0",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-which-llm-is-actually-best-at-pentesting-benchmark-to-find-o",
+      "source": "localllama",
+      "title": "Which LLM is actually best at pentesting? benchmark to find out",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2wdeq/which_llm_is_actually_best_at_pentesting/",
+      "published_at": "2026-08-30T23:08:23Z",
+      "summary": "      Hey all, You’ve probably noticed that using LLMs and AI agents for pentesting has become pretty common lately. The problem is there isn’t really a good way to figure out which model is actually best suited for this",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-i-collected-every-single-llm-coding-benchmark-and-computed-t",
+      "source": "localllama",
+      "title": "I collected every single LLM coding benchmark, and computed their Intelligence Density",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2v97w/i_collected_every_single_llm_coding_benchmark_and/",
+      "published_at": "2026-08-30T22:20:36Z",
+      "summary": "      The intelligence in my context is an aggregate index, I called the Agentic Coding Index, across most relevant agentic coding benchmarks: SWE-bench Pro, DeepSWE v1.1, Terminal-Bench (v4, v3, v2.1), Code Arena Elo, a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-30-qwen-38-27b---fantastic-german-capabilities",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B - Fantastic German capabilities",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2ujys/qwen_38_27b_fantastic_german_capabilities/",
+      "published_at": "2026-08-30T21:51:23Z",
+      "summary": "I am doing a lot of translation work with different languages, and German is just exceptionally well done by Qwen 3.8 27B. It is lengths ahead of GPT-5.6 and even Fable 5. With the frontier models I oftentimes feel it&#3",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-08-30-we-used-hflow-to-evaluate-the-latest-open-weights-vlms-for-p",
       "source": "localllama",
@@ -52,83 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2qb2y/will_apple_still_release_devices_with_mobile_hbm/",
       "published_at": "2026-08-30T19:06:49Z",
       "summary": "      In 2025, they were planning to release an iphone with mobile hbm in 2027; perhaps they have scraped this idea due to higher memory prices. It will be great if they made affordable mobile hbm for macs and iphones, i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-nvidia-dgx-station-delivering-data-center-class-performance",
-      "source": "localllama",
-      "title": "NVIDIA® DGX Station™ Delivering Data-Center-Class Performance from the Desktop",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2q1ug/nvidia_dgx_station_delivering_datacenterclass/",
-      "published_at": "2026-08-30T18:57:22Z",
-      "summary": "      This might be worth it for some small business. 7.1tb vram bandwidth   &#32; submitted by &#32;  /u/SpendLucky1273   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-whatever-happened-to-openclaw-and-its-derivatives",
-      "source": "localllama",
-      "title": "Whatever happened to OpenClaw and its derivatives?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2q1hx/whatever_happened_to_openclaw_and_its_derivatives/",
-      "published_at": "2026-08-30T18:56:59Z",
-      "summary": "OpenClaw was all the rage a few months ago but the hype seems to have died down. Are you guys using it for any of your needs?   &#32; submitted by &#32;  /u/cdrfrk   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-1x32gb-v100-vs-2x16gb-v100-vs-5060ti-16gb-for-qwen-38",
-      "source": "localllama",
-      "title": "1x32GB V100 vs 2x16GB V100 vs 5060ti 16GB for QWEN 3.8",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2pwym/1x32gb_v100_vs_2x16gb_v100_vs_5060ti_16gb_for/",
-      "published_at": "2026-08-30T18:52:15Z",
-      "summary": "Hi All, I am currently contemplating an upgrade from my 5060ti 16gb. I am getting ~40t/s with 130k context on Qwen 3.8 IQ3_S HF quant. I am running llama.cpp on linux. Objective is to increase context and use a better qu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-here-my-pretty-good-qwen38-27b-setup-hope-it-helps",
-      "source": "localllama",
-      "title": "Here my pretty good qwen3.8 27B setup, hope it helps",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2pvsd/here_my_pretty_good_qwen38_27b_setup_hope_it_helps/",
-      "published_at": "2026-08-30T18:51:03Z",
-      "summary": "Since I spent the time to figure it out and it is not like it will make me any money ever. I think I&#39;d share with you all what I managed to cobble together. First and foremost here the relevant bits about my hardware",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-qwen-38-flash-next-locally-on-simple-mobile-phone-at-35-toks",
-      "source": "localllama",
-      "title": "Qwen 3.8 Flash Next locally on simple mobile phone at 3.5 tok/s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2nz07/qwen_38_flash_next_locally_on_simple_mobile_phone/",
-      "published_at": "2026-08-30T17:39:30Z",
-      "summary": "      Qwen 3.8 Flash Next (80gb) now at 3.5 tok/s on 12gb mid range android phone thanks to some optimizations and with a low quantization on dense part. I don&#39;t want to promote the project, but simply show that it&#",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-qwen-flash-q4-k-m-on-4080-64gb-ddr5-at-8tks-98304-ctx",
-      "source": "localllama",
-      "title": "Qwen Flash Q4_K_M on 4080 + 64GB DDR5 at ~8tk/s 98304 CTX.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2nr6e/qwen_flash_q4_k_m_on_4080_64gb_ddr5_at_8tks_98304/",
-      "published_at": "2026-08-30T17:31:09Z",
-      "summary": "Managed to cram a 182B model into my small setup. The trick is to offload ngrams into SSD which allows to fit the rest of the model. Believe it or not, this is faster and more intelligent than Qwen3.8 27B. This is great ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-unpopular-opinion-qwen-38-is-hard-to-understand",
-      "source": "localllama",
-      "title": "Unpopular opinion Qwen 3.8 is hard to understand",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2ncr5/unpopular_opinion_qwen_38_is_hard_to_understand/",
-      "published_at": "2026-08-30T17:15:49Z",
-      "summary": "I find both Qwen 3.8 27b and Qwen 3.8 Flash Next difficult to read. Here&#39;s some examples of what I mean:  **Model-visible tool set per turn** (assembled by the host at provider-request time): persona tool allowlist ∩",
       "tags": [
         "localllama"
       ]
@@ -327,17 +338,6 @@
       "url": "https://simonwillison.net/2026/Aug/22/llm/",
       "published_at": "2026-08-22T17:01:16Z",
       "summary": "Release: llm 0.33\n        My highlights from this release:\n\n\nUpgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2. #1608, #1631\n\n\nI shipped a quick 0.32.1 fix for this ye",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-22-more-than-just-code-review",
-      "source": "simonw",
-      "title": "More than just code review",
-      "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-      "published_at": "2026-08-22T15:56:54Z",
-      "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.\nSometi",
       "tags": [
         "simonw"
       ]
