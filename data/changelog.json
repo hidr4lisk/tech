@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-08-31T13:12:41Z",
+  "updated_at": "2026-08-31T22:40:44Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10729",
+      "project": "llama-cpp",
+      "version": "b10729",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10729",
+      "published_at": "2026-08-31T22:22:28Z",
+      "body_excerpt": "metal : add fa-vec tunings for M1 Ultra (#28088) metal : add fa-vec tunings for M1 Ultra metal : move M1 Ultra tunings after M1 Max section metal : remove duplicate blank line Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10728",
+      "project": "llama-cpp",
+      "version": "b10728",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10728",
+      "published_at": "2026-08-31T21:46:30Z",
+      "body_excerpt": "CUDA: XOR swizzle flash attn K,V smem fp16 tiles (#25635) CUDA: XOR swizzle flash attn K,V smem fp16 tiles Signed-off-by: ynankani Fix use 64bit generic pointer instead of 32bit shared pointer Signed-off-by: ynankani fix shared memory race in FA on DGX Spark Handle corener case Signed-off-by: ynankani Add swizzle test cases and gate sync for swizzled path only Signed-off-by: ynankani gate CUDA PTX",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10727",
+      "project": "llama-cpp",
+      "version": "b10727",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10727",
+      "published_at": "2026-08-31T20:54:49Z",
+      "body_excerpt": "metal : add concat support for quantized types (#28116) Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-0731 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenV",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10726",
+      "project": "llama-cpp",
+      "version": "b10726",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10726",
+      "published_at": "2026-08-31T19:41:30Z",
+      "body_excerpt": "AVX2: Speed up large batch size prompt processing of IQ models (#27402) Batched gemm for grid IQ quants Style updates and a bit more performance Clean up comments Move code around Vectorize IQ panel decode, lower threshold for speedup IQ panel: single-source gather layout, gate bias, vectorize interleave Add ggml_gemm_iqp_8x8_q8_K_p4 kernel, remove gather buffer Move IQ panel code out of repack in",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10724",
+      "project": "llama-cpp",
+      "version": "b10724",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10724",
+      "published_at": "2026-08-31T17:26:21Z",
+      "body_excerpt": "kv-cache : optimize restoring non-contiguous cells (#27991) kv cache : batch state restore scatter reads per contiguous run When restoring state into non-contiguous destination cells (e.g. a prompt-cache snapshot into a fragmented ring), state_read_data issued one small copy per KV cell - ~1.4M copies of a few KiB each for a 40k+ token restore, taking 25-63 s on the CUDA backend. The snapshot stor",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10723",
+      "project": "llama-cpp",
+      "version": "b10723",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10723",
+      "published_at": "2026-08-31T16:31:50Z",
+      "body_excerpt": "opencl: tune the quant paths for Intel Xe-LP GPUs to improve its TG and PP performance (#26438) opencl: Q4_K/Q5_K mul_mv N_DST 4->8 on Intel for 2x activation reuse opencl: Q4_K mul_mm 8x8 tile fot Intel opencl: Q5_K mul_mm 8x8 tile for Intel opencl: Q4_K mul_mv N_DST 8->16 for Intel Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLE",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10721",
+      "project": "llama-cpp",
+      "version": "b10721",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10721",
+      "published_at": "2026-08-31T15:54:59Z",
+      "body_excerpt": "webgpu : avoid crash when offset is not multiple of 4 in WebGPU ggml_backend_tensor_get() implementation (#28045) webgpu : avoid crash when offset is not multiple of 4 in WebGPU ggml_backend_tensor_get() implementation chore : improve code readability Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Stanisław Szymczyk Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: mac",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10720",
+      "project": "llama-cpp",
+      "version": "b10720",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10720",
+      "published_at": "2026-08-31T15:28:15Z",
+      "body_excerpt": "ROCm: add radix TOP_K for long rows (#27466) ROCm: add radix TOP_K for long rows Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10719",
+      "project": "llama-cpp",
+      "version": "b10719",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10719",
+      "published_at": "2026-08-31T15:04:12Z",
+      "body_excerpt": "metal : add fa-vec tunings for M1 (#28078) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10718",
+      "project": "llama-cpp",
+      "version": "b10718",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10718",
+      "published_at": "2026-08-31T14:22:39Z",
+      "body_excerpt": "CUDA: extend MOE fusion to specdec, earlier MOE glu fusion and topk-router fusion were restricted to 1 token (#27621) CUDA: extend MOE fusion to specdec, earlier MOE glu fusion and topk-router fusion were resticted to 1 token Signed-off-by: ynankani Address review comments Signed-off-by: ynankani Add SWIGLU_CLAMP case to multi-token moe fusion Signed-off-by: ynankani --------- Signed-off-by: ynank",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10717",
       "project": "llama-cpp",
@@ -1521,6 +1611,15 @@
       "published_at": "2026-08-19T17:25:16Z",
       "body_excerpt": "What's Changed New desktop onboarding flow on first launch Caches resolved model metadata between requests, cutting time-to-first-token by roughly half (TTFT dropped from ~995 ms to ~524 ms in benchmarks) Fixes a bug where chat and generate could wedge after a mid-stream parser error Qwen 3.8 system messages are now normalized so non-leading system messages are handled consistently MLX and llama.c",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-DeepSeek-V4-Flash-0731-NVFP4",
+      "project": "nvidia",
+      "version": "DeepSeek-V4-Flash-0731-NVFP4",
+      "url": "https://huggingface.co/nvidia/DeepSeek-V4-Flash-0731-NVFP4",
+      "published_at": "2026-08-19T17:09:47Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "hf-google-tipsv1-g14-lowres",
@@ -10071,78 +10170,6 @@
       "published_at": "2026-06-02T23:54:55Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9484",
-      "project": "llama-cpp",
-      "version": "b9484",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9484",
-      "published_at": "2026-06-02T22:00:30Z",
-      "body_excerpt": "opencl: use flat variants of q4_K and q6_K gemv for very large M (#24006) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android a",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9483",
-      "project": "llama-cpp",
-      "version": "b9483",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9483",
-      "published_at": "2026-06-02T21:34:07Z",
-      "body_excerpt": "hexagon: profiler output fix and script updates (#24042) hex-ops: fix profiler output (ie remove the redundant NONEs) hex-prof: update profiling script to support tot.usec column macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm6",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.1-rc0",
-      "project": "ollama",
-      "version": "v0.30.1-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.1-rc0",
-      "published_at": "2026-06-02T20:44:52Z",
-      "body_excerpt": "What's Changed feat(launch): show and auto-install Cline CLI by @hoyyeva in log template details to aid troubleshooting by @dhiltgen in cmd/launch: add Qwen code integration by @hoyyeva in launch: fix opencode local model limits by @dhiltgen in llm: include cached prompt tokens in llama-server counts by @dhiltgen in Harden app markdown URL handling by @dhiltgen in discover: allow Radeon 8060S iGPU",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9482",
-      "project": "llama-cpp",
-      "version": "b9482",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9482",
-      "published_at": "2026-06-02T19:43:12Z",
-      "body_excerpt": "model: add Mellum architecture (#23966) model: support for Mellum architecture model: improve mellum.py formatting model: improve mellum.py formatting once again deps: downgrade transformers to 4.57.6 (to fix CI) deps: remove huggingface_hub dependency deps: remove huggingface_hub from test requirements --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple S",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9481",
-      "project": "llama-cpp",
-      "version": "b9481",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9481",
-      "published_at": "2026-06-02T16:57:07Z",
-      "body_excerpt": "model : support granite multilingual embeddings R2 (ibm-granite/granite-embedding-{97,311}m-multilingual-r2) (#22716) Add support for the ibm-granite/granite-embedding-{97m,311m}-multilingual-r2 embedding models: Added a version of the gpt4o tokenizer that has a fixed regex (better handling of marks), and different token merging setting for the 97m model Reused gemma4 tokenizer for the 311m model ",
-      "type": "tool"
-    },
-    {
-      "id": "hf-google-CircularNet",
-      "project": "google",
-      "version": "CircularNet",
-      "url": "https://huggingface.co/google/CircularNet",
-      "published_at": "2026-06-02T16:49:49Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9480",
-      "project": "llama-cpp",
-      "version": "b9480",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9480",
-      "published_at": "2026-06-02T16:23:58Z",
-      "body_excerpt": "StepFun 3.5 MTP (#23274) StepFun 3.5 MTP Simplify to single layer Rollback core changes fix flake8 errors Remove scripts modify to convention Apply suggestions from code review Co-authored-by: Sigbjørn Skjæret dos2unix --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9479",
-      "project": "llama-cpp",
-      "version": "b9479",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9479",
-      "published_at": "2026-06-02T14:20:35Z",
-      "body_excerpt": "common : fix state save in common_prompt_batch_decode (#23468) common : fix state save in common_prompt_batch_decode This commit addresses a bug in common_prompt_batch_decode that affects the session state store/restore in completion.cpp and save-load-state.cpp. The motivation for this is that currently the code is saving n-1 tokens in both the session_tokens and in the KV cache. Then when loading",
-      "type": "tool"
     }
   ]
 }

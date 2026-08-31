@@ -1,134 +1,145 @@
 {
-  "updated_at": "2026-08-31T13:12:36Z",
+  "updated_at": "2026-08-31T22:40:38Z",
   "items": [
     {
-      "id": "localllama-2026-08-31-how-bad-do-you-think-models-like-qwen38-27b-or-glm-53-flash",
+      "id": "localllama-2026-08-31-warning-llamacpp---lazy-mode-default-changed-to-auto---large",
       "source": "localllama",
-      "title": "How bad do you think models like Qwen3.8-27B or GLM-5.3-Flash would be with H-Neurons disabled?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3co3k/how_bad_do_you_think_models_like_qwen3827b_or/",
-      "published_at": "2026-08-31T12:42:27Z",
-      "summary": "      TL;DR: this paper proposes a method to fix hallucination rates to very low levels or zero by disabling neurons which contribute to hallucination. This discovery has been out for a while now, but it hasn&#39;t been ",
+      "title": "Warning: llama.cpp --lazy-mode default changed to auto - large tables may stay on disk",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3qrqk/warning_llamacpp_lazymode_default_changed_to_auto/",
+      "published_at": "2026-08-31T20:57:39Z",
+      "summary": "With b10726, the default --lazy-mode change keeps the 51B-parameter PLE n-gram embedding table of Qwen 3.8 Flash Next on disk: it is mmap&#39;d and its rows are read on demand during inference, even with --load-mode none",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-vote-for-the-qwen-38",
+      "id": "localllama-2026-08-31-the-state-of-open-source-llm-08312026",
       "source": "localllama",
-      "title": "vote for the Qwen 3.8",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3cbei/vote_for_the_qwen_38/",
-      "published_at": "2026-08-31T12:27:50Z",
-      "summary": "      Remember to vote and comments guys ;) https://x.com/QwenDevs/status/2094389239761031591  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "title": "The state of open source LLM (08/31/2026)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3qljm/the_state_of_open_source_llm_08312026/",
+      "published_at": "2026-08-31T20:51:48Z",
+      "summary": "      &#32; submitted by &#32;  /u/ipechman   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-does-anyone-have-real-experience-with-ornith-15-9b-for-codin",
+      "id": "localllama-2026-08-31-qwen38-flash-next-in-llamacpp-from-cpu-only-to-96gb-vram-85",
       "source": "localllama",
-      "title": "Does anyone have real experience with Ornith-1.5-9B for coding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3bx1n/does_anyone_have_real_experience_with_ornith159b/",
-      "published_at": "2026-08-31T12:10:13Z",
-      "summary": "I&#39;m very happy with Qwen-3.8-27B, I run it on my work machine and switched for major part of real coding tasks from cloud subscriptions to it. I use one dedicated headless RTX 3090, and get maybe 1000-1500 tps prefil",
+      "title": "Qwen3.8-Flash-Next in llama.cpp from CPU-only to 96GB VRAM: 8.5 to 109 tok/s, max context and parameters test. My findings on RTX 6000 PRO.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3pl64/qwen38flashnext_in_llamacpp_from_cpuonly_to_96gb/",
+      "published_at": "2026-08-31T20:17:07Z",
+      "summary": "      Hey guys, I tested Qwen3.8 Flash with llama.cpp from CPU-only to the full 96GB of my RTX PRO 6000. Short version:  CPU-only reached 8.34 tok/s at a 2K prompt Full 96GB reached 109.07 tok/s At 245K context, 24GB to ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-cuda-extend-moe-fusion-to-specdec-earlier-moe-glu-fusion-and",
+      "id": "localllama-2026-08-31-doesnt-this-look-like-nvidia-is-price-fixing",
       "source": "localllama",
-      "title": "CUDA: extend MOE fusion to specdec, earlier MOE glu fusion and topk-router fusion were restricted to 1 token by ynankani · Pull Request #27621 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3bh6f/cuda_extend_moe_fusion_to_specdec_earlier_moe_glu/",
-      "published_at": "2026-08-31T11:50:49Z",
-      "summary": "      I haven&#39;t had a chance to test it yet, but it looks very promising. It seems to speed up MTP for MoE models across different draft widths (especially greater than 1). Check the benchmarks.  &#32; submitted by &",
+      "title": "Doesn't this look like NVIDIA is price fixing?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3pig8/doesnt_this_look_like_nvidia_is_price_fixing/",
+      "published_at": "2026-08-31T20:14:30Z",
+      "summary": "According to this article Samsung has locked up the 70% of it&#39;s future ram production in contracts to companies like Microsoft, Google, and Nvidia. Everyone knows this is driving the ram price increases, but what I d",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-models-to-download-for-m5-ultra-512gb",
+      "id": "localllama-2026-08-31-new-beellama-fork-76-faster-tg-with-kvarn-kv-quants",
       "source": "localllama",
-      "title": "Models to download for M5 Ultra 512GB",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3b0ox/models_to_download_for_m5_ultra_512gb/",
-      "published_at": "2026-08-31T11:29:11Z",
-      "summary": "Just ordered a TB5 enclosure plus 4TB SSD to prepare for M5 Ultra 512GB. I am planning to download the following models in advance. Would like to ask the M3 Ultra 512GB owners whether the quants are the &quot;best&quot; ",
+      "title": "New beellama fork 76% faster tg with kvarn KV quants",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3p6ru/new_beellama_fork_76_faster_tg_with_kvarn_kv/",
+      "published_at": "2026-08-31T20:03:25Z",
+      "summary": "      When using kvarn quants at low context depth tg speed is similar to llama.cpp on and equivalent qx_x quant. However, as context depth grows kvarn tanks your tg speed. This fork optimises kvarn to have similar or be",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-deepseek-aideepseek-v4-flash-vision-exp-hugging-face",
+      "id": "localllama-2026-08-31-smol-king-nanbeige-42-now-with-dspark",
       "source": "localllama",
-      "title": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w39i6r/deepseekaideepseekv4flashvisionexp_hugging_face/",
-      "published_at": "2026-08-31T10:13:34Z",
-      "summary": "      &#32; submitted by &#32;  /u/t4a8945   [link] &#32; [comments] ",
+      "title": "Smol king nanbeige 4.2 now with dspark!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3nl38/smol_king_nanbeige_42_now_with_dspark/",
+      "published_at": "2026-08-31T19:08:53Z",
+      "summary": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B-DSpark 4b model for the gpu poor that I think is stronger than qwen 3.5 9b now faster! I was getting roughly 35 t/s AR which was this models downside, it was slow. Hopefully",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-help-for-pc-build",
+      "id": "localllama-2026-08-31-avx2-speed-up-large-batch-size-prompt-processing-of-iq-model",
       "source": "localllama",
-      "title": "Help for PC build",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w39b76/help_for_pc_build/",
-      "published_at": "2026-08-31T10:03:07Z",
-      "summary": "I am in the process of buying a new PC, the excuse is that mine is really old now, even though in the years I changed so many bits and pieces that maybe just the psu is the same. Anyway. I use llama.cpp (open to vLLM in ",
+      "title": "AVX2: Speed up large batch size prompt processing of IQ models by bartowski1182 · Pull Request #27402 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3n506/avx2_speed_up_large_batch_size_prompt_processing/",
+      "published_at": "2026-08-31T18:53:30Z",
+      "summary": "      Faster prompt processing on CPU.  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-pipecat-aiphonellm-alpha-1-gpt-56-terra-performance-on-typic",
+      "id": "localllama-2026-08-31-whats-the-current-state-of-qwen-38-flash-regarding-inference",
       "source": "localllama",
-      "title": "pipecat-ai/phonellm-alpha-1: GPT 5.6 Terra performance on typical voice agent tasks at 1/3 the latency and 1/18 the cost",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w393ht/pipecataiphonellmalpha1_gpt_56_terra_performance/",
-      "published_at": "2026-08-31T09:51:53Z",
-      "summary": "      &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
+      "title": "Whats the current state of Qwen 3.8 Flash regarding inference (llama.cpp)?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3mneh/whats_the_current_state_of_qwen_38_flash/",
+      "published_at": "2026-08-31T18:36:47Z",
+      "summary": "Title  &#32; submitted by &#32;  /u/No_Algae1753   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-does-it-make-sense-to-quantize-qwen-38-myself-when-ud-30-exi",
+      "id": "localllama-2026-08-31-glm-53-and-glm-53-flash-ran-locally-on-rtx-pro-6000-ws-and-b",
       "source": "localllama",
-      "title": "Does it make sense to quantize Qwen 3.8 myself when UD 3.0 exists?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w38ygo/does_it_make_sense_to_quantize_qwen_38_myself/",
-      "published_at": "2026-08-31T09:44:05Z",
-      "summary": "I saw https://huggingface.co/jrell/Qwen3.8-27B-i1-IQ4_XS-GGUF-Smaller posted a couple of times here, and I recreated it, but swapping the imatrix to the Unsloth one. Here&#39;s the result: https://huggingface.co/mkopec12",
+      "title": "GLM 5.3 and GLM 5.3 Flash ran locally on RTX PRO 6000 WS and built a penthouse using BlenderMCP",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3kppp/glm_53_and_glm_53_flash_ran_locally_on_rtx_pro/",
+      "published_at": "2026-08-31T17:32:42Z",
+      "summary": "      I keep seeing demos of AI agents building scenes in Blender through BlenderMCP, so I tried it myself. I ran both models locally for this and picked the GLM 5.3 family(Q4 quant) because videos of it doing 3D work ke",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-how-i-got-qwen-38-27b-running-at-75ts-decode-on-16gb-rtx-508",
+      "id": "localllama-2026-08-31-compact-rollback-mtp-a-mtp-version-for-qwen-models-for-those",
       "source": "localllama",
-      "title": "How I got Qwen 3.8 27b running at ~75t/s decode on 16GB RTX 5080",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w38s2d/how_i_got_qwen_38_27b_running_at_75ts_decode_on/",
-      "published_at": "2026-08-31T09:34:07Z",
-      "summary": "Hi all, I have recently been experimenting with different LLM set ups and after everyone was raving about how good Qwen 3.8 27b was, I was inspired to try and get it deploying.  After some battling with settings I&#39;ve",
+      "title": "Compact Rollback MTP: a MTP version for QWEN models for those with little vRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3jp8j/compact_rollback_mtp_a_mtp_version_for_qwen/",
+      "published_at": "2026-08-31T16:58:19Z",
+      "summary": "I&#39;ve made a modification of llama.cpp MTP for people that want to run models like QWEN 27B on 16GB and similar setup, the focus is reducing the memory cost of MTP allowing more speed for less ctx cost.   MTP Mode Max",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-could-this-affect-m5-ultra-priceavailability",
+      "id": "localllama-2026-08-31-sloptv-an-infinite-livestream-of-ai-slop-generated-from-yout",
       "source": "localllama",
-      "title": "Could this affect M5 Ultra price/availability?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w35sc1/could_this_affect_m5_ultra_priceavailability/",
-      "published_at": "2026-08-31T06:43:28Z",
-      "summary": "      &#32; submitted by &#32;  /u/No_Conversation9561   [link] &#32; [comments] ",
+      "title": "SlopTV: an infinite livestream of AI slop generated from youtube chat comments, Minimax H3 on 2x5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3i7ze/sloptv_an_infinite_livestream_of_ai_slop/",
+      "published_at": "2026-08-31T16:07:10Z",
+      "summary": "SlopTV: a YouTube live stream where the chat writes the programming. You type &quot;capybara dj underwater rave&quot;, an LLM inflates it into a 400-word structured video prompt, one of my 5090s renders 15 seconds of it ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-glm-53-glm-53-flash-or-38-qwen-flash-for-replacing-kimi-k3-i",
+      "id": "microsoft-2026-08-31-gigapath-flash-and-gigatime-flash-toward-population-scale-di",
+      "source": "microsoft",
+      "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+      "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+      "published_at": "2026-08-31T16:00:00Z",
+      "summary": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration.\nT",
+      "tags": [
+        "microsoft"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-31-what-are-your-hopes-for-the-new-mistral",
       "source": "localllama",
-      "title": "GLM 5.3, GLM 5.3 Flash or 3.8 Qwen Flash for Replacing Kimi k3 IQ2_XXS",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w33g9t/glm_53_glm_53_flash_or_38_qwen_flash_for/",
-      "published_at": "2026-08-31T04:38:24Z",
-      "summary": "Kimi seem fine at IQ2_xxs but is slow 4tks (passable) but it can drop to 2tks (well, not great) doesn&#39;t seem so viable. Would the new GLM(s), or Qwen Flash a good substitute, especially to have a better interactive e",
+      "title": "What are your hopes for the new Mistral?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3hcab/what_are_your_hopes_for_the_new_mistral/",
+      "published_at": "2026-08-31T15:36:31Z",
+      "summary": "      Mistral is to be release a new model this summer, they still are working on it. What are your hopes?  &#32; submitted by &#32;  /u/always_posedge_clk   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -657,17 +668,6 @@
       "url": "https://www.microsoft.com/en-us/research/blog/mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era/",
       "published_at": "2026-05-13T17:19:59Z",
       "summary": "mimalloc is an open-source, modern, scalable memory allocator that is a drop-in replacement for malloc and free. It is relatively small (~12K lines), with clear internal data structures, and is easy to build and integrat",
-      "tags": [
-        "microsoft"
-      ]
-    },
-    {
-      "id": "microsoft-2026-05-13-gridsfm-a-new-small-foundation-model-for-the-electric-grid",
-      "source": "microsoft",
-      "title": "GridSFM: A new, small foundation model for the electric grid",
-      "url": "https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/",
-      "published_at": "2026-05-13T16:00:20Z",
-      "summary": "Introducing GridSFM, a small foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings. Learn how GridSFM gives grid operators direct visibility into congesti",
       "tags": [
         "microsoft"
       ]
