@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-08-31T04:47:24Z",
+  "updated_at": "2026-08-31T13:12:41Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10717",
+      "project": "llama-cpp",
+      "version": "b10717",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10717",
+      "published_at": "2026-08-31T11:19:36Z",
+      "body_excerpt": "sycl : Enhance to get the free memory of Intel GPU (#27968) enhance get mem info by l0 an SYCL API remove debug code, format the code update SYCL.md for GGML_SYCL_GET_MEM_API Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10715",
+      "project": "llama-cpp",
+      "version": "b10715",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10715",
+      "published_at": "2026-08-31T10:11:27Z",
+      "body_excerpt": "spec : fuse the DFlash encoder into the KV cache injection (#27310) dflash : fuse the encoder into the KV injection decode The encoder is a single fc + norm, but running it as a separate llama_encode forced a device-to-host round trip of its output before the injection decode could re-upload it, plus a second graph build per round. Fold the encoder into the decoder's embd branch and feed the targe",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10714",
+      "project": "llama-cpp",
+      "version": "b10714",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10714",
+      "published_at": "2026-08-31T09:40:03Z",
+      "body_excerpt": "vulkan: tune mat-vec rows for batched inference on Strix Halo (#27909) vulkan: RDNA3 static mat-vec rows above four columns On RDNA3 above four columns a static 4 rows for all types benches faster than the default. vulkan: RDNA3 static mat-vec-id rows mul_mat_vec_id has no column dimension to switch on. On my Strix Halo machine, a static 4 is faster here than the defaults across types and batch si",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10713",
+      "project": "llama-cpp",
+      "version": "b10713",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10713",
+      "published_at": "2026-08-31T08:49:45Z",
+      "body_excerpt": "ggml : add MUL_MAT to the list of ops that may need additional memory (for WebGPU) (#28071) Co-authored-by: Stanisław Szymczyk Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7",
+      "type": "tool"
+    },
+    {
+      "id": "hf-deepseek-ai-DeepSeek-V4-Flash-Vision-Exp",
+      "project": "deepseek-ai",
+      "version": "DeepSeek-V4-Flash-Vision-Exp",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "published_at": "2026-08-31T06:16:18Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b10712",
+      "project": "llama-cpp",
+      "version": "b10712",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10712",
+      "published_at": "2026-08-31T05:39:28Z",
+      "body_excerpt": "vulkan: top_k radix select for k >= 1024 for Qwen 3.8 Flash Next (#28032) vulkan: add top-k radix sort shader for k >= 1024 add Qwen 3.8 Flash Next top-k tests add top-k qsa fusion clean up code Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10711",
       "project": "llama-cpp",
@@ -10088,78 +10142,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9479",
       "published_at": "2026-06-02T14:20:35Z",
       "body_excerpt": "common : fix state save in common_prompt_batch_decode (#23468) common : fix state save in common_prompt_batch_decode This commit addresses a bug in common_prompt_batch_decode that affects the session state store/restore in completion.cpp and save-load-state.cpp. The motivation for this is that currently the code is saving n-1 tokens in both the session_tokens and in the KV cache. Then when loading",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9478",
-      "project": "llama-cpp",
-      "version": "b9478",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9478",
-      "published_at": "2026-06-02T13:01:31Z",
-      "body_excerpt": "server: add SSE ping interval (#24013) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CP",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9474",
-      "project": "llama-cpp",
-      "version": "b9474",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9474",
-      "published_at": "2026-06-02T11:21:34Z",
-      "body_excerpt": "ui: Add Thinking mode toggle with reasoning effort levels + improvements for Chat Form Add Action UI (#23434) feat: Add \"Thinking\" toggle and status icon + redesign Chat Form Actions Add panel test: Update test reference fix: Icon fix: E2E test command fix: wait for greeting h1 to be visible in e2e test fix: remove duplicate PDF option in attachment dropdown fix: use label-based group toggle to av",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9473",
-      "project": "llama-cpp",
-      "version": "b9473",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9473",
-      "published_at": "2026-06-02T10:51:29Z",
-      "body_excerpt": "kv-cache : SWA checkpoints store only non-masked cells (#23981) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9471",
-      "project": "llama-cpp",
-      "version": "b9471",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9471",
-      "published_at": "2026-06-02T10:20:42Z",
-      "body_excerpt": "llama : deprecate (#24009) llama : deprecate cont : fix type Co-authored-by: Daniel Bevenius --------- Co-authored-by: Daniel Bevenius macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9470",
-      "project": "llama-cpp",
-      "version": "b9470",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9470",
-      "published_at": "2026-06-02T09:35:21Z",
-      "body_excerpt": "hexagon: MUL_MAT, MUL_MAT_ID, FLASH_ATTN and GDN cleanup and optimizations for latest models (#23989) hex-mm: initial support for F32 F32 -> F32 matmuls hex-rms-norm: fix src1 stride use in fused rms_norm_mul hex-ops: clear spad pointers in the ops that clober it This fixes an odd case where fused rms-norm-mul was failing but only in qwen3.5-2B and only at searth op-bath sizes. hmx-mm: add support",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9469",
-      "project": "llama-cpp",
-      "version": "b9469",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9469",
-      "published_at": "2026-06-02T07:16:15Z",
-      "body_excerpt": "hexagon: add gelu_quick (#24007) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Win",
-      "type": "tool"
-    },
-    {
-      "id": "whisper-cpp-v1.8.6",
-      "project": "whisper-cpp",
-      "version": "v1.8.6",
-      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.8.6",
-      "published_at": "2026-06-02T06:22:27Z",
-      "body_excerpt": "What's Changed common : re-implement + clarify ffmpeg usage by @ggerganov in ci : fix path to whisper.h in examples.yml [no ci] by @danbev in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9468",
-      "project": "llama-cpp",
-      "version": "b9468",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9468",
-      "published_at": "2026-06-02T05:53:36Z",
-      "body_excerpt": "server: real-time reasoning interruption via control endpoint (#23971) server: real-time reasoning interruption via control endpoint Builds on the manual reasoning budget trigger from #23949. Adds a CONTROL task that mirrors the CANCEL path on the live slot and calls common_sampler_reasoning_budget_force to end thinking mid-generation. POST /v1/chat/completions/control with { id_slot, action }, op",
       "type": "tool"
     }
   ]

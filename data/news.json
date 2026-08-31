@@ -1,35 +1,134 @@
 {
-  "updated_at": "2026-08-31T04:47:18Z",
+  "updated_at": "2026-08-31T13:12:36Z",
   "items": [
     {
-      "id": "localllama-2026-08-31-snkiisori-1b-audio-grounded-lm-trained-from-scratch-no-text",
+      "id": "localllama-2026-08-31-how-bad-do-you-think-models-like-qwen38-27b-or-glm-53-flash",
       "source": "localllama",
-      "title": "snkii/Sori-1B: Audio-Grounded LM Trained From Scratch (No Text-Only Pretraining)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w317fn/snkiisori1b_audiogrounded_lm_trained_from_scratch/",
-      "published_at": "2026-08-31T02:48:24Z",
-      "summary": "      Sori-1B is a 1B-parameter audio-language model built by a single SNU researcher whose core claim to fame is that its decoder is trained entirely from scratch on audio-paired text — no text-only pretraining, no pret",
+      "title": "How bad do you think models like Qwen3.8-27B or GLM-5.3-Flash would be with H-Neurons disabled?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3co3k/how_bad_do_you_think_models_like_qwen3827b_or/",
+      "published_at": "2026-08-31T12:42:27Z",
+      "summary": "      TL;DR: this paper proposes a method to fix hallucination rates to very low levels or zero by disabling neurons which contribute to hallucination. This discovery has been out for a while now, but it hasn&#39;t been ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-optimal-125-bit-quantization-of-qwen38-flash-next",
+      "id": "localllama-2026-08-31-vote-for-the-qwen-38",
       "source": "localllama",
-      "title": "Optimal 1.25 bit quantization of Qwen3.8-Flash-Next",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2zice/optimal_125_bit_quantization_of_qwen38flashnext/",
-      "published_at": "2026-08-31T01:29:22Z",
-      "summary": "Hello! I was looking into quantizing models and i saw how Hy4 was shrunk from 1.5 TB to 200GB with high retention in benchmarks (98% i think). I was wondering if: a) it would be worth it to attempt this method (since the",
+      "title": "vote for the Qwen 3.8",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3cbei/vote_for_the_qwen_38/",
+      "published_at": "2026-08-31T12:27:50Z",
+      "summary": "      Remember to vote and comments guys ;) https://x.com/QwenDevs/status/2094389239761031591  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-08-31-qwen38-flash-next-nvfp4-vs-qwen38-27b-fp-test-results",
+      "id": "localllama-2026-08-31-does-anyone-have-real-experience-with-ornith-15-9b-for-codin",
       "source": "localllama",
-      "title": "Qwen3.8-Flash-Next-NVFP4 vs Qwen3.8-27B-FP Test Results",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2z2zo/qwen38flashnextnvfp4_vs_qwen3827bfp_test_results/",
-      "published_at": "2026-08-31T01:09:25Z",
-      "summary": "## Qwen3.8-Flash-Next-NVFP4 (inferact) vs Qwen3.8-27B-FP8 (qwen) Slammed with work and no time to pretty this up. Qwen wrote most of this but I checked the data. All tests done on the same rig, same prompts, and most tes",
+      "title": "Does anyone have real experience with Ornith-1.5-9B for coding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3bx1n/does_anyone_have_real_experience_with_ornith159b/",
+      "published_at": "2026-08-31T12:10:13Z",
+      "summary": "I&#39;m very happy with Qwen-3.8-27B, I run it on my work machine and switched for major part of real coding tasks from cloud subscriptions to it. I use one dedicated headless RTX 3090, and get maybe 1000-1500 tps prefil",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-31-cuda-extend-moe-fusion-to-specdec-earlier-moe-glu-fusion-and",
+      "source": "localllama",
+      "title": "CUDA: extend MOE fusion to specdec, earlier MOE glu fusion and topk-router fusion were restricted to 1 token by ynankani · Pull Request #27621 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3bh6f/cuda_extend_moe_fusion_to_specdec_earlier_moe_glu/",
+      "published_at": "2026-08-31T11:50:49Z",
+      "summary": "      I haven&#39;t had a chance to test it yet, but it looks very promising. It seems to speed up MTP for MoE models across different draft widths (especially greater than 1). Check the benchmarks.  &#32; submitted by &",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-31-models-to-download-for-m5-ultra-512gb",
+      "source": "localllama",
+      "title": "Models to download for M5 Ultra 512GB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3b0ox/models_to_download_for_m5_ultra_512gb/",
+      "published_at": "2026-08-31T11:29:11Z",
+      "summary": "Just ordered a TB5 enclosure plus 4TB SSD to prepare for M5 Ultra 512GB. I am planning to download the following models in advance. Would like to ask the M3 Ultra 512GB owners whether the quants are the &quot;best&quot; ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-31-deepseek-aideepseek-v4-flash-vision-exp-hugging-face",
+      "source": "localllama",
+      "title": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w39i6r/deepseekaideepseekv4flashvisionexp_hugging_face/",
+      "published_at": "2026-08-31T10:13:34Z",
+      "summary": "      &#32; submitted by &#32;  /u/t4a8945   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-31-help-for-pc-build",
+      "source": "localllama",
+      "title": "Help for PC build",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w39b76/help_for_pc_build/",
+      "published_at": "2026-08-31T10:03:07Z",
+      "summary": "I am in the process of buying a new PC, the excuse is that mine is really old now, even though in the years I changed so many bits and pieces that maybe just the psu is the same. Anyway. I use llama.cpp (open to vLLM in ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-31-pipecat-aiphonellm-alpha-1-gpt-56-terra-performance-on-typic",
+      "source": "localllama",
+      "title": "pipecat-ai/phonellm-alpha-1: GPT 5.6 Terra performance on typical voice agent tasks at 1/3 the latency and 1/18 the cost",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w393ht/pipecataiphonellmalpha1_gpt_56_terra_performance/",
+      "published_at": "2026-08-31T09:51:53Z",
+      "summary": "      &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-31-does-it-make-sense-to-quantize-qwen-38-myself-when-ud-30-exi",
+      "source": "localllama",
+      "title": "Does it make sense to quantize Qwen 3.8 myself when UD 3.0 exists?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w38ygo/does_it_make_sense_to_quantize_qwen_38_myself/",
+      "published_at": "2026-08-31T09:44:05Z",
+      "summary": "I saw https://huggingface.co/jrell/Qwen3.8-27B-i1-IQ4_XS-GGUF-Smaller posted a couple of times here, and I recreated it, but swapping the imatrix to the Unsloth one. Here&#39;s the result: https://huggingface.co/mkopec12",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-31-how-i-got-qwen-38-27b-running-at-75ts-decode-on-16gb-rtx-508",
+      "source": "localllama",
+      "title": "How I got Qwen 3.8 27b running at ~75t/s decode on 16GB RTX 5080",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w38s2d/how_i_got_qwen_38_27b_running_at_75ts_decode_on/",
+      "published_at": "2026-08-31T09:34:07Z",
+      "summary": "Hi all, I have recently been experimenting with different LLM set ups and after everyone was raving about how good Qwen 3.8 27b was, I was inspired to try and get it deploying.  After some battling with settings I&#39;ve",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-31-could-this-affect-m5-ultra-priceavailability",
+      "source": "localllama",
+      "title": "Could this affect M5 Ultra price/availability?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w35sc1/could_this_affect_m5_ultra_priceavailability/",
+      "published_at": "2026-08-31T06:43:28Z",
+      "summary": "      &#32; submitted by &#32;  /u/No_Conversation9561   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-08-31-glm-53-glm-53-flash-or-38-qwen-flash-for-replacing-kimi-k3-i",
+      "source": "localllama",
+      "title": "GLM 5.3, GLM 5.3 Flash or 3.8 Qwen Flash for Replacing Kimi k3 IQ2_XXS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w33g9t/glm_53_glm_53_flash_or_38_qwen_flash_for/",
+      "published_at": "2026-08-31T04:38:24Z",
+      "summary": "Kimi seem fine at IQ2_xxs but is slow 4tks (passable) but it can drop to 2tks (well, not great) doesn&#39;t seem so viable. Would the new GLM(s), or Qwen Flash a good substitute, especially to have a better interactive e",
       "tags": [
         "localllama"
       ]
@@ -43,105 +142,6 @@
       "summary": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far.\nChatGPT Work is a",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-calculate---override-tensor-for-llamacpp-using-qwen-models-a",
-      "source": "localllama",
-      "title": "Calculate --override-tensor for llama.cpp using QWEN models and Pi for 2 GPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2wre0/calculate_overridetensor_for_llamacpp_using_qwen/",
-      "published_at": "2026-08-30T23:25:24Z",
-      "summary": "      When using two GPU with llama.cpp with --split-mode layer you usually provide a --tensor-split value to fit the proportion of the allocation on each GPU, say you have 16GB + 12GB something like --tensor-split 0.6,0",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-which-llm-is-actually-best-at-pentesting-benchmark-to-find-o",
-      "source": "localllama",
-      "title": "Which LLM is actually best at pentesting? benchmark to find out",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2wdeq/which_llm_is_actually_best_at_pentesting/",
-      "published_at": "2026-08-30T23:08:23Z",
-      "summary": "      Hey all, You’ve probably noticed that using LLMs and AI agents for pentesting has become pretty common lately. The problem is there isn’t really a good way to figure out which model is actually best suited for this",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-i-collected-every-single-llm-coding-benchmark-and-computed-t",
-      "source": "localllama",
-      "title": "I collected every single LLM coding benchmark, and computed their Intelligence Density",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2v97w/i_collected_every_single_llm_coding_benchmark_and/",
-      "published_at": "2026-08-30T22:20:36Z",
-      "summary": "      The intelligence in my context is an aggregate index, I called the Agentic Coding Index, across most relevant agentic coding benchmarks: SWE-bench Pro, DeepSWE v1.1, Terminal-Bench (v4, v3, v2.1), Code Arena Elo, a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-qwen-38-27b---fantastic-german-capabilities",
-      "source": "localllama",
-      "title": "Qwen 3.8 27B - Fantastic German capabilities",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2ujys/qwen_38_27b_fantastic_german_capabilities/",
-      "published_at": "2026-08-30T21:51:23Z",
-      "summary": "I am doing a lot of translation work with different languages, and German is just exceptionally well done by Qwen 3.8 27B. It is lengths ahead of GPT-5.6 and even Fable 5. With the frontier models I oftentimes feel it&#3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-we-used-hflow-to-evaluate-the-latest-open-weights-vlms-for-p",
-      "source": "localllama",
-      "title": "We used HFlow to evaluate the latest open weights VLMs for processing egocentric data",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2r6v8/we_used_hflow_to_evaluate_the_latest_open_weights/",
-      "published_at": "2026-08-30T19:40:15Z",
-      "summary": "      We used HFlow to evaluate the latest open weights VLMs for processing egocentric data. This was based on Build AI&#39;s Egocentric-10k evaluation, which used Gemini 2.5 Flash to measure hand visibility and active m",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-are-there-any-interesting-architectural-innovations-that-we",
-      "source": "localllama",
-      "title": "Are there any interesting architectural innovations that we seem to be on the verge of for LLM models or AI models that might be a big deal? (Excluding maybe N-gram, since everyone is already well aware of that one)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2r37q/are_there_any_interesting_architectural/",
-      "published_at": "2026-08-30T19:36:21Z",
-      "summary": "So, ideally for this thread we exclude the ones that everyone on here is already well aware of and discussing on here a lot, like N-gram, quantization improvements, MTP, D-flash, and D-spark, since those are improvement ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-demo-of-local-document-extraction-52-pages-using-arctic-embe",
-      "source": "localllama",
-      "title": "Demo of local document extraction (52 pages) using Arctic Embed and Bonsai 8B on an Iphone 16 (KernelAI app)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2qe1t/demo_of_local_document_extraction_52_pages_using/",
-      "published_at": "2026-08-30T19:09:57Z",
-      "summary": "      Hello everyone, Just sharing this cool and useful feature in the KernelAI mobille app. It works on pretty much any model, and the ability to run both an 8B model + extraction is pretty impressive. For IOS 26 folks,",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-qwen38-27b-ud-iq3xxs---end-to-end-build-app---prompt-flow--t",
-      "source": "localllama",
-      "title": "Qwen3.8-27b-UD-IQ3XXS - End to end Build App -> Prompt Flow-> Test to Image -> Image to Video - Stitch",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2qcf0/qwen3827budiq3xxs_end_to_end_build_app_prompt/",
-      "published_at": "2026-08-30T19:08:14Z",
-      "summary": "      &#32; submitted by &#32;  /u/dreamai87   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-08-30-will-apple-still-release-devices-with-mobile-hbm-in-2027",
-      "source": "localllama",
-      "title": "Will apple still release devices with mobile HbM in 2027 ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2qb2y/will_apple_still_release_devices_with_mobile_hbm/",
-      "published_at": "2026-08-30T19:06:49Z",
-      "summary": "      In 2025, they were planning to release an iphone with mobile hbm in 2027; perhaps they have scraped this idea due to higher memory prices. It will be great if they made affordable mobile hbm for macs and iphones, i",
-      "tags": [
-        "localllama"
       ]
     },
     {
