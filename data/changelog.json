@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T22:40:44Z",
+  "updated_at": "2026-09-01T04:27:22Z",
   "releases": [
     {
       "id": "llama-cpp-b10729",
@@ -10143,33 +10143,6 @@
       "published_at": "2026-06-03T05:36:53Z",
       "body_excerpt": "arg : removed unecesary mmproj download when users pass --no-mmproj (#23425) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Androi",
       "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.2",
-      "project": "ollama",
-      "version": "v0.30.2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.2",
-      "published_at": "2026-06-03T00:37:18Z",
-      "body_excerpt": "What's Changed now supports Qwen Code and can guide users through installing the Cline CLI when it is missing. now uses an isolated launch configuration, avoiding conflicts with a user's existing Codex settings. Added llama.cpp backend compatibility support for Poolside's Laguna architecture. The llama.cpp backend now includes cached prompt tokens in token accounting, improving usage reporting for",
-      "type": "tool"
-    },
-    {
-      "id": "hf-google-gemma-4-E4B-it-qat-mobile-transformers",
-      "project": "google",
-      "version": "gemma-4-E4B-it-qat-mobile-transformers",
-      "url": "https://huggingface.co/google/gemma-4-E4B-it-qat-mobile-transformers",
-      "published_at": "2026-06-02T23:55:15Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-gemma-4-E2B-it-qat-mobile-transformers",
-      "project": "google",
-      "version": "gemma-4-E2B-it-qat-mobile-transformers",
-      "url": "https://huggingface.co/google/gemma-4-E2B-it-qat-mobile-transformers",
-      "published_at": "2026-06-02T23:54:55Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
