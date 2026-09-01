@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-01T16:21:21Z",
+  "updated_at": "2026-09-01T20:50:14Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10751",
+      "project": "llama-cpp",
+      "version": "b10751",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10751",
+      "published_at": "2026-09-01T20:13:53Z",
+      "body_excerpt": "cuda: fuse MoE weighted expert reduction (#25952) cuda : fuse MoE weighted reduction (mul + view + add) The MoE combine tail currently writes weighted expert outputs to global memory before reducing them. That intermediate global-memory traffic is the main cost. The production baseline generally runs two physical fused kernels; this path runs one. This change matches the full expert-weighting plus",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10750",
+      "project": "llama-cpp",
+      "version": "b10750",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10750",
+      "published_at": "2026-09-01T19:21:42Z",
+      "body_excerpt": "kv-cells: look up the n-gram history in the sequence position index (#28040) get_prev_tokens() rebuilt a (seq, pos) -> token hash map on every ubatch by walking all used cells, while llama_kv_cells already keeps an ordered index of the positions of each sequence in seq_pos, updated on every cell mutation to serve seq_pos_min() and seq_pos_max(). The index now stores (pos, cell) pairs in a std::set",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10749",
+      "project": "llama-cpp",
+      "version": "b10749",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10749",
+      "published_at": "2026-09-01T18:57:15Z",
+      "body_excerpt": "context : autoscale n_ctx_train when yarn scaling specified (#28030) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10743",
+      "project": "llama-cpp",
+      "version": "b10743",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10743",
+      "published_at": "2026-09-01T18:18:32Z",
+      "body_excerpt": "metal : add fa-vec tuning for M2 Pro (#28122) metal: add fa-vec tuning for M2 Pro metal : update fa-vec tuning for M2 Pro with new dtypes Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10742",
+      "project": "llama-cpp",
+      "version": "b10742",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10742",
+      "published_at": "2026-09-01T17:04:31Z",
+      "body_excerpt": "metal : add fa-vec tunings for A18 Pro (MacBook Neo) (#28152) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYC",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10741",
+      "project": "llama-cpp",
+      "version": "b10741",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10741",
+      "published_at": "2026-09-01T16:35:25Z",
+      "body_excerpt": "model : load hparams.n_layer_nextn before n_layer() calls (#28159) load hparams.n_layer_nextn before n_layer() calls remove duplicate loads Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubunt",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10740",
       "project": "llama-cpp",
@@ -10053,60 +10107,6 @@
       "published_at": "2026-06-04T05:20:28Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9496",
-      "project": "llama-cpp",
-      "version": "b9496",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9496",
-      "published_at": "2026-06-03T20:23:18Z",
-      "body_excerpt": "mtmd: fix Gemma 4 unified FPE (#24088) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CP",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.4-rc0",
-      "project": "ollama",
-      "version": "v0.30.4-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.4-rc0",
-      "published_at": "2026-06-03T18:48:32Z",
-      "body_excerpt": "What's Changed llama.cpp version update by @dhiltgen in Kill llama-server during Windows cleanup by @dhiltgen in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.4",
-      "project": "ollama",
-      "version": "v0.30.4",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.4",
-      "published_at": "2026-06-03T18:48:32Z",
-      "body_excerpt": "New models Nemotron-3-Ultra: NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows. What's Changed Fixed multimodal models not using GPU on the llama.cpp backend can now use Metal GPU offload on Apple Silicon, improving multimodal performance on supported Macs. now respects in Modelfiles for MLX-based models. now cleans up old conflicting Codex profile con",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9495",
-      "project": "llama-cpp",
-      "version": "b9495",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9495",
-      "published_at": "2026-06-03T18:13:12Z",
-      "body_excerpt": "qwen35: use post-norm hidden state for MTP (#24025) qwen35: use post-norm hidden state for MTP rename pre_norm to nextn fix step35 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9494",
-      "project": "llama-cpp",
-      "version": "b9494",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9494",
-      "published_at": "2026-06-03T17:35:34Z",
-      "body_excerpt": "mtmd: enable non-causal vision for gemma 4 unified (#24082) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Win",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.3",
-      "project": "ollama",
-      "version": "v0.30.3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.3",
-      "published_at": "2026-06-03T16:35:43Z",
-      "body_excerpt": "New models Gemma 4 12B: high-performance multimodal intelligence that runs directly on laptops, combining efficiency with advanced reasoning. What's Changed Added support for . Full Changelog:",
-      "type": "tool"
     }
   ]
 }
