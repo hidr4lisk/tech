@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-01T11:24:11Z",
+  "updated_at": "2026-09-01T16:21:21Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10740",
+      "project": "llama-cpp",
+      "version": "b10740",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10740",
+      "published_at": "2026-09-01T15:41:34Z",
+      "body_excerpt": "metal : fix more leaks due to missing autoreleasepools (#27883) metal : fix more leaks due to missing autoreleasepools metal : rename variable metal : fix another missing pool warning Co-authored-by: YiChen Lv --------- Co-authored-by: YiChen Lv Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10739",
+      "project": "llama-cpp",
+      "version": "b10739",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10739",
+      "published_at": "2026-09-01T15:15:28Z",
+      "body_excerpt": "metal : add fa-vec tuning for M2 Max (#28015) Rows for M2 Max (30 GPU cores) collected with 'ggml-metal-tuning fa-vec --dtype f16,q8_0', pasted into fa_vec_tuned_table. ref: Assisted-by: pi:llama.cpp/Qwen3.8-27B Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10738",
+      "project": "llama-cpp",
+      "version": "b10738",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10738",
+      "published_at": "2026-09-01T14:40:01Z",
+      "body_excerpt": "sycl : support limit max alloc memory within 2GB for host-pinned memory (#27559) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10737",
+      "project": "llama-cpp",
+      "version": "b10737",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10737",
+      "published_at": "2026-09-01T14:03:40Z",
+      "body_excerpt": "qwen4exp: fix seq_cp, block position keying, mtmd input, cuda abort, add tests (#27941) qwen4exp: follow up fixes -kvu NaN collapse fix Assisted-by: Claude indexer cache ext.x/ext.y restore fix Assisted-by: Claude kv-cells: rename seq_set to seq_get_all seq_get is already taken by the single-id getter, so the suggested name cannot be overloaded on return type alone. Assisted-by: Claude memory-hybr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10736",
+      "project": "llama-cpp",
+      "version": "b10736",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10736",
+      "published_at": "2026-09-01T13:29:54Z",
+      "body_excerpt": "tests : fix log verbosity for test-llama-archs (#28147) tests : fix log verbosity for test-llama-archs cont : naming cont : add note Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10734",
+      "project": "llama-cpp",
+      "version": "b10734",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10734",
+      "published_at": "2026-09-01T11:57:33Z",
+      "body_excerpt": "metal: enable Metal 4.0 tensor API on M5+/A19+ (#27461) metal : request Metal 4.0 language version for the tensor API metal : load the tensor API kernels from a separate metallib tests : add external-metallib tensor API regression test metal : fix metallib build order for the tensor API kernels Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabl",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10733",
       "project": "llama-cpp",
@@ -10052,78 +10106,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.3",
       "published_at": "2026-06-03T16:35:43Z",
       "body_excerpt": "New models Gemma 4 12B: high-performance multimodal intelligence that runs directly on laptops, combining efficiency with advanced reasoning. What's Changed Added support for . Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9493",
-      "project": "llama-cpp",
-      "version": "b9493",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9493",
-      "published_at": "2026-06-03T15:43:32Z",
-      "body_excerpt": "mtmd, model: allow skip build_vit() (#24077) add model nits macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Win",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.10.1",
-      "project": "transformers",
-      "version": "v5.10.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.1",
-      "published_at": "2026-06-03T15:37:41Z",
-      "body_excerpt": "Release v5.10.1 v5.10.0 was yanked as we publish on a corrupted branch. Sorry everyone, this happens when we rush a release!!! New Model additions Gemma4 unified+ Gemma4 MTP Gemma 4 12B Unified is an encoder-free multimodal model with pretrained and instruction-tuned variants. Unlike standard Gemma 4, which uses dedicated encoder towers, Gemma 4 12B Unified projects raw inputs directly into the la",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-      "published_at": "2026-06-03T14:54:33Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-      "published_at": "2026-06-03T14:50:04Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
-      "published_at": "2026-06-03T14:47:17Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "unsloth-v0.1.44-beta",
-      "project": "unsloth",
-      "version": "v0.1.44-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.44-beta",
-      "published_at": "2026-06-03T14:35:44Z",
-      "body_excerpt": "Hey everyone, this update focuses mainly on MCP, Projects, Canvas and the new chat UI. We've also made many improvements across Studio. Next week we'll have an even bigger update. If Gemma 4 12B isn't working for you, please re-update Unsloth! To update Unsloth or install a new Unsloth Studio, you must use: macOS, Linux, WSL: Windows: > [!WARNING] > DO NOT USE since packaging will not get the late",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9491",
-      "project": "llama-cpp",
-      "version": "b9491",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9491",
-      "published_at": "2026-06-03T14:17:44Z",
-      "body_excerpt": "Avoid PDL race conditions by disabling __restrict__ when PDL is used (#24030) Removes __restrict__ from PDL kernel headers due to incompatibility with PDL. Adds preprocessor directives based on arch in kernel body to add __restrict__ to retain performance on older architectures. Simplifies new __restrict__ usage via macro Add hopper to PDL __restrict__ fix. Co-authored-by: Oliver Simons --------- ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9490",
-      "project": "llama-cpp",
-      "version": "b9490",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9490",
-      "published_at": "2026-06-03T11:46:21Z",
-      "body_excerpt": "ggml-cpu: use runtime SVE width in FWHT (#24059) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windo",
       "type": "tool"
     }
   ]
