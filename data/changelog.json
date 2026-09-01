@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-09-01T04:27:22Z",
+  "updated_at": "2026-09-01T11:24:11Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10733",
+      "project": "llama-cpp",
+      "version": "b10733",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10733",
+      "published_at": "2026-09-01T10:00:12Z",
+      "body_excerpt": "ci: Bump ggml-org/ccache-action to v1.2.24 (#28083) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10731",
+      "project": "llama-cpp",
+      "version": "b10731",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10731",
+      "published_at": "2026-09-01T05:34:08Z",
+      "body_excerpt": "qwen4exp: support recurrent state rollback (#28123) MTP speculative decoding needs the target state to move back by the number of rejected draft tokens. Without rollback support the context is classified as SEQ_RM_TYPE_FULL and the server serializes the whole recurrent state to host memory on every round, which costs more than the drafting saves. The recurrent cache already holds n_rs_seq + 1 snap",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10730",
+      "project": "llama-cpp",
+      "version": "b10730",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10730",
+      "published_at": "2026-09-01T05:08:54Z",
+      "body_excerpt": "qwen4exp: sum the indexer heads by slices (#28023) qwen4exp: sum the indexer heads by slices The head reduction went through a transpose and a sum_rows over ne[1], which left sum_rows with ne0 = 4, one block per row for a four element reduction, and the transpose copied the whole block by token surface twice on the way in. The heads are adjacent on ne[1], so each one is a strided view and the sum ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10729",
       "project": "llama-cpp",
@@ -10097,51 +10124,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9490",
       "published_at": "2026-06-03T11:46:21Z",
       "body_excerpt": "ggml-cpu: use runtime SVE width in FWHT (#24059) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windo",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9489",
-      "project": "llama-cpp",
-      "version": "b9489",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9489",
-      "published_at": "2026-06-03T11:22:25Z",
-      "body_excerpt": "cuda: reserve space for quantize kv-cache at startup (#23907) cuda: reserve space for quantize kv-cache at startup address review comments remove forward decl Co-authored-by: Johannes Gäßler remove assert in ggml-cuda.cu Co-authored-by: Johannes Gäßler --------- Co-authored-by: Johannes Gäßler macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9488",
-      "project": "llama-cpp",
-      "version": "b9488",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9488",
-      "published_at": "2026-06-03T07:47:42Z",
-      "body_excerpt": "tests : add support for qwen3 SSM archs (#24031) tests : add support for qwen3 SSM archs arch : add LLM_KV_ATTENTION_RECURRENT_LAYERS cont : naming + TODOs macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9487",
-      "project": "llama-cpp",
-      "version": "b9487",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9487",
-      "published_at": "2026-06-03T06:25:05Z",
-      "body_excerpt": "update BoringSSL to 0.20260526.0 (#23794) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9486",
-      "project": "llama-cpp",
-      "version": "b9486",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9486",
-      "published_at": "2026-06-03T06:02:15Z",
-      "body_excerpt": "ci : disable ccache for msvc windows release jobs (#23911) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Wind",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9485",
-      "project": "llama-cpp",
-      "version": "b9485",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9485",
-      "published_at": "2026-06-03T05:36:53Z",
-      "body_excerpt": "arg : removed unecesary mmproj download when users pass --no-mmproj (#23425) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Androi",
       "type": "tool"
     }
   ]
