@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-02T16:18:41Z",
+  "updated_at": "2026-09-02T20:49:56Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10766",
+      "project": "llama-cpp",
+      "version": "b10766",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10766",
+      "published_at": "2026-09-02T20:33:26Z",
+      "body_excerpt": "model: correctly support input vision for deepseek4 (#28154) model: correctly support input vision for deepseek4 nits Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10764",
+      "project": "llama-cpp",
+      "version": "b10764",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10764",
+      "published_at": "2026-09-02T19:56:21Z",
+      "body_excerpt": "ggml-cuda : remove unused vars (#28235) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10763",
+      "project": "llama-cpp",
+      "version": "b10763",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10763",
+      "published_at": "2026-09-02T19:02:44Z",
+      "body_excerpt": "common, server : enable preserve_reasoning kwarg by default, log its effective state (#28174) common, server : enable preserve_reasoning kwarg by default, log its effective state If the preserve_reasoning chat template kwarg is not specified explicitly via --reasoning-preserve / --no-reasoning-preserve, it is enabled by default after argument processing. The server logs the effective state of the ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10762",
+      "project": "llama-cpp",
+      "version": "b10762",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10762",
+      "published_at": "2026-09-02T18:37:20Z",
+      "body_excerpt": "mtmd: support DeepSeek-V4-Flash-Vision-Exp (#28133) mtmd: support DeepSeek-V4-Flash-Vision-Exp handle min/max token counts from CLI rm debugging use GGML_ROPE_TYPE_VISION nits apply review comments correct token count Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ",
+      "type": "tool"
+    },
     {
       "id": "hf-microsoft-VibeVoice-ASR-Streaming-1.5B",
       "project": "microsoft",
@@ -25,7 +61,7 @@
       "version": "v0.1.806-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.806-beta",
       "published_at": "2026-09-02T12:49:18Z",
-      "body_excerpt": "Run Qwen3.8-Flash-Next and GLM-5.3-Flash up to 2x faster with MTP. MTP is enabled by default, you can still disable it. Also our new release includes 170+ training, chat, hardware, and performance improvements. Highlights Smoother model loading (less errors) across local servers and connected providers. Safer chat edits that preserve tool cards, reply details, and conversation branches. New local ",
+      "body_excerpt": "Run Qwen3.8-Flash-Next and GLM-5.3-Flash up to 2x faster with MTP. MTP is enabled by default, you can still disable it. Also our new release includes 170+ training, chat, hardware, and performance improvements. Highlights Smoother model loading (less errors) across local servers and connected providers. Faster and less laggy UI with follow-up turns much faster for all chats. Safer chat edits that ",
       "type": "tool"
     },
     {
@@ -116,6 +152,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0",
       "published_at": "2026-09-02T00:11:33Z",
       "body_excerpt": "What's Changed Honor GGUF model defined default parameters MLX, MLX-C, llama.cpp update New Contributors @marcelpetrick made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.33.3-rc1",
+      "project": "ollama",
+      "version": "v0.33.3-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc1",
+      "published_at": "2026-09-02T00:11:33Z",
+      "body_excerpt": "What's Changed Report cached prompt tokens Honor GGUF model defined default parameters MLX, MLX-C, llama.cpp update New Contributors @marcelpetrick made their first contribution in Full Changelog:",
       "type": "tool"
     },
     {
@@ -10098,51 +10143,6 @@
       "published_at": "2026-06-04T22:28:22Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "transformers-v5.10.2",
-      "project": "transformers",
-      "version": "v5.10.2",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.2",
-      "published_at": "2026-06-04T18:43:06Z",
-      "body_excerpt": "Patch release v5.10.2 There was a big bug in the model conversion of models related to clip, this affected models like sam3 and others. Please make sure to update :pray: Fix conversion for clip models by @zucchini-nlp (#46406) Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9518",
-      "project": "llama-cpp",
-      "version": "b9518",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9518",
-      "published_at": "2026-06-04T17:13:26Z",
-      "body_excerpt": "server : disable on-device spec checkpoints (#24108) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: W",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.5-rc0",
-      "project": "ollama",
-      "version": "v0.30.5-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.5-rc0",
-      "published_at": "2026-06-04T17:00:37Z",
-      "body_excerpt": "What's Changed docs: add Cline CLI integration doc by @hoyyeva in integrations: hermes windows install by @BruceMacD in llama.cpp version update by @dhiltgen in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.5",
-      "project": "ollama",
-      "version": "v0.30.5",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.5",
-      "published_at": "2026-06-04T17:00:37Z",
-      "body_excerpt": "What's Changed Fixed the floating point exception crash on x86, CUDA, Linux, and Windows systems. now launches Hermes Desktop and can skip rebuilding when a packaged desktop app is already installed. now supports native Windows installs through the Hermes PowerShell installer. Added Cline CLI integration docs. Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9515",
-      "project": "llama-cpp",
-      "version": "b9515",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9515",
-      "published_at": "2026-06-04T16:19:07Z",
-      "body_excerpt": "Move duplicated imatrix code into single common imatrix-loader.cpp (#22445) Deduplicate imatrix loading code Add back LLAMA_TRACE, early exit on quantize missing metadata macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
-      "type": "tool"
     }
   ]
 }
