@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-01T20:50:14Z",
+  "updated_at": "2026-09-02T03:50:38Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10752",
+      "project": "llama-cpp",
+      "version": "b10752",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10752",
+      "published_at": "2026-09-02T00:13:57Z",
+      "body_excerpt": "metal : add metallib build support for xcframework (#28163) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL ",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.33.3-rc0",
+      "project": "ollama",
+      "version": "v0.33.3-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0",
+      "published_at": "2026-09-02T00:11:33Z",
+      "body_excerpt": "What's Changed Honor GGUF model defined default parameters MLX, MLX-C, llama.cpp update New Contributors @marcelpetrick made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10751",
       "project": "llama-cpp",
@@ -36,6 +54,15 @@
       "published_at": "2026-09-01T18:18:32Z",
       "body_excerpt": "metal : add fa-vec tuning for M2 Pro (#28122) metal: add fa-vec tuning for M2 Pro metal : update fa-vec tuning for M2 Pro with new dtypes Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
       "type": "tool"
+    },
+    {
+      "id": "hf-allenai-ACE2S-SHiELD-plus-supplemental-checkpoints",
+      "project": "allenai",
+      "version": "ACE2S-SHiELD-plus-supplemental-checkpoints",
+      "url": "https://huggingface.co/allenai/ACE2S-SHiELD-plus-supplemental-checkpoints",
+      "published_at": "2026-09-01T17:54:43Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10742",
@@ -720,6 +747,15 @@
       "published_at": "2026-08-27T20:37:55Z",
       "body_excerpt": "ci : build only the ggml-hip backend for windows-rocm release (#27753) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Muse-Glimmer-30B-NVFP4",
+      "project": "nvidia",
+      "version": "Muse-Glimmer-30B-NVFP4",
+      "url": "https://huggingface.co/nvidia/Muse-Glimmer-30B-NVFP4",
+      "published_at": "2026-08-27T20:37:10Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.33.2-rc1",
