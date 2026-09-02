@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-09-02T10:58:11Z",
+  "updated_at": "2026-09-02T16:18:41Z",
   "releases": [
+    {
+      "id": "hf-microsoft-VibeVoice-ASR-Streaming-1.5B",
+      "project": "microsoft",
+      "version": "VibeVoice-ASR-Streaming-1.5B",
+      "url": "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-1.5B",
+      "published_at": "2026-09-02T15:51:38Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-VibeVoice-ASR-Streaming-7B",
+      "project": "microsoft",
+      "version": "VibeVoice-ASR-Streaming-7B",
+      "url": "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B",
+      "published_at": "2026-09-02T15:46:22Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "unsloth-v0.1.806-beta",
+      "project": "unsloth",
+      "version": "v0.1.806-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.806-beta",
+      "published_at": "2026-09-02T12:49:18Z",
+      "body_excerpt": "Run Qwen3.8-Flash-Next and GLM-5.3-Flash up to 2x faster with MTP. MTP is enabled by default, you can still disable it. Also our new release includes 170+ training, chat, hardware, and performance improvements. Highlights Smoother model loading (less errors) across local servers and connected providers. Safer chat edits that preserve tool cards, reply details, and conversation branches. New local ",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.805-beta",
+      "project": "unsloth",
+      "version": "v0.1.805-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.805-beta",
+      "published_at": "2026-09-02T11:41:10Z",
+      "body_excerpt": "Run Qwen3.8-Flash-Next and GLM-5.3-Flash up to 2x faster with MTP. MTP is enabled by default, you can still disable it. Also our new release includes 170+ training, chat, hardware, and performance improvements. Highlights Smoother model loading (less errors) across local servers and connected providers. Safer chat edits that preserve tool cards, reply details, and conversation branches. New local ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10760",
+      "project": "llama-cpp",
+      "version": "b10760",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10760",
+      "published_at": "2026-09-02T11:14:51Z",
+      "body_excerpt": "mtmd: Fix Qwen3-tts-0.6b (#28231) mtmd: load the qwen3-tts code predictor proj_in as optional The talker and the code predictor share the hidden size on the 0.6B checkpoints, so the reference builds no small_to_mtp_projection and the conversion emits no tensor for it. The graph already falls back to identity when the weight is missing, the loader now agrees. mtmd: keep the qwen3-tts code predictor",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10759",
       "project": "llama-cpp",
@@ -10097,42 +10142,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9515",
       "published_at": "2026-06-04T16:19:07Z",
       "body_excerpt": "Move duplicated imatrix code into single common imatrix-loader.cpp (#22445) Deduplicate imatrix loading code Add back LLAMA_TRACE, early exit on quantize missing metadata macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9512",
-      "project": "llama-cpp",
-      "version": "b9512",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9512",
-      "published_at": "2026-06-04T15:13:39Z",
-      "body_excerpt": "return filter to save memory (#24125) Co-authored-by: lvyichen macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9510",
-      "project": "llama-cpp",
-      "version": "b9510",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9510",
-      "published_at": "2026-06-04T14:44:10Z",
-      "body_excerpt": "ggml: vectorize ggml_vec_dot_q4_1_q8_1 with WASM SIMD128 (#22209) ggml: vectorize ggml_vec_dot_q4_1_q8_1 with WASM SIMD128 Optimize the inner loop of ggml_vec_dot_q4_1_q8_1_generic using WASM SIMD128 intrinsics, gated behind #ifdef __wasm_simd128__ so non-wasm builds are completely unaffected. Approach: single wasm_v128_load covers all 32 packed 4-bit weights nibbles unpacked via AND/SHR into two ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9509",
-      "project": "llama-cpp",
-      "version": "b9509",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9509",
-      "published_at": "2026-06-04T13:53:52Z",
-      "body_excerpt": "server: avoid unnecessary checkpoint restore when new tokens are present (#24110) server: avoid unnecessary checkpoint restore when new tokens are present The pos_min_thold calculation unconditionally subtracts 1 to ensure at least one token is evaluated for logits when no new tokens exist. However, when the request contains new tokens beyond the cached prefix, this -1 is overly conservative and m",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9505",
-      "project": "llama-cpp",
-      "version": "b9505",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9505",
-      "published_at": "2026-06-04T11:31:37Z",
-      "body_excerpt": "server : add header to tools/server/server-http.h (#24089) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Wind",
       "type": "tool"
     }
   ]
