@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-02T03:50:38Z",
+  "updated_at": "2026-09-02T10:58:11Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10759",
+      "project": "llama-cpp",
+      "version": "b10759",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10759",
+      "published_at": "2026-09-02T10:22:15Z",
+      "body_excerpt": "ggml: avoid KleidiAI buffer type init on dispatch (#27891) Co-authored-by: Acmmi Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10758",
+      "project": "llama-cpp",
+      "version": "b10758",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10758",
+      "published_at": "2026-09-02T09:29:10Z",
+      "body_excerpt": "hexagon: MUL_MAT and MUL_MAT_ID fusion and fixes (#28202) hex-mm: fuse QKV and FFN matmuls that land on HMX hex-mm: remove hardcoded ne[1] Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10757",
+      "project": "llama-cpp",
+      "version": "b10757",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10757",
+      "published_at": "2026-09-02T08:43:01Z",
+      "body_excerpt": "vulkan: handle larger batch sizes (>4) efficiently for IQ3_S mat-vec (#27449) vulkan: handle larger batch sizes (>4) efficiently for IQ3_S mat-vec when NUM_COLS > 4. 5x perf at n=8 Assisted-by: Claude Opus 5 adds 2 cases per quant type at to the mat-vec sweep --------- Co-authored-by: Marshall Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enable",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10756",
+      "project": "llama-cpp",
+      "version": "b10756",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10756",
+      "published_at": "2026-09-02T08:17:19Z",
+      "body_excerpt": "vulkan : only request VK_KHR_shader_bfloat16 extension if supported (#28155) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10754",
+      "project": "llama-cpp",
+      "version": "b10754",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10754",
+      "published_at": "2026-09-02T06:26:50Z",
+      "body_excerpt": "opencl: fix out‐of‐bound reads in the Adreno image kernels (#27632) opencl: clamp the q4_K decode GEMV's fetch row on a padded x-grid opencl: enforce the tiling contract of the image KQ/KQV GEMMs opencl: decide the image KQ/KQV split at the dispatch, not from strides Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10753",
+      "project": "llama-cpp",
+      "version": "b10753",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10753",
+      "published_at": "2026-09-02T06:00:58Z",
+      "body_excerpt": "hexagon: add missing FARF logs for cpy/get_rows/set_rows/gdn ops (#28217) hexagon: fix bug ne[2] printed in proc_op_req prep-src log hexagon: add shape/VTCM farf logs to cpy, get/set rows, gdn Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10752",
       "project": "llama-cpp",
@@ -10080,69 +10134,6 @@
       "published_at": "2026-06-04T11:31:37Z",
       "body_excerpt": "server : add header to tools/server/server-http.h (#24089) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Wind",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9504",
-      "project": "llama-cpp",
-      "version": "b9504",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9504",
-      "published_at": "2026-06-04T10:57:32Z",
-      "body_excerpt": "cmake: skip cvector-generator and export-lora when CPU backend is disabled (#24053) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9503",
-      "project": "llama-cpp",
-      "version": "b9503",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9503",
-      "published_at": "2026-06-04T10:14:06Z",
-      "body_excerpt": "fix(mtmd): handle Gemma 4 audio projector embedding size (#24091) mtmd: handle Gemma 4 audio projector embedding size rm projection_dim from clip_n_mmproj_embd --------- Co-authored-by: Xuan Son Nguyen macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9500",
-      "project": "llama-cpp",
-      "version": "b9500",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9500",
-      "published_at": "2026-06-04T06:33:46Z",
-      "body_excerpt": "metal : reduce rset heartbeat from 500ms -> 5ms (#24074) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Window",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9499",
-      "project": "llama-cpp",
-      "version": "b9499",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9499",
-      "published_at": "2026-06-04T06:08:27Z",
-      "body_excerpt": "ggml-webgpu: FlashAttention refactor + standardize quantization support (#23834) Start work on flash_attn refactor Refactor Split k/v quantization Refactor and abstract quantization logic for flash_attn and mul_mat Add quantization support to tile path formatting Move to functions, add a check macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-ArtiFixer",
-      "project": "nvidia",
-      "version": "ArtiFixer",
-      "url": "https://huggingface.co/nvidia/ArtiFixer",
-      "published_at": "2026-06-04T06:03:25Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9498",
-      "project": "llama-cpp",
-      "version": "b9498",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9498",
-      "published_at": "2026-06-04T05:42:14Z",
-      "body_excerpt": "ggml-cpu: extend RVV quantization vec dot to higher VLENs (#22754) ggml-cpu: add rvv 512b,1024b impls for iq4_xs ggml-cpu: refactor; add rvv 512b, 1024b impls for q6_K, i-quants ggml-cpu: refactor; add 512 and 1024 implementations of tq3_s, iq3_xxs, iq2_s, iq2_xs, iq2_xxs improve iq2_xs impl for rvv 256 Co-authored-by: Rehan Qasim --------- Co-authored-by: taimur-10x Co-authored-by: Rehan Qasim ma",
-      "type": "tool"
-    },
-    {
-      "id": "hf-google-gemma-4-12B-it-qat-q4_0-unquantized",
-      "project": "google",
-      "version": "gemma-4-12B-it-qat-q4_0-unquantized",
-      "url": "https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-unquantized",
-      "published_at": "2026-06-04T05:20:28Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
