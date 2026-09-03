@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-03T03:50:24Z",
+  "updated_at": "2026-09-03T10:57:01Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10782",
+      "project": "llama-cpp",
+      "version": "b10782",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10782",
+      "published_at": "2026-09-03T10:26:22Z",
+      "body_excerpt": "CUDA: Allow concurrent streams per split for multi-GPU (#28198) CUDA: Allow CUDA optimization per split for multi-GPU. Previous guard caused multi-GPU to skip the graph optimization. The graph is already split per device and the optimization doesnt run over the whole model but once per split, and thus should be allowed. However, the CUDA event ggml_cuda_concurrent_event belongs to whichever GPU wa",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10781",
+      "project": "llama-cpp",
+      "version": "b10781",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10781",
+      "published_at": "2026-09-03T09:57:39Z",
+      "body_excerpt": "vulkan: fix FA dequant path engagement (#28190) Skip the nb[3] check when ne[3] == 1, the shader never reads it for a single stream. Cache views carry the full-buffer stride there, so the old check reduced to n_kv == kv_size and the path only engaged with the cache full. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10780",
+      "project": "llama-cpp",
+      "version": "b10780",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10780",
+      "published_at": "2026-09-03T09:33:43Z",
+      "body_excerpt": "sycl : enhance the api to support peer-to-peer copy (#27550) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10778",
+      "project": "llama-cpp",
+      "version": "b10778",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10778",
+      "published_at": "2026-09-03T08:56:59Z",
+      "body_excerpt": "misc : prevent RAM peaking at model loading stage (#27483) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL F",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10777",
+      "project": "llama-cpp",
+      "version": "b10777",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10777",
+      "published_at": "2026-09-03T08:27:43Z",
+      "body_excerpt": "sycl: reduce redundant work in Q4_K multi-column MMVQ (#27062) sycl: Q4_K Weight unpack optimization and reuse between destination Columns sycl: Q4_K small N (N=2..4) + two output rows by subgroup reuse of activation between two rows. sycl: gate Q4_K two-row reuse for small N=2 sycl: Fix on magic number now uses Q4_K_MMVQ_ROW_PAIR_MIN_NROWS=6272 for it, added tests for coverage around Q4_K_MMVQ_RO",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10776",
+      "project": "llama-cpp",
+      "version": "b10776",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10776",
+      "published_at": "2026-09-03T07:57:16Z",
+      "body_excerpt": "model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support (#25444) hparams: add per-layer n_ff_exp/n_expert_used arrays with scalar-or-array loading G1/G2 infrastructure for variable-per-layer expert FFN size and top-k routing (required for Puzzle-75B which has 5 distinct n_ff_exp values and 7 top-k values across its 40 MoE layers). Design: rename scalar members to _impl suffix (follow",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10775",
       "project": "llama-cpp",
@@ -10124,60 +10178,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9528",
       "published_at": "2026-06-05T13:18:01Z",
       "body_excerpt": "ui: run npm install when package-lock.json is newer than node_modules (#24171) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Andr",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.22.1",
-      "project": "vllm",
-      "version": "v0.22.1",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1",
-      "published_at": "2026-06-05T10:10:00Z",
-      "body_excerpt": "Highlights This release features 8 commits from 6 contributors (1 new)! v0.22.1 is a patch release on top of v0.22.0 with targeted bug fixes plus a couple of additions: new model support for JetBrains' Mellum v2, zentorch-accelerated quantized linear inference on AMD Zen CPUs, and fixes for multi-node Ray data-parallel serving, DeepSeek-V4 initialization, and a few model-loading regressions. Model",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9524",
-      "project": "llama-cpp",
-      "version": "b9524",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9524",
-      "published_at": "2026-06-05T09:17:20Z",
-      "body_excerpt": "minor : fix lint issues (#24165) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Win",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9523",
-      "project": "llama-cpp",
-      "version": "b9523",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9523",
-      "published_at": "2026-06-05T08:43:38Z",
-      "body_excerpt": "hparams : refactor (#24060) hparams : refactor hparams.n_layer cont : remove , use n_layer_all instead cont : type consistency pi : update SYSTEM.md models : fix Step3.5 MTP cont : remove duplicate switch cases cont : explicitly set to extra layers for and cont : fix nextn layer count handling Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silico",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9522",
-      "project": "llama-cpp",
-      "version": "b9522",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9522",
-      "published_at": "2026-06-05T07:44:17Z",
-      "body_excerpt": "kleidiai : dynamic chunck-based scheduling for hybrid execution (#23819) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android ar",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9521",
-      "project": "llama-cpp",
-      "version": "b9521",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9521",
-      "published_at": "2026-06-05T06:54:55Z",
-      "body_excerpt": "CUDA: enroll mul_mat_vec_q_moe into pdl (#24087) Enroll mul_mat_vec_q_moe into PDL, boosting MTP performance on BW Data collected on a B4500: Before After Server launched with: LC to overlap with following kernels macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (C",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9519",
-      "project": "llama-cpp",
-      "version": "b9519",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9519",
-      "published_at": "2026-06-05T05:45:01Z",
-      "body_excerpt": "sycl : port multi-column MMVQ from CUDA backend (#21845) mmvq: Port the ncols_dst optimization from ggml-cuda/mmvq.cu to SYCL. Read weights once per dispatch instead of once per column. Covers all standard quant types + reorder paths for Q4_0, Q8_0, Q3_K, Q4_K, Q5_K, Q6_K. IQ types (except IQ4_XS) excluded due to incompatible vec_dot signatures. ggml-sycl: The weight reorder was only bootstrapped ",
       "type": "tool"
     }
   ]
