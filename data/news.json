@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-09-03T03:50:18Z",
+  "updated_at": "2026-09-03T10:56:55Z",
   "items": [
+    {
+      "id": "localllama-2026-09-03-how-to-handle-naughty-model",
+      "source": "localllama",
+      "title": "How to handle naughty model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w62w8e/how_to_handle_naughty_model/",
+      "published_at": "2026-09-03T09:53:51Z",
+      "summary": "      Hello all, How do you deal with preventing future errors of you agents? I have made a skill which fires everytime it does something wrong. So far it is very helpful. I dont get &quot;i am sorry&quot; crap more than",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-any-more-ts-maxxing-i-could-do-4060-ti-16gb-32gb-system-ram",
+      "source": "localllama",
+      "title": "Any more t/s maxxing I could do? 4060 TI 16GB, 32GB system RAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w62vjc/any_more_ts_maxxing_i_could_do_4060_ti_16gb_32gb/",
+      "published_at": "2026-09-03T09:52:43Z",
+      "summary": "Probably (definitely) breaking rule 3, but I&#39;ve nowhere else to go because gemini is not giving me anything useful for this sorta thing. I literally cannot find any useful advice for this setup on this sub. I&#39;m r",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-local-auto-complete-code-assistant---vanilla-fine-tune-or-rl",
+      "source": "localllama",
+      "title": "Local Auto complete code assistant - Vanilla, Fine-tune or RL?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w61zgh/local_auto_complete_code_assistant_vanilla/",
+      "published_at": "2026-09-03T09:00:59Z",
+      "summary": "I started using qwencoder 3B for local inline code suggestions, and while it&#39;s nice, it&#39;s also a bit too generic in its suggestions. My thoughts are to either:  Fine tune it on code that I wrote Reinforcement lea",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-model-add-nvidia-nemotron-3-puzzle-75b-a9b-nemotronhpuzzle-s",
+      "source": "localllama",
+      "title": "model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support by YanissAmz · Pull Request #25444 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w60jr5/model_add_nvidia_nemotron3puzzle75ba9b/",
+      "published_at": "2026-09-03T07:35:18Z",
+      "summary": "      75B MoE is an interesting size to check, you can run it today (no MTP support yet) The model employs a hybrid MoE architecture with interleaved Mamba, MoE, and Attention layers. Like Nemotron-3-Super, it supports M",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-repodify-a-fully-local-opensource-podcast-summarizer-or-byok",
+      "source": "localllama",
+      "title": "Repodify, a fully local & opensource podcast summarizer, or BYOK if don't have GPU.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w60hiv/repodify_a_fully_local_opensource_podcast/",
+      "published_at": "2026-09-03T07:31:31Z",
+      "summary": "Disclaimer: I&#39;m the builder. --- Over the past 2 yrs, I was working on a SaaS ML project &amp; got very interested in ML/DL/AI. As everybody else, there were some normal paths I took to build a solid understanding of",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-can-a-4b-local-model-actually-feel-like-an-ai-assistant",
+      "source": "localllama",
+      "title": "Can a 4B local model actually feel like an AI assistant?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w609r6/can_a_4b_local_model_actually_feel_like_an_ai/",
+      "published_at": "2026-09-03T07:18:27Z",
+      "summary": "I&#39;ve been building Arcon around Qwen3-4B + LoRA. Instead of just making it a chatbot, I&#39;m experimenting with persistent memory, personality/mood, internal state, tools, and eventually having it process things bef",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-my-rule-of-thumb-of-choosing-a-models",
+      "source": "localllama",
+      "title": "My RULE of Thumb of choosing a models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5zdx4/my_rule_of_thumb_of_choosing_a_models/",
+      "published_at": "2026-09-03T06:27:49Z",
+      "summary": "      This is mostly for setting up for expectation, since personally without LLM i could take 3 days (15 hours of active programming) to debug or implement a feature, but with Qwen 27B (even before Qwen 3.8) it take 4 h",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-what-levels-of-hardware-upgrade-feel-meaningful",
+      "source": "localllama",
+      "title": "What levels of hardware upgrade feel meaningful?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5xgax/what_levels_of_hardware_upgrade_feel_meaningful/",
+      "published_at": "2026-09-03T04:42:08Z",
+      "summary": "Obviously more memory is good, more context, bigger models, but some jumps don&#39;t actually unlock a meaningful difference in ability to run different or better models. For example, I don&#39;t currently view jumping f",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-03-qwen38-flash-next-on-2x3090-ddr4-17-25-29-ts-decode-with-the",
       "source": "localllama",
@@ -46,91 +134,25 @@
       ]
     },
     {
-      "id": "localllama-2026-09-03-chrome-browser-add-on-that-uses-local-llms-to-move-thousands",
-      "source": "localllama",
-      "title": "Chrome browser add-on that uses local LLMs to move thousands of unsorted bookmarks into a smart list of automatically calculated categories",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5svj4/chrome_browser_addon_that_uses_local_llms_to_move/",
-      "published_at": "2026-09-03T01:00:09Z",
-      "summary": "Is anyone interested in my Chrome browser add-on that uses local LLMs to move thousands of unsorted bookmarks into a smart list of automatically calculated categories?  &#32; submitted by &#32;  /u/paranoidray   [link] &",
+      "id": "huggingface-2026-09-03-give-your-coding-agents-a-memory-you-own",
+      "source": "huggingface",
+      "title": "Give Your Coding Agents a Memory You Own",
+      "url": "https://huggingface.co/blog/funes",
+      "published_at": "2026-09-03T00:00:00Z",
+      "summary": "",
       "tags": [
-        "localllama"
+        "huggingface"
       ]
     },
     {
-      "id": "localllama-2026-09-03-deepseek-v4-flash-vs-glm-53-flash-on-2-dgx-spark",
-      "source": "localllama",
-      "title": "DeepSeek-V4-Flash vs. GLM-5.3-Flash on 2× DGX Spark",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5sb4g/deepseekv4flash_vs_glm53flash_on_2_dgx_spark/",
-      "published_at": "2026-09-03T00:34:18Z",
-      "summary": "I&#39;ve tried both and been having this debate with myself for the last few days, on two Asus Ascent GX10s (effectively the same as 2x DGX Spark):  DeepSeek-V4-Flash-0731 (official weights) GLM-5.3-Flash (RedHatAI/GLM-5",
+      "id": "huggingface-2026-09-03-training-a-coding-model-to-paint-watercolours-with-trl-and-o",
+      "source": "huggingface",
+      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "published_at": "2026-09-03T00:00:00Z",
+      "summary": "",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-qwen38-27b-q8-hallucinated-entire-plan",
-      "source": "localllama",
-      "title": "Qwen3.8 27B Q8 hallucinated entire plan???",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5s058/qwen38_27b_q8_hallucinated_entire_plan/",
-      "published_at": "2026-09-03T00:20:37Z",
-      "summary": "      I guess this is a reminder for everyone that as great as Qwen3.8 is, it&#39;s still a model with a recommended temperature of 1... 3.8 has been so good that I&#39;ve gotten lazy and didn&#39;t watch what it was doi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-02-qwen38-flash-next-sees-corruption-everywhere",
-      "source": "localllama",
-      "title": "Qwen3.8-flash-next sees corruption everywhere",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5qbpk/qwen38flashnext_sees_corruption_everywhere/",
-      "published_at": "2026-09-02T23:08:21Z",
-      "summary": "Hi, I&#39;ve noticed that the model often sees &quot;garbled text&quot; in its context. Sometimes it declare that the tools instructions are corrupted, sometimes it is the content of some .md files, ora other files, and ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-02-perplexity-open-sourced-their-mac-inference-server-for-qwen",
-      "source": "localllama",
-      "title": "Perplexity open-sourced their Mac inference server for Qwen 3.6",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/",
-      "published_at": "2026-09-02T22:13:47Z",
-      "summary": "      https://preview.redd.it/6h4xc5o8l6nh1.png?width=1158&amp;format=png&amp;auto=webp&amp;s=b65074b6baaa1faa2347e5259229c8ba803bcd4b Here is link to repo: https://github.com/perplexityai/pplx-garden/tree/main/lily It&#",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-02-qwen38-flash-ap-quants",
-      "source": "localllama",
-      "title": "Qwen3.8 Flash AP Quants",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5ow8w/qwen38_flash_ap_quants/",
-      "published_at": "2026-09-02T22:10:14Z",
-      "summary": "      Quite surprised to be beating other high quality quants. It took a lot of benchmarking to get here and we are quite pleased with these, hope they are useful to the community.  It required a modified way of measurin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-02-looking-for-a-small-llm-for-linux-command-generation",
-      "source": "localllama",
-      "title": "Looking for a small LLM for Linux command generation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5odwo/looking_for_a_small_llm_for_linux_command/",
-      "published_at": "2026-09-02T21:50:37Z",
-      "summary": "I&#39;m looking for a small LLM to act as a Linux command assistant. I will use llama.cpp. use case:  - User asks in natural language. Model outputs only the shell command - Should work well with no reasoning (for exampl",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-02-voxgen-an-amd-optimized-tts-inference-engine-for-voxcpm-2-mo",
-      "source": "localllama",
-      "title": "VoxGen, an AMD-optimized TTS inference engine for VoxCPM 2 models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5nsm8/voxgen_an_amdoptimized_tts_inference_engine_for/",
-      "published_at": "2026-09-02T21:28:03Z",
-      "summary": "Hi, everyone, I’ve just released VoxGen, a lightweight native inference engine for VoxCPM2, written in Rust and using Vulkan compute instead of Python/PyTorch/CUDA. Why VoxGen? The main reason I started the project was b",
-      "tags": [
-        "localllama"
+        "huggingface"
       ]
     },
     {
@@ -425,28 +447,6 @@
       "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
       "url": "https://huggingface.co/blog/pwc-search",
       "published_at": "2026-08-21T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-08-20-up-to-32x-faster-inference-with-lfm25-dspark",
-      "source": "huggingface",
-      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-      "published_at": "2026-08-20T16:52:57Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-08-19-lfm25-q4-0-checkpoints-from-quantization-aware-distillation",
-      "source": "huggingface",
-      "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-      "url": "https://huggingface.co/blog/LiquidAI/qad",
-      "published_at": "2026-08-19T13:48:49Z",
       "summary": "",
       "tags": [
         "huggingface"
