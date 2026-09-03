@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-03T16:08:54Z",
+  "updated_at": "2026-09-03T20:46:59Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10791",
+      "project": "llama-cpp",
+      "version": "b10791",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10791",
+      "published_at": "2026-09-03T20:22:55Z",
+      "body_excerpt": "opencl: quant lm_head / decode GEMV and medium-batch GEMM optimizations (speculative decoding/MTP) (#26477) opencl: quant lm_head / decode GEMV and medium-batch GEMM optimizations opencl: guard q4_K/q6_K tiled_ns convert-kernel registration for non-Adreno build opencl: gate q4_K MUL_MAT+GLU fusion dispatch to Adreno opencl: require the noshuffle weight layout in the q4_K GLU fusion gate opencl: do",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10790",
+      "project": "llama-cpp",
+      "version": "b10790",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10790",
+      "published_at": "2026-09-03T19:52:20Z",
+      "body_excerpt": "tune MMVQ to MMQ crossover for SM87 (#28285) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10786",
       "project": "llama-cpp",
@@ -332,6 +350,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2",
       "published_at": "2026-09-02T00:11:33Z",
       "body_excerpt": "What's Changed Report cached prompt tokens Honor GGUF model defined default parameters MLX, MLX-C, llama.cpp update New Contributors @marcelpetrick made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.33.3",
+      "project": "ollama",
+      "version": "v0.33.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3",
+      "published_at": "2026-09-02T00:11:33Z",
+      "body_excerpt": "What's Changed gemma4 now supports images and audio on MLX engine Report cached prompt tokens Honor GGUF model defined default parameters MLX, MLX-C, llama.cpp update New Contributors @marcelpetrick made their first contribution in Full Changelog:",
       "type": "tool"
     },
     {
@@ -10223,51 +10250,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9536",
       "published_at": "2026-06-05T21:08:56Z",
       "body_excerpt": "opencl: improve get_rows, cpy, concat and q6_k flat gemv (#24160) opencl: allow multiple workgroups for large rows opencl: improve small cpy opencl: packed concat for small input opencl: tweak flat q6_K gemv, increase N_DST and remap threads macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9535",
-      "project": "llama-cpp",
-      "version": "b9535",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9535",
-      "published_at": "2026-06-05T20:06:09Z",
-      "body_excerpt": "common/chat : unify and fix LFM2/LFM2.5 tool parser (#24178) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Wi",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.6",
-      "project": "ollama",
-      "version": "v0.30.6",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.6",
-      "published_at": "2026-06-05T20:00:18Z",
-      "body_excerpt": "New models Gemma 4 QAT weights: the Gemma 4 family is now optimized with Quantization-Aware Training (QAT) to dramatically reduce memory requirements and maximize on-device performance. Look for the tags ending in : - - - - - What's Changed now integrates with Oh My Pi, an AI coding agent with IDE integration MLX embedding layers now use NVFP4 global scale for improved quantization on Apple Silico",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9534",
-      "project": "llama-cpp",
-      "version": "b9534",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9534",
-      "published_at": "2026-06-05T18:15:27Z",
-      "body_excerpt": "vulkan: add fwht support for Intel with shmem reduction (#23964) vulkan: add fwht support for Intel with shmem reduction don't use N as workgroup size disable subgroup shuffle on MoltenVK AMD disable fwht shader on Intel Windows due to driver bug macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) U",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9533",
-      "project": "llama-cpp",
-      "version": "b9533",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9533",
-      "published_at": "2026-06-05T17:27:20Z",
-      "body_excerpt": "model: fix build failed (#24193) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Win",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9531",
-      "project": "llama-cpp",
-      "version": "b9531",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9531",
-      "published_at": "2026-06-05T16:46:27Z",
-      "body_excerpt": "TP: round up granularity to 128 (#24180) TP: round up granularity to 128 remove assert macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Andro",
       "type": "tool"
     }
   ]
