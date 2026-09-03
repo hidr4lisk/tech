@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-03T10:57:01Z",
+  "updated_at": "2026-09-03T16:08:54Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10786",
+      "project": "llama-cpp",
+      "version": "b10786",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10786",
+      "published_at": "2026-09-03T12:44:27Z",
+      "body_excerpt": "mtmd: propagate const to preproc class (#28310) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10785",
+      "project": "llama-cpp",
+      "version": "b10785",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10785",
+      "published_at": "2026-09-03T12:19:45Z",
+      "body_excerpt": "metal : add sparse FA (#28098) metal : support n_kv_max sparse mask hint in flash attention vec kernel add kernel_flash_attn_ext_vec_idx: compacts finite mask entries into a per-row index list (Hillis-Steele scan, one threadgroup per row) extend vec FA kernel with optional sparse index gathering (FC slot 5) add host-side gate: sparse path when n_kv_max > 0, mask present, supported head sizes / KV ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10784",
+      "project": "llama-cpp",
+      "version": "b10784",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10784",
+      "published_at": "2026-09-03T11:52:21Z",
+      "body_excerpt": "metal : fix glu dispatch with ne00 = 1 (#28306) metal : fix glu dispatch with ne00 = 1 tests : disable ill-defined tests Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10783",
+      "project": "llama-cpp",
+      "version": "b10783",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10783",
+      "published_at": "2026-09-03T11:17:14Z",
+      "body_excerpt": "mtmd : add in various places (#28307) mtmd : mark context as const in more methods Mark as in: mtmd_bitmap_init_lazy mtmd_tokenize mtmd_tokenize_from_parts mtmd_helper_support_video mtmd_helper_bitmap_init_from_file mtmd_helper_bitmap_init_from_buf mtmd_helper_video_init mtmd_helper_video_init_from_buf mtmd_helper_model_can_chat The tokenization functions in particular are useful to have marked , ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10782",
       "project": "llama-cpp",
@@ -297,6 +333,87 @@
       "published_at": "2026-09-02T00:11:33Z",
       "body_excerpt": "What's Changed Report cached prompt tokens Honor GGUF model defined default parameters MLX, MLX-C, llama.cpp update New Contributors @marcelpetrick made their first contribution in Full Changelog:",
       "type": "tool"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-30b-bf16-mlx",
+      "project": "ibm-granite",
+      "version": "granite-4.2-30b-bf16-mlx",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-30b-bf16-mlx",
+      "published_at": "2026-09-01T20:59:34Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-30b-q8-mlx",
+      "project": "ibm-granite",
+      "version": "granite-4.2-30b-q8-mlx",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-30b-q8-mlx",
+      "published_at": "2026-09-01T20:47:48Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-8b-bf16-mlx",
+      "project": "ibm-granite",
+      "version": "granite-4.2-8b-bf16-mlx",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b-bf16-mlx",
+      "published_at": "2026-09-01T20:42:50Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-3b-bf16-mlx",
+      "project": "ibm-granite",
+      "version": "granite-4.2-3b-bf16-mlx",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b-bf16-mlx",
+      "published_at": "2026-09-01T20:41:36Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-30b-q4-mlx",
+      "project": "ibm-granite",
+      "version": "granite-4.2-30b-q4-mlx",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-30b-q4-mlx",
+      "published_at": "2026-09-01T20:40:40Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-3b-q8-mlx",
+      "project": "ibm-granite",
+      "version": "granite-4.2-3b-q8-mlx",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b-q8-mlx",
+      "published_at": "2026-09-01T20:39:59Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-8b-q8-mlx",
+      "project": "ibm-granite",
+      "version": "granite-4.2-8b-q8-mlx",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b-q8-mlx",
+      "published_at": "2026-09-01T20:39:31Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-3b-q4-mlx",
+      "project": "ibm-granite",
+      "version": "granite-4.2-3b-q4-mlx",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b-q4-mlx",
+      "published_at": "2026-09-01T20:38:57Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.2-8b-q4-mlx",
+      "project": "ibm-granite",
+      "version": "granite-4.2-8b-q4-mlx",
+      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b-q4-mlx",
+      "published_at": "2026-09-01T20:37:23Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10751",
@@ -10151,33 +10268,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9531",
       "published_at": "2026-06-05T16:46:27Z",
       "body_excerpt": "TP: round up granularity to 128 (#24180) TP: round up granularity to 128 remove assert macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Andro",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9530",
-      "project": "llama-cpp",
-      "version": "b9530",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9530",
-      "published_at": "2026-06-05T16:07:02Z",
-      "body_excerpt": "cli: fix model params not propagated (#23893) Fixes #23847 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Wind",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9529",
-      "project": "llama-cpp",
-      "version": "b9529",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9529",
-      "published_at": "2026-06-05T14:42:07Z",
-      "body_excerpt": "model : fix llama_model::n_gpu_layers() (#24188) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windo",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9528",
-      "project": "llama-cpp",
-      "version": "b9528",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9528",
-      "published_at": "2026-06-05T13:18:01Z",
-      "body_excerpt": "ui: run npm install when package-lock.json is newer than node_modules (#24171) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Andr",
       "type": "tool"
     }
   ]
