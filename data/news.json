@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-09-03T16:08:47Z",
+  "updated_at": "2026-09-03T20:46:54Z",
   "items": [
+    {
+      "id": "localllama-2026-09-03-training-free-hack-to-reduce-moe-reasoning-tokens-by-85-with",
+      "source": "localllama",
+      "title": "Training-free hack to reduce MoE reasoning tokens by 8.5% without losing accuracy but increasing Active parameters per token in MOE (Qwen 35B A4B+)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6jamh/trainingfree_hack_to_reduce_moe_reasoning_tokens/",
+      "published_at": "2026-09-03T20:33:55Z",
+      "summary": "Hey everyone, Wanted to share a short paper we just published exploring a simple but surprisingly effective optimization for sparse MoE reasoning models. The problem: MoE reasoning models (especially the newer Qwen gener",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-03-gpt6-astra",
+      "source": "simonw",
+      "title": "GPT‑6 Astra",
+      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+      "published_at": "2026-09-03T20:18:41Z",
+      "summary": "GPT‑6 Astra\nGPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API a",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-introducing-quartermaster-an-open-source-local-ai-platform-d",
+      "source": "localllama",
+      "title": "Introducing Quartermaster, an open source local AI platform designed for ease of use that does not sacrifice customizability",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6hnpd/introducing_quartermaster_an_open_source_local_ai/",
+      "published_at": "2026-09-03T19:36:06Z",
+      "summary": "      It started as a fork of llama-swap, but I have been building it out for myself since then as a convenient tool for all my local AI needs, and by now it has drifted far enough to be its own thing. The main idea is t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-google-released-timesfm-3-a-330m-parameter-time-series-found",
+      "source": "localllama",
+      "title": "Google released TimesFM-3, a 330M-parameter time series foundation model with native multivariate forecasting (non-commercial license)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6hlpt/google_released_timesfm3_a_330mparameter_time/",
+      "published_at": "2026-09-03T19:34:06Z",
+      "summary": "      TimesFM-3 is the third generation of Google Research&#39;s zero-shot forecasting model, and the main change from 2.5 is that it handles multivariate inputs natively instead of being limited to a single series&#39; ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-bernie-sanders-proposes-to-ban-ai",
+      "source": "localllama",
+      "title": "Bernie Sanders proposes to ban AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6egid/bernie_sanders_proposes_to_ban_ai/",
+      "published_at": "2026-09-03T17:44:45Z",
+      "summary": "Defined as AI exceeding human cognitive abilities. 20 years in prison. Plenty of local models already fall under that big of an umbrella in some capacities. This is why it&#39;s not enough to say that you could torrent o",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-micron-explores-near-gpu-nand-flash-to-run-bigger-llms",
+      "source": "localllama",
+      "title": "Micron Explores Near-GPU NAND Flash to Run Bigger LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6e6u2/micron_explores_neargpu_nand_flash_to_run_bigger/",
+      "published_at": "2026-09-03T17:35:14Z",
+      "summary": "      I would be really curious about this especially on unified memory devices.  &#32; submitted by &#32;  /u/giveen   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-megathread-for-listing-latest-open-source-projects-research",
+      "source": "localllama",
+      "title": "Megathread for listing latest open source projects, research papers that are helping optimizations, efficiencies and accessibility to Open Source LLM and related hardware, software ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6cnfz/megathread_for_listing_latest_open_source/",
+      "published_at": "2026-09-03T16:40:34Z",
+      "summary": "I start with some informations gathered thorough endless posts reading on this sub and online: Inference and hardware optimization projects   https://dwarfstar.sh/ - inference engine optimization proposal https://github.",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-nvidia-pair-seems-nice-for-people-with-multiple-inference-se",
+      "source": "localllama",
+      "title": "Nvidia Pair seems nice for people with multiple inference servers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6chxw/nvidia_pair_seems_nice_for_people_with_multiple/",
+      "published_at": "2026-09-03T16:35:15Z",
+      "summary": "      &#32; submitted by &#32;  /u/DustNearby2848   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-qwen38-flash-next-mtp-merged-in-ik-llamacpp-integrated-head",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next MTP merged in ik_llama.cpp (integrated head or separate -md file)... 45 → 90 tok/s on a 5090 + 128GB, works down to a 12GB 4070",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6ccgs/qwen38flashnext_mtp_merged_in_ik_llamacpp/",
+      "published_at": "2026-09-03T16:30:00Z",
+      "summary": "      ik_llama.cpp merged qwen4exp MTP support yesterday (PR #2369, mine, reviewed and tested by four other people on their own hardware). It&#39;s on main now, no fork or patch needed. Posting since the last couple thre",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-03-modelscope-is-a-hugging-face-alternative-now-that-nvidias-de",
       "source": "localllama",
@@ -46,83 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-03-how-does-meta-spark-13-match-claude-fable-5-on-benchmarks-di",
-      "source": "localllama",
-      "title": "How does meta spark 1.3 match claude fable 5 on benchmarks? Did anyone try it in agentic coding?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6ap1p/how_does_meta_spark_13_match_claude_fable_5_on/",
-      "published_at": "2026-09-03T15:30:56Z",
-      "summary": "      How was your experience with it and is it just benchmaxed or is it really that good?  &#32; submitted by &#32;  /u/Personal-Try2776   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-local-ai-cant-be-disabled",
-      "source": "localllama",
-      "title": "local AI can't be disabled",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6aec4/local_ai_cant_be_disabled/",
-      "published_at": "2026-09-03T15:20:14Z",
-      "summary": "ChatGPT is down r/ChatGPT  Claude is down r/ClaudeCode Grok is down r/grok my local llama.cpp works as always  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-introducing-k2-horizon-frontier-performance-radically-open",
-      "source": "localllama",
-      "title": "Introducing K2 Horizon: Frontier Performance, Radically Open",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w68rj6/introducing_k2_horizon_frontier_performance/",
-      "published_at": "2026-09-03T14:19:41Z",
-      "summary": "      &#32; submitted by &#32;  /u/Few_Painter_5588   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-testing-deepseek-v4-flash-vision-exp-on-dual-rtx6000-build",
-      "source": "localllama",
-      "title": "Testing Deepseek-V4-Flash-Vision-EXP on Dual RTX6000 build",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w682j7/testing_deepseekv4flashvisionexp_on_dual_rtx6000/",
-      "published_at": "2026-09-03T13:54:01Z",
-      "summary": "      Upgraded my work LLM server from DSV4-Flash-0731 to the new Vision-Exp model and did this little test for fun to see quality comparison. Test was performed in Openweb UI connected to my vLLM container serving the v",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-ifmk2-horizon-mova-36b-a4b-gguf-hugging-face",
-      "source": "localllama",
-      "title": "IFM/K2-Horizon-MoVA-36B-A4B-GGUF · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w67wso/ifmk2horizonmova36ba4bgguf_hugging_face/",
-      "published_at": "2026-09-03T13:47:54Z",
-      "summary": "      more sizes (probably still uploading): https://huggingface.co/IFM/K2-Horizon-32B-GGUF https://huggingface.co/IFM/K2-Horizon-7B-GGUF https://huggingface.co/IFM/K2-Horizon-3.7B-GGUF https://huggingface.co/IFM/K2-Hori",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-china-share-of-dram-market-went-from-4-to-10-in-a-year",
-      "source": "localllama",
-      "title": "China share of Dram market went from 4% to 10% in a year",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w67p0s/china_share_of_dram_market_went_from_4_to_10_in_a/",
-      "published_at": "2026-09-03T13:39:25Z",
-      "summary": "      https://preview.redd.it/tiiyv2u76bnh1.png?width=3980&amp;format=png&amp;auto=webp&amp;s=0501c976744e19655666b16301768878db3eda88 x.com/jukan05/status/2095353082309972273 Will it more than double again next year and",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-frontier-models-sabotaging-local-ai-implementations",
-      "source": "localllama",
-      "title": "Frontier models sabotaging local AI implementations?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w67nkz/frontier_models_sabotaging_local_ai/",
-      "published_at": "2026-09-03T13:37:43Z",
-      "summary": "For a few days I&#39;ve been working on creating a custom local-only harness for some work related research using Codex / GPT 5.6 Sol and the model feels not only dumber than usual, but straight up counter productive. It",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-09-03-neomme-an-efficient-multimodal-native-and-multilingual-encod",
       "source": "huggingface",
       "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
@@ -131,17 +153,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-could-the-shortage-be-getting-better",
-      "source": "localllama",
-      "title": "Could the shortage be getting better?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w65xkj/could_the_shortage_be_getting_better/",
-      "published_at": "2026-09-03T12:25:53Z",
-      "summary": "I had to swing down to my local Microcenter yesterday and while I was browsing around the store I noticed something odd... Inventory. They must have had a few dozen 5090&#39;s on the shelf in various configurations/board",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -373,17 +384,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-27-breaking-claude-code-opus-5-auto-mode",
-      "source": "simonw",
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-      "published_at": "2026-08-27T22:50:25Z",
-      "summary": "Breaking Claude Code Opus 5 Auto Mode\nAnthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default a",
-      "tags": [
-        "simonw"
       ]
     },
     {
