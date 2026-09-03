@@ -1,68 +1,134 @@
 {
-  "updated_at": "2026-09-02T20:49:50Z",
+  "updated_at": "2026-09-03T03:50:18Z",
   "items": [
     {
-      "id": "localllama-2026-09-02-muse-spark-open-weights-coming-soon",
+      "id": "localllama-2026-09-03-qwen38-flash-next-on-2x3090-ddr4-17-25-29-ts-decode-with-the",
       "source": "localllama",
-      "title": "Muse Spark open weights coming soon",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5l8bw/muse_spark_open_weights_coming_soon/",
-      "published_at": "2026-09-02T19:56:18Z",
-      "summary": "      I am still waiting for Llama 5, because Muse Spark will be too big for me, or just something between Glimmer and Spark https://x.com/finkd/status/2095232032896946311  &#32; submitted by &#32;  /u/jacek2023   [link]",
+      "title": "Qwen3.8-Flash-Next on 2x3090 + DDR4: 17 → 25-29 t/s decode with the expert cache PR",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5vjp6/qwen38flashnext_on_2x3090_ddr4_17_2529_ts_decode/",
+      "published_at": "2026-09-03T03:04:41Z",
+      "summary": "Sharing some numbers because most posts on this model are either using a single 3090 or unified systems from what I&#39;ve seen. My current setup: 2x RTX 3090 (PCIe 3.0), dual Xeon E5-2696 v4, 188 GB usable (192GB) DDR4-",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-02-what-do-you-do-in-the-meantime-when-your-favourite-local-mod",
+      "id": "localllama-2026-09-03-wvy-is-a-handwritten-language-model-every-response-was-writt",
       "source": "localllama",
-      "title": "What do you do in the meantime when your favourite local model is thinking and working hard with your harness?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5l622/what_do_you_do_in_the_meantime_when_your/",
-      "published_at": "2026-09-02T19:54:03Z",
-      "summary": "Real question, whether your are vibe coder or expert or whatever, what do you do? Read carefully each single word? Plan the next steps? Do the gym?  &#32; submitted by &#32;  /u/takoulseum   [link] &#32; [comments]",
+      "title": "WVY is a handwritten language model. Every response was written by one person to demonstrate that the illusion of intelligence is not exclusive to parameter count.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5u9w8/wvy_is_a_handwritten_language_model_every/",
+      "published_at": "2026-09-03T02:04:17Z",
+      "summary": "      ***This screenshot is an app i made for creating a dataset from scratch, this is not a real chat with the model*** First of all i want to shout out everyone that actually tested our work .. we got 500+ download on ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-02-mac-heads-is-there-any-point-to-mlx-in-september-2026",
+      "id": "localllama-2026-09-03-glm53-flash-over-dsv4-flash",
       "source": "localllama",
-      "title": "Mac Heads: Is there any point to MLX in September 2026?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5kau3/mac_heads_is_there_any_point_to_mlx_in_september/",
-      "published_at": "2026-09-02T19:23:41Z",
-      "summary": "This may be somewhat specific to Qwen3.8 27b and the Apple M5 series, perhaps, but enough of us are running this combo that it&#39;s worth tossing out there. GGUF models with MTP have been the fastest way to go for some ",
+      "title": "GLM5.3 Flash over DSV4 Flash?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5ttgb/glm53_flash_over_dsv4_flash/",
+      "published_at": "2026-09-03T01:43:06Z",
+      "summary": "I&#39;ve been using Deepseek V4 Flash 0731 for a few weeks now and while I havent thrown it anything very hard, im quite happy with it. Using through antirez&#39;s great ds4 project. They&#39;ve added support for GLM 5.3",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-02-confirmed-bolting-q8-ngram-into-iq4-qwen-no-speed-degradatio",
+      "id": "localllama-2026-09-03-microsoft-vibevoice-asr-streaming-released",
       "source": "localllama",
-      "title": "Confirmed bolting Q8 NGram into IQ4 Qwen no speed degradation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5isz3/confirmed_bolting_q8_ngram_into_iq4_qwen_no_speed/",
-      "published_at": "2026-09-02T18:32:00Z",
-      "summary": "This came from another thread or comment. I forgot exactly where, but the basic idea was to replace the 51B N-gram layer in Qwen 3.8 Next with a much higher precision version. Someone running a 5090 replaced the N-gram p",
+      "title": "Microsoft VibeVoice-ASR-Streaming Released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5trnb/microsoft_vibevoiceasrstreaming_released/",
+      "published_at": "2026-09-03T01:40:39Z",
+      "summary": "      &#32; submitted by &#32;  /u/Acceptable-Cycle4645   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-02-quad-r9700-ai-pro-with-vllm-radiance-easily-reaching-176k-pp",
+      "id": "localllama-2026-09-03-chrome-browser-add-on-that-uses-local-llms-to-move-thousands",
       "source": "localllama",
-      "title": "Quad R9700 AI Pro with vLLM-Radiance easily reaching 17,6k PP",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5i3di/quad_r9700_ai_pro_with_vllmradiance_easily/",
-      "published_at": "2026-09-02T18:07:04Z",
-      "summary": "      https://preview.redd.it/74bmvel9b5nh1.png?width=1602&amp;format=png&amp;auto=webp&amp;s=0d0c1adaa016a486ffd97c4c466e980dc611b139 I&#39;ve only recently started looking deeper into vLLM after running llama.cpp for a",
+      "title": "Chrome browser add-on that uses local LLMs to move thousands of unsorted bookmarks into a smart list of automatically calculated categories",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5svj4/chrome_browser_addon_that_uses_local_llms_to_move/",
+      "published_at": "2026-09-03T01:00:09Z",
+      "summary": "Is anyone interested in my Chrome browser add-on that uses local LLMs to move thousands of unsorted bookmarks into a smart list of automatically calculated categories?  &#32; submitted by &#32;  /u/paranoidray   [link] &",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-02-glm-53-flash-makes-a-black-hole-minecraft-mod-running-locall",
+      "id": "localllama-2026-09-03-deepseek-v4-flash-vs-glm-53-flash-on-2-dgx-spark",
       "source": "localllama",
-      "title": "GLM 5.3 Flash makes a black hole Minecraft mod running locally on 4x RTX PRO 6000 WS",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5gk2b/glm_53_flash_makes_a_black_hole_minecraft_mod/",
-      "published_at": "2026-09-02T17:13:42Z",
-      "summary": "      saw the post the other day where people said Minecraft clones aren&#39;t impressive anymore, because at this point the whole thing might as well be in the training data. so i tried something slightly different, whi",
+      "title": "DeepSeek-V4-Flash vs. GLM-5.3-Flash on 2× DGX Spark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5sb4g/deepseekv4flash_vs_glm53flash_on_2_dgx_spark/",
+      "published_at": "2026-09-03T00:34:18Z",
+      "summary": "I&#39;ve tried both and been having this debate with myself for the last few days, on two Asus Ascent GX10s (effectively the same as 2x DGX Spark):  DeepSeek-V4-Flash-0731 (official weights) GLM-5.3-Flash (RedHatAI/GLM-5",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-qwen38-27b-q8-hallucinated-entire-plan",
+      "source": "localllama",
+      "title": "Qwen3.8 27B Q8 hallucinated entire plan???",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5s058/qwen38_27b_q8_hallucinated_entire_plan/",
+      "published_at": "2026-09-03T00:20:37Z",
+      "summary": "      I guess this is a reminder for everyone that as great as Qwen3.8 is, it&#39;s still a model with a recommended temperature of 1... 3.8 has been so good that I&#39;ve gotten lazy and didn&#39;t watch what it was doi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-02-qwen38-flash-next-sees-corruption-everywhere",
+      "source": "localllama",
+      "title": "Qwen3.8-flash-next sees corruption everywhere",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5qbpk/qwen38flashnext_sees_corruption_everywhere/",
+      "published_at": "2026-09-02T23:08:21Z",
+      "summary": "Hi, I&#39;ve noticed that the model often sees &quot;garbled text&quot; in its context. Sometimes it declare that the tools instructions are corrupted, sometimes it is the content of some .md files, ora other files, and ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-02-perplexity-open-sourced-their-mac-inference-server-for-qwen",
+      "source": "localllama",
+      "title": "Perplexity open-sourced their Mac inference server for Qwen 3.6",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/",
+      "published_at": "2026-09-02T22:13:47Z",
+      "summary": "      https://preview.redd.it/6h4xc5o8l6nh1.png?width=1158&amp;format=png&amp;auto=webp&amp;s=b65074b6baaa1faa2347e5259229c8ba803bcd4b Here is link to repo: https://github.com/perplexityai/pplx-garden/tree/main/lily It&#",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-02-qwen38-flash-ap-quants",
+      "source": "localllama",
+      "title": "Qwen3.8 Flash AP Quants",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5ow8w/qwen38_flash_ap_quants/",
+      "published_at": "2026-09-02T22:10:14Z",
+      "summary": "      Quite surprised to be beating other high quality quants. It took a lot of benchmarking to get here and we are quite pleased with these, hope they are useful to the community.  It required a modified way of measurin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-02-looking-for-a-small-llm-for-linux-command-generation",
+      "source": "localllama",
+      "title": "Looking for a small LLM for Linux command generation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5odwo/looking_for_a_small_llm_for_linux_command/",
+      "published_at": "2026-09-02T21:50:37Z",
+      "summary": "I&#39;m looking for a small LLM to act as a Linux command assistant. I will use llama.cpp. use case:  - User asks in natural language. Model outputs only the shell command - Should work well with no reasoning (for exampl",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-02-voxgen-an-amd-optimized-tts-inference-engine-for-voxcpm-2-mo",
+      "source": "localllama",
+      "title": "VoxGen, an AMD-optimized TTS inference engine for VoxCPM 2 models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5nsm8/voxgen_an_amdoptimized_tts_inference_engine_for/",
+      "published_at": "2026-09-02T21:28:03Z",
+      "summary": "Hi, everyone, I’ve just released VoxGen, a lightweight native inference engine for VoxCPM2, written in Rust and using Vulkan compute instead of Python/PyTorch/CUDA. Why VoxGen? The main reason I started the project was b",
       "tags": [
         "localllama"
       ]
@@ -79,39 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-02-vision-support-merged-for-deepseek-v4-flash-vision-exp",
-      "source": "localllama",
-      "title": "Vision support merged for DeepSeek-V4-Flash-Vision-Exp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5e9fi/vision_support_merged_for_deepseekv4flashvisionexp/",
-      "published_at": "2026-09-02T15:52:36Z",
-      "summary": "Unsloth GGUFs and Vision support https://huggingface.co/unsloth/DeepSeek-V4-Flash-Vision-Exp-GGUF  &#32; submitted by &#32;  /u/fmillar   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-02-7900-xtx-24gb-rx-6800-16gb-for-local-llms-worth-it-with-pcie",
-      "source": "localllama",
-      "title": "7900 XTX 24GB + RX 6800 16GB for local LLMs? Worth it with PCIe x2?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5de9m/7900_xtx_24gb_rx_6800_16gb_for_local_llms_worth/",
-      "published_at": "2026-09-02T15:21:09Z",
-      "summary": "Hey guys, Just bought a PC mainly for local experimenting with AI/coding + plus the occasional gaming sesh and it hasn&#39;t even arrived yet 😅 9950X, 7900 XTX 24GB, B650 Tomahawk, 32GB DDR5 (likely going 64GB+), plannin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-02-first-local-llm-tuning-attempt-qwen38-27b-true-q4-k-m-at-132",
-      "source": "localllama",
-      "title": "First local-LLM tuning attempt: Qwen3.8-27B true Q4_K_M at 13.2 tok/s near 50-61K context on RTX 5080 16GB",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5c04h/first_localllm_tuning_attempt_qwen3827b_true_q4_k/",
-      "published_at": "2026-09-02T14:29:54Z",
-      "summary": "This was my first serious attempt at tuning a local LLM. I started because Qwen3.8-27B IQ3 was fast on my RTX 5080 but the coding quality disappointed me, and the Q4 profiles I tried in LM Studio were much slower than re",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-02-claudes-new-system-prompt-really-doesnt-want-to-reproduce-so",
       "source": "simonw",
       "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
@@ -123,17 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-02-do-we-forget-about-another-qwen-model-for-a-while-now",
-      "source": "localllama",
-      "title": "Do we forget about another Qwen model for a while now ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5bkrf/do_we_forget_about_another_qwen_model_for_a_while/",
-      "published_at": "2026-09-02T14:14:05Z",
-      "summary": "So when Qwen3.8 27b dropped they were hinting for another model which is Qwen3.8-next-flash , i was hoping for something more light like Qwen 3.6 35b and we got a large one but since the Qwen 3 and 3.5, they reduced the ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-09-02-real-time-intelligence-with-ibm-time-series-models-on-conflu",
       "source": "huggingface",
       "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
@@ -142,28 +164,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-02-h3-world-turning-language-understanding-into-world-control",
-      "source": "localllama",
-      "title": "H3-World: Turning Language Understanding into World Control",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5akpy/h3world_turning_language_understanding_into_world/",
-      "published_at": "2026-09-02T13:35:44Z",
-      "summary": "       Language-Native Control: Composes character and camera actions into textual instructions and injects them through MiniMax-H3’s pretrained text pathway. Temporally Grounded: Assigns one action prompt to each video ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-02-does-anyone-make-an-external-gpu-enclosure-for-2xdual-slot-c",
-      "source": "localllama",
-      "title": "Does anyone make an external GPU enclosure for 2Xdual slot cards?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w58xnm/does_anyone_make_an_external_gpu_enclosure_for/",
-      "published_at": "2026-09-02T12:28:25Z",
-      "summary": "I&#39;m considering adding another A40 to my setup but my case doesn&#39;t have the space (or power) for it. It&#39;s a server chassis so there&#39;s no easy way to just pick the MB and put it in a new case, it&#39;s a b",
-      "tags": [
-        "localllama"
       ]
     },
     {
