@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-09-04T16:03:54Z",
+  "updated_at": "2026-09-04T20:34:03Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10816",
+      "project": "llama-cpp",
+      "version": "b10816",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10816",
+      "published_at": "2026-09-04T19:57:56Z",
+      "body_excerpt": "metal : add remaining fa-vec tunings for M3 (#28396) addition of m3 in fa_vec_tuned_table adding q4_0,q4_1,q5_0,q5_1 in ggml-metal-tuning Fix formatting in ggml-metal-tuning.cpp Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-v0.4.0",
+      "project": "llama-cpp",
+      "version": "v0.4.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.0",
+      "published_at": "2026-09-04T19:56:47Z",
+      "body_excerpt": "Overview llama.cpp 0.4.0 adds initial Qwen3.8-Flash-Next and Nemotron-3-Puzzle support, on-demand tensor reading, per-slot server context limits, video input options, and a ggml update to 0.23.0 with major sparse flash attention and RDMA work. API changes Added and (#27794). Added to quantize params (#27795). Bumped session/state versions for KV-cell token tracking (#27762). Added and (#28250). Ma",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10814",
+      "project": "llama-cpp",
+      "version": "b10814",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10814",
+      "published_at": "2026-09-04T19:30:32Z",
+      "body_excerpt": "opencl: extend the elementwise and data‐movement op coverage (#27633) opencl: add extended elementwise unary ops (sgn, step, elu, hardswish, hardsigmoid, floor, ceil, round, trunc) Adds nine GGML_UNARY_OP_ elementwise ops that were falling back to CPU on the OpenCL backend, following the same variant shape as the existing ABS op: f32, f32_4 (vec4), f16, f16_4 (vec4), and stride-addressed f32_nc / ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10813",
+      "project": "llama-cpp",
+      "version": "b10813",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10813",
+      "published_at": "2026-09-04T19:02:50Z",
+      "body_excerpt": "opencl: add Adreno xmem SDPA path (#26331) opencl: add Adreno xmem SDPA path Assisted-by: Codex Removed the Adreno-specific queue profiling override Clean up formatting 修复数值误差优化gqa/mask attn Assisted-by: Codex add env GGML_OPENCL_XMEM_SDPA Assisted-by: OpenAI Codex --------- Co-authored-by: happyyzy Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10809",
+      "project": "llama-cpp",
+      "version": "b10809",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10809",
+      "published_at": "2026-09-04T17:55:12Z",
+      "body_excerpt": "llama.cpp : bump version to 0.4.0 (#28386) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10798",
       "project": "llama-cpp",
@@ -378,6 +423,15 @@
       "published_at": "2026-09-02T06:00:58Z",
       "body_excerpt": "hexagon: add missing FARF logs for cpy/get_rows/set_rows/gdn ops (#28217) hexagon: fix bug ne[2] printed in proc_op_req prep-src log hexagon: add shape/VTCM farf logs to cpy, get/set rows, gdn Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x ",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Qwen3.8-Flash-Next-NVFP4",
+      "project": "nvidia",
+      "version": "Qwen3.8-Flash-Next-NVFP4",
+      "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
+      "published_at": "2026-09-02T04:03:35Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10752",
@@ -10259,15 +10313,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9544",
       "published_at": "2026-06-06T21:20:25Z",
       "body_excerpt": "common/chat : fix LFM2/LFM2.5 reasoning round-trip and leak (#24234) common/chat : fix LFM2 reasoning round-trip and stray leak Gate by reasoning format and whether the template supports macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9543",
-      "project": "llama-cpp",
-      "version": "b9543",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9543",
-      "published_at": "2026-06-06T19:48:45Z",
-      "body_excerpt": "mtmd: support \"frame merge\" for qwen-vl-based models (#21858) feat: add video support for Qwen3.5 various clean up revise the design fix llava-uhd case nits nits 2 --------- Co-authored-by: andrewmd5 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64",
       "type": "tool"
     }
   ]
