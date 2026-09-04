@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-09-04T03:51:15Z",
+  "updated_at": "2026-09-04T10:56:59Z",
   "items": [
+    {
+      "id": "localllama-2026-09-04-is-it-just-me-or-is-qwen38-flash-next-really-buggy",
+      "source": "localllama",
+      "title": "Is it just me or is Qwen3.8-Flash-Next ... really buggy?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w70d85/is_it_just_me_or_is_qwen38flashnext_really_buggy/",
+      "published_at": "2026-09-04T10:18:17Z",
+      "summary": "      I mean, this is on a Mac, why is a 8 years old Ubuntu AppImage being halu-installed...? And this message is in the middle of pulling some tensor metadata from HF. Never even heard of OpenD before this ... totally h",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-we-open-sourced-paddock-our-rustc-inference-engine-with-its",
+      "source": "localllama",
+      "title": "We open-sourced Paddock, our Rust/C++ inference engine with its own CUDA kernels (MIT/Apache-2.0)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6z9oh/we_opensourced_paddock_our_rustc_inference_engine/",
+      "published_at": "2026-09-04T09:15:33Z",
+      "summary": "I&#39;m one of the developers. We said in August it would go open source in September and it did last night. MIT or Apache-2.0, pick one. The repo you see is our internal repo, kernels included, so from now on everything",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-on-gpt-6-astra-986-arc-agi-3-dont-fall-for-the-hype",
+      "source": "localllama",
+      "title": "On GPT-6 Astra 98.6% ARC AGI-3: don't fall for the hype",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6z731/on_gpt6_astra_986_arc_agi3_dont_fall_for_the_hype/",
+      "published_at": "2026-09-04T09:11:33Z",
+      "summary": "Here is the news you may have missed: Nvidia already demonstrated 100% on ARC AGI-3, using their novel harness AVO: https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-gen",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-qwen38-flash-next-256k-context-16toks-on-ddr4-and-a-tesla-t4",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next: 256k context, 16tok/s on DDR4 and a Tesla T4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6y38l/qwen38flashnext_256k_context_16toks_on_ddr4_and_a/",
+      "published_at": "2026-09-04T08:06:30Z",
+      "summary": "I&#39;ve got an refurb Dell R740 running Proxmox that I put a Tesla T4 in, mainly to run some CTC local transcription work, but thought it would be fun to try DS4 when it came out, and it was appalling at around 2 tok/s.",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-04-august-newsletter-is-out",
+      "source": "simonw",
+      "title": "August newsletter is out",
+      "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+      "published_at": "2026-09-04T05:54:40Z",
+      "summary": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here.\nThis month:\n\nWe got more details on OpenAl's accidental cyberattacks\nOne-",
+      "tags": [
+        "simonw"
+      ]
+    },
     {
       "id": "localllama-2026-09-04-has-anyone-already-tried-ifms-new-k2-horizon-mova-36b-a4b",
       "source": "localllama",
@@ -90,17 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-03-training-free-hack-to-reduce-moe-reasoning-tokens-by-85-with",
-      "source": "localllama",
-      "title": "Training-free hack to reduce MoE reasoning tokens by 8.5% without losing accuracy but increasing Active parameters per token in MOE (Qwen 35B A4B+)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6jamh/trainingfree_hack_to_reduce_moe_reasoning_tokens/",
-      "published_at": "2026-09-03T20:33:55Z",
-      "summary": "Hey everyone, Wanted to share a short paper we just published exploring a simple but surprisingly effective optimization for sparse MoE reasoning models. The problem: MoE reasoning models (especially the newer Qwen gener",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-03-gpt6-astra",
       "source": "simonw",
       "title": "GPT‑6 Astra",
@@ -109,39 +153,6 @@
       "summary": "GPT‑6 Astra\nGPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API a",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-introducing-quartermaster-an-open-source-local-ai-platform-d",
-      "source": "localllama",
-      "title": "Introducing Quartermaster, an open source local AI platform designed for ease of use that does not sacrifice customizability",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6hnpd/introducing_quartermaster_an_open_source_local_ai/",
-      "published_at": "2026-09-03T19:36:06Z",
-      "summary": "      It started as a fork of llama-swap, but I have been building it out for myself since then as a convenient tool for all my local AI needs, and by now it has drifted far enough to be its own thing. The main idea is t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-google-released-timesfm-3-a-330m-parameter-time-series-found",
-      "source": "localllama",
-      "title": "Google released TimesFM-3, a 330M-parameter time series foundation model with native multivariate forecasting (non-commercial license)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6hlpt/google_released_timesfm3_a_330mparameter_time/",
-      "published_at": "2026-09-03T19:34:06Z",
-      "summary": "      TimesFM-3 is the third generation of Google Research&#39;s zero-shot forecasting model, and the main change from 2.5 is that it handles multivariate inputs natively instead of being limited to a single series&#39; ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-bernie-sanders-proposes-to-ban-ai",
-      "source": "localllama",
-      "title": "Bernie Sanders proposes to ban AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6egid/bernie_sanders_proposes_to_ban_ai/",
-      "published_at": "2026-09-03T17:44:45Z",
-      "summary": "Defined as AI exceeding human cognitive abilities. 20 years in prison. Plenty of local models already fall under that big of an umbrella in some capacities. This is why it&#39;s not enough to say that you could torrent o",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -360,17 +371,6 @@
       "url": "https://simonwillison.net/2026/Aug/29/hy4/",
       "published_at": "2026-08-29T23:53:13Z",
       "summary": "Introducing Hy4 Preview\nNew open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face.\nThis is a big size in",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-28-just-a-rumour-of-a-bug-is-enough-to-find-a-security-exploit",
-      "source": "simonw",
-      "title": "Just a rumour of a bug is enough to find a security exploit these days",
-      "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
-      "published_at": "2026-08-28T22:12:02Z",
-      "summary": "Just a rumour of a bug is enough to find a security exploit these days\nAnil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he repo",
       "tags": [
         "simonw"
       ]
