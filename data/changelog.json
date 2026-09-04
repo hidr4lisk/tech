@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-04T10:57:04Z",
+  "updated_at": "2026-09-04T16:03:54Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10798",
+      "project": "llama-cpp",
+      "version": "b10798",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10798",
+      "published_at": "2026-09-04T15:03:27Z",
+      "body_excerpt": "common : make build info output stream configurable (#28322) Let llama_print_build_info write to a caller-provided FILE* instead of hardcoding stderr. The parameter defaults to stderr so existing callers keep their current behavior. The version command in llama-app now passes stdout, so plain version output goes to stdout where users expect it. Signed-off-by: Adrien Gallouët Website: Attestations:",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10797",
       "project": "llama-cpp",
