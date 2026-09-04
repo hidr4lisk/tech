@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-09-04T03:51:22Z",
+  "updated_at": "2026-09-04T10:57:04Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10797",
+      "project": "llama-cpp",
+      "version": "b10797",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10797",
+      "published_at": "2026-09-04T08:36:28Z",
+      "body_excerpt": "ggml-cpu(s390x) : fix q5_1 uninitialized v_acc (#28332) Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10796",
+      "project": "llama-cpp",
+      "version": "b10796",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10796",
+      "published_at": "2026-09-04T05:31:09Z",
+      "body_excerpt": "src : add n_expert_used_max function (#28323) src : add n_expert_used_max function With Commit c61b98b875eaa5e654a3f5c73b34c310d2c6ab4c (\"model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support (#25444)\") it is now possible for each layer to have a specific number of experts but there are a few checks that need to be updated to handle this upon model loading. For example: And later: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10795",
+      "project": "llama-cpp",
+      "version": "b10795",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10795",
+      "published_at": "2026-09-04T04:30:55Z",
+      "body_excerpt": "sycl: fuse rms_norm+mul+add and add+add residual chains (#27610) Fuse RMS_NORM+MUL+ADD and ADD+ADD under GGML_SYCL_ENABLE_FUSION. ADD+ADD uses the same binbcast indexing and type matrix as standalone add() (f32, f16, f16/f32, i32, i16, bf16, including broadcast and non-contiguous). Unsupported combinations fall back to two add() launches. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm6",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10794",
       "project": "llama-cpp",
@@ -10232,42 +10259,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9543",
       "published_at": "2026-06-06T19:48:45Z",
       "body_excerpt": "mtmd: support \"frame merge\" for qwen-vl-based models (#21858) feat: add video support for Qwen3.5 various clean up revise the design fix llava-uhd case nits nits 2 --------- Co-authored-by: andrewmd5 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9542",
-      "project": "llama-cpp",
-      "version": "b9542",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9542",
-      "published_at": "2026-06-06T10:47:16Z",
-      "body_excerpt": "completion : remove useless statics (#24226) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9541",
-      "project": "llama-cpp",
-      "version": "b9541",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9541",
-      "published_at": "2026-06-06T09:54:21Z",
-      "body_excerpt": "completion : fix format specifier in LOG_INF (#24213) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9538",
-      "project": "llama-cpp",
-      "version": "b9538",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9538",
-      "published_at": "2026-06-06T04:56:39Z",
-      "body_excerpt": "model : rename local n_layer_all variable (#24209) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Win",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9537",
-      "project": "llama-cpp",
-      "version": "b9537",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9537",
-      "published_at": "2026-06-06T04:34:26Z",
-      "body_excerpt": "context : fix off-by-one comparisons to n_gpu_layers (#24208) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) W",
       "type": "tool"
     }
   ]
