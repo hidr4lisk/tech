@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-09-04T16:03:49Z",
+  "updated_at": "2026-09-04T20:33:58Z",
   "items": [
+    {
+      "id": "localllama-2026-09-04-i-benchmarked-21-qwen38-27b-variants-on-16gb-vram",
+      "source": "localllama",
+      "title": "I benchmarked 21 Qwen3.8 27B variants on 16GB VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7ee1c/i_benchmarked_21_qwen38_27b_variants_on_16gb_vram/",
+      "published_at": "2026-09-04T19:33:44Z",
+      "summary": "After Qwen3.8 27B came out, I decided to benchmark the models that could fit in my GPU (RTX 5080) on my actual code (C code), the results were not completely unexpected but some quants were definitely underwhelming. TLDR",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-22-less-weight-vram-lossless-base-3-packing-for-ternary-gguf",
+      "source": "localllama",
+      "title": "~22% less weight VRAM, lossless: base-3 packing for ternary GGUFs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7dlo5/22_less_weight_vram_lossless_base3_packing_for/",
+      "published_at": "2026-09-04T19:04:59Z",
+      "summary": "I built a denser GGUF format for ternary models: Q2_B3 / “B3S” If you&#39;re running a ternary model like BitNet-b1.58 or Ternary-Bonsai, the weights are already restricted to -1, 0, or +1 times a block scale. That means",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-ling-30-flash-vl-built-on-ling-30-flash-with-visual-understa",
+      "source": "localllama",
+      "title": "Ling-3.0-flash-VL, built on Ling-3.0-flash with visual understanding and visual agent capabilities",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7c6u4/ling30flashvl_built_on_ling30flash_with_visual/",
+      "published_at": "2026-09-04T18:14:34Z",
+      "summary": "      It performs well across visual perception, STEM reasoning, document intelligence, multimodal agent tasks, frontend coding, and medical report interpretation.  &#32; submitted by &#32;  /u/niacolhealth   [link] &#32",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-updated-my-benchmark-with-a-new-vllm-based-recipe-for-qwen-3",
+      "source": "localllama",
+      "title": "Updated my benchmark with a new vLLM based recipe for Qwen 3.8 Flash Next : now up to 98/100 (instead of 91 previously)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7c4ej/updated_my_benchmark_with_a_new_vllm_based_recipe/",
+      "published_at": "2026-09-04T18:12:07Z",
+      "summary": "      I was using:  weights https://huggingface.co/RadixArk/Qwen3.8-Flash-Next-NVFP4  with the optimized SGLANG (patched) from https://old.reddit.com/r/BlackwellPerformance/comments/1w04xb7/qwen38_flashnext_on_1x_rtx_pro",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-04-openais-rogue-agents-were-caught-communicating-via-public-wi",
+      "source": "simonw",
+      "title": "OpenAI's rogue agents were caught communicating via public wikis",
+      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+      "published_at": "2026-09-04T17:38:48Z",
+      "summary": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-qwen38-flash-next-on-a-phone-cpu",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next on a phone CPU!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7aoau/qwen38flashnext_on_a_phone_cpu/",
+      "published_at": "2026-09-04T17:20:01Z",
+      "summary": "      Like the title says, running completely locally on my Xiaomi 14T Pro device. Specific model: Qwen3.8-Flash-Next-UD-IQ3_XXS App used: BigMoeOnEdge  &#32; submitted by &#32;  /u/Tall_Abrocoma_3533   [link] &#32; [com",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-how-do-you-guys-handle-your-personal-rag-setup",
+      "source": "localllama",
+      "title": "How do you guys handle your personal RAG setup",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w79gag/how_do_you_guys_handle_your_personal_rag_setup/",
+      "published_at": "2026-09-04T16:36:52Z",
+      "summary": "I am getting into developing a RAG setup, for getting information out of existing documents, new document ingestion, web searches, and good visuals.  I am planning to use it for, alongside the regular &quot;chat to my da",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-georgi-gerganov-on-the-nvidia-acquisition",
+      "source": "localllama",
+      "title": "Georgi Gerganov on the Nvidia acquisition",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7990o/georgi_gerganov_on_the_nvidia_acquisition/",
+      "published_at": "2026-09-04T16:29:27Z",
+      "summary": "      Link: https://x.com/ggerganov/status/2095897173376618881  &#32; submitted by &#32;  /u/CombinationKitchen76   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-you-can-now-run-a-90m-conversational-llm-on-the-sony-psp-har",
+      "source": "localllama",
+      "title": "You can now run a 90M conversational LLM on the Sony PSP (hardware from 2004). Doesn't get more local than this.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w78ztg/you_can_now_run_a_90m_conversational_llm_on_the/",
+      "published_at": "2026-09-04T16:20:15Z",
+      "summary": "      Github link: https://github.com/thatblend/LLMPSP I wanted to see what the PSP can theoretically handle and I got my answer - a 90M model is about the max it can do without atrocious inference speeds. It&#39;s runni",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-04-qwen38-27b-is-the-first-local-model-im-able-to-blindly-trust",
       "source": "localllama",
@@ -41,94 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w77ath/drummers_artemis_31b_v1_and_v11_coming_back_with/",
       "published_at": "2026-09-04T15:18:34Z",
       "summary": "Hey everyone, been a while! https://huggingface.co/TheDrummer/Artemis-31B-v1.1 https://huggingface.co/TheDrummer/Artemis-31B-v1 A few months ago, Gemma graced us with models that served as a much needed downpour from a y",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-best-small-autocompleteeditor-suggestion-model-as-of-sep-202",
-      "source": "localllama",
-      "title": "Best small autocomplete/editor suggestion model as of Sep 2026?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w76ozf/best_small_autocompleteeditor_suggestion_model_as/",
-      "published_at": "2026-09-04T14:56:04Z",
-      "summary": "Zed decided to remove edit predictions from their free plan and I want to host something locally to replace it. Is there any model that&#39;s decent at autocomplete and doesn&#39;t take much of the VRAM (no more than 3-4",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-i-built-a-server-with-768gb-vram-for-frontier-but-all-new-fr",
-      "source": "localllama",
-      "title": "I built a server with 768GB VRAM for frontier, but all new frontier open source models are likely to be two trillion or above now, including next GLM 6, am I cooked?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w75rp4/i_built_a_server_with_768gb_vram_for_frontier_but/",
-      "published_at": "2026-09-04T14:20:44Z",
-      "summary": "This epyc server I am using twelve cards with 64 GB memory, plus 256GB ram. Looking at the most capable models in open source, GLM 5.3 seems to be the only option, but with Astra releasing it will likely be fairly behind",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-model-add-tencent-hy-4-hy-v4-preview-architecture-support-by",
-      "source": "localllama",
-      "title": "Model: add Tencent Hy 4 (hy_v4) preview architecture support by Little0o0 · Pull Request #28127 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w748cf/model_add_tencent_hy_4_hy_v4_preview_architecture/",
-      "published_at": "2026-09-04T13:20:14Z",
-      "summary": "      Model : https://huggingface.co/tencent/Hy4-preview  &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-github---zvec-aizvec-grep-local-first-search-across-your-wor",
-      "source": "localllama",
-      "title": "GitHub - zvec-ai/zvec-grep: Local-first search across your workspace, built for humans and AI agents.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w73wnb/github_zvecaizvecgrep_localfirst_search_across/",
-      "published_at": "2026-09-04T13:06:47Z",
-      "summary": "      New search tool released by Qwen, looks pretty cool.   &#32; submitted by &#32;  /u/giveen   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-qwen-38-flash-next-can-build-funny-games",
-      "source": "localllama",
-      "title": "Qwen 3.8 Flash Next Can Build Funny Games",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w73aak/qwen_38_flash_next_can_build_funny_games/",
-      "published_at": "2026-09-04T12:40:28Z",
-      "summary": "      This is nothing impressive but, i had so much fun i wanted to share my experience with this model. (yes this post is written by human) I made an FPS with local Q4_K_XL 3.8 Flash Next (256k context) (it took 3 days ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-even-qwen38-followed-the-instruction-inside-my-translation-d",
-      "source": "localllama",
-      "title": "Even Qwen3.8 followed the instruction inside my translation data, and Gemma 4 beat the translation specialists I tested",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w71vg1/even_qwen38_followed_the_instruction_inside_my/",
-      "published_at": "2026-09-04T11:36:01Z",
-      "summary": "A month ago I posted about Gemma sometimes solving the reasoning problems inside my translation data instead of translating them. A few people suggested two very fixes, which is to use a proper translation model and/or u",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-minisforum-ms-s1-max-p495",
-      "source": "localllama",
-      "title": "MINISFORUM MS-S1 MAX-P495",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w71p20/minisforum_mss1_maxp495/",
-      "published_at": "2026-09-04T11:27:17Z",
-      "summary": "       €7??? Surprise Price Ends with Limited Stock  That&#39;s likely 7999 EUR, so double of the initial price of MS-S1 MAX-128GB? 😭  &#32; submitted by &#32;  /u/fairydreaming   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-nvidias-1293030000000-acquisition-of-hugging-face-contains-a",
-      "source": "localllama",
-      "title": "NVIDIA's $12,930,300,000.00 acquisition of Hugging Face contains an easter egg. The first 6 numbers of the acquisition price represent the decimal conversion of Unicode character U+1F917. The 🤗 emoji.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w71bax/nvidias_1293030000000_acquisition_of_hugging_face/",
-      "published_at": "2026-09-04T11:07:46Z",
-      "summary": "      From: Polymarket on 𝕏: https://x.com/Polymarket/status/2095646821485842805 Julien Chaumond on 𝕏: https://x.com/julien_c/status/2095822387895824836  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -360,17 +371,6 @@
       "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
       "published_at": "2026-08-30T23:59:47Z",
       "summary": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far.\nChatGPT Work is a",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-29-introducing-hy4-preview",
-      "source": "simonw",
-      "title": "Introducing Hy4 Preview",
-      "url": "https://simonwillison.net/2026/Aug/29/hy4/",
-      "published_at": "2026-08-29T23:53:13Z",
-      "summary": "Introducing Hy4 Preview\nNew open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face.\nThis is a big size in",
       "tags": [
         "simonw"
       ]
