@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-09-03T20:46:54Z",
+  "updated_at": "2026-09-04T03:51:15Z",
   "items": [
+    {
+      "id": "localllama-2026-09-04-has-anyone-already-tried-ifms-new-k2-horizon-mova-36b-a4b",
+      "source": "localllama",
+      "title": "Has anyone already tried IFM's new K2-Horizon-MoVA-36B-A4B?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6t0a9/has_anyone_already_tried_ifms_new/",
+      "published_at": "2026-09-04T03:31:37Z",
+      "summary": "      How good/bad is it against comparable MoEs the same size? How does it compare against Qwen 3.6 35BA3B? Since we don&#39;t have 3.8 35B this seems like an upgrade if we look at some benchmarks like terminal bench, b",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-funny-joke-model-but-it-actually-works-hehe",
+      "source": "localllama",
+      "title": "funny joke model but it actually works hehe",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6p3s7/funny_joke_model_but_it_actually_works_hehe/",
+      "published_at": "2026-09-04T00:27:34Z",
+      "summary": "uh so like i gave a model like 20 senses so like yeah https://huggingface.co/heterodoxin/qwen3-8b-supermultimodal  &#32; submitted by &#32;  /u/AccountAntique9327   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-update-qwen38-flash-next-on-2x3090-ddr4-part-2-25-29---37-41",
+      "source": "localllama",
+      "title": "UPDATE: Qwen3.8-Flash-Next on 2x3090 + DDR4 (Part 2): 25-29 -> 37-41 t/s decode (UD-Q4_K_XL + expert cache + MTP), plus a branch you can build",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6ozbj/update_qwen38flashnext_on_2x3090_ddr4_part_2_2529/",
+      "published_at": "2026-09-04T00:21:59Z",
+      "summary": "This is a follow-up to my post from yesterday (17 -&gt; 25-29 t/s with the expert cache PR). Same box: 2x RTX 3090 on PCIe 3.0, dual Xeon E5-2696 v4, 188 GB DDR4-2133 LRDIMM, llama.cpp, full 261k context, f16 KV, all 48 ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-qwen-38-27b-vs-qwen-36-27b-on-omlx",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B Vs. Qwen 3.6 27B on oMLX",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6nywh/qwen_38_27b_vs_qwen_36_27b_on_omlx/",
+      "published_at": "2026-09-03T23:37:41Z",
+      "summary": "      Quality: 81.1 → 87.7 (+8%) Speed: 35 → 29 tok/s (−16%) Runtime: 8m51s → 44m39s (5x longer) Output tokens: 18K → 78K (🤯) Noticeably better quality, but you&#39;re paying for it with tokens and time. Full benchmark r",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-can-the-bubble-pop-please",
+      "source": "localllama",
+      "title": "Can the bubble pop please?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6nihk/can_the_bubble_pop_please/",
+      "published_at": "2026-09-03T23:18:09Z",
+      "summary": "      &#32; submitted by &#32;  /u/hedonihilistic   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-the-benchmarks-the-big-labs-dont-want-you-to-see",
+      "source": "localllama",
+      "title": "The benchmarks the big labs don't want you to see",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6myn6/the_benchmarks_the_big_labs_dont_want_you_to_see/",
+      "published_at": "2026-09-03T22:54:58Z",
+      "summary": "      &#32; submitted by &#32;  /u/jd_3d   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-i-released-sanotts-smallest-complete-tts-stack-in-294k-param",
+      "source": "localllama",
+      "title": "I released sanoTTS: smallest complete TTS stack in 294k params (337 KB) that runs on $3 microcontroller and a 1.46m one that beats models 3x and 10x it's size",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6lmmg/i_released_sanotts_smallest_complete_tts_stack_in/",
+      "published_at": "2026-09-03T22:01:27Z",
+      "summary": "      I have been trying to squeeze TTS stack down far enough to run in a $3 chip which has 512kb of SRAM without NPU. While trying to get to that milestone i built sanoTTS which has - 11 voices, 6 languages - params siz",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-03-increasing-active-parameters-per-token-in-moe-qwen-35b-a4b-r",
+      "source": "localllama",
+      "title": "Increasing active parameters per token in MOE (Qwen 35B A4B+) reduce reasoning token by 8.5% - and you don't need to train or finetune!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6lk6z/increasing_active_parameters_per_token_in_moe/",
+      "published_at": "2026-09-03T21:58:56Z",
+      "summary": "I want to share a short paper just published exploring a simple but surprisingly effective optimization for sparse MoE reasoning models. The idea: Instead of retraining anything, we just tweak the router at runtime. Spec",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-03-training-free-hack-to-reduce-moe-reasoning-tokens-by-85-with",
       "source": "localllama",
@@ -52,94 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6egid/bernie_sanders_proposes_to_ban_ai/",
       "published_at": "2026-09-03T17:44:45Z",
       "summary": "Defined as AI exceeding human cognitive abilities. 20 years in prison. Plenty of local models already fall under that big of an umbrella in some capacities. This is why it&#39;s not enough to say that you could torrent o",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-micron-explores-near-gpu-nand-flash-to-run-bigger-llms",
-      "source": "localllama",
-      "title": "Micron Explores Near-GPU NAND Flash to Run Bigger LLMs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6e6u2/micron_explores_neargpu_nand_flash_to_run_bigger/",
-      "published_at": "2026-09-03T17:35:14Z",
-      "summary": "      I would be really curious about this especially on unified memory devices.  &#32; submitted by &#32;  /u/giveen   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-megathread-for-listing-latest-open-source-projects-research",
-      "source": "localllama",
-      "title": "Megathread for listing latest open source projects, research papers that are helping optimizations, efficiencies and accessibility to Open Source LLM and related hardware, software ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6cnfz/megathread_for_listing_latest_open_source/",
-      "published_at": "2026-09-03T16:40:34Z",
-      "summary": "I start with some informations gathered thorough endless posts reading on this sub and online: Inference and hardware optimization projects   https://dwarfstar.sh/ - inference engine optimization proposal https://github.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-nvidia-pair-seems-nice-for-people-with-multiple-inference-se",
-      "source": "localllama",
-      "title": "Nvidia Pair seems nice for people with multiple inference servers",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6chxw/nvidia_pair_seems_nice_for_people_with_multiple/",
-      "published_at": "2026-09-03T16:35:15Z",
-      "summary": "      &#32; submitted by &#32;  /u/DustNearby2848   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-qwen38-flash-next-mtp-merged-in-ik-llamacpp-integrated-head",
-      "source": "localllama",
-      "title": "Qwen3.8-Flash-Next MTP merged in ik_llama.cpp (integrated head or separate -md file)... 45 → 90 tok/s on a 5090 + 128GB, works down to a 12GB 4070",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6ccgs/qwen38flashnext_mtp_merged_in_ik_llamacpp/",
-      "published_at": "2026-09-03T16:30:00Z",
-      "summary": "      ik_llama.cpp merged qwen4exp MTP support yesterday (PR #2369, mine, reviewed and tested by four other people on their own hardware). It&#39;s on main now, no fork or patch needed. Posting since the last couple thre",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-modelscope-is-a-hugging-face-alternative-now-that-nvidias-de",
-      "source": "localllama",
-      "title": "\"ModelScope\" Is a Hugging Face Alternative now that Nvidias deal is a Go",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6bkkh/modelscope_is_a_hugging_face_alternative_now_that/",
-      "published_at": "2026-09-03T16:02:32Z",
-      "summary": "I liked the Nvidia that focused on just GPUs for gaming, not on the Nvidia of today which seem want power consolidation.  Modelscope is another platform for those that simply want to know an alternative if things go sout",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-antling-open-sourced-ling-30-flash-fin-a-finance-enhanced-mo",
-      "source": "localllama",
-      "title": "AntLing open sourced Ling-3.0-flash-Fin, a finance-enhanced model for real-world workflows",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6bb0b/antling_open_sourced_ling30flashfin_a/",
-      "published_at": "2026-09-03T15:53:17Z",
-      "summary": "      Ling-3.0-flash-Fin is the first finance-enhanced model in the Ant Ling family. Developed by Ant Group with leading financial institutions and domain experts, it extends Ling 3.0 flash through continued training on ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-ling-30-flash-fin-weights-released",
-      "source": "localllama",
-      "title": "Ling-3.0-flash-Fin weights released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6b26t/ling30flashfin_weights_released/",
-      "published_at": "2026-09-03T15:44:24Z",
-      "summary": "      124B total parameters, 5.1B activated parameters, and a 256K context window  &#32; submitted by &#32;  /u/Bestlife73   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-03-apparently-chatgpt-claude-and-grok-were-down",
-      "source": "localllama",
-      "title": "Apparently ChatGPT, Claude, and Grok were down",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6aw2a/apparently_chatgpt_claude_and_grok_were_down/",
-      "published_at": "2026-09-03T15:38:06Z",
-      "summary": "      &#32; submitted by &#32;  /u/mailto_devnull   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]

@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-09-03T20:46:59Z",
+  "updated_at": "2026-09-04T03:51:22Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10794",
+      "project": "llama-cpp",
+      "version": "b10794",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10794",
+      "published_at": "2026-09-04T03:20:12Z",
+      "body_excerpt": "SYCL: Refactor GGML_SYCL_ENABLE_MKL_FA to global var (#26863) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYC",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10793",
+      "project": "llama-cpp",
+      "version": "b10793",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10793",
+      "published_at": "2026-09-03T22:18:00Z",
+      "body_excerpt": "llama: fix whole source code rebuilt on each new commit (#28278) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10792",
+      "project": "llama-cpp",
+      "version": "b10792",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10792",
+      "published_at": "2026-09-03T21:09:20Z",
+      "body_excerpt": "common/json-schema : fix GBNF grammar generation for empty object schemas (#28279) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10791",
       "project": "llama-cpp",
@@ -10241,15 +10268,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9537",
       "published_at": "2026-06-06T04:34:26Z",
       "body_excerpt": "context : fix off-by-one comparisons to n_gpu_layers (#24208) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) W",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9536",
-      "project": "llama-cpp",
-      "version": "b9536",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9536",
-      "published_at": "2026-06-05T21:08:56Z",
-      "body_excerpt": "opencl: improve get_rows, cpy, concat and q6_k flat gemv (#24160) opencl: allow multiple workgroups for large rows opencl: improve small cpy opencl: packed concat for small input opencl: tweak flat q6_K gemv, increase N_DST and remap threads macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu",
       "type": "tool"
     }
   ]
