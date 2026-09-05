@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-09-04T20:33:58Z",
+  "updated_at": "2026-09-05T03:49:16Z",
   "items": [
+    {
+      "id": "localllama-2026-09-05-chalk-one-up-for-the-frontier-model",
+      "source": "localllama",
+      "title": "Chalk one up for the frontier model...",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7pdaf/chalk_one_up_for_the_frontier_model/",
+      "published_at": "2026-09-05T03:25:35Z",
+      "summary": "I just spent the last 2 hours of my life on a Friday night debugging a strange error in a prod CLI app. EF core was receive a readonlyspan during a Contains query. Normally, this query converted to a WHERE [col] IN (...)",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-05-rtx-4090-48gb-longevity",
+      "source": "localllama",
+      "title": "RTX 4090 48GB longevity",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7nmc8/rtx_4090_48gb_longevity/",
+      "published_at": "2026-09-05T01:58:50Z",
+      "summary": "Modified 4090 48GB has been out for a while. I remember a lot of people were buying them at the time. A lot of people were also complaining that they are meant to fail, that they scam etc. I have a few questions to peopl",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-04-the-pelican-comparison-grid-for-astra-is-pretty-interesting",
+      "source": "simonw",
+      "title": "The Pelican comparison grid for Astra is pretty interesting",
+      "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+      "published_at": "2026-09-04T23:59:05Z",
+      "summary": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I render",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-nvidia-pair-your-personal-ai-cluster",
+      "source": "localllama",
+      "title": "NVIDIA PAIR — Your Personal AI Cluster",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7jnlx/nvidia_pair_your_personal_ai_cluster/",
+      "published_at": "2026-09-04T22:57:04Z",
+      "summary": "      That is interesting, I got bunch of old hardware I could connect, wonder what the speed would looks like.  &#32; submitted by &#32;  /u/SpendLucky1273   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-help-me-understand-gguf-sizectx-size",
+      "source": "localllama",
+      "title": "Help me understand gguf size/ctx size",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7i7mz/help_me_understand_gguf_sizectx_size/",
+      "published_at": "2026-09-04T21:57:48Z",
+      "summary": "      Let&#39;s say I have 2x 16Gb GPUs and I want to run Qwen3.8 27B. Monitor is ran by the integrated GPU so both 16Gb GPUs are almost fully free. I load the UD-Q4_K_S on one card at 15.4Gb. I then load the context on ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-if-you-had-15k-would-you-build-a-home-server-today-or-wait",
+      "source": "localllama",
+      "title": "If you had ~15k would you build a home server today or wait",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7i64e/if_you_had_15k_would_you_build_a_home_server/",
+      "published_at": "2026-09-04T21:56:02Z",
+      "summary": "Title help me decide and avoid making impulse purchases 😩 I already have dual 3090 which I can sell to help EDIT: ty all I’ll just wait it out, doesn’t seem worth it right now   &#32; submitted by &#32;  /u/sugarfreecaff",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-how-to-estimate-tokenssec-for-your-hardware",
+      "source": "localllama",
+      "title": "How to estimate tokens/sec for your hardware",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7fwrm/how_to_estimate_tokenssec_for_your_hardware/",
+      "published_at": "2026-09-04T20:29:07Z",
+      "summary": "      We all want more tokens per second but I keep seeing confusion on what to expect for given hardware. For the decoding phase (TG/s) to produce one token all the model weights and KV cache needs to be read from VRAM.",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-04-am-i-the-only-one-having-these-problems-with-downloading-mod",
+      "source": "localllama",
+      "title": "Am I the only one having these problems with downloading models from HF?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7eyu3/am_i_the_only_one_having_these_problems_with/",
+      "published_at": "2026-09-04T19:54:43Z",
+      "summary": "      https://preview.redd.it/m5kved2a5knh1.png?width=469&amp;format=png&amp;auto=webp&amp;s=780011abb19cb79fa4dc64032c86ff858d879786 I don&#39;t have problems with Nvidia buying HF, but I have problems with the fact tha",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-04-i-benchmarked-21-qwen38-27b-variants-on-16gb-vram",
       "source": "localllama",
@@ -63,83 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7aoau/qwen38flashnext_on_a_phone_cpu/",
       "published_at": "2026-09-04T17:20:01Z",
       "summary": "      Like the title says, running completely locally on my Xiaomi 14T Pro device. Specific model: Qwen3.8-Flash-Next-UD-IQ3_XXS App used: BigMoeOnEdge  &#32; submitted by &#32;  /u/Tall_Abrocoma_3533   [link] &#32; [com",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-how-do-you-guys-handle-your-personal-rag-setup",
-      "source": "localllama",
-      "title": "How do you guys handle your personal RAG setup",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w79gag/how_do_you_guys_handle_your_personal_rag_setup/",
-      "published_at": "2026-09-04T16:36:52Z",
-      "summary": "I am getting into developing a RAG setup, for getting information out of existing documents, new document ingestion, web searches, and good visuals.  I am planning to use it for, alongside the regular &quot;chat to my da",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-georgi-gerganov-on-the-nvidia-acquisition",
-      "source": "localllama",
-      "title": "Georgi Gerganov on the Nvidia acquisition",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7990o/georgi_gerganov_on_the_nvidia_acquisition/",
-      "published_at": "2026-09-04T16:29:27Z",
-      "summary": "      Link: https://x.com/ggerganov/status/2095897173376618881  &#32; submitted by &#32;  /u/CombinationKitchen76   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-you-can-now-run-a-90m-conversational-llm-on-the-sony-psp-har",
-      "source": "localllama",
-      "title": "You can now run a 90M conversational LLM on the Sony PSP (hardware from 2004). Doesn't get more local than this.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w78ztg/you_can_now_run_a_90m_conversational_llm_on_the/",
-      "published_at": "2026-09-04T16:20:15Z",
-      "summary": "      Github link: https://github.com/thatblend/LLMPSP I wanted to see what the PSP can theoretically handle and I got my answer - a 90M model is about the max it can do without atrocious inference speeds. It&#39;s runni",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-qwen38-27b-is-the-first-local-model-im-able-to-blindly-trust",
-      "source": "localllama",
-      "title": "Qwen3.8-27b is the first Local model im able to blindly trust",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w78dmn/qwen3827b_is_the_first_local_model_im_able_to/",
-      "published_at": "2026-09-04T15:58:35Z",
-      "summary": "You know that thing where you just throw a task at a frontier model and not have to supervise it worrying of it going off course? Qwen3.8-27b has officially gotten me to that point for local work. He has been doing non-s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-sometimes-i-be-mourning-the-agents-i-get-before-context-comp",
-      "source": "localllama",
-      "title": "Sometimes I be mourning the agents I get before context compacts",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w77j2t/sometimes_i_be_mourning_the_agents_i_get_before/",
-      "published_at": "2026-09-04T15:26:54Z",
-      "summary": "Just wanted to put that out there. It&#39;s like they get an ice pick to the brain no actual mourning here btw that&#39;d be psychosis it&#39;s okay to laugh  &#32; submitted by &#32;  /u/FoxDeFleurs   [link] &#32; [comm",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-lets-go-but-wait",
-      "source": "localllama",
-      "title": "Let's go! But wait!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w77hcs/lets_go_but_wait/",
-      "published_at": "2026-09-04T15:25:11Z",
-      "summary": "Too much time in the chair and too little sleep. :D  I can&#39;t decide if watching thinking is a good practice, a bad practice or a situational practice.  I don&#39;t think it is very fun - it&#39;s like rubbing sandpap",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-drummers-artemis-31b-v1-and-v11---coming-back-with-a-bang",
-      "source": "localllama",
-      "title": "Drummer's Artemis 31B v1 and v1.1 - Coming back with a bang!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w77ath/drummers_artemis_31b_v1_and_v11_coming_back_with/",
-      "published_at": "2026-09-04T15:18:34Z",
-      "summary": "Hey everyone, been a while! https://huggingface.co/TheDrummer/Artemis-31B-v1.1 https://huggingface.co/TheDrummer/Artemis-31B-v1 A few months ago, Gemma graced us with models that served as a much needed downpour from a y",
       "tags": [
         "localllama"
       ]
@@ -362,17 +373,6 @@
       "summary": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration.\nT",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "simonw-2026-08-30-understanding-chatgpt-work",
-      "source": "simonw",
-      "title": "Understanding ChatGPT Work",
-      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-      "published_at": "2026-08-30T23:59:47Z",
-      "summary": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far.\nChatGPT Work is a",
-      "tags": [
-        "simonw"
       ]
     },
     {
