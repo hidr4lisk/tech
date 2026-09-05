@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-05T03:49:22Z",
+  "updated_at": "2026-09-05T10:18:09Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10818",
+      "project": "llama-cpp",
+      "version": "b10818",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10818",
+      "published_at": "2026-09-05T09:56:20Z",
+      "body_excerpt": "sycl : fix test-backend-ops CI break && restore Kronecker product FWHT support (#28016) (#28254) Reapply \"sycl : add Kronecker product FWHT support for sizes 384, 640, 768, 12…\" (#28184) This reverts commit c845263f8b7d60113e213a3bd2d5cc6472ccf204. tests : fix unused variable M in test-backend-ops tests: fix trailing space error and isolate kronecker tests for sycl backend only Website: Attestatio",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10817",
+      "project": "llama-cpp",
+      "version": "b10817",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10817",
+      "published_at": "2026-09-05T09:27:03Z",
+      "body_excerpt": "sycl: attribute device allocations by site (GGML_SYCL_MEMTRACE) (#27631) define two new environment variables to better understand how much memory is being allocated, and when. This has been invaluable in inproving the --fit algorithm, and is likely to be useful when debugging other memory-related issues. will be required to enable the following: GGML_SYCL_MEMTRACE=1 will show per-site memory usag",
+      "type": "tool"
+    },
     {
       "id": "sglang-v0.5.19",
       "project": "sglang",
@@ -10304,15 +10322,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9548",
       "published_at": "2026-06-07T12:10:15Z",
       "body_excerpt": "spec : fix vocab compatibility check (#24256) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9547",
-      "project": "llama-cpp",
-      "version": "b9547",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9547",
-      "published_at": "2026-06-07T09:38:51Z",
-      "body_excerpt": "arg: Skip mmproj download when user supplied mmproj (#24239) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Wi",
       "type": "tool"
     }
   ]
