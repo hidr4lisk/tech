@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-09-05T10:18:01Z",
+  "updated_at": "2026-09-05T14:53:54Z",
   "items": [
+    {
+      "id": "localllama-2026-09-05-the-gap-has-closed-open-source-will-win",
+      "source": "localllama",
+      "title": "The gap has closed, open source will win",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w825pc/the_gap_has_closed_open_source_will_win/",
+      "published_at": "2026-09-05T14:25:19Z",
+      "summary": "I&#39;ve been trying the latest models from the frontier labs and honestly, after extensive testing I can not tell the difference between the best open source options. I think the differences are now marginal but the lab",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-05-ninfer-vs-llamacpp-vs-vllm-quality-speed-comparison-for-qwen",
+      "source": "localllama",
+      "title": "NInfer vs llama.cpp vs vLLM: quality + speed comparison for Qwen3.8-27B NVFP4 on RTX 5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w821fg/ninfer_vs_llamacpp_vs_vllm_quality_speed/",
+      "published_at": "2026-09-05T14:20:25Z",
+      "summary": "I&#39;ve been running Qwen3.8-27B as a local inference server for a production content intelligence pipeline (HVAC industry stuff, lots of long-context retrieval and structured extraction). I have been watching other red",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-05-qwen38-flash-next-ud-q4-k-xl-on-a-single-rtx-3090-24gb-128gb",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next (UD-Q4_K_XL) on a single RTX 3090 24GB + 128GB DDR4, is this config optimal?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7zz1o/qwen38flashnext_udq4_k_xl_on_a_single_rtx_3090/",
+      "published_at": "2026-09-05T12:52:58Z",
+      "summary": "Qwen3.8-Flash-Next (UD-Q4_K_XL) on a single RTX 3090 24GB + 128GB DDR4 — is this config optimal? Hardware  CPU: Intel Core i5-12600K RAM: 128 GB DDR4 @ 3600 MHz GPU: NVIDIA RTX 3090, 24 GB VRAM OS: Windows 11 llama.cpp: ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-05-title-mlx-dlss-nvidias-dlss-5-neural-renderer-and-frame-gene",
+      "source": "localllama",
+      "title": "Title: MLX-DLSS: NVIDIA's DLSS 5 neural renderer and frame generator, running on a Mac (and in PyTorch anywhere)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7y5qr/title_mlxdlss_nvidias_dlss_5_neural_renderer_and/",
+      "published_at": "2026-09-05T11:25:43Z",
+      "summary": "NVIDIA ships two neural networks inside DLSS: the DLSS 5 renderer that makes game frames look more photoreal, and the frame generator. Both only run on RTX cards inside games that call DLSS. I pulled them out and made th",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-05-aa-update-heres-how-the-small-models-score",
+      "source": "localllama",
+      "title": "AA Update! Here's how the small models score.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7y3sa/aa_update_heres_how_the_small_models_score/",
+      "published_at": "2026-09-05T11:22:49Z",
+      "summary": "      Ling 3.0 Tiny still seems to be leading the pack despite only having 1.3B active  &#32; submitted by &#32;  /u/Tall_Abrocoma_3533   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-05-aa-update-heres-how-the-frontier-ranks",
+      "source": "localllama",
+      "title": "AA Update! Here's how the Frontier ranks.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7y261/aa_update_heres_how_the_frontier_ranks/",
+      "published_at": "2026-09-05T11:20:35Z",
+      "summary": "      Along with everyone&#39;s favorite here, qwen3.8-27B  &#32; submitted by &#32;  /u/Tall_Abrocoma_3533   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-05-local-vibecoding-with-qwen-38-27b-and-godot",
+      "source": "localllama",
+      "title": "local vibecoding with Qwen 3.8 27B and Godot",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7xso4/local_vibecoding_with_qwen_38_27b_and_godot/",
+      "published_at": "2026-09-05T11:07:16Z",
+      "summary": "      OK, you guys want to start with local vibecoding but don&#39;t know how. In the discussions, you recommended that I use Godot. I downloaded it without knowing what it was. I was expecting a library, but it was an .",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-05-qwen38-27b-on-strix---the-optimized-setup",
+      "source": "localllama",
+      "title": "Qwen3.8 27B on Strix - the optimized setup",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7wte4/qwen38_27b_on_strix_the_optimized_setup/",
+      "published_at": "2026-09-05T10:13:14Z",
+      "summary": "Ever since u/jfowers_amd has asked me to help with the Lemonade project (and provided some hardware to test on), I&#39;ve been trying my best to optimize llama.cpp for AMD setups. This has led me in some very weird pathw",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-05-reusing-old-hardware-for-starting-local-ai-journey",
+      "source": "localllama",
+      "title": "Reusing old hardware for starting local ai-journey?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7wg9b/reusing_old_hardware_for_starting_local_aijourney/",
+      "published_at": "2026-09-05T09:53:03Z",
+      "summary": "Hi, I am thinking about putting some money / time into my local ai learning path and &quot;cleared&quot; my attic where I found the following hardware.  3 x NUC11 (Core i5 1145G7 / 2,6 GHz, 64 GB RAM DDR4 2666MHZ - SODIM",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-05-llvm-developers-begin-debate-over-agentsmd-for-helping-ai-ag",
+      "source": "localllama",
+      "title": "LLVM developers begin debate over AGENTS.md for helping AI agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7wb0n/llvm_developers_begin_debate_over_agentsmd_for/",
+      "published_at": "2026-09-05T09:44:47Z",
+      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-05-behaviour-of---cache-ram-in-router-mode",
       "source": "localllama",
@@ -24,83 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-05-ive-found-myself-using-local-llms-like-3d-printers",
-      "source": "localllama",
-      "title": "I've found myself using Local LLM's like 3D printers.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7thwv/ive_found_myself_using_local_llms_like_3d_printers/",
-      "published_at": "2026-09-05T07:03:10Z",
-      "summary": "Anyone who has a 3D printer and get use of it finds it incredibly useful for those odd jobs around the house, a missing bracket, a cable router, steam deck holder and so on. In the past if I was missing an app or useful ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-the-openai-huggingface-incident-from-an-agents-pov",
-      "source": "localllama",
-      "title": "The OpenAI Huggingface incident from an agents POV",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7tfrm/the_openai_huggingface_incident_from_an_agents_pov/",
-      "published_at": "2026-09-05T07:00:18Z",
-      "summary": "      Full credits to @artificialisabel from X!  &#32; submitted by &#32;  /u/iPingWine   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-which-model-is-good-for-detecting-deflection",
-      "source": "localllama",
-      "title": "which model is good for detecting deflection?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7qgxw/which_model_is_good_for_detecting_deflection/",
-      "published_at": "2026-09-05T04:22:16Z",
-      "summary": "I want the answers generated by frontier LLMs or base model LLM answers to be reviewed by some uncensored or abliterated small model.  The job is this model (preferably small model) is just to detect deflection in the an",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-qwen38-27b-beat-the-wikipedia-game-in-6-clicks",
-      "source": "localllama",
-      "title": "Qwen3.8-27B beat the Wikipedia game in 6 clicks.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7q92n/qwen3827b_beat_the_wikipedia_game_in_6_clicks/",
-      "published_at": "2026-09-05T04:10:58Z",
-      "summary": "      Used qwen3.8-27b in Opencode to make this silly mini-game because I&#39;m not sober:  ``` We are going to play a game, it will be the Wikipedia game. The Wikipedia game has the following rules:   You will have a Wi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-amd-unveils-threadripper-halo-station",
-      "source": "localllama",
-      "title": "AMD unveils Threadripper Halo Station",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7pphh/amd_unveils_threadripper_halo_station/",
-      "published_at": "2026-09-05T03:43:08Z",
-      "summary": "AMD Threadripper Halo Station CPU  Ryzen Threadripper PRO 9995WX (Zen 5, &quot;Shimada Peak&quot;) 96 cores / 192 threads Up to 5.4 GHz boost 384 MB L3 cache 350 W TDP 8-channel DDR5 128 PCIe 5.0 lanes  System Memory  2 ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-chalk-one-up-for-the-frontier-model",
-      "source": "localllama",
-      "title": "Chalk one up for the frontier model...",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7pdaf/chalk_one_up_for_the_frontier_model/",
-      "published_at": "2026-09-05T03:25:35Z",
-      "summary": "I just spent the last 2 hours of my life on a Friday night debugging a strange error in a prod CLI app. EF core was receive a readonlyspan during a Contains query. Normally, this query converted to a WHERE [col] IN (...)",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-rtx-4090-48gb-longevity",
-      "source": "localllama",
-      "title": "RTX 4090 48GB longevity",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7nmc8/rtx_4090_48gb_longevity/",
-      "published_at": "2026-09-05T01:58:50Z",
-      "summary": "Modified 4090 48GB has been out for a while. I remember a lot of people were buying them at the time. A lot of people were also complaining that they are meant to fail, that they scam etc. I have a few questions to peopl",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-04-the-pelican-comparison-grid-for-astra-is-pretty-interesting",
       "source": "simonw",
       "title": "The Pelican comparison grid for Astra is pretty interesting",
@@ -109,39 +142,6 @@
       "summary": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I render",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-nvidia-pair-your-personal-ai-cluster",
-      "source": "localllama",
-      "title": "NVIDIA PAIR — Your Personal AI Cluster",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7jnlx/nvidia_pair_your_personal_ai_cluster/",
-      "published_at": "2026-09-04T22:57:04Z",
-      "summary": "      That is interesting, I got bunch of old hardware I could connect, wonder what the speed would looks like.  &#32; submitted by &#32;  /u/SpendLucky1273   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-help-me-understand-gguf-sizectx-size",
-      "source": "localllama",
-      "title": "Help me understand gguf size/ctx size",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7i7mz/help_me_understand_gguf_sizectx_size/",
-      "published_at": "2026-09-04T21:57:48Z",
-      "summary": "      Let&#39;s say I have 2x 16Gb GPUs and I want to run Qwen3.8 27B. Monitor is ran by the integrated GPU so both 16Gb GPUs are almost fully free. I load the UD-Q4_K_S on one card at 15.4Gb. I then load the context on ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-04-if-you-had-15k-would-you-build-a-home-server-today-or-wait",
-      "source": "localllama",
-      "title": "If you had ~15k would you build a home server today or wait",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7i64e/if_you_had_15k_would_you_build_a_home_server/",
-      "published_at": "2026-09-04T21:56:02Z",
-      "summary": "Title help me decide and avoid making impulse purchases 😩 I already have dual 3090 which I can sell to help EDIT: ty all I’ll just wait it out, doesn’t seem worth it right now   &#32; submitted by &#32;  /u/sugarfreecaff",
-      "tags": [
-        "localllama"
       ]
     },
     {
