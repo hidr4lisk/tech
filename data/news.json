@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-09-06T03:53:29Z",
+  "updated_at": "2026-09-06T10:37:39Z",
   "items": [
+    {
+      "id": "localllama-2026-09-06-vibeblending-locally-with-qwen-38-27b",
+      "source": "localllama",
+      "title": "vibeblending locally with Qwen 3.8 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8rxwg/vibeblending_locally_with_qwen_38_27b/",
+      "published_at": "2026-09-06T09:54:44Z",
+      "summary": "      You need Blender 5.x with MCP extension. I use pi so I also need: pi install npm:pi-mcp-adapter and then: $ cat .mcp.json { &quot;mcpServers&quot;: { &quot;blender&quot;: { &quot;command&quot;: &quot;/home/jacek/.l",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-06-validate-your-local-llm-advertised-kv-cache-against-real-pre",
+      "source": "localllama",
+      "title": "Validate your local LLM advertised KV cache against real pressure; see exactly how old contexts get evicted from cache",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8rnyi/validate_your_local_llm_advertised_kv_cache/",
+      "published_at": "2026-09-06T09:38:49Z",
+      "summary": "Hello, I&#39;m a bit obsessed with cache management on local LLMs. For the last few days I&#39;ve been working on cache management on vLLM with my 2x DGX Spark and DeepSeek v4 Flash 0731. I felt something was off so I in",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-06-which-qwen-for-vllm",
+      "source": "localllama",
+      "title": "Which qwen for vllm?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8rhv0/which_qwen_for_vllm/",
+      "published_at": "2026-09-06T09:29:05Z",
+      "summary": "Hugging face has over 300 versions of qwen3.8-27b. I have no idea how to identify the beat model to download and use. Should I sort by “most likes” or “most downloads”? Is there any sort of other guidance on which model ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-06-openwebui-open-terminal",
+      "source": "localllama",
+      "title": "Openwebui + open terminal",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8re76/openwebui_open_terminal/",
+      "published_at": "2026-09-06T09:23:10Z",
+      "summary": "Context: I don&#39;t code. My use is document research and document creation (mainly for legal search) searching inside large documents like a tax code (500+ pages) and building notes or pptx from what comes back. I&#39;",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-06-villager-simulation-game-poc-created-with-qwen38-27b-ud-q3-k",
+      "source": "localllama",
+      "title": "Villager Simulation Game POC Created with Qwen3.8-27B-UD-Q3_K_XL.gguf - 16GB VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8r0t9/villager_simulation_game_poc_created_with/",
+      "published_at": "2026-09-06T09:02:00Z",
+      "summary": "https://village-sim-one.vercel.app/ - 16GB VRAM RTX 5070 Ti, fully offloaded - Vision on CPU - Windows, not headless - beellama.cpp - latest version with the kvarn performance enhancements making it as fast as qx_x quant",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-06-qwen38-flash-next-oq4e-mtp-45-toks-on-m4-max-25-toks-on-m2-u",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next-oQ4e-mtp: 45 tok/s on M4 Max, 25 tok/s on M2 Ultra for local inference — llm-bench.io",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8qo79/qwen38flashnextoq4emtp_45_toks_on_m4_max_25_toks/",
+      "published_at": "2026-09-06T08:42:30Z",
+      "summary": "      Qwen 3.8 Flash Next gives similar speed than Qwen3.8 27B on Apple Silicon.  &#32; submitted by &#32;  /u/DerTomsn   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-06-unsloth-studio-aviation-assistant",
       "source": "localllama",
@@ -8,6 +74,17 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8jgnk/unsloth_studio_aviation_assistant/",
       "published_at": "2026-09-06T02:16:56Z",
       "summary": "I am using Unsloth Studio to parse aviation transpoder data (ADS-B) to summarize interesting traffic in my area. It gives a summary of largest aircraft, fastest aircraft and so on. It also provides local weather based on",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-06-block-kv-cache-streaming-bound-vram-at-long-context-via-a-sh",
+      "source": "localllama",
+      "title": "Block KV cache streaming: bound VRAM at long context via a shared CUDA phase arena by giveen · Pull Request #357 · TheTom/llama-cpp-turboquant",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8jflp/block_kv_cache_streaming_bound_vram_at_long/",
+      "published_at": "2026-09-06T02:15:32Z",
+      "summary": "      So after all my work, yeah, Raymond did it better, so I ported his work over, extended it turboX, extended it multiple other models (he had only Qwen models), and benchmarked the crap out of it to make sure it was ",
       "tags": [
         "localllama"
       ]
@@ -65,83 +142,6 @@
       "summary": "Introducing GPT-6 Astra for developers\nBlink and you'll miss it, but there's a familiar creature at 1m59s:\n\nAcross the board, Astra has more attention to detail, better understanding of the user's prompt, and can build m",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-ninfer-fork-555k-contextfp4-for-5090-with-yarn-reliable-kv-h",
-      "source": "localllama",
-      "title": "NInfer fork: 555k context@fp4 for 5090 with YARN, reliable kv host cacheing, monitoring, jinja, opened model support",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8f8fa/ninfer_fork_555k_contextfp4_for_5090_with_yarn/",
-      "published_at": "2026-09-05T22:58:42Z",
-      "summary": "Hiya, NInfer is amazng for Qwen, but lacking for real-world-use. As adoption of issues/pr&#39;s was not really what I needed, I created a fork and hit it for this week with 3 concurrent claude code session until it didn&",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-which-agent-harness-do-you-use-and-why",
-      "source": "localllama",
-      "title": "Which agent harness do you use and why?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8f7bp/which_agent_harness_do_you_use_and_why/",
-      "published_at": "2026-09-05T22:57:24Z",
-      "summary": "I see a new one being launched every few days... How do these new harnesses compare to claude code, pi etc. has anyone switched from these?  which harness to prefer and why  &#32; submitted by &#32;  /u/Background-Job-86",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-is-3090-5070-5060s-a-good-idea",
-      "source": "localllama",
-      "title": "Is 3090 + 5070 & 5060s a good idea?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8e08d/is_3090_5070_5060s_a_good_idea/",
-      "published_at": "2026-09-05T22:05:52Z",
-      "summary": "I have a 5070 Ti and two 5060 Ti (all 16Gb cards). I planned to add another 5070 Ti giving me two pairs of 32Gb each but the NVidia prices have just jumped by 25% where I am and I&#39;ve found a 3090 Founders Edition for",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-your-opinion-on-ling-30-tiny-on-cpu",
-      "source": "localllama",
-      "title": "Your opinion on Ling 3.0 tiny on CPU?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8dw2g/your_opinion_on_ling_30_tiny_on_cpu/",
-      "published_at": "2026-09-05T22:01:06Z",
-      "summary": "Did anyone try and use it?  &#32; submitted by &#32;  /u/Robert__Sinclair   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-my-local-llm-demoscene-generator-can-now-watch-its-own-outpu",
-      "source": "localllama",
-      "title": "My local LLM demoscene generator can now watch its own output and rewrite it!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8a45b/my_local_llm_demoscene_generator_can_now_watch/",
-      "published_at": "2026-09-05T19:30:34Z",
-      "summary": "I&#39;ve updated my auto_demo_scener project with Ninfer support and a “rewrite based on video” feature that I thought you might find interesting. The project is basically an endless demoscene machine. A local LLM writes",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-any-resource-on-using-blender-with-local-models-and-which-mo",
-      "source": "localllama",
-      "title": "Any resource on using Blender with local models, and which models work best?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w86wqp/any_resource_on_using_blender_with_local_models/",
-      "published_at": "2026-09-05T17:29:50Z",
-      "summary": "Hey all, I&#39;ve seen some really fun looking things with people having their local models drive Blender to create pretty cool looking world scenes. Is there a good tutorial on setting up Blender yo be driven by your mo",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-05-otaku-an-llm-frontend",
-      "source": "localllama",
-      "title": "Otaku — an LLM frontend",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w85blf/otaku_an_llm_frontend/",
-      "published_at": "2026-09-05T16:29:27Z",
-      "summary": "      Otaku is an LLM frontend, primarily designed for roleplay, an alternative to SillyTavern and the like. However, It also works for general-purpose chat with local backends (including Ollama) or cloud models, the way",
-      "tags": [
-        "localllama"
       ]
     },
     {
