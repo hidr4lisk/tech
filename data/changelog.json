@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-09-06T10:37:47Z",
+  "updated_at": "2026-09-06T15:14:08Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10825",
+      "project": "llama-cpp",
+      "version": "b10825",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10825",
+      "published_at": "2026-09-06T13:22:26Z",
+      "body_excerpt": "grammar : fix max repetition threshold (#28469) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10823",
+      "project": "llama-cpp",
+      "version": "b10823",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10823",
+      "published_at": "2026-09-06T11:57:39Z",
+      "body_excerpt": "common: add --log-jsonl (#28437) common: add --log-jsonl rename unknown to none Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP3",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10822",
+      "project": "llama-cpp",
+      "version": "b10822",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10822",
+      "published_at": "2026-09-06T11:30:39Z",
+      "body_excerpt": "ui : embed assets directly with CMake (#28445) Remove the build-time C++ helper and external gzip dependency, simplifying cross-compilation. Keep the generated C++ in templates for readability and preserve fully embedded UI assets. Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iO",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10821",
       "project": "llama-cpp",
@@ -10232,42 +10259,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9559",
       "published_at": "2026-06-08T15:24:42Z",
       "body_excerpt": "cli: fix spinner not show during prompt processing (#24283) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Win",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9558",
-      "project": "llama-cpp",
-      "version": "b9558",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9558",
-      "published_at": "2026-06-08T14:44:00Z",
-      "body_excerpt": "vulkan: Use cm2 decode_vector for mul_mat_id B matrix loads (#23991) This allows vec4 loads of the B elements. Also increase BK to 64 when this is enabled. Neither of these alone is consistently faster, but together these give a nice speedup. In ggml-vulkan.cpp, we need to make sure the B matrix alignment and stride are multiples of 4. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (ar",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9557",
-      "project": "llama-cpp",
-      "version": "b9557",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9557",
-      "published_at": "2026-06-08T14:17:36Z",
-      "body_excerpt": "cuda: reset cuda context after reading memory size (#23935) cuda: reset device in get_memory function if no backend is active also count device and host buffers exclude hip and musa from counting and device reset use device mutex instead of atomic undo backend_free function move macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9556",
-      "project": "llama-cpp",
-      "version": "b9556",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9556",
-      "published_at": "2026-06-08T13:48:00Z",
-      "body_excerpt": "HIP: add gfx1152 and gfx1153 to RDNA3.5 (#24129) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windo",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9555",
-      "project": "llama-cpp",
-      "version": "b9555",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9555",
-      "published_at": "2026-06-08T11:08:39Z",
-      "body_excerpt": "metal : fix im2col 1D case (audio models) (#24220) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Win",
       "type": "tool"
     }
   ]
