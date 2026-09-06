@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-05T20:08:41Z",
+  "updated_at": "2026-09-06T03:53:35Z",
   "releases": [
+    {
+      "id": "ollama-v0.34.0-rc1",
+      "project": "ollama",
+      "version": "v0.34.0-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc1",
+      "published_at": "2026-09-05T23:49:00Z",
+      "body_excerpt": "Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly thr",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10819",
       "project": "llama-cpp",
@@ -10269,33 +10278,6 @@
       "published_at": "2026-06-08T05:53:52Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "ollama-v0.30.7-rc1",
-      "project": "ollama",
-      "version": "v0.30.7-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.7-rc1",
-      "published_at": "2026-06-07T21:51:48Z",
-      "body_excerpt": "What's Changed docs: update Zod example to use native toJSONSchema by @fuleinist in launch: use native Windows Hermes config path by @BruceMacD in New Contributors @fuleinist made their first contribution in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.7",
-      "project": "ollama",
-      "version": "v0.30.7",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.7",
-      "published_at": "2026-06-07T21:51:48Z",
-      "body_excerpt": "Ollama Launch now supports Hermes Desktop, a native desktop interface for the Hermes agent. Run it alongside your Hermes agent to get a visual interface for managing conversations, integrations, and messaging apps. What's Changed Hermes Desktop is now available via with native Windows configuration path support OpenAI-compatible API models list now aligns with available model tags Added documentat",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9553",
-      "project": "llama-cpp",
-      "version": "b9553",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9553",
-      "published_at": "2026-06-07T21:10:24Z",
-      "body_excerpt": "common : relax sampler name matching (#23744) common : relax sampler name matching Currently, in some cases, the alternative names for samplers (like and instead of the canonical and ) are not always recognized by the function in . This PR changes the signature of this function to remove the flag, and removes all occurences of the flag from call sites. Therefore, the function will now always match",
-      "type": "tool"
     }
   ]
 }
