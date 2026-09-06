@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-06T15:14:08Z",
+  "updated_at": "2026-09-06T20:13:47Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10826",
+      "project": "llama-cpp",
+      "version": "b10826",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10826",
+      "published_at": "2026-09-06T16:40:14Z",
+      "body_excerpt": "cuda: fixes races in mmid and mmf (#28475) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10825",
       "project": "llama-cpp",
@@ -10187,78 +10196,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9568",
       "published_at": "2026-06-08T21:10:42Z",
       "body_excerpt": "mtp: support for gemma-4 E2B and E4B assistants (#24282) models: update converter to support smaller assistants models: add masked_embd tensors to gemma4-assist arch gemma-4: remove temp debug for conversion gemma-4-mtp: filter out masked_embedding tensors during conversion macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-NV-KERMT-70M-v2",
-      "project": "nvidia",
-      "version": "NV-KERMT-70M-v2",
-      "url": "https://huggingface.co/nvidia/NV-KERMT-70M-v2",
-      "published_at": "2026-06-08T20:12:45Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9567",
-      "project": "llama-cpp",
-      "version": "b9567",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9567",
-      "published_at": "2026-06-08T19:02:33Z",
-      "body_excerpt": "server : do not parse when flushing http headers (#24281) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windo",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9566",
-      "project": "llama-cpp",
-      "version": "b9566",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9566",
-      "published_at": "2026-06-08T18:07:38Z",
-      "body_excerpt": "graph: guard iswa kq_mask on its own buffer (#24294) A SWA-only draft head (e.g. StepFun MTP) leaves the base sub-cache empty, so its kq_mask buffer stays null and asserts at load. Guard each mask on its own buffer in set_input and can_reuse, base and swa. Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9565",
-      "project": "llama-cpp",
-      "version": "b9565",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9565",
-      "published_at": "2026-06-08T17:35:34Z",
-      "body_excerpt": "[ggml-webgpu] Handle buffer overlap / buffer aliasing for concat operator (#24000) Only run webgpu CI on my fork Add webgpu only workflow handle buffer overlap case for concat operator restore build-webgpu.yml Co-Authored-By: Claude Sonnet 4.6 Run clang-format Update ggml/src/ggml-webgpu/wgsl-shaders/concat.wgsl --------- Co-authored-by: Claude Sonnet 4.6 Co-authored-by: Reese Levine macOS/iOS: ma",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9564",
-      "project": "llama-cpp",
-      "version": "b9564",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9564",
-      "published_at": "2026-06-08T17:08:34Z",
-      "body_excerpt": "[ggml-webgpu] Implement 2D workgroups for scale, binary, and unary ops (#24044) Only run webgpu CI on my fork Add webgpu only workflow Implement 2d workgroups for more operations fix Fix type Move back to global_invocation_id macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9562",
-      "project": "llama-cpp",
-      "version": "b9562",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9562",
-      "published_at": "2026-06-08T16:41:04Z",
-      "body_excerpt": "mtmd : add video input support (#24269) wip ok: lazy bitmap API remember to free lazy text wip add mtmd_helper_video support video input on server (base64 input) add MTMD_VIDEO config add timestamp update CLI cli: allow auto-completion for video add --video arg fix build update docs rename as suggested macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED ma",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9561",
-      "project": "llama-cpp",
-      "version": "b9561",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9561",
-      "published_at": "2026-06-08T16:14:15Z",
-      "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Wind",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9559",
-      "project": "llama-cpp",
-      "version": "b9559",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9559",
-      "published_at": "2026-06-08T15:24:42Z",
-      "body_excerpt": "cli: fix spinner not show during prompt processing (#24283) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Win",
       "type": "tool"
     }
   ]
