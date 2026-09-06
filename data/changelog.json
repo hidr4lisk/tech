@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-06T03:53:35Z",
+  "updated_at": "2026-09-06T10:37:47Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10821",
+      "project": "llama-cpp",
+      "version": "b10821",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10821",
+      "published_at": "2026-09-06T09:58:54Z",
+      "body_excerpt": "metal : add remaining fa-vec tunings for M2 Max (#28458) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP1",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.34.0-rc1",
       "project": "ollama",
@@ -10260,24 +10269,6 @@
       "published_at": "2026-06-08T11:08:39Z",
       "body_excerpt": "metal : fix im2col 1D case (audio models) (#24220) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Win",
       "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Privasis-Cleaner-0.6B",
-      "project": "nvidia",
-      "version": "Privasis-Cleaner-0.6B",
-      "url": "https://huggingface.co/nvidia/Privasis-Cleaner-0.6B",
-      "published_at": "2026-06-08T05:54:16Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-Privasis-Cleaner-4B",
-      "project": "nvidia",
-      "version": "Privasis-Cleaner-4B",
-      "url": "https://huggingface.co/nvidia/Privasis-Cleaner-4B",
-      "published_at": "2026-06-08T05:53:52Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
