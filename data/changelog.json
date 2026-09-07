@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-06T20:13:47Z",
+  "updated_at": "2026-09-07T03:52:26Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10830",
+      "project": "llama-cpp",
+      "version": "b10830",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10830",
+      "published_at": "2026-09-06T23:29:00Z",
+      "body_excerpt": "convert : add flag to fuse Q/K/V into QKV during HF-to-GGUF conversion (#22780) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP3",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10829",
+      "project": "llama-cpp",
+      "version": "b10829",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10829",
+      "published_at": "2026-09-06T23:04:50Z",
+      "body_excerpt": "models : fix GDN normalization from to (#28068) models: use flash-linear-attention's l2norm for gated delta net q/k The GDN q/k normalization is defined by flash-linear-attention as l2norm(x) = x rsqrt(sum(xx) + eps) with eps inside the root. Every GDN call site in the tree uses ggml_l2_norm instead, which is x / max(sqrt(sum(xx)), eps), i.e. torch.nn.functional.normalize - its CUDA kernel cites t",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10828",
+      "project": "llama-cpp",
+      "version": "b10828",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10828",
+      "published_at": "2026-09-06T22:08:43Z",
+      "body_excerpt": "[Model] Support for Spark2_5ForCausalLM implementation (#27868) Add Spark3 Model rename spark3 -> spark2_5 Co-authored-by: Sigbjørn Skjæret Co-authored-by: dongjiang Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10827",
+      "project": "llama-cpp",
+      "version": "b10827",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10827",
+      "published_at": "2026-09-06T20:50:00Z",
+      "body_excerpt": "opencl: properly choose weights pack for q4_K, q5_K mul_mat (#28402) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10826",
       "project": "llama-cpp",
@@ -10187,15 +10223,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9570",
       "published_at": "2026-06-09T04:16:44Z",
       "body_excerpt": "ggml-webgpu: Add clang-format job (#24308) Add clang-format job try local formatting macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9568",
-      "project": "llama-cpp",
-      "version": "b9568",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9568",
-      "published_at": "2026-06-08T21:10:42Z",
-      "body_excerpt": "mtp: support for gemma-4 E2B and E4B assistants (#24282) models: update converter to support smaller assistants models: add masked_embd tensors to gemma4-assist arch gemma-4: remove temp debug for conversion gemma-4-mtp: filter out masked_embedding tensors during conversion macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo",
       "type": "tool"
     }
   ]
