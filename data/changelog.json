@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-08T16:21:36Z",
+  "updated_at": "2026-09-08T20:56:33Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10867",
+      "project": "llama-cpp",
+      "version": "b10867",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10867",
+      "published_at": "2026-09-08T17:31:06Z",
+      "body_excerpt": "llama: disable lazy tensor loading by default on iGPUs (#28326) llama: add lazy mode auto, fix iGPU regression revert changes except disabling lazy load on iGPUs in AUTO Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulka",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10865",
       "project": "llama-cpp",
@@ -10223,51 +10232,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9594",
       "published_at": "2026-06-11T08:26:42Z",
       "body_excerpt": "vocab : refactor normalizer flags into options struct, add strip_accents (#24371) vocab : refactor normalizer flags into options struct, add strip_accents Update src/llama-vocab.h Co-authored-by: Sigbjørn Skjæret Update src/llama-vocab.cpp Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9592",
-      "project": "llama-cpp",
-      "version": "b9592",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9592",
-      "published_at": "2026-06-10T20:54:41Z",
-      "body_excerpt": "vendor : update LibreSSL to 4.3.2 (#24397) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android a",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9591",
-      "project": "llama-cpp",
-      "version": "b9591",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9591",
-      "published_at": "2026-06-10T20:20:14Z",
-      "body_excerpt": "Remove padding and multiple D2D copies for MTP (#24086) Make ggml_gated_delta_net take only the initial recurrent state (D, 1, n_seqs) and passes the snapshot count K as an op parameter instead of inferring it from state->ne[1]. Remove the padding hack and copy all emitted snapshots into the recurrent cache with a single strided ggml_cpy Make GDN changes in all backends. Address review comments. F",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.4.0",
-      "project": "localai",
-      "version": "v4.4.0",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.4.0",
-      "published_at": "2026-06-10T20:10:10Z",
-      "body_excerpt": "🎉 LocalAI 4.4.0 Release! 🚀 LocalAI 4.4.0 is out! This is a big, multimodal-and-distributed release. Two brand-new audio backends land - parakeet.cpp (NVIDIA NeMo Parakeet ASR) and CrispASR (a multi-architecture ASR and TTS engine) - alongside native object detection + segmentation (), video understanding in , and LTX-2 video generation in . Distributed mode grows up: prefix-cache-aware routing is ",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.451-beta",
-      "project": "unsloth",
-      "version": "v0.1.451-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.451-beta",
-      "published_at": "2026-06-10T18:20:29Z",
-      "body_excerpt": "Bug Fixes and more cross platform support To update Unsloth or install a new Unsloth Studio, you must use: macOS, Linux, WSL: Windows: > [!WARNING] > DO NOT USE since packaging will not get the latest updates What's Changed Bump install.sh / install.ps1 pin to unsloth>=2026.6.1 by @danielhanchen in Port KTO logps truncation guard to TRL 1.x _compute_logps refactor by @danielhanchen in CI: track de",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.11.0",
-      "project": "transformers",
-      "version": "v5.11.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.11.0",
-      "published_at": "2026-06-10T16:32:44Z",
-      "body_excerpt": "Release v5.11.0 New Model additions DiffusionGemma DiffusionGemma is engineered to reduce the sequential bottlenecks of standard causal language models by employing an encoder-decoder architecture specifically optimized for inference speed. During inference, DiffusionGemma leverages multi-canvas sampling, where rather than generating one token at a time, the model iteratively denoises a full block",
       "type": "tool"
     }
   ]
