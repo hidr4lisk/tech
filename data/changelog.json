@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-09-08T03:55:40Z",
+  "updated_at": "2026-09-08T10:56:58Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10856",
+      "project": "llama-cpp",
+      "version": "b10856",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10856",
+      "published_at": "2026-09-08T10:49:05Z",
+      "body_excerpt": "chat : split specialized parsers into common/parsers (#27764) chat : split specialized parsers into common/parsers Move the 14 dedicated template parsers out of chat.cpp into one file each under common/parsers, mirroring the src/models split. chat.cpp keeps the template detection in common_chat_try_specialized_template() and drops from 3915 to 1513 lines. common/parsers/parsers.h holds the shared ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10855",
+      "project": "llama-cpp",
+      "version": "b10855",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10855",
+      "published_at": "2026-09-08T10:03:31Z",
+      "body_excerpt": "opencl: properly handle non-contiguous inputs to conv2d (#28503) opencl: fix conv2d non-contiguous strides opencl: format Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10853",
+      "project": "llama-cpp",
+      "version": "b10853",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10853",
+      "published_at": "2026-09-08T03:58:37Z",
+      "body_excerpt": "model : support Kimi-K3 recurrent-state rollback (#28466) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP",
+      "type": "tool"
+    },
     {
       "id": "hf-EleutherAI-qwen3-8b-djinnsdf-dolci",
       "project": "EleutherAI",
@@ -10205,15 +10232,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9589",
       "published_at": "2026-06-10T14:13:02Z",
       "body_excerpt": "CUDA: Fix ssm_scan_f32 data-races (#24360) Add missing syncthreads before resuing cub_temp_storage __syncthreads() is required before being allowed to resue TempStorage smem: Add one more missing __syncthreads Could also double-buffer, but alternative is to simply ensure all threads have read smem before writing to it again in the next loop iteration Remove unused smem from ssm_scan_f32 macOS/iOS:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9587",
-      "project": "llama-cpp",
-      "version": "b9587",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9587",
-      "published_at": "2026-06-10T08:12:19Z",
-      "body_excerpt": "speculative : fix \"ngram-map-k4v\" name in logging (#24253) This is a non-functional change. When using , the log messages at startup and runtime say . Added logic in the in the constructor of to pass the correct when is . After this change, the log messages use the correct name. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr",
       "type": "tool"
     }
   ]
