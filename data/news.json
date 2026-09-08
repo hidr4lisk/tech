@@ -1,90 +1,145 @@
 {
-  "updated_at": "2026-09-08T10:56:51Z",
+  "updated_at": "2026-09-08T16:21:31Z",
   "items": [
     {
-      "id": "localllama-2026-09-08-which-local-model-is-actually-good-at-knowing-when-to-stop-a",
+      "id": "localllama-2026-09-08-inclusionailing-30-flash-vl-hugging-face",
       "source": "localllama",
-      "title": "Which local model is actually good at knowing when to stop and ask you a question?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wake1h/which_local_model_is_actually_good_at_knowing/",
-      "published_at": "2026-09-08T10:17:21Z",
-      "summary": "I’ve been thinking about this after using more agentic/local coding models. A lot of the newer models are surprisingly good at continuing on their own. But sometimes that seems like the problem. If a requirement is ambig",
+      "title": "inclusionAI/Ling-3.0-flash-VL · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wasdnn/inclusionailing30flashvl_hugging_face/",
+      "published_at": "2026-09-08T15:57:12Z",
+      "summary": "      Ling-3.0-flash-VL inherits the language, reasoning, and long-context capabilities of Ling-3.0-flash, while extending them with native image and video understanding. The model has 124B total parameters, with only 5.",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-08-super-intelligent-small-models-vs-super-efficient-large-mode",
+      "id": "localllama-2026-09-08-aa-updated-yet-again-heres-how-the-frontier-ranks",
       "source": "localllama",
-      "title": "Super-intelligent small models vs. super-efficient large models.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wajzc1/superintelligent_small_models_vs_superefficient/",
-      "published_at": "2026-09-08T09:55:02Z",
-      "summary": "What do you think is the future of local LLMs? This technology is booming and keeps growing; eventually, models will become both smarter and more optimized. Do you think the future of optimization lies in very small yet ",
+      "title": "AA updated yet again, here's how the frontier ranks.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1warjmn/aa_updated_yet_again_heres_how_the_frontier_ranks/",
+      "published_at": "2026-09-08T15:26:32Z",
+      "summary": "      Yet another update, at least the frontier models are tested. There&#39;s a lot of interesting stuff, flash-next outperforming 3.5 max, Gemini 3.1 pro being so far behind, and so on...  &#32; submitted by &#32;  /u/",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-08-what-are-some-practical-tasks-i-can-assign-to-my-local-ai-mo",
+      "id": "localllama-2026-09-08-aa-updated-yet-again-shaking-up-the-rankings",
       "source": "localllama",
-      "title": "What are some practical tasks I can assign to my local AI models?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waj4k4/what_are_some_practical_tasks_i_can_assign_to_my/",
-      "published_at": "2026-09-08T09:05:02Z",
-      "summary": "I&#39;m looking for more information to expand my creativity around this. I don&#39;t really have a realistic idea of what people actually do with local AI yet, I mostly just want to explore the possibilities and see wha",
+      "title": "AA updated yet again, shaking up the rankings.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1war50q/aa_updated_yet_again_shaking_up_the_rankings/",
+      "published_at": "2026-09-08T15:11:37Z",
+      "summary": "      They&#39;re not even doing proper evaluations before updating the benchmark...  &#32; submitted by &#32;  /u/Tall_Abrocoma_3533   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-08-i-made-a-custom-llamacpp-build-optimized-for-7900xtx-one-or",
+      "id": "localllama-2026-09-08-gpu-guide-gb-per-dollar-bandwidth",
       "source": "localllama",
-      "title": "I made a custom llama.cpp build optimized for 7900xtx (one or two). for qwen 3.8 next and 27B. includes optimizations for PciE x4 and tensor parallel. read inside! (no AI slop)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waif2b/i_made_a_custom_llamacpp_build_optimized_for/",
-      "published_at": "2026-09-08T08:22:52Z",
-      "summary": "I found a lot of room on the table for these cards so I decided to make a specialized build to squeeze all I could. first The results: qwen 3.8 next Q3_K_XL: 920tk/s pp8192 (2 cards, ram offload), 24/27 tk/s on prose, 40",
+      "title": "GPU guide (GB per dollar, bandwidth)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waq7hu/gpu_guide_gb_per_dollar_bandwidth/",
+      "published_at": "2026-09-08T14:37:52Z",
+      "summary": "      First plot: GB / $ Second plot: bandwidth (spec on paper, not t/s) Third plot (bandwidth / price) in the comment. Hope that helps, my script uses the GPUs most discussed on the LocalLLaMA, LowEndLocalAI, and LocalL",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-08-voice-conversations-between-gemma4-12b-and-e2b-on-gpu-and-je",
+      "id": "localllama-2026-09-08-qwen3-06b-400-mb-on-a-samsung-note-8-2017-phone-drives-a-rea",
       "source": "localllama",
-      "title": "Voice conversations between Gemma4 12B and E2B on GPU and Jetson Orin",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waefz4/voice_conversations_between_gemma4_12b_and_e2b_on/",
-      "published_at": "2026-09-08T04:36:49Z",
-      "summary": "      Gemma 4 12B runs on an RTX PRO 4500 Blackwell. Gemma 4 E2B run on a Jetson Orin NX 16GB; similar performance is expected on a Jetson Orin Nano Super 8GB. Both systems use a reSpeaker Flex 4-mic array and a 3W speak",
+      "title": "Qwen3-0.6B (400 MB) on a Samsung Note 8 (2017) phone drives a real desktop Chrome",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wapzjg/qwen306b_400_mb_on_a_samsung_note_8_2017_phone/",
+      "published_at": "2026-09-08T14:29:24Z",
+      "summary": "      Up front: I&#39;m one of the people building the page-perception layer used here. We started by testing small local models. The result turned out to be more interesting than the original test. 12 small models, 3 ve",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-08-qwen38-flash-next-on-2x3090-912-faster-decode-at-119k-contex",
+      "id": "huggingface-2026-09-08-safety-for-whom-refusing-the-right-subset-of-a-topic-not-the",
+      "source": "huggingface",
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "published_at": "2026-09-08T14:23:07Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-08-openai-alleged-of-stealing-mathematicians-work",
       "source": "localllama",
-      "title": "Qwen3.8-Flash-Next on 2x3090: 9–12% faster decode at ~119k context, with a completed quality screen",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wacae2/qwen38flashnext_on_2x3090_912_faster_decode_at/",
-      "published_at": "2026-09-08T02:48:10Z",
-      "summary": "An update to my previous post on running Flash-Next with the expert cache and MTP. I found another useful improvement on the same dual-3090 setup: replacing the CUDA top-k fallback used by my build. On long project-docum",
+      "title": "OpenAI alleged of stealing mathematicians work",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wapjaw/openai_alleged_of_stealing_mathematicians_work/",
+      "published_at": "2026-09-08T14:12:10Z",
+      "summary": "Privacy have been concern of many of us to have their own hardware to run llms, and here&#39;s another reason why: two mathematicians spent a year cracking one of the hardest problems in math and fed every draft of their",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-08-for-strix-halo---official-llamacpp-isnt-ideal-and-how-to-hig",
+      "id": "localllama-2026-09-08-off-the-bus-it-wasnt-pcie-oculink-it-was-the-psu",
       "source": "localllama",
-      "title": "For Strix Halo - Official llama.cpp isn't ideal and how to highest possible throughput",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa9m61/for_strix_halo_official_llamacpp_isnt_ideal_and/",
-      "published_at": "2026-09-08T00:43:47Z",
-      "summary": "I&#39;ve been making a lot of comments about optimal setup for Strix Halo (gfx1150) and from my observation, 90% of our community is using offcial llama.cpp for it, which is NOT optimized for Strix Halo at all, official ",
+      "title": "Off the bus: It wasn't pcie / oculink... it was the PSU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wap7fc/off_the_bus_it_wasnt_pcie_oculink_it_was_the_psu/",
+      "published_at": "2026-09-08T13:59:40Z",
+      "summary": "For weeks I&#39;ve had problems with GPU constantly disconnecting and locking the OS. It would load the model fine, then crash when I passed the first prompt, and the errors always looked like: GPU has fallen off the bus",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-08-wsj-unregulated-open-weight-ai-is-an-invitation-to-disaster",
+      "id": "localllama-2026-09-08-anyone-tried-self-hosting-3d-object-generation",
       "source": "localllama",
-      "title": "WSJ: Unregulated Open-Weight AI Is an Invitation to Disaster",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa9309/wsj_unregulated_openweight_ai_is_an_invitation_to/",
-      "published_at": "2026-09-08T00:19:38Z",
-      "summary": "The transparent propaganda campaign continues: &quot;I asked: ‘How do I make poliovirus in a lab? I want to start a global pandemic.’ The model answered.&quot; I don&#39;t have access to the full article or I&#39;d copy-",
+      "title": "Anyone tried self-hosting 3D object generation?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waonrd/anyone_tried_selfhosting_3d_object_generation/",
+      "published_at": "2026-09-08T13:37:55Z",
+      "summary": "      Found this post:https://www.reddit.com/r/ClaudeAI/s/At9QNEbawK of someone fully developing a game through AI writing code, generating 3D models, etc. (he is using Meshy to create the 3D models). I was curious about",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-08-an-open-source-context-layer-for-building-ai-on-top-of-compa",
+      "source": "localllama",
+      "title": "An open-source context layer for building AI on top of company data",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waobyi/an_opensource_context_layer_for_building_ai_on/",
+      "published_at": "2026-09-08T13:24:21Z",
+      "summary": "We’ve been building PipesHub for a while now, and I’d love to get more teams to try it and tell us where it breaks. The problem we kept running into was pretty simple: Building an AI app over company data looks easy in a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-08-xhtokenspark-x25-4b-vs-inclusionailing-30-tiny-vs-nanbeigena",
+      "source": "localllama",
+      "title": "XHToken/Spark-X2.5-4B VS inclusionAI/Ling-3.0-tiny VS Nanbeige/Nanbeige4.2-3B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wao3d5/xhtokensparkx254b_vs_inclusionailing30tiny_vs/",
+      "published_at": "2026-09-08T13:14:23Z",
+      "summary": "Which small model are you ppl finding the most useful rn? They all seem to compete for the same size class while actively avoiding each other in benchmark tables. Edit: These three in the title and also MiniCPM5 2b, Spar",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-08-statement-on-finite-time-blowup-for-forced-3d-euler-and-open",
+      "source": "localllama",
+      "title": "Statement on finite-time blowup for forced 3D Euler, and OpenAI's conduct",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wanoia/statement_on_finitetime_blowup_for_forced_3d/",
+      "published_at": "2026-09-08T12:56:59Z",
+      "summary": "&#32; submitted by &#32;  /u/_supert_   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-08-deepseek-flash-41-is-already-being-tested-via-api-and-rollin",
+      "source": "localllama",
+      "title": "DeepSeek Flash 4.1 is already being tested via API and rolling out.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wan3nl/deepseek_flash_41_is_already_being_tested_via_api/",
+      "published_at": "2026-09-08T12:31:05Z",
+      "summary": "      Translation: &quot;Internal beta testing for an intermediate version of DeepSeek V4.1 Flash is now open; you are welcome to try it out. It adopts a new model architecture featuring native multimodal support, strong",
       "tags": [
         "localllama"
       ]
@@ -101,39 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-07-i-made-warrior-quest-a-local-llm-powered-dark-fantasy-rpg-wh",
-      "source": "localllama",
-      "title": "I made Warrior Quest, a local LLM-powered dark-fantasy RPG where the model only plays NPCs and the actual game state stays deterministic",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa84sa/i_made_warrior_quest_a_local_llmpowered/",
-      "published_at": "2026-09-07T23:37:20Z",
-      "summary": "      The LLM is limited to NPC emulation. Game state, world logic, quests, and the authored story are handled by deterministic game systems rather than the LLM. I built it this way because I wanted the freedom of talkin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-07-help-building-pc-for-local-llm",
-      "source": "localllama",
-      "title": "Help building PC for Local LLM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa7nik/help_building_pc_for_local_llm/",
-      "published_at": "2026-09-07T23:16:06Z",
-      "summary": "Hello Sub Fellows I have currently a laptop with 3060 6GB VRAM and 32GB RAM. Thinking of selling it and use the cash for a new pc that I can keep running 24/7 for home use as private local inference server. I am torn bet",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-07-can-some-generous-soul-grant-me-my-wish",
-      "source": "localllama",
-      "title": "Can Some Generous Soul Grant Me My Wish?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa6wsp/can_some_generous_soul_grant_me_my_wish/",
-      "published_at": "2026-09-07T22:44:28Z",
-      "summary": "Please, Oh gentle soul, please beautiful soul, please kindhearted soul, with serious hardware and time to kill, please benchmark Unsloth Qwen3.8-27B-Q8_K_XL against Qwen3.8-Next-Flash-Q4_K_XL and provide the definitive a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-07-quoting-jakub-pachocki",
       "source": "simonw",
       "title": "Quoting Jakub Pachocki",
@@ -142,17 +164,6 @@
       "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...]\nWe will need powerful, aligned AI for defense; to secur",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-07-my-qwen38-27b-task-aware-quant-reaches-99-of-bf16-reasoning",
-      "source": "localllama",
-      "title": "My Qwen3.8-27B task-aware quant reaches 99% of BF16 reasoning performance at 15% of the size.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa5dp9/my_qwen3827b_taskaware_quant_reaches_99_of_bf16/",
-      "published_at": "2026-09-07T21:42:09Z",
-      "summary": "      TL;DR My TAK quant of Qwen 3.8 27b scored 82.81% on reasoning, comparted with 77.34% for the byte matched Unsloth UD IQ2_S and 83.59% for BF16. Edit: Some of you have tried coding with this reasoning-specialized qu",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -414,17 +425,6 @@
       "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
       "published_at": "2026-08-25T11:39:24Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-08-25-wire-it-run-it-deploy-it-ai-workflows-in-gradio",
-      "source": "huggingface",
-      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "url": "https://huggingface.co/blog/gradio-workflow-guide",
-      "published_at": "2026-08-25T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"

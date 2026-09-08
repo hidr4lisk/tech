@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-09-08T10:56:58Z",
+  "updated_at": "2026-09-08T16:21:36Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10865",
+      "project": "llama-cpp",
+      "version": "b10865",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10865",
+      "published_at": "2026-09-08T15:11:37Z",
+      "body_excerpt": "Revert \"ggml-cuda : restore prop.integrated on HIP builds (#24233)\" (#28604) This reverts commit c7d8722922a2599dc4d77f8808d8e6c2fde5e7a2. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10864",
+      "project": "llama-cpp",
+      "version": "b10864",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10864",
+      "published_at": "2026-09-08T14:31:22Z",
+      "body_excerpt": "server : apply checkpoint min-step eviction only when the checkpoint list is full (#28302) The spacing eviction in create_checkpoint() keeps the oldest checkpoint and erases every later one within checkpoint_min_step of it. For prompts shorter than checkpoint_min_step this drops the checkpoint at n_tokens - 4 that the next request resumes from, so hybrid/recurrent models re-prefill from the previo",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.807-beta",
+      "project": "unsloth",
+      "version": "v0.1.807-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.807-beta",
+      "published_at": "2026-09-08T14:21:12Z",
+      "body_excerpt": "This is a large performance and reliability + bug fix release for Unsloth Highlights AMD uses Vulkan by default - 20% perf boost for prefill, decoding vs ROCM Windows llama-server.exe is now signed, reducing false positives for SAC AMD gibberish issues in Strix, iGPUs fixed in (upstream - reported to AMD) Over 200+ bug fixes, 50% smaller binaries and performance improvements Updated PyTorch to 2.1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10863",
+      "project": "llama-cpp",
+      "version": "b10863",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10863",
+      "published_at": "2026-09-08T13:58:40Z",
+      "body_excerpt": "metal : fix idle threads in mul_mv_iq3_xxs for ne00 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10859",
+      "project": "llama-cpp",
+      "version": "b10859",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10859",
+      "published_at": "2026-09-08T12:35:03Z",
+      "body_excerpt": "llama : add missing headers (#28566) fix compile-error: add missing header Bug: #28557 Signed-off-by: Pepper Gray fix compile-error: add missing header Bug: #28559 Signed-off-by: Pepper Gray fix compile-error: add missing header Bug: #28560 Signed-off-by: Pepper Gray fix compile-error: add missing header Bug: #28561 Signed-off-by: Pepper Gray fix compile-error: add missing header Bug: #28562 Signe",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10858",
+      "project": "llama-cpp",
+      "version": "b10858",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10858",
+      "published_at": "2026-09-08T12:06:01Z",
+      "body_excerpt": "vulkan : fuse UNARY(GELU|SIGMOID|SILU|SOFTPLUS) + MUL (#27220) vulkan : fuse UNARY(SIGMOID|SILU|SOFTPLUS) + MUL vulkan : fuse UNARY(SIGMOID|SILU|SOFTPLUS) + MUL implement fusion in unary.comp behind UNARY_MUL_FUSION ifdef, specialized pipelines per op instead of runtime branching fuse adjacent nodes only, ordering handled by graph_optimize drop runtime consumer scan and pending_unary_mul deferral ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10857",
+      "project": "llama-cpp",
+      "version": "b10857",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10857",
+      "published_at": "2026-09-08T11:36:00Z",
+      "body_excerpt": "Fix Vulkan-Hpp handle usage on 32-bit targets. (#22892) On 32-bit platforms, Vulkan non-dispatchable handles such as VkBuffer are represented as uint64_t, and Vulkan-Hpp disables implicit conversions for type safety. This exposes two issues in ggml-vulkan: 1. vk::Buffer is streamed directly into std::ostream in debug/memory logs. 2. vk::Buffer is cast to VkBuffer before being passed to Vulkan-Hpp ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10856",
       "project": "llama-cpp",
@@ -10205,33 +10268,6 @@
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.11.0",
       "published_at": "2026-06-10T16:32:44Z",
       "body_excerpt": "Release v5.11.0 New Model additions DiffusionGemma DiffusionGemma is engineered to reduce the sequential bottlenecks of standard causal language models by employing an encoder-decoder architecture specifically optimized for inference speed. During inference, DiffusionGemma leverages multi-canvas sampling, where rather than generating one token at a time, the model iteratively denoises a full block",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-diffusiongemma-26B-A4B-it-NVFP4",
-      "project": "nvidia",
-      "version": "diffusiongemma-26B-A4B-it-NVFP4",
-      "url": "https://huggingface.co/nvidia/diffusiongemma-26B-A4B-it-NVFP4",
-      "published_at": "2026-06-10T16:00:45Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9590",
-      "project": "llama-cpp",
-      "version": "b9590",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9590",
-      "published_at": "2026-06-10T14:49:15Z",
-      "body_excerpt": "chat: fix LFM2/LFM2.5 ignoring json_schema (#24377) The LFM2 specialized template handler only built a grammar for tool-calling, silently ignoring json_schema from response_format. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9589",
-      "project": "llama-cpp",
-      "version": "b9589",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9589",
-      "published_at": "2026-06-10T14:13:02Z",
-      "body_excerpt": "CUDA: Fix ssm_scan_f32 data-races (#24360) Add missing syncthreads before resuing cub_temp_storage __syncthreads() is required before being allowed to resue TempStorage smem: Add one more missing __syncthreads Could also double-buffer, but alternative is to simply ensure all threads have read smem before writing to it again in the next loop iteration Remove unused smem from ssm_scan_f32 macOS/iOS:",
       "type": "tool"
     }
   ]
