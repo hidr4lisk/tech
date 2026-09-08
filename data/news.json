@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-09-08T03:55:34Z",
+  "updated_at": "2026-09-08T10:56:51Z",
   "items": [
+    {
+      "id": "localllama-2026-09-08-which-local-model-is-actually-good-at-knowing-when-to-stop-a",
+      "source": "localllama",
+      "title": "Which local model is actually good at knowing when to stop and ask you a question?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wake1h/which_local_model_is_actually_good_at_knowing/",
+      "published_at": "2026-09-08T10:17:21Z",
+      "summary": "I’ve been thinking about this after using more agentic/local coding models. A lot of the newer models are surprisingly good at continuing on their own. But sometimes that seems like the problem. If a requirement is ambig",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-08-super-intelligent-small-models-vs-super-efficient-large-mode",
+      "source": "localllama",
+      "title": "Super-intelligent small models vs. super-efficient large models.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wajzc1/superintelligent_small_models_vs_superefficient/",
+      "published_at": "2026-09-08T09:55:02Z",
+      "summary": "What do you think is the future of local LLMs? This technology is booming and keeps growing; eventually, models will become both smarter and more optimized. Do you think the future of optimization lies in very small yet ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-08-what-are-some-practical-tasks-i-can-assign-to-my-local-ai-mo",
+      "source": "localllama",
+      "title": "What are some practical tasks I can assign to my local AI models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waj4k4/what_are_some_practical_tasks_i_can_assign_to_my/",
+      "published_at": "2026-09-08T09:05:02Z",
+      "summary": "I&#39;m looking for more information to expand my creativity around this. I don&#39;t really have a realistic idea of what people actually do with local AI yet, I mostly just want to explore the possibilities and see wha",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-08-i-made-a-custom-llamacpp-build-optimized-for-7900xtx-one-or",
+      "source": "localllama",
+      "title": "I made a custom llama.cpp build optimized for 7900xtx (one or two). for qwen 3.8 next and 27B. includes optimizations for PciE x4 and tensor parallel. read inside! (no AI slop)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waif2b/i_made_a_custom_llamacpp_build_optimized_for/",
+      "published_at": "2026-09-08T08:22:52Z",
+      "summary": "I found a lot of room on the table for these cards so I decided to make a specialized build to squeeze all I could. first The results: qwen 3.8 next Q3_K_XL: 920tk/s pp8192 (2 cards, ram offload), 24/27 tk/s on prose, 40",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-08-voice-conversations-between-gemma4-12b-and-e2b-on-gpu-and-je",
+      "source": "localllama",
+      "title": "Voice conversations between Gemma4 12B and E2B on GPU and Jetson Orin",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waefz4/voice_conversations_between_gemma4_12b_and_e2b_on/",
+      "published_at": "2026-09-08T04:36:49Z",
+      "summary": "      Gemma 4 12B runs on an RTX PRO 4500 Blackwell. Gemma 4 E2B run on a Jetson Orin NX 16GB; similar performance is expected on a Jetson Orin Nano Super 8GB. Both systems use a reSpeaker Flex 4-mic array and a 3W speak",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-08-qwen38-flash-next-on-2x3090-912-faster-decode-at-119k-contex",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next on 2x3090: 9–12% faster decode at ~119k context, with a completed quality screen",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wacae2/qwen38flashnext_on_2x3090_912_faster_decode_at/",
+      "published_at": "2026-09-08T02:48:10Z",
+      "summary": "An update to my previous post on running Flash-Next with the expert cache and MTP. I found another useful improvement on the same dual-3090 setup: replacing the CUDA top-k fallback used by my build. On long project-docum",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-08-for-strix-halo---official-llamacpp-isnt-ideal-and-how-to-hig",
       "source": "localllama",
@@ -85,72 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa5dp9/my_qwen3827b_taskaware_quant_reaches_99_of_bf16/",
       "published_at": "2026-09-07T21:42:09Z",
       "summary": "      TL;DR My TAK quant of Qwen 3.8 27b scored 82.81% on reasoning, comparted with 77.34% for the byte matched Unsloth UD IQ2_S and 83.59% for BF16. Edit: Some of you have tried coding with this reasoning-specialized qu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-07-exllamav3-is-underrated",
-      "source": "localllama",
-      "title": "ExLlamaV3 is underrated",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa36d1/exllamav3_is_underrated/",
-      "published_at": "2026-09-07T20:16:44Z",
-      "summary": "I moght get shit on for posting this but, I feel like i don&#39;t see this being talked enough and it feels like such a waste of a good piece of software. Exl3 is incredible, albeit only if you have NVIDIA cards I think?",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-07-qwen35-08b-on-cpu",
-      "source": "localllama",
-      "title": "Qwen3.5 0.8B on CPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa2z88/qwen35_08b_on_cpu/",
-      "published_at": "2026-09-07T20:09:18Z",
-      "summary": "Since the Qwen3.5 0.8B model is an interesting one for small specialized fine tunes, I was curious how fast it can run on CPUs. Why CPUs? Mainly because I want to use it as a local dictation cleanup model when I&#39;m us",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-07-friends-dont-let-friends-use-ollama",
-      "source": "localllama",
-      "title": "Friends Don't Let Friends Use Ollama",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa26pn/friends_dont_let_friends_use_ollama/",
-      "published_at": "2026-09-07T19:40:10Z",
-      "summary": "      &#32; submitted by &#32;  /u/rm-rf-rm   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-07-exllamav3-comfortably-beats-llamacpp-running-cpu-offloaded-q",
-      "source": "localllama",
-      "title": "exllamav3 comfortably beats llama.cpp running CPU-offloaded Qwen-3.8-Flash-Next on my setup!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa1jkb/exllamav3_comfortably_beats_llamacpp_running/",
-      "published_at": "2026-09-07T19:16:48Z",
-      "summary": "I got 2x 20GB RTX 3080s + 128GB of DDR4 2666hz RAM (only 4 of 6 channels populated) + a Xeon 6148  I&#39;ve always been a llama.cpp person and I&#39;ve been running Unsloth&#39;s Q4_K_XL quant of Qwen 3.8 Flash Next at ~",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-07-cybersecurity-is-local-ai-models-killer-use-case",
-      "source": "localllama",
-      "title": "Cybersecurity is local AI model's killer use case",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa0ucq/cybersecurity_is_local_ai_models_killer_use_case/",
-      "published_at": "2026-09-07T18:51:24Z",
-      "summary": "This weekend I posted about the gap closing between frontier models and open source models. Well, now I&#39;m coming with receipts.  I&#39;ve been running local + cloud models against real public github codebases. This i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-07-has-anyone-noticed-a-difference-between-bf16-and-q8-quantiza",
-      "source": "localllama",
-      "title": "Has anyone noticed a difference between bf16 and q8 quantization ever?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa0nvr/has_anyone_noticed_a_difference_between_bf16_and/",
-      "published_at": "2026-09-07T18:44:52Z",
-      "summary": "I&#39;m currently running qwen 3.8 27b q8 and super happy with it. I have a DGX spark so could theoretically run at bf16 quantization.  I know the measurable differences between an 8 bit and 16 bit quant are small, but I",
       "tags": [
         "localllama"
       ]
