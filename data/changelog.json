@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-09-09T04:00:49Z",
+  "updated_at": "2026-09-09T11:01:27Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10874",
+      "project": "llama-cpp",
+      "version": "b10874",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10874",
+      "published_at": "2026-09-09T09:55:00Z",
+      "body_excerpt": "model: fix granite3 moe unknown parameter count (#28632) Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL F",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10873",
+      "project": "llama-cpp",
+      "version": "b10873",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10873",
+      "published_at": "2026-09-09T09:21:31Z",
+      "body_excerpt": "mtmd: propagate video ID to bitmap (#28601) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.29.0",
+      "project": "vllm",
+      "version": "v0.29.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+      "published_at": "2026-09-09T08:54:49Z",
+      "body_excerpt": "v0.29.0 Highlights This release features 594 commits from 277 contributors (91 new)! Model Runner V2 is now the default for all models (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache auto-sizing (#53306), batch-sharded sampling that cuts per-step logits memory by 1/TP (#50465), prompt embeds (#42963), speculation (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10872",
+      "project": "llama-cpp",
+      "version": "b10872",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10872",
+      "published_at": "2026-09-09T07:44:59Z",
+      "body_excerpt": "jinja: treat a null left operand of in as a plain lookup (#28620) Templates that default an optional variable to none and then test its membership in a map hit an error, while the same expression is a normal lookup returning false in Jinja. The undefined counterpart of this case was already handled just above. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10871",
+      "project": "llama-cpp",
+      "version": "b10871",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10871",
+      "published_at": "2026-09-09T07:17:51Z",
+      "body_excerpt": "vulkan: add dedicated iq4_xs mat-vec shader (#28426) vulkan: add dedicated iq4_xs mat-vec shader Dedicated mul_mat_vec_iq4_xs for the dmmv path, replacing the generic fallback. ~+6-17% token generation on RDNA4 depending on model. Assisted-by: Pi agent with Qwen3.8 27B vulkan iq4_xs: remove dead n_it unroll branch Remove the n_it Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10870",
+      "project": "llama-cpp",
+      "version": "b10870",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10870",
+      "published_at": "2026-09-09T06:38:52Z",
+      "body_excerpt": "vulkan: add f16 B-type matmul pipelines and warp tile size tuning for Intel coopmat1 (#27471) vulkan: add f16 B-type matmul pipelines and warp tile size tuning for Intel coopmat1 simplify mmp selection in mul_mat_id per review comment vulkan: enable f16 B-type pipeline for dense matmul on all vendors (MoE stays Intel-only) vulkan: add missing ocp_fp4 branches, restrict required_subgroup_size to In",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10869",
+      "project": "llama-cpp",
+      "version": "b10869",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10869",
+      "published_at": "2026-09-09T05:25:55Z",
+      "body_excerpt": "tests : use less threads for data initialization (#28325) tests : use 1 thread for data initialization cont : scale threads with number of elements cont : adjust Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubunt",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10868",
       "project": "llama-cpp",
@@ -10259,24 +10322,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.4.1",
       "published_at": "2026-06-11T16:33:15Z",
       "body_excerpt": "What's Changed Other Changes docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in fix(vllm): restore compatibility with vLLM >= 0.22 (get_tokenizer moved to vllm.tokenizers) by @pos-ei-don in feat(realtime): stream the LLM / TTS / transcription pipeline stages by @localai-bot in docs: fix broken relref to realtime page by",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9596",
-      "project": "llama-cpp",
-      "version": "b9596",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9596",
-      "published_at": "2026-06-11T10:08:57Z",
-      "body_excerpt": "server: skip unused log lines on router mode (#24463) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9594",
-      "project": "llama-cpp",
-      "version": "b9594",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9594",
-      "published_at": "2026-06-11T08:26:42Z",
-      "body_excerpt": "vocab : refactor normalizer flags into options struct, add strip_accents (#24371) vocab : refactor normalizer flags into options struct, add strip_accents Update src/llama-vocab.h Co-authored-by: Sigbjørn Skjæret Update src/llama-vocab.cpp Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
       "type": "tool"
     }
   ]
