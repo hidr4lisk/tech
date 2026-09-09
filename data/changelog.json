@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-08T20:56:33Z",
+  "updated_at": "2026-09-09T04:00:49Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10868",
+      "project": "llama-cpp",
+      "version": "b10868",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10868",
+      "published_at": "2026-09-09T02:00:39Z",
+      "body_excerpt": "Add IQ type handling for MoE (#28476) Co-authored-by: cwriter Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYC",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10867",
       "project": "llama-cpp",
@@ -299,6 +308,15 @@
       "type": "tool"
     },
     {
+      "id": "ollama-v0.34.0-rc3",
+      "project": "ollama",
+      "version": "v0.34.0-rc3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc3",
+      "published_at": "2026-09-05T23:49:00Z",
+      "body_excerpt": "Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly thr",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b10819",
       "project": "llama-cpp",
       "version": "b10819",
@@ -333,6 +351,15 @@
       "published_at": "2026-09-05T02:27:42Z",
       "body_excerpt": "Highlights 786 PRs from 214 contributors. New models in this release (see the cookbook for all supported models): | Model | Type | PRs | Cookbook | |---|---|---|---| | Qwen3.8 (2.4T-A95B) | Autoregressive | #35758 ⭐ | link | | Qwen3.8-27B | Autoregressive | #34859 | link | | dots3.note | Autoregressive | #33829 ⭐ | link | | Ling-3.0-flash | Autoregressive | #33561 | link | | Ling-3.0-tiny | Autore",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Qwen3.8-27B-NVFP4",
+      "project": "nvidia",
+      "version": "Qwen3.8-27B-NVFP4",
+      "url": "https://huggingface.co/nvidia/Qwen3.8-27B-NVFP4",
+      "published_at": "2026-09-04T21:43:04Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10816",
@@ -639,6 +666,24 @@
       "published_at": "2026-09-02T19:56:21Z",
       "body_excerpt": "ggml-cuda : remove unused vars (#28235) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-3-Labs-Ultra-Math-RL",
+      "project": "nvidia",
+      "version": "Nemotron-3-Labs-Ultra-Math-RL",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Labs-Ultra-Math-RL",
+      "published_at": "2026-09-02T19:11:33Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-3-Labs-Ultra-Math-SFT",
+      "project": "nvidia",
+      "version": "Nemotron-3-Labs-Ultra-Math-SFT",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Labs-Ultra-Math-SFT",
+      "published_at": "2026-09-02T19:11:32Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10763",
