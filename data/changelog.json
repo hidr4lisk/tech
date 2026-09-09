@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-09T16:17:23Z",
+  "updated_at": "2026-09-09T20:44:56Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10883",
+      "project": "llama-cpp",
+      "version": "b10883",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10883",
+      "published_at": "2026-09-09T17:29:28Z",
+      "body_excerpt": "vulkan: use spec constant for matrix matrix multiplication A-type (#25773) vulkan: use spec constant for mul mat type_a vulkan: use map for mul_mm shapes cleanup fix indentation fix cm2 and shmem init fix cm2 spec constants fix cm2 bindings consolidate shmem tables and reduce size by type spec constant fix compiler warning fix missing Q2_0 type fix unused warning when integer dot glslc support is ",
+      "type": "tool"
+    },
     {
       "id": "transformers-v5.17.0",
       "project": "transformers",
@@ -438,6 +447,15 @@
       "project": "ollama",
       "version": "v0.34.0-rc3",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc3",
+      "published_at": "2026-09-05T23:49:00Z",
+      "body_excerpt": "Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly thr",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.34.0-rc4",
+      "project": "ollama",
+      "version": "v0.34.0-rc4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc4",
       "published_at": "2026-09-05T23:49:00Z",
       "body_excerpt": "Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly thr",
       "type": "tool"
@@ -10367,24 +10385,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.4.2",
       "published_at": "2026-06-11T22:22:09Z",
       "body_excerpt": "What's Changed Other Changes chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in chore: :arrow_up: Update CrispStrobe/CrispASR to by @localai-bot in fix(vllm): parse tool_call function arguments before applying the chat template by @pos-ei-don in fix(cuda): install cuda-nvrtc-dev alongside the other CUDA dev packages by @pos-ei-don in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9601",
-      "project": "llama-cpp",
-      "version": "b9601",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9601",
-      "published_at": "2026-06-11T18:56:38Z",
-      "body_excerpt": "vulkan: ifdef eMesaHoneykrisp (build fix) (#24479) Fixes build/CI after #24306. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: And",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.4.1",
-      "project": "localai",
-      "version": "v4.4.1",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.4.1",
-      "published_at": "2026-06-11T16:33:15Z",
-      "body_excerpt": "What's Changed Other Changes docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in chore: :arrow_up: Update antirez/ds4 to by @localai-bot in fix(vllm): restore compatibility with vLLM >= 0.22 (get_tokenizer moved to vllm.tokenizers) by @pos-ei-don in feat(realtime): stream the LLM / TTS / transcription pipeline stages by @localai-bot in docs: fix broken relref to realtime page by",
       "type": "tool"
     }
   ]

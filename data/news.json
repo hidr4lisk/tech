@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-09-09T16:17:17Z",
+  "updated_at": "2026-09-09T20:44:49Z",
   "items": [
+    {
+      "id": "localllama-2026-09-09-qwen38-27b-has-the-best-coding-ceiling-you-can-run-at-home-o",
+      "source": "localllama",
+      "title": "Qwen3.8-27B has the best coding ceiling you can run at home on consumer hardware, it ships with reasoning_effort defaulting to xhigh - I measured what that costs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbwnlx/qwen3827b_has_the_best_coding_ceiling_you_can_run/",
+      "published_at": "2026-09-09T20:05:11Z",
+      "summary": "      Its chat template has this line: {%- set resolved_reasoning_effort = reasoning_effort|default(&#39;xhigh&#39;) %}  xhigh is the most expensive of its three settings (low / medium / xhigh). If you never set one, tha",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-adding-emotion-control-tags-to-qwen3-tts",
+      "source": "localllama",
+      "title": "Adding emotion control tags to Qwen3-TTS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbvrjg/adding_emotion_control_tags_to_qwen3tts/",
+      "published_at": "2026-09-09T19:34:05Z",
+      "summary": "I fine-tuned Qwen3-TTS with inline transcript control tags rather in lieu of a separate instruction parameter and thought the community here might be interested in the result. https://huggingface.co/SpragAI/qwen3-tts-emo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-would-you-consider-5ts-usable-for-a-local-model",
+      "source": "localllama",
+      "title": "Would you consider 5t/s usable for a local model?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbvd2i/would_you_consider_5ts_usable_for_a_local_model/",
+      "published_at": "2026-09-09T19:20:00Z",
+      "summary": "I&#39;m able to run qwen3.8 27b in two ways on my system: split between my 3060 12gb and 9070xt running at 20t/s or running off the 780m iGPU and 5400mhz DDR5 at 5t/s. Personally I feel like the 5t/s is still more usable",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-dont-let-fomo-win-if-youre-interested-in-local-llm-from-a-ho",
+      "source": "localllama",
+      "title": "Don't let FOMO win if you're interested in local llm from a hobby/learning aspect",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbufx5/dont_let_fomo_win_if_youre_interested_in_local/",
+      "published_at": "2026-09-09T18:48:27Z",
+      "summary": "Just a reminder for those out there itching to get into local llms - don&#39;t let FOMO or &quot;gear acquisition syndrom&quot; take over. No matter the hobby, it&#39;s so easy to get stuck in a trap where we buy more tr",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-server-rebuild-to-custom-loop-2x-rtx-titans-24gb-1x-22gb-208",
+      "source": "localllama",
+      "title": "Server rebuild to custom loop. 2x RTX Titans 24gb, 1x 22gb 2080ti | T: 70GB VRAM.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbttmz/server_rebuild_to_custom_loop_2x_rtx_titans_24gb/",
+      "published_at": "2026-09-09T18:27:01Z",
+      "summary": "      Server rebuild to custom loop. Temps on the gpus went from upper 80s to mid 40s under load, 30c idle. 5950X 64gb ddr4 2x rtx titans (24gb vram ea) 1x modded 2080ti with 22gb vram  &#32; submitted by &#32;  /u/Cleri",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-i-trained-an-audio-model-that-can-generate-infinite-one-shot",
+      "source": "localllama",
+      "title": "I trained an audio model that can generate infinite one-shots for music production and turn text prompts into fully playable synths. I'm not only releasing the model but I've also released a video on exactly how I did it (and the inferencing pipeline to let others make text based synths.)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbtqt7/i_trained_an_audio_model_that_can_generate/",
+      "published_at": "2026-09-09T18:24:19Z",
+      "summary": "      (hopefully this is okay to here - it seems like audio models and image / video modeals is allowed but yeah this is a bit different) So I&#39;ve been doing independent audio research for a while now. The ultimate dr",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-solved-llm-inference-on-windows-was-23x-slower-when-the-serv",
+      "source": "localllama",
+      "title": "Solved: LLM inference on Windows was 2–3x slower when the server window wasn't focused",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbtmjg/solved_llm_inference_on_windows_was_23x_slower/",
+      "published_at": "2026-09-09T18:20:09Z",
+      "summary": "The fix: run the server detached/headless instead of keeping it attached to a console window. RTX 5090, ~27B NVFP4 model via ninfer:  Terminal focused: 130–200 tok/s Terminal unfocused: 50–60 tok/s Click the terminal → i",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-09-best-open-source-tts-right-now-for-narration",
       "source": "localllama",
@@ -63,83 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbmo0k/qwen3827buncensoredgenesisv1gguf/",
       "published_at": "2026-09-09T14:09:31Z",
       "summary": "Model available here: Qwen3.8-27B-Uncensored-Genesis-V1-MTP-GGUF This model is a practical realisation of things described in this paper, but adapted by me for machine learning: https://arxiv.org/pdf/1311.0851v1 I am try",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-1-bit-27b-in-the-browser-2530-toks-on-a-6-gb-rtx-3060-laptop",
-      "source": "localllama",
-      "title": "1-bit 27B in the browser: 25–30 tok/s on a 6 GB RTX 3060 Laptop (WebGPU, no install)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbm50k/1bit_27b_in_the_browser_2530_toks_on_a_6_gb_rtx/",
-      "published_at": "2026-09-09T13:49:13Z",
-      "summary": "      mentria.ai is a browser inference engine I&#39;ve been building solo, from scratch in WebGPU/WGSL. This week it crossed a milestone I had been chasing for a while: a 27B one-bit model answering at up to 30 tokens/s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-why-the-hell-is-lm-studio-making-lm-studio-so-difficult-to-d",
-      "source": "localllama",
-      "title": "Why the hell is LM Studio making LM Studio so difficult to download?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wble79/why_the_hell_is_lm_studio_making_lm_studio_so/",
-      "published_at": "2026-09-09T13:19:39Z",
-      "summary": "      Who is the marketing genius at LM Studio that decided that going ALL IN on pushing their new Bionic Agent product meant they are going to make it a giant pain in the ass to find and download actual LM Studio.  This",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-glm-53-flash-q4-60tps-550tps-on-m3-ultra",
-      "source": "localllama",
-      "title": "GLM 5.3 Flash Q4 @ 60tps / 550tps on M3 Ultra",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbkpnw/glm_53_flash_q4_60tps_550tps_on_m3_ultra/",
-      "published_at": "2026-09-09T12:51:21Z",
-      "summary": "      I have been a dwarfstar fan for awhile and I really liked glm 5.3 flash but needed it to be materially faster to feel good using it. In the screenshot you can see the outcome of using the model with a claude code h",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-what-settings-do-you-use-for-running-qwen38-flash-next-in-ll",
-      "source": "localllama",
-      "title": "What settings do you use for running Qwen3.8-Flash-Next in llama.cpp?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbkdqz/what_settings_do_you_use_for_running/",
-      "published_at": "2026-09-09T12:36:41Z",
-      "summary": "Hi, I&#39;m wondering what settings you are using in order to run Qwen3.8-Flash-Next on your devices? I&#39;m especially interested in setups with 96GB VRAM. I&#39;m not quite sure if llama.cpp does offload the embedding",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-qwen-is-working-better-for-me-than-chatgpt-whats-the-best-wa",
-      "source": "localllama",
-      "title": "Qwen is working better for me than ChatGPT – what’s the best way to use it with ZIP/code projects?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbk23l/qwen_is_working_better_for_me_than_chatgpt_whats/",
-      "published_at": "2026-09-09T12:22:06Z",
-      "summary": "I’ve been using Qwen a lot recently and I’m honestly very impressed with it. For some of my tasks, Qwen seems to understand what I’m actually trying to achieve better than ChatGPT/GPT-5.6. I currently pay for ChatGPT, bu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-now-this-is-a-serious-local-machine",
-      "source": "localllama",
-      "title": "Now this is a serious local machine",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbir6v/now_this_is_a_serious_local_machine/",
-      "published_at": "2026-09-09T11:20:09Z",
-      "summary": "Amd announced this: https://www.amd.com/en/products/workstations/amd-threadripper-halo-station.html  &#32; submitted by &#32;  /u/Apprehensive_Bar6609   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-deepseek-v4-flash-vision-exp-285b-moe-on-10-12x-rtx-3090-spe",
-      "source": "localllama",
-      "title": "DeepSeek-V4-Flash-Vision-Exp (285B MoE) on 10-12x RTX 3090 — spec decoding, vision",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbi5u1/deepseekv4flashvisionexp_285b_moe_on_1012x_rtx/",
-      "published_at": "2026-09-09T10:50:10Z",
-      "summary": "Running the full deepseek-ai/DeepSeek-V4-Flash-Vision-Exp on consumer Ampere — 10-12x RTX 3090, SM86-compatible vLLM build. 285B MoE, FP4 experts + FP8 attention, 157 GB weights. Highlights: - **60+ tok/s** decode, DSpar",
       "tags": [
         "localllama"
       ]
