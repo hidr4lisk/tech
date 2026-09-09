@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-09-09T11:01:27Z",
+  "updated_at": "2026-09-09T16:17:23Z",
   "releases": [
+    {
+      "id": "transformers-v5.17.0",
+      "project": "transformers",
+      "version": "v5.17.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.17.0",
+      "published_at": "2026-09-09T15:42:45Z",
+      "body_excerpt": "Release v5.17.0 New Model additions HYV4 Hy4-Preview is a 780B-parameter mixture-of-experts language model that activates 49B parameters per token. Each MoE layer holds 256 routed experts plus one always-active shared expert and routes every token to 8 of them. The context window is 1M tokens. The architecture combines four features: Multi-head Latent Attention (MLA) compresses keys and values int",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10881",
+      "project": "llama-cpp",
+      "version": "b10881",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10881",
+      "published_at": "2026-09-09T15:32:07Z",
+      "body_excerpt": "vulkan: Convert FILL to distribute workgroups in 2D to avoid exceeding maxComputeWorkGroupCount (#28592) divide workload to 2D This is to workaround FILL exceeding maxComputeWorkGroupCount for Intel GPUs on Qwen 3.8 flash next minor change Fixed comment Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFrame",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.808-beta",
+      "project": "unsloth",
+      "version": "v0.1.808-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.808-beta",
+      "published_at": "2026-09-09T15:18:29Z",
+      "body_excerpt": "This is a large performance and reliability + bug fix release for Unsloth Highlights 1.2-1.7x faster diffusion. AMD 20% perf boost vs ROCM via Vulkan 2x faster updating, remove SAC + AV false positives for Windows Blender MCP, detect Hermes, AMD gibberish fixed (reported to AMD) Over 250+ bug fixes, 60% smaller binaries and performance improvements Strix iGPU BIOS popup - 3x faster inference if mo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10878",
+      "project": "llama-cpp",
+      "version": "b10878",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10878",
+      "published_at": "2026-09-09T13:23:44Z",
+      "body_excerpt": "llama : use int32_t for llama_sampler_chain_n return type (#28631) Contributes to #4574 Co-authored-by: linsen Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10877",
+      "project": "llama-cpp",
+      "version": "b10877",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10877",
+      "published_at": "2026-09-09T12:53:34Z",
+      "body_excerpt": "CUDA: size routed MoE MMQ N-tiles from typical expert width on RDNA3 (#28552) Recreated from #24546 --------- Co-authored-by: Carl Philipp Klemm CUDA: pick MMQ tile size against ncols_opt set on the host side Assisted-by: Claude Fable 5.1 Claude-Session: --------- Co-authored-by: ravel7524 Co-authored-by: Carl Philipp Klemm Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10876",
+      "project": "llama-cpp",
+      "version": "b10876",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10876",
+      "published_at": "2026-09-09T11:45:32Z",
+      "body_excerpt": "CUDA: replace GGML_FA_ALL_QUANTS with GGML_FA_QUANTS, more control over what is compiled (#28079) CUDA: add configurable FA quant combinations Assisted-by: Codex remove all flags but , add runtime fallback with warning for uncompiled combination Update docs/build.md Co-authored-by: Johannes Gäßler apply code review comments --------- Co-authored-by: Johannes Gäßler Website: Attestations: macOS/iOS",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10875",
+      "project": "llama-cpp",
+      "version": "b10875",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10875",
+      "published_at": "2026-09-09T11:14:46Z",
+      "body_excerpt": "args: officially deprecate --mmap|mlock|dio (#28334) Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10874",
       "project": "llama-cpp",
