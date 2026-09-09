@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-09-09T04:00:41Z",
+  "updated_at": "2026-09-09T11:01:19Z",
   "items": [
+    {
+      "id": "localllama-2026-09-09-deepseek-v4-flash-vision-exp-285b-moe-on-10-12x-rtx-3090-spe",
+      "source": "localllama",
+      "title": "DeepSeek-V4-Flash-Vision-Exp (285B MoE) on 10-12x RTX 3090 — spec decoding, vision",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbi5u1/deepseekv4flashvisionexp_285b_moe_on_1012x_rtx/",
+      "published_at": "2026-09-09T10:50:10Z",
+      "summary": "Running the full deepseek-ai/DeepSeek-V4-Flash-Vision-Exp on consumer Ampere — 10-12x RTX 3090, SM86-compatible vLLM build. 285B MoE, FP4 experts + FP8 attention, 157 GB weights. Highlights: - **60+ tok/s** decode, DSpar",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-gemma4-12b-cannot-listen-to-audio-from-the-videos",
+      "source": "localllama",
+      "title": "Gemma4 12B cannot listen to audio from the videos?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbhsv4/gemma4_12b_cannot_listen_to_audio_from_the_videos/",
+      "published_at": "2026-09-09T10:30:13Z",
+      "summary": "Currently serving Gemma4 12b with this command: ``` .\\llama-server.exe -m ..\\llm-models\\gemma-4-12B-it-heretic-QAT-UD-Q4_K_XL.gguf --mmproj ..\\llm-models\\mmproj-Gemma4-12B-BF16.gguf -ngl 99 ``` Then I go to llama&#39;s w",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-is-anyone-working-on-conversation-compaction",
+      "source": "localllama",
+      "title": "Is anyone working on conversation compaction?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbgqnp/is_anyone_working_on_conversation_compaction/",
+      "published_at": "2026-09-09T09:30:49Z",
+      "summary": "In our chat app &quot;harness&quot; we recursively generate summaries, L1 → L2 → L3. L1 summaries are more factual extraction than coherence, then get rolled into a more storytelling L2. Then we keep a tail of always ~10",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-deepseek-has-soft-retired-deepseek-v4-pro",
+      "source": "localllama",
+      "title": "Deepseek Has Soft Retired Deepseek V4 Pro",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbfrut/deepseek_has_soft_retired_deepseek_v4_pro/",
+      "published_at": "2026-09-09T08:34:28Z",
+      "summary": "      &#32; submitted by &#32;  /u/Few_Painter_5588   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-new-nex-model",
+      "source": "localllama",
+      "title": "new Nex model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbemg0/new_nex_model/",
+      "published_at": "2026-09-09T07:25:10Z",
+      "summary": "      new model of nex benchmark seems like good https://huggingface.co/nex-agi/Nex-N2.5-Max  &#32; submitted by &#32;  /u/Lordaizen639   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-mimo-x-pro-preview-and-mimo-x-flash-preview---new-mimo-model",
+      "source": "localllama",
+      "title": "MiMo-X-Pro-Preview and MiMo-X-Flash-Preview - New Mimo Model found in Mimo Desktop preview announcement",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbejtp/mimoxpropreview_and_mimoxflashpreview_new_mimo/",
+      "published_at": "2026-09-09T07:20:54Z",
+      "summary": "From the email &quot;Early access to new models During the program, approved users can try two next-generation Xiaomi MiMo models for a limited time: MiMo-X-Pro-Preview and MiMo-X-Flash-Preview. The MiMo-X series is opti",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-is-there-a-dummies-guide-for-setting-up-qwen-27b-with-dflash",
+      "source": "localllama",
+      "title": "Is there a dummies guide for setting up qwen 27B with dflash2 and n-gram?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbcbuv/is_there_a_dummies_guide_for_setting_up_qwen_27b/",
+      "published_at": "2026-09-09T05:17:47Z",
+      "summary": "I&#39;m pretty sure I still wont be able to run it, but I wanna try dammit!  &#32; submitted by &#32;  /u/thebadslime   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-what-openbmb-1b-version-is-this",
+      "source": "localllama",
+      "title": "What OpenBMB 1B version is this?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbagpr/what_openbmb_1b_version_is_this/",
+      "published_at": "2026-09-09T03:42:47Z",
+      "summary": "      This is from the https://huggingface.co/IFM/K2-Horizon-0.9B benchmark image Tried searching for it but couldn&#39;t find it, I am guessing is https://huggingface.co/openbmb/MiniCPM5-1B but the numbers do not match ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-09-dsv4-flash-0731-on-openrouter-why-is-the-price-so-low",
       "source": "localllama",
@@ -46,17 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-09-qwen36-35b-a3b-or-nex-n25-mini",
-      "source": "localllama",
-      "title": "Qwen3.6 35B A3B or Nex-N2.5-mini?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wb6cp9/qwen36_35b_a3b_or_nexn25mini/",
-      "published_at": "2026-09-09T00:35:43Z",
-      "summary": "I am getting a hard time trying to compare the two models, so I am asking it here. For coding, which one should I use? I currently use Qwen3.6 35B A3B UD-Q5_K_XL with MTP and I wish it was a little better  &#32; submitte",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-08-on-the-navierstokes-millennium-prize-problem",
       "source": "simonw",
       "title": "On the Navier–Stokes Millennium Prize Problem",
@@ -68,17 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-08-is-rx-6800-6800-xt-a-sensible-upgrade-from-2x-rtx-2060-oc-12",
-      "source": "localllama",
-      "title": "Is RX 6800 + 6800 XT a sensible upgrade from 2x RTX 2060 OC 12GB for llama.cpp?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wb3t30/is_rx_6800_6800_xt_a_sensible_upgrade_from_2x_rtx/",
-      "published_at": "2026-09-08T22:47:41Z",
-      "summary": "I’m currently running llama.cpp on two RTX 2060 12GB cards, so 24GB total VRAM. With Qwen3.8 27B IQ4_XS at 131k context I’m getting around 45 tok/s, which is actually pretty good for this setup. I found a deal on an RX 6",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-08-introducing-chatgpt-images-25",
       "source": "simonw",
       "title": "Introducing ChatGPT Images 2.5",
@@ -87,72 +153,6 @@
       "summary": "Introducing ChatGPT Images 2.5\nOpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-f",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-08-how-many-agents-can-24090-actually-run-at-once-three-weeks-o",
-      "source": "localllama",
-      "title": "How many agents can 2×4090 actually run at once? Three weeks of llama.cpp concurrency data — soft cap 5 @ 64k, hard cap 9, and why.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wb35xo/how_many_agents_can_24090_actually_run_at_once/",
-      "published_at": "2026-09-08T22:21:43Z",
-      "summary": "      I&#39;m the CTO of a mid-size nonprofit, and I run a local Qwen stack as a coding subagent for that work — partly on principle (a fair amount of what I handle shouldn&#39;t leave the building), partly because the t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-08-on-the-value-of-human-ideas-what-data-poisoning-research-rev",
-      "source": "localllama",
-      "title": "On the Value of Human Ideas: What data poisoning research reveals about \"autonomous\" AI breakthroughs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wazzes/on_the_value_of_human_ideas_what_data_poisoning/",
-      "published_at": "2026-09-08T20:23:23Z",
-      "summary": "I was reading up on the recent controversy around Tristan Buckmaster, Levent Alpöge, OpenAI, and the Navier–Stokes result, and it got me thinking about something broader than this particular dispute. Buckmaster says that",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-08-a-hilarious-comment-about-llamacpp-its-a-fb-business-using-t",
-      "source": "localllama",
-      "title": "A hilarious comment about llama.cpp: “It’s a FB business using the pipeline to make profits”",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wazp0v/a_hilarious_comment_about_llamacpp_its_a_fb/",
-      "published_at": "2026-09-08T20:13:11Z",
-      "summary": "      from a 10K star open source project maintainer. Context: I tried to explain that audio.cpp is built around the same philosophy as llama.cpp, but for audio models. &quot;If you know llama.cpp, audio.cpp is ...&quot;",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-08-qwen-38-27b-with-pi-agent---pushed-to-its-3d-graphic-game-li",
-      "source": "localllama",
-      "title": "Qwen 3.8 27b with PI agent - pushed to its 3D graphic game limits",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waz5a0/qwen_38_27b_with_pi_agent_pushed_to_its_3d/",
-      "published_at": "2026-09-08T19:53:58Z",
-      "summary": "      I was inspired by Bijan Bowen video - Subway FPS https://youtu.be/6kjXzTVmT58?t=1035 Wondered how far I can push Qwen 3.8 27b so I used a plan made by Fable 5.1 DESIGN.md which has 267 KB! ( 26K of design line for ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-08-qwen38-flash-next-in-llamacpp-vs-sglang-vs-freetoken-35s-vs",
-      "source": "localllama",
-      "title": "Qwen3.8-Flash-Next in llama.cpp vs SGLang vs FreeToken: 35s vs 258s to first token at full context. My findings on new PRs coming to engines.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waydqj/qwen38flashnext_in_llamacpp_vs_sglang_vs/",
-      "published_at": "2026-09-08T19:26:41Z",
-      "summary": "      Hey guys, After my CPU-only to 96GB VRAM test, I tested Qwen3.8-Flash-Next across llama.cpp, SGLang and FreeToken on the same workstation. This time I wanted to see what changes when you keep the hardware and model",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-08-i-built-infercat-share-your-local-ai-with-friends-over-an-en",
-      "source": "localllama",
-      "title": "I built Infercat: Share your local AI with friends over an encrypted p2p tunnel. Connect with an invite code from anywhere.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waxlpb/i_built_infercat_share_your_local_ai_with_friends/",
-      "published_at": "2026-09-08T18:59:42Z",
-      "summary": "      Hello LocalLLaMA Fam! I built this project because I, like many of us here, enjoy local AI and have a nice setup, but still find myself reaching for Cloud-based AI due to their convenience. My models run on my MacB",
-      "tags": [
-        "localllama"
       ]
     },
     {
