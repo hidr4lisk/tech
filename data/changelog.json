@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-10T03:59:55Z",
+  "updated_at": "2026-09-10T10:58:02Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10889",
+      "project": "llama-cpp",
+      "version": "b10889",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10889",
+      "published_at": "2026-09-10T10:04:48Z",
+      "body_excerpt": "memory : avoid allocating V cache for indexer (it's not used) (#28330) Co-authored-by: Stanisław Szymczyk Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (Open",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10888",
+      "project": "llama-cpp",
+      "version": "b10888",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10888",
+      "published_at": "2026-09-10T09:39:23Z",
+      "body_excerpt": "vulkan : add command-buffer debug labels for GPU profilers (#28101) vulkan : add command-buffer debug labels for GPU profilers Co-authored-by: gabby-zy Assisted-by: Claude Code vulkan : close the queue debug label with the label struct --------- Co-authored-by: gabby-zy Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10887",
+      "project": "llama-cpp",
+      "version": "b10887",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10887",
+      "published_at": "2026-09-10T09:07:52Z",
+      "body_excerpt": "ggml-cpu(s390x): add repack support for q4_0 (#28667) ggml-cpu: clean comments Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVI",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10886",
+      "project": "llama-cpp",
+      "version": "b10886",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10886",
+      "published_at": "2026-09-10T08:32:40Z",
+      "body_excerpt": "ggml-cpu(s390x): add Q1_0 vector intrinsic support (#28606) ggml-cpu: add support Signed-off-by: Aaron Teo ggml-cpu: clean up variable naming for understanding Signed-off-by: Aaron Teo docs: update support for Q1_0 Signed-off-by: Aaron Teo --------- Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS In",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10885",
+      "project": "llama-cpp",
+      "version": "b10885",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10885",
+      "published_at": "2026-09-10T07:51:19Z",
+      "body_excerpt": "model: fix all granite family parameter counts (#28643) model: fix all granite family parameter counts Signed-off-by: Aaron Teo model: fix additional include, add missing prefix for active experts Signed-off-by: Aaron Teo model: fix code alignment, rm unused 40 block case Signed-off-by: Aaron Teo --------- Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS",
+      "type": "tool"
+    },
+    {
+      "id": "hf-deepseek-ai-DeepSeek-V4.1-Flash",
+      "project": "deepseek-ai",
+      "version": "DeepSeek-V4.1-Flash",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "published_at": "2026-09-10T02:17:58Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b10883",
       "project": "llama-cpp",
@@ -466,7 +520,7 @@
       "version": "v0.34.0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
       "published_at": "2026-09-05T23:49:00Z",
-      "body_excerpt": "Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly thr",
+      "body_excerpt": "Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction. Full Changelog:",
       "type": "tool"
     },
     {
@@ -10349,51 +10403,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9610",
       "published_at": "2026-06-12T13:33:29Z",
       "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Wind",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9608",
-      "project": "llama-cpp",
-      "version": "b9608",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9608",
-      "published_at": "2026-06-12T10:01:17Z",
-      "body_excerpt": "vendor : update cpp-httplib to 0.47.0 (#24395) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Andro",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9606",
-      "project": "llama-cpp",
-      "version": "b9606",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9606",
-      "published_at": "2026-06-12T08:45:47Z",
-      "body_excerpt": "spec: add EAGLE3 speculative decoding support (#18039) llama : enable layer input extraction spec: support eagle3 eagle3: fix params bug eagle3: support Gemma4 eagle3 from RedHatAI eagle3: set sync when get features from target Co-authored-by: tnhnyzc eagle3 : fix ubatch handling in embd_layer_inp extraction and encoder Co-authored-by: Doğaç Eldenk eagle3: adapt to upstream changes eagle3: fix reb",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9605",
-      "project": "llama-cpp",
-      "version": "b9605",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9605",
-      "published_at": "2026-06-12T08:12:01Z",
-      "body_excerpt": "ggml: support concat for scalar types at cuda backend (#24011) cuda: support concat for scalar types Update concat.cu fix metal ci issue macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9604",
-      "project": "llama-cpp",
-      "version": "b9604",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9604",
-      "published_at": "2026-06-12T07:27:13Z",
-      "body_excerpt": "[SYCL] Fix CI build & release for SYCL backend (#24387) restore SYCL build and release, remove github cache modify for test only verify the ccache is used remove debug code change rm duplicate action, update key in ccache add action ccache-clear after building in both ubuntu and windows set %NUMBER_OF_PROCESSORS% in widnows build macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, K",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9603",
-      "project": "llama-cpp",
-      "version": "b9603",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9603",
-      "published_at": "2026-06-12T05:16:00Z",
-      "body_excerpt": "opencl: add q5_0/q5_1 gemm and gemv kernels for Adreno (#24319) opencl: add q5_0 adreno support opencl: add q5_1 adreno support opencl: cosmetic fix --------- Co-authored-by: Li He macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
       "type": "tool"
     }
   ]
