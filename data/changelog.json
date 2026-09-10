@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-09-10T16:08:26Z",
+  "updated_at": "2026-09-10T20:40:11Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10900",
+      "project": "llama-cpp",
+      "version": "b10900",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10900",
+      "published_at": "2026-09-10T19:00:20Z",
+      "body_excerpt": "vulkan: use add_alloc_dep to enable topk_moe fusion for prefill (#28422) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10899",
+      "project": "llama-cpp",
+      "version": "b10899",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10899",
+      "published_at": "2026-09-10T18:33:48Z",
+      "body_excerpt": "vulkan: small M matrix optimizations for qwen (#28457) vulkan: optimize m=1 mul_mat by swapping A/B vulkan: Improve small M perf Allow split_k with small M. Make small vs med tile selection (for coopmat2) depend on M, not just N. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10897",
+      "project": "llama-cpp",
+      "version": "b10897",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10897",
+      "published_at": "2026-09-10T17:59:13Z",
+      "body_excerpt": "ci : Update WoA CUDA 13.4 release to use 13.4.1 GA redistributables (#28687) Move Windows ARM64 CUDA 13.4 builds from the Developer Preview archives to the 13.4.1 GA redistributables Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10896",
       "project": "llama-cpp",
@@ -10430,15 +10457,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9616",
       "published_at": "2026-06-12T22:19:54Z",
       "body_excerpt": "ci : unbreak release harder (#24545) unbreak release harder missed one remove missing test for now macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DI",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.8",
-      "project": "ollama",
-      "version": "v0.30.8",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.8",
-      "published_at": "2026-06-12T17:04:52Z",
-      "body_excerpt": "What's Changed Fixed selecting the wrong provider in some cases Improved prompt caching by decoupling it from context shift for better KV cache reuse More stable MLX inference with hardened linear and embedding layers MLX runner now creates snapshots during prompt processing and speculative decoding for improved reliability Improved recurrent model support with per-boundary states from the gated-d",
       "type": "tool"
     }
   ]
