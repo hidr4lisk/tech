@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-09-09T20:44:49Z",
+  "updated_at": "2026-09-10T03:59:49Z",
   "items": [
+    {
+      "id": "localllama-2026-09-10-so-relevant",
+      "source": "localllama",
+      "title": "So relevant",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wc6krf/so_relevant/",
+      "published_at": "2026-09-10T02:45:50Z",
+      "summary": "      &#32; submitted by &#32;  /u/0dayturtle   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-10-qwen38-flash-next-on-2x3090-ddr4-part-4-22-25x-faster-prefil",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next on 2x3090 + DDR4, part 4: 2.2-2.5x faster prefill by kicking the expert cache off the GPU while the prompt runs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wc6fsk/qwen38flashnext_on_2x3090_ddr4_part_4_2225x/",
+      "published_at": "2026-09-10T02:39:31Z",
+      "summary": "Part 4 of the same box. Part 1 was 17 -&gt; 25-29 t/s with the expert cache PR, part 2 was 37-41 t/s after switching to UD-Q4_K_XL and stacking MTP on the cache, part 3 was the top-k fallback that was sorting more than i",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-10-local-llm-qwen-38-win",
+      "source": "localllama",
+      "title": "Local LLM / Qwen 3.8 win",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wc5t3s/local_llm_qwen_38_win/",
+      "published_at": "2026-09-10T02:11:38Z",
+      "summary": "I’ve been working on perfecting my setup ever since 3.8 hit, but no longer pay for subscriptions. I had a coding interview today and setup openrouter ahead of time as another option. I figured I could use the latest GLM ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-10-quoting-calif-research",
+      "source": "simonw",
+      "title": "Quoting Calif Research",
+      "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
+      "published_at": "2026-09-10T00:56:41Z",
+      "summary": "Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...]\nThe victim does not need to answer the call, or interact with their phone at all. Even if th",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-10-i-made-a-way-to-migrate-between-embedding-models-without-re",
+      "source": "localllama",
+      "title": "I made a way to migrate between embedding models without re-embedding your entire corpus",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wc30q1/i_made_a_way_to_migrate_between_embedding_models/",
+      "published_at": "2026-09-10T00:10:00Z",
+      "summary": "So I was playingw ith embedding models I saw that when you upgrade from model A to B, you face a very big backfilling cost Ie, suppose you have a 1b vectors from model A, and then you want to use model B. This would mean",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-09-blend-url-viewer",
+      "source": "simonw",
+      "title": ".blend URL Viewer",
+      "url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+      "published_at": "2026-09-09T23:58:32Z",
+      "summary": "Tool: .blend URL Viewer\n        I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see my TIL).\nAs a big fan of the Imperial Fabergé Easter eggs, I've always thought it would be fun to make some new ones t",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-running-qwen-38-27b-iq3-xxs-on-rtx-3060",
+      "source": "localllama",
+      "title": "Running qwen 3.8 27B iq3 xxs on RTX 3060.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wc2cs2/running_qwen_38_27b_iq3_xxs_on_rtx_3060/",
+      "published_at": "2026-09-09T23:42:23Z",
+      "summary": "      Getting anywhere from 10 - 20 tps. Thinking Off . Took about 4 mins and 7 mins. Running on about &quot;IQ3_S - 3.4375 bpw&quot;  37.03.960.932 I slot print_timing: id 0 | task 2665 | prompt processing, n_tokens = 1",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-apple-a20-pro-debuts-with-7-core-gpu-32-core-neural-engine-a",
+      "source": "localllama",
+      "title": "Apple A20 Pro debuts with 7-core GPU, 32-core Neural Engine and 50% more memory bandwidth (~115 GB/s)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wc0ekw/apple_a20_pro_debuts_with_7core_gpu_32core_neural/",
+      "published_at": "2026-09-09T22:23:31Z",
+      "summary": "      It seems to use a 96-bit LPDDR5X memory bus, instead of the previous 64-bit wide busses. Considering it&#39;s on 2nm, that&#39;s expensive silicon. That should result in around 115 GB/s memory bandwidth. A20 Pro al",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-09-surveillance-plagiarism-by-openai",
+      "source": "localllama",
+      "title": "Surveillance plagiarism by OpenAI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wby2cm/surveillance_plagiarism_by_openai/",
+      "published_at": "2026-09-09T20:55:47Z",
+      "summary": "Surveillance plagiarism - Hosted AI company pumps their stock price by training upon researchers&#39; AI sessions, so that their internal model can solve problems with seemingly less human guidance, but really the model ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-09-qwen38-27b-has-the-best-coding-ceiling-you-can-run-at-home-o",
       "source": "localllama",
@@ -57,50 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-09-i-trained-an-audio-model-that-can-generate-infinite-one-shot",
-      "source": "localllama",
-      "title": "I trained an audio model that can generate infinite one-shots for music production and turn text prompts into fully playable synths. I'm not only releasing the model but I've also released a video on exactly how I did it (and the inferencing pipeline to let others make text based synths.)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbtqt7/i_trained_an_audio_model_that_can_generate/",
-      "published_at": "2026-09-09T18:24:19Z",
-      "summary": "      (hopefully this is okay to here - it seems like audio models and image / video modeals is allowed but yeah this is a bit different) So I&#39;ve been doing independent audio research for a while now. The ultimate dr",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-solved-llm-inference-on-windows-was-23x-slower-when-the-serv",
-      "source": "localllama",
-      "title": "Solved: LLM inference on Windows was 2–3x slower when the server window wasn't focused",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbtmjg/solved_llm_inference_on_windows_was_23x_slower/",
-      "published_at": "2026-09-09T18:20:09Z",
-      "summary": "The fix: run the server detached/headless instead of keeping it attached to a console window. RTX 5090, ~27B NVFP4 model via ninfer:  Terminal focused: 130–200 tok/s Terminal unfocused: 50–60 tok/s Click the terminal → i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-best-open-source-tts-right-now-for-narration",
-      "source": "localllama",
-      "title": "Best Open source TTS right now for narration?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbpyp7/best_open_source_tts_right_now_for_narration/",
-      "published_at": "2026-09-09T16:10:58Z",
-      "summary": "I run these models on Kaggle notebook, so not all TTS models, such as the ones that use conda env, are compatible (Or I just haven&#39;t found a way for them to work on Kaggle).  I currently use a fork from Chatterbox ca",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-mention-if-a-new-model-is-a-finetune",
-      "source": "localllama",
-      "title": "Mention if a \"new model\" is a finetune",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbpf6i/mention_if_a_new_model_is_a_finetune/",
-      "published_at": "2026-09-09T15:51:51Z",
-      "summary": "A few posts tagged with &quot;new model&quot; present models that are finetunes. My opinion : I&#39;d rather have the &quot;new model&quot; tag reserved for new &quot;major&quot; releases, like a new Qwen model, Deepseek",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-09-09-ibm-releases-sota-granite-time-series-patchtst-fm-r2-model-w",
       "source": "huggingface",
       "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
@@ -109,39 +164,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-desert-ant-labs-on-device-intelligence-for-every-product",
-      "source": "localllama",
-      "title": "Desert Ant Labs: On-device intelligence for every product",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbn7f4/desert_ant_labs_ondevice_intelligence_for_every/",
-      "published_at": "2026-09-09T14:30:01Z",
-      "summary": "      &#32; submitted by &#32;  /u/Arcuru   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-sota-imagegen-locally-nvidia-cosmos364b-int4-quants-cudamlx",
-      "source": "localllama",
-      "title": "SOTA ImageGen Locally NVIDIA Cosmos3(64B) INT4 quants CUDA/MLX",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbmz1y/sota_imagegen_locally_nvidia_cosmos364b_int4/",
-      "published_at": "2026-09-09T14:21:16Z",
-      "summary": "      Cosmos3 INT4 T2I + I2V on Apple Silicon — code, weights and a Grok comparison GitHub - https://github.com/gtrg55/cosmos3-quant-mlx-cuda HF weights - https://huggingface.co/JuliaML/Cosmos3-Super-Text2Image-4Step-INT",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-09-qwen38-27b-uncensored-genesis-v1-gguf",
-      "source": "localllama",
-      "title": "Qwen3.8-27B-Uncensored-Genesis-V1-GGUF",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbmo0k/qwen3827buncensoredgenesisv1gguf/",
-      "published_at": "2026-09-09T14:09:31Z",
-      "summary": "Model available here: Qwen3.8-27B-Uncensored-Genesis-V1-MTP-GGUF This model is a practical realisation of things described in this paper, but adapted by me for machine learning: https://arxiv.org/pdf/1311.0851v1 I am try",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -261,28 +283,6 @@
       "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
       "published_at": "2026-09-04T23:59:05Z",
       "summary": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I render",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-04-openais-rogue-agents-were-caught-communicating-via-public-wi",
-      "source": "simonw",
-      "title": "OpenAI's rogue agents were caught communicating via public wikis",
-      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-      "published_at": "2026-09-04T17:38:48Z",
-      "summary": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-04-august-newsletter-is-out",
-      "source": "simonw",
-      "title": "August newsletter is out",
-      "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-      "published_at": "2026-09-04T05:54:40Z",
-      "summary": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here.\nThis month:\n\nWe got more details on OpenAl's accidental cyberattacks\nOne-",
       "tags": [
         "simonw"
       ]

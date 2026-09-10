@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T20:44:56Z",
+  "updated_at": "2026-09-10T03:59:55Z",
   "releases": [
     {
       "id": "llama-cpp-b10883",
@@ -461,6 +461,15 @@
       "type": "tool"
     },
     {
+      "id": "ollama-v0.34.0",
+      "project": "ollama",
+      "version": "v0.34.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
+      "published_at": "2026-09-05T23:49:00Z",
+      "body_excerpt": "Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly thr",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b10819",
       "project": "llama-cpp",
       "version": "b10819",
@@ -792,6 +801,15 @@
       "published_at": "2026-09-02T22:59:12Z",
       "body_excerpt": "Update ROCm to 10.0.0 release (#27803) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-GLM-5.3-Flash-NVFP4",
+      "project": "nvidia",
+      "version": "GLM-5.3-Flash-NVFP4",
+      "url": "https://huggingface.co/nvidia/GLM-5.3-Flash-NVFP4",
+      "published_at": "2026-09-02T20:37:17Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10766",
@@ -10376,15 +10394,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9603",
       "published_at": "2026-06-12T05:16:00Z",
       "body_excerpt": "opencl: add q5_0/q5_1 gemm and gemv kernels for Adreno (#24319) opencl: add q5_0 adreno support opencl: add q5_1 adreno support opencl: cosmetic fix --------- Co-authored-by: Li He macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.4.2",
-      "project": "localai",
-      "version": "v4.4.2",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.4.2",
-      "published_at": "2026-06-11T22:22:09Z",
-      "body_excerpt": "What's Changed Other Changes chore: :arrow_up: Update ggml-org/llama.cpp to by @localai-bot in chore: :arrow_up: Update CrispStrobe/CrispASR to by @localai-bot in fix(vllm): parse tool_call function arguments before applying the chat template by @pos-ei-don in fix(cuda): install cuda-nvrtc-dev alongside the other CUDA dev packages by @pos-ei-don in Full Changelog:",
       "type": "tool"
     }
   ]
