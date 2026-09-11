@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-09-11T10:56:27Z",
+  "updated_at": "2026-09-11T16:11:41Z",
   "items": [
+    {
+      "id": "localllama-2026-09-11-orukeet-new-asr-model-based-on-parakeet",
+      "source": "localllama",
+      "title": "Orukeet, new ASR model based on Parakeet",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdk2he/orukeet_new_asr_model_based_on_parakeet/",
+      "published_at": "2026-09-11T15:50:53Z",
+      "summary": "      I haven&#39;t seen this mentioned yet, so I thought it deserves a post. I was trying out OpenWhispr when this model came up as the recommendation. So I don&#39;t have personal experience yet, but it&#39;s supposed ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-openai-can-use-all-interactions-of-paid-users-even-if-they-o",
+      "source": "localllama",
+      "title": "OpenAI can use all interactions of paid users, even if they opted out of training",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdj3x9/openai_can_use_all_interactions_of_paid_users/",
+      "published_at": "2026-09-11T15:15:17Z",
+      "summary": "      Their opt-out terms don&#39;t seem to apply to reasoning tokens. Since consumers do not receive hidden reasoning tokens from OpenAI, it is unclear if it counts as &quot;Output&quot; protected by the paid user opt-o",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-qwen38-flash-next-ud-q4-k-xl-49-tokenss-tgs-using-2x-rtx-309",
+      "source": "localllama",
+      "title": "Qwen3.8 Flash Next UD-Q4_K_XL 49 tokens/s TGS using 2x RTX 3090 on Windows 11.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdipve/qwen38_flash_next_udq4_k_xl_49_tokenss_tgs_using/",
+      "published_at": "2026-09-11T15:00:50Z",
+      "summary": "      Developer&#39;s own thread: https://www.reddit.com/r/LocalLLaMA/s/adp1cGZZe9 Code: https://github.com/Inovello/llama.cpp/tree/flashnext-e06 My hardware: 2x RTX 3090, Intel Ultra 7 270k Plus, 192 GB DDR5@5600 MHz To",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-11-soft-deprecating-rematch",
+      "source": "simonw",
+      "title": "Soft-deprecating re.match()",
+      "url": "https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/",
+      "published_at": "2026-09-11T14:47:57Z",
+      "summary": "Soft-deprecating re.match()\nPython has a concept of soft deprecation, where APIs are marked as \"should no longer be used to write new code\" without any promise/threat to remove them in the future.\nPython 3.15 release man",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-thinking-that-well-get-safety-by-cot-traces-is-wishful-think",
+      "source": "localllama",
+      "title": "Thinking that we’ll get safety by CoT traces is wishful thinking. Safety lives in the harness, not the chain of thought",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdi8au/thinking_that_well_get_safety_by_cot_traces_is/",
+      "published_at": "2026-09-11T14:42:24Z",
+      "summary": "Astra&#39;s launch has produced a strange discourse. The reporting that broke the story framed the model&#39;s use of recurrent depth primarily as a safety regression, because it means the model reveals less of its &quot",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-llamacpp-ngram-on-ramssd",
+      "source": "localllama",
+      "title": "llama.cpp ngram on RAM/SSD?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdi5hu/llamacpp_ngram_on_ramssd/",
+      "published_at": "2026-09-11T14:39:24Z",
+      "summary": "I&#39;ve been out of the loop for some time. Is there already an official way to offload ngram to RAM or SSD in something like Unsloth Studio? Interested in running Qwen3.8-Flash-Next on 72GB VRAM, but naiive attempts fa",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-fine-tuning-qwen-3-4b-base-on-100-zebra-puzzles-yielded-31-o",
+      "source": "localllama",
+      "title": "Fine-tuning Qwen 3 4B Base on 100 zebra puzzles yielded +31% on MATH-500. 6.5-min (Single H100/H200) reproduction notebook included.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdhb24/finetuning_qwen_3_4b_base_on_100_zebra_puzzles/",
+      "published_at": "2026-09-11T14:06:50Z",
+      "summary": "      &#32; submitted by &#32;  /u/TGSCrust   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-ion-zero-install-harness-runs-on-browser",
+      "source": "localllama",
+      "title": "Ion (zero install harness, runs on browser)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdgte7/ion_zero_install_harness_runs_on_browser/",
+      "published_at": "2026-09-11T13:47:51Z",
+      "summary": "      Hello Guys,  Just sharing this harness I&#39;ve created, this runs entirely on chromium based browser.  No installation is required, it has its limitations and by no means is supposed to replace better agents like ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-gpt-live-clone-on-an-rtx-3060",
+      "source": "localllama",
+      "title": "GPT Live clone on an RTX 3060",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wddg8g/gpt_live_clone_on_an_rtx_3060/",
+      "published_at": "2026-09-11T11:22:17Z",
+      "summary": "      I wanted to see how my fully local home voice assistant compared to the latest GPT Live, so I tested it using the same conversation used in their &quot;Improved Intelligence&quot; demo. In this video they ask the A",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-7900-xtx-3264gb-ram-for-qwen-38-flash-next",
+      "source": "localllama",
+      "title": "7900 XTX + 32/64GB RAM for Qwen 3.8 Flash Next?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdclxn/7900_xtx_3264gb_ram_for_qwen_38_flash_next/",
+      "published_at": "2026-09-11T10:40:25Z",
+      "summary": "Planning to build a PC mainly for local LLMs/coding agents. I keep seeing 3090 + Qwen 3.8 Flash Next benchmarks, but could not find enough info for the 7900 XTX 24GB. 3090s are hard to find where I live, while newer Nvid",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-11-terminal-bench-v4-scores",
       "source": "localllama",
@@ -35,61 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-11-cudahip-flash-attention-tuning-gfx1201-by-pwilkin-pull-reque",
-      "source": "localllama",
-      "title": "CUDA/HIP: Flash Attention tuning (gfx1201) by pwilkin · Pull Request #28102 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdbal8/cudahip_flash_attention_tuning_gfx1201_by_pwilkin/",
-      "published_at": "2026-09-11T09:27:58Z",
-      "summary": "      Nice pp improvements for RDNA4(R9700) &amp; 3.5(RX 9060 XT, 8060S). More good numbers on large context. PR has detailed benchmarks.  u/ilintar 👍  &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-pcie-downgraded-test-m2-oculink",
-      "source": "localllama",
-      "title": "PCIe downgraded test (m.2-oculink)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wd9x99/pcie_downgraded_test_m2oculink/",
-      "published_at": "2026-09-11T08:08:27Z",
-      "summary": "      My M.2-Oculink should be PCIe 4.0x4, but I found out today it&#39;s actually downgrading, frustratingly this isn&#39;t obvious until you go looking, so adding here if anyone else wants to check their own rig. Side ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-are-we-missing-a-benchmark-for-agent-runtimes-not-just-model",
-      "source": "localllama",
-      "title": "Are we missing a benchmark for agent runtimes, not just models?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wd99iw/are_we_missing_a_benchmark_for_agent_runtimes_not/",
-      "published_at": "2026-09-11T07:28:28Z",
-      "summary": "We have SWE-bench, Terminal-Bench, OSWorld, BrowseComp, etc. But I haven’t seen a good apples-to-apples benchmark for platforms like OpenAI Agents, Anthropic’s agent stack, AWS AgentCore, Google’s agent platform, and loc",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-what-can-you-run-on-8gb-vram",
-      "source": "localllama",
-      "title": "What can you run on 8GB VRAM?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wd96dk/what_can_you_run_on_8gb_vram/",
-      "published_at": "2026-09-11T07:23:05Z",
-      "summary": "Can you still do something with a 2050 or something like it? I mean for office work, loading embedding, reranking and chat models not at the same time but is anyone still using smaller models and have any good ones come ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-someone-apparently-managed-to-kind-of-replicate-what-v41-fla",
-      "source": "localllama",
-      "title": "Someone apparently managed to kind of replicate what V4.1 flash does on KV for fast prefill on Qwen",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wd4xxv/someone_apparently_managed_to_kind_of_replicate/",
-      "published_at": "2026-09-11T03:36:45Z",
-      "summary": "      I wonder someone will figure out a way to do this with 27B?  Throw Qwen3 on this page for demo https://kishida.github.io/webdemos/llkvapprox/  &#32; submitted by &#32;  /u/T_rex2700   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-11-datasette-10a39-and-0654-security-releases",
       "source": "simonw",
       "title": "Datasette 1.0a39 and 0.65.4 security releases",
@@ -98,50 +153,6 @@
       "summary": "Datasette 1.0a39 and 0.65.4 security releases\nToday we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family.\nThese are secur",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-new-music-model-yue2-3b-released",
-      "source": "localllama",
-      "title": "New Music Model YuE2-3B Released!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wd19c7/new_music_model_yue23b_released/",
-      "published_at": "2026-09-11T00:47:36Z",
-      "summary": "      Surprised no one has posted it in this sub. Pretty solid model, IMHO. Demo: https://map-yue2.github.io/   &#32; submitted by &#32;  /u/Acceptable-Cycle4645   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-10-artificial-analysis-is-not-broken-and-they-prove-it",
-      "source": "localllama",
-      "title": "Artificial Analysis is not \"broken\", and they prove it.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcxxm8/artificial_analysis_is_not_broken_and_they_prove/",
-      "published_at": "2026-09-10T22:26:51Z",
-      "summary": "      Like many of you, I have seen many posts and tweets in the last weeks complaining about Artificial Analysis being &quot;broken&quot;, &quot;meaningless&quot;, and &quot;bought out.&quot; People who say this have do",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-10-faster-than-light-in-air-8-22-tgs-qwen38-flash-next-q4q4ish",
-      "source": "localllama",
-      "title": "Faster than Light in Air: 8-22 tg/s Qwen3.8-Flash-Next (Q4/Q4ish) on a 32GB M4 MacBook Air",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcwith/faster_than_light_in_air_822_tgs_qwen38flashnext/",
-      "published_at": "2026-09-10T21:31:20Z",
-      "summary": "I believe I may currently hold the record for memory constrained inference for Qwen3.8–Flash-Next on Apple Silicon — needing only about 21GB of allocations. Introducing Cherenkov, an inference engine for Apple Silicon co",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-10-muse-glimmer-30b-really-punches-above-its-weights-for-creati",
-      "source": "localllama",
-      "title": "Muse-glimmer-30b really punches above its weight(s) for creative writing",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcwa7i/museglimmer30b_really_punches_above_its_weights/",
-      "published_at": "2026-09-10T21:22:03Z",
-      "summary": "After noticing that it is ranked among MUCH larger frontier models in the EQ-Bench Creative Writing benchmark and the Hemingway-bench, I decided to give it a try and was very impressed.  I didn&#39;t do very formal testi",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -283,17 +294,6 @@
       "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
       "published_at": "2026-09-06T23:57:40Z",
       "summary": "Research acceleration: The view inside OpenAI\nApparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-05-introducing-gpt-6-astra-for-developers",
-      "source": "simonw",
-      "title": "Introducing GPT-6 Astra for developers",
-      "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-      "published_at": "2026-09-05T23:27:48Z",
-      "summary": "Introducing GPT-6 Astra for developers\nBlink and you'll miss it, but there's a familiar creature at 1m59s:\n\nAcross the board, Astra has more attention to detail, better understanding of the user's prompt, and can build m",
       "tags": [
         "simonw"
       ]

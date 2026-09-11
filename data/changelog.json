@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-09-11T10:56:33Z",
+  "updated_at": "2026-09-11T16:11:47Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10909",
+      "project": "llama-cpp",
+      "version": "b10909",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10909",
+      "published_at": "2026-09-11T12:13:16Z",
+      "body_excerpt": "metal : single-source fusion table + fusion debug rework (#28164) metal : rework fusion patterns into a single table All fusable op patterns for the Metal backend are now declared once in a fusion table (ggml-metal-fuse.cpp) and consumed by both the graph optimizer (ggml_metal_fuse_max, packing) and the op encoders (ggml_metal_fuse_next, compute). The two phases share the same pattern table plus g",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10908",
+      "project": "llama-cpp",
+      "version": "b10908",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10908",
+      "published_at": "2026-09-11T11:44:19Z",
+      "body_excerpt": "metal : fix idle threads in the remaining iq mul_mv kernels for ne00 = 4. Only the split path uses N_R0_ _SPLIT = 8. The K-quants have the same idle-thread issue but a different lane mapping, so they are left for a separate change. metal : offset the src0 row pointer once in the iq mul_mv kernels q2, dh, sc, qh and signs are all derived from xr, so the row slice offset only has to be applied to xr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10907",
+      "project": "llama-cpp",
+      "version": "b10907",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10907",
+      "published_at": "2026-09-11T11:10:30Z",
+      "body_excerpt": "model : fix MTP context kv cache allocation for deepseek2, glm4moe, … (#28630) model : fix MTP context kv cache allocation for deepseek2, glm4moe, cohere2moe architectures (#28626) model: add inverse architecture gating and comprehensive architecture testing for mtp layer filtering model : slim NextN filter comment, drop test-llama-archs changes Website: Attestations: macOS/iOS: macOS Apple Silico",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10906",
       "project": "llama-cpp",
@@ -10466,42 +10493,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9625",
       "published_at": "2026-06-13T17:06:54Z",
       "body_excerpt": "jinja : fix negative step slice with start/stop values (#24580) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Andro",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9624",
-      "project": "llama-cpp",
-      "version": "b9624",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9624",
-      "published_at": "2026-06-13T16:06:09Z",
-      "body_excerpt": "ui: build-time gzip compression (#24571) ui: keep original file name and path fix nocache ui: build-time gzip compression macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ub",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9623",
-      "project": "llama-cpp",
-      "version": "b9623",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9623",
-      "published_at": "2026-06-13T15:32:08Z",
-      "body_excerpt": "jinja : fix split and replace with empty first arg (#24574) fix split and replace with empty first arg fix reserve size macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubun",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9622",
-      "project": "llama-cpp",
-      "version": "b9622",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9622",
-      "published_at": "2026-06-13T14:15:55Z",
-      "body_excerpt": "vulkan: support non-contig unary/glu ops (#24215) vulkan: support non-contig unary/glu ops Change unary/glu ops to pass in all strides and use fastdiv for the index calculation. Put all unary ops in one file, similar to glu, to share the code. codex went ahead and added expm1 without me asking, but I had to make it do a real precision analysis rather than just making stuff up. unary.comp initially",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9621",
-      "project": "llama-cpp",
-      "version": "b9621",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9621",
-      "published_at": "2026-06-13T13:09:44Z",
-      "body_excerpt": "ui: keep original file name and path (#24568) ui: keep original file name and path fix nocache macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
       "type": "tool"
     }
   ]
