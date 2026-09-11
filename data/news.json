@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-09-11T16:11:41Z",
+  "updated_at": "2026-09-11T20:45:07Z",
   "items": [
+    {
+      "id": "localllama-2026-09-11-is-anyone-using-k2-horizon-mova-36b-a4b-if-yes-what-is-the-u",
+      "source": "localllama",
+      "title": "Is anyone using K2-Horizon-MoVA-36B-A4B? If yes, what is the usecase?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdrvd4/is_anyone_using_k2horizonmova36ba4b_if_yes_what/",
+      "published_at": "2026-09-11T20:31:38Z",
+      "summary": "      A new model joined the MoE club a few days ago. Is anyone using it or found a reason to do so? Details of the model comparison here =&gt; https://llm-bench.io/compare/models?models=ornith-1-5-35b-a3b-oq4e-mtp%2Ctie",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-comparing-continued-pretraining-to-rag-accuracy-and-performa",
+      "source": "localllama",
+      "title": "Comparing Continued Pretraining to RAG (accuracy and performance)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdqujp/comparing_continued_pretraining_to_rag_accuracy/",
+      "published_at": "2026-09-11T19:53:35Z",
+      "summary": "Mostly as a fun experiment I wanted to do a quick comparison of performance and accuracy between a CPT trained QWEN 3.5 4B model and a RAG implementation against the base model. The point of this exercise is mostly to me",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-is-a-zima-board-2-rtx-2000-ada-the-cheapest-path-to-a-decent",
+      "source": "localllama",
+      "title": "Is a ZIMA Board 2 + RTX 2000 ADA the cheapest path to a decent Qwen-3.8 27b self-contained endpoint?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdqnpq/is_a_zima_board_2_rtx_2000_ada_the_cheapest_path/",
+      "published_at": "2026-09-11T19:46:27Z",
+      "summary": "      I just watched a YouTube from Luke’s Dev Lab where he literally just plugged a RTX 2000 ADA Into the side of the Zima Board 2’s PCIE socket and it just friggin worked and had great token speed despite running on sh",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-running-qwen38-27b-q4-at-max-context-on-a-32-gb-gpu-while-av",
+      "source": "localllama",
+      "title": "Running Qwen3.8-27B-Q4 at max context on a 32 GB GPU while avoiding kvcache quantization",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdqit1/running_qwen3827bq4_at_max_context_on_a_32_gb_gpu/",
+      "published_at": "2026-09-11T19:41:29Z",
+      "summary": "I can&#39;t stand kv cache quantization. Even at q8_0, I can feel the difference. But realistically, when running Qwen3.8-27B-UD-Q4_K_XL on my 32 GB GPU, I only have room for ~170k tokens (with mtp and mmproj enabled). I",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-codefinetuner-fine-tune-a-local-code-autocomplete-model-on-y",
+      "source": "localllama",
+      "title": "CodeFinetuner: Fine-tune a local code autocomplete model on your own codebase",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdp9qc/codefinetuner_finetune_a_local_code_autocomplete/",
+      "published_at": "2026-09-11T18:56:39Z",
+      "summary": "      Hi everyone, I was interested in learning LoRA fine-tuning, and ended up building CodeFinetuner over the past few months, a full pipeline that fine-tunes a small code autocomplete model (e.g. Qwen2.5-Coder-3B) spec",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-what-gpus-will-give-me-good-speeds-and-on-dsv4-flash-and-sim",
+      "source": "localllama",
+      "title": "What GPUs will give me GOOD speeds and on DSV4 Flash and similar models, and not have to run a mega quantized version? Budget around $15k-ish.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdooag/what_gpus_will_give_me_good_speeds_and_on_dsv4/",
+      "published_at": "2026-09-11T18:36:26Z",
+      "summary": "I wish I could spend $15k on my own homelab hardware, but no this is for work lol. Like the title says, we&#39;re looking to run DSV4 Flash (and similar tier models) locally at good speeds, both for token gen and prompt ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-11-quoting-boris-cherny",
+      "source": "simonw",
+      "title": "Quoting Boris Cherny",
+      "url": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
+      "published_at": "2026-09-11T17:47:11Z",
+      "summary": "Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-drive",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-any-12gb-vram-users-out-there",
+      "source": "localllama",
+      "title": "Any 12gb VRAM users out there?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdl7vp/any_12gb_vram_users_out_there/",
+      "published_at": "2026-09-11T16:32:24Z",
+      "summary": "Hi! I&#39;ve been following this community for quite a while and have difficulty figuring out what to put on my 3080 12gb - I know Qwen 3.6 35B 3A was the go-to choice when it first came out, but I&#39;m curious if there",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-qwen38-27b-humanlike-chat-a-model-i-tuned-to-imitate-realist",
+      "source": "localllama",
+      "title": "Qwen3.8-27B-Humanlike-Chat: A model I tuned to imitate realistic human-to-human conversation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdl2qa/qwen3827bhumanlikechat_a_model_i_tuned_to_imitate/",
+      "published_at": "2026-09-11T16:27:16Z",
+      "summary": "      I made this because I was getting genuinely annoyed at trying to have a normal conversation with LLMs. Even with prompting and various tricks, most models I&#39;ve tried still have this &quot;AI assistant&quot; vib",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-hot-expert-reload-on-gpu-is-what-this-community-needs",
+      "source": "localllama",
+      "title": "Hot Expert Reload on GPU is what this community needs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdl1d0/hot_expert_reload_on_gpu_is_what_this_community/",
+      "published_at": "2026-09-11T16:25:51Z",
+      "summary": "A huge favor to ask llama maintainers - please implement this feature. Even with one 3090 card there will be tangible improvements in decode speed on MOE models with moderate number of active parameters, like Qwen3.8-Fla",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-11-orukeet-new-asr-model-based-on-parakeet",
       "source": "localllama",
@@ -43,105 +153,6 @@
       "summary": "Soft-deprecating re.match()\nPython has a concept of soft deprecation, where APIs are marked as \"should no longer be used to write new code\" without any promise/threat to remove them in the future.\nPython 3.15 release man",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-thinking-that-well-get-safety-by-cot-traces-is-wishful-think",
-      "source": "localllama",
-      "title": "Thinking that we’ll get safety by CoT traces is wishful thinking. Safety lives in the harness, not the chain of thought",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdi8au/thinking_that_well_get_safety_by_cot_traces_is/",
-      "published_at": "2026-09-11T14:42:24Z",
-      "summary": "Astra&#39;s launch has produced a strange discourse. The reporting that broke the story framed the model&#39;s use of recurrent depth primarily as a safety regression, because it means the model reveals less of its &quot",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-llamacpp-ngram-on-ramssd",
-      "source": "localllama",
-      "title": "llama.cpp ngram on RAM/SSD?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdi5hu/llamacpp_ngram_on_ramssd/",
-      "published_at": "2026-09-11T14:39:24Z",
-      "summary": "I&#39;ve been out of the loop for some time. Is there already an official way to offload ngram to RAM or SSD in something like Unsloth Studio? Interested in running Qwen3.8-Flash-Next on 72GB VRAM, but naiive attempts fa",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-fine-tuning-qwen-3-4b-base-on-100-zebra-puzzles-yielded-31-o",
-      "source": "localllama",
-      "title": "Fine-tuning Qwen 3 4B Base on 100 zebra puzzles yielded +31% on MATH-500. 6.5-min (Single H100/H200) reproduction notebook included.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdhb24/finetuning_qwen_3_4b_base_on_100_zebra_puzzles/",
-      "published_at": "2026-09-11T14:06:50Z",
-      "summary": "      &#32; submitted by &#32;  /u/TGSCrust   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-ion-zero-install-harness-runs-on-browser",
-      "source": "localllama",
-      "title": "Ion (zero install harness, runs on browser)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdgte7/ion_zero_install_harness_runs_on_browser/",
-      "published_at": "2026-09-11T13:47:51Z",
-      "summary": "      Hello Guys,  Just sharing this harness I&#39;ve created, this runs entirely on chromium based browser.  No installation is required, it has its limitations and by no means is supposed to replace better agents like ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-gpt-live-clone-on-an-rtx-3060",
-      "source": "localllama",
-      "title": "GPT Live clone on an RTX 3060",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wddg8g/gpt_live_clone_on_an_rtx_3060/",
-      "published_at": "2026-09-11T11:22:17Z",
-      "summary": "      I wanted to see how my fully local home voice assistant compared to the latest GPT Live, so I tested it using the same conversation used in their &quot;Improved Intelligence&quot; demo. In this video they ask the A",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-7900-xtx-3264gb-ram-for-qwen-38-flash-next",
-      "source": "localllama",
-      "title": "7900 XTX + 32/64GB RAM for Qwen 3.8 Flash Next?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdclxn/7900_xtx_3264gb_ram_for_qwen_38_flash_next/",
-      "published_at": "2026-09-11T10:40:25Z",
-      "summary": "Planning to build a PC mainly for local LLMs/coding agents. I keep seeing 3090 + Qwen 3.8 Flash Next benchmarks, but could not find enough info for the 7900 XTX 24GB. 3090s are hard to find where I live, while newer Nvid",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-terminal-bench-v4-scores",
-      "source": "localllama",
-      "title": "Terminal Bench v4 scores",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdc7r9/terminal_bench_v4_scores/",
-      "published_at": "2026-09-11T10:19:27Z",
-      "summary": "      Some people says terminal bench reflects model intelligence better than the intelligent index. From the look of it, the ranking does seem to reflect how people feel about the open and closed models.  For the open m",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-hugging-face-securitytxt",
-      "source": "localllama",
-      "title": "Hugging Face security.txt",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdbvlt/hugging_face_securitytxt/",
-      "published_at": "2026-09-11T10:01:25Z",
-      "summary": "      https://huggingface.co/security.txt  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-nex-n25-pro-407gb-released",
-      "source": "localllama",
-      "title": "Nex N2.5 Pro (407GB) released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdbd0b/nex_n25_pro_407gb_released/",
-      "published_at": "2026-09-11T09:31:48Z",
-      "summary": "      &#32; submitted by &#32;  /u/jinnyjuice   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -283,17 +294,6 @@
       "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
       "published_at": "2026-09-07T16:24:16Z",
       "summary": "Tool: Mercator ↔ Equal Earth\n        I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercato",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-06-research-acceleration-the-view-inside-openai",
-      "source": "simonw",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-      "published_at": "2026-09-06T23:57:40Z",
-      "summary": "Research acceleration: The view inside OpenAI\nApparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub ",
       "tags": [
         "simonw"
       ]
