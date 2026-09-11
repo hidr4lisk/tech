@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-09-11T03:57:07Z",
+  "updated_at": "2026-09-11T10:56:27Z",
   "items": [
+    {
+      "id": "localllama-2026-09-11-terminal-bench-v4-scores",
+      "source": "localllama",
+      "title": "Terminal Bench v4 scores",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdc7r9/terminal_bench_v4_scores/",
+      "published_at": "2026-09-11T10:19:27Z",
+      "summary": "      Some people says terminal bench reflects model intelligence better than the intelligent index. From the look of it, the ranking does seem to reflect how people feel about the open and closed models.  For the open m",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-hugging-face-securitytxt",
+      "source": "localllama",
+      "title": "Hugging Face security.txt",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdbvlt/hugging_face_securitytxt/",
+      "published_at": "2026-09-11T10:01:25Z",
+      "summary": "      https://huggingface.co/security.txt  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-nex-n25-pro-407gb-released",
+      "source": "localllama",
+      "title": "Nex N2.5 Pro (407GB) released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdbd0b/nex_n25_pro_407gb_released/",
+      "published_at": "2026-09-11T09:31:48Z",
+      "summary": "      &#32; submitted by &#32;  /u/jinnyjuice   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-cudahip-flash-attention-tuning-gfx1201-by-pwilkin-pull-reque",
+      "source": "localllama",
+      "title": "CUDA/HIP: Flash Attention tuning (gfx1201) by pwilkin · Pull Request #28102 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdbal8/cudahip_flash_attention_tuning_gfx1201_by_pwilkin/",
+      "published_at": "2026-09-11T09:27:58Z",
+      "summary": "      Nice pp improvements for RDNA4(R9700) &amp; 3.5(RX 9060 XT, 8060S). More good numbers on large context. PR has detailed benchmarks.  u/ilintar 👍  &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-pcie-downgraded-test-m2-oculink",
+      "source": "localllama",
+      "title": "PCIe downgraded test (m.2-oculink)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wd9x99/pcie_downgraded_test_m2oculink/",
+      "published_at": "2026-09-11T08:08:27Z",
+      "summary": "      My M.2-Oculink should be PCIe 4.0x4, but I found out today it&#39;s actually downgrading, frustratingly this isn&#39;t obvious until you go looking, so adding here if anyone else wants to check their own rig. Side ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-are-we-missing-a-benchmark-for-agent-runtimes-not-just-model",
+      "source": "localllama",
+      "title": "Are we missing a benchmark for agent runtimes, not just models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wd99iw/are_we_missing_a_benchmark_for_agent_runtimes_not/",
+      "published_at": "2026-09-11T07:28:28Z",
+      "summary": "We have SWE-bench, Terminal-Bench, OSWorld, BrowseComp, etc. But I haven’t seen a good apples-to-apples benchmark for platforms like OpenAI Agents, Anthropic’s agent stack, AWS AgentCore, Google’s agent platform, and loc",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-what-can-you-run-on-8gb-vram",
+      "source": "localllama",
+      "title": "What can you run on 8GB VRAM?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wd96dk/what_can_you_run_on_8gb_vram/",
+      "published_at": "2026-09-11T07:23:05Z",
+      "summary": "Can you still do something with a 2050 or something like it? I mean for office work, loading embedding, reranking and chat models not at the same time but is anyone still using smaller models and have any good ones come ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-11-someone-apparently-managed-to-kind-of-replicate-what-v41-fla",
       "source": "localllama",
@@ -76,83 +153,6 @@
       "summary": "Native is now the future of mobile at Shopify\nShopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect:\n\nWe decided to switch from nati",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-10-i-find-it-funny-that-a-flash-model-is-now-512gb",
-      "source": "localllama",
-      "title": "I find it funny that a flash model is now 512GB",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcvmuo/i_find_it_funny_that_a_flash_model_is_now_512gb/",
-      "published_at": "2026-09-10T20:57:40Z",
-      "summary": "A few years ago a 100GB was considered a very large language model. What do we call under 100GB models now? Tiny models? haha  &#32; submitted by &#32;  /u/Terminator857   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-10-pi-agent-users---nvidia-released-sol-pi---a-pi-extension-bas",
-      "source": "localllama",
-      "title": "Pi Agent Users - Nvidia Released Sol-Pi - A Pi-Extension based on AutoResearch loops to make the Harness more efficient",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcujgg/pi_agent_users_nvidia_released_solpi_a/",
-      "published_at": "2026-09-10T20:17:05Z",
-      "summary": "Github Repo. Blog post. 💡 TL;DR (from the Github Readme) Spend less without making the agent do less useful work. SoL-Pi is a standalone extension for Pi that packages four reusable efficiency mechanisms discovered throu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-10-cpu-only-experimental-sloppy-deepseek-v41-flash",
-      "source": "localllama",
-      "title": "CPU Only Experimental Sloppy Deepseek V4.1 Flash",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcu3fw/cpu_only_experimental_sloppy_deepseek_v41_flash/",
-      "published_at": "2026-09-10T20:00:56Z",
-      "summary": "Title says it all.  https://github.com/gjabdelnoor/Day1DeepseekV4.1-CPU The goal is pretty simple, I like having infinite slow tokens from the bioinformatics machine in the lab to run overnight or over-week agentic jobs,",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-10-notes-on-a-hobby-sub-going-mainstream",
-      "source": "localllama",
-      "title": "Notes on a hobby sub going mainstream",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wctos6/notes_on_a_hobby_sub_going_mainstream/",
-      "published_at": "2026-09-10T19:46:01Z",
-      "summary": "Both good and bad things have come from a subreddit that was lot more niche than for example r/flashlight rapidly transforming into the largest online forum about an increasingly core part of the infrastructure of the ec",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-10-livebench-added-deepseek-v41-flash",
-      "source": "localllama",
-      "title": "Livebench added Deepseek v4.1 flash",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wctnzd/livebench_added_deepseek_v41_flash/",
-      "published_at": "2026-09-10T19:45:12Z",
-      "summary": "      https://preview.redd.it/3z56sdq1yqoh1.png?width=1362&amp;format=png&amp;auto=webp&amp;s=5c9848a396a4bd2ec472a6b4761f90263feb44cc It&#39;s on par with 5.6 sol but for &lt;1/10th the price on their evals  &#32; submi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-10-antirez-working-on-dsv41-support-for-ds4",
-      "source": "localllama",
-      "title": "antirez working on DSV4.1 support for ds4",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wctnq7/antirez_working_on_dsv41_support_for_ds4/",
-      "published_at": "2026-09-10T19:44:56Z",
-      "summary": "      &#32; submitted by &#32;  /u/backyard_tractorbeam   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-10-new-tensor-type-layouts-for-my-gguf-uploads",
-      "source": "localllama",
-      "title": "New tensor type layouts for my GGUF uploads",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcsj6v/new_tensor_type_layouts_for_my_gguf_uploads/",
-      "published_at": "2026-09-10T19:05:03Z",
-      "summary": "Hey all, long time no post. Figured I&#39;d pop my head in to point you towards a blog post I just published about research I had performed and changes I&#39;m making to the shape of models I post, you can read it here: ",
-      "tags": [
-        "localllama"
       ]
     },
     {
