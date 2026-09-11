@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-11T16:11:47Z",
+  "updated_at": "2026-09-11T20:45:14Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10917",
+      "project": "llama-cpp",
+      "version": "b10917",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10917",
+      "published_at": "2026-09-11T20:30:32Z",
+      "body_excerpt": "cmake : skip PCH for llama-server PCH when using MSVC (#28763) This commit fixes an issue that I introduced when adding PCH (precompiled headers) in Commit 3bcfeb700fce9ff38a050dcd3f6a856319e948ba (\"cmake : add PCH and unity build to improve build times (#28091)\". See linked issue for details. Co-authored-by: mjungnickel18 Co-authored-by: Pascal Resolves: Refs: Website: Attestations: macOS/iOS: ma",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10909",
       "project": "llama-cpp",
@@ -10475,24 +10484,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9627",
       "published_at": "2026-06-13T23:25:28Z",
       "body_excerpt": "ui : fix llama-ui-embed crash when no asset dir is given (#24597) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9626",
-      "project": "llama-cpp",
-      "version": "b9626",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9626",
-      "published_at": "2026-06-13T18:19:28Z",
-      "body_excerpt": "Add arch support for cohere2-MoE (#24260) Add arch support for cohere2-MoE Removed redundant gating_func checks Changed ffn lookup to prefer prefix_dense_intermediate_size Renamed arch to cohere2moe Removed redundant lmhead check and chat template changes Removed lm_head.weight check from modify tensors, load output tensor not required, fallback to token_embd.weight Changed to (routed+shared)0.5 f",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9625",
-      "project": "llama-cpp",
-      "version": "b9625",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9625",
-      "published_at": "2026-06-13T17:06:54Z",
-      "body_excerpt": "jinja : fix negative step slice with start/stop values (#24580) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Andro",
       "type": "tool"
     }
   ]
