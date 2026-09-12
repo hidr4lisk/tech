@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T15:18:53Z",
+  "updated_at": "2026-09-12T20:22:54Z",
   "releases": [
     {
       "id": "llama-cpp-b10931",
@@ -10502,15 +10502,6 @@
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
       "published_at": "2026-06-15T05:27:20Z",
       "body_excerpt": "vLLM v0.23.0 Release Notes Please note that Minimax M3 is not yet supported in this version. Please follow vLLM recipe for usage guides for M3. Highlights This release features 408 commits from 200 contributors (63 new)! DeepSeek-V4 matures across backends: Following its introduction in v0.22.0, DeepSeek-V4 received another large hardening and optimization pass. Its sparse MLA metadata is now deco",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9637",
-      "project": "llama-cpp",
-      "version": "b9637",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9637",
-      "published_at": "2026-06-14T18:50:23Z",
-      "body_excerpt": "chat: add dedicated Cohere2MoE (North Code) parser (#24615) chat: add dedicated Cohere2MoE (North Code) parser Some renames to make @CISC happy :> macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2)",
       "type": "tool"
     }
   ]
