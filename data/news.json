@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-09-12T15:18:49Z",
+  "updated_at": "2026-09-12T20:22:47Z",
   "items": [
+    {
+      "id": "localllama-2026-09-12-real-swe-benchmark-new",
+      "source": "localllama",
+      "title": "Real-SWE Benchmark (new)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wemcdc/realswe_benchmark_new/",
+      "published_at": "2026-09-12T19:50:03Z",
+      "summary": "Reports of the demise of coders may have been exaggerated.  &#32; submitted by &#32;  /u/SteppenAxolotl   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-12-nex-n25-mini-mlx-4bit-on-apple-m5-max-1336-toks-llm-benchio",
+      "source": "localllama",
+      "title": "Nex-N2.5-mini-MLX-4bit on Apple M5 Max — 133.6 tok/s — llm-bench.io",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wel0ub/nexn25minimlx4bit_on_apple_m5_max_1336_toks/",
+      "published_at": "2026-09-12T19:00:09Z",
+      "summary": "      Another new model dropped in the course of this week that is well deployable on consumer hardware: Nex N2.5 Mini I went with the recommended settings for the best generation quality and ran a few benchmarks:  tempe",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-12-quoting-paul-ford",
+      "source": "simonw",
+      "title": "Quoting Paul Ford",
+      "url": "https://simonwillison.net/2026/Sep/12/paul-ford/",
+      "published_at": "2026-09-12T18:00:21Z",
+      "summary": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-12-deepseek-v41-flash-on-8-a40-40-toks-q2-k-and-32-toks-q4-k-m",
+      "source": "localllama",
+      "title": "DeepSeek V4.1 Flash on 8× A40: ~40 tok/s Q2_K and ~32 tok/s Q4_K_M with TensorSharp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wejdbe/deepseek_v41_flash_on_8_a40_40_toks_q2_k_and_32/",
+      "published_at": "2026-09-12T17:57:18Z",
+      "summary": "      Hey everyone — I’m building TensorSharp, an open-source LLM inference engine. Here are the latest DeepSeek V4.1 Flash GGUF results using its native ggml_cuda backend. Setup: 8× NVIDIA A40, layer split, F16 KV cache",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-12-m2-ultraqwen38-flash-next-update---latest-omlx-introduces-su",
+      "source": "localllama",
+      "title": "M2 Ultra/Qwen3.8 Flash Next Update - latest oMLX introduces substantial speedup",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wei63j/m2_ultraqwen38_flash_next_update_latest_omlx/",
+      "published_at": "2026-09-12T17:11:43Z",
+      "summary": "      &#32; submitted by &#32;  /u/Thrumpwart   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-12-2rtx-3090-epyc-box-running-qwen38-flash-next-at-38-toks",
+      "source": "localllama",
+      "title": "2×RTX 3090 + EPYC box running qwen3.8-flash-next at ~38 tok/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wehnsd/2rtx_3090_epyc_box_running_qwen38flashnext_at_38/",
+      "published_at": "2026-09-12T16:52:39Z",
+      "summary": "What I have: - CPU: EPYC 7551 (32c/64T, Zen 1) - Board: Supermicro H11SSL-i (SP3), Rev 2.0 - RAM: 128 GB DDR4-2133 (all 8 channels full) - GPU: 2x RTX 3090 (48 GB total, PCIe 3.0) - 1500 W PSU What I run:  - Qwen3-Flash-",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-12-looks-like-a-coordination-to-stop-distribution-of-intelligen",
+      "source": "localllama",
+      "title": "Looks like a coordination to stop distribution of intelligence",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wehlyi/looks_like_a_coordination_to_stop_distribution_of/",
+      "published_at": "2026-09-12T16:50:38Z",
+      "summary": "Coxon, bernie and now this First https://x.com/DarioAmodei/status/2098773920774074715  Then https://x.com/elonmusk/status/2098789109980332057 Then https://x.com/sama/status/2098811563415150910 I think fear mongering appr",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-12-for-those-of-you-forced-to-only-use-open-models-from-western",
+      "source": "localllama",
+      "title": "For those of you forced to only use open models from Western labs in production, what are you deploying?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wegs2w/for_those_of_you_forced_to_only_use_open_models/",
+      "published_at": "2026-09-12T16:17:59Z",
+      "summary": "First off, I know that GLM, Qwen, and DeepSeek absolutely dominate in terms of SOTA Open Source models, and that’s what I use in my personal projects and for school, however, I’m also responsible for deploying local AI o",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-12-this-draft-model-is-op-on-16-gb-cards-for-qwen-38-27b",
       "source": "localllama",
@@ -52,83 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wedp8r/model_regulation/",
       "published_at": "2026-09-12T14:12:18Z",
       "summary": "      &#32; submitted by &#32;  /u/nfox01   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-12-intel-linux-npu-driver-only-now-officially-supports-ubuntu-2",
-      "source": "localllama",
-      "title": "Intel Linux NPU driver only now officially supports Ubuntu 26.04 LTS",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wed7cg/intel_linux_npu_driver_only_now_officially/",
-      "published_at": "2026-09-12T13:51:31Z",
-      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-12-tencentauk-flash-hugging-face",
-      "source": "localllama",
-      "title": "tencent/AuK-Flash · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wecf25/tencentaukflash_hugging_face/",
-      "published_at": "2026-09-12T13:17:22Z",
-      "summary": "      AuK-Flash: Fast 4-Step Speech Generation and Editing  arXiv : https://arxiv.org/abs/2609.08936 Full Paper : https://arxiv.org/pdf/2609.08936 GitHub : https://github.com/Tencent-Hunyuan/AuK Project : https://auk-pro",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-12-bartowskiqwen38-27b-gguf-hugging-face---updated-per-tensor-l",
-      "source": "localllama",
-      "title": "bartowski/Qwen3.8-27B-GGUF · Hugging Face - Updated (Per-tensor layout)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1webfsq/bartowskiqwen3827bgguf_hugging_face_updated/",
-      "published_at": "2026-09-12T12:32:37Z",
-      "summary": "       Blog Post : Per-tensor layout maps for GGUF quantization Reddit thread : New tensor type layouts for my GGUF uploads  EDIT : Model card has updated things such as Graph, table, text, etc.,  &#32; submitted by &#32",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-12-anybody-use-frontier-models-like-astrafable-for-planningjudg",
-      "source": "localllama",
-      "title": "Anybody use frontier models like Astra/Fable for planning/judging, and qwen3.8 as the main workhorse? Curious to hear about your setups!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1web1jd/anybody_use_frontier_models_like_astrafable_for/",
-      "published_at": "2026-09-12T12:13:51Z",
-      "summary": "Hey everyone! I&#39;m curious to hear from people that use a combination of cloud-based frontier models and local ones for development. I&#39;m planning to set something similar up and wanted to hear about actual example",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-12-i-am-impressed-and-i-owe-you-one-qwen-38-flash-next-vision",
-      "source": "localllama",
-      "title": "I am impressed and I owe you one, Qwen 3.8 flash next (vision)!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1we9mv0/i_am_impressed_and_i_owe_you_one_qwen_38_flash/",
-      "published_at": "2026-09-12T11:02:03Z",
-      "summary": "I have enabled the vision for the CIRU Strix UL4 quant of Qwen 3.8 flash next (others quants likely perform very similar) and tried it on a few things, then wanted to show my partner how great it works and she asked it i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-12-38-27b-has-ruined-3536-35bs-for-me-its-just-absurdly-superio",
-      "source": "localllama",
-      "title": "3.8-27B has ruined 3.5/3.6-35B’s for me. It’s just *absurdly* superior.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1we8tl1/3827b_has_ruined_353635bs_for_me_its_just/",
-      "published_at": "2026-09-12T10:16:53Z",
-      "summary": "      Applied science work, from workflow design, data pipeline, results analysis, article/reports writing and data publishing online. 5 projects I did in the past replicated from start to finish.  3x to 4x more total wa",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-12-ggml-cuda-hip-add-missing-amd-gcn-mmq-config-by-thelittlefir",
-      "source": "localllama",
-      "title": "ggml-cuda: hip: add missing AMD GCN MMQ config by thelittlefireman · Pull Request #27841 · ggml-org/llama.cpp - PP improvements for RDNA2(MI50, MI60)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1we8elm/ggmlcuda_hip_add_missing_amd_gcn_mmq_config_by/",
-      "published_at": "2026-09-12T09:53:22Z",
-      "summary": "      PP improvements for RDNA2(MI50, MI60 are included in benchmarks). Check bottom comments of PR to see updated pp t/s stats.  &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -285,17 +296,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-07-llm-035",
-      "source": "simonw",
-      "title": "llm 0.35",
-      "url": "https://simonwillison.net/2026/Sep/7/llm/",
-      "published_at": "2026-09-07T23:54:54Z",
-      "summary": "Release: llm 0.35\n        \n\nNew OpenAI model: gpt-6-astra for GPT-6 Astra.\n\n\n    \n    \n        Tags: openai, llm, gpt-6-astra",
-      "tags": [
-        "simonw"
       ]
     },
     {
