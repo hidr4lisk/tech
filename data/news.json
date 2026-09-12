@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-09-11T20:45:07Z",
+  "updated_at": "2026-09-12T03:59:08Z",
   "items": [
+    {
+      "id": "localllama-2026-09-12-messaging-ai-on-discord",
+      "source": "localllama",
+      "title": "Messaging AI on Discord",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1we1a62/messaging_ai_on_discord/",
+      "published_at": "2026-09-12T03:21:59Z",
+      "summary": "Hey guys, I set up Hermes a few days ago and it&#39;s been great from setup to usage. I really like how simple it is to set up a Discord gateway in particular, and being able to message my agent from anywhere is really c",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-12-got-an-old-slow-low-vram-gpu-laying-around-might-be-worth-it",
+      "source": "localllama",
+      "title": "Got an old slow low vram GPU laying around? Might be worth it to use for Just Vision mmproj llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdyprr/got_an_old_slow_low_vram_gpu_laying_around_might/",
+      "published_at": "2026-09-12T01:18:43Z",
+      "summary": "For many, Vram is precious, I see many people recommend using --no-mmproj-offload to save gpu vram but it is painfully slow. Especially if you are using it with agentic coding. If possible, add that secondary gpu just fo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-12-i-fine-tuned-a-2b-llm-on-our-whatsapp-group-chat-and-shared",
+      "source": "localllama",
+      "title": "I fine-tuned a 2B LLM on our WhatsApp group chat, and shared how to do it on GitHub as a cookbook.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdxz12/i_finetuned_a_2b_llm_on_our_whatsapp_group_chat/",
+      "published_at": "2026-09-12T00:44:36Z",
+      "summary": "      https://github.com/Sayitobar/chat_llm_cookbook This is my personal project that took several months. I wanted to see whether a 2B small local model could simulate a six-person group chat trained &amp; ran on an M1 ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-12-openai-agents-attacked-rubygems-back-in-may",
+      "source": "simonw",
+      "title": "OpenAI agents attacked RubyGems back in May",
+      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+      "published_at": "2026-09-12T00:42:25Z",
+      "summary": "OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis (",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-12-countering-misuse-of-ai-september-2026-anthropic",
+      "source": "localllama",
+      "title": "Countering misuse of AI: September 2026 / Anthropic",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdxspd/countering_misuse_of_ai_september_2026_anthropic/",
+      "published_at": "2026-09-12T00:36:16Z",
+      "summary": "      Kimi routed some PLA requests to Claude for distillation purposes without warning the PLA users. There is rumor that 16 Moonshot employees were arrested for this leak.  &#32; submitted by &#32;  /u/Ok_Warning2146  ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-12-qwen-next-seems-worse-to-me-then-38-27b-for-coding-but-i-fee",
+      "source": "localllama",
+      "title": "Qwen-Next seems worse to me then 3.8 27b for coding, but I feel like I must be missing something?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdx463/qwennext_seems_worse_to_me_then_38_27b_for_coding/",
+      "published_at": "2026-09-12T00:05:36Z",
+      "summary": "Hi! I run both models on MTPLX on my m5 max, and since I have 128GB of ram I run the q8 27b. I think MTPLX only lets me run &quot;optimized for speed&quot; which it says is a dynamic q4 with 8 bit attention.  Both of the",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-learningrsi-through-ngrams",
+      "source": "localllama",
+      "title": "Learning/RSI through ngrams?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdwmwh/learningrsi_through_ngrams/",
+      "published_at": "2026-09-11T23:45:03Z",
+      "summary": "Hey gang, im wondering if you in theory could use ngrams as seen with Qwen 3.8 Flash or DS4.1 in order to dynamically train the model?  Normally the ngram embeddings behave similar to a lookup table of sorts. So instead ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-11-so-you-want-to-use-openrouter",
+      "source": "simonw",
+      "title": "So you want to use OpenRouter?",
+      "url": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
+      "published_at": "2026-09-11T22:49:18Z",
+      "summary": "So you want to use OpenRouter?\nOne of OpenRouter's selling points is that it \"handles fallbacks automatically and picks the most cost-effective option for each request\", so you can call a single API endpoint for a model ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-this-is-why-we-need-open-source-harnesses-local-models",
+      "source": "localllama",
+      "title": "This is why we need open-source harnesses + local models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdushp/this_is_why_we_need_opensource_harnesses_local/",
+      "published_at": "2026-09-11T22:25:34Z",
+      "summary": "i&#39;ve been thinking about this more after trying different agent setups. the model isn&#39;t the only thing that determines how well an agent performs. The harness around the model matters a lot too. With a managed ag",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-what-is-a-good-toolmodel-for-near-realtime-voice-conversatio",
+      "source": "localllama",
+      "title": "What is a good tool+model for near-realtime voice conversation?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wduplw/what_is_a_good_toolmodel_for_nearrealtime_voice/",
+      "published_at": "2026-09-11T22:22:14Z",
+      "summary": "Looking for tools to build/run an engine to do STT-LLM-TTS basically. I know how to run all of them separately, and if need be I can build one myself, but I was curious if there is already an open source tool out there t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-11-nvidia-rtx-5090-with-96gb-of-vram",
+      "source": "localllama",
+      "title": "nvidia rtx 5090 with 96gb of vram.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdrvru/nvidia_rtx_5090_with_96gb_of_vram/",
+      "published_at": "2026-09-11T20:32:04Z",
+      "summary": "China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 — 3x more VRAM at 65% the cost of the original Anyone here running one of these? Or brave enough to purchase ?   &#32; su",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-11-is-anyone-using-k2-horizon-mova-36b-a4b-if-yes-what-is-the-u",
       "source": "localllama",
@@ -35,39 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-11-running-qwen38-27b-q4-at-max-context-on-a-32-gb-gpu-while-av",
-      "source": "localllama",
-      "title": "Running Qwen3.8-27B-Q4 at max context on a 32 GB GPU while avoiding kvcache quantization",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdqit1/running_qwen3827bq4_at_max_context_on_a_32_gb_gpu/",
-      "published_at": "2026-09-11T19:41:29Z",
-      "summary": "I can&#39;t stand kv cache quantization. Even at q8_0, I can feel the difference. But realistically, when running Qwen3.8-27B-UD-Q4_K_XL on my 32 GB GPU, I only have room for ~170k tokens (with mtp and mmproj enabled). I",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-codefinetuner-fine-tune-a-local-code-autocomplete-model-on-y",
-      "source": "localllama",
-      "title": "CodeFinetuner: Fine-tune a local code autocomplete model on your own codebase",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdp9qc/codefinetuner_finetune_a_local_code_autocomplete/",
-      "published_at": "2026-09-11T18:56:39Z",
-      "summary": "      Hi everyone, I was interested in learning LoRA fine-tuning, and ended up building CodeFinetuner over the past few months, a full pipeline that fine-tunes a small code autocomplete model (e.g. Qwen2.5-Coder-3B) spec",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-what-gpus-will-give-me-good-speeds-and-on-dsv4-flash-and-sim",
-      "source": "localllama",
-      "title": "What GPUs will give me GOOD speeds and on DSV4 Flash and similar models, and not have to run a mega quantized version? Budget around $15k-ish.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdooag/what_gpus_will_give_me_good_speeds_and_on_dsv4/",
-      "published_at": "2026-09-11T18:36:26Z",
-      "summary": "I wish I could spend $15k on my own homelab hardware, but no this is for work lol. Like the title says, we&#39;re looking to run DSV4 Flash (and similar tier models) locally at good speeds, both for token gen and prompt ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-11-quoting-boris-cherny",
       "source": "simonw",
       "title": "Quoting Boris Cherny",
@@ -79,69 +167,14 @@
       ]
     },
     {
-      "id": "localllama-2026-09-11-any-12gb-vram-users-out-there",
-      "source": "localllama",
-      "title": "Any 12gb VRAM users out there?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdl7vp/any_12gb_vram_users_out_there/",
-      "published_at": "2026-09-11T16:32:24Z",
-      "summary": "Hi! I&#39;ve been following this community for quite a while and have difficulty figuring out what to put on my 3080 12gb - I know Qwen 3.6 35B 3A was the go-to choice when it first came out, but I&#39;m curious if there",
+      "id": "simonw-2026-09-11-feeling-sad-about-ai",
+      "source": "simonw",
+      "title": "Feeling sad about AI",
+      "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
+      "published_at": "2026-09-11T17:28:37Z",
+      "summary": "My comment on Feeling sad about AI &mdash; Hacker News.I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis and",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-qwen38-27b-humanlike-chat-a-model-i-tuned-to-imitate-realist",
-      "source": "localllama",
-      "title": "Qwen3.8-27B-Humanlike-Chat: A model I tuned to imitate realistic human-to-human conversation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdl2qa/qwen3827bhumanlikechat_a_model_i_tuned_to_imitate/",
-      "published_at": "2026-09-11T16:27:16Z",
-      "summary": "      I made this because I was getting genuinely annoyed at trying to have a normal conversation with LLMs. Even with prompting and various tricks, most models I&#39;ve tried still have this &quot;AI assistant&quot; vib",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-hot-expert-reload-on-gpu-is-what-this-community-needs",
-      "source": "localllama",
-      "title": "Hot Expert Reload on GPU is what this community needs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdl1d0/hot_expert_reload_on_gpu_is_what_this_community/",
-      "published_at": "2026-09-11T16:25:51Z",
-      "summary": "A huge favor to ask llama maintainers - please implement this feature. Even with one 3090 card there will be tangible improvements in decode speed on MOE models with moderate number of active parameters, like Qwen3.8-Fla",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-orukeet-new-asr-model-based-on-parakeet",
-      "source": "localllama",
-      "title": "Orukeet, new ASR model based on Parakeet",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdk2he/orukeet_new_asr_model_based_on_parakeet/",
-      "published_at": "2026-09-11T15:50:53Z",
-      "summary": "      I haven&#39;t seen this mentioned yet, so I thought it deserves a post. I was trying out OpenWhispr when this model came up as the recommendation. So I don&#39;t have personal experience yet, but it&#39;s supposed ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-openai-can-use-all-interactions-of-paid-users-even-if-they-o",
-      "source": "localllama",
-      "title": "OpenAI can use all interactions of paid users, even if they opted out of training",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdj3x9/openai_can_use_all_interactions_of_paid_users/",
-      "published_at": "2026-09-11T15:15:17Z",
-      "summary": "      Their opt-out terms don&#39;t seem to apply to reasoning tokens. Since consumers do not receive hidden reasoning tokens from OpenAI, it is unclear if it counts as &quot;Output&quot; protected by the paid user opt-o",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-11-qwen38-flash-next-ud-q4-k-xl-49-tokenss-tgs-using-2x-rtx-309",
-      "source": "localllama",
-      "title": "Qwen3.8 Flash Next UD-Q4_K_XL 49 tokens/s TGS using 2x RTX 3090 on Windows 11.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdipve/qwen38_flash_next_udq4_k_xl_49_tokenss_tgs_using/",
-      "published_at": "2026-09-11T15:00:50Z",
-      "summary": "      Developer&#39;s own thread: https://www.reddit.com/r/LocalLLaMA/s/adp1cGZZe9 Code: https://github.com/Inovello/llama.cpp/tree/flashnext-e06 My hardware: 2x RTX 3090, Intel Ultra 7 270k Plus, 192 GB DDR5@5600 MHz To",
-      "tags": [
-        "localllama"
+        "simonw"
       ]
     },
     {
@@ -261,39 +294,6 @@
       "url": "https://simonwillison.net/2026/Sep/7/llm/",
       "published_at": "2026-09-07T23:54:54Z",
       "summary": "Release: llm 0.35\n        \n\nNew OpenAI model: gpt-6-astra for GPT-6 Astra.\n\n\n    \n    \n        Tags: openai, llm, gpt-6-astra",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-07-quoting-jakub-pachocki",
-      "source": "simonw",
-      "title": "Quoting Jakub Pachocki",
-      "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-      "published_at": "2026-09-07T22:26:25Z",
-      "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...]\nWe will need powerful, aligned AI for defense; to secur",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-07-video-compressor",
-      "source": "simonw",
-      "title": "Video compressor",
-      "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
-      "published_at": "2026-09-07T18:29:07Z",
-      "summary": "Tool: Video compressor\n        I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-07-mercator-equal-earth",
-      "source": "simonw",
-      "title": "Mercator ↔ Equal Earth",
-      "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
-      "published_at": "2026-09-07T16:24:16Z",
-      "summary": "Tool: Mercator ↔ Equal Earth\n        I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercato",
       "tags": [
         "simonw"
       ]
