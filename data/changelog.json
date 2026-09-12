@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-09-12T10:24:06Z",
+  "updated_at": "2026-09-12T15:18:53Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10931",
+      "project": "llama-cpp",
+      "version": "b10931",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10931",
+      "published_at": "2026-09-12T14:48:43Z",
+      "body_excerpt": "ui : add cache (#28802) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10930",
+      "project": "llama-cpp",
+      "version": "b10930",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10930",
+      "published_at": "2026-09-12T13:01:59Z",
+      "body_excerpt": "server : allow model downloads at model limit fix issue #26809 (#28530) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10929",
+      "project": "llama-cpp",
+      "version": "b10929",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10929",
+      "published_at": "2026-09-12T12:28:32Z",
+      "body_excerpt": "ggml-cuda: hip add specific config table for AMD GCN (#27841) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYC",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10927",
+      "project": "llama-cpp",
+      "version": "b10927",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10927",
+      "published_at": "2026-09-12T10:57:36Z",
+      "body_excerpt": "vendor : update cpp-httplib to 0.56.0 (#28787) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10926",
+      "project": "llama-cpp",
+      "version": "b10926",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10926",
+      "published_at": "2026-09-12T10:30:50Z",
+      "body_excerpt": "syscl : Handle (fail gracefully) unsupported tq1_0 quants (#28681) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10924",
       "project": "llama-cpp",
@@ -10467,33 +10512,6 @@
       "published_at": "2026-06-14T18:50:23Z",
       "body_excerpt": "chat: add dedicated Cohere2MoE (North Code) parser (#24615) chat: add dedicated Cohere2MoE (North Code) parser Some renames to make @CISC happy :> macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2)",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9632",
-      "project": "llama-cpp",
-      "version": "b9632",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9632",
-      "published_at": "2026-06-14T15:15:34Z",
-      "body_excerpt": "jinja : add count/d/e filter aliases (#24606) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
-      "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-FastContext-1.0-4B-RL",
-      "project": "microsoft",
-      "version": "FastContext-1.0-4B-RL",
-      "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-RL",
-      "published_at": "2026-06-14T14:45:08Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-FastContext-1.0-4B-SFT",
-      "project": "microsoft",
-      "version": "FastContext-1.0-4B-SFT",
-      "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT",
-      "published_at": "2026-06-14T14:39:57Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
