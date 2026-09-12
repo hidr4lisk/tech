@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-09-12T03:59:15Z",
+  "updated_at": "2026-09-12T10:24:06Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10924",
+      "project": "llama-cpp",
+      "version": "b10924",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10924",
+      "published_at": "2026-09-12T09:18:57Z",
+      "body_excerpt": "server: frame the router child state command as a whole line (#28747) The child writes its state commands on stdout while the logger writes on stderr, and both share a single pipe. The logger emits the trailing color reset after the newline of a debug, warn or error entry, so that escape sequence has no newline of its own and the router reads it glued in front of the next command. The line prefix ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10923",
+      "project": "llama-cpp",
+      "version": "b10923",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10923",
+      "published_at": "2026-09-12T08:56:39Z",
+      "body_excerpt": "opencl: fix several bugs where the backend aborts (#27630) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL F",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10922",
+      "project": "llama-cpp",
+      "version": "b10922",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10922",
+      "published_at": "2026-09-12T08:30:45Z",
+      "body_excerpt": "opencl: add bin kernel (#28677) opencl: add A8 Q4_K non-MoE binary kernel opencl: fix layout compatibility opencl: rename binary kernel selection helpers --------- Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10921",
+      "project": "llama-cpp",
+      "version": "b10921",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10921",
+      "published_at": "2026-09-12T08:04:36Z",
+      "body_excerpt": "webgpu: align tensor bindings to the type block size (#28382) Walk the binding offset back until the distance to the tensor is a whole number of blocks, so block quantized views get a valid element offset in the shader. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10920",
+      "project": "llama-cpp",
+      "version": "b10920",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10920",
+      "published_at": "2026-09-12T07:15:37Z",
+      "body_excerpt": "hexagon: support for multi-device model split (aka row-split) (#28589) hex-row-split: add support for multi-device row spliting Co-authored-by: Max Krasnyansky hex-mdev: add work splitting to fused kernels hex-mdev: use mdev_ prefix for all multi-device state hex-mdev: make device configuration more expressive to support device groups hex-mdev: fix mdev session init hex-mdev: fused nx (2x,3x) matm",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10919",
       "project": "llama-cpp",
@@ -10449,24 +10494,6 @@
       "published_at": "2026-06-14T14:39:57Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9631",
-      "project": "llama-cpp",
-      "version": "b9631",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9631",
-      "published_at": "2026-06-14T10:18:54Z",
-      "body_excerpt": "cli : fix not copying preserved tokens (#24258) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) W",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9630",
-      "project": "llama-cpp",
-      "version": "b9630",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9630",
-      "published_at": "2026-06-14T07:31:23Z",
-      "body_excerpt": "Add cohere2moe to llama-vocab for TINY_AYA (#24601) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CP",
-      "type": "tool"
     }
   ]
 }
