@@ -9,6 +9,12 @@ permissions:
   contents: write
   actions: write
 
+# Una sola ejecución a la vez: el 2026-09-13 dos corridas del cron se pisaron
+# y la segunda murió en el push con «cannot lock ref 'refs/heads/main'».
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -45,7 +51,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           git commit -m "chore(data): auto-update $(date -u +'%Y-%m-%dT%H:%MZ')"
-          git push
+          # Si main se movió mientras corríamos, rebase quedándonos con lo
+          # recién generado (data/ es derivado: el fetch más nuevo gana).
+          git push || { git fetch origin main && git rebase -X theirs origin/main && git push; }
 
       - name: Trigger deploy workflow
         if: steps.diff.outputs.changed == 'true'
