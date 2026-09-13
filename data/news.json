@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-09-13T15:55:52Z",
+  "updated_at": "2026-09-13T20:33:26Z",
   "items": [
+    {
+      "id": "localllama-2026-09-13-cuda-for-amd-windows-run-cuda-targeted-windows-applications",
+      "source": "localllama",
+      "title": "CUDA-for-AMD-Windows: Run CUDA-targeted Windows applications on AMD GPUs with ZLUDA + ROCm/HIP.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfij7a/cudaforamdwindows_run_cudatargeted_windows/",
+      "published_at": "2026-09-13T20:19:35Z",
+      "summary": "      I couldn&#39;t find any posts mentioned this windows build via the subreddit search. Based on ZLUDA, but properly compiled for Windows, might be exciting. TLDR: About 3% slower compared to native, seems to be a goo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-plot-twist",
+      "source": "localllama",
+      "title": "Plot twist",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfhiqx/plot_twist/",
+      "published_at": "2026-09-13T19:41:28Z",
+      "summary": "      From ex Qwen leader  https://x.com/JustinLin610/status/2098989619576729924  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-aurora10-150m-releases",
+      "source": "localllama",
+      "title": "Aurora1.0-150M Releases!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfg0sb/aurora10150m_releases/",
+      "published_at": "2026-09-13T18:46:19Z",
+      "summary": "      The first generation of our 150M model has just been released Its performance is similar to that of GPT2-Small The benchmarks: PIQA: 62.24% Hellaswag: 32.20% Arc-Easy: 44.91% Arc-Challenge: 25.00% Arithmark 3.0: 33",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-i-have-just-moved-from-macbook-m5-pro-48-gb-to-rtx3090",
+      "source": "localllama",
+      "title": "I have just moved from MacBook M5 pro 48 GB to RTX3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wffgdh/i_have_just_moved_from_macbook_m5_pro_48_gb_to/",
+      "published_at": "2026-09-13T18:25:26Z",
+      "summary": "Using the RTX3090 on a linux machine I built for it and running Qwen 3.8 27B getting average 100t/s compared to my MacBook 20t/s I think I can finally get rid of my Claude subscription, this is good enough for me. I am a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-talk-me-out-of-buying-a-3rd-spark",
+      "source": "localllama",
+      "title": "Talk me out of buying a 3rd Spark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfefc4/talk_me_out_of_buying_a_3rd_spark/",
+      "published_at": "2026-09-13T17:47:36Z",
+      "summary": "      Does anyone think the gurus on the DGX Spark forum are going to figure out how to magically fit DeepSeek 4.1 Flash on a 2x cluster, or is it only possible on 3 or 4 Sparks?   &#32; submitted by &#32;  /u/Porespella",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-3k-128gb-vram-256gb-ram-ddr4-server",
+      "source": "localllama",
+      "title": "3k$ 128GB VRAM + 256GB RAM DDR4 Server",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfe9zt/3k_128gb_vram_256gb_ram_ddr4_server/",
+      "published_at": "2026-09-13T17:42:07Z",
+      "summary": "      I finished my home inference server. First I tried Lenovo p620 workstation and while it’s a good value overall it pissed me off with a ton of proprietary Lenovo shit to deal with and I return it in the end. Compone",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-dear-24g-owners-try-vllm-you-might-be-able-to-run-qwen38-27b",
+      "source": "localllama",
+      "title": "Dear 24G owners, try VLLM you might be able to run Qwen3.8 27B INT4, 144K FP8 KV on RTX 3090 with better speed. (TLDR VLLM AOT)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfdtm7/dear_24g_owners_try_vllm_you_might_be_able_to_run/",
+      "published_at": "2026-09-13T17:25:05Z",
+      "summary": "      VLLM Benchmark: Prefill, Prompt processing - avg, 871.93 tok/s (3 hours constant running xhigh) - 10K prompt, 1000.26 tok/s (16 runs) - 90K prompt, 743,59 tok/s (16 runs) Decode, tok gen - avg, 38.39 tok/s (3 hours",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-migration-from-claude-code-to-a-private-local-harness-questi",
+      "source": "localllama",
+      "title": "Migration from Claude Code to a private local harness. Questions.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfcewd/migration_from_claude_code_to_a_private_local/",
+      "published_at": "2026-09-13T16:32:34Z",
+      "summary": "I&#39;ll start by saying I&#39;m not talking about the models themselves, I&#39;m aware that I can&#39;t come close to something like Fable&#39;s intelligence locally. Just wanted to get that out of the way. Basically. O",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-hoping-for-optimized-smarter-upcoming-models-like-deepseek-v",
+      "source": "localllama",
+      "title": "Hoping for Optimized Smarter Upcoming Models .... Like DeepSeek-V4.1-Flash( KVCache + Engram) in Small/Medium/Big sizes",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfbnhc/hoping_for_optimized_smarter_upcoming_models_like/",
+      "published_at": "2026-09-13T16:03:44Z",
+      "summary": "      It&#39;s still a dream for many folks to run medium size(30B range) models @ Q8 with Unquantized KVCache (256K Context) on their GPUs. It would be awesome to have DeepSeek-V4.1-Flash&#39;s KVCache + Engram for all ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-13-qwen-38-27b-ud-iq4-xs-even-faster-on-16gb-cuda",
       "source": "localllama",
@@ -30,105 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf9uc5/qwen38_flash_next_untrained_svg_generation/",
       "published_at": "2026-09-13T14:54:04Z",
       "summary": "      &gt; &quot;make an svg of a frog playing on a chello on the back of a whale with carribean island in the back.&quot; interestingly the svg looks different in the OpenWebUi preview then when looked at in preview (os",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-my-experience-building-64gb-vram-ai-swe-assistantagent-pc",
-      "source": "localllama",
-      "title": "My experience building 64GB VRAM AI SWE assistant/agent PC",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf8ur9/my_experience_building_64gb_vram_ai_swe/",
-      "published_at": "2026-09-13T14:16:21Z",
-      "summary": "      As a SWE I have ultimate belief that having a irreplaceable subscription on OpenAI and Anthropic models is actually against my beliefs (I&#39;m not fond of becoming a digital slave and being unable to do my job wit",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-llm-performance-community-metric",
-      "source": "localllama",
-      "title": "llm performance community metric",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf6w41/llm_performance_community_metric/",
-      "published_at": "2026-09-13T12:52:31Z",
-      "summary": "my question about LLM performance We see a lot of posts about token prediction, token generation per second, etc. But is it really the metric? I can see that DeepSeek V4 Flash 0731 (with DSPark; mac studio + llama.cpp) p",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-the-rhetoric-is-really-heating-up",
-      "source": "localllama",
-      "title": "The rhetoric is really heating up!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf6nbi/the_rhetoric_is_really_heating_up/",
-      "published_at": "2026-09-13T12:41:18Z",
-      "summary": "The entire page of the NY Times today above the fold absent one article is AI (the models are just too strong/too dangerous, must be regulated). They forgot to include &quot;Sponsored by OpenAI&quot; at the end of the ar",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-what-are-the-top-ai-models-that-are-still-relevant-today-fro",
-      "source": "localllama",
-      "title": "What are the top AI Models that are still relevant today from 2024 and 2025?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf69ug/what_are_the_top_ai_models_that_are_still/",
-      "published_at": "2026-09-13T12:23:42Z",
-      "summary": "We are in 2026 and it has been a crazy year. The evolution of the technology has been staggering to say the least. Pretty much we are on the MoE period and dense models are almost in the way of the dodo except for a few.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-internlmintern-s2-hugging-face",
-      "source": "localllama",
-      "title": "internlm/Intern-S2 · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf3wt2/internlminterns2_hugging_face/",
-      "published_at": "2026-09-13T10:19:48Z",
-      "summary": "      from internlm: We introduce Intern-S2-397B, our most capable multimodal foundation model for scientific intelligence and long-horizon agents. Intern-S2-397B scales along three critical dimensions: pre-training, rei",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-the-local-llm-community-feels-like-the-golden-era-of-the-int",
-      "source": "localllama",
-      "title": "The Local LLM community feels like the golden era of the internet all over again",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf3i1m/the_local_llm_community_feels_like_the_golden_era/",
-      "published_at": "2026-09-13T09:56:52Z",
-      "summary": "Lately because of the current hardware shortage, unfortunately or fortunately, we can’t just throw infinite cloud compute at our problems, but we’re forced to actually care about what’s happening under the hood. We’re tw",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-how-does-qwen-38-27b-compare-on-low-thinking-mode-to-the-old",
-      "source": "localllama",
-      "title": "How does Qwen 3.8 27B compare on low thinking mode to the older 3.6 models?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf39vc/how_does_qwen_38_27b_compare_on_low_thinking_mode/",
-      "published_at": "2026-09-13T09:43:20Z",
-      "summary": "Since we know Qwen 3.8 27B thinks quite long, but gives at least a good one-shot result where you can leave it to do everything on it own, how does it compare to the older series of models for very simple tasks where you",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-is-there-still-strong-interest-in-a-dense-9b-model",
-      "source": "localllama",
-      "title": "Is there still strong interest in a dense 9b model?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wezm58/is_there_still_strong_interest_in_a_dense_9b_model/",
-      "published_at": "2026-09-13T06:08:46Z",
-      "summary": "I have a full model, it&#39;s ready to train. It&#39;s ~9b parameters. 9.4b to be more exact. That includes a 1/2/3 Engram table, Moonshot&#39;s AttnRes modeling, and RoPE / NoPE layering at 3:1 as more or less validated",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-should-i-sell-my-rtx-5090-for-a-mac-studio-m5-ultra-96gb",
-      "source": "localllama",
-      "title": "Should I sell my RTX 5090 for a Mac Studio M5 Ultra 96GB?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wez30k/should_i_sell_my_rtx_5090_for_a_mac_studio_m5/",
-      "published_at": "2026-09-13T05:38:49Z",
-      "summary": "I can get $5k for the 5090 and the Mac is $5499 before tax.  The 5090 has a memory bandwidth of 1.8 TB/s while the M5 Ultra is 1.2 TB/s. Is this a sensible upgrade? Primary use is coding.   &#32; submitted by &#32;  /u/u",
       "tags": [
         "localllama"
       ]
