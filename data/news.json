@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-09-13T11:26:42Z",
+  "updated_at": "2026-09-13T15:55:52Z",
   "items": [
+    {
+      "id": "localllama-2026-09-13-qwen-38-27b-ud-iq4-xs-even-faster-on-16gb-cuda",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B UD-IQ4_XS even faster on 16GB CUDA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfba8g/qwen_38_27b_udiq4_xs_even_faster_on_16gb_cuda/",
+      "published_at": "2026-09-13T15:50:25Z",
+      "summary": "      This is an evolution on top of Raymond&#39;s KV cache streaming fork - all credits to what enabled this goes to him. The basic idea behind what he enabled was a pool of memory in VRAM that is used differently depen",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-what-are-you-guys-running-on-an-m5-pro-64gb",
+      "source": "localllama",
+      "title": "What are you guys running on an M5 Pro 64gb?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfb3y3/what_are_you_guys_running_on_an_m5_pro_64gb/",
+      "published_at": "2026-09-13T15:43:29Z",
+      "summary": "Is it all qwen3.8 27b? I get around 20 tok/s sustained, with like 30 tok/s in the first 2-4k tokens. It&#39;s still quite unbearably slow, maybe because it thinks so much, I&#39;ve also tried antirez&#39;s DS4 and while ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-qwen38-flash-next---untrained-svg-generation",
+      "source": "localllama",
+      "title": "Qwen3.8 flash next - untrained svg generation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf9uc5/qwen38_flash_next_untrained_svg_generation/",
+      "published_at": "2026-09-13T14:54:04Z",
+      "summary": "      &gt; &quot;make an svg of a frog playing on a chello on the back of a whale with carribean island in the back.&quot; interestingly the svg looks different in the OpenWebUi preview then when looked at in preview (os",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-my-experience-building-64gb-vram-ai-swe-assistantagent-pc",
+      "source": "localllama",
+      "title": "My experience building 64GB VRAM AI SWE assistant/agent PC",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf8ur9/my_experience_building_64gb_vram_ai_swe/",
+      "published_at": "2026-09-13T14:16:21Z",
+      "summary": "      As a SWE I have ultimate belief that having a irreplaceable subscription on OpenAI and Anthropic models is actually against my beliefs (I&#39;m not fond of becoming a digital slave and being unable to do my job wit",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-llm-performance-community-metric",
+      "source": "localllama",
+      "title": "llm performance community metric",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf6w41/llm_performance_community_metric/",
+      "published_at": "2026-09-13T12:52:31Z",
+      "summary": "my question about LLM performance We see a lot of posts about token prediction, token generation per second, etc. But is it really the metric? I can see that DeepSeek V4 Flash 0731 (with DSPark; mac studio + llama.cpp) p",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-the-rhetoric-is-really-heating-up",
+      "source": "localllama",
+      "title": "The rhetoric is really heating up!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf6nbi/the_rhetoric_is_really_heating_up/",
+      "published_at": "2026-09-13T12:41:18Z",
+      "summary": "The entire page of the NY Times today above the fold absent one article is AI (the models are just too strong/too dangerous, must be regulated). They forgot to include &quot;Sponsored by OpenAI&quot; at the end of the ar",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-13-what-are-the-top-ai-models-that-are-still-relevant-today-fro",
+      "source": "localllama",
+      "title": "What are the top AI Models that are still relevant today from 2024 and 2025?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf69ug/what_are_the_top_ai_models_that_are_still/",
+      "published_at": "2026-09-13T12:23:42Z",
+      "summary": "We are in 2026 and it has been a crazy year. The evolution of the technology has been staggering to say the least. Pretty much we are on the MoE period and dense models are almost in the way of the dodo except for a few.",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-13-internlmintern-s2-hugging-face",
       "source": "localllama",
@@ -57,61 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-13-huggingface-hub-silently-fingerprints-which-ai-coding-agent",
-      "source": "localllama",
-      "title": "huggingface_hub silently fingerprints which AI coding agent you're using and sends it as telemetry",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wey19g/huggingface_hub_silently_fingerprints_which_ai/",
-      "published_at": "2026-09-13T04:42:12Z",
-      "summary": "      &#32; submitted by &#32;  /u/rm-rf-rm   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-ds-41-and-the-new-harness",
-      "source": "localllama",
-      "title": "DS 4.1 and the new Harness",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wewz9p/ds_41_and_the_new_harness/",
-      "published_at": "2026-09-13T03:47:35Z",
-      "summary": "I gave DS V4.1 Flash an HLE problem with a bash tool + 2 hours.  Hour 1: it wrote three MILP solvers. (225,200) Hour 2: it downloaded the HLE dataset from Hugging Face, found the question, read the answer key (225,600), ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-i-built-a-serverless-hosting-platform-for-lora-adapters-with",
-      "source": "localllama",
-      "title": "I built a serverless hosting platform for LoRA adapters with vLLM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1weum85/i_built_a_serverless_hosting_platform_for_lora/",
-      "published_at": "2026-09-13T01:50:07Z",
-      "summary": "      It’s always bothered me that after fine-tuning a model for a project, there isn’t a particularly easy way to host it without either running it locally and keeping a GPU on 24/7 or paying for an entire GPU server. T",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-the-hugging-bay",
-      "source": "localllama",
-      "title": "The Hugging Bay",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1weujw6/the_hugging_bay/",
-      "published_at": "2026-09-13T01:46:47Z",
-      "summary": "      New website to download models in case HF starts censoring or limiting access.  &#32; submitted by &#32;  /u/Thrumpwart   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-13-benchmark-your-custom-pi-tools",
-      "source": "localllama",
-      "title": "Benchmark your custom Pi tools",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1weufjc/benchmark_your_custom_pi_tools/",
-      "published_at": "2026-09-13T01:40:33Z",
-      "summary": "A few people here mentioned interest in a way to test their custom Pi setups, so I figured I’d drop this here: RoastMyHarness The basic idea is a small engine that sets up an environment to run DeepSWE benchmark tasks us",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-12-generating-running-routes-with-gpt-6-astra-and-chatgpt-work",
       "source": "simonw",
       "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
@@ -120,28 +142,6 @@
       "summary": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning:\n\nI live at &lt;my address&gt;. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data.\n\nIt worked for 27 minutes ",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-12-whats-the-story-with-agnes-30-flash",
-      "source": "localllama",
-      "title": "What's the Story with Agnes-3.0-Flash?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wers2v/whats_the_story_with_agnes30flash/",
-      "published_at": "2026-09-12T23:36:40Z",
-      "summary": "      While browsing a benchmark list site, I spotted a recently published 33B parameter model which claimed to beat Qwen3.8 27b on the ArtificialAnalysis (AA) intelligence index. I was obviously excited. But then, while",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-12-this-seems-more-probable-than-it-was-before",
-      "source": "localllama",
-      "title": "This seems more probable than it was before.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wepx7w/this_seems_more_probable_than_it_was_before/",
-      "published_at": "2026-09-12T22:14:37Z",
-      "summary": "      &#32; submitted by &#32;  /u/pmv143   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {

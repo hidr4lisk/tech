@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T11:26:46Z",
+  "updated_at": "2026-09-13T15:55:59Z",
   "releases": [
     {
       "id": "llama-cpp-b10941",
@@ -10502,60 +10502,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9649",
       "published_at": "2026-06-15T16:43:26Z",
       "body_excerpt": "sycl : fix reorder function; add fp32/fp16 in build script (#24578) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9647",
-      "project": "llama-cpp",
-      "version": "b9647",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9647",
-      "published_at": "2026-06-15T15:50:05Z",
-      "body_excerpt": "[SYCL] add to support pool_1d, move pool_1d/2d code to pool.cpp/hpp (#24584) add to support pool_1d, move pool_1d/2d code to pool.cpp/hpp update ops.md macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
-      "type": "tool"
-    },
-    {
-      "id": "hf-allenai-MolmoMotion-4B-H3-F30",
-      "project": "allenai",
-      "version": "MolmoMotion-4B-H3-F30",
-      "url": "https://huggingface.co/allenai/MolmoMotion-4B-H3-F30",
-      "published_at": "2026-06-15T15:47:34Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-allenai-MolmoMotion-4B-H1-F32",
-      "project": "allenai",
-      "version": "MolmoMotion-4B-H1-F32",
-      "url": "https://huggingface.co/allenai/MolmoMotion-4B-H1-F32",
-      "published_at": "2026-06-15T15:47:34Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9646",
-      "project": "llama-cpp",
-      "version": "b9646",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9646",
-      "published_at": "2026-06-15T15:18:13Z",
-      "body_excerpt": "[SYCL]: Remove per-allocation Level Zero runtime checks (#23399) [SYCL] Centralize Level Zero detection in ggml_sycl_init use the same wording get back the warning [SYCL] Remove per-allocation getenv() for GGML_SYCL_ENABLE_LEVEL_ZERO bring back the comment move it up to make sure devices call the shots move the env detection early replace g_ggml_sycl_enable_level_zero with a direct call to .ext_on",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9645",
-      "project": "llama-cpp",
-      "version": "b9645",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9645",
-      "published_at": "2026-06-15T14:41:16Z",
-      "body_excerpt": "metal : add repeat bf16 (#24638) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9644",
-      "project": "llama-cpp",
-      "version": "b9644",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9644",
-      "published_at": "2026-06-15T12:57:07Z",
-      "body_excerpt": "chat: fix whitespace problems once and for all (#24624) chat: fix whitespace problems once and for all Purge trailing spaces from grammar generation Revert \"Purge trailing spaces from grammar generation\" This reverts commit b0827ecb7d4767f37cefd751b3646f98d5303891. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux:",
       "type": "tool"
     }
   ]
