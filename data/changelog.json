@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-13T15:55:59Z",
+  "updated_at": "2026-09-14T04:16:06Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10951",
+      "project": "llama-cpp",
+      "version": "b10951",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10951",
+      "published_at": "2026-09-14T04:05:10Z",
+      "body_excerpt": "common : move llama_n_rs_seq to before llama_decode (#28749) This commit moves the llama_n_rs_seq function call to before the llama_decode call and returns directly if the check is true, removing the setting of res and the goto statement. The motivation for this change is to avoid the llama_decode call if it is not needed. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple S",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10950",
+      "project": "llama-cpp",
+      "version": "b10950",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10950",
+      "published_at": "2026-09-14T01:38:11Z",
+      "body_excerpt": "ggml-cuda: fallback to F32 on device without BF16 hardware acceleration (#28846) ggml-cuda: fallback to F32 on device without BF16 hardware acceleration: (Nvidia >= AMPERE, AMD >= RDNA3 or = CDNA) apply logic to NVIDIA as well --------- Co-authored-by: Johannes Gäßler Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10948",
+      "project": "llama-cpp",
+      "version": "b10948",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10948",
+      "published_at": "2026-09-13T19:08:25Z",
+      "body_excerpt": "tests : exclude HY_V4 from WebGPU test-llama-archs tests (#28855) Co-authored-by: Stanisław Szymczyk Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10947",
+      "project": "llama-cpp",
+      "version": "b10947",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10947",
+      "published_at": "2026-09-13T18:43:33Z",
+      "body_excerpt": "models : guard the expert FFN size fallback in nemotron-h against a zero divisor (#28779) The NextN/MTP tail loop derives the expert FFN size as n_ff/n_expert_used when expert_feed_forward_length gives nothing for the layer. Both values come from per-layer arrays that legitimately hold 0 on layers that are not MoE, so a checkpoint whose predict layers hold 0 in both divides by zero and dies with S",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10946",
+      "project": "llama-cpp",
+      "version": "b10946",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10946",
+      "published_at": "2026-09-13T18:19:18Z",
+      "body_excerpt": "ggml-cpu(s390x): guard VXE-only repack helpers (#28775) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10944",
+      "project": "llama-cpp",
+      "version": "b10944",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10944",
+      "published_at": "2026-09-13T16:12:26Z",
+      "body_excerpt": "sycl : Fix get mem error (#28227) fix for unsupport zes API optimize the code adjust the log level rm unused head files Update docs/backend/SYCL.md Co-authored-by: Titaniumtown fix the error to detect level zero SDK/dev package, stop build after detect the error update the message fix the build error when missed to install level zero dev package rm GGML_SYCL_DEV_DEBUG, mv read env vars in all entr",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10941",
       "project": "llama-cpp",
@@ -10340,168 +10394,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9661",
       "published_at": "2026-06-16T05:07:14Z",
       "body_excerpt": "vulkan: add col2im_1d op (#24425) vulkan: add GGML_OP_COL2IM_1D, follow-up to the CPU op vulkan: col2im_1d bounded gather loop instead of full-K scan with modulo vulkan: col2im_1d address review from @jeffbolznv vulkan: col2im_1d return nullptr for unsupported types, address review from @0cc4m macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-MiniMax-M2.7-DFlash",
-      "project": "nvidia",
-      "version": "MiniMax-M2.7-DFlash",
-      "url": "https://huggingface.co/nvidia/MiniMax-M2.7-DFlash",
-      "published_at": "2026-06-16T00:08:33Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9660",
-      "project": "llama-cpp",
-      "version": "b9660",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9660",
-      "published_at": "2026-06-15T22:05:01Z",
-      "body_excerpt": "chat : fix LFM2 tool-call parsing double-escaping (#24667) Add escape test cases chat : fix LFM2 tool-call parsing double-escaping macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9659",
-      "project": "llama-cpp",
-      "version": "b9659",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9659",
-      "published_at": "2026-06-15T21:32:11Z",
-      "body_excerpt": "mtmd: fix miscounting n_tokens (#24656) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9658",
-      "project": "llama-cpp",
-      "version": "b9658",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9658",
-      "published_at": "2026-06-15T20:59:46Z",
-      "body_excerpt": "chat: include full unparsed prompt in debug (#24650) message on parse error macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9656",
-      "project": "llama-cpp",
-      "version": "b9656",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9656",
-      "published_at": "2026-06-15T20:27:33Z",
-      "body_excerpt": "chat: harden peg-native tool call parsing (#24329) chat: harden peg-native tool call parsing accept an optional leading type: function field in build_json_tools_flat_keys so openai style tool calls parse on templates whose serialization opens on the name field. return a clean error and log the unparsed fragment on a final peg parse failure instead of throwing the raw parser position and input. kee",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9655",
-      "project": "llama-cpp",
-      "version": "b9655",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9655",
-      "published_at": "2026-06-15T19:55:37Z",
-      "body_excerpt": "chat: fix an \"oldie but goodie\" grammar generator bug that surfaced during last changes (#24653) chat: fix an \"oldie but goodie\" grammar generator bug that surfaced during last changes update erroneous case in PEG parser test macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubu",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.9-rc0",
-      "project": "ollama",
-      "version": "v0.30.9-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc0",
-      "published_at": "2026-06-15T19:55:07Z",
-      "body_excerpt": "What's Changed llama: update llama.cpp to b9637 by @jmorganca in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.9-rc1",
-      "project": "ollama",
-      "version": "v0.30.9-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1",
-      "published_at": "2026-06-15T19:55:07Z",
-      "body_excerpt": "What's Changed Support for Cohere2Moe architecture Fixed LFM2 parser/render for cases where thinking was not emitted Fixed issue where and other coding agent or assistant use cases would only output one token Ollama will now return an error if a single message is larger than the current context window Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.9",
-      "project": "ollama",
-      "version": "v0.30.9",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.9",
-      "published_at": "2026-06-15T19:55:07Z",
-      "body_excerpt": "What's Changed Support for Cohere2Moe architecture Fixed LFM2 parser/render for cases where thinking was not emitted Fixed issue where and other coding agent or assistant use cases would only output one token Ollama will now return an error if a single message is larger than the current context window Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9654",
-      "project": "llama-cpp",
-      "version": "b9654",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9654",
-      "published_at": "2026-06-15T19:24:18Z",
-      "body_excerpt": "mtmd : add post-decode callback (#24645) Assisted-by: pi:llama.cpp/Qwen3.6-27B macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9653",
-      "project": "llama-cpp",
-      "version": "b9653",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9653",
-      "published_at": "2026-06-15T18:50:10Z",
-      "body_excerpt": "vulkan: support more CONCAT types (#24579) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Qwen3-VL-235B-A22B-Instruct-NVFP4-MLPerf-Inference-Closed-V6.1-FP8-KV",
-      "project": "nvidia",
-      "version": "Qwen3-VL-235B-A22B-Instruct-NVFP4-MLPerf-Inference-Closed-V6.1-FP8-KV",
-      "url": "https://huggingface.co/nvidia/Qwen3-VL-235B-A22B-Instruct-NVFP4-MLPerf-Inference-Closed-V6.1-FP8-KV",
-      "published_at": "2026-06-15T18:30:04Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9652",
-      "project": "llama-cpp",
-      "version": "b9652",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9652",
-      "published_at": "2026-06-15T18:19:56Z",
-      "body_excerpt": "wasm : fix fallback symbol collision (#24639) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9651",
-      "project": "llama-cpp",
-      "version": "b9651",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9651",
-      "published_at": "2026-06-15T17:45:57Z",
-      "body_excerpt": "SYCL: use native subgroup size for K-quant DMMV (#21700) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm6",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.12.1",
-      "project": "transformers",
-      "version": "v5.12.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.12.1",
-      "published_at": "2026-06-15T17:29:59Z",
-      "body_excerpt": "Patch release v5.12.1 Updated the lower bound for PEFT and a fix for auto tokenizer to properly resolve the mistral tokenizer (when is installed). This is similar to v.5.10.3 minus the fixes that were already included in the main release - vLLM will first target 5.10.3 :hugs: Fix lower bound #46605 by @hmellor (#46605) mistral common backend fix #46667 by @itazap (#46667) Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.10.3",
-      "project": "transformers",
-      "version": "v5.10.3",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.3",
-      "published_at": "2026-06-15T17:29:39Z",
-      "body_excerpt": "Patch release v5.10.4 Update: Note that on pypi doesn't exist and this this saved under (so essentially a minor version skipped). Sorry about that, that's on me. Just wanted to clarify to make this less confusing! A few fixes needed for vLLM to sync with transformers :hugs: [fix] regression introduced by #45534 #46456 by @eustlb (#46456) Fix {image/video/audio}_token_ids in ProcessorMixin #46500 b",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9650",
-      "project": "llama-cpp",
-      "version": "b9650",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9650",
-      "published_at": "2026-06-15T17:17:39Z",
-      "body_excerpt": "sycl: fix soft_max_f32 max reduction (#24451) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9649",
-      "project": "llama-cpp",
-      "version": "b9649",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9649",
-      "published_at": "2026-06-15T16:43:26Z",
-      "body_excerpt": "sycl : fix reorder function; add fp32/fp16 in build script (#24578) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
       "type": "tool"
     }
   ]
