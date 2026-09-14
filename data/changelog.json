@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-14T04:16:06Z",
+  "updated_at": "2026-09-14T12:19:15Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10955",
+      "project": "llama-cpp",
+      "version": "b10955",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10955",
+      "published_at": "2026-09-14T10:42:51Z",
+      "body_excerpt": "ggml-cpu : disable PCH and fix CACHE_LINE_SIZE ambiguity to fix heap corruption (#28882) Disable the ggml-cpu precompiled header and remove the std::hardware_destructive_interference_size branch from CACHE_LINE_SIZE. The PCH force-includes ggml-impl.h before ops.h, which pulls in via / and defines __cpp_lib_hardware_interference_size. This makes the C++ kernels use CACHE_LINE_SIZE = 256 (hardware ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10952",
+      "project": "llama-cpp",
+      "version": "b10952",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10952",
+      "published_at": "2026-09-14T08:26:46Z",
+      "body_excerpt": "sycl : fix oneDNN scratchpad breaking the pool free order (#28704) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10951",
       "project": "llama-cpp",
@@ -10331,69 +10349,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9669",
       "published_at": "2026-06-16T12:25:36Z",
       "body_excerpt": "spec: add backend sampling support for eagle3 (#24655) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9668",
-      "project": "llama-cpp",
-      "version": "b9668",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9668",
-      "published_at": "2026-06-16T11:48:13Z",
-      "body_excerpt": "vulkan: prefer host-visible memory buffers on UMA devices (#22930) implement UMA host-visible memory update based on 0cc4m's suggestion macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9667",
-      "project": "llama-cpp",
-      "version": "b9667",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9667",
-      "published_at": "2026-06-16T11:09:44Z",
-      "body_excerpt": "vulkan: Support gated_delta_net with S_v=16 (#24581) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
-      "type": "tool"
-    },
-    {
-      "id": "whisper-cpp-v1.8.7",
-      "project": "whisper-cpp",
-      "version": "v1.8.7",
-      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.8.7",
-      "published_at": "2026-06-16T10:59:32Z",
-      "body_excerpt": "What's Changed Do not assume /usr/lib library installation. by @waptaff in server : merge split UTF-8 token text in verbose JSON by @lyonsno in whisper : catch C++ exceptions in whisper_init_with_params_no_state by @danscMax in ci : refactor + optimize by @ggerganov in ci : only publish/push docker images daily by @danbev in ci : use ccache instead of sccache for windows-cublas [no ci] by @danbev ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9665",
-      "project": "llama-cpp",
-      "version": "b9665",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9665",
-      "published_at": "2026-06-16T10:11:28Z",
-      "body_excerpt": "bench : add --offline (#24511) bench : add --offline Signed-off-by: Adrien Gallouët Add default Signed-off-by: Adrien Gallouët --------- Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9664",
-      "project": "llama-cpp",
-      "version": "b9664",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9664",
-      "published_at": "2026-06-16T08:09:19Z",
-      "body_excerpt": "sycl: support reordered Q4_K/Q5_K/Q6_K MoE MUL_MAT_ID (#24452) sycl: support reordered Q4_K and Q5_K MoE MUL_MAT_ID Extend reordered-weight handling to fused MoE MUL_MAT_ID for Q4_K and Q5_K expert tensors and add Q5_K reordered DMMV coverage. Unsupported 3D reorder cases now fall back instead of aborting. sycl: extend MoE reorder to Q6_K mul_mat_id macOS/iOS: macOS Apple Silicon (arm64) macOS App",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9663",
-      "project": "llama-cpp",
-      "version": "b9663",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9663",
-      "published_at": "2026-06-16T06:12:53Z",
-      "body_excerpt": "[SYCL] Support OP EXPM1, support all UT cases of FLOOR, TRUNC, ROUND (#24363) support OP EXPM1, support all UT cases of FLOOR, TRUNC, ROUND fix conflict rebase, support new UT case of repeat, concat macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9661",
-      "project": "llama-cpp",
-      "version": "b9661",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9661",
-      "published_at": "2026-06-16T05:07:14Z",
-      "body_excerpt": "vulkan: add col2im_1d op (#24425) vulkan: add GGML_OP_COL2IM_1D, follow-up to the CPU op vulkan: col2im_1d bounded gather loop instead of full-K scan with modulo vulkan: col2im_1d address review from @jeffbolznv vulkan: col2im_1d return nullptr for unsupported types, address review from @0cc4m macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel",
       "type": "tool"
     }
   ]
