@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-09-14T12:19:15Z",
+  "updated_at": "2026-09-14T21:40:44Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10970",
+      "project": "llama-cpp",
+      "version": "b10970",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10970",
+      "published_at": "2026-09-14T20:53:17Z",
+      "body_excerpt": "HIP: fattn-mma: use fp32 accumulation on MFMA devices (#28576) use fp32 accumulators in fattn-mma on CDNA Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10969",
+      "project": "llama-cpp",
+      "version": "b10969",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10969",
+      "published_at": "2026-09-14T19:50:18Z",
+      "body_excerpt": "ci : add ubuntu-cuda builds to release (#28186) release : add ubuntu-cuda build job (12.8/13.3, x64+arm64) Add GCC 14 for CUDA arm64 builds in CI Eplicit bash Install git for CCCL fetch Install git before we clone/checkout Match CI names for WIndows Whitelist llama.cpp repo to git Use $GITHUB_WORKSPACE Also ship dependent libs on Ubuntu Need NCCL additionally as it's pre-built available on Linux A",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-v0.4.1",
+      "project": "llama-cpp",
+      "version": "v0.4.1",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.1",
+      "published_at": "2026-09-14T18:27:29Z",
+      "body_excerpt": "Overview llama.cpp 0.4.1 adds Maple 20B-A1B, Tencent Hy 4, and Spark2.5 support, improves JSON schema handling, chat parsing, logging, and server child-process management, and updates ggml to v0.24.0. API changes Changed to return instead of (#28631). Added and for router child-process monitoring in (#28555). New models Added Maple 20B-A1B ternary MoE architecture (CPU) (#27000). Added Tencent Hy ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10964",
+      "project": "llama-cpp",
+      "version": "b10964",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10964",
+      "published_at": "2026-09-14T15:28:07Z",
+      "body_excerpt": "llama.cpp : bump version to 0.4.1 (#28900) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10956",
+      "project": "llama-cpp",
+      "version": "b10956",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10956",
+      "published_at": "2026-09-14T13:57:29Z",
+      "body_excerpt": "sycl: rfc: Use radix select for top_k (#28670) sycl: GPU-resident TOP_K for large k, parallelised over the device The SYCL backend refused GGML_OP_TOP_K above k = 32 and let it fall back to the CPU, a backend round-trip per call. The limit was not conservatism: the scan-merge kernels keep (split_block + 1) k candidate (value, index) pairs in SLM, so at k = 128 a work-group already needs 132 KB and",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10955",
       "project": "llama-cpp",
@@ -10323,33 +10368,6 @@
       "published_at": "2026-06-16T23:14:32Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9672",
-      "project": "llama-cpp",
-      "version": "b9672",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9672",
-      "published_at": "2026-06-16T18:54:23Z",
-      "body_excerpt": "vendor : update BoringSSL to 0.20260616.0 (#24693) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9670",
-      "project": "llama-cpp",
-      "version": "b9670",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9670",
-      "published_at": "2026-06-16T13:10:45Z",
-      "body_excerpt": "Fix and restrict NVFP4 edge-cases in llama-graph (#24331) Move post-GEMM MUL required for dequant b4 lora and bias add see : 1. For lora, I would presume we want fully dequantized values before doing the residuals, but this depends on how the LORAs were generated. Literature tells me LORA happens post-mul but pre-bias add 2. For ModelOPT, bias-add should happen on fully-dequantized values Restrict",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9669",
-      "project": "llama-cpp",
-      "version": "b9669",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9669",
-      "published_at": "2026-06-16T12:25:36Z",
-      "body_excerpt": "spec: add backend sampling support for eagle3 (#24655) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
-      "type": "tool"
     }
   ]
 }
