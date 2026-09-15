@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-15T16:38:44Z",
+  "updated_at": "2026-09-15T21:03:52Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10988",
+      "project": "llama-cpp",
+      "version": "b10988",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10988",
+      "published_at": "2026-09-15T18:50:59Z",
+      "body_excerpt": "opencl: choose the MoE expert matmul by batch size for speculative decoding/MTP (#27637) opencl: gate the prebuilt q4_0 MoE GEMM on routing count opencl: stop writing zeros into the padded MoE activation slots opencl: rephrase claude's comments --------- Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10985",
       "project": "llama-cpp",
@@ -92,6 +101,24 @@
       "type": "model"
     },
     {
+      "id": "hf-nvidia-c-foundationstereo-s",
+      "project": "nvidia",
+      "version": "c-foundationstereo-s",
+      "url": "https://huggingface.co/nvidia/c-foundationstereo-s",
+      "published_at": "2026-09-15T01:25:18Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-foundationpose",
+      "project": "nvidia",
+      "version": "foundationpose",
+      "url": "https://huggingface.co/nvidia/foundationpose",
+      "published_at": "2026-09-15T01:25:12Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "ollama-v0.34.1-rc1",
       "project": "ollama",
       "version": "v0.34.1-rc1",
@@ -107,6 +134,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2",
       "published_at": "2026-09-14T22:14:03Z",
       "body_excerpt": "What's Changed app: fix ChatGPT model selector spacing mlxrunner: Evict prefix cache snapshots from the active conversation mlxrunner: check system free memory and wait for evicted runners before loading the next MLX model llm: raise token repeat limit to 100 and return error instead of incomplete result mlx: scope array lifetimes instead of pinning and sweeping llm: keep gemma3n projector off the",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.34.1",
+      "project": "ollama",
+      "version": "v0.34.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1",
+      "published_at": "2026-09-14T22:14:03Z",
+      "body_excerpt": "What's Changed MLX safetensors no longer experimental. GGUF model creation now requires using llama.cpp tooling for safetensor conversion and quantization. Improved MLX memory handling on Apple Silicon Runaway repeat token detection now requires 100 repeat tokens for reduced false positives (e.g. OCR) is much faster on large model libraries (3.1 s → 294 ms cold in testing), and model capabilities ",
       "type": "tool"
     },
     {
@@ -10259,78 +10295,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9692",
       "published_at": "2026-06-17T21:27:57Z",
       "body_excerpt": "mtmd: llava_uhd should no longer use batch dim (#24732) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9691",
-      "project": "llama-cpp",
-      "version": "b9691",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9691",
-      "published_at": "2026-06-17T20:54:35Z",
-      "body_excerpt": "ggml-cpu: Conditionally enable power11 backend based on compiler support (#24687) ggml: Conditionally enable power11 backend based on compiler support Guard POWER11 backend creation behind a compiler flag check for -mcpu=power11. This avoids build failures on current GCC/Clang toolchains while preserving forward compatibility once POWER11 support becomes available. Update CMakeLists.txt ggml-cpu: ",
-      "type": "tool"
-    },
-    {
-      "id": "hf-allenai-tmax-sft-8b",
-      "project": "allenai",
-      "version": "tmax-sft-8b",
-      "url": "https://huggingface.co/allenai/tmax-sft-8b",
-      "published_at": "2026-06-17T20:34:59Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9690",
-      "project": "llama-cpp",
-      "version": "b9690",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9690",
-      "published_at": "2026-06-17T19:59:11Z",
-      "body_excerpt": "metal : implement rope_back operator (#24725) Reuse existing rope kernels with a function constant to toggle forward/backward rotation, avoiding duplicate kernel code. Assisted-by: pi:llama.cpp/Qwen3.6-27B macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9689",
-      "project": "llama-cpp",
-      "version": "b9689",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9689",
-      "published_at": "2026-06-17T19:31:23Z",
-      "body_excerpt": "metal : add f16 and bf16 support for concat operator (#24724) metal : add f16 and bf16 support for concat operator Extend the Metal backend concat operator to support f16 and bf16 tensor types in addition to the existing f32 and i32 support. Template kernel_concat on type T with specializations for float, half, bfloat, and int Add type-specific pipeline getter ggml_metal_library_get_pipeline_conca",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9688",
-      "project": "llama-cpp",
-      "version": "b9688",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9688",
-      "published_at": "2026-06-17T18:55:06Z",
-      "body_excerpt": "server: (router) add model management API (#23976) wip server: (router) add SSE realtime updates API nits wip add download API add download api update docs add delete endpoint fix std::terminate fix crash fix 2 add tests nits macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9687",
-      "project": "llama-cpp",
-      "version": "b9687",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9687",
-      "published_at": "2026-06-17T18:24:46Z",
-      "body_excerpt": "llama : skip main_gpu validation when no devices are available (#23405) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9686",
-      "project": "llama-cpp",
-      "version": "b9686",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9686",
-      "published_at": "2026-06-17T17:31:07Z",
-      "body_excerpt": "spec: fix segfault error on long prompts for eagle3 (#24707) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9685",
-      "project": "llama-cpp",
-      "version": "b9685",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9685",
-      "published_at": "2026-06-17T17:00:49Z",
-      "body_excerpt": "[SYCL] add dev2dev memcpy by SYCL API (#24476) add dev2dev memcpy by SYCL API mv GGML_SYCL_DEV2DEV_MEMCPY to runntime table update the detect method for p2p comm fix the erro created during fix confilct --------- Co-authored-by: Neo Zhang macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ar",
       "type": "tool"
     }
   ]
