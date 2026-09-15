@@ -1,11 +1,56 @@
 {
-  "updated_at": "2026-09-15T04:16:13Z",
+  "updated_at": "2026-09-15T11:26:08Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10978",
+      "project": "llama-cpp",
+      "version": "b10978",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10978",
+      "published_at": "2026-09-15T10:59:40Z",
+      "body_excerpt": "metal : add FA kernels for HSK=96, HSV=64 (MiniCPM3) (#28599) metal : add FA kernels for HSK=96, HSV=64 (MiniCPM3) MiniCPM3 sets attention.key_length to 96 and does not set attention.value_length, which defaults to n_embd / n_head = 64. Metal had no (96, 64) instantiation, so -fa auto aborted on the missing kernel_flash_attn_ext_vec_f16_dk96_dv64. Instantiate the tile kernel at (96, 64) for every ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10977",
+      "project": "llama-cpp",
+      "version": "b10977",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10977",
+      "published_at": "2026-09-15T10:07:04Z",
+      "body_excerpt": "ci: Bump CUDA Windows x64 builds to 13.4.1 (#28930) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10976",
+      "project": "llama-cpp",
+      "version": "b10976",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10976",
+      "published_at": "2026-09-15T07:23:42Z",
+      "body_excerpt": "ci : fix android release (#28936) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - ",
+      "type": "tool"
+    },
+    {
+      "id": "hf-EleutherAI-bergson-wikitext-gpt2-leaderboard",
+      "project": "EleutherAI",
+      "version": "bergson-wikitext-gpt2-leaderboard",
+      "url": "https://huggingface.co/EleutherAI/bergson-wikitext-gpt2-leaderboard",
+      "published_at": "2026-09-15T06:19:10Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "ollama-v0.34.1-rc1",
       "project": "ollama",
       "version": "v0.34.1-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1",
+      "published_at": "2026-09-14T22:14:03Z",
+      "body_excerpt": "What's Changed app: fix ChatGPT model selector spacing mlxrunner: Evict prefix cache snapshots from the active conversation mlxrunner: check system free memory and wait for evicted runners before loading the next MLX model llm: raise token repeat limit to 100 and return error instead of incomplete result mlx: scope array lifetimes instead of pinning and sweeping llm: keep gemma3n projector off the",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.34.1-rc2",
+      "project": "ollama",
+      "version": "v0.34.1-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2",
       "published_at": "2026-09-14T22:14:03Z",
       "body_excerpt": "What's Changed app: fix ChatGPT model selector spacing mlxrunner: Evict prefix cache snapshots from the active conversation mlxrunner: check system free memory and wait for evicted runners before loading the next MLX model llm: raise token repeat limit to 100 and return error instead of incomplete result mlx: scope array lifetimes instead of pinning and sweeping llm: keep gemma3n projector off the",
       "type": "tool"
@@ -10295,42 +10340,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9677",
       "published_at": "2026-06-17T11:47:47Z",
       "body_excerpt": "common: update logging to enforce max_capacity and optimize queue resizing (#24490) common: update logging to enforce max_capacity and optimize queue resizing logic common/log: remove queue expansion logic macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9675",
-      "project": "llama-cpp",
-      "version": "b9675",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9675",
-      "published_at": "2026-06-17T11:05:39Z",
-      "body_excerpt": "sycl : Enable to support fp16 by OPs: SQR, SQRT, LOG, SIN, COS, CLAMP (#24692) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9674",
-      "project": "llama-cpp",
-      "version": "b9674",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9674",
-      "published_at": "2026-06-17T10:35:02Z",
-      "body_excerpt": "SYCL: fix use-after-free bug with async memcpy in MoE prefill (#24676) SYCL: fix a bug with async memcpy make mmid_row_mapping_host persistent comment on stream->wait Apply suggestion from @sanmai Apply suggestion from @sanmai Apply suggestion from @sanmai macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x",
-      "type": "tool"
-    },
-    {
-      "id": "whisper-cpp-v1.9.0",
-      "project": "whisper-cpp",
-      "version": "v1.9.0",
-      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.0",
-      "published_at": "2026-06-17T10:19:21Z",
-      "body_excerpt": "What's Changed ci : only trigger release jobs for tags by @danbev in parakeet : add support for NVIDIA Parakeet by @danbev in ruby : add support for Parakeet by @KitaitiMakoto in release : v1.9.0 by @danbev in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9673",
-      "project": "llama-cpp",
-      "version": "b9673",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9673",
-      "published_at": "2026-06-17T07:32:41Z",
-      "body_excerpt": "sycl: Add optional USM system allocations (#22526) This introduces an optional feature to allocate large GPU buffers (≥ 1GB) using USM system allocations if supported by the device. It allows using buffers from the system allocator then letting the system manage memory migrations between host and device as necessary. This feature is disabled by default and requires the GGML_SYCL_USM_SYSTEM environ",
       "type": "tool"
     }
   ]
