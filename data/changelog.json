@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-14T21:40:44Z",
+  "updated_at": "2026-09-15T04:16:13Z",
   "releases": [
+    {
+      "id": "ollama-v0.34.1-rc1",
+      "project": "ollama",
+      "version": "v0.34.1-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1",
+      "published_at": "2026-09-14T22:14:03Z",
+      "body_excerpt": "What's Changed app: fix ChatGPT model selector spacing mlxrunner: Evict prefix cache snapshots from the active conversation mlxrunner: check system free memory and wait for evicted runners before loading the next MLX model llm: raise token repeat limit to 100 and return error instead of incomplete result mlx: scope array lifetimes instead of pinning and sweeping llm: keep gemma3n projector off the",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10970",
       "project": "llama-cpp",
@@ -10323,51 +10332,6 @@
       "published_at": "2026-06-17T07:32:41Z",
       "body_excerpt": "sycl: Add optional USM system allocations (#22526) This introduces an optional feature to allocate large GPU buffers (≥ 1GB) using USM system allocations if supported by the device. It allows using buffers from the system allocator then letting the system manage memory migrations between host and device as necessary. This feature is disabled by default and requires the GGML_SYCL_USM_SYSTEM environ",
       "type": "tool"
-    },
-    {
-      "id": "hf-allenai-tmax-8b",
-      "project": "allenai",
-      "version": "tmax-8b",
-      "url": "https://huggingface.co/allenai/tmax-8b",
-      "published_at": "2026-06-17T01:58:24Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-allenai-tmax-4b",
-      "project": "allenai",
-      "version": "tmax-4b",
-      "url": "https://huggingface.co/allenai/tmax-4b",
-      "published_at": "2026-06-17T01:39:12Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-allenai-tmax-2b",
-      "project": "allenai",
-      "version": "tmax-2b",
-      "url": "https://huggingface.co/allenai/tmax-2b",
-      "published_at": "2026-06-17T01:35:25Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-allenai-tmax-9b",
-      "project": "allenai",
-      "version": "tmax-9b",
-      "url": "https://huggingface.co/allenai/tmax-9b",
-      "published_at": "2026-06-17T00:53:00Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-dlesym-v0-isccp-era5",
-      "project": "nvidia",
-      "version": "dlesym-v0-isccp-era5",
-      "url": "https://huggingface.co/nvidia/dlesym-v0-isccp-era5",
-      "published_at": "2026-06-16T23:14:32Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
