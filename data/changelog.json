@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-15T11:26:08Z",
+  "updated_at": "2026-09-15T16:38:44Z",
   "releases": [
+    {
+      "id": "llama-cpp-b10985",
+      "project": "llama-cpp",
+      "version": "b10985",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10985",
+      "published_at": "2026-09-15T14:19:41Z",
+      "body_excerpt": "rpc : hash-cache only weights (#28789) rpc : hash-cache only weights ggml_backend_rpc_buffer_set_tensor and ggml_backend_rpc_set_tensor_async hashed every transfer above HASH_THRESHOLD and let serve it from its file cache. The cache is meant for weights, but the activations ggml_backend_sched copies between backends took the same path: with a two-node split of Qwen3.8-Flash-Next every prefill ubat",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10984",
+      "project": "llama-cpp",
+      "version": "b10984",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10984",
+      "published_at": "2026-09-15T13:41:51Z",
+      "body_excerpt": "cuda: support row-contiguous SUM_ROWS (#26308) cuda: support row-contiguous SUM_ROWS organize the code and add GGML_OP_MEAN to support row-contiguous tensors using the same shared kernel, and add a test to MEAN permute/slice Keep original comments and add if/else branch Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10983",
+      "project": "llama-cpp",
+      "version": "b10983",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10983",
+      "published_at": "2026-09-15T13:09:46Z",
+      "body_excerpt": "models : move build_arch_graph() after graph() template specialization (#28934) Move build_arch_graph()'s function definitions after the graph and graph template specializations have been explicitly defined. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10982",
+      "project": "llama-cpp",
+      "version": "b10982",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10982",
+      "published_at": "2026-09-15T12:33:00Z",
+      "body_excerpt": "vulkan: support sparse Flash Attention (#28105) vulkan: add sparse Flash Attention support for DSV4/GLM tune implementation add tests avoid nondeterministic atomicAdd add cm2 decode vector support simplify logic and make variable names more consistent add cm2 f16vec4 binding for decode vector Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10981",
+      "project": "llama-cpp",
+      "version": "b10981",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10981",
+      "published_at": "2026-09-15T12:00:14Z",
+      "body_excerpt": "OpenVINO: optimize stateful decode and GPU MoE inference (#28638) exclude GPU/NPU failing POOL_2D case Fix pool case ggml-openvino: fix stateful decode for Gemma-4 per-layer-type head sizes ggml-openvino: fix MSVC narrowing error in permute ggml-openvino: classify sliding-window layers structurally on interleaved-SWA models ggml-openvino: add GGML_OPENVINO_REQUANT_KQUANT to select a 4-bit requant ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10980",
+      "project": "llama-cpp",
+      "version": "b10980",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10980",
+      "published_at": "2026-09-15T11:32:03Z",
+      "body_excerpt": "opencl: add generic ssm_scan (#28881) opencl: add generic ssm_scan opencl: fix whitespace Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10978",
       "project": "llama-cpp",
@@ -10277,69 +10331,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9685",
       "published_at": "2026-06-17T17:00:49Z",
       "body_excerpt": "[SYCL] add dev2dev memcpy by SYCL API (#24476) add dev2dev memcpy by SYCL API mv GGML_SYCL_DEV2DEV_MEMCPY to runntime table update the detect method for p2p comm fix the erro created during fix confilct --------- Co-authored-by: Neo Zhang macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ar",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9684",
-      "project": "llama-cpp",
-      "version": "b9684",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9684",
-      "published_at": "2026-06-17T16:26:10Z",
-      "body_excerpt": "[SYCL] Add conv_3d (#24691) add conv_3d optimize update ops.md restore test script rm unused code rm copyright notes macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.10-rc0",
-      "project": "ollama",
-      "version": "v0.30.10-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.10-rc0",
-      "published_at": "2026-06-17T16:22:02Z",
-      "body_excerpt": "What's Changed models: add Cohere2MoE model by @jmorganca in llama: update llama.cpp to b9672 by @pdevine in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.10",
-      "project": "ollama",
-      "version": "v0.30.10",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.10",
-      "published_at": "2026-06-17T16:22:02Z",
-      "body_excerpt": "What's Changed Command A and North family models now run on Apple Silicon with the MLX engine Updated the underlying llama.cpp engine to build 9672 Fixed build artifacts for MLX Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9682",
-      "project": "llama-cpp",
-      "version": "b9682",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9682",
-      "published_at": "2026-06-17T13:33:03Z",
-      "body_excerpt": "vulkan: record actual memory properties during buffer creation (#24326) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9680",
-      "project": "llama-cpp",
-      "version": "b9680",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9680",
-      "published_at": "2026-06-17T12:44:48Z",
-      "body_excerpt": "ci: fix vulkan docker images (#24595) Update vulkan-shaders-gen.cpp Update vulkan-shaders-gen.cpp add comment describing code change intention Update vulkan-shaders-gen.cpp fix potential UB macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9678",
-      "project": "llama-cpp",
-      "version": "b9678",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9678",
-      "published_at": "2026-06-17T12:17:39Z",
-      "body_excerpt": "opencl: optimize mul_mat_f16_f32_l4 for decode (#24504) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9677",
-      "project": "llama-cpp",
-      "version": "b9677",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9677",
-      "published_at": "2026-06-17T11:47:47Z",
-      "body_excerpt": "common: update logging to enforce max_capacity and optimize queue resizing (#24490) common: update logging to enforce max_capacity and optimize queue resizing logic common/log: remove queue expansion logic macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
       "type": "tool"
     }
   ]
