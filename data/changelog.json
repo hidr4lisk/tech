@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-09-16T11:12:12Z",
+  "updated_at": "2026-09-16T16:32:04Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11003",
+      "project": "llama-cpp",
+      "version": "b11003",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11003",
+      "published_at": "2026-09-16T15:27:36Z",
+      "body_excerpt": "model : add support for HrmTextForCausalLM (DFM Mimir 1B) (#27625) model : add support for HrmTextForCausalLM (DFM Mimir 1B) HRM-Text runs two transformer stacks (low, high) in an alternating cycle over the same token stream. The low-cycle state z_l starts from a learned [n_embd] tensor and is broadcast over positions. conversion: new writer for the fused gqkv projection (order gate,q,k,v) remappe",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11002",
+      "project": "llama-cpp",
+      "version": "b11002",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11002",
+      "published_at": "2026-09-16T14:38:34Z",
+      "body_excerpt": "CUDA/HIP: improve access patterns in im2col (#28013) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11001",
+      "project": "llama-cpp",
+      "version": "b11001",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11001",
+      "published_at": "2026-09-16T14:01:29Z",
+      "body_excerpt": "spacemit : fix wrong transpose function for int16 data (#25161) The branch in calls instead of . This is a copy-paste bug from the branch above it. The s32 function uses 32-bit segment load/stores () on 16-bit data, reading 2x bytes per element and producing completely wrong transposition results -- 14 out of 16 positions are corrupted for a 4x4 int16 matrix. The correct function already exists (l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11000",
+      "project": "llama-cpp",
+      "version": "b11000",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11000",
+      "published_at": "2026-09-16T13:07:27Z",
+      "body_excerpt": "rpc : invalidate cached compute graph when a referenced buffer is freed (#24292) The server caches the most recent compute graph per device so that GRAPH_RECOMPUTE can re-execute it without resending tensor data. The cached graph nodes hold direct pointers to backend buffers that were live at graph_compute() time. If any of those buffers is later released via FREE_BUFFER, the next GRAPH_RECOMPUTE ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10999",
+      "project": "llama-cpp",
+      "version": "b10999",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10999",
+      "published_at": "2026-09-16T12:31:41Z",
+      "body_excerpt": "Change max context length for auto-fitting with unified KV (#28849) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b10998",
+      "project": "llama-cpp",
+      "version": "b10998",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10998",
+      "published_at": "2026-09-16T11:47:10Z",
+      "body_excerpt": "qwen4exp: add hc ops (#28901) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-Windows-ARM64",
+      "project": "unsloth",
+      "version": "Windows-ARM64",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/Windows-ARM64",
+      "published_at": "2026-09-16T11:26:07Z",
+      "body_excerpt": "",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b10997",
       "project": "llama-cpp",
@@ -10296,51 +10359,6 @@
       "published_at": "2026-06-18T17:36:51Z",
       "body_excerpt": "GLM-5.2 is now supported in Unsloth Studio! All reasoning levels supported. 3x longer context lengths are now achievable with our new auto fit algorithm with MTP, allowing longer chats. Bypass permissions mode, forkable chats, queue-able chats, a new hub for model discovery, parallel modules + HTTPS Cloudflare support and more! Use for secure HTTPS global access! Read our GLM-5.2 guide To update U",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9704",
-      "project": "llama-cpp",
-      "version": "b9704",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9704",
-      "published_at": "2026-06-18T15:47:20Z",
-      "body_excerpt": "server : return HTTP 400 on invalid grammar (#24144) (#24154) Throw on grammar parse failure so the server returns HTTP 400 instead of silently dropping the constraint. Add a regression test for the invalid-grammar response. Fixes #24144 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9703",
-      "project": "llama-cpp",
-      "version": "b9703",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9703",
-      "published_at": "2026-06-18T15:13:36Z",
-      "body_excerpt": "server: (router) rework -hf preset repo (#24739) server: temporary remove HF remote preset rework remove preset.ini support rm unused get_remote_preset_whitelist() print warning add docs rm stray file macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9702",
-      "project": "llama-cpp",
-      "version": "b9702",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9702",
-      "published_at": "2026-06-18T14:33:51Z",
-      "body_excerpt": "server: fix router args not being forwarded to child instances (#24760) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9701",
-      "project": "llama-cpp",
-      "version": "b9701",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9701",
-      "published_at": "2026-06-18T13:39:42Z",
-      "body_excerpt": "mtmd: refactor preprocessor, add mtmd_image_preproc_out (#24736) add mtmd_image_preproc_out add dev docs remove unused clip API rm unused clip_image_f32_batch::grid change preprocess() call signature macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64",
-      "type": "tool"
-    },
-    {
-      "id": "hf-ibm-granite-granite-vision-4.1-4b-GGUF",
-      "project": "ibm-granite",
-      "version": "granite-vision-4.1-4b-GGUF",
-      "url": "https://huggingface.co/ibm-granite/granite-vision-4.1-4b-GGUF",
-      "published_at": "2026-06-18T13:39:38Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
