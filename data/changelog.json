@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-16T16:32:04Z",
+  "updated_at": "2026-09-16T21:06:15Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11009",
+      "project": "llama-cpp",
+      "version": "b11009",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11009",
+      "published_at": "2026-09-16T19:37:19Z",
+      "body_excerpt": "TP: fix split state and granularity for fused QKV gemma4, qwen35 (#28965) model: calculate split states for attn_qkv from n_head n_embd_head_k required for gemma4 with --fuse-qkv, where n_embd is 5376 but Q is 8192. model: handle fused full attention layers for qwen35/qwen35moe model: add TODO: [TAG_SPLIT_QGATE_QWEN] Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11007",
+      "project": "llama-cpp",
+      "version": "b11007",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11007",
+      "published_at": "2026-09-16T17:45:31Z",
+      "body_excerpt": "Enable CUDA graph for MTP draft (#28549) Improve CUDA graph usage for MTP Rename field Address review feedback Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11006",
+      "project": "llama-cpp",
+      "version": "b11006",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11006",
+      "published_at": "2026-09-16T17:20:22Z",
+      "body_excerpt": "hexagon: Support for K-Quants Q4_K and Q6_K (#28994) implement q6k/q4k kernels Squashed from: feat: implement q6k kernel hex-q6k: improve unpack accuracy hex-q4_k: add support for Q4_K kernels Co-authored-by: Max Krasnyansky Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11005",
+      "project": "llama-cpp",
+      "version": "b11005",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11005",
+      "published_at": "2026-09-16T16:49:27Z",
+      "body_excerpt": "hexagon: accept the zeroed rope probe in supports_op (#28995) llama probes weight placement with a rope where all params are 0, so rejecting n_dims == 0 or freq_base == 0 puts rope_freqs on the CPU. That splits the decode graph at every full-attention layer (gemma-4-E2B: 5 splits instead of 2). Assisted-by: Claude Opus 5 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sil",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11003",
       "project": "llama-cpp",
@@ -10350,15 +10386,6 @@
       "published_at": "2026-06-18T22:55:05Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "unsloth-v0.1.471-beta",
-      "project": "unsloth",
-      "version": "v0.1.471-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.471-beta",
-      "published_at": "2026-06-18T17:36:51Z",
-      "body_excerpt": "GLM-5.2 is now supported in Unsloth Studio! All reasoning levels supported. 3x longer context lengths are now achievable with our new auto fit algorithm with MTP, allowing longer chats. Bypass permissions mode, forkable chats, queue-able chats, a new hub for model discovery, parallel modules + HTTPS Cloudflare support and more! Use for secure HTTPS global access! Read our GLM-5.2 guide To update U",
-      "type": "tool"
     }
   ]
 }
