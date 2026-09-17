@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-17T11:20:06Z",
+  "updated_at": "2026-09-17T16:37:17Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11027",
+      "project": "llama-cpp",
+      "version": "b11027",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11027",
+      "published_at": "2026-09-17T16:03:09Z",
+      "body_excerpt": "rpc : skip ACCEL devices (#29020) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - ",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.810-beta",
+      "project": "unsloth",
+      "version": "v0.1.810-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.810-beta",
+      "published_at": "2026-09-17T14:37:04Z",
+      "body_excerpt": "We're releasing our new updated Docker image along with multi-user accounts, RDNA1+2, FP8/INT8 diffusion support, ARM64 CUDA Windows support and many training, GRPO and inference improvements Highlights: New Docker with NVIDIA & AMD support: Guide Multi user accounts with isolation Settings > Accounts INT8/FP8 Image Diffusion inference - 2x faster ARM64 Windows CUDA support for training, inference",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11026",
+      "project": "llama-cpp",
+      "version": "b11026",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11026",
+      "published_at": "2026-09-17T13:31:47Z",
+      "body_excerpt": "model : skip gate_up_exps if TENSOR_SKIP is set (#29014) required for qwen35moe if MTP tensors are fused but not loaded Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11025",
+      "project": "llama-cpp",
+      "version": "b11025",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11025",
+      "published_at": "2026-09-17T13:02:49Z",
+      "body_excerpt": "model : extend Nemotron MTP support (#29018) first fix removed unnecessary declarations Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11024",
+      "project": "llama-cpp",
+      "version": "b11024",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11024",
+      "published_at": "2026-09-17T12:30:00Z",
+      "body_excerpt": "openvino : Update OpenVINO to 2026.4;fix clangd,MSVC warnings; (#29009) Update to openvino-2026.4 Update OV docs ggml-openvino : fix clangd and MSVC warnings fix int to ptr cast, more internal linkage enforcement, and avoiding duplicate switch case --------- Co-authored-by: Mostafa Faheem Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DI",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11022",
+      "project": "llama-cpp",
+      "version": "b11022",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11022",
+      "published_at": "2026-09-17T11:36:08Z",
+      "body_excerpt": "vulkan: split buffers and debug code into separate files, add shared headers (#28732) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11020",
       "project": "llama-cpp",
@@ -10286,42 +10340,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9729",
       "published_at": "2026-06-19T20:47:55Z",
       "body_excerpt": "server: remove all internal mentions about \"webui\" (#24817) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9728",
-      "project": "llama-cpp",
-      "version": "b9728",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9728",
-      "published_at": "2026-06-19T16:19:15Z",
-      "body_excerpt": "arg: Add comment line support to --api-key-file (#23168) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9727",
-      "project": "llama-cpp",
-      "version": "b9727",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9727",
-      "published_at": "2026-06-19T15:45:32Z",
-      "body_excerpt": "vendor : update cpp-httplib to 0.48.0 (#24787) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9726",
-      "project": "llama-cpp",
-      "version": "b9726",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9726",
-      "published_at": "2026-06-19T15:15:50Z",
-      "body_excerpt": "server: add --agent arg, remove redundant webui naming compat (#24801) server: add --agent arg, remove redundant webui naming compat corrent env fix the test llama-gen-docs nits: wordings macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ub",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9724",
-      "project": "llama-cpp",
-      "version": "b9724",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9724",
-      "published_at": "2026-06-19T11:40:35Z",
-      "body_excerpt": "mtmd: several bug fixes (#24784) mtmd: several bug fixes fix build fix gemma4ua add sanity check in get_u32() fix build (2) area() avoid overflow macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) ",
       "type": "tool"
     }
   ]
