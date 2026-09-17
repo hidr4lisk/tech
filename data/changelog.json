@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-09-17T04:19:02Z",
+  "updated_at": "2026-09-17T11:20:06Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11020",
+      "project": "llama-cpp",
+      "version": "b11020",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11020",
+      "published_at": "2026-09-17T11:07:06Z",
+      "body_excerpt": "chat : add message delimiters to the DeepSeek V3.2/V4 parser (#29008) chat : add message delimiters to the DeepSeek V3.2/V4 parser Assisted-by: Claude Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11019",
+      "project": "llama-cpp",
+      "version": "b11019",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11019",
+      "published_at": "2026-09-17T10:35:36Z",
+      "body_excerpt": "gguf : align the data section relative to the GGUF start, not the file (#28993) gguf : align the data section relative to the GGUF start, not the file gguf_init_from_file_ptr reads a GGUF from the current file position, but padded the data section from file offset 0, so a GGUF embedded at an offset that is not a multiple of the alignment loaded without error and returned wrong tensor data. Also ad",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11018",
+      "project": "llama-cpp",
+      "version": "b11018",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11018",
+      "published_at": "2026-09-17T09:58:21Z",
+      "body_excerpt": "sycl : fix the B70 mem allocate error when >19.3GB (#28953) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11017",
+      "project": "llama-cpp",
+      "version": "b11017",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11017",
+      "published_at": "2026-09-17T09:27:56Z",
+      "body_excerpt": "vulkan: skip unneeded MoE work in mul_mm coopmat1 path (#25483) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libra",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11016",
+      "project": "llama-cpp",
+      "version": "b11016",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11016",
+      "published_at": "2026-09-17T08:58:59Z",
+      "body_excerpt": "sycl: ssm_conv: fuse the SiLU epilogue into the ssm_conv kernel (#28929) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11015",
+      "project": "llama-cpp",
+      "version": "b11015",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11015",
+      "published_at": "2026-09-17T08:29:59Z",
+      "body_excerpt": "opencl: fix various warnings (#28984) opencl: fix warnings opencl: fix warnings for non adreno Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11013",
+      "project": "llama-cpp",
+      "version": "b11013",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11013",
+      "published_at": "2026-09-17T07:50:01Z",
+      "body_excerpt": "vulkan: fix buffer_reference alignment in im2col shaders (#28996) Both im2col.comp and im2col_3d.comp declare D_ptr without an explicit buffer_reference_align, so glslang emits writes through it as Aligned 16. The shaders advance the pointer by D_SIZE, a per-variant define set to 4 for float and 2 for float16_t, so most write addresses are not 16-byte aligned. This triggers VUID-RuntimeSpirv-Physi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11012",
+      "project": "llama-cpp",
+      "version": "b11012",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11012",
+      "published_at": "2026-09-17T06:27:01Z",
+      "body_excerpt": "vulkan: support qwen4exp hc ops (#28988) vulkan: support qwen4exp hc ops fix stale comment [no-ci] Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubu",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11011",
       "project": "llama-cpp",
@@ -10250,60 +10322,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9724",
       "published_at": "2026-06-19T11:40:35Z",
       "body_excerpt": "mtmd: several bug fixes (#24784) mtmd: several bug fixes fix build fix gemma4ua add sanity check in get_u32() fix build (2) area() avoid overflow macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9723",
-      "project": "llama-cpp",
-      "version": "b9723",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9723",
-      "published_at": "2026-06-19T11:00:44Z",
-      "body_excerpt": "spec: support eagle3 for qwen3.5 & 3.6 (#24593) spec: support qwen3.5 & 3.6 eagle3 draft eagle3: Add deferred boundary checkpoints restore support for hybrid models apply suggestions Co-authored-by: Georgi Gerganov spec: adapt to API change spec: fix naming cont : add TODO --------- Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9722",
-      "project": "llama-cpp",
-      "version": "b9722",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9722",
-      "published_at": "2026-06-19T09:26:00Z",
-      "body_excerpt": "server: fix non-bound n_discard value (ctx shifting) (#24786) server: fix non-bound n_discard value Update tools/server/server-context.cpp Co-authored-by: Georgi Gerganov --------- Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CP",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9721",
-      "project": "llama-cpp",
-      "version": "b9721",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9721",
-      "published_at": "2026-06-19T08:09:41Z",
-      "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows ar",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9718",
-      "project": "llama-cpp",
-      "version": "b9718",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9718",
-      "published_at": "2026-06-19T07:33:07Z",
-      "body_excerpt": "server : consolidate slot selection into get_available_slot (#24755) Absorb get_slot_by_id logic into get_available_slot so slot selection is handled by a single function call. When a specific slot id is requested, the LCP similarity check still runs to enable proper prompt cache updates. Assisted-by: pi:llama.cpp/Qwen3.6-27B macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9717",
-      "project": "llama-cpp",
-      "version": "b9717",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9717",
-      "published_at": "2026-06-19T06:32:57Z",
-      "body_excerpt": "ggml-cpu: support K tails in power10 Q8/Q4 MMA matmul (#24753) ggml-cpu: support K tails in Power10 MMA Q8/Q4 matmul This patch removes the requirement that K be divisible by kc in the tinyBlas_Q0_PPC tiled matmul path. Process the final K panel using its actual depth and pass the reduced panel size through packing and kernel execution. This allows more workloads to use the MMA kernel and reduces ",
-      "type": "tool"
-    },
-    {
-      "id": "whisper-cpp-v1.9.1",
-      "project": "whisper-cpp",
-      "version": "v1.9.1",
-      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.1",
-      "published_at": "2026-06-19T05:53:19Z",
-      "body_excerpt": "What's Changed ci : add GGML_NATIVE=OFF and GGML_BMI2=OFF to windows-blas by @danbev in release : v1.9.1 by @danbev in Full Changelog:",
       "type": "tool"
     }
   ]
