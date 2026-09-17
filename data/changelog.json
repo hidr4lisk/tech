@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-17T16:37:17Z",
+  "updated_at": "2026-09-17T21:08:27Z",
   "releases": [
+    {
+      "id": "localai-v4.10.0",
+      "project": "localai",
+      "version": "v4.10.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.10.0",
+      "published_at": "2026-09-17T19:46:38Z",
+      "body_excerpt": "🎉 LocalAI 4.10.0 Release! 🚀 LocalAI 4.10.0 is out! Twenty-eight days and 280 pull requests. The work landed on three fronts: operating a fleet, feeding it models from private sources, and fixing the backends you depend on. A fleet operations dashboard replaces the flat node list with cluster-wide health, capacity, running models, and bulk lifecycle actions. A credentials file lets one authenticate",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11028",
+      "project": "llama-cpp",
+      "version": "b11028",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11028",
+      "published_at": "2026-09-17T17:30:53Z",
+      "body_excerpt": "ci : add missing evict-old-files (#29041) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUD",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11027",
       "project": "llama-cpp",
@@ -368,6 +386,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1",
       "published_at": "2026-09-15T21:21:07Z",
       "body_excerpt": "What's Changed llama.cpp updates Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.34.2-rc3",
+      "project": "ollama",
+      "version": "v0.34.2-rc3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc3",
+      "published_at": "2026-09-15T21:21:07Z",
+      "body_excerpt": "What's Changed Added first-run setup when running , with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows. Added to open the desktop app’s Apps page directly on macOS and Windows. Fixed excessive memory growth during long generations with MLX speculative decoding. Updated llama.cpp. Full Changelog:",
       "type": "tool"
     },
     {
@@ -10331,15 +10358,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9730",
       "published_at": "2026-06-19T21:18:59Z",
       "body_excerpt": "mtmd, arg: fix utf8 handling on windows (#24779) mtmd, arg: fix utf8 handling on windows also fix ggml_fopen fix build fail also fix CLI macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9729",
-      "project": "llama-cpp",
-      "version": "b9729",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9729",
-      "published_at": "2026-06-19T20:47:55Z",
-      "body_excerpt": "server: remove all internal mentions about \"webui\" (#24817) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
       "type": "tool"
     }
   ]
