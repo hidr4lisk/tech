@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-18T04:02:26Z",
+  "updated_at": "2026-09-18T10:54:42Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11034",
+      "project": "llama-cpp",
+      "version": "b11034",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11034",
+      "published_at": "2026-09-18T10:37:22Z",
+      "body_excerpt": "vocab : add ufakzeka pre-tokenizer (#29033) vocab : add ufakzeka pre-tokenizer vocab : move ufakzeka to the models list and regenerate the hash mapping Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (V",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11033",
+      "project": "llama-cpp",
+      "version": "b11033",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11033",
+      "published_at": "2026-09-18T09:55:12Z",
+      "body_excerpt": "cmake : fix build when GGML_CPU=OFF and GGML_CUDA=ON (#29026) fix: build fails when GGML_CPU=OFF and GGML_CUDA=ON fix: eol in examples/convert-llama2c-to-ggml/CMakeLists.txt file Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11030",
+      "project": "llama-cpp",
+      "version": "b11030",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11030",
+      "published_at": "2026-09-18T08:13:40Z",
+      "body_excerpt": "ci : bump android-actions/setup-android to 4.0.4 (#29065) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11029",
+      "project": "llama-cpp",
+      "version": "b11029",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11029",
+      "published_at": "2026-09-18T07:34:36Z",
+      "body_excerpt": "vulkan: raise the hoisted row-id limit for mul_mat_id from 256 to 1024 experts (#28501) vulkan: raise the hoisted row-id limit for mul_mat_id to 512 experts The expert-count shader (count_experts.comp) sizes its shared arrays with BLOCK_SIZE, which is 256. Because of that, row-id hoisting is switched off for any model with more than 256 experts, and every mul_mat_id workgroup has to rescan the who",
+      "type": "tool"
+    },
     {
       "id": "localai-v4.10.0",
       "project": "localai",
