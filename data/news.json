@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-09-18T04:02:20Z",
+  "updated_at": "2026-09-18T10:54:36Z",
   "items": [
+    {
+      "id": "localllama-2026-09-18-is-ling-30-tiny-the-fastest-model-around",
+      "source": "localllama",
+      "title": "Is Ling 3.0 Tiny the fastest model around?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjm492/is_ling_30_tiny_the_fastest_model_around/",
+      "published_at": "2026-09-18T10:07:28Z",
+      "summary": "I don&#39;t mean only the speed but the quality/speed ratio. (and very low memory consumption and cpu-only friendliness) As of now the best seems to be: Ling 3.0 Tiny Gemma 4- E2B and E4B And the slower but great DeepSee",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-18-still-on-the-jev-waitlist-i-hosted-openjev-its-free-go-play",
+      "source": "localllama",
+      "title": "Still on the Jev waitlist? I hosted OpenJev. It's free, go play with it",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjlyzr/still_on_the_jev_waitlist_i_hosted_openjev_its/",
+      "published_at": "2026-09-18T09:59:37Z",
+      "summary": "TypeSafe announced Jev on Tuesday: you give it data plus typed questions (yes/no, pick-one, 0–N scale) and it returns a probability for every option, crazy fast. I signed up and then refreshed my inbox. A lot. Meanwhile ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-18-bonsai-17b-can-solve-simple-physics-problems-on-a-12-watt-in",
+      "source": "localllama",
+      "title": "Bonsai 1.7B can solve simple physics problems on a 12 watt intel N97 at about 9.1 t/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjla7f/bonsai_17b_can_solve_simple_physics_problems_on_a/",
+      "published_at": "2026-09-18T09:19:01Z",
+      "summary": "      &#32; submitted by &#32;  /u/keequalshalfmvsqrd   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-18-zcode-was-allegedly-caught-uploading-workspacegit-records-to",
+      "source": "localllama",
+      "title": "ZCode was allegedly caught uploading workspace/.git records to the cloud.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjjspd/zcode_was_allegedly_caught_uploading_workspacegit/",
+      "published_at": "2026-09-18T07:49:55Z",
+      "summary": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/ Look like next grok build moment  &#32; submitted by &#32;  /u/External_Mood4719   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-18-flyweight-open-source-ccuda-engine-for-running-moe-models-bi",
+      "source": "localllama",
+      "title": "Flyweight: open-source C++/CUDA engine for running MoE models bigger than your VRAM on one GPU + system RAM. First PyPI release, looking for contributors.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjjmj9/flyweight_opensource_ccuda_engine_for_running_moe/",
+      "published_at": "2026-09-18T07:39:21Z",
+      "summary": "Been building this for a few months, mostly for myself, and it just got a proper release so figured I&#39;d post it. It&#39;s a native GGUF inference runtime with OpenAI/Anthropic-compatible APIs and a chat UI. The whole",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-18-jev-architecture",
+      "source": "localllama",
+      "title": "JEV architecture",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjjecz/jev_architecture/",
+      "published_at": "2026-09-18T07:25:18Z",
+      "summary": "My understanding so far:  You take an LLM and use it without thinking (That&#39;s what openjev does?) You leave out the text generation in the end and take the confidence score in the matrix before that phase  That&#39;s",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-18-qwen-38-next-flash-appreciation-post",
+      "source": "localllama",
+      "title": "Qwen 3.8 Next Flash appreciation post",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjio00/qwen_38_next_flash_appreciation_post/",
+      "published_at": "2026-09-18T06:42:57Z",
+      "summary": "I don&#39;t want to talk about the performance and technical things, but about how I work with my hobby projects has changed thanks to this model. My machine has generated around 25M tokens since the model came out, and ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-18-made-the-horizontal-open-source-model-for-jev-with-rlcd-and",
+      "source": "localllama",
+      "title": "Made the horizontal open-source model for Jev with RLCD, and it surpasses all the Jev benchmarks. HF space, benchmark, model, repo",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjieap/made_the_horizontal_opensource_model_for_jev_with/",
+      "published_at": "2026-09-18T06:25:03Z",
+      "summary": "      Thanks for the exceptional support (https://www.reddit.com/r/LocalLLaMA/comments/1wijo3e/i_literally_built_the_jev_architecture_one_year/) and for the dozens of requests to make a generic model, run benchmarks, and",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-18-ternary-bonsai-is-a-headless-chicken",
+      "source": "localllama",
+      "title": "Ternary Bonsai is a headless chicken",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjgnok/ternary_bonsai_is_a_headless_chicken/",
+      "published_at": "2026-09-18T04:50:15Z",
+      "summary": "Ternary Bonsai 2 27B Tried it out and was excited. Gave it a prompt &quot;create a 3d little planet globe where I (player can walk around) and it has all these biomes to explore, the globe doesn&#39;t have to be too big,",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-18-i-just-realized-courage-used-local-llms-to-solve-his-problem",
       "source": "localllama",
@@ -35,39 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-18-whats-the-state-of-the-art-recipe-for-running-qwen38-flash-n",
-      "source": "localllama",
-      "title": "what's the state of the art recipe for running Qwen3.8-Flash-Next with a pair of 3090s and a ton of system RAM rn?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjcnkv/whats_the_state_of_the_art_recipe_for_running/",
-      "published_at": "2026-09-18T01:36:26Z",
-      "summary": "we have an HPC cluster with 70 nodes, each with an A30 (roughly a 3090, same 24GB VRAM) and 1TB DDR4 RDIMM system RAM. I feel like I saw a &quot;twin 3090 and 128GB RAM&quot; recipe around here recently that could do ten",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-18-deepswe-mini-a-16-instance-subset-of-deepswe-that-replicates",
-      "source": "localllama",
-      "title": "DeepSWE-mini a 16 instance subset of DeepSWE that replicates the rankings of the leaderboard",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjc5wj/deepswemini_a_16_instance_subset_of_deepswe_that/",
-      "published_at": "2026-09-18T01:13:41Z",
-      "summary": "I just released a new dataset https://huggingface.co/datasets/LocalLLaMA/deepswe-mini it is meant to be more efficent when testing and benchmarking local models on DeepSwe https://deepswe.datacurve.ai/ The full benchmark",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-600toks-single-request-on-qwen36-35ba3b-with-ninfer-on-an-rt",
-      "source": "localllama",
-      "title": "600tok/s single request on qwen3.6 35ba3b with Ninfer on an RTX Pro 6000. Anybody remember that Comcast ad \"stupid fast\"?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wja9ml/600toks_single_request_on_qwen36_35ba3b_with/",
-      "published_at": "2026-09-17T23:47:55Z",
-      "summary": "      It&#39;s not the brightest bulb but it&#39;s my new drudgework model for read+find or code tasks I&#39;m willing to let it brute force. Even if it takes 20x more tokens, that&#39;s still faster than many local mode",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-17-how-to-write-with-an-llm",
       "source": "simonw",
       "title": "How To Write With An LLM",
@@ -79,50 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-17-installing-6-gpus-in-a-standard-case-rather-than-using-an-op",
-      "source": "localllama",
-      "title": "Installing 6 GPUs in a standard case rather than using an open-frame chassis.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj9u19/installing_6_gpus_in_a_standard_case_rather_than/",
-      "published_at": "2026-09-17T23:28:39Z",
-      "summary": "      CPU : epyc 7262 MB : ROMED8-2T GPU : V100 16GB PCIE x6 I have built a server with six V100 GPUs. I am now testing it and plan to eventually run Qwen3.8-Next-Flash configured with TP2 and PP3. Because open-frame or ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-jev-reproductions-tracker-keeping-up-with-jev-reproduction-e",
-      "source": "localllama",
-      "title": "jev reproductions tracker. keeping up with jev reproduction efforts",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj74f4/jev_reproductions_tracker_keeping_up_with_jev/",
-      "published_at": "2026-09-17T21:36:39Z",
-      "summary": "      &#32; submitted by &#32;  /u/apolinariosteps   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-september-2026-updated-chart-of-strix-halo-mini-pc-size-char",
-      "source": "localllama",
-      "title": "September 2026 updated chart of strix halo mini pc size chartstrix.png",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj6zxt/september_2026_updated_chart_of_strix_halo_mini/",
-      "published_at": "2026-09-17T21:31:30Z",
-      "summary": "      should be the final chart for 395 since 495 is coming out https://gist.github.com/RexYuan/3fc27edcd12475e496eb20946f8c8485  &#32; submitted by &#32;  /u/rexyuan   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-ternary-bonsai-2-27b-just-released-on-hugging-face-at-6gb-in",
-      "source": "localllama",
-      "title": "Ternary Bonsai 2 (27B) just released on Hugging Face. At <6GB in size, it can even run locally in-browser on WebGPU.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj6c4l/ternary_bonsai_2_27b_just_released_on_hugging/",
-      "published_at": "2026-09-17T21:05:48Z",
-      "summary": "      The model is derived from Qwen3.8-27B, a 27B hybrid-attention causal language model (architecture unchanged), but uses ternary weights to shrink model size down to &lt;6GB in size. According to the model card, it&#",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-17-self-generated-prompt-injections-in-compaction-summaries",
       "source": "simonw",
       "title": "Self-generated prompt injections in compaction summaries",
@@ -131,28 +153,6 @@
       "summary": "Self-generated prompt injections in compaction summaries\nIn Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerning model behavior we’ve observed in the last six months\". Th",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-sensible-output-style---if-youre-tired-of-your-coding-agent",
-      "source": "localllama",
-      "title": "Sensible Output Style - If you're tired of your coding agent speaking in Clanker-Speak",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj5ld9/sensible_output_style_if_youre_tired_of_your/",
-      "published_at": "2026-09-17T20:37:11Z",
-      "summary": "# Output Style Convention Rules for the prose you emit: tool output, chat replies, docs, commit messages.The goal is one meaning per word and zero invented jargon, exposition, or bloat. ## Precedence 1. User instruction.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-cactus-needle-3-a-sliceable-8-29mb-automation-foundation-mod",
-      "source": "localllama",
-      "title": "Cactus Needle 3: A Sliceable 8-29MB Automation Foundation Model That Matches DeepSeek v4 Flash",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj4qj4/cactus_needle_3_a_sliceable_829mb_automation/",
-      "published_at": "2026-09-17T20:05:16Z",
-      "summary": "      Hey all, Henry from Cactus Compute here, I kinda wanted to share our latest model and get feedback from the family :) Needle 3 is a small foundation model for automation: you give it the functions your app exposes,",
-      "tags": [
-        "localllama"
       ]
     },
     {
