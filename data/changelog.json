@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T21:08:27Z",
+  "updated_at": "2026-09-18T04:02:26Z",
   "releases": [
     {
       "id": "localai-v4.10.0",
@@ -398,6 +398,15 @@
       "type": "tool"
     },
     {
+      "id": "ollama-v0.34.2",
+      "project": "ollama",
+      "version": "v0.34.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
+      "published_at": "2026-09-15T21:21:07Z",
+      "body_excerpt": "What's Changed Added first-run setup when running , with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows. Added to open the desktop app’s Apps page directly on macOS and Windows. Fixed excessive memory growth during long generations with MLX speculative decoding. Updated llama.cpp. Full Changelog:",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b10988",
       "project": "llama-cpp",
       "version": "b10988",
@@ -567,6 +576,15 @@
       "published_at": "2026-09-14T18:27:29Z",
       "body_excerpt": "Overview llama.cpp 0.4.1 adds Maple 20B-A1B, Tencent Hy 4, and Spark2.5 support, improves JSON schema handling, chat parsing, logging, and server child-process management, and updates ggml to v0.24.0. API changes Changed to return instead of (#28631). Added and for router child-process monitoring in (#28555). New models Added Maple 20B-A1B ternary MoE architecture (CPU) (#27000). Added Tencent Hy ",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-GLM-5.3-NVFP4",
+      "project": "nvidia",
+      "version": "GLM-5.3-NVFP4",
+      "url": "https://huggingface.co/nvidia/GLM-5.3-NVFP4",
+      "published_at": "2026-09-14T17:58:21Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10964",
@@ -10322,42 +10340,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9735",
       "published_at": "2026-06-20T11:33:42Z",
       "body_excerpt": "ggml : optimize AMX (#24806) Flatten the partition over n_batch * M so every thread participates in the quantization | CPU | Model | Test | t/s OLD | t/s NEW | Speedup | |:--------------------------------|:------------------------------|:-------|----------:|----------:|----------:| | Intel(R) Xeon(R) Platinum 8488C | qwen35 0.8B IQ4_NL - 4.5 bpw | pp512 | 730.71 | 779.86 | 1.07 | | Intel(R) Xeon(R",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9733",
-      "project": "llama-cpp",
-      "version": "b9733",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9733",
-      "published_at": "2026-06-20T00:16:29Z",
-      "body_excerpt": "ggml-webgpu: add adapter toggles for F16 on Vulkan + NVIDIA macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9732",
-      "project": "llama-cpp",
-      "version": "b9732",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9732",
-      "published_at": "2026-06-19T23:44:14Z",
-      "body_excerpt": "server: refactor child --> router communication (#24821) server: refactor child --> router communication fix wakeup case add docs improve update_status() nits macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9731",
-      "project": "llama-cpp",
-      "version": "b9731",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9731",
-      "published_at": "2026-06-19T21:54:38Z",
-      "body_excerpt": "server : optimize get_token_probabilities (#24796) Use std::partial_sort to order only the requested top-n tokens instead of the full vocabulary logprobs sort: vocab=128000 n_top=0 iters=100 full sort: 8555.6 us/op partial sort: 704.3 us/op Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9730",
-      "project": "llama-cpp",
-      "version": "b9730",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9730",
-      "published_at": "2026-06-19T21:18:59Z",
-      "body_excerpt": "mtmd, arg: fix utf8 handling on windows (#24779) mtmd, arg: fix utf8 handling on windows also fix ggml_fopen fix build fail also fix CLI macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x6",
       "type": "tool"
     }
   ]

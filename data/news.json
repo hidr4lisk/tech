@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-09-17T21:08:19Z",
+  "updated_at": "2026-09-18T04:02:20Z",
   "items": [
+    {
+      "id": "localllama-2026-09-18-i-just-realized-courage-used-local-llms-to-solve-his-problem",
+      "source": "localllama",
+      "title": "I just realized Courage used local LLMs to solve his problems before any of us ever did.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjeuy7/i_just_realized_courage_used_local_llms_to_solve/",
+      "published_at": "2026-09-18T03:20:41Z",
+      "summary": "      &#32; submitted by &#32;  /u/swagonflyyyy   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-18-still-doesnt-get-what-jev-isis-it-just-a-more-generalised-be",
+      "source": "localllama",
+      "title": "still doesn’t get what Jev is…..is it just a more generalised BERT?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wje4xh/still_doesnt_get_what_jev_isis_it_just_a_more/",
+      "published_at": "2026-09-18T02:45:55Z",
+      "summary": "Looking at jev launch website and demo video on x.com…. it seems like it’s a very intelligent classifier with custom prompt and custom criteria instruction reading capabilities. It can do well defined narrow and well def",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-18-dual-7900-xtx---some-guy-made-a-pretty-optimized-fork-of-lam",
+      "source": "localllama",
+      "title": "dual 7900 xtx - some guy made a pretty optimized fork of lamacpp optimized for this setup Qwen 3.8 Q8 at 82 tokens / seconds decode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjd5hf/dual_7900_xtx_some_guy_made_a_pretty_optimized/",
+      "published_at": "2026-09-18T02:00:07Z",
+      "summary": "Note not my work, but something i found and wanted to share so hopefully more people can push this along even further.  https://github.com/nasone32/llama.cpp-RDNA3-7900xtx-opt I basically run 2 x 7900 xtx on a consumer p",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-18-whats-the-state-of-the-art-recipe-for-running-qwen38-flash-n",
+      "source": "localllama",
+      "title": "what's the state of the art recipe for running Qwen3.8-Flash-Next with a pair of 3090s and a ton of system RAM rn?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjcnkv/whats_the_state_of_the_art_recipe_for_running/",
+      "published_at": "2026-09-18T01:36:26Z",
+      "summary": "we have an HPC cluster with 70 nodes, each with an A30 (roughly a 3090, same 24GB VRAM) and 1TB DDR4 RDIMM system RAM. I feel like I saw a &quot;twin 3090 and 128GB RAM&quot; recipe around here recently that could do ten",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-18-deepswe-mini-a-16-instance-subset-of-deepswe-that-replicates",
+      "source": "localllama",
+      "title": "DeepSWE-mini a 16 instance subset of DeepSWE that replicates the rankings of the leaderboard",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjc5wj/deepswemini_a_16_instance_subset_of_deepswe_that/",
+      "published_at": "2026-09-18T01:13:41Z",
+      "summary": "I just released a new dataset https://huggingface.co/datasets/LocalLLaMA/deepswe-mini it is meant to be more efficent when testing and benchmarking local models on DeepSwe https://deepswe.datacurve.ai/ The full benchmark",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-17-600toks-single-request-on-qwen36-35ba3b-with-ninfer-on-an-rt",
+      "source": "localllama",
+      "title": "600tok/s single request on qwen3.6 35ba3b with Ninfer on an RTX Pro 6000. Anybody remember that Comcast ad \"stupid fast\"?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wja9ml/600toks_single_request_on_qwen36_35ba3b_with/",
+      "published_at": "2026-09-17T23:47:55Z",
+      "summary": "      It&#39;s not the brightest bulb but it&#39;s my new drudgework model for read+find or code tasks I&#39;m willing to let it brute force. Even if it takes 20x more tokens, that&#39;s still faster than many local mode",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-17-how-to-write-with-an-llm",
+      "source": "simonw",
+      "title": "How To Write With An LLM",
+      "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+      "published_at": "2026-09-17T23:37:27Z",
+      "summary": "How To Write With An LLM\nThomas Ptacek on using LLMs as copyeditors, not as writing assistants:\n\nRule Number One: You may not use a single word an LLM suggests to you.\n[...] I think that as a form of intellectual persona",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-17-installing-6-gpus-in-a-standard-case-rather-than-using-an-op",
+      "source": "localllama",
+      "title": "Installing 6 GPUs in a standard case rather than using an open-frame chassis.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj9u19/installing_6_gpus_in_a_standard_case_rather_than/",
+      "published_at": "2026-09-17T23:28:39Z",
+      "summary": "      CPU : epyc 7262 MB : ROMED8-2T GPU : V100 16GB PCIE x6 I have built a server with six V100 GPUs. I am now testing it and plan to eventually run Qwen3.8-Next-Flash configured with TP2 and PP3. Because open-frame or ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-17-jev-reproductions-tracker-keeping-up-with-jev-reproduction-e",
+      "source": "localllama",
+      "title": "jev reproductions tracker. keeping up with jev reproduction efforts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj74f4/jev_reproductions_tracker_keeping_up_with_jev/",
+      "published_at": "2026-09-17T21:36:39Z",
+      "summary": "      &#32; submitted by &#32;  /u/apolinariosteps   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-17-september-2026-updated-chart-of-strix-halo-mini-pc-size-char",
+      "source": "localllama",
+      "title": "September 2026 updated chart of strix halo mini pc size chartstrix.png",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj6zxt/september_2026_updated_chart_of_strix_halo_mini/",
+      "published_at": "2026-09-17T21:31:30Z",
+      "summary": "      should be the final chart for 395 since 495 is coming out https://gist.github.com/RexYuan/3fc27edcd12475e496eb20946f8c8485  &#32; submitted by &#32;  /u/rexyuan   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-17-ternary-bonsai-2-27b-just-released-on-hugging-face-at-6gb-in",
+      "source": "localllama",
+      "title": "Ternary Bonsai 2 (27B) just released on Hugging Face. At <6GB in size, it can even run locally in-browser on WebGPU.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj6c4l/ternary_bonsai_2_27b_just_released_on_hugging/",
+      "published_at": "2026-09-17T21:05:48Z",
+      "summary": "      The model is derived from Qwen3.8-27B, a 27B hybrid-attention causal language model (architecture unchanged), but uses ternary weights to shrink model size down to &lt;6GB in size. According to the model card, it&#",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "simonw-2026-09-17-self-generated-prompt-injections-in-compaction-summaries",
       "source": "simonw",
@@ -43,116 +164,6 @@
       "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-thank-you-swift-qwen-38-27b-now-has-100k-downloads-is-1-fine",
-      "source": "localllama",
-      "title": "Thank you :) Swift Qwen 3.8 27B now has 100k+ downloads, is #1 finetune and #9 model on HuggingFace Trending",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj3s31/thank_you_swift_qwen_38_27b_now_has_100k/",
-      "published_at": "2026-09-17T19:30:08Z",
-      "summary": "      Hey everyone, Jovan from UkisAI here, a small lab building the tech to make tiny frontier LLMs possible (and doing it open-source!) The purpose of this post is simply to thank the community for all the amazing fine",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-humor-arena-which-llm-is-the-funniest",
-      "source": "localllama",
-      "title": "Humor Arena: Which LLM is the funniest?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj3rrv/humor_arena_which_llm_is_the_funniest/",
-      "published_at": "2026-09-17T19:29:50Z",
-      "summary": "      We compared 20 model versions on 360 frozen joke prompts, with four jokes requested per prompt and model names hidden from our humor-trained judge.  Fable 5 had the highest estimated score: 66.8 points per 100 comp",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-ifmk2-horizon-7b-uno-hugging-face---5200tps-with-no-quality",
-      "source": "localllama",
-      "title": "IFM/K2-Horizon-7B-Uno · Hugging Face - 5200tps with no quality loss",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj2hsm/ifmk2horizon7buno_hugging_face_5200tps_with_no/",
-      "published_at": "2026-09-17T18:43:10Z",
-      "summary": "      IFM released K2-Horizon-7B , diffusion augmented LLM at upto 5200 tps, with claimed lossless speedup. causal LLM architecture and adds a plug-and-play diffusion adapter alongside the autoregressive weights.  https:",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-amd-plans-10-price-hike-across-gpus-chipsets-and-possibly-cp",
-      "source": "localllama",
-      "title": "AMD Plans 10% Price Hike Across GPUs, Chipsets, and Possibly CPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj28vh/amd_plans_10_price_hike_across_gpus_chipsets_and/",
-      "published_at": "2026-09-17T18:34:05Z",
-      "summary": "      Great news! AMD is also considering accepting payment in organs! Slightly less sarcastically, grab what you can, while you can. Waiting is becoming very costly almost by the day   &#32; submitted by &#32;  /u/Fulls",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-shots-fired-at-dario-from-glm",
-      "source": "localllama",
-      "title": "shots fired at dario from glm",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wiy8ga/shots_fired_at_dario_from_glm/",
-      "published_at": "2026-09-17T16:08:14Z",
-      "summary": "      https://preview.redd.it/bqjrvgknt3qh1.png?width=2810&amp;format=png&amp;auto=webp&amp;s=ec9f25709d6f2951a530228d430e0b8ecdbd8738 source super interesting read from glm as usual  &#32; submitted by &#32;  /u/Elux91 ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-fujitsu-formally-announces-their-monaka-144-core-cpu",
-      "source": "localllama",
-      "title": "Fujitsu formally announces their MONAKA 144 core CPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wixqep/fujitsu_formally_announces_their_monaka_144_core/",
-      "published_at": "2026-09-17T15:50:05Z",
-      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-are-there-any-model-architecture-innovationsbreakthroughs-th",
-      "source": "localllama",
-      "title": "Are there any model architecture innovations/breakthroughs that we're looking forward to in the next wave of open model drops?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wixgpr/are_there_any_model_architecture/",
-      "published_at": "2026-09-17T15:39:57Z",
-      "summary": "Basically the title. Training models take time and if a model was already in the process of pre-training/RL then it can&#39;t be re-cooked with any new architectural improvement that has been discovered in that timeframe",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-wevisdoc-from-tencent",
-      "source": "localllama",
-      "title": "WeVisDoc from tencent",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wix0pe/wevisdoc_from_tencent/",
-      "published_at": "2026-09-17T15:23:30Z",
-      "summary": "      WeVisDoc is an end-to-end document parser for page images. Fine-tuned from Qwen3-VL-2B-Instruct and Qwen3-VL-4B-Instruct, it turns a page into structured Markdown, with LaTeX formulas and HTML tables. WeVisDoc-4B a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-153-toks-on-1x-amd-radeon-r9700-running-qwen38-27b-nvfp4-470",
-      "source": "localllama",
-      "title": "153 tok/s on 1x AMD Radeon R9700 running Qwen3.8 27b NVFP4, 470 tok/s @ 8 conc requests, Prefill @ 3,619 tok/s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wiws8e/153_toks_on_1x_amd_radeon_r9700_running_qwen38/",
-      "published_at": "2026-09-17T15:14:39Z",
-      "summary": "      People kept commenting and asking about single AMD 1xR9700 cards in the comments and discord. Well, I finally had time to do some optimizations for 1xR9700 owners and performance has doubled across the board. You c",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-17-does-anyone-use-uncensored-models-purely-for-coding",
-      "source": "localllama",
-      "title": "Does anyone use uncensored models purely for coding?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wivlo8/does_anyone_use_uncensored_models_purely_for/",
-      "published_at": "2026-09-17T14:29:53Z",
-      "summary": "It sounds like a stupid question, and I do apologize if it is... but I&#39;ve seen several people mention that coding models are better uncensored due to the fact that they don&#39;t have to constantly run prompts throug",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -294,17 +305,6 @@
       "url": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
       "published_at": "2026-09-11T17:47:11Z",
       "summary": "Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-drive",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-11-feeling-sad-about-ai",
-      "source": "simonw",
-      "title": "Feeling sad about AI",
-      "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
-      "published_at": "2026-09-11T17:28:37Z",
-      "summary": "My comment on Feeling sad about AI &mdash; Hacker News.I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis and",
       "tags": [
         "simonw"
       ]
