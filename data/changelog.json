@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-09-18T10:54:42Z",
+  "updated_at": "2026-09-18T16:08:49Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11040",
+      "project": "llama-cpp",
+      "version": "b11040",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11040",
+      "published_at": "2026-09-18T15:01:59Z",
+      "body_excerpt": "ggml : check for allocation failures to prevent crashes (#28149) ggml : check for allocation failures to prevent crashes wording Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11039",
+      "project": "llama-cpp",
+      "version": "b11039",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11039",
+      "published_at": "2026-09-18T14:10:21Z",
+      "body_excerpt": "Model-Saver: Write the SWA pattern, 15 more architectures roundtrip (#29042) llama: read the SWA pattern as a period or a per-layer array Add llama_model_base::load_swa_pattern(), which reads sliding_window_pattern either as one flag per layer or as a period expanded by set_swa_pattern(), and use it in every loader that reads the key as a period. These loaders silently ignored an array and applied",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11037",
+      "project": "llama-cpp",
+      "version": "b11037",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11037",
+      "published_at": "2026-09-18T12:13:25Z",
+      "body_excerpt": "ggml-webgpu: fix supports_op condition for GET_ROWS (#28978) fix get_rows vec4 handling Add src strides checking to vec4_aligned of get_rows and the new test case. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11036",
+      "project": "llama-cpp",
+      "version": "b11036",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11036",
+      "published_at": "2026-09-18T11:32:57Z",
+      "body_excerpt": "ggml : handle graph buffer reservation failure (#26070) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11035",
+      "project": "llama-cpp",
+      "version": "b11035",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11035",
+      "published_at": "2026-09-18T11:04:14Z",
+      "body_excerpt": "vulkan: add IQ3_S MMQ matmul kernels (#28822) vulkan: add IQ3_S MMQ matmul kernels Make block_a_to_shmem do 2-byte loads (110 bytes is divisible by 2) Align the check, IQ3_S is also using K tile size Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11034",
       "project": "llama-cpp",
@@ -10340,42 +10385,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9740",
       "published_at": "2026-06-20T18:14:08Z",
       "body_excerpt": "arg: try fixing test-args-parser randomly fails (#24826) arg: try fixing test-args-parser randomly fails return ref try triggering the workflow exception wrapper wip test test 2 arg: guard win32 utf8 argv override make_utf8_argv rebuilds argv from GetCommandLineW to fix utf8 handling of non ascii arguments on windows. the override runs unconditionally inside common_params_parse, so it also clobber",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9739",
-      "project": "llama-cpp",
-      "version": "b9739",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9739",
-      "published_at": "2026-06-20T15:29:11Z",
-      "body_excerpt": "release: add missing link for win opencl adreno arm64 (#24809) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9738",
-      "project": "llama-cpp",
-      "version": "b9738",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9738",
-      "published_at": "2026-06-20T14:06:47Z",
-      "body_excerpt": "server: avoid forwarding auth headers in CORS proxy (#24373) server: avoid forwarding auth headers in CORS proxy format fix test fix e2e test --------- Co-authored-by: Xuan Son Nguyen macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9736",
-      "project": "llama-cpp",
-      "version": "b9736",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9736",
-      "published_at": "2026-06-20T11:59:00Z",
-      "body_excerpt": "model : glm-dsa load DSA indexer tensors as optional (#24770) GLM-5.2 ships the DSA \"lightning indexer\" on only a subset of layers (the \"full\" layers; others omit it), but the GLM_DSA loader created the five indexer tensors on every layer as required, so loading any GLM-5.2 GGUF failed with e.g. . GLM_DSA's graph is llama_model_deepseek2::graph (plain MLA) and does not use the indexer tensors (ind",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9735",
-      "project": "llama-cpp",
-      "version": "b9735",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9735",
-      "published_at": "2026-06-20T11:33:42Z",
-      "body_excerpt": "ggml : optimize AMX (#24806) Flatten the partition over n_batch * M so every thread participates in the quantization | CPU | Model | Test | t/s OLD | t/s NEW | Speedup | |:--------------------------------|:------------------------------|:-------|----------:|----------:|----------:| | Intel(R) Xeon(R) Platinum 8488C | qwen35 0.8B IQ4_NL - 4.5 bpw | pp512 | 730.71 | 779.86 | 1.07 | | Intel(R) Xeon(R",
       "type": "tool"
     }
   ]
