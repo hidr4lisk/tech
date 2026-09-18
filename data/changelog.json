@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-18T16:08:49Z",
+  "updated_at": "2026-09-18T20:40:48Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11042",
+      "project": "llama-cpp",
+      "version": "b11042",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11042",
+      "published_at": "2026-09-18T18:19:50Z",
+      "body_excerpt": "opencl: add bin kernel (#28678) opencl: add A8 Q6_K non-MoE binary kernel opencl: fix layout compatibility Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libra",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.811-beta",
+      "project": "unsloth",
+      "version": "v0.1.811-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.811-beta",
+      "published_at": "2026-09-18T16:11:15Z",
+      "body_excerpt": "We're releasing our new updated Docker image along with multi-user accounts, RDNA1+2, FP8/INT8 diffusion support, ARM64 CUDA Windows support and many training, GRPO and inference improvements. Also a Qwen3.8-Flash-Next 2x faster MTP hotfix. Highlights: Qwen3.8-Flash-Next MTP hotfix (2x faster) from v0.1.810-beta New Docker with NVIDIA & AMD support: Guide Multi user accounts with isolation Setting",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11040",
       "project": "llama-cpp",
@@ -10367,24 +10385,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9742",
       "published_at": "2026-06-20T22:31:33Z",
       "body_excerpt": "fix(hexagon): use padded stride for ssm-conv weights (#24470) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9741",
-      "project": "llama-cpp",
-      "version": "b9741",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9741",
-      "published_at": "2026-06-20T18:40:59Z",
-      "body_excerpt": "llama : use LLM_KV for quantization_version & file_type (#24802) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubunt",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9740",
-      "project": "llama-cpp",
-      "version": "b9740",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9740",
-      "published_at": "2026-06-20T18:14:08Z",
-      "body_excerpt": "arg: try fixing test-args-parser randomly fails (#24826) arg: try fixing test-args-parser randomly fails return ref try triggering the workflow exception wrapper wip test test 2 arg: guard win32 utf8 argv override make_utf8_argv rebuilds argv from GetCommandLineW to fix utf8 handling of non ascii arguments on windows. the override runs unconditionally inside common_params_parse, so it also clobber",
       "type": "tool"
     }
   ]
