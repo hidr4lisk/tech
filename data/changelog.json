@@ -1,13 +1,49 @@
 {
-  "updated_at": "2026-09-19T03:59:46Z",
+  "updated_at": "2026-09-19T10:37:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11050",
+      "project": "llama-cpp",
+      "version": "b11050",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11050",
+      "published_at": "2026-09-19T10:07:14Z",
+      "body_excerpt": "metal : fix FA support checks (#29122) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11049",
+      "project": "llama-cpp",
+      "version": "b11049",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11049",
+      "published_at": "2026-09-19T09:38:18Z",
+      "body_excerpt": "test-llama-archs : generate dummy test vocab (#29084) Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 lib",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11048",
+      "project": "llama-cpp",
+      "version": "b11048",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11048",
+      "published_at": "2026-09-19T09:07:46Z",
+      "body_excerpt": "metal : support qwen4exp hc ops (#29000) Add support for the new DSV4 HC op variants used by qwen4exp: hc_pre with per-element sigmoid gate (gated variant) hc_post with identity mixing (comb == nullptr) Assisted-by: pi:llama.cpp/Qwen3.8-27B Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11047",
+      "project": "llama-cpp",
+      "version": "b11047",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11047",
+      "published_at": "2026-09-19T07:24:38Z",
+      "body_excerpt": "cuda : fix CUB argsort corruption caused by in-place keys (#28389) argsort_f32_i32_cuda_cub called the one-shot DeviceRadixSort::SortPairs API with d_keys_in == d_keys_out (temp_keys, temp_keys). CUB's internal double-buffer ping-pong requires distinct key buffers: with aliased buffers the sort partially overwrites its own input mid-pass and emits a corrupted permutation, surfacing as intermittent",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.34.3-rc1",
       "project": "ollama",
       "version": "v0.34.3-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
       "published_at": "2026-09-19T00:02:57Z",
-      "body_excerpt": "What's Changed now advertises each model's thinking controls and default: Nemotron H vision models are now supported on Apple Silicon with MLX Ollama's macOS app will now no longer reopen windows you've closed when activating it Full Changelog:",
+      "body_excerpt": "What's Changed now advertises each model's thinking controls and default: Nemotron H vision models are now supported on Apple Silicon with MLX Ollama's macOS app will now no longer reopen windows you've closed when activating it Fix for model pulls from HuggingFace Full Changelog:",
       "type": "tool"
     },
     {
