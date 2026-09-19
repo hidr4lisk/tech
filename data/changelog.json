@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-18T20:40:48Z",
+  "updated_at": "2026-09-19T03:59:46Z",
   "releases": [
+    {
+      "id": "ollama-v0.34.3-rc1",
+      "project": "ollama",
+      "version": "v0.34.3-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
+      "published_at": "2026-09-19T00:02:57Z",
+      "body_excerpt": "What's Changed now advertises each model's thinking controls and default: Nemotron H vision models are now supported on Apple Silicon with MLX Ollama's macOS app will now no longer reopen windows you've closed when activating it Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11046",
+      "project": "llama-cpp",
+      "version": "b11046",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11046",
+      "published_at": "2026-09-18T23:56:03Z",
+      "body_excerpt": "opencl: add support for bin kernel (#29046) opencl: add opencl: guarded prefill fa Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13",
+      "type": "tool"
+    },
+    {
+      "id": "sglang-v0.5.20",
+      "project": "sglang",
+      "version": "v0.5.20",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.20",
+      "published_at": "2026-09-18T22:41:33Z",
+      "body_excerpt": "Highlights 713 PRs from 237 contributors. New models in this release (see the cookbook for all supported models): | Model | Type | PRs | Cookbook | |---|---|---|---| | GLM-5.3-Flash | Autoregressive | #36507, #38621 | link | | Hy4-Preview | Autoregressive | #36805 | link | | Qwen3.8-Flash-Next | Autoregressive | #37500 | link | | K2 Horizon | Autoregressive | #37654, #38033 | link | | Nanbeige4.2 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11045",
+      "project": "llama-cpp",
+      "version": "b11045",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11045",
+      "published_at": "2026-09-18T22:30:38Z",
+      "body_excerpt": "hexagon: add ROLL op support (#29105) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11044",
+      "project": "llama-cpp",
+      "version": "b11044",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11044",
+      "published_at": "2026-09-18T21:52:43Z",
+      "body_excerpt": "hexagon: im2col update (#29103) ggml-hexagon: accept 1D and padded IM2COL ops ggml-hexagon: make pure-DDR IM2COL kernel is_2D-aware ggml-hexagon: extend IM2COL DMA patch-embed fast path to 1D ggml-hexagon: add blocked-staging general IM2COL DMA kernel Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11043",
+      "project": "llama-cpp",
+      "version": "b11043",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11043",
+      "published_at": "2026-09-18T20:47:54Z",
+      "body_excerpt": "hexagon: HMX flash-attention head_dim padding (support DK=DV=72) (#26539) Allow HMX flash-attention to run with head_dim not a multiple of 64 (e.g. SigLIP head_dim=72), by operating on DK/DV rounded up to 64 with zero-filled tail lanes. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubunt",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11042",
       "project": "llama-cpp",
@@ -10358,33 +10412,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9745",
       "published_at": "2026-06-21T11:38:54Z",
       "body_excerpt": "spec : Support Step3.5/3.7 flash mtp3 (#24340) add mtp_layer_offset + include nextn flags in graph reuse add llama_set_mtp_layer_offset + llama_model_n_nextn_layer API offset head select + require all MTP blocks speculative multi-head process() speculative multi-head draft() gather outputs via inp_out_ids cleanup fix core minor cleanup merged draft_multi_head into draft() mtp rename nextn Apply su",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9744",
-      "project": "llama-cpp",
-      "version": "b9744",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9744",
-      "published_at": "2026-06-21T02:46:37Z",
-      "body_excerpt": "common/peg : refactor until gbnf grammar generation (#24839) common/peg : refactor until gbnf grammar into an ac automaton cont : add a test with multiple strings cont : pad state with 0s so rules line up cont : clean up comments cont : use set everywhere cont : inline state num string padding cont : add a ref to PR cont : fix regression in server-tools.cpp macOS/iOS: macOS Apple Silicon (arm64) m",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9743",
-      "project": "llama-cpp",
-      "version": "b9743",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9743",
-      "published_at": "2026-06-20T23:09:15Z",
-      "body_excerpt": "common/json-schema-to-grammar : align spacing rules with parsers (#24835) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9742",
-      "project": "llama-cpp",
-      "version": "b9742",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9742",
-      "published_at": "2026-06-20T22:31:33Z",
-      "body_excerpt": "fix(hexagon): use padded stride for ssm-conv weights (#24470) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
       "type": "tool"
     }
   ]
