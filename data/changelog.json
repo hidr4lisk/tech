@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-20T11:00:25Z",
+  "updated_at": "2026-09-20T15:46:19Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11064",
+      "project": "llama-cpp",
+      "version": "b11064",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11064",
+      "published_at": "2026-09-20T15:19:21Z",
+      "body_excerpt": "metal : support arbitrary hc in dsv4_hc_pre (#29169) the dsv4_hc_pre kernels hardcoded hc = 4 via a constexpr used with simd_shuffle, so the op was rejected by supports_op for any other hc and fell back to CPU. Kimi-K3 uses dsv4_hc_pre with hc equal to the number of banked checkpoints in the cross-layer residual stack, which grows with the layer index. pass n_hc as a function constant (FC_DSV4_HC)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11063",
+      "project": "llama-cpp",
+      "version": "b11063",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11063",
+      "published_at": "2026-09-20T12:28:06Z",
+      "body_excerpt": "common/peg : handle invalid utf-8 sequences in the AST (#29161) common/peg : handle invalid utf-8 sequences in the AST cont : return maximal subpart per Unicode recommendations cont : remove strict argument Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11062",
       "project": "llama-cpp",
@@ -9,6 +27,24 @@
       "published_at": "2026-09-20T09:46:58Z",
       "body_excerpt": "CUDA: enable sparse fa for qwen4 (#28770) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUD",
       "type": "tool"
+    },
+    {
+      "id": "hf-Qwen-Qwen-Image-2.1-PE-I2I",
+      "project": "Qwen",
+      "version": "Qwen-Image-2.1-PE-I2I",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-PE-I2I",
+      "published_at": "2026-09-20T08:46:47Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-Qwen-Qwen-Image-2.1-PE-T2I",
+      "project": "Qwen",
+      "version": "Qwen-Image-2.1-PE-T2I",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-PE-T2I",
+      "published_at": "2026-09-20T08:45:29Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11060",
@@ -900,6 +936,15 @@
       "published_at": "2026-09-14T04:05:10Z",
       "body_excerpt": "common : move llama_n_rs_seq to before llama_decode (#28749) This commit moves the llama_n_rs_seq function call to before the llama_decode call and returns directly if the check is true, removing the setting of res and the goto statement. The motivation for this change is to avoid the llama_decode call if it is not needed. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple S",
       "type": "tool"
+    },
+    {
+      "id": "hf-Qwen-Qwen-Image-2.1",
+      "project": "Qwen",
+      "version": "Qwen-Image-2.1",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "published_at": "2026-09-14T03:47:26Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10950",
@@ -10394,51 +10439,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9761",
       "published_at": "2026-06-22T17:03:12Z",
       "body_excerpt": "server: (router) move model downloading to dedicated process (#24834) server: real-time model load progress tracking via /models/sse update docs server: move model download to child process rm unused fix most problems clean up nit fixes fix test case do not detact() thread shorter MODEL_DOWNLOAD_TIMEOUT in test throttle macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI en",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9760",
-      "project": "llama-cpp",
-      "version": "b9760",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9760",
-      "published_at": "2026-06-22T15:22:57Z",
-      "body_excerpt": "server: refactor/generalize input file schema (#24299) server: refactor/generalize input file schema wire up input_video, accept raw base64 nits nits (2) fix windows macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ub",
-      "type": "tool"
-    },
-    {
-      "id": "hf-Qwen-Qwen-AgentWorld-35B-A3B",
-      "project": "Qwen",
-      "version": "Qwen-AgentWorld-35B-A3B",
-      "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-      "published_at": "2026-06-22T14:49:37Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-Qwen3.6-27B-NVFP4",
-      "project": "nvidia",
-      "version": "Qwen3.6-27B-NVFP4",
-      "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
-      "published_at": "2026-06-22T12:24:08Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9758",
-      "project": "llama-cpp",
-      "version": "b9758",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9758",
-      "published_at": "2026-06-22T12:20:47Z",
-      "body_excerpt": "[SYCL] support bf16 on bin_bcast OP and unary OPs (#24838) support bf16 on bin_bcast OP and unary OPs support the older Intel compiler than 2026.0 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9757",
-      "project": "llama-cpp",
-      "version": "b9757",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9757",
-      "published_at": "2026-06-22T11:46:09Z",
-      "body_excerpt": "sampling : remove unconditional softmax+sort in top-n-sigma sampler (#22645) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) A",
       "type": "tool"
     }
   ]
