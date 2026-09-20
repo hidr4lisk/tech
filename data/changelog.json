@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-19T20:20:19Z",
+  "updated_at": "2026-09-20T04:18:38Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11057",
+      "project": "llama-cpp",
+      "version": "b11057",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11057",
+      "published_at": "2026-09-19T23:58:52Z",
+      "body_excerpt": "chat : add dedicated Ling 3.0 (Bailing V3) parser (#28682) chat: add dedicated Ling 3.0 (Bailing V3) parser Ling 3.0 Flash templates pre-open the think block in the generation prompt, so the model never emits an opening , and a tool call can arrive before any . The generated autoparser terminated reasoning only at the close tag, which classified such tool calls entirely as reasoning_content: clien",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11056",
       "project": "llama-cpp",
@@ -10413,24 +10422,6 @@
       "published_at": "2026-06-22T09:32:13Z",
       "body_excerpt": "server: fix edit_file crash on append at end of file (line_start -1) (#24893) line_start -1 normalized to n+1, so append inserted at lines.begin() + n + 1, one past end() -> heap-buffer-overflow in vector::_M_range_insert. Normalize -1 to n (insert at end()), restrict -1 to append mode and reject it for replace/delete instead of silently clobbering the last line. Parenthesize the insert offset so ",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9754",
-      "project": "llama-cpp",
-      "version": "b9754",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9754",
-      "published_at": "2026-06-21T21:55:39Z",
-      "body_excerpt": "common/peg : implement ac parser for stricter grammar generation (#24869) common/peg : implement ac parser cont : extract functions cont : tidy up cont : remove a test cont : move ac() def macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) U",
-      "type": "tool"
-    },
-    {
-      "id": "hf-allenai-tmax-27b",
-      "project": "allenai",
-      "version": "tmax-27b",
-      "url": "https://huggingface.co/allenai/tmax-27b",
-      "published_at": "2026-06-21T21:48:19Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
