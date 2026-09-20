@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-09-20T04:18:31Z",
+  "updated_at": "2026-09-20T11:00:20Z",
   "items": [
+    {
+      "id": "localllama-2026-09-20-bad-time-to-purchase-strix-halo",
+      "source": "localllama",
+      "title": "Bad time to purchase strix halo?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wldx6n/bad_time_to_purchase_strix_halo/",
+      "published_at": "2026-09-20T10:51:54Z",
+      "summary": "with the imminent release of the 495+ I&#39;m wondering if it&#39;s worthwhile investing in a strix halo right now. Normally this would be a terrible time to buy technology, but these are unprecedented times for some rea",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-wtf-is-for-me-to-know-what-the-agent-just-did",
+      "source": "localllama",
+      "title": "WTF is for me, to know what the agent just did.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wldnu2/wtf_is_for_me_to_know_what_the_agent_just_did/",
+      "published_at": "2026-09-20T10:37:10Z",
+      "summary": "I built a coding-agent tool that checks my agents, and it uses exactly zero LLMs. Which feels slightly ridiculous given what I normally spend my time building. I’ve been using coding agents more and more, but I kept runn",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-chinas-cxmt-says-new-memory-chip-platform-enters-mass-produc",
+      "source": "localllama",
+      "title": "China's CXMT says new memory-chip platform enters mass production",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9c2o/chinas_cxmt_says_new_memorychip_platform_enters/",
+      "published_at": "2026-09-20T06:29:42Z",
+      "summary": "&#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-reached-189-tbs-memory-bandwidth-overclocking-the-cmp-170hx",
+      "source": "localllama",
+      "title": "Reached 1.89 TB/s memory bandwidth overclocking the CMP 170hx",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9amq/reached_189_tbs_memory_bandwidth_overclocking_the/",
+      "published_at": "2026-09-20T06:27:26Z",
+      "summary": "Overclocking the CMP 170HX 40GB I was able to get the memory bandwidth from 1,386.2 GB/s to 1,890.1 GB/s, that&#39;s a +36.4% increase.  Qwen 3.8 27B token generation jumped from 110 T/S to 202 T/S, same config, nothing ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-this-looks-promising-stepfun-aistep-5-preview-bf16-hugging-f",
+      "source": "localllama",
+      "title": "this looks promising: stepfun-ai/Step-5-Preview-BF16 · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl6gro/this_looks_promising_stepfunaistep5previewbf16/",
+      "published_at": "2026-09-20T03:57:54Z",
+      "summary": "      &#32; submitted by &#32;  /u/adefa   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-20-finally-got-qwen-38-next-running-on-my-v100-6gpu-setup-tp2-p",
       "source": "localllama",
@@ -74,61 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl18ax/qwen_38_27b_running_live_on_a_rtx_5090_to_solve/",
       "published_at": "2026-09-19T23:41:56Z",
       "summary": "This post is a follow up to this other post where I let Qwen 3.8 run for 63 hours autonomously to try to solve the Riemann hypothesis:  https://www.reddit.com/r/LocalLLaMA/comments/1wi9fau/qwen_38_27b_running_for_63_hour",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-19-qwen-38-flash-next-on-1x-rtx-5090-tg50-ts-pp2300-ts---with-f",
-      "source": "localllama",
-      "title": "Qwen-3.8-Flash-Next on 1x RTX 5090: TG=50 t/s, PP=2300 t/s - with FreeToken",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl06np/qwen38flashnext_on_1x_rtx_5090_tg50_ts_pp2300_ts/",
-      "published_at": "2026-09-19T22:55:28Z",
-      "summary": "I was somewhat disappointed with the performance of Qwen 3.8 Flash Next on my single RTX 5090 using llama.cpp. One issue is that llama.cpp still has no Expert Caching implemented for MoE models. There are various PRs and",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-19-from-gtx-1080ti-to-dual-gpu-with-radeon-mi50",
-      "source": "localllama",
-      "title": "From GTX-1080Ti to dual GPU with Radeon MI50",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkypcs/from_gtx1080ti_to_dual_gpu_with_radeon_mi50/",
-      "published_at": "2026-09-19T21:51:27Z",
-      "summary": "      The Nvidia GTX-1080Ti has 11GB of VRAM and capable for running 8B to 14B local models. I added an AMD Radeon MI50 16GB VRAM. Now with 27GB VRAM I&#39;m able to run most 30B to 35B local models from VRAM. I got the ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-19-qwen38-flash-next-at-1m-context-on-strix-halo-38-toks-decode",
-      "source": "localllama",
-      "title": "Qwen3.8-Flash-Next at 1M context on Strix Halo: 38 tok/s decode, 18 min prefill (halogen 0.12.0)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkyny9/qwen38flashnext_at_1m_context_on_strix_halo_38/",
-      "published_at": "2026-09-19T21:49:45Z",
-      "summary": "      Hi. I saw some feedback that halogen was degrading at context depth. So I fixed that. Served through the image, same machine, same session, same prompts, 0.11.10 vs 0.12.0:   decode at 1,004,581 tokens of context: ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-19-with-gemini-4-bench-goes-up",
-      "source": "localllama",
-      "title": "With Gemini 4, bench goes up.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkxx8e/with_gemini_4_bench_goes_up/",
-      "published_at": "2026-09-19T21:18:19Z",
-      "summary": "      They claimed open-weight models are dangerous but the benchmarks say otherwise. Source  &#32; submitted by &#32;  /u/Intrepid_Travel_3274   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-19-ternary-bonsai-2-27b-pq2-0-is-not-completely-lobotomized",
-      "source": "localllama",
-      "title": "Ternary-Bonsai-2-27B-PQ2_0 is not completely lobotomized",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkwz69/ternarybonsai227bpq2_0_is_not_completely/",
-      "published_at": "2026-09-19T20:39:56Z",
-      "summary": "      I decided to run prism-ml/Ternary-Bonsai-2-27B-PQ2_0 through my own set of UNSCIENTIFIC benchmarks. I needed something to compare it to, so I decided I would compare with another 27B model by filesize: unsloth/Qwen",
       "tags": [
         "localllama"
       ]

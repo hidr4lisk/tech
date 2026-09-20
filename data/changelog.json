@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-09-20T04:18:38Z",
+  "updated_at": "2026-09-20T11:00:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11062",
+      "project": "llama-cpp",
+      "version": "b11062",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11062",
+      "published_at": "2026-09-20T09:46:58Z",
+      "body_excerpt": "CUDA: enable sparse fa for qwen4 (#28770) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUD",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11060",
+      "project": "llama-cpp",
+      "version": "b11060",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11060",
+      "published_at": "2026-09-20T06:07:14Z",
+      "body_excerpt": "fix(mamba) : make time-step projection input contiguous (#28832) mamba : make time-step projection input contiguous Assisted-by: ChatGPT mamba : skip contiguous copy after normalization Assisted-by: ChatGPT Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11059",
+      "project": "llama-cpp",
+      "version": "b11059",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11059",
+      "published_at": "2026-09-20T05:39:58Z",
+      "body_excerpt": "metal: add F16 input to the FWHT (#29094) metal: add F16 input to the FWHT The Metal FWHT kernel accepts F32 input only. This change makes the source type a template parameter, so the kernel reads an F16 source directly instead of requiring a converted copy. The F32 instantiations are unchanged. The pipeline name now carries the source type, and supports_op accepts an F16 src1 for the Hadamard hin",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11057",
       "project": "llama-cpp",
@@ -10412,15 +10439,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9757",
       "published_at": "2026-06-22T11:46:09Z",
       "body_excerpt": "sampling : remove unconditional softmax+sort in top-n-sigma sampler (#22645) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) A",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9756",
-      "project": "llama-cpp",
-      "version": "b9756",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9756",
-      "published_at": "2026-06-22T09:32:13Z",
-      "body_excerpt": "server: fix edit_file crash on append at end of file (line_start -1) (#24893) line_start -1 normalized to n+1, so append inserted at lines.begin() + n + 1, one past end() -> heap-buffer-overflow in vector::_M_range_insert. Normalize -1 to n (insert at end()), restrict -1 to append mode and reject it for replace/delete instead of silently clobbering the last line. Parenthesize the insert offset so ",
       "type": "tool"
     }
   ]
