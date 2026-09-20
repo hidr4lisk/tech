@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-09-20T15:46:14Z",
+  "updated_at": "2026-09-20T20:34:06Z",
   "items": [
+    {
+      "id": "localllama-2026-09-20-gemma-4-ran-a-shell-command-a-web-page-told-it-to-qwen-38-mo",
+      "source": "localllama",
+      "title": "gemma 4 ran a shell command a web page told it to. qwen 3.8 mostly didn't.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlrjo5/gemma_4_ran_a_shell_command_a_web_page_told_it_to/",
+      "published_at": "2026-09-20T20:12:36Z",
+      "summary": "i have been running local models as browser agents on an m5 macbook pro, 128gb, all through mlx, no cloud. first i just wanted to know which one was faster at real browser work, so i gave gemma 4 31b and qwen 3.8 27b the",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-qwen38-flash-next-cosmic-arcade-oneshot-slop-game",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next Cosmic Arcade oneshot slop game",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlqxeu/qwen38flashnext_cosmic_arcade_oneshot_slop_game/",
+      "published_at": "2026-09-20T19:49:49Z",
+      "summary": "      To test what it can do. Qwen3.8-Flash-Next Intel Autoround W4A16 running locally on 4xV620 ~2k prefill and 70ts decode.. Were running around 3 hours. Harness is OMP (I think it made a big difference). Most of the t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-fly-brain-vs-jev",
+      "source": "localllama",
+      "title": "Fly brain vs jev",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlpthk/fly_brain_vs_jev/",
+      "published_at": "2026-09-20T19:08:40Z",
+      "summary": "What do you think about training the fly&#39;s brain to act like jev and running it locally?  &#32; submitted by &#32;  /u/dfgxxx   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-the-bear-can-dance-qwen-38-27b-on-one-3090-for-3-weeks",
+      "source": "localllama",
+      "title": "The bear can dance: Qwen 3.8 27B on one 3090 for 3 weeks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wloora/the_bear_can_dance_qwen_38_27b_on_one_3090_for_3/",
+      "published_at": "2026-09-20T18:26:30Z",
+      "summary": "TL;DR: Local agent loop, ~21 days, one RTX 3090. Task was pretty much &quot;build a CUDA inference engine for optimized for yourself on this GPU arch.&quot; Got working kernels and benches, not a win over llama.cpp. ~12 ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-promptdeck-v110-open-source-desktop-app-to-benchmark-local-a",
+      "source": "localllama",
+      "title": "PromptDeck v1.1.0 – open-source desktop app to benchmark local AND cloud LLMs side-by-side (Ollama, LM Studio + OpenRouter, Groq, DeepSeek…)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wloeeb/promptdeck_v110_opensource_desktop_app_to/",
+      "published_at": "2026-09-20T18:15:29Z",
+      "summary": "      Hey r/LocalLLaMA! I just released PromptDeck v1.1.0 and wanted to share it here since this community is basically the reason it exists. What it is: an open-source desktop studio (Tauri + React) for prompting and be",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-one-more-you-should-try-exllamav3exl3-for-flash-next-appreci",
+      "source": "localllama",
+      "title": "One more 'you should try ExllamaV3/exl3 for flash next' appreciation post",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo9nz/one_more_you_should_try_exllamav3exl3_for_flash/",
+      "published_at": "2026-09-20T18:10:37Z",
+      "summary": "After seeing a few posts on here about it, I finally tried exl3 3bpw and exllamav3 for running flash next - with amazing results.  On 3x3090s, 128GB DDR4: 1500 prefill, 80 tps decode  On 1x5090, 128G. DDR4: 1500 prefill,",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-lawsuit-says-anthropic-openai-spacexai-and-google-made-illeg",
+      "source": "localllama",
+      "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlo52v/lawsuit_says_anthropic_openai_spacexai_and_google/",
+      "published_at": "2026-09-20T18:05:43Z",
+      "summary": "      &#32; submitted by &#32;  /u/fallingdowndizzyvr   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-does-our-gpu-ever-feel-good-enough-for-now",
+      "source": "localllama",
+      "title": "Does our GPU ever feel \"good enough, for now\"?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlmx2c/does_our_gpu_ever_feel_good_enough_for_now/",
+      "published_at": "2026-09-20T17:19:22Z",
+      "summary": "I just bought a 5060Ti 16Gb and planning to sell my RTX 3080 10Gb (because my PSU is only 850W). I love the VRAM upgrade but it still don&#39;t feel enough. I am aching to buy another 5060Ti 16Gb. I do LLM and ComfyUI st",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-layacpp-optimized-laya-near-instant-decision-making",
+      "source": "localllama",
+      "title": "laya.cpp: Optimized laya near-instant decision making",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlmkm9/layacpp_optimized_laya_nearinstant_decision_making/",
+      "published_at": "2026-09-20T17:06:02Z",
+      "summary": "After seeing u/Nandakishor_ml’s post introducing Laya, I wanted to see how fast it could run in a standalone C++ implementation. Credit to u/Nandakishor_ml for the architecture, training and open-source release. My contr",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-a-jev-style-model-fine-tuned-on-qwen35-4b",
+      "source": "localllama",
+      "title": "A Jev-style model fine-tuned on Qwen3.5 4B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wllv4i/a_jevstyle_model_finetuned_on_qwen35_4b/",
+      "published_at": "2026-09-20T16:39:07Z",
+      "summary": "This weekend, I did a fun experiment to create something similar to Jev. I LoRA fine-tuned Qwen3.5 4B using a mix of publicly available datasets and synthetic data. For the synthetic data, I used DeepSeek V4.1 Flash, aro",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-20-cuda-enable-sparse-fa-for-qwen4-by-am17an-pull-request-28770",
+      "source": "localllama",
+      "title": "CUDA: enable sparse fa for qwen4 by am17an · Pull Request #28770 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlkxjw/cuda_enable_sparse_fa_for_qwen4_by_am17an_pull/",
+      "published_at": "2026-09-20T16:03:29Z",
+      "summary": "      Another day, another Qwen Flash Next speedup   &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-20-i-tested-9-llms-on-the-exact-same-web-dev-prompt-for-8-hours",
       "source": "localllama",
@@ -8,127 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wljzix/i_tested_9_llms_on_the_exact_same_webdev_prompt/",
       "published_at": "2026-09-20T15:26:49Z",
       "summary": "      I’ve spent basically the last 8 hours testing different models on the exact same web-development prompt, and I finally finished. The whole point of this nine-hour test was that which local model matches the frontie",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-20-focus-llama-a-llamacpp-fork-implementing-declarative-attenti",
-      "source": "localllama",
-      "title": "focus-llama: a llama.cpp fork implementing Declarative Attention (arXiv:2609.02737)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wli0wz/focusllama_a_llamacpp_fork_implementing/",
-      "published_at": "2026-09-20T14:07:03Z",
-      "summary": "I forked llama.cpp to implement Declarative Attention (arXiv:2609.02737, Google DeepMind and KAIST AI). The model declares in its own output which context chunks it needs &lt;focus magic\\_chunks=&quot;N&quot;&gt;), and t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-20-qwen-image-21-released",
-      "source": "localllama",
-      "title": "Qwen-Image-2.1 released!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlgrft/qwenimage21_released/",
-      "published_at": "2026-09-20T13:12:41Z",
-      "summary": "      Meet Qwen-Image-2.1, the most balanced and cost-effective image generation model in the Qwen-Image series! Now open weights! 🎨 A unified model for both generation and editing, delivering top-tier quality in a light",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-20-is-typesafe-basedderived-from-work-done-by-the-laya-author",
-      "source": "localllama",
-      "title": "Is Typesafe based/derived from work done by the Laya author?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlfmgq/is_typesafe_basedderived_from_work_done_by_the/",
-      "published_at": "2026-09-20T12:19:44Z",
-      "summary": "Typesafe&#39;s new model, Jev is all over the internet, this sub etc as a new classifier model. Then an AI dev posted here how they&#39;d done something very similar, and made a new model, Laya. https://www.reddit.com/r/",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-20-my-qwen-38-27b-tests-on-limited-vram-16-20gb",
-      "source": "localllama",
-      "title": "My Qwen 3.8 27B tests on limited VRAM (16-20GB)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlf6hb/my_qwen_38_27b_tests_on_limited_vram_1620gb/",
-      "published_at": "2026-09-20T11:58:55Z",
-      "summary": "I have done several tests of different versions of Qwen 3.8 27B, mainly IQ4_XS since this is what fits my card. Some other models for comparison. Test 1  Create a single-file Three.js animation: a teal-and-gold mechanica",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-20-rene98cstep-5-preview-bf16-huggingface-fork",
-      "source": "localllama",
-      "title": "rene98c/Step-5-Preview-BF16 • HuggingFace (Fork)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wleycb/rene98cstep5previewbf16_huggingface_fork/",
-      "published_at": "2026-09-20T11:47:17Z",
-      "summary": "This is a fork of the weights that the official side accidentally released early ,it’s not the official one. official weight will be released on 15 October  https://huggingface.co/rene98c/Step-5-Preview-BF16  &#32; submi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-20-what-is-jev-and-what-is-it-used-for",
-      "source": "localllama",
-      "title": "What is JEV and what is it used for?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wleg4w/what_is_jev_and_what_is_it_used_for/",
-      "published_at": "2026-09-20T11:20:05Z",
-      "summary": "I am seeing this JEV everywhere since yesterday in Localllama and it is passing past my head on what it is? So like what is it? Some new LLM? Or is it something else?   &#32; submitted by &#32;  /u/Hot_Example_4456   [li",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-20-a-local-jev-style-decision-head-onto-qwen-25-15b",
-      "source": "localllama",
-      "title": "a local Jev-style decision head onto Qwen 2.5 1.5B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wle746/a_local_jevstyle_decision_head_onto_qwen_25_15b/",
-      "published_at": "2026-09-20T11:06:36Z",
-      "summary": "Jev from TypeSafe AI got me thinking about non-autoregressive decision engines, so I built a small proof-of-concept called AES to test the concept locally on open weights. It uses Qwen/Qwen2.5-1.5B-Instruct as the base. ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-20-need-help-fixing-gemma-4-26b-a4b-toolcalls-in-pi",
-      "source": "localllama",
-      "title": "Need help fixing Gemma 4 26B A4B toolcalls in Pi",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wle1f4/need_help_fixing_gemma_4_26b_a4b_toolcalls_in_pi/",
-      "published_at": "2026-09-20T10:58:28Z",
-      "summary": "Hello! So, yesterday i tried out Gemma 4 26B A4B QAT Q4_K_XL from here with Q4_0 MTP model in Pi agent. Suddenly, it became the first model to actually pass my simple test with HTTP server in C++, while being small enoug",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-20-bad-time-to-purchase-strix-halo",
-      "source": "localllama",
-      "title": "Bad time to purchase strix halo?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wldx6n/bad_time_to_purchase_strix_halo/",
-      "published_at": "2026-09-20T10:51:54Z",
-      "summary": "with the imminent release of the 495+ I&#39;m wondering if it&#39;s worthwhile investing in a strix halo right now. Normally this would be a terrible time to buy technology, but these are unprecedented times for some rea",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-20-wtf-is-for-me-to-know-what-the-agent-just-did",
-      "source": "localllama",
-      "title": "WTF is for me, to know what the agent just did.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wldnu2/wtf_is_for_me_to_know_what_the_agent_just_did/",
-      "published_at": "2026-09-20T10:37:10Z",
-      "summary": "I built a coding-agent tool that checks my agents, and it uses exactly zero LLMs. Which feels slightly ridiculous given what I normally spend my time building. I’ve been using coding agents more and more, but I kept runn",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-20-chinas-cxmt-says-new-memory-chip-platform-enters-mass-produc",
-      "source": "localllama",
-      "title": "China's CXMT says new memory-chip platform enters mass production",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl9c2o/chinas_cxmt_says_new_memorychip_platform_enters/",
-      "published_at": "2026-09-20T06:29:42Z",
-      "summary": "&#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
