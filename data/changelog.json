@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-20T20:34:11Z",
+  "updated_at": "2026-09-21T04:16:12Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11065",
+      "project": "llama-cpp",
+      "version": "b11065",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11065",
+      "published_at": "2026-09-20T21:52:35Z",
+      "body_excerpt": "CUDA: tune FA for Gemma 4 on Ampere or newer (#29152) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubunt",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11064",
       "project": "llama-cpp",
@@ -10412,15 +10421,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9767",
       "published_at": "2026-06-23T08:58:23Z",
       "body_excerpt": "ggml-webgpu: improve MTP inference by using mat-vec path for small batches (#24811) ggml-webgpu: improve small batches decoding Add barrier to the NUM_COLS loop in mul-mat-vec macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9763",
-      "project": "llama-cpp",
-      "version": "b9763",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9763",
-      "published_at": "2026-06-22T21:32:31Z",
-      "body_excerpt": "server : Add id to tool call responses api (#24882) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CP",
       "type": "tool"
     }
   ]
