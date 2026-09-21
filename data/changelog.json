@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-21T04:16:12Z",
+  "updated_at": "2026-09-21T12:26:44Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11070",
+      "project": "llama-cpp",
+      "version": "b11070",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11070",
+      "published_at": "2026-09-21T10:49:21Z",
+      "body_excerpt": "hexagon: overhaul of buffer and DMA handling to support 64bit mappings + improvements (#29197) hex-dma64: enable support extended buffer mappings and 64bit dma hex-dma64: expand binary ops to support more DMA scenarios hex-dma64: add binary-ops.h hex-dma64: add --hex-dma64 to run.py and fix minor issues hex-dma64: update SSM_CONV to use dma with proper support for 64bit hex-ops: remove obsolete ga",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11069",
+      "project": "llama-cpp",
+      "version": "b11069",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11069",
+      "published_at": "2026-09-21T10:14:56Z",
+      "body_excerpt": "cuda : tune MMVQ to MMQ crossover for SM70 (Volta) (#28912) tune MMVQ to MMQ crossover for SM70 (Volta) Signed-off-by: Yangyu Chen Apply suggestion from @JohannesGaessler Apply suggestion from @JohannesGaessler Apply suggestion from @JohannesGaessler --------- Signed-off-by: Yangyu Chen Co-authored-by: Johannes Gäßler Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silico",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11068",
+      "project": "llama-cpp",
+      "version": "b11068",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11068",
+      "published_at": "2026-09-21T09:40:53Z",
+      "body_excerpt": "metal : fix deprecation warnings from macOS 27 SDK (#29136) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11067",
+      "project": "llama-cpp",
+      "version": "b11067",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11067",
+      "published_at": "2026-09-21T08:15:18Z",
+      "body_excerpt": "webgpu : add fused gdn + cpy (#28976) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11065",
       "project": "llama-cpp",
@@ -10385,42 +10421,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9771",
       "published_at": "2026-06-23T13:27:50Z",
       "body_excerpt": "vulkan: make mul_mm ALIGNED a spec constant (#24689) This trims down some of the shader variant explosion and reduces binary size. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9770",
-      "project": "llama-cpp",
-      "version": "b9770",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9770",
-      "published_at": "2026-06-23T12:25:01Z",
-      "body_excerpt": "server: fix remote preset handling, add test (#24938) server: add test for remote preset fix remote preset handling fix fix test macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenV",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9769",
-      "project": "llama-cpp",
-      "version": "b9769",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9769",
-      "published_at": "2026-06-23T11:43:26Z",
-      "body_excerpt": "vulkan: link ggml-cpu when GGML_VULKAN_CHECK_RESULTS / RUN_TESTS are enabled (#24444) The result-checking and test debug paths in ggml-vulkan.cpp call ggml_graph_compute_with_ctx() to compute a CPU reference graph, but that symbol is defined in ggml-cpu, which ggml-vulkan does not link. Enabling -DGGML_VULKAN_CHECK_RESULTS=ON (or -DGGML_VULKAN_RUN_TESTS=ON) therefore fails to link with an unresolv",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9768",
-      "project": "llama-cpp",
-      "version": "b9768",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9768",
-      "published_at": "2026-06-23T10:48:33Z",
-      "body_excerpt": "model: Granite Speech Plus (#24818) feat: Add conversion support for Granite Speech Plus Branch: GraniteSpeechPlus AI-usage: full (Bob, OpenCode + Qwen3.6-35b) Signed-off-by: Gabe Goodhart feat: Extend granite_speech to support plus multi-layer concatenation Branch: GraniteSpeechPlus AI-usage: draft (Bob, OpenCode + Qwen3.6-35b) Signed-off-by: Gabe Goodhart fix(conversion): Fix plural naming for f",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9767",
-      "project": "llama-cpp",
-      "version": "b9767",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9767",
-      "published_at": "2026-06-23T08:58:23Z",
-      "body_excerpt": "ggml-webgpu: improve MTP inference by using mat-vec path for small batches (#24811) ggml-webgpu: improve small batches decoding Add barrier to the NUM_COLS loop in mul-mat-vec macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (",
       "type": "tool"
     }
   ]
