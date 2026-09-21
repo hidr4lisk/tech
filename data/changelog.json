@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-09-21T12:26:44Z",
+  "updated_at": "2026-09-21T21:51:16Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11081",
+      "project": "llama-cpp",
+      "version": "b11081",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11081",
+      "published_at": "2026-09-21T19:50:41Z",
+      "body_excerpt": "test-llama-archs : make tensor data stdev configurable and improve help (#29133) test-llama-archs : make tensor data stdev configurable Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp test-llama-archs : expand usage and add examples Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp test-llama-archs : fail on unknown args and log usage Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11080",
+      "project": "llama-cpp",
+      "version": "b11080",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11080",
+      "published_at": "2026-09-21T19:17:51Z",
+      "body_excerpt": "tests/test-backend-ops : allow regex entries in the -o filter (#29204) tests/test-backend-ops : allow regex entries in the -o filter so far -o only accepted a comma separated list of exact op names or full test case strings. entries that are not plain op names are now treated as regexes matched against the op name (e.g. \"MUL_MAT.\"), while plain names keep their exact-matching behavior so that \"-o ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11078",
+      "project": "llama-cpp",
+      "version": "b11078",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11078",
+      "published_at": "2026-09-21T18:47:31Z",
+      "body_excerpt": "args: add env vars for temperature, top-p, min-p and penalties (#27380) Allow configuring --temp, --top-p, --min-p, --repeat-penalty, --presence-penalty and --frequency-penalty via LLAMA_ARG_* so llama-server can be fully controlled from an EnvironmentFile (e.g. systemd on Debian). Use to regenerate the readme files. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11077",
+      "project": "llama-cpp",
+      "version": "b11077",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11077",
+      "published_at": "2026-09-21T18:11:28Z",
+      "body_excerpt": "server : do not forward --api-key-file to router-spawned child instances (#28938) In router mode, authentication belongs to the router. unset_reserved_args() already unset LLAMA_API_KEY, but did not unset LLAMA_ARG_API_KEY_FILE. When --api-key-file was passed, children re-validated against file keys only, causing clients using --api-key to 401 on chat completions (#28820). In addition, router inte",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11076",
+      "project": "llama-cpp",
+      "version": "b11076",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11076",
+      "published_at": "2026-09-21T17:13:13Z",
+      "body_excerpt": "tests : remove stale comment (#29140) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11075",
+      "project": "llama-cpp",
+      "version": "b11075",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11075",
+      "published_at": "2026-09-21T16:43:39Z",
+      "body_excerpt": "ggml-metal : simplify fusion pattern op list declaration (#29206) ggml-metal : derive non-empty fusion ops from ops_all Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp ggml-metal : drop _all suffix from fusion op pattern vectors Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) D",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11074",
+      "project": "llama-cpp",
+      "version": "b11074",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11074",
+      "published_at": "2026-09-21T16:01:50Z",
+      "body_excerpt": "json: Fixed json enum handling (#28518) Fixed json enum handling Added common_json_value handling for enum values. Added tests/test-json.cpp to cover testing of some aspects of common_json. Removed tests as requested. Applied recommended style and simplification Simplified by delegating enum constructor to the constructor of the underlying type Matched style of surrounding templating code Website:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11073",
+      "project": "llama-cpp",
+      "version": "b11073",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11073",
+      "published_at": "2026-09-21T15:30:06Z",
+      "body_excerpt": "sycl : coalesce MKL-FA softmax loads instead of one work-item per row (#28918) sycl : coalesce MKL-FA softmax loads instead of one work-item per row better human readable variable name Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11071",
+      "project": "llama-cpp",
+      "version": "b11071",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11071",
+      "published_at": "2026-09-21T14:12:33Z",
+      "body_excerpt": "ci : Upgrade CUDA to 13.4 for Ubuntu CUDA Release Builds (#29202) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 lib",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11070",
       "project": "llama-cpp",
@@ -765,6 +846,15 @@
       "published_at": "2026-09-15T18:50:59Z",
       "body_excerpt": "opencl: choose the MoE expert matmul by batch size for speculative decoding/MTP (#27637) opencl: gate the prebuilt q4_0 MoE GEMM on routing count opencl: stop writing zeros into the padded MoE activation slots opencl: rephrase claude's comments --------- Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS ",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-RT-DETR-Hand-Detector-v1",
+      "project": "nvidia",
+      "version": "RT-DETR-Hand-Detector-v1",
+      "url": "https://huggingface.co/nvidia/RT-DETR-Hand-Detector-v1",
+      "published_at": "2026-09-15T16:58:11Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10985",
@@ -2250,6 +2340,15 @@
       "published_at": "2026-09-02T22:59:12Z",
       "body_excerpt": "Update ROCm to 10.0.0 release (#27803) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-EgoHand-v1",
+      "project": "nvidia",
+      "version": "EgoHand-v1",
+      "url": "https://huggingface.co/nvidia/EgoHand-v1",
+      "published_at": "2026-09-02T22:03:12Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "hf-nvidia-GLM-5.3-Flash-NVFP4",
@@ -10358,69 +10457,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9776",
       "published_at": "2026-06-24T03:59:36Z",
       "body_excerpt": "vulkan: Apply bias before softmax in FA, to avoid overflow (#24909) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.5.0",
-      "project": "localai",
-      "version": "v4.5.0",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.5.0",
-      "published_at": "2026-06-23T21:31:26Z",
-      "body_excerpt": "🎉 LocalAI 4.5.0 Release! 🚀 LocalAI 4.5.0 is out! This release widens what LocalAI can perceive, sharpens the realtime voice API, and makes multi-user serving fast with zero configuration. Four new backends land, the React UI redesign ships in full, and distributed mode gets a robustness pass. Highlights: 👁️ See depth - new backend (Depth Anything 3): monocular metric depth + camera pose, with a ty",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-MiniMax-M3-NVFP4",
-      "project": "nvidia",
-      "version": "MiniMax-M3-NVFP4",
-      "url": "https://huggingface.co/nvidia/MiniMax-M3-NVFP4",
-      "published_at": "2026-06-23T20:48:47Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-Kimi-K2.6-DFlash",
-      "project": "nvidia",
-      "version": "Kimi-K2.6-DFlash",
-      "url": "https://huggingface.co/nvidia/Kimi-K2.6-DFlash",
-      "published_at": "2026-06-23T20:40:41Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9775",
-      "project": "llama-cpp",
-      "version": "b9775",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9775",
-      "published_at": "2026-06-23T16:48:29Z",
-      "body_excerpt": "server : check draft context creation error (#24922) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9774",
-      "project": "llama-cpp",
-      "version": "b9774",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9774",
-      "published_at": "2026-06-23T16:17:10Z",
-      "body_excerpt": "vulkan: support all backend tests for SQR/SQRT/SIN/COS/CLAMP/LEAKY_RELU/NORM (#24582) vulkan: make SQR/SQRT/SIN/COS/CLAMP/LEAKY_RELU use unary.comp vulkan: make NORM support noncontig add noncontiguous row test cases for norm/l2_norm, handle this in the CPU backend and l2_norm.comp fix supports_op for cuda and webgpu macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabl",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9773",
-      "project": "llama-cpp",
-      "version": "b9773",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9773",
-      "published_at": "2026-06-23T15:43:58Z",
-      "body_excerpt": "vulkan: Support GET_ROWS_BACK (#24883) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: W",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9771",
-      "project": "llama-cpp",
-      "version": "b9771",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9771",
-      "published_at": "2026-06-23T13:27:50Z",
-      "body_excerpt": "vulkan: make mul_mm ALIGNED a spec constant (#24689) This trims down some of the shader variant explosion and reduces binary size. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
       "type": "tool"
     }
   ]
