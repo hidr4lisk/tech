@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-09-22T11:16:32Z",
+  "updated_at": "2026-09-22T16:38:34Z",
   "items": [
+    {
+      "id": "localllama-2026-09-22-qwen-38-27b-at-3-bpw-on-an-rtx-3060-gsq-vs-byteshape-iq3-xxs",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B at ~3 BPW on an RTX 3060: GSQ vs ByteShape IQ3-XXS 2.88BPW",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnechu/qwen_38_27b_at_3_bpw_on_an_rtx_3060_gsq_vs/",
+      "published_at": "2026-09-22T16:31:03Z",
+      "summary": "      Someone recommended that I try the ByteShape Qwen 3.8 27B IQ3-XXS GGUF after seeing my previous testing of the GSQ quant. So I did. And the result was… surprisingly bad. For context, I&#39;m running:  RTX 3060 12GB",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-dynamic-quantiser---a-way-to-make-your-own-high-quality-dyna",
+      "source": "localllama",
+      "title": "Dynamic Quantiser - a way to make your own high quality dynamic quants",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnbuuv/dynamic_quantiser_a_way_to_make_your_own_high/",
+      "published_at": "2026-09-22T14:59:24Z",
+      "summary": "      Dynamic Quantiser TLDR - Makes dynamic and/or custom quants of ggufs. Doesn&#39;t need data, just gguf file + llama.cpp. Minimises cosine deviation - highly correlated with minimising KLD. Fast, much better than st",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-mimo-v26-flash-rl-dual-spark-recipesexperiences",
+      "source": "localllama",
+      "title": "Mimo v2.6-Flash-RL Dual-Spark Recipes/experiences?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnbp77/mimo_v26flashrl_dualspark_recipesexperiences/",
+      "published_at": "2026-09-22T14:53:31Z",
+      "summary": "Getting off work in a couple of hours and I downloaded the model over-night. Was wondering if anyone had gotten it to work on dual spark yet and if so, if you could share what software/wheels and versions and what T/s an",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-mimo26-flash-on-m5u-early-results",
+      "source": "localllama",
+      "title": "Mimo2.6-Flash on M5U early results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnb5f5/mimo26flash_on_m5u_early_results/",
+      "published_at": "2026-09-22T14:32:38Z",
+      "summary": "Box arrived only a couple hours ago, mostly was just transferring data from old mbp, but prepped a raw mlx-vlm patch to run Mimo flash (loading original weights) as nothing supports it yet out of the box. So far results ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-how-is-gemma4-12b-for-general-everyday-use",
+      "source": "localllama",
+      "title": "How is Gemma4 12B for general everyday use?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn9w6x/how_is_gemma4_12b_for_general_everyday_use/",
+      "published_at": "2026-09-22T13:43:31Z",
+      "summary": "I want to use it for tasks like researching something, reading and modifying files on my PC, summarising and finding things from PDFs, solving math and engineering problems(not too complex stuff), process images etc.  Ho",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-what-underrated-ai-tools-have-actually-made-you-more-product",
+      "source": "localllama",
+      "title": "What underrated AI tools have actually made you more productive in 2026?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn9a2w/what_underrated_ai_tools_have_actually_made_you/",
+      "published_at": "2026-09-22T13:18:20Z",
+      "summary": "I asked this back in 2025, but the AI landscape has changed a lot since then. Not looking for the usual ChatGPT, Claude, Gemini, Midjourney, etc. I&#39;m curious about the lesser-known tools that you actually kept using.",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-fork-of-freetoken-with-deepseek-v41-vision-and-speculative-d",
+      "source": "localllama",
+      "title": "Fork of FreeToken with DeepSeek-V4.1, vision and speculative decoding (2x3090 numbers inside)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn852z/fork_of_freetoken_with_deepseekv41_vision_and/",
+      "published_at": "2026-09-22T12:29:02Z",
+      "summary": "I&#39;ve been running FreeToken on my 2x3090 box for a while and ended up maintaining a fork of it. Posting it in case it&#39;s useful to anyone else here. Quick context if you haven&#39;t used it: FreeToken is an edge-n",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-is-llamacpp-meant-to-be-slow-at-long-context-even-when-you-a",
+      "source": "localllama",
+      "title": "Is llama.cpp meant to be slow at long context, even when you aren't using that context?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn6vwm/is_llamacpp_meant_to_be_slow_at_long_context_even/",
+      "published_at": "2026-09-22T11:29:17Z",
+      "summary": "I am trying out a few fine-tunes of Qwen 3.5 9B @ IQ4_XS @ 131K context and trying to go mostly local (free beats cheap, after all). However, it is much slower than at, say 16K context, even when I am not actually using ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-about-mimo-26-architecture",
+      "source": "localllama",
+      "title": "About Mimo 2.6 Architecture",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn6qwi/about_mimo_26_architecture/",
+      "published_at": "2026-09-22T11:22:00Z",
+      "summary": "I was checking nee Mimo 2.6 architecture on huggingface page and it looks very simple. I dont mean in a bad way but when we compare recent open models, their architecture is very simple. They dont use any Gated DeltaNet,",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-does-anyone-have-any-experience-with-the-whittle-models",
+      "source": "localllama",
+      "title": "Does anyone have any experience with the Whittle models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn6m4p/does_anyone_have_any_experience_with_the_whittle/",
+      "published_at": "2026-09-22T11:15:08Z",
+      "summary": "Came across a HuggingFace user, logic65, who makes smaller distils of bigger models under the name &quot;Whittle&quot;. I&#39;m on a semi-modest laptop (8GB VRAM, 24GB RAM) and the 27B-A3B MoE (based on qwen3.6-35B) look",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-22-xiaomimimomimo-v26-distill-qwen-9b-hugging-face",
       "source": "localllama",
@@ -19,116 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn53le/qwen3827b_70_toks_160_toks_concurrent_10k_toks/",
       "published_at": "2026-09-22T09:52:43Z",
       "summary": "I didn&#39;t know my set up was outperforming nearly everyone until reading another discussion where people were struggling getting half of that speed with half the context on the same hardware. I benchmarked a couple do",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-obvious-corporate-shills-be-like",
-      "source": "localllama",
-      "title": "obvious corporate shills be like",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn4cni/obvious_corporate_shills_be_like/",
-      "published_at": "2026-09-22T09:08:43Z",
-      "summary": "      &#32; submitted by &#32;  /u/johnnyApplePRNG   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-did-alibaba-abandon-35b-a3b",
-      "source": "localllama",
-      "title": "Did Alibaba abandon 35B A3B?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn4c4e/did_alibaba_abandon_35b_a3b/",
-      "published_at": "2026-09-22T09:07:54Z",
-      "summary": "Basically the title.We did not get a new moe model with qwen 3.8 and Alibaba did not announce any small moe models on apsara.I know we might get an announcement later but ngl I kinda lost hope   &#32; submitted by &#32; ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-claude-vs-antigravity-vs-3827b-vs-flash-next-vs-bonsai-vs-sw",
-      "source": "localllama",
-      "title": "claude vs antigravity vs 3.827b vs flash next vs bonsai vs swift... built my own quality bench test framework using my own git history, early results are surprising and shocking.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn4012/claude_vs_antigravity_vs_3827b_vs_flash_next_vs/",
-      "published_at": "2026-09-22T08:47:35Z",
-      "summary": "A note: this entire thing is 100% human written, not even AI drafted or edited. So, enjoy. Or not. edit for a tldr that completed just after posting: ``` ┌──────────────────────────────────────────────┬─────────┐ │ confi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-best-abliterated-version-of-qwen-38-next-flash",
-      "source": "localllama",
-      "title": "Best abliterated 👹 version of Qwen 3.8 Next Flash?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn3phn/best_abliterated_version_of_qwen_38_next_flash/",
-      "published_at": "2026-09-22T08:29:11Z",
-      "summary": "That&#39;s the whole question really. Which uncensored / abliterated versions of Qwen Next Flash have you used, and what&#39;s your experience? Pros / cons?  &#32; submitted by &#32;  /u/breksyt   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-ngram-and-world-knowledge---why-are-we-just-building-a-codin",
-      "source": "localllama",
-      "title": "Ngram and world knowledge - why are we just building a coding model?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn2ybk/ngram_and_world_knowledge_why_are_we_just/",
-      "published_at": "2026-09-22T07:42:34Z",
-      "summary": "This post is written by a human and I&#39;d appreciate it if you treated it as such. Thanks. So, I&#39;ve been noticing a pretty clear interest in developing as good a coding and agentic tool-calling model as possible, e",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-xiaomimimomimo-v26-distill-qwen-9b",
-      "source": "localllama",
-      "title": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn2dee/xiaomimimomimov26distillqwen9b/",
-      "published_at": "2026-09-22T07:07:25Z",
-      "summary": "      https://preview.redd.it/ybwqqbrst0rh1.png?width=811&amp;format=png&amp;auto=webp&amp;s=1e40c5b53e304caf2a10efa2baa6f998b9a9a0bb MiMo-V2.6-Distill-Qwen-9B is a 9B agentic model developed by Xiaomi MiMo through super",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-r-complex-kda-understanding-and-enhancing-the-expressivity-o",
-      "source": "localllama",
-      "title": "[R] Complex KDA: Understanding and Enhancing the Expressivity of Kimi Delta Attention",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn1t6a/r_complex_kda_understanding_and_enhancing_the/",
-      "published_at": "2026-09-22T06:34:34Z",
-      "summary": "      Github: https://github.com/OpenEuroLLM/ComplexKDA HuggingFace: https://huggingface.co/collections/openeurollm/complexkda Arxiv: https://arxiv.org/abs/2609.24797 Authors: Julien Siems*, Riccardo Grazzi*, Korbinian P",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-alibaba-plans-ai-model-with-5-trillion-to-10-trillion-parame",
-      "source": "localllama",
-      "title": "Alibaba plans AI model with 5 trillion to 10 trillion parameters, unveils new chip",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmyh9z/alibaba_plans_ai_model_with_5_trillion_to_10/",
-      "published_at": "2026-09-22T03:35:45Z",
-      "summary": "&#32; submitted by &#32;  /u/tengo_harambe   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-kev-tiny-jev-like-decision-models-08b4b9b-on-qwen35-you-can",
-      "source": "localllama",
-      "title": "Kev: tiny Jev-like decision models (0.8B/4B/9B) on Qwen3.5 you can train and run locally - the 9B fits a 32GB Mac",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmxx9w/kev_tiny_jevlike_decision_models_08b4b9b_on/",
-      "published_at": "2026-09-22T03:08:44Z",
-      "summary": "Been playing with judge models in my eval pipeline, so this landed at the right time. Kev is a small family of Jev-architecture decision models (0.8B, 4B, 9B) built on Qwen3.5, Apache-2.0, with training code and frozen e",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-qwen-4-announced-at-apsara-conference",
-      "source": "localllama",
-      "title": "Qwen 4 Announced at Apsara Conference",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmxfjs/qwen_4_announced_at_apsara_conference/",
-      "published_at": "2026-09-22T02:45:42Z",
-      "summary": "      https://preview.redd.it/bpbc9i6hizqh1.png?width=1270&amp;format=png&amp;auto=webp&amp;s=e8aa8301895735a05c3c61a5e793018a23d1cac5 I wanted to share a quick update: Alibaba has officially announced Qwen 4 at the Apsa",
       "tags": [
         "localllama"
       ]
