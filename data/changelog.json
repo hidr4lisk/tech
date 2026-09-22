@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-21T21:51:16Z",
+  "updated_at": "2026-09-22T04:11:58Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11095",
+      "project": "llama-cpp",
+      "version": "b11095",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11095",
+      "published_at": "2026-09-22T01:35:10Z",
+      "body_excerpt": "hexagon: new HMX-optimized GATED_DELTA_NET (#29199) hex-gdn: start putting together HMX support for GDN hex-gdn: working hmx but not-pipelined and slow for now hex-gdn: re-write vtcm layout handling and prep for pipelining hex-gdn: starting to pipeline hmx and dmas hex-gdn: add hvx threading for most pipeline stages hex-gdb: add detailed trace events hex-gdn: vectorize expfs and use aligned hvx re",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11094",
+      "project": "llama-cpp",
+      "version": "b11094",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11094",
+      "published_at": "2026-09-22T01:04:38Z",
+      "body_excerpt": "vendor : update cpp-httplib to 0.57.1 (#29239) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11093",
+      "project": "llama-cpp",
+      "version": "b11093",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11093",
+      "published_at": "2026-09-22T00:31:41Z",
+      "body_excerpt": "metal : fix mask bounds in flash attention block pre-pass (#29220) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 li",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11090",
+      "project": "llama-cpp",
+      "version": "b11090",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11090",
+      "published_at": "2026-09-21T23:29:59Z",
+      "body_excerpt": "cuda: fix sm_70 tile compilation error (#29224) The 5-argument load_ldmatrix added in 1884824fd only defines tile , so the Volta tile does not match. See for details. Building on 1884824fd, generalize the tile shape of the 5-argument load_ldmatrix from to , so the non-swizzle branch forwards to the 3-argument loader for any shape. Local compilation and testing passed. Assisted-by: DeepSeek V4.1 Fl",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11081",
       "project": "llama-cpp",
@@ -10448,15 +10484,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9777",
       "published_at": "2026-06-24T07:43:17Z",
       "body_excerpt": "model : Add LFM2.5-ColBERT-350M and LFM2.5-Embedding-350M (#24913) model : Add LFM2.5-ColBERT-350M and LFM2.5-Embedding-350M Restore LFM2 models in README.md macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9776",
-      "project": "llama-cpp",
-      "version": "b9776",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9776",
-      "published_at": "2026-06-24T03:59:36Z",
-      "body_excerpt": "vulkan: Apply bias before softmax in FA, to avoid overflow (#24909) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
       "type": "tool"
     }
   ]
