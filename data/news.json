@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-09-22T16:38:34Z",
+  "updated_at": "2026-09-22T21:04:42Z",
   "items": [
+    {
+      "id": "localllama-2026-09-22-quants-for-k2-horizon-are-now-available",
+      "source": "localllama",
+      "title": "quants for K2-Horizon are now available",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnky7x/quants_for_k2horizon_are_now_available/",
+      "published_at": "2026-09-22T20:26:36Z",
+      "summary": "      You can finally downloads quants from: https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B-GGUF https://preview.redd.it/cfhl43pps4rh1.png?width=2800&amp;format=png&amp;auto=webp&amp;s=313eab309fb407a0a0e5da61e2a120c",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-mimo-v26-flash-on-vllm-fixes-for-empty-responses-with-thinki",
+      "source": "localllama",
+      "title": "MiMo-V2.6-Flash on vLLM: fixes for \"empty responses\" with thinking + tools, and a hidden 2,048-token output cap",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnjbwn/mimov26flash_on_vllm_fixes_for_empty_responses/",
+      "published_at": "2026-09-22T19:28:26Z",
+      "summary": "Some people here say MiMo-V2.6 is bad with tools and are going back to GLM-5.3-Flash. I spent today running MiMo-V2.6-Flash-RL as the backend for an agent harness, on 2× DGX Spark with vLLM, using the tonyd2wild recipe. ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-new-6b-image-model-coming-antling-just-open-sourced-the-ming",
+      "source": "localllama",
+      "title": "New 6B image model coming, AntLing just open sourced the Ming-Image-0.1-Design family",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnipcz/new_6b_image_model_coming_antling_just_open/",
+      "published_at": "2026-09-22T19:06:22Z",
+      "summary": "      • Ming-Image-0.1-Design, 6B • Ming-Image-0.1-Design-Layer, 6B • Two open-source Agent Skills: the Ling UI Design Skill and the Image-to-Editable-PPT Skill Ming-Image-0.1-Design ranks #1 among open-weight models on ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-qwen-image-21-fast-fp8-generates-premium-quality-images",
+      "source": "localllama",
+      "title": "Qwen image 2.1 (Fast FP8) generates premium quality images",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnhq8d/qwen_image_21_fast_fp8_generates_premium_quality/",
+      "published_at": "2026-09-22T18:31:36Z",
+      "summary": "      Don&#39;t know how they did it, but for under 10GB model, the results are astonishing. I am running it on Unsloth Studio. They just released the update, so if you are not seeing the option, I recommend updating you",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-now-opus-55-is-58-on-artificial-analysis-how-long-do-you-hav",
+      "source": "localllama",
+      "title": "Now Opus 5.5 is 58 on Artificial Analysis , how long do you have wait until an open model hits 58?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnhlbl/now_opus_55_is_58_on_artificial_analysis_how_long/",
+      "published_at": "2026-09-22T18:26:34Z",
+      "summary": "It is 12 points higher than the best open model mimo 2.6 pro and a big jump from fable 5.1. Crazy, glm 5.5 and qwen 4 will be on par with gpt 6 sol or better since it has a score of 48 If it took 2 months for the best op",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-antling-open-sourced-the-ming-image-01-design-family",
+      "source": "localllama",
+      "title": "AntLing open sourced the Ming-Image-0.1-Design family",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnh7tk/antling_open_sourced_the_mingimage01design_family/",
+      "published_at": "2026-09-22T18:12:56Z",
+      "summary": "      AntLing open sourced the Ming-Image-0.1-Design family: • Ming-Image-0.1-Design, 6B • Ming-Image-0.1-Design-Layer, 6B • Two open-source Agent Skills: the Ling UI Design Skill and the Image-to-Editable-PPT Skill  Min",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-mini-agi-continual-learning-dynamically-looped-transformer-w",
+      "source": "localllama",
+      "title": "mini-AGI: Continual-learning dynamically looped transformer with evolutionary grown (on a laptop)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnggz5/miniagi_continuallearning_dynamically_looped/",
+      "published_at": "2026-09-22T17:46:32Z",
+      "summary": "      Saw this today and found it very intriguing. Lots of interesting design choices here, and it&#39;s cool to see someone doing something different. Here&#39;s a few highlights:  Looped transformer: dynamic recurrent ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-performance-tune-for-gemma4-26b-a4b-flash-attention-shape-by",
+      "source": "localllama",
+      "title": "Performance tune for gemma4-26b-a4b flash attention shape. by frobnitzem · Pull Request #28450 · ggml-org/llama.cpp · GitHub",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wng98w/performance_tune_for_gemma426ba4b_flash_attention/",
+      "published_at": "2026-09-22T17:39:11Z",
+      "summary": "Gemma 26B A4B speedup  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-laya-model-playing-flappy-bird-on-a-cpu-using-openvino-int8",
+      "source": "localllama",
+      "title": "Laya model playing Flappy Bird on a CPU using OpenVINO INT8 inference",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnf4q2/laya_model_playing_flappy_bird_on_a_cpu_using/",
+      "published_at": "2026-09-22T16:59:39Z",
+      "summary": "      A 421M-parameter model just played Flappy Bird on my desktop CPU (OpenVINO int8) Running on my Intel Core i7 12th gen CPU Converted laya system one model to OpenVINO and quantized to int8  &#32; submitted by &#32; ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-am-i-going-insane-for-thinking-that-these-are-all-bot-commen",
+      "source": "localllama",
+      "title": "Am I going insane for thinking that these are all Bot comments?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnf162/am_i_going_insane_for_thinking_that_these_are_all/",
+      "published_at": "2026-09-22T16:56:04Z",
+      "summary": "      I know that there are some bots active on this sub but wow these comments really look AI generated. Is it just me or are those really bot comments?  https://preview.redd.it/20st4vivq3rh1.png?width=955&amp;format=pn",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-22-i-built-a-cache-friendly-context-compacting-plugin-for-openc",
+      "source": "localllama",
+      "title": "I built a cache-friendly context compacting plugin for OpenCode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnedrc/i_built_a_cachefriendly_context_compacting_plugin/",
+      "published_at": "2026-09-22T16:32:16Z",
+      "summary": "https://github.com/lennartschoch/opencode-cache-compact The default context compacting mechanism in OpenCode strips a bunch of tokens from the beginning of the conversation (system prompt, tools etc). This is fine for ho",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-22-qwen-38-27b-at-3-bpw-on-an-rtx-3060-gsq-vs-byteshape-iq3-xxs",
       "source": "localllama",
@@ -13,124 +134,14 @@
       ]
     },
     {
-      "id": "localllama-2026-09-22-dynamic-quantiser---a-way-to-make-your-own-high-quality-dyna",
-      "source": "localllama",
-      "title": "Dynamic Quantiser - a way to make your own high quality dynamic quants",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnbuuv/dynamic_quantiser_a_way_to_make_your_own_high/",
-      "published_at": "2026-09-22T14:59:24Z",
-      "summary": "      Dynamic Quantiser TLDR - Makes dynamic and/or custom quants of ggufs. Doesn&#39;t need data, just gguf file + llama.cpp. Minimises cosine deviation - highly correlated with minimising KLD. Fast, much better than st",
+      "id": "simonw-2026-09-22-llm-typesafe-01a0",
+      "source": "simonw",
+      "title": "llm-typesafe 0.1a0",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+      "published_at": "2026-09-22T15:54:16Z",
+      "summary": "Release: llm-typesafe 0.1a0\n        I built this new plugin for LLM to add support for TypeSafe AI's new Jev model. Install it like this:\nllm install llm-typesafe\n\nThen set an API key (get one here, the waitlist seems to",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-mimo-v26-flash-rl-dual-spark-recipesexperiences",
-      "source": "localllama",
-      "title": "Mimo v2.6-Flash-RL Dual-Spark Recipes/experiences?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnbp77/mimo_v26flashrl_dualspark_recipesexperiences/",
-      "published_at": "2026-09-22T14:53:31Z",
-      "summary": "Getting off work in a couple of hours and I downloaded the model over-night. Was wondering if anyone had gotten it to work on dual spark yet and if so, if you could share what software/wheels and versions and what T/s an",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-mimo26-flash-on-m5u-early-results",
-      "source": "localllama",
-      "title": "Mimo2.6-Flash on M5U early results",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnb5f5/mimo26flash_on_m5u_early_results/",
-      "published_at": "2026-09-22T14:32:38Z",
-      "summary": "Box arrived only a couple hours ago, mostly was just transferring data from old mbp, but prepped a raw mlx-vlm patch to run Mimo flash (loading original weights) as nothing supports it yet out of the box. So far results ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-how-is-gemma4-12b-for-general-everyday-use",
-      "source": "localllama",
-      "title": "How is Gemma4 12B for general everyday use?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn9w6x/how_is_gemma4_12b_for_general_everyday_use/",
-      "published_at": "2026-09-22T13:43:31Z",
-      "summary": "I want to use it for tasks like researching something, reading and modifying files on my PC, summarising and finding things from PDFs, solving math and engineering problems(not too complex stuff), process images etc.  Ho",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-what-underrated-ai-tools-have-actually-made-you-more-product",
-      "source": "localllama",
-      "title": "What underrated AI tools have actually made you more productive in 2026?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn9a2w/what_underrated_ai_tools_have_actually_made_you/",
-      "published_at": "2026-09-22T13:18:20Z",
-      "summary": "I asked this back in 2025, but the AI landscape has changed a lot since then. Not looking for the usual ChatGPT, Claude, Gemini, Midjourney, etc. I&#39;m curious about the lesser-known tools that you actually kept using.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-fork-of-freetoken-with-deepseek-v41-vision-and-speculative-d",
-      "source": "localllama",
-      "title": "Fork of FreeToken with DeepSeek-V4.1, vision and speculative decoding (2x3090 numbers inside)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn852z/fork_of_freetoken_with_deepseekv41_vision_and/",
-      "published_at": "2026-09-22T12:29:02Z",
-      "summary": "I&#39;ve been running FreeToken on my 2x3090 box for a while and ended up maintaining a fork of it. Posting it in case it&#39;s useful to anyone else here. Quick context if you haven&#39;t used it: FreeToken is an edge-n",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-is-llamacpp-meant-to-be-slow-at-long-context-even-when-you-a",
-      "source": "localllama",
-      "title": "Is llama.cpp meant to be slow at long context, even when you aren't using that context?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn6vwm/is_llamacpp_meant_to_be_slow_at_long_context_even/",
-      "published_at": "2026-09-22T11:29:17Z",
-      "summary": "I am trying out a few fine-tunes of Qwen 3.5 9B @ IQ4_XS @ 131K context and trying to go mostly local (free beats cheap, after all). However, it is much slower than at, say 16K context, even when I am not actually using ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-about-mimo-26-architecture",
-      "source": "localllama",
-      "title": "About Mimo 2.6 Architecture",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn6qwi/about_mimo_26_architecture/",
-      "published_at": "2026-09-22T11:22:00Z",
-      "summary": "I was checking nee Mimo 2.6 architecture on huggingface page and it looks very simple. I dont mean in a bad way but when we compare recent open models, their architecture is very simple. They dont use any Gated DeltaNet,",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-does-anyone-have-any-experience-with-the-whittle-models",
-      "source": "localllama",
-      "title": "Does anyone have any experience with the Whittle models?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn6m4p/does_anyone_have_any_experience_with_the_whittle/",
-      "published_at": "2026-09-22T11:15:08Z",
-      "summary": "Came across a HuggingFace user, logic65, who makes smaller distils of bigger models under the name &quot;Whittle&quot;. I&#39;m on a semi-modest laptop (8GB VRAM, 24GB RAM) and the 27B-A3B MoE (based on qwen3.6-35B) look",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-xiaomimimomimo-v26-distill-qwen-9b-hugging-face",
-      "source": "localllama",
-      "title": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn59vj/xiaomimimomimov26distillqwen9b_hugging_face/",
-      "published_at": "2026-09-22T10:02:48Z",
-      "summary": "      &#32; submitted by &#32;  /u/Aggravating-Push-207   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-22-qwen38-27b-70-toks-160-toks-concurrent-10k-toks-prefill-full",
-      "source": "localllama",
-      "title": "Qwen3.8-27B: >70 tok/s (>160 tok/s concurrent), 10k tok/s prefill, full context on 2x3090 (or and 48GB or larger on ampere or higher), vanilla vllm",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn53le/qwen3827b_70_toks_160_toks_concurrent_10k_toks/",
-      "published_at": "2026-09-22T09:52:43Z",
-      "summary": "I didn&#39;t know my set up was outperforming nearly everyone until reading another discussion where people were struggling getting half of that speed with half the context on the same hardware. I benchmarked a couple do",
-      "tags": [
-        "localllama"
+        "simonw"
       ]
     },
     {
@@ -149,6 +160,17 @@
       "source": "huggingface",
       "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
       "url": "https://huggingface.co/blog/omlx",
+      "published_at": "2026-09-22T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-09-22-how-uk-aisi-and-evaleval-are-making-benchmark-results-reprod",
+      "source": "huggingface",
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
       "published_at": "2026-09-22T00:00:00Z",
       "summary": "",
       "tags": [
@@ -332,17 +354,6 @@
       ]
     },
     {
-      "id": "simonw-2026-09-16-quoting-mustafa-suleyman",
-      "source": "simonw",
-      "title": "Quoting Mustafa Suleyman",
-      "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
-      "published_at": "2026-09-16T16:00:54Z",
-      "summary": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to s",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-09-15-your-agent-aced-the-task-will-it-do-it-again",
       "source": "huggingface",
       "title": "Your Agent Aced the Task. Will It Do It Again?",
@@ -435,17 +446,6 @@
       "source": "huggingface",
       "title": "Give Your Coding Agents a Memory You Own",
       "url": "https://huggingface.co/blog/funes",
-      "published_at": "2026-09-03T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-09-03-training-a-coding-model-to-paint-watercolours-with-trl-and-o",
-      "source": "huggingface",
-      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "url": "https://huggingface.co/blog/train-to-paint-with-code",
       "published_at": "2026-09-03T00:00:00Z",
       "summary": "",
       "tags": [

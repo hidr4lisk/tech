@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-09-22T16:38:40Z",
+  "updated_at": "2026-09-22T21:04:47Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11113",
+      "project": "llama-cpp",
+      "version": "b11113",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11113",
+      "published_at": "2026-09-22T20:41:21Z",
+      "body_excerpt": "server: do not pass log file to children (#29212) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11112",
+      "project": "llama-cpp",
+      "version": "b11112",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11112",
+      "published_at": "2026-09-22T19:42:19Z",
+      "body_excerpt": "server: support input_image in function_call_output (#20663) (#22575) server: support input_image in function_call_output (#20663) server: fix if statement spacing server: avoid repeated type lookup Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11111",
+      "project": "llama-cpp",
+      "version": "b11111",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11111",
+      "published_at": "2026-09-22T18:38:54Z",
+      "body_excerpt": "vulkan: add Intel Xe flash attention optimization kernels (2/3, Xe-LPG Plus/Xe2/Xe3) (#24406) vulkan : Intel FA kernel optimization for split k path vulkan : Host code update for Intel split k FA kernel path selection, fix A770 Linux op test failures vulkan : use symmetric coopMatMulAdd() in flash_attn_decode_phase_1 shader to resolve test op failre on A770 Linux with 26.2.3 mesa driver vulkan : f",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11110",
+      "project": "llama-cpp",
+      "version": "b11110",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11110",
+      "published_at": "2026-09-22T18:12:45Z",
+      "body_excerpt": "mtmd: add various sanity checks (#29276) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.813-beta",
+      "project": "unsloth",
+      "version": "v0.1.813-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.813-beta",
+      "published_at": "2026-09-22T17:46:50Z",
+      "body_excerpt": "You can now run Qwen-Image-2.1 locally with Unsloth! This release also includes custom Agent Skills, and easier chat/project management. It also brings 2x faster reasoning blocks (60 FPS vs 30 FPS), more reliable training, and improved Linux installs and updates. Qwen Image 2.1 Guide Highlights Qwen-Image-2.1 support for image gen + more (Another update coming today for fixes!) Add custom Agent Sk",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11109",
+      "project": "llama-cpp",
+      "version": "b11109",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11109",
+      "published_at": "2026-09-22T17:45:29Z",
+      "body_excerpt": "metal : gate mul_mm_id src1 rescale behind ggml_prec (#29029) metal : gate mul_mm_id src1 rescale behind ggml_prec Assisted-by: Claude Fable 5.1 ggml-webgpu: reject MUL_MAT_ID when src1 precision is F32 cuda/vulkan: reject MUL_MAT_ID in supports_op when src1 prec is F32 fix to return false for failing backends when the specified src1 precision is f32 Assisted-by: Claude Fable 5.1 --------- Co-auth",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11108",
+      "project": "llama-cpp",
+      "version": "b11108",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11108",
+      "published_at": "2026-09-22T17:15:33Z",
+      "body_excerpt": "ggml : IQ1_M build prefix sums once per block (#28706) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubun",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11105",
       "project": "llama-cpp",
@@ -144,6 +207,15 @@
       "published_at": "2026-09-21T19:17:51Z",
       "body_excerpt": "tests/test-backend-ops : allow regex entries in the -o filter (#29204) tests/test-backend-ops : allow regex entries in the -o filter so far -o only accepted a comma separated list of exact op names or full test case strings. entries that are not plain op names are now treated as regexes matched against the op name (e.g. \"MUL_MAT.\"), while plain names keep their exact-matching behavior so that \"-o ",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-rho-roboeval",
+      "project": "microsoft",
+      "version": "rho-roboeval",
+      "url": "https://huggingface.co/microsoft/rho-roboeval",
+      "published_at": "2026-09-21T19:13:53Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11078",
@@ -413,6 +485,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
       "published_at": "2026-09-19T00:02:57Z",
       "body_excerpt": "What's Changed now advertises each model's thinking controls and default: Nemotron H vision models are now supported on Apple Silicon with MLX Ollama's macOS app will now no longer reopen windows you've closed when activating it Fix for model pulls from HuggingFace Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.34.3",
+      "project": "ollama",
+      "version": "v0.34.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
+      "published_at": "2026-09-19T00:02:57Z",
+      "body_excerpt": "What's Changed now advertises each model's thinking controls and default: Available in the CLI with: Available in the API with: Also available on ollama.com directly for cloud models. Nemotron H vision models are now supported on Apple Silicon with MLX Ollama's macOS app will now no longer reopen windows you've closed when activating it Fix for model pulls from HuggingFace Full Changelog:",
       "type": "tool"
     },
     {
@@ -10529,24 +10610,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9785",
       "published_at": "2026-06-25T01:21:32Z",
       "body_excerpt": "chat: harden caps check (#24973) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9784",
-      "project": "llama-cpp",
-      "version": "b9784",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9784",
-      "published_at": "2026-06-24T19:55:59Z",
-      "body_excerpt": "hexagon: MUL_MAT and MUL_MAT_ID rework : 32x32 tiled weight repack, kernel-params, cached graphs (#24954) hex-mm: new weight layout and fusion updates hvx-mm: unroll the new tiled vec_dots to optimize hvx register util hex-mm: optimize dyn.quant format for q8_0 and q8_1 to reduce overhead in vec_dots. hvx-mm: parallel quantizer per block for large rows hvx-mm: simplify and futher optimize dyn.quan",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9782",
-      "project": "llama-cpp",
-      "version": "b9782",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9782",
-      "published_at": "2026-06-24T16:44:42Z",
-      "body_excerpt": "common: remove unused json-partial (#24968) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windo",
       "type": "tool"
     }
   ]
