@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-22T04:11:58Z",
+  "updated_at": "2026-09-22T11:16:39Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11100",
+      "project": "llama-cpp",
+      "version": "b11100",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11100",
+      "published_at": "2026-09-22T08:29:36Z",
+      "body_excerpt": "chat : Fix Muse Glimmer tool-call first parser error (#29242) Fix Muse Glimmer tool-call first parser error Add test to verify Condense patterns remove test for trigger patterns Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11099",
+      "project": "llama-cpp",
+      "version": "b11099",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11099",
+      "published_at": "2026-09-22T07:59:05Z",
+      "body_excerpt": "ci : publish snapdragon builds in release workflow (#29007) The snapdragon CI builds packages only to feed the QDC device tests, so Hexagon NPU binaries never reached the releases page. Build both targets in release.yml and attach them as release assets. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFram",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11097",
+      "project": "llama-cpp",
+      "version": "b11097",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11097",
+      "published_at": "2026-09-22T07:06:53Z",
+      "body_excerpt": "opencl: add A8 Q4_0 non-MoE dp4a binary kernel (#29055) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.30.0",
+      "project": "vllm",
+      "version": "v0.30.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+      "published_at": "2026-09-22T05:20:54Z",
+      "body_excerpt": "v0.30.0 Highlights This release features 762 commits from 315 contributors (104 new)! New models: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram DP sharding (#56512); DeepSeek-V4-Flash-Vision-Exp (#54566), also on ROCm (#55107) and with LoRA (#55897)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11095",
       "project": "llama-cpp",
@@ -10466,24 +10502,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9781",
       "published_at": "2026-06-24T15:01:48Z",
       "body_excerpt": "vulkan: allow reducing the graph submission batches to avoid timeouts (#24872) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9780",
-      "project": "llama-cpp",
-      "version": "b9780",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9780",
-      "published_at": "2026-06-24T10:18:40Z",
-      "body_excerpt": "vulkan: fail the build when a shader fails to compile (#24450) vulkan-shaders-gen: fail the build when a shader fails to compile vulkan-shaders-gen did not detect shader-compile subprocess failures, so a broken libggml-vulkan could be produced while the build reported success and the breakage only surfaced at run time. execute_command() discarded the child exit code (POSIX waitpid passed nullptr f",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9777",
-      "project": "llama-cpp",
-      "version": "b9777",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9777",
-      "published_at": "2026-06-24T07:43:17Z",
-      "body_excerpt": "model : Add LFM2.5-ColBERT-350M and LFM2.5-Embedding-350M (#24913) model : Add LFM2.5-ColBERT-350M and LFM2.5-Embedding-350M Restore LFM2 models in README.md macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64",
       "type": "tool"
     }
   ]
