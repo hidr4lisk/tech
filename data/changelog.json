@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-22T11:16:39Z",
+  "updated_at": "2026-09-22T16:38:40Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11105",
+      "project": "llama-cpp",
+      "version": "b11105",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11105",
+      "published_at": "2026-09-22T16:19:40Z",
+      "body_excerpt": "jinja: use const for statement::execute and ::visit (#29271) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 librarie",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.812-beta",
+      "project": "unsloth",
+      "version": "v0.1.812-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.812-beta",
+      "published_at": "2026-09-22T15:46:04Z",
+      "body_excerpt": "We're releasing support for Qwen-Image-2.1, custom Agent Skills, and easier chat/project management. It also brings 2x faster reasoning blocks (60 FPS vs 30 FPS), more reliable training, and improved Linux installs and updates. Qwen Image 2.1 Guide Highlights Qwen-Image-2.1 support for image generation and more Add custom skills to guide models through specific tasks. 2x faster long reasoning bloc",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11104",
+      "project": "llama-cpp",
+      "version": "b11104",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11104",
+      "published_at": "2026-09-22T15:32:57Z",
+      "body_excerpt": "server: Add support for binding to multiple addresses (#28690) Add support for binding llama-server to multiple addresses Assisted-by: Codex remove redundant thread handler make it clear about overlapping addr reject --port 0 with multiple tcp addr improve arg handler nits fix test nits 2 nits nits 2 --------- Co-authored-by: Xuan Son Nguyen Website: Attestations: macOS/iOS: macOS Apple Silicon (a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11103",
+      "project": "llama-cpp",
+      "version": "b11103",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11103",
+      "published_at": "2026-09-22T14:52:43Z",
+      "body_excerpt": "spec : support DFlash for HunyuanOCR (#28890) model : add DFlash layer-input taps for HunyuanVL DFlash speculative decoding needs the target graph to expose the residual stream entering each layer (res->t_layer_inp[il]) - the draft model reads those tensors to build its cross-context. Qwen3 and the other DFlash-capable targets register them, but the Hunyuan graphs do not, so serving a DFlash draft",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11102",
+      "project": "llama-cpp",
+      "version": "b11102",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11102",
+      "published_at": "2026-09-22T13:23:34Z",
+      "body_excerpt": "convert: add MiMo-V2.6 support (#29257) convert: add MiMo-V2.6 support Hoist the K3 mxfp4 conversion repack into base.py so it can be reused Remove decoder from mmproj convert Update conversion/mimo.py fix: use autoparser --------- Co-authored-by: Sigbjørn Skjæret Co-authored-by: Piotr Wilkin Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11101",
+      "project": "llama-cpp",
+      "version": "b11101",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11101",
+      "published_at": "2026-09-22T12:25:53Z",
+      "body_excerpt": "cmake : allow repeated find_package calls for llama (#29228) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 librarie",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11100",
       "project": "llama-cpp",
@@ -3314,6 +3368,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-microsoft-rho-libero",
+      "project": "microsoft",
+      "version": "rho-libero",
+      "url": "https://huggingface.co/microsoft/rho-libero",
+      "published_at": "2026-08-28T23:17:11Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b10679",
       "project": "llama-cpp",
       "version": "b10679",
@@ -3663,6 +3726,33 @@
       "published_at": "2026-08-26T22:00:33Z",
       "body_excerpt": "llama: add token ID tracking to KV cell (#27762) kv: track token id rm get_prev_tokens, move it to the main pr nits add get_prev_tokens Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-rho-yam-box",
+      "project": "microsoft",
+      "version": "rho-yam-box",
+      "url": "https://huggingface.co/microsoft/rho-yam-box",
+      "published_at": "2026-08-26T21:10:42Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-rho-ur-ai-trainer",
+      "project": "microsoft",
+      "version": "rho-ur-ai-trainer",
+      "url": "https://huggingface.co/microsoft/rho-ur-ai-trainer",
+      "published_at": "2026-08-26T21:10:08Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-rho-fr3-duo",
+      "project": "microsoft",
+      "version": "rho-fr3-duo",
+      "url": "https://huggingface.co/microsoft/rho-fr3-duo",
+      "published_at": "2026-08-26T21:09:30Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "ollama-v0.33.1-rc1",
@@ -10457,51 +10547,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9782",
       "published_at": "2026-06-24T16:44:42Z",
       "body_excerpt": "common: remove unused json-partial (#24968) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windo",
-      "type": "tool"
-    },
-    {
-      "id": "hf-allenai-OlmoEarth-v1_2-Nano",
-      "project": "allenai",
-      "version": "OlmoEarth-v1_2-Nano",
-      "url": "https://huggingface.co/allenai/OlmoEarth-v1_2-Nano",
-      "published_at": "2026-06-24T16:10:21Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-FP8",
-      "published_at": "2026-06-24T15:33:18Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-      "published_at": "2026-06-24T15:32:34Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-      "published_at": "2026-06-24T15:31:37Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9781",
-      "project": "llama-cpp",
-      "version": "b9781",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9781",
-      "published_at": "2026-06-24T15:01:48Z",
-      "body_excerpt": "vulkan: allow reducing the graph submission batches to avoid timeouts (#24872) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16)",
       "type": "tool"
     }
   ]
