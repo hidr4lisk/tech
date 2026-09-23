@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-09-23T04:08:56Z",
+  "updated_at": "2026-09-23T11:09:35Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11125",
+      "project": "llama-cpp",
+      "version": "b11125",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11125",
+      "published_at": "2026-09-23T11:00:50Z",
+      "body_excerpt": "ggml-meta: resolve multi buffer views (#29266) ggml-meta: resolve multi buffer views add TODO to revisit if graph allocator gets refactored Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11124",
+      "project": "llama-cpp",
+      "version": "b11124",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11124",
+      "published_at": "2026-09-23T10:25:28Z",
+      "body_excerpt": "cuda: top-k MoE should always fire (#28432) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11123",
+      "project": "llama-cpp",
+      "version": "b11123",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11123",
+      "published_at": "2026-09-23T09:37:26Z",
+      "body_excerpt": "sycl : support new UT case for mul_mat_hadamard fp16 (#29218) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 librari",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11122",
+      "project": "llama-cpp",
+      "version": "b11122",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11122",
+      "published_at": "2026-09-23T08:33:31Z",
+      "body_excerpt": "sycl: extend MMVQ GLU fusion, add rms_norm+scale and ssm_conv+silu fusions (#28931) sycl : extend MMVQ GLU fusion to mixed quant types; add rms_norm+scale and ssm_conv+silu fusions fixing spacing issue and macro converted to template function Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11121",
+      "project": "llama-cpp",
+      "version": "b11121",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11121",
+      "published_at": "2026-09-23T08:07:11Z",
+      "body_excerpt": "sycl : support op get_rows_back, only support fp32/fp16 (#25266) resovle confict support gedt_rows_back, update the ops.md Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) -",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11120",
+      "project": "llama-cpp",
+      "version": "b11120",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11120",
+      "published_at": "2026-09-23T07:07:17Z",
+      "body_excerpt": "vulkan: hide internal symbols to prevent duplicate-dlopen state destruction (#29139) Since #28732 our internal symbols are exported. A duplicate copy dlopened and dlclosed by ggml_backend_load_all() then interposes them, so its destructors destroy the live vk_instance and later device queries hit the GGML_ASSERT on vk_instance.device_indices. Hidden visibility exports only GGML_BACKEND_API, as bef",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11119",
+      "project": "llama-cpp",
+      "version": "b11119",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11119",
+      "published_at": "2026-09-23T06:34:23Z",
+      "body_excerpt": "sampler: reduce the size of the probe (#29285) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.34.4-rc0",
       "project": "ollama",
@@ -10565,60 +10628,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9802",
       "published_at": "2026-06-25T22:49:14Z",
       "body_excerpt": "macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Wi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9789",
-      "project": "llama-cpp",
-      "version": "b9789",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9789",
-      "published_at": "2026-06-25T09:22:07Z",
-      "body_excerpt": "quant : fix quantizing moe with mtp (#24986) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wind",
-      "type": "tool"
-    },
-    {
-      "id": "hf-allenai-OlmoEarth-v1_2-Base",
-      "project": "allenai",
-      "version": "OlmoEarth-v1_2-Base",
-      "url": "https://huggingface.co/allenai/OlmoEarth-v1_2-Base",
-      "published_at": "2026-06-25T08:47:25Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9788",
-      "project": "llama-cpp",
-      "version": "b9788",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9788",
-      "published_at": "2026-06-25T08:45:39Z",
-      "body_excerpt": "sycl : support --split-mode tensor (#24152) Sycl tp stage1 (#1) SYCL: tensor parallelism (--split-mode tensor) for dual-GPU Adds the comm_init/comm_free/comm_allreduce_tensor trio that the meta-backend queries via get_proc_address to enable backend-specific all-reduce, mirroring the pattern used by ggml-cuda.cu. For N=2 (the common dual-GPU case) implements a degenerate ring all-reduce with two si",
-      "type": "tool"
-    },
-    {
-      "id": "hf-allenai-OlmoEarth-v1_2-Small",
-      "project": "allenai",
-      "version": "OlmoEarth-v1_2-Small",
-      "url": "https://huggingface.co/allenai/OlmoEarth-v1_2-Small",
-      "published_at": "2026-06-25T08:44:23Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-allenai-OlmoEarth-v1_2-Tiny",
-      "project": "allenai",
-      "version": "OlmoEarth-v1_2-Tiny",
-      "url": "https://huggingface.co/allenai/OlmoEarth-v1_2-Tiny",
-      "published_at": "2026-06-25T08:20:04Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9787",
-      "project": "llama-cpp",
-      "version": "b9787",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9787",
-      "published_at": "2026-06-25T06:06:38Z",
-      "body_excerpt": "sycl : fix the failed UT cases of conv_3d (#24900) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU",
       "type": "tool"
     }
   ]
