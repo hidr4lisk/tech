@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-09-23T11:09:35Z",
+  "updated_at": "2026-09-23T16:31:08Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11139",
+      "project": "llama-cpp",
+      "version": "b11139",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11139",
+      "published_at": "2026-09-23T16:11:10Z",
+      "body_excerpt": "server: fix token counting API crash on sleep (#29309) server: wake up sleeping server correctly server: wake up sleeping server correctly (local aliases removed) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11138",
+      "project": "llama-cpp",
+      "version": "b11138",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11138",
+      "published_at": "2026-09-23T15:35:39Z",
+      "body_excerpt": "jinja : parse unary +/- before variables (#29244) jinja : parse unary +/- before variables Lexer already emits unary_operator for -n / +n, and runtime executes unary -. Parse them at multiplicative precedence so slices like items[:-n] and GigaChat indent[:-indent_factor] work. jinja : keep filters/tests outside unary operands Unary +/- must bind only the primary/postfix operand so -n|abs is (-n)|a",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.815-beta",
+      "project": "unsloth",
+      "version": "v0.1.815-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.815-beta",
+      "published_at": "2026-09-23T14:51:56Z",
+      "body_excerpt": "You can now run Qwen-Image-2.1 locally with Unsloth! This release also includes custom Agent Skills, and easier chat/project management. It also brings 2x faster reasoning blocks (60 FPS vs 30 FPS), more reliable training, and improved Linux installs and updates. Qwen Image 2.1 Guide Highlights Fast FP8 Qwen-Image-2.1 + diffusers update + GGUF fixes Qwen-Image-2.1 works for image editing and image",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11136",
+      "project": "llama-cpp",
+      "version": "b11136",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11136",
+      "published_at": "2026-09-23T14:42:03Z",
+      "body_excerpt": "server: accept OpenAI video_url content type and data: video URIs (#27921) The OpenAI chat completions API specifies content part type \"video_url\" with a {\"url\": ...} object, and clients typically send data: URIs (e.g. data:video/mp4;base64,...). The llama-server only accepted the non-standard \"input_video\" type and rejected data: URIs for video (accept_base64_uri=false), so any OpenAI-conformant ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11135",
+      "project": "llama-cpp",
+      "version": "b11135",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11135",
+      "published_at": "2026-09-23T14:05:30Z",
+      "body_excerpt": "server: Dedup the draft HF model via dedup-cache-models (#27934) server: Dedup the draft HF model via dedup-cache-models Fixes #27846 server: avoid capturing structured binding in lambda Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11132",
+      "project": "llama-cpp",
+      "version": "b11132",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11132",
+      "published_at": "2026-09-23T13:22:39Z",
+      "body_excerpt": "model : support Gemma4 DSpark draft backbone (#29226) dspark: add Gemma 4 draft support Add GGUF conversion and runtime support for full-attention and SWA Gemma 4 DSpark drafts, including tied output weights and boolean backbone metadata. Assisted-by: Codex dflash: infer Gemma draft features from metadata Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kle",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11130",
+      "project": "llama-cpp",
+      "version": "b11130",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11130",
+      "published_at": "2026-09-23T12:46:48Z",
+      "body_excerpt": "make-release : update summary prompt Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11126",
+      "project": "llama-cpp",
+      "version": "b11126",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11126",
+      "published_at": "2026-09-23T12:01:37Z",
+      "body_excerpt": "vulkan: add IQ4_XS MMQ/MMV matmul kernels (#28415) vulkan: optimize IQ4_XS matmul kernels Assisted-by: OpenAI Codex vulkan: address IQ4_XS review nits drop the dead LOAD_VEC_A != 8 branch in the IQ4_XS shmem load; iq4_xs is in lut_load_vec_a()'s \"8\" list, so that path is never generated disable MMVQ for IQ4_XS on Intel (27.3% tg regression on A770) remove a stray empty line in types.glsl Assisted-",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11125",
       "project": "llama-cpp",
@@ -3096,6 +3168,15 @@
       "published_at": "2026-09-01T13:29:54Z",
       "body_excerpt": "tests : fix log verbosity for test-llama-archs (#28147) tests : fix log verbosity for test-llama-archs cont : naming cont : add note Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-3-Diarization",
+      "project": "nvidia",
+      "version": "Nemotron-3-Diarization",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
+      "published_at": "2026-09-01T13:16:57Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10734",
