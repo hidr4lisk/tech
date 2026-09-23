@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-22T21:04:47Z",
+  "updated_at": "2026-09-23T04:08:56Z",
   "releases": [
+    {
+      "id": "ollama-v0.34.4-rc0",
+      "project": "ollama",
+      "version": "v0.34.4-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
+      "published_at": "2026-09-23T02:24:43Z",
+      "body_excerpt": "What's Changed server: fix intermittent \"model not found\" errors. by @rick-github in server: apply structured outputs in a single pass on thinking models by @jessegross in app: avoid System Events for ChatGPT/Codex detection by @hoyyeva in llama.cpp: version update by @dhiltgen in MLX: version bump by @dhiltgen in mlx: select Gemma 4 image resolution dynamically by @dhiltgen in mlx: speed up Qwen ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11118",
+      "project": "llama-cpp",
+      "version": "b11118",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11118",
+      "published_at": "2026-09-23T02:10:10Z",
+      "body_excerpt": "hex-dma: introduce direct-mapped DMA cache that is better suited for HVX FA mask handling (#29282) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11117",
+      "project": "llama-cpp",
+      "version": "b11117",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11117",
+      "published_at": "2026-09-23T01:43:14Z",
+      "body_excerpt": "HIP : optimize IQ2/IQ3 ( ) using SWAR (#27962) HIP : use bit manipulation for __vcmpne4 HIP : use bit manipulation for __vsub4 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.814-beta",
+      "project": "unsloth",
+      "version": "v0.1.814-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.814-beta",
+      "published_at": "2026-09-22T23:18:24Z",
+      "body_excerpt": "You can now run Qwen-Image-2.1 locally with Unsloth! This release also includes custom Agent Skills, and easier chat/project management. It also brings 2x faster reasoning blocks (60 FPS vs 30 FPS), more reliable training, and improved Linux installs and updates. Qwen Image 2.1 Guide Highlights Qwen-Image-2.1 fixes - diffusers update + GGUF fix Qwen-Image-2.1 works for image editing and image gen!",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11115",
+      "project": "llama-cpp",
+      "version": "b11115",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11115",
+      "published_at": "2026-09-22T21:50:01Z",
+      "body_excerpt": "opencl: add bin kernel (#29056) opencl: add A8 Q4_K non-MoE dp4a binary kernel opencl: rename binary kernel selection helpers Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11114",
+      "project": "llama-cpp",
+      "version": "b11114",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11114",
+      "published_at": "2026-09-22T21:11:34Z",
+      "body_excerpt": "server: fix router eviction races with the existing queue (#29217) server: route every model load through the queue A model loaded by the fast path has no queue entry, so tick() evicts it at its LOADED transition before its own request is proxied. Every load now joins the queue, whose entry protects the model until its waiters leave. server: do not admit requests into a stopping model A request fo",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11113",
       "project": "llama-cpp",
@@ -10565,51 +10619,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9787",
       "published_at": "2026-06-25T06:06:38Z",
       "body_excerpt": "sycl : fix the failed UT cases of conv_3d (#24900) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9786",
-      "project": "llama-cpp",
-      "version": "b9786",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9786",
-      "published_at": "2026-06-25T03:01:02Z",
-      "body_excerpt": "opencl: support non-contig rows in norm (#24965) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) ",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.11-rc0",
-      "project": "ollama",
-      "version": "v0.30.11-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc0",
-      "published_at": "2026-06-25T01:52:05Z",
-      "body_excerpt": "What's Changed launch: add thinking capability detection to opencode by @hoyyeva in launch: auto-install Claude Code by @hoyyeva in launch: auto-install opencode when missing by @hoyyeva in discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in mlxrunner: unify and tune speculative decoding by @jessegross in launch/codex: detect model drift when Codex ",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.11-rc1",
-      "project": "ollama",
-      "version": "v0.30.11-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc1",
-      "published_at": "2026-06-25T01:52:05Z",
-      "body_excerpt": "What's Changed launch: add thinking capability detection to opencode by @hoyyeva in launch: auto-install Claude Code by @hoyyeva in launch: auto-install opencode when missing by @hoyyeva in discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in mlxrunner: unify and tune speculative decoding by @jessegross in launch/codex: detect model drift when Codex ",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.11",
-      "project": "ollama",
-      "version": "v0.30.11",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11",
-      "published_at": "2026-06-25T01:52:05Z",
-      "body_excerpt": "What's Changed launch: add thinking capability detection to opencode by @hoyyeva in launch: auto-install Claude Code by @hoyyeva in launch: auto-install opencode when missing by @hoyyeva in discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in mlxrunner: unify and tune speculative decoding by @jessegross in launch/codex: detect model drift when Codex ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9785",
-      "project": "llama-cpp",
-      "version": "b9785",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9785",
-      "published_at": "2026-06-25T01:21:32Z",
-      "body_excerpt": "chat: harden caps check (#24973) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows",
       "type": "tool"
     }
   ]
