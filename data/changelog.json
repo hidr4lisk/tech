@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-24T16:51:08Z",
+  "updated_at": "2026-09-24T21:20:50Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11167",
+      "project": "llama-cpp",
+      "version": "b11167",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11167",
+      "published_at": "2026-09-24T21:13:05Z",
+      "body_excerpt": "hexagon: support I32 CPY and CONT (#29379) Assisted-by: OpenCode Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11166",
+      "project": "llama-cpp",
+      "version": "b11166",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11166",
+      "published_at": "2026-09-24T20:40:50Z",
+      "body_excerpt": "cuda : add F16 kernel support for CONV_2D_DW (#29064) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11165",
+      "project": "llama-cpp",
+      "version": "b11165",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11165",
+      "published_at": "2026-09-24T20:13:53Z",
+      "body_excerpt": "test: flush status (#28352) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11163",
+      "project": "llama-cpp",
+      "version": "b11163",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11163",
+      "published_at": "2026-09-24T19:27:34Z",
+      "body_excerpt": "llama: add llama_batch_ext (#24669) (wip) add llama_batch_ext wip updated design updated impl change signature unused var demo common_prompt_batch_decode fix pos tmp disable test-batch-alloc fix compat nits: add const no more pos_max add comment about llama_batch_ext_set_embd_state handle n_embd_out properly rename api --> embd_token llama_embd stub llama_batch_ext_set_embd_state support both toke",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11160",
       "project": "llama-cpp",
@@ -10700,24 +10736,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9821",
       "published_at": "2026-06-26T21:55:22Z",
       "body_excerpt": "app : allow --version, --licenses & --help (#25054) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL F",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9820",
-      "project": "llama-cpp",
-      "version": "b9820",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9820",
-      "published_at": "2026-06-26T18:35:23Z",
-      "body_excerpt": "sched : reintroduce less synchronizations during split compute (#20793) CUDA: Improve performance via less synchronizations between token (#17795) Adds CPU-to-CUDA copy capability to ggml_backend_cuda_cpy_tensor_async() Adds function to relax sync requirements between input copies on supported backends (CUDA for now) Exchanges synchronous copy with async copy function. Adds macro guards to allow c",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9817",
-      "project": "llama-cpp",
-      "version": "b9817",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9817",
-      "published_at": "2026-06-26T17:27:10Z",
-      "body_excerpt": "openvino: Update to OV 2026.2.1, self-contained release packages, operator improvements (#24974) Update to OV 2026.2.1, Make OV release packages self-contained Update to OV 2026.2.1, Make OV release packages self-contained OpenVINO Backend: Remove compute_op_type hardcoded sets (#222) OpenVINO Backend: Remove compute_op_type hardcoded sets revert get_op_type removal OpenVINO backend: enable softma",
       "type": "tool"
     }
   ]
