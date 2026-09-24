@@ -1,123 +1,145 @@
 {
-  "updated_at": "2026-09-24T11:25:56Z",
+  "updated_at": "2026-09-24T16:51:03Z",
   "items": [
     {
-      "id": "localllama-2026-09-24-lesson-learned-dont-blindly-trust-repos-and-make-sure-everyt",
+      "id": "localllama-2026-09-24-ukisai-swift-series-27b-flash-next-and-bonsai-2-gsq-rco--634",
       "source": "localllama",
-      "title": "Lesson learned. Don't blindly trust repos and make sure everything is stable for a long running (multi weeks) benchmark.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woxw7s/lesson_learned_dont_blindly_trust_repos_and_make/",
-      "published_at": "2026-09-24T10:22:04Z",
-      "summary": "      I posted previously my swe-verified django 100 tasks benchmark comparing different local models and quantization.  No new models for now, but a fix in my evaluation workflow that was unfortunately not stable during",
+      "title": "UkisAI Swift Series / 27B, Flash Next and Bonsai 2 + GSQ-RCO / -63.4% thinking, x1.95 speed with xhigh accuracy",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp6gal/ukisai_swift_series_27b_flash_next_and_bonsai_2/",
+      "published_at": "2026-09-24T16:32:57Z",
+      "summary": "      Hey everyone, Jovan from UkisAI here! Today, we are introducing Swift, a family of efficient reasoning LLMs based on Qwen, trained by penalizing tokens related to pathological overthinking patterns and restoring ac",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-24-are-there-any-dflash-heads-for-cybertiel",
+      "id": "localllama-2026-09-24-thinkingcap-38-27b-vs-swift-38-27b-vs-qwen-38-27b-benchmarks",
       "source": "localllama",
-      "title": "Are there any DFlash heads for CyberTiel?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woxa4h/are_there_any_dflash_heads_for_cybertiel/",
-      "published_at": "2026-09-24T09:45:48Z",
-      "summary": "If not, would any old Qwen 3.6 35B A3B or Ornith 1.5 35B A3B head work? I would like even faster speeds.  &#32; submitted by &#32;  /u/Aggravating-Push-207   [link] &#32; [comments]",
+      "title": "ThinkingCap 3.8-27B vs. Swift 3.8-27B vs. Qwen 3.8-27B Benchmarks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp5vqr/thinkingcap_3827b_vs_swift_3827b_vs_qwen_3827b/",
+      "published_at": "2026-09-24T16:11:15Z",
+      "summary": "With the release of ThinkingCap-Qwen3.8-27B, I thought it would be worthwhile to do a comparison between the original Qwen3.8-27B, the new ThinkingCap, and Swift-Qwen3.8-27B. Both Swift which I already reviewed, and Thin",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-24-model-add-ling-30-vl-support-by-aetherbird-pull-request-2915",
+      "id": "localllama-2026-09-24-psa-llamacpp--cram-should-be-increased-for-agentic-workflows",
       "source": "localllama",
-      "title": "model : add Ling 3.0 VL support by aetherbird · Pull Request #29151 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wow7nt/model_add_ling_30_vl_support_by_aetherbird_pull/",
-      "published_at": "2026-09-24T08:36:31Z",
-      "summary": "      Model Overview Ling-3.0-flash-VL inherits the language, reasoning, and long-context capabilities of Ling-3.0-flash, while extending them with native image and video understanding. The model has 124B total parameter",
+      "title": "PSA: llama.cpp -cram should be increased for agentic workflows (default is 8192)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp5668/psa_llamacpp_cram_should_be_increased_for_agentic/",
+      "published_at": "2026-09-24T15:44:52Z",
+      "summary": "Just a quick PSA. llama.cpp does have prompt caching. if you are running large context lengths and have long multiturn projects, increasing -cram can provide you with massive speedups. There is a point where context leng",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-24-folks-have-you-purchased-the-mac-m5-ultra-with-256gb-yet-we",
+      "id": "localllama-2026-09-24-loaded-1b-local-ai-for-driving-assistant-integrated-with-ada",
       "source": "localllama",
-      "title": "Folks, have you purchased the Mac M5 Ultra with 256GB yet? We need serious benchmarks, because we only get YouTube clowns influencers results",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wovkw5/folks_have_you_purchased_the_mac_m5_ultra_with/",
-      "published_at": "2026-09-24T07:55:48Z",
-      "summary": "Ok, so the Mac M5 Ultra (256GB) hit the market, but the only publicly available benchmarks material are flashy YouTube &quot;clown influencers&quot; videos. We need serious numbers to evaluate whether Apple’s silicon can",
+      "title": "loaded 1b local ai for driving assistant integrated with ADAs.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp3uvu/loaded_1b_local_ai_for_driving_assistant/",
+      "published_at": "2026-09-24T14:55:23Z",
+      "summary": "      &#32; submitted by &#32;  /u/NegotiationNo1504   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-24-macbook-pro-m5-max-lse-llm-running-an-amd-radeon-ai-pro-r970",
+      "id": "localllama-2026-09-24-muse-wen",
       "source": "localllama",
-      "title": "MacBook Pro M5 Max LSE LLM running an AMD Radeon AI PRO R9700 over Thunderbolt 5 in a Razer enclosure",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woutxp/macbook_pro_m5_max_lse_llm_running_an_amd_radeon/",
-      "published_at": "2026-09-24T07:09:45Z",
-      "summary": "      Hello Everyone! Good news for anyone who can compile code on apple, you can now experience using a AMD Radeon AI Pro R9700 on a MacBook Pro or Mac mini, Mac Studio or any OSX variant as long as it has Thunderbolt, ",
+      "title": "Muse wen?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp3e8p/muse_wen/",
+      "published_at": "2026-09-24T14:37:20Z",
+      "summary": "      &#32; submitted by &#32;  /u/RelevantCry1613   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-24-jev-almost-dead-clm-vs-jev",
+      "id": "localllama-2026-09-24-list-of-entities-hacked-by-openai-grows-by-one",
       "source": "localllama",
-      "title": "JEV almost dead: CLM vs JEV",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wouby6/jev_almost_dead_clm_vs_jev/",
-      "published_at": "2026-09-24T06:40:15Z",
-      "summary": "Original post: https://www.reddit.com/r/LocalLLaMA/comments/1woscea/contrastive_language_models/ (sorry I felt it wasn&#39;t giving CLM the highlight it deserves) What it is: a new projection head for Qwen3-8B. github: h",
+      "title": "list of entities hacked by openai grows by one",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp36gx/list_of_entities_hacked_by_openai_grows_by_one/",
+      "published_at": "2026-09-24T14:29:03Z",
+      "summary": "      Rogue OpenAI agent &#39;infiltrated&#39; Australian government website in world first https://www.bbc.com/news/articles/c6vgy0333dppo  &#32; submitted by &#32;  /u/fulowa   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-24-my-foray-into-local-ai-two-bc-250-ex-mining-apus-running-qwe",
+      "id": "localllama-2026-09-24-i-built-an-open-weight-alternative-to-jev-typesafe---introdu",
       "source": "localllama",
-      "title": "My foray into local ai. Two BC-250 ex mining apus running Qwen3.6-35B-A3B Q4_K_M at 60 tok/s with 64k context",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wou3gr/my_foray_into_local_ai_two_bc250_ex_mining_apus/",
-      "published_at": "2026-09-24T06:25:59Z",
-      "summary": "      These boards cost me $115 each and I have them connected using llama.cpp with Vulkan and RPC on Bazzite. The boards have roughly 27GB of combined GPU memory and communicate over 1gb Ethernet. For around $300 includ",
+      "title": "I built an open-weight alternative to Jev / TypeSafe - introducing OpenJudgement-4B (early preview)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp2xpn/i_built_an_openweight_alternative_to_jev_typesafe/",
+      "published_at": "2026-09-24T14:19:34Z",
+      "summary": "I’m releasing OpenJudgement-4B-Preview, an experimental Qwen-based model fine-tuned on custom datasets for classification, scoring and true/false judgments. It scores answer options directly, and Python formats the resul",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-24-contrastive-language-models",
+      "id": "huggingface-2026-09-24-accelerating-vision-language-models-with-lfm25-vl-dspark",
+      "source": "huggingface",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "published_at": "2026-09-24T14:08:57Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-24-r9v-update-created-and-adopted-kva-projections-based-on-deep",
       "source": "localllama",
-      "title": "Contrastive Language Models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woscea/contrastive_language_models/",
-      "published_at": "2026-09-24T04:47:11Z",
-      "summary": "      https://preview.redd.it/knblecgpeerh1.png?width=2048&amp;format=png&amp;auto=webp&amp;s=9f4b2e85ab3c2a9961ead7eb27f392d0d6001f92  &#32; submitted by &#32;  /u/simulated-souls   [link] &#32; [comments] ",
+      "title": "R9V Update: Created and adopted KVA projections based on Deepseek V4.1 Flash + HySparse2/MiMo-V3 for Qwen3.8 Flash Next. This is a game changer for models that don't natively implement it. 1.45-1.85x speedup in prefill to 3k+ at a small deficit to perplexity. [2x R9700, 128GB DDR5]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp2hqk/r9v_update_created_and_adopted_kva_projections/",
+      "published_at": "2026-09-24T14:02:24Z",
+      "summary": "      Here&#39;s my *first* implementation of KVA projectors on QFN (just the uncensored model for now) the highlights are basically as follows for using the projectors at each different layer: Starting at layer 12, prom",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-24-what-tps-is-too-slow-for-you",
+      "id": "localllama-2026-09-24-mac-studio-m5-ultra-96gb-vs-m5-max-128gb-for-local-llms",
       "source": "localllama",
-      "title": "What TPS is too slow for you?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woq1yg/what_tps_is_too_slow_for_you/",
-      "published_at": "2026-09-24T02:49:14Z",
-      "summary": "I keep reading about extreme ends of TPS what people consider running their models at. Some are happy to run huge quality models at merely sub 30 tps, while others sacrifice/compromise the quality and pursue absolutely s",
+      "title": "Mac Studio M5 Ultra 96GB vs M5 Max 128GB for local LLMs?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp2dmd/mac_studio_m5_ultra_96gb_vs_m5_max_128gb_for/",
+      "published_at": "2026-09-24T13:58:14Z",
+      "summary": "I&#39;m about to buy a Mac Studio mainly for running LLMs locally and I&#39;m stuck between two configs:  M5 Ultra (30/64) with 96GB: 1.2 TB/s bandwidth, roughly 1.7x faster generation and much faster prefill M5 Max (40-",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-24-do-yall-remember-the-snake-model-evaluation-test",
+      "id": "localllama-2026-09-24-vulkan-int8-coopmat1-matmul-implementation-for-amd-rdna3-and",
       "source": "localllama",
-      "title": "Do y'all remember the snake model evaluation test?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woo52a/do_yall_remember_the_snake_model_evaluation_test/",
-      "published_at": "2026-09-24T01:18:52Z",
-      "summary": "Just watched a video from three years ago where Matt Berman tested Bard (yes, remember Bard?) and most of the tests were like summarization or logic tests. If it ever came to coding, it was the snake test, or pong, and t",
+      "title": "vulkan: int8 coopmat1 matmul implementation for AMD RDNA3 and RDNA4 (… · ggml-org/llama.cpp@70c4e15",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp1vex/vulkan_int8_coopmat1_matmul_implementation_for/",
+      "published_at": "2026-09-24T13:37:39Z",
+      "summary": "      This has made a massive improvement in performance on my 7900XTX before:  | model | size | params | backend | ngl | n_ubatch | fa | test | t/s | | ------------------------------ | ---------: | ---------: | --------",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-24-new-deepthink-built-on-glm",
+      "id": "localllama-2026-09-24-qwen-38-27b-is-good-enough-that-i-stopped-using-api",
       "source": "localllama",
-      "title": "New DeepThink built on GLM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woo22j/new_deepthink_built_on_glm/",
-      "published_at": "2026-09-24T01:15:02Z",
-      "summary": "      Source: https://rogueon.ai/blog/rogue-deep-think-preview/tecnica Could this kinda stuff be the way for open models to prevail? Since open models are so much cheaper than, say, Astra and Fable, maybe just cranking u",
+      "title": "Qwen-3.8-27B is good enough that I stopped using API",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp0z3i/qwen3827b_is_good_enough_that_i_stopped_using_api/",
+      "published_at": "2026-09-24T12:59:28Z",
+      "summary": "Many a praise have been sung on Qwen-3.8, but here is mine. Qwen-3.8 and I had a rocky start, because it thinks so much. Watching it working is painful, so you have to stop doing that. You have to let it work unsupervise",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-24-minimax-m31-space-bunny-alpha-thinks-in-caveman-mode",
+      "source": "localllama",
+      "title": "MiniMax M3.1 (Space Bunny Alpha) thinks in caveman mode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp0c0t/minimax_m31_space_bunny_alpha_thinks_in_caveman/",
+      "published_at": "2026-09-24T12:29:36Z",
+      "summary": "      The CoT of MinimMax M3.1, currently available in openrouter and opencode under the guise of &quot;Space Bunny Alpha&quot;, has the familiar look of caveman mode in order to save tokens. This has no impact on the fi",
       "tags": [
         "localllama"
       ]
@@ -131,17 +153,6 @@
       "summary": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than other kinds of devices and keep you present without picking up a mobile phone.  Mo",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-23-qwen-38-flash-next-q4-k-m-130k-context-q8-cache-on-16gb-vram",
-      "source": "localllama",
-      "title": "Qwen 3.8 Flash Next q4_k_m, 130k context, q8 cache on 16GB VRAM ann 64GB RAM, 15-20 t/s on 4080",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wom3fe/qwen_38_flash_next_q4_k_m_130k_context_q8_cache/",
-      "published_at": "2026-09-23T23:46:41Z",
-      "summary": "Thought it&#39;s about time to share after testing for a week. You need four things most people miss: the right quant, the right model, the right branch, and the right cache flags.  https://github.com/dtm-beep/qwen38-fla",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -447,17 +458,6 @@
       "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
       "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
       "published_at": "2026-09-09T15:36:24Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-09-08-safety-for-whom-refusing-the-right-subset-of-a-topic-not-the",
-      "source": "huggingface",
-      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "published_at": "2026-09-08T14:23:07Z",
       "summary": "",
       "tags": [
         "huggingface"
