@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-09-24T04:04:13Z",
+  "updated_at": "2026-09-24T11:25:56Z",
   "items": [
+    {
+      "id": "localllama-2026-09-24-lesson-learned-dont-blindly-trust-repos-and-make-sure-everyt",
+      "source": "localllama",
+      "title": "Lesson learned. Don't blindly trust repos and make sure everything is stable for a long running (multi weeks) benchmark.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woxw7s/lesson_learned_dont_blindly_trust_repos_and_make/",
+      "published_at": "2026-09-24T10:22:04Z",
+      "summary": "      I posted previously my swe-verified django 100 tasks benchmark comparing different local models and quantization.  No new models for now, but a fix in my evaluation workflow that was unfortunately not stable during",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-24-are-there-any-dflash-heads-for-cybertiel",
+      "source": "localllama",
+      "title": "Are there any DFlash heads for CyberTiel?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woxa4h/are_there_any_dflash_heads_for_cybertiel/",
+      "published_at": "2026-09-24T09:45:48Z",
+      "summary": "If not, would any old Qwen 3.6 35B A3B or Ornith 1.5 35B A3B head work? I would like even faster speeds.  &#32; submitted by &#32;  /u/Aggravating-Push-207   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-24-model-add-ling-30-vl-support-by-aetherbird-pull-request-2915",
+      "source": "localllama",
+      "title": "model : add Ling 3.0 VL support by aetherbird · Pull Request #29151 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wow7nt/model_add_ling_30_vl_support_by_aetherbird_pull/",
+      "published_at": "2026-09-24T08:36:31Z",
+      "summary": "      Model Overview Ling-3.0-flash-VL inherits the language, reasoning, and long-context capabilities of Ling-3.0-flash, while extending them with native image and video understanding. The model has 124B total parameter",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-24-folks-have-you-purchased-the-mac-m5-ultra-with-256gb-yet-we",
+      "source": "localllama",
+      "title": "Folks, have you purchased the Mac M5 Ultra with 256GB yet? We need serious benchmarks, because we only get YouTube clowns influencers results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wovkw5/folks_have_you_purchased_the_mac_m5_ultra_with/",
+      "published_at": "2026-09-24T07:55:48Z",
+      "summary": "Ok, so the Mac M5 Ultra (256GB) hit the market, but the only publicly available benchmarks material are flashy YouTube &quot;clown influencers&quot; videos. We need serious numbers to evaluate whether Apple’s silicon can",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-24-macbook-pro-m5-max-lse-llm-running-an-amd-radeon-ai-pro-r970",
+      "source": "localllama",
+      "title": "MacBook Pro M5 Max LSE LLM running an AMD Radeon AI PRO R9700 over Thunderbolt 5 in a Razer enclosure",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woutxp/macbook_pro_m5_max_lse_llm_running_an_amd_radeon/",
+      "published_at": "2026-09-24T07:09:45Z",
+      "summary": "      Hello Everyone! Good news for anyone who can compile code on apple, you can now experience using a AMD Radeon AI Pro R9700 on a MacBook Pro or Mac mini, Mac Studio or any OSX variant as long as it has Thunderbolt, ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-24-jev-almost-dead-clm-vs-jev",
+      "source": "localllama",
+      "title": "JEV almost dead: CLM vs JEV",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wouby6/jev_almost_dead_clm_vs_jev/",
+      "published_at": "2026-09-24T06:40:15Z",
+      "summary": "Original post: https://www.reddit.com/r/LocalLLaMA/comments/1woscea/contrastive_language_models/ (sorry I felt it wasn&#39;t giving CLM the highlight it deserves) What it is: a new projection head for Qwen3-8B. github: h",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-24-my-foray-into-local-ai-two-bc-250-ex-mining-apus-running-qwe",
+      "source": "localllama",
+      "title": "My foray into local ai. Two BC-250 ex mining apus running Qwen3.6-35B-A3B Q4_K_M at 60 tok/s with 64k context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wou3gr/my_foray_into_local_ai_two_bc250_ex_mining_apus/",
+      "published_at": "2026-09-24T06:25:59Z",
+      "summary": "      These boards cost me $115 each and I have them connected using llama.cpp with Vulkan and RPC on Bazzite. The boards have roughly 27GB of combined GPU memory and communicate over 1gb Ethernet. For around $300 includ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-24-contrastive-language-models",
+      "source": "localllama",
+      "title": "Contrastive Language Models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woscea/contrastive_language_models/",
+      "published_at": "2026-09-24T04:47:11Z",
+      "summary": "      https://preview.redd.it/knblecgpeerh1.png?width=2048&amp;format=png&amp;auto=webp&amp;s=9f4b2e85ab3c2a9961ead7eb27f392d0d6001f92  &#32; submitted by &#32;  /u/simulated-souls   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-24-what-tps-is-too-slow-for-you",
       "source": "localllama",
@@ -57,83 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-23-using-uncensored-models-makes-working-less-of-a-headache",
-      "source": "localllama",
-      "title": "Using uncensored models makes working less of a headache",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wol7zc/using_uncensored_models_makes_working_less_of_a/",
-      "published_at": "2026-09-23T23:08:47Z",
-      "summary": "I have a lot of projects with my friends and team at work that I copy to use for my personal projects, whether it&#39;s a plugin I borrow with their consent or a script. I always find that Qwen 3.8 and Muse Spark 1.3 str",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-23-qwen-fn-vs-27b-----think-im-saturated",
-      "source": "localllama",
-      "title": "Qwen FN vs 27B --- Think I'm saturated.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woi2ho/qwen_fn_vs_27b_think_im_saturated/",
-      "published_at": "2026-09-23T20:58:59Z",
-      "summary": "Got QFN up and running on our Strix box this past weekend and have been running on it for a few days now. Big thank you/shout out to the Halogen team, it&#39;s running fantastic on the Strix, this is clearly &quot;the se",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-23-lemonade-fixes-amd-apu-model-streaming-drops-openmoss-rocm-a",
-      "source": "localllama",
-      "title": "Lemonade fixes AMD APU model streaming, drops OpenMOSS ROCm as ~40x slower than Vulkan",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wogzdm/lemonade_fixes_amd_apu_model_streaming_drops/",
-      "published_at": "2026-09-23T20:16:51Z",
-      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-23-nvfp4---what-does-the-quality-usually-equate-to-5090",
-      "source": "localllama",
-      "title": "NVFP4 - what does the quality usually equate to? (5090)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wogz1a/nvfp4_what_does_the_quality_usually_equate_to_5090/",
-      "published_at": "2026-09-23T20:16:30Z",
-      "summary": "i keep seeing people recommending, for people with Blackwell/ 5090 cards, that using nvfp4 is &quot;a no brainer&quot; because of the big speed benefits.  but my response is always... but that means trading down from Q5 ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-23-what-finetune-under-40b-is-good-for-mimicking-writing-style",
-      "source": "localllama",
-      "title": "What finetune under 40B is good for mimicking writing style?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wogvcx/what_finetune_under_40b_is_good_for_mimicking/",
-      "published_at": "2026-09-23T20:12:38Z",
-      "summary": "Trying to replicate a style from a book or roleplay for instance  &#32; submitted by &#32;  /u/Borkato   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-23-please-google-for-the-love-of-god",
-      "source": "localllama",
-      "title": "Please Google, for the love of God.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wogfjx/please_google_for_the_love_of_god/",
-      "published_at": "2026-09-23T19:56:04Z",
-      "summary": "Gemma 5, 220B A18B QAT plus ngrams please. Thank you very much! Will settle for 120B A16B plus ngrams.  &#32; submitted by &#32;  /u/CriticallyCarmelized   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-23-introducing-support-for-local-ai-models-in-the-antigravity-s",
-      "source": "localllama",
-      "title": "Introducing Support for Local AI Models in the Antigravity SDK",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wof9kk/introducing_support_for_local_ai_models_in_the/",
-      "published_at": "2026-09-23T19:12:18Z",
-      "summary": "      &#32; submitted by &#32;  /u/dryadofelysium   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-09-23-how-to-use-nvidia-warp-and-mjwarp-to-accelerate-robotics-sim",
       "source": "huggingface",
       "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
@@ -142,17 +153,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-23-jev-isnt-new-tech-its-marketing-targets-people-who-think-ai",
-      "source": "localllama",
-      "title": "Jev isn't new tech. Its marketing targets people who think AI started with LLMs.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woe70t/jev_isnt_new_tech_its_marketing_targets_people/",
-      "published_at": "2026-09-23T18:33:21Z",
-      "summary": "I keep seeing Jev presented as some new class of decision model, but most of what’s being advertised is just normal classifier behavior with modern zero-shot capabilities. It outputs probabilities over constrained choice",
-      "tags": [
-        "localllama"
       ]
     },
     {
