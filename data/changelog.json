@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-09-24T11:26:04Z",
+  "updated_at": "2026-09-24T16:51:08Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11160",
+      "project": "llama-cpp",
+      "version": "b11160",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11160",
+      "published_at": "2026-09-24T13:50:41Z",
+      "body_excerpt": "vulkan: int8 coopmat1 matmul implementation for AMD RDNA3 and RDNA4 (#27952) vulkan: add int8 coopmat quantized matmul shader apply scales inline use scalar sums probe and directly access coopmat values instead of going through shmem add q8_0 support add BK_STEP to shader, default to 2 use larger workgroups double buffering preload scales coopmat load first, then wmma use float for scales add fast",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11159",
+      "project": "llama-cpp",
+      "version": "b11159",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11159",
+      "published_at": "2026-09-24T12:37:51Z",
+      "body_excerpt": "vulkan: handle misalignment in conv_2d and conv_3d (#29365) vulkan: handle misalignment in conv_2d and conv_3d fix test-backend-ops print Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11158",
+      "project": "llama-cpp",
+      "version": "b11158",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11158",
+      "published_at": "2026-09-24T11:40:07Z",
+      "body_excerpt": "vulkan: tune KHR cooperative matrix support for Adreno GPUs (#29328) Enable coopmat support for Vulkan backend Fixed the mul_mat_s Removed the debug statement Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu a",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11157",
       "project": "llama-cpp",
@@ -10691,51 +10718,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9817",
       "published_at": "2026-06-26T17:27:10Z",
       "body_excerpt": "openvino: Update to OV 2026.2.1, self-contained release packages, operator improvements (#24974) Update to OV 2026.2.1, Make OV release packages self-contained Update to OV 2026.2.1, Make OV release packages self-contained OpenVINO Backend: Remove compute_op_type hardcoded sets (#222) OpenVINO Backend: Remove compute_op_type hardcoded sets revert get_op_type removal OpenVINO backend: enable softma",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9816",
-      "project": "llama-cpp",
-      "version": "b9816",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9816",
-      "published_at": "2026-06-26T16:48:49Z",
-      "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows ar",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9814",
-      "project": "llama-cpp",
-      "version": "b9814",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9814",
-      "published_at": "2026-06-26T16:14:54Z",
-      "body_excerpt": "vulkan: opt mul_mat_vecq for mi50 (#22933) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9813",
-      "project": "llama-cpp",
-      "version": "b9813",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9813",
-      "published_at": "2026-06-26T15:38:01Z",
-      "body_excerpt": "vulkan: add INTEL_XE1 arch enum and enable coopmat1 on Intel Xe-LPG Plus (#24404) vulkan: add INTEL_PRE_XE2 arch enum and enable coopmat1 on Intel Xe-LPG Plus (1/3, Xe1-ARLH) Co-authored-by: Xia, Jie Co-authored-by: Liu, Russell Address comments of bf16 and trailing whitespace Rename INTEL_PRE_XE2 to INTEL_XE1 and remove driver workaround Add Windows driver check --------- Co-authored-by: Xia, Jie",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9811",
-      "project": "llama-cpp",
-      "version": "b9811",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9811",
-      "published_at": "2026-06-26T13:04:54Z",
-      "body_excerpt": "vulkan: Workaround compiler bug in conv2d coopmat2 path (#24924) vulkan: Workaround compiler bug in conv2d coopmat2 path apply same workaround to CONV_3D Apply suggestion from @jeffbolznv macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ub",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9810",
-      "project": "llama-cpp",
-      "version": "b9810",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9810",
-      "published_at": "2026-06-26T11:44:47Z",
-      "body_excerpt": "CUDA: add cublasSgemmBatched mapping for HIP/MUSA vendor headers (#25033) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
       "type": "tool"
     }
   ]
