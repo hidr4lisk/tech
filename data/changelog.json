@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-25T04:18:25Z",
+  "updated_at": "2026-09-25T11:31:39Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11178",
+      "project": "llama-cpp",
+      "version": "b11178",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11178",
+      "published_at": "2026-09-25T11:16:00Z",
+      "body_excerpt": "musa: fix PH1 (MTT S5000) operator failures and build issues (#29193) musa: use 16-byte copies for MUSA like sm_70+ ggml_cuda_get_max_cpy_bytes() derives the copy width from __CUDA_ARCH__. mcc never defines it, so MUSA fell into the generic branch and returned 8 bytes instead of the 16 bytes that every sm_70+ target gets. The value sizes the per-thread copy unit of the FlashAttention K/V staging c",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11177",
+      "project": "llama-cpp",
+      "version": "b11177",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11177",
+      "published_at": "2026-09-25T05:54:17Z",
+      "body_excerpt": "CUDA: fuse RMS_NORM + SCALE into one kernel (#29393) #28068 builds the GDN q/k l2norm as ggml_scale(ggml_rms_norm(x, eps/n), 1/sqrt(n)). This adds 2 SCALE nodes per GDN layer, 96 extra kernel launches per ubatch on Qwen3.8-27B (48 GDN layers). The extra kernels take no measurable GPU time, but each launch has a host/driver cost. It is small with plain batch processing and about 10x larger with dra",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.40.0-rc0",
       "project": "ollama",
@@ -10727,51 +10745,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.5.5",
       "published_at": "2026-06-27T12:42:04Z",
       "body_excerpt": "What's Changed Other Changes fix(backends): repair release CI build/test breaks (kokoros, fish-speech, llama-cpp-quantization, sglang) by @localai-bot in chore(model gallery): :robot: add 1 new models via gallery agent by @localai-bot in fix(backends): whisper darwin run.sh loads whichever fallback lib exists (.so/.dylib) by @localai-bot in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9826",
-      "project": "llama-cpp",
-      "version": "b9826",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9826",
-      "published_at": "2026-06-27T11:00:23Z",
-      "body_excerpt": "sycl : fix failed ut cases of norm (#25044) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windo",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9825",
-      "project": "llama-cpp",
-      "version": "b9825",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9825",
-      "published_at": "2026-06-27T10:31:23Z",
-      "body_excerpt": "vulkan: fix step operator for 0 input (#25036) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9824",
-      "project": "llama-cpp",
-      "version": "b9824",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9824",
-      "published_at": "2026-06-27T10:03:33Z",
-      "body_excerpt": "binaries : Improve rpc-server and export-graph-ops names. (#25045) Tests are generally prefixed with -test, so rename export-graph-ops accordingly. rpc-server is probably too generic a name for /usr/bin. Because it should work with any ggml application, it is renamed to ggml-rpc-server. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9823",
-      "project": "llama-cpp",
-      "version": "b9823",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9823",
-      "published_at": "2026-06-27T09:13:19Z",
-      "body_excerpt": "ci : add windows-openvino to check-release (#25022) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CP",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9822",
-      "project": "llama-cpp",
-      "version": "b9822",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9822",
-      "published_at": "2026-06-27T08:38:31Z",
-      "body_excerpt": "tests : fix test-chat-template --no-common option (#25075) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
       "type": "tool"
     }
   ]

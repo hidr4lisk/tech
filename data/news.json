@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-09-25T04:18:18Z",
+  "updated_at": "2026-09-25T11:31:32Z",
   "items": [
+    {
+      "id": "localllama-2026-09-25-psa-for-m5ultra-owners-running-llms-set-your-prefill-step-to",
+      "source": "localllama",
+      "title": "PSA for M5Ultra owners running LLMs: set your prefill step to 8192",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wptimb/psa_for_m5ultra_owners_running_llms_set_your/",
+      "published_at": "2026-09-25T11:10:46Z",
+      "summary": "Prefill step size affects both PP performance and your drafter fetching logits for MTP (affects dflash as well, mlx-vlm needs to be patched slightly to support chunked prefill for dflash). It also needs to be reasonably ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-25-vllm-4x-rtx-3060-vs-8x-rtx-3060-performance-loss",
+      "source": "localllama",
+      "title": "VLLM 4x rtx 3060 vs 8x rtx 3060 performance loss",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wptfja/vllm_4x_rtx_3060_vs_8x_rtx_3060_performance_loss/",
+      "published_at": "2026-09-25T11:05:59Z",
+      "summary": "Hello!  I am currently building my local AI server, I have the Huananzhi H12D-8D EPYC Motherboard with 8x16GB memory sticks at 2666 mhz (waiting for the other components at the moment) I currently have four RTX 3060 12gb",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-25-has-anyone-benchmarked-ai-agents-against-the-solidworks-cswa",
+      "source": "localllama",
+      "title": "Has anyone benchmarked AI agents against the SOLIDWORKS CSWA exam?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpr6jp/has_anyone_benchmarked_ai_agents_against_the/",
+      "published_at": "2026-09-25T08:50:17Z",
+      "summary": "Would be interesting right? Models are starting to score higher and higher on benchmarks like Parametric CAD Bench, but can they pass an actual exam?  The Certified SOLIDWORKS Associate (CSWA) exam might be an interestin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-25-gemma-4-developer-agent-competition",
+      "source": "localllama",
+      "title": "Gemma 4 Developer Agent Competition",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpqyaz/gemma_4_developer_agent_competition/",
+      "published_at": "2026-09-25T08:34:34Z",
+      "summary": "      Just saw this pop up. This might be a fun one for the folks in here!  &#32; submitted by &#32;  /u/lakySK   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-25-llm-on-a-budget-part-2-from-p102-100-to-cmp-50hx",
+      "source": "localllama",
+      "title": "LLM on a budget part 2, from P102-100 to CMP 50HX.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpqgh9/llm_on_a_budget_part_2_from_p102100_to_cmp_50hx/",
+      "published_at": "2026-09-25T08:01:24Z",
+      "summary": "      I finally got around to upgrade the GPU&#39;s. First a word of warning, when upgrading GPU&#39;s on P520 you have to be extra careful not to slot the card on any angle other than straight when installing or when pu",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-25-former-intel-ceo-hbm-is-lousy-high-bandwidth-flash-is-coming",
+      "source": "localllama",
+      "title": "Former Intel CEO: \"HBM is lousy\". High Bandwidth Flash Is Coming",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpprlr/former_intel_ceo_hbm_is_lousy_high_bandwidth/",
+      "published_at": "2026-09-25T07:15:37Z",
+      "summary": "      Irrational Analysis:&quot;HBM is a mistake&quot; Former Intel CEO: &quot;HBM is lousy&quot; SK Hynix VP:&quot;HBM is not the final answer to the memory wall problem&quot; &quot;If the stacks get high enough...each ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-25-did-anyone-do-a-full-bench-of-eg-qwen-flash-next-iq4-and-qwe",
+      "source": "localllama",
+      "title": "Did anyone do a full bench of e.g. Qwen Flash Next IQ4 and Qwen 27b FP8? Here are some",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpp28m/did_anyone_do_a_full_bench_of_eg_qwen_flash_next/",
+      "published_at": "2026-09-25T06:32:06Z",
+      "summary": "edit: had to change formatting as I’m on mobile noe and the table broke.. I let Codex do a quick eval on Qwen 3.8 Flash Next IQ4_XS (served via vLLM + r9v) and Qwen 3.8 27B FP8 (served via vLLM + Radiance) This was not t",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-25-m5-ultra-80core-glm-53-flash-on-dwarfstar-speeds",
       "source": "localllama",
@@ -52,83 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpinky/cachyos_qwen_38_27b_on_2x_5090_vllm/",
       "published_at": "2026-09-25T00:50:15Z",
       "summary": "      &#32; submitted by &#32;  /u/piddlefaffle12   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-25-i-added-openvino-support-to-laya-40-ms-per-question-on-cpu-3",
-      "source": "localllama",
-      "title": "I added OpenVINO support to Laya: 40 ms per question on CPU, 3.4x faster than PyTorch",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpieby/i_added_openvino_support_to_laya_40_ms_per/",
-      "published_at": "2026-09-25T00:37:40Z",
-      "summary": "      GitHub repo : https://github.com/rupeshs/laya-openvino Flappy bird demo : https://github.com/rupeshs/flappy-laya-openvino-cpu  &#32; submitted by &#32;  /u/simpleuserhere   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-24-asianometry-high-bandwidth-flash-what-is-it-good-for",
-      "source": "localllama",
-      "title": "Asianometry: High Bandwidth Flash: What Is It Good For?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wphb3w/asianometry_high_bandwidth_flash_what_is_it_good/",
-      "published_at": "2026-09-24T23:45:55Z",
-      "summary": "      &#32; submitted by &#32;  /u/asssuber   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-24-is-qwen-flash-next-at-like-q2-better-than-27b-at-q4",
-      "source": "localllama",
-      "title": "Is Qwen Flash Next at like Q2 better than 27B at Q4?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpgyfh/is_qwen_flash_next_at_like_q2_better_than_27b_at/",
-      "published_at": "2026-09-24T23:28:53Z",
-      "summary": "I know questions like this are asked often but I didn’t see this specific one  &#32; submitted by &#32;  /u/Borkato   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-24-im-trying-to-post-train-aliceai-foundation-80b-a3b-base-myse",
-      "source": "localllama",
-      "title": "I'm trying to post-train AliceAI-Foundation-80B-A3B-Base myself",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpg4a8/im_trying_to_posttrain/",
-      "published_at": "2026-09-24T22:50:44Z",
-      "summary": "      Just wanted to share with someone - don&#39;t have much to report yet. I am interested in this new AliceAI model and have been wanting to make a community impact for a while - and releasing an initial agentic versi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-24-qwen38-27b-practical-modeling-for-3d-printing",
-      "source": "localllama",
-      "title": "Qwen3.8 27b practical modeling for 3d printing",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpet4j/qwen38_27b_practical_modeling_for_3d_printing/",
-      "published_at": "2026-09-24T21:54:01Z",
-      "summary": "      I spent the past day and a half trying to get qwen27b to complete some practical work for me. I have a Bambu h2c I have been wanting to get more use out of so thought this would be a fun experiment.  I have 27b run",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-24-qwen38-flash-next-on-509064gb-with-llamacpp---seems-to-not-u",
-      "source": "localllama",
-      "title": "Qwen3.8-Flash-Next, on 5090+64gb, with Llama.cpp - Seems to not use ram?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpe83z/qwen38flashnext_on_509064gb_with_llamacpp_seems/",
-      "published_at": "2026-09-24T21:30:05Z",
-      "summary": "I was actually pretty happy with my Qwen3.8-27b setup, and I&#39;d been tinkering with Ninfer to have a version that was &quot;fast but maybe a bit stupid&quot; and the speed was nice to have as a backup. But I was curio",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-24-qwen-38-27b-be-like",
-      "source": "localllama",
-      "title": "Qwen 3.8 27b be like...",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpdho8/qwen_38_27b_be_like/",
-      "published_at": "2026-09-24T21:00:38Z",
-      "summary": "The user is frustrated — I rambled too much and didn&#39;t act. Let&#39;s just run the test suite and move on. No more forensics. One command, execute, then report. (Original memo is a casual internal monologue in Englis",
       "tags": [
         "localllama"
       ]
