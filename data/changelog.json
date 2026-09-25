@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-09-25T16:55:35Z",
+  "updated_at": "2026-09-25T21:19:56Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11191",
+      "project": "llama-cpp",
+      "version": "b11191",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11191",
+      "published_at": "2026-09-25T20:26:39Z",
+      "body_excerpt": "common,rpc : simplify fs_create_directory_with_parents() (#29432) The original function was broken on Windows for some unicode paths Paths without a trailing separator now create the last directory too, matching the function name. All current callers already include a trailing separator, so this change does not affect them. Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS App",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11190",
+      "project": "llama-cpp",
+      "version": "b11190",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11190",
+      "published_at": "2026-09-25T19:59:55Z",
+      "body_excerpt": "mtmd: fix mel preprocessor in LFM2 audio (#29403) which resulted in different greedy transcripts for 4.5% of English and 6.5% of Japanese test utterances. In Japanese, some differences changed entire words. This change: uses instead of clamping to the log floor uses a symmetric Hann window, equivalent to adds the normalization epsilon to the standard deviation instead of inside the square root Onl",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11189",
+      "project": "llama-cpp",
+      "version": "b11189",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11189",
+      "published_at": "2026-09-25T19:34:50Z",
+      "body_excerpt": "opencl: add bin kernel , (#29401) opencl: add A8 Q5_K non-MoE non dp4a + dp4a binary kernel opencl: fix s transpose - s only transposed for bin kernels --------- Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11188",
+      "project": "llama-cpp",
+      "version": "b11188",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11188",
+      "published_at": "2026-09-25T19:06:34Z",
+      "body_excerpt": "Fixing the vulkan build issue of legacy GLSLC version that has no cooperativeMatrix API support ( (#29409) vulkan : fix build issue of legacy glslc version by adding GGML_VULKAN_COOPMAT_GLSLC_SUPPORT macro check for Intel FA shader compiling vulkan : add preprocess condition to filter out unsupported FA 2 phases kernels before creation. vulkan : move lock_guard for Intel FA shader pointer creation",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11185",
+      "project": "llama-cpp",
+      "version": "b11185",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11185",
+      "published_at": "2026-09-25T18:24:43Z",
+      "body_excerpt": "common : extract shared unicode path/string helpers (#29415) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11184",
+      "project": "llama-cpp",
+      "version": "b11184",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11184",
+      "published_at": "2026-09-25T17:57:47Z",
+      "body_excerpt": "metal: FWHT kernels for block widths above 512 (#29095) metal: FWHT kernels for block widths above 512 The Metal FWHT covers widths 64 to 512, one row per simdgroup with N/32 values per lane. Wider blocks need more registers per lane than that layout allows. kernel_fwht_tg runs one row per threadgroup with 256 threads, so each thread keeps N/256 values. Butterflies below the simdgroup width still ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11183",
+      "project": "llama-cpp",
+      "version": "b11183",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11183",
+      "published_at": "2026-09-25T17:23:37Z",
+      "body_excerpt": "metal : split fa kernels into per-dtype libraries (#29329) metal : split fa kernels into per-dtype libraries Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp cont : minor fix comment Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11182",
       "project": "llama-cpp",
