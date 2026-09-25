@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-25T11:31:39Z",
+  "updated_at": "2026-09-25T16:55:35Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11182",
+      "project": "llama-cpp",
+      "version": "b11182",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11182",
+      "published_at": "2026-09-25T16:46:05Z",
+      "body_excerpt": "llama : add + model-driven W4A4 path (#24364) Rebase and update based on #26675 Signed-off-by: ynankani CI failure fix(launh_bounds overload on HIP) and cleanup Signed-off-by: ynankani Address review comments Signed-off-by: ynankani Use ggml tensor instead of name in act policy map Signed-off-by: ynankani Address review comments and cleanup Signed-off-by: ynankani Address review comments Signed-of",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11181",
+      "project": "llama-cpp",
+      "version": "b11181",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11181",
+      "published_at": "2026-09-25T15:29:26Z",
+      "body_excerpt": "HIP: bump HIP_VERSION requried for fp8 to avoid missing __hip_fp8_e4m3 support in 6.2 (#29231) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11180",
+      "project": "llama-cpp",
+      "version": "b11180",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11180",
+      "published_at": "2026-09-25T14:57:24Z",
+      "body_excerpt": "rpc: include nb in the get_alloc_size cache key and floor the result at ggml_nbytes (#29283) rpc : include nb in the get_alloc_size cache key and floor the result at ggml_nbytes cont : remove redundant comment cont : add TODO --------- Co-authored-by: Georgi Gerganov Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11179",
+      "project": "llama-cpp",
+      "version": "b11179",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11179",
+      "published_at": "2026-09-25T13:41:37Z",
+      "body_excerpt": "[SYCL] support sparse FA (#28796) fix conflict fix format issue rm unused code Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11178",
       "project": "llama-cpp",
@@ -25,7 +61,7 @@
       "version": "v0.40.0-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
       "published_at": "2026-09-25T03:31:52Z",
-      "body_excerpt": "What's Changed Models run on MLX on Apple Silicon by default In this release, model architectures supported by the MLX runner will run by default on Apple Silicon devices. During the RC we will be testing and enabling additional models. Full Changelog:",
+      "body_excerpt": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. During the pre-release we will be testing and enabling additional models. Full Changelog:",
       "type": "tool"
     },
     {
@@ -10727,24 +10763,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9828",
       "published_at": "2026-06-27T23:15:52Z",
       "body_excerpt": "opencl: flash attention improvement (#25069) opencl: rework FA kernel for f16 and f32 opencl: flash-attention prefill prepass kernels flash_attn_kv_pad_f16 pads the tail KV tile to a BLOCK_N multiple flash_attn_mask_pad_f16 pads the matching mask tile flash_attn_blk_f16 classifies each KV tile per query block as fully masked / mixed / fully unmasked, so the main kernel can skip fully-masked tiles ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9827",
-      "project": "llama-cpp",
-      "version": "b9827",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9827",
-      "published_at": "2026-06-27T12:49:26Z",
-      "body_excerpt": "[CUDA] Added a cudaMemcpy2DAsync fast path to ggml_cuda_cpy (#25057) [CUDA] Added a cudaMemcpy2DAsync fast path to ggml_cuda_cpy Add a CUDA ggml_cpy fast path for same-type, same-shape strided copies that are just 2D pitched block copies. When tensors are not fully contiguous but each row is contiguous, it now uses cudaMemcpy2DAsync instead of the slow element-wise scalar copy kernel. This fixes t",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.5.5",
-      "project": "localai",
-      "version": "v4.5.5",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.5.5",
-      "published_at": "2026-06-27T12:42:04Z",
-      "body_excerpt": "What's Changed Other Changes fix(backends): repair release CI build/test breaks (kokoros, fish-speech, llama-cpp-quantization, sglang) by @localai-bot in chore(model gallery): :robot: add 1 new models via gallery agent by @localai-bot in fix(backends): whisper darwin run.sh loads whichever fallback lib exists (.so/.dylib) by @localai-bot in Full Changelog:",
       "type": "tool"
     }
   ]

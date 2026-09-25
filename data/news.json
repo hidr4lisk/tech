@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-09-25T11:31:32Z",
+  "updated_at": "2026-09-25T16:55:27Z",
   "items": [
+    {
+      "id": "localllama-2026-09-25-accidental-discovery-or-known-method-im-missig---qs-on-compi",
+      "source": "localllama",
+      "title": "Accidental discovery? or known method i'm missig? - Q's on compiling in sparse engrams and ideas swimming in my head",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq1bzl/accidental_discovery_or_known_method_im_missig_qs/",
+      "published_at": "2026-09-25T16:45:46Z",
+      "summary": "I set out to test portable Engrams and accidentally ended up testing compiled external memory instead. Am I onto something useful or reinventing a known idea? I&#39;ve been building a small open research harness called t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-25-i-compared-diarization-models-on-15-clinical-conversations-n",
+      "source": "localllama",
+      "title": "I compared diarization models on 15 clinical conversations: Nemotron 3, Pyannote, Sortformer and VibeVoice",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq1as8/i_compared_diarization_models_on_15_clinical/",
+      "published_at": "2026-09-25T16:44:28Z",
+      "summary": "      I&#39;ve been working on clinical speaker attribution at Omi and wanted to compare the current diarization models on the same audio. I used 15 mock doctor–patient consultations from PriMock57, about 2.4 hours. Full",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-25-how-do-you-use-subagents-multiple-agent-with-local-models-an",
+      "source": "localllama",
+      "title": "How do you use subagents & multiple agent with local models, and how many?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpxh2g/how_do_you_use_subagents_multiple_agent_with/",
+      "published_at": "2026-09-25T14:14:44Z",
+      "summary": "Running qwen3.8 27b nvfp4 on vllm at max context only gives around 8 agents with 32k context each. That doesnt seem like much; what use cases do people use multi-agent frameworks and find it helpful for?  &#32; submitted",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-25-splash-on-a-40-core-m5-max-20-decode-by-tuning-the-kernels-f",
+      "source": "localllama",
+      "title": "Splash on a 40-core M5 Max: +20% decode by tuning the kernels for your own chip",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpw0jn/splash_on_a_40core_m5_max_20_decode_by_tuning_the/",
+      "published_at": "2026-09-25T13:13:01Z",
+      "summary": "FYI the engine&#39;s default kernel rules were measured on smaller chips (16/20-core M5s and a 32-core M4 Max), so a 40-core M5 Max runs guesses. Splash&#39;s repo includes a developer tool, “make tune-kernels” that test",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-25-qwengram-08b-i-transferred-qwen38-flash-nexts-n-gram-memory",
+      "source": "localllama",
+      "title": "Qwengram-0.8B: I transferred Qwen3.8 Flash-Next’s n-gram memory into Qwen3.5-0.8B — 5.05% lower validation perplexity",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpvep4/qwengram08b_i_transferred_qwen38_flashnexts_ngram/",
+      "published_at": "2026-09-25T12:46:00Z",
+      "summary": "I’ve been experimenting with whether Qwen3.8-Flash-Next’s pretrained PLE n-gram memory can improve a much smaller Qwen3.5-0.8B model. I trained the 0.8B setup with limited resources, mostly using free Kaggle notebook GPU",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-25-best-omni-model-under-40b-parameters-currently",
+      "source": "localllama",
+      "title": "Best Omni Model under 40B parameters currently",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpu6wf/best_omni_model_under_40b_parameters_currently/",
+      "published_at": "2026-09-25T11:47:02Z",
+      "summary": "I am searching for a fully omni modal ie Voice recognition and speech generation like qwen 3 omni 30b a3b is their any newer model or finetune which is more capable or efficient in this category? gemma 4 is great but it ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-25-psa-for-m5ultra-owners-running-llms-set-your-prefill-step-to",
       "source": "localllama",
@@ -68,69 +134,14 @@
       ]
     },
     {
-      "id": "localllama-2026-09-25-did-anyone-do-a-full-bench-of-eg-qwen-flash-next-iq4-and-qwe",
-      "source": "localllama",
-      "title": "Did anyone do a full bench of e.g. Qwen Flash Next IQ4 and Qwen 27b FP8? Here are some",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpp28m/did_anyone_do_a_full_bench_of_eg_qwen_flash_next/",
-      "published_at": "2026-09-25T06:32:06Z",
-      "summary": "edit: had to change formatting as I’m on mobile noe and the table broke.. I let Codex do a quick eval on Qwen 3.8 Flash Next IQ4_XS (served via vLLM + r9v) and Qwen 3.8 27B FP8 (served via vLLM + Radiance) This was not t",
+      "id": "simonw-2026-09-24-note-on-24th-september-2026",
+      "source": "simonw",
+      "title": "Note on 24th September 2026",
+      "url": "https://simonwillison.net/2026/Sep/24/harder/",
+      "published_at": "2026-09-24T23:31:08Z",
+      "summary": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder.\nWe can do amazing things with them, but unlocking their full potential requires extraordinary dis",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-25-m5-ultra-80core-glm-53-flash-on-dwarfstar-speeds",
-      "source": "localllama",
-      "title": "M5 Ultra 80Core GLM-5.3-Flash on DwarfStar Speeds",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpkz0o/m5_ultra_80core_glm53flash_on_dwarfstar_speeds/",
-      "published_at": "2026-09-25T02:45:45Z",
-      "summary": "      I&#39;ve been playing around with various models on the M5 Ultra 256GB 80-core Mac Studio. These are the results over many rounds of agentic inferencing.  I&#39;m happy with the performance. Glad to have the large ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-25-normalize-benchmarks-from-different-time-period",
-      "source": "localllama",
-      "title": "normalize benchmarks from different time period",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpkl3o/normalize_benchmarks_from_different_time_period/",
-      "published_at": "2026-09-25T02:25:51Z",
-      "summary": "LiveBench has benchmark snapshots from different points in time. Could someone run an agent to normalize the values across these snapshots so we can compare model strength consistently from 2024 through 2026? Right now, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-25-should-i-make-a-tamagotchi-that-you-feed-with-tokens-next",
-      "source": "localllama",
-      "title": "Should I make a tamagotchi that you feed with tokens next?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpjypk/should_i_make_a_tamagotchi_that_you_feed_with/",
-      "published_at": "2026-09-25T01:55:14Z",
-      "summary": "      &#32; submitted by &#32;  /u/piddlefaffle12   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-25-how-are-you-guys-thinking-about-context-now-and-building-aro",
-      "source": "localllama",
-      "title": "How are you guys thinking about context now, and building around it?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpjhkf/how_are_you_guys_thinking_about_context_now_and/",
-      "published_at": "2026-09-25T01:31:27Z",
-      "summary": "Not asking for anyone’s secrets of the trade, I’m more curious how people are thinking about context now that newer models chew through huge amounts of it for reasoning. the TLDR: I’m starting to think of context less as",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-25-cachyos-qwen-38-27b-on-2x-5090-vllm",
-      "source": "localllama",
-      "title": "CachyOS Qwen 3.8 27b on 2x 5090 vLLM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpinky/cachyos_qwen_38_27b_on_2x_5090_vllm/",
-      "published_at": "2026-09-25T00:50:15Z",
-      "summary": "      &#32; submitted by &#32;  /u/piddlefaffle12   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
+        "simonw"
       ]
     },
     {
@@ -371,17 +382,6 @@
       "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
       "published_at": "2026-09-20T19:22:19Z",
       "summary": "Release: llm-keys-ui 0.1\n        This plugin solves a very specific problem.\nI've started using Codex Remote to run coding agents on various machines while controlling them from my phone. \nSometimes I use those machines ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-18-gemini-hacked-three-companies-in-first-known-breakout-by-goo",
-      "source": "simonw",
-      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-      "published_at": "2026-09-18T23:57:57Z",
-      "summary": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI\nGemini finally caught up on Felony Bench!\n\nThe hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irreg",
       "tags": [
         "simonw"
       ]
