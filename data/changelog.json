@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-09-24T21:20:50Z",
+  "updated_at": "2026-09-25T04:18:25Z",
   "releases": [
+    {
+      "id": "ollama-v0.40.0-rc0",
+      "project": "ollama",
+      "version": "v0.40.0-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
+      "published_at": "2026-09-25T03:31:52Z",
+      "body_excerpt": "What's Changed Models run on MLX on Apple Silicon by default In this release, model architectures supported by the MLX runner will run by default on Apple Silicon devices. During the RC we will be testing and enabling additional models. Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11175",
+      "project": "llama-cpp",
+      "version": "b11175",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11175",
+      "published_at": "2026-09-25T03:04:33Z",
+      "body_excerpt": "hexagon: add q5_k quant type support (#29123) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11174",
+      "project": "llama-cpp",
+      "version": "b11174",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11174",
+      "published_at": "2026-09-25T02:40:13Z",
+      "body_excerpt": "hexagon: use DMA for contiguous dim1 CONCAT (#29404) hexagon: use DMA for contiguous dim1 CONCAT Assisted-by: OpenCode hexagon: update CONCAT DMA for DMA64 Assisted-by: OpenCode Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11173",
+      "project": "llama-cpp",
+      "version": "b11173",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11173",
+      "published_at": "2026-09-25T00:06:07Z",
+      "body_excerpt": "metal : fix graph capture and handle empty graphs (#29390) return early when the graph has no nodes drop the redundant reset of capture_compute: the decrement at the top of the function already transitions the counter from 0 to -1, so a capture happens exactly once hint at METAL_CAPTURE_ENABLED=1 in the capture error message pass capture_compute == 0 (not the raw counter) as use_capture to ggml_me",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11172",
+      "project": "llama-cpp",
+      "version": "b11172",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11172",
+      "published_at": "2026-09-24T23:35:07Z",
+      "body_excerpt": "metal : optimize sparse FA + clean-up (#29377) metal : cache sparse FA indices in shared memory Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp metal : simplify shared memory size calculation Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp pi : update general metal : unroll sparse index load Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp Website: Attestations: macOS/iOS: macO",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11171",
+      "project": "llama-cpp",
+      "version": "b11171",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11171",
+      "published_at": "2026-09-24T23:07:28Z",
+      "body_excerpt": "sync : ggml (#29396) ggml : bump version to 0.25.2 (ggml/1642) ggml : fix ubsan error in (ggml/1644) ggml : bump version to 0.25.3 (ggml/1645) sync : ggml Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11170",
+      "project": "llama-cpp",
+      "version": "b11170",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11170",
+      "published_at": "2026-09-24T22:35:37Z",
+      "body_excerpt": "hexagon: handle multi-sequence in concat_2d (#29344) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11169",
+      "project": "llama-cpp",
+      "version": "b11169",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11169",
+      "published_at": "2026-09-24T22:09:16Z",
+      "body_excerpt": "llama-grammar: fix numeric truncation for token_id parsing (#29382) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11168",
+      "project": "llama-cpp",
+      "version": "b11168",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11168",
+      "published_at": "2026-09-24T21:43:28Z",
+      "body_excerpt": "hexagon: dynamic quantizer improvements (#29395) hexagon: fix accuracy issue in Q8_0 N=1 MUL_MAT hex-quant: fix register spills hex-mm: use dma for all dyn.quant paths Co-authored-by: Aparna M P hex-mm: remove obsolete run_quant_task hex-mm: update tracing to properly wrap the events hex-mm: use act for activation data in all paths hex-mm: use act_ instead of src1_ to avoid confusion in fused kern",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11167",
       "project": "llama-cpp",
@@ -2340,6 +2421,15 @@
       "published_at": "2026-09-08T10:03:31Z",
       "body_excerpt": "opencl: properly handle non-contiguous inputs to conv2d (#28503) opencl: fix conv2d non-contiguous strides opencl: format Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) ",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-NV-Reason-CT",
+      "project": "nvidia",
+      "version": "NV-Reason-CT",
+      "url": "https://huggingface.co/nvidia/NV-Reason-CT",
+      "published_at": "2026-09-08T05:06:51Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10853",
@@ -10682,60 +10772,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9822",
       "published_at": "2026-06-27T08:38:31Z",
       "body_excerpt": "tests : fix test-chat-template --no-common option (#25075) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
-      "type": "tool"
-    },
-    {
-      "id": "hf-deepseek-ai-DeepSeek-V4-Pro-DSpark",
-      "project": "deepseek-ai",
-      "version": "DeepSeek-V4-Pro-DSpark",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
-      "published_at": "2026-06-27T03:02:56Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-deepseek-ai-DeepSeek-V4-Flash-DSpark",
-      "project": "deepseek-ai",
-      "version": "DeepSeek-V4-Flash-DSpark",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
-      "published_at": "2026-06-27T02:27:36Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "localai-v4.5.4",
-      "project": "localai",
-      "version": "v4.5.4",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.5.4",
-      "published_at": "2026-06-27T00:06:11Z",
-      "body_excerpt": "What's Changed Other Changes fix(backends): derive darwin RUN_BINARY from the exec line only by @localai-bot in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.5.3",
-      "project": "localai",
-      "version": "v4.5.3",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.5.3",
-      "published_at": "2026-06-26T23:45:40Z",
-      "body_excerpt": "What's Changed Other Changes feat(macos): sign and notarize the DMG, app, and server binary by @localai-bot in fix(backends): set rpath on the piper darwin binary so it can load its bundled libs by @localai-bot in fix(backends): darwin packaging for silero-vad (last Linux-only Go backend) by @localai-bot in chore(model gallery): :robot: add 1 new models via gallery agent by @localai-bot in fix(nod",
-      "type": "tool"
-    },
-    {
-      "id": "sglang-v0.5.14",
-      "project": "sglang",
-      "version": "v0.5.14",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.14",
-      "published_at": "2026-06-26T22:57:30Z",
-      "body_excerpt": "Highlights New Model Support: GLM-5.2, LiquidAI LFM2.5, Kimi-K2.7-Code, Poolside Laguna-M.1, DiffusionGemma, Zyphra ZAYA1, MiMo-V2-ASR DeepSeek-V4 on GB300 since Day 0: 5x higher throughput at the same interactivity, serving DeepSeek-V4 on NVIDIA GB300 with SGLang (blog). Waterfill & LPLB MoE load balancing: Two dispatch-time load-balancing methods for DeepEP expert parallelism: Waterfill for shar",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9821",
-      "project": "llama-cpp",
-      "version": "b9821",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9821",
-      "published_at": "2026-06-26T21:55:22Z",
-      "body_excerpt": "app : allow --version, --licenses & --help (#25054) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL F",
       "type": "tool"
     }
   ]
