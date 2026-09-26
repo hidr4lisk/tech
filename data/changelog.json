@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-09-26T16:06:58Z",
+  "updated_at": "2026-09-26T20:52:21Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11203",
+      "project": "llama-cpp",
+      "version": "b11203",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11203",
+      "published_at": "2026-09-26T20:34:53Z",
+      "body_excerpt": "cuda: add F16 input to the FWHT (#29096) cuda: add F16 input to the FWHT The CUDA FWHT accepts F32 input only. This makes the source type a template parameter, so the kernel reads an F16 source directly instead of requiring a converted copy. The F32 path is unchanged. supports_op accepts an F16 src1 against an F32 src0 for the Hadamard hint. Every other F16 src1 against a non-F16 src0 is still ref",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11202",
+      "project": "llama-cpp",
+      "version": "b11202",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11202",
+      "published_at": "2026-09-26T20:02:37Z",
+      "body_excerpt": "server : fix wake_fd warning on Windows (#29479) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) -",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11201",
+      "project": "llama-cpp",
+      "version": "b11201",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11201",
+      "published_at": "2026-09-26T16:39:56Z",
+      "body_excerpt": "Revert \"Change max context length for auto-fitting with unified KV (#28849)\" (#29437) This reverts commit b04d4e567cd2fb8d2ded6e17d38dbbcfafe29063. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11200",
       "project": "llama-cpp",
@@ -10709,15 +10736,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9837",
       "published_at": "2026-06-29T00:05:43Z",
       "body_excerpt": "jinja, chat: add --reasoning-preserve flag (#25105) jinja, chat: add --reasoning-preserve flag correct help message macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9835",
-      "project": "llama-cpp",
-      "version": "b9835",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9835",
-      "published_at": "2026-06-28T19:37:05Z",
-      "body_excerpt": "ui: fix stop and reasoning skip in single-model mode (#25084) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
       "type": "tool"
     }
   ]
