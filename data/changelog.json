@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-25T21:19:56Z",
+  "updated_at": "2026-09-26T04:22:36Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11193",
+      "project": "llama-cpp",
+      "version": "b11193",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11193",
+      "published_at": "2026-09-26T03:30:45Z",
+      "body_excerpt": "hexagon: find software divide calls using binary inspection tool (#29449) hex-scripts: fix table alignment hex-scripts: find sw div calls using binary inspection tool Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11192",
+      "project": "llama-cpp",
+      "version": "b11192",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11192",
+      "published_at": "2026-09-26T00:25:57Z",
+      "body_excerpt": "vendor : update cpp-httplib to 0.58.0 (#29407) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11191",
       "project": "llama-cpp",
@@ -10817,15 +10835,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9829",
       "published_at": "2026-06-28T06:46:57Z",
       "body_excerpt": "logs : reduce v2 (#25078) server : reduce logs cont : common cont : spec cont : CMN_ -> COM_ macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9828",
-      "project": "llama-cpp",
-      "version": "b9828",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9828",
-      "published_at": "2026-06-27T23:15:52Z",
-      "body_excerpt": "opencl: flash attention improvement (#25069) opencl: rework FA kernel for f16 and f32 opencl: flash-attention prefill prepass kernels flash_attn_kv_pad_f16 pads the tail KV tile to a BLOCK_N multiple flash_attn_mask_pad_f16 pads the matching mask tile flash_attn_blk_f16 classifies each KV tile per query block as fully masked / mixed / fully unmasked, so the main kernel can skip fully-masked tiles ",
       "type": "tool"
     }
   ]
