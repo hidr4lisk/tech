@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-09-26T04:22:31Z",
+  "updated_at": "2026-09-26T11:06:13Z",
   "items": [
+    {
+      "id": "localllama-2026-09-26-qwen38-flash-next-exllamav3-hermes-is-amazing",
+      "source": "localllama",
+      "title": "Qwen3.8 flash next + exllamav3 + hermes is amazing",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqn378/qwen38_flash_next_exllamav3_hermes_is_amazing/",
+      "published_at": "2026-09-26T10:24:40Z",
+      "summary": "I know there is nothing new with what I am saying but I recently started with hermes agent (it’s been a while I wanted to but did not have the time). Qwen3.8fn 6bpw exl3 (from turboderp) on a 6x3090 (I assume lower quant",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-26-i-built-a-tiny-332mb-cpu-friendly-model-for-document-sorting",
+      "source": "localllama",
+      "title": "I built a tiny (332MB) CPU-friendly model for document sorting that actually knows when to say \"none fits\" (BeeNara)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqm53a/i_built_a_tiny_332mb_cpufriendly_model_for/",
+      "published_at": "2026-09-26T09:24:53Z",
+      "summary": "Hey r/LocalLLaMA! ​I wanted to share a small project I’ve been working on called BeeNara  ​Why I built this: I was looking for a way to automatically sort my local documents (invoices, letters, contracts) into my persona",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-26-introducing-koboldcpp-agent-and-a-plea-for-help",
+      "source": "localllama",
+      "title": "Introducing KoboldCpp Agent (and a plea for help)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqlyp8/introducing_koboldcpp_agent_and_a_plea_for_help/",
+      "published_at": "2026-09-26T09:13:29Z",
+      "summary": "Hello r/localllama once again, it&#39;s me your kobold concedo Been a few months since I last posted here, and today I have something new I&#39;d like to share. Specifically, KoboldCpp now ships with a built-in integrate",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-26-internlmintern-decision-4b-and-08b",
+      "source": "localllama",
+      "title": "internlm/Intern-Decision 4B and 0.8B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqloas/internlminterndecision_4b_and_08b/",
+      "published_at": "2026-09-26T08:54:52Z",
+      "summary": "      https://huggingface.co/internlm/Intern-Decision-0.8B Intern-Decision-4B Demo | Model Weights | GitHub Intern-Decision-4B is a multimodal structured decision model fine-tuned from Qwen3.5-4B. It accepts a shared sta",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-26-best-current-qwen-flash-next-q4-ish-worth-using",
+      "source": "localllama",
+      "title": "Best current Qwen Flash Next Q4-ish? + worth using?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqln1c/best_current_qwen_flash_next_q4ish_worth_using/",
+      "published_at": "2026-09-26T08:52:33Z",
+      "summary": "Im running a 5090 and 64gb of ram, so im limited on what I can run. I have currently been able to fit the following - Atomic Q4_k_m 4.27bpw @ 31 layers offload Swift IQ4_xs @ 32 layers offload.  Im about to try the Unslo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-26-swift-15-27b-swift-qwen-just-got-faster",
+      "source": "localllama",
+      "title": "Swift 1.5 27b: Swift Qwen just got faster",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqkb3v/swift_15_27b_swift_qwen_just_got_faster/",
+      "published_at": "2026-09-26T07:28:27Z",
+      "summary": "      Enjoy! Fucking loving it.  &#32; submitted by &#32;  /u/sleight42   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-26-qwen38-27b-q4-k-m-on-2x3060",
+      "source": "localllama",
+      "title": "Qwen3.8-27B Q4_K_M on 2x3060",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqjr3f/qwen3827b_q4_k_m_on_2x3060/",
+      "published_at": "2026-09-26T06:54:48Z",
+      "summary": "      For the last few days, I&#39;ve been using two computers to run multiple agents. My 4x3090 machine is running Qwen 3.8 27B with parallel=2, so I can run two agents at the same time. My pi instances are running on a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-26-ggml-cpu-tiled-mul-mat-for-k-quants-by-jbooth-pull-request-2",
+      "source": "localllama",
+      "title": "ggml-cpu: tiled mul_mat for k-quants by jbooth · Pull Request #27851 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqj4zg/ggmlcpu_tiled_mul_mat_for_kquants_by_jbooth_pull/",
+      "published_at": "2026-09-26T06:18:19Z",
+      "summary": "      faster CPU prompt processing: &quot;TL;DR: 3-7x faster CPU mul_mat using VNNI with IMO minimal complexity&quot;  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-26-what-are-you-doing-between-prompts",
+      "source": "localllama",
+      "title": "What are you doing between prompts?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqidhr/what_are_you_doing_between_prompts/",
+      "published_at": "2026-09-26T05:34:30Z",
+      "summary": "My local prompts take twenty minutes to three hours as of now. Curious for others what are you doing while it’s working?  &#32; submitted by &#32;  /u/xiraov   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-26-at-what-point-do-llms-start-bootstrapping-themselves-and-gen",
       "source": "localllama",
@@ -30,105 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqcrly/ling_tiny_30_is_a_glimpse_of_the_future/",
       "published_at": "2026-09-26T00:40:52Z",
       "summary": "I&#39;ve been playing around with Ling 3.0 Tiny, which is an 8 billion parameter model (MoE, 1B active). And I&#39;ve had a lot of poignant thoughts as a result. Just for fun, I got it running with llama.cpp on an old la",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-custom-models-in-oh-my-pi-vllm-llamacpp-sglang-and-more",
-      "source": "localllama",
-      "title": "Custom Models in Oh My Pi: vLLM, llama.cpp, SGLang and More",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqcki2/custom_models_in_oh_my_pi_vllm_llamacpp_sglang/",
-      "published_at": "2026-09-26T00:31:03Z",
-      "summary": "      &#32; submitted by &#32;  /u/bolts98   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-blabbermouth-ai-coding-agents-hate-this-one-weird-trick",
-      "source": "localllama",
-      "title": "Blabbermouth AI coding agents hate this one weird trick!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqcil9/blabbermouth_ai_coding_agents_hate_this_one_weird/",
-      "published_at": "2026-09-26T00:28:30Z",
-      "summary": "The conceited little fuckers love to inundate you with unnecessary details, noisy caveats, what&#39;s &#39;load bearing&#39; and what&#39;s not, waste your time with a wall of text every time it reports back to you.  The",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-are-there-still-any-hidden-gem-gpus-left",
-      "source": "localllama",
-      "title": "Are there still any hidden gem gpu's left?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqc09e/are_there_still_any_hidden_gem_gpus_left/",
-      "published_at": "2026-09-26T00:04:34Z",
-      "summary": "you read about gpu&#39;s like the Tesla P40, V100, AMD M150 etc that people pick up for cheap. probably many others as well. Most are either server gpu&#39;s being phased out or mining discards, right? The problem of cou",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-25-kev-4b-topped-out-in-every-tetris-game-i-ran-mica-v01-4b-cle",
-      "source": "localllama",
-      "title": "Kev 4B topped out in every Tetris game I ran. Mica v0.1 4B cleared about 4x more lines and survived two of them to the end",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqai4b/kev_4b_topped_out_in_every_tetris_game_i_ran_mica/",
-      "published_at": "2026-09-25T22:56:19Z",
-      "summary": "      I had Mica (my 4B decision model) and Kev 4B play the same Tetris games, same seed and same piece order, one RTX 3090. For context, this is a side project. Training and all the experiments ran on rented 3090s, abou",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-25-mica-v01-4b-got-an-iron-pickaxe-in-real-minecraft-without-ge",
-      "source": "localllama",
-      "title": "Mica v0.1 4B got an iron pickaxe in real Minecraft without generating a single token",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqahbz/mica_v01_4b_got_an_iron_pickaxe_in_real_minecraft/",
-      "published_at": "2026-09-25T22:55:19Z",
-      "summary": "      Mica v0.1 4B playing a real Minecraft 1.20.4 server. Video attached. How it works - Each step the bot&#39;s live game state (inventory, nearby blocks, entities, last result) is written out as text. - Mica scores th",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-25-vllm-recipe-for-qwen38-flash-next-nvfp4-tp2-for-rtx-pro-5000",
-      "source": "localllama",
-      "title": "vLLM Recipe for Qwen38 Flash Next NVFP4 TP=2 for RTX Pro 5000 72g",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqag5e/vllm_recipe_for_qwen38_flash_next_nvfp4_tp2_for/",
-      "published_at": "2026-09-25T22:53:49Z",
-      "summary": "      I couldn&#39;t find a recipe for this model on my hardware, so I used Hermes and Unsloth&#39;s 4-bit quant of the same model to cook up a vLLM recipe for the NVFP4 quant with PLE offloading. I&#39;ve been running t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-25-mica-v01-4b-open-jev-style-decision-model-yesno-choice-score",
-      "source": "localllama",
-      "title": "Mica v0.1 4B: open Jev-style decision model (yes/no, choice, score) that runs on an 8 GB GPU — trained for under $30 of GPU time",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqag1i/mica_v01_4b_open_jevstyle_decision_model_yesno/",
-      "published_at": "2026-09-25T22:53:41Z",
-      "summary": "      I&#39;ve been building a small decision model for agent loops: gates, routers, &quot;should I ask the user or just act&quot; checks. It&#39;s out now as Mica v0.1 4B (Apache-2.0). What it does You give it a state, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-25-how-long-can-i-expect-to-wait-until-the-local-30b-a3b-fronti",
-      "source": "localllama",
-      "title": "How long can I expect to wait until the local ~30B A3B frontier catches up to GLM 5.3 Flash quality?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq8e5u/how_long_can_i_expect_to_wait_until_the_local_30b/",
-      "published_at": "2026-09-25T21:24:54Z",
-      "summary": "The jump from Qwen3 Coder 30B A3B to current-day Qwen 3.6 35B A3B is crazy, especially with all the fine-tunes, and that was around 6 months (I didn&#39;t care for local AI back then, or AI at all, apart from as a toy so",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-25-4-5-days-replacing-claude-w-qwen-38-next",
-      "source": "localllama",
-      "title": "4-5 days replacing Claude w Qwen 3.8 Next",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq7e74/45_days_replacing_claude_w_qwen_38_next/",
-      "published_at": "2026-09-25T20:44:10Z",
-      "summary": "Hi, human here with rambling thoughts to share. Feel free to skip Overall, I don’t feel like I’m missing much; if anything. On my hardware(M1 ultra w 128Gb) it’s probably not as fast as Claude but I’ve been using opencod",
       "tags": [
         "localllama"
       ]

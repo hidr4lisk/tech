@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-26T04:22:36Z",
+  "updated_at": "2026-09-26T11:06:21Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11200",
+      "project": "llama-cpp",
+      "version": "b11200",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11200",
+      "published_at": "2026-09-26T10:24:41Z",
+      "body_excerpt": "jinja : implement sameas test (#29448) implement sameas test add tests Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11199",
+      "project": "llama-cpp",
+      "version": "b11199",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11199",
+      "published_at": "2026-09-26T10:00:00Z",
+      "body_excerpt": "jinja : fix compile error (#29468) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) -",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11195",
+      "project": "llama-cpp",
+      "version": "b11195",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11195",
+      "published_at": "2026-09-26T08:27:10Z",
+      "body_excerpt": "ggml-cpu: tiled mul_mat for k-quants (#27851) Added tiled mul_mat. For each mul_mat_one_chunk, quants are unpacked into (max) 256x256 tiles of int8, one routine per quent. Then microkernel computes 16x16 tiles before writing out 256x256 float reults to main memory. Tests/benches in tests/test-tiled-mulmat.cpp. 3-6x speed improvement for large matmul, break even at 4096x64 64x4096, 80% performance ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11194",
+      "project": "llama-cpp",
+      "version": "b11194",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11194",
+      "published_at": "2026-09-26T07:39:57Z",
+      "body_excerpt": "opencl: add A8 Q8_0 non-MoE dp4a binary kernel (#29439) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubu",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11193",
       "project": "llama-cpp",
@@ -10818,24 +10854,6 @@
       "published_at": "2026-06-28T11:29:16Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9830",
-      "project": "llama-cpp",
-      "version": "b9830",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9830",
-      "published_at": "2026-06-28T11:03:50Z",
-      "body_excerpt": "common : allow --offline in llama download (#25091) Expose the existing --offline flag to so a script can run it to check whether a model is already cached and ready to be served without touching the network. Also fix a latent use-after-free in the URL-task on_done callback: first_path is block-scoped and was captured by reference, but invoked after the block ends. Signed-off-by: Adrien Gallouët m",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9829",
-      "project": "llama-cpp",
-      "version": "b9829",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9829",
-      "published_at": "2026-06-28T06:46:57Z",
-      "body_excerpt": "logs : reduce v2 (#25078) server : reduce logs cont : common cont : spec cont : CMN_ -> COM_ macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x",
-      "type": "tool"
     }
   ]
 }
