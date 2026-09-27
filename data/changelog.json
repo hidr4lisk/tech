@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-09-26T20:52:21Z",
+  "updated_at": "2026-09-27T04:39:41Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11206",
+      "project": "llama-cpp",
+      "version": "b11206",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11206",
+      "published_at": "2026-09-27T03:58:12Z",
+      "body_excerpt": "hexagon: support for backend sampler (#29502) hex-topk: trying to improve/cleanup the pipeline hex-sampling: add STEP op hex-sampler: add SUM op hex-sampler: update CPY to support sampling cases hex-binary: add support for chunking to handle large logits hex-argmax: super basic version of ARGMAX hex-binary: support for scalars in extended buffers hex-binary: fix wrong indexing for dim 1 broadcasts",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-prebuilt-wheels-cu13",
+      "project": "unsloth",
+      "version": "prebuilt-wheels-cu13",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13",
+      "published_at": "2026-09-27T03:16:14Z",
+      "body_excerpt": "Prebuilt Linux x86_64 CUDA 13 wheels for flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11205",
+      "project": "llama-cpp",
+      "version": "b11205",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11205",
+      "published_at": "2026-09-26T20:59:58Z",
+      "body_excerpt": "cuda: support Nemotron 3 Puzzle state size 96 for ssm scan (#28717) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 l",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11203",
       "project": "llama-cpp",
@@ -10728,15 +10755,6 @@
       "published_at": "2026-06-29T06:04:43Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9837",
-      "project": "llama-cpp",
-      "version": "b9837",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9837",
-      "published_at": "2026-06-29T00:05:43Z",
-      "body_excerpt": "jinja, chat: add --reasoning-preserve flag (#25105) jinja, chat: add --reasoning-preserve flag correct help message macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x",
-      "type": "tool"
     }
   ]
 }

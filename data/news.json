@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-09-26T20:52:15Z",
+  "updated_at": "2026-09-27T04:39:35Z",
   "items": [
+    {
+      "id": "localllama-2026-09-27-dual-3090-stability-troubleshooting",
+      "source": "localllama",
+      "title": "Dual 3090 stability troubleshooting",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr8i14/dual_3090_stability_troubleshooting/",
+      "published_at": "2026-09-27T02:31:07Z",
+      "summary": "&#x200B; I made a previous post about my x299 stability issues. Seems another stability issue has popped up since then, but overall has been much stable. Seems to only happen when my i9 is working hard the dual 3090s are",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-supersoniclabsjulia-1-hugging-face",
+      "source": "localllama",
+      "title": "SupersonicLabs/Julia-1 · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr8d4d/supersoniclabsjulia1_hugging_face/",
+      "published_at": "2026-09-27T02:24:05Z",
+      "summary": "      New open source Jev like model for running on local devices from a group called Supersonic Labs. It&#39;s a 144M param local non-generative local classifier. From their site:  Julia 1 opens our research into compac",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-navigating-cost-efficient-hardware-in-these-volatile-times",
+      "source": "localllama",
+      "title": "Navigating Cost Efficient Hardware in these Volatile Times",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr7tgb/navigating_cost_efficient_hardware_in_these/",
+      "published_at": "2026-09-27T01:55:54Z",
+      "summary": "Where to even begin on this one...I guess I should start by acknowledging the risk vs reward for vendors other than nvidia, so: Yes I understand that nvidia are dominant currently on speed (llm and imagegen) and software",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-mail-client-with-local-ai",
+      "source": "localllama",
+      "title": "Mail client with local AI?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr7njr/mail_client_with_local_ai/",
+      "published_at": "2026-09-27T01:47:47Z",
+      "summary": "Any recommendations on an email client with local AI option? Either reasonable pay-once cost (no subs) or free. I found Skim and Emailops on git, both seem to have some development going on with recent releases. However ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-42x-faster-prompt-lookup-drafting-in-llamacpp",
+      "source": "localllama",
+      "title": "42x Faster Prompt Lookup Drafting in llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr5ylm/42x_faster_prompt_lookup_drafting_in_llamacpp/",
+      "published_at": "2026-09-27T00:23:41Z",
+      "summary": "      &#32; submitted by &#32;  /u/Available_Pressure47   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-26-kākāpō-party",
+      "source": "simonw",
+      "title": "Kākāpō Party",
+      "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+      "published_at": "2026-09-26T23:39:06Z",
+      "summary": "Tool: Kākāpō Party\n        I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-26-koboldcpp-v1122-released",
+      "source": "localllama",
+      "title": "Koboldcpp v1.122 released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr3esw/koboldcpp_v1122_released/",
+      "published_at": "2026-09-26T22:24:22Z",
+      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-26-run-qwen38flash-next-and-tiny-models-on-apple-silicon-up-to",
+      "source": "localllama",
+      "title": "Run Qwen3.8+Flash-Next and tiny models on Apple Silicon up to 3x faster",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr1qlz/run_qwen38flashnext_and_tiny_models_on_apple/",
+      "published_at": "2026-09-26T21:10:37Z",
+      "summary": "Maybe you&#39;ll like it? I hope I get to use my self-promotion credit a tiny little bit here after being in the community so long haha. I was the top of MLX.fast for a while and remain the winner on chips below M5. If y",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-26-improved-and-fixed-template-for-gpt-oss-again-includes-prese",
       "source": "localllama",
@@ -52,83 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqwm3o/85_gb_deepseekv4flash_at_3_toks_on_a_12_gb_rtx/",
       "published_at": "2026-09-26T17:41:06Z",
       "summary": "I&#39;ve been experimenting with ways to run MoE models that don&#39;t fit comfortably in RAM, and I ended up making Overspill, a disk tier for FreeToken. The basic idea came from looking at how Colibri handles experts a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-splash-110-released-gguf-quants-support-mlx-import-and-more",
-      "source": "localllama",
-      "title": "Splash 1.1.0 released, GGUF quants support, MLX import and more",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqw9rn/splash_110_released_gguf_quants_support_mlx/",
-      "published_at": "2026-09-26T17:27:22Z",
-      "summary": "On my M5 Pro 64GB I can comfortably work in an agentic setup with the Qwen3.8 27B model in good quality (Unsloth UD-Q4_K_XL) at a decent speed of 50 t/s. Splash combines optimized kernels, excellent speculative decoding,",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-getting-stupidly-good-results-on-my-4x3060ti-setup",
-      "source": "localllama",
-      "title": "Getting stupidly good results on my 4x3060ti setup.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqv9o8/getting_stupidly_good_results_on_my_4x3060ti_setup/",
-      "published_at": "2026-09-26T16:47:48Z",
-      "summary": "About a month ago I was having FOMO and was going to spend coin I don&#39;t really have on new graphics cards. Instead of doing that though I decided to spend the money on a new motherboard+cpu and try to utilize my 3060",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-just-bought-a-second-3090-but-now-i-dont-see-the-benefits-ri",
-      "source": "localllama",
-      "title": "Just bought a second 3090 but now I don't see the benefits right now.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqv0qj/just_bought_a_second_3090_but_now_i_dont_see_the/",
-      "published_at": "2026-09-26T16:37:26Z",
-      "summary": "Hi,  My local AI server consists of 96GB Ddr5 and one rtx 3090. I got plenty of stuff running, like krea2, qwen image 2.1, minimax h3, ltx 2.5, qwen 3.6, qwen 3.8 q4...,got even qwen 3.8 Flash next running.  But now I am",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-how-accessible-is-local-ai-actually-and-what-happens-if-affo",
-      "source": "localllama",
-      "title": "How accessible is local AI actually, and what happens if affordable access to frontier models doesn’t last?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqtrfi/how_accessible_is_local_ai_actually_and_what/",
-      "published_at": "2026-09-26T15:45:31Z",
-      "summary": "Sometimes it’s easy to forget that this sub and others like it are probably the extreme minority when it comes to this hobby.  Most people, I would think, don’t use or can’t afford one good GPU, let alone multiple GPUs, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-2400cc-inference-racer-dual-rtx-3090-motors-nvlink-turbo-nak",
-      "source": "localllama",
-      "title": "2400cc Inference Racer: Dual RTX 3090 motors, NVLink turbo, naked 7840U ThinkPad ECU, VW Golf radiator",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqs2t8/2400cc_inference_racer_dual_rtx_3090_motors/",
-      "published_at": "2026-09-26T14:34:51Z",
-      "summary": "      Today I present a fine piece of engineering, carefully assembled inside a custom chipboard chassis: the 2400cc Inference Racer, a.k.a. my winter heater. Power comes from two second-hand AORUS RTX 3090 XTREME WATERF",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-where-is-mimo-v26-9b-distill-rl",
-      "source": "localllama",
-      "title": "Where is MiMo V2.6 9B Distill RL?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqrgo7/where_is_mimo_v26_9b_distill_rl/",
-      "published_at": "2026-09-26T14:08:28Z",
-      "summary": "Was gonna test it out but I can&#39;t find the RL checkpoint.  &#32; submitted by &#32;  /u/Aggravating-Push-207   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-for-the-longest-time-ive-felt-this-sub-should-have-a-pinned",
-      "source": "localllama",
-      "title": "For the longest time I’ve felt this sub should have a pinned section where a detailed post about each model should get featured.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqrajy/for_the_longest_time_ive_felt_this_sub_should/",
-      "published_at": "2026-09-26T14:01:03Z",
-      "summary": "For instance whenever a model comes out, what’s the best engine to run it, the best harness and absolute minimum you need to get same or near same re results that the benchmark of that model claims.  And whenever a quant",
       "tags": [
         "localllama"
       ]
@@ -371,17 +382,6 @@
       "url": "https://simonwillison.net/2026/Sep/20/voxium/",
       "published_at": "2026-09-20T21:06:43Z",
       "summary": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobo",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-20-mcp-was-always-a-bad-idea",
-      "source": "simonw",
-      "title": "MCP was always a bad idea?",
-      "url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
-      "published_at": "2026-09-20T20:24:41Z",
-      "summary": "My comment on MCP was always a bad idea? &mdash; Hacker News.This article entirely misses the value that MCP brings today.\nSure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude",
       "tags": [
         "simonw"
       ]
