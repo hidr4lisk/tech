@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-09-27T04:39:35Z",
+  "updated_at": "2026-09-27T11:44:43Z",
   "items": [
+    {
+      "id": "localllama-2026-09-27-qwen38-27b-fp8-dual-gpus",
+      "source": "localllama",
+      "title": "Qwen3.8-27B FP8 dual GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrhmdn/qwen3827b_fp8_dual_gpus/",
+      "published_at": "2026-09-27T11:15:35Z",
+      "summary": "Hardware RTX 5090 (32 GB) + RTX 4070 Ti Super (16 GB) = 48 GB VRAM 32 GB DDR5 6200 RAM Arch Linux, KDE on the 5090 (takes ~1-1.5 GB VRAM) daily driver OrcaRouter Qwen3.8-27B Uncensored, block-FP8 (28.75 GiB), on vLLM 0.3",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-nonobench-v12-43-llms-on-nonogram-puzzles-open-weight-deepse",
+      "source": "localllama",
+      "title": "Nonobench v1.2: 43 LLMs on nonogram puzzles. Open-weight DeepSeek V4 Pro ties for 4th, and no open model solves the new 20×20 Hard mode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrh7b2/nonobench_v12_43_llms_on_nonogram_puzzles/",
+      "published_at": "2026-09-27T10:51:28Z",
+      "summary": "      Follow-up to my January post: https://www.reddit.com/r/LocalLLaMA/comments/1q4i19c/benchmarking_23_llms_on_nonogram_logic_puzzle/. That thread shaped v1.2:  Reasoning effort is explicit per run Every prompt and out",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-which-of-the-16gb-vram-qwen38-27bs-is-the-best",
+      "source": "localllama",
+      "title": "Which of the 16gb VRAM qwen3.8 27b’s is the best?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrgk8z/which_of_the_16gb_vram_qwen38_27bs_is_the_best/",
+      "published_at": "2026-09-27T10:13:38Z",
+      "summary": "I’m having a hard time finding out which one gives you fastest speed, maximum context with best possible quality. I can run unsloth qwen3.8 27b iq4_xs with 65k q8 kv, context without MTP and vision offloaded to cpu. But ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-another-harness-matters-post-codex-cli-pi-and-opencode",
+      "source": "localllama",
+      "title": "Another \"Harness matters\" post (codex cli > pi and opencode)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrfp50/another_harness_matters_post_codex_cli_pi_and/",
+      "published_at": "2026-09-27T09:20:52Z",
+      "summary": "I run my own LLM while also having a Openai subscription. Also tried DeepSeek (latest flash now). I run Qwen 3.8 flash Next at an amazing speed on my 2x3090 + Ram!  But local LLM never did worked for me outside some demo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-power-limits-local-ai-and-questionable-uses-of-my-free-time",
+      "source": "localllama",
+      "title": "Power Limits, Local AI, and Questionable Uses of My Free Time",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrfe8b/power_limits_local_ai_and_questionable_uses_of_my/",
+      "published_at": "2026-09-27T09:02:25Z",
+      "summary": "      Good day data nerds! I am trying to get more into running models, learning about agentic workflows, and creating my own tools. But as you do (right?) I had to fine tune my current setup. With the way the markets ar",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-5-items-in-mimo-v26",
+      "source": "localllama",
+      "title": "5 items in MiMo-V2.6",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrf7ac/5_items_in_mimov26/",
+      "published_at": "2026-09-27T08:50:51Z",
+      "summary": "      3 visible models are 1T, 311B and 9B, let&#39;s dream about two more... ;)  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-qwen-wheres-the-small-stuff-1b2b4b",
+      "source": "localllama",
+      "title": "Qwen, where's the small stuff? (1B/2B/4B)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrez7j/qwen_wheres_the_small_stuff_1b2b4b/",
+      "published_at": "2026-09-27T08:36:48Z",
+      "summary": "I know Qwen is a key player in the local LLM space and has consistently introduced truly impactful technologies—like n-gram in Qwen-Next and the recent Qwen 3.8 27B, which is an amazing local model. However, my question ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-splash-fork-optimised-for-m5-max-15-faster-125-single-reques",
+      "source": "localllama",
+      "title": "Splash fork optimised for M5 Max: ~1.5× faster (1.25× single request)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrd1p1/splash_fork_optimised_for_m5_max_15_faster_125/",
+      "published_at": "2026-09-27T06:40:58Z",
+      "summary": "      I’ve spent the last couple of days with Opus 5.5 working on a fork of Inco’s excellent and already blazingly fast Splash engine to optimise it for M5 Max chips. Taking liberties and referring to it as Splish. Rough",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-when-is-the-next-generation-of-b-tier-models-releasing",
+      "source": "localllama",
+      "title": "When is the next generation of \"B tier\" models releasing?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrcy7x/when_is_the_next_generation_of_b_tier_models/",
+      "published_at": "2026-09-27T06:35:06Z",
+      "summary": "The only things released in the last couple weeks seem to be bigger models like Qwen, DeepSeek, GLM, etc. Where are the Laguna&#39;s, Nemotrons, Olmo&#39;s, LongCats, Minimax, etc releases?  &#32; submitted by &#32;  /u/",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-27-dual-3090-stability-troubleshooting",
       "source": "localllama",
@@ -35,28 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-27-mail-client-with-local-ai",
-      "source": "localllama",
-      "title": "Mail client with local AI?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr7njr/mail_client_with_local_ai/",
-      "published_at": "2026-09-27T01:47:47Z",
-      "summary": "Any recommendations on an email client with local AI option? Either reasonable pay-once cost (no subs) or free. I found Skim and Emailops on git, both seem to have some development going on with recent releases. However ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-27-42x-faster-prompt-lookup-drafting-in-llamacpp",
-      "source": "localllama",
-      "title": "42x Faster Prompt Lookup Drafting in llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr5ylm/42x_faster_prompt_lookup_drafting_in_llamacpp/",
-      "published_at": "2026-09-27T00:23:41Z",
-      "summary": "      &#32; submitted by &#32;  /u/Available_Pressure47   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-26-kākāpō-party",
       "source": "simonw",
       "title": "Kākāpō Party",
@@ -65,83 +142,6 @@
       "summary": "Tool: Kākāpō Party\n        I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we ",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-koboldcpp-v1122-released",
-      "source": "localllama",
-      "title": "Koboldcpp v1.122 released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr3esw/koboldcpp_v1122_released/",
-      "published_at": "2026-09-26T22:24:22Z",
-      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-run-qwen38flash-next-and-tiny-models-on-apple-silicon-up-to",
-      "source": "localllama",
-      "title": "Run Qwen3.8+Flash-Next and tiny models on Apple Silicon up to 3x faster",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr1qlz/run_qwen38flashnext_and_tiny_models_on_apple/",
-      "published_at": "2026-09-26T21:10:37Z",
-      "summary": "Maybe you&#39;ll like it? I hope I get to use my self-promotion credit a tiny little bit here after being in the community so long haha. I was the top of MLX.fast for a while and remain the winner on chips below M5. If y",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-improved-and-fixed-template-for-gpt-oss-again-includes-prese",
-      "source": "localllama",
-      "title": "Improved and fixed template for GPT-OSS (again). Includes preserve_thinking and fix for Unsloth-induced bug",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr0wki/improved_and_fixed_template_for_gptoss_again/",
-      "published_at": "2026-09-26T20:35:32Z",
-      "summary": "I posted an updated GPT-OSS template a couple of months ago, which was based on Unsloth&#39;s version. It turns out that both Unsloth&#39;s version (and, thus, mine) contain a very serious bug that can degrade the model ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-i-added-qwen-image-21-lora-support-to-tensorsharp-gguf-local",
-      "source": "localllama",
-      "title": "I added Qwen-Image 2.1 + LoRA support to TensorSharp (GGUF, local inference)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr0p3n/i_added_qwenimage_21_lora_support_to_tensorsharp/",
-      "published_at": "2026-09-26T20:26:36Z",
-      "summary": "      I maintain TensorSharp, an open-source inference engine. It can now run Qwen-Image 2.1 locally for text-to-image generation and image editing, with support for its LoRA adapters. I’ve added configs for regular styl",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-qwen-38-flash-next-is-based-on-qwen-4-architecture-if-the-an",
-      "source": "localllama",
-      "title": "Qwen 3.8 flash next is based on Qwen 4 architecture, if the announced Qwen 4 27b is also the same architecture with n-grams does it mean I can actually have faster inference on a single 3090 without tweaking much?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqzx12/qwen_38_flash_next_is_based_on_qwen_4/",
-      "published_at": "2026-09-26T19:54:27Z",
-      "summary": "I wish Qwen also released dataset and method to fully train a model ourselves but it is what it is. However, I come here with my stupid question because someone can answer it better.  And will the model still be an over ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-new-to-playing-around-with-local-ai-why-are-they-free",
-      "source": "localllama",
-      "title": "New to playing around with local ai. why are they free?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqwzk3/new_to_playing_around_with_local_ai_why_are_they/",
-      "published_at": "2026-09-26T17:56:16Z",
-      "summary": "I am new to playing around with local ai and have a ton to learn about it but I was curious, why are they (who is they?) releasing them for free, don&#39;t they want you to pay them to use them, why release free models? ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-26-85-gb-deepseek-v4-flash-at-3-toks-on-a-12-gb-rtx-3060-64-gb",
-      "source": "localllama",
-      "title": "85 GB DeepSeek-V4-Flash at ~3 tok/s on a 12 GB RTX 3060 + 64 GB DDR5 RAM - Overspill for FreeToken, inspired by Colibri",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqwm3o/85_gb_deepseekv4flash_at_3_toks_on_a_12_gb_rtx/",
-      "published_at": "2026-09-26T17:41:06Z",
-      "summary": "I&#39;ve been experimenting with ways to run MoE models that don&#39;t fit comfortably in RAM, and I ended up making Overspill, a disk tier for FreeToken. The basic idea came from looking at how Colibri handles experts a",
-      "tags": [
-        "localllama"
       ]
     },
     {

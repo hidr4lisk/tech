@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-09-27T04:39:41Z",
+  "updated_at": "2026-09-27T11:44:49Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11212",
+      "project": "llama-cpp",
+      "version": "b11212",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11212",
+      "published_at": "2026-09-27T11:20:48Z",
+      "body_excerpt": "common : throw instead of abort on grammar without llguidance (#29516) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11211",
+      "project": "llama-cpp",
+      "version": "b11211",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11211",
+      "published_at": "2026-09-27T10:04:33Z",
+      "body_excerpt": "RPC: use RDMA completion channel to not spin (#29440) RPC: use RDMA completion queue to not spin add TODO for apple RDMA Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11209",
+      "project": "llama-cpp",
+      "version": "b11209",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11209",
+      "published_at": "2026-09-27T08:59:09Z",
+      "body_excerpt": "llama-bench : fix OOB access of hf_file (#29515) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) -",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11208",
+      "project": "llama-cpp",
+      "version": "b11208",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11208",
+      "published_at": "2026-09-27T07:56:00Z",
+      "body_excerpt": "hrm : fix layer placement of weight (#29512) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11207",
+      "project": "llama-cpp",
+      "version": "b11207",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11207",
+      "published_at": "2026-09-27T06:30:27Z",
+      "body_excerpt": "hexagon: support tiled Q4_0 and Q8_0 GET_ROWS (#29511) hexagon: support tiled Q4_0 and Q8_0 GET_ROWS hex-get-rows: fix macros hex-get-rows: use tiled HVX dequantization Assisted-by: OpenCode hex-get-rows: fix register spills and clean up checks for unsupported ops hex-get-rows: improve dma pipeline hex-get-rows: improve/simplify kernel selection logic hex-build: reenable vectorizer, didnt notice t",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11206",
       "project": "llama-cpp",
@@ -10719,42 +10764,6 @@
       "published_at": "2026-06-29T16:18:51Z",
       "body_excerpt": "common : dedup preset and cached model entries in /v1/models (#25131) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) ",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9840",
-      "project": "llama-cpp",
-      "version": "b9840",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9840",
-      "published_at": "2026-06-29T10:25:16Z",
-      "body_excerpt": "DeepSeek V4 (#24162) convert: add dsv4 conversion add basic setup add llm_graph_input_dsv4 add save-load state add sinkhorn eps - correction by @fairydreaming add rope fix cleanup dead code fix bugs support pro model: added by @fairydreaming remove redundant V cache Chat template remove debugging leftovers Add mechanism for inlining templates based on architecture s/deepseek-v4-flash/deepseek4/g s",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9839",
-      "project": "llama-cpp",
-      "version": "b9839",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9839",
-      "published_at": "2026-06-29T09:45:35Z",
-      "body_excerpt": "tools/ui: restore Tailwind scanning in ignored worktrees (#24879) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9838",
-      "project": "llama-cpp",
-      "version": "b9838",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9838",
-      "published_at": "2026-06-29T07:33:46Z",
-      "body_excerpt": "common : remove unused regex-partial (#25118) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Qwen3.5-397B-A17B-NVFP4-V2",
-      "project": "nvidia",
-      "version": "Qwen3.5-397B-A17B-NVFP4-V2",
-      "url": "https://huggingface.co/nvidia/Qwen3.5-397B-A17B-NVFP4-V2",
-      "published_at": "2026-06-29T06:04:43Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
