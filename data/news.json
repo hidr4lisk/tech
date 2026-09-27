@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-09-27T16:43:00Z",
+  "updated_at": "2026-09-27T21:08:40Z",
   "items": [
+    {
+      "id": "localllama-2026-09-27-hardware-roofline-inference-calculator",
+      "source": "localllama",
+      "title": "Hardware Roofline Inference Calculator",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrv32p/hardware_roofline_inference_calculator/",
+      "published_at": "2026-09-27T20:42:35Z",
+      "summary": "      Hello everyone, I made a calculator for the theoretical HW roofline for decoding / prefill based on several parameters (LLM model architecture, quants, GPU, Memory, ..). It still a theoretical bound, but helpful as",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-so-yeah",
+      "source": "localllama",
+      "title": "... so, yeah.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrutx9/so_yeah/",
+      "published_at": "2026-09-27T20:32:36Z",
+      "summary": "      Finally got 3.8-Flash-Next running on my M4Pro 48GB Mac with https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF  Dense 3.8-27B is just faster... and maybe better due to quantization level...  &#32; ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-imbalanced-vram-usage-between-two-gpus-in-llamacpp-anyone-su",
+      "source": "localllama",
+      "title": "Imbalanced VRAM usage between two GPUs in llama.cpp. Anyone successfully solve this?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wruh65/imbalanced_vram_usage_between_two_gpus_in/",
+      "published_at": "2026-09-27T20:18:57Z",
+      "summary": "      There is always at least 1+GB of VRAM not usable not matter how I set the --tensor-split (-ts) param. I tiny shift toward one side will move the weight significantly to the other side. 😵‍💫 Adjusting context will in",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-naive-n05-flash---309b-a155b",
+      "source": "localllama",
+      "title": "Naive-N0.5-Flash - 309B-A15.5B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrs58t/naiven05flash_309ba155b/",
+      "published_at": "2026-09-27T18:48:03Z",
+      "summary": "      https://naive.ai/en/research/  Built for coding and AI R&amp;D 1M context Hybrid SWA/DSA   &#32; submitted by &#32;  /u/nullmove   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-qwen-38-27b-vs-qwen-38-flash-next-and-time-to-complete-a-cod",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B vs Qwen 3.8 Flash Next and time to complete a coding task.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrs2ii/qwen_38_27b_vs_qwen_38_flash_next_and_time_to/",
+      "published_at": "2026-09-27T18:45:02Z",
+      "summary": "I am new to all this so still a lot to learn. If I give Qwen3.8 27B a coding task to fix some bugs in some code, it went through and found and fixed several in like 5 or 10 minutes. I gave qwen flash next the same task a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-public-mcp-server-for-canadian-privacy-law-data-free-no-auth",
+      "source": "localllama",
+      "title": "Public MCP server for Canadian privacy law data (free, no auth) - works with any client that speaks Streamable HTTP",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrs1dw/public_mcp_server_for_canadian_privacy_law_data/",
+      "published_at": "2026-09-27T18:43:49Z",
+      "summary": "I built this, so the disclosure goes up front. It&#39;s a free, public MCP server plus a REST API with Canadian privacy law data. The MCP endpoint is at https://movahedi.ca/mcp and it uses Streamable HTTP, so any client ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-dont-trust-frontier-models-when-asking-about-budget-hardware",
+      "source": "localllama",
+      "title": "Don't trust frontier models when asking about budget hardware!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrrgex/dont_trust_frontier_models_when_asking_about/",
+      "published_at": "2026-09-27T18:21:08Z",
+      "summary": "Early this year when I was first looking at building up my inference capability you could get the 16GB Tesla P100s for between $60 and $80. Asked claude about it, told me absolutely not worth it. No tensor cores, bad int",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-qwen38-flash-next-125b-at-12-15-toks-on-a-2021-32gb-m1-max",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next (125B) at 12-15 tok/s on a 2021 32GB M1 Max",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrqql8/qwen38flashnext_125b_at_1215_toks_on_a_2021_32gb/",
+      "published_at": "2026-09-27T17:53:08Z",
+      "summary": "Hi! I&#39;m the author of MoEspresso, which is my way of putting my own ideas about inference engines to the test. A lot of the fun has been trying different design choices, measuring what happens, and finding that sever",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-mimo-v26-flash-mopd",
+      "source": "localllama",
+      "title": "Mimo v2.6 flash MOPD",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrq71o/mimo_v26_flash_mopd/",
+      "published_at": "2026-09-27T17:31:35Z",
+      "summary": "      &#32; submitted by &#32;  /u/Automatic-Arm8153   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-updated-from-3x30902x3090-1x3090ti-to-2x5090",
+      "source": "localllama",
+      "title": "Updated from 3x3090(2x3090, 1x3090TI) to 2x5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrpiru/updated_from_3x30902x3090_1x3090ti_to_2x5090/",
+      "published_at": "2026-09-27T17:04:39Z",
+      "summary": "      Upgraded from 3x RTX 3090s to 2x RTX 5090s on my homelab server and picked up a solid speed jump on top of it from a software update (speculative decoding + NVFP4). Setup: llama.cpp (build b11216), running Qwen3.8-",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-27-is-switching-from-llama-cpp-to-vllm-worth-it",
+      "source": "localllama",
+      "title": "is switching from llama cpp to vllm worth it",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrpajn/is_switching_from_llama_cpp_to_vllm_worth_it/",
+      "published_at": "2026-09-27T16:55:37Z",
+      "summary": "I have hp z8 g4 with 512 ram and 1x3090 1x5060 16gb. has anyone made the transition from llama cpp to vllm recently? is it worth it? docker under windows or full linux install? I am mainly interested in the model support",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-27-xiaomi-mimo-26-flash-vs-glm-53-flash",
       "source": "localllama",
@@ -8,127 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrorlv/xiaomi_mimo_26_flash_vs_glm_53_flash/",
       "published_at": "2026-09-27T16:34:29Z",
       "summary": "I&#39;ve seen a lot of conflicting opinions about MiMo Flash, but I haven&#39;t tried it yet. How does it compare with GLM Flash for coding work like this? I&#39;m interested in: - back-end development - debugging, refac",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-27-adding-logit-penalty-for-wait-maybe-and-perhaps-to-qwen-mode",
-      "source": "localllama",
-      "title": "Adding logit penalty for \"wait\", \"maybe\" and \"perhaps\" to Qwen models improves their accuracy",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wromzr/adding_logit_penalty_for_wait_maybe_and_perhaps/",
-      "published_at": "2026-09-27T16:29:34Z",
-      "summary": "Meta came out with a banger paper https://arxiv.org/pdf/2606.00206, but it did not look at various quantizations supported in llama.cpp. So I did a run on 50 random MATH-500 questions (https://huggingface.co/datasets/Hug",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-27-how-do-you-guys-give-your-models-web-browsing-capabilities",
-      "source": "localllama",
-      "title": "How do you guys give your models web browsing capabilities?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wro7hg/how_do_you_guys_give_your_models_web_browsing/",
-      "published_at": "2026-09-27T16:12:58Z",
-      "summary": "I am using the Deepseek Harness, which has webfetch plugins by default. While it can help browse the internet, I myself have to give it specific URLs to search. But, apparently you can give it the full web browser and se",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-27-release---supratts-01-beta---a-tiny-296m-parameters-tts-mode",
-      "source": "localllama",
-      "title": "[Release] - SupraTTS-0.1-Beta - a tiny 29.6M parameters TTS model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrmye2/release_supratts01beta_a_tiny_296m_parameters_tts/",
-      "published_at": "2026-09-27T15:23:40Z",
-      "summary": "Hey guys! Today, we are releasing SupraTTS-0.1-Beta, a tiny ~29.6M parameters Text-To-Speech model. The audio quality is a bit better than the original Glow-TTS (the architecture our model is using!) while it&#39;s keepi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-27-we-released-veriloop-e2-27b-apache-20-the-design-question-be",
-      "source": "localllama",
-      "title": "We released VeriLoop E2 (27B, Apache-2.0). The design question behind it: should an LLM be allowed to commit its own state?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrmgf0/we_released_veriloop_e2_27b_apache20_the_design/",
-      "published_at": "2026-09-27T15:03:07Z",
-      "summary": "Disclosure: I’m one of the authors of VeriLoop E2, a 27B model post-trained from Qwen3.8-27B. The weights are Apache-2.0; the harness we evaluate it in is not open source (details at the bottom). This is a release post, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-27-what-if-open-source-ai-focused-less-on-giant-models-and-more",
-      "source": "localllama",
-      "title": "What if open-source AI focused less on giant models and more on reusable capabilities?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrlj46/what_if_opensource_ai_focused_less_on_giant/",
-      "published_at": "2026-09-27T14:24:48Z",
-      "summary": "Instead of everyone building another general-purpose model, the community could distill open models into domain specialists—biology, Python, accounting, OCR, and more. Developers could combine these capabilities into loc",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-27-anyone-running-freetoken-with-moe-offload",
-      "source": "localllama",
-      "title": "Anyone running Freetoken with MoE offload?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrl8x2/anyone_running_freetoken_with_moe_offload/",
-      "published_at": "2026-09-27T14:12:42Z",
-      "summary": "How&#39;s that working out compared to llamaCPP MoE offload? I haven&#39;t gotten a chance to run this but it seems to be gaining some traction.  &#32; submitted by &#32;  /u/fragment_me   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-27-worth-going-from-qwen38-27b-to-flash-next-or-maaybe-deepseek",
-      "source": "localllama",
-      "title": "Worth going from Qwen3.8 27B to flash next or maaybe deepseek v4 flash?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrkle9/worth_going_from_qwen38_27b_to_flash_next_or/",
-      "published_at": "2026-09-27T13:44:10Z",
-      "summary": "I am running qwen3.8 27b on my dual rtx 3090 (fp8 quant, unquantized cache, 129k context) and I think it works decently well with hermes, opencode etc.  But! I am tempted by the new models coming out such as qwen3.8 flas",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-27-zer0fit---zero-shot-predictions-classifications-and-regressi",
-      "source": "localllama",
-      "title": "Zer0Fit - Zero-shot predictions, classifications, and regressions using Google ML research models running locally as a dockerized MCP",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrke2t/zer0fit_zeroshot_predictions_classifications_and/",
-      "published_at": "2026-09-27T13:34:53Z",
-      "summary": "      AI grad student here. With all the recent interest in Jev, I thought I would share something I built la few months ago that brings ML models and LLMs together in a different way than Jev does for different use case",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-27-prevent-cuda-oom-in-pytorch-with-dynamic-lane-switching",
-      "source": "localllama",
-      "title": "Prevent CUDA OOM in PyTorch with dynamic lane switching",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrjw90/prevent_cuda_oom_in_pytorch_with_dynamic_lane/",
-      "published_at": "2026-09-27T13:12:07Z",
-      "summary": "I built MEM v3 to solve a frustrating problem in PyTorch: CUDA Out-of-Memory crashes during long training and fine-tuning runs. Instead of restarting when memory spikes or keeping batch sizes overly small just to be safe",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-27-the-opus-55-posts-about-motion-graphics-are-cool-but-qwen-27",
-      "source": "localllama",
-      "title": "The Opus 5.5 posts about motion graphics are cool but Qwen 27B made this on a 4090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrjlls/the_opus_55_posts_about_motion_graphics_are_cool/",
-      "published_at": "2026-09-27T12:58:39Z",
-      "summary": "      Saw the hundreds of tweets where people just keep asking Opus 5.5 for motion graphic videos. Decided to ask qwen to look at them and make its own. Quite amazing what local can achieve. **EDIT** It looks laggy becau",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-27-anyone-with-experience-using-dual-sxm2-to-pcie-card",
-      "source": "localllama",
-      "title": "Anyone with experience using dual SXM2 to PCIe card?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wria8b/anyone_with_experience_using_dual_sxm2_to_pcie/",
-      "published_at": "2026-09-27T11:52:16Z",
-      "summary": "      As per the title. My thinking is that if you run one of these then you would just need a computer with a pcie slot to be up and running. With an nvlink baseboard you need a separate PLX adapter card as well as the ",
       "tags": [
         "localllama"
       ]
