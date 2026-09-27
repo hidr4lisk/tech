@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-27T16:43:06Z",
+  "updated_at": "2026-09-27T21:08:47Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11222",
+      "project": "llama-cpp",
+      "version": "b11222",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11222",
+      "published_at": "2026-09-27T17:43:57Z",
+      "body_excerpt": "common : avoid side effects around params parsing (#29537) register --rpc unconditionally and call llama_supports_rpc() only from its handler print server \"initialization ...\" log after args are parsed Assisted-by: pi:llama.cpp/MiMo-V2.6-Flash-RL Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Li",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11221",
       "project": "llama-cpp",
@@ -10800,24 +10809,6 @@
       "published_at": "2026-06-29T23:04:41Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "vllm-v0.24.0",
-      "project": "vllm",
-      "version": "v0.24.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.24.0",
-      "published_at": "2026-06-29T19:41:59Z",
-      "body_excerpt": "vLLM v0.24.0 Release Notes Highlights This release features 571 commits from 256 contributors (77 new)! MiniMax-M3: Added support for the new MiniMax-M3 model (#45381), with a fast follow-on of BF16/FP8 indexer via MSA (#45892), MXFP4 support (#45896), FP8 sparse GQA (#45744), and extensive AMD/ROCm tuning — mxfp8 MoE/linear on gfx950 (#45725), fp8_per_channel for bf16 weights on MI300X (#45854), ",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.30.12-rc0",
-      "project": "ollama",
-      "version": "v0.30.12-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.12-rc0",
-      "published_at": "2026-06-29T17:45:08Z",
-      "body_excerpt": "What's Changed tools: ignore braces inside JSON strings when detecting tool call end by @aditya-786 in mlx: bump dependency by @dhiltgen in llama.cpp update by @dhiltgen in New Contributors @aditya-786 made their first contribution in Full Changelog:",
-      "type": "tool"
     }
   ]
 }
