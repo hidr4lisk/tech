@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-09-27T11:44:49Z",
+  "updated_at": "2026-09-27T16:43:06Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11221",
+      "project": "llama-cpp",
+      "version": "b11221",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11221",
+      "published_at": "2026-09-27T16:35:15Z",
+      "body_excerpt": "common : make string_split throw on invalid values (#29518) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11218",
+      "project": "llama-cpp",
+      "version": "b11218",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11218",
+      "published_at": "2026-09-27T14:58:46Z",
+      "body_excerpt": "jinja : add support for dict builtin (#29477) add support for dict builtin add tests Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11217",
+      "project": "llama-cpp",
+      "version": "b11217",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11217",
+      "published_at": "2026-09-27T14:33:56Z",
+      "body_excerpt": "opencl: refine bin kernel loading condition (#29503) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11216",
+      "project": "llama-cpp",
+      "version": "b11216",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11216",
+      "published_at": "2026-09-27T14:06:35Z",
+      "body_excerpt": "sycl: FWHT kernels for block widths above 512 (#29243) The SYCL FWHT covers 64 to 512 via the standard butterfly network, plus 384/640/768/1280 via the Kronecker/Paley construction added separately in Hadamard hint can produce (1024, 2048, 4096, 8192); those still fall through to the default case and run as a dense GEMM against the materialized rotation tensor, correct but O(n^2) instead of O(n lo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11215",
+      "project": "llama-cpp",
+      "version": "b11215",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11215",
+      "published_at": "2026-09-27T13:33:13Z",
+      "body_excerpt": "CUDA: tune fp16 tile FlashAttention configs for head sizes 40-112 (#26289) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11214",
+      "project": "llama-cpp",
+      "version": "b11214",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11214",
+      "published_at": "2026-09-27T12:45:21Z",
+      "body_excerpt": "HIP: Enable fattn-mma kernel on cdna for dkq > 256 for large batch sizes (#28907) HIP: Enable fattn-mma kernel on cdna for dkq > 256 for large batch sizes CI: hip-quality-check: ignore spills for very large mfma mma kernels Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11213",
+      "project": "llama-cpp",
+      "version": "b11213",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11213",
+      "published_at": "2026-09-27T11:50:08Z",
+      "body_excerpt": "vulkan: fix argsort kernel selection for Adreno (#29469) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ub",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11212",
       "project": "llama-cpp",
@@ -10754,15 +10817,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.30.12-rc0",
       "published_at": "2026-06-29T17:45:08Z",
       "body_excerpt": "What's Changed tools: ignore braces inside JSON strings when detecting tool call end by @aditya-786 in mlx: bump dependency by @dhiltgen in llama.cpp update by @dhiltgen in New Contributors @aditya-786 made their first contribution in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9842",
-      "project": "llama-cpp",
-      "version": "b9842",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9842",
-      "published_at": "2026-06-29T16:18:51Z",
-      "body_excerpt": "common : dedup preset and cached model entries in /v1/models (#25131) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) ",
       "type": "tool"
     }
   ]
