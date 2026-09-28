@@ -1,57 +1,156 @@
 {
-  "updated_at": "2026-09-28T13:24:31Z",
+  "updated_at": "2026-09-28T23:05:08Z",
   "items": [
     {
-      "id": "localllama-2026-09-28-you-can-just-merge-qwen36-38-27b-to-get-decent-performance-w",
+      "id": "simonw-2026-09-28-claude-sonnet-55",
+      "source": "simonw",
+      "title": "Claude Sonnet 5.5",
+      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+      "published_at": "2026-09-28T22:07:38Z",
+      "summary": "Claude Sonnet 5.5\nNew Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-28-debugging-pcie-link-retraining-on-an-x8x8-splitter-with-two",
       "source": "localllama",
-      "title": "You can just merge Qwen3.6 & 3.8 27B to get decent performance with much fewer token generation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsdyd2/you_can_just_merge_qwen36_38_27b_to_get_decent/",
-      "published_at": "2026-09-28T12:59:52Z",
-      "summary": "      &#32; submitted by &#32;  /u/Danmoreng   [link] &#32; [comments] ",
+      "title": "Debugging PCIe Link Retraining on an x8/x8 Splitter with Two RTX 3090s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsscrw/debugging_pcie_link_retraining_on_an_x8x8/",
+      "published_at": "2026-09-28T22:02:16Z",
+      "summary": "      &#32; submitted by &#32;  /u/bolts98   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-28-vulkan-fuse-qwen4exps-scale---sigmoid---scale---hc-post-chai",
+      "id": "localllama-2026-09-28-3d2d-text-visualisation",
       "source": "localllama",
-      "title": "vulkan: fuse qwen4exp's SCALE -> SIGMOID -> SCALE -> hc_post chain by fxgsell · Pull Request #29520 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsdy6t/vulkan_fuse_qwen4exps_scale_sigmoid_scale_hc_post/",
-      "published_at": "2026-09-28T12:59:41Z",
-      "summary": "      Qwen Flash Next speedup for Vulkan people  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "title": "3D/2D Text Visualisation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wss84x/3d2d_text_visualisation/",
+      "published_at": "2026-09-28T21:57:06Z",
+      "summary": "      Like everyone, I use 3js for data visualisation. But while semantic clusters are interesting, they don&#39;t confer much practical information alone.  So I did something very simple: a query spatially re-assembles ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-28-guys-i-promise-it-wasnt-me",
+      "id": "localllama-2026-09-28-searching-for-38-35b-qwen36-35b-a3b-testing-5-finetunes-vs-b",
       "source": "localllama",
-      "title": "Guys I promise It wasn't me 😭😭",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsc0iz/guys_i_promise_it_wasnt_me/",
-      "published_at": "2026-09-28T11:26:50Z",
-      "summary": "      https://preview.redd.it/psc1tc7lx8sh1.png?width=733&amp;format=png&amp;auto=webp&amp;s=32cccd895c37b537d3b09c9b00c27e3d881638f4 https://www.reddit.com/r/LocalLLaMA/s/ddBWXZd3Hu  &#32; submitted by &#32;  /u/SilverR",
+      "title": "Searching for 3.8 35B: Qwen3.6-35B-A3B (Testing 5 Finetunes vs. Base)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wss436/searching_for_38_35b_qwen3635ba3b_testing_5/",
+      "published_at": "2026-09-28T21:52:28Z",
+      "summary": "TL;DR -- You should probably just use base Qwen3.6-35B, as only Occamy-1.0 is competitive with it. Tiel is a major let-down, worse than Ornith. KAT surprises (good), Nex surprises (bad). This post is long. Sorry, lots to",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-28-veriloop-e2-vs-qwen-38-27b-base-another-benchmaxxed-slop-or",
+      "id": "localllama-2026-09-28-swift-15-hyperqwen-37-less-task-completion-time-at-100-tps-w",
       "source": "localllama",
-      "title": "VeriLoop E2 vs Qwen 3.8 27B Base , Another Benchmaxxed slop or?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsbtxp/veriloop_e2_vs_qwen_38_27b_base_another/",
-      "published_at": "2026-09-28T11:16:58Z",
-      "summary": "      I&#39;ve been testing VeriLoop E2 for a bit another benchmaxxed Finetune slop or treasure and wanted to try it in GSQ-RCO as well. So I made a 3-bit GSQ-RCO quant of VeriLoop E2 and compared it with the other two 2",
+      "title": "Swift 1.5 + HyperQwen = 37% less task completion time at 100+ tps w/ 150k context on RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsqjku/swift_15_hyperqwen_37_less_task_completion_time/",
+      "published_at": "2026-09-28T20:52:10Z",
+      "summary": "Hi everyone :) The amazing Swift finetunes of Qwen3.8 27B generate much fewer tokens at mostly similar benchmark performance to the original model, while repos like HyperQwen (formerly syv-ai/qwen38-27b-rtx3090) deliver ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-28-holo4",
+      "id": "localllama-2026-09-28-qwen-next-38-and-38-27b-vs-sonnet-55-low-and-sonnet-55-mediu",
       "source": "localllama",
-      "title": "Holo4",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsbi1y/holo4/",
-      "published_at": "2026-09-28T10:59:27Z",
-      "summary": "      Holo4-27B-GGUF is a vision-language model (VLM) for Computer Use, built on the Qwen3.8 dense architecture and developed by H Company. Used with the hai-agents harness, it can send screenshots and tool results to th",
+      "title": "Qwen next 3.8 and 3.8 27b Vs Sonnet 5.5 low and Sonnet 5.5 medium.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsq6r5/qwen_next_38_and_38_27b_vs_sonnet_55_low_and/",
+      "published_at": "2026-09-28T20:38:40Z",
+      "summary": "      Six months ago, a result like this was unthinkable. But now we can say it loud and clear: local models are at the cutting edge, and the gap of just a few months has been confirmed.  Personally, I use Qwen-Next 3.8 ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-28-can-we-get-some-quality-control-on-all-these-model-perf-post",
+      "source": "localllama",
+      "title": "Can we get some quality control on all these model perf posts?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsq0pa/can_we_get_some_quality_control_on_all_these/",
+      "published_at": "2026-09-28T20:32:10Z",
+      "summary": "Too many hyperactive amateurs are coming in here with &quot;1b model at 832843tok/s!&quot; and hardly any of them have all the info necessary for local runners to evaluate. We need context ladders with perplexity/KLD, ha",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-28-trained-locally-ultra-fast-08b2b-system-1-decision-models-th",
+      "source": "localllama",
+      "title": "Trained locally: ultra-fast 0.8B/2B System 1 decision models that match Jev on benchmarks and Doom, ~30 ms per decision (open weights)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wspn24/trained_locally_ultrafast_08b2b_system_1_decision/",
+      "published_at": "2026-09-28T20:17:59Z",
+      "summary": "TL;DR: The Jeff models are a set of Qwen3.5 and Gemma fine-tunes for zero-shot classification: small, efficient, open-weight models with respectable out-of-the-box performance that can be slotted right into code or fine-",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-28-qwen-38-is-a-workhorse",
+      "source": "localllama",
+      "title": "Qwen 3.8 is a workhorse",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wso6gn/qwen_38_is_a_workhorse/",
+      "published_at": "2026-09-28T19:24:46Z",
+      "summary": "      https://preview.redd.it/23cumykhabsh1.png?width=944&amp;format=png&amp;auto=webp&amp;s=0b1d1c437fc845169f521b31793e2b1325dab0dd Reminder that you can put Qwen 3.8 27B as a subagent and its a workhorse. Pic: using D",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-09-28-quoting-joedaroo",
+      "source": "simonw",
+      "title": "Quoting @joedaroo",
+      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
+      "published_at": "2026-09-28T19:11:42Z",
+      "summary": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Securit",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-28-9-prompt-rules-cut-my-coding-agents-wasted-thinking-up-to-70",
+      "source": "localllama",
+      "title": "9 prompt rules cut my coding agent's wasted thinking up to 70% (GLM 5.3 & GLM 5.3 Flash)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsnjzu/9_prompt_rules_cut_my_coding_agents_wasted/",
+      "published_at": "2026-09-28T19:02:28Z",
+      "summary": "360 A/B runs on GLM 5.3 and GLM 5.3 Flash, max thinking, 5 repeats per cell. Savings up to 70%. The block (shipped to global instructions): ## Thinking discipline 1. Check the request first. In one or two lines, say what",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-28-i-am-concerned-about-all-these-disparate-hard-forks-that-tar",
+      "source": "localllama",
+      "title": "I am concerned about all these disparate hard forks that target specific architectures instead of opening a PR against upstream",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsn59w/i_am_concerned_about_all_these_disparate_hard/",
+      "published_at": "2026-09-28T18:47:59Z",
+      "summary": "Other than the obvious self promotion, is there a practical reason people do this that I am missing? There&#39;s dozens of llamacpp forks with silly names that are supposedly &quot;optimized&quot; for this or that specif",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-28-95-tps-through-100k-generated-for-qwen38-27b-262k-ctx-on-a-s",
+      "source": "localllama",
+      "title": "95+ TPS through 100K generated for qwen3.8 27b, 262K ctx, on a single 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsmtd4/95_tps_through_100k_generated_for_qwen38_27b_262k/",
+      "published_at": "2026-09-28T18:35:43Z",
+      "summary": "      Hello everyone! A little while back I posted about LlamAmpere, a fork of Llama.cpp with Ampere-specific improvements (though it is caught up to main and will support other hardware, too). Thank you to everyone that",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-28-what-do-you-think-about-tomoe-v2-paper-converting-dense-mode",
+      "source": "localllama",
+      "title": "What do you think about ToMoE v2 paper, converting dense model to MoE model at near lossless accuracy? I feel Qwen3.8-27B-A16B or something along those lines would be amazing, though there are architectural hurdles, as well as need folr training data.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsmsnx/what_do_you_think_about_tomoe_v2_paper_converting/",
+      "published_at": "2026-09-28T18:35:00Z",
+      "summary": "&#32; submitted by &#32;  /u/jinnyjuice   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
@@ -65,83 +164,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-28-nvidia-shipped-openshell-an-open-source-sandbox-that-gives-l",
-      "source": "localllama",
-      "title": "NVIDIA shipped OpenShell, an open source sandbox that gives local and open agents real runtime limits instead of prompt rules. Over 100 firms joined the safety stack. OpenAI did not.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws9ydg/nvidia_shipped_openshell_an_open_source_sandbox/",
-      "published_at": "2026-09-28T09:27:53Z",
-      "summary": "      https://x.com/JensenHuang/status/2104499465055023424  &#32; submitted by &#32;  /u/InternationalGap3698   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-28-3090-for-1500",
-      "source": "localllama",
-      "title": "3090 for $1500???",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws8f1r/3090_for_1500/",
-      "published_at": "2026-09-28T07:52:16Z",
-      "summary": "A couple weeks ago, I thought they were selling for 1200. On eBay now, the cheapest &quot;buy it now&quot; seems to be just shy of 1500. It feels like we&#39;re in a game of GPU musical chairs now.   &#32; submitted by &",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-28-if-you-are-running-qwen-38-flash-next-on-strix-halo-use-this",
-      "source": "localllama",
-      "title": "If you are running Qwen 3.8 Flash Next on Strix Halo, use this software for inference. It's so much faster than llama.cpp especially at high context.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws8dpy/if_you_are_running_qwen_38_flash_next_on_strix/",
-      "published_at": "2026-09-28T07:49:56Z",
-      "summary": "Here&#39;s the project. I have nothing to do with it. I&#39;m just an amazed user. https://github.com/gufo-org/gufo/blob/main/docs/models/qwen3.8-flash-next/BENCHMARKS.md Those benchmark numbers hold up on real work load",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-28-modified-qwen-38-27b-modifies-windows-credential-dumper-to-b",
-      "source": "localllama",
-      "title": "modified qwen 3.8 27b modifies windows credential dumper to bypass EDR detection",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws7csk/modified_qwen_38_27b_modifies_windows_credential/",
-      "published_at": "2026-09-28T06:46:33Z",
-      "summary": "      link to original article TLDR: security researcher eddie zhang used a modified+uncensored local qwen 3.8 27b to create an executable capable of dumping LSASS memory for credential harvesting while evading 2 modern ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-28-minisforum-ms-s1-max-p495-779900",
-      "source": "localllama",
-      "title": "Minisforum MS-S1 MAX-P495 @ €7.799,00",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws77kn/minisforum_mss1_maxp495_779900/",
-      "published_at": "2026-09-28T06:37:45Z",
-      "summary": "MINISFORUM MS-S1 MAX-P495 – Minisforum EU Expected to ship mid october. At that price point, it doesn&#39;t make a whole lot of sense in my opinion. I get that ram prices are where they are, i get that it&#39;s a newer m",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-28-3090-nvlink-bridges-are-there-clones-of-these-why-are-they-s",
-      "source": "localllama",
-      "title": "3090 NVLink bridges: are there clones of these? why are they so insanely expensive?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws6bwf/3090_nvlink_bridges_are_there_clones_of_these_why/",
-      "published_at": "2026-09-28T05:45:54Z",
-      "summary": "I think I need a 3-slot for my two cards. but holy fuck these things are pricey.  &#32; submitted by &#32;  /u/starkruzr   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-28-liked-muse-so-i-cut-the-30b-model-in-half-by-width-distilled",
-      "source": "localllama",
-      "title": "Liked Muse, so I cut the 30B model in half by width, distilled it back, and it does 57 of 60 tool tasks its parent does 60 of",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws6bmh/liked_muse_so_i_cut_the_30b_model_in_half_by/",
-      "published_at": "2026-09-28T05:45:28Z",
-      "summary": "I&#39;ve liked how Muse-Glimmer worked, so I wanted to see if I could produce a smaller &quot;kid&quot; out of it. Ornith&#39;s sharp decisions on when to think and which tool to call were the other thing I liked, so Orn",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -299,17 +321,6 @@
       ]
     },
     {
-      "id": "simonw-2026-09-22-llm-typesafe-01a0",
-      "source": "simonw",
-      "title": "llm-typesafe 0.1a0",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
-      "published_at": "2026-09-22T15:54:16Z",
-      "summary": "Release: llm-typesafe 0.1a0\n        I built this new plugin for LLM to add support for TypeSafe AI's new Jev model. Install it like this:\nllm install llm-typesafe\n\nThen set an API key (get one here, the waitlist seems to",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-09-22-transformers-now-runs-llamacpp-quants",
       "source": "huggingface",
       "title": "Transformers now runs llama.cpp quants",
@@ -340,17 +351,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-21-jev-introduces-a-new-shape-of-llm---system-one-aka-decision",
-      "source": "simonw",
-      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-      "url": "https://simonwillison.net/2026/Sep/21/jev/",
-      "published_at": "2026-09-21T23:09:20Z",
-      "summary": "Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an int",
-      "tags": [
-        "simonw"
       ]
     },
     {
