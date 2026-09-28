@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-28T04:41:31Z",
+  "updated_at": "2026-09-28T13:24:38Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11229",
+      "project": "llama-cpp",
+      "version": "b11229",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11229",
+      "published_at": "2026-09-28T12:43:28Z",
+      "body_excerpt": "HIP: fix template skip for DKQ > 256 mfma kernels (#29559) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11228",
+      "project": "llama-cpp",
+      "version": "b11228",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11228",
+      "published_at": "2026-09-28T11:06:50Z",
+      "body_excerpt": "metal: support left and circular padding in GGML_OP_PAD (#29561) metal: support left and circular padding in GGML_OP_PAD Align Metal with CPU, CUDA and Vulkan: shift the source coordinates by the left paddings, wrap them around with the same wrap_around when circular, and read the source through nb00, which also fixes a right padding of a permuted source. A test case covers it. Drop the f32_4 kern",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11227",
+      "project": "llama-cpp",
+      "version": "b11227",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11227",
+      "published_at": "2026-09-28T09:29:57Z",
+      "body_excerpt": "context : do not re-reserve the scheduler when toggling causal_attn (#28751) context : do not re-reserve the scheduler when toggling causal_attn marks the scheduler to do a full re-reserve on every change of the flag. For vision inputs, this flag is flipped twice around each non-causal image chunk for Gemma models, resulting in two expensive passes per image. This is especially slow for multi-imag",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11226",
+      "project": "llama-cpp",
+      "version": "b11226",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11226",
+      "published_at": "2026-09-28T08:45:12Z",
+      "body_excerpt": "Enables Windows ARM64 build with MSVC cl.exe (#28362) can reproduce the issue vlad sees fix fma issue drop volatile fix volatile runtime task add arm flag if needed fix hsum compile error fix syntax in quants strengthen sve probing make the syntax fixes one liners remove debug code formatting remove macro for float drive down gcc instruction count support armec fix CI comments address CI comments ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11225",
+      "project": "llama-cpp",
+      "version": "b11225",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11225",
+      "published_at": "2026-09-28T08:11:09Z",
+      "body_excerpt": "tests : fix ggml init (#29554) tests : init ggml for test-recurrent-state-rollback cont : same for test-save-load-state cont : add to test-state-restore-fragmented + add TODOs Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11224",
+      "project": "llama-cpp",
+      "version": "b11224",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11224",
+      "published_at": "2026-09-28T07:06:08Z",
+      "body_excerpt": "vulkan: fix wrong results when a mul_mat reads a slice of a larger cache (#28956) vulkan: read the batch stride of an in place src0 from nb[2] A dim01 contiguous tensor can still be a view whose batches are strided by more than ne[1] rows, the first rows of a KV cache for example. Both the mat-vec and the matrix paths read such a tensor in place but passed ne00ne01 as the batch stride, so every he",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11223",
       "project": "llama-cpp",
@@ -10754,42 +10808,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9848",
       "published_at": "2026-06-30T14:06:34Z",
       "body_excerpt": "CUDA: fix get_rows_back for tables with more than 65535 rows (grid-y clamp + stride) (#25103) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9847",
-      "project": "llama-cpp",
-      "version": "b9847",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9847",
-      "published_at": "2026-06-30T13:16:34Z",
-      "body_excerpt": "CUDA: fix Gemma E4B MTP FlashAttention (#25148) CUDA: fix Gemma E4B MTP FlashAttention remove unused template declaration macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ub",
-      "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-GELab-Zero-4B-preview-Sico-Evolution",
-      "project": "microsoft",
-      "version": "GELab-Zero-4B-preview-Sico-Evolution",
-      "url": "https://huggingface.co/microsoft/GELab-Zero-4B-preview-Sico-Evolution",
-      "published_at": "2026-06-30T12:46:05Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9846",
-      "project": "llama-cpp",
-      "version": "b9846",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9846",
-      "published_at": "2026-06-30T11:03:05Z",
-      "body_excerpt": "vulkan: roll bk loop in matmul for asahi linux (#24663) vulkan: roll bk loop in matmul for asahi linux vulkan: fix inline comment vulkan: revert BK-loop unroll change vulkan: edit spirv directly for asahi roll bk loop vulkan: remove trailing whitespace at the end of comments macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramew",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9844",
-      "project": "llama-cpp",
-      "version": "b9844",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9844",
-      "published_at": "2026-06-30T08:56:41Z",
-      "body_excerpt": "ggml-webgpu: add support for NVFP4 (#25143) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windo",
       "type": "tool"
     }
   ]
