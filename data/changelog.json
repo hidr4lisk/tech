@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-27T21:08:47Z",
+  "updated_at": "2026-09-28T04:41:31Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11223",
+      "project": "llama-cpp",
+      "version": "b11223",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11223",
+      "published_at": "2026-09-27T22:03:23Z",
+      "body_excerpt": "server : allow RANK pooling batch splitting for causal LLM rerankers (ie. Qwen3 and Qwen3-VL) (#28876) server : allow splitting RANK pooling for causal LLM rerankers Rerank models fall into two categories: bidirectional cross-encoders (BERT, etc.) that require all tokens in a single physical batch, and causal LLMs repurposed as rerankers (Qwen3, Qwen3-VL) that can use chunked prefill like any othe",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11222",
       "project": "llama-cpp",
@@ -10782,33 +10791,6 @@
       "published_at": "2026-06-30T08:56:41Z",
       "body_excerpt": "ggml-webgpu: add support for NVFP4 (#25143) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windo",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9843",
-      "project": "llama-cpp",
-      "version": "b9843",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9843",
-      "published_at": "2026-06-30T01:17:43Z",
-      "body_excerpt": "Revert \"sched : reintroduce less synchronizations during split compute (#20793)\" (#25138) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
-      "type": "tool"
-    },
-    {
-      "id": "hf-google-tabfm-1.0.0-jax",
-      "project": "google",
-      "version": "tabfm-1.0.0-jax",
-      "url": "https://huggingface.co/google/tabfm-1.0.0-jax",
-      "published_at": "2026-06-29T23:04:41Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tabfm-1.0.0-pytorch",
-      "project": "google",
-      "version": "tabfm-1.0.0-pytorch",
-      "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
-      "published_at": "2026-06-29T23:04:41Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
