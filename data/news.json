@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-09-28T23:05:08Z",
+  "updated_at": "2026-09-29T05:08:06Z",
   "items": [
+    {
+      "id": "localllama-2026-09-29-first-few-days-of-qwen38-flash-next-on-4x-r9700---its-been-r",
+      "source": "localllama",
+      "title": "First few days of qwen3.8-flash-next on 4x R9700 - it's been really interesting so far",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsxgbo/first_few_days_of_qwen38flashnext_on_4x_r9700_its/",
+      "published_at": "2026-09-29T01:52:32Z",
+      "summary": "      Here&#39;s a metric dashboard giving an idea of the last few days. Been testing with a variety of different agentic coding use-cases, mostly using a pi harness. qwen3.8-flash-next has seriously exceeded my expectat",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-29-beijing-broadens-travel-curbs-to-encompass-family-of-top-ai",
+      "source": "localllama",
+      "title": "Beijing broadens travel curbs to encompass family of top AI talent in China",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsx4n9/beijing_broadens_travel_curbs_to_encompass_family/",
+      "published_at": "2026-09-29T01:37:13Z",
+      "summary": "https://www.japantimes.co.jp/business/2026/09/29/tech/china-travel-curbs-ai-talent/  Let&#39;s salute the sacrifice made by Chinese AI engineers and their families. 「O  &#32; submitted by &#32;  /u/Ok_Warning2146   [link",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-28-nvidianvidia-nemotron-labs-3-competitive-coding-550b-a55b-nv",
+      "source": "localllama",
+      "title": "nvidia/NVIDIA-Nemotron-Labs-3-Competitive-Coding-550B-A55B-NVFP4 · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsuqmb/nvidianvidianemotronlabs3competitivecoding550ba55b/",
+      "published_at": "2026-09-28T23:45:33Z",
+      "summary": "      Model Developer: NVIDIA Corporation Model Development: Fine-tuned from NVIDIA-Nemotron-3-Ultra-550B-A55B What is Nemotron? NVIDIA Nemotron™ is a family of open models with open weights, training data, and recipes, ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-28-speculative-reward-hacking-in-coding-agents",
+      "source": "localllama",
+      "title": "Speculative reward hacking in coding agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsuag0/speculative_reward_hacking_in_coding_agents/",
+      "published_at": "2026-09-28T23:25:35Z",
+      "summary": "      I audited thousands of agent rollouts in DeepSWE-1.1. Over 80% contained reasoning about an imagined grader. Yet no grader/verifier is mentioned in prompts nor accessible to the agents. Agents reasoned things like:",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "simonw-2026-09-28-claude-sonnet-55",
       "source": "simonw",
@@ -109,50 +153,6 @@
       "summary": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Securit",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-28-9-prompt-rules-cut-my-coding-agents-wasted-thinking-up-to-70",
-      "source": "localllama",
-      "title": "9 prompt rules cut my coding agent's wasted thinking up to 70% (GLM 5.3 & GLM 5.3 Flash)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsnjzu/9_prompt_rules_cut_my_coding_agents_wasted/",
-      "published_at": "2026-09-28T19:02:28Z",
-      "summary": "360 A/B runs on GLM 5.3 and GLM 5.3 Flash, max thinking, 5 repeats per cell. Savings up to 70%. The block (shipped to global instructions): ## Thinking discipline 1. Check the request first. In one or two lines, say what",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-28-i-am-concerned-about-all-these-disparate-hard-forks-that-tar",
-      "source": "localllama",
-      "title": "I am concerned about all these disparate hard forks that target specific architectures instead of opening a PR against upstream",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsn59w/i_am_concerned_about_all_these_disparate_hard/",
-      "published_at": "2026-09-28T18:47:59Z",
-      "summary": "Other than the obvious self promotion, is there a practical reason people do this that I am missing? There&#39;s dozens of llamacpp forks with silly names that are supposedly &quot;optimized&quot; for this or that specif",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-28-95-tps-through-100k-generated-for-qwen38-27b-262k-ctx-on-a-s",
-      "source": "localllama",
-      "title": "95+ TPS through 100K generated for qwen3.8 27b, 262K ctx, on a single 3090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsmtd4/95_tps_through_100k_generated_for_qwen38_27b_262k/",
-      "published_at": "2026-09-28T18:35:43Z",
-      "summary": "      Hello everyone! A little while back I posted about LlamAmpere, a fork of Llama.cpp with Ampere-specific improvements (though it is caught up to main and will support other hardware, too). Thank you to everyone that",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-28-what-do-you-think-about-tomoe-v2-paper-converting-dense-mode",
-      "source": "localllama",
-      "title": "What do you think about ToMoE v2 paper, converting dense model to MoE model at near lossless accuracy? I feel Qwen3.8-27B-A16B or something along those lines would be amazing, though there are architectural hurdles, as well as need folr training data.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsmsnx/what_do_you_think_about_tomoe_v2_paper_converting/",
-      "published_at": "2026-09-28T18:35:00Z",
-      "summary": "&#32; submitted by &#32;  /u/jinnyjuice   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
       ]
     },
     {
