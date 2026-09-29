@@ -1,136 +1,180 @@
 {
-  "updated_at": "2026-09-29T12:28:44Z",
+  "updated_at": "2026-09-29T22:04:03Z",
   "items": [
     {
-      "id": "localllama-2026-09-29-reflection-70b-was-released-two-years-ago-september-2024",
+      "id": "localllama-2026-09-29-good-setup-for-qfn-on-48gb-ampere-gpu-a40",
       "source": "localllama",
-      "title": "Reflection 70B was released two years ago (September 2024)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt7e94/reflection_70b_was_released_two_years_ago/",
-      "published_at": "2026-09-29T11:18:20Z",
-      "summary": "      You may think that jev, OpenClaw or TurboQuant are super cool, but actually the coolest LLM invention happened two years ago As we all know, the best source of reliable information about LLMs is YouTube: https://pr",
+      "title": "Good setup for QFN on 48GB Ampere GPU (A40)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtn3t3/good_setup_for_qfn_on_48gb_ampere_gpu_a40/",
+      "published_at": "2026-09-29T21:43:45Z",
+      "summary": "Anyone have a good config they&#39;ve found for QFN on a A40 (or similar Ampere GPU(s) with 48GB VRAM)? The system the card is in has 128GB of RAM (DDR3); right now it&#39;s running 27B but I&#39;m curious if there&#39;s",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-29-qwen-38-27b-q4-with-100k-context-on-a-16-gb-rx-7800-xt-guide",
+      "id": "localllama-2026-09-29-best-model-for-blender",
       "source": "localllama",
-      "title": "Qwen 3.8 27B Q4 with 100K context on a 16 GB RX 7800 XT guide",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt7e8l/qwen_38_27b_q4_with_100k_context_on_a_16_gb_rx/",
-      "published_at": "2026-09-29T11:18:19Z",
-      "summary": "I&#39;m running Qwen 3.8 27B Q4 XS with ~30 t/s decode (no MTP) at 100k context with q8/q5 KV cache on a 16GB AMD GPU. I wanted to share my setup since many believe Qwen 3.8 27B to be infeasible on 16GB VRAM. Build llama",
+      "title": "Best model for blender?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtlxa9/best_model_for_blender/",
+      "published_at": "2026-09-29T20:57:14Z",
+      "summary": "Trying to see if I can use a local model to generate game assets, or even 3D printer models. Any suggestions? Something that would fit in 64GB of ram, speed is not an issue. Just need it to work well.  &#32; submitted by",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-29-iquestlabiquest-q1-hugging-face",
+      "id": "localllama-2026-09-29-does-post-training-make-llms-funnier",
       "source": "localllama",
-      "title": "IQuestLab/IQuest-Q1 · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt6gkp/iquestlabiquestq1_hugging_face/",
-      "published_at": "2026-09-29T10:24:10Z",
-      "summary": "      IQuest-Q1 is a Mixture-of-Experts (MoE) model developed by IQuest for agentic coding, reasoning, and multi-step tool use. It comprises approximately 320B total parameters, with an estimated 15B parameters activated",
+      "title": "Does post training make LLMs funnier?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtkgsl/does_post_training_make_llms_funnier/",
+      "published_at": "2026-09-29T20:00:56Z",
+      "summary": "      We did a study: does post training actually make LLMs funnier? We used open models that publish every stage of post training, so we could compare a base model with the future models it became: Tulu 3 (on Llama 3.1 ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-29-50b-moes-with-few-active-parameters-whats-the-sweet-spot-for",
+      "id": "localllama-2026-09-29-another-case-of-censorship",
       "source": "localllama",
-      "title": "50B+ MoEs with few active parameters, what's the sweet spot for intelligence, agent speed, and affordable fine-tuning?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt5zw2/50b_moes_with_few_active_parameters_whats_the/",
-      "published_at": "2026-09-29T09:57:25Z",
-      "summary": "I’m building a Polish General purpose legal Model that drafts documents, answers questions using legal sources, and has enough coding ability to handle some automation. The workflow is very tool-heavy: Question → many se",
+      "title": "Another case of censorship",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtjp1j/another_case_of_censorship/",
+      "published_at": "2026-09-29T19:31:38Z",
+      "summary": "      I was optimizing my diet using a cloud AI provider, and I found my Pi agent stuck like this. Looks like I had too many mushrooms lol.   &#32; submitted by &#32;  /u/autoencoder   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-29-looks-like-the-era-of-subsidised-compute-is-coming-to-an-end",
+      "id": "localllama-2026-09-29-anthropic-just-dropped-the-greatest-advertisement-for-glm-ev",
       "source": "localllama",
-      "title": "Looks like the era of subsidised compute is coming to an end. The old ChatGPT Pro $200 20x plan will be halved. The new $500 plan will have similar limits as the (old) $200 plan.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt5f4e/looks_like_the_era_of_subsidised_compute_is/",
-      "published_at": "2026-09-29T09:21:01Z",
-      "summary": "      &#32; submitted by &#32;  /u/Norwood_Reaper_   [link] &#32; [comments] ",
+      "title": "Anthropic just dropped the greatest advertisement for GLM ever.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wth4iz/anthropic_just_dropped_the_greatest_advertisement/",
+      "published_at": "2026-09-29T17:55:48Z",
+      "summary": "      Like.. yea bro, I knew GLM was cool. Now everyone does.  &#32; submitted by &#32;  /u/BannedGoNext   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-29-release-gsq-rco-ggufs-for-qwen38-flash-next-plus-a-50-expert",
+      "id": "localllama-2026-09-29-recommended-replacements-for-glm-47-flash",
       "source": "localllama",
-      "title": "[Release] GSQ-RCO GGUFs for Qwen3.8-Flash-Next, plus a 50% expert-pruned Coder build at ~1.89 bpw",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt4s88/release_gsqrco_ggufs_for_qwen38flashnext_plus_a/",
-      "published_at": "2026-09-29T08:40:34Z",
-      "summary": "      We have released Qwen3.8-Flash-Next quantized with GSQ and RCO, together with a second, capability-targeted build in which half of the model&#39;s experts have been removed. Flash-Next is a sparse mixture-of-expert",
+      "title": "Recommended replacements for glm 4.7 flash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtgb0y/recommended_replacements_for_glm_47_flash/",
+      "published_at": "2026-09-29T17:25:05Z",
+      "summary": "I know I sound crazy, but i’m using a strix halo and finding that GLM 4.7 flash just runs significantly better than qwen 3.6 35 a3b. But its obviously quite old at this point, i wish we had a new glm that was 4.7 flash s",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-29-ornith-15-dflash",
+      "id": "localllama-2026-09-29-inference-engines-will-become-a-series-of-one-offs",
       "source": "localllama",
-      "title": "Ornith-1.5 DFlash",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt35c6/ornith15_dflash/",
-      "published_at": "2026-09-29T06:57:10Z",
-      "summary": "Ornith-1.5-9B-DFlash pairs the Ornith-1.5-9B model with a DFlash draft model for speculative decoding. https://huggingface.co/ornith-ai/Ornith-1.5-9B-DFlash Ornith-1.5-397B-DFlash pairs the Ornith-1.5-397B model with a D",
+      "title": "Inference Engines will become a series of one-offs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtg7zu/inference_engines_will_become_a_series_of_oneoffs/",
+      "published_at": "2026-09-29T17:21:57Z",
+      "summary": "ninfer, dwarfstar, Splash, llamAmpere, gufo, etc. We&#39;ve all seen them popping up, great tok/s, people loving them. Forks of llama.cpp or another engine, or made from scratch. For better or worse, the list will contin",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-29-i-created-a-personality-test-for-models-need-more-tests",
+      "id": "localllama-2026-09-29-deepseek-harness-app-is-out-now",
       "source": "localllama",
-      "title": "I created a personality test for models, need more TESTS!!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt33xk/i_created_a_personality_test_for_models_need_more/",
-      "published_at": "2026-09-29T06:54:43Z",
-      "summary": "      First 3 disposition results. Hi there! My name is Jerry and I recently built Enclosure, e deterministic environment for testing LLMs. It&#39;s a simulated office enfironment https://github.com/openconstruct/Enclosu",
+      "title": "Deepseek Harness app is out now!!!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtg1hs/deepseek_harness_app_is_out_now/",
+      "published_at": "2026-09-29T17:15:12Z",
+      "summary": "      Downloading now.  &#32; submitted by &#32;  /u/politefella0   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-29-is-ai-profitable-yet",
+      "id": "localllama-2026-09-29-ram-offloading-with-vllm---tcclaviger-appreciation-post",
       "source": "localllama",
-      "title": "Is AI Profitable Yet?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt33uu/is_ai_profitable_yet/",
-      "published_at": "2026-09-29T06:54:35Z",
-      "summary": "&#32; submitted by &#32;  /u/yahbluez   [link] &#32; [comments]",
+      "title": "RAM Offloading with vLLM - tcclaviger appreciation post",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtg12r/ram_offloading_with_vllm_tcclaviger_appreciation/",
+      "published_at": "2026-09-29T17:14:45Z",
+      "summary": "      Thanks to tcclaviger, vLLM now has expert RAM offloading support (link). This makes frontier models much more accessible on a local setup! I was able to run the original DeepSeek-V4-Flash-Vision-Exp on four R9700s.",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-29-do-you-need-some-extra-memory-on-your-dgx-spark",
+      "id": "localllama-2026-09-29-glm-53-and-the-spread-of-advanced-cyber-capabilities-anthrop",
       "source": "localllama",
-      "title": "Do you need some extra memory on your DGX Spark?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt1ees/do_you_need_some_extra_memory_on_your_dgx_spark/",
-      "published_at": "2026-09-29T05:13:50Z",
-      "summary": "      &#x200B; I created this repo to help the DGX Spark users that have a spare 10-24 GB GPU at home to squeeze some extra memory out of a single Spark or a Sparks cluster. It moves the spec-decode draft model off your ",
+      "title": "GLM-5.3 and the Spread of Advanced Cyber Capabilities \\ Anthropic",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtg0vd/glm53_and_the_spread_of_advanced_cyber/",
+      "published_at": "2026-09-29T17:14:32Z",
+      "summary": "      &#32; submitted by &#32;  /u/brown2green   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-29-first-few-days-of-qwen38-flash-next-on-4x-r9700---its-been-r",
+      "id": "localllama-2026-09-29-thanks-to-you-rlocalllama-my-mom-was-able-to-use-my-app-the",
       "source": "localllama",
-      "title": "First few days of qwen3.8-flash-next on 4x R9700 - it's been really interesting so far",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsxgbo/first_few_days_of_qwen38flashnext_on_4x_r9700_its/",
-      "published_at": "2026-09-29T01:52:32Z",
-      "summary": "      Here&#39;s a metric dashboard giving an idea of the last few days. Been testing with a variety of different agentic coding use-cases, mostly using a pi harness. qwen3.8-flash-next has seriously exceeded my expectat",
+      "title": "Thanks to you r/LocalLLaMA, my mom was able to use my app! The open-source app that can watch your screen and trigger actions. It is now easy to use, thanks to your feedback.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtelk8/thanks_to_you_rlocalllama_my_mom_was_able_to_use/",
+      "published_at": "2026-09-29T16:21:45Z",
+      "summary": "TL;DR: I&#39;m a solo dev who wanted a simple, private way to have local LLMs watch my screen and do simple logging/notifying. After a year of building, I released v3.0.0 and my mom was able to use it for the first time ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-09-29-beijing-broadens-travel-curbs-to-encompass-family-of-top-ai",
+      "id": "simonw-2026-09-29-openai-devday-2026-live-blog",
+      "source": "simonw",
+      "title": "OpenAI DevDay 2026 live blog",
+      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+      "published_at": "2026-09-29T15:55:13Z",
+      "summary": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day.\n\nOpenAI gave me a free ticket and a seat in the \"creator\" area for the ke",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "huggingface-2026-09-29-nvidia-kumo-tabular-sets-a-new-accuracy-efficiency-frontier",
+      "source": "huggingface",
+      "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "published_at": "2026-09-29T15:30:38Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-29-amds-new-256-core-epyc-has-16-channel-ddr5-12800-91-memory-b",
       "source": "localllama",
-      "title": "Beijing broadens travel curbs to encompass family of top AI talent in China",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsx4n9/beijing_broadens_travel_curbs_to_encompass_family/",
-      "published_at": "2026-09-29T01:37:13Z",
-      "summary": "https://www.japantimes.co.jp/business/2026/09/29/tech/china-travel-curbs-ai-talent/  Let&#39;s salute the sacrifice made by Chinese AI engineers and their families. 「O  &#32; submitted by &#32;  /u/Ok_Warning2146   [link",
+      "title": "AMD's new 256 core EPYC has 16-channel DDR5-12800, 91% memory bandwidth of an RTX 5090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtc4j9/amds_new_256_core_epyc_has_16channel_ddr512800_91/",
+      "published_at": "2026-09-29T14:48:03Z",
+      "summary": "      Here are some inspirational quotes you can put into the comments:  God is dead and we killed him  I am become death All this for 1.5 tok/s? Sir this is LocalLLaMA not RichPeopleofLocalLLaMA Sweet! A 2TB DDR5-12800 ",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "microsoft-2026-09-29-introducing-quine-an-ai-research-system-designed-for-the-com",
+      "source": "microsoft",
+      "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+      "published_at": "2026-09-29T14:00:02Z",
+      "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and",
+      "tags": [
+        "microsoft"
+      ]
+    },
+    {
+      "id": "huggingface-2026-09-29-getting-the-source-right-not-just-the-fact-source-aware-veri",
+      "source": "huggingface",
+      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "published_at": "2026-09-29T13:07:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
       ]
     },
     {
@@ -310,17 +354,6 @@
       ]
     },
     {
-      "id": "simonw-2026-09-22-llm-anthropic-029",
-      "source": "simonw",
-      "title": "llm-anthropic 0.29",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-      "published_at": "2026-09-22T17:14:55Z",
-      "summary": "Release: llm-anthropic 0.29\n        Adds support for Claude Opus 5.5:\nllm -m claude-opus-5.5 \"prompt goes here\"\n\n    \n    \n        Tags: llm, anthropic",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-09-22-transformers-now-runs-llamacpp-quants",
       "source": "huggingface",
       "title": "Transformers now runs llama.cpp quants",
@@ -439,28 +472,6 @@
       "summary": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "id": "huggingface-2026-09-10-rebuilding-automatic1111-with-gradio-workflow",
-      "source": "huggingface",
-      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-      "url": "https://huggingface.co/blog/gradio-workflow-1111",
-      "published_at": "2026-09-10T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-09-10-async-grpo-with-lora-across-hf-jobs-a-bucket-a-proxy-and-no",
-      "source": "huggingface",
-      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
-      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "published_at": "2026-09-10T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
@@ -703,17 +714,6 @@
       "summary": "At Google I/O we released Gemini 3.5, our latest series of models combining frontier intelligence with action.",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "id": "microsoft-2026-05-15-further-notes-on-our-recent-research-on-ai-delegation-and-lo",
-      "source": "microsoft",
-      "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
-      "url": "https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/",
-      "published_at": "2026-05-15T18:06:57Z",
-      "summary": "Our recent paper, “LLMs Corrupt Your Documents When You Delegate”, has generated discussion about the reliability of AI systems in delegated workflows. We appreciate the interest in this work and want to clarify several ",
-      "tags": [
-        "microsoft"
       ]
     },
     {
