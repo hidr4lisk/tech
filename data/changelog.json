@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-09-29T12:28:50Z",
+  "updated_at": "2026-09-29T22:04:11Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11262",
+      "project": "llama-cpp",
+      "version": "b11262",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11262",
+      "published_at": "2026-09-29T21:49:41Z",
+      "body_excerpt": "ggml : accumulate f16 dot products in f32 on AVX512-FP16 (#29545) Supersedes #29530 Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11261",
+      "project": "llama-cpp",
+      "version": "b11261",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11261",
+      "published_at": "2026-09-29T21:19:09Z",
+      "body_excerpt": "ggml : require input tensors to be GGML_OP_NONE (#29647) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ub",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.35.1-rc0",
+      "project": "ollama",
+      "version": "v0.35.1-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0",
+      "published_at": "2026-09-29T20:14:22Z",
+      "body_excerpt": "What's Changed feat: allow ten web searches per response by @ParthSareen in MLX: version bump by @dhiltgen in llama.cpp: version bump b11232 by @dhiltgen in create: support explicit model capabilities by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11260",
+      "project": "llama-cpp",
+      "version": "b11260",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11260",
+      "published_at": "2026-09-29T19:56:18Z",
+      "body_excerpt": "hexagon: add FP32 GELU_ERF and GEGLU_ERF support (#29631) hexagon: add FP32 GELU_ERF and GEGLU_ERF support hex-erf: reduce register pressure in kernels Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (V",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11259",
+      "project": "llama-cpp",
+      "version": "b11259",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11259",
+      "published_at": "2026-09-29T17:14:36Z",
+      "body_excerpt": "common : stop accepting draft tokens at EOG (#29638) common : stop accepting draft tokens at EOG cont : remove the test Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11258",
+      "project": "llama-cpp",
+      "version": "b11258",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11258",
+      "published_at": "2026-09-29T16:31:02Z",
+      "body_excerpt": "server : remove the built-in UI's service worker when the UI is not served (#29565) With --path or --no-ui, /sw.js returned 404, and a 404 does not remove a service worker, so browsers kept showing the cached built-in UI. Serve a worker that unregisters itself, clears its caches and reloads open tabs. A sw.js in the --path folder is still served first. Assisted-by: Claude Opus 5.5 Website: Attesta",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11257",
+      "project": "llama-cpp",
+      "version": "b11257",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11257",
+      "published_at": "2026-09-29T15:59:25Z",
+      "body_excerpt": "common : use fs::path for config dir (#29649) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11256",
+      "project": "llama-cpp",
+      "version": "b11256",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11256",
+      "published_at": "2026-09-29T13:06:43Z",
+      "body_excerpt": "tests : adjust server string regex to also match m2 utlra results (#29648) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11255",
       "project": "llama-cpp",
@@ -10825,78 +10897,6 @@
       "version": "HARC-Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/microsoft/HARC-Llama-3.1-8B-Instruct",
       "published_at": "2026-07-02T05:50:14Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-swash-3b-a600m",
-      "project": "ibm-granite",
-      "version": "granite-swash-3b-a600m",
-      "url": "https://huggingface.co/ibm-granite/granite-swash-3b-a600m",
-      "published_at": "2026-07-01T21:35:20Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-swash-2b",
-      "project": "ibm-granite",
-      "version": "granite-swash-2b",
-      "url": "https://huggingface.co/ibm-granite/granite-swash-2b",
-      "published_at": "2026-07-01T21:29:03Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9859",
-      "project": "llama-cpp",
-      "version": "b9859",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9859",
-      "published_at": "2026-07-01T18:10:10Z",
-      "body_excerpt": "opencl: allow loading precompiled binary kernels from library (#23042) opencl: allow loading binary kernel opencl: add libdl.h ggml-backend-dl is in ggml, which depends backend libs, thus ggml-opencl cannot depend on ggml-backend-dl add libdl.h to break cyclic dep opencl: allow loading bin kernel lib opencl: load from kernel lib if available opencl: load q8_0 gemm from kernel lib opencl: load q4_0",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9858",
-      "project": "llama-cpp",
-      "version": "b9858",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9858",
-      "published_at": "2026-07-01T17:09:39Z",
-      "body_excerpt": "common : use hf primary split as model path (#25194) Fixes #25181 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
-      "type": "tool"
-    },
-    {
-      "id": "hf-mistralai-Leanstral-1.5-119B-A6B",
-      "project": "mistralai",
-      "version": "Leanstral-1.5-119B-A6B",
-      "url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-      "published_at": "2026-07-01T16:43:19Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9857",
-      "project": "llama-cpp",
-      "version": "b9857",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9857",
-      "published_at": "2026-07-01T14:41:19Z",
-      "body_excerpt": "hexagon: flash attention rework (optimizations, accuracy improvements, etc) (#25085) hex-mm: fold mm quant tasks into the main matmul threads hex-mm: minor formatting fixes hex-mm: cleanup is_quant checks in dma dispatch hex-mm: fix dst-spad alignment hex-mm: move fp kernels in the hvx-mm-kernels header hex-mm: fuse with ADD hex-fa: factor out ukernels into separate headers and unify the rest hex-",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-ARDY-G1-RP-25FPS-Horizon52",
-      "project": "nvidia",
-      "version": "ARDY-G1-RP-25FPS-Horizon52",
-      "url": "https://huggingface.co/nvidia/ARDY-G1-RP-25FPS-Horizon52",
-      "published_at": "2026-07-01T13:43:52Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-ARDY-Core-RP-20FPS-Horizon40",
-      "project": "nvidia",
-      "version": "ARDY-Core-RP-20FPS-Horizon40",
-      "url": "https://huggingface.co/nvidia/ARDY-Core-RP-20FPS-Horizon40",
-      "published_at": "2026-07-01T13:26:25Z",
       "body_excerpt": "",
       "type": "model"
     }
