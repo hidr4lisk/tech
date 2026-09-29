@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-29T05:08:12Z",
+  "updated_at": "2026-09-29T12:28:50Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11255",
+      "project": "llama-cpp",
+      "version": "b11255",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11255",
+      "published_at": "2026-09-29T12:28:33Z",
+      "body_excerpt": "common : add fs_write_atomic() (#29642) Check for buffered write errors when closing downloaded files. Use UTF-8 paths when writing ETag files on Windows. Write in binary mode on Windows. Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11254",
+      "project": "llama-cpp",
+      "version": "b11254",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11254",
+      "published_at": "2026-09-29T11:18:44Z",
+      "body_excerpt": "ggml : collect all input tensors into graph_inputs (#29634) graph_inputs was populated while splitting the graph, so it only contained the inputs that are used as srcs of some node. With pipeline parallelism (n_copies > 1), each graph input contributes n_copies leafs to graph_copy, so switching between batches that consume different inputs (e.g. token batches that do not use the embeddings input v",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11249",
+      "project": "llama-cpp",
+      "version": "b11249",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11249",
+      "published_at": "2026-09-29T09:36:15Z",
+      "body_excerpt": "llama : fix init in several tools/examples (#29632) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11247",
+      "project": "llama-cpp",
+      "version": "b11247",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11247",
+      "published_at": "2026-09-29T07:28:33Z",
+      "body_excerpt": "vulkan : reuse descriptor sets when bindings are constant (#29280) vulkan : reuse descriptor sets when bindings are constant vulkan : bump buffer_destroy_count before destroying the buffer Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11246",
+      "project": "llama-cpp",
+      "version": "b11246",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11246",
+      "published_at": "2026-09-29T06:46:36Z",
+      "body_excerpt": "chat : fix Muse Glimmer ignoring response_format json_schema with --jinja (#29615) chat : fix Muse Glimmer ignoring response_format json_schema with --jinja Fixes #29613 chat : accept json fences and clean up chat : fix choice parenthesis --------- Co-authored-by: Alde Rojas Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS I",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11245",
+      "project": "llama-cpp",
+      "version": "b11245",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11245",
+      "published_at": "2026-09-29T06:13:38Z",
+      "body_excerpt": "common : use fs::path for cache dirs (#29595) Avoid useless string conversions on Windows. No need for BSD or emscripten special cases. Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11243",
       "project": "llama-cpp",
@@ -10845,33 +10899,6 @@
       "published_at": "2026-07-01T13:26:25Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9856",
-      "project": "llama-cpp",
-      "version": "b9856",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9856",
-      "published_at": "2026-07-01T11:09:42Z",
-      "body_excerpt": "CUDA: consistent use of __restrict__ + PDL for FA (#25185) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9855",
-      "project": "llama-cpp",
-      "version": "b9855",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9855",
-      "published_at": "2026-07-01T10:16:09Z",
-      "body_excerpt": "ggml-cpu: add AVX2 optimization for nvfp4 dot product and use UE4M3 LUT (#23961) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP1",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9852",
-      "project": "llama-cpp",
-      "version": "b9852",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9852",
-      "published_at": "2026-07-01T05:11:56Z",
-      "body_excerpt": "opencl: initial q1_0 support (#25160) opencl: general q1_0 support opencl: add Adreno GEMM/GEMV for q1_0 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
-      "type": "tool"
     }
   ]
 }
