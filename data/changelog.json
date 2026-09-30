@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-09-29T22:04:11Z",
+  "updated_at": "2026-09-30T04:55:31Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11270",
+      "project": "llama-cpp",
+      "version": "b11270",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11270",
+      "published_at": "2026-09-30T03:52:21Z",
+      "body_excerpt": "ggml-cuda: HIP: optimize packed byte subtraction ( -> ) (#29478) ggml-cuda: HIP: optimize non-saturating packed byte subtraction () CI: ignore 1 spilled vgpr in fattn_vec --------- Co-authored-by: Carl Philipp Klemm Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11269",
+      "project": "llama-cpp",
+      "version": "b11269",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11269",
+      "published_at": "2026-09-30T01:17:45Z",
+      "body_excerpt": "ci: add zdnn backend build but not test (#29541) ci: add zdnn backend build but not test Signed-off-by: Aaron Teo ci: attempt to run a ubuntu 26.04 container Signed-off-by: Aaron Teo ci: set shell to bash Signed-off-by: Aaron Teo ci: clean up comments Signed-off-by: Aaron Teo ggml-zdnn: fix compiler errors Signed-off-by: Aaron Teo vendor: attempt to ignore warnings from vendored files Signed-off-b",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11268",
+      "project": "llama-cpp",
+      "version": "b11268",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11268",
+      "published_at": "2026-09-30T00:46:25Z",
+      "body_excerpt": "opencl: fix get_tensor for q5_K adreno gemm_nonshuffle kernel (#29555) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11267",
+      "project": "llama-cpp",
+      "version": "b11267",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11267",
+      "published_at": "2026-09-30T00:17:20Z",
+      "body_excerpt": "vulkan: Tune GDN kernel, fix Intel performance (#29476) vulkan: tune GDN shader tune for Intel Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11266",
+      "project": "llama-cpp",
+      "version": "b11266",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11266",
+      "published_at": "2026-09-29T23:51:56Z",
+      "body_excerpt": "vulkan : Load F32 A matrix 2 at a time when its 2-aligned (#29254) It turns out Intel doesn't particularly like loading F32s one at a time and we already have the _2aliagned load logic in mul_mat_vec, so here we use it. While we do already check all the requirements to load elements 4 at a time across [B]F16 and F32, it turns out [B]F16 loading 4 at a time is sometimes slower on very specific shap",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11265",
+      "project": "llama-cpp",
+      "version": "b11265",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11265",
+      "published_at": "2026-09-29T23:24:35Z",
+      "body_excerpt": "vulkan: MOE aware mat_mul_id tile selection (#29182) mut_mul_id selected its matmul tile with total token count. For MoE dispatch grid the true N per workgroup is per-expert rows. At pp128 on Sarvam 30B that is 6, not 128, so the picker took the l-tile for ~6 live rows. Most workers in each group had nothing to do. This wasted time. The slow part was 55% of the whole job. Website: Attestations: ma",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11264",
+      "project": "llama-cpp",
+      "version": "b11264",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11264",
+      "published_at": "2026-09-29T22:57:14Z",
+      "body_excerpt": "ggml : fix c++ odr by properly using GGML_COMMON_DECL_CPP (#29504) fix c++ odr by properly using GGML_COMMON_DECL_CPP using actual field rather than macro Co-authored-by: Georgi Gerganov --------- Co-authored-by: XZiar Co-authored-by: Georgi Gerganov Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewor",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11263",
+      "project": "llama-cpp",
+      "version": "b11263",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11263",
+      "published_at": "2026-09-29T22:31:08Z",
+      "body_excerpt": "vocab : keep NORMAL in PLaMo-2 and PLaMo-3 (#29580) vocab : keep NORMAL in PLaMo-2 and PLaMo-3 The PLaMo-2 and PLaMo-3 vocabularies mark as NORMAL. Current EOG token heuristic matched it by text and added its attribute to CONTROL. Skip this heuristic for the PLAMO2 vocab type so stays NORMAL and is not treated as EOG. use for detection Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11262",
       "project": "llama-cpp",
