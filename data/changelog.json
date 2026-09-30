@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-09-30T04:55:31Z",
+  "updated_at": "2026-09-30T12:13:49Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11282",
+      "project": "llama-cpp",
+      "version": "b11282",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11282",
+      "published_at": "2026-09-30T11:56:30Z",
+      "body_excerpt": "musa : define __CUDA_ARCH__ for device passes (#29508) The MUSA vendor header never defined __CUDA_ARCH__, so every architecture test in the shared ggml-cuda sources evaluated to 0. Kernel bodies gated on the architecture therefore compiled to nothing, for example the q8_0 -> f16 dequantization kernel in convert.cu, whose NO_DEVICE_CODE fallback expands to an empty body in host code. Report the ne",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11280",
+      "project": "llama-cpp",
+      "version": "b11280",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11280",
+      "published_at": "2026-09-30T11:27:48Z",
+      "body_excerpt": "SYCL: reduce tensor allreduce sync with pinned host buffers (#29604) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11279",
+      "project": "llama-cpp",
+      "version": "b11279",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11279",
+      "published_at": "2026-09-30T10:58:45Z",
+      "body_excerpt": "add GLM-5.3-Flash (GLM5-Next) support (#27773) Rebase GLM-Next support onto master, and migrate to llama-memory-hybrid-idx Add initial MTP support Merge branch optimizations. Reduce allocated compute buffer size, speed up long context decode, fla, and slight MTP improvements. Review driven changes, remove env vars, protect tensors Strip MTP for initial PR Clean up after mtp strip Clean up after mt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11278",
+      "project": "llama-cpp",
+      "version": "b11278",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11278",
+      "published_at": "2026-09-30T10:32:14Z",
+      "body_excerpt": "vendor: update BoringSSL to 0.20260929.0 (#29669) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11277",
+      "project": "llama-cpp",
+      "version": "b11277",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11277",
+      "published_at": "2026-09-30T09:26:58Z",
+      "body_excerpt": "ggml-zdnn: impl buffer reset, fix memory leaks (#29637) cont: fix code style Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11276",
+      "project": "llama-cpp",
+      "version": "b11276",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11276",
+      "published_at": "2026-09-30T08:58:39Z",
+      "body_excerpt": "Hexagon f16 activation ops (#29209) hexagon: add F16 support for activation ops (SILU/GELU/GELU_QUICK/GEGLU/SWIGLU) Widens ggml_hexagon_supported_activations() to accept F16 (src0/dst/src1 must agree on type), and adds F16 per-thread worker functions in act-ops.c mirroring the existing F32 workers, backed by new HVX f16 kernels (hvx_sigmoid_f16_aa, hvx_tanh_f16_aa, hvx_mul_mul_f16_aa, hvx_min_scal",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11275",
+      "project": "llama-cpp",
+      "version": "b11275",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11275",
+      "published_at": "2026-09-30T08:29:14Z",
+      "body_excerpt": "gguf : reject tensor size that wraps after padding (#26979) GGML_PAD(nbytes, alignment) wraps to 0 when nbytes is within (alignment - 1) of SIZE_MAX, which silently bypassed the size overflow guard in gguf_init_from_reader. Reject the tensor before padding when nbytes + (alignment - 1) would overflow. Adds a test-gguf handcrafted case (F32, ne = [4, 2^30-1, 2^30+1, 1]) whose ggml_nbytes = 2^64 - 1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11274",
+      "project": "llama-cpp",
+      "version": "b11274",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11274",
+      "published_at": "2026-09-30T07:55:21Z",
+      "body_excerpt": "ggml : check row bounds in get_rows_back (#29575) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11273",
+      "project": "llama-cpp",
+      "version": "b11273",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11273",
+      "published_at": "2026-09-30T07:22:39Z",
+      "body_excerpt": "model : support classifier_pooling for rerankers (#29627) model : support classifier_pooling for ModernBERT rerankers Assisted-by: Claude Opus 5.5 model : read classifier pooling type in load_hparams Write classifier.pooling_type from _try_set_pooling_type whenever the config has classifier_pooling, and read it in llama_model_base::load_hparams. ModernBERT falls back to mean when it is unspecified",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11272",
+      "project": "llama-cpp",
+      "version": "b11272",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11272",
+      "published_at": "2026-09-30T06:10:15Z",
+      "body_excerpt": "hexagon: optimize concat op (#29673) hex-concat: reduce pkts in gather/transpose hot loop gather directly into dst buffer, use special instruction for gather sync hex-concat: use fastdiv replace calls to sw divide with fastpath hex-concat: optimize DMA-HVX pipeline and add transpose helpers Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11270",
       "project": "llama-cpp",
@@ -10951,24 +11041,6 @@
       "version": "ARDY-Core-RP-20FPS-Horizon8",
       "url": "https://huggingface.co/nvidia/ARDY-Core-RP-20FPS-Horizon8",
       "published_at": "2026-07-02T15:14:37Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-HARC-Qwen2.5-7B-Instruct",
-      "project": "microsoft",
-      "version": "HARC-Qwen2.5-7B-Instruct",
-      "url": "https://huggingface.co/microsoft/HARC-Qwen2.5-7B-Instruct",
-      "published_at": "2026-07-02T05:50:15Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-HARC-Llama-3.1-8B-Instruct",
-      "project": "microsoft",
-      "version": "HARC-Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/microsoft/HARC-Llama-3.1-8B-Instruct",
-      "published_at": "2026-07-02T05:50:14Z",
       "body_excerpt": "",
       "type": "model"
     }

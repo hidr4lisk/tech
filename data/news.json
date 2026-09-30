@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-09-30T04:55:24Z",
+  "updated_at": "2026-09-30T12:13:44Z",
   "items": [
+    {
+      "id": "localllama-2026-09-30-five-local-models-68-gb-of-weights-my-open-source-mac-meetin",
+      "source": "localllama",
+      "title": "Five local models, 6.8 GB of weights: my open-source Mac meeting notetaker",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wu2lpa/five_local_models_68_gb_of_weights_my_opensource/",
+      "published_at": "2026-09-30T11:38:04Z",
+      "summary": "      https://preview.redd.it/xs01ds930nsh1.png?width=4800&amp;format=png&amp;auto=webp&amp;s=939762bcf3fbd93e137d4f97e927dda38aaf30fd Back in July I shared LokalBot here. It&#39;s a free, open-source Mac app that record",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-30-oído-speech-recognition-that-beats-whisper-tiny-running-on-a",
+      "source": "localllama",
+      "title": "Oído: speech recognition that beats Whisper-tiny, running on a $5 microcontroller (open source)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wu2jjy/oído_speech_recognition_that_beats_whispertiny/",
+      "published_at": "2026-09-30T11:34:48Z",
+      "summary": "I&#39;m part of the Lokutor team that built this. Model: NVIDIA Conformer-CTC Small (13M params, int8). It runs on an ESP32-S3 with 8 MB PSRAM, no GPU or NPU. LibriSpeech WER is 3.7 / 8.2, versus 6.3 / 15.9 for Whisper t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-30-add-glm-53-flash-glm5-next-support-by-timkhronos-pull-reques",
+      "source": "localllama",
+      "title": "add GLM-5.3-Flash (GLM5-Next) support by timkhronos · Pull Request #27773 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wu0bdf/add_glm53flash_glm5next_support_by_timkhronos/",
+      "published_at": "2026-09-30T09:22:03Z",
+      "summary": "      now you can use GLM-5.3-Flash on your home computer  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-30-aa-agentperf-local-benchmarking-local-ai-agents-on-laptops-a",
+      "source": "localllama",
+      "title": "AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtzpcr/aaagentperflocal_benchmarking_local_ai_agents_on/",
+      "published_at": "2026-09-30T08:41:50Z",
+      "summary": "      &#32; submitted by &#32;  /u/nuclearbananana   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-30-baaiarex-2---27b---agent-model-based-on-qwen38-27b",
+      "source": "localllama",
+      "title": "BAAI/AREX-2 - 27B - Agent model based on Qwen3.8 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtzedu/baaiarex2_27b_agent_model_based_on_qwen38_27b/",
+      "published_at": "2026-09-30T08:21:18Z",
+      "summary": "      &quot;AREX-2 is a 27B-parameter long-horizon agent model from the Beijing Academy of Artificial Intelligence (BAAI). It learns to improve a solution over multiple test-time rounds: propose, measure, reflect, and re",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-30-deepseek-now-trained-on-ascend-950",
+      "source": "localllama",
+      "title": "DeepSeek now trained on Ascend 950",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtz1i3/deepseek_now_trained_on_ascend_950/",
+      "published_at": "2026-09-30T07:58:25Z",
+      "summary": "      26 months ago Liang Wenfeng said: &quot;Someone must step onto the frontier.&quot; Now they are training their models on Ascend 950  &#32; submitted by &#32;  /u/WebAssemblyMan   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-09-30-1248-gbs-on-5060ti-40-with-5500-memory-overclocks",
+      "source": "localllama",
+      "title": "1248 GB/s on 5060ti (+40%) with +5500 memory overclocks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wty1k6/1248_gbs_on_5060ti_40_with_5500_memory_overclocks/",
+      "published_at": "2026-09-30T06:54:35Z",
+      "summary": "edit: sorry should be 5070ti  There now is unlock for higher memory overclocks called mlock. And apparently the GDDR7 has a lot of headroom: https://www.reddit.com/r/overclocking/comments/1wsnllh/finally_unlocked_gddr7_m",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-09-30-thank-you-mradermacher",
       "source": "localllama",
@@ -57,61 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-30-sftmill-easily-off-policy-distill-any-existing-llm-with-an-o",
-      "source": "localllama",
-      "title": "SFTMill: Easily [off-policy] distill any existing LLM with an OpenAI Compatible Endpoint. Turn any behavioral goal into a comprehensive dataset.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtqpjt/sftmill_easily_offpolicy_distill_any_existing_llm/",
-      "published_at": "2026-09-30T00:22:53Z",
-      "summary": "      Hey guys - half a tutorial/guide, and half an I built this, so I went for resources. This is something that I created for myself recently when I couldn&#39;t find any good existing solution. I wrote this post mysel",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-29-qwen-family-llms-are-quietly-becoming-the-backbone-of-modern",
-      "source": "localllama",
-      "title": "Qwen-family LLMs are quietly becoming the backbone of modern audio models; One chart for the architectures of 100+ audio models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtpntt/qwenfamily_llms_are_quietly_becoming_the_backbone/",
-      "published_at": "2026-09-29T23:35:16Z",
-      "summary": "      I started mapping the building blocks shared across all the models in audio.cpp. The result ended up being more interesting than I expected. Qwen has become by far the most common language backbone in this collecti",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-29-are-you-worried-about-a-potential-ban-of-chinese-open-weight",
-      "source": "localllama",
-      "title": "Are you worried about a potential ban of Chinese open weight models?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp9x4/are_you_worried_about_a_potential_ban_of_chinese/",
-      "published_at": "2026-09-29T23:17:54Z",
-      "summary": "Anthropic released the GLM article today. Trump is getting very involved.  Do you foresee Chinese open weight models getting banned soon?   &#32; submitted by &#32;  /u/writesfw   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-29-sherrys-34-ternary-format-1375-bits-per-weight-running-on-we",
-      "source": "localllama",
-      "title": "Sherry's 3:4 ternary format (1.375 bits per weight) running on WebGPU: a 1.6 MB model that plays Connect Four as well as its 7.8 MB int8 version",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp8h5/sherrys_34_ternary_format_1375_bits_per_weight/",
-      "published_at": "2026-09-29T23:16:05Z",
-      "summary": "Not an LLM, but the ternary findings should carry over, and we hadn&#39;t seen Sherry-style 3:4 weights run in a browser before. Disclosure: this is our work at Precisit, everything is MIT. What it is  A 7.4M-parameter o",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-29-amd-boosting-aillm-performance-for-radeon-igpus-as-much-as-1",
-      "source": "localllama",
-      "title": "AMD boosting AI/LLM performance for Radeon iGPUs as much as 18~23% with Linux 7.4",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp87p/amd_boosting_aillm_performance_for_radeon_igpus/",
-      "published_at": "2026-09-29T23:15:45Z",
-      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-29-quoting-anthropic-frontier-red-team",
       "source": "simonw",
       "title": "Quoting Anthropic Frontier Red Team",
@@ -120,28 +142,6 @@
       "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so i",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-29-good-setup-for-qfn-on-48gb-ampere-gpu-a40",
-      "source": "localllama",
-      "title": "Good setup for QFN on 48GB Ampere GPU (A40)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtn3t3/good_setup_for_qfn_on_48gb_ampere_gpu_a40/",
-      "published_at": "2026-09-29T21:43:45Z",
-      "summary": "Anyone have a good config they&#39;ve found for QFN on a A40 (or similar Ampere GPU(s) with 48GB VRAM)? The system the card is in has 128GB of RAM (DDR3); right now it&#39;s running 27B but I&#39;m curious if there&#39;s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-29-best-model-for-blender",
-      "source": "localllama",
-      "title": "Best model for blender?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtlxa9/best_model_for_blender/",
-      "published_at": "2026-09-29T20:57:14Z",
-      "summary": "Trying to see if I can use a local model to generate game assets, or even 3D printer models. Any suggestions? Something that would fit in 64GB of ram, speed is not an issue. Just need it to work well.  &#32; submitted by",
-      "tags": [
-        "localllama"
       ]
     },
     {
