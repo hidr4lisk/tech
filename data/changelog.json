@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-09-30T12:13:49Z",
+  "updated_at": "2026-09-30T22:03:13Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11302",
+      "project": "llama-cpp",
+      "version": "b11302",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11302",
+      "published_at": "2026-09-30T21:56:04Z",
+      "body_excerpt": "glm5-next: give dead indexer slots unique scatter rows (#29745) The sparse indexer mask is built with a set_rows scatter. Padded pools, absent sequences and missing tail cells all pointed to the same n_kv sentinel row, and invisible pools picked by top_k to fill the selection overlap the tail cells of the token, so several CPU threads wrote the same element (ThreadSanitizer data race in the saniti",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11301",
+      "project": "llama-cpp",
+      "version": "b11301",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11301",
+      "published_at": "2026-09-30T21:20:39Z",
+      "body_excerpt": "ggml/gguf : fix integer overflow (#29384) ggml: fix integer overflow guard for zero-element tensors ggml: validate number of elements in tensor to prevent integer overflow ggml: fix error print Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11299",
+      "project": "llama-cpp",
+      "version": "b11299",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11299",
+      "published_at": "2026-09-30T20:49:16Z",
+      "body_excerpt": "cli: exit on stdin EOF and drop the console wide Ctrl+C broadcast (#29722) cli: exit on stdin EOF and drop the console wide Ctrl+C broadcast On Windows the simple input reader sends CTRL_C_EVENT to every process attached to the console when stdin reaches EOF, killing unrelated processes such as a supervising agent. The CLI only stopped on EOF because of that self inflicted SIGINT; on POSIX, and wi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11298",
+      "project": "llama-cpp",
+      "version": "b11298",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11298",
+      "published_at": "2026-09-30T20:20:09Z",
+      "body_excerpt": "mimo : support dflash (convert + feature extraction) (#29650) convert : update to support dflash cont : fix Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11297",
+      "project": "llama-cpp",
+      "version": "b11297",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11297",
+      "published_at": "2026-09-30T19:36:56Z",
+      "body_excerpt": "jinja : support coerced array attributes (#29574) support coerced array attributes add tests Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11295",
+      "project": "llama-cpp",
+      "version": "b11295",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11295",
+      "published_at": "2026-09-30T18:50:02Z",
+      "body_excerpt": "ci : fix Models Backend Check by shortening the hrm_text fixture (#29744) The fixture recycles its two blocks over 8 cache slots, so the fp16 error builds up past the 1e-4 NMSE bound on the Vulkan T4 and WebGPU jobs of Models Backend. Two l-cycles keep every branch of the cycle loop and halve the error. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11294",
+      "project": "llama-cpp",
+      "version": "b11294",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11294",
+      "published_at": "2026-09-30T18:14:41Z",
+      "body_excerpt": "llama: llama_prefetch_rows (#29599) llama: llama_prefetch_rows llama: support row prefetch on Windows Apply the Windows port contributed by @praneshgo unchanged. Source: avoid exposing llama-mmap in model code, route via llama-impl add windows check, only prefetch in lazy mode cont : clean-up cont : fix build cont : clarify padding token for gemma4 --------- Co-authored-by: Pranesh Gonegandla Co-a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11293",
+      "project": "llama-cpp",
+      "version": "b11293",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11293",
+      "published_at": "2026-09-30T17:35:09Z",
+      "body_excerpt": "ggml : add BF16 unary, GLU, binary and scale ops (CPU, CUDA) (#29675) ggml : add BF16 unary, GLU, binary and scale ops (CPU, CUDA) ggml-cpu : use per-op _bf16 functions for BF16 unary and GLU ops Assisted-by: Claude Opus 5.5 CUDA: use ggml_cuda_cast in binbcast and unary kernels to fix the HIP bf16 build ggml-openvino : reject BF16 SCALE and mixed-type BF16 ADD/MUL/SUB Website: Attestations: macOS",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.18.0",
+      "project": "transformers",
+      "version": "v5.18.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.18.0",
+      "published_at": "2026-09-30T16:46:27Z",
+      "body_excerpt": "New Model additions Nemotron 3 Diarization Nemotron 3 Diarization is an open-weight streaming speaker diarization model designed to determine \"who spoke when\" in real-world audio. It supports both streaming and offline inference, handles up to eight speakers, and orders speaker outputs by each speaker's first arrival in the input audio. The model uses the Arrival-Order Speaker Cache (AOSC) 1 and F",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11292",
+      "project": "llama-cpp",
+      "version": "b11292",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11292",
+      "published_at": "2026-09-30T16:18:25Z",
+      "body_excerpt": "cpu: accept BF16 in src1 of mul_mat (#28937) cpu: accept BF16 in src1 of mul_mat ggml_conv_1d_dw builds its im2col in F32 when the kernel is BF16, then calls ggml_mul_mat(im2col, kernel), which puts F32 in src0 and BF16 in src1. The CPU backend refused that combination, so it was reported as unsupported on every backend and never compared against anything. Widen BF16 into the F32 work buffer, next",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11284",
+      "project": "llama-cpp",
+      "version": "b11284",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11284",
+      "published_at": "2026-09-30T12:35:27Z",
+      "body_excerpt": "openvino: serve GET_ROWS on a weight view from the base Constant (#28381) openvino: serve GET_ROWS on a weight view from the base Constant Resolve view_src when collecting weight Constants so a view over a quantized weight no longer becomes a dynamic typed Parameter, and fold the row offset of the view into the gather indices instead of slicing the dequantization subgraph. openvino: lift the quant",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11282",
       "project": "llama-cpp",
@@ -11016,33 +11115,6 @@
       "published_at": "2026-07-03T09:05:43Z",
       "body_excerpt": "vendor : update cpp-httplib to 0.49.0 (#25218) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9860",
-      "project": "llama-cpp",
-      "version": "b9860",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9860",
-      "published_at": "2026-07-02T16:23:41Z",
-      "body_excerpt": "llama : add llama_model_ftype_name() (#25134) llama : add llama_model_ftype_name() Expose the model file type (quantization) name, e.g. \"Q8_0\" or \"Q4_K - Medium\", through a new public C API. The returned pointer is valid for the lifetime of the model and nullptr when the model is invalid or the file type is unknown. Signed-off-by: Adrien Gallouët Export enum Signed-off-by: Adrien Gallouët s/llama_",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-ARDY-G1-RP-25FPS-Horizon8",
-      "project": "nvidia",
-      "version": "ARDY-G1-RP-25FPS-Horizon8",
-      "url": "https://huggingface.co/nvidia/ARDY-G1-RP-25FPS-Horizon8",
-      "published_at": "2026-07-02T15:16:00Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-ARDY-Core-RP-20FPS-Horizon8",
-      "project": "nvidia",
-      "version": "ARDY-Core-RP-20FPS-Horizon8",
-      "url": "https://huggingface.co/nvidia/ARDY-Core-RP-20FPS-Horizon8",
-      "published_at": "2026-07-02T15:14:37Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
