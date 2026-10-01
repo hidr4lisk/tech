@@ -1,70 +1,147 @@
 {
-  "updated_at": "2026-10-01T12:48:18Z",
+  "updated_at": "2026-10-01T22:30:32Z",
   "items": [
     {
-      "id": "localllama-2026-10-01-why-am-i-like-this-full-chat-and-image-generation-on-a-286-t",
+      "id": "localllama-2026-10-01-gufo-performance-70tps-qwen-38-27b-but-you-need-to-read-the",
       "source": "localllama",
-      "title": "Why am I like this? (Full Chat and Image generation on a 286 Tandy 1000 TL/3)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuxzdg/why_am_i_like_this_full_chat_and_image_generation/",
-      "published_at": "2026-10-01T12:20:55Z",
-      "summary": "      40 year tech gap? No problem! The Tandy runs DeskMind, a native DOS program. It talks over WiFi (a PicoMEM 2 card with mTCP) to a small Python server on my PC. That server drives Qwen3.8-27B (NInfer on a 5090) and ",
+      "title": "Gufo performance .... 70tps Qwen 3.8 27b but you need to read the fine print.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvbmi6/gufo_performance_70tps_qwen_38_27b_but_you_need/",
+      "published_at": "2026-10-01T21:18:54Z",
+      "summary": "So everyone has been yelling about how I should be using Gufo instead of halogen because it&#39;s open source and it&#39;s &quot;just as good or better&quot;. Checking in on their GitHub (GitHub.com/gufo-org/gufo) got me",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-01-qwen4exp-add-mtp-by-am17an-pull-request-29761-ggml-orgllamac",
+      "id": "localllama-2026-10-01-can-your-local-coding-model-repair-these-boundary-case-bugs",
       "source": "localllama",
-      "title": "Qwen4Exp: add MTP by am17an · Pull Request #29761 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuwrsk/qwen4exp_add_mtp_by_am17an_pull_request_29761/",
-      "published_at": "2026-10-01T11:18:34Z",
-      "summary": "      now you can use MTP with Qwen Flash Next, time to switch from Qwen 3.8 27B? (merged after 17h of development) quants: https://huggingface.co/ggml-org/Qwen3.8-Flash-Next-GGUF link to the previous discussion (I delet",
+      "title": "Can your local coding model repair these boundary-case bugs? Failure Map: 20,168 open Python tasks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvbk9q/can_your_local_coding_model_repair_these/",
+      "published_at": "2026-10-01T21:16:19Z",
+      "summary": "I’m the creator of Failure Map, an archive of compact Python debugging tasks. The open release has 20,168 tasks across 254 categories, with standard-library implementations, explicit contracts, failed repair attempts, an",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-01-dual-gpus-vllm-resources-for-50-40-nvidia-gpus",
+      "id": "localllama-2026-10-01-what-local-ai-model-is-good-for-game-decompsrecomps",
       "source": "localllama",
-      "title": "Dual GPUs vLLM resources for 50 + 40 nvidia GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuvu86/dual_gpus_vllm_resources_for_50_40_nvidia_gpus/",
-      "published_at": "2026-10-01T10:25:39Z",
-      "summary": "      i wanted to see how far i can push my PC and on the way i discoverd the resources are limited so i made my own and i hope it helps . https://github.com/ExTV/dual-gpus-vllm   &#32; submitted by &#32;  /u/Fz1zz   [li",
+      "title": "What local AI model is good for game decomps/recomps?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvazuk/what_local_ai_model_is_good_for_game/",
+      "published_at": "2026-10-01T20:53:28Z",
+      "summary": "Hello guys. Recently, there has been a boom in game decomps and recomps thanks to AI. If you look at the r/decomps and r/recomps subreddits, you can see it. They mostly seem to be using Claude or Codex.I wonder if it wou",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-01-12hrs-with-ling-31-flash",
+      "id": "localllama-2026-10-01-ddr4pcie4-vs-ddr5pcie5-for-llms--i-benchmarked-them-for-pre",
       "source": "localllama",
-      "title": "12hrs with Ling 3.1 Flash",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuuqpp/12hrs_with_ling_31_flash/",
-      "published_at": "2026-10-01T09:16:36Z",
-      "summary": "      Made the hardest instrument to play with Ling 3.1 Flash 560B A25B (coming soon). It&#39;s kinda crazy that &#39;flash&#39; is in the 500B category these days, but hey, it works. Can&#39;t wait to see what y&#39;all",
+      "title": "DDR4/PCIe4 vs DDR5/PCIe5 for LLMs- I benchmarked them for pre-training. What are your thoughts?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvaqeb/ddr4pcie4_vs_ddr5pcie5_for_llms_i_benchmarked/",
+      "published_at": "2026-10-01T20:42:46Z",
+      "summary": "      Hello everyone. I&#39;ve recently ran some experiments comparing DDR4/PCIe4 and DDR5/PCIe5 for AI workstations on a pre-training run, and would like to hear yours thoughts. First of all, and as a summary of my resu",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-01-best-opensource-claude-cowork-alternative",
+      "id": "localllama-2026-10-01-running-955-gib-qwen38-flash-next-at-4152-toks-on-a-64gb-mac",
       "source": "localllama",
-      "title": "Best OpenSource Claude Cowork alternative?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuu9ip/best_opensource_claude_cowork_alternative/",
-      "published_at": "2026-10-01T08:45:33Z",
-      "summary": "Hey guys, Looking for an alternative for Claude Cowork:  Project Work / Documents  Integrations like Notion, Gmail, etc. Tools like Websearch, PDF creation, etc.  Came over Eigent (https://github.com/eigent-ai/eigent) bu",
+      "title": "Running 95.5 GiB Qwen3.8-Flash-Next at 41–52 tok/s on a 64GB Mac (1.76x faster than llama.cpp): Slipstream release, 130k context scaling, + Swift variant",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wva7l2/running_955_gib_qwen38flashnext_at_4152_toks_on_a/",
+      "published_at": "2026-10-01T20:21:42Z",
+      "summary": "      I&#39;ve been working on getting the 95.5 GiB Qwen3.8-Flash-Next model to run fast on a single 64GB Mac. In my earlier posts, I shared a custom expert-streaming fork of llama.cpp . It worked, but decode capped out ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-01-deepseek-harness-02---optional-bundle-architecture-windows-s",
+      "id": "localllama-2026-10-01-qwen38-27b-q4-k-m-on-one-rtx-3090-opencode-throughput-four-c",
       "source": "localllama",
-      "title": "DeepSeek harness 0.2 - Optional Bundle Architecture, Windows Sandbox improvements, Async Question Mode, Desktop release, Web Search without key",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wutkgt/deepseek_harness_02_optional_bundle_architecture/",
-      "published_at": "2026-10-01T07:59:36Z",
-      "summary": "      Optional Bundle architecture: Schedule (session-local delayed / timed / interval reminders) was removed from the default set and made an explicit Optional Bundle. This cleanly separates “installed” from “enabled” a",
+      "title": "Qwen3.8-27B Q4_K_M on one RTX 3090 + OpenCode: throughput, four coding tasks, and a reasoning-budget failure",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wv9rzc/qwen3827b_q4_k_m_on_one_rtx_3090_opencode/",
+      "published_at": "2026-10-01T20:04:32Z",
+      "summary": "I put an old RTX 3090 to work as a local coding agent with Qwen3.8-27B, llama.cpp, and OpenCode. Here are the setup and results, including what failed. This is a summary of my own blog post, linked below. Setup  RTX 3090",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-ama-about-k2-horizon-meet-our-team-from-ifm",
+      "source": "localllama",
+      "title": "AMA about K2 Horizon, Meet our team from IFM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wv8zww/ama_about_k2_horizon_meet_our_team_from_ifm/",
+      "published_at": "2026-10-01T19:34:20Z",
+      "summary": "      Hi r/LocalLLaMA!  We’re researchers at the Institute of Foundation Models (IFM), an AI research lab dedicated to open and independent development of frontier-class foundation models.  We recently released K2 Horizo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-now-which-lab-is-behind-fledge-alpha",
+      "source": "localllama",
+      "title": "Now which lab is behind fledge alpha?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wv7t3a/now_which_lab_is_behind_fledge_alpha/",
+      "published_at": "2026-10-01T18:50:10Z",
+      "summary": "      New free/trial model dropped on OC. Details are yet to be provided.  Could this be deepseek v4.1 pro?  &#32; submitted by &#32;  /u/Gohab2001   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-whats-the-best-setup-for-qwen38-27b-for-a-16-gig-vram",
+      "source": "localllama",
+      "title": "What's the best setup for Qwen3.8 27b for a 16 gig VRAM?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wv6eyc/whats_the_best_setup_for_qwen38_27b_for_a_16_gig/",
+      "published_at": "2026-10-01T17:57:44Z",
+      "summary": "Hello guys! I have been experimenting with qwen 3.8 for a long time and I hadn&#39;t been able to get reasonable speed. I am on a 5060Ti 16 GB, and although this gpu can game, I am aware that AI demands more than 16 GB. ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-update-2-post-training-yandexaliceai-80b-a3b-instruct-from-s",
+      "source": "localllama",
+      "title": "Update #2: Post training yandex/AliceAI-80B-A3B [instruct!] from scratch",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wv5h8x/update_2_post_training_yandexaliceai80ba3b/",
+      "published_at": "2026-10-01T17:22:35Z",
+      "summary": "      Last update: https://www.reddit.com/r/LocalLLaMA/comments/1wu9ksu/update_yandexaliceai_80ba3b_fine_tune_progress/ - basically, an instruct fine tune on the base model using a synthetic distilled data set. I&#39;ve ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-clef-open-weights-decision-model-by-cloudflare",
+      "source": "localllama",
+      "title": "Clef: Open Weights decision model by Cloudflare",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wv4zzi/clef_open_weights_decision_model_by_cloudflare/",
+      "published_at": "2026-10-01T17:04:38Z",
+      "summary": "      &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-heretic-is-on-pewdiepie",
+      "source": "localllama",
+      "title": "Heretic is on PewDiePie!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wv4vot/heretic_is_on_pewdiepie/",
+      "published_at": "2026-10-01T17:00:21Z",
+      "summary": "So I haven’t played a computer game in 20 years, and I know nothing about Minecraft, and I definitely prefer classical literature over YouTube culture, but even I have heard about the individual called PewDiePie, for two",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-10-01-introducing-olmo-core-3-open-scalable-training-infrastructur",
+      "source": "huggingface",
+      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "url": "https://huggingface.co/blog/allenai/olmocore3",
+      "published_at": "2026-10-01T15:01:43Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
       ]
     },
     {
@@ -76,72 +153,6 @@
       "summary": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-01-strata-how-to-configure-sampling-parameters",
-      "source": "localllama",
-      "title": "Strata: how to configure sampling parameters",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuqzo6/strata_how_to_configure_sampling_parameters/",
-      "published_at": "2026-10-01T05:19:13Z",
-      "summary": "The top-level README doesn&#39;t mention this, but you can add a &quot;sampling&quot; key to your strata-iq3_s.json like this: { &quot;sampling&quot;: {&quot;temperature&quot;: 1.0, &quot;top_p&quot;: 0.95, &quot;top_k&q",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-01-finally-got-my-4th-card-in-64gb-total",
-      "source": "localllama",
-      "title": "Finally got my 4th card in (64gb total)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wupsay/finally_got_my_4th_card_in_64gb_total/",
-      "published_at": "2026-10-01T04:10:32Z",
-      "summary": "      I was waiting on the blowers for the T4s and posted this before it was finished, other than some braided cable sleeves for the fan wires its pretty much good, I was going to upgrade the CPU, but I&#39;m getting gre",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-01-astrabox---open-source-arcade-game-generator",
-      "source": "localllama",
-      "title": "Astrabox - Open source Arcade Game Generator",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wumex2/astrabox_open_source_arcade_game_generator/",
-      "published_at": "2026-10-01T01:17:44Z",
-      "summary": "      Hey everyone! I’ve been working on ASTRABOX: an arcade interface where you describe a game, the AI builds it, and you can ask for changes by voice while playing. Each game gets its own visuals and gameplay, while a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-01-szmcp-a-zim-html-to-markdown-converter-and-yet-another-zim-m",
-      "source": "localllama",
-      "title": "szmcp: a ZIM HTML to Markdown converter and yet another ZIM MCP server",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuktlf/szmcp_a_zim_html_to_markdown_converter_and_yet/",
-      "published_at": "2026-10-01T00:01:13Z",
-      "summary": "Hello all, I wanted to share a little project I vibe-coded for myself that you may find useful. As many people here like to suggest, I wanted to give my small local LLMs access to information to improve their world knowl",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-30-ai-ceo-interviews-2026",
-      "source": "localllama",
-      "title": "AI CEO Interviews (2026)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wukf5d/ai_ceo_interviews_2026/",
-      "published_at": "2026-09-30T23:43:15Z",
-      "summary": "      &#32; submitted by &#32;  /u/LambdaHominem   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-30-least-to-most-expensive-somewhat-modern-gpus-with-32gb-of-vr",
-      "source": "localllama",
-      "title": "Least to most expensive (Somewhat modern) GPU's with 32gb of vram (Under $1600) Based on ebay listings",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuk9so/least_to_most_expensive_somewhat_modern_gpus_with/",
-      "published_at": "2026-09-30T23:36:12Z",
-      "summary": "      I was researching prices on ebay and fed claude a bunch of images of listings. I had it make a chart and thought it would be useful to share.   &#32; submitted by &#32;  /u/Rombodawg   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -425,17 +436,6 @@
       "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
       "published_at": "2026-09-21T13:44:34Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-09-21-tokenizers-v1-encode-decode-and-scaling-measured",
-      "source": "huggingface",
-      "title": "tokenizers v1: encode, decode and scaling, measured",
-      "url": "https://huggingface.co/blog/tokenizers-v1",
-      "published_at": "2026-09-21T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"
