@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-10-01T05:08:37Z",
+  "updated_at": "2026-10-01T12:48:23Z",
   "releases": [
+    {
+      "id": "unsloth-v0.1.901-beta",
+      "project": "unsloth",
+      "version": "v0.1.901-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.901-beta",
+      "published_at": "2026-10-01T12:46:41Z",
+      "body_excerpt": "This release makes Unsloth Desktop quicker to get around and clearer when something goes wrong. Jump anywhere with Cmd/Ctrl+P, share run settings as links, and continue finished replies. On the training side, NVFP4, packed INT4 and MXFP4 checkpoints now stay 4-bit during LoRA training, and the Decision API can use TypeSafe and other hosted decision models. Highlights Command palette on Cmd/Ctrl+P,",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11320",
+      "project": "llama-cpp",
+      "version": "b11320",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11320",
+      "published_at": "2026-10-01T11:20:29Z",
+      "body_excerpt": "common : add LLM-jp-4.1 Harmony dialect handler (#29681) LLM-jp-4.1 uses the GPT-OSS format, but its tokenizer decodes a space after every special token and parallel tool calls are separated by . The GPT-OSS handler rejects this output, so add a dedicated handler, selected by the chat_format=llm-jp-harmony-v1 declaration in the chat template. Assisted-by: Claude Fable 5.1 Website: Attestations: ma",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11319",
+      "project": "llama-cpp",
+      "version": "b11319",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11319",
+      "published_at": "2026-10-01T10:44:58Z",
+      "body_excerpt": "opencl: mark vec subgroup bcast as supproted for Adreno E17 compiler (#29698) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11318",
+      "project": "llama-cpp",
+      "version": "b11318",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11318",
+      "published_at": "2026-10-01T10:16:41Z",
+      "body_excerpt": "vocab : honor BOS/EOS settings for PLaMo-2 and PLaMo-3 (#29734) vocab : honor BOS/EOS settings for PLaMo-2 and PLaMo-3 The original tokenizer configs for PLaMo-2 and PLaMo-3 have and , but _set_vocab_plamo() did not write the BOS/EOS metadata. The PLAMO2 tokenizer path also ignored add_bos/add_eos during tokenization. Write the settings from tokenizer_config.json and honor them in the PLAMO2 token",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11317",
+      "project": "llama-cpp",
+      "version": "b11317",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11317",
+      "published_at": "2026-10-01T09:32:20Z",
+      "body_excerpt": "llama-bench : fix verbosity filter to show GGML_LOG_ERROR (#28229) bench : fix verbosity filter to show GGML_LOG_ERROR (#28107) bench: remove dead variables Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11316",
+      "project": "llama-cpp",
+      "version": "b11316",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11316",
+      "published_at": "2026-10-01T08:58:32Z",
+      "body_excerpt": "metal : use bf16 math for mxfp4 mul-mat (#29770) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11313",
+      "project": "llama-cpp",
+      "version": "b11313",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11313",
+      "published_at": "2026-10-01T08:05:32Z",
+      "body_excerpt": "model : re-enable -sm tensor for qwen4exp (#28569) #27941 disabled -sm tensor for qwen4exp because test-llama-archs asserted on the Meta device once the fixture carried a PLE layer: GGML_ASSERT(ggml_backend_buffer_is_meta(tensor->buffer)) at ggml-backend-meta.cpp:476. With host-resident embeddings the PLE gather is a CPU node and hc_init (the REPEAT that fans the embedding out to the hc streams) w",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11312",
       "project": "llama-cpp",
@@ -11168,33 +11231,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9866",
       "published_at": "2026-07-03T14:20:50Z",
       "body_excerpt": "cuda: enable topk-moe fusion for 288 experts (#25267) cuda: enable topk-moe fusion for 288 experts The topk-moe fusion only accepted power-of-2 expert counts (or the special-cased 576), so models with 288 experts (e.g. Step-3.7-Flash) fell back to the unfused per-layer routing chain: softmax/sigmoid, argsort, get_rows, sum_rows, div, clamp, scale. At batch size 1 that is ~330 extra tiny graph node",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9864",
-      "project": "llama-cpp",
-      "version": "b9864",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9864",
-      "published_at": "2026-07-03T11:28:58Z",
-      "body_excerpt": "server + ui: ping silent SSE streams every 1s and kick only after 3s so slow prefill never drops healthy connections (#25241) server + ui: ping silent SSE streams every 1s and kick only after 3s so slow prefill never drops healthy connections server + ui: sse_ping_interval becomes a per-request body field Address review from ngxson: the global default returns to 30 so API clients see no behavior c",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9862",
-      "project": "llama-cpp",
-      "version": "b9862",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9862",
-      "published_at": "2026-07-03T09:41:11Z",
-      "body_excerpt": "Remove redundant CUDA copies after gated_delta_net. (#23940) Remove redundant CUDA copies after gated_delta_net. Currently, GDN writes recurrent state snapshots into its output tail, then the graph immediately copies those snapshots into ssm_states_all. With MTP draft length 3, target decode uses K=4, so that becomes 4 extra ggml_cuda_cpy calls. The change detects that gated_delta_net -> view -> c",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9861",
-      "project": "llama-cpp",
-      "version": "b9861",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9861",
-      "published_at": "2026-07-03T09:05:43Z",
-      "body_excerpt": "vendor : update cpp-httplib to 0.49.0 (#25218) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
       "type": "tool"
     }
   ]

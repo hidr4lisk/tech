@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-01T05:08:32Z",
+  "updated_at": "2026-10-01T12:48:18Z",
   "items": [
+    {
+      "id": "localllama-2026-10-01-why-am-i-like-this-full-chat-and-image-generation-on-a-286-t",
+      "source": "localllama",
+      "title": "Why am I like this? (Full Chat and Image generation on a 286 Tandy 1000 TL/3)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuxzdg/why_am_i_like_this_full_chat_and_image_generation/",
+      "published_at": "2026-10-01T12:20:55Z",
+      "summary": "      40 year tech gap? No problem! The Tandy runs DeskMind, a native DOS program. It talks over WiFi (a PicoMEM 2 card with mTCP) to a small Python server on my PC. That server drives Qwen3.8-27B (NInfer on a 5090) and ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-qwen4exp-add-mtp-by-am17an-pull-request-29761-ggml-orgllamac",
+      "source": "localllama",
+      "title": "Qwen4Exp: add MTP by am17an · Pull Request #29761 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuwrsk/qwen4exp_add_mtp_by_am17an_pull_request_29761/",
+      "published_at": "2026-10-01T11:18:34Z",
+      "summary": "      now you can use MTP with Qwen Flash Next, time to switch from Qwen 3.8 27B? (merged after 17h of development) quants: https://huggingface.co/ggml-org/Qwen3.8-Flash-Next-GGUF link to the previous discussion (I delet",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-dual-gpus-vllm-resources-for-50-40-nvidia-gpus",
+      "source": "localllama",
+      "title": "Dual GPUs vLLM resources for 50 + 40 nvidia GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuvu86/dual_gpus_vllm_resources_for_50_40_nvidia_gpus/",
+      "published_at": "2026-10-01T10:25:39Z",
+      "summary": "      i wanted to see how far i can push my PC and on the way i discoverd the resources are limited so i made my own and i hope it helps . https://github.com/ExTV/dual-gpus-vllm   &#32; submitted by &#32;  /u/Fz1zz   [li",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-12hrs-with-ling-31-flash",
+      "source": "localllama",
+      "title": "12hrs with Ling 3.1 Flash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuuqpp/12hrs_with_ling_31_flash/",
+      "published_at": "2026-10-01T09:16:36Z",
+      "summary": "      Made the hardest instrument to play with Ling 3.1 Flash 560B A25B (coming soon). It&#39;s kinda crazy that &#39;flash&#39; is in the 500B category these days, but hey, it works. Can&#39;t wait to see what y&#39;all",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-best-opensource-claude-cowork-alternative",
+      "source": "localllama",
+      "title": "Best OpenSource Claude Cowork alternative?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuu9ip/best_opensource_claude_cowork_alternative/",
+      "published_at": "2026-10-01T08:45:33Z",
+      "summary": "Hey guys, Looking for an alternative for Claude Cowork:  Project Work / Documents  Integrations like Notion, Gmail, etc. Tools like Websearch, PDF creation, etc.  Came over Eigent (https://github.com/eigent-ai/eigent) bu",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-deepseek-harness-02---optional-bundle-architecture-windows-s",
+      "source": "localllama",
+      "title": "DeepSeek harness 0.2 - Optional Bundle Architecture, Windows Sandbox improvements, Async Question Mode, Desktop release, Web Search without key",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wutkgt/deepseek_harness_02_optional_bundle_architecture/",
+      "published_at": "2026-10-01T07:59:36Z",
+      "summary": "      Optional Bundle architecture: Schedule (session-local delayed / timed / interval reminders) was removed from the default set and made an explicit Optional Bundle. This cleanly separates “installed” from “enabled” a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-01-quoting-matthew-green",
+      "source": "simonw",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+      "published_at": "2026-10-01T06:29:01Z",
+      "summary": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-strata-how-to-configure-sampling-parameters",
+      "source": "localllama",
+      "title": "Strata: how to configure sampling parameters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuqzo6/strata_how_to_configure_sampling_parameters/",
+      "published_at": "2026-10-01T05:19:13Z",
+      "summary": "The top-level README doesn&#39;t mention this, but you can add a &quot;sampling&quot; key to your strata-iq3_s.json like this: { &quot;sampling&quot;: {&quot;temperature&quot;: 1.0, &quot;top_p&quot;: 0.95, &quot;top_k&q",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-01-finally-got-my-4th-card-in-64gb-total",
       "source": "localllama",
@@ -19,6 +107,17 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wumex2/astrabox_open_source_arcade_game_generator/",
       "published_at": "2026-10-01T01:17:44Z",
       "summary": "      Hey everyone! I’ve been working on ASTRABOX: an arcade interface where you describe a game, the AI builds it, and you can ask for changes by voice while playing. Each game gets its own visuals and gameplay, while a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-01-szmcp-a-zim-html-to-markdown-converter-and-yet-another-zim-m",
+      "source": "localllama",
+      "title": "szmcp: a ZIM HTML to Markdown converter and yet another ZIM MCP server",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuktlf/szmcp_a_zim_html_to_markdown_converter_and_yet/",
+      "published_at": "2026-10-01T00:01:13Z",
+      "summary": "Hello all, I wanted to share a little project I vibe-coded for myself that you may find useful. As many people here like to suggest, I wanted to give my small local LLMs access to information to improve their world knowl",
       "tags": [
         "localllama"
       ]
@@ -46,50 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-09-30-best-local-model-for-blender-and-game-dev",
-      "source": "localllama",
-      "title": "Best local model for Blender and game dev?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuk9f1/best_local_model_for_blender_and_game_dev/",
-      "published_at": "2026-09-30T23:35:41Z",
-      "summary": "I have been looking at some local models, but even the smartest ones like GLM5.3 Flash and DSv4 Flash have a hard time creating coherent models in Blender and placing them logically in game engines. Is this something tha",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-30-two-open-weights-releases-victoria-qwen38-flash-next-with-44",
-      "source": "localllama",
-      "title": "Two open-weights releases: Victoria (Qwen3.8-Flash-Next with 44% of experts cut, 70% Terminal-Bench 2.1, GGUF included) and Maple (a Canada-first fine-tune)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wujph3/two_openweights_releases_victoria_qwen38flashnext/",
-      "published_at": "2026-09-30T23:10:03Z",
-      "summary": "We had a Dell B300 in the lab for a few weeks and used it to create two fine tunes of Qwen Flash Next. Victoria (coding and agents)  Qwen3.8-Flash-Next cut down by 44% using a paper / technique called REAP: 512 down to 2",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-30-open-source-inference-engine-like-lm-studio-or-unsloth-deskt",
-      "source": "localllama",
-      "title": "Open source inference engine (like LM Studio or Unsloth Desktop) that optimizes itself for your exact hardware. Compiles and tunes its kernels on your device, so open models run up to 2x faster than llama.cpp. Works on Apple Silicon, NVIDIA, AMD or nothing but a CPU.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuj70v/open_source_inference_engine_like_lm_studio_or/",
-      "published_at": "2026-09-30T22:46:30Z",
-      "summary": "      &#32; submitted by &#32;  /u/paranoidray   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-30-peculiar-ragdolls-dirk-qwen-38-27b-vs-ukisai-swift-15-qwen38",
-      "source": "localllama",
-      "title": "peculiar-ragdoll's Dirk-Qwen 3.8-27B vs. UkisAI Swift-1.5 Qwen3.8-27B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuigui/peculiarragdolls_dirkqwen_3827b_vs_ukisai_swift15/",
-      "published_at": "2026-09-30T22:14:19Z",
-      "summary": "      I have a long list of my own domain specific eval questions that I run to validate which models I can rely on: coding, coding (numpy/pandas), data analytics decision making, local RAG, and voice assistant. It&#39;s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-09-30-he-built-this-city",
       "source": "simonw",
       "title": "He Built This City",
@@ -98,50 +153,6 @@
       "summary": "I visited the Museum of the City of New York today and got to see He Built This City: Joe Macken’s Model, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard.\nIt exceeded my alread",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-30-if-one-hour-of-ai-is-costing-me-012-is-paying-for-frontier-a",
-      "source": "localllama",
-      "title": "If one hour of AI is costing me 0.12€ is paying for frontier a cheaper option?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuhrop/if_one_hour_of_ai_is_costing_me_012_is_paying_for/",
-      "published_at": "2026-09-30T21:44:48Z",
-      "summary": "Running Qwen flash next of even Qwen 27b dense, I can do any,burning sticking to flash due to its speed, and the kwh cost is at 0.25€ where I live in, ranging from 0.11€ to 0.35€, so I used chatgpt to help me calculate t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-30-index-translate-150-text-languages-plus-document-translation",
-      "source": "localllama",
-      "title": "Index-Translate: 150 text languages, plus document translation, multilingual subtitles and dubbing",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wugf2t/indextranslate_150_text_languages_plus_document/",
-      "published_at": "2026-09-30T20:49:45Z",
-      "summary": "I&#39;m part of the BiliBili Index LLM team. We&#39;re sharing Index-Translate and its companion models for translating text, documents, and videos. Index-Translate supports 150 text languages, with 2B, 9B, and 35B-A3B (",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-30-qwen38-27b-pi-effort-ordered-reasoning-for-agentic-coding",
-      "source": "localllama",
-      "title": "Qwen3.8-27B-pi: Effort-Ordered Reasoning for Agentic Coding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wufzrh/qwen3827bpi_effortordered_reasoning_for_agentic/",
-      "published_at": "2026-09-30T20:32:41Z",
-      "summary": "      &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-09-30-48gb-vram-64gb-ram-anything-worth-trying-except-q38-fn27b",
-      "source": "localllama",
-      "title": "48GB VRAM + 64GB RAM, anything worth trying except Q38 fn/27b?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuey20/48gb_vram_64gb_ram_anything_worth_trying_except/",
-      "published_at": "2026-09-30T19:51:50Z",
-      "summary": "Basically the title. Just got myself a R9700(32GB) additionally to my rx7800 (16GB) and im already experimenting with qwen3.8 fn and 27b, but im interested wheter they are any other models compatible and comparable. I wa",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -305,17 +316,6 @@
       "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
       "published_at": "2026-09-25T17:22:01Z",
       "summary": "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-ins",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-24-note-on-24th-september-2026",
-      "source": "simonw",
-      "title": "Note on 24th September 2026",
-      "url": "https://simonwillison.net/2026/Sep/24/harder/",
-      "published_at": "2026-09-24T23:31:08Z",
-      "summary": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder.\nWe can do amazing things with them, but unlocking their full potential requires extraordinary dis",
       "tags": [
         "simonw"
       ]
