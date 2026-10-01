@@ -1,13 +1,103 @@
 {
-  "updated_at": "2026-10-01T12:48:23Z",
+  "updated_at": "2026-10-01T22:30:38Z",
   "releases": [
+    {
+      "id": "hf-nvidia-PixelUMM",
+      "project": "nvidia",
+      "version": "PixelUMM",
+      "url": "https://huggingface.co/nvidia/PixelUMM",
+      "published_at": "2026-10-01T21:40:34Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b11327",
+      "project": "llama-cpp",
+      "version": "b11327",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11327",
+      "published_at": "2026-10-01T20:55:49Z",
+      "body_excerpt": "mtmd: cap max_image to ubatch for non_causal models (#29773) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 librarie",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11326",
+      "project": "llama-cpp",
+      "version": "b11326",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11326",
+      "published_at": "2026-10-01T20:30:14Z",
+      "body_excerpt": "meta: clear inactive AllReduce shards with FILL, not SCALE (#29793) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11325",
+      "project": "llama-cpp",
+      "version": "b11325",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11325",
+      "published_at": "2026-10-01T19:58:29Z",
+      "body_excerpt": "jinja : skip copying loop scope unless a loop filter needs it (#29776) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11324",
+      "project": "llama-cpp",
+      "version": "b11324",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11324",
+      "published_at": "2026-10-01T19:24:20Z",
+      "body_excerpt": "llama-mmap : avoid a second full-size copy of each tensor with direct-io (#29749) Assisted-by: Claude Co-authored-by: Pranesh Gonegandla Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11323",
+      "project": "llama-cpp",
+      "version": "b11323",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11323",
+      "published_at": "2026-10-01T18:45:50Z",
+      "body_excerpt": "HIP: avoid treating CDNA as dgx spark for gqa_ratio 20 in fattn_mma dqk 576 (#29572) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11322",
+      "project": "llama-cpp",
+      "version": "b11322",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11322",
+      "published_at": "2026-10-01T18:00:01Z",
+      "body_excerpt": "hex-workqueue: fix race condition in seqn getting out of sync with idx_read/write (#29785) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "hf-ibm-granite-ensemble-forecasting-with-ibm-granite-time-series",
+      "project": "ibm-granite",
+      "version": "ensemble-forecasting-with-ibm-granite-time-series",
+      "url": "https://huggingface.co/ibm-granite/ensemble-forecasting-with-ibm-granite-time-series",
+      "published_at": "2026-10-01T16:28:23Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b11321",
+      "project": "llama-cpp",
+      "version": "b11321",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11321",
+      "published_at": "2026-10-01T14:09:49Z",
+      "body_excerpt": "BLAS : Document AOCL-BLAS build and label the device AOCL-BLAS (#29640) BLAS : Document AOCL-BLAS build and label the device AOCL-BLAS AOCL-Blas : Add an AOCL-BLAS Quick Start and drop the fixed version path AOCL-BLAS doc : Note on ZenDNN Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.902-beta",
+      "project": "unsloth",
+      "version": "v0.1.902-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.902-beta",
+      "published_at": "2026-10-01T14:06:23Z",
+      "body_excerpt": "This release brings faster navigation, shareable run settings, and clearer errors to Unsloth Desktop. It also 4x speeds up Laya decisions, expands hosted Decision API support, and keeps NVFP4, INT4, and MXFP4 checkpoints in 4-bit during LoRA training. Highlights Command palette on Cmd/Ctrl+P. Also, you can now share your GGUF model's run settings Laya decisions up to 4.1x faster, plus connections ",
+      "type": "tool"
+    },
     {
       "id": "unsloth-v0.1.901-beta",
       "project": "unsloth",
       "version": "v0.1.901-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.901-beta",
       "published_at": "2026-10-01T12:46:41Z",
-      "body_excerpt": "This release makes Unsloth Desktop quicker to get around and clearer when something goes wrong. Jump anywhere with Cmd/Ctrl+P, share run settings as links, and continue finished replies. On the training side, NVFP4, packed INT4 and MXFP4 checkpoints now stay 4-bit during LoRA training, and the Decision API can use TypeSafe and other hosted decision models. Highlights Command palette on Cmd/Ctrl+P,",
+      "body_excerpt": "This release brings faster navigation, shareable run settings, and clearer errors to Unsloth Desktop. It also 4x speeds up Laya decisions, expands hosted Decision API support, and keeps NVFP4, INT4, and MXFP4 checkpoints in 4-bit during LoRA training. Highlights Command palette on Cmd/Ctrl+P. Also, you can now share your GGUF model's run settings Laya decisions up to 4.1x faster, plus connections ",
       "type": "tool"
     },
     {
@@ -11195,42 +11285,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.6.0",
       "published_at": "2026-07-04T07:20:05Z",
       "body_excerpt": "🎉 LocalAI 4.6.0 Release! 🚀 LocalAI 4.6.0 is out! This is a reliability-focused release: AMD ROCm backends now run on-GPU at full speed, distributed model loads no longer wedge when a worker dies, and realtime sessions warm up predictably. It also brings conversation forking to the built-in chat UI, a Prometheus counter for PII/audit events, and an SSRF fix for the model gallery. Highlights: 🔴 AMD ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9870",
-      "project": "llama-cpp",
-      "version": "b9870",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9870",
-      "published_at": "2026-07-03T21:38:29Z",
-      "body_excerpt": "chat: trim messages sent to StepFun parser (fixes long reasoning loops) (#25238) chat: trim messages sent to StepFun parser (fixes long reasoning loops) add regression test; remove duplicate template chat: trim StepFun content parts before rendering The StepFun trim workaround ran on the already-rendered messages, where typed content parts have been concatenated into a single string, so the per-pa",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.13.0",
-      "project": "transformers",
-      "version": "v5.13.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.13.0",
-      "published_at": "2026-07-03T16:06:27Z",
-      "body_excerpt": "Release v5.13.0 New Model additions KimiK 2.5, 2.6, and 2.7 This release includes the architecture for Kimi 2.5 which is used by 2.5-2.7: Kimi K2.5 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration. The model was proposed in Kimi K2.5: Visual Agenti",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9867",
-      "project": "llama-cpp",
-      "version": "b9867",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9867",
-      "published_at": "2026-07-03T14:56:03Z",
-      "body_excerpt": "spec: support spec-draft-p-min in DFlash (#25246) spec: support spec-draft-p-min in DFlash dflash: add n_min guard dflash: guard both n_min and n_max macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9866",
-      "project": "llama-cpp",
-      "version": "b9866",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9866",
-      "published_at": "2026-07-03T14:20:50Z",
-      "body_excerpt": "cuda: enable topk-moe fusion for 288 experts (#25267) cuda: enable topk-moe fusion for 288 experts The topk-moe fusion only accepted power-of-2 expert counts (or the special-cased 576), so models with 288 experts (e.g. Step-3.7-Flash) fell back to the unfused per-layer routing chain: softmax/sigmoid, argsort, get_rows, sum_rows, div, clamp, scale. At batch size 1 that is ~330 extra tiny graph node",
       "type": "tool"
     }
   ]
