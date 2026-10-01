@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-09-30T22:03:13Z",
+  "updated_at": "2026-10-01T05:08:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11312",
+      "project": "llama-cpp",
+      "version": "b11312",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11312",
+      "published_at": "2026-10-01T03:09:01Z",
+      "body_excerpt": "webgpu: fix SSM_SCAN binding aliasing (#29750) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11311",
+      "project": "llama-cpp",
+      "version": "b11311",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11311",
+      "published_at": "2026-10-01T02:43:25Z",
+      "body_excerpt": "ggml-opencl : replace alloca() with std::vector (#29765) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11310",
+      "project": "llama-cpp",
+      "version": "b11310",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11310",
+      "published_at": "2026-10-01T02:05:56Z",
+      "body_excerpt": "cuda: guard the iq4_nl dequantize row kernel against short rows (#29683) dequantize_block_iq4_nl writes QK_K values per block, but a row can be shorter than that (an IQ4_NL row is only guaranteed to be a multiple of QK4_NL). Threads whose 32-value sub-block starts at or past k currently read and write past the end of the row. Skip those sub-blocks; for rows that are a multiple of QK_K the check ne",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11309",
+      "project": "llama-cpp",
+      "version": "b11309",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11309",
+      "published_at": "2026-10-01T01:34:15Z",
+      "body_excerpt": "Hexagon: optimize ALLREDUCE with support for safe scatter mode (#29757) hex-allreduce: add support for safe scatter mode hex-allreduce: pare down excessive comments hex-allreduce: re-write to remove register spills --------- Co-authored-by: Max Krasnyansky Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11308",
+      "project": "llama-cpp",
+      "version": "b11308",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11308",
+      "published_at": "2026-10-01T01:05:36Z",
+      "body_excerpt": "args: fix cli download mmproj arg (#28977) tests: add tests for cli download arg parsing args: fix cli download mmproj arg Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) -",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11307",
+      "project": "llama-cpp",
+      "version": "b11307",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11307",
+      "published_at": "2026-10-01T00:34:06Z",
+      "body_excerpt": "llama : preserve original batch order for speculative decoding layer inputs (#29019) llama: preserve original batch order for layer inputs Assisted-by: Codex tests: cover layer-input order across KV layouts Assisted-by: Codex tests: exercise layer-input ordering on CUDA devices Assisted-by: Codex llama: make layer input reordering compatible with tensor split Copy each microbatch tensor from offse",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11306",
+      "project": "llama-cpp",
+      "version": "b11306",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11306",
+      "published_at": "2026-09-30T23:33:18Z",
+      "body_excerpt": "test-llama-archs : toggle causal_attn to catch graph shape changes (#29724) After the device decode, flip causal_attn off, decode n_ubatch/2 then n_ubatch tokens. Both have the same node count, so a shape that depends on the flag makes the second reallocate at an unchanged graph size, which aborts under GGML_SCHED_NO_REALLOC. Skipped for the encode archs. Website: Attestations: macOS/iOS: macOS Ap",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11304",
+      "project": "llama-cpp",
+      "version": "b11304",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11304",
+      "published_at": "2026-09-30T23:05:27Z",
+      "body_excerpt": "llama: properly handle KV on training (#28520) llama: properly handle KV on training improve Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11303",
+      "project": "llama-cpp",
+      "version": "b11303",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11303",
+      "published_at": "2026-09-30T22:36:38Z",
+      "body_excerpt": "batch: migrate the rest of examples to llama_batch_ext (#29601) migrate the rest test-thread-safety rm common_batch_staged Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) -",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11302",
       "project": "llama-cpp",
