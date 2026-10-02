@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-02T04:57:49Z",
+  "updated_at": "2026-10-02T12:12:05Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11344",
+      "project": "llama-cpp",
+      "version": "b11344",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11344",
+      "published_at": "2026-10-02T08:54:49Z",
+      "body_excerpt": "CUDA: fix 2 broken Volta FA cases (#29803) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11342",
+      "project": "llama-cpp",
+      "version": "b11342",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11342",
+      "published_at": "2026-10-02T05:06:00Z",
+      "body_excerpt": "common,rpc : fix cache dir creation through symlinks on buggy libstdc++ (#29816) See Close #29759 Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11339",
       "project": "llama-cpp",
@@ -11384,15 +11402,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9871",
       "published_at": "2026-07-04T12:17:22Z",
       "body_excerpt": "ggml : fix broken CPU concat implementation for quantized types (#25247) ggml : fix broken CPU concat implementation for quantized types tests : concat tests for quantized types --------- Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.6.0",
-      "project": "localai",
-      "version": "v4.6.0",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.6.0",
-      "published_at": "2026-07-04T07:20:05Z",
-      "body_excerpt": "🎉 LocalAI 4.6.0 Release! 🚀 LocalAI 4.6.0 is out! This is a reliability-focused release: AMD ROCm backends now run on-GPU at full speed, distributed model loads no longer wedge when a worker dies, and realtime sessions warm up predictably. It also brings conversation forking to the built-in chat UI, a Prometheus counter for PII/audit events, and an SSRF fix for the model gallery. Highlights: 🔴 AMD ",
       "type": "tool"
     }
   ]
