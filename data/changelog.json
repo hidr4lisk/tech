@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-10-02T12:12:05Z",
+  "updated_at": "2026-10-02T22:00:39Z",
   "releases": [
+    {
+      "id": "localai-v4.11.0",
+      "project": "localai",
+      "version": "v4.11.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.11.0",
+      "published_at": "2026-10-02T21:56:09Z",
+      "body_excerpt": "🎉 LocalAI 4.11.0 Release! 🚀 LocalAI 4.11.0 is out! This release makes LocalAI more useful for audio understanding, resilient model serving, structured decisions, and day-to-day operation. Audio scenes can now combine transcription, diarization, sound detection, and remembered speaker names. Ordered failover chains keep a public model available across local and remote targets, while new Studio and ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11351",
+      "project": "llama-cpp",
+      "version": "b11351",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11351",
+      "published_at": "2026-10-02T18:50:44Z",
+      "body_excerpt": "ggml : add to buffer type interface (#23671) ggml : add to buffer type interface Add alloc_buffer_n method to ggml_backend_buffer_type_i interface, with a public API ggml_backend_buft_alloc_buffer_n. Default implementation in ggml-backend.cpp handles multi-buffer splitting and tensor allocation via ggml_tallocr Meta buffer type provides custom implementation that creates per-device sub-contexts an",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11349",
+      "project": "llama-cpp",
+      "version": "b11349",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11349",
+      "published_at": "2026-10-02T15:41:03Z",
+      "body_excerpt": "vulkan: add logging to pipeline compile issues (#29794) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11347",
+      "project": "llama-cpp",
+      "version": "b11347",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11347",
+      "published_at": "2026-10-02T14:23:59Z",
+      "body_excerpt": "hexagon: install rebuilt HTP skels (#29828) hexagon: install rebuilt HTP skels Assisted-by: OpenCode hexagon: fix HTP skel catalog dependencies Assisted-by: OpenCode Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11346",
+      "project": "llama-cpp",
+      "version": "b11346",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11346",
+      "published_at": "2026-10-02T13:47:32Z",
+      "body_excerpt": "qwen4exp: fix tests (#29819) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11345",
+      "project": "llama-cpp",
+      "version": "b11345",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11345",
+      "published_at": "2026-10-02T13:06:57Z",
+      "body_excerpt": "hexagon: add q2_k and q3_k quant type support (#29717) hexagon: add q2_k and q3_k quant type support hex-qk: consistent allocation of src1_row_size --------- Co-authored-by: Max Krasnyansky Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CP",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11344",
       "project": "llama-cpp",
@@ -647,6 +701,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2",
       "published_at": "2026-09-29T20:14:22Z",
       "body_excerpt": "What's Changed feat: allow ten web searches per response by @ParthSareen in MLX: version bump by @dhiltgen in llama.cpp: version bump b11232 by @dhiltgen in create: support explicit model capabilities by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.35.1",
+      "project": "ollama",
+      "version": "v0.35.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
+      "published_at": "2026-09-29T20:14:22Z",
+      "body_excerpt": "Clef decision models Ollama now supports Clef and Clef Flash, Cloudflare's new open-source decision models, through . Clef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly with it. What's Changed Models using web search can now perform up to ten searches per response, up from three Modelfiles now support ",
       "type": "tool"
     },
     {
@@ -2513,6 +2576,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-microsoft-FrogNano-4B-2609",
+      "project": "microsoft",
+      "version": "FrogNano-4B-2609",
+      "url": "https://huggingface.co/microsoft/FrogNano-4B-2609",
+      "published_at": "2026-09-17T00:13:57Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b11010",
       "project": "llama-cpp",
       "version": "b11010",
@@ -3312,6 +3384,15 @@
       "published_at": "2026-09-11T05:29:10Z",
       "body_excerpt": "",
       "type": "tool"
+    },
+    {
+      "id": "hf-allenai-AstaBrief_8B_SFT",
+      "project": "allenai",
+      "version": "AstaBrief_8B_SFT",
+      "url": "https://huggingface.co/allenai/AstaBrief_8B_SFT",
+      "published_at": "2026-09-10T23:36:30Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10901",
@@ -11385,24 +11466,6 @@
       "published_at": "2026-07-05T05:57:59Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9873",
-      "project": "llama-cpp",
-      "version": "b9873",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9873",
-      "published_at": "2026-07-04T21:09:56Z",
-      "body_excerpt": "llama : add guard for K/V rotation input when buffer is unallocated (#25215) llm_graph_input_attn_kv::set_input and llm_graph_input_attn_kv_iswa::set_input call set_input_k_rot / set_input_v_rot whenever the rotation tensor pointer is non-null, but the tensor's buffer can be unallocated (NULL) when a graph only stores K/V without attending -- e.g. DFlash speculative decoding's KV-injection pass. s",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9871",
-      "project": "llama-cpp",
-      "version": "b9871",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9871",
-      "published_at": "2026-07-04T12:17:22Z",
-      "body_excerpt": "ggml : fix broken CPU concat implementation for quantized types (#25247) ggml : fix broken CPU concat implementation for quantized types tests : concat tests for quantized types --------- Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu",
-      "type": "tool"
     }
   ]
 }

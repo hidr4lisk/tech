@@ -1,114 +1,147 @@
 {
-  "updated_at": "2026-10-02T12:11:58Z",
+  "updated_at": "2026-10-02T22:00:31Z",
   "items": [
     {
-      "id": "localllama-2026-10-02-anyone-using-odysseus-harness-pewdiepies-harness",
+      "id": "localllama-2026-10-02-i-spent-3-weeks-testing-local-qwen38-on-the-new-low-latency",
       "source": "localllama",
-      "title": "Anyone using Odysseus Harness? (Pewdiepie's Harness)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvrr69/anyone_using_odysseus_harness_pewdiepies_harness/",
-      "published_at": "2026-10-02T11:50:23Z",
-      "summary": "What are your thoughts? What are you using it for? Are you excited to try the llm he trained (RL&#39;d I think) specifically within this harness? Thanks in advance!  &#32; submitted by &#32;  /u/CSEliot   [link] &#32; [c",
+      "title": "I spent 3 weeks testing local Qwen3.8 on the new low-latency SGLang/vLLM recipes: DFlash2 2.8x. Builds: RadixArk + Inferact 27B NVFP4, 27B BF16, orcarouter 27B Uncensored, Flash-Next NVFP4",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww6750/i_spent_3_weeks_testing_local_qwen38_on_the_new/",
+      "published_at": "2026-10-02T21:47:32Z",
+      "summary": "      Hey guys, Last time I tested Qwen3.8-Flash-Next on its own. This time I put three Qwen3.8 checkpoints through the same 10 tests on the same RTX PRO 6000:  RadixArk/Qwen3.8-27B-NVFP4 (dense) orcarouter/Qwen3.8-27B-U",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-02-apex-compute-developing-open-source-mesa-vulkan-driver-for-t",
+      "id": "localllama-2026-10-02-buying-rtx-5090-at-micro-center-reportedly-now-requires-pape",
       "source": "localllama",
-      "title": "Apex Compute developing open-source Mesa Vulkan driver for their hardware",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvrip7/apex_compute_developing_opensource_mesa_vulkan/",
-      "published_at": "2026-10-02T11:37:47Z",
+      "title": "Buying RTX 5090 At Micro Center Reportedly Now Requires Paperwork, Including A No-Export Declaration",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww4hne/buying_rtx_5090_at_micro_center_reportedly_now/",
+      "published_at": "2026-10-02T20:35:45Z",
+      "summary": "      &#32; submitted by &#32;  /u/Boomfrag   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-02-amd-ryzen-ai-developer-platform-os-updated-with-rocm-100-lin",
+      "source": "localllama",
+      "title": "AMD Ryzen AI Developer Platform OS updated with ROCm 10.0, Linux 7.2",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww49o9/amd_ryzen_ai_developer_platform_os_updated_with/",
+      "published_at": "2026-10-02T20:26:41Z",
       "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-02-qwen-38-flash-for-a-single-spark",
+      "id": "localllama-2026-10-02-microsoftfrognano-4b-2609-hugging-face",
       "source": "localllama",
-      "title": "Qwen 3.8 flash for a single spark",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvrbqc/qwen_38_flash_for_a_single_spark/",
-      "published_at": "2026-10-02T11:27:00Z",
-      "summary": "Hi all proud to release my low bit quant for the qwen 3.8 flash base. It retains 95% of b16 accuracy and doesnt suffer degradation at longer contexts. Im still working on further inference improvements but you will see ~",
+      "title": "microsoft/FrogNano-4B-2609 · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww40o2/microsoftfrognano4b2609_hugging_face/",
+      "published_at": "2026-10-02T20:16:26Z",
+      "summary": "      An agentic model from Microsoft for the GPU poor https://huggingface.co/bartowski/FrogNano-4B-2609-GGUF FrogNano is derived from Qwen/Qwen3.5-4B, a general-purpose post-trained model designed for language, reasonin",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-02-qwen38-flash-next-505bpw-ngram-at-bf16-exl3-on-one-r9700-863",
+      "id": "localllama-2026-10-02-self-hosting-ai-does-not-save-money-and-i-do-it-anyway",
       "source": "localllama",
-      "title": "Qwen3.8-Flash-Next (5.05bpw + ngram at bf16) exl3 on one r9700: 863 t/s prefill and 35 t/s decode at 230k context (256k max), is that ok or am i missing something?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvr77c/qwen38flashnext_505bpw_ngram_at_bf16_exl3_on_one/",
-      "published_at": "2026-10-02T11:19:52Z",
-      "summary": "Hi, i got QFN running on my single r9700 but im not sure if i did everything right to get the best quality and speed out of this setup. Dont want to annoy anybody, maybe someone with the same card can tell me if this loo",
+      "title": "Self-hosting AI does not save money, and I do it anyway",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww2jsu/selfhosting_ai_does_not_save_money_and_i_do_it/",
+      "published_at": "2026-10-02T19:17:01Z",
+      "summary": "Hi folks, I&#39;m a long-time lurker and big fan of this subreddit and a massive self-hosting fan (also outside of AI). I doubt many people will disagree with me here because I see the same arguments being made in many p",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-02-llama-server-add-v1systemone-api-models-laya-julia-1-lev-ope",
+      "id": "localllama-2026-10-02-cuda-fuse-shared-experts-into-mmvq-by-am17an-pull-request-29",
       "source": "localllama",
-      "title": "llama, server: add /v1/systemone API (models: laya, julia-1, lev, openjev, kev) by ngxson · Pull Request #29818 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvqbrz/llama_server_add_v1systemone_api_models_laya/",
-      "published_at": "2026-10-02T10:29:47Z",
-      "summary": "      Now you can jev without jev https://huggingface.co/ggml-org/OpenJev-GGUF https://huggingface.co/ggml-org/lev-GGUF https://huggingface.co/ggml-org/Julia-1-GGUF https://huggingface.co/ggml-org/Laya-GGUF https://huggi",
+      "title": "CUDA: fuse shared experts into MMVQ by am17an · Pull Request #29184 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww1sn4/cuda_fuse_shared_experts_into_mmvq_by_am17an_pull/",
+      "published_at": "2026-10-02T18:47:39Z",
+      "summary": "      MoE speedup, but only for some MoE architectures (like Qwen 35B A3B)  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-02-does-anyone-know-if-any-new-releases-from-mistral-are-planne",
+      "id": "localllama-2026-10-02-new-architecture-from-percepta-spotlight-separating-intellig",
       "source": "localllama",
-      "title": "Does anyone know if any new releases from Mistral are planned?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvpxg8/does_anyone_know_if_any_new_releases_from_mistral/",
-      "published_at": "2026-10-02T10:05:59Z",
-      "summary": "      It’s been a long time since the last models came out. I notice they are selling GLM on the site, and I wonder if they are developing something, given the long silence.  &#32; submitted by &#32;  /u/LegacyRemaster  ",
+      "title": "New Architecture from Percepta: Spotlight — separating intelligence from memory, allowing knowledge and skills to grow without changing the model's weights.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww09ab/new_architecture_from_percepta_spotlight/",
+      "published_at": "2026-10-02T17:47:44Z",
+      "summary": "      https://www.percepta.ai/blog/can-llms-grow-their-own-capabilities https://www.percepta.ai/blog/spotlight-memory &quot;Our new architecture, Spotlight, replaces attention with a memory that escapes this trade-off: i",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-02-best-40b-alternatives-to-qwendeepseek-for-1-coding-2-long-do",
+      "id": "localllama-2026-10-02-heavily-quantized-qwen38-flash-vs-q8-qwen38-27b---thoughts",
       "source": "localllama",
-      "title": "best <40B alternatives to Qwen/Deepseek for (1) Coding (2) Long document QA test",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvondv/best_40b_alternatives_to_qwendeepseek_for_1/",
-      "published_at": "2026-10-02T08:44:17Z",
-      "summary": "Due to some reasons, Qwen/Deepseek Chinese models are NOT allowed in the my workplace. So, what local models, do you think, is the best alternatives to Qwen/Deepseek for (1) Coding (2) Long document QA test (like giving ",
+      "title": "Heavily quantized Qwen3.8-Flash vs Q8 Qwen3.8-27B - thoughts?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvzmt3/heavily_quantized_qwen38flash_vs_q8_qwen3827b/",
+      "published_at": "2026-10-02T17:22:24Z",
+      "summary": "I&#39;m currently choosing between IQ3_XXS Qwen-3.8-Flash and Q8_0 27B. This month I don&#39;t have anything complex enough to justify either&#39;s potential so I&#39;ve got a fairly bad read on how these two stack up in",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-02-mirostat",
+      "id": "localllama-2026-10-02-i-made-my-iphone-a-second-gpu-for-my-24-gb-macbook-qwen-38-2",
       "source": "localllama",
-      "title": "Mirostat?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvntrm/mirostat/",
-      "published_at": "2026-10-02T07:49:13Z",
-      "summary": "Reading another post made me think: Is anybody still using Mirostat?  It was all the rage and people said it avoided the “boredom trap” for long texts. Do newer generation models not need that anymore, or are other sampl",
+      "title": "I made my iPhone a second GPU for my 24 GB MacBook: Qwen 3.8 27B prefills 29–44% faster & my holds part of the CTX window.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvz1ex/i_made_my_iphone_a_second_gpu_for_my_24_gb/",
+      "published_at": "2026-10-02T16:59:22Z",
+      "summary": "      **DISCLAIMER** THE PREFILLING TPS SHOWN ON THE PHONE IS COMPUTED ONLY FOR THE LAYERS IT HOLDS. ALREADY FIXING IT TO SHOW END-TO-END PREFILL RATE. NUMBERS BELOW ARE ACCURATE FOR E2E PREFILL RATE. Every file or tool ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-02-detecting-hallucinations-in-local-models-without-eating-vram",
+      "id": "localllama-2026-10-02-new-64gb-dgx-spark-significantly-higher-price-for-the-origin",
       "source": "localllama",
-      "title": "Detecting hallucinations in local models without eating VRAM: What we learned testing 1.5B to 120B models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvm15e/detecting_hallucinations_in_local_models_without/",
-      "published_at": "2026-10-02T05:55:30Z",
-      "summary": "Hey everyone, If you run local models via Ollama in production or personal projects, you&#39;ve probably run into the hallucination problem: how do you know when a model is hallucinating without burning extra VRAM or wai",
+      "title": "New 64GB DGX Spark. Significantly higher price for the original 128GB model $6,950 USD",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvyxzg/new_64gb_dgx_spark_significantly_higher_price_for/",
+      "published_at": "2026-10-02T16:55:32Z",
+      "summary": "      &#32; submitted by &#32;  /u/Norwood_Reaper_   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-02-ninfer-stahp",
+      "id": "localllama-2026-10-02-update-3-post-training-yandexaliceai-80b-a3b-instruct-from-s",
       "source": "localllama",
-      "title": "Ninfer Stahp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvk5sv/ninfer_stahp/",
-      "published_at": "2026-10-02T04:06:32Z",
-      "summary": "        GPU: Blackwell MaxQ Model: qwen3.8-27b-nvfp4 (Orcarouter) - Dflash2 - MTP-7  Running this on my Blackwell MaxQ. I can&#39;t believe how fucking fast it is compared to llama-server. It easily reaches speeds betwee",
+      "title": "Update #3: Post training yandex/AliceAI-80B-A3B [instruct!] from scratch",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvyc3e/update_3_post_training_yandexaliceai80ba3b/",
+      "published_at": "2026-10-02T16:30:24Z",
+      "summary": "      Last update for those who may be following: https://www.reddit.com/r/LocalLLaMA/comments/1wv5h8x/update_2_post_training_yandexaliceai80ba3b/ I screwed up guys 😂 Turns out my loss curve during my last run was legiti",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-02-rtx-spark-laptops-and-mini-desktops-rumored-to-launch-oct-7t",
+      "source": "localllama",
+      "title": "RTX Spark laptops and mini desktops rumored to launch Oct 7th (24GB to 128GB variants possibly)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvy8v4/rtx_spark_laptops_and_mini_desktops_rumored_to/",
+      "published_at": "2026-10-02T16:26:47Z",
+      "summary": "Basically a DGX Spark minus the ConnectX-7 ports. I’ve seen expected initial pricing from like $1800 to $2900. Not sure what configurations are actually at those price points. It’s all Internet hearsay until we actually ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-10-02-open-sourcing-astabrief-the-fast-report-generation-model-in",
+      "source": "huggingface",
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "published_at": "2026-10-02T15:19:50Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
       ]
     },
     {
@@ -120,28 +153,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-02-16gb-macbook-air-m4-can-it-run-any-simple-video-generation-m",
-      "source": "localllama",
-      "title": "16GB Macbook Air M4, Can it Run any simple video generation model ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvk10e/16gb_macbook_air_m4_can_it_run_any_simple_video/",
-      "published_at": "2026-10-02T04:00:03Z",
-      "summary": "I have 16GB Macbook Air M4. It can run text models upto 12B. It can also run 6 to 7 GB image models, though slow. Can it Run any video generation model ?  &#32; submitted by &#32;  /u/broodysupertramp   [link] &#32; [com",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-02-update-on-the-monstrosity-6-bc-250-board-cluster",
-      "source": "localllama",
-      "title": "Update on the “Monstrosity”. 6 BC-250 board cluster",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wviphh/update_on_the_monstrosity_6_bc250_board_cluster/",
-      "published_at": "2026-10-02T02:49:25Z",
-      "summary": "      This is 6 bc-250 ex mining boards with 5 in the asrock 4u12g case they came in. After a lot of testing my current preferred setup is 4 boards running Qwen Next Flash IQ2_XS at 100k context with around 28 tok/s for ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -402,17 +413,6 @@
       "source": "huggingface",
       "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
       "url": "https://huggingface.co/blog/omlx",
-      "published_at": "2026-09-22T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-09-22-how-uk-aisi-and-evaleval-are-making-benchmark-results-reprod",
-      "source": "huggingface",
-      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
-      "url": "https://huggingface.co/blog/evaleval-aisi",
       "published_at": "2026-09-22T00:00:00Z",
       "summary": "",
       "tags": [
