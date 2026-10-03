@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-10-02T22:00:39Z",
+  "updated_at": "2026-10-03T04:41:10Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11368",
+      "project": "llama-cpp",
+      "version": "b11368",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11368",
+      "published_at": "2026-10-03T02:35:41Z",
+      "body_excerpt": "spec : add probabilistic sampling for simple draft and MTP (#27694) Make the drafter probabilistic and the target verify by rejection sampling Drop stale spec_draft_q before drafting Fallback to argmax sampling for grammar-constrained requests and adding flag for enabling probabilistic draft sampling. Default flag value is greedy. Support grammar-constrained requests in rejection sampling Fix - re",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11366",
+      "project": "llama-cpp",
+      "version": "b11366",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11366",
+      "published_at": "2026-10-03T01:55:51Z",
+      "body_excerpt": "ggml-quants : avoid invalid rounding in qkx3 scale search (#29817) ggml-quants : avoid invalid rounding in qkx3 scale search The imatrix scale search can produce an infinite, NaN, or otherwise out-of-range value when the fitted minimum collapses to the maximum or makes the range extremely small. That value is then passed to nearest_int and can trip its assertion in Debug builds. Clamp the quantiza",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11365",
+      "project": "llama-cpp",
+      "version": "b11365",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11365",
+      "published_at": "2026-10-03T01:29:15Z",
+      "body_excerpt": "ggml-cpu : fix soft_max_back wrong output when dst aliases src1 (#27096) ggml-cpu : fix soft_max_back wrong output when dst aliases src1 GGML_OP_SOFT_MAX_BACK is listed in ggml_op_can_inplace, so the graph allocator may assign dst to alias either src0 (dy) or src1 (y). The result was built in several steps: ggml_vec_cpy_f32 (nc, dx, dy); ggml_vec_acc1_f32 (nc, dx, -dot_y_dy); ggml_vec_mul_f32 (nc,",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11364",
+      "project": "llama-cpp",
+      "version": "b11364",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11364",
+      "published_at": "2026-10-03T01:03:47Z",
+      "body_excerpt": "model: support nimble decision model (#29844) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11362",
+      "project": "llama-cpp",
+      "version": "b11362",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11362",
+      "published_at": "2026-10-03T00:26:08Z",
+      "body_excerpt": "metal : add tensor API flash attention kernel for F16 KV (#29570) metal : add tensor API flash attention kernel for F16 KV cont : add tensor FA kernels for DK=DV=512 and DK=576, DV=512 cont : support attention sinks, ALiBi and logit softcap in the tensor FA kernel cont : add tensor FA kernel for DK=192, DV=128 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11361",
+      "project": "llama-cpp",
+      "version": "b11361",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11361",
+      "published_at": "2026-10-02T23:53:18Z",
+      "body_excerpt": "llama, server: add /v1/systemone API (models: laya, julia-1, lev, openjev, kev) (#29818) init conversion convert: ok model loaded add server code improve conversion script support shared prompt prefix add docs, imorove UX a bit add vision support add openjev tiny model for testing add dev docs support lev & kev clean up fix lev noul fix py lint nits docs clarify about not supporting date_facts Web",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11355",
+      "project": "llama-cpp",
+      "version": "b11355",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11355",
+      "published_at": "2026-10-02T23:15:38Z",
+      "body_excerpt": "vulkan: disable large matmul tile on Samsung GPUs with 32KB shared memory (#28531) Assisted-by: Claude Opus Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11352",
+      "project": "llama-cpp",
+      "version": "b11352",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11352",
+      "published_at": "2026-10-02T22:20:16Z",
+      "body_excerpt": "qwen4exp : optimize mask constructions (#29824) qwen4exp : optimize mask constructions cont : apply the same change for GLM5-next Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUD",
+      "type": "tool"
+    },
     {
       "id": "localai-v4.11.0",
       "project": "localai",
