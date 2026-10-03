@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-03T16:01:00Z",
+  "updated_at": "2026-10-03T20:49:50Z",
   "items": [
+    {
+      "id": "localllama-2026-10-03-running-qwen38-flash-next-176b-on-a-16gb-rtx-3080-laptop-32g",
+      "source": "localllama",
+      "title": "Running Qwen3.8 Flash Next 176B on a 16GB RTX 3080 Laptop + 32GB RAM + SSD",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwwmy1/running_qwen38_flash_next_176b_on_a_16gb_rtx_3080/",
+      "published_at": "2026-10-03T20:06:34Z",
+      "summary": "      I wanted to see how far I could push a fairly ordinary laptop with a huge MoE model. Turns out, Qwen3.8 Flash Next 176B can run on: RTX 3080 Laptop — 16GB VRAM 32GB system RAM SSD No 128GB/256GB RAM workstation and",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-have-you-seen-the-new-model-that-was-trained-exclusively-on",
+      "source": "localllama",
+      "title": "Have you seen the new model that was trained exclusively on jokes?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwwko4/have_you_seen_the_new_model_that_was_trained/",
+      "published_at": "2026-10-03T20:03:46Z",
+      "summary": "The jokes write themselves.  &#32; submitted by &#32;  /u/simonbreak   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-i-built-ninfer-4080-for-16gb-class-gpus",
+      "source": "localllama",
+      "title": "I built Ninfer 4080 for 16GB class GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwv0fj/i_built_ninfer_4080_for_16gb_class_gpus/",
+      "published_at": "2026-10-03T18:58:58Z",
+      "summary": "Hi everyone, TL/DR I created NInfer 4080 to run ISTA-DASLab-Qwen-3.8-27B-GSQ at 100k context on an RTX 4080 16GB GPU using way more of the hardware capabilities (max overall: 2720 tok/s prefill, 262 tok/s generation) and",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-the-rise-of-overfit-inference-engines",
+      "source": "localllama",
+      "title": "The Rise of Overfit Inference Engines",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwu6zj/the_rise_of_overfit_inference_engines/",
+      "published_at": "2026-10-03T18:24:42Z",
+      "summary": "      There seems to be a whole category of extremely narrow inference runtimes appearing: Strata, ninfer, DwarfStar, Splash, llamAmpere, gufo, etc. They deliberately give up the thing llama.cpp/vLLM are great at - gener",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-flash-next-rig-born-from-mining-parts",
+      "source": "localllama",
+      "title": "Flash next rig born from mining parts.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwt19n/flash_next_rig_born_from_mining_parts/",
+      "published_at": "2026-10-03T17:36:49Z",
+      "summary": "      Been testing 3x 3060 12gb for flash next in an open air frame. Honestly, with strata it&#39;s kicking ass. 38-40 t/s while llama.cpp can only get 13.2 t/s. This is on IQ3 through strata.  Anybody else running dated",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-i-built-a-code-knowledge-graph-tool-thats-actually-mit-licen",
+      "source": "localllama",
+      "title": "I built a code knowledge graph tool that's actually MIT licensed (fully local, no cloud)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wws6o6/i_built_a_code_knowledge_graph_tool_thats/",
+      "published_at": "2026-10-03T17:01:14Z",
+      "summary": "So this is maybe a niche problem, but at my job I work on a huge Python codebase and every time I change some shared function I&#39;m basically playing roulette. grep tells who mentions it in the code base, not who actua",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-sopro-v2-turbo-2610-cleaner-cloned-voices-same-120m-model-sa",
+      "source": "localllama",
+      "title": "Sopro V2 Turbo 2610: cleaner cloned voices, same 120M model, same CPU speed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwrw0v/sopro_v2_turbo_2610_cleaner_cloned_voices_same/",
+      "published_at": "2026-10-03T16:48:36Z",
+      "summary": "      Follow-up to last month&#39;s post. One of the main issues people ran into was roughness or break-up on some cloned voices. 2610 is an interim update focused mostly on improving that.  Reduced roughness and break-u",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-two-local-qwen-38-27b-unsloth-q6-and-qwen-flash-next-strata",
+      "source": "localllama",
+      "title": "Two local Qwen ( 3.8 27b unsloth Q6 and Qwen flash next strata coder ) models vs Claude Opus 4.6 on the same 3 coding tasks. One of them tied it. Not here to start a fight, just sharing numbers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwrgx1/two_local_qwen_38_27b_unsloth_q6_and_qwen_flash/",
+      "published_at": "2026-10-03T16:30:17Z",
+      "summary": "      Innanzitutto, due cose per evitare fraintendimenti. Non sto cercando di sostenere che un modello o un&#39;azienda siano migliori. Non ho alcun interesse personale in nessuno di essi. Volevo solo verificare personal",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-03-come-let-your-llms-play-world-of-warcraft",
       "source": "localllama",
@@ -41,94 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwobfg/yes_bots_we_get_it_strata_is_good_now_please_stop/",
       "published_at": "2026-10-03T14:15:21Z",
       "summary": "      It&#39;s like the entire sub has become that scene from Konosuba where the cult keeps making up fake scenarios saying the only solution is to join their religion  &#32; submitted by &#32;  /u/Mayion   [link] &#32; ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-anyone-using-a-local-ai-meeting-notes-setup-instead-of-fatho",
-      "source": "localllama",
-      "title": "Anyone using a local AI meeting notes setup instead of Fathom?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwnpxj/anyone_using_a_local_ai_meeting_notes_setup/",
-      "published_at": "2026-10-03T13:48:43Z",
-      "summary": "Meeting notes are one of the last parts of my workflow that still depend heavily on cloud tools. I&#39;ve used Fathom and lately Bluedot. Bluedot works well for me because there&#39;s no meeting bot and I get the transcr",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-replacing-vector-databases-with-sqlite-and-simd-hypervectors",
-      "source": "localllama",
-      "title": "Replacing vector databases with SQLite and SIMD hypervectors in under 1.2GB VRAM (Hillock)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwn7xf/replacing_vector_databases_with_sqlite_and_simd/",
-      "published_at": "2026-10-03T13:25:29Z",
-      "summary": "Disclosure: I am the creator of this project. After days of lurking and building up enough karma, I can finally post here. Every time I tried running local RAG on my own machine, I hit the exact same bottlenecks. First, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-fp8bf16-users-seeing-someone-run-iq1-s",
-      "source": "localllama",
-      "title": "FP8/BF16 users seeing someone run IQ1_S",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwl9jf/fp8bf16_users_seeing_someone_run_iq1_s/",
-      "published_at": "2026-10-03T11:47:17Z",
-      "summary": "      https://preview.redd.it/egchx5bap8th1.png?width=746&amp;format=png&amp;auto=webp&amp;s=ab25375dcb6c204400ac8ba9b04497ded4c34e25 Why FP8/BF16 get horrified/disgusted even with FP4/INT4 or Any 4 bit quantisation meth",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-aleph-alphakolibri-1-hugging-face---78b-parameters-346b-acti",
-      "source": "localllama",
-      "title": "Aleph-Alpha/Kolibri-1 · Hugging Face - 78B parameters. 3.46B active. Up to 1M tokens of context - Apache 2.0",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwl7y6/alephalphakolibri1_hugging_face_78b_parameters/",
-      "published_at": "2026-10-03T11:44:42Z",
-      "summary": "      From Aleph Alpha on 𝕏: https://x.com/Aleph__Alpha/status/2106306840657297814 Tech report: https://aleph-alpha.com/downloads/tech-report.pdf  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-anyworld-a-self-hosted-multiplayer-text-rpg-where-a-local-ll",
-      "source": "localllama",
-      "title": "Anyworld, a self-hosted multiplayer text RPG where a local LLM is the Dungeon Master",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwkudj/anyworld_a_selfhosted_multiplayer_text_rpg_where/",
-      "published_at": "2026-10-03T11:22:44Z",
-      "summary": "      Hey everyone, I’ve been working on a game called Anyworld. It’s a browser-based multiplayer (single player also supported) text adventure inspired by the early days of AI Dungeon, especially its browser-based free ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-the-ultimate-guide-to-multi-harness-rl",
-      "source": "localllama",
-      "title": "The ultimate guide to multi-harness RL",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwk49n/the_ultimate_guide_to_multiharness_rl/",
-      "published_at": "2026-10-03T10:39:37Z",
-      "summary": "      Hi folks, it&#39;s Lewis here from the post-training team at Hugging Face. We&#39;ve been exploring how to train open models in different coding harnesses and wrote up a looong guide on how we solved this using ope",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-what-are-you-expectations-from-kimi-k35",
-      "source": "localllama",
-      "title": "What are you expectations from Kimi K3.5?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwijvi/what_are_you_expectations_from_kimi_k35/",
-      "published_at": "2026-10-03T09:00:47Z",
-      "summary": "Kimi K2 was already good but they took K2.5 a whole new level with so much of their continual learning phase, I believe it was on more 20-25T tokens iirc. Similarly K3 is just such an amazing model, I just love this mode",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-gufo-windows-pre-package-for-strix-halo-users",
-      "source": "localllama",
-      "title": "gufo_windows pre-package for Strix Halo users",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwhu1a/gufo_windows_prepackage_for_strix_halo_users/",
-      "published_at": "2026-10-03T08:14:27Z",
-      "summary": "      In the latest release of the completely unofficial gufo port to windows I&#39;ve added a pre-packaged library that you can use to try out gufo for yourself. No need to build anything just grab the .zip and unpack i",
       "tags": [
         "localllama"
       ]
