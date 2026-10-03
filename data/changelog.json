@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-03T04:41:10Z",
+  "updated_at": "2026-10-03T11:22:09Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11371",
+      "project": "llama-cpp",
+      "version": "b11371",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11371",
+      "published_at": "2026-10-03T08:34:10Z",
+      "body_excerpt": "model: add support for clef decision model (text-only) (#29831) init support for clef (text only) more static graph clean up nits nits 2 Update gguf-py/gguf/constants.py Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11370",
+      "project": "llama-cpp",
+      "version": "b11370",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11370",
+      "published_at": "2026-10-03T06:24:16Z",
+      "body_excerpt": "CUDA: fuse shared experts into MMVQ (#29184) CUDA: fuse shared experts into MMVQ check if buffer is null move stride_col_dst to fusion args Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubunt",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11368",
       "project": "llama-cpp",
@@ -11509,33 +11527,6 @@
       "version": "gr00t17-lerobot-libero_goal-640",
       "url": "https://huggingface.co/nvidia/gr00t17-lerobot-libero_goal-640",
       "published_at": "2026-07-05T11:56:28Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-gr00t17-lerobot-libero_10-640",
-      "project": "nvidia",
-      "version": "gr00t17-lerobot-libero_10-640",
-      "url": "https://huggingface.co/nvidia/gr00t17-lerobot-libero_10-640",
-      "published_at": "2026-07-05T06:17:17Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-gr00t17-lerobot-libero_object-640",
-      "project": "nvidia",
-      "version": "gr00t17-lerobot-libero_object-640",
-      "url": "https://huggingface.co/nvidia/gr00t17-lerobot-libero_object-640",
-      "published_at": "2026-07-05T06:14:59Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-gr00t17-lerobot-libero_spatial-640",
-      "project": "nvidia",
-      "version": "gr00t17-lerobot-libero_spatial-640",
-      "url": "https://huggingface.co/nvidia/gr00t17-lerobot-libero_spatial-640",
-      "published_at": "2026-07-05T05:57:59Z",
       "body_excerpt": "",
       "type": "model"
     }
