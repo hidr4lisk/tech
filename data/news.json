@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-10-03T11:22:02Z",
+  "updated_at": "2026-10-03T16:01:00Z",
   "items": [
+    {
+      "id": "localllama-2026-10-03-come-let-your-llms-play-world-of-warcraft",
+      "source": "localllama",
+      "title": "Come let your LLMs play World of Warcraft",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwqclz/come_let_your_llms_play_world_of_warcraft/",
+      "published_at": "2026-10-03T15:42:52Z",
+      "summary": "      I hosted my own world of warcraft private server then built a client that you can play in the browser on PC or mobile at https://jankcraft.xyz/ for free. Afterwards, I created a custom MCP and agent harness to cont",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-pov-8gb-vram-16gb-ram-folks-checking-locallama-everyday",
+      "source": "localllama",
+      "title": "POV 8GB VRAM + 16GB RAM folks checking locallama everyday:",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocom/pov_8gb_vram_16gb_ram_folks_checking_locallama/",
+      "published_at": "2026-10-03T14:16:50Z",
+      "summary": "      One can only hope for Qwen4 35B A3B or similar (maybe with extra ngrams for 35B -&gt; 70B+... until then, Gemma 26B QAT my beloved (solid 26 Tg/s)...  &#32; submitted by &#32;  /u/RobustLokiX   [link] &#32; [commen",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-two-300b-moe-models-each-on-one-128-gb-mini-pc-amd-strix-hal",
+      "source": "localllama",
+      "title": "Two ~300B MoE models, each on ONE 128 GB mini PC (AMD Strix Halo): GLM-5.3-Flash at ~580 tok/s prefill, MiMo-V2.6-Flash up to 44 tok/s decode. EXL3 weights + open ROCm engine",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/",
+      "published_at": "2026-10-03T14:16:38Z",
+      "summary": "      We built an engine, Kyojin, on top of ExLlamaV3 for Strix Halo (gfx1151, ROCm), and packed two 300B-class MoE models so each fits one 128 GB machine. First release, all measured on Ryzen AI Max+ 395.   Model GLM-5.",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-yes-bots-we-get-it-strata-is-good-now-please-stop",
+      "source": "localllama",
+      "title": "Yes bots we get it, Strata is good now please stop",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwobfg/yes_bots_we_get_it_strata_is_good_now_please_stop/",
+      "published_at": "2026-10-03T14:15:21Z",
+      "summary": "      It&#39;s like the entire sub has become that scene from Konosuba where the cult keeps making up fake scenarios saying the only solution is to join their religion  &#32; submitted by &#32;  /u/Mayion   [link] &#32; ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-anyone-using-a-local-ai-meeting-notes-setup-instead-of-fatho",
+      "source": "localllama",
+      "title": "Anyone using a local AI meeting notes setup instead of Fathom?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwnpxj/anyone_using_a_local_ai_meeting_notes_setup/",
+      "published_at": "2026-10-03T13:48:43Z",
+      "summary": "Meeting notes are one of the last parts of my workflow that still depend heavily on cloud tools. I&#39;ve used Fathom and lately Bluedot. Bluedot works well for me because there&#39;s no meeting bot and I get the transcr",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-replacing-vector-databases-with-sqlite-and-simd-hypervectors",
+      "source": "localllama",
+      "title": "Replacing vector databases with SQLite and SIMD hypervectors in under 1.2GB VRAM (Hillock)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwn7xf/replacing_vector_databases_with_sqlite_and_simd/",
+      "published_at": "2026-10-03T13:25:29Z",
+      "summary": "Disclosure: I am the creator of this project. After days of lurking and building up enough karma, I can finally post here. Every time I tried running local RAG on my own machine, I hit the exact same bottlenecks. First, ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-fp8bf16-users-seeing-someone-run-iq1-s",
+      "source": "localllama",
+      "title": "FP8/BF16 users seeing someone run IQ1_S",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwl9jf/fp8bf16_users_seeing_someone_run_iq1_s/",
+      "published_at": "2026-10-03T11:47:17Z",
+      "summary": "      https://preview.redd.it/egchx5bap8th1.png?width=746&amp;format=png&amp;auto=webp&amp;s=ab25375dcb6c204400ac8ba9b04497ded4c34e25 Why FP8/BF16 get horrified/disgusted even with FP4/INT4 or Any 4 bit quantisation meth",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-aleph-alphakolibri-1-hugging-face---78b-parameters-346b-acti",
+      "source": "localllama",
+      "title": "Aleph-Alpha/Kolibri-1 · Hugging Face - 78B parameters. 3.46B active. Up to 1M tokens of context - Apache 2.0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwl7y6/alephalphakolibri1_hugging_face_78b_parameters/",
+      "published_at": "2026-10-03T11:44:42Z",
+      "summary": "      From Aleph Alpha on 𝕏: https://x.com/Aleph__Alpha/status/2106306840657297814 Tech report: https://aleph-alpha.com/downloads/tech-report.pdf  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-03-anyworld-a-self-hosted-multiplayer-text-rpg-where-a-local-ll",
+      "source": "localllama",
+      "title": "Anyworld, a self-hosted multiplayer text RPG where a local LLM is the Dungeon Master",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwkudj/anyworld_a_selfhosted_multiplayer_text_rpg_where/",
+      "published_at": "2026-10-03T11:22:44Z",
+      "summary": "      Hey everyone, I’ve been working on a game called Anyworld. It’s a browser-based multiplayer (single player also supported) text adventure inspired by the early days of AI Dungeon, especially its browser-based free ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-03-the-ultimate-guide-to-multi-harness-rl",
       "source": "localllama",
@@ -30,105 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwhu1a/gufo_windows_prepackage_for_strix_halo_users/",
       "published_at": "2026-10-03T08:14:27Z",
       "summary": "      In the latest release of the completely unofficial gufo port to windows I&#39;ve added a pre-packaged library that you can use to try out gufo for yourself. No need to build anything just grab the .zip and unpack i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-i-tried-building-a-small-rag-search-node-for-qwen38-27b-usin",
-      "source": "localllama",
-      "title": "I tried building a small RAG search node for Qwen3.8 27B using a fake AliExpress Mini PC... and Intel sent me back to 2018.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwgsas/i_tried_building_a_small_rag_search_node_for/",
-      "published_at": "2026-10-03T07:08:14Z",
-      "summary": "      I love Qwen3.8 27B so much that I decided to show my gratitude to the Alibaba ecosystem by building a dedicated RAG/search node using a cheap Mini PC from AliExpress. Turns out, my ecosystem loyalty got rewarded wi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-liquidailfm25-encoder-250m350m",
-      "source": "localllama",
-      "title": "LiquidAI/LFM2.5-Encoder 250M/350M",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwgns1/liquidailfm25encoder_250m350m/",
-      "published_at": "2026-10-03T07:00:51Z",
-      "summary": "LFM2.5-Encoder-350M is a multilingual bidirectional encoder built on the LFM2 architecture — a larger encoder for maximum downstream quality. It is a masked language model with full bidirectional attention, designed to b",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-qwen38-flash-next-177b-running-at-1115-toks-on-a-single-rtx",
-      "source": "localllama",
-      "title": "Qwen3.8-Flash-Next 177B running at 11–15 tok/s on a single RTX 5070 12GB + 32GB RAM DDR4",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwggwt/qwen38flashnext_177b_running_at_1115_toks_on_a/",
-      "published_at": "2026-10-03T06:49:25Z",
-      "summary": "      Benchmarking an LLM here with a NVIDIA RTX 5070 12 GB VRAM here I had been working on a llama.cpp based expert streaming setup for Qwen3.8-Flash-Next 177B (UD-IQ3_XXS) on Windows. Benchmark is about 11.5 tok/s, up ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-qwen4exp-halve-the-indexer-score-memory-by-serveurpersocom-p",
-      "source": "localllama",
-      "title": "qwen4exp : halve the indexer score memory by ServeurpersoCom · Pull Request #29825 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwfyv6/qwen4exp_halve_the_indexer_score_memory_by/",
-      "published_at": "2026-10-03T06:18:34Z",
-      "summary": "      Qwen Flash Next now uses less VRAM  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-gufo-qwen36-35b-a3b-q6dense---3095toks-prefill-190-toks-deco",
-      "source": "localllama",
-      "title": "gufo-Qwen3.6-35B-A3B-Q6dense - 3095tok/s prefill; 190 tok/s decode on Strix Halo",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwfw06/gufoqwen3635ba3bq6dense_3095toks_prefill_190_toks/",
-      "published_at": "2026-10-03T06:13:45Z",
-      "summary": "      &#32; submitted by &#32;  /u/nubela   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-has-anyone-noticed-this-trend-toward-writingspeaking-style-a",
-      "source": "localllama",
-      "title": "Has anyone noticed this trend toward writing/speaking style among newer models (both open and closed models). They are trending toward information density and expanded vocabulary. It's not quite 'caveman speak' but trending that way.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwdsce/has_anyone_noticed_this_trend_toward/",
-      "published_at": "2026-10-03T04:10:31Z",
-      "summary": "I&#39;ve noticed a trend with most new models with regards to their writing style. They are creating a new style, and this seems common among them. It&#39;s very information-dense. Here is an example from GLM 5.3 Flash. ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-mlsubgen-subtitles-in-45-languages-for-your-videos-entirely",
-      "source": "localllama",
-      "title": "mlsubgen — subtitles in 45 languages for your videos, entirely on your own machine",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwds6i/mlsubgen_subtitles_in_45_languages_for_your/",
-      "published_at": "2026-10-03T04:10:16Z",
-      "summary": "      Full disclaimer: I&#39;ve leaned heavily on Fable to develop this, but I&#39;ve tested it thoroughly on my own library for a couple of months before putting it on GitHub. I live in Thailand, and it started as a way",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-anyone-sitting-on-a-lot-of-slow-system-memory-and-a-modest-g",
-      "source": "localllama",
-      "title": "Anyone sitting on a lot of slow system memory and a modest GPU.. try Strata + Qwen3.8 Next.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwcqas/anyone_sitting_on_a_lot_of_slow_system_memory_and/",
-      "published_at": "2026-10-03T03:12:29Z",
-      "summary": "IQ3_XXS weights are just under 80GB and my slowww DDR4+7900XTX is stabilizing around 45-50t/s (sometimes higher while coding depending on mtp). Looking online I&#39;m seeing similar results for users with 12GB and 16GB c",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-03-the-mines-were-hard-on-you",
-      "source": "localllama",
-      "title": "The mines were hard on you.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwc9qz/the_mines_were_hard_on_you/",
-      "published_at": "2026-10-03T02:47:53Z",
-      "summary": "      Don&#39;t worry after some makeup and new fans you should feel better. And if you make it Mr.Hermes will treat you well.....  &#32; submitted by &#32;  /u/levoniust   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
