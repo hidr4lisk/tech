@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T16:01:06Z",
+  "updated_at": "2026-10-03T20:49:57Z",
   "releases": [
     {
       "id": "llama-cpp-b11379",
@@ -11546,33 +11546,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9881",
       "published_at": "2026-07-06T08:23:11Z",
       "body_excerpt": "ggml-hip: enable -ffast-math for HIP builds (#23862) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9878",
-      "project": "llama-cpp",
-      "version": "b9878",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9878",
-      "published_at": "2026-07-05T19:43:25Z",
-      "body_excerpt": "Fix stale tensor-split params for draft models (#24814) meta: fix tensor split metadata for GQA attention Tidied the code a bit to match existing style Revert \"Tidied the code a bit to match existing style\" This reverts commit b90c6c6300091fe09e2350a3d4edcfcf15db8d2e. Reverted the ggml-backend-meta asset hack. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DIS",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9877",
-      "project": "llama-cpp",
-      "version": "b9877",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9877",
-      "published_at": "2026-07-05T19:12:59Z",
-      "body_excerpt": "abort if we see a multi buffer (#25276) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9876",
-      "project": "llama-cpp",
-      "version": "b9876",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9876",
-      "published_at": "2026-07-05T18:29:08Z",
-      "body_excerpt": "ggml : fix tensor-parallel + -ncmoe crash on MoE models (#25028) Tensor parallelism (-sm tensor) combined with -ncmoe (CPU-offloaded MoE experts) aborts during warm-up on MoE models with GGML_ASSERT(ggml_is_contiguous(tensor)) in ggml-backend-meta.cpp. The failing tensor is the MoE router output (ffn_moe_topk): it is mirrored (GGML_BACKEND_SPLIT_AXIS_MIRRORED, replicated across backends since rout",
       "type": "tool"
     }
   ]
