@@ -1,3 +1,4 @@
+import { esc } from '../../core/html.js';
 const COLS = [
   { key: 'name',          i18nKey: 'm4_col_name',      type: 'str' },
   { key: 'org',           i18nKey: 'm4_col_org',       type: 'str' },
@@ -10,12 +11,12 @@ const COLS = [
 ];
 
 function cellHtml(col, val) {
-  if (col.fmt) return col.fmt(val);
+  if (col.fmt) return esc(col.fmt(val));
   if (col.type === 'bool') {
     const ok = val === true || val === 'true';
     return `<span class="${ok ? 'bool-true' : 'bool-false'}">${ok ? '✓' : '✗'}</span>`;
   }
-  return val ?? '—';
+  return val == null ? '—' : esc(val);
 }
 
 function sortModels(models, sortKey, sortDir) {

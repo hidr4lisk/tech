@@ -1,3 +1,4 @@
+import { esc, txt, safeUrl } from '../../core/html.js';
 const DIGEST_DAYS = 7;
 
 function daysAgo(isoStr) {
@@ -39,16 +40,16 @@ function buildDigest(container, { news, releases }, strings) {
     </div>`).join('');
 
   const topNews = news.slice(0, 3).map(item => `
-    <a class="digest-item" href="${item.url}" target="_blank" rel="noopener noreferrer">
-      <span class="digest-item__source">${item.source}</span>
-      <span class="digest-item__title">${item.title}</span>
+    <a class="digest-item" href="${safeUrl(item.url)}" target="_blank" rel="noopener noreferrer">
+      <span class="digest-item__source">${txt(item.source)}</span>
+      <span class="digest-item__title">${txt(item.title)}</span>
       <span class="digest-item__date">${fmtDate(item.published_at)}</span>
     </a>`).join('');
 
   const topReleases = releases.slice(0, 4).map(r => `
-    <a class="digest-item" href="${r.url}" target="_blank" rel="noopener noreferrer">
-      <span class="digest-item__source digest-item__source--${r.type}">${r.project}</span>
-      <span class="digest-item__title">${r.version}</span>
+    <a class="digest-item" href="${safeUrl(r.url)}" target="_blank" rel="noopener noreferrer">
+      <span class="digest-item__source digest-item__source--${esc(r.type)}">${txt(r.project)}</span>
+      <span class="digest-item__title">${txt(r.version)}</span>
       <span class="digest-item__date">${fmtDate(r.published_at)}</span>
     </a>`).join('');
 

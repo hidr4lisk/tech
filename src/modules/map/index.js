@@ -1,3 +1,4 @@
+import { esc } from '../../core/html.js';
 const TYPE_BADGE = {
   platform:   'badge--platform',
   lab:        'badge--open',
@@ -36,21 +37,21 @@ function buildCompanyCard(company, models, strings) {
     ? companyModels.map(m => {
         const params = fmtParams(m.params_b);
         return `
-          <button class="model-chip" data-model-id="${m.id}" aria-expanded="false">
-            <span>${m.name}</span>
+          <button class="model-chip" data-model-id="${esc(m.id)}" aria-expanded="false">
+            <span>${esc(m.name)}</span>
             ${params ? `<span class="model-chip__params">${params}</span>` : ''}
           </button>`;
       }).join('')
     : `<span style="font-size:var(--t-xs);color:var(--text-disabled)">${strings.m1_no_models ?? '—'}</span>`;
 
   return `
-    <article class="company-card" data-company-id="${company.id}" data-type="${company.type}">
+    <article class="company-card" data-company-id="${esc(company.id)}" data-type="${esc(company.type)}">
       <div class="company-card__head">
-        <div class="company-card__avatar" aria-hidden="true">${initial}</div>
-        <span class="company-card__name">${company.name}</span>
-        <span class="badge ${typeClass}">${strings[typeLabelKey] ?? company.type}</span>
+        <div class="company-card__avatar" aria-hidden="true">${esc(initial)}</div>
+        <span class="company-card__name">${esc(company.name)}</span>
+        <span class="badge ${typeClass}">${strings[typeLabelKey] ?? esc(company.type)}</span>
       </div>
-      ${desc ? `<p class="company-card__desc">${desc}</p>` : ''}
+      ${desc ? `<p class="company-card__desc">${esc(desc)}</p>` : ''}
       <div>
         <p class="company-card__models-label">${strings.m1_models_label ?? 'MODELOS'}</p>
         <div class="model-chips">${modelChipsHtml}</div>
@@ -69,11 +70,11 @@ function buildModelDetail(model, strings) {
   ].filter(([, v]) => v != null);
 
   return `
-    <div class="model-detail" role="region" aria-label="${model.name}">
+    <div class="model-detail" role="region" aria-label="${esc(model.name)}">
       ${fields.map(([k, v]) => `
         <div class="model-detail__field">
-          <span class="model-detail__key">${k}</span>
-          <span class="model-detail__val">${v}</span>
+          <span class="model-detail__key">${esc(k)}</span>
+          <span class="model-detail__val">${esc(v)}</span>
         </div>`).join('')}
     </div>`;
 }

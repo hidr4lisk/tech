@@ -1,3 +1,4 @@
+import { txt, safeUrl } from '../../core/html.js';
 function fmtDate(isoStr) {
   if (!isoStr) return '??';
   const d = new Date(isoStr);
@@ -34,11 +35,11 @@ function buildEntry(rel, strings) {
     : (strings.m3_badge_tool  ?? 'TOOL');
 
   return `
-    <div class="cl-entry cl-entry--${rel.type}" data-type="${rel.type}">
+    <div class="cl-entry cl-entry--${esc(rel.type)}" data-type="${esc(rel.type)}">
       <div class="cl-entry__head">
         <span class="cl-entry__date vt323">${fmtDate(rel.published_at)}</span>
-        <span class="cl-entry__project">${rel.project}</span>
-        <a class="cl-entry__version" href="${rel.url}" target="_blank" rel="noopener noreferrer">${rel.version}</a>
+        <span class="cl-entry__project">${txt(rel.project)}</span>
+        <a class="cl-entry__version" href="${safeUrl(rel.url)}" target="_blank" rel="noopener noreferrer">${txt(rel.version)}</a>
         <span class="badge ${badgeClass}">${badgeLabel}</span>
       </div>
       ${rel.body_excerpt ? `<p class="cl-entry__body">${esc(stripMd(rel.body_excerpt))}</p>` : ''}

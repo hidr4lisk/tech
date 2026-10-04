@@ -1,3 +1,4 @@
+import { esc, txt, safeUrl } from '../../core/html.js';
 const PAGE_SIZE = 20;
 
 function relativeTime(isoStr, lang) {
@@ -25,11 +26,11 @@ function buildCard(item, lang) {
   return `
     <article class="news-card">
       <div class="news-card__head">
-        <span class="news-card__source">${item.source}</span>
+        <span class="news-card__source">${txt(item.source)}</span>
         <span class="news-card__time">${time}</span>
       </div>
-      <a class="news-card__title" href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title}</a>
-      ${item.summary ? `<p class="news-card__summary">${item.summary}</p>` : ''}
+      <a class="news-card__title" href="${safeUrl(item.url)}" target="_blank" rel="noopener noreferrer">${txt(item.title)}</a>
+      ${item.summary ? `<p class="news-card__summary">${txt(item.summary)}</p>` : ''}
     </article>`;
 }
 
@@ -71,7 +72,7 @@ function render(container, data, lang, strings) {
     const visible = filtered.slice(0, shownCount);
 
     const pillsHtml = sources.map(s =>
-      `<button class="filter-pill${s === activeSource ? ' active' : ''}" data-src="${s}">
+      `<button class="filter-pill${s === activeSource ? ' active' : ''}" data-src="${esc(s)}">
         ${s === 'all' ? (strings.m2_filter_all ?? 'TODOS') : s.toUpperCase()}
       </button>`
     ).join('');
