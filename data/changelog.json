@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-10-04T12:05:11Z",
+  "updated_at": "2026-10-04T21:05:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11398",
+      "project": "llama-cpp",
+      "version": "b11398",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11398",
+      "published_at": "2026-10-04T20:04:13Z",
+      "body_excerpt": "ggml-cpu: support BF16/FP16/FP32 K tails in tinyBLAS on x86 (#29806) ggml-cpu: vectorize BF16 K tails in tinyBLAS tests: Skip tinyBLAS when use_ref is enabled so CPU tests compare against the vec_dot path. ggml-cpu: vectorize tinyBLAS F16/F32 tails Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11397",
+      "project": "llama-cpp",
+      "version": "b11397",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11397",
+      "published_at": "2026-10-04T19:47:29Z",
+      "body_excerpt": "cuda : move neu_padded to where it is used (#29940) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11396",
+      "project": "llama-cpp",
+      "version": "b11396",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11396",
+      "published_at": "2026-10-04T17:45:46Z",
+      "body_excerpt": "ci : windows llvm build requires ninja multi-config (#29959) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 librarie",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11393",
+      "project": "llama-cpp",
+      "version": "b11393",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11393",
+      "published_at": "2026-10-04T16:22:40Z",
+      "body_excerpt": "chat-peg-parser : clear current_tool when pending_tool_call is reset (#29942) A TOOL_ID node that arrives after TOOL_CLOSE wrote through , which still pointed into the just-destroyed optional (use-after-free, then a second free of the id buffer). Clear the pointer on reset. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS In",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11392",
+      "project": "llama-cpp",
+      "version": "b11392",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11392",
+      "published_at": "2026-10-04T14:41:04Z",
+      "body_excerpt": "ci : set default permissions (#29945) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11391",
+      "project": "llama-cpp",
+      "version": "b11391",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11391",
+      "published_at": "2026-10-04T14:09:48Z",
+      "body_excerpt": "cuda : move blocks_per_col to where it is used (#29939) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUD",
+      "type": "tool"
+    },
+    {
+      "id": "hf-google-DiarizationLM-Gemma-4-E4B-v1",
+      "project": "google",
+      "version": "DiarizationLM-Gemma-4-E4B-v1",
+      "url": "https://huggingface.co/google/DiarizationLM-Gemma-4-E4B-v1",
+      "published_at": "2026-10-04T13:06:04Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b11390",
+      "project": "llama-cpp",
+      "version": "b11390",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11390",
+      "published_at": "2026-10-04T12:52:49Z",
+      "body_excerpt": "CUDA: fix MMQ memory fault if n_expert >> n_ubatch (#29941) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11389",
+      "project": "llama-cpp",
+      "version": "b11389",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11389",
+      "published_at": "2026-10-04T12:32:00Z",
+      "body_excerpt": "vulkan: fix rdna4 mat_vec tuning (#29934) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUD",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11388",
       "project": "llama-cpp",
@@ -1572,6 +1653,15 @@
       "project": "ollama",
       "version": "v0.40.0-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
+      "published_at": "2026-09-25T03:31:52Z",
+      "body_excerpt": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. During the pre-release we will be testing and enabling additional models. Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.0-rc2",
+      "project": "ollama",
+      "version": "v0.40.0-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2",
       "published_at": "2026-09-25T03:31:52Z",
       "body_excerpt": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. During the pre-release we will be testing and enabling additional models. Full Changelog:",
       "type": "tool"
@@ -11510,60 +11600,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9891",
       "published_at": "2026-07-06T21:23:00Z",
       "body_excerpt": "metal: add col2im_1d op (f32/f16/bf16) (#25176) metal: add col2im_1d op (f32/f16/bf16) Gather kernel mirroring the CPU/CUDA path: each output (t_out, oc) reads its ceil(K/s0) source columns with an F32 accumulator, a single write and no atomics. One thread per output element, 256 per threadgroup. metal: check dst contiguity and type match in supports_op for COL2IM_1D Align the GGML_OP_COL2IM_1D pr",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9890",
-      "project": "llama-cpp",
-      "version": "b9890",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9890",
-      "published_at": "2026-07-06T20:45:35Z",
-      "body_excerpt": "CUDA: remove -sm row, refactor cuBLAS (#24216) CUDA: remove -sm row, refactor cuBLAS fix CDNA + BF16 logic fix bad return fix src0 strides, contiguous requirements fix GGML_CUDA_FORCE_CUBLAS fix casts to BF16 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) U",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Kimi-K2.7-Code-NVFP4",
-      "project": "nvidia",
-      "version": "Kimi-K2.7-Code-NVFP4",
-      "url": "https://huggingface.co/nvidia/Kimi-K2.7-Code-NVFP4",
-      "published_at": "2026-07-06T19:47:06Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "localai-v4.6.2",
-      "project": "localai",
-      "version": "v4.6.2",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.6.2",
-      "published_at": "2026-07-06T19:41:52Z",
-      "body_excerpt": "What's Changed 👒 Dependencies chore(deps): bump actions/cache from 4 to 6 by @dependabot[bot] in Other Changes refactor: use slices.Contains to simplify code by @weifanglab in fix(ci): shard single-arch backend matrix under GitHub's 256-job limit by @localai-bot in chore(model gallery): add MiniCPM series models by @ZMXJJ in New Contributors @weifanglab made their first contribution in @ZMXJJ made",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Nemotron-Labs-Audex-2B",
-      "project": "nvidia",
-      "version": "Nemotron-Labs-Audex-2B",
-      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B",
-      "published_at": "2026-07-06T16:21:07Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-Nemotron-Labs-Audex-30B-A3B",
-      "project": "nvidia",
-      "version": "Nemotron-Labs-Audex-30B-A3B",
-      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B",
-      "published_at": "2026-07-06T16:20:28Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9888",
-      "project": "llama-cpp",
-      "version": "b9888",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9888",
-      "published_at": "2026-07-06T14:57:29Z",
-      "body_excerpt": "CUDA: extend K-type validation to V-types for flash attention (#24403) CUDA: extend K-type validation to V-types for flash attention reorder macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubunt",
       "type": "tool"
     }
   ]
