@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-04T21:05:37Z",
+  "updated_at": "2026-10-05T04:56:43Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11402",
+      "project": "llama-cpp",
+      "version": "b11402",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11402",
+      "published_at": "2026-10-05T04:32:26Z",
+      "body_excerpt": "CUDA: prefer whole-tile FlashAttention scheduling for efficient two-stage kernels (#29435) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11401",
+      "project": "llama-cpp",
+      "version": "b11401",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11401",
+      "published_at": "2026-10-05T00:36:32Z",
+      "body_excerpt": "log, server: self contained colors, split child commands from logs in router mode (#29895) log, server: make router child lines carry their own colors The logger writes the color reset after the trailing newline, so the reset opens the next line. On the shared pipe of a router child it lands in front of the next state command, which the router then misses, and the line break that works around it s",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11400",
+      "project": "llama-cpp",
+      "version": "b11400",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11400",
+      "published_at": "2026-10-05T00:04:00Z",
+      "body_excerpt": "llama: support both embd + raw tokens in batch (#29622) llama: support both embd + raw tokens in batch add to test-llama-archs also check case llm_arch_supports_mixed_batch = false constant graph topology have dedicated input for mixed case rm set_tensor_backend is_embd --> type consolidate m-rope pos handling into one place nits Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11399",
+      "project": "llama-cpp",
+      "version": "b11399",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11399",
+      "published_at": "2026-10-04T22:52:58Z",
+      "body_excerpt": "CUDA: refactor swizzling code (#29612) CUDA: refactor swizzling code fix templates/loop bounds Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11398",
       "project": "llama-cpp",
@@ -1664,6 +1700,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2",
       "published_at": "2026-09-25T03:31:52Z",
       "body_excerpt": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. During the pre-release we will be testing and enabling additional models. Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.0-rc3",
+      "project": "ollama",
+      "version": "v0.40.0-rc3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3",
+      "published_at": "2026-09-25T03:31:52Z",
+      "body_excerpt": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. Additional models include gemma4, qwen3.6 and qwen3.5 Decision models are now available on MLX as well: Nimble tev1 clef clef-flash We will continue testing and enabling additional models. Full Changelog:",
       "type": "tool"
     },
     {
@@ -11528,78 +11573,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9894",
       "published_at": "2026-07-07T05:30:42Z",
       "body_excerpt": "vulkan : check src0 type in GGML_OP_SET_ROWS to avoid failures due to unimplemented f16 support (#25351) vulkan : check src0 type in GGML_OP_SET_ROWS to avoid failures due to unimplemented f16 support chore : get rid of else --------- Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Li",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9893",
-      "project": "llama-cpp",
-      "version": "b9893",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9893",
-      "published_at": "2026-07-07T03:38:16Z",
-      "body_excerpt": "opencl: general flash attention decode performance optimizations (#25366) opencl: vec flash-attention decode kernels for f16/q8_0/q4_0 KV opencl: improve non FA KQ mv kernels opencl: tweaks for multiquery FA opencl: some tweaks for FA q1 kernels opencl: FA with DK=DV=512 for gemma-4 opencl: various fixes opencl: cleanup opencl: fix FA decode crash for DK=512 (gemma-4) The DK=512 decode-only progra",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Cosmos3-Super-Image2Video-4Step",
-      "project": "nvidia",
-      "version": "Cosmos3-Super-Image2Video-4Step",
-      "url": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video-4Step",
-      "published_at": "2026-07-07T01:00:23Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-Cosmos3-Super-Text2Image-4Step",
-      "project": "nvidia",
-      "version": "Cosmos3-Super-Text2Image-4Step",
-      "url": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image-4Step",
-      "published_at": "2026-07-07T01:00:22Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "ollama-v0.31.2-rc1",
-      "project": "ollama",
-      "version": "v0.31.2-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1",
-      "published_at": "2026-07-06T22:28:22Z",
-      "body_excerpt": "What's Changed ci: avoid unbounded parallelism by @dhiltgen in fix cuda toolkit lookup and parallel by @MarkWard0110 in docs(cloud): update retirement list by @mxyng in discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in agent: harness core by @ParthSareen in llama: clean up dead code from llama-server work by @dhiltgen in rocm: remove no longer supported de",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.31.2-rc2",
-      "project": "ollama",
-      "version": "v0.31.2-rc2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2",
-      "published_at": "2026-07-06T22:28:22Z",
-      "body_excerpt": "What's Changed ci: avoid unbounded parallelism by @dhiltgen in fix cuda toolkit lookup and parallel by @MarkWard0110 in docs(cloud): update retirement list by @mxyng in discover: fall back to standard CUDA when the JetPack runner is absent by @kevinpark1217 in agent: harness core by @ParthSareen in llama: clean up dead code from llama-server work by @dhiltgen in rocm: remove no longer supported de",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.31.2",
-      "project": "ollama",
-      "version": "v0.31.2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2",
-      "published_at": "2026-07-06T22:28:22Z",
-      "body_excerpt": "What's Changed Enabled flash attention on older NVIDIA GPUs (compute capability 6.x) iGPU can now offload vision models with padding to fit available memory Fixed structured output for thinking models when thinking is disabled Hardened GGUF model creation for Claude Code now disables telemetry by default Fixed loading models on paths with non-UTF-8 characters Updated the MLX and llama.cpp engines ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9892",
-      "project": "llama-cpp",
-      "version": "b9892",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9892",
-      "published_at": "2026-07-06T22:05:59Z",
-      "body_excerpt": "common: Set optimal default thread count for ppc ( linux as well as AIX) (#25237) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9891",
-      "project": "llama-cpp",
-      "version": "b9891",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9891",
-      "published_at": "2026-07-06T21:23:00Z",
-      "body_excerpt": "metal: add col2im_1d op (f32/f16/bf16) (#25176) metal: add col2im_1d op (f32/f16/bf16) Gather kernel mirroring the CPU/CUDA path: each output (t_out, oc) reads its ceil(K/s0) source columns with an F32 accumulator, a single write and no atomics. One thread per output element, 256 per threadgroup. metal: check dst contiguity and type match in supports_op for COL2IM_1D Align the GGML_OP_COL2IM_1D pr",
       "type": "tool"
     }
   ]

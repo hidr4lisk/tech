@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-04T21:05:32Z",
+  "updated_at": "2026-10-05T04:56:39Z",
   "items": [
+    {
+      "id": "localllama-2026-10-05-infermeld-a-linux-kit-for-running-one-gguf-across-amd-nvidia",
+      "source": "localllama",
+      "title": "Infermeld: a Linux kit for running one GGUF across AMD + NVIDIA GPUs with llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxyuxx/infermeld_a_linux_kit_for_running_one_gguf_across/",
+      "published_at": "2026-10-05T03:55:27Z",
+      "summary": "Following on from club-5060ti and club-rdna16, I’ve put together Infermeld: a small, open-source Linux companion kit for running one GGUF across an AMD GPU and an NVIDIA GPU, powered by llama.cpp. I’m the maintainer. Thi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-05-strata-swift-iq3-xxs-randomly-interjecting-completely-unrela",
+      "source": "localllama",
+      "title": "strata-swift-iq3_xxs randomly interjecting completely unrelated information in thoughts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxxqfe/strataswiftiq3_xxs_randomly_interjecting/",
+      "published_at": "2026-10-05T02:53:22Z",
+      "summary": "I have been using Qwen3.8-27b-iq4xs variants for the past few weeks, tweaking parameters and running random tasks, but I dove into using https://github.com/Niko1221/Strata today and it has given me 2~3x performance on a ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-05-my-qwen-model-hallucinated-a-signed-url-to-alibaba-cloud-nor",
+      "source": "localllama",
+      "title": "My qwen model hallucinated a signed URL to Alibaba cloud, normal or sketchy?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxvt41/my_qwen_model_hallucinated_a_signed_url_to/",
+      "published_at": "2026-10-05T01:13:22Z",
+      "summary": "I&#39;m using Qwen3.8-Flash-Next running on my Mac Studio as a daily driver for coding + productivity tasks, and yesterday it did something weird: I had it do some product research on amazon, so it was doing a lot of Web",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-04-upgrading-from-1xr9700-to-2xr9700-thoughts-on-build-before-b",
+      "source": "localllama",
+      "title": "Upgrading from 1xR9700 to 2xR9700. Thoughts on build before buying?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxu34d/upgrading_from_1xr9700_to_2xr9700_thoughts_on/",
+      "published_at": "2026-10-04T23:47:48Z",
+      "summary": "Currently have a R9700 build with 64GB RAM. Want to get a second one for both speed and the ability to run Qwen3.8-Flash-Next at Q4/higher quants of 3.8 27B. Looking for thoughts or any improvements before buying the res",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-04-spopi-ui-and-editor-around-pi-that-pi-can-change-itself",
+      "source": "localllama",
+      "title": "SPOPI: UI and editor around Pi that Pi can change itself",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxsawe/spopi_ui_and_editor_around_pi_that_pi_can_change/",
+      "published_at": "2026-10-04T22:20:42Z",
+      "summary": "      Hi all. Happy to share my take on a PI UI that I tried to create in PI&#39;s spirit. It&#39;s definitely still beta but it works well enough as my daily driver for simple projects and phone chat support. Fully loca",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-04-is-strix-halo-gmktec-evo-x2-etc-the-closest-thing-we-have-to",
+      "source": "localllama",
+      "title": "Is Strix Halo (GMKtec EVO-X2, etc.) the closest thing we have to a \"dream\" local LLM box?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxs0sp/is_strix_halo_gmktec_evox2_etc_the_closest_thing/",
+      "published_at": "2026-10-04T22:07:53Z",
+      "summary": "I&#39;ve been looking at the &lt;32B model space and keep coming back to an interesting question. A few years ago, projects like Hummingbird+ suggested that cheap custom accelerators (FPGA-based) might become the future ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-04-for-dual-dgx-spark-users-glm-53-flash-got-a-50-performance-b",
+      "source": "localllama",
+      "title": "For dual DGX spark users; GLM 5.3 flash got a 50%+ performance boost",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxrozq/for_dual_dgx_spark_users_glm_53_flash_got_a_50/",
+      "published_at": "2026-10-04T21:53:31Z",
+      "summary": "For the last few months, I ran DeepSeek v4.0 flash (NVFP4). First 0731, then visionexp because it was a free improvement. I got around 65 tps decode and almost 2k prefill, and ran 4-5 agents in parallel, totalling around",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-04-fully-local-little-parkour-sim",
       "source": "localllama",
@@ -8,6 +85,17 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxp21n/fully_local_little_parkour_sim/",
       "published_at": "2026-10-04T20:00:53Z",
       "summary": "      I vibed this up this weekend, fully local, with GLM 5.3 Flash running on 2x DGX Sparks. vllm TP2 recipe: https://github.com/tonyd2wild/GLM-5.3-Flash-NVFP4-DFlash2-2x-DGX-Spark Prefill: ~1500t/s Decode: ~40t/s @ 100",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-04-poor-people-vulkan-gpus-list",
+      "source": "localllama",
+      "title": "Poor People Vulkan GPUs list",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxov05/poor_people_vulkan_gpus_list/",
+      "published_at": "2026-10-04T19:53:01Z",
+      "summary": "Help with this list. Give me your recommendation on &quot;not supported anymore&quot; GPUs. Looking for budget and Vulkan friendly options. Most of the GPU are not supported by latest CUDA / ROCm. Often with some witchcr",
       "tags": [
         "localllama"
       ]
@@ -41,94 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxlytt/update_4_post_training_yandexaliceai80ba3b/",
       "published_at": "2026-10-04T17:55:37Z",
       "summary": "      Last update for those following: https://www.reddit.com/r/LocalLLaMA/comments/1wvyc3e/update_3_post_training_yandexaliceai80ba3b/ Project in a sentence: An instruct finetune of ALiceAI-80B-A3B-Base capable of agent",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-04-lfm25-26b-vs-minicpm5-2b",
-      "source": "localllama",
-      "title": "LFM2.5 2.6b vs MiniCPM5 2b",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxlw2c/lfm25_26b_vs_minicpm5_2b/",
-      "published_at": "2026-10-04T17:52:14Z",
-      "summary": "I tried both these models on a few small agentic tasks with tools (i.e. &quot;What&#39;s the weather like today?&quot;, etc.). They&#39;re both pretty solid at using web search to find answers despite being small models.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-04-benchmarking-decision-models-is-fun---clef-q8-vs-jev",
-      "source": "localllama",
-      "title": "Benchmarking decision models is fun - Clef Q8 vs Jev",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxloam/benchmarking_decision_models_is_fun_clef_q8_vs_jev/",
-      "published_at": "2026-10-04T17:43:17Z",
-      "summary": "      &#32; submitted by &#32;  /u/3VITAERC   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-04-poorman-inference-engine-for-16gb-gpu-and-35b-moe-qwen-36for",
-      "source": "localllama",
-      "title": "poorman inference engine for 16GB GPU and 35B moe Qwen 3.6for coding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxllvu/poorman_inference_engine_for_16gb_gpu_and_35b_moe/",
-      "published_at": "2026-10-04T17:40:32Z",
-      "summary": "I forked llama.cpp&#39;s server into AgrillaMoE, a dedicated build for Qwen3.6-35B-A3B (~A4B) with Unsloth quants. On a (vant.ai) rented V100 16GB with the 2-bit UD-Q2_K_XL quant it generates at ~57-60 tok/s while runnin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-04-built-a-quick-sub-15ms-rust-clitui-to-pack-repos-into-prompt",
-      "source": "localllama",
-      "title": "Built a quick, sub-15ms Rust CLI/TUI to pack repos into prompts without burning 40k tokens on lockfiles and junk",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxl36c/built_a_quick_sub15ms_rust_clitui_to_pack_repos/",
-      "published_at": "2026-10-04T17:18:56Z",
-      "summary": "Whenever I feed codebases into local models (Qwen, DeepSeek R1) or API models, the biggest annoyance is prompt pollution: - Lockfiles (`Cargo.lock`, `package-lock.json`) burning 30,000+ tokens for zero reason. - SVGs, bi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-04-qwen35-arch-implementation-in-fpga-fabric-for-9b27b-int4-mod",
-      "source": "localllama",
-      "title": "Qwen3.5 arch implementation in FPGA fabric for 9B/27B INT4 models on relatively cheap eBay mining hardware",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxken1/qwen35_arch_implementation_in_fpga_fabric_for/",
-      "published_at": "2026-10-04T16:51:07Z",
-      "summary": "      I&#39;ve been wanting to test out LLM inference on FPGAs for a while now, but didn&#39;t have a big reason too since there were no frontier class models at 9B-27B scale (3.6 27B was great still but it didn&#39;t mo",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-04-a-strata-fork-for-ibm-ac922-running-qwen38-fn-ud-q4-k-xl-is",
-      "source": "localllama",
-      "title": "A Strata fork for IBM AC922 running Qwen3.8-FN UD-Q4_K_XL is doing up to 7,357 tk/s prefill and 113 tk/s decode",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxjs47/a_strata_fork_for_ibm_ac922_running_qwen38fn_udq4/",
-      "published_at": "2026-10-04T16:25:04Z",
-      "summary": "I forked Strata and worked with Opus 5.5 with some heavy changes to it to make it work on an IBM AC922 I have access to. The IBM AC922 is a 2018 era beast with two POWER9 20 core SMT4 CPUs that are connected by NVLink to",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-04-i-trained-a-387b-moe-145b-active-from-scratch-on-only-865b-t",
-      "source": "localllama",
-      "title": "I trained a 3.87B MoE (1.45B active) from scratch on only 86.5B tokens",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxiy8y/i_trained_a_387b_moe_145b_active_from_scratch_on/",
-      "published_at": "2026-10-04T15:50:54Z",
-      "summary": "      First of all, thank you for reading. I trained a small MoE model completely from scratch (no external base weights) and wanted to share the results + a couple of lessons. Apex-2 - Architecture: Decoder-only MoE, ev",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-04-how-long-before-we-have-a-local-model-capable-of-modeling",
-      "source": "localllama",
-      "title": "How long before we have a local model capable of modeling?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxibor/how_long_before_we_have_a_local_model_capable_of/",
-      "published_at": "2026-10-04T15:24:25Z",
-      "summary": "I&#39;m using Qwen 3.8 and qwen flash on a 5090. It&#39;s miles behind the latest Opus 5.5. Even if it was remotely capable it would be a huge help to me, but for now, with regards to 3D modeling, local models are not cl",
       "tags": [
         "localllama"
       ]
