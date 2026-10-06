@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T23:54:32Z",
+  "updated_at": "2026-10-06T05:44:35Z",
   "releases": [
     {
       "id": "llama-cpp-b11433",
@@ -1887,6 +1887,15 @@
       "project": "ollama",
       "version": "v0.40.0-rc3",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3",
+      "published_at": "2026-09-25T03:31:52Z",
+      "body_excerpt": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. Additional models include gemma4, qwen3.6 and qwen3.5 Decision models are now available on MLX as well: Nimble tev1 clef clef-flash We will continue testing and enabling additional models. Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.0-rc5",
+      "project": "ollama",
+      "version": "v0.40.0-rc5",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5",
       "published_at": "2026-09-25T03:31:52Z",
       "body_excerpt": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. Additional models include gemma4, qwen3.6 and qwen3.5 Decision models are now available on MLX as well: Nimble tev1 clef clef-flash We will continue testing and enabling additional models. Full Changelog:",
       "type": "tool"
@@ -11610,60 +11619,6 @@
       "published_at": "2026-07-08T06:08:55Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9910",
-      "project": "llama-cpp",
-      "version": "b9910",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9910",
-      "published_at": "2026-07-08T04:25:04Z",
-      "body_excerpt": "server : fix draft model fit vs load inconsistency (#25056) fix: draft model fit vs load inconsistency refactor(server): unify draft/mtp parameter initialization, model, and context load moves speculative init to speculative.cpp changes server_context_impl model_dft and ctx_dft to use raw pointers fix: don't throttle progress callback when loading draft model refactor: rename draft model/ctx load ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9909",
-      "project": "llama-cpp",
-      "version": "b9909",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9909",
-      "published_at": "2026-07-08T03:31:58Z",
-      "body_excerpt": "server : add timings and progress to /responses API stream (#25348) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9908",
-      "project": "llama-cpp",
-      "version": "b9908",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9908",
-      "published_at": "2026-07-08T02:53:37Z",
-      "body_excerpt": "server: enforce prompt cache RAM limit (#25070) Before this commit, --cache-ram was not a hard limit: The cache always kept at least one entry, even if that entry exceeded the RAM/token limits. Old entries were only evicted for the RAM/token limits after saving the new one, which could cause the cache to temporarily exceed the RAM/token limits even if individual entries were below the limit. Now, ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9907",
-      "project": "llama-cpp",
-      "version": "b9907",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9907",
-      "published_at": "2026-07-08T02:22:07Z",
-      "body_excerpt": "common : add missing include in common.h (#25220) Signed-off-by: zhangrunda macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9906",
-      "project": "llama-cpp",
-      "version": "b9906",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9906",
-      "published_at": "2026-07-08T01:49:38Z",
-      "body_excerpt": "ggml-hip : add -fno-finite-math-only alongside -ffast-math (#25373) -ffast-math implies -ffinite-math-only under ROCm/clang 22, which disables INFINITY/NaN and triggers -Wnan-infinity-disabled (errors under -Werror in CI). Re-enable infinity handling without dropping the rest of fast-math. Fixes #25361 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED ma",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9905",
-      "project": "llama-cpp",
-      "version": "b9905",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9905",
-      "published_at": "2026-07-08T00:23:39Z",
-      "body_excerpt": "llama: fix quantized kv-cache for dsv4 (#25202) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) W",
-      "type": "tool"
     }
   ]
 }
