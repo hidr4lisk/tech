@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-05T23:54:25Z",
+  "updated_at": "2026-10-06T05:44:25Z",
   "items": [
+    {
+      "id": "localllama-2026-10-06-unslothqwen38-flash-next-gguf-is-being-updated",
+      "source": "localllama",
+      "title": "unsloth/Qwen3.8-Flash-Next-GGUF is being updated",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyuoht/unslothqwen38flashnextgguf_is_being_updated/",
+      "published_at": "2026-10-06T05:39:02Z",
+      "summary": "Looks like Unsloth is updating https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF to work with llama.cpp, so hopefully this will resolve the issue of having two different GGUF versions of Qwen Flash Next.  &#32; subm",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-06-western-open-source-ai-reflection-finally-shows-up",
+      "source": "localllama",
+      "title": "Western open-source AI Reflection finally shows up",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wytjzc/western_opensource_ai_reflection_finally_shows_up/",
+      "published_at": "2026-10-06T04:32:47Z",
+      "summary": "Reflection AI just dropped Beam, their first open model. Former DeepMind folks positioning it as the non-Chinese alternative — strong at coding/agents, 3-4x more efficient than other open models. Already training the nex",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-06-when-will-we-get-another-good-american-open-weights-model",
+      "source": "localllama",
+      "title": "When will we get another good American open weights model?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyrtl0/when_will_we_get_another_good_american_open/",
+      "published_at": "2026-10-06T02:58:01Z",
+      "summary": "      Every time I check the top models on HF, I basically feel like this:  &#32; submitted by &#32;  /u/cyber_burr   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-06-set-your-pdoom-on-hf",
+      "source": "localllama",
+      "title": "Set your P(doom) on HF",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyrjmh/set_your_pdoom_on_hf/",
+      "published_at": "2026-10-06T02:43:16Z",
+      "summary": "      &#32; submitted by &#32;  /u/reto-wyss   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-06-swift15-qwen38-flash-next---tailored-for-the-96gb-mac-studio",
+      "source": "localllama",
+      "title": "Swift1.5 Qwen3.8 Flash Next - Tailored for the 96GB Mac Studio with M5 Ultra",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyqgl6/swift15_qwen38_flash_next_tailored_for_the_96gb/",
+      "published_at": "2026-10-06T01:47:42Z",
+      "summary": "https://huggingface.co/Dankpaws/Swift1.5-Qwen3.8-Flash-Next-MLX-4.7bpw I&#39;ve had the 96GB Mac Studio with M5 Ultra for about a week now and wasn&#39;t satisfied with the results I was getting from the limited number o",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-06-qwen-38-27b-just-feels-ok",
+      "source": "localllama",
+      "title": "Qwen 3.8 27b just feels… ok?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyp4n2/qwen_38_27b_just_feels_ok/",
+      "published_at": "2026-10-06T00:41:42Z",
+      "summary": "I’ve seen posts here raving about how good Qwen 3.8 27b is. The benchmarks look incredible, and all the online discourse seems to deem it the best local model. I have 32GB VRAM and run Unsloth’s Q6 version with OpenCode.",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-05-quoting-felix-rieseberg",
+      "source": "simonw",
+      "title": "Quoting Felix Rieseberg",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "published_at": "2026-10-05T23:56:47Z",
+      "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just ",
+      "tags": [
+        "simonw"
+      ]
+    },
     {
       "id": "localllama-2026-10-05-less-talk-more-breakout-kolibri-1-turns-probabilities-into-a",
       "source": "localllama",
@@ -8,6 +85,17 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wynppg/less_talk_more_breakout_kolibri1_turns/",
       "published_at": "2026-10-05T23:35:19Z",
       "summary": "      Got Kolibri-1 to play Breakout completely on its own, no fine-tuning. The more we explore u/Aleph__Alpha’s Kolibri the more it get&#39;s exciting and its potential. Less talk. More Breakout is one such experiment t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-05-k-llamacpp-moe-optimizations-expert-residency-hybrid-cpugpu",
+      "source": "localllama",
+      "title": "k_llama.cpp MoE Optimizations: Expert Residency, Hybrid CPU/GPU Execution, Q2_0 Support",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wynomx/k_llamacpp_moe_optimizations_expert_residency/",
+      "published_at": "2026-10-05T23:33:54Z",
+      "summary": "Finally finished my fork: https://github.com/IceFog72/ik_llama.cpp Nothing else I wanted to add/try currently works In short, it now has:  Bandwidth-adaptive CPU/GPU execution Shared expert-residency ideas from https://a",
       "tags": [
         "localllama"
       ]
@@ -35,100 +123,23 @@
       ]
     },
     {
+      "id": "localllama-2026-10-05-i-ran-1200-blender-modeling-runs-across-llms-and-agent-harne",
+      "source": "localllama",
+      "title": "I ran 1,200+ Blender modeling runs across LLMs and agent harnesses and made them votable",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyklnj/i_ran_1200_blender_modeling_runs_across_llms_and/",
+      "published_at": "2026-10-05T21:18:05Z",
+      "summary": "Blind A/B arena where AI agents build things in Blender and you vote on which result is better: https://render-arena.izolight.xyz Each agent gets a prompt that describes its environment and the rules, plus a few words fo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
       "id": "localllama-2026-10-05-what-comes-close-to-codexs-computer-use-mcp",
       "source": "localllama",
       "title": "What comes close to Codex's Computer Use MCP",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wykkzd/what_comes_close_to_codexs_computer_use_mcp/",
       "published_at": "2026-10-05T21:17:19Z",
       "summary": "I&#39;m not sure if it&#39;s the model or just the Codex&#39;s MCP itself, which was built by another smaller startup called Sky.  I want to build an agent system equivalent of an RPA for my company, and we don&#39;t wan",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-05-when-redditors-come-in-here-and-ask-why-we-run-llms-this-is",
-      "source": "localllama",
-      "title": "When Redditors come in here and ask why we run LLMs, this is why: Big AI is watching.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyjuh0/when_redditors_come_in_here_and_ask_why_we_run/",
-      "published_at": "2026-10-05T20:47:58Z",
-      "summary": " Anthropic Reports Florida Woman&#39;s Claude &#39;Diary&#39; Threat to Law Enforcement And this time it wasn&#39;t the AI model that made the LEO referral. It was the &quot;human review team&quot;. The frontier AI compa",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-05-nokia-applied-researchanyjev-turn-any-llm-into-a-jev-style-d",
-      "source": "localllama",
-      "title": "nokia-applied-research/AnyJev: Turn any LLM into a Jev-style decision model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyinzn/nokiaappliedresearchanyjev_turn_any_llm_into_a/",
-      "published_at": "2026-10-05T20:01:21Z",
-      "summary": "      Haven&#39;t seen posted here. The research project matters because it proves you can pull trustworthy decisions straight out of an LLM&#39;s internal state in a single forward pass (no generation loop, no parsing, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-05-we-swapped-adamws-optimizer-states-for-a-fast-fourier-transf",
-      "source": "localllama",
-      "title": "We swapped AdamW's optimizer states for a Fast Fourier Transform (FFT) to cut VRAM in half. Anyone else trying non-quantization methods?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyihlz/we_swapped_adamws_optimizer_states_for_a_fast/",
-      "published_at": "2026-10-05T19:54:44Z",
-      "summary": "Hey everyone, Like most of you, we have been fighting constant OOM errors while trying to fine-tune 8B and 70B models on consumer GPUs. The AdamW optimizer states are always the biggest bottleneck. We didn&#39;t want to ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-05-llamacpp-v060-released-with-mtp-speculative-decoding-for-qwe",
-      "source": "localllama",
-      "title": "llama.cpp v0.6.0 released with MTP speculative decoding for Qwen4Exp and lots more",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyh03u/llamacpp_v060_released_with_mtp_speculative/",
-      "published_at": "2026-10-05T18:58:01Z",
-      "summary": "      &#32; submitted by &#32;  /u/vexatious-big   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-05-yall-this-is-a-sexy-paper-context-language-models",
-      "source": "localllama",
-      "title": "Y'all this is a sexy paper; context language models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyf63m/yall_this_is_a_sexy_paper_context_language_models/",
-      "published_at": "2026-10-05T17:48:37Z",
-      "summary": "      Paper linky - Context Language Models The central idea of the paper is incredibly simple. Give a model the ability to edit its context on-the-go like a file has major benefits on task performance, context managemen",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-05-whistle-speech-to-text-in-a-169mb-file",
-      "source": "localllama",
-      "title": "Whistle: speech to text in a 16.9MB file",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyemcb/whistle_speech_to_text_in_a_169mb_file/",
-      "published_at": "2026-10-05T17:27:43Z",
-      "summary": "      Hey all, we designed Cactus Whistle, an ASR model for ultra-small devices. It&#39;s not perfect, but mostly beats Whisper base with 9x less file size and 6x speed. Whistle supports English, German, French, Spanish,",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-05-how-is-it-possible-that-qwen-27b-is-so-good-when-gpt-4o-had",
-      "source": "localllama",
-      "title": "How is it possible that qwen 27b is so good? When GPT 4o had a trillion parameters and was worse?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyefkt/how_is_it_possible_that_qwen_27b_is_so_good_when/",
-      "published_at": "2026-10-05T17:20:38Z",
-      "summary": "      Picture from a post in r/amodei . People were praising qwen and I&#39;m just wondering, what kind of new technologies are at play here? Does qwen just have &quot;better&quot; pre training data? That&#39;s more high",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-05-make-no-mistake-selling-64-gb-dgx-spark-variants-at-the-same",
-      "source": "localllama",
-      "title": "Make no mistake, selling 64 GB DGX Spark variants at the same cost as the original 128 GB is straight drug dealer behavior.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyea30/make_no_mistake_selling_64_gb_dgx_spark_variants/",
-      "published_at": "2026-10-05T17:14:50Z",
-      "summary": "It&#39;s something straight out of the season one of &#39;The Wire&#39;: you take the product, dilute it, and sell it at practically the same cost. It&#39;s some &quot;Stringer&quot; Bell shit. We should call the 64gbs &",
       "tags": [
         "localllama"
       ]
@@ -338,17 +349,6 @@
       "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
       "published_at": "2026-09-28T22:07:38Z",
       "summary": "Claude Sonnet 5.5\nNew Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-09-28-quoting-joedaroo",
-      "source": "simonw",
-      "title": "Quoting @joedaroo",
-      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
-      "published_at": "2026-09-28T19:11:42Z",
-      "summary": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Securit",
       "tags": [
         "simonw"
       ]
