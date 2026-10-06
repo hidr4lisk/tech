@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-06T05:44:35Z",
+  "updated_at": "2026-10-06T13:05:15Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11439",
+      "project": "llama-cpp",
+      "version": "b11439",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11439",
+      "published_at": "2026-10-06T12:41:57Z",
+      "body_excerpt": "ggml: refactor selective expert copying to user code (#29943) ggml: refactor selective expert copying to user code tests: enroll two models into selective expert copy test tests: use deepseek2 as test model improve comment in ggml-backend.h Co-authored-by: Georgi Gerganov cont: fix whitespace cont : better comments Co-authored-by: Georgi Gerganov --------- Co-authored-by: Georgi Gerganov Website: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11438",
+      "project": "llama-cpp",
+      "version": "b11438",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11438",
+      "published_at": "2026-10-06T10:01:50Z",
+      "body_excerpt": "test-llama-archs : initialize backends before generating models (#30034) With GGML_BACKEND_DL=ON, backends must be loaded explicitly before creating models. Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11436",
+      "project": "llama-cpp",
+      "version": "b11436",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11436",
+      "published_at": "2026-10-06T09:41:06Z",
+      "body_excerpt": "ggml-openvino: fix CI tests; fix GPU regressions. (#30037) ggml-openvino: skip unselected graph branches and support DUP Upstream #29622 adds a mixed token/embd branch to every input embedding graph through ggml_build_forward_select(). Its nodes are not flagged for compute, but the backend translated them anyway, and the DUP in that branch was unsupported, so the scheduler split the graph and pass",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11435",
+      "project": "llama-cpp",
+      "version": "b11435",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11435",
+      "published_at": "2026-10-06T06:16:04Z",
+      "body_excerpt": "llama: fix k-pool scatter data race on shared sequences (#29994) llama: re-pool each shared k-pool rep once With shared cells every pool is re-pooled, and since the pooled keys are always scattered, the pools a seq_cp shares between sequences wrote the same rep row from several scatter entries, a data race on the CPU backend. Mark each rep once: the sharing sequences read the same row through pool",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11433",
       "project": "llama-cpp",
@@ -11511,114 +11547,6 @@
       "published_at": "2026-07-08T13:32:40Z",
       "body_excerpt": "metal : add set_rows with src0 f16 (#25434) Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9917",
-      "project": "llama-cpp",
-      "version": "b9917",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9917",
-      "published_at": "2026-07-08T13:00:26Z",
-      "body_excerpt": "fix: OOB reads in UGM tokenizer (precompiled_charsmap handling) (#18750) fix: OOB reads in UGM tokenizer (precompiled_charsmap handling) Validate minimum size (4 bytes) before reading xcda_blob_size Use strnlen with bounds check instead of unsafe strlen Both issues allow heap-buffer-overflow from malicious T5/UGM GGUF files. Replace unsafe strnlen() with a bounds-checked loop that scans for \\0 wit",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-nvDock",
-      "project": "nvidia",
-      "version": "nvDock",
-      "url": "https://huggingface.co/nvidia/nvDock",
-      "published_at": "2026-07-08T13:00:24Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-EleutherAI-OLMo-2-7B-recall-9000",
-      "project": "EleutherAI",
-      "version": "OLMo-2-7B-recall-9000",
-      "url": "https://huggingface.co/EleutherAI/OLMo-2-7B-recall-9000",
-      "published_at": "2026-07-08T12:58:51Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-EleutherAI-Olmo-3-7B-Instruct-recall-9000",
-      "project": "EleutherAI",
-      "version": "Olmo-3-7B-Instruct-recall-9000",
-      "url": "https://huggingface.co/EleutherAI/Olmo-3-7B-Instruct-recall-9000",
-      "published_at": "2026-07-08T12:58:51Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9916",
-      "project": "llama-cpp",
-      "version": "b9916",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9916",
-      "published_at": "2026-07-08T12:21:04Z",
-      "body_excerpt": "ggml : fix A indexing in simd_gemm scalar tail-column path (#25390) has an incorrect A-matrix index in the scalar tail-column path for full row blocks. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9915",
-      "project": "llama-cpp",
-      "version": "b9915",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9915",
-      "published_at": "2026-07-08T11:47:31Z",
-      "body_excerpt": "ggml : add support for CPU f16->f16 GGML_OP_SET_ROWS (#25344) ggml : add support for CPU f16->f16 GGML_OP_SET_ROWS ggml : add missing type checks in f16 GGML_OP_SET_ROWS ggml : merge ggml_compute_forward_set_rows_f32() and ggml_compute_forward_set_rows_f16() into ggml_compute_forward_set_rows_impl() chore : replace assert() with GGML_ASSERT() --------- Co-authored-by: Stanisław Szymczyk macOS/iOS:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9914",
-      "project": "llama-cpp",
-      "version": "b9914",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9914",
-      "published_at": "2026-07-08T11:12:43Z",
-      "body_excerpt": "opencl: fix potential crash in aos reconstruct (#25383) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9913",
-      "project": "llama-cpp",
-      "version": "b9913",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9913",
-      "published_at": "2026-07-08T10:33:24Z",
-      "body_excerpt": "Add Q2_0 quantization: type definition and CPU backend (#24448) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Andro",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9912",
-      "project": "llama-cpp",
-      "version": "b9912",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9912",
-      "published_at": "2026-07-08T07:53:29Z",
-      "body_excerpt": "spec : fix naming, spacing (#25410) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wind",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9911",
-      "project": "llama-cpp",
-      "version": "b9911",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9911",
-      "published_at": "2026-07-08T06:58:47Z",
-      "body_excerpt": "CUDA: Fuse MMVQ post-scale for NVFP4 (#24481) CUDA: Fuse MMVQ for NVFP4 and BS 1 TODO: 1. Add tests to test-backend-ops (did verify correctness manually for one model) 2. Reorder bias/scale once PRs for NVFP4 are merged/landed Add dense MMVQ fusion as well Perf numbers on B4500. Note qwen35 is FP8->Q8 ./scripts/compare-llama-bench.py -b master -c osimons/nvfp4_fuse_mmvq --tool llama-bench -i llama",
-      "type": "tool"
-    },
-    {
-      "id": "hf-EleutherAI-GPT-2-wikitext-chunks-epsroot-0",
-      "project": "EleutherAI",
-      "version": "GPT-2-wikitext-chunks-epsroot-0",
-      "url": "https://huggingface.co/EleutherAI/GPT-2-wikitext-chunks-epsroot-0",
-      "published_at": "2026-07-08T06:33:45Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-EleutherAI-GPT-2-wikitext-chunks",
-      "project": "EleutherAI",
-      "version": "GPT-2-wikitext-chunks",
-      "url": "https://huggingface.co/EleutherAI/GPT-2-wikitext-chunks",
-      "published_at": "2026-07-08T06:08:55Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
