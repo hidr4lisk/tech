@@ -1,6 +1,159 @@
 {
-  "updated_at": "2026-10-06T13:05:15Z",
+  "updated_at": "2026-10-06T22:31:54Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11457",
+      "project": "llama-cpp",
+      "version": "b11457",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11457",
+      "published_at": "2026-10-06T21:23:18Z",
+      "body_excerpt": "cuda : add BF16 support for XIELU (#29955) The XIELU CUDA kernel template is already generic over the element type; only the F32/F16 type assertion and the else-if dispatch were missing. Add the nv_bfloat16 branch to the launcher, and drop the temporary supports_op gate in ggml-cuda.cu that rejected BF16+XIELU. test-backend-ops gains two BF16 cases ([10,5,4,3] and [512,16,1,1]). docs/ops/CUDA.csv ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11456",
+      "project": "llama-cpp",
+      "version": "b11456",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11456",
+      "published_at": "2026-10-06T21:07:10Z",
+      "body_excerpt": "ggml-cuda: use per-thread stream for buffer-init padding memset (#28782) ggml-cuda: use per-thread stream for buffer-init padding memset ci : re-enable test-backend-ops -j for ROCm Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11455",
+      "project": "llama-cpp",
+      "version": "b11455",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11455",
+      "published_at": "2026-10-06T20:41:02Z",
+      "body_excerpt": "vocab : implement PLaMo-3 tokenizer pre-segmentation (#30045) vocab : implement PLaMo-3 tokenizer pre-segmentation The PLaMo-3 tokenizer inserts hard boundaries before running the Unigram DP, around -looking text, and around runs of at least 4 identical characters or 2 spaces. Without them llama.cpp tokenizes code indentation and repeated punctuation differently from the reference. Reproduce the t",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11454",
+      "project": "llama-cpp",
+      "version": "b11454",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11454",
+      "published_at": "2026-10-06T20:20:44Z",
+      "body_excerpt": "model : add K2 Horizon dense and MoVA support (#29535) model: K2 Horizon gguf conversion code model: loading hparams and tensors in k2-horizon.cpp model: K2 Horizon compute graph model: K2 Horizon compute graph adjustment and registering tokenizers model: K2 Horizon chat template and accomodate safetensors naming unicode : add the K2-Horizon pre-tokenizer splitter The K2-Horizon regex had no arm i",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11451",
+      "project": "llama-cpp",
+      "version": "b11451",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11451",
+      "published_at": "2026-10-06T19:28:33Z",
+      "body_excerpt": "opencl: fix OOB read in adreno xmem GEMM (#30041) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11450",
+      "project": "llama-cpp",
+      "version": "b11450",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11450",
+      "published_at": "2026-10-06T19:05:44Z",
+      "body_excerpt": "RPC: add (#26610) rpc: allow -sm tensor fix flush for apple rdma move graph_uids to rpc_dispatcher cont : fix conflict cont: stop spinning dispatcher thread remove meta backend change add TODO to simplify logic rpc: bump major version --------- Co-authored-by: Georgi Gerganov Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11449",
+      "project": "llama-cpp",
+      "version": "b11449",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11449",
+      "published_at": "2026-10-06T18:48:20Z",
+      "body_excerpt": "ggml: fix CLAMP on non-contiguous views (CPU, CUDA) (#29517) ggml: fix CLAMP on non-contiguous views (CPU, CUDA) CUDA clamped ggml_nelements values flat and ignored the view strides. CPU addressed row j as jnb01 and ignored nb02/nb03. Both now follow the strides of dims 1..3; CUDA supports_op requires contiguous rows, like Metal. test_clamp gains a non-contiguous view case. cuda: clamp kernel uses",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11448",
+      "project": "llama-cpp",
+      "version": "b11448",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11448",
+      "published_at": "2026-10-06T18:31:16Z",
+      "body_excerpt": "cuda: BF16/FP16 conversion to f32 chunking (#29442) ggml-cuda: chunk large BF16/FP16 to F32 conversions Update ggml/src/ggml-cuda/ggml-cuda.cu Co-authored-by: Johannes Gäßler Update ggml/src/ggml-cuda/ggml-cuda.cu Co-authored-by: Johannes Gäßler ggml-cuda: respect dst stride in chunked cuBLAS matmul --------- Co-authored-by: Johannes Gäßler Website: Attestations: macOS/iOS: macOS Apple Silicon (ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11447",
+      "project": "llama-cpp",
+      "version": "b11447",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11447",
+      "published_at": "2026-10-06T18:13:44Z",
+      "body_excerpt": "models: support pplx-decider (#30044) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13",
+      "type": "tool"
+    },
+    {
+      "id": "whisper-cpp-v1.9.5",
+      "project": "whisper-cpp",
+      "version": "v1.9.5",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.5",
+      "published_at": "2026-10-06T17:39:17Z",
+      "body_excerpt": "Overview New version has been released. Nightly build: b5454 More info: dist : releases and versioning of ggml-org projects Changelog since v1.9.4 d1be6fde whisper : bump version to 1.9.5 (#4102) 4afec37b talk-llama : update llama.cpp to v0.6.0 3d451abe sync : ggml 47f1c7dc ggml : bump version to 0.26.0 (ggml/1652) e71b7844 CUDA: make the alloc_deps check batch independent (llama/29986) cdc87302 v",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11446",
+      "project": "llama-cpp",
+      "version": "b11446",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11446",
+      "published_at": "2026-10-06T17:31:13Z",
+      "body_excerpt": "metal : fix excess threadgroup memory in quantized flash attention (#29340) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUD",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.903-beta",
+      "project": "unsloth",
+      "version": "v0.1.903-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.903-beta",
+      "published_at": "2026-10-06T16:56:22Z",
+      "body_excerpt": "This release adds a browser inside Unsloth (browser use coming very soon), so files, web pages and pages the model writes open right beside your chat. It also brings EmbeddingGemma 2, Google's new multimodal embedding model, plus new Audio pages and lower-memory training. Highlights Browser beside chat for files, web pages and model-written HTML, as tabs EmbeddingGemma 2: run and fine-tune Google'",
+      "type": "tool"
+    },
+    {
+      "id": "whisper-cpp-b5454",
+      "project": "whisper-cpp",
+      "version": "b5454",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/b5454",
+      "published_at": "2026-10-06T16:51:27Z",
+      "body_excerpt": "",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.19.0",
+      "project": "transformers",
+      "version": "v5.19.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.19.0",
+      "published_at": "2026-10-06T16:39:23Z",
+      "body_excerpt": "Release v5.19.0 New Model additions EmbeddingGemma2 EmbeddingGemma 2 is a multimodal embedding model from Google built on the Gemma 4 architecture. It encodes text, images, audio, and video, individually or combined in one input, into a shared 768-dimensional vector space for cross-modal retrieval, semantic similarity, clustering, and classification. It uses Matryoshka Representation Learning, so ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11445",
+      "project": "llama-cpp",
+      "version": "b11445",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11445",
+      "published_at": "2026-10-06T16:03:55Z",
+      "body_excerpt": "vulkan : check for null vkEnumerateInstanceVersion (#29872) A 1.0 loader (e.g. Android 8.1) has no vkEnumerateInstanceVersion, so backend init called a null pointer. Treat it like any loader under 1.2. Fixes #29871. Assisted-by: Claude Opus 5.5 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11443",
+      "project": "llama-cpp",
+      "version": "b11443",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11443",
+      "published_at": "2026-10-06T13:25:08Z",
+      "body_excerpt": "models : consolidate nextn row cropping into shared helpers (#30017) mimo2 : always emit h_nextn the other nextn-capable models set it unconditionally Assisted-by: pi:llama.cpp/MiMo-V2.6-Flash-MOPD models : consolidate nextn row cropping into shared helpers replace the duplicated crop conditions and the per-model flags (narrow_early, crop_before_ffn, crop_last_layer, emit_h_nextn) with two helpers",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11440",
+      "project": "llama-cpp",
+      "version": "b11440",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11440",
+      "published_at": "2026-10-06T13:07:11Z",
+      "body_excerpt": "llama : re-reserve the sched when the nextn extraction flags change (#30020) The speculative MTP init enables NextN extraction on the target and draft contexts after both were created and their schedulers reserved. With unmasked extraction the trunk graph keeps every token through the last layer instead of cropping to the output rows, so the first decode reallocates to that batch's shape and the n",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11439",
       "project": "llama-cpp",
@@ -1937,6 +2090,15 @@
       "type": "tool"
     },
     {
+      "id": "ollama-v0.40.0",
+      "project": "ollama",
+      "version": "v0.40.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
+      "published_at": "2026-09-25T03:31:52Z",
+      "body_excerpt": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. Additional models include gemma4, qwen3.6 and qwen3.5 Decision models are now available on MLX as well: Nimble tev1 clef clef-flash MLX now has support for an embedding model: embeddinggemma-2 We will continue testin",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b11175",
       "project": "llama-cpp",
       "version": "b11175",
@@ -3627,6 +3789,15 @@
       "published_at": "2026-09-14T15:28:07Z",
       "body_excerpt": "llama.cpp : bump version to 0.4.1 (#28900) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
       "type": "tool"
+    },
+    {
+      "id": "hf-google-embeddinggemma-2",
+      "project": "google",
+      "version": "embeddinggemma-2",
+      "url": "https://huggingface.co/google/embeddinggemma-2",
+      "published_at": "2026-09-14T14:53:42Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b10956",
@@ -11438,114 +11609,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9933",
       "published_at": "2026-07-08T23:22:46Z",
       "body_excerpt": "opencl: Q6_K GEMM/GEMV fix for ne01 of weights that are not multiples of 128. (#25464) opencl: fix garbled output for Q6_K weights with ne01 % 128 != 0 on Adreno Observed with granite-3.1-3b-a800m-instruct, whose vocab is an odd number. Route Q6_K dense mul_mat with ne01 % 128 != 0 off the noshuffle path: decode (ne1==1) uses the correct flat GEMV and the matching GEMM (ne1>1) falls back to CPU (t",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9932",
-      "project": "llama-cpp",
-      "version": "b9932",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9932",
-      "published_at": "2026-07-08T21:45:59Z",
-      "body_excerpt": "vulkan: disable FA mask_opt on GCN to improve performance (#24362) vulkan: disable FA mask_opt on GCN to improve performance reenable mask opt over attention head size 256 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulk",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Kimi-K2.7-Code-DFlash",
-      "project": "nvidia",
-      "version": "Kimi-K2.7-Code-DFlash",
-      "url": "https://huggingface.co/nvidia/Kimi-K2.7-Code-DFlash",
-      "published_at": "2026-07-08T21:16:29Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9931",
-      "project": "llama-cpp",
-      "version": "b9931",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9931",
-      "published_at": "2026-07-08T21:11:39Z",
-      "body_excerpt": "opencl: ragged-tile MoE prefill FP16 GEMM optimization (skip padded expert tiles) (#25433) opencl: ragged-tile MoE prefill GEMM (skip padded expert tiles) The MoE prefill GEMM groups tokens into TILESIZE_N=32 per-expert tiles; at low tokens-per-expert most tiles are mostly padding. When a tile's upper 16 slots are all padding (router index 0xFFFFFFFF), skip the second dotx16_reduce8 half. Numerica",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9930",
-      "project": "llama-cpp",
-      "version": "b9930",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9930",
-      "published_at": "2026-07-08T20:36:36Z",
-      "body_excerpt": "llama-batch: fix allowed decreasing pos in a seq (#25449) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9929",
-      "project": "llama-cpp",
-      "version": "b9929",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9929",
-      "published_at": "2026-07-08T19:53:39Z",
-      "body_excerpt": "vulkan: for small AMD GPUs, reduce submission threshold based on CU count (#25240) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL F",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9928",
-      "project": "llama-cpp",
-      "version": "b9928",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9928",
-      "published_at": "2026-07-08T19:15:01Z",
-      "body_excerpt": "hexagon: new vtcm layouts and improved pipelines for MUL_MAT, MUL_MAT_ID and FLASH_ATTN_EXT (#25425) hex-fa: refactor kernel param compute to use common layout builder hmx: add explicit compiler barriers to make hmx funcs more robust hex-vtcm: more generic vtcm layout builder for mm and flash-attn kernels hex-hmx: unroll inner kernels hex-hmx: use inline asm instead of intrinsics to avoid compiler",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9927",
-      "project": "llama-cpp",
-      "version": "b9927",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9927",
-      "published_at": "2026-07-08T18:28:45Z",
-      "body_excerpt": "cli : move to HTTP-based implementation (#24948) cli: move to HTTP-based implementation wip working remote server ok cli support router mode Co-authored-by: Piotr Wilkin case: router with only one model Apply suggestions from code review Co-authored-by: Piotr Wilkin (ilintar) remove outdated comment use destructor instead add ftype cli-view --> cli-ui pimpl no more json in header nits fixes also s",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9925",
-      "project": "llama-cpp",
-      "version": "b9925",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9925",
-      "published_at": "2026-07-08T16:52:32Z",
-      "body_excerpt": "cuda : add support for f16->f16 GGML_OP_SET_ROWS (#25367) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9924",
-      "project": "llama-cpp",
-      "version": "b9924",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9924",
-      "published_at": "2026-07-08T16:12:57Z",
-      "body_excerpt": "llama: refactor fused ops (#24646) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windo",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9923",
-      "project": "llama-cpp",
-      "version": "b9923",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9923",
-      "published_at": "2026-07-08T15:26:17Z",
-      "body_excerpt": "server-stream: follow-up on SSE Replay Buffer (#23226) (#25047) server-stream : pimpl server-stream: prefix free functions with server_stream_ address review from ggerganov: scope the public stream functions under the server_stream_ prefix, matching server_stream_session_manager_start/stop. server-stream: guard session and manager state with the mutex address review from ggerganov: make done, comp",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9922",
-      "project": "llama-cpp",
-      "version": "b9922",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9922",
-      "published_at": "2026-07-08T14:51:17Z",
-      "body_excerpt": "llama-batch: add n_keep_tail in split_equal for recurrent models (#25278) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9918",
-      "project": "llama-cpp",
-      "version": "b9918",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9918",
-      "published_at": "2026-07-08T13:32:40Z",
-      "body_excerpt": "metal : add set_rows with src0 f16 (#25434) Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
       "type": "tool"
     }
   ]
