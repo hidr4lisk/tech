@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-10-07T12:59:41Z",
+  "updated_at": "2026-10-07T22:55:39Z",
   "releases": [
+    {
+      "id": "unsloth-v0.1.904-beta",
+      "project": "unsloth",
+      "version": "v0.1.904-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.904-beta",
+      "published_at": "2026-10-07T14:58:48Z",
+      "body_excerpt": "Turn any text or vision LLM into a Jev-style decision model in Unsloth, with decision accuracy going from 30% to 80%. Train, test, export and serve decision models directly from Unsloth. Also included: native ComfyUI models, diffusion improvements and a better Browser in Desktop. Highlights Turn any model into a Jev-style decision model. Accuracy 30% to 80% Load ComfyUI diffusion models natively i",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11476",
+      "project": "llama-cpp",
+      "version": "b11476",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11476",
+      "published_at": "2026-10-07T14:55:09Z",
+      "body_excerpt": "metal : few-row MMA mat-mul for the remaining src0 types (#30065) The generic few-row MMA kernel works for any type with a 16-weight dequantizer, so it now also takes BF16, Q1_0, Q2_0, MXFP4, Q2_K, Q3_K, TQ2_0 and the IQ types. Each type starts at the row count where it beats the current kernels on an M3 Ultra: 5 rows for TQ2_0, 4 for BF16, 3 for MXFP4, Q2_0, Q2_K and IQ4_NL, and 2 for the others.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11475",
+      "project": "llama-cpp",
+      "version": "b11475",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11475",
+      "published_at": "2026-10-07T14:23:40Z",
+      "body_excerpt": "metal : fix MUL_MAT+ADD fusion when the residual is itself a MUL_MAT (#30100) metal : fix MUL_MAT+ADD fusion when the residual is itself a MUL_MAT ggml_metal_op_mul_mat_mma picks the residual of a fused MUL_MAT+ADD as \"the ADD operand whose op is not MUL_MAT\". When both operands of the ADD are mat-mul outputs (x = W1 @ u + W2 @ v), that test is true for both, so the residual resolves to the fused ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11474",
+      "project": "llama-cpp",
+      "version": "b11474",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11474",
+      "published_at": "2026-10-07T13:42:20Z",
+      "body_excerpt": "feat: add GLM5Next MTP, optimize (#29928) llama : add GLM5-Next NextN (MTP) graph Build the GLM5-Next multi-token-prediction head as graph_mtp: the NextN block embeds enorm(tok)+hnorm(h) through eh_proj, runs one plain DSA layer and the shared lm_head, reusing the trunk's builders through the no_build tag ctor. llama_memory_recurrent also tolerates a partial seq_rm when the context holds no recurr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11472",
+      "project": "llama-cpp",
+      "version": "b11472",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11472",
+      "published_at": "2026-10-07T13:20:54Z",
+      "body_excerpt": "sampling : use greedy selection for eligible temperature-zero chains (#29797) sampling : use greedy selection for eligible temperature-zero chains Assisted-by: OpenAI Codex Apply suggestion from @ggerganov Co-authored-by: Georgi Gerganov sampling: simplify zero-temperature greedy eligibility Allow the same greedy selection on CPU and grammar/reasoning-budget paths. Keep distribution sampling for d",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11471",
       "project": "llama-cpp",
@@ -6581,6 +6626,60 @@
       "type": "tool"
     },
     {
+      "id": "hf-allenai-Llama-3-Blama-8B",
+      "project": "allenai",
+      "version": "Llama-3-Blama-8B",
+      "url": "https://huggingface.co/allenai/Llama-3-Blama-8B",
+      "published_at": "2026-08-26T13:40:05Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-allenai-Llama-3-Blama-8B-Stage1",
+      "project": "allenai",
+      "version": "Llama-3-Blama-8B-Stage1",
+      "url": "https://huggingface.co/allenai/Llama-3-Blama-8B-Stage1",
+      "published_at": "2026-08-26T13:32:05Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-allenai-Bwen-8B",
+      "project": "allenai",
+      "version": "Bwen-8B",
+      "url": "https://huggingface.co/allenai/Bwen-8B",
+      "published_at": "2026-08-26T13:21:04Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-allenai-Bwen-8B-Stage1",
+      "project": "allenai",
+      "version": "Bwen-8B-Stage1",
+      "url": "https://huggingface.co/allenai/Bwen-8B-Stage1",
+      "published_at": "2026-08-26T13:18:26Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-allenai-Bolmo-1B-Stage1",
+      "project": "allenai",
+      "version": "Bolmo-1B-Stage1",
+      "url": "https://huggingface.co/allenai/Bolmo-1B-Stage1",
+      "published_at": "2026-08-26T13:16:56Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-allenai-Bolmo-7B-Stage1",
+      "project": "allenai",
+      "version": "Bolmo-7B-Stage1",
+      "url": "https://huggingface.co/allenai/Bolmo-7B-Stage1",
+      "published_at": "2026-08-26T13:12:59Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b10636",
       "project": "llama-cpp",
       "version": "b10636",
@@ -11609,42 +11708,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9947",
       "published_at": "2026-07-10T04:46:59Z",
       "body_excerpt": "cli: add --output option (#25484) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Window",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9946",
-      "project": "llama-cpp",
-      "version": "b9946",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9946",
-      "published_at": "2026-07-09T22:20:35Z",
-      "body_excerpt": "hexagon: tiling, tracing and optimizations for unary ops (#25474) hexagon: tile wide rows in pointwise unary ops to avoid VTCM overflow unary: reject permuted tensors for now (not used by models) hex-unary: replace divs with fastdiv hex-unary: add vtcm layout and host computed kernel params hex-unary: move fastdiv init into kernel params hex-unary: add specialized thread functions to improve gener",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9945",
-      "project": "llama-cpp",
-      "version": "b9945",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9945",
-      "published_at": "2026-07-09T21:47:16Z",
-      "body_excerpt": "server : move chat-template thinking probe inside the init try/catch (#24093) A model whose chat template parses at init but fails parser generation at apply time (e.g. uses {% call %}) throws std::invalid_argument from common_chat_templates_support_enable_thinking(), which ran outside the try/catch guarding common_chat_templates_init(). The throw was uncaught and llama-cli aborted (SIGABRT) inste",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Cosmos3-Edge-Policy-DROID",
-      "project": "nvidia",
-      "version": "Cosmos3-Edge-Policy-DROID",
-      "url": "https://huggingface.co/nvidia/Cosmos3-Edge-Policy-DROID",
-      "published_at": "2026-07-09T21:19:56Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9941",
-      "project": "llama-cpp",
-      "version": "b9941",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9941",
-      "published_at": "2026-07-09T20:17:48Z",
-      "body_excerpt": "Only index by compile times + always multiply/add (#25445) The first one avoids relying on compile to optimize local memory away, and the second is cheaper than issuing control flow statements macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulka",
       "type": "tool"
     }
   ]
