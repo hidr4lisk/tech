@@ -1,6 +1,149 @@
 {
-  "updated_at": "2026-10-07T12:59:33Z",
+  "updated_at": "2026-10-07T22:55:33Z",
   "items": [
+    {
+      "id": "localllama-2026-10-07-surface-rtx-spark-dev-box-the-dev-box-built-for-developers",
+      "source": "localllama",
+      "title": "Surface RTX Spark Dev Box: The Dev Box Built For Developers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x09g09/surface_rtx_spark_dev_box_the_dev_box_built_for/",
+      "published_at": "2026-10-07T21:50:00Z",
+      "summary": "      $5995 - Ships in November. N1X brand of GB10 Chip. Says it will have WSL out the door which I presume will be Ubuntu + Cuda beneath in addition to all the CoPilot/GitHub native stuff for Windows. Hopefully they hav",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-07-i-have-single-3090-and-32gb-of-ram-are-there-any-engines-lik",
+      "source": "localllama",
+      "title": "I have single 3090 and 32GB of ram are there any engines like strata, ninfer that run Qwen/Qwen3.6-35B-A3B at Q8 fast on my hardware",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x08bns/i_have_single_3090_and_32gb_of_ram_are_there_any/",
+      "published_at": "2026-10-07T21:05:23Z",
+      "summary": "strata with qwen flash Q2 is pretty retarded and 27b at q4 is also retarded so I am wondering if anyone knows a engine that runs the model Qwen/Qwen3.6-35B-A3B fast on my hardware?  &#32; submitted by &#32;  /u/Adventuro",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-07-claude-haiku-55",
+      "source": "simonw",
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "published_at": "2026-10-07T20:56:21Z",
+      "summary": "As previously promised, here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5.\nThe previous Haiku, 4.5, was very much showing its age. It came out almost a year ago, and was priced at $1/million input",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-07-qwen-38-flash-next-on-64gb-ram-16gb-vram-worth-it-over-a-ful",
+      "source": "localllama",
+      "title": "Qwen 3.8 Flash-Next on 64GB RAM + 16GB VRAM, worth it over a fully-loaded 3.6 35B-A3B?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x07qlh/qwen_38_flashnext_on_64gb_ram_16gb_vram_worth_it/",
+      "published_at": "2026-10-07T20:43:17Z",
+      "summary": "4080 16GB, 64GB RAM. Currently on 3.6 35B-A3B (Unsloth quant, fits fully in VRAM) and happy with it. Anyone tried Flash-Next at Q2/Q3 on a similar setup? Worth the switch, or should I stay put? Asking before committing t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-07-llamacpp-on-the-stage",
+      "source": "localllama",
+      "title": "llama.cpp on the stage",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x079wc/llamacpp_on_the_stage/",
+      "published_at": "2026-10-07T20:25:51Z",
+      "summary": "      https://x.com/ggerganov/status/2107908265032229261  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-07-kandinsky-60-video-gen-video-upscaler",
+      "source": "localllama",
+      "title": "Kandinsky 6.0 video gen + video upscaler!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x06h7i/kandinsky_60_video_gen_video_upscaler/",
+      "published_at": "2026-10-07T19:58:11Z",
+      "summary": "      Kandinsky 6.0 Pro (29B) and Lite (3B). Already support for ComfyUI and Diffusers. https://github.com/kandinskylab/kandinsky-6  &#32; submitted by &#32;  /u/KokaOP   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-07-llama-add-a-gpu-cache-for-moe-experts-kept-in-host-memory-by",
+      "source": "localllama",
+      "title": "llama : add a GPU cache for MoE experts kept in host memory by am17an · Pull Request #29887 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x03xkc/llama_add_a_gpu_cache_for_moe_experts_kept_in/",
+      "published_at": "2026-10-07T18:15:14Z",
+      "summary": "      Potentially big speedup for MoE models that don’t fully fit in VRAM. Are you GPU Poor? Show your speedups ;)  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-07-omni-d1-600m-by-liquid-ai-running-in-the-browser-using-webgp",
+      "source": "localllama",
+      "title": "omni-d1 600M by Liquid AI running in the browser using WebGPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x03mrh/omnid1_600m_by_liquid_ai_running_in_the_browser/",
+      "published_at": "2026-10-07T18:04:05Z",
+      "summary": "      Liquid just dropped d1-omni-600M and it&#39;s a decision model! I ported it to runntime, the WebGPU inference library I&#39;m currently working on. It&#39;s plain TypeScript on top of TypeGPU with no WASM and virtu",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-07-porting-libero-to-mujoco-warp-130-robot-manipulation-tasks-o",
+      "source": "localllama",
+      "title": "Porting LIBERO to MuJoCo Warp: 130 robot manipulation tasks on one $700 AMD GPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x02b88/porting_libero_to_mujoco_warp_130_robot/",
+      "published_at": "2026-10-07T17:14:25Z",
+      "summary": "LIBERO is a robot manipulation benchmark: 130 tasks across five suites (spatial, object, goal, scene10, scene90), each with human demos and a language goal. It is the standard testbed for language-conditioned imitation, ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-07-d1-3b-and-d1-omni-from-liquidai",
+      "source": "localllama",
+      "title": "d1-3B and d1-omni from LiquidAI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x01zg6/d13b_and_d1omni_from_liquidai/",
+      "published_at": "2026-10-07T17:02:15Z",
+      "summary": "      https://preview.redd.it/owhrvbbiu2uh1.png?width=4096&amp;format=png&amp;auto=webp&amp;s=55d816753e7adee0e1391c9f581052b4bde44da7 d1-omni-600M d1-omni-600M is a 600M parameter decision model built on LFM2.5-Encoder-",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-07-liquidaid1-3b-hugging-face",
+      "source": "localllama",
+      "title": "LiquidAI/d1-3B · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x01xg3/liquidaid13b_hugging_face/",
+      "published_at": "2026-10-07T17:00:23Z",
+      "summary": "      &#32; submitted by &#32;  /u/iamn0   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-10-07-multimodal-open-d1-decision-models-for-the-edge",
+      "source": "huggingface",
+      "title": "Multimodal open d1 decision models for the edge",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "published_at": "2026-10-07T16:54:33Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-07-a-week-in-beijing-and-shanghai-with-the-people-building-ai-i",
+      "source": "localllama",
+      "title": "A week in Beijing and Shanghai with the people building AI in China",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzxttk/a_week_in_beijing_and_shanghai_with_the_people/",
+      "published_at": "2026-10-07T14:22:00Z",
+      "summary": "      I thought this was a very interesting article, of relevance to the readers here.  &#32; submitted by &#32;  /u/uutnt   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "huggingface-2026-10-07-one-model-family-two-gold-level-results-fine-tuning-nemotron",
       "source": "huggingface",
@@ -24,105 +167,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-07-new-lfm-to-be-released-today",
-      "source": "localllama",
-      "title": "New LFM to be released today",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzuto0/new_lfm_to_be_released_today/",
-      "published_at": "2026-10-07T12:08:41Z",
-      "summary": "      https://x.com/ramin_m_h/status/2107780594264600801 What size do you want? https://huggingface.co/LiquidAI  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-micron-says-nvhbm-to-improve-profitability-even-with-outsour",
-      "source": "localllama",
-      "title": "Micron Says NVHBM to Improve Profitability Even With Outsourced Base Die",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzudla/micron_says_nvhbm_to_improve_profitability_even/",
-      "published_at": "2026-10-07T11:46:13Z",
-      "summary": "      &quot;NVHBM moves the memory controller, which was previously located on the main compute die, into the base die. This reduces power consumption by 15% and increases memory bandwidth by as much as 30%. It also inte",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-cmpunlocker-v05-just-dropped-ecc-support-along-with-4-extra",
-      "source": "localllama",
-      "title": "cmpunlocker v0.5 just dropped, ECC support along with 4 extra SM unlocked for FREE, who needs a 64GB DGX Spark when you've got a CMP170hx right? 1.5TB/s memory BW vs 273 GB/s, all for less than 1/2 the price of a 64GB DGX Spark",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzth65/cmpunlocker_v05_just_dropped_ecc_support_along/",
-      "published_at": "2026-10-07T10:55:42Z",
-      "summary": "      If you&#39;re like me and saw the price increase for the 128gb DGX Spark go from 4.7k -&gt; 7k while a new version with 64GB launch for 5k, you&#39;ll have been very disappointed and every right to be so, it&#39;s ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-image-text-retrieval-with-embeddinggemma-2s-vision-tower-run",
-      "source": "localllama",
-      "title": "Image-text retrieval with EmbeddingGemma 2's vision tower, running in the browser on WebGPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzs1t5/imagetext_retrieval_with_embeddinggemma_2s_vision/",
-      "published_at": "2026-10-07T09:26:05Z",
-      "summary": "      EmbeddingGemma 2 came out this week. It maps images and text into one 768-dim space, so you can search photos by describing them. I ported its text and vision towers to ruNNtime, a WebGPU inference library in TypeS",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-a-stock-glm-edge-15b-chat-on-a-4gb-galaxy-a04e-completed-a-r",
-      "source": "localllama",
-      "title": "A stock GLM-Edge-1.5B-Chat on a 4GB Galaxy A04e completed a real Amazon cart task",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzrw6x/a_stock_glmedge15bchat_on_a_4gb_galaxy_a04e/",
-      "published_at": "2026-10-07T09:15:53Z",
-      "summary": "      Yesterday TechCrunch published a piece about a growing problem for AI agents: websites are starting to block them. Amazon blocking Meta&#39;s Muse is the obvious example. At almost exactly the same time, GLM-Edge-1",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-i-re-trained-the-dflash-2-drafter-for-ternary-bonsai-2-27b-2",
-      "source": "localllama",
-      "title": "I re-trained the DFlash 2 drafter for Ternary Bonsai 2 27B: 2.2x on an L4 (3.2x on code edits with ngram lookup), 1.5x on a Mac, 1.2x in Chrome",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzqyfl/i_retrained_the_dflash_2_drafter_for_ternary/",
-      "published_at": "2026-10-07T08:13:23Z",
-      "summary": "      PrismML&#39;s Ternary Bonsai 2 27B fits a 24 GB card or Mac, but decodes at ~30 tok/s on an L4 and ~21 on an M4 Pro. z-lab&#39;s DFlash 2 drafter was trained on bf16 Qwen3.8-27B, so it guesses worse on the ternary ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-single-3090-qwen-27b-user-considering-buying-128gb-of-ram-be",
-      "source": "localllama",
-      "title": "Single 3090 Qwen 27B user, considering buying 128GB of RAM because of the hype",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzq2ts/single_3090_qwen_27b_user_considering_buying/",
-      "published_at": "2026-10-07T07:14:41Z",
-      "summary": "My current setup:  - single 3090 running turboderp/Qwen3.8-27B-exl3:SC_5.00bpw_H6_V6 - ~150k context, ~70t/s, unknown prefill because I didn&#39;t benchmark it (but it is ok) - Intel 12400 CPU with 32GB DDR4 RAM All the ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-new-35b-a3b-model-is-comming-on-huggingface",
-      "source": "localllama",
-      "title": "New 35B-A3B model is comming on huggingface",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzpyzk/new_35ba3b_model_is_comming_on_huggingface/",
-      "published_at": "2026-10-07T07:07:41Z",
-      "summary": "MiniCPM-V-4.7-35B-A3B No model card yet  &#32; submitted by &#32;  /u/BreakfastFriendly728   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-trained-a-20k-lm-probably-smallest-that-can-still-write-stor",
-      "source": "localllama",
-      "title": "Trained a ~20K LM (probably smallest) that can still write stories",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzp2ja/trained_a_20k_lm_probably_smallest_that_can_still/",
-      "published_at": "2026-10-07T06:10:10Z",
-      "summary": "I’ve been pushing TinyStories-style models downward in size, and this is the smallest one so far: MacroStories — 19,969 parameters, 81 KB FP32 https://huggingface.co/raincandy-u/MacroStories For scale: → ~50× smaller tha",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-10-07-quoting-jake-boggan",
       "source": "simonw",
       "title": "Quoting Jake Boggan",
@@ -131,28 +175,6 @@
       "summary": "I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years o",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-how-far-weve-come",
-      "source": "localllama",
-      "title": "How far we’ve come",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzm56n/how_far_weve_come/",
-      "published_at": "2026-10-07T03:18:52Z",
-      "summary": "      &#32; submitted by &#32;  /u/like_a_tensor   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-benchlabs-cagliostro-v35-135m-finally-takes-hugging-faces-sm",
-      "source": "localllama",
-      "title": "BenchLabs' Cagliostro V3.5 135M finally takes Hugging Face's SmolLM2-135M's first place on Open SLM Leaderboard with an Intelligence Index of 27.49",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzljhn/benchlabs_cagliostro_v35_135m_finally_takes/",
-      "published_at": "2026-10-07T02:46:46Z",
-      "summary": "      &#32; submitted by &#32;  /u/Megneous   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -288,17 +310,6 @@
       ]
     },
     {
-      "id": "simonw-2026-10-04-qwen38-27b-addition-in-words",
-      "source": "simonw",
-      "title": "Qwen3.8 27B addition in words",
-      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
-      "published_at": "2026-10-04T23:34:00Z",
-      "summary": "Research: Qwen3.8 27B addition in words\n        Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-10-03-the-agent-said-it-was-done-the-database-disagreed",
       "source": "huggingface",
       "title": "The Agent Said It Was Done. The Database Disagreed.",
@@ -403,17 +414,6 @@
       "title": "Welcome RL Environments to the hub",
       "url": "https://huggingface.co/blog/rl-environments",
       "published_at": "2026-09-28T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-09-24-accelerating-vision-language-models-with-lfm25-vl-dspark",
-      "source": "huggingface",
-      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "published_at": "2026-09-24T14:08:57Z",
       "summary": "",
       "tags": [
         "huggingface"
