@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-10-07T05:15:42Z",
+  "updated_at": "2026-10-07T12:59:41Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11471",
+      "project": "llama-cpp",
+      "version": "b11471",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11471",
+      "published_at": "2026-10-07T12:59:23Z",
+      "body_excerpt": "vocab : add plamo fim tokens (#30090) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11469",
+      "project": "llama-cpp",
+      "version": "b11469",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11469",
+      "published_at": "2026-10-07T12:44:18Z",
+      "body_excerpt": "musa: use the tile lightning indexer kernel (#30080) Signed-off-by: Xiaodong Ye Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) -",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11468",
+      "project": "llama-cpp",
+      "version": "b11468",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11468",
+      "published_at": "2026-10-07T12:24:56Z",
+      "body_excerpt": "vendor : update cpp-httplib to 0.60.0 (#30081) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11467",
+      "project": "llama-cpp",
+      "version": "b11467",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11467",
+      "published_at": "2026-10-07T12:03:40Z",
+      "body_excerpt": "imatrix : include clocale for std::setlocale (#30079) Co-authored-by: yarik Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUD",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11466",
+      "project": "llama-cpp",
+      "version": "b11466",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11466",
+      "published_at": "2026-10-07T11:49:35Z",
+      "body_excerpt": "ggml-webgpu: fix flash_attn supports_op check for overlapping KV (#28205) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11465",
+      "project": "llama-cpp",
+      "version": "b11465",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11465",
+      "published_at": "2026-10-07T11:26:51Z",
+      "body_excerpt": "tests : retain the anchor when testing recurrent rollback (#29923) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 li",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11464",
+      "project": "llama-cpp",
+      "version": "b11464",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11464",
+      "published_at": "2026-10-07T11:08:28Z",
+      "body_excerpt": "[SYCL] fix the issue in mixed different model GPUs in FA (#29071) fix mixed different model GPUs issue Update ggml/src/ggml-sycl/ggml-sycl.cpp Co-authored-by: Georgi Gerganov --------- Co-authored-by: Georgi Gerganov Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11463",
+      "project": "llama-cpp",
+      "version": "b11463",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11463",
+      "published_at": "2026-10-07T10:40:25Z",
+      "body_excerpt": "sycl: accelerate GLM MLA prefill with MKL flash attention (#29171) sycl: accelerate GLM MLA prefill with MKL flash attention GLM-4.7 Flash uses an MLA shape with 576-wide Q/K heads, a 512-wide V head, GQA 20, and F16 KV. The SYCL dispatcher rejects this shape because the normal MKL flash-attention gate requires matching K/V widths and caps the head dimension at 512, so prompt processing falls back",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11462",
+      "project": "llama-cpp",
+      "version": "b11462",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11462",
+      "published_at": "2026-10-07T10:10:47Z",
+      "body_excerpt": "sycl : fattn_kv_buffers cleanup (#27689) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11461",
+      "project": "llama-cpp",
+      "version": "b11461",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11461",
+      "published_at": "2026-10-07T06:50:53Z",
+      "body_excerpt": "vulkan: fix amd iGPU slow checkpoint read (#30049) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11460",
+      "project": "llama-cpp",
+      "version": "b11460",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11460",
+      "published_at": "2026-10-07T05:59:48Z",
+      "body_excerpt": "sycl: add IQ3_S multi-column MMVQ (#29500) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CU",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11459",
       "project": "llama-cpp",
@@ -97,7 +196,7 @@
       "version": "v1.9.5",
       "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.5",
       "published_at": "2026-10-06T17:39:17Z",
-      "body_excerpt": "Overview New version has been released. Nightly build: b5454 More info: dist : releases and versioning of ggml-org projects Changelog since v1.9.4 d1be6fde whisper : bump version to 1.9.5 (#4102) 4afec37b talk-llama : update llama.cpp to v0.6.0 3d451abe sync : ggml 47f1c7dc ggml : bump version to 0.26.0 (ggml/1652) e71b7844 CUDA: make the alloc_deps check batch independent (llama/29986) cdc87302 v",
+      "body_excerpt": "Overview Maintenance release. Updates to ggml v0.26.0. Nightly build: b5454 More info: dist : releases and versioning of ggml-org projects Changelog since v1.9.4 d1be6fde whisper : bump version to 1.9.5 (#4102) 4afec37b talk-llama : update llama.cpp to v0.6.0 3d451abe sync : ggml 47f1c7dc ggml : bump version to 0.26.0 (ggml/1652) e71b7844 CUDA: make the alloc_deps check batch independent (llama/29",
       "type": "tool"
     },
     {
@@ -11546,60 +11645,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9941",
       "published_at": "2026-07-09T20:17:48Z",
       "body_excerpt": "Only index by compile times + always multiply/add (#25445) The first one avoids relying on compile to optimize local memory away, and the second is cheaper than issuing control flow statements macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulka",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9940",
-      "project": "llama-cpp",
-      "version": "b9940",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9940",
-      "published_at": "2026-07-09T11:38:20Z",
-      "body_excerpt": "llama-bench : init params.offline (#25476) Signed-off-by: Adrien Gallouët macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9939",
-      "project": "llama-cpp",
-      "version": "b9939",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9939",
-      "published_at": "2026-07-09T10:58:24Z",
-      "body_excerpt": "metal : add CONV_2D_DW (depthwise convolution) support (#21565) metal : add CONV_2D_DW (depthwise 2D convolution) support test : add perf cases for CONV_2D_DW metal : use 3D dispatch for CONV_2D_DW kernel metal : add channel-tiled CONV_2D_DW kernel for non-contiguous layouts metal : simplify CONV_2D_DW dispatch and trim comments metal : merge duplicate CONV_2D_DW pipeline getters tests : add F16 C",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9938",
-      "project": "llama-cpp",
-      "version": "b9938",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9938",
-      "published_at": "2026-07-09T10:08:19Z",
-      "body_excerpt": "ggml-hip: enable -funsafe-math-optimizations (#24668) CUDA is compiled with fast math and AMD/HIP is not — this flag lets AMD use fast math too. We can't use -ffast-math: it implies -ffinite-math-only, which won't compile (ggml uses INFINITY for masking) and produces NaNs. -funsafe-math-optimizations gives the speedup without the NaN problems. Co-authored-by: Mark Caldwell macOS/iOS: macOS Apple S",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9937",
-      "project": "llama-cpp",
-      "version": "b9937",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9937",
-      "published_at": "2026-07-09T08:30:17Z",
-      "body_excerpt": "cuda: align snake fusion matcher with the other backends (#25460) cuda: fix snake fusion type predicate, a and inv_b are F32 The matcher required a->type == x->type while launch_snake reads both as const float , matching the CPU and Metal contract where a and inv_b stay F32. F16/BF16 chains never fused and fell back to the naive path, and a hypothetical all F16 chain would have read F16 bits as fl",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9936",
-      "project": "llama-cpp",
-      "version": "b9936",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9936",
-      "published_at": "2026-07-09T07:09:58Z",
-      "body_excerpt": "server : respect min-step when splitting prompt batches (#25420) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Andr",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9935",
-      "project": "llama-cpp",
-      "version": "b9935",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9935",
-      "published_at": "2026-07-09T05:32:02Z",
-      "body_excerpt": "hexagon: add VISION RoPE support (#25216) hexagon: add VISION RoPE support hexagon: support RoPE on strided half-dim views for all modes hex-rope: decouple src0 DMA copy size from row stride hex-rope: support non-contiguous dst for RoPE hex-rope: fix dst spad pitch for non-contiguous dst macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64)",
       "type": "tool"
     }
   ]
