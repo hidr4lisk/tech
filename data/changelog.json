@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-10-08T13:07:28Z",
+  "updated_at": "2026-10-08T23:08:10Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11514",
+      "project": "llama-cpp",
+      "version": "b11514",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11514",
+      "published_at": "2026-10-08T20:14:45Z",
+      "body_excerpt": "Musa FWHT fix (#30167) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11513",
+      "project": "llama-cpp",
+      "version": "b11513",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11513",
+      "published_at": "2026-10-08T19:18:57Z",
+      "body_excerpt": "CUDA: improve top-k algorithm selection (#28713) CUDA: radix top-k for large row counts Replaces CUB's per-row DeviceTopKKernel with a grid-over-rows radix select, gated on GGML_CUDA_TOPK_RADIX_MIN_ROWS. On qwen4exp at 34,816 tokens this cuts top-k from 1,671,253 launches / 5,761.8 ms to 2,329 / 941.8 ms. CUDA: select the TOP_K implementation by shape Replace the nrows/ncols special case with the ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11512",
+      "project": "llama-cpp",
+      "version": "b11512",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11512",
+      "published_at": "2026-10-08T17:39:33Z",
+      "body_excerpt": "model : fix DFlash output head sharing (#30111) llama : fix DFlash output head sharing Assisted-by: Codex dflash : read tied output weights from GGUF metadata Assisted-by: Codex llama : share tied word embedding metadata Assisted-by: Codex llama : remove DFlash embedding head fallback Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11511",
+      "project": "llama-cpp",
+      "version": "b11511",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11511",
+      "published_at": "2026-10-08T17:23:43Z",
+      "body_excerpt": "CUDA: fix MMQ out-of-bounds reads (#29953) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CU",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.2",
+      "project": "ollama",
+      "version": "v0.40.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
+      "published_at": "2026-10-08T16:53:47Z",
+      "body_excerpt": "What's Changed README: add oxi to community integrations by @maziluiosif in server: hide duplicate and downgrade guards from list by @dhiltgen in New Contributors @maziluiosif made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11510",
+      "project": "llama-cpp",
+      "version": "b11510",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11510",
+      "published_at": "2026-10-08T16:15:32Z",
+      "body_excerpt": "CUDA : looped PAD kernel for more than 65535 rows or slices (#30147) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11509",
+      "project": "llama-cpp",
+      "version": "b11509",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11509",
+      "published_at": "2026-10-08T15:49:31Z",
+      "body_excerpt": "CUDA: fix CCCL version guard breaking on major version rollover (#29453) CUDA: fix CCCL version guard breaking on major version rollover The guard compared the major and minor components independently: CCCL_MAJOR_VERSION >= 3 && CCCL_MINOR_VERSION >= 1 Minor resets to 0 whenever a new major series is cut, so on CCCL 4.x this evaluates as 4 >= 3 && 0 >= 1, i.e. false. STRIDED_ITERATOR_AVAILABLE sto",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.905-beta",
+      "project": "unsloth",
+      "version": "v0.1.905-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.905-beta",
+      "published_at": "2026-10-08T15:43:40Z",
+      "body_excerpt": "Turn any text or vision LLM into a Jev-style decision model in Unsloth, with decision accuracy going from 30% to 80%. Train, test, export and serve decision models directly from Unsloth. Also included: native ComfyUI models, diffusion improvements and a better Browser in Desktop. Highlights 8th Oct Fixes - Better Browser + 100+ bug fixes + perf fixes Sandboxing with Bwrap for Linux, Seatbelt for M",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11507",
+      "project": "llama-cpp",
+      "version": "b11507",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11507",
+      "published_at": "2026-10-08T15:27:56Z",
+      "body_excerpt": "llama: support MoE cache over multiple GPUs (#30112) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11505",
+      "project": "llama-cpp",
+      "version": "b11505",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11505",
+      "published_at": "2026-10-08T14:37:16Z",
+      "body_excerpt": "vulkan : fix TOP_K for +inf/NaN inputs and k = 1 on negative values (#30107) The bucket search in topk_nary_search.comp started from the range 0, 0xFF800000), which ends just below the ordered-uint mapping of +inf, so +inf and NaN were never counted. A workgroup block with fewer than k countable values left the ballot empty and the shader read uninitialized shared state (hang/device lost on NVIDIA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11503",
+      "project": "llama-cpp",
+      "version": "b11503",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11503",
+      "published_at": "2026-10-08T13:29:54Z",
+      "body_excerpt": "vendor : update cpp-httplib to 0.60.1 (#30134) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - C",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11501",
       "project": "llama-cpp",
@@ -11807,60 +11906,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0",
       "published_at": "2026-07-11T01:03:46Z",
       "body_excerpt": "What's Changed - New interactive agent experience: running now launches an agent to help you code and delegate work - Renamed the Codex App integration to ChatGPT: use ollama launch chatgpt (and --restore to return to your usual ChatGPT profile) - Simplified integration selection: the ollama launch menu now only offers the most popular integrations (other integrations can be accessed through - War",
-      "type": "tool"
-    },
-    {
-      "id": "sglang-v0.5.15",
-      "project": "sglang",
-      "version": "v0.5.15",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15",
-      "published_at": "2026-07-10T22:58:33Z",
-      "body_excerpt": "Highlights GLM-5.2 NVFP4, tuned for production: We took time this cycle to tune GLM-5.2 NVFP4 on Blackwell for optimized production serving. It now runs at 500+ tok/s/user on 8x B300, 450 on 4x GB300 (bs=1). Run GLM-5.2 with our cookbook. Spec V2 by default: zero-overhead scheduling via CUDA-graphable DSA draft-extend, dropped D2H/H2D syncs, fused metadata ops. +11% end-to-end TPS (#29413, #29343,",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9957",
-      "project": "llama-cpp",
-      "version": "b9957",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9957",
-      "published_at": "2026-07-10T20:17:38Z",
-      "body_excerpt": "server: improve tools, remove apply_diff (#25498) server: improve tools, remove apply_diff improve edit tool add tools_io abstraction add tools_io_basic fix build move utils to class member add const macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9956",
-      "project": "llama-cpp",
-      "version": "b9956",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9956",
-      "published_at": "2026-07-10T19:46:36Z",
-      "body_excerpt": "cli: fix crash on wrong server base url (#25497) llama-cli: fix crash on wrong server base url by catching exceptions and graceful exit review: leaner catch group: json error and standard exception macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9952",
-      "project": "llama-cpp",
-      "version": "b9952",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9952",
-      "published_at": "2026-07-10T17:18:39Z",
-      "body_excerpt": "llama : make all KQ masks f16 if FA is used, remove zero attention bias, remove raw_k repeats in DeepSeek V4 (#25370) llama : make all KQ masks (except the lightning indexer one) f16 if FA is used and remove zero attention bias in DeepSeek V4 llama : remove dead code that repeats unified raw_k cache for each stream in DeepSeek V4 - no longer needed as raw_k is always non-unified. --------- Co-auth",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9951",
-      "project": "llama-cpp",
-      "version": "b9951",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9951",
-      "published_at": "2026-07-10T16:15:00Z",
-      "body_excerpt": "ggml-et: Initial ET backend (#24179) ggml-et: Add performance logging ggml-et: Quants helpers ggml-et: Add MUL_MAT kernel ggml-et: Add ROPE kernel ggml-et: Add RMS_NORM kernel ggml-et: Add GLU kernel ggml-et: Add SOFT_MAX kernel ggml-et: Add GET_ROWS kernel ggml-et: Add CONT kernel ggml-et: Add SET_ROWS kernel ggml-et: Add MUL_MAT_ID kernel ggml-et: Build et kernels as part of ggml ggml-et: Embed ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9950",
-      "project": "llama-cpp",
-      "version": "b9950",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9950",
-      "published_at": "2026-07-10T14:15:21Z",
-      "body_excerpt": "llama-batch: add unit test (#25471) llama-batch: add unit test fix win32 builds add not implemented assertion in unused methods remove unreachable code macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
       "type": "tool"
     }
   ]
