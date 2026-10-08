@@ -1,90 +1,134 @@
 {
-  "updated_at": "2026-10-08T05:25:24Z",
+  "updated_at": "2026-10-08T13:07:21Z",
   "items": [
     {
-      "id": "localllama-2026-10-08-rocm-101-breaking-the-data-movement-bottleneck",
+      "id": "localllama-2026-10-08-audiocpp-recent-updates-you-might-have-missed-higgs-audio-tt",
       "source": "localllama",
-      "title": "ROCm 10.1: Breaking the Data-Movement Bottleneck",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ggrk/rocm_101_breaking_the_datamovement_bottleneck/",
-      "published_at": "2026-10-08T03:23:46Z",
-      "summary": "      &#32; submitted by &#32;  /u/sn2006gy   [link] &#32; [comments] ",
+      "title": "[audio.cpp] Recent updates you might have missed: Higgs Audio TTS use 48% less VRAM (< 6GB), HTDemucs 2.2× faster, PocketTTS 2.2× faster on CPU, and WebUI generation history feature",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0q91x/audiocpp_recent_updates_you_might_have_missed/",
+      "published_at": "2026-10-08T12:58:35Z",
+      "summary": "      Hi all, a bunch of performance improvements have been landed in audio.cpp.  The biggest highlight is Higgs Audio TTS, which now runs with around 6 GB VRAM, a 48% reduction in peak memory usage compared to the previ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-08-comparing-qwen38-27b-fine-tunes-and-baselining-vs-frontier",
+      "id": "localllama-2026-10-08-java-vllm-like-framework-claims-90-of-perfomance-of-llamacpp",
       "source": "localllama",
-      "title": "Comparing Qwen3.8-27B fine-tunes and baselining vs. frontier",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0gaqv/comparing_qwen3827b_finetunes_and_baselining_vs/",
-      "published_at": "2026-10-08T03:14:59Z",
-      "summary": "      TL;DR:  For my use case, mradermacher/Signal-3.8-27B-Terse-Coder.i1-Q4_K_M proved out. Ymmv based on your domain-specific tests. Time taken to solve problems compared to frontier models is massive; especially if yo",
+      "title": "Java vllm-like framework claims 90% of perfomance of llama.cpp on local inference on NVIDIA GPUs by compiling Java to CUDA and cuTile",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0okz9/java_vllmlike_framework_claims_90_of_perfomance/",
+      "published_at": "2026-10-08T11:35:16Z",
+      "summary": "TornadoVM: The Java to CUDA engine: https://github.com/beehive-lab/TornadoVM jitLLM: The inference engine: https://github.com/beehive-lab/jitllm Deep dive talk: https://www.youtube.com/watch?v=HO5CpETzywk  &#32; submitte",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-08-2-months-meme-d-research-do-people-notice-the-difference-bet",
+      "id": "localllama-2026-10-08-i-trained-turkish-tts-from-scratch-using-the-drifting-method",
       "source": "localllama",
-      "title": "2 months (meme-d) research, Do People Notice the Difference Between AI Models?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0etwe/2_months_memed_research_do_people_notice_the/",
-      "published_at": "2026-10-08T02:00:33Z",
-      "summary": "      Preamble and disclaimer, Sample size: 8, at any size of form this research is just screwing around being writing it down. This was just a little,(well... big), curiosity test I wanted to run to see whether everyday",
+      "title": "I trained Turkish TTS from scratch using the Drifting method with an RTX 5090.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0oaum/i_trained_turkish_tts_from_scratch_using_the/",
+      "published_at": "2026-10-08T11:19:32Z",
+      "summary": "      Github: https://github.com/kadirnar/drifting-tts Demo: https://huggingface.co/spaces/Vyvo/drifting-tts-tr-demo  &#32; submitted by &#32;  /u/kadir_nar   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-08-same-prompts-to-371-models-since-may-2024-all-the-answers-in",
+      "id": "localllama-2026-10-08-were-open-sourcing-neudecide-a-43-mb-audio-to-tool-model-wit",
       "source": "localllama",
-      "title": "Same prompts to 371 models since May 2024, all the answers in one place",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ejor/same_prompts_to_371_models_since_may_2024_all_the/",
-      "published_at": "2026-10-08T01:46:37Z",
-      "summary": "      Made this (free, no signup). One shot per model, no system prompt, temp 0.7. Lots of open weights in there, plus 93 models you can&#39;t run anymore. museumofmodels.com  &#32; submitted by &#32;  /u/sirjoaco   [lin",
+      "title": "We’re open sourcing NeuDecide: a 43 MB audio-to-tool model with a WASM browser demo",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0o8zr/were_open_sourcing_neudecide_a_43_mb_audiototool/",
+      "published_at": "2026-10-08T11:16:50Z",
+      "summary": "      We’re the team at Neuphonic, and we’re open sourcing NeuDecide under Apache 2.0. It takes audio and tool definitions and returns a tool call with arguments, without an intermediate transcription step. The model fil",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-07-2x-cmp-170hx-64gb-glm-53-flash-at-384k-context-90-toks-exl3",
+      "id": "localllama-2026-10-08-halogen-qwen-flash-next-keeps-getting-better",
       "source": "localllama",
-      "title": "2x CMP 170HX 64GB: GLM-5.3-Flash at 384K context / ~90 tok/s (EXL3, HBM-first setup) + Qwen3.8 comparison",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0b1ws/2x_cmp_170hx_64gb_glm53flash_at_384k_context_90/",
-      "published_at": "2026-10-07T22:59:08Z",
-      "summary": "      I&#39;ve been tinkering with GLM-5.3-Flash on two 64GB CMP 170HX cards for a while, and the setup is finally stable enough that I figured I&#39;d share it. I also compared it against the Qwen3.8-Flash-Next setup I&",
+      "title": "Halogen + Qwen Flash Next keeps getting better",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0o2yy/halogen_qwen_flash_next_keeps_getting_better/",
+      "published_at": "2026-10-08T11:07:15Z",
+      "summary": "      With latest Halogen version update (0.17.2), decode is consistently at ~45 tps even at high context with Qwen 3.8 Flash Next on a 128GB Strix Halo. This is some great work u/peonist-ai. Have been pumping out commit",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-07-tested-in-coding-strata",
+      "id": "localllama-2026-10-08-qwen-38-flash-next-is-so-much-fun-for-threejs",
       "source": "localllama",
-      "title": "Tested in Coding: Strata",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0b0iq/tested_in_coding_strata/",
-      "published_at": "2026-10-07T22:57:22Z",
-      "summary": "This will be a potentially unpopular post - but it&#39;s the truth and grounded - so let&#39;s get to it. Hopefully you are familiar with my previous Tested in Coding series: https://www.reddit.com/r/LocalLLaMA/comments/",
+      "title": "Qwen 3.8 Flash Next is so much fun for three.js",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0nv5l/qwen_38_flash_next_is_so_much_fun_for_threejs/",
+      "published_at": "2026-10-08T10:55:25Z",
+      "summary": "      Having a lot of fun experimenting with three.js. Still very far from even a demo but its tons of fun. After this project I&#39;ll want to try a godot workflow. 3.8FN truly feels like Claude 4.6 at home. UD_Q4_XL qu",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-07-surface-rtx-spark-dev-box-the-dev-box-built-for-developers",
+      "id": "localllama-2026-10-08-we-unlearned-ccp-alignment-from-qwen36-35b-a3b-censoredpropa",
       "source": "localllama",
-      "title": "Surface RTX Spark Dev Box: The Dev Box Built For Developers",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x09g09/surface_rtx_spark_dev_box_the_dev_box_built_for/",
-      "published_at": "2026-10-07T21:50:00Z",
-      "summary": "      $5995 - Ships in November. N1X brand of GB10 Chip. Says it will have WSL out the door which I presume will be Ubuntu + Cuda beneath in addition to all the CoPilot/GitHub native stuff for Windows. Hopefully they hav",
+      "title": "We unlearned CCP alignment from Qwen3.6-35B-A3B: censored/propaganda answers 89.8% → 2.8%, general benchmarks within ~1 point (open weights)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0npmx/we_unlearned_ccp_alignment_from_qwen3635ba3b/",
+      "published_at": "2026-10-08T10:46:21Z",
+      "summary": "Disclosure: I&#39;m a researcher at Hirundo, the company that made this. Happy to answer anything. Qwen ships with the CCP&#39;s political alignment trained in. Ask Qwen3.6 what happened on June 4, 1989 and it says &quot",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-07-i-have-single-3090-and-32gb-of-ram-are-there-any-engines-lik",
+      "id": "localllama-2026-10-08-best-current-r9700-inference-engine",
       "source": "localllama",
-      "title": "I have single 3090 and 32GB of ram are there any engines like strata, ninfer that run Qwen/Qwen3.6-35B-A3B at Q8 fast on my hardware",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x08bns/i_have_single_3090_and_32gb_of_ram_are_there_any/",
-      "published_at": "2026-10-07T21:05:23Z",
-      "summary": "strata with qwen flash Q2 is pretty retarded and 27b at q4 is also retarded so I am wondering if anyone knows a engine that runs the model Qwen/Qwen3.6-35B-A3B fast on my hardware?  &#32; submitted by &#32;  /u/Adventuro",
+      "title": "Best current R9700 inference engine?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0n7pj/best_current_r9700_inference_engine/",
+      "published_at": "2026-10-08T10:16:10Z",
+      "summary": "There are way too many forks to keep track of, so I&#39;ve gotten lost. As far as I can tell, Radiance VLLM is best for models that fit in GPUs while some form of llama.cpp is probably best for MOE RAM-spill?  My specifi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-08-last-week-some-of-south-koreas-biggest-banks-were-hit-by-a-c",
+      "source": "localllama",
+      "title": "Last week some of South Korea's biggest banks were hit by a cyberattack. We now know the entire hack may have been done by a single person. He used a combined stack of an open-source AI penetration tool named ARTEX, DeepSeek v4.1-Flash, GLM-5.3, Grok 4.6, and Claude Code (CrowdStrike)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0n4pt/last_week_some_of_south_koreas_biggest_banks_were/",
+      "published_at": "2026-10-08T10:11:02Z",
+      "summary": "      CrowdStrike report: https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/ From: Andrew Curran on 𝕏: https://x.com/AndrewCurran_/status/2108108695876092323 Jukan ✈️OC",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-08-running-an-llm-driven-town-with-800-persistent-agents-concur",
+      "source": "localllama",
+      "title": "Running an LLM-driven town with 800+ persistent agents: concurrency, context caching, and inference costs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ms0m/running_an_llmdriven_town_with_800_persistent/",
+      "published_at": "2026-10-08T09:49:11Z",
+      "summary": "      I spent the past year independently building Slow Vale, an LLM-driven life simulation. The Chinese server now has 800+ AI residents sharing one continuously running city. This is an engineering write-up about concu",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-08-saluki-27b-96-of-qwen-38s-performance-at-17-the-size",
+      "source": "localllama",
+      "title": "Saluki 27B: \"96% of Qwen 3.8’s performance at ~1/7 the size\"",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0mn7x/saluki_27b_96_of_qwen_38s_performance_at_17_the/",
+      "published_at": "2026-10-08T09:40:36Z",
+      "summary": "      anyone has feedback about this one?  &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-08-ggml-cuda-assign-four-gdn-state-columns-per-warp-by-songxiao",
+      "source": "localllama",
+      "title": "ggml-cuda: assign four GDN state columns per warp by SongXiaoXi · Pull Request #30087 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0m3ff/ggmlcuda_assign_four_gdn_state_columns_per_warp/",
+      "published_at": "2026-10-08T09:04:13Z",
+      "summary": "      Another day, another Qwen 3.x speedup (prompt processing this time). Soon your Qwen will read your entire project before you can blink!   test master t/s PR t/s change    pp512 3075.24 3243.60 +5.5%   pp4096 3059.8",
       "tags": [
         "localllama"
       ]
@@ -98,50 +142,6 @@
       "summary": "As previously promised, here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5.\nThe previous Haiku, 4.5, was very much showing its age. It came out almost a year ago, and was priced at $1/million input",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-qwen-38-flash-next-on-64gb-ram-16gb-vram-worth-it-over-a-ful",
-      "source": "localllama",
-      "title": "Qwen 3.8 Flash-Next on 64GB RAM + 16GB VRAM, worth it over a fully-loaded 3.6 35B-A3B?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x07qlh/qwen_38_flashnext_on_64gb_ram_16gb_vram_worth_it/",
-      "published_at": "2026-10-07T20:43:17Z",
-      "summary": "4080 16GB, 64GB RAM. Currently on 3.6 35B-A3B (Unsloth quant, fits fully in VRAM) and happy with it. Anyone tried Flash-Next at Q2/Q3 on a similar setup? Worth the switch, or should I stay put? Asking before committing t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-llamacpp-on-the-stage",
-      "source": "localllama",
-      "title": "llama.cpp on the stage",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x079wc/llamacpp_on_the_stage/",
-      "published_at": "2026-10-07T20:25:51Z",
-      "summary": "      https://x.com/ggerganov/status/2107908265032229261  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-kandinsky-60-video-gen-video-upscaler",
-      "source": "localllama",
-      "title": "Kandinsky 6.0 video gen + video upscaler!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x06h7i/kandinsky_60_video_gen_video_upscaler/",
-      "published_at": "2026-10-07T19:58:11Z",
-      "summary": "      Kandinsky 6.0 Pro (29B) and Lite (3B). Already support for ComfyUI and Diffusers. https://github.com/kandinskylab/kandinsky-6  &#32; submitted by &#32;  /u/KokaOP   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-llama-add-a-gpu-cache-for-moe-experts-kept-in-host-memory-by",
-      "source": "localllama",
-      "title": "llama : add a GPU cache for MoE experts kept in host memory by am17an · Pull Request #29887 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x03xkc/llama_add_a_gpu_cache_for_moe_experts_kept_in/",
-      "published_at": "2026-10-07T18:15:14Z",
-      "summary": "      Potentially big speedup for MoE models that don’t fully fit in VRAM. Are you GPU Poor? Show your speedups ;)  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {

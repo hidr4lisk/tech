@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-10-08T05:25:29Z",
+  "updated_at": "2026-10-08T13:07:28Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11501",
+      "project": "llama-cpp",
+      "version": "b11501",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11501",
+      "published_at": "2026-10-08T12:57:06Z",
+      "body_excerpt": "sycl: FWHT optimizations (#29605) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11500",
+      "project": "llama-cpp",
+      "version": "b11500",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11500",
+      "published_at": "2026-10-08T12:37:22Z",
+      "body_excerpt": "hex-mmadd: do not assume aligned read/write when bias-add is fused (#30133) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUD",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11499",
+      "project": "llama-cpp",
+      "version": "b11499",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11499",
+      "published_at": "2026-10-08T12:20:18Z",
+      "body_excerpt": "cuda : Use byte strides for roll to allow non-contiguous ROLL operations (#29547) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11498",
+      "project": "llama-cpp",
+      "version": "b11498",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11498",
+      "published_at": "2026-10-08T11:55:34Z",
+      "body_excerpt": "CUDA: fix norm family kernels when ne[2]/ne[3] exceed grid dim limits (#28175) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11497",
+      "project": "llama-cpp",
+      "version": "b11497",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11497",
+      "published_at": "2026-10-08T11:32:06Z",
+      "body_excerpt": "sycl: fuse the delta-net alpha gate (add + unary + mul) (#29687) sycl: fuse the delta-net alpha gate (add + unary + mul) tests: cover the fused add + unary + mul chain sycl: give the fused alpha gate a flat path and pin the node skip Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11496",
+      "project": "llama-cpp",
+      "version": "b11496",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11496",
+      "published_at": "2026-10-08T10:10:53Z",
+      "body_excerpt": "sycl: stage bulk uploads (model loading) through a pinned ring buffer (#29608) Co-authored-by: cwriter Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11495",
+      "project": "llama-cpp",
+      "version": "b11495",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11495",
+      "published_at": "2026-10-08T09:40:58Z",
+      "body_excerpt": "model : support classifier_activation for rerankers (#29692) model : support classifier_activation for rerankers Assisted-by: Claude Opus 5.5 model : map classifier gelu to gelu_erf and accept tanh Assisted-by: Claude Opus 5.5 model : default act_cls to tanh, ModernBERT falls back to gelu_erf Assisted-by: Claude Opus 5.5 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sil",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11494",
+      "project": "llama-cpp",
+      "version": "b11494",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11494",
+      "published_at": "2026-10-08T09:08:59Z",
+      "body_excerpt": "ggml-cuda: assign four GDN state columns per warp (#30087) ggml-cuda: assign two GDN state columns per warp ggml-cuda: use 4 GDN state columns per warp at S_v=128 ggml-cuda: default cols_per_warp=4 ggml-cuda: address GDN review nits Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11493",
+      "project": "llama-cpp",
+      "version": "b11493",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11493",
+      "published_at": "2026-10-08T08:48:40Z",
+      "body_excerpt": "sycl: add grouped MoE XMX GEMM (#29245) Co-authored-by: cwriter Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libra",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11491",
+      "project": "llama-cpp",
+      "version": "b11491",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11491",
+      "published_at": "2026-10-08T06:36:20Z",
+      "body_excerpt": "sycl: remove duplicate block-size defines from op headers (#29507) All were duplicates of the values in ggml/src/ggml-sycl/presets.hpp Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11490",
       "project": "llama-cpp",
@@ -11772,42 +11862,6 @@
       "published_at": "2026-07-10T14:15:21Z",
       "body_excerpt": "llama-batch: add unit test (#25471) llama-batch: add unit test fix win32 builds add not implemented assertion in unused methods remove unreachable code macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9949",
-      "project": "llama-cpp",
-      "version": "b9949",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9949",
-      "published_at": "2026-07-10T10:37:26Z",
-      "body_excerpt": "opencl: cluster-parallel decode FA for Adreno (#25473) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9948",
-      "project": "llama-cpp",
-      "version": "b9948",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9948",
-      "published_at": "2026-07-10T07:43:59Z",
-      "body_excerpt": "ggml : process data in smaller chunks in CUDA ggml_top_k() and ggml_argsort() to reduce temporary buffers memory usage (#24776) ggml : process data in smaller chunks in CUDA ggml_top_k() implementation to reduce temporary buffers memory usage ggml : allocate tmp_dst only only once before the loop chore : whitespaces Co-authored-by: Georgi Gerganov ggml : use chunked processing in both CUDA CUB top",
-      "type": "tool"
-    },
-    {
-      "id": "hf-EleutherAI-gpt-2-wikitext-chunks-epsroot-0-bs64",
-      "project": "EleutherAI",
-      "version": "gpt-2-wikitext-chunks-epsroot-0-bs64",
-      "url": "https://huggingface.co/EleutherAI/gpt-2-wikitext-chunks-epsroot-0-bs64",
-      "published_at": "2026-07-10T06:59:32Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-EleutherAI-gpt-2-wikitext-chunks-epsroot-1e-6-bs64",
-      "project": "EleutherAI",
-      "version": "gpt-2-wikitext-chunks-epsroot-1e-6-bs64",
-      "url": "https://huggingface.co/EleutherAI/gpt-2-wikitext-chunks-epsroot-1e-6-bs64",
-      "published_at": "2026-07-10T06:53:04Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
