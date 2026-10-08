@@ -1,13 +1,121 @@
 {
-  "updated_at": "2026-10-07T22:55:39Z",
+  "updated_at": "2026-10-08T05:25:29Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11490",
+      "project": "llama-cpp",
+      "version": "b11490",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11490",
+      "published_at": "2026-10-08T04:58:59Z",
+      "body_excerpt": "hexagon: enable alloc_buffer_n (#30126) hex-bufs: add support for alloc_buffer_n hex-bufs: add support for splitting large tensors into separate buffers hex-bufs: update GGML_HEXAGON_MBUF to accept three values dyn,static,total hex-bufs: bump dyn. default to 512MB since 128MB causes perf regressions with big MOEs hex-run: add --no-embd-offload option to simplify command lines on devices that need ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11489",
+      "project": "llama-cpp",
+      "version": "b11489",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11489",
+      "published_at": "2026-10-08T04:35:47Z",
+      "body_excerpt": "hexagon: Q6_K weight dequant speedup (#30121) hexagon: Q6_K weight dequant speedup Assisted-by: OpenCode unroll by another factor of 2 Assisted-by: OpenCode Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11488",
+      "project": "llama-cpp",
+      "version": "b11488",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11488",
+      "published_at": "2026-10-08T04:16:16Z",
+      "body_excerpt": "model : add LiquidAI/d1-omni-600M decision model (#30114) model : add LiquidAI/d1-omni-600M decision model Assisted-by: Claude Opus 5.5 mtmd : keep conformer GLU sigmoid on CUDA Assisted-by: Claude Opus 5.5 server : take d1omni audio through images and input_audio, scope memory-less lfm2 to non-causal Assisted-by: Claude Opus 5.5 common : rename decision type d1omni to lfm2-d1-omni, server : make ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11487",
+      "project": "llama-cpp",
+      "version": "b11487",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11487",
+      "published_at": "2026-10-08T03:53:41Z",
+      "body_excerpt": "hexagon: support tiled Q4_K and Q6_K GET_ROWS (#30115) hexagon: support tiled Q4_K GET_ROWS Assisted-by: OpenCode properly reject Q4_K views Assisted-by: OpenCode hexagon: support tiled Q6_K GET_ROWS Assisted-by: OpenCode Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11486",
+      "project": "llama-cpp",
+      "version": "b11486",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11486",
+      "published_at": "2026-10-08T03:36:58Z",
+      "body_excerpt": "hexagon: improved GELU accuracy (#30104) Assisted-by: OpenCode Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 librar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11485",
+      "project": "llama-cpp",
+      "version": "b11485",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11485",
+      "published_at": "2026-10-08T03:21:22Z",
+      "body_excerpt": "chat: fix jinja parser for TranslateGemma (#30096) chat: fix jinja parser for translategemma log if missing soruce_lang_code or target_lang_code Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11484",
+      "project": "llama-cpp",
+      "version": "b11484",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11484",
+      "published_at": "2026-10-08T03:03:40Z",
+      "body_excerpt": "chat : name tool and argument parser rules by index (#30088) bugfix: infinite recursion caused by a tool named 'call'(#29967) chat : use index for schema and argument rules tests : remove tests tests : add expect_rules to peg test parser --------- Co-authored-by: Alde Rojas Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS In",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11483",
+      "project": "llama-cpp",
+      "version": "b11483",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11483",
+      "published_at": "2026-10-08T02:45:04Z",
+      "body_excerpt": "model : add LiquidAI/d1-3B decision model (#30110) model : add LiquidAI/d1-3b decision model mtmd : read LFM2 image resize algo from GGUF Assisted-by: Claude Opus 5.5 common : rename decision type d1 to lfm2-d1 Assisted-by: Claude Opus 5.5 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11482",
+      "project": "llama-cpp",
+      "version": "b11482",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11482",
+      "published_at": "2026-10-08T02:24:53Z",
+      "body_excerpt": "cuda: FWHT kernels for block widths above 512 (#29100) The CUDA FWHT covers widths 64 to 512. It runs one row per warp and keeps N/32 values per lane, so wider blocks need more registers per lane than that layout allows. fwht_cuda_block runs one row per thread block with 256 threads, so each thread keeps N/256 values. Stages below the warp width still shuffle, those up to the block width go throug",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11481",
+      "project": "llama-cpp",
+      "version": "b11481",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11481",
+      "published_at": "2026-10-08T02:07:26Z",
+      "body_excerpt": "mtmd: add cohere2 vision support (#30062) cohere2 vision model address comments remove redundant mapping follow existing patterns fused linear_1 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11480",
+      "project": "llama-cpp",
+      "version": "b11480",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11480",
+      "published_at": "2026-10-08T01:36:06Z",
+      "body_excerpt": "llama : add a GPU cache for MoE experts kept in host memory (#29887) llama : add a GPU cache for MoE experts kept in host memory Assisted-by: Claude use llama_moe_cache_ptr Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vu",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.1",
+      "project": "ollama",
+      "version": "v0.40.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
+      "published_at": "2026-10-07T23:22:59Z",
+      "body_excerpt": "What's Changed server: proxy cloud usage and balance APIs by @drifkin in llama: fix clef head reads past 2GiB on windows by @Gigrise in cmd: remove account step from CLI onboarding by @hoyyeva in manifest: avoid symlinks on Windows by @dhiltgen in docs: fix 6 dead links in README community integrations list by @aniketkrs in docs: fix broken download links in app README by @chenlichao in mlx: drop ",
+      "type": "tool"
+    },
     {
       "id": "unsloth-v0.1.904-beta",
       "project": "unsloth",
       "version": "v0.1.904-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.904-beta",
       "published_at": "2026-10-07T14:58:48Z",
-      "body_excerpt": "Turn any text or vision LLM into a Jev-style decision model in Unsloth, with decision accuracy going from 30% to 80%. Train, test, export and serve decision models directly from Unsloth. Also included: native ComfyUI models, diffusion improvements and a better Browser in Desktop. Highlights Turn any model into a Jev-style decision model. Accuracy 30% to 80% Load ComfyUI diffusion models natively i",
+      "body_excerpt": "Turn any text or vision LLM into a Jev-style decision model in Unsloth, with decision accuracy going from 30% to 80%. Train, test, export and serve decision models directly from Unsloth. Also included: native ComfyUI models, diffusion improvements and a better Browser in Desktop. Highlights Turn any model into a Jev-style decision model. Accuracy went from 30% to 80% Load ComfyUI diffusion models ",
       "type": "tool"
     },
     {
@@ -11700,15 +11808,6 @@
       "published_at": "2026-07-10T06:53:04Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9947",
-      "project": "llama-cpp",
-      "version": "b9947",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9947",
-      "published_at": "2026-07-10T04:46:59Z",
-      "body_excerpt": "cli: add --output option (#25484) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Window",
-      "type": "tool"
     }
   ]
 }
