@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-10-07T22:55:33Z",
+  "updated_at": "2026-10-08T05:25:24Z",
   "items": [
+    {
+      "id": "localllama-2026-10-08-rocm-101-breaking-the-data-movement-bottleneck",
+      "source": "localllama",
+      "title": "ROCm 10.1: Breaking the Data-Movement Bottleneck",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ggrk/rocm_101_breaking_the_datamovement_bottleneck/",
+      "published_at": "2026-10-08T03:23:46Z",
+      "summary": "      &#32; submitted by &#32;  /u/sn2006gy   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-08-comparing-qwen38-27b-fine-tunes-and-baselining-vs-frontier",
+      "source": "localllama",
+      "title": "Comparing Qwen3.8-27B fine-tunes and baselining vs. frontier",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0gaqv/comparing_qwen3827b_finetunes_and_baselining_vs/",
+      "published_at": "2026-10-08T03:14:59Z",
+      "summary": "      TL;DR:  For my use case, mradermacher/Signal-3.8-27B-Terse-Coder.i1-Q4_K_M proved out. Ymmv based on your domain-specific tests. Time taken to solve problems compared to frontier models is massive; especially if yo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-08-2-months-meme-d-research-do-people-notice-the-difference-bet",
+      "source": "localllama",
+      "title": "2 months (meme-d) research, Do People Notice the Difference Between AI Models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0etwe/2_months_memed_research_do_people_notice_the/",
+      "published_at": "2026-10-08T02:00:33Z",
+      "summary": "      Preamble and disclaimer, Sample size: 8, at any size of form this research is just screwing around being writing it down. This was just a little,(well... big), curiosity test I wanted to run to see whether everyday",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-08-same-prompts-to-371-models-since-may-2024-all-the-answers-in",
+      "source": "localllama",
+      "title": "Same prompts to 371 models since May 2024, all the answers in one place",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ejor/same_prompts_to_371_models_since_may_2024_all_the/",
+      "published_at": "2026-10-08T01:46:37Z",
+      "summary": "      Made this (free, no signup). One shot per model, no system prompt, temp 0.7. Lots of open weights in there, plus 93 models you can&#39;t run anymore. museumofmodels.com  &#32; submitted by &#32;  /u/sirjoaco   [lin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-07-2x-cmp-170hx-64gb-glm-53-flash-at-384k-context-90-toks-exl3",
+      "source": "localllama",
+      "title": "2x CMP 170HX 64GB: GLM-5.3-Flash at 384K context / ~90 tok/s (EXL3, HBM-first setup) + Qwen3.8 comparison",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0b1ws/2x_cmp_170hx_64gb_glm53flash_at_384k_context_90/",
+      "published_at": "2026-10-07T22:59:08Z",
+      "summary": "      I&#39;ve been tinkering with GLM-5.3-Flash on two 64GB CMP 170HX cards for a while, and the setup is finally stable enough that I figured I&#39;d share it. I also compared it against the Qwen3.8-Flash-Next setup I&",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-07-tested-in-coding-strata",
+      "source": "localllama",
+      "title": "Tested in Coding: Strata",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0b0iq/tested_in_coding_strata/",
+      "published_at": "2026-10-07T22:57:22Z",
+      "summary": "This will be a potentially unpopular post - but it&#39;s the truth and grounded - so let&#39;s get to it. Hopefully you are familiar with my previous Tested in Coding series: https://www.reddit.com/r/LocalLLaMA/comments/",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-07-surface-rtx-spark-dev-box-the-dev-box-built-for-developers",
       "source": "localllama",
@@ -79,50 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-07-omni-d1-600m-by-liquid-ai-running-in-the-browser-using-webgp",
-      "source": "localllama",
-      "title": "omni-d1 600M by Liquid AI running in the browser using WebGPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x03mrh/omnid1_600m_by_liquid_ai_running_in_the_browser/",
-      "published_at": "2026-10-07T18:04:05Z",
-      "summary": "      Liquid just dropped d1-omni-600M and it&#39;s a decision model! I ported it to runntime, the WebGPU inference library I&#39;m currently working on. It&#39;s plain TypeScript on top of TypeGPU with no WASM and virtu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-porting-libero-to-mujoco-warp-130-robot-manipulation-tasks-o",
-      "source": "localllama",
-      "title": "Porting LIBERO to MuJoCo Warp: 130 robot manipulation tasks on one $700 AMD GPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x02b88/porting_libero_to_mujoco_warp_130_robot/",
-      "published_at": "2026-10-07T17:14:25Z",
-      "summary": "LIBERO is a robot manipulation benchmark: 130 tasks across five suites (spatial, object, goal, scene10, scene90), each with human demos and a language goal. It is the standard testbed for language-conditioned imitation, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-d1-3b-and-d1-omni-from-liquidai",
-      "source": "localllama",
-      "title": "d1-3B and d1-omni from LiquidAI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x01zg6/d13b_and_d1omni_from_liquidai/",
-      "published_at": "2026-10-07T17:02:15Z",
-      "summary": "      https://preview.redd.it/owhrvbbiu2uh1.png?width=4096&amp;format=png&amp;auto=webp&amp;s=55d816753e7adee0e1391c9f581052b4bde44da7 d1-omni-600M d1-omni-600M is a 600M parameter decision model built on LFM2.5-Encoder-",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-liquidaid1-3b-hugging-face",
-      "source": "localllama",
-      "title": "LiquidAI/d1-3B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x01xg3/liquidaid13b_hugging_face/",
-      "published_at": "2026-10-07T17:00:23Z",
-      "summary": "      &#32; submitted by &#32;  /u/iamn0   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-10-07-multimodal-open-d1-decision-models-for-the-edge",
       "source": "huggingface",
       "title": "Multimodal open d1 decision models for the edge",
@@ -134,17 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-07-a-week-in-beijing-and-shanghai-with-the-people-building-ai-i",
-      "source": "localllama",
-      "title": "A week in Beijing and Shanghai with the people building AI in China",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzxttk/a_week_in_beijing_and_shanghai_with_the_people/",
-      "published_at": "2026-10-07T14:22:00Z",
-      "summary": "      I thought this was a very interesting article, of relevance to the readers here.  &#32; submitted by &#32;  /u/uutnt   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-10-07-one-model-family-two-gold-level-results-fine-tuning-nemotron",
       "source": "huggingface",
       "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
@@ -153,17 +164,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-07-feat-add-glm5next-mtp-optimize-by-pwilkin-pull-request-29928",
-      "source": "localllama",
-      "title": "feat: add GLM5Next MTP, optimize by pwilkin · Pull Request #29928 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzvdqe/feat_add_glm5next_mtp_optimize_by_pwilkin_pull/",
-      "published_at": "2026-10-07T12:36:13Z",
-      "summary": "      now you can use GLM 5 Flash MTP locally  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
