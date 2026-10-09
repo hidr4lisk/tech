@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-10-09T05:29:13Z",
+  "updated_at": "2026-10-09T12:54:09Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11524",
+      "project": "llama-cpp",
+      "version": "b11524",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11524",
+      "published_at": "2026-10-09T11:20:37Z",
+      "body_excerpt": "musa: drop mp_21 from the default architectures (#30203) musa: drop mp_21 from the default architectures Signed-off-by: Xiaodong Ye Address review comments Signed-off-by: Xiaodong Ye Address review comments Signed-off-by: Xiaodong Ye --------- Signed-off-by: Xiaodong Ye Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11523",
+      "project": "llama-cpp",
+      "version": "b11523",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11523",
+      "published_at": "2026-10-09T10:57:25Z",
+      "body_excerpt": "ci: fix Models Backend webgpu by supporting GGML_OP_DUP (#30216) The mixed batch path of PR-29622 writes the token rows with set_rows into a dup of the embeddings. WebGPU did not support DUP, so the dup ran on the CPU while the set_rows writing into it was scheduled on WebGPU, which then bound a CPU buffer and crashed. DUP is the same copy as CPY and CONT and now goes through the same path. Websit",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11521",
+      "project": "llama-cpp",
+      "version": "b11521",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11521",
+      "published_at": "2026-10-09T09:54:54Z",
+      "body_excerpt": "server: use port 9931 by default (#30159) server: use port 9931 by default revert unrelated changes Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11518",
+      "project": "llama-cpp",
+      "version": "b11518",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11518",
+      "published_at": "2026-10-09T09:26:41Z",
+      "body_excerpt": "metal: add the 128/96 flash attention kernels, accept every compiled pair (#30209) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13",
+      "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-agile_one_s_place_ssd_n17_24050",
+      "project": "nvidia",
+      "version": "agile_one_s_place_ssd_n17_24050",
+      "url": "https://huggingface.co/nvidia/agile_one_s_place_ssd_n17_24050",
+      "published_at": "2026-10-09T08:29:13Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-agile_one_s_walk_n2_1680",
+      "project": "nvidia",
+      "version": "agile_one_s_walk_n2_1680",
+      "url": "https://huggingface.co/nvidia/agile_one_s_walk_n2_1680",
+      "published_at": "2026-10-09T08:28:59Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-agile_one_s_pick_ssd_n17_58000",
+      "project": "nvidia",
+      "version": "agile_one_s_pick_ssd_n17_58000",
+      "url": "https://huggingface.co/nvidia/agile_one_s_pick_ssd_n17_58000",
+      "published_at": "2026-10-09T08:28:36Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-agile_one_s_pick_ssd_n17_40000",
+      "project": "nvidia",
+      "version": "agile_one_s_pick_ssd_n17_40000",
+      "url": "https://huggingface.co/nvidia/agile_one_s_pick_ssd_n17_40000",
+      "published_at": "2026-10-09T08:28:25Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b11517",
+      "project": "llama-cpp",
+      "version": "b11517",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11517",
+      "published_at": "2026-10-09T08:08:44Z",
+      "body_excerpt": "CUDA: pass src1 precision to host MMQ config helpers (#30168) CUDA: pass src1 precision to host MMQ config helpers Signed-off-by: ynankani make src1 prec explicit Signed-off-by: ynankani --------- Signed-off-by: ynankani Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11516",
+      "project": "llama-cpp",
+      "version": "b11516",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11516",
+      "published_at": "2026-10-09T07:02:29Z",
+      "body_excerpt": "hexagon: fix IM2COL patch-embed DMA ring overflow (#30189) hexagon: fix IM2COL patch-embed DMA ring overflow The exact-tiling (stride == kernel, no pad/dilation) IM2COL DMA kernel issues ICKH DDR->VTCM descriptors per output row without checking the return value of dma_queue_push(), and then pops ICKH times. The per-thread DMA ring holds 256 entries and a push into a full ring returns false and dr",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11515",
       "project": "llama-cpp",
@@ -79,7 +169,7 @@
       "version": "v0.1.905-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.905-beta",
       "published_at": "2026-10-08T15:43:40Z",
-      "body_excerpt": "Turn any text or vision LLM into a Jev-style decision model in Unsloth, with decision accuracy going from 30% to 80%. Train, test, export and serve decision models directly from Unsloth. Also included: native ComfyUI models, diffusion improvements and a better Browser in Desktop. Highlights 8th Oct Fixes - Better Browser + 100+ bug fixes + perf fixes Sandboxing with Bwrap for Linux, Seatbelt for M",
+      "body_excerpt": "We're introducing Windows, Mac and Linux sandboxing in Unsloth! Read our guide. Turn any text or vision LLM into a Jev-style decision model in Unsloth, with decision accuracy going from 30% to 80%. Train, test, export and serve decision models directly from Unsloth. Also included: native ComfyUI models, diffusion improvements and a better Browser in Desktop. Highlights 8th Oct Fixes - Better Brows",
       "type": "tool"
     },
     {
@@ -11852,51 +11942,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9965",
       "published_at": "2026-07-11T18:11:18Z",
       "body_excerpt": "hexagon: improve ARGSORT performance for small tensors (#25512) hex-sort: add efficient bitomic sort in hvx regs up to 1024 elements hex-sort: fix inverted vrors hex-sort: specialize sort functions for the common cases hex-sort: add tracing and local context macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9964",
-      "project": "llama-cpp",
-      "version": "b9964",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9964",
-      "published_at": "2026-07-11T10:52:59Z",
-      "body_excerpt": "arg: prevent duplicate spec model downloads (#25527) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.13.1",
-      "project": "transformers",
-      "version": "v5.13.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.13.1",
-      "published_at": "2026-07-11T09:15:36Z",
-      "body_excerpt": "Patch release v5.13.1 This patch is focused on enabling for the latest release of vllm! Be more defensive with remap_legacy_layer_types for custom models (#47245) from @hmellor Fix custom code which doesn't know about the new linear layer type names (#47174) from @hmellor Fix case where _LazyAutoMapping.register is passed a str key (#47148) from @hmellor",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9963",
-      "project": "llama-cpp",
-      "version": "b9963",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9963",
-      "published_at": "2026-07-11T08:38:28Z",
-      "body_excerpt": "mtmd: deepseek-ocr v1 multi-tile (#24717) mtmd: deepseek-ocr v1 multi-tile dynamic resolution + unified image-preprocessors for both versions (ds-ocr v1 and v2) remove hacky API fuse row into a long image almost working adapt to new preprocessor api rm debugging printf improve mtmd: dsocr-tiles fixes (#25481) ds-ocr img-preproc fuse_row tile-drop fix for multi rows and columns images mtmd drop the",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9960",
-      "project": "llama-cpp",
-      "version": "b9960",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9960",
-      "published_at": "2026-07-11T08:01:52Z",
-      "body_excerpt": "server: remove loading.html (#25500) server: remove loading.html apply ui changes macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9959",
-      "project": "llama-cpp",
-      "version": "b9959",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9959",
-      "published_at": "2026-07-11T06:45:17Z",
-      "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows ar",
       "type": "tool"
     }
   ]
