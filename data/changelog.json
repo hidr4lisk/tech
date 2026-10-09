@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-10-08T23:08:10Z",
+  "updated_at": "2026-10-09T05:29:13Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11515",
+      "project": "llama-cpp",
+      "version": "b11515",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11515",
+      "published_at": "2026-10-09T02:54:08Z",
+      "body_excerpt": "sycl : Q5_K reorder-layout MMVQ and fused GLU (#29375) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubun",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11514",
       "project": "llama-cpp",
@@ -43,7 +52,7 @@
       "version": "v0.40.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
       "published_at": "2026-10-08T16:53:47Z",
-      "body_excerpt": "What's Changed README: add oxi to community integrations by @maziluiosif in server: hide duplicate and downgrade guards from list by @dhiltgen in New Contributors @maziluiosif made their first contribution in Full Changelog:",
+      "body_excerpt": "Model upgrades Models downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp. To make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future release will remove these backups automatically. To remove backed up models now",
       "type": "tool"
     },
     {
@@ -11888,24 +11897,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9959",
       "published_at": "2026-07-11T06:45:17Z",
       "body_excerpt": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows ar",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.0-rc0",
-      "project": "ollama",
-      "version": "v0.32.0-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0-rc0",
-      "published_at": "2026-07-11T01:03:46Z",
-      "body_excerpt": "What's Changed create: select the qwen3.5 parser and renderer for Qwen3.5/Next by @jessegross in launch: warn before old agent models by @ParthSareen in cmd: agent UI by @ParthSareen in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.0",
-      "project": "ollama",
-      "version": "v0.32.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0",
-      "published_at": "2026-07-11T01:03:46Z",
-      "body_excerpt": "What's Changed - New interactive agent experience: running now launches an agent to help you code and delegate work - Renamed the Codex App integration to ChatGPT: use ollama launch chatgpt (and --restore to return to your usual ChatGPT profile) - Simplified integration selection: the ollama launch menu now only offers the most popular integrations (other integrations can be accessed through - War",
       "type": "tool"
     }
   ]

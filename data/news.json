@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-08T23:08:05Z",
+  "updated_at": "2026-10-09T05:29:06Z",
   "items": [
+    {
+      "id": "localllama-2026-10-09-lora-over-gguf-train-qwen38-flash-next-in-40g-vram",
+      "source": "localllama",
+      "title": "LoRA over GGUF: Train Qwen3.8-Flash-Next in 40G VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1bdvl/lora_over_gguf_train_qwen38flashnext_in_40g_vram/",
+      "published_at": "2026-10-09T03:54:39Z",
+      "summary": "https://github.com/woct0rdho/transformers5-qwen3.5-recipe An update to my LoRA over GGUF series: Now we can train Qwen3.8-Flash-Next (125B-A6B + 51B engram) in 40 GiB VRAM, with no CPU offloading, with engram on disk tha",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-09-stepfun-step-5-preview-showing-up-in-openrouter",
+      "source": "localllama",
+      "title": "StepFun Step 5 preview showing up in openrouter",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x19lvs/stepfun_step_5_preview_showing_up_in_openrouter/",
+      "published_at": "2026-10-09T02:21:49Z",
+      "summary": "      &#32; submitted by &#32;  /u/cafedude   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-09-qwen38-27b-159-toks-on-r9700-64-toks-on-strix-halo",
+      "source": "localllama",
+      "title": "Qwen3.8-27B: 159 tok/s on R9700, 64 tok/s on Strix Halo",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x18e95/qwen3827b_159_toks_on_r9700_64_toks_on_strix_halo/",
+      "published_at": "2026-10-09T01:20:39Z",
+      "summary": "      LemonSeed Studio is an iPad editor/IDE with on-device inference on an AMD GPU in a Thunderbolt enclosure. It embeds the unmodified upstream Linux amdgpu + amdkfd driver (mac_linuxgpu) as a PCIDriverKit extension, a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-09-quantization-of-linear-attention-qwen-kimi",
+      "source": "localllama",
+      "title": "Quantization of Linear-Attention (Qwen & Kimi)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x18bsm/quantization_of_linearattention_qwen_kimi/",
+      "published_at": "2026-10-09T01:17:13Z",
+      "summary": "&#32; submitted by &#32;  /u/kroggens   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-09-decisions-in-a-js13kgame",
+      "source": "localllama",
+      "title": "Decisions in a js13kGame",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x17ou5/decisions_in_a_js13kgame/",
+      "published_at": "2026-10-09T00:45:29Z",
+      "summary": "      I&#39;m having AI models play Cat Goric, a 2D platformer I made in 2021 during js13kGames: https://js13kgames.com/games/cat-goric-escape-from-the-warp-chamber The best result so far is 8 of the 14 playable levels c",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-09-ttok-10",
+      "source": "simonw",
+      "title": "ttok 1.0",
+      "url": "https://simonwillison.net/2026/Oct/9/ttok/",
+      "published_at": "2026-10-09T00:34:43Z",
+      "summary": "Release: ttok 1.0\n        I released ttok 0.4, ran uv tool upgrade ttok, piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-09-qwen-36-35b-appreciation-post",
+      "source": "localllama",
+      "title": "Qwen 3.6 35B appreciation post",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x17brf/qwen_36_35b_appreciation_post/",
+      "published_at": "2026-10-09T00:27:06Z",
+      "summary": "Referring to specifically Unsloth&#39;s UD_Q4_K_XL quant because that&#39;s going to be a question, and is relevant regardless. It&#39;s old now. It&#39;s not great at coding medium sized or even small-ish projects. I wo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-08-ttok-04",
+      "source": "simonw",
+      "title": "ttok 0.4",
+      "url": "https://simonwillison.net/2026/Oct/8/ttok/",
+      "published_at": "2026-10-08T23:34:28Z",
+      "summary": "Release: ttok 0.4\n        ttok is my CLI tool for counting tokens, using OpenAI's open source tiktoken library.\nIt hasn't been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a",
+      "tags": [
+        "simonw"
+      ]
+    },
     {
       "id": "localllama-2026-10-08-strata-rewrote-their-github-history-to-wipe-evidence-of-clau",
       "source": "localllama",
@@ -63,72 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0y4lv/chatgpts_new_intelligent_ui_was_reverse/",
       "published_at": "2026-10-08T18:08:02Z",
       "summary": "      came across a pretty interesting technical breakdown of chatgpt&#39;s newly launched &quot;intelligent ui&quot; feature, and thought this subreddit might find it interesting. for anyone unfamiliar with the concept,",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-08-2800-rig-with-8x-radeon-pro-v620-256-gb-vram-custom-vllm-for",
-      "source": "localllama",
-      "title": "$2800 rig with 8x Radeon Pro V620 (256 GB VRAM) + custom vLLM fork = Qwen3.8-Flash-Next at 60 to 100 t/s decode and 3000+ t/s prefill",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0wnz1/2800_rig_with_8x_radeon_pro_v620_256_gb_vram/",
-      "published_at": "2026-10-08T17:12:46Z",
-      "summary": "      Post title is slightly misleading, I don&#39;t think you can get these for $350 each anymore but they&#39;re still pretty cheap all things considered. They&#39;re Radeon Pro V620&#39;s which are older RDNA2 enterpr",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-08-open-sourcing-game-summoner-my-prompt-to-game-site",
-      "source": "localllama",
-      "title": "Open sourcing Game Summoner, my prompt to game site",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0wki3/open_sourcing_game_summoner_my_prompt_to_game_site/",
-      "published_at": "2026-10-08T17:09:01Z",
-      "summary": "tldr: Open sourced my prompt to game suite: https://github.com/ndamiano/ai-agent-test, it&#39;s MIT licensed, and this runs well on my 5090 with 64gb ram, but any model that can handle tool calls can manage. Edit: I can&",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-08-running-decision-model-locally-on-an-rtx-4090-to-find-out-wh",
-      "source": "localllama",
-      "title": "Running decision model locally on an RTX 4090 to find out which one is the fastest",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0wg85/running_decision_model_locally_on_an_rtx_4090_to/",
-      "published_at": "2026-10-08T17:04:32Z",
-      "summary": "      recently saw a bunch of open decision models pop out of nowhere in the last two weeks (laya, liquid&#39;s d1, cloudflare&#39;s clef-flash, interfaze&#39;s lev), so I wanted to see how far apart they actually are on",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-08-openai-compatible-tts-endpoint-using-omnivoice-03s-response",
-      "source": "localllama",
-      "title": "OpenAI-compatible TTS endpoint using OmniVoice: 0.3s response time",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0vld1/openaicompatible_tts_endpoint_using_omnivoice_03s/",
-      "published_at": "2026-10-08T16:31:44Z",
-      "summary": "      I want to share a TTS server with an OpenAI-compatible API that generates speech really fast (about 0.3 seconds for a sentence on an RTX 3080) and can clone a voice from a short reference clip. I’ve optimized the s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-08-thank-you-swift-models-hit-22-million-downloads-early-access",
-      "source": "localllama",
-      "title": "Thank you :) Swift Models hit 2.2 million+ downloads / Early Access to New Models, Free Compute for Researchers",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ui6f/thank_you_swift_models_hit_22_million_downloads/",
-      "published_at": "2026-10-08T15:50:21Z",
-      "summary": "      Hey everyone, Jovan from UkisAI (Swift Qwen) here!  For those who don&#39;t know us, UkisAI is a small lab making tiny frontier LLMs, tools and datasets (+doing it open-source!). I&#39;m one of the guys running it ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-08-mellum21---a-jetbrains-collection",
-      "source": "localllama",
-      "title": "Mellum2.1 - a JetBrains Collection",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0u6l7/mellum21_a_jetbrains_collection/",
-      "published_at": "2026-10-08T15:38:19Z",
-      "summary": "      JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF A small moe!  &#32; submitted by &#32;  /u/ApprehensiveAd3629   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -299,17 +321,6 @@
       ]
     },
     {
-      "id": "simonw-2026-10-06-scrimshaw-jukebox",
-      "source": "simonw",
-      "title": "Scrimshaw Jukebox",
-      "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
-      "published_at": "2026-10-06T15:17:39Z",
-      "summary": "Tool: Scrimshaw Jukebox\n        I wanted to see if Claude Opus 5.5 could compose music, so I tried this:\n\nI want you to write some computer game music for me. First design simple text based format for the music and build",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-10-06-falcon-emirati-when-an-llm-learns-the-dialect-the-culture-an",
       "source": "huggingface",
       "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
@@ -318,17 +329,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-05-quoting-felix-rieseberg",
-      "source": "simonw",
-      "title": "Quoting Felix Rieseberg",
-      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
-      "published_at": "2026-10-05T23:56:47Z",
-      "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just ",
-      "tags": [
-        "simonw"
       ]
     },
     {
