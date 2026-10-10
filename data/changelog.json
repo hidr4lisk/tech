@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-10-09T22:27:56Z",
+  "updated_at": "2026-10-10T05:12:54Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11540",
+      "project": "llama-cpp",
+      "version": "b11540",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11540",
+      "published_at": "2026-10-10T03:27:24Z",
+      "body_excerpt": "sycl : accelerate MXFP4 MoE with arithmetic decoding and weight reordering (#29809) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-agile_one_s_pick_ssd_n2_1120",
+      "project": "nvidia",
+      "version": "agile_one_s_pick_ssd_n2_1120",
+      "url": "https://huggingface.co/nvidia/agile_one_s_pick_ssd_n2_1120",
+      "published_at": "2026-10-10T00:20:17Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-agile_one_s_place_ssd_n2_1260",
+      "project": "nvidia",
+      "version": "agile_one_s_place_ssd_n2_1260",
+      "url": "https://huggingface.co/nvidia/agile_one_s_place_ssd_n2_1260",
+      "published_at": "2026-10-10T00:18:56Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-agile_one_s_pickplace_ssd_n2_18200",
+      "project": "nvidia",
+      "version": "agile_one_s_pickplace_ssd_n2_18200",
+      "url": "https://huggingface.co/nvidia/agile_one_s_pickplace_ssd_n2_18200",
+      "published_at": "2026-10-10T00:17:13Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b11539",
+      "project": "llama-cpp",
+      "version": "b11539",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11539",
+      "published_at": "2026-10-09T22:38:06Z",
+      "body_excerpt": "vendor: apply deep nested json patch from upstream (#30253) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11538",
       "project": "llama-cpp",
@@ -12032,24 +12077,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9969",
       "published_at": "2026-07-12T05:30:33Z",
       "body_excerpt": "Vulkan: route large matmuls to medium tile on Adreno (#24877) [Vulkan] Fixes llama-cli breaking over longer promts sizes The llama-cli was breaking for longer promts sizes for q4_0 quantized networks. Causing due to insufficient shared memory. Removed the un-used Adreno device Updated matmul for small pipeline. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DI",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9968",
-      "project": "llama-cpp",
-      "version": "b9968",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9968",
-      "published_at": "2026-07-12T01:12:46Z",
-      "body_excerpt": "opencl: add int8 dp4 dense and MoE prefill optimization for Adreno GPUs (#25537) opencl: add int8 dp4 dense and moe GEMM opencl: refactor --------- Co-authored-by: Li He macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9967",
-      "project": "llama-cpp",
-      "version": "b9967",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9967",
-      "published_at": "2026-07-12T00:43:27Z",
-      "body_excerpt": "server: accept null sampling params (#25538) server: accept null sampling params Extend the schema validation to treat a null value as absent, so clients can send null on nullable params (temperature, top_p, ...) to request the server default. This matches the OpenAI spec and the json_value convention used elsewhere. Add has_field() to skip null in the field eval guards. has_field -> has_value​ ma",
       "type": "tool"
     }
   ]
