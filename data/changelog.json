@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-10-10T05:12:54Z",
+  "updated_at": "2026-10-10T12:12:05Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11541",
+      "project": "llama-cpp",
+      "version": "b11541",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11541",
+      "published_at": "2026-10-10T08:02:57Z",
+      "body_excerpt": "opencl: add bin kernels kernel_gemm_moe_q4_k_q8_1_dp4a_bin, kernel_gemm_moe_q6_k_q8_1_dp4a_bin (#30187) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librarie",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11540",
       "project": "llama-cpp",
@@ -12059,24 +12068,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9971",
       "published_at": "2026-07-12T12:36:08Z",
       "body_excerpt": "server: refactor server_stream (#25541) server: refactoring, remove spipe from server_http_res wip remove non-thread-safe rd.stop() call move server_res_spipe nits improve server_stream_create_spipe server-stream: update dev docs for the improved API --------- Co-authored-by: Pascal macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9970",
-      "project": "llama-cpp",
-      "version": "b9970",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9970",
-      "published_at": "2026-07-12T12:03:02Z",
-      "body_excerpt": "ggml : add GGML_OP_LIGHTNING_INDEXER that implements DeepSeek V3.2/V4 lightning indexer (#24231) ggml : add GGML_OP_LIGHTNING_INDEXER that implements DeepSeek V3.2/V4 lightning indexer ggml : remove scale parameters from lightning indexer OP, add f16 mask parameter tests : add GGML_OP_LIGHTNING_INDEXER tests ggml : bump RPC version chore : check if lightning indexer input tensors are not transpose",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9969",
-      "project": "llama-cpp",
-      "version": "b9969",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9969",
-      "published_at": "2026-07-12T05:30:33Z",
-      "body_excerpt": "Vulkan: route large matmuls to medium tile on Adreno (#24877) [Vulkan] Fixes llama-cli breaking over longer promts sizes The llama-cli was breaking for longer promts sizes for q4_0 quantized networks. Causing due to insufficient shared memory. Removed the un-used Adreno device Updated matmul for small pipeline. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DI",
       "type": "tool"
     }
   ]
