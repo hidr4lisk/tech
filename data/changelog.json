@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-10T12:12:05Z",
+  "updated_at": "2026-10-10T21:23:48Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11552",
+      "project": "llama-cpp",
+      "version": "b11552",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11552",
+      "published_at": "2026-10-10T19:52:01Z",
+      "body_excerpt": "server: leave a busy slot untouched when a request pins it (#30295) A request asking for a busy id_slot still ran the prompt cache update on that slot before being deferred. When the RAM cache held a better match, it was loaded into the slot while another request was still generating there, and that generation continued on the wrong context. The busy slot is now returned as is and the request wait",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11551",
+      "project": "llama-cpp",
+      "version": "b11551",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11551",
+      "published_at": "2026-10-10T19:09:59Z",
+      "body_excerpt": "model : support MiniCPM-V 4.7 (#29416) mtmd : add MiniCPM-V 4.7 support Signed-off-by: tc-mb model : allow mrope time from an extra position slot Signed-off-by: tc-mb Update conversion/minicpm.py Co-authored-by: Sigbjørn Skjæret Slim down comments Signed-off-by: tc-mb fix for \"do not hand-wrap comments\" Signed-off-by: tc-mb fix ci Signed-off-by: tc-mb rm 3d repo for pr one Signed-off-by: tc-mb ggu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11550",
+      "project": "llama-cpp",
+      "version": "b11550",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11550",
+      "published_at": "2026-10-10T18:29:25Z",
+      "body_excerpt": "cmake(s390x): disable z17 target for unsupported compilers (#30297) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 l",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11541",
       "project": "llama-cpp",
@@ -12005,69 +12032,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9978",
       "published_at": "2026-07-12T21:32:41Z",
       "body_excerpt": "server : evict checkpoints within min-step of each other (#25472) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9977",
-      "project": "llama-cpp",
-      "version": "b9977",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9977",
-      "published_at": "2026-07-12T16:18:10Z",
-      "body_excerpt": "server : fix image blocks in tool_result being dropped during Anthropic OpenAI conversion (#22536) server : fix image blocks in tool_result being dropped during Anthropic→OpenAI conversion server_chat_convert_anthropic_to_oai() silently discarded image blocks inside Anthropic tool_result content. This broke multimodal tool outputs (e.g. a tool that returns an image) because the model never receive",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9976",
-      "project": "llama-cpp",
-      "version": "b9976",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9976",
-      "published_at": "2026-07-12T15:22:50Z",
-      "body_excerpt": "Fix conditional to display 'LLAMA_SPLIT_MODE_TENSOR not implemented for architecture' message (#24926) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9975",
-      "project": "llama-cpp",
-      "version": "b9975",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9975",
-      "published_at": "2026-07-12T14:49:18Z",
-      "body_excerpt": "gguf : reject empty metadata keys (#24917) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9974",
-      "project": "llama-cpp",
-      "version": "b9974",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9974",
-      "published_at": "2026-07-12T14:16:29Z",
-      "body_excerpt": "cuda: Don't crash when querying memory on device with no free memory. (#25157) If a Cuda device has no or limited available memory, the actual call to cudaMemGetInfo() itself can cause a fatal crash due to a cuda out of memory error (there is not enough memory to actually query memory) This causes an issue because we query memory for all devices at startup even if the user isn't trying to use the ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9973",
-      "project": "llama-cpp",
-      "version": "b9973",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9973",
-      "published_at": "2026-07-12T13:40:08Z",
-      "body_excerpt": "DeepseekV4: clear cache only for seq rather than full (#25521) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9972",
-      "project": "llama-cpp",
-      "version": "b9972",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9972",
-      "published_at": "2026-07-12T13:07:51Z",
-      "body_excerpt": "server: allow stream for exec_shell_command (#25526) init stream add stream for shell tool add test nits update docs macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9971",
-      "project": "llama-cpp",
-      "version": "b9971",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9971",
-      "published_at": "2026-07-12T12:36:08Z",
-      "body_excerpt": "server: refactor server_stream (#25541) server: refactoring, remove spipe from server_http_res wip remove non-thread-safe rd.stop() call move server_res_spipe nits improve server_stream_create_spipe server-stream: update dev docs for the improved API --------- Co-authored-by: Pascal macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS ",
       "type": "tool"
     }
   ]
