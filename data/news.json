@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-10-11T05:03:26Z",
+  "updated_at": "2026-10-11T12:26:03Z",
   "items": [
+    {
+      "id": "localllama-2026-10-11-microsoftaescode-8b-and-32b",
+      "source": "localllama",
+      "title": "microsoft/AesCode 8B and 32B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x35o1y/microsoftaescode_8b_and_32b/",
+      "published_at": "2026-10-11T11:17:46Z",
+      "summary": "      https://preview.redd.it/r2ledkyuntuh1.png?width=1684&amp;format=png&amp;auto=webp&amp;s=9ed4518b2d0f20f44835ebbfac605581da186a57 AesCode generates information-rich visual artifacts such as slides, posters, and dash",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-11-i-trained-a-102m-recursive-bitnet-v2-model-from-scratch-64k",
+      "source": "localllama",
+      "title": "I trained a 102M recursive BitNet-v2 model from scratch: 64K context, trained on less than 5B tokens",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x34nyx/i_trained_a_102m_recursive_bitnetv2_model_from/",
+      "published_at": "2026-10-11T10:19:08Z",
+      "summary": "DISCLAIMER: the post and the model card was made with the assist of AI.  Hiya, I’m releasing Recursive BitNet N-Gram 102M, a small experiment combining ternary weights, shared transformer layers, and hashed n-gram embedd",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-11-reminder-try-probabilistic-mtp-if-you-missed-it-decode-14-on",
+      "source": "localllama",
+      "title": "Reminder: try probabilistic MTP if you missed it. Decode +14% on prose",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x33p4o/reminder_try_probabilistic_mtp_if_you_missed_it/",
+      "published_at": "2026-10-11T09:20:09Z",
+      "summary": "      https://github.com/ggml-org/llama.cpp/pull/27694 Now merged. Update your llama if you haven&#39;t done so yet. Optimal draft-n-max / draft-p-min seem to be in line with greedy sampling. Main gain seems to be on pro",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-11-final-revision-of-zzpanic-vllm-radiance-for-1-x-r9700-gpu-qw",
+      "source": "localllama",
+      "title": "Final revision of zzpanic vllm-radiance for 1 x R9700 GPU, qwen3.8-27b",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3368a/final_revision_of_zzpanic_vllmradiance_for_1_x/",
+      "published_at": "2026-10-11T08:47:40Z",
+      "summary": "      Summary of project status metrics Since StillDeadcode has released his new radiance inference engine, the writing is on the wall for the old vllm-radiance builds, people have moved on to newer and better. I can see",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-11-psa-deepseek-v41-flash-habitually-exfiltrates-api-keys-it-is",
+      "source": "localllama",
+      "title": "PSA: DeepSeek V4.1 Flash habitually exfiltrates API keys. It is dangerously misaligned and may be hazardous to use",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/",
+      "published_at": "2026-10-11T08:29:02Z",
+      "summary": "      EDIT: since people keep calling it out, this is API key abuse but not exfiltration. Seems like both Harbor and Pier (sandboxes used in almost every Software Engineering benchmark) expose the Openrouter endpoint and",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-11-what-setup-do-you-use-which-harness-and-how-do-you-customize",
+      "source": "localllama",
+      "title": "What setup do you use, which harness? and how do you customize it to run qwen 3.8 flash next swift with a high context length and a reasonable amount of tok/sec?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32sjy/what_setup_do_you_use_which_harness_and_how_do/",
+      "published_at": "2026-10-11T08:23:50Z",
+      "summary": "As i use a rather tiny setup 12gb vram gpu and 32bg ram, i was wondering: What setup do you use, which harness? and how do you customize it to run qwen 3.8 flash next swift with a high context length and a reasonable amo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-11-local-voice-assistant-based-on-qwen35-4b-with-skillstoolcall",
+      "source": "localllama",
+      "title": "Local Voice Assistant based on Qwen3.5 4B with skills/toolcalling. No dedicated GPU. Local STT+TTS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32pqp/local_voice_assistant_based_on_qwen35_4b_with/",
+      "published_at": "2026-10-11T08:18:55Z",
+      "summary": "      STT: Voxtral TTS: Pocket Longer video: https://www.youtube.com/watch?v=1WmvMO-f-24  &#32; submitted by &#32;  /u/Leading_Yogurt7025   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-11-qwen-38-27b-q5-vs-qwen-38-next-q3-s-for-document-analysis",
+      "source": "localllama",
+      "title": "Qwen 3.8 27B Q5 vs Qwen 3.8 Next Q3_S for document analysis",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x31ak8/qwen_38_27b_q5_vs_qwen_38_next_q3_s_for_document/",
+      "published_at": "2026-10-11T06:52:26Z",
+      "summary": "I have an app that processes ~500 different documents every day. An agent analyzes them, sorts them, tags them, extracts various legal nuances, creates descriptions, etc. So far I&#39;ve been using Qwen 3.8 27B Q5 with a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-11-m5-ultra-256gb-or-2x-dgx-spark-which-one",
+      "source": "localllama",
+      "title": "M5 Ultra 256GB or 2x DGX Spark? Which one?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x30cv1/m5_ultra_256gb_or_2x_dgx_spark_which_one/",
+      "published_at": "2026-10-11T05:55:30Z",
+      "summary": "Currently contemplating adding either M5 Ultra 256GB or dual DGX Spark in addition to existing 5090.  I have been researching for past few days and have zeroed in on dual sparks because higher throughput for agentic codi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-11-converting-dense-models-into-mixture-of-experts",
+      "source": "localllama",
+      "title": "Converting dense models into Mixture-of-Experts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3078i/converting_dense_models_into_mixtureofexperts/",
+      "published_at": "2026-10-11T05:45:52Z",
+      "summary": "For the past few weeks I&#39;ve been trying out converting existing dense models to sparse Mixture-of-Experts models, with no pretraining from scratch. The Idea If you can turn a dense model into an MoE that only runs pa",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-11-2x-3090-3x-3060-potential-smart-and-informed-future-upgrade",
       "source": "localllama",
@@ -24,105 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-11-qualcomm-ceo-reveals-ai-companies-want-phones-running-100-bi",
-      "source": "localllama",
-      "title": "Qualcomm CEO reveals AI companies want phones running 100-billion-parameter models continuously by 2028.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2z14s/qualcomm_ceo_reveals_ai_companies_want_phones/",
-      "published_at": "2026-10-11T04:37:21Z",
-      "summary": "      https://x.com/firesidealpha/status/2108930562794864912  &#32; submitted by &#32;  /u/Recoil42   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-running-next-flash-iq3-xxs-at-70-toks-with-100k-context-or-2",
-      "source": "localllama",
-      "title": "Running Next Flash IQ3_XXS at ~70 tok/s with 100k context or 2 instances of Qwen 3.6 35B A3B IQ4 at ~145 tok/s with 256k all on $500 of ex mining BC-250 boards",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2yv1b/running_next_flash_iq3_xxs_at_70_toks_with_100k/",
-      "published_at": "2026-10-11T04:27:44Z",
-      "summary": "      This will be my third update on the bc-250 cluster and for my first forray into local ai I have been having a blast. This has turned from a weekend experiment into something I think I will use in the future. I am r",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-qwen38-flash-next-fixed-my-gnome-extension",
-      "source": "localllama",
-      "title": "Qwen3.8 Flash Next fixed my GNOME extension",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xxql/qwen38_flash_next_fixed_my_gnome_extension/",
-      "published_at": "2026-10-11T03:36:51Z",
-      "summary": "      I love Dash2Dock Lite, but Icedman is always a week or two before updates. I randomly ran pacman for the first time in weeks, not realizing GNOME had a major update. I told it to fix it in DeepSeek Harness. I was o",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-be-careful-fam---new-rtx-4090-fakes-hit-the-market-with-gpus",
-      "source": "localllama",
-      "title": "Be careful fam - New RTX 4090 fakes hit the market, with GPUs and memory almost indistinguishable from real chips",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xniv/be_careful_fam_new_rtx_4090_fakes_hit_the_market/",
-      "published_at": "2026-10-11T03:21:02Z",
-      "summary": "      Be careful out there of deals now. If it’s too good to be true…  &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-amd-reportedly-raises-gddr6-prices-for-board-partners",
-      "source": "localllama",
-      "title": "AMD Reportedly Raises GDDR6 Prices for Board Partners",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xatx/amd_reportedly_raises_gddr6_prices_for_board/",
-      "published_at": "2026-10-11T03:02:30Z",
-      "summary": "      Is an AMD price incoming as well? Nvidia just discontinued the 5090 in favor of RTX Pros  &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-m5-ultra-mac-256gb-studio---64-core-vs-80-core-version-is-th",
-      "source": "localllama",
-      "title": "M5 Ultra Mac 256GB Studio - 64 core vs. 80 core version, is the inference speed difference worth the extra 10 weeks wait time?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2wzsa/m5_ultra_mac_256gb_studio_64_core_vs_80_core/",
-      "published_at": "2026-10-11T02:46:42Z",
-      "summary": "I’m seeing 6-7 week delivery wait time for M5 Ultra Mac Studio 64 core version versus 15-17 weeks for 80 core version. They both Ultra and have the same memory bandwidth. Is the speed difference that noticeable for promp",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-vllm-is-it-possible-to-run-qwen38-27b-fp8-on-a-5090",
-      "source": "localllama",
-      "title": "[vllm] Is it possible to run Qwen3.8-27B-FP8 on a 5090?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2wcwg/vllm_is_it_possible_to_run_qwen3827bfp8_on_a_5090/",
-      "published_at": "2026-10-11T02:12:24Z",
-      "summary": "Based on my experiments and feedback from claude, it seems extremely unlikely and even if I get it working, not practical because of minimum context. But just asking here as a last effort. I&#39;m able to run nvfp4 brill",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-building-a-4x-r9700-setup-for-a-10-person-startup",
-      "source": "localllama",
-      "title": "Building a 4x R9700 setup for a 10 person startup",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2u742/building_a_4x_r9700_setup_for_a_10_person_startup/",
-      "published_at": "2026-10-11T00:20:07Z",
-      "summary": "      Just wanted to share a build I am doing for a client. $18k.  Specs: Threadripper 9970x 128gb DDR5 ECC 5600 4x AMD Radeon R9700 AI Pro 32gb(128gb total VRAM) 1600W PSU(GPUs are undervolted and under 210w each) Engin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-omg-if-you-have-a-mac-with-64gb-try-qwen38-flash-next-oq4e-m",
-      "source": "localllama",
-      "title": "OMG! If you have a Mac with 64GB, try Qwen3.8-Flash-Next-oQ4e-mtp with oMLX!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2tstj/omg_if_you_have_a_mac_with_64gb_try/",
-      "published_at": "2026-10-11T00:00:40Z",
-      "summary": "I&#39;m genuinely shocked! I was able to run Qwen3.8-Flash-Next-oQ4e-mtp on M3Max 64GB with oMLX! Yes, there are other 3bit quants for 64GB Mac, but 4bit is the lowest quant I&#39;d tolerate. I manually quantized the ori",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-10-10-python-3150-added-to-actionspython-versions",
       "source": "simonw",
       "title": "Python 3.15.0 added to actions/python-versions",
@@ -131,17 +142,6 @@
       "summary": "Python 3.15.0 added to actions/python-versions\nBit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it:\n\nClone https://github.com/actions/python-versions  and git pu",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-10-model-support-minicpm-v-47-by-tc-mb-pull-request-29416-ggml",
-      "source": "localllama",
-      "title": "[Model] Support MiniCPM-V 4.7 by tc-mb · Pull Request #29416 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2qsh3/model_support_minicpmv_47_by_tcmb_pull_request/",
-      "published_at": "2026-10-10T21:37:21Z",
-      "summary": "      Now all we need is a new model. Let me remind you that MiniCPM-V-4.7-35B-A3B was spotted on r/LocalLLaMA a few days ago (but the model was later hidden on HF).  &#32; submitted by &#32;  /u/jacek2023   [link] &#32;",
-      "tags": [
-        "localllama"
       ]
     },
     {
