@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-10-12T05:17:35Z",
+  "updated_at": "2026-10-12T14:56:38Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11573",
+      "project": "llama-cpp",
+      "version": "b11573",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11573",
+      "published_at": "2026-10-12T14:48:31Z",
+      "body_excerpt": "vulkan: pack FMA for f16 accumulation, no dot product op (#29877) vulkan: pack FMA for f16 accumulation, no dot product op vulkan: dot_product packs two rows per f16 FMA vulkan: rename dot_product to dot_product_v2 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11572",
+      "project": "llama-cpp",
+      "version": "b11572",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11572",
+      "published_at": "2026-10-12T14:23:33Z",
+      "body_excerpt": "model: support vllm d3 models (#30383) models: support pplx-decider vllm d2 update clarify naming rule stricter validation d3 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.906-beta",
+      "project": "unsloth",
+      "version": "v0.1.906-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.906-beta",
+      "published_at": "2026-10-12T14:17:13Z",
+      "body_excerpt": "Models can now use the browser in Unsloth. Turn on Browser use and your model can open pages, read them, click, type and scroll while you watch. Qwen-Image-2.1-Turbo is here too, making images in just 8 steps. Also included: text-diffusion LLM training, faster MoE GGUFs and speculative decoding on Mac. Highlights Browser use. Models can open pages, click, type and scroll in the Unsloth Browser Qwe",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11571",
+      "project": "llama-cpp",
+      "version": "b11571",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11571",
+      "published_at": "2026-10-12T13:56:51Z",
+      "body_excerpt": "model: support vllm decision 2 model (#30378) models: support pplx-decider vllm d2 update clarify naming rule stricter validation fix ci rm redundant filter_tensors Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11570",
+      "project": "llama-cpp",
+      "version": "b11570",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11570",
+      "published_at": "2026-10-12T13:40:59Z",
+      "body_excerpt": "tests : link each test against only the libraries it uses (#30299) Give llama_build() and llama_build_and_test() a LINK keyword (default: llama-common) so call sites can declare what a test actually needs: ggml-only tests now link just ggml: test-opt, test-metal-graph-optimize, test-backend-ops, test-tiled-mulmat, test-barrier, test-quantize-fns, test-quantize-perf, test-rope, test-col2im-1d, test",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11569",
+      "project": "llama-cpp",
+      "version": "b11569",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11569",
+      "published_at": "2026-10-12T13:16:20Z",
+      "body_excerpt": "metal : fix mul_mat_id with duplicate ids (#30373) metal : fix mul_mat_id limits and kernel name metal : fix mul_mat_id with duplicate ids kernel_mul_mm_id_map0 assumed at most one match per token and a fixed capacity of ne21 entries per expert, which produced wrong or dropped output rows and could overflow into the slice of the next expert when the ids contain duplicates. build a compact per-expe",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11567",
+      "project": "llama-cpp",
+      "version": "b11567",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11567",
+      "published_at": "2026-10-12T12:26:17Z",
+      "body_excerpt": "llama : report compute graph reallocations during inference (#30329) Add an optional ggml_backend_sched_realloc_callback that user code registers with ggml_backend_sched_set_realloc_callback to be notified when the buffers reserved for a graph are not sufficient and have to be reserved again. The callback reports whether the backend assignments and the graph size changed since the previous schedul",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11565",
+      "project": "llama-cpp",
+      "version": "b11565",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11565",
+      "published_at": "2026-10-12T09:15:54Z",
+      "body_excerpt": "sycl: guard DMMV reads at row tails (#29338) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11564",
+      "project": "llama-cpp",
+      "version": "b11564",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11564",
+      "published_at": "2026-10-12T06:56:44Z",
+      "body_excerpt": "vulkan: use ternary expressions to avoid switch lowering for CM2 quant block size (#30164) vulkan: specialize quant block size for CM2 matmul vulkan: use ternary expressions to avoid switch lowering for CM2 quant block size vulkan: clarify CM2 quant block size comment Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11563",
+      "project": "llama-cpp",
+      "version": "b11563",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11563",
+      "published_at": "2026-10-12T06:38:24Z",
+      "body_excerpt": "ggml: Change default visibility of symbols to hidden (#30014) See discussion in #29997. This prevents a handful of internal symbols leaking via GGML_API. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11562",
+      "project": "llama-cpp",
+      "version": "b11562",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11562",
+      "published_at": "2026-10-12T05:51:14Z",
+      "body_excerpt": "vulkan: fix buffer logging on 32-bit platforms after source split (#30326) Move the vk::Buffer stream operator to the shared header so it is visible to ggml-vulkan-debug.cpp. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11560",
       "project": "llama-cpp",
@@ -2707,7 +2806,7 @@
       "version": "prebuilt-wheels-cu13",
       "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13",
       "published_at": "2026-09-27T03:16:14Z",
-      "body_excerpt": "Prebuilt CUDA 13 wheels. Linux x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Windows x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Windows ARM64: causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.14 on Python 3.13.",
+      "body_excerpt": "Prebuilt CUDA 13 wheels. Linux x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Windows x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Linux aarch64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Pyth",
       "type": "tool"
     },
     {
@@ -11888,114 +11987,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10002",
       "published_at": "2026-07-14T15:19:55Z",
       "body_excerpt": "ggml : add a set of functions for checking contiguity of inner tensor dimensions (#25650) Co-authored-by: Stanisław Szymczyk macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO)",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.7.0",
-      "project": "localai",
-      "version": "v4.7.0",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.7.0",
-      "published_at": "2026-07-14T13:24:24Z",
-      "body_excerpt": "🎉 LocalAI 4.7.0 Release! 🚀 LocalAI 4.7.0 is out! This release widens what LocalAI can generate and how you drive it: a UI-managed voice cloning library, local video and audio-driven avatar generation, and interleaved reasoning that travels with tool calls. It also lands new audio engines (one-pass diarized transcription, F5-TTS, true streaming TTS) and a batch of reliability fixes across auth, tra",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10001",
-      "project": "llama-cpp",
-      "version": "b10001",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10001",
-      "published_at": "2026-07-14T12:46:17Z",
-      "body_excerpt": "tests: export-graph-ops: exit gracefully when called w/o arguments (#25619) Fixes a segfault when is called without any arguments. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10000",
-      "project": "llama-cpp",
-      "version": "b10000",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10000",
-      "published_at": "2026-07-14T12:06:19Z",
-      "body_excerpt": "ggml: uniformize im2col dst_type for all conv ops (#23660) ggml: uniformize im2col dst_type for all conv ops Update ggml/src/ggml.c Co-authored-by: Georgi Gerganov ggml : uniformize im2col casting logic across all conv ops fix : allow im2col_f16 to accept any kernel type --------- Co-authored-by: Georgi Gerganov macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) D",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9999",
-      "project": "llama-cpp",
-      "version": "b9999",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9999",
-      "published_at": "2026-07-14T11:23:47Z",
-      "body_excerpt": "kleidiai : add SME2 f32 kernel (#24414) kleidiai : add SME2 f32 kernel enable dynamic scheduling for SME2 f32 kernel macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9996",
-      "project": "llama-cpp",
-      "version": "b9996",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9996",
-      "published_at": "2026-07-14T10:41:38Z",
-      "body_excerpt": "arg: Flush log before exiting after usage() (#25504) Under certain conditions, it's possible for messages emitted via LOG() to get lost before exit, apparently because they are emitted by another thread. common_params_print_usage() uses printf directly, and is not affected. Flushing the log before exit seems to resolve this. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleidi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9995",
-      "project": "llama-cpp",
-      "version": "b9995",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9995",
-      "published_at": "2026-07-14T09:44:45Z",
-      "body_excerpt": "sycl: set fattn_vec_nthreads to 256 for Battlemage (#25205) Currently detects lunarlake + battlemage / xe2 and sets the value to 256. Keeps default at 128, Intel's ARC Alchemist's prefered value. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vu",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.25.1",
-      "project": "vllm",
-      "version": "v0.25.1",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.1",
-      "published_at": "2026-07-14T08:51:20Z",
-      "body_excerpt": "vLLM v0.25.1 Highlights This release features 2 commits from 2 contributors (1 new)! v0.25.1 is a patch release containing two targeted bug fixes on top of v0.25.0. Bug Fixes Avoid blocking model launching when no system FFmpeg is available for TorchCodec (#47888). Previously raised a at import time when system FFmpeg was missing, which blocked startup (e.g. ) even when TorchCodec was not in use. ",
-      "type": "tool"
-    },
-    {
-      "id": "sglang-v0.5.15.post1",
-      "project": "sglang",
-      "version": "v0.5.15.post1",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.15.post1",
-      "published_at": "2026-07-14T08:43:33Z",
-      "body_excerpt": "v0.5.15.post1 includes a few patches, mostly for GLM 5.2 #30454 #30627: Fix DSA model launching on non Cuda/HIP devices #30858: Fix flashinfer dependency on Cuda 12 images #31001: Fix NaN outputs caused by flashinfer trtllm FP4 MoE kernels on long input #30839: Fix GLM 5.2 IndexShare on PD disaggregation setting #30992: Fix GLM 5.2 IndexShare on Context Parallel setting",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Nemotron-3-Embed-1B-NVFP4",
-      "project": "nvidia",
-      "version": "Nemotron-3-Embed-1B-NVFP4",
-      "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-NVFP4",
-      "published_at": "2026-07-14T07:46:58Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-Nemotron-3-Embed-8B-BF16",
-      "project": "nvidia",
-      "version": "Nemotron-3-Embed-8B-BF16",
-      "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16",
-      "published_at": "2026-07-14T07:38:49Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-Nemotron-3-Embed-1B-BF16",
-      "project": "nvidia",
-      "version": "Nemotron-3-Embed-1B-BF16",
-      "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
-      "published_at": "2026-07-14T07:32:18Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b9994",
-      "project": "llama-cpp",
-      "version": "b9994",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9994",
-      "published_at": "2026-07-14T05:29:11Z",
-      "body_excerpt": "metal : add Q2_0 support (#25419) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Window",
       "type": "tool"
     }
   ]
