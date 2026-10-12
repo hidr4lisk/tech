@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-10-11T21:41:29Z",
+  "updated_at": "2026-10-12T05:17:35Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11560",
+      "project": "llama-cpp",
+      "version": "b11560",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11560",
+      "published_at": "2026-10-12T03:57:12Z",
+      "body_excerpt": "hexagon: add IM2COL_3D (#30305) hexagon: add IM2COL_3D support Assisted-by: OpenCode hexagon: add DMA paths for IM2COL_3D Assisted-by: OpenCode hexagon: avoid scalar fp16 conversions in IM2COL Assisted-by: OpenCode remove in-loop spills in pre-v81 devices Assisted-by: OpenCode hex-im2col: re-write to use canonical dma dbl-buff pipeline, remove divs and very inefficient fp conversions hex-im2col: m",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11559",
       "project": "llama-cpp",
@@ -2698,7 +2707,7 @@
       "version": "prebuilt-wheels-cu13",
       "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13",
       "published_at": "2026-09-27T03:16:14Z",
-      "body_excerpt": "Prebuilt Linux x86_64 CUDA 13 wheels for flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13.",
+      "body_excerpt": "Prebuilt CUDA 13 wheels. Linux x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Windows x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Windows ARM64: causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.14 on Python 3.13.",
       "type": "tool"
     },
     {
@@ -11987,15 +11996,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9994",
       "published_at": "2026-07-14T05:29:11Z",
       "body_excerpt": "metal : add Q2_0 support (#25419) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Window",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b9993",
-      "project": "llama-cpp",
-      "version": "b9993",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9993",
-      "published_at": "2026-07-13T23:09:16Z",
-      "body_excerpt": "model: add Hy3 (hy_v3) support with MTP speculative decoding (#25395) model: add Hy3 (hy_v3) architecture support Adds Tencent Hunyuan 3 (HF architecture HYV3ForCausalLM, GGUF arch hy_v3): a MoE decoder stack with per-head Q/K RMSNorm, a sigmoid router with expert selection bias, an always-active ungated shared expert, and leading dense block(s) (first_k_dense_replace). The base implementation is ",
       "type": "tool"
     }
   ]

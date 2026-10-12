@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-11T21:41:23Z",
+  "updated_at": "2026-10-12T05:17:28Z",
   "items": [
+    {
+      "id": "localllama-2026-10-12-bit-exact-speculative-decoding-on-qwen38-27b-106-ts-on-one-r",
+      "source": "localllama",
+      "title": "Bit-exact speculative decoding on Qwen3.8-27B: 106 t/s on one RTX PRO 6000",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3sx3d/bitexact_speculative_decoding_on_qwen3827b_106_ts/",
+      "published_at": "2026-10-12T04:53:57Z",
+      "summary": "Follow-up to my earlier post on Qwen3.8-27B decode speed: https://www.reddit.com/r/LocalLLaMA/comments/1vuli3h/ Some people asked for the recipe, it&#39;s at the bottom. That post said &quot;lossless&quot;. I meant BF16 ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-12-vectordash-a-full-windows-search-replacement-incorporating-e",
+      "source": "localllama",
+      "title": "VectorDash: A full Windows search replacement incorporating Embeddinggemma-2",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3sqxc/vectordash_a_full_windows_search_replacement/",
+      "published_at": "2026-10-12T04:44:16Z",
+      "summary": "Inspired by DigUp for macOS, VectorDash aims to be a full Windows 11 search replacement, powered by EmbeddingGemma 2.  Full indexing: search by meaning or exact words across photos, screenshots, audio, video, PDFs and Of",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-12-strix-llama-new-branch-prompt-processing-2154-over-vulkan-an",
+      "source": "localllama",
+      "title": "strix-llama new branch: prompt processing +21–54% over Vulkan and up to 2.7× over stock ROCm kernel at 128k, same outputs quality",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3s4qu/strixllama_new_branch_prompt_processing_2154_over/",
+      "published_at": "2026-10-12T04:09:27Z",
+      "summary": "I&#39;ve been tuning llama.cpp on my Strix Halo box (Radeon 8060S, 128 GB) and the numbers are good enough to share. It&#39;s a branch called rdna35-perf on top of halo-box/strix-llama.cpp, a llama.cpp fork aimed at Stri",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-12-what-are-you-doing-for-a-reliable-well-designed-local-model",
+      "source": "localllama",
+      "title": "What are you doing for a reliable, well designed local model based AI search?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3rtkb/what_are_you_doing_for_a_reliable_well_designed/",
+      "published_at": "2026-10-12T03:52:59Z",
+      "summary": "Ive been using OpenWebUI&#39;s inbuilt web search and I can&#39;t put my finger on it, but it&#39;s not quite as polished, reliable, seamless as using Claude or Gemini. And its often slow beyond a limit that makes me sub",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-12-do-you-actually-test-open-model-inference-compatibility",
+      "source": "localllama",
+      "title": "Do you actually test open-model inference compatibility?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3rdtm/do_you_actually_test_openmodel_inference/",
+      "published_at": "2026-10-12T03:28:58Z",
+      "summary": "Hey everyone, So the same model can behave differently depending on the inference engine (llama.cpp, vLLM, Ollama, SGLang, etc.), model quantization, chat template, or runtime version. Sometimes behavior breaks after upg",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-11-opencode-2026-is-out-if-you-need-to-constantly-prompt-contin",
+      "source": "localllama",
+      "title": "OpenCode 2.0.26 is out, if you need to constantly prompt \"Continue\" it's not just your bot AFAIK",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3n8ex/opencode_2026_is_out_if_you_need_to_constantly/",
+      "published_at": "2026-10-11T23:56:26Z",
+      "summary": "I upgraded to OpenCode 2.0.26 today, and even with competent bots it seems to hang up where the bot will be like, &quot;Great, I&#39;ll implement that.&quot; And I have to prompt it with, &quot;Yes, go ahead.&quot; as if",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-11-auroraimg-6m-releases",
+      "source": "localllama",
+      "title": "AuroraIMG-6M Releases!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3lzmk/auroraimg6m_releases/",
+      "published_at": "2026-10-11T22:56:03Z",
+      "summary": "      It&#39;s a tiny 6M parameter text to image model, and it can make recognizable images at 64x64. The 6M accounts for everything, there&#39;s no oversized text encoder or VAE. Check out the model card for samples, a ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-11-i-ran-qwen-38-flash-next-on-my-amd-7900-xtx-at-500k-context",
+      "source": "localllama",
+      "title": "I ran Qwen 3.8 Flash-Next on my AMD 7900 XTX at 500k context. All local and what a shift it has been.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ker0/i_ran_qwen_38_flashnext_on_my_amd_7900_xtx_at/",
+      "published_at": "2026-10-11T21:44:02Z",
+      "summary": "I was running Qwen3.8-Flash-Next (base and later Swift-1.5 NVFP4) on a paid pod seat for about a month, and it started answering with short strings that echoed its own earlier reasoning. I assumed the context was getting",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-11-meta-whats-with-the-rp-bot-accounts",
       "source": "localllama",
@@ -41,94 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
       "published_at": "2026-10-11T19:12:36Z",
       "summary": "It&#39;s been 4 years since c.ai first hallucination model, and yet, we&#39;re nowhere good enough at LLMs in terms of spontaneity/interesting hallucination features. Fortunately, last year brought new architecture that ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-strata-for-glm53-flash-is-here-for-some-project-maya",
-      "source": "localllama",
-      "title": "\"Strata\" for GLM5.3 Flash is here for some! Project Maya",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3fxzj/strata_for_glm53_flash_is_here_for_some_project/",
-      "published_at": "2026-10-11T18:42:01Z",
-      "summary": "I stumbled across this as I was currently having glm5.3 flash run only around 10tok/s basically unusable. With Maya i am running 30 tok/s now. GLM5.3 feels even with this low quant like a much more enjoyable model than q",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-i-built-a-lightweight-tool-that-automatically-frees-up-vram",
-      "source": "localllama",
-      "title": "I built a lightweight tool that automatically frees up VRAM for gaming and restores your local LLMs afterward",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3f1nf/i_built_a_lightweight_tool_that_automatically/",
-      "published_at": "2026-10-11T18:07:05Z",
-      "summary": "      I run local LLMs pretty much around the clock, but I also enjoy gaming on the same PC. Having models sitting in VRAM while gaming isn&#39;t exactly ideal, and constantly unloading and reloading them manually got an",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-vllm-ascend-updates-glm53-flash-on-dual-310p-ascend-cards",
-      "source": "localllama",
-      "title": "vllm-ascend updates (GLM5.3-flash) on dual 310p Ascend cards",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3dpv3/vllmascend_updates_glm53flash_on_dual_310p_ascend/",
-      "published_at": "2026-10-11T17:14:40Z",
-      "summary": "      Alright, I learend a few valuable lessons since I posted about a week ago, and I&#39;ve made more strides with the DDR4x Ascend 96GB 310P cards I purchased, so here we go, meet the new friendly and less verbose me.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-filedig---windows-version-of-digup",
-      "source": "localllama",
-      "title": "FileDig - Windows version of DigUp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3djpz/filedig_windows_version_of_digup/",
-      "published_at": "2026-10-11T17:07:50Z",
-      "summary": "      Repo : https://github.com/rupeshs/filedig  &#32; submitted by &#32;  /u/simpleuserhere   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-whistle-speech-to-text-in-169-mb",
-      "source": "localllama",
-      "title": "Whistle: speech to text in 16.9 MB",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3bpfl/whistle_speech_to_text_in_169_mb/",
-      "published_at": "2026-10-11T15:55:27Z",
-      "summary": "&#32; submitted by &#32;  /u/namanyayg   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-reverse-engineering-w-local",
-      "source": "localllama",
-      "title": "Reverse Engineering w/ Local?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ak4j/reverse_engineering_w_local/",
-      "published_at": "2026-10-11T15:08:11Z",
-      "summary": "Two questions? Can a local model like Qwen 3.8 27B reverse engineer games and programs? If not, is there a fine tuned model that can?  &#32; submitted by &#32;  /u/Danny_Davitoe   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-nvidia-in-talks-to-acquire-us-open-model-start-up-reflection",
-      "source": "localllama",
-      "title": "Nvidia in talks to acquire US ‘open’ model start-up Reflection AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x38rnv/nvidia_in_talks_to_acquire_us_open_model_startup/",
-      "published_at": "2026-10-11T13:52:51Z",
-      "summary": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a  &#32; submitted by &#32;  /u/External_Mood4719   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-11-openmed-30-is-out-apache-20-clinical-ai-that-runs-fully-loca",
-      "source": "localllama",
-      "title": "OpenMed 3.0 is out: Apache-2.0 clinical AI that runs fully local and never falls back to the cloud. 422 open issues if you want in on 3.1",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37z7z/openmed_30_is_out_apache20_clinical_ai_that_runs/",
-      "published_at": "2026-10-11T13:16:26Z",
-      "summary": "      Hey r/LocalLLaMA! Maintainer here. Some of you might remember OpenMed from our 1.8 post a few months back. Quick recap: it&#39;s an open-source (Apache-2.0) medical AI toolkit with one rule we never break: patient ",
       "tags": [
         "localllama"
       ]
