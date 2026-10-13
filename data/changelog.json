@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-13T00:24:07Z",
+  "updated_at": "2026-10-13T13:53:49Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11583",
+      "project": "llama-cpp",
+      "version": "b11583",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11583",
+      "published_at": "2026-10-13T09:34:36Z",
+      "body_excerpt": "graph : avoid reallocations in the \"no cache\" path (#30439) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11582",
+      "project": "llama-cpp",
+      "version": "b11582",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11582",
+      "published_at": "2026-10-13T08:29:12Z",
+      "body_excerpt": "ggml-zdnn : introduce Q8_0 mat mul (#29836) ggml-zdnn: initial prototype of q8_0 matmul Signed-off-by: Aaron Teo docs: update zdnn docs Signed-off-by: Aaron Teo --------- Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s39",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11581",
+      "project": "llama-cpp",
+      "version": "b11581",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11581",
+      "published_at": "2026-10-13T07:54:11Z",
+      "body_excerpt": "models : remove redundant ggml_cont calls now supported by all unary kernels (#30198) models: remove redundant ggml_cont calls now supported by CUDA unary kernels models: restore cont_2d after sigmoid for broadcast mul, clean dflash cont Update src/models/qwen3next.cpp Co-authored-by: Sigbjørn Skjæret models: restore cont_2d before sigmoid in qwen3next --------- Co-authored-by: Sigbjørn Skjæret We",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11580",
+      "project": "llama-cpp",
+      "version": "b11580",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11580",
+      "published_at": "2026-10-13T04:02:51Z",
+      "body_excerpt": "hexagon: extend scalar DMA broadcasting support for binary ops (#30245) tests: cover weighted scalar broadcasts Assisted-by: OpenCode ggml : support extended scalar DMA binary ops Assisted-by: OpenCode hex-binary: remove all non-dma paths hex-binary: add support for non-contig strides and cleanup dma preable a bit hex-binary: cleanup the gating and simplify dma retry hex-geglu-erf: add a gate for ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11577",
       "project": "llama-cpp",
@@ -33,6 +69,15 @@
       "project": "ollama",
       "version": "v0.40.4-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0",
+      "published_at": "2026-10-12T19:00:12Z",
+      "body_excerpt": "What's Changed llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in server: reuse verified manifests and loaded models in inference routes by @dhiltgen in mlx: compact restored recurrent state after speculative rollback by @dhiltgen in launch: include installed models in Codex /model picker by @ParthSareen in MLX, MLX-C: version bump by @dhiltgen in Full Chan",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.4-rc1",
+      "project": "ollama",
+      "version": "v0.40.4-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc1",
       "published_at": "2026-10-12T19:00:12Z",
       "body_excerpt": "What's Changed llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in server: reuse verified manifests and loaded models in inference routes by @dhiltgen in mlx: compact restored recurrent state after speculative rollback by @dhiltgen in launch: include installed models in Codex /model picker by @ParthSareen in MLX, MLX-C: version bump by @dhiltgen in Full Chan",
       "type": "tool"
@@ -11880,87 +11925,6 @@
       "published_at": "2026-07-15T14:19:40Z",
       "body_excerpt": "DeepseekV4: reduce graph splits (#25702) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows:",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10020",
-      "project": "llama-cpp",
-      "version": "b10020",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10020",
-      "published_at": "2026-07-15T13:38:02Z",
-      "body_excerpt": "sycl : fix get_rows Q2_K, Q4_K, Q5_K (#25656) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10019",
-      "project": "llama-cpp",
-      "version": "b10019",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10019",
-      "published_at": "2026-07-15T13:01:03Z",
-      "body_excerpt": "sycl : support kernel type fp16 for conv2d_dw (#25653) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10018",
-      "project": "llama-cpp",
-      "version": "b10018",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10018",
-      "published_at": "2026-07-15T12:21:48Z",
-      "body_excerpt": "sycl : implement xielu op (#25550) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windo",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10017",
-      "project": "llama-cpp",
-      "version": "b10017",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10017",
-      "published_at": "2026-07-15T11:37:27Z",
-      "body_excerpt": "sycl: Increase minimum buffer size for USM system allocations (#25525) Raise the threshold for minimum buffer size from 1 GiB to 4 GiB, based on real-world experiments of overcommitting device memory with model weights larger than available VRAM, for example Qwen3.5-35B-A3B-Q8 running on a B70. Also add a debug message to better track USM system allocations. Signed-off-by: Francois Dugast macOS/iO",
-      "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-bitnet-embedding-0.6b",
-      "project": "microsoft",
-      "version": "bitnet-embedding-0.6b",
-      "url": "https://huggingface.co/microsoft/bitnet-embedding-0.6b",
-      "published_at": "2026-07-15T09:38:59Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-bitnet-embedding-270m",
-      "project": "microsoft",
-      "version": "bitnet-embedding-270m",
-      "url": "https://huggingface.co/microsoft/bitnet-embedding-270m",
-      "published_at": "2026-07-15T09:25:12Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10016",
-      "project": "llama-cpp",
-      "version": "b10016",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10016",
-      "published_at": "2026-07-15T09:10:19Z",
-      "body_excerpt": "[SYCL] Flash Attention with XMX engine via oneDNN (#25222) [SYCL] F16 (default) Flash Attention with XMX engine via oneDNN graph API; Qwen3.6-27b-Q8_0 prefill speed up x1.21 at p=512 and x4.26 at p=80k [SYCL] Address review on FA oneDNN path. Result: llama-bench---pp512; 32% increase with fa1; llama-perplexity---0.11% difference; tested model: mradermacher/Meta-Llama-3.1-8B-Instruct-Q8_0.gguf PR-2",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10015",
-      "project": "llama-cpp",
-      "version": "b10015",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10015",
-      "published_at": "2026-07-15T03:24:21Z",
-      "body_excerpt": "opencl: do not use when targeting CL 2.x (#25673) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU)",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-StormScope-NSRDB",
-      "project": "nvidia",
-      "version": "StormScope-NSRDB",
-      "url": "https://huggingface.co/nvidia/StormScope-NSRDB",
-      "published_at": "2026-07-15T01:01:32Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
