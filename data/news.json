@@ -1,136 +1,191 @@
 {
-  "updated_at": "2026-10-12T14:56:31Z",
+  "updated_at": "2026-10-13T00:24:00Z",
   "items": [
     {
-      "id": "localllama-2026-10-12-graphsignal-top-a-top-for-inference-gpus-in-the-open-source",
+      "id": "localllama-2026-10-12-how-to-get-more-performance-from-dual-a100-80gb",
       "source": "localllama",
-      "title": "graphsignal-top: a `top` for inference GPUs in the open-source Graphsignal profiler, kernels ranked by time, live, with readable names",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x421ow/graphsignaltop_a_top_for_inference_gpus_in_the/",
-      "published_at": "2026-10-12T13:35:21Z",
-      "summary": "      A few weeks ago we posted the open-source Graphsignal profiler here: wrap vllm serve / sglang serve / whatever in graphsignal-run and it serves everything it measures as JSON, mainly so an agent can read it in a lo",
+      "title": "How to get more performance from dual A100 80GB?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4h9k4/how_to_get_more_performance_from_dual_a100_80gb/",
+      "published_at": "2026-10-12T23:29:11Z",
+      "summary": "Dual A100X PCIe (link at Gen4 x8, weird DPU cards) in a 2U EPYC 7402P box, 256GB DDR4. Proxmox with the GPU&#39;s passed through to debian 13, 610.43.02 drivers. llama.cpp, qwen3.8 flash next UD-Q4_K_XL, Q8_0 MTP head, d",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-12-brokenml-can-agents-fix-broken-ml-jobs",
+      "id": "localllama-2026-10-12-qwen-38-flash-next-q3-s---benchmark-creation",
       "source": "localllama",
-      "title": "BrokenML: can agents fix broken ML jobs?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x41pqt/brokenml_can_agents_fix_broken_ml_jobs/",
-      "published_at": "2026-10-12T13:21:20Z",
-      "summary": "      Write-up: https://zhebrak.io/posts/brokenml/ Repo: https://github.com/zhebrak/brokenml I built a benchmark to determine the access level agents need to successfully fix broken ML workloads (PyTorch over Gloo on a t",
+      "title": "Qwen 3.8 Flash Next Q3 S - Benchmark creation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4h1c2/qwen_38_flash_next_q3_s_benchmark_creation/",
+      "published_at": "2026-10-12T23:18:32Z",
+      "summary": "      After running a benchmark test on Exo in Opencode and being amazed by the result, I thought I&#39;d try other models on Opencode. Many were surprisingly terrible. Especially some mid level models. Earlier posts: ht",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-12-nvidia-rtx-5080-24gb-reportedly-launching-in-q1-2027-board-p",
+      "id": "localllama-2026-10-12-intel-crescent-island-gpu-gets-d-series-name-supports-up-to",
       "source": "localllama",
-      "title": "NVIDIA RTX 5080 24GB reportedly launching in Q1 2027, board partners still waiting for details",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x41n6l/nvidia_rtx_5080_24gb_reportedly_launching_in_q1/",
-      "published_at": "2026-10-12T13:18:23Z",
-      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
+      "title": "Intel \"Crescent Island\" GPU Gets D-Series Name, Supports Up to 480 GB of LPDDR5X",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4g90u/intel_crescent_island_gpu_gets_dseries_name/",
+      "published_at": "2026-10-12T22:42:31Z",
+      "summary": "      The newly named D-Series GPU has up to 480GB of LPDDR5X memory, 1.5TB/s of memory bandwidth Intel rates it for up to 1.3 PetaFLOPS of FP8 performance, with support for formats ranging from FP4 to FP64. It features ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-12-qwen-released-qwengyre---rl-framework-for-training-ai-agents",
+      "id": "localllama-2026-10-12-lecture-building-a-gpu-compiler-from-scratch-lowering-pytorc",
       "source": "localllama",
-      "title": "Qwen released QwenGyre - RL framework for training AI agents on extremely long complex tasks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/",
-      "published_at": "2026-10-12T13:18:10Z",
-      "summary": "      Introducing QwenGyre, bringing elastic RL to extreme-long-horizon (XLong) agent training. It launches with two core designs: - Elastic Scheduler: reallocates GPUs between rollout &amp; training as demand shifts—liv",
+      "title": "Lecture: Building a GPU Compiler From Scratch. Lowering PyTorch Graphs to CUDA via Multi-Level IRs (GPU_MODE video + article)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4fp3r/lecture_building_a_gpu_compiler_from_scratch/",
+      "published_at": "2026-10-12T22:18:03Z",
+      "summary": "       https://preview.redd.it/3ekngxk224vh1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=9bfe5c92033e17d5b2fb4529f1320c99455a138b I built a GPU compiler and wrote an article about it, focusing on concepts shared by",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-12-a-free-multi-modal-embedding-model-already-included-with-you",
+      "id": "localllama-2026-10-12-size-of-ai-models-what-we-mean-by-large",
       "source": "localllama",
-      "title": "A \"free\" multi-modal \"embedding\" model (already) included with your LLM: vLLM plugin + upstream PR",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x416s0/a_free_multimodal_embedding_model_already/",
-      "published_at": "2026-10-12T12:59:09Z",
-      "summary": "      Disclaimer: I work for NuMind, the company behind this plugin. TLDR: Text/image (simili-)embeddings from the LLM you already have loaded :-) I&#39;ve been working on making it easier to obtain embeddings from a LLM",
+      "title": "Size of AI models. What we mean by \"Large\"?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4f80v/size_of_ai_models_what_we_mean_by_large/",
+      "published_at": "2026-10-12T21:57:43Z",
+      "summary": "What is &#39;Small&#39;, what is &#39;Large&#39;? We&#39;re still over the place, years later we still can&#39;t reach consensus, causing endless confusion, so in infinite wisdom and generosity I took it upon myself to f",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-12-llc-lightweight-open-webui-alt-now-with-agentsmcpragimage-ed",
+      "id": "localllama-2026-10-12-explore-dna-with-deepminds-alphagenome-and-in-browser-medgem",
       "source": "localllama",
-      "title": "LLC: lightweight Open WebUI alt now with Agents+MCP+RAG+Image Editing",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x415dd/llc_lightweight_open_webui_alt_now_with/",
-      "published_at": "2026-10-12T12:57:20Z",
-      "summary": "      Quick context: LocalLightChat (LLC) is a chat frontend for local LLMs. Download it, run it, that&#39;s it. No installation (unless you want to), no dependencies, and it runs on pretty much anything, including ancie",
+      "title": "Explore DNA with DeepMind’s AlphaGenome and in-browser MedGemma 1.5 4B via WebGPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4ec7b/explore_dna_with_deepminds_alphagenome_and/",
+      "published_at": "2026-10-12T21:20:33Z",
+      "summary": "Hey everyone, Sharing an educational tool called AskCyph Health Explorer to explore how single-letter DNA mutations lead to disease, how they alter 3D anatomy, inheritance probabilities, and available treatments. To make",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-12-a-record-of-the-process-of-increasing-mfu-from-21-to-50-whil",
+      "id": "meta-2026-10-12-ocp-summit-2026-powering-ai-with-open-innovations-in-scale-u",
+      "source": "meta",
+      "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+      "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+      "published_at": "2026-10-12T21:19:18Z",
+      "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including:  Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Fla",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-12-llamacpp-optimizations-for-specific-hardware-and-models",
       "source": "localllama",
-      "title": "A Record of the Process of Increasing MFU from 21% to 50% While Pre-training 21B MoE Using a Single GH200 Chip (Includes Code and Logs)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x411cv/a_record_of_the_process_of_increasing_mfu_from_21/",
-      "published_at": "2026-10-12T12:52:10Z",
-      "summary": "      I am an independent researcher. Due to budget constraints, I shifted my 21B MoE pre-training—which I had originally planned to run on 64 H100s—to a single NVIDIA GH200 ($2.29 per hour), and I have compiled the metr",
+      "title": "llama.cpp optimizations for specific hardware and models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4cwiy/llamacpp_optimizations_for_specific_hardware_and/",
+      "published_at": "2026-10-12T20:24:57Z",
+      "summary": "      I&#39;ve made a few posts recently, just talking about the hardware I&#39;ve got and the model I use. Pair of P100s, Unsloth Qwen3.6 35b A3B UD Q4 K XL. There&#39;s been a ton of talk of model and hardware specific",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-12-im-testing-small-local-models-is-metrillm-considered-to-be-a",
+      "id": "localllama-2026-10-12-running-unslothqwen38-27b-ud-iq4-xs-262k-q4-0-kv-vision-on-1",
       "source": "localllama",
-      "title": "I'm testing small local models, is MetriLLM considered to be a good benchmark, or are there other test suites that I should use?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x403ka/im_testing_small_local_models_is_metrillm/",
-      "published_at": "2026-10-12T12:06:23Z",
-      "summary": "Title.  Not sure what is considered to be a well-respected/reputable test suite for benchmarking the abilities of local tiny models. Figured people here would know more about it.  &#32; submitted by &#32;  /u/John_Yuki  ",
+      "title": "Running unsloth/Qwen3.8-27B-UD-IQ4_XS 262k q4_0 KV + vision on 16GB VRAM @ 80t/s and 1500pp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4cmfc/running_unslothqwen3827budiq4_xs_262k_q4_0_kv/",
+      "published_at": "2026-10-12T20:14:03Z",
+      "summary": "      I get a lot of hate whenever I tell people I run a Q4 quant of Qwen3.8 27B with 262k KV 80t/s with vision, all while running 2 screens on windows on the same card. People seem to think I am lying or making it up. I",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-12-lsearch---spotlight-for-windows-with-embedding",
+      "id": "localllama-2026-10-12-once-again-anthropic-doing-free-marketing-for-open-weight-mo",
       "source": "localllama",
-      "title": "LSearch - Spotlight for windows with embedding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3zut6/lsearch_spotlight_for_windows_with_embedding/",
-      "published_at": "2026-10-12T11:54:55Z",
-      "summary": "      I built a spotlight search for windows. It has an embedding model and a MoE models to go with it. The MoE It&#39;s 2 Qwen 3.5 4B models, I fine tuned one for coding work and another for agentic work, and then I com",
+      "title": "Once again anthropic doing free marketing for open weight models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4cm73/once_again_anthropic_doing_free_marketing_for/",
+      "published_at": "2026-10-12T20:13:48Z",
+      "summary": "      &#32; submitted by &#32;  /u/kubblegum   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-12-any-takers-for-local-llm-nvidias-cuda-moat-is-accelerating-r",
+      "id": "localllama-2026-10-12-its-been-2-months",
       "source": "localllama",
-      "title": "Any takers for local llm? NVIDIA’s CUDA Moat Is Accelerating RTX Spark Laptop Sales, Higher 128GB Unified Memory Options Belonging To Surface Laptop Ultra Already Out Of Stock",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ykyb/any_takers_for_local_llm_nvidias_cuda_moat_is/",
-      "published_at": "2026-10-12T10:44:19Z",
-      "summary": "      Cheapest one I see at MC is the asus pro-art version for 6499. https://www.microcenter.com/product/715662/asus-proart-p14-14-wqxga-120hz-oled-laptop  &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comme",
+      "title": "It's been 2 months",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4akj7/its_been_2_months/",
+      "published_at": "2026-10-12T18:57:47Z",
+      "summary": "      &#32; submitted by &#32;  /u/Comfortable-Rock-498   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-12-building-strata-from-source",
+      "id": "localllama-2026-10-12-qwen38-27b-vs-frontier-vs-others",
       "source": "localllama",
-      "title": "Building strata from source",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3xkpy/building_strata_from_source/",
-      "published_at": "2026-10-12T09:43:03Z",
-      "summary": "I can&#39;t find anything in the Docs. I see that the setup.sh file mainly pulls a big ass unaudited binary and, with all simpathy for the repo author, that&#39;s not going to run on my machine. I am sure the documentati",
+      "title": "Qwen3.8-27B vs Frontier vs Others",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x49pmn/qwen3827b_vs_frontier_vs_others/",
+      "published_at": "2026-10-12T18:26:32Z",
+      "summary": "      Here&#39;re results from my final test of coding, coding (panda/numpy), data analysis, data-driven decision-making, and local RAG domains I interact with most often. This test, which is refined from a 500+ pack, no",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-12-i-made-an-open-source-ai-leaderboard-that-shows-the-best-mod",
+      "id": "simonw-2026-10-12-hello-python-315-goodbye-310-and-now-i-can-use-311",
+      "source": "simonw",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "published_at": "2026-10-12T18:15:38Z",
+      "summary": "Python 3.15 is here! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Py",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-12-openbmbminicpm-v-47-1b",
       "source": "localllama",
-      "title": "I made an open-source AI leaderboard that shows the best models your machine can run",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3wp8c/i_made_an_opensource_ai_leaderboard_that_shows/",
-      "published_at": "2026-10-12T08:47:16Z",
-      "summary": "      Hey everyone, I made whatmodel.sh To use it,  Enter your RAM and GPU See what models you can run locally with its rank and the command to run it Compare them with API models on the same score  Building it made me r",
+      "title": "openbmb/MiniCPM-V-4.7-1B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x492f9/openbmbminicpmv471b/",
+      "published_at": "2026-10-12T18:03:02Z",
+      "summary": "      Gguf&#39;s: https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-gguf &quot;MiniCPM-V 4.7 is the latest model in the MiniCPM-V series, available in a 1B variant. It builds on the family&#39;s single-image, multi-image, ",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "meta-2026-10-12-shipping-media-over-quic-at-meta-scale-for-instagram-live-in",
+      "source": "meta",
+      "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+      "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+      "published_at": "2026-10-12T16:01:32Z",
+      "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "meta-2026-10-12-turning-opportunistic-ai-inference-capacity-into-better-ads",
+      "source": "meta",
+      "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+      "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+      "published_at": "2026-10-12T16:00:50Z",
+      "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacit",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "microsoft-2026-10-12-simulating-student-learning-for-better-ai-tutoring",
+      "source": "microsoft",
+      "title": "Simulating student learning for better AI tutoring",
+      "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+      "published_at": "2026-10-12T16:00:00Z",
+      "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across s",
+      "tags": [
+        "microsoft"
       ]
     },
     {
@@ -305,17 +360,6 @@
       "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
       "published_at": "2026-10-06T23:58:56Z",
       "summary": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-06-llm-openai-decisions-01a0",
-      "source": "simonw",
-      "title": "llm-openai-decisions 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
-      "published_at": "2026-10-06T23:04:13Z",
-      "summary": "Release: llm-openai-decisions 0.1a0\n        OpenAI released their new Jev-style Decisions API, as previously announced at last week's DevDay.\nSince I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 As",
       "tags": [
         "simonw"
       ]
@@ -596,28 +640,6 @@
       ]
     },
     {
-      "id": "meta-2026-07-15-exploring-hierarchical-interest-representation-for-meta-ads",
-      "source": "meta",
-      "title": "Exploring Hierarchical Interest Representation For Meta Ads Deep Funnel Optimization",
-      "url": "https://engineering.fb.com/2026/07/15/ai-research/exploring-hierarchical-interest-representation-for-meta-ads-deep-funnel-optimization/",
-      "published_at": "2026-07-15T17:00:52Z",
-      "summary": "Hierarchical Interest Representation is a research area for Meta Ads. We’re exploring an upstream representation layer over the universe of Ads entities – users, advertisers, products, services – learning unified embeddi",
-      "tags": [
-        "meta"
-      ]
-    },
-    {
-      "id": "meta-2026-07-13-modernizing-the-meta-ads-service-with-an-open-source-kernel",
-      "source": "meta",
-      "title": "Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler",
-      "url": "https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler/",
-      "published_at": "2026-07-13T16:00:50Z",
-      "summary": "TL; DR At Meta&#8217;s scale, a few milliseconds of latency degradation can have a significant negative impact on ads performance.  When a Linux kernel upgrade risked regressing latency across Meta&#8217;s ad serving fle",
-      "tags": [
-        "meta"
-      ]
-    },
-    {
       "id": "microsoft-2026-07-13-verifying-rust-cryptography-in-symcrypt-from-standards-to-co",
       "source": "microsoft",
       "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
@@ -651,17 +673,6 @@
       ]
     },
     {
-      "id": "meta-2026-07-01-metas-ai-storage-blueprint-at-scale",
-      "source": "meta",
-      "title": "Meta’s AI Storage Blueprint at Scale",
-      "url": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/",
-      "published_at": "2026-07-01T16:00:36Z",
-      "summary": "Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks.",
-      "tags": [
-        "meta"
-      ]
-    },
-    {
       "id": "microsoft-2026-06-30-skillopt-agent-skills-as-trainable-parameters",
       "source": "microsoft",
       "title": "SkillOpt: Agent skills as trainable parameters",
@@ -690,17 +701,6 @@
       "url": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/",
       "published_at": "2026-06-24T14:00:14Z",
       "summary": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert rev",
-      "tags": [
-        "microsoft"
-      ]
-    },
-    {
-      "id": "microsoft-2026-05-21-magenticlite-magenticbrain-fara15-an-agentic-experience-opti",
-      "source": "microsoft",
-      "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
-      "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
-      "published_at": "2026-05-21T17:00:00Z",
-      "summary": "MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on ev",
       "tags": [
         "microsoft"
       ]
