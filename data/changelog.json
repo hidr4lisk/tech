@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-13T22:27:46Z",
+  "updated_at": "2026-10-14T04:17:57Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11609",
+      "project": "llama-cpp",
+      "version": "b11609",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11609",
+      "published_at": "2026-10-14T00:51:19Z",
+      "body_excerpt": "webgpu: (Fix CI) fix mul_mat_id with duplicate expert ids (#30451) Fix mm-id of webgpu in the case of ids duplication formatting fix comments to avoid breaking up sentences in comments Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11608",
+      "project": "llama-cpp",
+      "version": "b11608",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11608",
+      "published_at": "2026-10-14T00:35:01Z",
+      "body_excerpt": "server : escape the special tokens without std::regex (#30243) The d1-omni and kev prompts escape \" \" in the request text with std::regex_replace. libstdc++ recurses for each char of the name, so a state of \" a-\". Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11607",
+      "project": "llama-cpp",
+      "version": "b11607",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11607",
+      "published_at": "2026-10-14T00:18:44Z",
+      "body_excerpt": "chat: replace output string with parts (#30389) chat: replace output string with parts reserve first Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11606",
+      "project": "llama-cpp",
+      "version": "b11606",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11606",
+      "published_at": "2026-10-13T22:35:27Z",
+      "body_excerpt": "ggml : simplify backend search path error handling (#28367) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11604",
       "project": "llama-cpp",
@@ -106,7 +142,7 @@
       "version": "v0.1.907-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.907-beta",
       "published_at": "2026-10-13T16:02:04Z",
-      "body_excerpt": "Unsloth has gotten major performance upgrades! Highlights Large perf gains: all Unsloth UI/UX faster - up to 10x for multiple chats Up to 5x faster inference: 95% cache hit rate, MoE Strata style fixes, slowdown fixes Better Compaction - works for all API + better UI handling Drag and drop files: Desktop drops work again, with more than 3× as many supported document formats. Browser use with scrip",
+      "body_excerpt": "Unsloth has gotten major performance upgrades! Highlights Large perf gains: all Unsloth UI/UX faster - up to 10x for multiple chats Up to 5x faster inference: 95% cache hit rate, MoE Strata style fixes, slowdown fixes Better Compaction - works for all API + better UI handling Drag and drop files: Desktop works again with more than 3× more supported files Browser use with scripts: click, move the m",
       "type": "tool"
     },
     {
@@ -206,6 +242,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2",
       "published_at": "2026-10-12T19:00:12Z",
       "body_excerpt": "What's Changed llama: update llama.cpp to b11521 for decision models and EmbeddingGemma 2 by @jmorganca in server: reuse verified manifests and loaded models in inference routes by @dhiltgen in mlx: compact restored recurrent state after speculative rollback by @dhiltgen in launch: include installed models in Codex /model picker by @ParthSareen in MLX, MLX-C: version bump by @dhiltgen in Full Chan",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.4",
+      "project": "ollama",
+      "version": "v0.40.4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
+      "published_at": "2026-10-12T19:00:12Z",
+      "body_excerpt": "Decision models in the CLI Decision models can now be used directly from the terminal with — ask yes/no questions, classify text into labels, or score against a rubric: ## What's Changed Kev decision models are now supported by the MLX runner on Apple silicon can now be used with usage credits without upgrading to a paid plan now includes locally installed Ollama models in its model picker. Use wi",
       "type": "tool"
     },
     {
@@ -11961,15 +12006,6 @@
       "published_at": "2026-07-16T04:32:56Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "ollama-v0.32.1",
-      "project": "ollama",
-      "version": "v0.32.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.1",
-      "published_at": "2026-07-16T03:27:23Z",
-      "body_excerpt": "What's Changed Improved Gemma 4 tool calling and multi-turn reasoning, including more reliable tool-response continuations Fixed a recurrent MLX model cache leak that could increase memory use across requests, and improved cache snapshot performance MLX text model loading now respects Agent web search and fetch now tell users to run when authentication is required The interactive agent now receive",
-      "type": "tool"
     }
   ]
 }
