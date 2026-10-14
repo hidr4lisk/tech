@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-10-14T04:17:57Z",
+  "updated_at": "2026-10-14T11:31:05Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11612",
+      "project": "llama-cpp",
+      "version": "b11612",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11612",
+      "published_at": "2026-10-14T09:46:40Z",
+      "body_excerpt": "unicode : add opt-in NFC normalization for Unigram tokenizers (#30390) unicode : add opt-in NFC normalization for Unigram tokenizers Note: used help from Codex, Sol 6.1 Medium Fixing initial bot comments + linter error (using existing out instead of print) removed test_nfc_tokenizer Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11609",
       "project": "llama-cpp",
@@ -3076,7 +3085,7 @@
       "version": "prebuilt-wheels-cu13",
       "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13",
       "published_at": "2026-09-27T03:16:14Z",
-      "body_excerpt": "Prebuilt CUDA 13 wheels. Linux x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Windows x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Linux aarch64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Pyth",
+      "body_excerpt": "Prebuilt CUDA 13 wheels. Linux x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Windows x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.11 on Python 3.11, 3.12 and 3.13; 2.13 and 2.14 on Python 3.13. Linux aarch64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, bui",
       "type": "tool"
     },
     {
@@ -11905,105 +11914,6 @@
       "version": "NV-JEPA-DNA-DNABERT2",
       "url": "https://huggingface.co/nvidia/NV-JEPA-DNA-DNABERT2",
       "published_at": "2026-07-16T11:59:49Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10042",
-      "project": "llama-cpp",
-      "version": "b10042",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10042",
-      "published_at": "2026-07-16T11:23:24Z",
-      "body_excerpt": "Enable CUDA graphs on volta+turing (#25749) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10041",
-      "project": "llama-cpp",
-      "version": "b10041",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10041",
-      "published_at": "2026-07-16T10:37:01Z",
-      "body_excerpt": "server: Ignore empty / non-existing headers (#25756) Otherwise this gives lots of unnecessary warnings: W srv operator(): (CORS) skip non-localhost origin: Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubu",
-      "type": "tool"
-    },
-    {
-      "id": "hf-mistralai-Shieldstral-1.0-3B",
-      "project": "mistralai",
-      "version": "Shieldstral-1.0-3B",
-      "url": "https://huggingface.co/mistralai/Shieldstral-1.0-3B",
-      "published_at": "2026-07-16T10:24:13Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10040",
-      "project": "llama-cpp",
-      "version": "b10040",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10040",
-      "published_at": "2026-07-16T09:55:55Z",
-      "body_excerpt": "ggml-cuda : restore prop.integrated on HIP builds (#24233) PR #16308 set info.devices[id].integrated = false unconditionally for all CUDA/HIP devices as a workaround for corrupted output on Jetson Orin (#15034). On HIP/ROCm the device's real hipDeviceProp_t.integrated flag is needed: with the cached field forced to false, supports_buft() refuses CUDA host buffers on AMD APU/UMA parts, while get_ty",
-      "type": "tool"
-    },
-    {
-      "id": "hf-EleutherAI-bergson-smollm2-lds-8k",
-      "project": "EleutherAI",
-      "version": "bergson-smollm2-lds-8k",
-      "url": "https://huggingface.co/EleutherAI/bergson-smollm2-lds-8k",
-      "published_at": "2026-07-16T09:46:48Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "transformers-v5.14.1",
-      "project": "transformers",
-      "version": "v5.14.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.1",
-      "published_at": "2026-07-16T09:41:36Z",
-      "body_excerpt": "Patch release v5.14.1 This patch solves a few issues which appeared when integrating Inkling model, most notably an issue affecting models using EncoderDecoderCache during assisted generation. It also fixes an issue that could appear during prefill with StaticCache and sdpa without padding for Inkling which uses a position_bias. It contains the following commits: Fix sdpa prefill with position_bia",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10038",
-      "project": "llama-cpp",
-      "version": "b10038",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10038",
-      "published_at": "2026-07-16T06:57:28Z",
-      "body_excerpt": "ci : add official website link to release notes (#25728) Assisted-by: pi:llama.cpp/Qwen3.6-27B Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP3",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10037",
-      "project": "llama-cpp",
-      "version": "b10037",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10037",
-      "published_at": "2026-07-16T06:15:08Z",
-      "body_excerpt": "quant : allow using manual tensor types with --pure (#25716) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10036",
-      "project": "llama-cpp",
-      "version": "b10036",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10036",
-      "published_at": "2026-07-16T05:31:04Z",
-      "body_excerpt": "opencl: disable FA and MoE weights repack to work around compiler issues for Adreno 850 GPU (#25745) opencl: workaround for A850 compiler compat opencl: fix DX compiler version parsing and cleanup --------- Co-authored-by: Li He macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10035",
-      "project": "llama-cpp",
-      "version": "b10035",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10035",
-      "published_at": "2026-07-16T04:59:14Z",
-      "body_excerpt": "cuda: extract Q1_0 elements via __byte_perm (#25628) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
-      "type": "tool"
-    },
-    {
-      "id": "hf-EleutherAI-bergson-smollm2-lds-4k",
-      "project": "EleutherAI",
-      "version": "bergson-smollm2-lds-4k",
-      "url": "https://huggingface.co/EleutherAI/bergson-smollm2-lds-4k",
-      "published_at": "2026-07-16T04:32:56Z",
       "body_excerpt": "",
       "type": "model"
     }
