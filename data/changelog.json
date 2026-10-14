@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-10-14T16:53:00Z",
+  "updated_at": "2026-10-14T21:27:03Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11624",
+      "project": "llama-cpp",
+      "version": "b11624",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11624",
+      "published_at": "2026-10-14T20:09:25Z",
+      "body_excerpt": "ggml : improve RPC tensor transfer logs (#30481) add rpc_log_format_size() and print byte counts in KiB/MiB/GiB across the RPC client, server and transport traces add rpc_log_format_tensor() and include tensor name, op, type and shape in the set/get/memset/copy/init tensor logs fix rpc_cmd_name() returning UNKNOWN for SET_TENSOR_2D, GET_TENSOR_2D, COMM_INIT, COMM_ALLREDUCE and COMM_FREE move the l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11623",
+      "project": "llama-cpp",
+      "version": "b11623",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11623",
+      "published_at": "2026-10-14T19:51:04Z",
+      "body_excerpt": "cuda : use SIMT implicit GEMM conv2d on AMD without WMMA (#30325) cuda : use SIMT implicit GEMM conv2d on AMD without WMMA Assisted-by: Claude Opus cuda : update conv2d SIMT comment cuda : skip SIMT conv2d on AMD for short reductions Co-authored-by: thelittlefireman --------- Co-authored-by: thelittlefireman Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, ",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.5-rc0",
+      "project": "ollama",
+      "version": "v0.40.5-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0",
+      "published_at": "2026-10-14T19:45:22Z",
+      "body_excerpt": "What's Changed mlx: port the Metal custom kernels to CUDA by @dhiltgen in docs: model recs and language standardization by @anra8571 in openai: accept custom tool calls in Responses history by @hoyyeva in app: clarify cloud payment errors by @willietran in MLX: version bump by @dhiltgen in New Contributors @willietran made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11622",
+      "project": "llama-cpp",
+      "version": "b11622",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11622",
+      "published_at": "2026-10-14T19:32:55Z",
+      "body_excerpt": "jinja : write floats in tojson as Python does (#30362) tojson printed floats through a C++ stream (6 significant digits, no \".0\"), so 48.858844 became 48.8588 and 1.0 became 1 in tool definitions, tool-call arguments and other template output. Write the shortest digits that read back as the same value, as json.dumps does. The string and safe filters of a float use the same code. Website: Attestati",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11621",
+      "project": "llama-cpp",
+      "version": "b11621",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11621",
+      "published_at": "2026-10-14T19:14:34Z",
+      "body_excerpt": "opencl: use buf+offset instead of subbuffer for adreno moe expert sort (#30418) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) -",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11620",
+      "project": "llama-cpp",
+      "version": "b11620",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11620",
+      "published_at": "2026-10-14T18:44:30Z",
+      "body_excerpt": "opencl: fix q8_0 dp4a mul_mat_id and mark PREC_F32 mul_mat_id unsupported for adreno (#30365) opencl: fix min handling for moe q8_0 dp4a GEMM Co-authored-by: Hongqiang Wang opencl: reject PREC_F32 MUL_MAT_ID for adreno --------- Co-authored-by: Hongqiang Wang Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS X",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11619",
+      "project": "llama-cpp",
+      "version": "b11619",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11619",
+      "published_at": "2026-10-14T18:28:26Z",
+      "body_excerpt": "models: drop the t_embd expand of the embedding graphs (#30461) These graphs only produce embeddings, and build_pooling() already expands its output for every pooling type, so the expand at the end of the model graph is redundant. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11617",
       "project": "llama-cpp",
@@ -11825,69 +11888,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10054",
       "published_at": "2026-07-17T00:29:02Z",
       "body_excerpt": "docs: added a note about using OpenCl with Adreno 810 (#25786) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10052",
-      "project": "llama-cpp",
-      "version": "b10052",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10052",
-      "published_at": "2026-07-16T21:22:47Z",
-      "body_excerpt": "hexagon: L2 cache handling rework (dirty bit tracking with lazy flushing) and more MUL_MAT updates (#25762) hex-mm: fix artificial limit in the solver that restricted number of act-prep threads hex-mm: fix warning hex-prof: do not apply --top to the timeline report hmx-mm: add suport for tiled act-processing to better distribute hvx work hex-l2: add tracing for l2flush events workqueue: redo the l",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10051",
-      "project": "llama-cpp",
-      "version": "b10051",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10051",
-      "published_at": "2026-07-16T20:49:17Z",
-      "body_excerpt": "kleidiai: Add SME vs SME2 distinction in kernel dispatch (#25478) The current integration treats SME as a single capability (CPU_FEATURE_SME) with no distinction between SME(v1) and SME2. The kernels dispatched under CPU_FEATURE_SME use SME2-specific instructions, making dispatch incorrect on SME(v1)-only hardware. We introduce build-time and runtime distinction between SME and SME2, and wire SME(",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10050",
-      "project": "llama-cpp",
-      "version": "b10050",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10050",
-      "published_at": "2026-07-16T20:08:10Z",
-      "body_excerpt": "vulkan: when using transfer queue for async copies, sync on event_wait to avoid race (#25229) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10048",
-      "project": "llama-cpp",
-      "version": "b10048",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10048",
-      "published_at": "2026-07-16T19:22:50Z",
-      "body_excerpt": "TP: fix Phi3, Bert, Plamo2/3, ChatGLM (#25536) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10047",
-      "project": "llama-cpp",
-      "version": "b10047",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10047",
-      "published_at": "2026-07-16T18:45:10Z",
-      "body_excerpt": "vendor: update BoringSSL to 0.20260713.0 (#25624) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
-      "type": "tool"
-    },
-    {
-      "id": "hf-EleutherAI-bergson-smollm2-lds-16k",
-      "project": "EleutherAI",
-      "version": "bergson-smollm2-lds-16k",
-      "url": "https://huggingface.co/EleutherAI/bergson-smollm2-lds-16k",
-      "published_at": "2026-07-16T18:08:38Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10046",
-      "project": "llama-cpp",
-      "version": "b10046",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10046",
-      "published_at": "2026-07-16T17:06:33Z",
-      "body_excerpt": "tests: actually exercise (#25758) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
       "type": "tool"
     }
   ]
