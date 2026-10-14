@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-10-14T11:31:05Z",
+  "updated_at": "2026-10-14T16:53:00Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11617",
+      "project": "llama-cpp",
+      "version": "b11617",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11617",
+      "published_at": "2026-10-14T12:53:33Z",
+      "body_excerpt": "vulkan: fix compile error (#30495) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) -",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11612",
       "project": "llama-cpp",
@@ -261,6 +270,15 @@
       "published_at": "2026-10-12T19:00:12Z",
       "body_excerpt": "Decision models in the CLI Decision models can now be used directly from the terminal with — ask yes/no questions, classify text into labels, or score against a rubric: ## What's Changed Kev decision models are now supported by the MLX runner on Apple silicon can now be used with usage credits without upgrading to a paid plan now includes locally installed Ollama models in its model picker. Use wi",
       "type": "tool"
+    },
+    {
+      "id": "hf-allenai-HiRO-ACEv2",
+      "project": "allenai",
+      "version": "HiRO-ACEv2",
+      "url": "https://huggingface.co/allenai/HiRO-ACEv2",
+      "published_at": "2026-10-12T16:43:07Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11574",
@@ -11871,51 +11889,6 @@
       "published_at": "2026-07-16T17:06:33Z",
       "body_excerpt": "tests: actually exercise (#25758) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10045",
-      "project": "llama-cpp",
-      "version": "b10045",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10045",
-      "published_at": "2026-07-16T16:09:34Z",
-      "body_excerpt": "server : allow text-only slot save/restore with mtmd (#25076) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-NV-JEPA-DNA-HyenaDNA",
-      "project": "nvidia",
-      "version": "NV-JEPA-DNA-HyenaDNA",
-      "url": "https://huggingface.co/nvidia/NV-JEPA-DNA-HyenaDNA",
-      "published_at": "2026-07-16T14:55:43Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-NV-JEPA-DNA-NTv3",
-      "project": "nvidia",
-      "version": "NV-JEPA-DNA-NTv3",
-      "url": "https://huggingface.co/nvidia/NV-JEPA-DNA-NTv3",
-      "published_at": "2026-07-16T14:34:40Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10043",
-      "project": "llama-cpp",
-      "version": "b10043",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10043",
-      "published_at": "2026-07-16T14:02:33Z",
-      "body_excerpt": "CUDA: Support CUDA Virtual Devices (#25228) support cuda virtual devices disable NCCL path when virtual devices are used label virtual devices in description; add GPUx2 server CI jobs code refactor Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubu",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-NV-JEPA-DNA-DNABERT2",
-      "project": "nvidia",
-      "version": "NV-JEPA-DNA-DNABERT2",
-      "url": "https://huggingface.co/nvidia/NV-JEPA-DNA-DNABERT2",
-      "published_at": "2026-07-16T11:59:49Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
