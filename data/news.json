@@ -1,90 +1,167 @@
 {
-  "updated_at": "2026-10-15T16:40:00Z",
+  "updated_at": "2026-10-15T21:07:59Z",
   "items": [
     {
-      "id": "localllama-2026-10-15-nemotron-35-bolt-vs-nemo-35-super-vs-qwen-38-27bfn",
+      "id": "localllama-2026-10-15-anyone-running-good-open-weight-models-for-development-in-48",
       "source": "localllama",
-      "title": "Nemotron 3.5 Bolt vs Nemo 3.5 Super vs Qwen 3.8 27B/FN",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6qc3j/nemotron_35_bolt_vs_nemo_35_super_vs_qwen_38_27bfn/",
-      "published_at": "2026-10-15T16:28:32Z",
-      "summary": "Pulling the benchmarks from the model cards. Benchmarks might not be exactly comparable, as some models do not specify the version.   Benchmark 3.5 Bolt 3.5 Super 3.8 27B 3.8 FN    DeepSWE N/A 24.65 42.2 58.7   GPQA-Diam",
+      "title": "anyone running good open weight models for development in 48GB, 64GB or 96GB of RAM?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6x5tk/anyone_running_good_open_weight_models_for/",
+      "published_at": "2026-10-15T20:47:59Z",
+      "summary": "I posted a question the other day in here about good development models, which prompted good discussion. However, it mostly just reinforced my own experience, which is that on a 128GB machine, you can run good open/local",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-15-best-model-for-48gb-unified-ram-users",
+      "id": "localllama-2026-10-15-ibm-granitegranite-switch-41-30b8b",
       "source": "localllama",
-      "title": "Best Model for 48gb Unified RAM users?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6q1w9/best_model_for_48gb_unified_ram_users/",
-      "published_at": "2026-10-15T16:18:11Z",
-      "summary": "Hi all,  I&#39;ve been following this sub for months now, but I recently started working again and missed some of the newer developments with Strata and new model releases since about when Qwen 3.8 27b first came out.  W",
+      "title": "ibm-granite/granite-switch-4.1 30B/8B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wwx2/ibmgranitegraniteswitch41_30b8b/",
+      "published_at": "2026-10-15T20:38:05Z",
+      "summary": "      Granite Switch 4.1 30B 📝 Read the launch blog: Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint Model Summary: Granite Switch 4.1 30B is a modular LLM that composes a base model, multiple adapters ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-15-mistralaitimestral",
+      "id": "huggingface-2026-10-15-granite-switch-41-chat-decisions-and-speech-from-one-endpoin",
+      "source": "huggingface",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "published_at": "2026-10-15T20:34:01Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-15-capy-flash-qwen38-flash-next-125b-moe-in-full-nvfp4-on-two-1",
       "source": "localllama",
-      "title": "mistralai/Timestral",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6ouoy/mistralaitimestral/",
-      "published_at": "2026-10-15T15:32:45Z",
-      "summary": "      https://preview.redd.it/zyoo32u7hnvh1.png?width=1400&amp;format=png&amp;auto=webp&amp;s=f0dc824a831d10abc6b824afabb98c64e7fa9d40 from Mistral: Timestral is a family of time series foundation models for zero-shot fo",
+      "title": "capy-flash: Qwen3.8-Flash-Next (125B MoE) in full NVFP4 on two 16 GB consumer GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wh1z/capyflash_qwen38flashnext_125b_moe_in_full_nvfp4/",
+      "published_at": "2026-10-15T20:20:40Z",
+      "summary": "      First, kudos to Strata. It inspired this project, and while I was building it Strata got much faster and added NVFP4 support, which was my main reason for starting. By then I was too far in to stop, so I finished i",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-15-atomicchatling-31-flash-gguf-hugging-face",
+      "id": "localllama-2026-10-15-ternary-bonsai-2-2b-4b-and-9b-just-released-on-hugging-face",
       "source": "localllama",
-      "title": "AtomicChat/Ling-3.1-flash-GGUF · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6of05/atomicchatling31flashgguf_hugging_face/",
-      "published_at": "2026-10-15T15:16:42Z",
-      "summary": "      Yesterday I said its hard to play 4 spark with ling-3.1-flash but today its coming!  &#32; submitted by &#32;  /u/BerryBlush_Rogers691   [link] &#32; [comments] ",
+      "title": "Ternary Bonsai 2 (2B, 4B, and 9B) just released on Hugging Face. The 2B can run entirely locally in the browser at up to 500 tok/s on an M4 Max with custom WebGPU kernels.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/",
+      "published_at": "2026-10-15T20:09:00Z",
+      "summary": "      Models on HF: https://huggingface.co/collections/prism-ml/bonsai-2-small WebGPU demo: https://huggingface.co/spaces/webml-community/ternary-bonsai-2-hermes-webgpu  &#32; submitted by &#32;  /u/xenovatech   [link] &",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-15-nvidianvidia-nemotron-35-bolt-74b-a9b-24gb-hugging-face",
+      "id": "localllama-2026-10-15-fp4-qad-quant-of-qwen38-flash-next-from-nvidia",
       "source": "localllama",
-      "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6o31q/nvidianvidianemotron35bolt74ba9b24gb_hugging_face/",
-      "published_at": "2026-10-15T15:04:12Z",
-      "summary": "      https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF NVIDIA Nemotron 3.5 Bolt 74B-A9B 24GB is a vision-language ",
+      "title": "FP4 QAD quant of Qwen3.8-Flash-Next from Nvidia",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6vqft/fp4_qad_quant_of_qwen38flashnext_from_nvidia/",
+      "published_at": "2026-10-15T19:52:44Z",
+      "summary": "      Size is pretty small at 102GB. For comparison nvidia/Qwen3.8-Flash-Next-NVFP4 is 133GB. Would be cool to see some of the Qwen3.8-FN specific engines support this.  &#32; submitted by &#32;  /u/rerri   [link] &#32; ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-15-nvidianvidia-nemotron-35-super-vl-120b-a12b-model-family-rel",
+      "id": "simonw-2026-10-15-chirp-pong",
+      "source": "simonw",
+      "title": "Chirp Pong",
+      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+      "published_at": "2026-10-15T19:47:52Z",
+      "summary": "Tool: Chirp Pong\n        Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone.",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "meta-2026-10-15-how-meta-built-forum-with-ai-native-engineering",
+      "source": "meta",
+      "title": "How Meta Built Forum With AI-Native Engineering",
+      "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/",
+      "published_at": "2026-10-15T19:00:03Z",
+      "summary": "Meta&#8217;s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a whole new way of working by bringing an AI agent into the dev",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-15-i-turned-a-transformer-into-a-game-console-that-runs-pong-te",
       "source": "localllama",
-      "title": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B model family released (base, NVFP4, BF16, and LiLiCorr speculative decoding)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6nl8m/nvidianvidianemotron35supervl120ba12b_model/",
-      "published_at": "2026-10-15T14:46:04Z",
-      "summary": "      &#32; submitted by &#32;  /u/jinnyjuice   [link] &#32; [comments] ",
+      "title": "I turned a transformer into a game console that runs Pong, Tetris, Space Invaders and 116 more games.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6uaav/i_turned_a_transformer_into_a_game_console_that/",
+      "published_at": "2026-10-15T18:57:13Z",
+      "summary": "      I turned a CHIP-8 game console into a decoder-only transformer. The transformer is the game engine. It executes instructions, updates machine memory, and renders every frame through next-token prediction. Every gen",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-15-windows-central-review-of-rtx-spark-including-local-llm-benc",
+      "id": "localllama-2026-10-15-quasar-4-bit-qat-checkpoints-for-qwen35-gemma-4-and-muse-gli",
       "source": "localllama",
-      "title": "Windows Central review of RTX Spark, including local LLM benchmarks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6mqed/windows_central_review_of_rtx_spark_including/",
-      "published_at": "2026-10-15T14:12:15Z",
-      "summary": "      &#32; submitted by &#32;  /u/SkyFeistyLlama8   [link] &#32; [comments] ",
+      "title": "QUASAR 4-bit QAT checkpoints for Qwen3.5, Gemma 4 and Muse Glimmer: closer to BF16 than Google’s and NVIDIA’s 4-bit releases",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6u8pi/quasar_4bit_qat_checkpoints_for_qwen35_gemma_4/",
+      "published_at": "2026-10-15T18:55:28Z",
+      "summary": "Two months ago we released a fully quantized NVFP4 Qwen3.8-27B trained with QUASAR. We&#39;ve since trained QUASAR checkpoints for a bunch of other recent models: Qwen3.5-4B, Gemma 4 E4B and 12B, and Muse Glimmer 30B, in",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-15-add-nemotron-super-35-vl-and-nemotron-bolt-74b-a9b-support-b",
+      "id": "localllama-2026-10-15-128gb-rtx-spark-laptop-for-3832",
       "source": "localllama",
-      "title": "Add Nemotron Super 3.5 VL and Nemotron Bolt 74B A9B support by frozenblade1224 · Pull Request #30520 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6mlby/add_nemotron_super_35_vl_and_nemotron_bolt_74b/",
-      "published_at": "2026-10-15T14:06:37Z",
-      "summary": "      day 0 support for two new Nemotrons minutes later new Nemotron 3.5 Super VL was released: https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Sup",
+      "title": "128GB RTX Spark laptop for $3832.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6trqq/128gb_rtx_spark_laptop_for_3832/",
+      "published_at": "2026-10-15T18:38:05Z",
+      "summary": "To all those who are bemoaning missing getting DGX Sparks for under $4000. Here&#39;s your chance. The brand new just announced RTX Spark laptop is on sale at HP. Configured with 128GB of RAM, it comes out to $3832.49. U",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-15-flux3-image-klein-just-got-weights-published-on-hugging-face",
+      "source": "localllama",
+      "title": "FLUX.3 Image Klein just got weights published on hugging face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/",
+      "published_at": "2026-10-15T18:14:35Z",
+      "summary": "https://huggingface.co/black-forest-labs/flux-3-image-klein Better image generation model  &#32; submitted by &#32;  /u/wapswaps   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-15-what-a-300-35w-snapdragon-mini-pc-can-actually-do-35b-coder",
+      "source": "localllama",
+      "title": "What a £300, 35W Snapdragon mini PC can actually do 👀: 35B coder at ~30 tok/s, and an 80B model that doesnt even fit in RAM running at 17 tok/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6stod/what_a_300_35w_snapdragon_mini_pc_can_actually_do/",
+      "published_at": "2026-10-15T18:02:21Z",
+      "summary": "      £299.99 Lenovo IdeaCentre Mini (Snapdragon X1-26-100, 32GB, CPU only): - Qwen3.6 35B A3B coder: reads ~118 tok/s, writes 24.5, ~30 with MTP - Qwen3-Next 80B A3B: 17-18 tok/s writes with MTP How I got here... So I b",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-15-flux3-image-klein-is-now-out",
+      "source": "localllama",
+      "title": "Flux.3 Image Klein is now out",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6s7el/flux3_image_klein_is_now_out/",
+      "published_at": "2026-10-15T17:38:48Z",
+      "summary": "      FLUX 3 Image Klein is a 5.6B open weights model for text-to-image generation and image editing. It takes a prompt and up to 10 reference images and returns one image. Text-to-image, single-reference edits and multi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-15-unsloth-muse-spark-open-is-out",
+      "source": "localllama",
+      "title": "Unsloth Muse Spark Open is out!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6rcid/unsloth_muse_spark_open_is_out/",
+      "published_at": "2026-10-15T17:06:32Z",
+      "summary": "      &#32; submitted by &#32;  /u/Bob_SUS   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
@@ -98,50 +175,6 @@
       "summary": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO\nThe phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lot",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-15-qwen38-flash-next-unsloth-quants-kldtop1-with-default-wiki-e",
-      "source": "localllama",
-      "title": "Qwen3.8 Flash Next Unsloth quants KLD&Top1% with default wiki, English books and Finnish books.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6kw7k/qwen38_flash_next_unsloth_quants_kldtop1_with/",
-      "published_at": "2026-10-15T12:56:13Z",
-      "summary": "      I was curious how quantization affects Finnish language ability and why Q38FN’s Q8 quantization got such poor accuracy numbers. So I set the machine running in the background. The Finnish corpus is three books from",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-15-strata-might-be-actually-really-detrimental-for-intelligence",
-      "source": "localllama",
-      "title": "Strata might be actually really detrimental for intelligence? or is it Swift and GSQ-RCO? or both?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6jump/strata_might_be_actually_really_detrimental_for/",
-      "published_at": "2026-10-15T12:05:20Z",
-      "summary": "I continued to use Strata but something just feels off for this an large model, it is very fast but intelligence seemed even under 27B 3.8 UD Q4, it had a hard time coding a basic 3d game and a 2d platformer. Deepseek Fl",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-15-tencent-hy4-preview-getting-in-on-the-rogue-agent-game",
-      "source": "localllama",
-      "title": "Tencent (Hy4 Preview?) getting in on the rogue agent game",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6jel1/tencent_hy4_preview_getting_in_on_the_rogue_agent/",
-      "published_at": "2026-10-15T11:42:38Z",
-      "summary": "      Discovered by a third party… Tencent itself doesn’t seem to be talking about it, which is slightly concerning.  &#32; submitted by &#32;  /u/eapache   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-15-nvidia-ai-so-many-models-launching-this-week-and-we-have-one",
-      "source": "localllama",
-      "title": "NVIDIA AI: So many models launching this week! And we have one of our own coming...",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6ijlk/nvidia_ai_so_many_models_launching_this_week_and/",
-      "published_at": "2026-10-15T10:54:47Z",
-      "summary": "      From NVIDIA AI on 𝕏: https://x.com/NVIDIAAI/status/2110468004609950057  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -160,6 +193,17 @@
       "source": "huggingface",
       "title": "Welcome FLUX.3 Image Klein in Diffusers",
       "url": "https://huggingface.co/blog/flux-3",
+      "published_at": "2026-10-15T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-10-15-welcome-muse-spark-open-open-weight-frontier-multimodal-mixt",
+      "source": "huggingface",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
       "published_at": "2026-10-15T00:00:00Z",
       "summary": "",
       "tags": [
@@ -365,17 +409,6 @@
       ]
     },
     {
-      "id": "simonw-2026-10-10-python-3150-added-to-actionspython-versions",
-      "source": "simonw",
-      "title": "Python 3.15.0 added to actions/python-versions",
-      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
-      "published_at": "2026-10-10T23:58:04Z",
-      "summary": "Python 3.15.0 added to actions/python-versions\nBit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it:\n\nClone https://github.com/actions/python-versions  and git pu",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-10-09-impactful-scheduling-for-gpu-clusters",
       "source": "huggingface",
       "title": "Impactful scheduling for GPU clusters",
@@ -447,28 +480,6 @@
       "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
       "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
       "published_at": "2026-10-06T06:44:39Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-10-03-the-agent-said-it-was-done-the-database-disagreed",
-      "source": "huggingface",
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "published_at": "2026-10-03T22:56:48Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-10-02-open-sourcing-astabrief-the-fast-report-generation-model-in",
-      "source": "huggingface",
-      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "url": "https://huggingface.co/blog/allenai/astabrief",
-      "published_at": "2026-10-02T15:19:50Z",
       "summary": "",
       "tags": [
         "huggingface"
@@ -613,17 +624,6 @@
       "url": "https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/",
       "published_at": "2026-08-12T13:00:28Z",
       "summary": "WhatsApp is committed to helping people stay safe while protecting the privacy of their messages. As scam tactics evolve — from impersonation to social engineering to AI-generated lures — we&#8217;re always evolving as w",
-      "tags": [
-        "meta"
-      ]
-    },
-    {
-      "id": "meta-2026-08-05-from-user-sequences-to-scaling-laws-a-multi-stage-architectu",
-      "source": "meta",
-      "title": "From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta’s Ads Ranking",
-      "url": "https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking/",
-      "published_at": "2026-08-05T19:20:20Z",
-      "summary": "Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequ",
       "tags": [
         "meta"
       ]
