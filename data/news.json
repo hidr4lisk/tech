@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-14T21:26:56Z",
+  "updated_at": "2026-10-15T04:00:22Z",
   "items": [
+    {
+      "id": "localllama-2026-10-15-did-someone-usetry-the-qwen-flash-38-next-coder-model-on-som",
+      "source": "localllama",
+      "title": "Did someone use/try the Qwen flash 3.8 next \"coder\" model on some work?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6an4v/did_someone_usetry_the_qwen_flash_38_next_coder/",
+      "published_at": "2026-10-15T02:58:58Z",
+      "summary": "      Looking for people who have tried this model and was able to use it on real-world tasks. It&#39;s what Strata list as &quot;coder&quot;. What was your experience like?  On my setup I am not really sure if it is wor",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-15-very-impressed-with-lfm25-24-a2b-in-pi-agent",
+      "source": "localllama",
+      "title": "Very impressed with LFM2.5-24-A2B in Pi Agent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x68qma/very_impressed_with_lfm2524a2b_in_pi_agent/",
+      "published_at": "2026-10-15T01:22:04Z",
+      "summary": "Just downloaded the new LFm2.5-24B-A2B LiquidAI model for testing. They claimed some pretty good performance, and I&#39;ve had good experiences with their prior releases. Some context - I use Ornith 1.5-35B pretty regula",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-15-4x-r9700-builds-with-127-used-epycs-107k-all-in-per-machine",
+      "source": "localllama",
+      "title": "4x R9700 builds with $127 used EPYCs: $10.7k all-in per machine. I built three (384GB VRAM)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x67qeu/4x_r9700_builds_with_127_used_epycs_107k_allin/",
+      "published_at": "2026-10-15T00:31:42Z",
+      "summary": "      I saw the 4x R9700 build for a 10-person startup here a few days ago and wanted to share my results, since I opted to spend most of the money on the cards. I went with a super cheap used EPYC instead of a Threadrip",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-14-microsoftuserrepgen-4b",
+      "source": "localllama",
+      "title": "microsoft/UserRepGen-4B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x664yt/microsoftuserrepgen4b/",
+      "published_at": "2026-10-14T23:16:47Z",
+      "summary": "      https://preview.redd.it/gwb4of5vmivh1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=853f4cf25b4140ccf8b151b4124547788a544b33 UserRepGen-4B is a fine-tuned Qwen3.5-4B language model that generates a structured, ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-14-strata-performance-finetuning---try-it-out",
+      "source": "localllama",
+      "title": "Strata performance finetuning - try it out",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x65hq9/strata_performance_finetuning_try_it_out/",
+      "published_at": "2026-10-14T22:47:26Z",
+      "summary": "As strata is somewhat new, I assume that some people din&#39;t yet learn how to finetune it for best performance on their machine. I find documentation a bit hard to navigate (use your agents for this!), which doesn&#39;",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-14-qwen-38-flash-next-compared-to-glm-53-flash",
+      "source": "localllama",
+      "title": "Qwen 3.8 Flash-Next compared to GLM 5.3 Flash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6533a/qwen_38_flashnext_compared_to_glm_53_flash/",
+      "published_at": "2026-10-14T22:29:11Z",
+      "summary": "Anecdotally, I&#39;ve noticed that QFN seems more collaborative than GLM. QFN seems willing to engage in conversation. It feels more like an assistant. GLM seems more action-oriented and less willing to converse. That is",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-14-176-ts-decode-and-6450-ts-prefill-with-q4-qwen-38-flash-next",
+      "source": "localllama",
+      "title": "176 t/s decode and 6,450 t/s prefill with Q4 Qwen-3.8 Flash-Next on 2xR9700 + 64GB DDR5 using Deadcode's Radiance engine",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x640u6/176_ts_decode_and_6450_ts_prefill_with_q4_qwen38/",
+      "published_at": "2026-10-14T21:44:00Z",
+      "summary": "      https://preview.redd.it/kudj7xii5ivh1.png?width=1508&amp;format=png&amp;auto=webp&amp;s=07712e81310b81aceb2cf8f4d8a7c2eadeb0c304 Just built a new PC, full parts list is here. I am using Deadcode&#39;s Radiance infe",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-14-tree-appreciator",
+      "source": "simonw",
+      "title": "Tree Appreciator",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "published_at": "2026-10-14T21:23:01Z",
+      "summary": "Tool: Tree Appreciator\n        Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with:\n\nBuild a three js game called \"",
+      "tags": [
+        "simonw"
+      ]
+    },
     {
       "id": "localllama-2026-10-14-sabi-noema-a-capability-and-efficiency-focused-fine-tune-of",
       "source": "localllama",
@@ -57,39 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-14-gpt-image-style-photo-editing-on-your-own-gpu-12-gb-i-built",
-      "source": "localllama",
-      "title": "GPT-Image-style photo editing on your own GPU (12 GB+): I built a zero-setup app for Qwen-Image 2.1 on stable-diffusion.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5wyii/gptimagestyle_photo_editing_on_your_own_gpu_12_gb/",
-      "published_at": "2026-10-14T17:10:15Z",
-      "summary": "      Every local setup I tried for Qwen-Image 2.1 meant a Python env, a node graph and an evening of picking quantization, offloading and resolution for my card. Kokon is a free, open-source desktop app that does all of",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-14-new-model-from-telperion-qwen38-27b-mla-qwen38-27b-gla-g2-4x",
-      "source": "localllama",
-      "title": "New model from Telperion: Qwen3.8-27B-MLA & Qwen3.8-27B-GLA-g2. 4x smaller KV cache, smarter, and more efficient reasoning.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5wcnz/new_model_from_telperion_qwen3827bmla/",
-      "published_at": "2026-10-14T16:47:46Z",
-      "summary": "Hello! We&#39;ve been busy at Telperion with a lot of experimental research (more coming soon). Today, we&#39;re announcing the release of our latent attention variants of Qwen3.8-27B. Our latent attention variants (quan",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-14-i-used-magic-the-gathering-as-inspiration-for-how-to-organiz",
-      "source": "localllama",
-      "title": "I used Magic The Gathering as inspiration for how to organize agent skills",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5vwx7/i_used_magic_the_gathering_as_inspiration_for_how/",
-      "published_at": "2026-10-14T16:31:11Z",
-      "summary": "      I spent some time taking best practices from the past two years developing my projects with agent skills and centralized them in a repo so I can reuse them and standardize my projects. In the process of doing that,",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-10-14-ai-is-mass-decompiling-games-thats-both-awesome-and-scary",
       "source": "simonw",
       "title": "AI is mass decompiling games. That's both awesome and scary.",
@@ -101,17 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-14-qwen38-flash-next-iq3-s-vs--27b-ggufud-q4-k-xl",
-      "source": "localllama",
-      "title": "qwen3.8-flash-next-iq3_s vs -27B-GGUF:UD-Q4_K_XL",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5vfs2/qwen38flashnextiq3_s_vs_27bggufudq4_k_xl/",
-      "published_at": "2026-10-14T16:13:14Z",
-      "summary": "Sampling: temp 1.0, top_p 0.95, top_k 20 for both. Run with evalscope over the OpenAI-compatible API: Qwen3.8-Next on Strata (MI50 32GB), Qwen3.8-27B on llama.cpp (RX 7900 XTX 24GB). Caveat: These are only a portion of t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-10-14-hiro-acev2-simulating-extreme-weather-at-3-km-resolution-for",
       "source": "huggingface",
       "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
@@ -120,39 +164,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-14-a-35b-multimodal-model-running-on-a-phone-with-3gb-memory-mi",
-      "source": "localllama",
-      "title": "A 35B multimodal model running on a phone with ~3GB memory? MiniCPM-V 4.7 demo is pretty wild",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5uwnd/a_35b_multimodal_model_running_on_a_phone_with/",
-      "published_at": "2026-10-14T15:53:48Z",
-      "summary": "      Just saw this demo from OpenBMB for MiniCPM-V 4.7, and the on-device capability is pretty impressive. A 35B-A3B MoE vision-language model running locally on mobile devices is already interesting, but the use cases ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-14-i-disabled-my-adblocker-for-5-seconds",
-      "source": "localllama",
-      "title": "I disabled my adblocker for 5 seconds",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5uw8w/i_disabled_my_adblocker_for_5_seconds/",
-      "published_at": "2026-10-14T15:53:22Z",
-      "summary": "      targeted ads are crazy  &#32; submitted by &#32;  /u/infectiousstupidity   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-14-jetbrains-mellum-21-12b-a25b-moe-is-a-very-good-model",
-      "source": "localllama",
-      "title": "JetBrains Mellum 2.1 12B A2.5B MoE is a very good model.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5uqcu/jetbrains_mellum_21_12b_a25b_moe_is_a_very_good/",
-      "published_at": "2026-10-14T15:47:08Z",
-      "summary": "It runs at around m4 16 at 60 tps at full 130k context, you can easily run a Q8 if you have a 16 GB GPU, I was able to get 140TPS on 9070xt,  It’s an MoE so I think we can run it well on smaller cards too, 8GB, 12GB shou",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -338,17 +349,6 @@
       "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
       "published_at": "2026-10-10T02:04:12Z",
       "summary": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applic",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-09-deno-is-joining-cloudflare",
-      "source": "simonw",
-      "title": "Deno is joining Cloudflare",
-      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
-      "published_at": "2026-10-09T22:48:37Z",
-      "summary": "Deno is joining Cloudflare\nThe Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers.\nToday, Cloudflare are acquiring Deno ",
       "tags": [
         "simonw"
       ]
