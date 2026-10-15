@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-15T16:40:07Z",
+  "updated_at": "2026-10-15T21:08:07Z",
   "releases": [
+    {
+      "id": "unsloth-v0.1.908-beta",
+      "project": "unsloth",
+      "version": "v0.1.908-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.908-beta",
+      "published_at": "2026-10-15T18:50:55Z",
+      "body_excerpt": "Run NVIDIA's new Nemotron 3.5 models and Meta's new Muse Spark Open locally in Unsloth. New: text-diffusion LLMs, DeepSpeed training and better prompt caching for coding agents. Highlights NVIDIA Nemotron 3.5 Bolt: Run on 24 GB of memory. Guide NVIDIA Nemotron 3.5 Super VL: 120B (12B active) Guide Meta Muse Spark Open: 816B (42.7B active) - runs on 256GB Guide Better prompt caching for coding agen",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.20.0",
+      "project": "transformers",
+      "version": "v5.20.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0",
+      "published_at": "2026-10-15T18:05:36Z",
+      "body_excerpt": "Release v5.20.0 New Model additions Muse Spark Open Muse Spark Open is a multimodal mixture-of-experts model from Meta that takes text, images, audio, and video as input and generates text. It has 816B total parameters (42B active per token) and a context window of up to 1,048,576 tokens shared across modalities. It is trained for agentic coding tasks such as multi-file editing, debugging, and too",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-v0.7.0",
+      "project": "llama-cpp",
+      "version": "v0.7.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0",
+      "published_at": "2026-10-15T17:13:19Z",
+      "body_excerpt": "Overview llama.cpp v0.7.0 adds the LiliCorr speculative decoding technique and MTP for GLM5-Next, a new GPU cache for MoE experts kept in host memory (, up to ~2.2x decode speedup when experts are offloaded), and a large batch of new models: K2 Horizon (dense and MoVA), Prism Bonsai 2 27B, EmbeddingGemma-2 (text+vision+audio), the LiquidAI d1/d1-omni and vLLM decision 2/d3 decision models, pplx-de",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11669",
       "project": "llama-cpp",
@@ -63,6 +90,15 @@
       "published_at": "2026-10-15T09:58:02Z",
       "body_excerpt": "graph: keep the graph non empty without embeddings (#30522) An embedding-only graph has no logits, and build_pooling() returns early when embeddings are off, so since the models no longer expand t_embd the graph ends up empty and its inputs are never allocated. Expand t_embd in that case. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DI",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-3.5-Rerank-8B-BF16",
+      "project": "nvidia",
+      "version": "Nemotron-3.5-Rerank-8B-BF16",
+      "url": "https://huggingface.co/nvidia/Nemotron-3.5-Rerank-8B-BF16",
+      "published_at": "2026-10-15T08:42:42Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11642",
@@ -155,6 +191,24 @@
       "type": "tool"
     },
     {
+      "id": "hf-ibm-granite-granite-switch-4.1-8b",
+      "project": "ibm-granite",
+      "version": "granite-switch-4.1-8b",
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b",
+      "published_at": "2026-10-14T21:38:09Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-switch-4.1-30b",
+      "project": "ibm-granite",
+      "version": "granite-switch-4.1-30b",
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b",
+      "published_at": "2026-10-14T21:23:12Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "hf-microsoft-UserRepGen-4B",
       "project": "microsoft",
       "version": "UserRepGen-4B",
@@ -197,6 +251,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1",
       "published_at": "2026-10-14T19:45:22Z",
       "body_excerpt": "What's Changed mlx: port the Metal custom kernels to CUDA by @dhiltgen in docs: model recs and language standardization by @anra8571 in openai: accept custom tool calls in Responses history by @hoyyeva in app: clarify cloud payment errors by @willietran in MLX: version bump by @dhiltgen in New Contributors @willietran made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.5",
+      "project": "ollama",
+      "version": "v0.40.5",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5",
+      "published_at": "2026-10-14T19:45:22Z",
+      "body_excerpt": "NVIDIA Nemotron 3.5 Super NVIDIA Nemotron 3.5 Super is a vision-language model for coding, reasoning, tool use, and document understanding. It pairs a 120B-parameter hybrid Mamba-2/Transformer mixture-of-experts backbone (12B active per token) with a C-RADIO vision encoder, and supports tool calling, an on/off thinking mode, and context up to 1M tokens. A compact sibling, Nemotron 3.5 Bolt, distil",
       "type": "tool"
     },
     {
@@ -425,6 +488,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-ARDY-SOMA-RP-30FPS-KimodoRep-Horizon60",
+      "project": "nvidia",
+      "version": "ARDY-SOMA-RP-30FPS-KimodoRep-Horizon60",
+      "url": "https://huggingface.co/nvidia/ARDY-SOMA-RP-30FPS-KimodoRep-Horizon60",
+      "published_at": "2026-10-13T19:17:25Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b11592",
       "project": "llama-cpp",
       "version": "b11592",
@@ -432,6 +504,24 @@
       "published_at": "2026-10-13T19:09:39Z",
       "body_excerpt": "cuda : add GGML_CUDA_GRAPH_DEBUG and read env vars once (#30327) ggml-cuda: gate CUDA graph debug logs behind GGML_CUDA_GRAPH_DEBUG ggml-cuda: cache env var lookups in static const instead of re-reading per call ggml-cuda: read env vars exactly once via ggml_cuda_env_flag/ggml_cuda_env_int ggml-cuda: consolidate env flag reads into single static accessors ggml-cuda : drop env helper comments Assis",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Kimodo-SOMA-RP-ArdyRep-v1.2",
+      "project": "nvidia",
+      "version": "Kimodo-SOMA-RP-ArdyRep-v1.2",
+      "url": "https://huggingface.co/nvidia/Kimodo-SOMA-RP-ArdyRep-v1.2",
+      "published_at": "2026-10-13T18:04:43Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Kimodo-SOMA-RP-v1.2",
+      "project": "nvidia",
+      "version": "Kimodo-SOMA-RP-v1.2",
+      "url": "https://huggingface.co/nvidia/Kimodo-SOMA-RP-v1.2",
+      "published_at": "2026-10-13T18:03:31Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "unsloth-v0.1.907-beta",
@@ -1161,6 +1251,15 @@
       "published_at": "2026-10-08T16:53:47Z",
       "body_excerpt": "Model upgrades Models downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp. To make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future release will remove these backups automatically. To remove backed up models now",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Qwen3.8-Flash-Next-FP4-Local",
+      "project": "nvidia",
+      "version": "Qwen3.8-Flash-Next-FP4-Local",
+      "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
+      "published_at": "2026-10-08T16:20:17Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11510",
@@ -3463,7 +3562,7 @@
       "version": "prebuilt-wheels-cu13",
       "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13",
       "published_at": "2026-09-27T03:16:14Z",
-      "body_excerpt": "Prebuilt CUDA 13 wheels. Linux x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Windows x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.10 and 2.11 on Python 3.11, 3.12 and 3.13; 2.13 and 2.14 on Python 3.13. Linux aarch64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.p",
+      "body_excerpt": "Prebuilt CUDA 13 wheels. Linux x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Windows x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.10, 2.11 and 2.12 on Python 3.11, 3.12 and 3.13; 2.13 and 2.14 on Python 3.13. Linux aarch64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2",
       "type": "tool"
     },
     {
@@ -12069,33 +12168,6 @@
       "published_at": "2026-07-17T23:13:36Z",
       "body_excerpt": "opencl: load and use from bin kernel lib (#25797) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
       "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-Fara1.5-27B",
-      "project": "microsoft",
-      "version": "Fara1.5-27B",
-      "url": "https://huggingface.co/microsoft/Fara1.5-27B",
-      "published_at": "2026-07-17T20:09:59Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Fara1.5-4B",
-      "project": "microsoft",
-      "version": "Fara1.5-4B",
-      "url": "https://huggingface.co/microsoft/Fara1.5-4B",
-      "published_at": "2026-07-17T19:59:47Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-EleutherAI-bergson-smollm2-lds-32k",
-      "project": "EleutherAI",
-      "version": "bergson-smollm2-lds-32k",
-      "url": "https://huggingface.co/EleutherAI/bergson-smollm2-lds-32k",
-      "published_at": "2026-07-17T18:22:08Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
