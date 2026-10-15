@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-10-15T11:08:41Z",
+  "updated_at": "2026-10-15T16:40:07Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11669",
+      "project": "llama-cpp",
+      "version": "b11669",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11669",
+      "published_at": "2026-10-15T16:10:46Z",
+      "body_excerpt": "llama.cpp : bump version to 0.7.0 (#30603) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11662",
+      "project": "llama-cpp",
+      "version": "b11662",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11662",
+      "published_at": "2026-10-15T15:40:13Z",
+      "body_excerpt": "sync : ggml Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11658",
+      "project": "llama-cpp",
+      "version": "b11658",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11658",
+      "published_at": "2026-10-15T13:11:15Z",
+      "body_excerpt": "models : add maion-coder (#29778) Add Support to maion-coder arch iAdd Support to support Draft models Address comments Remove maion context shift function --------- Co-authored-by: Karthik Vijayan Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11655",
+      "project": "llama-cpp",
+      "version": "b11655",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11655",
+      "published_at": "2026-10-15T12:45:18Z",
+      "body_excerpt": "vulkan : fix concurrent first device init (#29766) vulkan : fix concurrent first device init tests : load models in parallel in test-thread-safety Loading them serially never exercised concurrent first backend init, so the crash reported in #29764 was invisible to this test. vulkan : create fence before retaining device in buffer context Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11647",
+      "project": "llama-cpp",
+      "version": "b11647",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11647",
+      "published_at": "2026-10-15T12:21:31Z",
+      "body_excerpt": "vulkan : copy strided f16 KV once on AMD so reads spread across memory channels (#27703) vulkan : copy strided f16 KV once so reads spread across memory channels Assisted-by: Claude (Opus 4.8 / Opus 5) tests : cover the f16 KV copy to scratch Assisted-by: Claude (Opus 4.8 / Opus 5) vulkan : gate the f16 KV scratch copy to AMD Assisted-by: Claude (Opus 4.8 / Opus 5) vulkan : reuse the generic copy ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11645",
+      "project": "llama-cpp",
+      "version": "b11645",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11645",
+      "published_at": "2026-10-15T11:56:59Z",
+      "body_excerpt": "metal : add BF16 variant of the tensor API flash attention kernel (#30491) metal : add BF16 variant of the tensor API flash attention kernel cont : move tensor FA kernels to kernels/fa_tensor.metal Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11643",
       "project": "llama-cpp",
@@ -137,6 +191,15 @@
       "type": "tool"
     },
     {
+      "id": "ollama-v0.40.5-rc1",
+      "project": "ollama",
+      "version": "v0.40.5-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1",
+      "published_at": "2026-10-14T19:45:22Z",
+      "body_excerpt": "What's Changed mlx: port the Metal custom kernels to CUDA by @dhiltgen in docs: model recs and language standardization by @anra8571 in openai: accept custom tool calls in Responses history by @hoyyeva in app: clarify cloud payment errors by @willietran in MLX: version bump by @dhiltgen in New Contributors @willietran made their first contribution in Full Changelog:",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b11622",
       "project": "llama-cpp",
       "version": "b11622",
@@ -182,6 +245,33 @@
       "type": "model"
     },
     {
+      "id": "hf-mistralai-Timestral-123M",
+      "project": "mistralai",
+      "version": "Timestral-123M",
+      "url": "https://huggingface.co/mistralai/Timestral-123M",
+      "published_at": "2026-10-14T17:51:04Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-mistralai-Timestral-28M",
+      "project": "mistralai",
+      "version": "Timestral-28M",
+      "url": "https://huggingface.co/mistralai/Timestral-28M",
+      "published_at": "2026-10-14T17:50:53Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-mistralai-Timestral-5M",
+      "project": "mistralai",
+      "version": "Timestral-5M",
+      "url": "https://huggingface.co/mistralai/Timestral-5M",
+      "published_at": "2026-10-14T13:41:13Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b11617",
       "project": "llama-cpp",
       "version": "b11617",
@@ -198,6 +288,15 @@
       "published_at": "2026-10-14T09:46:40Z",
       "body_excerpt": "unicode : add opt-in NFC normalization for Unigram tokenizers (#30390) unicode : add opt-in NFC normalization for Unigram tokenizers Note: used help from Codex, Sol 6.1 Medium Fixing initial bot comments + linter error (using existing out instead of print) removed test_nfc_tokenizer Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED",
       "type": "tool"
+    },
+    {
+      "id": "hf-mistralai-Timestral-209M",
+      "project": "mistralai",
+      "version": "Timestral-209M",
+      "url": "https://huggingface.co/mistralai/Timestral-209M",
+      "published_at": "2026-10-14T08:52:36Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11609",
@@ -461,6 +560,33 @@
       "type": "model"
     },
     {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+      "published_at": "2026-10-12T15:32:30Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+      "published_at": "2026-10-12T15:32:06Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
+      "published_at": "2026-10-12T15:31:49Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b11574",
       "project": "llama-cpp",
       "version": "b11574",
@@ -477,6 +603,24 @@
       "published_at": "2026-10-12T14:48:31Z",
       "body_excerpt": "vulkan: pack FMA for f16 accumulation, no dot product op (#29877) vulkan: pack FMA for f16 accumulation, no dot product op vulkan: dot_product packs two rows per f16 FMA vulkan: rename dot_product to dot_product_v2 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+      "published_at": "2026-10-12T14:42:40Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF",
+      "published_at": "2026-10-12T14:27:49Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11572",
@@ -576,6 +720,15 @@
       "published_at": "2026-10-12T03:57:12Z",
       "body_excerpt": "hexagon: add IM2COL_3D (#30305) hexagon: add IM2COL_3D support Assisted-by: OpenCode hexagon: add DMA paths for IM2COL_3D Assisted-by: OpenCode hexagon: avoid scalar fp16 conversions in IM2COL Assisted-by: OpenCode remove in-loop spills in pre-v81 devices Assisted-by: OpenCode hex-im2col: re-write to use canonical dma dbl-buff pipeline, remove divs and very inefficient fp conversions hex-im2col: m",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr",
+      "published_at": "2026-10-11T20:20:59Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11559",
@@ -846,6 +999,15 @@
       "published_at": "2026-10-09T13:54:36Z",
       "body_excerpt": "vulkan: fix rms_norm workgroup count overflow (#30145) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubun",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+      "published_at": "2026-10-09T12:45:14Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11524",
@@ -1269,6 +1431,24 @@
       "published_at": "2026-10-07T23:22:59Z",
       "body_excerpt": "What's Changed server: proxy cloud usage and balance APIs by @drifkin in llama: fix clef head reads past 2GiB on windows by @Gigrise in cmd: remove account step from CLI onboarding by @hoyyeva in manifest: avoid symlinks on Windows by @dhiltgen in docs: fix 6 dead links in README community integrations list by @aniketkrs in docs: fix broken download links in app README by @chenlichao in mlx: drop ",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
+      "published_at": "2026-10-07T19:15:58Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+      "project": "nvidia",
+      "version": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+      "published_at": "2026-10-07T17:50:42Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "unsloth-v0.1.904-beta",
@@ -11916,60 +12096,6 @@
       "published_at": "2026-07-17T18:22:08Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10064",
-      "project": "llama-cpp",
-      "version": "b10064",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10064",
-      "published_at": "2026-07-17T15:40:55Z",
-      "body_excerpt": "opencl: transpose q4_K noshuffle scales for coalesced reads (#25805) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10063",
-      "project": "llama-cpp",
-      "version": "b10063",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10063",
-      "published_at": "2026-07-17T14:58:33Z",
-      "body_excerpt": "sync : ggml Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) W",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10061",
-      "project": "llama-cpp",
-      "version": "b10061",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10061",
-      "published_at": "2026-07-17T14:18:08Z",
-      "body_excerpt": "tests : initialize all tensors in test_dsv4_hc to avoid NaNs in sentinel tensors (#25822) Co-authored-by: Stanisław Szymczyk Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10059",
-      "project": "llama-cpp",
-      "version": "b10059",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10059",
-      "published_at": "2026-07-17T12:22:39Z",
-      "body_excerpt": "ggml-blas: default hadamard mul_mat to cpu routine (#25710) Signed-off-by: Aaron Teo Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "hf-EleutherAI-sae-SmolLM2-1.7B-layer17-32x-embedskip",
-      "project": "EleutherAI",
-      "version": "sae-SmolLM2-1.7B-layer17-32x-embedskip",
-      "url": "https://huggingface.co/EleutherAI/sae-SmolLM2-1.7B-layer17-32x-embedskip",
-      "published_at": "2026-07-17T11:54:16Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10058",
-      "project": "llama-cpp",
-      "version": "b10058",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10058",
-      "published_at": "2026-07-17T11:44:06Z",
-      "body_excerpt": "vulkan: Support Q2_0 (#25430) vulkan: Support Q2_0 The backend perf tests for mat-vec-mul weren't very good at first (worse than q2_k), doubling the rows per workgroup made a big difference. reorder resolve merge conflict, adjust err threshold for f16->q2_0 set_rows Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramew",
-      "type": "tool"
     }
   ]
 }
