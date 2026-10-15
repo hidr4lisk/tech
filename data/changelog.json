@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-10-14T21:27:03Z",
+  "updated_at": "2026-10-15T04:00:28Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11635",
+      "project": "llama-cpp",
+      "version": "b11635",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11635",
+      "published_at": "2026-10-15T03:58:23Z",
+      "body_excerpt": "ggml-cpu : keep the FP16->FP32 lookup table on x86 with F16C (#30342) (#30343) ggml-cpu : keep the FP16->FP32 lookup table on x86 with F16C (#30342) #30270 routed both scalar conversions through F16C. For FP16->FP32, Clang 20.1.8 lowers the intrinsic to a vpinsrw merging into the live accumulator register of the quantized dot products, which serialises the loop (19 vs 4 cycles/iteration estimated,",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11633",
+      "project": "llama-cpp",
+      "version": "b11633",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11633",
+      "published_at": "2026-10-15T03:37:28Z",
+      "body_excerpt": "ggml-cpu : size set_rows conversion buffer for all threads (#30454) ggml-cpu : size set_rows conversion buffer for all threads SET_ROWS is planned with n_tasks = 1, but every thread runs it and uses its own row of the F16 -> F32 conversion buffer, so threads > 0 wrote past the work buffer when the graph had another multi-threaded op. move set_rows to n_task = n_threads group Website: Attestations:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11632",
+      "project": "llama-cpp",
+      "version": "b11632",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11632",
+      "published_at": "2026-10-15T03:20:55Z",
+      "body_excerpt": "cuda, hip: GDN chunked kernel (#29353) cuda, hip: GDN chunked kernel Ported-from: Source-commit: 53f0027d8070715fe9ad2131f3201bb0001d4eed Co-authored-by: Aman Gupta fix older builds review fixes cuda: enable GDN MMA on tested Ampere and Ada GPUs Enable SM86 and SM89 after RTX 3090 and RTX 4090 correctness and prefill benchmarks. Keep other untested architectures on the existing fallback. Assisted-",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11630",
+      "project": "llama-cpp",
+      "version": "b11630",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11630",
+      "published_at": "2026-10-15T00:32:18Z",
+      "body_excerpt": "ggml: fix conv_1d result layout for batched input (#28738) ggml: fix conv_1d result layout for batched input The GEMM behind conv_1d folds the batch into its rows, so the product sits in memory as [OL, N, OC] while the reshape claims [OL, OC, N]. The shape is right and the contents are transposed, so nothing fires: no assert, no abort, the graph just runs and the channels come out interleaved with",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11627",
+      "project": "llama-cpp",
+      "version": "b11627",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11627",
+      "published_at": "2026-10-15T00:15:10Z",
+      "body_excerpt": "ggml : add note about mul_mat_id + disable mul_mat_id_dup tests (#30501) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-UserRepGen-4B",
+      "project": "microsoft",
+      "version": "UserRepGen-4B",
+      "url": "https://huggingface.co/microsoft/UserRepGen-4B",
+      "published_at": "2026-10-14T20:30:00Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b11624",
       "project": "llama-cpp",
@@ -63,6 +117,15 @@
       "published_at": "2026-10-14T18:28:26Z",
       "body_excerpt": "models: drop the t_embd expand of the embedding graphs (#30461) These graphs only produce embeddings, and build_pooling() already expands its output for every pooling type, so the expand at the end of the model graph is redundant. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 ",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-scFM-dataselection",
+      "project": "microsoft",
+      "version": "scFM-dataselection",
+      "url": "https://huggingface.co/microsoft/scFM-dataselection",
+      "published_at": "2026-10-14T18:12:09Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11617",
@@ -11880,15 +11943,6 @@
       "published_at": "2026-07-17T08:01:44Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10054",
-      "project": "llama-cpp",
-      "version": "b10054",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10054",
-      "published_at": "2026-07-17T00:29:02Z",
-      "body_excerpt": "docs: added a note about using OpenCl with Adreno 810 (#25786) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
-      "type": "tool"
     }
   ]
 }
