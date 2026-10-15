@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-10-15T04:00:28Z",
+  "updated_at": "2026-10-15T11:08:41Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11643",
+      "project": "llama-cpp",
+      "version": "b11643",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11643",
+      "published_at": "2026-10-15T09:58:02Z",
+      "body_excerpt": "graph: keep the graph non empty without embeddings (#30522) An embedding-only graph has no logits, and build_pooling() returns early when embeddings are off, so since the models no longer expand t_embd the graph ends up empty and its inputs are never allocated. Expand t_embd in that case. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DI",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11642",
+      "project": "llama-cpp",
+      "version": "b11642",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11642",
+      "published_at": "2026-10-15T07:30:48Z",
+      "body_excerpt": "server: save only restorable slot states to the prompt cache (#30498) server: save only restorable slot states to the prompt cache The idle-slot save loop stores every idle slot whenever a task starts, while only completion tasks restore from the prompt cache. Rerank, embedding, decision and infill states fill the cache up to its limit without ever being read back, and slots already cached are off",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11641",
+      "project": "llama-cpp",
+      "version": "b11641",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11641",
+      "published_at": "2026-10-15T06:53:04Z",
+      "body_excerpt": "spec : add lilicorr support (#30506) spec : add lilicorr support convert : use convention for hparam assignment add todo for hparam use in llama-batch.cpp Co-authored-by: Georgi Gerganov typo fix --------- Co-authored-by: Georgi Gerganov Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11640",
+      "project": "llama-cpp",
+      "version": "b11640",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11640",
+      "published_at": "2026-10-15T06:28:04Z",
+      "body_excerpt": "vulkan: Use L2-friendly workgroup scheduling for cm2 mulmat (#30215) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11639",
+      "project": "llama-cpp",
+      "version": "b11639",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11639",
+      "published_at": "2026-10-15T06:04:14Z",
+      "body_excerpt": "opencl: support CLAMP on non-contiguous views (#30186) The clamp kernel indexed source and destination as one flat contiguous array, so a strided view as input (the new CLAMP v=1 case) read the wrong elements. Add a strided kernel_clamp_nc, as the other unary ops have, and take it whenever the source is not contiguous. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silic",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11636",
+      "project": "llama-cpp",
+      "version": "b11636",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11636",
+      "published_at": "2026-10-15T04:50:37Z",
+      "body_excerpt": "sycl: IQ3 code reorder (#29107) sycl: persistent IQ3_S/IQ3_XXS weight reorder for SYCL decode and prefill Add persistent reordered weight layouts for IQ3_S and IQ3_XXS. Weights are reordered once at load time; the reordered MMVQ dot products then walk dense super-blocks with dp4a and SWAR sign expansion instead of gathering bits from the interleaved standard layout. Reorder-aware dequantization fe",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11635",
       "project": "llama-cpp",
@@ -3229,7 +3283,7 @@
       "version": "prebuilt-wheels-cu13",
       "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13",
       "published_at": "2026-09-27T03:16:14Z",
-      "body_excerpt": "Prebuilt CUDA 13 wheels. Linux x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Windows x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.11 on Python 3.11, 3.12 and 3.13; 2.13 and 2.14 on Python 3.13. Linux aarch64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, bui",
+      "body_excerpt": "Prebuilt CUDA 13 wheels. Linux x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Windows x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.10 and 2.11 on Python 3.11, 3.12 and 3.13; 2.13 and 2.14 on Python 3.13. Linux aarch64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.p",
       "type": "tool"
     },
     {
@@ -11916,33 +11970,6 @@
       "published_at": "2026-07-17T11:44:06Z",
       "body_excerpt": "vulkan: Support Q2_0 (#25430) vulkan: Support Q2_0 The backend perf tests for mat-vec-mul weren't very good at first (worse than q2_k), doubling the rows per workgroup made a big difference. reorder resolve merge conflict, adjust err threshold for f16->q2_0 set_rows Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramew",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10057",
-      "project": "llama-cpp",
-      "version": "b10057",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10057",
-      "published_at": "2026-07-17T10:22:26Z",
-      "body_excerpt": "sycl: fix row calculation when K_QUANTS_PER_ITERATION is 1 (#25690) sycl: fix incorrect row calculation when K_QUANTS_PER_ITERATION=1 Signed-off-by: Todd Malsbary sycl: use K_QUANTS_PER_ITERATION for non-reordered Q5_K kernel This is the only Q5_K kernel that was not using KQPI. Signed-off-by: Todd Malsbary sycl: add missing second half processing to reordered q5_k Error found while running GGML_S",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10056",
-      "project": "llama-cpp",
-      "version": "b10056",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10056",
-      "published_at": "2026-07-17T08:33:07Z",
-      "body_excerpt": "opencl: add ABS op (#25115) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Win",
-      "type": "tool"
-    },
-    {
-      "id": "hf-EleutherAI-sae-SmolLM2-1.7B-layer17-32x",
-      "project": "EleutherAI",
-      "version": "sae-SmolLM2-1.7B-layer17-32x",
-      "url": "https://huggingface.co/EleutherAI/sae-SmolLM2-1.7B-layer17-32x",
-      "published_at": "2026-07-17T08:01:44Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
