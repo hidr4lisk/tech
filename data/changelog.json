@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-16T16:22:47Z",
+  "updated_at": "2026-10-16T20:45:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11700",
+      "project": "llama-cpp",
+      "version": "b11700",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11700",
+      "published_at": "2026-10-16T18:33:07Z",
+      "body_excerpt": "model : Granite Switch Decision (#30676) feat(convert): Add decision.chat to support decision models that can also chat Branch: GraniteSwitchDecision AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart feat(convert): Add conversion for Granite Switch as decision model The template follows from the usage sample: Branch: GraniteSwitchDecision AI-usage: draft (Claude + Sonnet 5.5) Signe",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11699",
+      "project": "llama-cpp",
+      "version": "b11699",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11699",
+      "published_at": "2026-10-16T17:57:12Z",
+      "body_excerpt": "common: honor HTTP_PROXY/HTTPS_PROXY env vars in http client (#21752) common: honor HTTP_PROXY/HTTPS_PROXY env vars in http client common_http_client() was ignoring standard proxy env vars, causing downloads via -hf and similar flags to fail silently in environments behind an HTTP proxy (corporate networks, air-gapped infra, etc.). Checks HTTPS_PROXY/https_proxy for https:// URLs and HTTP_PROXY/ht",
+      "type": "tool"
+    },
     {
       "id": "hf-microsoft-scFM-dataselection",
       "project": "microsoft",
@@ -1411,6 +1429,15 @@
       "version": "Qwen3.8-Flash-Next-FP4-Local",
       "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
       "published_at": "2026-10-08T16:20:17Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-GLM-5.3-Flash-FP4-Local",
+      "project": "nvidia",
+      "version": "GLM-5.3-Flash-FP4-Local",
+      "url": "https://huggingface.co/nvidia/GLM-5.3-Flash-FP4-Local",
+      "published_at": "2026-10-08T16:19:57Z",
       "body_excerpt": "",
       "type": "model"
     },

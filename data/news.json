@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-10-16T16:22:40Z",
+  "updated_at": "2026-10-16T20:45:19Z",
   "items": [
+    {
+      "id": "localllama-2026-10-16-improved-qwen38-flash-chat-template-w-sharp-template-terse-o",
+      "source": "localllama",
+      "title": "Improved Qwen3.8-Flash Chat Template (w/ Sharp Template terse option)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7qs31/improved_qwen38flash_chat_template_w_sharp/",
+      "published_at": "2026-10-16T20:15:50Z",
+      "summary": "      I&#39;ve been maintaining my own chat template for Qwen3.8-Flash-Next, and after a discussion in another thread I decided to share it. I made a repo with my v1.4 template, the original Unsloth fixed stock template,",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-rtx-spark-is-faster-than-dgx-spark",
+      "source": "localllama",
+      "title": "RTX Spark is faster than DGX Spark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7q02c/rtx_spark_is_faster_than_dgx_spark/",
+      "published_at": "2026-10-16T19:45:35Z",
+      "summary": "      Alex Ziskind posted a review of a RTX Spark laptop. It&#39;s faster than DGX Spark. He also says there&#39;s no problem with throttling. Go watch his review on youtube.  &#32; submitted by &#32;  /u/fallingdowndizz",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-research-2788-tokenss-on-a-single-rtx-5090-with-a-diffusion",
+      "source": "localllama",
+      "title": "[Research] 2,788 tokens/s on a single RTX 5090 with a diffusion LLM — Introducing ORL (fully open source)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
+      "published_at": "2026-10-16T19:33:04Z",
+      "summary": "      Hey r/LocalLLaMA! We&#39;re excited to share ORL (On-Policy Residual Learning), our new research on making diffusion language models (dLLMs) significantly faster without sacrificing generation quality. With ORL and",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-model-granite-switch-decision-by-gabe-l-hart-pull-request-30",
+      "source": "localllama",
+      "title": "model: Granite switch decision by gabe-l-hart · Pull Request #30676 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7nhp1/model_granite_switch_decision_by_gabelhart_pull/",
+      "published_at": "2026-10-16T18:08:51Z",
+      "summary": "      now you can decide with IBM, locally https://huggingface.co/collections/ibm-granite/granite-switch  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-understanding-how-neural-networks-learn-with-interactive-vis",
+      "source": "localllama",
+      "title": "Understanding How Neural Networks Learn (with interactive visualizations)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7nenr/understanding_how_neural_networks_learn_with/",
+      "published_at": "2026-10-16T18:05:46Z",
+      "summary": "      TL;DR -- Interpretability might be way more tractable than we thought, and the guy who helped convince everyone otherwise is now saying we can understand models by directly studying neurons and their interactions a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-tyger-open-weights-streaming-asr-full-duplex-turn-control-in",
+      "source": "localllama",
+      "title": "Tyger: open-weights streaming ASR + full-duplex turn-control in one model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7msmj/tyger_openweights_streaming_asr_fullduplex/",
+      "published_at": "2026-10-16T17:42:26Z",
+      "summary": "      Hi r/LocalLLaMA, we&#39;re releasing Tyger, a small model that handles full-duplex turn-control for voice agents. What it is Base: NVIDIA Nemotron 3.5 ASR Streaming 0.6B + 14M causal GRU on top. Every 80 ms, with n",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-nemotron-35-bolt-evaluation-using-real-world-tasks",
+      "source": "localllama",
+      "title": "Nemotron 3.5 Bolt Evaluation using real-world tasks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7mig3/nemotron_35_bolt_evaluation_using_realworld_tasks/",
+      "published_at": "2026-10-16T17:31:30Z",
+      "summary": "I evaluate new models by giving them actual work tasks that have already been completed by a trusted model and then comparing the results. My typical workflow is to plan tasks/requests in Gemini and create a markdown spe",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-qwen-27b---sacrificing-context-in-order-run-better-quants-pr",
+      "source": "localllama",
+      "title": "Qwen 27B - sacrificing context in order run better quants, pros and cons.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7m3gf/qwen_27b_sacrificing_context_in_order_run_better/",
+      "published_at": "2026-10-16T17:15:33Z",
+      "summary": "      I was running Unsloth IQ4_XS for a while and while it provided me with a healthy 96K context on 20GB vram, I did notice all the issues it had during draft and all the time and local tokens wasted trying to fix said",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-show-me-your-rack",
+      "source": "localllama",
+      "title": "Show me your rack",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7lw9g/show_me_your_rack/",
+      "published_at": "2026-10-16T17:07:47Z",
+      "summary": "      Ryzen 9600X, 32GB dual channel DDR5, 2x CMP 170HX Ryzen 5700, 32GB dual channel DDR4, 5x Vega 56 Intel i7 9700, 32GB dual channel DDR4, 3070 + 2080ti Ryzen 7500x3D, 32GB dual channel DDR5, 7900xtx + 2x 5600XT 223 G",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-the-debt-fueled-ai-boom-is-cracking",
+      "source": "localllama",
+      "title": "The debt-fueled AI boom is cracking",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7lcdu/the_debtfueled_ai_boom_is_cracking/",
+      "published_at": "2026-10-16T16:47:11Z",
+      "summary": "&#32; submitted by &#32;  /u/slippery   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-16-qwen38-27b-antislop-rld-against-slop-top4-on-eq-bench4",
       "source": "localllama",
@@ -19,116 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7i49v/it_really_just_needs_some_encouragement/",
       "published_at": "2026-10-16T14:44:31Z",
       "summary": "      I know I am probably missing the point of this benchmark, but I wanted to see if the model is capable of generating something better or is that the best it can do. So I gave it some encouragement. I find this with ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-why-do-we-have-models-under-15b-so-rarely-anymore",
-      "source": "localllama",
-      "title": "Why do we have models under 15b so rarely anymore?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g8cc/why_do_we_have_models_under_15b_so_rarely_anymore/",
-      "published_at": "2026-10-16T13:28:12Z",
-      "summary": "Basically title. All labs seem to have agreed 24-27b is the minimum size they will go, nothing below that. I wonder when will we get the next sub 14b model from a SOTA lab  &#32; submitted by &#32;  /u/Hot_Example_4456  ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-reflectionbeam-10-501b-a23b-hugging-face",
-      "source": "localllama",
-      "title": "reflection/Beam-1.0-501B-A23B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/",
-      "published_at": "2026-10-16T13:23:33Z",
-      "summary": "      Beam is an open model built by Reflection. Beam takes text as input and generates text as output. This release includes the instruction-tuned model in BF16, FP8, and NVFP4 numerics. Beam uses a sparse mixture-of-ex",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-china-proposes-export-controls-on-23-ai-technologies-includi",
-      "source": "localllama",
-      "title": "China proposes export controls on 23 AI technologies (including large models, agents & clusters); already open-sourced tech is exempted",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/",
-      "published_at": "2026-10-16T13:22:48Z",
-      "summary": "On October 16, 2026, China’s Ministry of Commerce and Ministry of Science and Technology released a draft revision to the Catalog of Technologies Prohibited and Restricted from Export. It proposes adding 40 technologies ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-nemotron-35-bolt-74-a9b-and-nemotron-35-super-vl-tests",
-      "source": "localllama",
-      "title": "Nemotron-3.5-Bolt-74-A9B and Nemotron-3.5-Super-VL Tests",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7frdn/nemotron35bolt74a9b_and_nemotron35supervl_tests/",
-      "published_at": "2026-10-16T13:07:32Z",
-      "summary": "      The Nemotron-3.5 releases are particularly not so good at the pandas/numpy and DDDM (data-driven decision-making) sections of my domain-specific tests. Medium thinking on Bolt does worse than Nemotron nano. High th",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-beam-10---a-reflection-collection",
-      "source": "localllama",
-      "title": "Beam 1.0 - a reflection Collection",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7fpaq/beam_10_a_reflection_collection/",
-      "published_at": "2026-10-16T13:04:58Z",
-      "summary": "      &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-openmoss-releases-moss-image",
-      "source": "localllama",
-      "title": "OpenMOSS releases MOSS-Image",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7ey7i/openmoss_releases_mossimage/",
-      "published_at": "2026-10-16T12:30:53Z",
-      "summary": "      There&#39;s also a base model. As all OpenMoss releases, they&#39;re Apache licensed. Wonder how this compares to Qwen Image 2.1 and Flux Klein 3.  &#32; submitted by &#32;  /u/ilintar   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-rnvidia-mods-delete-post-about-always-on-mcp-server",
-      "source": "localllama",
-      "title": "r/nvidia mods delete post about always on MCP server",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7ccaj/rnvidia_mods_delete_post_about_always_on_mcp/",
-      "published_at": "2026-10-16T10:11:19Z",
-      "summary": "&#32; submitted by &#32;  /u/parepeg   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-tencenthy-memory-30b-a3b-hugging-face",
-      "source": "localllama",
-      "title": "tencent/Hy-Memory-30B-A3B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7cc2z/tencenthymemory30ba3b_hugging_face/",
-      "published_at": "2026-10-16T10:10:59Z",
-      "summary": "      interesting focus: &quot;A 3B active model beats Opus 5 at memory&quot; (whatever that means :D)  &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-the-actual-state-of-open-weight-models-vs-frontier-models",
-      "source": "localllama",
-      "title": "The actual state of open-weight models vs. frontier models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7bmel/the_actual_state_of_openweight_models_vs_frontier/",
-      "published_at": "2026-10-16T09:27:38Z",
-      "summary": "      It&#39;s clear that today’s SOTA (state-of-the-art) models remain ahead of open-source models. However, if we filter the benchmarks correctly, a different picture emerges compared to what we saw just a few months a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-qwen-flash-next-potential-sota-q2-nobody-talks-about",
-      "source": "localllama",
-      "title": "Qwen Flash Next potential SOTA Q2 nobody talks about",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7bboy/qwen_flash_next_potential_sota_q2_nobody_talks/",
-      "published_at": "2026-10-16T09:08:25Z",
-      "summary": "      Whenever it comes to Strata and low bit QFN discussion, everyone is talking about Unsloth, ISTA-lab and nobody mentions Agantai with his GYRO series of quants - https://huggingface.co/agentionai/Qwen3.8-Flash-Next-",
       "tags": [
         "localllama"
       ]
