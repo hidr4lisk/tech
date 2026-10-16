@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-16T11:03:32Z",
+  "updated_at": "2026-10-16T16:22:47Z",
   "releases": [
+    {
+      "id": "hf-microsoft-scFM-dataselection",
+      "project": "microsoft",
+      "version": "scFM-dataselection",
+      "url": "https://huggingface.co/microsoft/scFM-dataselection",
+      "published_at": "2026-10-16T13:54:04Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "transformers-v5.20.1",
+      "project": "transformers",
+      "version": "v5.20.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
+      "published_at": "2026-10-16T13:02:29Z",
+      "body_excerpt": "Release v5.20.1 Special surprise including the new model Beam from Reflection AI :partying_face: Beam is a token-efficient, frontier-scale model focused on coding and agentic use cases. It is built for teams that want to run a powerful model on their own hardware, infrastructure, or cloud, and customize it to their specific needs. Links: Documentation Fix small bug in auto mappings (#49664) by @yo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11696",
+      "project": "llama-cpp",
+      "version": "b11696",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11696",
+      "published_at": "2026-10-16T11:26:26Z",
+      "body_excerpt": "hexagon: correct HMX FA sinks (#30581) hexagon: correct HMX FA sinks hex-fa: vectorize sinks in hmx kernels --------- Co-authored-by: Max Krasnyansky Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vul",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11695",
+      "project": "llama-cpp",
+      "version": "b11695",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11695",
+      "published_at": "2026-10-16T11:12:36Z",
+      "body_excerpt": "model : MTP support for Mellum2.1 (#30612) model : MTP support for Mellum model : inline rope construction in Mellum Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11693",
       "project": "llama-cpp",
@@ -270,15 +306,6 @@
       "published_at": "2026-10-15T04:50:37Z",
       "body_excerpt": "sycl: IQ3 code reorder (#29107) sycl: persistent IQ3_S/IQ3_XXS weight reorder for SYCL decode and prefill Add persistent reordered weight layouts for IQ3_S and IQ3_XXS. Weights are reordered once at load time; the reordered MMVQ dot products then walk dense super-blocks with dp4a and SWAR sign expansion instead of gathering bits from the interleaved standard layout. Reorder-aware dequantization fe",
       "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-scFM-dataselection",
-      "project": "microsoft",
-      "version": "scFM-dataselection",
-      "url": "https://huggingface.co/microsoft/scFM-dataselection",
-      "published_at": "2026-10-15T04:08:13Z",
-      "body_excerpt": "",
-      "type": "model"
     },
     {
       "id": "llama-cpp-b11635",
@@ -12267,24 +12294,6 @@
       "published_at": "2026-07-19T06:06:04Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10068",
-      "project": "llama-cpp",
-      "version": "b10068",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10068",
-      "published_at": "2026-07-18T13:36:42Z",
-      "body_excerpt": "model: rotate injected K/V cache for DFlash (#25823) dflash: rotate injected K/V cache when using K/V quantization Update src/models/dflash.cpp Co-authored-by: Georgi Gerganov clearer format remove trailing whitespace --------- Co-authored-by: Georgi Gerganov Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10067",
-      "project": "llama-cpp",
-      "version": "b10067",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10067",
-      "published_at": "2026-07-18T12:12:58Z",
-      "body_excerpt": "llama-quant : exclude i32 ffn_gate_tid2eid routing table from quantization (#25787) DeepSeek-V4's ffn_gate_tid2eid tensor is an i32 token-id -> expert-id index table, not weights. It was never added to the name-based exclusion list alongside ffn_gate_inp.weight, so llama-quantize tries to quantize it and fails since i32 cannot convert to a float type. Fixes ggml-org/llama.cpp#25754 Signed-off-by: ",
-      "type": "tool"
     }
   ]
 }
