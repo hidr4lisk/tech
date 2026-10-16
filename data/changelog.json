@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-15T21:08:07Z",
+  "updated_at": "2026-10-16T03:57:13Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11675",
+      "project": "llama-cpp",
+      "version": "b11675",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11675",
+      "published_at": "2026-10-16T02:47:53Z",
+      "body_excerpt": "mtmd: add mtmd_audio_stream + support voxtral-realtime (#30629) mtmd: add mtmd_audio_stream + support voxtral-realtime address review Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11672",
+      "project": "llama-cpp",
+      "version": "b11672",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11672",
+      "published_at": "2026-10-16T02:22:54Z",
+      "body_excerpt": "mtmd: lightonocr does not require longest edge to always be 1540, native resolution is the default (#30600) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11671",
+      "project": "llama-cpp",
+      "version": "b11671",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11671",
+      "published_at": "2026-10-16T00:18:22Z",
+      "body_excerpt": "model: add Muse Spark Open (text, vision and audio) (#30616) model: add Muse Spark Open (text, vision and audio) Muse Spark Open is a latent space MoE: the residual stream stays at 8192 while the 256 experts live in 4096, with a projection down and up around them, top-8 sigmoid routing with a correction bias. Attention interleaves three sliding layers at a 2048 window with rope for one global laye",
+      "type": "tool"
+    },
     {
       "id": "unsloth-v0.1.908-beta",
       "project": "unsloth",
@@ -144,6 +171,15 @@
       "published_at": "2026-10-15T04:50:37Z",
       "body_excerpt": "sycl: IQ3 code reorder (#29107) sycl: persistent IQ3_S/IQ3_XXS weight reorder for SYCL decode and prefill Add persistent reordered weight layouts for IQ3_S and IQ3_XXS. Weights are reordered once at load time; the reordered MMVQ dot products then walk dense super-blocks with dp4a and SWAR sign expansion instead of gathering bits from the interleaved standard layout. Reorder-aware dequantization fe",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-scFM-dataselection",
+      "project": "microsoft",
+      "version": "scFM-dataselection",
+      "url": "https://huggingface.co/microsoft/scFM-dataselection",
+      "published_at": "2026-10-15T04:08:13Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11635",
@@ -297,15 +333,6 @@
       "published_at": "2026-10-14T18:28:26Z",
       "body_excerpt": "models: drop the t_embd expand of the embedding graphs (#30461) These graphs only produce embeddings, and build_pooling() already expands its output for every pooling type, so the expand at the end of the model graph is redundant. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 ",
       "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-scFM-dataselection",
-      "project": "microsoft",
-      "version": "scFM-dataselection",
-      "url": "https://huggingface.co/microsoft/scFM-dataselection",
-      "published_at": "2026-10-14T18:12:09Z",
-      "body_excerpt": "",
-      "type": "model"
     },
     {
       "id": "hf-mistralai-Timestral-123M",
@@ -12158,15 +12185,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10067",
       "published_at": "2026-07-18T12:12:58Z",
       "body_excerpt": "llama-quant : exclude i32 ffn_gate_tid2eid routing table from quantization (#25787) DeepSeek-V4's ffn_gate_tid2eid tensor is an i32 token-id -> expert-id index table, not weights. It was never added to the name-based exclusion list alongside ffn_gate_inp.weight, so llama-quantize tries to quantize it and fails since i32 cannot convert to a float type. Fixes ggml-org/llama.cpp#25754 Signed-off-by: ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10066",
-      "project": "llama-cpp",
-      "version": "b10066",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10066",
-      "published_at": "2026-07-17T23:13:36Z",
-      "body_excerpt": "opencl: load and use from bin kernel lib (#25797) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
       "type": "tool"
     }
   ]
