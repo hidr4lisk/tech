@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-10-16T03:57:13Z",
+  "updated_at": "2026-10-16T11:03:32Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11693",
+      "project": "llama-cpp",
+      "version": "b11693",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11693",
+      "published_at": "2026-10-16T10:56:43Z",
+      "body_excerpt": "[SYCL]: fix memory errors in mul_mat, split buffer, host pool (#29889) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11690",
+      "project": "llama-cpp",
+      "version": "b11690",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11690",
+      "published_at": "2026-10-16T10:19:29Z",
+      "body_excerpt": "common : read ngram cache parts by reference instead of copying (#30061) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11688",
+      "project": "llama-cpp",
+      "version": "b11688",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11688",
+      "published_at": "2026-10-16T10:03:55Z",
+      "body_excerpt": "cpu : reduce AVX2 tiled accumulators together (#30296) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11687",
+      "project": "llama-cpp",
+      "version": "b11687",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11687",
+      "published_at": "2026-10-16T09:40:33Z",
+      "body_excerpt": "ggml-cpu: refactor s309x repack helper functions (#30588) Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11685",
+      "project": "llama-cpp",
+      "version": "b11685",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11685",
+      "published_at": "2026-10-16T09:25:49Z",
+      "body_excerpt": "sycl: wide stores for the q4_K/q5_K weight dequant (#29696) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11684",
+      "project": "llama-cpp",
+      "version": "b11684",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11684",
+      "published_at": "2026-10-16T09:00:00Z",
+      "body_excerpt": "tests : catch vanished rows in the fusion baseline (#30618) tests : update the Metal fusion baseline Re-record the MTL fusion baseline with the current build: 276 rows over 131 dummy models. Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : fail test-fusion when a baseline row stops matching The report was built from the counters the run produced, and the ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11683",
+      "project": "llama-cpp",
+      "version": "b11683",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11683",
+      "published_at": "2026-10-16T08:11:13Z",
+      "body_excerpt": "vulkan: fix gpu-visible host memory issues (#30468) vulkan: fix log spam if host pointer import fails exclude MoltenVK from shared memory import remove unreachable code, assert instead. Shorten warnings disable host memory buffer sharing on AMD due to amdgpu perf issue Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11681",
+      "project": "llama-cpp",
+      "version": "b11681",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11681",
+      "published_at": "2026-10-16T05:47:38Z",
+      "body_excerpt": "graph : add precision handling for MELLUM architecture (#30584) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libra",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11680",
+      "project": "llama-cpp",
+      "version": "b11680",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11680",
+      "published_at": "2026-10-16T05:28:06Z",
+      "body_excerpt": "hexagon: tensor repacking rework and support for tiled and flat quantized and fp weights (#30635) hex-repack: Remove need_repack hack and streamline the rules -- breaks GET_ROWS tests for K-Quants, will fix in the next round Add support for GET_ROWS with tiled Q5_K Add support for raw k-quant tensors hex-get-rows: vectorize raw k-quant ukernels hex-binary: refactor dma-loop thread functions (no ne",
+      "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Muse-Spark-Open-816B-A42B-DFlash2",
+      "project": "nvidia",
+      "version": "Muse-Spark-Open-816B-A42B-DFlash2",
+      "url": "https://huggingface.co/nvidia/Muse-Spark-Open-816B-A42B-DFlash2",
+      "published_at": "2026-10-16T04:40:26Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b11678",
+      "project": "llama-cpp",
+      "version": "b11678",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11678",
+      "published_at": "2026-10-16T04:25:15Z",
+      "body_excerpt": "Limit max CUDA pinned host buffer size to 4 GB (#30449) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubu",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11675",
       "project": "llama-cpp",
