@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-10-16T03:57:08Z",
+  "updated_at": "2026-10-16T11:03:26Z",
   "items": [
+    {
+      "id": "localllama-2026-10-16-tencenthy-memory-30b-a3b-hugging-face",
+      "source": "localllama",
+      "title": "tencent/Hy-Memory-30B-A3B · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7cc2z/tencenthymemory30ba3b_hugging_face/",
+      "published_at": "2026-10-16T10:10:59Z",
+      "summary": "      interesting focus: &quot;A 3B active model beats Opus 5 at memory&quot; (whatever that means :D)  &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-the-actual-state-of-open-weight-models-vs-frontier-models",
+      "source": "localllama",
+      "title": "The actual state of open-weight models vs. frontier models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7bmel/the_actual_state_of_openweight_models_vs_frontier/",
+      "published_at": "2026-10-16T09:27:38Z",
+      "summary": "      It&#39;s clear that today’s SOTA (state-of-the-art) models remain ahead of open-source models. However, if we filter the benchmarks correctly, a different picture emerges compared to what we saw just a few months a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-qwen-flash-next-potential-sota-q2-nobody-talks-about",
+      "source": "localllama",
+      "title": "Qwen Flash Next potential SOTA Q2 nobody talks about",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7bboy/qwen_flash_next_potential_sota_q2_nobody_talks/",
+      "published_at": "2026-10-16T09:08:25Z",
+      "summary": "      Whenever it comes to Strata and low bit QFN discussion, everyone is talking about Unsloth, ISTA-lab and nobody mentions Agantai with his GYRO series of quants - https://huggingface.co/agentionai/Qwen3.8-Flash-Next-",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-model-mtp-support-for-mellum21-by-xarbirus-pull-request-3061",
+      "source": "localllama",
+      "title": "model : MTP support for Mellum2.1 by Xarbirus · Pull Request #30612 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7aple/model_mtp_support_for_mellum21_by_xarbirus_pull/",
+      "published_at": "2026-10-16T08:28:09Z",
+      "summary": "      Mellum2.1 Highlights Mellum2.1 is the next version of Mellum2 Thinking. The architecture is unchanged (a 12B mixture-of-experts model with 2.5B active parameters), and almost all of the work for this version went i",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-new-paper-from-stanford-together-ai-uiuc-and-meta-introduces",
+      "source": "localllama",
+      "title": "New paper from Stanford, Together AI, UIUC, and Meta introduces Hybrid Reasoning Agents. These AI models think mostly in a hidden internal way (faster and cheaper), and only use normal text when they need tools or give the final answer.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7a8i8/new_paper_from_stanford_together_ai_uiuc_and_meta/",
+      "published_at": "2026-10-16T07:58:04Z",
+      "summary": "On many tests (math, science, medicine, etc.), they score about 10% higher, use half the tokens, run twice as fast, and cost much less than regular models. mod here, paper link: [2610.18861] Hybrid Reasoning Agents origi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-cpu-reduce-avx2-tiled-accumulators-together-by-trivalik-pull",
+      "source": "localllama",
+      "title": "cpu : reduce AVX2 tiled accumulators together by trivalik · Pull Request #30296 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7a59i/cpu_reduce_avx2_tiled_accumulators_together_by/",
+      "published_at": "2026-10-16T07:52:47Z",
+      "summary": "      More t/s on CPU, For GPU poor people   &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-deepseek-v41-flash-on-4x-dgx-spark-my-numbers-vs-patrick-moo",
+      "source": "localllama",
+      "title": "DeepSeek V4.1 Flash on 4x DGX Spark: my numbers vs Patrick Moorhead's results via Wccftech.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x79ijg/deepseek_v41_flash_on_4x_dgx_spark_my_numbers_vs/",
+      "published_at": "2026-10-16T07:11:48Z",
+      "summary": "A couple of weeks ago I read this Wccftech article about Patrick Moorhead&#39;s 4 Spark setup. I meant to post this a few days ago but ran some more tests first, and then my workstation had a problem after a kernel and N",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-blenderworld-benchmark-from-alibaba",
+      "source": "localllama",
+      "title": "BlenderWorld Benchmark from Alibaba",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x76d8l/blenderworld_benchmark_from_alibaba/",
+      "published_at": "2026-10-16T04:05:22Z",
+      "summary": "Alibaba&#39;s Qwen team released a new repository on Wednesday, October 14, 2026. Its goal is to measure how well visual agents can create 3D scenes in Blender based on real-world references. https://github.com/QwenLM/Bl",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-drama3-in-audiocpp-up-to-5-faster-than-real-time-at-full-spe",
+      "source": "localllama",
+      "title": "Drama3 in audio.cpp: Up to 5× faster than real time at full speed, or 2× real-time speed with < 8 GB of VRAM on an RTX 5090!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x75uyi/drama3_in_audiocpp_up_to_5_faster_than_real_time/",
+      "published_at": "2026-10-16T03:38:04Z",
+      "summary": "      Drama3 support in audio.cpp was contributed by https://github.com/JarodMica. Many thanks for the great work! So far, follow-up optimizations have primarily focused on CUDA. The model also runs on Vulkan and Metal. ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-16-alodlm-8b-looped-diffusion-language-model-3x-inference-speed",
       "source": "localllama",
@@ -46,72 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-15-deepseek-v4-flash-0731-on-4x-radeon-ai-pro-r9700-with-affini",
-      "source": "localllama",
-      "title": "**DeepSeek-V4-Flash-0731 on 4x Radeon AI PRO R9700 with affinity: the \"refused\" 4-card config works, ~79 tok/s on real cards**",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x70e5r/deepseekv4flash0731_on_4x_radeon_ai_pro_r9700/",
-      "published_at": "2026-10-15T23:06:40Z",
-      "summary": "      Follow-up to u/neuromacmd&#39;s post from a few weeks back (https://www.reddit.com/r/LocalLLaMA/comments/1wod07t/). The affinity engine (https://codeberg.org/StillDeadcode/affinity) refuses to start on more than tw",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-15-craziest-strangest-funniest-and-weirdest-llm-fine-tunes",
-      "source": "localllama",
-      "title": "Craziest, strangest, funniest, and weirdest LLM fine tunes?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6yuc1/craziest_strangest_funniest_and_weirdest_llm_fine/",
-      "published_at": "2026-10-15T21:58:16Z",
-      "summary": " I wanna see a master list of the craziest/strangest/funniest LLM tunes. I heard one was talking like an expert in 1800s military vernacular and I figure there&#39;s some wacky stuff out there. I want to explore weird an",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-15-model-add-muse-spark-open-text-vision-and-audio-by-serveurpe",
-      "source": "localllama",
-      "title": "model: add Muse Spark Open (text, vision and audio) by ServeurpersoCom · Pull Request #30616 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6youd/model_add_muse_spark_open_text_vision_and_audio/",
-      "published_at": "2026-10-15T21:51:31Z",
-      "summary": "      https://huggingface.co/ggml-org/Muse-Spark-Open-816B-A42B-GGUF merged after 4h  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-15-ternary-bonsai-2-family-2b-4b-9b-based-on-qwen-35",
-      "source": "localllama",
-      "title": "Ternary Bonsai 2 Family: 2B, 4B, & 9B based on Qwen 3.5",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6yk1f/ternary_bonsai_2_family_2b_4b_9b_based_on_qwen_35/",
-      "published_at": "2026-10-15T21:45:44Z",
-      "summary": "      Going to try these out to see if they have the same looping behaviors that other Bonsai models have had. Still requires their fork of llama.cpp (branch prism) so dont expect it to work with vanilla llama.cpp. Edit:",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-15-anyone-running-good-open-weight-models-for-development-in-48",
-      "source": "localllama",
-      "title": "anyone running good open weight models for development in 48GB, 64GB or 96GB of RAM?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6x5tk/anyone_running_good_open_weight_models_for/",
-      "published_at": "2026-10-15T20:47:59Z",
-      "summary": "I posted a question the other day in here about good development models, which prompted good discussion. However, it mostly just reinforced my own experience, which is that on a 128GB machine, you can run good open/local",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-15-ibm-granitegranite-switch-41-30b8b",
-      "source": "localllama",
-      "title": "ibm-granite/granite-switch-4.1 30B/8B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wwx2/ibmgranitegraniteswitch41_30b8b/",
-      "published_at": "2026-10-15T20:38:05Z",
-      "summary": "      Granite Switch 4.1 30B 📝 Read the launch blog: Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint Model Summary: Granite Switch 4.1 30B is a modular LLM that composes a base model, multiple adapters ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-10-15-granite-switch-41-chat-decisions-and-speech-from-one-endpoin",
       "source": "huggingface",
       "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
@@ -120,39 +153,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-15-capy-flash-qwen38-flash-next-125b-moe-in-full-nvfp4-on-two-1",
-      "source": "localllama",
-      "title": "capy-flash: Qwen3.8-Flash-Next (125B MoE) in full NVFP4 on two 16 GB consumer GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wh1z/capyflash_qwen38flashnext_125b_moe_in_full_nvfp4/",
-      "published_at": "2026-10-15T20:20:40Z",
-      "summary": "      First, kudos to Strata. It inspired this project, and while I was building it Strata got much faster and added NVFP4 support, which was my main reason for starting. By then I was too far in to stop, so I finished i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-15-ternary-bonsai-2-2b-4b-and-9b-just-released-on-hugging-face",
-      "source": "localllama",
-      "title": "Ternary Bonsai 2 (2B, 4B, and 9B) just released on Hugging Face. The 2B can run entirely locally in the browser at up to 500 tok/s on an M4 Max with custom WebGPU kernels.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/",
-      "published_at": "2026-10-15T20:09:00Z",
-      "summary": "      Models on HF: https://huggingface.co/collections/prism-ml/bonsai-2-small WebGPU demo: https://huggingface.co/spaces/webml-community/ternary-bonsai-2-hermes-webgpu  &#32; submitted by &#32;  /u/xenovatech   [link] &",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-15-fp4-qad-quant-of-qwen38-flash-next-from-nvidia",
-      "source": "localllama",
-      "title": "FP4 QAD quant of Qwen3.8-Flash-Next from Nvidia",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6vqft/fp4_qad_quant_of_qwen38flashnext_from_nvidia/",
-      "published_at": "2026-10-15T19:52:44Z",
-      "summary": "      Size is pretty small at 102GB. For comparison nvidia/Qwen3.8-Flash-Next-NVFP4 is 133GB. Would be cool to see some of the Qwen3.8-FN specific engines support this.  &#32; submitted by &#32;  /u/rerri   [link] &#32; ",
-      "tags": [
-        "localllama"
       ]
     },
     {
