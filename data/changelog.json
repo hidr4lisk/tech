@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-17T10:23:44Z",
+  "updated_at": "2026-10-17T15:17:14Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11712",
+      "project": "llama-cpp",
+      "version": "b11712",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11712",
+      "published_at": "2026-10-17T14:01:29Z",
+      "body_excerpt": "tests: give the random model generator a per-tensor filler table (#30674) tests: give the random model generator a per-tensor filler table Muse Spark makes test-llama-context fail on state_load, cp_h and cp_d on about six percent of the random seeds, with an NMSE of 1.0e-05 to 1.4e-05 against a threshold of 1.0e-05. The sliding window is what exposes it: a restored state keeps the window alone, so",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11711",
+      "project": "llama-cpp",
+      "version": "b11711",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11711",
+      "published_at": "2026-10-17T13:04:16Z",
+      "body_excerpt": "cuda : fix -Wtautological-compare in fattn vec dispatch (#30519) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11710",
+      "project": "llama-cpp",
+      "version": "b11710",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11710",
+      "published_at": "2026-10-17T12:45:54Z",
+      "body_excerpt": "cuda : add grouped experts top-k fusion (#29181) fuse grouped experts add tests hip fix add to graph_optimize apply suggestion from am17an hip fix fix hip fix fix fix fix gate on hip version instead Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11709",
+      "project": "llama-cpp",
+      "version": "b11709",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11709",
+      "published_at": "2026-10-17T12:28:30Z",
+      "body_excerpt": "model : add Kolibri-1 (Aleph-Alpha) support (#30673) model : add Kolibri-1 (Aleph-Alpha) support Kolibri-1 is a bilingual German/English MoE reasoning model with 78B parameters and 3.46B active per token: 50 layers, 384 routed experts plus one shared expert. Attention interleaves four sliding layers at a 513 window with one full layer. The sliding layers rotate with NeoX RoPE, the full layers are ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11707",
       "project": "llama-cpp",
