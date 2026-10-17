@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-17T03:47:01Z",
+  "updated_at": "2026-10-17T10:23:44Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11707",
+      "project": "llama-cpp",
+      "version": "b11707",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11707",
+      "published_at": "2026-10-17T07:50:33Z",
+      "body_excerpt": "model : Granite switch decision 256 options (#30693) feat(convert): Attempt to come up with 256 single-token, semantic option markers Each switch model needs to identify a collection of single-token option markers that can be mapped to their respective logits for the output probability distribution. The simple upper/lower/numbers set only yields 66 unique markers, but the model can support up to 2",
+      "type": "tool"
+    },
+    {
+      "id": "hf-deepseek-ai-DeepSeek-V4.1-Flash-1017",
+      "project": "deepseek-ai",
+      "version": "DeepSeek-V4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "published_at": "2026-10-17T02:40:38Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b11706",
       "project": "llama-cpp",
@@ -12393,15 +12411,6 @@
       "published_at": "2026-07-20T06:29:53Z",
       "body_excerpt": "opencl: Support broadcast for Adreno MUL_MAT and honor for Adreno Q8_0 MUL_MAT for llama-server multi-stream (#25910) opencl: handle broadcast for adreno gemm/gemv_noshuffle opencl: honor view_offs for adreno noshuffle gemm/gemv opencl: general GEMM/GEMV support broadcast opencl: remove unnecessary tests opencl: remove unnecessary comments --------- Co-authored-by: Li He Website: macOS/iOS: macOS ",
       "type": "tool"
-    },
-    {
-      "id": "hf-EleutherAI-bergson-smollm2-scratch-olmo-16k",
-      "project": "EleutherAI",
-      "version": "bergson-smollm2-scratch-olmo-16k",
-      "url": "https://huggingface.co/EleutherAI/bergson-smollm2-scratch-olmo-16k",
-      "published_at": "2026-07-19T06:06:04Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
