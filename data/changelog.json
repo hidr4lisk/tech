@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-17T15:17:14Z",
+  "updated_at": "2026-10-17T20:21:44Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11715",
+      "project": "llama-cpp",
+      "version": "b11715",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11715",
+      "published_at": "2026-10-17T19:34:47Z",
+      "body_excerpt": "ggml-cuda: HIP: use __builtin_amdgcn_perm for q1_0 unpacking (#29927) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11714",
+      "project": "llama-cpp",
+      "version": "b11714",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11714",
+      "published_at": "2026-10-17T16:17:08Z",
+      "body_excerpt": "ui : Discover & Download Models from HF Hub (#29584) common : resolve - download tags and list cached sidecars A Q4_0-mtp style tag now resolves the sidecar file when no model file matches it, so a solo draft or mmproj download actually pulls the file. Cached sidecar files list as their own entries so the state survives a restart, and removing such a tag deletes only the sidecar. Assisted-by: pi:z",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11713",
+      "project": "llama-cpp",
+      "version": "b11713",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11713",
+      "published_at": "2026-10-17T16:00:52Z",
+      "body_excerpt": "CUDA: faster MMVQ for low-bit types (#30517) CUDA: faster MMVQ for low-bit types ggml-cuda: hip: small nwarps GCN fix on Q3_K(ncols=2,3), Q6_K(ncols=4) --------- Co-authored-by: thelittlefireman Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11712",
       "project": "llama-cpp",
