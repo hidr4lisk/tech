@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-10-16T20:45:19Z",
+  "updated_at": "2026-10-17T03:46:55Z",
   "items": [
+    {
+      "id": "localllama-2026-10-17-vllm-finally-working-on-4-x-intel-b70-qfn-38-fp8",
+      "source": "localllama",
+      "title": "vLLM finally working on 4 x Intel B70, QFN 3.8 FP8",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7yxxl/vllm_finally_working_on_4_x_intel_b70_qfn_38_fp8/",
+      "published_at": "2026-10-17T02:33:05Z",
+      "summary": "I think it&#39;s all working. I asked various models to make it all work for me, with the bulk being GLM 5.3 flash. Its not as fast as some of the benchmarks I&#39;ve found but getting them working apparently requires ev",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-17-llamacpp-has-come-a-long-way",
+      "source": "localllama",
+      "title": "llama.cpp has come a long way",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7xbf0/llamacpp_has_come_a_long_way/",
+      "published_at": "2026-10-17T01:08:07Z",
+      "summary": "Hey everyone, English is not my native language (Dutch), but I write in my own words without assistance. So please let me know if any sentence flows weird, etc. A mate of mine told me how amazing local AI was in January ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-17-its-funny-because-its-true",
+      "source": "localllama",
+      "title": "It’s funny because it’s true",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7x1a6/its_funny_because_its_true/",
+      "published_at": "2026-10-17T00:53:44Z",
+      "summary": "      &#32; submitted by &#32;  /u/LatentSpacer   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-17-nvidianvidia-nemotron-labs-dory10-4b-bf16-hugging-face",
+      "source": "localllama",
+      "title": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16 · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7w7dp/nvidianvidianemotronlabsdory104bbf16_hugging_face/",
+      "published_at": "2026-10-17T00:11:45Z",
+      "summary": "      &#32; submitted by &#32;  /u/coder543   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-i-dont-get-the-qwen-38-flash-next-hype",
+      "source": "localllama",
+      "title": "I don't get the qwen 3.8 flash next hype",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7uf15/i_dont_get_the_qwen_38_flash_next_hype/",
+      "published_at": "2026-10-16T22:48:28Z",
+      "summary": "      My experience is based on running Qwen 3.8 Flash Next UD-Q4_K_XL on 4x 3090&#39;s Compared directly to Qwen 3.8 27b Q8 it is not even close. To add to this, strata results were even worse than llama.cpp even though",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-16-quoting-addy-osmani-morgan-westlee-lunt-and-qing-wang",
+      "source": "simonw",
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+      "published_at": "2026-10-16T22:06:37Z",
+      "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"\nAsking that question also changed when review happe",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-10-things-you-maybe-didnt-know-you-can-do-with-qwen-36-27b-r",
+      "source": "localllama",
+      "title": "10 Things you maybe didn't know you can do with Qwen 3.6 27B right now. (For Noobs)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with/",
+      "published_at": "2026-10-16T21:35:36Z",
+      "summary": "       I know everyone&#39;s excited about 3.8, but honestly I&#39;m still refining 3.6. And I hate the way 3.8 talks, so...  I keep seeing all these posts about what&#39;s the use of open source, so I figured I&#39;d su",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-dario-with-open-source-you-can-see-the-source-code-here-we-c",
+      "source": "localllama",
+      "title": "Dario: “With open source you can see the source code. Here we can’t see inside the model.” My 0.646 t/s MiMo-2.6-Pro crammed thru 128GB of Jetson AGX Thor: “Yeah, well, that’s just, like, your opinion, man.”",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sbxs/dario_with_open_source_you_can_see_the_source/",
+      "published_at": "2026-10-16T21:18:51Z",
+      "summary": "      Tracked my first run of MiMo Pro on a Jetson AGX Thor at a scorching 0.646 tokens/sec,.. but it DID technically load and run, so it counts. Every decoder layer, routed expert, SSD read (..a good bit more) traced an",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-qwen38-flash-next-gsq-rco-iq3-s-40-50-toksec-decode-1300-150",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next-GSQ-RCO (IQ3_S): ~40-50 tok/sec decode & 1300-1500 tok/sec prefill at 131k ctx on 12GB VRAM + 32GB RAM + NVME",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sbdc/qwen38flashnextgsqrco_iq3_s_4050_toksec_decode/",
+      "published_at": "2026-10-16T21:18:11Z",
+      "summary": "I got Qwen3.8-Flash-Next-GSQ-RCO-Abliterated running at IQ3_S with just 12GB VRAM + 32GB RAM + NVME, achieving 40-50 tok/sec decode &amp; 1300-1500 tok/sec prefill @ 131k context (44k thinking budget), on a custom fork o",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-16-kimi-k3-three-months-after-the-hype-too-big-for-almost-anyon",
+      "source": "localllama",
+      "title": "Kimi K3, three months after the hype: too big for almost anyone to run locally, and smaller models have already caught it",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7s89u/kimi_k3_three_months_after_the_hype_too_big_for/",
+      "published_at": "2026-10-16T21:14:31Z",
+      "summary": "K3 came out in July hyped as the best open model you could download, and it scored 57 on Artificial Analysis, right up there with Opus 4.8 and GPT-5.5. I went back to see what running it actually looks like now, using Un",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-16-improved-qwen38-flash-chat-template-w-sharp-template-terse-o",
       "source": "localllama",
@@ -30,105 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
       "published_at": "2026-10-16T19:33:04Z",
       "summary": "      Hey r/LocalLLaMA! We&#39;re excited to share ORL (On-Policy Residual Learning), our new research on making diffusion language models (dLLMs) significantly faster without sacrificing generation quality. With ORL and",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-model-granite-switch-decision-by-gabe-l-hart-pull-request-30",
-      "source": "localllama",
-      "title": "model: Granite switch decision by gabe-l-hart · Pull Request #30676 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7nhp1/model_granite_switch_decision_by_gabelhart_pull/",
-      "published_at": "2026-10-16T18:08:51Z",
-      "summary": "      now you can decide with IBM, locally https://huggingface.co/collections/ibm-granite/granite-switch  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-understanding-how-neural-networks-learn-with-interactive-vis",
-      "source": "localllama",
-      "title": "Understanding How Neural Networks Learn (with interactive visualizations)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7nenr/understanding_how_neural_networks_learn_with/",
-      "published_at": "2026-10-16T18:05:46Z",
-      "summary": "      TL;DR -- Interpretability might be way more tractable than we thought, and the guy who helped convince everyone otherwise is now saying we can understand models by directly studying neurons and their interactions a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-tyger-open-weights-streaming-asr-full-duplex-turn-control-in",
-      "source": "localllama",
-      "title": "Tyger: open-weights streaming ASR + full-duplex turn-control in one model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7msmj/tyger_openweights_streaming_asr_fullduplex/",
-      "published_at": "2026-10-16T17:42:26Z",
-      "summary": "      Hi r/LocalLLaMA, we&#39;re releasing Tyger, a small model that handles full-duplex turn-control for voice agents. What it is Base: NVIDIA Nemotron 3.5 ASR Streaming 0.6B + 14M causal GRU on top. Every 80 ms, with n",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-nemotron-35-bolt-evaluation-using-real-world-tasks",
-      "source": "localllama",
-      "title": "Nemotron 3.5 Bolt Evaluation using real-world tasks",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7mig3/nemotron_35_bolt_evaluation_using_realworld_tasks/",
-      "published_at": "2026-10-16T17:31:30Z",
-      "summary": "I evaluate new models by giving them actual work tasks that have already been completed by a trusted model and then comparing the results. My typical workflow is to plan tasks/requests in Gemini and create a markdown spe",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-qwen-27b---sacrificing-context-in-order-run-better-quants-pr",
-      "source": "localllama",
-      "title": "Qwen 27B - sacrificing context in order run better quants, pros and cons.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7m3gf/qwen_27b_sacrificing_context_in_order_run_better/",
-      "published_at": "2026-10-16T17:15:33Z",
-      "summary": "      I was running Unsloth IQ4_XS for a while and while it provided me with a healthy 96K context on 20GB vram, I did notice all the issues it had during draft and all the time and local tokens wasted trying to fix said",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-show-me-your-rack",
-      "source": "localllama",
-      "title": "Show me your rack",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7lw9g/show_me_your_rack/",
-      "published_at": "2026-10-16T17:07:47Z",
-      "summary": "      Ryzen 9600X, 32GB dual channel DDR5, 2x CMP 170HX Ryzen 5700, 32GB dual channel DDR4, 5x Vega 56 Intel i7 9700, 32GB dual channel DDR4, 3070 + 2080ti Ryzen 7500x3D, 32GB dual channel DDR5, 7900xtx + 2x 5600XT 223 G",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-the-debt-fueled-ai-boom-is-cracking",
-      "source": "localllama",
-      "title": "The debt-fueled AI boom is cracking",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7lcdu/the_debtfueled_ai_boom_is_cracking/",
-      "published_at": "2026-10-16T16:47:11Z",
-      "summary": "&#32; submitted by &#32;  /u/slippery   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-qwen38-27b-antislop-rld-against-slop-top4-on-eq-bench4",
-      "source": "localllama",
-      "title": "Qwen3.8-27B-antislop, RL’d against slop, top4 on eq bench4",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7j0sx/qwen3827bantislop_rld_against_slop_top4_on_eq/",
-      "published_at": "2026-10-16T15:19:25Z",
-      "summary": "      https://preview.redd.it/tu63jjp1juvh1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=ee61a9b9212a6d4e3e3a113d8c0f60e3fd25db53 I RLed qwen27b in style of RL XAR by meta, and now its doesnt feel like a sloppy mode",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-16-it-really-just-needs-some-encouragement-qwen38-27b-ud-iq4-xs",
-      "source": "localllama",
-      "title": "It really just needs some encouragement (Qwen3.8-27B-UD-IQ4_XS)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7i49v/it_really_just_needs_some_encouragement/",
-      "published_at": "2026-10-16T14:44:31Z",
-      "summary": "      I know I am probably missing the point of this benchmark, but I wanted to see if the model is capable of generating something better or is that the best it can do. So I gave it some encouragement. I find this with ",
       "tags": [
         "localllama"
       ]
@@ -208,6 +219,17 @@
       "summary": "",
       "tags": [
         "huggingface"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-15-latex-renderer",
+      "source": "simonw",
+      "title": "LaTeX renderer",
+      "url": "https://simonwillison.net/2026/Oct/15/latex/",
+      "published_at": "2026-10-15T02:07:28Z",
+      "summary": "Tool: LaTeX renderer\n        Inspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office, which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, C",
+      "tags": [
+        "simonw"
       ]
     },
     {
@@ -376,17 +398,6 @@
       ]
     },
     {
-      "id": "simonw-2026-10-12-profiling-web-edit-with-python-315-flame-graphs-and-source-h",
-      "source": "simonw",
-      "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
-      "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
-      "published_at": "2026-10-12T16:58:00Z",
-      "summary": "Research: Profiling web-edit with Python 3.15: flame graphs and source heatmaps\n        I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app:\n\n",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "meta-2026-10-12-shipping-media-over-quic-at-meta-scale-for-instagram-live-in",
       "source": "meta",
       "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
@@ -417,17 +428,6 @@
       "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across s",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-12-web-edit-01a0",
-      "source": "simonw",
-      "title": "web-edit 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
-      "published_at": "2026-10-12T15:54:36Z",
-      "summary": "Release: web-edit 0.1a0\n        I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.\nSo... I ",
-      "tags": [
-        "simonw"
       ]
     },
     {
