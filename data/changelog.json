@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-18T03:53:43Z",
+  "updated_at": "2026-10-18T10:41:56Z",
   "releases": [
+    {
+      "id": "vllm-v0.32.0",
+      "project": "vllm",
+      "version": "v0.32.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+      "published_at": "2026-10-18T06:50:48Z",
+      "body_excerpt": "v0.32.0 Highlights This release features 814 commits from 363 contributors (121 new)! Structured decisions and generic parsers: the new endpoint answers , and questions over a structured state (#59299), is served by default (#60677, #60696), and also runs on (#61064), (#60676) and DiffusionGemma (#60466). The new tool and reasoning parser (, ) reads the checkpoint's , so models that ship it need n",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11718",
+      "project": "llama-cpp",
+      "version": "b11718",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11718",
+      "published_at": "2026-10-18T04:42:47Z",
+      "body_excerpt": "Restore ESIMD kernels on FFN path (#30239) Reenable ESIMD on the FFN path Signed-off-by: Todd Malsbary Extend ESIMD fusion on FFN path to include Q8_0 Signed-off-by: Todd Malsbary Remove comment explicitly referencing ESIMD in test-backend-ops Signed-off-by: Todd Malsbary --------- Signed-off-by: Todd Malsbary Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11717",
       "project": "llama-cpp",
@@ -12491,15 +12509,6 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.501-beta",
       "published_at": "2026-07-20T14:06:46Z",
       "body_excerpt": "Hey everyone! This release brings local LLM training and inference to AMD GPUs across Windows, WSL and Linux. Read our AMD Blog + Guide Starting today, our AMD collaboration, custom Triton kernels, and math algorithms enables you to train and run 500+ models across AMD's Radeon, Instinct, Ryzen and data center GPUs, up to 2× faster with 70% less VRAM and no accuracy loss. Optimized ROCm builds als",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10069",
-      "project": "llama-cpp",
-      "version": "b10069",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10069",
-      "published_at": "2026-07-20T06:29:53Z",
-      "body_excerpt": "opencl: Support broadcast for Adreno MUL_MAT and honor for Adreno Q8_0 MUL_MAT for llama-server multi-stream (#25910) opencl: handle broadcast for adreno gemm/gemv_noshuffle opencl: honor view_offs for adreno noshuffle gemm/gemv opencl: general GEMM/GEMV support broadcast opencl: remove unnecessary tests opencl: remove unnecessary comments --------- Co-authored-by: Li He Website: macOS/iOS: macOS ",
       "type": "tool"
     }
   ]
