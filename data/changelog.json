@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-18T15:38:52Z",
+  "updated_at": "2026-10-18T20:22:23Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11721",
+      "project": "llama-cpp",
+      "version": "b11721",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11721",
+      "published_at": "2026-10-18T18:04:19Z",
+      "body_excerpt": "cuda : fuse qwen4exp's SCALE -> SIGMOID -> SCALE -> hc_post chain (#30602) Port of the Vulkan HC_POST_GATE fusion (#29520). hc_combine builds the hc_post weights as 2sigmoid(inject/hc); dsv4_hc_post_f32 now takes a gated template flag and computes scale_outsigmoid(scale_in*p) from the raw weights, so the chain runs as one kernel instead of four. Website: Attestations: macOS/iOS: macOS Apple Silico",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11720",
+      "project": "llama-cpp",
+      "version": "b11720",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11720",
+      "published_at": "2026-10-18T17:36:42Z",
+      "body_excerpt": "ggml: support non-contiguous SUM (CPU, CUDA, Vulkan, WebGPU) (#28851) ggml: support non-contiguous SUM (CPU, CUDA) tests: add non-contiguous SUM cases tests: SUM over non-contiguous views vulkan: support non-contiguous SUM webgpu: support non-contiguous SUM Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCF",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11719",
       "project": "llama-cpp",
