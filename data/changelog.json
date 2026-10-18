@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-10-18T10:41:56Z",
+  "updated_at": "2026-10-18T15:38:52Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11719",
+      "project": "llama-cpp",
+      "version": "b11719",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11719",
+      "published_at": "2026-10-18T11:11:37Z",
+      "body_excerpt": "ggml-cuda: fattn do not check oob if k_VKQ_max = (k_VKQ_max - nbatch_fa) (#30572) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13)",
+      "type": "tool"
+    },
     {
       "id": "vllm-v0.32.0",
       "project": "vllm",
@@ -12491,24 +12500,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2",
       "published_at": "2026-07-20T21:00:30Z",
       "body_excerpt": "Withdrawn, please use 0.32.3 or newer",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.50-beta",
-      "project": "unsloth",
-      "version": "v0.1.50-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.50-beta",
-      "published_at": "2026-07-20T14:06:46Z",
-      "body_excerpt": "Hey everyone! This release brings local LLM training and inference to AMD GPUs across Windows, WSL and Linux. Read our AMD Blog + Guide Starting today, our AMD collaboration, custom Triton kernels, and math algorithms enables you to train and run 500+ models across AMD's Radeon, Instinct, Ryzen and data center GPUs, up to 2× faster with 70% less VRAM and no accuracy loss. Optimized ROCm builds als",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.501-beta",
-      "project": "unsloth",
-      "version": "v0.1.501-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.501-beta",
-      "published_at": "2026-07-20T14:06:46Z",
-      "body_excerpt": "Hey everyone! This release brings local LLM training and inference to AMD GPUs across Windows, WSL and Linux. Read our AMD Blog + Guide Starting today, our AMD collaboration, custom Triton kernels, and math algorithms enables you to train and run 500+ models across AMD's Radeon, Instinct, Ryzen and data center GPUs, up to 2× faster with 70% less VRAM and no accuracy loss. Optimized ROCm builds als",
       "type": "tool"
     }
   ]
