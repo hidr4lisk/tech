@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-17T20:21:44Z",
+  "updated_at": "2026-10-18T03:53:43Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11717",
+      "project": "llama-cpp",
+      "version": "b11717",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11717",
+      "published_at": "2026-10-18T02:50:12Z",
+      "body_excerpt": "hexagon: add support for hadamard MUL_MAT and GET_ROW for flat and tiled Q1_0 and Q2_0 (#30627) hex-hadamard: add support for hadamard ops hex-mm: reduce pkt counts in the q8_1 quantizer and vec_dot_q1 hex-q1/q2: add support for flat and tiled GET_ROWS for Q1_0 and Q2_0 --------- Co-authored-by: Max Krasnyansky Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm6",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.7-rc0",
+      "project": "ollama",
+      "version": "v0.40.7-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0",
+      "published_at": "2026-10-18T00:28:57Z",
+      "body_excerpt": "What's Changed openai: allow Responses effort on non-thinking models by @hoyyeva in llama-server: let llama-server infer the draft speculative type by @dhiltgen in mlx: add PPLX Decider v1.2 support by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11716",
+      "project": "llama-cpp",
+      "version": "b11716",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11716",
+      "published_at": "2026-10-17T21:11:34Z",
+      "body_excerpt": "hexagon: add support for Q1_0 and Q2_0 (#30122) hexagon: add support for q1_0 quant hexagon: enable Q1_0 weights in the 2D HMX MUL_MAT path hex-q1: cleanup gates, generalize tiling and remove in-loop divs hex-tiling: document tiled formats in developer.md and update htp-tensor.h hex-q2: add support for Q2_0 hex-q2: remove stale asserts and speacial cases hex-mm: fix MUL_MAT_NX assumption about squ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11715",
       "project": "llama-cpp",
