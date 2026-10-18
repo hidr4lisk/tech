@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-10-18T15:38:48Z",
+  "updated_at": "2026-10-18T20:22:18Z",
   "items": [
+    {
+      "id": "localllama-2026-10-18-is-there-a-strata-for-lfm-24b-a2b",
+      "source": "localllama",
+      "title": "Is there a Strata for lfm 24b a2b",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9b3df/is_there_a_strata_for_lfm_24b_a2b/",
+      "published_at": "2026-10-18T18:52:45Z",
+      "summary": "Is there a fork of strata that let me run lfm 24b a2b on only 16GB of ram comfortably? And how much tps can I expect per second and what quantization should I use? and Thanks!  &#32; submitted by &#32;  /u/Puzzleheaded_A",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-18-embedding-model-can-be-used-to-search-text-inside-image",
+      "source": "localllama",
+      "title": "Embedding model can be used to search text inside image",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9acj4/embedding_model_can_be_used_to_search_text_inside/",
+      "published_at": "2026-10-18T18:22:43Z",
+      "summary": "      Just something I&#39;ve been testing over few week since Embedding Gemma 2 released which is about 330MB at Q8. Not sure if this would count as &#39;resource&#39; flair... Image shows cosine similarity changes as I",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-18-psa-power-limit-your-5090s",
+      "source": "localllama",
+      "title": "PSA: Power limit your 5090s!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x98bby/psa_power_limit_your_5090s/",
+      "published_at": "2026-10-18T17:02:33Z",
+      "summary": "      Apparently whilst doing some performance tuning on my 4x5090 rig I may have made things a little TOO fast and melted my plug and socket 🫠 Probably should put in a 16/20 amp socket in the wall rather than relying on",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-18-unslothdeepseek-v41-flash-1017-gguf-hugging-face",
       "source": "localllama",
@@ -8,6 +41,17 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x95491/unslothdeepseekv41flash1017gguf_hugging_face/",
       "published_at": "2026-10-18T14:51:58Z",
       "summary": "      no document or announcement from unslot team yet   &#32; submitted by &#32;  /u/MundanePercentage674   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-18-browsecomp-plus-mini-15-of-browsecomp-pluss-830-queries-that",
+      "source": "localllama",
+      "title": "browsecomp-plus-mini: 15 of BrowseComp-Plus's 830 queries that rank deep-research agents roughly like the full set, no LLM judge",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x94mu0/browsecompplusmini_15_of_browsecomppluss_830/",
+      "published_at": "2026-10-18T14:30:57Z",
+      "summary": "I needed a cheap way to compare search agents on BrowseComp-Plus without burning hours of agent time every run. So I built a 15-query subset of the full 830 that ranks systems roughly the way the full benchmark does.  - ",
       "tags": [
         "localllama"
       ]
@@ -85,50 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8yfho/the_new_local_coding_llms_are_pretty_decent_and_a/",
       "published_at": "2026-10-18T08:55:28Z",
       "summary": "      So I created this simple test (for myself) to see how good the new models are in analytic output. This is not asking them to draw a SVG (which just tests how much SVG or HTML they saw) but creating a prompt that ex",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-agens-volundr-32b-v1-we-fixed-what-you-flagged-in-the-previe",
-      "source": "localllama",
-      "title": "Agens Volundr 32B v1: we fixed what you flagged in the Preview. 0/50 loops, session continuation, and an MIT engine that runs it with 262K context (measured to 239K) within a 16 GB budget",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8yc8d/agens_volundr_32b_v1_we_fixed_what_you_flagged_in/",
-      "published_at": "2026-10-18T08:49:35Z",
-      "summary": "      https://reddit.com/link/1x8yc8d/video/hosf7c1n27wh1/player Hi r/LocalLLaMA. I&#39;m on the team at Blockway (disclosure: this is our model). Two weeks ago we posted the Volundr 32B Preview here, and you were blunt ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-told-qwen38-27b-to-hack-my-router",
-      "source": "localllama",
-      "title": "told Qwen3.8 27b to hack my router",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8wmbp/told_qwen38_27b_to_hack_my_router/",
-      "published_at": "2026-10-18T07:02:09Z",
-      "summary": "i wanted to change my router firmware to openwrt and so i told claude to do it but of course the guard blocked me even opus 4.8 didn&#39;t want to do it , so i launched my Qwen3.8 27b and told it the same thing i gave it",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-made-sum-crap-that-beats-jev",
-      "source": "localllama",
-      "title": "Made sum crap that beats Jev",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8vl4i/made_sum_crap_that_beats_jev/",
-      "published_at": "2026-10-18T06:00:00Z",
-      "summary": "I would love for some feedback, live demo at:  huggingface.co/spaces/e12ex2/herbert-demo Not self promo, jus looking for some feedback on what to improve or any bugs or model breaking you found.   &#32; submitted by &#32",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-we-all-joke-about-our-rigs-being-space-heaters-so-i-had-qwen",
-      "source": "localllama",
-      "title": "We all joke about our rigs being space heaters, so I had Qwen vibecode it",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8v97a/we_all_joke_about_our_rigs_being_space_heaters_so/",
-      "published_at": "2026-10-18T05:40:13Z",
-      "summary": "With winter coming up where I&#39;m at, I wanted to see if this could actually work. Running my 4x V620 server flat out made my apartment too hot anyway, so the problem really was control. I settled on using a motherboar",
       "tags": [
         "localllama"
       ]
