@@ -1,136 +1,180 @@
 {
-  "updated_at": "2026-10-19T12:40:30Z",
+  "updated_at": "2026-10-19T22:09:51Z",
   "items": [
     {
-      "id": "localllama-2026-10-19-minimax-m31-flash-released-model-weights-oct-23",
+      "id": "localllama-2026-10-19-jev-based-adaptive-thinking-for-llms",
       "source": "localllama",
-      "title": "MiniMax M3.1 Flash released, Model weights Oct 23",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9uzv9/minimax_m31_flash_released_model_weights_oct_23/",
-      "published_at": "2026-10-19T12:01:44Z",
-      "summary": "      &#32; submitted by &#32;  /u/MagicZhang   [link] &#32; [comments] ",
+      "title": "Jev Based Adaptive Thinking for LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa9ffa/jev_based_adaptive_thinking_for_llms/",
+      "published_at": "2026-10-19T21:18:28Z",
+      "summary": "      Hi, I experimented with the following idea, using JEV logic to make the thinking process of LLMs adaptive.  For every single word we measure the entropy and when the model is unsure we use a JEV like gate where we ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-deepseek-v41-flash-at-261-bpw-engram-26-ts-on-dual-rtx-3090s",
+      "id": "localllama-2026-10-19-gamesummoner-ease-of-local-use-update",
       "source": "localllama",
-      "title": "DeepSeek V4.1 Flash at 2.61 bpw + Engram: 26 t/s on dual RTX 3090s with dsx",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9umtv/deepseek_v41_flash_at_261_bpw_engram_26_ts_on/",
-      "published_at": "2026-10-19T11:43:42Z",
-      "summary": "Using u/lxe&#39;s https://github.com/lxe/dsx engine, I created DeepSeek-V4.1-Flash-1017-dsx-2.6bit for programming and agentic tasks. The model&#39;s weight will be fully uploaded in 2 hours.   Config Experts KL ↓ Top-1 ",
+      "title": "GameSummoner: ease of local use update",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa968x/gamesummoner_ease_of_local_use_update/",
+      "published_at": "2026-10-19T21:08:49Z",
+      "summary": "      Hey LocalLLaMA, I released GameSummoner a bit over a week ago as an open source program and said &quot;it works locally, but is a bit hard to use.&quot; (Post) Over the last few days I&#39;ve cleaned up my prod hos",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-qwen38-27b-and-flash-next-on-consumer-hardware-engine-number",
+      "id": "localllama-2026-10-19-i-built-an-app-to-efficiently-run-decision-models-on-the-app",
       "source": "localllama",
-      "title": "Qwen3.8-27B and Flash-Next on consumer hardware: engine numbers I could verify, and what they cost with 2026 RAM prices",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9tzf1/qwen3827b_and_flashnext_on_consumer_hardware/",
-      "published_at": "2026-10-19T11:09:56Z",
-      "summary": "I&#39;ve been keeping a list of the engines that run Qwen3.8-27B and Flash-Next on consumer hardware, mostly to see where my own engine (capy-flash) stands. Sharing it because most numbers going around aren&#39;t compara",
+      "title": "I built an app to efficiently run decision models on the Apple Neural Engine with Shortcuts actions for OS automations",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa7ytv/i_built_an_app_to_efficiently_run_decision_models/",
+      "published_at": "2026-10-19T20:23:15Z",
+      "summary": "      LiquidAI d1-3B is currently on the Pareto frontier of the Decision Index 0.3.2 https://huggingface.co/spaces/multimodalart/jev-decision-index, and you can run it on the ANE with around 40 ms latency on warm short-c",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-llama-servers-default-port-changed-from-8080-to-9931",
+      "id": "localllama-2026-10-19-lets-delve-into-the-tapestry-of-ai-slop-on-rlocalllama",
       "source": "localllama",
-      "title": "llama server's default port changed from 8080 to 9931",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9tbg2/llama_servers_default_port_changed_from_8080_to/",
-      "published_at": "2026-10-19T10:32:07Z",
-      "summary": "Ref: release, PR Starting from v0.7.0, the default port for llama server is now 9931 (ggml). Those who did not explicitly set the port, expect breaking change upon upgrading. Those who use harnesses that have hardcoded 8",
+      "title": "Let's delve into the tapestry of AI slop on r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa7hi8/lets_delve_into_the_tapestry_of_ai_slop_on/",
+      "published_at": "2026-10-19T20:05:12Z",
+      "summary": "Hi everyone, I got annoyed a bit with all the AI slop post I have seen here on this subreddit (and reddit in general). It has gotten better in the last few months, but that hasn&#39;t stopped me from doing an in depth an",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-minimax-m31-flash-is-coming",
+      "id": "localllama-2026-10-19-has-anyone-else-here-found-a-place-for-diffusiongemma-in-the",
       "source": "localllama",
-      "title": "MiniMax-M3.1-Flash is coming",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9suvs/minimaxm31flash_is_coming/",
-      "published_at": "2026-10-19T10:05:08Z",
-      "summary": "      From MiniMax (official) on 𝕏: https://x.com/MiniMax_AI/status/2112111925975032241  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
+      "title": "Has anyone else here found a place for DiffusionGemma in their local work?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa6ykz/has_anyone_else_here_found_a_place_for/",
+      "published_at": "2026-10-19T19:46:24Z",
+      "summary": "So, I was always really fascinated with the idea of a smart/capable-enough model that worked at blazing fast speed. I assumed we needed some kind of ASIC-style dedicated hardware for a specific LLM to manage that, but th",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-ai-labs-report-benchmark-scores-64-higher-than-independent-t",
+      "id": "localllama-2026-10-19-strata-2-beta-running-at-half-speed",
       "source": "localllama",
-      "title": "AI labs report benchmark scores 6.4% higher than independent testers, on average",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9skrx/ai_labs_report_benchmark_scores_64_higher_than/",
-      "published_at": "2026-10-19T09:47:55Z",
-      "summary": "      I&#39;ve been building whatmodel.sh, an open source AI leaderboard, and wanted to see how a labs&#39; own benchmark scores compare with independent testers. Using 1,629 published benchmark results, I matched 611 co",
+      "title": "Strata 2 beta running at half speed?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa5dse/strata_2_beta_running_at_half_speed/",
+      "published_at": "2026-10-19T18:48:24Z",
+      "summary": "Been using strata 1.45 for a while. Updated to 2.0 beta this morning and my speeds are almost halved? Had been getting around 155 t/s on my dual 4090s with the Q3S swift 1.5 but am now getting around 95 t/s.  Anyone else",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-incoaiqwen38-flash-next-dflash2",
+      "id": "localllama-2026-10-19-i-checked-bitnet-and-bonsai-on-cpu-against-references-bitnet",
       "source": "localllama",
-      "title": "incoai/Qwen3.8-Flash-Next-DFlash2",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9rq3r/incoaiqwen38flashnextdflash2/",
-      "published_at": "2026-10-19T08:55:02Z",
-      "summary": "      By the original authors of DFlash 2 It&#39;s about 20% faster than MTP in their table when concurrency 1.  &#32; submitted by &#32;  /u/rerri   [link] &#32; [comments] ",
+      "title": "I checked BitNet and Bonsai on CPU against references: bitnet.cpp main still gives wrong output, Bonsai 1.7B is correct wherever it loads, and ik_llama.cpp with -rtr is usually fastest",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa3yqk/i_checked_bitnet_and_bonsai_on_cpu_against/",
+      "published_at": "2026-10-19T17:57:01Z",
+      "summary": "      I wanted to know which low-bit (1-bit / ternary / 2-bit) GGUF files actually give correct output on CPU, and how fast they run, so I compared each runtime against a reference instead of judging by how the text look",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-kapitsa-open-source-apple-silicon-optimized-metal-engine-bui",
+      "id": "meta-2026-10-19-genrecs-tokenization-transforming-ads-recommendation-at-meta",
+      "source": "meta",
+      "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
+      "url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
+      "published_at": "2026-10-19T16:00:47Z",
+      "summary": "Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers. Leveraging the world kn",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-llamacpp-support-for-cohere-models",
       "source": "localllama",
-      "title": "Kapitsa: open-source Apple Silicon optimized Metal engine built for Qwen and Nemotron. See benchmarks of Qwen 27B, Nemotron + 8 other models on an M1 Pro (16GB), M4 Pro (48GB) and M5 Max (128GB)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9pzt0/kapitsa_opensource_apple_silicon_optimized_metal/",
-      "published_at": "2026-10-19T07:04:45Z",
-      "summary": "      hey, my name is Ye, I vibecode at Nace.ai and we do a lot of work with enterprises, and a lot of the time we&#39;re inside their networks with no internet access and outdated cloud hosted models. considering we wor",
+      "title": "llama.cpp support for Cohere models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models/",
+      "published_at": "2026-10-19T15:43:29Z",
+      "summary": "      Hey guys, Nick here from Cohere. It&#39;s been a minute.  We had a great time launching Command A+ and beta-testing North Mini Code with you guys earlier this year, your feedback has really helped make our models a",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-ltx-25-running-locally-on-a-48gb-m5-pro-macbook-pro-in-tenso",
+      "id": "localllama-2026-10-19-we-built-our-own-inference-engine-so-a-32b-model-could-keep",
       "source": "localllama",
-      "title": "LTX 2.5 running locally on a 48GB M5 Pro MacBook Pro in TensorSharp’s Video Studio",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9p6cp/ltx_25_running_locally_on_a_48gb_m5_pro_macbook/",
-      "published_at": "2026-10-19T06:12:26Z",
-      "summary": "      I maintain TensorSharp, an open-source local inference engine and agent runtime. I’ve added Video Studio to bring local video generation, an editable timeline, and an optional local LLM assistant into the same proj",
+      "title": "We built our own inference engine so a 32B model could keep 262K context inside a 16 GB GPU budget. Here's an uncut run.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa02iw/we_built_our_own_inference_engine_so_a_32b_model/",
+      "published_at": "2026-10-19T15:32:37Z",
+      "summary": "      Hey r/LocalLLaMA, Blockway here, a small team from Hong Kong. After our v1 post, the most common question was basically &quot;ok, but why does this model exist?&quot; Totally fair. Here&#39;s our honest answer. The",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-deepseek-v41-flash-1017-on-aa-vals-index",
+      "id": "meta-2026-10-19-the-thin-orchestrator-how-we-made-our-ai-agents-more-reliabl",
+      "source": "meta",
+      "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+      "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+      "published_at": "2026-10-19T15:30:37Z",
+      "summary": "Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach.  At Meta, we&#8217;ve seen notable improvements in efficiency and accuracy by keeping the orchestration layer of our data pipeline agents",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-6m-param-character-renderer-one-reference-image-in-a-minute",
       "source": "localllama",
-      "title": "DeepSeek-V4.1-Flash-1017 on AA & Vals index",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9owju/deepseekv41flash1017_on_aa_vals_index/",
-      "published_at": "2026-10-19T05:56:18Z",
-      "summary": "      DeepSeek-V4.1-Flash-1017&#39;s Terminal bench 4.0 score: - Model card reported 42.3% - AA reports 34% - Vals index reports 31.82% AA Vals Index Model card Model card quotes:  We use the Claude Code harness for Term",
+      "title": "6M param character renderer: one reference image in, a minute of video out, tested against Blender truth",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9zwts/6m_param_character_renderer_one_reference_image/",
+      "published_at": "2026-10-19T15:26:35Z",
+      "summary": "      &#32; submitted by &#32;  /u/AsyncVibes   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-tempopfn-synthetic-pre-training-of-linear-rnns-for-zero-shot",
+      "id": "localllama-2026-10-19-ista-daslabqwen38-flash-next-gsq-rco-coder-gguf-updated",
       "source": "localllama",
-      "title": "TempoPFN: Synthetic Pre-training of Linear RNNs for Zero-shot Time Series Forecasting",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9n3qv/tempopfn_synthetic_pretraining_of_linear_rnns_for/",
-      "published_at": "2026-10-19T04:12:19Z",
-      "summary": "      Accepted at NeurIPS 2026 TLDR: The paper presents a library of synthetic time series generators and augmentations to train time series foundation models, in their case a DeltaProduct based linear RNN that predicts ",
+      "title": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF updated",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yvgw/istadaslabqwen38flashnextgsqrcocodergguf_updated/",
+      "published_at": "2026-10-19T14:47:14Z",
+      "summary": "      Look out for the updated version! What changed This update changes which experts are retained. No retained weights were modified relative to the base IQ3_S model. About 25% of the retained expert selection differs ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-80s-computing-era-meets-small-local-decision-models",
+      "id": "localllama-2026-10-19-inclusionai-releases-ming-30-audio-flash-126b-moe-65b-active",
       "source": "localllama",
-      "title": "80s computing era meets small local decision models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9n1i6/80s_computing_era_meets_small_local_decision/",
-      "published_at": "2026-10-19T04:08:54Z",
-      "summary": "Hi all, I&#39;ve been working super hard about something that I&#39;ve been super passionate about, the successor to https://www.reddit.com/r/LocalLLaMA/comments/1r7nw6r/write_assembly_language_that_runs_on_an_llm/  Gith",
+      "title": "inclusionAI releases Ming-3.0-audio-flash: 126B MoE / 6.5B active, audio understanding + speech output, MIT",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yrfi/inclusionai_releases_ming30audioflash_126b_moe/",
+      "published_at": "2026-10-19T14:42:49Z",
+      "summary": "      Ming-3.0-audio-flash is up on Hugging Face. It takes audio alongside text instructions and can return text or a spoken response. The model card lists transcription, spoken Q&amp;A, long-recording understanding, and",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "meta-2026-10-19-inside-prometheus-metas-journey-to-a-gigawatt-scale-superclu",
+      "source": "meta",
+      "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+      "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+      "published_at": "2026-10-19T13:00:10Z",
+      "summary": "With the recent release of the Muse family of foundational models, we want to take you inside the infrastructure that has made it all possible. The first phase of Prometheus, our gigawatt-scale supercluster, is already c",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "huggingface-2026-10-19-torchneuron-running-hf-models-on-aws-trainium-is-easier-than",
+      "source": "huggingface",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "published_at": "2026-10-19T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
       ]
     },
     {
@@ -464,17 +508,6 @@
       ]
     },
     {
-      "id": "huggingface-2026-10-07-introducing-falcon-asr",
-      "source": "huggingface",
-      "title": "Introducing Falcon ASR",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "published_at": "2026-10-07T13:21:03Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "meta-2026-10-06-nts-authenticated-time-at-meta",
       "source": "meta",
       "title": "NTS: Authenticated Time at Meta",
@@ -593,39 +626,6 @@
       "summary": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration.\nT",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "meta-2026-08-24-metaroce-a-new-rdma-transport-built-for-ai-scale-ethernet",
-      "source": "meta",
-      "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
-      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
-      "published_at": "2026-08-24T18:02:29Z",
-      "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles.  To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transpo",
-      "tags": [
-        "meta"
-      ]
-    },
-    {
-      "id": "meta-2026-08-24-mtia-300-metas-first-training-chip-with-built-in-nics-and-co",
-      "source": "meta",
-      "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
-      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
-      "published_at": "2026-08-24T17:45:52Z",
-      "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the com",
-      "tags": [
-        "meta"
-      ]
-    },
-    {
-      "id": "meta-2026-08-12-how-were-building-scam-alert-on-whatsapp-with-end-to-end-enc",
-      "source": "meta",
-      "title": "How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
-      "url": "https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/",
-      "published_at": "2026-08-12T13:00:28Z",
-      "summary": "WhatsApp is committed to helping people stay safe while protecting the privacy of their messages. As scam tactics evolve — from impersonation to social engineering to AI-generated lures — we&#8217;re always evolving as w",
-      "tags": [
-        "meta"
       ]
     },
     {
