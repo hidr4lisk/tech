@@ -1,6 +1,138 @@
 {
-  "updated_at": "2026-10-18T20:22:18Z",
+  "updated_at": "2026-10-19T04:02:35Z",
   "items": [
+    {
+      "id": "localllama-2026-10-19-dont-sleep-on-nemotron-35-super-vl",
+      "source": "localllama",
+      "title": "Don't sleep on Nemotron 3.5 Super VL",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9mwmz/dont_sleep_on_nemotron_35_super_vl/",
+      "published_at": "2026-10-19T04:01:26Z",
+      "summary": "      Hey everyone, One of the benchmarks I run for myself is to check obscure knowledge, like game rules from Anno 1602 (a game from 1998) and it&#39;s (many) editions. Websearch is not permitted. So far, it has come th",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-calling-all-gpus-help-us-benchmark-sonicboom-v003-a-compiler",
+      "source": "localllama",
+      "title": "Calling all GPUs: help us benchmark SonicBoom v0.0.3 — a compiler-first AI runtime that beats llama.cpp on decode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9mitw/calling_all_gpus_help_us_benchmark_sonicboom_v003/",
+      "published_at": "2026-10-19T03:40:00Z",
+      "summary": "Hi folks! We are HardenedLinux, an old-school free software community. SonicBoom is our open-source (GPLv3) inference runtime: a compiler-first alternative to the usual Python stack. No Python at build or run time — one ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-nemotron-35-bolt-is-okayish-for-small-multiuser-setups",
+      "source": "localllama",
+      "title": "Nemotron 3.5 Bolt is okayish for small multiuser setups",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9lkh5/nemotron_35_bolt_is_okayish_for_small_multiuser/",
+      "published_at": "2026-10-19T02:48:40Z",
+      "summary": "      https://preview.redd.it/0tljsfsl7cwh1.png?width=349&amp;format=png&amp;auto=webp&amp;s=4428c2ab4743ce471d2862eef502ffa38381c8d3 I have been shopping for a faster model than 27B for a workload that Nemotron Ultra wa",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-qwen-38-flash-next-optimized-for-two-cmp-170hx-gpus",
+      "source": "localllama",
+      "title": "Qwen 3.8 Flash Next optimized for two CMP 170hx GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9iufz/qwen_38_flash_next_optimized_for_two_cmp_170hx/",
+      "published_at": "2026-10-19T00:29:52Z",
+      "summary": "I&#39;ve been working on optimizing Qwen 3.8 Flash Next on my local setup with two CMP 170HX cards and finally got to a place where I feel like the results are worth sharing. Both cards are running over PCIe Gen2 x4 - no",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-18-llm-tools-datasette-011",
+      "source": "simonw",
+      "title": "llm-tools-datasette 0.1.1",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+      "published_at": "2026-10-18T23:43:09Z",
+      "summary": "Release: llm-tools-datasette 0.1.1\n        When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-18-little-sweet-room-challenge-strata-fork-qwen-38-fn-nvfp4-dee",
+      "source": "localllama",
+      "title": "Little Sweet Room Challenge | Strata Fork | Qwen 3.8 FN NVFP4 | DeepSeek Harness",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9hpb3/little_sweet_room_challenge_strata_fork_qwen_38/",
+      "published_at": "2026-10-18T23:34:53Z",
+      "summary": "      Another little challenge I seen on a DeepSeek Thread. I thought I&#39;d try out it out on Qwen FN NvFp4. It was a pretty straight forward prompt with 4 images attached in the doc. The thread was testing different h",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-18-llm-echo-05",
+      "source": "simonw",
+      "title": "llm-echo 0.5",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "published_at": "2026-10-18T23:16:16Z",
+      "summary": "Release: llm-echo 0.5\n        I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats ba",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-18-google-open-sources-harness2-for-self-improving-ai-agents",
+      "source": "localllama",
+      "title": "Google Open Sources Harness2 for Self Improving AI Agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9gfnb/google_open_sources_harness2_for_self_improving/",
+      "published_at": "2026-10-18T22:33:51Z",
+      "summary": "      Google just released Harness2 as open source. It turns any AI harness into a system that improves itself over time. A harness is everything around the model. System prompt, tools, memory, skills, and subagents. Nor",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-18-has-anyone-bought-dgx-spark-from-accelerai",
+      "source": "localllama",
+      "title": "Has anyone bought DGX Spark from AccelerAI?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9g4uc/has_anyone_bought_dgx_spark_from_accelerai/",
+      "published_at": "2026-10-18T22:20:16Z",
+      "summary": "Looks like they are sending a dgx spark for $4499. I couldn&#39;t find much information on them but I keep getting Instagram ads repeatedly(even before the 64GB GB 10 West launched). LinkedIn and X points to some other c",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-18-hybrid-reasoning-agents",
+      "source": "localllama",
+      "title": "Hybrid Reasoning Agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9fc1x/hybrid_reasoning_agents/",
+      "published_at": "2026-10-18T21:45:31Z",
+      "summary": "Seems to speed up inference, use less tokens, and increase intelligence - curious if people seen this tldr don’t think in text, think in latent space https://github.com/togethercomputer/HybridAgent https://huggingface.co",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-18-i-messed-up-buying-z9pe-d8-ws-with-4-x16-slots-and-256gb-ddr",
+      "source": "localllama",
+      "title": "I messed up. Buying Z9PE-D8 WS with 4 x16 Slots and 256GB DDR3 RDIMM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d8hs/i_messed_up_buying_z9ped8_ws_with_4_x16_slots_and/",
+      "published_at": "2026-10-18T20:17:26Z",
+      "summary": "Hey yall. What I am feeling is a mixture of idiocracy and dishevelment. I looked at this motherboard with 256 RDIMMs and the x16 slots. I have 2x V620 and 2x Mi50 32GB. I wanted to play. That’s all. Mi50s would run Qwen3",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-18-72-hours-four-big-open-weights-drops-the-only-one-that-fits",
+      "source": "localllama",
+      "title": "72 hours, four big open weights drops. The only one that fits in 24GB came from NVIDIA, of all companies.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/",
+      "published_at": "2026-10-18T20:10:16Z",
+      "summary": "      What a week. Quick recap, all numbers from the official repos and model cards: Thursday: Meta drops Muse Spark Open. 816B total, 42B active, 1M context. The launch post says it brings agentic AI &quot;to your deskt",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-18-is-there-a-strata-for-lfm-24b-a2b",
       "source": "localllama",
@@ -19,116 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9acj4/embedding_model_can_be_used_to_search_text_inside/",
       "published_at": "2026-10-18T18:22:43Z",
       "summary": "      Just something I&#39;ve been testing over few week since Embedding Gemma 2 released which is about 330MB at Q8. Not sure if this would count as &#39;resource&#39; flair... Image shows cosine similarity changes as I",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-psa-power-limit-your-5090s",
-      "source": "localllama",
-      "title": "PSA: Power limit your 5090s!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x98bby/psa_power_limit_your_5090s/",
-      "published_at": "2026-10-18T17:02:33Z",
-      "summary": "      Apparently whilst doing some performance tuning on my 4x5090 rig I may have made things a little TOO fast and melted my plug and socket 🫠 Probably should put in a 16/20 amp socket in the wall rather than relying on",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-unslothdeepseek-v41-flash-1017-gguf-hugging-face",
-      "source": "localllama",
-      "title": "unsloth/DeepSeek-V4.1-Flash-1017-GGUF · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x95491/unslothdeepseekv41flash1017gguf_hugging_face/",
-      "published_at": "2026-10-18T14:51:58Z",
-      "summary": "      no document or announcement from unslot team yet   &#32; submitted by &#32;  /u/MundanePercentage674   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-browsecomp-plus-mini-15-of-browsecomp-pluss-830-queries-that",
-      "source": "localllama",
-      "title": "browsecomp-plus-mini: 15 of BrowseComp-Plus's 830 queries that rank deep-research agents roughly like the full set, no LLM judge",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x94mu0/browsecompplusmini_15_of_browsecomppluss_830/",
-      "published_at": "2026-10-18T14:30:57Z",
-      "summary": "I needed a cheap way to compare search agents on BrowseComp-Plus without burning hours of agent time every run. So I built a 15-query subset of the full 830 that ranks systems roughly the way the full benchmark does.  - ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-what-quant-do-you-actually-use-day-to-day-anyone-happy-with",
-      "source": "localllama",
-      "title": "What quant do you actually use day to day? Anyone happy with 2-bit or 3-bit?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x92rdf/what_quant_do_you_actually_use_day_to_day_anyone/",
-      "published_at": "2026-10-18T13:05:32Z",
-      "summary": "Curious what everyone runs in practice: - What quant do you use most, and for what (chat, coding, agents)? - 2-bit: do you use it? Is it actually usable or too broken? - 3-bit: good enough for coding and more complex stu",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-auroraasr-1m-releases",
-      "source": "localllama",
-      "title": "AuroraASR-1M Releases!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x92ejs/auroraasr1m_releases/",
-      "published_at": "2026-10-18T12:48:33Z",
-      "summary": "      It&#39;s an extremely lightweight speech recognition model. 949K parameters using a weight-shared Conformer-CTC architecture Just 1.06 MB for INT8 weights Around 436× real-time on a single CPU thread 11.43% WER on ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-two-pallets-of-zotac-rtx-5090-graphics-cards-worth-470000-di",
-      "source": "localllama",
-      "title": "Two pallets of ZOTAC RTX 5090 graphics cards worth $470,000 disappear at Brazilian airport",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x91svd/two_pallets_of_zotac_rtx_5090_graphics_cards/",
-      "published_at": "2026-10-18T12:16:59Z",
-      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-mellum2-model-from-jetbrains",
-      "source": "localllama",
-      "title": "Mellum2 model from JetBrains",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x91ou3/mellum2_model_from_jetbrains/",
-      "published_at": "2026-10-18T12:10:56Z",
-      "summary": "Hi all. Saw JetBrains’ Mellum2 on Hugging Face and was wondering if anyone here has actually used it. Worth trying, or nothing special?  &#32; submitted by &#32;  /u/groovy-sky   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-new-quant-types-suggested-iq2-k-iq3-k-iq4-k-iq5-k-and-iq6-k",
-      "source": "localllama",
-      "title": "New quant types suggested: IQ2_K, IQ3_K, IQ4_K, IQ5_K and IQ6_K",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8zj9j/new_quant_types_suggested_iq2_k_iq3_k_iq4_k_iq5_k/",
-      "published_at": "2026-10-18T10:06:03Z",
-      "summary": "Looks quite interesting. Lots of numbers presented, but for a single model only. Highlights:  File sizes are the same as Q-quants. KLD improves substantially over Q-quants.  Performance suffers slightly Creating IQ quant",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-buying-strix-halo-right-now",
-      "source": "localllama",
-      "title": "Buying Strix Halo right now?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8za17/buying_strix_halo_right_now/",
-      "published_at": "2026-10-18T09:49:58Z",
-      "summary": "Is GMKtec evo x2 128gb still worth it right now?(oct 2026). I found one used for around $2300 usd.  &#32; submitted by &#32;  /u/Guilty-Prize-3697   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-the-new-local-coding-llms-are-pretty-decent-and-a-huge-jump",
-      "source": "localllama",
-      "title": "The new local coding LLM's are pretty decent and a huge jump from the behemoths of the past",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8yfho/the_new_local_coding_llms_are_pretty_decent_and_a/",
-      "published_at": "2026-10-18T08:55:28Z",
-      "summary": "      So I created this simple test (for myself) to see how good the new models are in analytic output. This is not asking them to draw a SVG (which just tests how much SVG or HTML they saw) but creating a prompt that ex",
       "tags": [
         "localllama"
       ]
@@ -365,17 +387,6 @@
       ]
     },
     {
-      "id": "simonw-2026-10-12-llm-meta-ai-02",
-      "source": "simonw",
-      "title": "llm-meta-ai 0.2",
-      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "published_at": "2026-10-12T23:58:46Z",
-      "summary": "Release: llm-meta-ai 0.2\n        Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "meta-2026-10-12-ocp-summit-2026-powering-ai-with-open-innovations-in-scale-u",
       "source": "meta",
       "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
@@ -384,17 +395,6 @@
       "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including:  Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Fla",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-12-hello-python-315-goodbye-310-and-now-i-can-use-311",
-      "source": "simonw",
-      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-      "published_at": "2026-10-12T18:15:38Z",
-      "summary": "Python 3.15 is here! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Py",
-      "tags": [
-        "simonw"
       ]
     },
     {

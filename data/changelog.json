@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-18T20:22:23Z",
+  "updated_at": "2026-10-19T04:02:41Z",
   "releases": [
+    {
+      "id": "sglang-v0.5.22",
+      "project": "sglang",
+      "version": "v0.5.22",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.22",
+      "published_at": "2026-10-19T02:55:19Z",
+      "body_excerpt": "Highlights 950 PRs from 245 contributors. New models | Model | Type | Cookbook | |---|---|---| | Clef / Clef Flash | LLM / VLM | link | | PPLX-Decider v1 / v1.1 | LLM / VLM | link | | EmbeddingGemma 2 | LLM / VLM | link | | LLaDA2.2 | LLM / VLM | | | HunyuanImage-3.0-Instruct | Diffusion | link | | Kandinsky 6 / Kandinsky 6 SR | Diffusion | link | | Wan-Animate-2 | Diffusion | link | | SANA-Video ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11723",
+      "project": "llama-cpp",
+      "version": "b11723",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11723",
+      "published_at": "2026-10-19T02:06:12Z",
+      "body_excerpt": "hexagon: FLASH_ATTN_EXT improvements for longer context and SWA models (#30731) hex-fa: support for masked block skipping to reduce DMA fetching hex-fa: finetuning the hmx->hvx crossover thresholds (boosting gemma-4) hex-fa: update hmx gate to account for mdev.count Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11722",
+      "project": "llama-cpp",
+      "version": "b11722",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11722",
+      "published_at": "2026-10-19T01:51:19Z",
+      "body_excerpt": "hexagon: allow multistream FA (#30218) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 1",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11721",
       "project": "llama-cpp",
@@ -12483,42 +12510,6 @@
       "published_at": "2026-07-21T06:36:04Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10075",
-      "project": "llama-cpp",
-      "version": "b10075",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10075",
-      "published_at": "2026-07-20T23:47:43Z",
-      "body_excerpt": "hexagon: add CLAMP op (#25934) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: ",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.2-rc0",
-      "project": "ollama",
-      "version": "v0.32.2-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0",
-      "published_at": "2026-07-20T21:00:30Z",
-      "body_excerpt": "What's Changed launch: keep Claude Code channels available by @hoyyeva in cmd: remove dead agent prompt wrappers by @ParthSareen in agent: reorder working directory instruction by @ParthSareen in agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in anthropic: close text block before starting thin",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.2-rc3",
-      "project": "ollama",
-      "version": "v0.32.2-rc3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc3",
-      "published_at": "2026-07-20T21:00:30Z",
-      "body_excerpt": "What's Changed launch: keep Claude Code channels available by @hoyyeva in cmd: remove dead agent prompt wrappers by @ParthSareen in agent: reorder working directory instruction by @ParthSareen in agent: clean up semantics, UX, DX, and procedural code by @ParthSareen in agent: allow unlimited tool rounds for cloud models by default by @ParthSareen in anthropic: close text block before starting thin",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.2",
-      "project": "ollama",
-      "version": "v0.32.2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2",
-      "published_at": "2026-07-20T21:00:30Z",
-      "body_excerpt": "Withdrawn, please use 0.32.3 or newer",
-      "type": "tool"
     }
   ]
 }
