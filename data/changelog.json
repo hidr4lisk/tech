@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-10-19T12:40:37Z",
+  "updated_at": "2026-10-19T22:09:56Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11742",
+      "project": "llama-cpp",
+      "version": "b11742",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11742",
+      "published_at": "2026-10-19T21:30:32Z",
+      "body_excerpt": "hybrid dna tokenizer fixes (#30825) vocab : support Carbon-14B HybridDNA tokenizer Carbon-14B auto-tags untagged DNA runs and uses N-padded tail tokens (tail=pad_n). Also strip whitespace inside tags and handle a stray like the HF tokenizer. convert : fix special tokens and merges for older Carbon models Carbon-500M/3B/8B don't register the Qwen added tokens and ship no tokenizer.json, so take the",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11741",
+      "project": "llama-cpp",
+      "version": "b11741",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11741",
+      "published_at": "2026-10-19T20:13:59Z",
+      "body_excerpt": "opencl: add cooperative-k dp4a gemm for q4_0, q4_k and q6_k (#30741) opencl: add cooperative-k dp4a GEMM for q4_0 opencl: add cooperative-k dp4a GEMM for q4_k opencl: add cooperative-k dp4a GEMM for q6_k opencl: fix alignment Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11740",
+      "project": "llama-cpp",
+      "version": "b11740",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11740",
+      "published_at": "2026-10-19T19:58:50Z",
+      "body_excerpt": "opencl: add get_rows for i32, cpy for i32 and f32 (#30756) opencl: support i32 GET_ROWS opencl: support i32 and f32 copy conversions Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11739",
+      "project": "llama-cpp",
+      "version": "b11739",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11739",
+      "published_at": "2026-10-19T17:57:49Z",
+      "body_excerpt": "jinja : implement filter (#30819) jinja : implement filter cont : inline key_of cont : fix alignment Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries U",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.20.2",
+      "project": "transformers",
+      "version": "v5.20.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2",
+      "published_at": "2026-10-19T17:45:37Z",
+      "body_excerpt": "Patch release: v5.20.2 This patch notably solves an issue where some inputs could loose their original type inside in , leading to problems with multimodal models. It also fixes some other issues listed on the below commits. It contains the following commits: Fix inputs dict casting in generate (#49731) by @Cyrilvallez Fix zero expert gradients in bfloat16 with expert parallelism and ep_size < fsd",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11738",
+      "project": "llama-cpp",
+      "version": "b11738",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11738",
+      "published_at": "2026-10-19T16:59:59Z",
+      "body_excerpt": "server : fix swa checkpoint invalidation logic (#30666) server : fix swa checkpoint invalidation logic Assisted-by: Claude add testcase that fails with > n_past, but works with > n_prefix Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU)",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.909-beta",
+      "project": "unsloth",
+      "version": "v0.1.909-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.909-beta",
+      "published_at": "2026-10-19T16:21:58Z",
+      "body_excerpt": "DeepSeek-V4.1-Flash-1017 and FLUX.3 Image Klein are here! Run both locally in Unsloth. Also new: images and videos in chat, multi-GPU training with FSDP2 (alpha) and one-command MCP setup for coding agents. Highlights DeepSeek-V4.1-Flash-1017: 552B (16B active) - runs on ~125 GB at 1-bit with its Engram table on SSD Guide FLUX.3 Image Klein: Runs on 24 GB and edits with up to 10 reference images G",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11734",
+      "project": "llama-cpp",
+      "version": "b11734",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11734",
+      "published_at": "2026-10-19T14:08:40Z",
+      "body_excerpt": "cann : refactor blocks to avoid unreachable code after (#25273) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libra",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11732",
+      "project": "llama-cpp",
+      "version": "b11732",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11732",
+      "published_at": "2026-10-19T13:50:27Z",
+      "body_excerpt": "CUDA: fix warning for nonexistent extra semicolon (#30774) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11731",
+      "project": "llama-cpp",
+      "version": "b11731",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11731",
+      "published_at": "2026-10-19T13:35:36Z",
+      "body_excerpt": "ggml-cpu: vectorize ggml_v_silu and ggml_v_expf (#30791) Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11729",
       "project": "llama-cpp",
@@ -12455,24 +12545,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10078",
       "published_at": "2026-07-21T22:38:35Z",
       "body_excerpt": "vulkan: Refactor vk_queue to use per-instance mutexes and unique handles (#23570) Refactor vk_queue to use per-instance mutexes and unique handles integrates VK_KHR_internally_synchronized_queues, abstracting the queue submission into a polymorphic interface that completely bypasses host-side mutex locking when driver-side synchronization is supported fix compilation error fix duplicate pNext chai",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10077",
-      "project": "llama-cpp",
-      "version": "b10077",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10077",
-      "published_at": "2026-07-21T21:53:49Z",
-      "body_excerpt": "ggml-openvino: Add GGML_BACKEND_DL_IMPL invocation for OpenVINO backend (#25795) This adds the missing macro invocation, that other backends have. Fixes #25586 for me Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10076",
-      "project": "llama-cpp",
-      "version": "b10076",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10076",
-      "published_at": "2026-07-21T15:52:50Z",
-      "body_excerpt": "CUDA: vectorize same-type get_rows with int4 copy (#25929) k_get_rows_float did a scalar one-element-per-thread copy and recomputed the row-invariant work (index load, fast_div_modulo, src/dst row pointers) for every element. Hoist that out of the per-element loop, and add a vectorized path (k_get_rows_float_vec) that copies one int4 (16 B) per thread for the contiguous same-type (no-cast) case. T",
       "type": "tool"
     }
   ]
