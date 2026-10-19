@@ -1,46 +1,134 @@
 {
-  "updated_at": "2026-10-19T04:02:35Z",
+  "updated_at": "2026-10-19T12:40:30Z",
   "items": [
     {
-      "id": "localllama-2026-10-19-dont-sleep-on-nemotron-35-super-vl",
+      "id": "localllama-2026-10-19-minimax-m31-flash-released-model-weights-oct-23",
       "source": "localllama",
-      "title": "Don't sleep on Nemotron 3.5 Super VL",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9mwmz/dont_sleep_on_nemotron_35_super_vl/",
-      "published_at": "2026-10-19T04:01:26Z",
-      "summary": "      Hey everyone, One of the benchmarks I run for myself is to check obscure knowledge, like game rules from Anno 1602 (a game from 1998) and it&#39;s (many) editions. Websearch is not permitted. So far, it has come th",
+      "title": "MiniMax M3.1 Flash released, Model weights Oct 23",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9uzv9/minimax_m31_flash_released_model_weights_oct_23/",
+      "published_at": "2026-10-19T12:01:44Z",
+      "summary": "      &#32; submitted by &#32;  /u/MagicZhang   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-calling-all-gpus-help-us-benchmark-sonicboom-v003-a-compiler",
+      "id": "localllama-2026-10-19-deepseek-v41-flash-at-261-bpw-engram-26-ts-on-dual-rtx-3090s",
       "source": "localllama",
-      "title": "Calling all GPUs: help us benchmark SonicBoom v0.0.3 — a compiler-first AI runtime that beats llama.cpp on decode",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9mitw/calling_all_gpus_help_us_benchmark_sonicboom_v003/",
-      "published_at": "2026-10-19T03:40:00Z",
-      "summary": "Hi folks! We are HardenedLinux, an old-school free software community. SonicBoom is our open-source (GPLv3) inference runtime: a compiler-first alternative to the usual Python stack. No Python at build or run time — one ",
+      "title": "DeepSeek V4.1 Flash at 2.61 bpw + Engram: 26 t/s on dual RTX 3090s with dsx",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9umtv/deepseek_v41_flash_at_261_bpw_engram_26_ts_on/",
+      "published_at": "2026-10-19T11:43:42Z",
+      "summary": "Using u/lxe&#39;s https://github.com/lxe/dsx engine, I created DeepSeek-V4.1-Flash-1017-dsx-2.6bit for programming and agentic tasks. The model&#39;s weight will be fully uploaded in 2 hours.   Config Experts KL ↓ Top-1 ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-nemotron-35-bolt-is-okayish-for-small-multiuser-setups",
+      "id": "localllama-2026-10-19-qwen38-27b-and-flash-next-on-consumer-hardware-engine-number",
       "source": "localllama",
-      "title": "Nemotron 3.5 Bolt is okayish for small multiuser setups",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9lkh5/nemotron_35_bolt_is_okayish_for_small_multiuser/",
-      "published_at": "2026-10-19T02:48:40Z",
-      "summary": "      https://preview.redd.it/0tljsfsl7cwh1.png?width=349&amp;format=png&amp;auto=webp&amp;s=4428c2ab4743ce471d2862eef502ffa38381c8d3 I have been shopping for a faster model than 27B for a workload that Nemotron Ultra wa",
+      "title": "Qwen3.8-27B and Flash-Next on consumer hardware: engine numbers I could verify, and what they cost with 2026 RAM prices",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9tzf1/qwen3827b_and_flashnext_on_consumer_hardware/",
+      "published_at": "2026-10-19T11:09:56Z",
+      "summary": "I&#39;ve been keeping a list of the engines that run Qwen3.8-27B and Flash-Next on consumer hardware, mostly to see where my own engine (capy-flash) stands. Sharing it because most numbers going around aren&#39;t compara",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-19-qwen-38-flash-next-optimized-for-two-cmp-170hx-gpus",
+      "id": "localllama-2026-10-19-llama-servers-default-port-changed-from-8080-to-9931",
       "source": "localllama",
-      "title": "Qwen 3.8 Flash Next optimized for two CMP 170hx GPUs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9iufz/qwen_38_flash_next_optimized_for_two_cmp_170hx/",
-      "published_at": "2026-10-19T00:29:52Z",
-      "summary": "I&#39;ve been working on optimizing Qwen 3.8 Flash Next on my local setup with two CMP 170HX cards and finally got to a place where I feel like the results are worth sharing. Both cards are running over PCIe Gen2 x4 - no",
+      "title": "llama server's default port changed from 8080 to 9931",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9tbg2/llama_servers_default_port_changed_from_8080_to/",
+      "published_at": "2026-10-19T10:32:07Z",
+      "summary": "Ref: release, PR Starting from v0.7.0, the default port for llama server is now 9931 (ggml). Those who did not explicitly set the port, expect breaking change upon upgrading. Those who use harnesses that have hardcoded 8",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-minimax-m31-flash-is-coming",
+      "source": "localllama",
+      "title": "MiniMax-M3.1-Flash is coming",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9suvs/minimaxm31flash_is_coming/",
+      "published_at": "2026-10-19T10:05:08Z",
+      "summary": "      From MiniMax (official) on 𝕏: https://x.com/MiniMax_AI/status/2112111925975032241  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-ai-labs-report-benchmark-scores-64-higher-than-independent-t",
+      "source": "localllama",
+      "title": "AI labs report benchmark scores 6.4% higher than independent testers, on average",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9skrx/ai_labs_report_benchmark_scores_64_higher_than/",
+      "published_at": "2026-10-19T09:47:55Z",
+      "summary": "      I&#39;ve been building whatmodel.sh, an open source AI leaderboard, and wanted to see how a labs&#39; own benchmark scores compare with independent testers. Using 1,629 published benchmark results, I matched 611 co",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-incoaiqwen38-flash-next-dflash2",
+      "source": "localllama",
+      "title": "incoai/Qwen3.8-Flash-Next-DFlash2",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9rq3r/incoaiqwen38flashnextdflash2/",
+      "published_at": "2026-10-19T08:55:02Z",
+      "summary": "      By the original authors of DFlash 2 It&#39;s about 20% faster than MTP in their table when concurrency 1.  &#32; submitted by &#32;  /u/rerri   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-kapitsa-open-source-apple-silicon-optimized-metal-engine-bui",
+      "source": "localllama",
+      "title": "Kapitsa: open-source Apple Silicon optimized Metal engine built for Qwen and Nemotron. See benchmarks of Qwen 27B, Nemotron + 8 other models on an M1 Pro (16GB), M4 Pro (48GB) and M5 Max (128GB)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9pzt0/kapitsa_opensource_apple_silicon_optimized_metal/",
+      "published_at": "2026-10-19T07:04:45Z",
+      "summary": "      hey, my name is Ye, I vibecode at Nace.ai and we do a lot of work with enterprises, and a lot of the time we&#39;re inside their networks with no internet access and outdated cloud hosted models. considering we wor",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-ltx-25-running-locally-on-a-48gb-m5-pro-macbook-pro-in-tenso",
+      "source": "localllama",
+      "title": "LTX 2.5 running locally on a 48GB M5 Pro MacBook Pro in TensorSharp’s Video Studio",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9p6cp/ltx_25_running_locally_on_a_48gb_m5_pro_macbook/",
+      "published_at": "2026-10-19T06:12:26Z",
+      "summary": "      I maintain TensorSharp, an open-source local inference engine and agent runtime. I’ve added Video Studio to bring local video generation, an editable timeline, and an optional local LLM assistant into the same proj",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-deepseek-v41-flash-1017-on-aa-vals-index",
+      "source": "localllama",
+      "title": "DeepSeek-V4.1-Flash-1017 on AA & Vals index",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9owju/deepseekv41flash1017_on_aa_vals_index/",
+      "published_at": "2026-10-19T05:56:18Z",
+      "summary": "      DeepSeek-V4.1-Flash-1017&#39;s Terminal bench 4.0 score: - Model card reported 42.3% - AA reports 34% - Vals index reports 31.82% AA Vals Index Model card Model card quotes:  We use the Claude Code harness for Term",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-tempopfn-synthetic-pre-training-of-linear-rnns-for-zero-shot",
+      "source": "localllama",
+      "title": "TempoPFN: Synthetic Pre-training of Linear RNNs for Zero-shot Time Series Forecasting",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9n3qv/tempopfn_synthetic_pretraining_of_linear_rnns_for/",
+      "published_at": "2026-10-19T04:12:19Z",
+      "summary": "      Accepted at NeurIPS 2026 TLDR: The paper presents a library of synthetic time series generators and augmentations to train time series foundation models, in their case a DeltaProduct based linear RNN that predicts ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-19-80s-computing-era-meets-small-local-decision-models",
+      "source": "localllama",
+      "title": "80s computing era meets small local decision models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9n1i6/80s_computing_era_meets_small_local_decision/",
+      "published_at": "2026-10-19T04:08:54Z",
+      "summary": "Hi all, I&#39;ve been working super hard about something that I&#39;ve been super passionate about, the successor to https://www.reddit.com/r/LocalLLaMA/comments/1r7nw6r/write_assembly_language_that_runs_on_an_llm/  Gith",
       "tags": [
         "localllama"
       ]
@@ -57,17 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-18-little-sweet-room-challenge-strata-fork-qwen-38-fn-nvfp4-dee",
-      "source": "localllama",
-      "title": "Little Sweet Room Challenge | Strata Fork | Qwen 3.8 FN NVFP4 | DeepSeek Harness",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9hpb3/little_sweet_room_challenge_strata_fork_qwen_38/",
-      "published_at": "2026-10-18T23:34:53Z",
-      "summary": "      Another little challenge I seen on a DeepSeek Thread. I thought I&#39;d try out it out on Qwen FN NvFp4. It was a pretty straight forward prompt with 4 images attached in the doc. The thread was testing different h",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-10-18-llm-echo-05",
       "source": "simonw",
       "title": "llm-echo 0.5",
@@ -76,83 +153,6 @@
       "summary": "Release: llm-echo 0.5\n        I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats ba",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-google-open-sources-harness2-for-self-improving-ai-agents",
-      "source": "localllama",
-      "title": "Google Open Sources Harness2 for Self Improving AI Agents",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9gfnb/google_open_sources_harness2_for_self_improving/",
-      "published_at": "2026-10-18T22:33:51Z",
-      "summary": "      Google just released Harness2 as open source. It turns any AI harness into a system that improves itself over time. A harness is everything around the model. System prompt, tools, memory, skills, and subagents. Nor",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-has-anyone-bought-dgx-spark-from-accelerai",
-      "source": "localllama",
-      "title": "Has anyone bought DGX Spark from AccelerAI?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9g4uc/has_anyone_bought_dgx_spark_from_accelerai/",
-      "published_at": "2026-10-18T22:20:16Z",
-      "summary": "Looks like they are sending a dgx spark for $4499. I couldn&#39;t find much information on them but I keep getting Instagram ads repeatedly(even before the 64GB GB 10 West launched). LinkedIn and X points to some other c",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-hybrid-reasoning-agents",
-      "source": "localllama",
-      "title": "Hybrid Reasoning Agents",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9fc1x/hybrid_reasoning_agents/",
-      "published_at": "2026-10-18T21:45:31Z",
-      "summary": "Seems to speed up inference, use less tokens, and increase intelligence - curious if people seen this tldr don’t think in text, think in latent space https://github.com/togethercomputer/HybridAgent https://huggingface.co",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-i-messed-up-buying-z9pe-d8-ws-with-4-x16-slots-and-256gb-ddr",
-      "source": "localllama",
-      "title": "I messed up. Buying Z9PE-D8 WS with 4 x16 Slots and 256GB DDR3 RDIMM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d8hs/i_messed_up_buying_z9ped8_ws_with_4_x16_slots_and/",
-      "published_at": "2026-10-18T20:17:26Z",
-      "summary": "Hey yall. What I am feeling is a mixture of idiocracy and dishevelment. I looked at this motherboard with 256 RDIMMs and the x16 slots. I have 2x V620 and 2x Mi50 32GB. I wanted to play. That’s all. Mi50s would run Qwen3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-72-hours-four-big-open-weights-drops-the-only-one-that-fits",
-      "source": "localllama",
-      "title": "72 hours, four big open weights drops. The only one that fits in 24GB came from NVIDIA, of all companies.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/",
-      "published_at": "2026-10-18T20:10:16Z",
-      "summary": "      What a week. Quick recap, all numbers from the official repos and model cards: Thursday: Meta drops Muse Spark Open. 816B total, 42B active, 1M context. The launch post says it brings agentic AI &quot;to your deskt",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-is-there-a-strata-for-lfm-24b-a2b",
-      "source": "localllama",
-      "title": "Is there a Strata for lfm 24b a2b",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9b3df/is_there_a_strata_for_lfm_24b_a2b/",
-      "published_at": "2026-10-18T18:52:45Z",
-      "summary": "Is there a fork of strata that let me run lfm 24b a2b on only 16GB of ram comfortably? And how much tps can I expect per second and what quantization should I use? and Thanks!  &#32; submitted by &#32;  /u/Puzzleheaded_A",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-18-embedding-model-can-be-used-to-search-text-inside-image",
-      "source": "localllama",
-      "title": "Embedding model can be used to search text inside image",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9acj4/embedding_model_can_be_used_to_search_text_inside/",
-      "published_at": "2026-10-18T18:22:43Z",
-      "summary": "      Just something I&#39;ve been testing over few week since Embedding Gemma 2 released which is about 330MB at Q8. Not sure if this would count as &#39;resource&#39; flair... Image shows cosine similarity changes as I",
-      "tags": [
-        "localllama"
       ]
     },
     {

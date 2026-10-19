@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-19T04:02:41Z",
+  "updated_at": "2026-10-19T12:40:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11729",
+      "project": "llama-cpp",
+      "version": "b11729",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11729",
+      "published_at": "2026-10-19T11:24:09Z",
+      "body_excerpt": "qwen3 : bidirectional attention and dense_2 output projection (#30607) qwen3 : bidirectional attention and dense_2 output projection Assisted-by: Grok convert : read use_bidirectional_attention in base Assisted-by: Grok Update conversion/base.py Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sili",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11727",
+      "project": "llama-cpp",
+      "version": "b11727",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11727",
+      "published_at": "2026-10-19T10:23:39Z",
+      "body_excerpt": "tools : reject truncated GGUF tensor data in split and export tools (#30497) The problem here in the repo is gguf-split can silently produce corrupted tensor output when the input GGUF file is truncated. The fix is to add tensor-data bounds checks and short-read checks in gguf-split.cpp and export-lora.cpp, and a regression test that checks truncated input is rejected and valid tensor data is pres",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11724",
+      "project": "llama-cpp",
+      "version": "b11724",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11724",
+      "published_at": "2026-10-19T05:44:32Z",
+      "body_excerpt": "CUDA: fix shared-memory WAR hazard in flash_attn_ext_vec (#30573) CUDA: fix KQ write-after-read race in flash_attn_ext_vec Assisted-by: ChatGPT CUDA: apply review suggestions for KQ sync comments Co-authored-by: Johannes Gäßler --------- Co-authored-by: Johannes Gäßler Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (",
+      "type": "tool"
+    },
     {
       "id": "sglang-v0.5.22",
       "project": "sglang",
@@ -12447,69 +12474,6 @@
       "published_at": "2026-07-21T15:52:50Z",
       "body_excerpt": "CUDA: vectorize same-type get_rows with int4 copy (#25929) k_get_rows_float did a scalar one-element-per-thread copy and recomputed the row-invariant work (index load, fast_div_modulo, src/dst row pointers) for every element. Hoist that out of the per-element loop, and add a vectorized path (k_get_rows_float_vec) that copies one int4 (16 B) per thread for the contiguous same-type (no-cast) case. T",
       "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-Mage-Flow-Edit-Base",
-      "project": "microsoft",
-      "version": "Mage-Flow-Edit-Base",
-      "url": "https://huggingface.co/microsoft/Mage-Flow-Edit-Base",
-      "published_at": "2026-07-21T11:04:19Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Mage-Flow-Edit-Turbo",
-      "project": "microsoft",
-      "version": "Mage-Flow-Edit-Turbo",
-      "url": "https://huggingface.co/microsoft/Mage-Flow-Edit-Turbo",
-      "published_at": "2026-07-21T11:03:55Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Mage-Flow-Edit",
-      "project": "microsoft",
-      "version": "Mage-Flow-Edit",
-      "url": "https://huggingface.co/microsoft/Mage-Flow-Edit",
-      "published_at": "2026-07-21T11:00:55Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Mage-Flow-Turbo",
-      "project": "microsoft",
-      "version": "Mage-Flow-Turbo",
-      "url": "https://huggingface.co/microsoft/Mage-Flow-Turbo",
-      "published_at": "2026-07-21T11:00:22Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Mage-Flow",
-      "project": "microsoft",
-      "version": "Mage-Flow",
-      "url": "https://huggingface.co/microsoft/Mage-Flow",
-      "published_at": "2026-07-21T10:57:40Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-Cosmos-H-Dreams",
-      "project": "nvidia",
-      "version": "Cosmos-H-Dreams",
-      "url": "https://huggingface.co/nvidia/Cosmos-H-Dreams",
-      "published_at": "2026-07-21T10:50:34Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Mage-Flow-Base",
-      "project": "microsoft",
-      "version": "Mage-Flow-Base",
-      "url": "https://huggingface.co/microsoft/Mage-Flow-Base",
-      "published_at": "2026-07-21T06:36:04Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
