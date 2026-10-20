@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-10-20T16:37:07Z",
+  "updated_at": "2026-10-20T21:25:23Z",
   "items": [
+    {
+      "id": "localllama-2026-10-20-i-built-an-rk3588-npu-runtime-without-any-proprietary-infere",
+      "source": "localllama",
+      "title": "I built an RK3588 NPU runtime without any proprietary inference libraries: Qwen3.5-4B at ~10 tok/s, ~2x faster than vendor SDK.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb45bq/i_built_an_rk3588_npu_runtime_without_any/",
+      "published_at": "2026-10-20T21:03:58Z",
+      "summary": "If you have an RK3588 board, here’s another way to put its NPU to work. I made open_rknpu2_lm_infer, a local LLM inference engine for the Rockchip RK3588 NPU. It runs without Rockchip’s proprietary userspace inference li",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-20-battle-drones---a-vibe-coded-rts-with-audio-based-multiplaye",
+      "source": "simonw",
+      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+      "published_at": "2026-10-20T19:34:19Z",
+      "summary": "My latest vibe coded game experiment is a Command &amp; Conquer style RTS (Real Time Strategy) game called Battle Drones (play it here). Unlike my previous experiments, this one is actually fun to play. I'm somewhat emba",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-xhtokenspark-x26-4b-hugging-face",
+      "source": "localllama",
+      "title": "XHToken/Spark-X2.6-4B · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb0nr9/xhtokensparkx264b_hugging_face/",
+      "published_at": "2026-10-20T18:50:53Z",
+      "summary": "      https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF Introduction A little over a month has passed since Spark-X2.5. In the rapidly evolving world of AI agents, that is enough time to rethink, refine, and move the fro",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-10-20-nvidia-cosmos3-h-dreams-bringing-clinical-surgery-to-life-th",
+      "source": "huggingface",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "published_at": "2026-10-20T18:17:47Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-qev-08b-new-sota-tiny-local-decision-model",
+      "source": "localllama",
+      "title": "qev-0.8b · New SOTA tiny local decision model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xazrvd/qev08b_new_sota_tiny_local_decision_model/",
+      "published_at": "2026-10-20T18:17:30Z",
+      "summary": "      &#32; submitted by &#32;  /u/fajfas3   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-running-35b-moe-models-on-a-tesla-k80-2014-at-21-toks-in-pla",
+      "source": "localllama",
+      "title": "Running 35B MoE models on a Tesla K80 (2014) at ~21 tok/s, in plain C",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaz06x/running_35b_moe_models_on_a_tesla_k80_2014_at_21/",
+      "published_at": "2026-10-20T17:49:47Z",
+      "summary": "I&#39;ve spent about a year on an inference engine that doesn&#39;t need modern hardware. It&#39;s called Pantheon (LLM engine) on top of Foundry (ML library), both in C with no outside libraries. The CUDA backend target",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-agnes-aiagnes-30-qwen-qfn-finetune",
+      "source": "localllama",
+      "title": "Agnes-AI/Agnes-3.0-Qwen (QFN finetune)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxz80/agnesaiagnes30qwen_qfn_finetune/",
+      "published_at": "2026-10-20T17:11:43Z",
+      "summary": "      https://huggingface.co/bartowski/Agnes-AI_Agnes-3.0-Qwen-GGUF  Strong agentic performance: agnes-3.0-qwen scores highest in its comparison set on τ³-Banking, and is within about one point of the best model on Termi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-pocket-tts-small-cpu-voice-cloning-with-models-as-small-as-1",
+      "source": "localllama",
+      "title": "Pocket TTS Small: CPU voice cloning with models as small as 1.9M parameters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxm11/pocket_tts_small_cpu_voice_cloning_with_models_as/",
+      "published_at": "2026-10-20T16:58:49Z",
+      "summary": "      Kyutai released three smaller Pocket TTS models on October 20: 1.9M, 6.9M and 18.2M parameters. These are English models, support voice cloning, and are designed to run on CPU. You can switch between the sizes in t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-short-report-from-lithuanian-conference-on-ai-technologies-i",
+      "source": "localllama",
+      "title": "Short report from Lithuanian conference on AI Technologies in Medicine",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxffx/short_report_from_lithuanian_conference_on_ai/",
+      "published_at": "2026-10-20T16:51:37Z",
+      "summary": "Full info: https://lithuania.ai/en/events/konferencija-dirbtinio-intelekto-technologijos-medicinoje-tyrimai-ir-diagnostika Things I noticed among other things presented (almost every presentation was interesting):  exper",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "huggingface-2026-10-20-fairstress-a-deeper-evaluation-of-fairness-in-llm-decision-m",
       "source": "huggingface",
@@ -74,83 +173,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatxqk/qwen38flashnext_vs_opus_55_sixway_benchmark_on_a/",
       "published_at": "2026-10-20T14:40:52Z",
       "summary": "A few of you pointed out in my last post that comparing Flash-Next and Opus with different harnesses and effort levels wasn&#39;t fair. So here is a more controlled comparison. Same task for every run: a real feature fro",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-unsloth-just-released-ornith-15-122b-ggufs",
-      "source": "localllama",
-      "title": "Unsloth just released Ornith-1.5-122B GGUFs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatwvb/unsloth_just_released_ornith15122b_ggufs/",
-      "published_at": "2026-10-20T14:39:52Z",
-      "summary": "      &#32; submitted by &#32;  /u/LaurentPayot   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-ornith-aiornith-15-122b-qwen-finetune",
-      "source": "localllama",
-      "title": "ornith-ai/Ornith-1.5-122B (Qwen finetune)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatebw/ornithaiornith15122b_qwen_finetune/",
-      "published_at": "2026-10-20T14:19:07Z",
-      "summary": "      from Ornith: Ornith-1.5-122B Chirp Chirp! 🐦 We are introducing Ornith-1.5, a major step toward building foundation models through end-to-end self-improvement. Ornith-1.5 extends Ornith-1.0 (which was developed on t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-paper-the-count-counting-n-grams-unlocks-scaling-on-host-mem",
-      "source": "localllama",
-      "title": "[Paper] The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xat6o7/paper_the_count_counting_ngrams_unlocks_scaling/",
-      "published_at": "2026-10-20T14:10:33Z",
-      "summary": "       The scaling relationship of compute and performance for language models (LMs) has been extensively studied; more recently, models are being designed to scale memory use, as well. In particular, adding embeddings f",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-paper-flashmask-3-efficient-and-expressive-mask-aware-distri",
-      "source": "localllama",
-      "title": "[Paper] FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xasztg/paper_flashmask3_efficient_and_expressive/",
-      "published_at": "2026-10-20T14:02:52Z",
-      "summary": "       Long-context training of large language and multimodal models couples structured attention masks (document, prefix-LM, share-question, sliding-window, block-sparse) with multi-node context parallelism, making the ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-paper-remory-learning-residual-memory-for-context-compaction",
-      "source": "localllama",
-      "title": "[Paper] REMORY: Learning Residual Memory for Context Compaction",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xasp90/paper_remory_learning_residual_memory_for_context/",
-      "published_at": "2026-10-20T13:50:57Z",
-      "summary": "       Long-horizon agents compact their history to continue within a finite context window, but a textual summary alone may not support every subsequent decision. We introduce REMORY, a neural memory network that supple",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-paper-dlite-history-free-speculative-decoding-for-agentic-ai",
-      "source": "localllama",
-      "title": "[Paper] DLite: History-free Speculative Decoding for Agentic AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xasomp/paper_dlite_historyfree_speculative_decoding_for/",
-      "published_at": "2026-10-20T13:50:16Z",
-      "summary": "       Speculative decoding has become a mainstream technique for accelerating large language model (LLM) inference by using a lightweight draft model to generate candidate tokens that are subsequently verified by the ta",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-geezuz-kernel-qwen38-27b-at-190-toks-620-toks-at-8-requests",
-      "source": "localllama",
-      "title": "Geezuz kernel: Qwen3.8-27B at 190 tok/s (620~ tok/s at 8 requests) on two 3090s",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaslfk/geezuz_kernel_qwen3827b_at_190_toks_620_toks_at_8/",
-      "published_at": "2026-10-20T13:46:29Z",
-      "summary": "Geezuz, its fast! Qwen3.8-27B, two RTX 3090s power-limited to 280 W, plain PCIe, no NVLink, at 0 Context: (tests showing results with context are found on the next table)    Requests Q4_K_M Q8_0    1 request 190 tok/s 14",
       "tags": [
         "localllama"
       ]
@@ -376,17 +398,6 @@
       ]
     },
     {
-      "id": "huggingface-2026-10-15-welcome-muse-spark-open-open-weight-frontier-multimodal-mixt",
-      "source": "huggingface",
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "published_at": "2026-10-15T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "simonw-2026-10-14-tree-appreciator",
       "source": "simonw",
       "title": "Tree Appreciator",
@@ -450,17 +461,6 @@
       "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-13-quoting-geoffrey-huntley",
-      "source": "simonw",
-      "title": "Quoting Geoffrey Huntley",
-      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-      "published_at": "2026-10-13T13:32:00Z",
-      "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observ",
-      "tags": [
-        "simonw"
       ]
     },
     {

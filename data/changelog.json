@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-10-20T16:37:12Z",
+  "updated_at": "2026-10-20T21:25:30Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11757",
+      "project": "llama-cpp",
+      "version": "b11757",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11757",
+      "published_at": "2026-10-20T19:56:46Z",
+      "body_excerpt": "CUDA: Clear CUDA graphs after legacy memory pool flush (#26771) Assisted-by: Claude Opus 5.5 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x6",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11756",
       "project": "llama-cpp",
@@ -92,6 +101,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-cosmos3-nano-libero10-sdg-export-S5_2_s43",
+      "project": "nvidia",
+      "version": "cosmos3-nano-libero10-sdg-export-S5_2_s43",
+      "url": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S5_2_s43",
+      "published_at": "2026-10-19T21:19:46Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b11741",
       "project": "llama-cpp",
       "version": "b11741",
@@ -173,6 +191,33 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-Cosmos3-H-Embodied-Nano",
+      "project": "nvidia",
+      "version": "Cosmos3-H-Embodied-Nano",
+      "url": "https://huggingface.co/nvidia/Cosmos3-H-Embodied-Nano",
+      "published_at": "2026-10-19T12:45:34Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Cosmos3-H-Dreams",
+      "project": "nvidia",
+      "version": "Cosmos3-H-Dreams",
+      "url": "https://huggingface.co/nvidia/Cosmos3-H-Dreams",
+      "published_at": "2026-10-19T12:35:12Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-cosmos3-nano-libero10-sdg-export-D2_s43",
+      "project": "nvidia",
+      "version": "cosmos3-nano-libero10-sdg-export-D2_s43",
+      "url": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-D2_s43",
+      "published_at": "2026-10-19T12:33:39Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b11729",
       "project": "llama-cpp",
       "version": "b11729",
@@ -198,6 +243,15 @@
       "published_at": "2026-10-19T05:44:32Z",
       "body_excerpt": "CUDA: fix shared-memory WAR hazard in flash_attn_ext_vec (#30573) CUDA: fix KQ write-after-read race in flash_attn_ext_vec Assisted-by: ChatGPT CUDA: apply review suggestions for KQ sync comments Co-authored-by: Johannes Gäßler --------- Co-authored-by: Johannes Gäßler Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-cosmos3-nano-libero10-sdg-export-S2_s43",
+      "project": "nvidia",
+      "version": "cosmos3-nano-libero10-sdg-export-S2_s43",
+      "url": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S2_s43",
+      "published_at": "2026-10-19T03:38:29Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "sglang-v0.5.22",
@@ -396,6 +450,15 @@
       "published_at": "2026-10-17T01:02:07Z",
       "body_excerpt": "hexagon: vectorize softplus with HVX (#30435) softplus_f32 and tile_softplus_f32 ran a scalar logf(1.0f + expf(x)) loop. Replace both with a shared hvx_softplus_f32_aa() helper built from the backend's existing hvx_vec_exp_f32 / hvx_vec_log_f32 primitives, so no new numerical approximation is introduced. hvx_vec_exp_f32 clamps its input to (-88, 88) before exponentiating, so a naive log(1 + exp(x)",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-Sentiment-Analysis-7B",
+      "project": "microsoft",
+      "version": "Sentiment-Analysis-7B",
+      "url": "https://huggingface.co/microsoft/Sentiment-Analysis-7B",
+      "published_at": "2026-10-17T00:51:18Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11702",
@@ -677,6 +740,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-RFD4-Proteina-prep",
+      "project": "nvidia",
+      "version": "RFD4-Proteina-prep",
+      "url": "https://huggingface.co/nvidia/RFD4-Proteina-prep",
+      "published_at": "2026-10-15T15:57:21Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b11662",
       "project": "llama-cpp",
       "version": "b11662",
@@ -810,6 +882,15 @@
       "published_at": "2026-10-15T03:20:55Z",
       "body_excerpt": "cuda, hip: GDN chunked kernel (#29353) cuda, hip: GDN chunked kernel Ported-from: Source-commit: 53f0027d8070715fe9ad2131f3201bb0001d4eed Co-authored-by: Aman Gupta fix older builds review fixes cuda: enable GDN MMA on tested Ampere and Ada GPUs Enable SM86 and SM89 after RTX 3090 and RTX 4090 correctness and prefill benchmarks. Keep other untested architectures on the existing fallback. Assisted-",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-RFD4-Proteina-Diffusers",
+      "project": "nvidia",
+      "version": "RFD4-Proteina-Diffusers",
+      "url": "https://huggingface.co/nvidia/RFD4-Proteina-Diffusers",
+      "published_at": "2026-10-15T03:07:08Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11630",
@@ -12536,33 +12617,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3",
       "published_at": "2026-07-23T00:44:28Z",
       "body_excerpt": "What's Changed Fixed model downloads that stall before sending data. Improved integrations: restored Claude Code Channels, fixed Anthropic thinking streams, and made Hermes Desktop respect . Expanded GPU support with CUDA on Windows ARM64, B200 support through CUDA 12, and lower memory use on Linux CUDA/ROCm iGPUs. Added chat, thinking, and tool calling support for Laguna 2.1 models, including a M",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10091",
-      "project": "llama-cpp",
-      "version": "b10091",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10091",
-      "published_at": "2026-07-22T21:07:01Z",
-      "body_excerpt": "ci : fix SYCL package shared library lookup (#25987) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10090",
-      "project": "llama-cpp",
-      "version": "b10090",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10090",
-      "published_at": "2026-07-22T20:23:31Z",
-      "body_excerpt": "webgpu : add CONV_2D_DW (depthwise conv2d) kernel (#25847) webgpu : add CONV_2D_DW (depthwise conv2d) kernel Implement GGML_OP_CONV_2D_DW for the WebGPU backend, ported from the Vulkan backend's conv2d_dw.comp. Assisted-by: Claude Opus-4.8 Remove unnecessary comments in webgpu support update supported ops tables, triggered by adding webgpu CONV_2D_DW Website: macOS/iOS: macOS Apple Silicon (arm64)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10089",
-      "project": "llama-cpp",
-      "version": "b10089",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10089",
-      "published_at": "2026-07-22T19:45:27Z",
-      "body_excerpt": "cuda: GET_ROWS quants (#25962) cuda: add k-quant support to GET_ROWS Device-side embedding lookups require GET_ROWS to handle the k-quants used by common GGUF recipes (Q4_K_M stores token_embd as q6_K). Without it the backend rejects the op and the scheduler falls back to the host, copying the full embedding matrix back on every token in single-device graphs. Factor the super-block dequantizers ou",
       "type": "tool"
     }
   ]
