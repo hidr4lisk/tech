@@ -1,134 +1,156 @@
 {
-  "updated_at": "2026-10-20T11:12:21Z",
+  "updated_at": "2026-10-20T16:37:07Z",
   "items": [
     {
-      "id": "localllama-2026-10-20-vals-ai-found-deepseek-v41-flash-1017-beats-gpt-6-sol-on-the",
+      "id": "huggingface-2026-10-20-fairstress-a-deeper-evaluation-of-fairness-in-llm-decision-m",
+      "source": "huggingface",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "published_at": "2026-10-20T16:09:19Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-mimo-26-is-reasoning-is-like-the-crash-test-dummies",
       "source": "localllama",
-      "title": "Vals AI found DeepSeek V4.1 Flash 1017 beats GPT 6 Sol on their multi-step offensive cybersecurity task. Sol was tested via the Daybreak trusted access program.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xap2aq/vals_ai_found_deepseek_v41_flash_1017_beats_gpt_6/",
-      "published_at": "2026-10-20T10:59:16Z",
-      "summary": "      From Vals AI on 𝕏: https://x.com/ValsAI/status/2112471082397778083  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
+      "title": "MiMo 2.6 is reasoning is like the crash test dummies",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xawa17/mimo_26_is_reasoning_is_like_the_crash_test/",
+      "published_at": "2026-10-20T16:08:49Z",
+      "summary": "just noticed in my reasoning threads that seemingly its favorite word is now &quot;hmm&quot;: Hmm!!! What is that 1? Hmm — it could be the has_value/nullable marker for the MQDescriptor parameter! For in MQDescriptor q (",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-qwen38-flashnext-vs-qwen38-27b-tool-calling-issues",
+      "id": "localllama-2026-10-20-phonon-is-now-open-source-31m-and-40m-tts-models-designed-to",
       "source": "localllama",
-      "title": "Qwen3.8-FlashNext vs Qwen3.8-27B tool calling issues",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaos52/qwen38flashnext_vs_qwen3827b_tool_calling_issues/",
-      "published_at": "2026-10-20T10:43:08Z",
-      "summary": "I&#39;ve been using the 27B series for a while now. It&#39;s so good, I don&#39;t even use a custom chat template and barely ever saw tool call failures. My latest model &amp; engine of choice were ukisai/Swift-1.5-Qwen3",
+      "title": "Phonon is now open-source, 31M and 40M TTS models designed to run on the edge",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaw2vt/phonon_is_now_opensource_31m_and_40m_tts_models/",
+      "published_at": "2026-10-20T16:01:49Z",
+      "summary": "      At Gradium we just made our first open-source model release with Phonon, a collection of small Text-to-Speech models designed to run on device. The inference stack is fully open-source and targets 10+ different bac",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-improve-qwen38-27b-low-quants-by-using-a-prefiller-model-tha",
+      "id": "localllama-2026-10-20-hardly-any-benchmarks-for-intel-b65-so-i-got-4x-and-tested-t",
       "source": "localllama",
-      "title": "Improve Qwen3.8-27b low quants by using a prefiller model that streams from SSD",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xao7kx/improve_qwen3827b_low_quants_by_using_a_prefiller/",
-      "published_at": "2026-10-20T10:09:47Z",
-      "summary": "      This demo from ISTA-DASLab recovers low quant accuracy while retaining low VRAM usage and fast decoding. It needs a Nvidia Blackwell GPU to run, so I have not tested it. For context longer than ~4k there should be ",
+      "title": "Hardly any benchmarks for Intel B65, so I got 4x and tested them. Long Context Sweeps for Flash-Next and other models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xavy8t/hardly_any_benchmarks_for_intel_b65_so_i_got_4x/",
+      "published_at": "2026-10-20T15:57:27Z",
+      "summary": "      EDIT: Argh, forgive the formatting, .md and reddit are getting the better of me today! Howdy Folks! New batch of tests from my 4x B65 rig I built, because I was curious to test how the high memory bandwidth works o",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-deepseek-released-deepinfer---open-source-high-performance-l",
+      "id": "huggingface-2026-10-20-altk-evolve-how-learned-memory-tops-the-τ²-bench-leaderboard",
+      "source": "huggingface",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "published_at": "2026-10-20T15:19:48Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-pocket-tts-which-supports-voice-cloning-is-now-just-19-milli",
       "source": "localllama",
-      "title": "Deepseek released DeepInfer - Open Source high-performance, large-scale inference framework for DeepSeek models!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xanm55/deepseek_released_deepinfer_open_source/",
-      "published_at": "2026-10-20T09:33:27Z",
-      "summary": "      This is crazy good for studying to improve existing custom engines by community like gufo, halogen, strixite, Strata... by learning their secret sauces.  &#32; submitted by &#32;  /u/feelspeaceman   [link] &#32; [c",
+      "title": "Pocket TTS which supports voice cloning is now just 1.9 million parameters",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xauekr/pocket_tts_which_supports_voice_cloning_is_now/",
+      "published_at": "2026-10-20T14:59:15Z",
+      "summary": "&#32; submitted by &#32;  /u/Affectionate_Hat_585   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-old-server-machine-with-2x-3060-12gb-for-moe-models-anything",
+      "id": "localllama-2026-10-20-qwen38-flash-next-vs-opus-55-six-way-benchmark-on-a-real-rus",
       "source": "localllama",
-      "title": "Old server machine with 2x 3060 12GB for MoE models, anything I’m missing?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xamrvy/old_server_machine_with_2x_3060_12gb_for_moe/",
-      "published_at": "2026-10-20T08:40:40Z",
-      "summary": "I&#39;m about to buy a used HP Z640 for around €550. It has 2x E5-2680 v4, 64GB ECC at 2400, and a Quadro M6000 24GB that comes with it. The seller’s MemTest86 ran 6 hours with no errors. The plan is to add two 3060s in ",
+      "title": "Qwen3.8-Flash-Next vs Opus 5.5: Six-way benchmark on a real Rust feature with Claude Code and Pi",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatxqk/qwen38flashnext_vs_opus_55_sixway_benchmark_on_a/",
+      "published_at": "2026-10-20T14:40:52Z",
+      "summary": "A few of you pointed out in my last post that comparing Flash-Next and Opus with different harnesses and effort levels wasn&#39;t fair. So here is a more controlled comparison. Same task for every run: a real feature fro",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-2x-r9700-layer-split-side-effect",
+      "id": "localllama-2026-10-20-unsloth-just-released-ornith-15-122b-ggufs",
       "source": "localllama",
-      "title": "2x R9700 layer split side effect",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaj4y5/2x_r9700_layer_split_side_effect/",
-      "published_at": "2026-10-20T04:55:01Z",
-      "summary": "I recently upgraded my Debian WS from 9060XT to 2x R9700. A positive side effect of splitting a model by layer across the cards is that (with single task usage) the GCPU load of each card drops to &lt;50% and so the fans",
+      "title": "Unsloth just released Ornith-1.5-122B GGUFs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatwvb/unsloth_just_released_ornith15122b_ggufs/",
+      "published_at": "2026-10-20T14:39:52Z",
+      "summary": "      &#32; submitted by &#32;  /u/LaurentPayot   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-terminal-bench-v4-vs-frontier-code-v11",
+      "id": "localllama-2026-10-20-ornith-aiornith-15-122b-qwen-finetune",
       "source": "localllama",
-      "title": "Terminal Bench v4 vs Frontier Code v1.1?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xahu9x/terminal_bench_v4_vs_frontier_code_v11/",
-      "published_at": "2026-10-20T03:44:44Z",
-      "summary": "aa has this new Frontier Code v1.1 bench which measures Agentic Software Engineering. I see that Kimi K3 does very well in this new bench while performing badly in Terminal Bench v4.  What are the differences between the",
+      "title": "ornith-ai/Ornith-1.5-122B (Qwen finetune)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatebw/ornithaiornith15122b_qwen_finetune/",
+      "published_at": "2026-10-20T14:19:07Z",
+      "summary": "      from Ornith: Ornith-1.5-122B Chirp Chirp! 🐦 We are introducing Ornith-1.5, a major step toward building foundation models through end-to-end self-improvement. Ornith-1.5 extends Ornith-1.0 (which was developed on t",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-24gb-is-plenty-if-your-engines-take-turns",
+      "id": "localllama-2026-10-20-paper-the-count-counting-n-grams-unlocks-scaling-on-host-mem",
       "source": "localllama",
-      "title": "24GB is plenty if your engines take turns",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xahi82/24gb_is_plenty_if_your_engines_take_turns/",
-      "published_at": "2026-10-20T03:27:05Z",
-      "summary": "      System service that watches your card, swaps and loads whatever you want, whenever you want.  Don’t have to swap anything manually, collisions avoided, VRAM fully dedicated to each function while it’s running (no V",
+      "title": "[Paper] The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xat6o7/paper_the_count_counting_ngrams_unlocks_scaling/",
+      "published_at": "2026-10-20T14:10:33Z",
+      "summary": "       The scaling relationship of compute and performance for language models (LMs) has been extensively studied; more recently, models are being designed to scale memory use, as well. In particular, adding embeddings f",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-budget-upgrade-for-a-31b-model-dual-gpus-over-pcie-x1-or-ano",
+      "id": "localllama-2026-10-20-paper-flashmask-3-efficient-and-expressive-mask-aware-distri",
       "source": "localllama",
-      "title": "Budget upgrade for a 31B model? Dual GPUs over PCIe x1 or another approach?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xagsfh/budget_upgrade_for_a_31b_model_dual_gpus_over/",
-      "published_at": "2026-10-20T02:50:39Z",
-      "summary": "      Looking for advice on upgrading my AI server on a budget. My goal is to run Gemma 4 31B Q5_K_M (~23GB) at 16K+ context (q8), achieving at least 15 t/s. I am aware of the 26B MoE, but I want the dense model after ex",
+      "title": "[Paper] FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xasztg/paper_flashmask3_efficient_and_expressive/",
+      "published_at": "2026-10-20T14:02:52Z",
+      "summary": "       Long-context training of large language and multimodal models couples structured attention masks (document, prefix-LM, share-question, sliding-window, block-sparse) with multi-node context parallelism, making the ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-i-got-tired-of-apples-configurator-so-i-built-one-for-local",
+      "id": "localllama-2026-10-20-paper-remory-learning-residual-memory-for-context-compaction",
       "source": "localllama",
-      "title": "I got tired of Apple's configurator, so I built one for local AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xagmpd/i_got_tired_of_apples_configurator_so_i_built_one/",
-      "published_at": "2026-10-20T02:42:39Z",
-      "summary": "      I was buying a Mac mini and kept going back and forth between configs, trying to guess which one would actually run the models I want. So I built a configurator for people buying a Mac to run local LLMs:  https://m",
+      "title": "[Paper] REMORY: Learning Residual Memory for Context Compaction",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xasp90/paper_remory_learning_residual_memory_for_context/",
+      "published_at": "2026-10-20T13:50:57Z",
+      "summary": "       Long-horizon agents compact their history to continue within a finite context window, but a textual summary alone may not support every subsequent decision. We introduce REMORY, a neural memory network that supple",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-hermesconsole-a-demo-showing-off-voicemanager-my-low-latency",
+      "id": "localllama-2026-10-20-paper-dlite-history-free-speculative-decoding-for-agentic-ai",
       "source": "localllama",
-      "title": "HermesConsole: A demo showing off VoiceManager, my low latency streaming STT / TTS server. MIT, client docs, and python client.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xag5bj/hermesconsole_a_demo_showing_off_voicemanager_my/",
-      "published_at": "2026-10-20T02:18:47Z",
-      "summary": "      Hey, everyone! I&#39;m so happy to finally share this with the community. I started VoiceManager way back in March to support a game concept and my AI assistants. I had the idea for this Trek inspired app to build ",
+      "title": "[Paper] DLite: History-free Speculative Decoding for Agentic AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xasomp/paper_dlite_historyfree_speculative_decoding_for/",
+      "published_at": "2026-10-20T13:50:16Z",
+      "summary": "       Speculative decoding has become a mainstream technique for accelerating large language model (LLM) inference by using a lightweight draft model to generate candidate tokens that are subsequently verified by the ta",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-do-not-upgrade-strata-tons-of-breaking-changes",
+      "id": "localllama-2026-10-20-geezuz-kernel-qwen38-27b-at-190-toks-620-toks-at-8-requests",
       "source": "localllama",
-      "title": "Do not upgrade Strata! Tons of breaking changes!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaflhy/do_not_upgrade_strata_tons_of_breaking_changes/",
-      "published_at": "2026-10-20T01:52:05Z",
-      "summary": "Just a heads up, especially on my Windows machine, but also my Linux machine I&#39;m getting tons of breaking changes with Strata. They added a bunch of needless requirements around serving, the web UI seems to be going ",
+      "title": "Geezuz kernel: Qwen3.8-27B at 190 tok/s (620~ tok/s at 8 requests) on two 3090s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaslfk/geezuz_kernel_qwen3827b_at_190_toks_620_toks_at_8/",
+      "published_at": "2026-10-20T13:46:29Z",
+      "summary": "Geezuz, its fast! Qwen3.8-27B, two RTX 3090s power-limited to 280 W, plain PCIe, no NVLink, at 0 Context: (tests showing results with context are found on the next table)    Requests Q4_K_M Q8_0    1 request 190 tok/s 14",
       "tags": [
         "localllama"
       ]
@@ -138,6 +160,28 @@
       "source": "huggingface",
       "title": "MPS in PyTorch 2.15",
       "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "published_at": "2026-10-20T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-10-20-hugging-face-torchtpu-tpus-natively",
+      "source": "huggingface",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "published_at": "2026-10-20T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-10-20-anylanguagemodel-10-one-year-of-local-models-on-apple-platfo",
+      "source": "huggingface",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
       "published_at": "2026-10-20T00:00:00Z",
       "summary": "",
       "tags": [
@@ -365,17 +409,6 @@
       ]
     },
     {
-      "id": "huggingface-2026-10-14-hiro-acev2-simulating-extreme-weather-at-3-km-resolution-for",
-      "source": "huggingface",
-      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
-      "published_at": "2026-10-14T16:12:42Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "simonw-2026-10-13-redesigning-source-control-at-anthropic",
       "source": "simonw",
       "title": "Redesigning source control at Anthropic",
@@ -395,17 +428,6 @@
       "summary": "Release: llm-gemini 0.35\n        I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan.\nHere are the low, medium a",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "huggingface-2026-10-13-run-fast-private-agents-on-device-with-lfm25-24b-a2b",
-      "source": "huggingface",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "published_at": "2026-10-13T17:05:48Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
@@ -483,28 +505,6 @@
       "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across s",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "huggingface-2026-10-09-impactful-scheduling-for-gpu-clusters",
-      "source": "huggingface",
-      "title": "Impactful scheduling for GPU clusters",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "published_at": "2026-10-09T15:20:29Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-10-08-the-model-that-didnt-exist-so-you-made-it-yourself",
-      "source": "huggingface",
-      "title": "The model that didn't exist, so you made it yourself",
-      "url": "https://huggingface.co/blog/building-with-ml-intern",
-      "published_at": "2026-10-08T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
