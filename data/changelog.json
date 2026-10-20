@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-20T04:15:42Z",
+  "updated_at": "2026-10-20T11:12:27Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11753",
+      "project": "llama-cpp",
+      "version": "b11753",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11753",
+      "published_at": "2026-10-20T09:06:38Z",
+      "body_excerpt": "vocab : add \\p{M} to lookaheads in Tekken and GPT-4o pre-tokenizer regexes (#30845) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11752",
+      "project": "llama-cpp",
+      "version": "b11752",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11752",
+      "published_at": "2026-10-20T08:18:15Z",
+      "body_excerpt": "tests : make MoE router selection independent of the backend noise (#30818) tests : make MoE router selection independent of the backend noise The router scores are in the range 0, 1), so a random draw can leave the last expert (or expert group) still selected and the first one dropped tied within the noise between the backends. They then route a token to different experts and the logits differ by",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11751",
+      "project": "llama-cpp",
+      "version": "b11751",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11751",
+      "published_at": "2026-10-20T07:18:14Z",
+      "body_excerpt": "hexagon: update to snapdragon-toolchain v0.8 and enable hexagon v85 (#30854) hex-build: bump toolchain, enable v85 hex-build: bump toolchain to v0.8 in the CI and build scripts hex-build: add a little python script for swiv needed on some iot devices hex-build: fix flake8 warnings hex-arch: update version cap to v85 hex-inspect: flexible TOOLS_ROOT hex-build: update to snake_case naming hex-build:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11750",
+      "project": "llama-cpp",
+      "version": "b11750",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11750",
+      "published_at": "2026-10-20T05:49:32Z",
+      "body_excerpt": "sycl: fix compiler warnings - missing prototypes, dead code, extra semicolons (#30271) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUD",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11748",
       "project": "llama-cpp",
@@ -8696,6 +8732,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-microsoft-bioemu2",
+      "project": "microsoft",
+      "version": "bioemu2",
+      "url": "https://huggingface.co/microsoft/bioemu2",
+      "published_at": "2026-08-27T08:53:53Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "hf-Qwen-Qwen-Drive-1.0-4B",
       "project": "Qwen",
       "version": "Qwen-Drive-1.0-4B",
@@ -12528,69 +12573,6 @@
       "published_at": "2026-07-22T11:54:18Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10087",
-      "project": "llama-cpp",
-      "version": "b10087",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10087",
-      "published_at": "2026-07-22T11:03:57Z",
-      "body_excerpt": "Add support for Laguna XS.2 & M.1 (#25165) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CP",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10085",
-      "project": "llama-cpp",
-      "version": "b10085",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10085",
-      "published_at": "2026-07-22T09:53:04Z",
-      "body_excerpt": "mtmd : use align_corners for qwen3vl vision position embedding interpolation (#25781) The Qwen3-VL learned position embedding is interpolated to the runtime patch grid with the default bilinear+antialias (align_corners=False) sampling, while the transformers reference uses align_corners=True (torch.linspace(0, side-1, T)). The mismatch scales grounding coordinates about the image center, growing w",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10084",
-      "project": "llama-cpp",
-      "version": "b10084",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10084",
-      "published_at": "2026-07-22T09:10:57Z",
-      "body_excerpt": "hexagon: check tensor type when reusing descriptors (#25968) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10083",
-      "project": "llama-cpp",
-      "version": "b10083",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10083",
-      "published_at": "2026-07-22T08:33:34Z",
-      "body_excerpt": "cuda: add sqrt_softplus in topk-moe for dsv4 (#25896) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10082",
-      "project": "llama-cpp",
-      "version": "b10082",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10082",
-      "published_at": "2026-07-22T06:27:57Z",
-      "body_excerpt": "kleidiai : warn once when a weight type has no KleidiAI kernel (#25701) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP1",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10081",
-      "project": "llama-cpp",
-      "version": "b10081",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10081",
-      "published_at": "2026-07-22T05:43:10Z",
-      "body_excerpt": "common: resolve draft repo to its requested sidecar (#25955) With -hfd pointing to a repo shipping speculative sidecars, the draft resolved to the main model of that repo, since find_best_model() excludes sidecar files, and the explicit draft plan suppressed the sidecar discovery on the -hf repo. The draft plan already discovers its sidecars, they were just never consumed. Wire them as the draft, ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10080",
-      "project": "llama-cpp",
-      "version": "b10080",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10080",
-      "published_at": "2026-07-22T05:06:25Z",
-      "body_excerpt": "server: return 400 instead of 500 on validation error with X-Conversation-Id (#25760) server: return 400 instead of 500 on validation error with X-Conversation-Id set_req() attaches the spipe as soon as the header is present, before the request body is parsed. When params validation throws, set_next() never runs and next_orig stays empty, so on_complete() called it and crashed with std::bad_functi",
-      "type": "tool"
     }
   ]
 }

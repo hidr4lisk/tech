@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-20T04:15:35Z",
+  "updated_at": "2026-10-20T11:12:21Z",
   "items": [
+    {
+      "id": "localllama-2026-10-20-vals-ai-found-deepseek-v41-flash-1017-beats-gpt-6-sol-on-the",
+      "source": "localllama",
+      "title": "Vals AI found DeepSeek V4.1 Flash 1017 beats GPT 6 Sol on their multi-step offensive cybersecurity task. Sol was tested via the Daybreak trusted access program.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xap2aq/vals_ai_found_deepseek_v41_flash_1017_beats_gpt_6/",
+      "published_at": "2026-10-20T10:59:16Z",
+      "summary": "      From Vals AI on 𝕏: https://x.com/ValsAI/status/2112471082397778083  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-qwen38-flashnext-vs-qwen38-27b-tool-calling-issues",
+      "source": "localllama",
+      "title": "Qwen3.8-FlashNext vs Qwen3.8-27B tool calling issues",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaos52/qwen38flashnext_vs_qwen3827b_tool_calling_issues/",
+      "published_at": "2026-10-20T10:43:08Z",
+      "summary": "I&#39;ve been using the 27B series for a while now. It&#39;s so good, I don&#39;t even use a custom chat template and barely ever saw tool call failures. My latest model &amp; engine of choice were ukisai/Swift-1.5-Qwen3",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-improve-qwen38-27b-low-quants-by-using-a-prefiller-model-tha",
+      "source": "localllama",
+      "title": "Improve Qwen3.8-27b low quants by using a prefiller model that streams from SSD",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xao7kx/improve_qwen3827b_low_quants_by_using_a_prefiller/",
+      "published_at": "2026-10-20T10:09:47Z",
+      "summary": "      This demo from ISTA-DASLab recovers low quant accuracy while retaining low VRAM usage and fast decoding. It needs a Nvidia Blackwell GPU to run, so I have not tested it. For context longer than ~4k there should be ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-deepseek-released-deepinfer---open-source-high-performance-l",
+      "source": "localllama",
+      "title": "Deepseek released DeepInfer - Open Source high-performance, large-scale inference framework for DeepSeek models!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xanm55/deepseek_released_deepinfer_open_source/",
+      "published_at": "2026-10-20T09:33:27Z",
+      "summary": "      This is crazy good for studying to improve existing custom engines by community like gufo, halogen, strixite, Strata... by learning their secret sauces.  &#32; submitted by &#32;  /u/feelspeaceman   [link] &#32; [c",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-old-server-machine-with-2x-3060-12gb-for-moe-models-anything",
+      "source": "localllama",
+      "title": "Old server machine with 2x 3060 12GB for MoE models, anything I’m missing?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xamrvy/old_server_machine_with_2x_3060_12gb_for_moe/",
+      "published_at": "2026-10-20T08:40:40Z",
+      "summary": "I&#39;m about to buy a used HP Z640 for around €550. It has 2x E5-2680 v4, 64GB ECC at 2400, and a Quadro M6000 24GB that comes with it. The seller’s MemTest86 ran 6 hours with no errors. The plan is to add two 3060s in ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-2x-r9700-layer-split-side-effect",
+      "source": "localllama",
+      "title": "2x R9700 layer split side effect",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaj4y5/2x_r9700_layer_split_side_effect/",
+      "published_at": "2026-10-20T04:55:01Z",
+      "summary": "I recently upgraded my Debian WS from 9060XT to 2x R9700. A positive side effect of splitting a model by layer across the cards is that (with single task usage) the GCPU load of each card drops to &lt;50% and so the fans",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-20-terminal-bench-v4-vs-frontier-code-v11",
+      "source": "localllama",
+      "title": "Terminal Bench v4 vs Frontier Code v1.1?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xahu9x/terminal_bench_v4_vs_frontier_code_v11/",
+      "published_at": "2026-10-20T03:44:44Z",
+      "summary": "aa has this new Frontier Code v1.1 bench which measures Agentic Software Engineering. I see that Kimi K3 does very well in this new bench while performing badly in Terminal Bench v4.  What are the differences between the",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-20-24gb-is-plenty-if-your-engines-take-turns",
       "source": "localllama",
@@ -57,25 +134,14 @@
       ]
     },
     {
-      "id": "localllama-2026-10-20-amd-gaia-025-brings-several-improvements-for-local-ai-agents",
-      "source": "localllama",
-      "title": "AMD GAIA 0.25 brings several improvements for local AI agents on Ryzen AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaegqa/amd_gaia_025_brings_several_improvements_for/",
-      "published_at": "2026-10-20T00:58:40Z",
-      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
+      "id": "huggingface-2026-10-20-mps-in-pytorch-215",
+      "source": "huggingface",
+      "title": "MPS in PyTorch 2.15",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "published_at": "2026-10-20T00:00:00Z",
+      "summary": "",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-migtisseratess-45-27b-qwen-finetune",
-      "source": "localllama",
-      "title": "migtissera/Tess-4.5-27B (Qwen finetune)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xadfm7/migtisseratess4527b_qwen_finetune/",
-      "published_at": "2026-10-20T00:09:50Z",
-      "summary": "      https://huggingface.co/migtissera/Tess-4.5-27B-GGUF from the author of Synthia I like this part: Less thinking. Same answers. Tess-4.5 reaches the same score with a quarter fewer tokens. Across all 150 BenchLocal s",
-      "tags": [
-        "localllama"
+        "huggingface"
       ]
     },
     {
@@ -87,61 +153,6 @@
       "summary": "My obituary for programming\nJeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code:\n\nProgramming turned into one of the greatest jobs you c",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-19-jev-based-adaptive-thinking-for-llms",
-      "source": "localllama",
-      "title": "Jev Based Adaptive Thinking for LLMs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa9ffa/jev_based_adaptive_thinking_for_llms/",
-      "published_at": "2026-10-19T21:18:28Z",
-      "summary": "      Hi, I experimented with the following idea, using JEV logic to make the thinking process of LLMs adaptive.  For every single word we measure the entropy and when the model is unsure we use a JEV like gate where we ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-19-gamesummoner-ease-of-local-use-update",
-      "source": "localllama",
-      "title": "GameSummoner: ease of local use update",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa968x/gamesummoner_ease_of_local_use_update/",
-      "published_at": "2026-10-19T21:08:49Z",
-      "summary": "      Hey LocalLLaMA, I released GameSummoner a bit over a week ago as an open source program and said &quot;it works locally, but is a bit hard to use.&quot; (Post) Over the last few days I&#39;ve cleaned up my prod hos",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-19-i-built-an-app-to-efficiently-run-decision-models-on-the-app",
-      "source": "localllama",
-      "title": "I built an app to efficiently run decision models on the Apple Neural Engine with Shortcuts actions for OS automations",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa7ytv/i_built_an_app_to_efficiently_run_decision_models/",
-      "published_at": "2026-10-19T20:23:15Z",
-      "summary": "      LiquidAI d1-3B is currently on the Pareto frontier of the Decision Index 0.3.2 https://huggingface.co/spaces/multimodalart/jev-decision-index, and you can run it on the ANE with around 40 ms latency on warm short-c",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-19-lets-delve-into-the-tapestry-of-ai-slop-on-rlocalllama",
-      "source": "localllama",
-      "title": "Let's delve into the tapestry of AI slop on r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa7hi8/lets_delve_into_the_tapestry_of_ai_slop_on/",
-      "published_at": "2026-10-19T20:05:12Z",
-      "summary": "Hi everyone, I got annoyed a bit with all the AI slop post I have seen here on this subreddit (and reddit in general). It has gotten better in the last few months, but that hasn&#39;t stopped me from doing an in depth an",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-19-has-anyone-else-here-found-a-place-for-diffusiongemma-in-the",
-      "source": "localllama",
-      "title": "Has anyone else here found a place for DiffusionGemma in their local work?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa6ykz/has_anyone_else_here_found_a_place_for/",
-      "published_at": "2026-10-19T19:46:24Z",
-      "summary": "So, I was always really fascinated with the idea of a smart/capable-enough model that worked at blazing fast speed. I assumed we needed some kind of ASIC-style dedicated hardware for a specific LLM to manage that, but th",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -491,17 +502,6 @@
       "title": "The model that didn't exist, so you made it yourself",
       "url": "https://huggingface.co/blog/building-with-ml-intern",
       "published_at": "2026-10-08T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-10-07-multimodal-open-d1-decision-models-for-the-edge",
-      "source": "huggingface",
-      "title": "Multimodal open d1 decision models for the edge",
-      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "published_at": "2026-10-07T16:54:33Z",
       "summary": "",
       "tags": [
         "huggingface"
