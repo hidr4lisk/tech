@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-19T22:09:56Z",
+  "updated_at": "2026-10-20T04:15:42Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11748",
+      "project": "llama-cpp",
+      "version": "b11748",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11748",
+      "published_at": "2026-10-20T00:23:31Z",
+      "body_excerpt": "sycl : fix get_rows on reordered quantized weights (#30430) Co-authored-by: Sam Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) -",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11747",
+      "project": "llama-cpp",
+      "version": "b11747",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11747",
+      "published_at": "2026-10-19T23:58:12Z",
+      "body_excerpt": "mtmd : match the transformers Qwen-VL resize (#30736) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11744",
+      "project": "llama-cpp",
+      "version": "b11744",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11744",
+      "published_at": "2026-10-19T22:54:49Z",
+      "body_excerpt": "server: add --connect, allow p2p access to server outside LAN (#28277) init wip wire it up make it clear that it's experimental add props.connect_code nits fix windows build server: do not advertise a connect code without the tunnel --connect-code on its own had no effect other than being served in /props, so the Web UI showed a remote access code that no tunnel was serving. Clear it when --connec",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11742",
       "project": "llama-cpp",
@@ -911,6 +938,15 @@
       "type": "model"
     },
     {
+      "id": "hf-nvidia-cdf-sim2real-smt-solderlight",
+      "project": "nvidia",
+      "version": "cdf-sim2real-smt-solderlight",
+      "url": "https://huggingface.co/nvidia/cdf-sim2real-smt-solderlight",
+      "published_at": "2026-10-14T07:07:34Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b11609",
       "project": "llama-cpp",
       "version": "b11609",
@@ -1118,6 +1154,24 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-Cosmos-AnomalyGen-Glass-Nano",
+      "project": "nvidia",
+      "version": "Cosmos-AnomalyGen-Glass-Nano",
+      "url": "https://huggingface.co/nvidia/Cosmos-AnomalyGen-Glass-Nano",
+      "published_at": "2026-10-13T04:26:59Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Cosmos-AnomalyGen-Metal-Nano",
+      "project": "nvidia",
+      "version": "Cosmos-AnomalyGen-Metal-Nano",
+      "url": "https://huggingface.co/nvidia/Cosmos-AnomalyGen-Metal-Nano",
+      "published_at": "2026-10-13T04:26:53Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b11580",
       "project": "llama-cpp",
       "version": "b11580",
@@ -1125,6 +1179,15 @@
       "published_at": "2026-10-13T04:02:51Z",
       "body_excerpt": "hexagon: extend scalar DMA broadcasting support for binary ops (#30245) tests: cover weighted scalar broadcasts Assisted-by: OpenCode ggml : support extended scalar DMA binary ops Assisted-by: OpenCode hex-binary: remove all non-dma paths hex-binary: add support for non-contig strides and cleanup dma preable a bit hex-binary: cleanup the gating and simplify dma retry hex-geglu-erf: add a gate for ",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Cosmos-AnomalyGen-PCB-Nano",
+      "project": "nvidia",
+      "version": "Cosmos-AnomalyGen-PCB-Nano",
+      "url": "https://huggingface.co/nvidia/Cosmos-AnomalyGen-PCB-Nano",
+      "published_at": "2026-10-13T03:42:40Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11577",
@@ -12527,24 +12590,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10080",
       "published_at": "2026-07-22T05:06:25Z",
       "body_excerpt": "server: return 400 instead of 500 on validation error with X-Conversation-Id (#25760) server: return 400 instead of 500 on validation error with X-Conversation-Id set_req() attaches the spipe as soon as the header is present, before the request body is parsed. When params validation throws, set_next() never runs and next_orig stays empty, so on_complete() called it and crashed with std::bad_functi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10079",
-      "project": "llama-cpp",
-      "version": "b10079",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10079",
-      "published_at": "2026-07-22T02:03:31Z",
-      "body_excerpt": "server : properly handle null llama_context (#25868) Co-authored-by: Stanisław Szymczyk Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubun",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10078",
-      "project": "llama-cpp",
-      "version": "b10078",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10078",
-      "published_at": "2026-07-21T22:38:35Z",
-      "body_excerpt": "vulkan: Refactor vk_queue to use per-instance mutexes and unique handles (#23570) Refactor vk_queue to use per-instance mutexes and unique handles integrates VK_KHR_internally_synchronized_queues, abstracting the queue submission into a polymorphic interface that completely bypasses host-side mutex locking when driver-side synchronization is supported fix compilation error fix duplicate pNext chai",
       "type": "tool"
     }
   ]
