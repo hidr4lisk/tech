@@ -1,6 +1,141 @@
 {
-  "updated_at": "2026-10-20T21:25:30Z",
+  "updated_at": "2026-10-21T04:03:52Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11778",
+      "project": "llama-cpp",
+      "version": "b11778",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11778",
+      "published_at": "2026-10-21T03:37:03Z",
+      "body_excerpt": "model : support Nemotron-3(.5)-Embed (#30877) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11777",
+      "project": "llama-cpp",
+      "version": "b11777",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11777",
+      "published_at": "2026-10-21T03:21:30Z",
+      "body_excerpt": "qwen: reshape output to 2d instead of 3d (#30823) qwen: reshape output to 2d instead of 3d remove final reshape, fix comments Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11776",
+      "project": "llama-cpp",
+      "version": "b11776",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11776",
+      "published_at": "2026-10-21T03:04:08Z",
+      "body_excerpt": "server: Support logprobs with speculative decoding (#27196) return logprobs in spec path server: add regression test for logprobs with speculative decoding Asserts accepted draft tokens report the target model's logprobs, comparing a draft-enabled run against a no-draft baseline (#24271). Fails on master (top_logprobs empty, logprob 0.0), passes with the fix from #27196. Co-Authored-By: Claude Fab",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11774",
+      "project": "llama-cpp",
+      "version": "b11774",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11774",
+      "published_at": "2026-10-21T02:32:09Z",
+      "body_excerpt": "mtmd : lfm2 tiles and layout match transformers (#30261) mtmd : lfm2 tiles stretch the image to the grid Lfm2VlImageProcessor.crop_image_to_patches resizes the image straight to (512 rows, 512 cols) before it cuts the tiles. llama.cpp kept the aspect ratio and added black bars for LFM2 (only d1-omni stretched), so the tiles of d1-3B and every LFM2-VL / LFM2.5-VL model differed from transformers un",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11773",
+      "project": "llama-cpp",
+      "version": "b11773",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11773",
+      "published_at": "2026-10-21T02:15:10Z",
+      "body_excerpt": "model : add H2O-Lightning-4B decision model (#30361) model : add H2O-Lightning-4B decision model Adds the h2o-lightning decision type for h2oai/h2o-lightning-4b (Qwen3.5-4B with a merged decision LoRA). None of the existing types match this model. It answers with \" A\" rather than \"A\", uses up to 255 labels, and was trained on Python json.dumps text, so floats like 12.0 must render as 12.0. The con",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11772",
+      "project": "llama-cpp",
+      "version": "b11772",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11772",
+      "published_at": "2026-10-21T01:59:38Z",
+      "body_excerpt": "mtmd: fix gemma 4 ffn act (#30882) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) -",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11770",
+      "project": "llama-cpp",
+      "version": "b11770",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11770",
+      "published_at": "2026-10-21T01:27:25Z",
+      "body_excerpt": "ggml-cuda : support ssm_conv kernel size 7 (#30873) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11769",
+      "project": "llama-cpp",
+      "version": "b11769",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11769",
+      "published_at": "2026-10-21T01:11:10Z",
+      "body_excerpt": "server: Router wasn't propagating the client disconnects fully to the child, the response wait could cause a delayed cancellation (#29707) Router wasn't propagating the client disconnects fully to the child, the response wait could cause a delayed cancellation tests: satisfy router disconnect type check server : remove timing-sensitive router cancellation test Assisted-by: Codex Website: Attestati",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11768",
+      "project": "llama-cpp",
+      "version": "b11768",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11768",
+      "published_at": "2026-10-21T00:48:12Z",
+      "body_excerpt": "server: fix missing output_index in Responses API SSE events for compatibility (#30863) server: include output_index in Responses API SSE events server: reuse Anthropic streaming code for fix output_index server: remove unnecessary generated_tool_call_ids and oai_resp_tool_calls_started Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11767",
+      "project": "llama-cpp",
+      "version": "b11767",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11767",
+      "published_at": "2026-10-21T00:31:00Z",
+      "body_excerpt": "mtmd : read LFM2 tiling params from GGUF metadata (#30840) mtmd : read LFM2 tiling params from GGUF metadata Write min_tiles, max_tiles, tile_size and max_pixels_tolerance from processor_config.json when converting LFM2-VL mmproj, read them in clip.cpp with the previous constants as defaults. do_image_splitting=false maps to min_tiles=max_tiles=1 (no tiling). Rebased version of #25524, original im",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11765",
+      "project": "llama-cpp",
+      "version": "b11765",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11765",
+      "published_at": "2026-10-20T23:19:38Z",
+      "body_excerpt": "model : drop the redundant precision overrides in the Kolibri-1 router (#30865) model : drop the redundant precision overrides in the Kolibri-1 router Follow-up to the review in #30673: the router matmul works with the default precision, so both ggml_prec_set_ calls can go away. Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) cont : fix comment Co-authored-by: S",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11763",
+      "project": "llama-cpp",
+      "version": "b11763",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11763",
+      "published_at": "2026-10-20T22:58:31Z",
+      "body_excerpt": "opencl: add several gemm variants for small batches and some fixes (#30850) opencl: fix OOB read in opencl: remove large-N guard that forces CPU weight placement this condition claims that large batch produces incorrect results on adreno and cannot be reproduced model loader uses N512 to probe op support, resulting in cpu fallback thus this condition does not seem necessary opencl: cap num of subg",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11761",
+      "project": "llama-cpp",
+      "version": "b11761",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11761",
+      "published_at": "2026-10-20T22:14:42Z",
+      "body_excerpt": "ggml-cpu : select the NEON fp32->fp16 conversion (#30505) The __ARM_NEON branch defines both GGML_CPU_COMPUTE_* macros but selects only FP16_TO_FP32, so FP32_TO_FP16 falls through to the portable software conversion while neon_compute_fp32_to_fp16, a single fcvt, stays defined and referenced by nothing. __POWER9_VECTOR__ and __riscv_zfhmin select both. Add an #error pair that refuses a branch defi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11760",
+      "project": "llama-cpp",
+      "version": "b11760",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11760",
+      "published_at": "2026-10-20T21:49:57Z",
+      "body_excerpt": "HIP/CUDA: Fix reduction in mmf getting tile widths not devisiable by 64 (#30836) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11759",
+      "project": "llama-cpp",
+      "version": "b11759",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11759",
+      "published_at": "2026-10-20T21:26:07Z",
+      "body_excerpt": "ggml-zdnn: introduce flash attention op (#30512) ggml-zdnn: add scratch buffer pool Signed-off-by: Aaron Teo ggml-zdnn: implement fattn, ditch scratch slots in favour of scratch buffer pool Signed-off-by: Aaron Teo docs: add note about fattn Signed-off-by: Aaron Teo --------- Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11757",
       "project": "llama-cpp",
@@ -341,6 +476,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0",
       "published_at": "2026-10-18T00:28:57Z",
       "body_excerpt": "What's Changed openai: allow Responses effort on non-thinking models by @hoyyeva in llama-server: let llama-server infer the draft speculative type by @dhiltgen in mlx: add PPLX Decider v1.2 support by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.7",
+      "project": "ollama",
+      "version": "v0.40.7",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7",
+      "published_at": "2026-10-18T00:28:57Z",
+      "body_excerpt": "What's Changed pplx-decider is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without thinking, or when the history contains another provider's compaction items Fixed streaming Responses requests where client tool calls (e.g. Codex with web search) could emit before open",
       "type": "tool"
     },
     {
@@ -4318,7 +4462,7 @@
       "version": "prebuilt-wheels-cu13",
       "url": "https://github.com/unslothai/unsloth/releases/tag/prebuilt-wheels-cu13",
       "published_at": "2026-09-27T03:16:14Z",
-      "body_excerpt": "Prebuilt CUDA 13 wheels. Linux x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.13 and 2.14 on Python 3.13. Windows x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.10, 2.11 and 2.12 on Python 3.11, 3.12 and 3.13; 2.13 and 2.14 on Python 3.13. Linux aarch64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2",
+      "body_excerpt": "Prebuilt CUDA 13 wheels. Linux x86_64: flash-attn 2.8.4, built for PyTorch 2.13 and 2.14 on Python 3.13; causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.10, 2.11 and 2.12 on Python 3.11, 3.12 and 3.13; 2.13 and 2.14 on Python 3.13. Windows x86_64: flash-attn 2.8.4, causal-conv1d 1.7.0 and mamba-ssm 2.3.2.post1, built for PyTorch 2.10, 2.11 and 2.12 on Python 3.11, 3.12 and 3.13;",
       "type": "tool"
     },
     {
@@ -12599,24 +12743,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10092",
       "published_at": "2026-07-23T05:30:53Z",
       "body_excerpt": "ggml: enable PowerPC backend variants on AIX (#25983) ggml: enable PowerPC backend variants on AIX Allow the PowerPC CPU backend variants to be built on AIX by extending the platform check in the CMake configuration. This reuses the existing PowerPC backend implementations without changing their behavior. Also fix a missing semicolon in the PowerPC Q0 matmul implementation. Fix missing semicolon i",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.3-rc0",
-      "project": "ollama",
-      "version": "v0.32.3-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0",
-      "published_at": "2026-07-23T00:44:28Z",
-      "body_excerpt": "What's Changed mlx update by @dhiltgen in model/parsers: finalize incomplete GLM tool calls by @dhiltgen in docs: update retirements by @mxyng in model: align Laguna with upstream llama.cpp by @dhiltgen in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.3",
-      "project": "ollama",
-      "version": "v0.32.3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3",
-      "published_at": "2026-07-23T00:44:28Z",
-      "body_excerpt": "What's Changed Fixed model downloads that stall before sending data. Improved integrations: restored Claude Code Channels, fixed Anthropic thinking streams, and made Hermes Desktop respect . Expanded GPU support with CUDA on Windows ARM64, B200 support through CUDA 12, and lower memory use on Linux CUDA/ROCm iGPUs. Added chat, thinking, and tool calling support for Laguna 2.1 models, including a M",
       "type": "tool"
     }
   ]
