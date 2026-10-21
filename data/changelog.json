@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-10-21T11:28:17Z",
+  "updated_at": "2026-10-21T16:55:35Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11798",
+      "project": "llama-cpp",
+      "version": "b11798",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11798",
+      "published_at": "2026-10-21T16:36:00Z",
+      "body_excerpt": "jinja: support hexadecimal string escapes (#30929) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu a",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.8-rc0",
+      "project": "ollama",
+      "version": "v0.40.8-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
+      "published_at": "2026-10-21T16:20:30Z",
+      "body_excerpt": "Recursive Flint Flint brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-token context window support longer tasks across files and tool interactions. Flint is an Apache 2.0-licensed, 40B-parameter mixture-of-expe",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11797",
+      "project": "llama-cpp",
+      "version": "b11797",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11797",
+      "published_at": "2026-10-21T16:01:17Z",
+      "body_excerpt": "ggml-opencl : add IM2COL_3D support (#30895) ggml-opencl : add IM2COL_3D support Assisted-by: OpenCode opencl: use same type for kernel and host opencl: fix for older adreno --------- Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11796",
+      "project": "llama-cpp",
+      "version": "b11796",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11796",
+      "published_at": "2026-10-21T12:34:53Z",
+      "body_excerpt": "mtmd: add state object for mtmd_gen (#30902) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11795",
+      "project": "llama-cpp",
+      "version": "b11795",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11795",
+      "published_at": "2026-10-21T12:16:20Z",
+      "body_excerpt": "server : forward llama.cpp sampling params on /v1/messages (#30856) server : forward llama.cpp sampling params on /v1/messages server : pass the request through on /v1/messages instead of copying listed keys NIT: Change comment from multiline to single line server : accept llama.cpp params under extra_params on /v1/messages server : remove test case for trivial functionality server : show extra_pa",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11793",
+      "project": "llama-cpp",
+      "version": "b11793",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11793",
+      "published_at": "2026-10-21T11:55:21Z",
+      "body_excerpt": "llama : optimize vocabulary loading (#30679) llama : optimize vocabulary loading Update src/unicode.h Co-authored-by: Georgi Gerganov CR : added reserve in gguf_kv_to_str CR : trailing space fix --------- Co-authored-by: Georgi Gerganov Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11792",
+      "project": "llama-cpp",
+      "version": "b11792",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11792",
+      "published_at": "2026-10-21T11:38:12Z",
+      "body_excerpt": "llama : place d2t by its set_rows use so it can stay on the GPU (#30912) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 1",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11791",
       "project": "llama-cpp",
@@ -2545,6 +2608,15 @@
       "version": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
       "published_at": "2026-10-07T17:50:42Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-speech-5.0-2b",
+      "project": "ibm-granite",
+      "version": "granite-speech-5.0-2b",
+      "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-2b",
+      "published_at": "2026-10-07T16:10:49Z",
       "body_excerpt": "",
       "type": "model"
     },
