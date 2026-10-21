@@ -1,46 +1,145 @@
 {
-  "updated_at": "2026-10-21T04:03:45Z",
+  "updated_at": "2026-10-21T11:28:11Z",
   "items": [
     {
-      "id": "localllama-2026-10-21-exclusive-bytedance-alibaba-tencent-place-over-35-billion-wo",
+      "id": "huggingface-2026-10-21-announcing-simready-central-an-open-library-of-simulation-re",
+      "source": "huggingface",
+      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+      "published_at": "2026-10-21T10:59:42Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-21-paper-specter-fast-moe-inference-via-quantization-enabled-mu",
       "source": "localllama",
-      "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb9z8e/exclusive_bytedance_alibaba_tencent_place_over_35/",
-      "published_at": "2026-10-21T01:24:31Z",
-      "summary": "China just ordered 3mil RTX 5500 Pro for $11.4 a pop. Probably for llm inference and AI video gen. I suppose this card is now out of reach for local llm.  &#32; submitted by &#32;  /u/Ok_Warning2146   [link] &#32; [comme",
+      "title": "[Paper] Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbj6an/paper_specter_fast_moe_inference_via/",
+      "published_at": "2026-10-21T10:09:24Z",
+      "summary": "       Mixture-of-experts (MoE) models often exceed a single accelerator&#39;s memory capacity. Offloading experts to host memory creates a severe PCIe I/O bottleneck because data-dependent routing keeps transfers on the",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-21-how-to-squeeze-the-max-token-from-m1-max-64gb",
+      "id": "localllama-2026-10-21-for-people-who-run-ddr3-ram-on-their-gigantic-server",
       "source": "localllama",
-      "title": "How to squeeze the Max Token from M1 Max 64gb?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb9ax1/how_to_squeeze_the_max_token_from_m1_max_64gb/",
-      "published_at": "2026-10-21T00:51:56Z",
-      "summary": "For last 9 ​months, been using cloud frontier 99% the from Gemini Flash Pro, Claude, Deepseek, ​Groq &amp; Cerebras. Ready to give 32B, 70B, 120B another try. Was getting decent 45 token/sec on 7B Llama MLX, but 7B is to",
+      "title": "for people who run ddr3 ram on their gigantic server",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbj0lx/for_people_who_run_ddr3_ram_on_their_gigantic/",
+      "published_at": "2026-10-21T10:00:24Z",
+      "summary": "have you experienced any related issues like bandwidth or something else? Excluding the fact that it cost way cheaper than ddr4 rams. If there&#39;s anything else id love to hear  &#32; submitted by &#32;  /u/Loose_Doubt",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-eagle-4-released-faster-than-dflash2-dspark",
+      "id": "localllama-2026-10-21-qwen38-flash-next-vs-opus-55-six-way-benchmark-on-a-real-rus",
       "source": "localllama",
-      "title": "Eagle-4 Released: Faster than DFlash2 & DSpark",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb6zds/eagle4_released_faster_than_dflash2_dspark/",
-      "published_at": "2026-10-20T23:04:08Z",
-      "summary": "      Insane numbers, so far only Qwen3.8-27B is supported but wow those are some good numbers. Will watch closely when this lands in llama.cpp/vLLM ### Qwen 3.8 27B Benchmark Results   Method Speedup over Vanilla    MTP",
+      "title": "Qwen3.8-Flash-Next vs Opus 5.5: Six-way benchmark on a real Rust feature with Claude Code and Pi",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbipsl/qwen38flashnext_vs_opus_55_sixway_benchmark_on_a/",
+      "published_at": "2026-10-21T09:41:48Z",
+      "summary": "Reposting again since original post got removed by Reddit for some reason (I have no idea why) A few of you pointed out in my last post that comparing Flash-Next and Opus with different harnesses and effort levels wasn&#",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-20-i-built-an-rk3588-npu-runtime-without-any-proprietary-infere",
+      "id": "localllama-2026-10-21-ovisocr3-a-08b-ocr-model-with-structured-output-and-cross-pa",
       "source": "localllama",
-      "title": "I built an RK3588 NPU runtime without any proprietary inference libraries: Qwen3.5-4B at ~10 tok/s, ~2x faster than vendor SDK.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb45bq/i_built_an_rk3588_npu_runtime_without_any/",
-      "published_at": "2026-10-20T21:03:58Z",
-      "summary": "If you have an RK3588 board, here’s another way to put its NPU to work. I made open_rknpu2_lm_infer, a local LLM inference engine for the Rockchip RK3588 NPU. It runs without Rockchip’s proprietary userspace inference li",
+      "title": "OvisOCR3: a 0.8B OCR model with structured output and cross-page table reconstruction",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbi9h4/ovisocr3_a_08b_ocr_model_with_structured_output/",
+      "published_at": "2026-10-21T09:12:49Z",
+      "summary": "      OvisOCR3 is out, still based on Qwen3.5-0.8B and available under Apache 2.0, with vLLM inference examples. Compared with OvisOCR2’s Markdown parsing, it adds a few useful options:  Structured JSON output with bound",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-21-internsciencesage-a15-finetune-of-qwen-36-35b-a3b",
+      "source": "localllama",
+      "title": "InternScience/Sage-A1.5 [Finetune of Qwen 3.6 35b-a3b]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbi1hj/internsciencesagea15_finetune_of_qwen_36_35ba3b/",
+      "published_at": "2026-10-21T08:59:41Z",
+      "summary": "      Gguf&#39;s:  https://huggingface.co/InternScience/Sage-A1.5-Q4_K_M-GGUF https://huggingface.co/InternScience/Sage-A1.5-Q8_0-GGUF &quot;Sage‑A1.5 is a 35B Mixture‑of‑Experts agentic model based on Qwen3.6-35B-A3B fr",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-21-has-anyone-seen-a-negative-impact-with-ascii-pruning-a-gguf",
+      "source": "localllama",
+      "title": "Has anyone seen a negative impact with ASCII pruning a gguf?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbhyxb/has_anyone_seen_a_negative_impact_with_ascii/",
+      "published_at": "2026-10-21T08:55:15Z",
+      "summary": "I tried https://github.com/bsaleh03/ASCII-Condensed-prune-tools and it reduces Qwen3.8 27B gguf by about 0.6GB. I am wondering if anyone has seen a negative impact with doing so?  &#32; submitted by &#32;  /u/Fancy-Snow7",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-21-kraftonraon-1-mini-preview-hugging-face",
+      "source": "localllama",
+      "title": "KRAFTON/Raon-1-mini-preview · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbh0ev/kraftonraon1minipreview_hugging_face/",
+      "published_at": "2026-10-21T07:54:08Z",
+      "summary": "      Raon-1 mini is a 30B-A4B Mixture-of-Experts (MoE) language model, designed and trained from scratch by KRAFTON AI. It demonstrates strong capabilities in Korean conversation and agentic tasks. As part of the Raon o",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-21-an-interactive-site-plotting-artificial-analysis-intelligenc",
+      "source": "localllama",
+      "title": "An interactive site plotting Artificial Analysis Intelligence vs parameter count",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbgyod/an_interactive_site_plotting_artificial_analysis/",
+      "published_at": "2026-10-21T07:50:59Z",
+      "summary": "      https://preview.redd.it/mu3u3oqzzrwh1.png?width=2136&amp;format=png&amp;auto=webp&amp;s=ea25af95068ab1c09d5dfe048944fc39ed67f278 Artificial Analysis scores models on its Intelligence Index, but the charts put it ag",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-21-qwen38-flash-next-166bpw-exl3-stable-under-36gb",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next @ 1.66bpw-exl3 STABLE under 36gb",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbgi6i/qwen38flashnext_166bpwexl3_stable_under_36gb/",
+      "published_at": "2026-10-21T07:21:35Z",
+      "summary": "      Fits entirely in a 5090, no offloaded experts. Super-solid sub-2bpw! (Liquid cat demo video generated by the quantized model) From the Cat&#39;s mouth:  Stable inference throughout, no reasoning loops, just smooth ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-21-be-prepared-gpu-price-increase-incoming----samsung-sells-out",
+      "source": "localllama",
+      "title": "Be prepared, GPU price increase incoming --> Samsung sells out 100% of all 2027 HBM capacity - HBM prices expected to jump 200% next year, DRAM prices expected to see a double-digit price increase",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbfhxp/be_prepared_gpu_price_increase_incoming_samsung/",
+      "published_at": "2026-10-21T06:19:12Z",
+      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-21-fast-lora-in-llamacpp",
+      "source": "localllama",
+      "title": "Fast LoRA in llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbekzx/fast_lora_in_llamacpp/",
+      "published_at": "2026-10-21T05:24:30Z",
+      "summary": "I&#39;d like to share a few changes that encourage people to create and use LoRA on LLMs. For example, the LoRA https://huggingface.co/chenrm/qwen3.8-flash-next-abliterated-lora can turn the Qwen3.8-Flash-Next model into",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-21-the-costs-of-decisions-has-dropped-10x-in-just-a-few-months",
+      "source": "localllama",
+      "title": "The costs of “decisions” has dropped 10x in just a few months",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbe9ga/the_costs_of_decisions_has_dropped_10x_in_just_a/",
+      "published_at": "2026-10-21T05:06:18Z",
+      "summary": "      pplx-decider-v1.2 is one tenth the costs of GPT 6 Luna (low reasoning) while making identical quality decisions, and pplx-decider-flash-v1.2 idem ditto compare to 6 Luna in the Decisions API. v1.2 is also 2.5x chea",
       "tags": [
         "localllama"
       ]
@@ -57,17 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-20-xhtokenspark-x26-4b-hugging-face",
-      "source": "localllama",
-      "title": "XHToken/Spark-X2.6-4B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb0nr9/xhtokensparkx264b_hugging_face/",
-      "published_at": "2026-10-20T18:50:53Z",
-      "summary": "      https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF Introduction A little over a month has passed since Spark-X2.5. In the rapidly evolving world of AI agents, that is enough time to rethink, refine, and move the fro",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-10-20-nvidia-cosmos3-h-dreams-bringing-clinical-surgery-to-life-th",
       "source": "huggingface",
       "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
@@ -79,61 +167,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-20-qev-08b-new-sota-tiny-local-decision-model",
-      "source": "localllama",
-      "title": "qev-0.8b · New SOTA tiny local decision model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xazrvd/qev08b_new_sota_tiny_local_decision_model/",
-      "published_at": "2026-10-20T18:17:30Z",
-      "summary": "      &#32; submitted by &#32;  /u/fajfas3   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-running-35b-moe-models-on-a-tesla-k80-2014-at-21-toks-in-pla",
-      "source": "localllama",
-      "title": "Running 35B MoE models on a Tesla K80 (2014) at ~21 tok/s, in plain C",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaz06x/running_35b_moe_models_on_a_tesla_k80_2014_at_21/",
-      "published_at": "2026-10-20T17:49:47Z",
-      "summary": "I&#39;ve spent about a year on an inference engine that doesn&#39;t need modern hardware. It&#39;s called Pantheon (LLM engine) on top of Foundry (ML library), both in C with no outside libraries. The CUDA backend target",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-agnes-aiagnes-30-qwen-qfn-finetune",
-      "source": "localllama",
-      "title": "Agnes-AI/Agnes-3.0-Qwen (QFN finetune)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxz80/agnesaiagnes30qwen_qfn_finetune/",
-      "published_at": "2026-10-20T17:11:43Z",
-      "summary": "      https://huggingface.co/bartowski/Agnes-AI_Agnes-3.0-Qwen-GGUF  Strong agentic performance: agnes-3.0-qwen scores highest in its comparison set on τ³-Banking, and is within about one point of the best model on Termi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-pocket-tts-small-cpu-voice-cloning-with-models-as-small-as-1",
-      "source": "localllama",
-      "title": "Pocket TTS Small: CPU voice cloning with models as small as 1.9M parameters",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxm11/pocket_tts_small_cpu_voice_cloning_with_models_as/",
-      "published_at": "2026-10-20T16:58:49Z",
-      "summary": "      Kyutai released three smaller Pocket TTS models on October 20: 1.9M, 6.9M and 18.2M parameters. These are English models, support voice cloning, and are designed to run on CPU. You can switch between the sizes in t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-short-report-from-lithuanian-conference-on-ai-technologies-i",
-      "source": "localllama",
-      "title": "Short report from Lithuanian conference on AI Technologies in Medicine",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxffx/short_report_from_lithuanian_conference_on_ai/",
-      "published_at": "2026-10-20T16:51:37Z",
-      "summary": "Full info: https://lithuania.ai/en/events/konferencija-dirbtinio-intelekto-technologijos-medicinoje-tyrimai-ir-diagnostika Things I noticed among other things presented (almost every presentation was interesting):  exper",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-10-20-fairstress-a-deeper-evaluation-of-fairness-in-llm-decision-m",
       "source": "huggingface",
       "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
@@ -142,28 +175,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-mimo-26-is-reasoning-is-like-the-crash-test-dummies",
-      "source": "localllama",
-      "title": "MiMo 2.6 is reasoning is like the crash test dummies",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xawa17/mimo_26_is_reasoning_is_like_the_crash_test/",
-      "published_at": "2026-10-20T16:08:49Z",
-      "summary": "just noticed in my reasoning threads that seemingly its favorite word is now &quot;hmm&quot;: Hmm!!! What is that 1? Hmm — it could be the has_value/nullable marker for the MQDescriptor parameter! For in MQDescriptor q (",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-20-phonon-is-now-open-source-31m-and-40m-tts-models-designed-to",
-      "source": "localllama",
-      "title": "Phonon is now open-source, 31M and 40M TTS models designed to run on the edge",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaw2vt/phonon_is_now_opensource_31m_and_40m_tts_models/",
-      "published_at": "2026-10-20T16:01:49Z",
-      "summary": "      At Gradium we just made our first open-source model release with Phonon, a collection of small Text-to-Speech models designed to run on device. The inference stack is fully open-source and targets 10+ different bac",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -384,17 +395,6 @@
       "summary": "Tool: LaTeX renderer\n        Inspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office, which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, C",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "huggingface-2026-10-15-welcome-flux3-image-klein-in-diffusers",
-      "source": "huggingface",
-      "title": "Welcome FLUX.3 Image Klein in Diffusers",
-      "url": "https://huggingface.co/blog/flux-3",
-      "published_at": "2026-10-15T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
