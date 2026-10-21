@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-21T16:55:35Z",
+  "updated_at": "2026-10-21T21:26:52Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11800",
+      "project": "llama-cpp",
+      "version": "b11800",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11800",
+      "published_at": "2026-10-21T21:15:21Z",
+      "body_excerpt": "llama: create new fused op for QSA mask (#30640) llama: create new fused op for QSA scoring enroll glm5.3-next too tests : initialize the remaining tensors in test_kpool_mask The harness sentinels were left uninitialized, so leftover memory could read as NaN and fail the NaN check. ggml: generalize the k-pool mask op into ggml_top_k_mask The k-pool mask op only covered the pooled QSA selection of ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11799",
+      "project": "llama-cpp",
+      "version": "b11799",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11799",
+      "published_at": "2026-10-21T17:52:03Z",
+      "body_excerpt": "sycl: q8 fast dequant (#30775) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUD",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11798",
       "project": "llama-cpp",
@@ -1231,6 +1249,15 @@
       "version": "granite-switch-4.1-30b",
       "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b",
       "published_at": "2026-10-14T21:23:12Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-speech-5.0-2b-GGUF",
+      "project": "ibm-granite",
+      "version": "granite-speech-5.0-2b-GGUF",
+      "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-2b-GGUF",
+      "published_at": "2026-10-14T21:06:49Z",
       "body_excerpt": "",
       "type": "model"
     },
@@ -7679,6 +7706,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-allenai-OlmoEarth-v1_3-Base",
+      "project": "allenai",
+      "version": "OlmoEarth-v1_3-Base",
+      "url": "https://huggingface.co/allenai/OlmoEarth-v1_3-Base",
+      "published_at": "2026-09-04T15:00:16Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "hf-nvidia-NVIDIA-Nemotron-Labs-3-Competitive-Coding-550B-A55B-NVFP4",
       "project": "nvidia",
       "version": "NVIDIA-Nemotron-Labs-3-Competitive-Coding-550B-A55B-NVFP4",
@@ -12878,33 +12914,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10099",
       "published_at": "2026-07-23T23:34:13Z",
       "body_excerpt": "CUDA: Improve NVFP4 W4A4 activation quantization (#25730) Squash history before conflict-resolution during rebase on master WIP commit Add 32-byte loads, restore per-block amax Use nvfp4x4 intrinsic when available Fuse per-channel amax and quantization kernels Do pointer arithmetic only once on x Remove unnecessary ternary in the load We assert on host side that ne00 is 64-aligned Add back scale-s",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10098",
-      "project": "llama-cpp",
-      "version": "b10098",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10098",
-      "published_at": "2026-07-23T20:12:00Z",
-      "body_excerpt": "hexagon: activation ops update (#25974) hex-geglu: optimized all-in-one geglu microkernel hex-geglu: enable non-contiguous src and strided DMA hex-act: enable non-contiguous srs and strided DMA for rest of ACT ops hex-act: generalize GLU per-thread functions via DEFINE_GLU_PER_THREAD macro hexagon: move UNARY_SILU and UNARY_GELU to unary-ops hex-act: replace the generic ops_context scratchpad usag",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10094",
-      "project": "llama-cpp",
-      "version": "b10094",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10094",
-      "published_at": "2026-07-23T18:28:00Z",
-      "body_excerpt": "common: infer the speculative type from the draft repo sidecars (#25989) With -hfd pointing to a repo that ships mtp-/dflash-/eagle3- sidecars and no --spec-type given, the draft resolved to a full model while the sidecar was the intended draft. When the speculative types are still at their default, discover the sidecars of the draft repo, pick the first available following the existing mtp > dfla",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10093",
-      "project": "llama-cpp",
-      "version": "b10093",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10093",
-      "published_at": "2026-07-23T17:19:26Z",
-      "body_excerpt": "Fix DeepSeek4 crafted template (#25414) chat: fix DS4 template to explicitly follow reference behavior Support DeepSeekv4 flag (). fix: hook DS3.2 parser for DS4 as well fix: add tool result reordering fix: post-merge Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ub",
       "type": "tool"
     }
   ]
