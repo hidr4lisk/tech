@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-10-21T04:03:52Z",
+  "updated_at": "2026-10-21T11:28:17Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11791",
+      "project": "llama-cpp",
+      "version": "b11791",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11791",
+      "published_at": "2026-10-21T11:03:27Z",
+      "body_excerpt": "metal : fix memory leaks and cleanup logic in GPU capture path (#30890) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11790",
+      "project": "llama-cpp",
+      "version": "b11790",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11790",
+      "published_at": "2026-10-21T10:40:10Z",
+      "body_excerpt": "hexagon: neon-vectorized and threaded repack (tiling) (#30901) add vectorized q4_0 repack apply to more types hex-repack: neon-vectorize the rest of the types q1/q2/f16/... hex-repack: add simple chunking / threading --------- Co-authored-by: hubezhou Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewo",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11789",
+      "project": "llama-cpp",
+      "version": "b11789",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11789",
+      "published_at": "2026-10-21T10:23:49Z",
+      "body_excerpt": "opencl: add dp4a GEMM variants to vector load activation (#30753) opencl: add dp4a GEMM variants with vector activation loads opencl: rename kernels and env vars Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11788",
+      "project": "llama-cpp",
+      "version": "b11788",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11788",
+      "published_at": "2026-10-21T10:09:37Z",
+      "body_excerpt": "sycl : fix fa crash for Query head dimension mismatch (neq0 != HSK / D=2048/4096) (#30286) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11787",
+      "project": "llama-cpp",
+      "version": "b11787",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11787",
+      "published_at": "2026-10-21T09:48:28Z",
+      "body_excerpt": "sycl: collapse duplicate need_check launch bodies in mmq (#30739) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 lib",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11786",
+      "project": "llama-cpp",
+      "version": "b11786",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11786",
+      "published_at": "2026-10-21T08:17:46Z",
+      "body_excerpt": "ggml-cpu : compute f32 gelu_quick and geglu_quick without the fp16 table (#30737) ggml-cpu : compute f32 gelu_quick and geglu_quick without the fp16 table ggml-cpu : keep the GGML_GELU_QUICK_FP16 table path ggml-cpu : add the VXE gelu_quick path tests : add test-gelu-quick for the f32 CPU kernels tests : drop inf/nan inputs from test-gelu-quick Website: Attestations: macOS/iOS: macOS Apple Silicon",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11785",
+      "project": "llama-cpp",
+      "version": "b11785",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11785",
+      "published_at": "2026-10-21T06:33:35Z",
+      "body_excerpt": "llama : scale moe down projection per expert token (#30861) llama : scale moe down projection per expert token Replace the global amax rescaling for the MoE down projection with a per-expert-token factor computed by a POOL_1D max reduction along the intermediate dimension. Undo the scale on the output with the same exact power-of-two factor. Handle POOL_1D in the Meta split-state logic so a split ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11784",
+      "project": "llama-cpp",
+      "version": "b11784",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11784",
+      "published_at": "2026-10-21T05:44:28Z",
+      "body_excerpt": "Sycl iq3 crash fix (#30604) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11782",
+      "project": "llama-cpp",
+      "version": "b11782",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11782",
+      "published_at": "2026-10-21T04:58:09Z",
+      "body_excerpt": "server : fix usage.completion_tokens undercount with n > 1 (#29486) Assisted-by: Copilot Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11781",
+      "project": "llama-cpp",
+      "version": "b11781",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11781",
+      "published_at": "2026-10-21T04:36:37Z",
+      "body_excerpt": "server : add POST /tts endpoint for TTS models (#26603) mtmd: add audio out stream api add /tts endpoint add docs wire up mtmd_helper_model_can_chat upload speaker_ref via form-data expose seed to api fix header for pcm wip fix penalty_last_n fix server_output_limits fix pocket-tts stream wip add server_schema for tts add server routing server: coerce seed and stream from multipart form fields For",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11780",
+      "project": "llama-cpp",
+      "version": "b11780",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11780",
+      "published_at": "2026-10-21T04:11:52Z",
+      "body_excerpt": "server: add realtime transcription API (#30636) server: add realtime transcription API drop transcription_sessions proxy ws add docs server: let the API key middleware guard the websocket httplib runs the pre-routing handler before the websocket upgrade, so the API key middleware answers 401 at handshake like any other route. This covers the router proxy, whose children run keyless, and accepts th",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11778",
       "project": "llama-cpp",
@@ -12734,15 +12833,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10093",
       "published_at": "2026-07-23T17:19:26Z",
       "body_excerpt": "Fix DeepSeek4 crafted template (#25414) chat: fix DS4 template to explicitly follow reference behavior Support DeepSeekv4 flag (). fix: hook DS3.2 parser for DS4 as well fix: add tool result reordering fix: post-merge Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ub",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10092",
-      "project": "llama-cpp",
-      "version": "b10092",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10092",
-      "published_at": "2026-07-23T05:30:53Z",
-      "body_excerpt": "ggml: enable PowerPC backend variants on AIX (#25983) ggml: enable PowerPC backend variants on AIX Allow the PowerPC CPU backend variants to be built on AIX by extending the platform check in the CMake configuration. This reuses the existing PowerPC backend implementations without changing their behavior. Also fix a missing semicolon in the PowerPC Q0 matmul implementation. Fix missing semicolon i",
       "type": "tool"
     }
   ]
