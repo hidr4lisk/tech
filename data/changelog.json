@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-10-22T16:55:02Z",
+  "updated_at": "2026-10-22T21:22:02Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11827",
+      "project": "llama-cpp",
+      "version": "b11827",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11827",
+      "published_at": "2026-10-22T19:36:26Z",
+      "body_excerpt": "opencl: add depthwise conv2d (#30900) opencl: add Adreno depthwise conv2d Assisted-by: OpenCode opencl: use local program for depthwise conv2d Assisted-by: OpenCode opencl: use singed type for args --------- Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11826",
+      "project": "llama-cpp",
+      "version": "b11826",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11826",
+      "published_at": "2026-10-22T18:56:50Z",
+      "body_excerpt": "mtmd : add MiniCPM-OCR 1.0 support (#30979) Signed-off-by: tc-mb Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11823",
+      "project": "llama-cpp",
+      "version": "b11823",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11823",
+      "published_at": "2026-10-22T18:02:18Z",
+      "body_excerpt": "glm5 : optimize inputs (#30932) glm5 : avoid sel_mask_2d input cont : avoid new_pool_flat input Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11822",
+      "project": "llama-cpp",
+      "version": "b11822",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11822",
+      "published_at": "2026-10-22T17:33:06Z",
+      "body_excerpt": "model : fix qwen4exp layer inputs for DFlash drafters (#30927) qwen4exp published the hc-wide residual [n_embd, hc, n_tokens] as t_layer_inp, but the drafter reads layer inputs as [n_embd, n_tokens] rows: llama_context sizes each embd_layer_inp buffer as n_embd n_batch and the DFlash encoder input is n_extract n_embd wide. Evaluating a DFlash draft over a qwen4exp target therefore aborts on the fi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11821",
+      "project": "llama-cpp",
+      "version": "b11821",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11821",
+      "published_at": "2026-10-22T17:02:28Z",
+      "body_excerpt": "Multi-column on Intel XMX matrix engines refactored (#29864) Multi-column on Intel XMX matrix engines refactored Multi-column (2 to 80 activation columns) mul_mat_vec_q for reordered K-quant and Q8_0 weights on the Intel XMX matrix engines (int8 DPAS, ESIMD), for the SYCL backend. It targets speculative decoding verification (2 to 8 tokens per step) and short prompt batches (9 to 80 tokens). Three",
+      "type": "tool"
+    },
+    {
+      "id": "localai-v4.12.0",
+      "project": "localai",
+      "version": "v4.12.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.12.0",
+      "published_at": "2026-10-22T13:20:36Z",
+      "body_excerpt": "🎉 LocalAI 4.12.0 Release! 🚀 LocalAI 4.12.0 is out! This release redesigns the web UI and adds streaming voice responses, native decision routing, and more control over model memory and prompt state. It also adds image upscaling, live motion capture, Qdrant stores, and authenticated chat history. It is also a preparation for the upcoming release which will include addon support. Our plan is to move",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11819",
       "project": "llama-cpp",
@@ -105,6 +159,15 @@
       "project": "ollama",
       "version": "v0.40.9-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
+      "published_at": "2026-10-22T01:33:10Z",
+      "body_excerpt": "What's Changed llama.cpp update Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.9-rc2",
+      "project": "ollama",
+      "version": "v0.40.9-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
       "published_at": "2026-10-22T01:33:10Z",
       "body_excerpt": "What's Changed llama.cpp update Full Changelog:",
       "type": "tool"
