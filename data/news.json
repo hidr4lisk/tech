@@ -1,57 +1,156 @@
 {
-  "updated_at": "2026-10-22T11:28:18Z",
+  "updated_at": "2026-10-22T16:54:56Z",
   "items": [
     {
-      "id": "localllama-2026-10-22-ling-31-flash-is-getting-a-1019-update-with-open-weights-to",
+      "id": "localllama-2026-10-22-ling-30-tiny-ubtree-dflash-draft-for-stock-mainline-llamacpp",
       "source": "localllama",
-      "title": "Ling-3.1-flash is getting a 1019 update, with open weights to follow",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcftoo/ling31flash_is_getting_a_1019_update_with_open/",
-      "published_at": "2026-10-22T11:19:57Z",
-      "summary": "      For anyone still downloading the last Flash: there&#39;s another checkpoint on the way. Ant Ling&#39;s announcement puts the 1019 version at 44 on the Artificial Analysis Intelligence Index, up from 41. They also r",
+      "title": "Ling-3.0-tiny-UBTree DFlash draft for stock mainline llama.cpp (+8% prose, +61% code speedup)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcnsrj/ling30tinyubtree_dflash_draft_for_stock_mainline/",
+      "published_at": "2026-10-22T16:45:30Z",
+      "summary": "I use Ling-3.0-tiny on my LLM server for text processing. I convert a lot of PDF documents to markdown for downstream LLM processing, and I built my custom harness for it. It uses ONNX model to parse layout, extracts tex",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-22-llamacpp-pr-how-to-beat-strata-decode-performance-with-a-r97",
+      "id": "huggingface-2026-10-22-olmoearth-v13-state-of-the-art-embeddings-for-the-whole-plan",
+      "source": "huggingface",
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "published_at": "2026-10-22T16:11:31Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-22-is-128gb-ram-worth-it",
       "source": "localllama",
-      "title": "Llama.cpp PR: How to beat strata decode performance with a R9700",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcf8kb/llamacpp_pr_how_to_beat_strata_decode_performance/",
-      "published_at": "2026-10-22T10:48:15Z",
-      "summary": "&#32; submitted by &#32;  /u/keyboardhack   [link] &#32; [comments]",
+      "title": "Is 128GB RAM worth it?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcmkyh/is_128gb_ram_worth_it/",
+      "published_at": "2026-10-22T16:00:55Z",
+      "summary": "I have 48GB VRAM (2x3090 24GB) and 48GB DDR4 RAM. If I get 128 GB DDR4 RAM can I run things like Deepseek V4.1 1017 and GLM 5.3 Flash at low quants with at least 20T/s or so and have it be better than Qwen 3.8 Flash Next",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-22-carbon-x-the-best-open-dna-language-model-runs-locally-with",
+      "id": "localllama-2026-10-22-q4-flash-next-for-300600---snapdragon-mini-pc-results-update",
       "source": "localllama",
-      "title": "Carbon-X: the best open DNA language model runs locally with llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcew36/carbonx_the_best_open_dna_language_model_runs/",
-      "published_at": "2026-10-22T10:28:40Z",
-      "summary": "      Hi everyone, we just released Carbon-X, a 14B model that brings DNA and natural language together for the first time 🧬 On five DNA benchmarks it beats every open language model we tested and matches GPT-6.1 Sol, at",
+      "title": "Q4 flash next for £300/600 👀 - snapdragon mini PC results update - 315/43 Tok/s A3b, 46/20 Tok/s Flash Next (read/gen) 💥",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcmioz/q4_flash_next_for_300600_snapdragon_mini_pc/",
+      "published_at": "2026-10-22T15:58:48Z",
+      "summary": "      Follow up to my post about the £300 Snapdragon mini PC: https://www.reddit.com/r/LocalLLaMA/s/IXZDyyYFDl Quick recap of how I got here: I started on llama.cpp, then pretty quickly moved over to Janas (github.com/pr",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-22-tried-lfm25-24-a2b-its-crap-yes-i-double-confirm-it-i-wouldn",
+      "id": "simonw-2026-10-22-quoting-armin-ronacher",
+      "source": "simonw",
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+      "published_at": "2026-10-22T15:34:13Z",
+      "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.\n&mdash; Armin Ronacher\n\n    Tags: security, generative-ai, armin-ronacher, ai, ai-security-researc",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-22-when-will-we-have-another-breakthrough-for-faster-local-dens",
       "source": "localllama",
-      "title": "Tried LFM2.5-24-A2B. It's crap. Yes. I double confirm it. I wouldn't trust it peeling a peanut correctly",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xce5dd/tried_lfm2524a2b_its_crap_yes_i_double_confirm_it/",
-      "published_at": "2026-10-22T09:45:24Z",
-      "summary": "      So, yesterday I made an apparently too simplistic post about this shitty model that everyone is cheering (probably bots, I would like to see what they achieved with it). Link https://www.reddit.com/r/LocalLLaMA/com",
+      "title": "When will we have another breakthrough for faster local dense models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xclt9s/when_will_we_have_another_breakthrough_for_faster/",
+      "published_at": "2026-10-22T15:32:14Z",
+      "summary": "Most of the speedup are touching along the likes like cutting the active params reletive to total params(MOE) but it does take a hit in stability &amp; reliability compared to a dense-27b can be much more stable at low t",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-22-webgpu-add-q2-0-support-by-teddygood-pull-request-30914-ggml",
+      "id": "localllama-2026-10-22-ant-ling-just-announced-a-second-model-today-ling-30-flash-s",
       "source": "localllama",
-      "title": "webgpu : add Q2_0 support by teddygood · Pull Request #30914 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcdpks/webgpu_add_q2_0_support_by_teddygood_pull_request/",
-      "published_at": "2026-10-22T09:17:46Z",
-      "summary": "       Tested on an RTX 3060 with native Dawn WebGPU.  llama-bench -m MODEL -p 512 -n 128 -r 5 -ngl 99 -dev WebGPU -t 2 -fa off    Model Test master (t/s) PR (t/s)    Ternary Bonsai 1.7B Q2_0 pp512 35.03 ± 0.46 1915.91 ±",
+      "title": "Ant Ling just announced a second model today: Ling-3.0-flash-Sante (124B, 5.1B active)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcljvi/ant_ling_just_announced_a_second_model_today/",
+      "published_at": "2026-10-22T15:22:41Z",
+      "summary": "      InclusionAI just announced Sante too. Damn, two model announcements in one day. They&#39;re on a roll. I posted about the 3.1-flash-1019 update earlier today and they&#39;ve already announced Sante. Two model annou",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-22-inclusionailing-30-flash-sante-hugging-face",
+      "source": "localllama",
+      "title": "inclusionAI/Ling-3.0-flash-Sante · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xclfkp/inclusionailing30flashsante_hugging_face/",
+      "published_at": "2026-10-22T15:18:35Z",
+      "summary": "      from inclusionAI: Introduction Ling-3.0-flash-Sante is our healthcare-specialized model built on Ling-3.0-flash. Its name comes from the French word santé, meaning “health.” With 124B total parameters and 5.1B acti",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-22-ran-a-09b-transcribe-diarize-model-on-a-175-minute-4-person",
+      "source": "localllama",
+      "title": "Ran a 0.9B transcribe + diarize model on a 17.5 minute, 4 person AMI meeting on a MacBook: all 4 speakers found, 0.08% speaker confusion, done in 12 minutes",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcl0rt/ran_a_09b_transcribe_diarize_model_on_a_175/",
+      "published_at": "2026-10-22T15:03:09Z",
+      "summary": "Wanted to see how one model that does transcription, speaker labels and timestamps in a single pass handles a real meeting, so I ran MOSS-Transcribe-Diarize 0.9B on a four person meeting from the AMI test set and scored ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-22-repair-shop-receives-eight-geforce-rtx-5090-and-rtx-4090-car",
+      "source": "localllama",
+      "title": "Repair shop receives eight GeForce RTX 5090 and RTX 4090 cards with melted 16-pin connectors in two days",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xckdep/repair_shop_receives_eight_geforce_rtx_5090_and/",
+      "published_at": "2026-10-22T14:38:31Z",
+      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-22-i-tried-reversing-chat-templates-to-see-which-models-are-the",
+      "source": "localllama",
+      "title": "I tried reversing chat templates to see which models are the best at generating user turns",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xck4tl/i_tried_reversing_chat_templates_to_see_which/",
+      "published_at": "2026-10-22T14:29:13Z",
+      "summary": "I tried for fun to see what happens if we let instruction-tuned LLMs generate the text that should come from the user (so after the user_start special token). I immediately noticed that some models were way better than o",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-22-qwen4-and-kimi31-on-arena-apperantly",
+      "source": "localllama",
+      "title": "Qwen4 and Kimi3.1 on Arena apperantly",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcj1wm/qwen4_and_kimi31_on_arena_apperantly/",
+      "published_at": "2026-10-22T13:47:14Z",
+      "summary": "Im so hyped for qwen4 flash   &#32; submitted by &#32;  /u/thatscoolbutno123   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-22-capy-flash-v071-qwen38-flash-next-125b-moe-now-runs-in-64-gb",
+      "source": "localllama",
+      "title": "capy-flash v0.7.1: Qwen3.8-Flash-Next (125B MoE) now runs in 64 GB of RAM (234 tok/s on two 16 GB cards), and Qwen3.8-27B 3-bit fits on a single 16 GB card (174 tok/s)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xciqnj/capyflash_v071_qwen38flashnext_125b_moe_now_runs/",
+      "published_at": "2026-10-22T13:34:44Z",
+      "summary": "I&#39;ve been building capy-flash, an open-source inference engine for running Qwen3.8-Flash-Next (125B MoE) and Qwen3.8-27B on consumer RTX 50 cards. Until now it needed my setup (two 16 GB cards and 96 GB of RAM) or be",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-22-non-llm-models",
+      "source": "localllama",
+      "title": "Non LLM Models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xchup0/non_llm_models/",
+      "published_at": "2026-10-22T12:57:54Z",
+      "summary": "I&#39;m building an app where I need some specialist language models, but not necessarily LLM models. Is there a sub or place where they talk about specialist models beyond just searching on HF? I know that discussion do",
       "tags": [
         "localllama"
       ]
@@ -65,83 +164,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-how-tf-exl3-29bpw-have-this-low-kl-divergence-is-it-better-t",
-      "source": "localllama",
-      "title": "How tf Exl3 2.9bpw have this low kl divergence. Is it better than ptq nvfp4?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcb61b/how_tf_exl3_29bpw_have_this_low_kl_divergence_is/",
-      "published_at": "2026-10-22T06:35:12Z",
-      "summary": "      Is there any negatives that im missing here? Mia-AiLab/DeepSeek-V4.1-Flash-1017-EXL3-EAQ-v1-2.9-bpw  &#32; submitted by &#32;  /u/9r4n4y   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-new-model-sage-a15-released-based-on-qwen36-35b-moe-with-mar",
-      "source": "localllama",
-      "title": "[New Model] Sage-A1.5 released based on Qwen3.6-35B MoE with marketed benchmarks: \"highly competitive performance against frontier-scale systems such as Kimi-K3, GLM-5.3, and GPT-5.6-sol\"",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcac1u/new_model_sagea15_released_based_on_qwen3635b_moe/",
-      "published_at": "2026-10-22T05:46:29Z",
-      "summary": "      In the process of setting up the model and running local benchmarks on it on the official q4_k_m quant; it might work in Strata too. Reports soon. Anyone played around with this one yet?  &#32; submitted by &#32;  ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-what-can-you-do-with-smaller-gpus",
-      "source": "localllama",
-      "title": "what can you do with smaller gpu's?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xca46l/what_can_you_do_with_smaller_gpus/",
-      "published_at": "2026-10-22T05:33:26Z",
-      "summary": "I mean gpu&#39;s with 6/8/12GB vram. All discussion around llm/AI these days is around coding, and this is probably too small for agentic coding models. Are there models that can run in these that can accomplish useful t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-huawei-atlas-ai-accelerator-latest-comparison-overview",
-      "source": "localllama",
-      "title": "Huawei Atlas AI Accelerator Latest Comparison Overview",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc9oje/huawei_atlas_ai_accelerator_latest_comparison/",
-      "published_at": "2026-10-22T05:08:49Z",
-      "summary": "      https://preview.redd.it/hwwhtgar5ywh1.png?width=1688&amp;format=png&amp;auto=webp&amp;s=1aabdbd2bead7b89baece7308d4daf2463885712 Hey, your friendly neighborhood Atlas advocate here, here with an update--just got of",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-whats-your-favorite-medium-to-large-50-150b-params-moe-model",
-      "source": "localllama",
-      "title": "What's your favorite medium to large (~50-150b params) MOE model? Aside from Qwen flash next.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc84ht/whats_your_favorite_medium_to_large_50150b_params/",
-      "published_at": "2026-10-22T03:44:31Z",
-      "summary": "I recently got some more RAM on my desktop, which has opened up running larger MOEs by splitting them into RAM/VRAM. I know everyone loves Qwen flash next, but I&#39;m curious what other ones are worth trying.  On my lis",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-is-it-worth-upgrading-to-64gb-ram",
-      "source": "localllama",
-      "title": "Is it worth upgrading to 64GB ram?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc7ujy/is_it_worth_upgrading_to_64gb_ram/",
-      "published_at": "2026-10-22T03:29:53Z",
-      "summary": "Before telling me that I’ve lost my mind, yes, I have in fact looked at the market recently. I think I’d be able to get a significantly better deal, although still not cheap, and I’m not exactly sure what that would look",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-i-have-an-answer-qwen-flash-next-iq2-is-better-than-q8-of-27",
-      "source": "localllama",
-      "title": "I have an answer! Qwen Flash Next IQ2 IS better than Q8 of 27B (for me).",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc7n0n/i_have_an_answer_qwen_flash_next_iq2_is_better/",
-      "published_at": "2026-10-22T03:18:34Z",
-      "summary": "I asked a while ago if it would be worth it to try and run qwen flash next at q2 since I can only really fit it and nothing bigger, but I can run Q8 of 27B. Everyone told me it’s either a toss up or Q8 would obliterate i",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -288,17 +310,6 @@
       ]
     },
     {
-      "id": "huggingface-2026-10-20-hugging-face-torchtpu-tpus-natively",
-      "source": "huggingface",
-      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
-      "url": "https://huggingface.co/blog/hf-torchtpu",
-      "published_at": "2026-10-20T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "simonw-2026-10-19-my-obituary-for-programming",
       "source": "simonw",
       "title": "My obituary for programming",
@@ -426,17 +437,6 @@
       "url": "https://simonwillison.net/2026/Oct/15/latex/",
       "published_at": "2026-10-15T02:07:28Z",
       "summary": "Tool: LaTeX renderer\n        Inspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office, which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, C",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-14-tree-appreciator",
-      "source": "simonw",
-      "title": "Tree Appreciator",
-      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-      "published_at": "2026-10-14T21:23:01Z",
-      "summary": "Tool: Tree Appreciator\n        Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with:\n\nBuild a three js game called \"",
       "tags": [
         "simonw"
       ]
