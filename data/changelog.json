@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-10-22T04:04:44Z",
+  "updated_at": "2026-10-22T11:28:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11815",
+      "project": "llama-cpp",
+      "version": "b11815",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11815",
+      "published_at": "2026-10-22T09:32:16Z",
+      "body_excerpt": "sycl: fix CONV_2D wrong results for non-contiguous input (#30363) sycl: fix CONV_2D wrong results for non-contiguous input The kernel indexes the as a contiguous [W, H, C, N] tensor, but supports_op claimed the op for any layout. A non-contiguous (e.g. permuted) input was read with the wrong element offsets, silently producing wrong results. Gate the CONV_2D op on and contiguity, matching the CUDA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11814",
+      "project": "llama-cpp",
+      "version": "b11814",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11814",
+      "published_at": "2026-10-22T09:11:07Z",
+      "body_excerpt": "vocab : add clean_spaces GGUF key (#30940) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11813",
+      "project": "llama-cpp",
+      "version": "b11813",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11813",
+      "published_at": "2026-10-22T08:52:47Z",
+      "body_excerpt": "vocab : use Tekken pre-tokenizer for pixtral rather than the Llama 3 one (#30960) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11812",
+      "project": "llama-cpp",
+      "version": "b11812",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11812",
+      "published_at": "2026-10-22T08:30:19Z",
+      "body_excerpt": "models : Record layer inputs for all granite models (#30957) Branch: GraniteSpeculatorSupport AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11811",
+      "project": "llama-cpp",
+      "version": "b11811",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11811",
+      "published_at": "2026-10-22T08:09:36Z",
+      "body_excerpt": "kleidiai : add Q8_0 SVE dotprod GEMV and SVE i8mm GEMM kernels (#30808) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11810",
+      "project": "llama-cpp",
+      "version": "b11810",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11810",
+      "published_at": "2026-10-22T07:49:03Z",
+      "body_excerpt": "sycl: merge the fp16 and fp32 dequant switches (#30740) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11809",
+      "project": "llama-cpp",
+      "version": "b11809",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11809",
+      "published_at": "2026-10-22T07:04:02Z",
+      "body_excerpt": "webgpu : add Q2_0 support (#30914) webgpu : add Q2_0 row dequantization webgpu : add Q2_0 matrix multiplication Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11808",
+      "project": "llama-cpp",
+      "version": "b11808",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11808",
+      "published_at": "2026-10-22T06:47:02Z",
+      "body_excerpt": "dflash : load optional FC input scale (#30945) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 lib",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11806",
+      "project": "llama-cpp",
+      "version": "b11806",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11806",
+      "published_at": "2026-10-22T06:29:25Z",
+      "body_excerpt": "lora : support prism.hadamard folded weights (#30910) lora : support prism.hadamard folded weights tests : remove LoRA test from test-llama-archs Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan)",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.40.9-rc1",
       "project": "ollama",
@@ -12933,33 +13014,6 @@
       "published_at": "2026-07-24T11:34:41Z",
       "body_excerpt": "CUDA: fix external compilation of q1_0 MMQ (#25778) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10105",
-      "project": "llama-cpp",
-      "version": "b10105",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10105",
-      "published_at": "2026-07-24T09:34:02Z",
-      "body_excerpt": "args: refactor mlock/mmap/directio into load-mode (#20834) args: overhaul mmap/mlock/dio into single arg Signed-off-by: Aaron Teo docs: update docs with llama-gen-docs Signed-off-by: Aaron Teo chore: satisfy code quality Signed-off-by: Aaron Teo args: make the sign an actual modifier now Signed-off-by: Aaron Teo chore: general code clean up + comments Signed-off-by: Aaron Teo arg: fix deprecated f",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10103",
-      "project": "llama-cpp",
-      "version": "b10103",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10103",
-      "published_at": "2026-07-24T06:14:22Z",
-      "body_excerpt": "metal : add f16 type support to leaky relu (#25981) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
-      "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-VibeVoice-ASR-BitNet",
-      "project": "microsoft",
-      "version": "VibeVoice-ASR-BitNet",
-      "url": "https://huggingface.co/microsoft/VibeVoice-ASR-BitNet",
-      "published_at": "2026-07-24T06:03:05Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
