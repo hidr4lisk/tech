@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-10-21T21:26:52Z",
+  "updated_at": "2026-10-22T04:04:44Z",
   "releases": [
+    {
+      "id": "ollama-v0.40.9-rc1",
+      "project": "ollama",
+      "version": "v0.40.9-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
+      "published_at": "2026-10-22T01:33:10Z",
+      "body_excerpt": "What's Changed llama.cpp update Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11804",
+      "project": "llama-cpp",
+      "version": "b11804",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11804",
+      "published_at": "2026-10-22T01:26:20Z",
+      "body_excerpt": "opencl: add F32-to-I32 ARGMAX (#30897) opencl: add F32-to-I32 ARGMAX Assisted-by: OpenCode opencl: init to 0 to be consistent with cpu --------- Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11803",
+      "project": "llama-cpp",
+      "version": "b11803",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11803",
+      "published_at": "2026-10-21T22:30:59Z",
+      "body_excerpt": "models : add Flint model (FlintForCausalLM) (#30928) Add Flint model (FlintForCausalLM). Assisted by Codex cleanup one more --------- Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11802",
+      "project": "llama-cpp",
+      "version": "b11802",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11802",
+      "published_at": "2026-10-21T22:14:29Z",
+      "body_excerpt": "jinja : fix namespace attributes shadowed by dict methods (#30941) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 li",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11801",
+      "project": "llama-cpp",
+      "version": "b11801",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11801",
+      "published_at": "2026-10-21T21:56:03Z",
+      "body_excerpt": "model: Add support for SenseNova U1 model (#28919) model : add SenseNova U1 understanding support Add support for the dense SenseNova U1 understanding branch, including the U1.5-8B-MoT model. Add HF-to-GGUF conversion for NEOChatModel, excluding MoT generation tensors and concatenating temporal and spatial Q/K normalization weights. Register the sensenova_u1 GGUF architecture and custom spatial Ro",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11800",
       "project": "llama-cpp",
@@ -33,6 +78,15 @@
       "project": "ollama",
       "version": "v0.40.8-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
+      "published_at": "2026-10-21T16:20:30Z",
+      "body_excerpt": "Recursive Flint Flint brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-token context window support longer tasks across files and tool interactions. Flint is an Apache 2.0-licensed, 40B-parameter mixture-of-expe",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.8",
+      "project": "ollama",
+      "version": "v0.40.8",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
       "published_at": "2026-10-21T16:20:30Z",
       "body_excerpt": "Recursive Flint Flint brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-token context window support longer tasks across files and tool interactions. Flint is an Apache 2.0-licensed, 40B-parameter mixture-of-expe",
       "type": "tool"
@@ -12906,15 +12960,6 @@
       "published_at": "2026-07-24T06:03:05Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10099",
-      "project": "llama-cpp",
-      "version": "b10099",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10099",
-      "published_at": "2026-07-23T23:34:13Z",
-      "body_excerpt": "CUDA: Improve NVFP4 W4A4 activation quantization (#25730) Squash history before conflict-resolution during rebase on master WIP commit Add 32-byte loads, restore per-block amax Use nvfp4x4 intrinsic when available Fuse per-channel amax and quantization kernels Do pointer arithmetic only once on x Remove unnecessary ternary in the load We assert on host side that ne00 is 64-aligned Add back scale-s",
-      "type": "tool"
     }
   ]
 }
