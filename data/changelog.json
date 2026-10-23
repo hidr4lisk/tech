@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-23T04:08:05Z",
+  "updated_at": "2026-10-23T11:18:15Z",
   "releases": [
+    {
+      "id": "localai-v4.12.1",
+      "project": "localai",
+      "version": "v4.12.1",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.12.1",
+      "published_at": "2026-10-23T10:27:00Z",
+      "body_excerpt": "Patch release v4.12.1. Security fix only. Security Hardened the external URL policy for user-supplied URLs (chat vision image/audio/video URLs, image and audio endpoints). Redirect targets are now validated on every hop, 100.64.0.0/10 and 0.0.0.0/8 are treated as non-public, and the connection goes to the address that was validated. See #12853. Credits to @spicysharkco for the discovery. Full Chan",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11836",
+      "project": "llama-cpp",
+      "version": "b11836",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11836",
+      "published_at": "2026-10-23T08:20:06Z",
+      "body_excerpt": "CANN: missing qualifiers added for consistency (#30933) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11835",
+      "project": "llama-cpp",
+      "version": "b11835",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11835",
+      "published_at": "2026-10-23T07:29:18Z",
+      "body_excerpt": "sycl : pass device into mul_mat_uses_onednn (#31014) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11829",
       "project": "llama-cpp",
@@ -13066,15 +13093,6 @@
       "version": "Mage-ViT",
       "url": "https://huggingface.co/microsoft/Mage-ViT",
       "published_at": "2026-07-26T04:22:45Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-Mage-VL",
-      "project": "microsoft",
-      "version": "Mage-VL",
-      "url": "https://huggingface.co/microsoft/Mage-VL",
-      "published_at": "2026-07-25T08:29:09Z",
       "body_excerpt": "",
       "type": "model"
     }
