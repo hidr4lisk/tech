@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T16:46:59Z",
+  "updated_at": "2026-10-23T21:13:03Z",
   "releases": [
     {
       "id": "llama-cpp-b11840",
@@ -24,6 +24,15 @@
       "project": "ollama",
       "version": "v0.40.10-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
+      "published_at": "2026-10-23T15:03:59Z",
+      "body_excerpt": "NVIDIA Nemotron 3.5 Bolt E4B Nemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window. The model includes a DFlash draft for speculative decoding. ollama run nemotron-3.5-bolt:e4b Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.10",
+      "project": "ollama",
+      "version": "v0.40.10",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10",
       "published_at": "2026-10-23T15:03:59Z",
       "body_excerpt": "NVIDIA Nemotron 3.5 Bolt E4B Nemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window. The model includes a DFlash draft for speculative decoding. ollama run nemotron-3.5-bolt:e4b Full Changelog:",
       "type": "tool"
@@ -99,6 +108,15 @@
       "published_at": "2026-10-22T18:56:50Z",
       "body_excerpt": "mtmd : add MiniCPM-OCR 1.0 support (#30979) Signed-off-by: tc-mb Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libr",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-InternVideo2-CLIP-anomaly-detection",
+      "project": "nvidia",
+      "version": "InternVideo2-CLIP-anomaly-detection",
+      "url": "https://huggingface.co/nvidia/InternVideo2-CLIP-anomaly-detection",
+      "published_at": "2026-10-22T18:23:57Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11823",
