@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-22T21:22:02Z",
+  "updated_at": "2026-10-23T04:08:05Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11829",
+      "project": "llama-cpp",
+      "version": "b11829",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11829",
+      "published_at": "2026-10-22T23:43:43Z",
+      "body_excerpt": "server: Substitute rerank placeholder from the original template only. (#30864) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) -",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11828",
+      "project": "llama-cpp",
+      "version": "b11828",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11828",
+      "published_at": "2026-10-22T23:25:53Z",
+      "body_excerpt": "server: realtime API: send complete after committed audio drains (#30994) server: realtime API: send complete after committed audio drains server: realtime API: complete a commit at its end row Completion is triggered when the stream runs dry, which is a timing proxy: audio appended while the tail drains leaks into the committed item, a final commit before the drain merges both items, and back to ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11827",
       "project": "llama-cpp",
@@ -170,6 +188,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
       "published_at": "2026-10-22T01:33:10Z",
       "body_excerpt": "What's Changed llama.cpp update Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.9",
+      "project": "ollama",
+      "version": "v0.40.9",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
+      "published_at": "2026-10-22T01:33:10Z",
+      "body_excerpt": "Speech Ollama can now generate speech with Phonon on Apple Silicon. plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible endpoint. d3 decision models d3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with proba",
       "type": "tool"
     },
     {
@@ -13050,33 +13077,6 @@
       "published_at": "2026-07-25T08:29:09Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "ollama-v0.32.4-rc0",
-      "project": "ollama",
-      "version": "v0.32.4-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0",
-      "published_at": "2026-07-25T02:22:12Z",
-      "body_excerpt": "What's Changed x/create: quantize lm_head at 8-bit in the requested family by @jessegross in test: harden flaky updater and transfer unit tests by @dhiltgen in server: fix ps data race on scheduler loaded map by @dhiltgen in qwen3_5: fix expert quantization handling and gather packed gate_up in one launch by @jessegross in agent: permission skill loading by @ParthSareen in cmd/tui: agent system pr",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.4",
-      "project": "ollama",
-      "version": "v0.32.4",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.4",
-      "published_at": "2026-07-25T02:22:12Z",
-      "body_excerpt": "What's Changed Support Laguna on Apple GPUs via the MLX engine Quantize draft-model output heads at the requested type when creating speculative-decoding drafts. Fixed Qwen3 MoE decoding for differently-quantized experts, plus faster packed gate/up projection (~4–9% on M5 Max). Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "sglang-v0.5.16",
-      "project": "sglang",
-      "version": "v0.5.16",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.16",
-      "published_at": "2026-07-25T00:13:18Z",
-      "body_excerpt": "Highlights 574 PRs from 169 contributors. DSpark: confidence-driven speculative decoding: A new speculative algorithm. It drafts semi-autoregressively in blocks, then sizes each verify window from the draft's own confidence instead of a fixed draft length. Reaches 383.7 tok/s at accept length ~5 on DeepSeek-V4-Pro, TP8 on B300 (bs=1). Enable with and ; tune the block with (#30261, #31434, blog). I",
-      "type": "tool"
     }
   ]
 }
