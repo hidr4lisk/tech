@@ -1,136 +1,158 @@
 {
-  "updated_at": "2026-10-23T11:18:08Z",
+  "updated_at": "2026-10-23T16:46:53Z",
   "items": [
     {
-      "id": "localllama-2026-10-23-is-it-worth-to-dumpsterdive",
+      "id": "localllama-2026-10-23-baseten-releases-elephant-1-9b-mit-qwen35-9b-base-a-decision",
       "source": "localllama",
-      "title": "is it worth to dumpsterdive?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdaf1p/is_it_worth_to_dumpsterdive/",
-      "published_at": "2026-10-23T10:33:28Z",
-      "summary": "Hello everyone, with qwen4 around the corner im thinking of actually investing into some hardware. From what i&#39;ve learned lurking on the subreddit the more VRAM you have the better. My plan is to go on local marketpl",
+      "title": "Baseten releases elephant-1 (9B, MIT, Qwen3.5-9B base), a decision model that ties d1-ultra on the AA Decision Index at about a quarter of the cost",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdirky/baseten_releases_elephant1_9b_mit_qwen359b_base_a/",
+      "published_at": "2026-10-23T16:26:41Z",
+      "summary": "      Base Labs at Baseten has released open weights for elephant-1, a 9B decision model post-trained from Qwen3.5-9B. It doesn&#39;t generate text. You give it a state (a ticket, a document, a prompt to screen) and a se",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-23-anyone-checked-gpu-unlock-for-rtx-30-40-cards",
+      "id": "localllama-2026-10-23-agentionaiqwen38-flash-next-gyro-coder-gguf-hugging-face",
       "source": "localllama",
-      "title": "Anyone checked gpu unlock for rtx 30-40 cards?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd8al3/anyone_checked_gpu_unlock_for_rtx_3040_cards/",
-      "published_at": "2026-10-23T08:23:23Z",
-      "summary": "Basically saw on twitter claims that 3090 has half of the cuda kernels disabled:  My 3090s just got 1.9x FASTER at BF16 tensor math!!! Same cards, same driver, same 300W, one Linux kernel module.   bf16 tensor pipe: 82 -",
+      "title": "agentionai/Qwen3.8-Flash-Next-Gyro-Coder-GGUF · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdihql/agentionaiqwen38flashnextgyrocodergguf_hugging/",
+      "published_at": "2026-10-23T16:16:38Z",
+      "summary": "      AgentionAI Gyro Coder Large is now live 🚢 This coding specific finetune of Qwen 3.8 Flash Next is the same size as Gyro-S, but with half the experts and more bits per expert. The model fits in 32GB VRAM. More detai",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-23-qwen3-06b-model-converted-into-moe",
+      "id": "huggingface-2026-10-23-litpivot-developing-research-ideas-through-dynamic-contextua",
+      "source": "huggingface",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "published_at": "2026-10-23T16:15:50Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-23-nvidianvidia-nemotron-35-bolt-e4b-4gb-hugging-face",
       "source": "localllama",
-      "title": "Qwen3-0.6B model converted into MoE",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd87wu/qwen306b_model_converted_into_moe/",
-      "published_at": "2026-10-23T08:18:42Z",
-      "summary": "This is another update about my MoE-fication project, the first post can be found here. Foreword Since my last model conversion, I’ve been experimenting a lot with new methods, though sadly, most attempts haven&#39;t hel",
+      "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/",
+      "published_at": "2026-10-23T16:13:05Z",
+      "summary": "      NVIDIA-Nemotron-3.5-Bolt-E4B-4GB is a small language model (SLM) further post-trained from Gemma-4-E4B-it by NVIDIA. Nemotron-3.5-Bolt-E4B carries forward Gemma’s strong conversational capabilities and further impr",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-23-tencentwevisone-vl-4b-hugging-face",
+      "id": "localllama-2026-10-23-paper-virtual-head-attention",
       "source": "localllama",
-      "title": "tencent/WeVisOne-VL-4B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd85ki/tencentwevisonevl4b_hugging_face/",
-      "published_at": "2026-10-23T08:14:41Z",
-      "summary": "      https://huggingface.co/tencent/WeVisOne-VL-2B WeVisOne-VL: Unified Visual Perception from Objects to Pixels WeVisOne-VL (WeChat Vision All-in-One) is a unified vision-language model developed by WeChat Vision, Tenc",
+      "title": "[Paper] Virtual Head Attention",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdhzw3/paper_virtual_head_attention/",
+      "published_at": "2026-10-23T15:59:05Z",
+      "summary": "       The design of attention mechanisms in long-context large language models faces an ``impossible triangle&#39;&#39; among KV cache size, training and prefill FLOPs, and model quality. GQA achieves strong quality but",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-23-models-disappearing-from-huggingface",
+      "id": "localllama-2026-10-23-qwen-38-flash-next-gyro-coder-is-out",
       "source": "localllama",
-      "title": "Models disappearing from Huggingface",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd7ptj/models_disappearing_from_huggingface/",
-      "published_at": "2026-10-23T07:47:43Z",
-      "summary": "      I&#39;ve been noticing a lot of my downloads stopping suddenly and being unable to resume. When I checked the models it seemed like they were gone. Here&#39;s the ones I can see are missing:  dealignai/MiMo-V2.6-Pr",
+      "title": "Qwen 3.8 Flash Next Gyro Coder is out!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdhj4z/qwen_38_flash_next_gyro_coder_is_out/",
+      "published_at": "2026-10-23T15:41:37Z",
+      "summary": "Lets see how difference is this from ISTA labs coder version  https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-Coder-GGUF/tree/main  &#32; submitted by &#32;  /u/soyalemujica   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-23-ornith-15-35b-a3b-is-way-better-than-flint",
+      "id": "localllama-2026-10-23-vibecoding-your-own-inference-engine-is-easy-they-said",
       "source": "localllama",
-      "title": "Ornith 1.5 35B A3B is way better than Flint",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd7ewr/ornith_15_35b_a3b_is_way_better_than_flint/",
-      "published_at": "2026-10-23T07:29:24Z",
-      "summary": "In my test suite, Flint hallucinates and overthinks even very basic questions. Ornith looks much better in both my own language and English. What’s your experience?  &#32; submitted by &#32;  /u/BarberIcy366   [link] &#3",
+      "title": "Vibecoding your own inference engine is easy they said",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdh57e/vibecoding_your_own_inference_engine_is_easy_they/",
+      "published_at": "2026-10-23T15:26:47Z",
+      "summary": "      guys, you better just clone llama.cpp I swear. this thing is running gguf q4 paged into webgl2 embedded compute buffers via glsl right inside html, and tokenizer/vocab is just part of the endless debug hell.  &#32;",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-23-paper-latentloop-scaling-looped-moe-models-with-asymmetric-c",
+      "id": "localllama-2026-10-23-small-post-about-what-are-the-unlocks-for-rtx-consumer-gpus",
       "source": "localllama",
-      "title": "[Paper] LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd6r9h/paper_latentloop_scaling_looped_moe_models_with/",
-      "published_at": "2026-10-23T06:50:13Z",
-      "summary": "       Looped Mixture-of-Experts (MoE) models combine parameter reuse with sparse computation to improve performance under matched budgets. Prior work demonstrates that different loop visits can play different roles even",
+      "title": "Small post about what are the unlocks for RTX consumer GPUs, which ones are affected, in which tasks and which ones are feasible to do an unlock.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdg0v0/small_post_about_what_are_the_unlocks_for_rtx/",
+      "published_at": "2026-10-23T14:44:31Z",
+      "summary": "Hello guys, hoping you&#39;re doing fine! Small post I want to make since seeing a lot of posts about the unlocks and such. What is the unlock in simple terms? NVIDIA on purpose, neutered the performance of operations th",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-23-paper-pn-mix-pair-norm-guided-mixed-precision-key-cache-quan",
+      "id": "localllama-2026-10-23-does-the-gpu-unlock-speedup-trick-only-work-for-3090-or-othe",
       "source": "localllama",
-      "title": "[Paper] PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd6dfr/paper_pnmix_pairnorm_guided_mixedprecision_key/",
-      "published_at": "2026-10-23T06:26:24Z",
-      "summary": "       Long-output inference in large language models suffers from severe KV cache memory and bandwidth bottlenecks. While KV cache quantization alleviates this issue, low-bit quantization (e.g., 2-bit) severely degrades",
+      "title": "Does the “gpu unlock speedup” trick only work for 3090, or other 30x0 cards too? What about 40x0, 50x0?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdexhw/does_the_gpu_unlock_speedup_trick_only_work_for/",
+      "published_at": "2026-10-23T14:02:46Z",
+      "summary": "Been seeing info about 3090 cards getting a speed boost through software tweaks. Can similar unlocked be achieved with -60, -70, -80 cards, and in the 30-, 40-, 50- gen cards too ?  &#32; submitted by &#32;  /u/Ambitious",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-23-paper-meta-expert-cross-layer-expert-sharing-for-storage--an",
+      "id": "localllama-2026-10-23-probability-of-backdoors-in-popular-harnesses-and-llm-infere",
       "source": "localllama",
-      "title": "[Paper] Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd5s0n/paper_meta_expert_crosslayer_expert_sharing_for/",
-      "published_at": "2026-10-23T05:51:37Z",
-      "summary": "       As model parameters scale up, sparsely activated Mixture-of-Experts (MoE) approaches have become essential for model scaling. However, mainstream models currently adopt hierarchical architectures, where experts in",
+      "title": "Probability of backdoors in popular harnesses and LLM inference engines",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdeg0n/probability_of_backdoors_in_popular_harnesses_and/",
+      "published_at": "2026-10-23T13:44:17Z",
+      "summary": "Let&#39;s put things into perspective:  Remember, for example, the xz utils ssh backdoor in 2024? They almost managed to pull it off, and that was in the most observed codebase of the planet. It was caught almost by chan",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-23-paper-pace-periodic-and-channel-aligned-encoding-of-four-bit",
+      "id": "localllama-2026-10-23-everything-will-be-local-eventually",
       "source": "localllama",
-      "title": "[Paper] PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd5hwe/paper_pace_periodic_and_channelaligned_encoding/",
-      "published_at": "2026-10-23T05:35:20Z",
-      "summary": "       Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system stores one copy of this state for every sequence it decodes at the same time. Storing the state at ",
+      "title": "everything will be local eventually",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdcpxb/everything_will_be_local_eventually/",
+      "published_at": "2026-10-23T12:31:21Z",
+      "summary": "I know current llms like opus 5.5 are in a league of their own. but we all know they&#39;re losing a shti ton of money with their subscriptions. ALSO we all know how tasks like OCR, segmentation etc are getting solved by",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-23-nemotron-35-embed-parse-and-rerank",
+      "id": "localllama-2026-10-23-nanostories-releases",
       "source": "localllama",
-      "title": "Nemotron-3.5-Embed, Parse, and Rerank",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd4mlk/nemotron35embed_parse_and_rerank/",
-      "published_at": "2026-10-23T04:46:23Z",
-      "summary": "So they have updated the embed and rerank model from 3.0 to 3.5: https://huggingface.co/nvidia/Nemotron-3.5-Parse https://huggingface.co/nvidia/Nemotron-3.5-Embed-1B-BF16 https://huggingface.co/nvidia/Nemotron-3.5-Embed-",
+      "title": "NanoStories Releases!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdc991/nanostories_releases/",
+      "published_at": "2026-10-23T12:09:34Z",
+      "summary": "      It is a Tinystories style dataset, that contains 50M stories, about 25x that of Tinystories, it was generated using a rule based algorithm, instead of a language model. It took just under 10 Minutes to generate and",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-23-deepseek-v41-1017---doing-okay-on-rdna23-ddr4",
+      "id": "localllama-2026-10-23-started-to-play-around-a-bit-with-opencode-and-this-happened",
       "source": "localllama",
-      "title": "Deepseek V4.1-1017 - doing okay on RDNA2/3 + DDR4",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd3p2e/deepseek_v411017_doing_okay_on_rdna23_ddr4/",
-      "published_at": "2026-10-23T03:56:21Z",
-      "summary": "Just a spec to performance report. Tried Maya today on the following:  3950x 96GB dual channel DDR4 at 3000mhz Rx 7900xtx 24GB + w6800 32GB (56GB together) pcie gen3 nvme drive  The Deepseek weights used were the mostly ",
+      "title": "Started to play around a bit with opencode and this happened during thinking",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdc21t/started_to_play_around_a_bit_with_opencode_and/",
+      "published_at": "2026-10-23T12:00:24Z",
+      "summary": " I see a system-reminder claiming a &quot;c25da061&quot; session was idle for 1877 seconds with an unfinished task, and instructing me to invoke a skill called &quot;reminder idel-skills&quot; to trigger a skill-based ac",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-10-23-does-your-model-run-on-aws-trainium-look-it-up",
+      "source": "huggingface",
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "published_at": "2026-10-23T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
       ]
     },
     {
@@ -293,28 +315,6 @@
       "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
       "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
       "published_at": "2026-10-20T18:17:47Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-10-20-fairstress-a-deeper-evaluation-of-fairness-in-llm-decision-m",
-      "source": "huggingface",
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "url": "https://huggingface.co/blog/allenai/fairstress",
-      "published_at": "2026-10-20T16:09:19Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-10-20-altk-evolve-how-learned-memory-tops-the-τ²-bench-leaderboard",
-      "source": "huggingface",
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "published_at": "2026-10-20T15:19:48Z",
       "summary": "",
       "tags": [
         "huggingface"
