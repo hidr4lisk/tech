@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-22T21:21:55Z",
+  "updated_at": "2026-10-23T04:07:55Z",
   "items": [
+    {
+      "id": "localllama-2026-10-23-you-can-now-run-the-perplexity-decision-model-fully-locally",
+      "source": "localllama",
+      "title": "You can now run the Perplexity Decision Model fully locally on your Mac, without any data leaving your machine. Run pplx-decider-flash-v1.2 on your Mac from the menu bar",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd1t6q/you_can_now_run_the_perplexity_decision_model/",
+      "published_at": "2026-10-23T02:21:01Z",
+      "summary": "&#32; submitted by &#32;  /u/DotaMate   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-23-minimax-m31-flash",
+      "source": "localllama",
+      "title": "MiniMax-M3.1-Flash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd0fgs/minimaxm31flash/",
+      "published_at": "2026-10-23T01:12:49Z",
+      "summary": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash  &#32; submitted by &#32;  /u/mrtime777   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-23-flint-40b-a25b-vs-ornith-15-35b-a3b-vs-nemotron-35-lightning",
+      "source": "localllama",
+      "title": "Flint 40B-A2.5B vs Ornith 1.5 35B-A3B vs Nemotron 3.5 Lightning",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xczcgk/flint_40ba25b_vs_ornith_15_35ba3b_vs_nemotron_35/",
+      "published_at": "2026-10-23T00:21:32Z",
+      "summary": "      Three small MoEs dropped within a couple of weeks, so I put all of them in the same seat. In Fusion mode Opus 5.5 plans and reviews, and three workers on the local model write the code in parallel. Only the worker ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-22-qwen-38-flash-next-129-gb-is-better-than-26-bpw-deepseek-v41",
+      "source": "localllama",
+      "title": "Qwen 3.8 Flash Next (129 GB) is better than 2.6 bpw DeepSeek V4.1 Flash 1017 (187 GB + 203 GB Engram)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcylhj/qwen_38_flash_next_129_gb_is_better_than_26_bpw/",
+      "published_at": "2026-10-22T23:47:26Z",
+      "summary": "I compared Qwen3.8-Flash-Next-W4A16-FP8PLE at xhigh reasoning vs DeepSeek-V4.1-Flash-1017-dsx-2.6bit (my own quant) at max reasoning by benchmarking using a modified version of BenchKit. DeepSeek V4.1 Flash 1017 2.6 bit ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "huggingface-2026-10-22-turning-database-grading-into-rl-rewards-post-training-agent",
+      "source": "huggingface",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "published_at": "2026-10-22T22:24:34Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-22-strata-ready-uncensored-swift-15-qwen-38-fn---unsloth-dynami",
+      "source": "localllama",
+      "title": "Strata-Ready Uncensored Swift 1.5 Qwen 3.8 FN - Unsloth Dynamic IQ4_XS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcvtmj/strataready_uncensored_swift_15_qwen_38_fn/",
+      "published_at": "2026-10-22T21:46:27Z",
+      "summary": "      An update on my heretic (uncensored - refusals removed) unsloth dynamic iq4_xs quant clone - I added the strata ready artifacts: This is: the heretic version of Swift 1.5 Qwen 3.8 flash next, (mean KLD 0.06, median",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-22-making-kokoro-tts-50-100x-faster-without-knowing-how",
+      "source": "localllama",
+      "title": "Making Kokoro TTS 50-100x faster without knowing how",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcuqor/making_kokoro_tts_50100x_faster_without_knowing/",
+      "published_at": "2026-10-22T21:02:36Z",
+      "summary": "My thinking was models, esp Opus 5.5 can just hill-climb as long as you give them something achievable and a clear metric to improve on. So here&#39;s something I don&#39;t even have a clue how it exactly works. The trai",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-22-is-anyone-else-concerned-about-the-security-of-the-implement",
       "source": "localllama",
@@ -76,72 +153,6 @@
       "summary": "Donating Agent Skills to the Agentic AI Foundation\nNews today from Anthropic:\n\nWe’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Fou",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-persistent-in-model-memory-wmemt---running-on-exllamav3",
-      "source": "localllama",
-      "title": "Persistent in-model memory w/MemT - running on ExLlamav3",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcpnq5/persistent_inmodel_memory_wmemt_running_on/",
-      "published_at": "2026-10-22T17:53:19Z",
-      "summary": "      https://huggingface.co/MemTensor/MemT-1.0-Nano was released 3 days ago, with a live-updating memory model. This model has the capability to continuously lean in conversation, and carry it onto the next instance. Th",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-what-is-currently-best-open-source-tts-model-for-most-natura",
-      "source": "localllama",
-      "title": "What is Currently best open source TTS model for most natural voice generation",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcpjbk/what_is_currently_best_open_source_tts_model_for/",
-      "published_at": "2026-10-22T17:48:54Z",
-      "summary": "I did little research, and chatterboxV3 and Fish-Audio-S2-Pro were the top result. Should I go with chatterbox? Or there are other better alternatives?  &#32; submitted by &#32;  /u/Cute_Praline_5314   [link] &#32; [comm",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-qwen38-fn-at-nvfp4-basalt-vs-cachy-flash-vs-ninfer-ext",
-      "source": "localllama",
-      "title": "Qwen3.8-FN at NVFP4 ( Basalt vs cachy-flash vs ninfer-ext)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcp0mf/qwen38fn_at_nvfp4_basalt_vs_cachyflash_vs/",
-      "published_at": "2026-10-22T17:29:49Z",
-      "summary": "      Qwen3.8-Flash-Next NVFP4 on one RTX 5090 - prefill and decode against context Full 262,144-token context, one request at a time, MTP speculation on, int8 KV, identical test for all three engines. Every number is to",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-more-4x-intel-b65-test-results---performance-improvements",
-      "source": "localllama",
-      "title": "More 4x Intel B65 test results - Performance improvements - ~30% faster prefill and TTFT in flash-next vllm by increasing chunk size. & MPT benchmarks - and a video showing me actually using it in LibreChat.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoz8s/more_4x_intel_b65_test_results_performance/",
-      "published_at": "2026-10-22T17:28:17Z",
-      "summary": "      edit: video clip is of me is using Flash-Next on Libre LLM with:  Model: devan-carlin/Qwen3.8-Flash-Next-W4A16, INT4 weights with 16-bit activations (W4A16). The BF16 n-gram embedding table is pinned in host RAM. E",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-deepseek-and-minimax-clear-chinas-ai-export-rules-for-overse",
-      "source": "localllama",
-      "title": "DeepSeek and MiniMax Clear China’s AI Export Rules for Overseas Open-Source Releases",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoelw/deepseek_and_minimax_clear_chinas_ai_export_rules/",
-      "published_at": "2026-10-22T17:07:31Z",
-      "summary": "On October 22, Chinese media reported that DeepSeek and MiniMax have officially completed the required registration filings under China’s new temporary AI export regulations. By submitting their technologies for cross-bo",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-22-ling-30-tiny-ubtree-dflash-draft-for-stock-mainline-llamacpp",
-      "source": "localllama",
-      "title": "Ling-3.0-tiny-UBTree DFlash draft for stock mainline llama.cpp (+8% prose, +61% code speedup)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcnsrj/ling30tinyubtree_dflash_draft_for_stock_mainline/",
-      "published_at": "2026-10-22T16:45:30Z",
-      "summary": "I use Ling-3.0-tiny on my LLM server for text processing. I convert a lot of PDF documents to markdown for downstream LLM processing, and I built my custom harness for it. It uses ONNX model to parse layout, extracts tex",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -304,17 +315,6 @@
       "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
       "published_at": "2026-10-20T15:19:48Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-10-20-mps-in-pytorch-215",
-      "source": "huggingface",
-      "title": "MPS in PyTorch 2.15",
-      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
-      "published_at": "2026-10-20T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"
