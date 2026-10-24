@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-24T10:38:09Z",
+  "updated_at": "2026-10-24T15:40:23Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11856",
+      "project": "llama-cpp",
+      "version": "b11856",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11856",
+      "published_at": "2026-10-24T15:06:48Z",
+      "body_excerpt": "tests : add speculative rejection draft sampling test (#30213) tests : add speculative rejection draft sampling test This commit adds a test for speculative rejection sampling test that excercises the speculative rejection sampling mechanism in common/speculative.cpp. The motivation for this is have a test that verifies that the speculative draft models emitts tokens that match the target models d",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11854",
+      "project": "llama-cpp",
+      "version": "b11854",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11854",
+      "published_at": "2026-10-24T14:35:59Z",
+      "body_excerpt": "vulkan: ggml src1 precision support (#30656) vulkan: update accumulator precision selection handle fp32 overflows through scaling handle overflows in copy-to-fp16 activations add missing cases simplify code add tests add ggml prec get helpers, use in Vulkan backend clean up comments revert comment edit trim tests also handle fp32 src0, fix test scaling src0 values too don't scale if disabled remov",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11853",
+      "project": "llama-cpp",
+      "version": "b11853",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11853",
+      "published_at": "2026-10-24T11:12:30Z",
+      "body_excerpt": "HIP: add byte permute fallback when __builtin_amdgcn_perm is unavailable (#30915) HIP: add byte permute fallback when __builtin_amdgcn_perm is unavailable amdgcnspirv rejects target-specific builtins unless they are guarded by , so 66 of 145 HIP files failed to build Wrap the perm calls in a helper that keeps v_perm_b32 when the target has it and falls back to a portable byte select otherwise move",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11852",
       "project": "llama-cpp",
