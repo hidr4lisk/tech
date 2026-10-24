@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-10-24T15:40:23Z",
+  "updated_at": "2026-10-24T20:30:24Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11868",
+      "project": "llama-cpp",
+      "version": "b11868",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11868",
+      "published_at": "2026-10-24T20:23:47Z",
+      "body_excerpt": "hexagon: KV-head team split for multicore HMX flash attention (#31055) hexagon: KV-head team split for HMX flash attention in multicore hexagon: merge FA_HEAD_SPLIT and FA_SPLIT into single GGML_HEXAGON_FA_SPLIT flag 0 = off (token-split only); 1 = head-split, plus team-split when n_kv_heads Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11867",
+      "project": "llama-cpp",
+      "version": "b11867",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11867",
+      "published_at": "2026-10-24T20:11:27Z",
+      "body_excerpt": "server: refactor server entrypoint (#31113) server_role cont Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 librarie",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11866",
+      "project": "llama-cpp",
+      "version": "b11866",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11866",
+      "published_at": "2026-10-24T19:51:26Z",
+      "body_excerpt": "metal : remove mul_mm_id amax rescaling (#30924) The src1 power-of-two rescale in kernel_mul_mm_id is superseded by the per expert-token amax scaling done in the compute graph (ref: which keeps the MoE down-projection activations within f16 range before the op runs. Drop the two-stage reduction kernels, their scratch buffer and the GGML_PREC_F32 dispatch added in as well as the test cases that dri",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11865",
+      "project": "llama-cpp",
+      "version": "b11865",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11865",
+      "published_at": "2026-10-24T19:30:51Z",
+      "body_excerpt": "rpc : add bounds check in rdma_recv (#30399) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11861",
+      "project": "llama-cpp",
+      "version": "b11861",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11861",
+      "published_at": "2026-10-24T19:13:12Z",
+      "body_excerpt": "minimax-m3 : forward quant scales to the graph (fixes #31063) (#31097) The generic scale pass in llama-model.cpp loads the per-expert NVFP4 scale2 tensors (ffn_{up,gate,down}_exps_s) and the per-tensor MXFP8 scales for the dense FFN and the shared expert, but minimax-m3.cpp never forwarded any of them to the graph. build_moe_ffn() defaults these to nullptr, so build_lora_mm_id() skipped its w_s br",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11860",
+      "project": "llama-cpp",
+      "version": "b11860",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11860",
+      "published_at": "2026-10-24T18:56:08Z",
+      "body_excerpt": "tests : fix test-llama-context for large n_batch (#31083) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11858",
+      "project": "llama-cpp",
+      "version": "b11858",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11858",
+      "published_at": "2026-10-24T18:38:01Z",
+      "body_excerpt": "llama : deny -sm tensor for arches with moe amax rescaling (#31081) The amax POOL_1D reduction spans the whole matmul row, so a device cannot compute it from an axis-0 split. The Meta split-state case reported MIRRORED, which gives each device a partial max of its own slice. Drop that case and deny -sm tensor for the arches which build the amax graph, see [TAG_MOE_AMAX_SCALE]. Assisted-by: dsh:lla",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11857",
+      "project": "llama-cpp",
+      "version": "b11857",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11857",
+      "published_at": "2026-10-24T18:20:29Z",
+      "body_excerpt": "ggml : allow MUL_MAT_ID -1 index to skip the computation (#26631) ggml : allow MUL_MAT_ID -1 index to skip the computation nits update vulkan code ggml-webgpu: ensure all threads reach workgroup barriers in mul_mat_id_vec (cherry picked from commit d8a4b9efb6e2b9abf3a866e847756b7e6bbc6b69) fix cuda openvino exclude CUDA from this PR add TODO tag --------- Co-authored-by: yomaytk Website: Attestati",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11856",
       "project": "llama-cpp",
@@ -89,6 +161,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0",
       "published_at": "2026-10-24T00:30:13Z",
       "body_excerpt": "What's Changed qwen3coder: preserve literal function closing tags in parameters by @hoyyeva in launch: use allocated context for OpenCode by @hoyyeva in decision: allow empty state for vllm-d3 by @SynapShift in llama.cpp: version bump b11845 by @dhiltgen in mlxrunner: spell out symbols, numbers and links for Phonon by @jmorganca in voice: add voice catalog for Phonon by @jmorganca in New Contribut",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.11",
+      "project": "ollama",
+      "version": "v0.40.11",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
+      "published_at": "2026-10-24T00:30:13Z",
+      "body_excerpt": "Speech Ollama can now generate speech on macOS. plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible endpoint. d3 decision models d3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family",
       "type": "tool"
     },
     {
@@ -394,7 +475,7 @@
       "version": "v0.40.9",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
       "published_at": "2026-10-22T01:33:10Z",
-      "body_excerpt": "Speech Ollama can now generate speech with Phonon on Apple Silicon. plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible endpoint. d3 decision models d3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with proba",
+      "body_excerpt": "Flint on Linux and Windows Flint now runs on Linux and Windows as well as macOS. Other improvements Streaming OpenAI Responses and Anthropic Messages requests now report generation failures instead of ending silently after partial output. now passes cloud models' context lengths and capabilities to coding tools, fixing incorrect context and compaction settings. Anthropic-compatible web search now ",
       "type": "tool"
     },
     {
