@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-23T21:12:57Z",
+  "updated_at": "2026-10-24T04:00:52Z",
   "items": [
+    {
+      "id": "localllama-2026-10-24-qwen4-27b-pr-found",
+      "source": "localllama",
+      "title": "Qwen4-27B PR found",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwrak/qwen427b_pr_found/",
+      "published_at": "2026-10-24T02:16:02Z",
+      "summary": "PR: https://github.com/analytics-zoo/vllm-xpu-kernels/pull/22 The PR author seems to have contributed to intel repos a lot and VLLM. He also shares his name (might be the same person?) with a person who is either a CTO s",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-built-a-home-for-5-local-companions-on-gemma-4-26b-3d-rooms",
+      "source": "localllama",
+      "title": "Built a home for 5 local companions on Gemma 4 26B: 3D rooms, journals, a D&D campaign, and they can text me on Discord",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xduy84/built_a_home_for_5_local_companions_on_gemma_4/",
+      "published_at": "2026-10-24T00:42:44Z",
+      "summary": "I&#39;ve been building a companion app that runs fully local: LM Studio serving Gemma 4 26B (QAT), with a small Python server per companion and a three.js page for each one&#39;s room. All on an RTX 3070 Ti (8GB) + 32GB ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-23-ista-daslabdeepseek-v41-flash-1017-gsq-rco",
+      "source": "localllama",
+      "title": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdtk7m/istadaslabdeepseekv41flash1017gsqrco/",
+      "published_at": "2026-10-23T23:37:39Z",
+      "summary": "A brand-new release from ISTA-DASLab with their GSQ-RCO smart quantization approach. Now DeepSeek-V4.1-Flash-1017 The quants are available on Hugginface: https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RC",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-23-some-benchmarks-on-mini-agi-dynamic-continual-learning-model",
+      "source": "localllama",
+      "title": "Some benchmarks on mini-AGI (dynamic continual learning model) after training it completely from scratch for a month on a 8GB VRAM GPU.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xds6ts/some_benchmarks_on_miniagi_dynamic_continual/",
+      "published_at": "2026-10-23T22:34:52Z",
+      "summary": "      The most important part is a difference between &quot;forzen&quot; and &quot;best effort&quot; attempts where we allow the model to specialize on the task as it goes through the evaluation dataset. Clearly showcasi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-23-probably-one-of-cheapest-and-performant-local-setups-you-can",
+      "source": "localllama",
+      "title": "Probably one of cheapest and performant local setups you can get ( ~ 1600€ )",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdr8pe/probably_one_of_cheapest_and_performant_local/",
+      "published_at": "2026-10-23T21:53:48Z",
+      "summary": "i7-14700KF , 64 GB RAM Radeon RX 9070XT 16GB https://github.com/niko1221/strata for inference Qwen3.8-Flash-Next-GSQ-RCO-Q2_0 model  Runs at 90-70 tokens/sec :)   &#32; submitted by &#32;  /u/Snoo-2768   [link] &#32; [co",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-23-quick-study",
+      "source": "simonw",
+      "title": "Quick Study",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+      "published_at": "2026-10-23T21:35:13Z",
+      "summary": "Tool: Quick Study\n        Prompt to Claude Opus 5.5 High:\n\nBuild an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush\n\nSee al",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-23-wanna-help-me-design-an-hpc-system-upgrade-for-cancer-resear",
+      "source": "localllama",
+      "title": "wanna help me design an HPC system upgrade for cancer research?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdqk1d/wanna_help_me_design_an_hpc_system_upgrade_for/",
+      "published_at": "2026-10-23T21:25:42Z",
+      "summary": "background so, I&#39;m director of scientific computing at a cancer center and have just received some interesting news: a new lab has between a $300-400K budget to pay for GPU hardware to run their AlphaFold 2 workloads",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-23-pushing-pcie-x1-to-the-limit-lvgale-concurrently-serving-27",
+      "source": "localllama",
+      "title": "🌋 Pushing PCIe x1 to the limit: lvgale concurrently serving 27B, 9B, and 2B LLMs on a hardware abomination 📈",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdq2cj/pushing_pcie_x1_to_the_limit_lvgale_concurrently/",
+      "published_at": "2026-10-23T21:05:21Z",
+      "summary": "      Everyone loves a clean, unified server rack, but my standby node (lvgale) is an absolute physical abomination. It is a Frankenstein collection of mismatched parts and bolted-together VRAM that has no business runni",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-23-kimi-k31-pro-tech-blog-advancing-open-intelligence",
       "source": "localllama",
@@ -68,72 +156,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-23-i-ran-all-the-popular-qwen-38-fn-engines-on-a-single-5090-12",
-      "source": "localllama",
-      "title": "I ran all the popular Qwen 3.8 FN engines on a single 5090 + 128GB of RAM, here are the numbers",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlunp/i_ran_all_the_popular_qwen_38_fn_engines_on_a/",
-      "published_at": "2026-10-23T18:22:56Z",
-      "summary": "       Before you read: I&#39;m the developer of Basalt, one of the engines benchmarked below. I tried to keep this as fair as possible: same checkpoint, GPU and requests, and every engine set up the way its own docs rec",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-heres-where-the-last-rtx-5090-cards-are-going-massive-ai-con",
-      "source": "localllama",
-      "title": "Here's where the last RTX 5090 cards are going: Massive AI conversion factory exposed in China, Founders Edition included",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlj42/heres_where_the_last_rtx_5090_cards_are_going/",
-      "published_at": "2026-10-23T18:10:51Z",
-      "summary": "      &#32; submitted by &#32;  /u/fallingdowndizzyvr   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-strata-now-supports-qwen-36-35b",
-      "source": "localllama",
-      "title": "Strata now supports Qwen 3.6 35B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdktmz/strata_now_supports_qwen_36_35b/",
-      "published_at": "2026-10-23T17:44:20Z",
-      "summary": "Tried it on a build for gfx906(mi50 16gb) and ran worse than llamacpp on decode speed.   &#32; submitted by &#32;  /u/JsThiago5   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-a-4b-model-faster-than-a-395m-encoder-14-ms-vs-31-ms-22x-ano",
-      "source": "localllama",
-      "title": "A 4B model faster than a 395M encoder? 14 ms vs 31 ms (2.2x). Another 4B model: 150 ms (10x slower)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdkl55/a_4b_model_faster_than_a_395m_encoder_14_ms_vs_31/",
-      "published_at": "2026-10-23T17:35:20Z",
-      "summary": "      This is Mica v0.5, the next version after v0.1. It&#39;s a decision model, the same kind of thing as Jev, which has been getting a lot of attention lately. It&#39;s 4B (Qwen3.5-4B + LoRA) and it doesn&#39;t write t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-baseten-releases-elephant-1-9b-mit-qwen35-9b-base-a-decision",
-      "source": "localllama",
-      "title": "Baseten releases elephant-1 (9B, MIT, Qwen3.5-9B base), a decision model that ties d1-ultra on the AA Decision Index at about a quarter of the cost",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdirky/baseten_releases_elephant1_9b_mit_qwen359b_base_a/",
-      "published_at": "2026-10-23T16:26:41Z",
-      "summary": "      Base Labs at Baseten has released open weights for elephant-1, a 9B decision model post-trained from Qwen3.5-9B. It doesn&#39;t generate text. You give it a state (a ticket, a document, a prompt to screen) and a se",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-agentionaiqwen38-flash-next-gyro-coder-gguf-hugging-face",
-      "source": "localllama",
-      "title": "agentionai/Qwen3.8-Flash-Next-Gyro-Coder-GGUF · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdihql/agentionaiqwen38flashnextgyrocodergguf_hugging/",
-      "published_at": "2026-10-23T16:16:38Z",
-      "summary": "      AgentionAI Gyro Coder Large is now live 🚢 This coding specific finetune of Qwen 3.8 Flash Next is the same size as Gyro-S, but with half the experts and more bits per expert. The model fits in 32GB VRAM. More detai",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-10-23-litpivot-developing-research-ideas-through-dynamic-contextua",
       "source": "huggingface",
       "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
@@ -142,17 +164,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-nvidianvidia-nemotron-35-bolt-e4b-4gb-hugging-face",
-      "source": "localllama",
-      "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/",
-      "published_at": "2026-10-23T16:13:05Z",
-      "summary": "      NVIDIA-Nemotron-3.5-Bolt-E4B-4GB is a small language model (SLM) further post-trained from Gemma-4-E4B-it by NVIDIA. Nemotron-3.5-Bolt-E4B carries forward Gemma’s strong conversational capabilities and further impr",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -415,17 +426,6 @@
       "url": "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/",
       "published_at": "2026-10-16T01:58:00Z",
       "summary": "Research: sparqlite: SPARQL 1.1 inside SQLite, written in Rust\n        This research task is really an experiment in running Claude Code for web in \"Ultracode\" mode, as described in Orchestrate subagents at scale with dy",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-15-chirp-pong",
-      "source": "simonw",
-      "title": "Chirp Pong",
-      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
-      "published_at": "2026-10-15T19:47:52Z",
-      "summary": "Tool: Chirp Pong\n        Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone.",
       "tags": [
         "simonw"
       ]
