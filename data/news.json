@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-24T04:00:52Z",
+  "updated_at": "2026-10-24T10:38:02Z",
   "items": [
+    {
+      "id": "localllama-2026-10-24-qwen38-27b-on-my-3090-basically-tied-opus-55-on-a-korean-rag",
+      "source": "localllama",
+      "title": "qwen3.8 27B on my 3090 basically tied Opus 5.5 on a Korean RAG benchmark, which I did not expect",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe4v74/qwen38_27b_on_my_3090_basically_tied_opus_55_on_a/",
+      "published_at": "2026-10-24T10:07:50Z",
+      "summary": "So I’ve been running local RAG over Korean PDFs for a while and my only evaluation was “yeah the answers look ok”. Finally sat down and used Allganize’s Korean RAG set since every question has a known answer and the page",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-gyro-quants-looks-like-exl3-but-kinda-closed-source-please-e",
+      "source": "localllama",
+      "title": "Gyro quants looks like EXL3 but kinda closed source. please explain why we need this.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe41qe/gyro_quants_looks_like_exl3_but_kinda_closed/",
+      "published_at": "2026-10-24T09:17:15Z",
+      "summary": "Recently this new quant has popped up called Gyro. It is gaining popularity because it&#39;s being inserted into many different engines, especially the recently popular Strata. So i took a dive into the code to see the d",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-psa-streaming-n-grams-from-ssd-will-cause-ssd-wear",
+      "source": "localllama",
+      "title": "PSA: Streaming n-grams from SSD will cause SSD wear",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe2ypu/psa_streaming_ngrams_from_ssd_will_cause_ssd_wear/",
+      "published_at": "2026-10-24T08:09:15Z",
+      "summary": "      In other news: eating a banana gives you a dose of radiation, and spending a lot of time sitting at a desk can have negative effects on your health. Still you&#39;re doing it, so don&#39;t panic :-) Anyway, here is",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-release-ista-gsq-rco-ggufs-for-deepseek-v41-flash-1017",
+      "source": "localllama",
+      "title": "[Release] ISTA GSQ-RCO GGUFs for DeepSeek-V4.1-Flash-1017",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe2wg8/release_ista_gsqrco_ggufs_for_deepseekv41flash1017/",
+      "published_at": "2026-10-24T08:05:17Z",
+      "summary": "      We have released DeepSeek-V4.1-Flash-1017 quantized with GSQ and RCO, at 1.75 to 2.25 bits per weight. DeepSeek-V4.1-Flash-1017 is a sparse mixture-of-experts model: 384 routed experts per layer, of which 6 are act",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-models-on-5-algorithmic-tasks-on-16gb-vram-32gb-ram-v2",
+      "source": "localllama",
+      "title": "Models on 5 algorithmic tasks on 16GB VRAM 32GB Ram V2",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe2cyy/models_on_5_algorithmic_tasks_on_16gb_vram_32gb/",
+      "published_at": "2026-10-24T07:31:40Z",
+      "summary": "Posted a bech I did here before: https://www.reddit.com/r/LocalLLaMA/comments/1x8qlvw/nine_models_five_coding_tasks_one_16gb_gpu/ Now I&#39;ve done V2, tightened up the tasks a bit and a different lineup, plus a github r",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-the-rtx-5090-isnt-gone-its-in-chinese-labs-where-technicians",
+      "source": "localllama",
+      "title": "The RTX 5090 Isn't Gone, It's In Chinese Labs, Where Technicians Rip Off Its Die And 32GB VRAM For AI Servers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe1zsr/the_rtx_5090_isnt_gone_its_in_chinese_labs_where/",
+      "published_at": "2026-10-24T07:09:11Z",
+      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-spark-x26-4b-is-the-best-of-its-size",
+      "source": "localllama",
+      "title": "Spark X2.6 4B is the best of it's size",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe1kkh/spark_x26_4b_is_the_best_of_its_size/",
+      "published_at": "2026-10-24T06:44:17Z",
+      "summary": "https://huggingface.co/collections/XHToken/spark-x26  I tested it last night and it is amazingly good at tool calling. Tests in pi cli:  Can write a python script for blender to create a red cube, rotate it and render it",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-sam-altman-openais-best-model-cant-responsibly-be-open-sourc",
+      "source": "localllama",
+      "title": "Sam Altman: OpenAI's best model \"can't responsibly be open-sourced\" until the world builds better cyberdefense and bio-security",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe0ioz/sam_altman_openais_best_model_cant_responsibly_be/",
+      "published_at": "2026-10-24T05:41:18Z",
+      "summary": "OpenAI co-founder and CEO Sam Altman recently sat down for an in-depth conversation at Stanford Graduate School of Business&#39;s &quot;View from the Top&quot; series, covering AI&#39;s development trajectory, safety cha",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-24-qwen4-27b-pr-found",
       "source": "localllama",
@@ -46,17 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-23-probably-one-of-cheapest-and-performant-local-setups-you-can",
-      "source": "localllama",
-      "title": "Probably one of cheapest and performant local setups you can get ( ~ 1600€ )",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdr8pe/probably_one_of_cheapest_and_performant_local/",
-      "published_at": "2026-10-23T21:53:48Z",
-      "summary": "i7-14700KF , 64 GB RAM Radeon RX 9070XT 16GB https://github.com/niko1221/strata for inference Qwen3.8-Flash-Next-GSQ-RCO-Q2_0 model  Runs at 90-70 tokens/sec :)   &#32; submitted by &#32;  /u/Snoo-2768   [link] &#32; [co",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-10-23-quick-study",
       "source": "simonw",
       "title": "Quick Study",
@@ -68,50 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-23-wanna-help-me-design-an-hpc-system-upgrade-for-cancer-resear",
-      "source": "localllama",
-      "title": "wanna help me design an HPC system upgrade for cancer research?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdqk1d/wanna_help_me_design_an_hpc_system_upgrade_for/",
-      "published_at": "2026-10-23T21:25:42Z",
-      "summary": "background so, I&#39;m director of scientific computing at a cancer center and have just received some interesting news: a new lab has between a $300-400K budget to pay for GPU hardware to run their AlphaFold 2 workloads",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-pushing-pcie-x1-to-the-limit-lvgale-concurrently-serving-27",
-      "source": "localllama",
-      "title": "🌋 Pushing PCIe x1 to the limit: lvgale concurrently serving 27B, 9B, and 2B LLMs on a hardware abomination 📈",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdq2cj/pushing_pcie_x1_to_the_limit_lvgale_concurrently/",
-      "published_at": "2026-10-23T21:05:21Z",
-      "summary": "      Everyone loves a clean, unified server rack, but my standby node (lvgale) is an absolute physical abomination. It is a Frankenstein collection of mismatched parts and bolted-together VRAM that has no business runni",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-kimi-k31-pro-tech-blog-advancing-open-intelligence",
-      "source": "localllama",
-      "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdphiy/kimi_k31_pro_tech_blog_advancing_open_intelligence/",
-      "published_at": "2026-10-23T20:42:19Z",
-      "summary": "      Obviously, at 3T parameters it&#39;s hard to consider it relevant for “local”Llama, but I&#39;m still posting it since it&#39;s an open model.  &#32; submitted by &#32;  /u/StyMaar   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-been-tracking-intel-b60-b65-b70-prices-they-jumped-30-today",
-      "source": "localllama",
-      "title": "Been tracking intel b60 b65 b70 prices, they jumped 30% today.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdoirp/been_tracking_intel_b60_b65_b70_prices_they/",
-      "published_at": "2026-10-23T20:04:14Z",
-      "summary": "Amazon prices just jumped today, I still see deals at local microcenter. When that batch is gone $1840 for a b70 will likely be the new normal.  b60 went from $650 to $980. b65 $1150 to $1420 does make a lot more sense a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-10-23-introducing-kimi-k31-pro",
       "source": "simonw",
       "title": "Introducing Kimi K3.1 Pro",
@@ -120,39 +153,6 @@
       "summary": "Introducing Kimi K3.1 Pro\nKimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot  promise \"Full model weights will be released by Nov 4, 2026\".\nThey're also offering a \"Highspeed\" version th",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-new-nvidia-unlock-works-on-chinese-3080-20gb-too",
-      "source": "localllama",
-      "title": "New Nvidia unlock works on Chinese 3080 20GB too",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdn33h/new_nvidia_unlock_works_on_chinese_3080_20gb_too/",
-      "published_at": "2026-10-23T19:09:15Z",
-      "summary": "Just ran my own tests of the new GPU performance unlock by Zaggita. If you missed it: Nvidia locked down compute speed on consumer cards for some specific hardware instructions needed for AI; the unlock fixes it. TLDR: g",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-mysterious-qwen4-appearance-by-new-github-accounts",
-      "source": "localllama",
-      "title": "Mysterious Qwen4 Appearance by New GitHub Accounts",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmt2o/mysterious_qwen4_appearance_by_new_github_accounts/",
-      "published_at": "2026-10-23T18:59:02Z",
-      "summary": "      (Post Updated) PR: https://github.com/t-head/pla/pull/12 PR title: feat(gdn): support Qwen4.0-Max prefill heads T-head itself is alibaba oss: https://github.com/alibaba-oss Processing img 71x75uagq9xh1... Original ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-qwen4exp-build-the-qsa-selection-without-the-kq-mask-by-sanm",
-      "source": "localllama",
-      "title": "qwen4exp : build the QSA selection without the kq_mask by sanmai · Pull Request #30965 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmek0/qwen4exp_build_the_qsa_selection_without_the_kq/",
-      "published_at": "2026-10-23T18:43:46Z",
-      "summary": "      gigabytes of VRAM saved (Qwen Flash Next) &quot;This is one of the things Strata does to squeeze the most juice from the experts&#39; cache.&quot;   &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
