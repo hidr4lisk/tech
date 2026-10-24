@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-10-24T10:38:02Z",
+  "updated_at": "2026-10-24T15:40:15Z",
   "items": [
+    {
+      "id": "localllama-2026-10-24-big-cloud-models-like-opus-55-get-all-the-motion-graphics-pr",
+      "source": "localllama",
+      "title": "big cloud models like opus 5.5 get all the motion graphics praise, but i made this with local qwen3.8 flash next. it's very possible!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebkti/big_cloud_models_like_opus_55_get_all_the_motion/",
+      "published_at": "2026-10-24T15:29:30Z",
+      "summary": "      i&#39;ll admit it took more than one prompt, a bunch of refinement and steering, but local can get close! this is done using remotion, same animation framework as all the viral clips about opus 5.5&#39;s motion gra",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-8-gb-gpu-262k-context-35-bpw-qwen-flash-next-coder-70-ts-usi",
+      "source": "localllama",
+      "title": "8 GB GPU, 262K context 3.5 BPW Qwen-Flash-Next Coder 70 T/s using llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebdzl/8_gb_gpu_262k_context_35_bpw_qwenflashnext_coder/",
+      "published_at": "2026-10-24T15:21:50Z",
+      "summary": "      The methodology Qwen-Flash-Next has n-gram, MOE packing above its weight but it&#39;s still 6B active params. We exploit this by keeping most MOEs in RAM (Smallest MOEs go in VRAM for speedup) and n-gram on disk - ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-capy-flash-v074-where-my-two-gpu-qwen38-engine-is-now-what-i",
+      "source": "localllama",
+      "title": "capy-flash v0.7.4: where my two-GPU Qwen3.8 engine is now, what it isn't for, and where it's going",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe9yyg/capyflash_v074_where_my_twogpu_qwen38_engine_is/",
+      "published_at": "2026-10-24T14:23:16Z",
+      "summary": "It&#39;s been a few releases since my last post, so here is where capy-flash is now. It&#39;s my own engine for two models, Qwen3.8-27B and Qwen3.8-Flash-Next. It started as my ninfer-tp2 fork of NInfer, which added tens",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-abliteratedoutthebox-strata-announcement",
+      "source": "localllama",
+      "title": "AbliteratedOutTheBox Strata Announcement",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe8x9c/abliteratedoutthebox_strata_announcement/",
+      "published_at": "2026-10-24T13:38:58Z",
+      "summary": "I’ve been working on an inference-time abliteration engine as a fork of llama.cpp, and I’ve now ported the hook to Strata. It acts as an easy way to use abliterated models without huge amounts of vram or finetuning. For ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-meta-trained-small-ai-models-to-read-raw-bytes-instead-of-to",
+      "source": "localllama",
+      "title": "Meta trained small AI models to read raw bytes instead of tokens. They start out worse, but the paper predicts they end up better",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe88ja/meta_trained_small_ai_models_to_read_raw_bytes/",
+      "published_at": "2026-10-24T13:08:49Z",
+      "summary": "      https://arxiv.org/pdf/2609.12303 this paper suggests a model that skips models reading tokens that and has the model read raw bytes, basically one letter at a time. what they did:  trained small models (~1B params)",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-24-has-anyone-tried-using-nostr-for-agents-to-talk-to-each-othe",
+      "source": "localllama",
+      "title": "Has anyone tried using Nostr for agents to talk to each other?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe727w/has_anyone_tried_using_nostr_for_agents_to_talk/",
+      "published_at": "2026-10-24T12:12:01Z",
+      "summary": "Been thinking about using Nostr for communication between agents running on different people&#39;s machines. Anyone here tried it? I&#39;d like to get a basic setup working where one agent posts a request and another pic",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-24-qwen38-27b-on-my-3090-basically-tied-opus-55-on-a-korean-rag",
       "source": "localllama",
@@ -68,69 +134,14 @@
       ]
     },
     {
-      "id": "localllama-2026-10-24-spark-x26-4b-is-the-best-of-its-size",
-      "source": "localllama",
-      "title": "Spark X2.6 4B is the best of it's size",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe1kkh/spark_x26_4b_is_the_best_of_its_size/",
-      "published_at": "2026-10-24T06:44:17Z",
-      "summary": "https://huggingface.co/collections/XHToken/spark-x26  I tested it last night and it is amazingly good at tool calling. Tests in pi cli:  Can write a python script for blender to create a red cube, rotate it and render it",
+      "id": "simonw-2026-10-24-battledrones-v14-compass-rose-a-four-player-map",
+      "source": "simonw",
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "published_at": "2026-10-24T03:59:57Z",
+      "summary": "Release: battledrones v14: Compass Rose, a four player map\n        I added four player online mode to Battledrones - previous maps were limited to two.\nHere's the initial prompt I used: \n\nAdd a new map for a four player ",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-24-sam-altman-openais-best-model-cant-responsibly-be-open-sourc",
-      "source": "localllama",
-      "title": "Sam Altman: OpenAI's best model \"can't responsibly be open-sourced\" until the world builds better cyberdefense and bio-security",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe0ioz/sam_altman_openais_best_model_cant_responsibly_be/",
-      "published_at": "2026-10-24T05:41:18Z",
-      "summary": "OpenAI co-founder and CEO Sam Altman recently sat down for an in-depth conversation at Stanford Graduate School of Business&#39;s &quot;View from the Top&quot; series, covering AI&#39;s development trajectory, safety cha",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-24-qwen4-27b-pr-found",
-      "source": "localllama",
-      "title": "Qwen4-27B PR found",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwrak/qwen427b_pr_found/",
-      "published_at": "2026-10-24T02:16:02Z",
-      "summary": "PR: https://github.com/analytics-zoo/vllm-xpu-kernels/pull/22 The PR author seems to have contributed to intel repos a lot and VLLM. He also shares his name (might be the same person?) with a person who is either a CTO s",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-24-built-a-home-for-5-local-companions-on-gemma-4-26b-3d-rooms",
-      "source": "localllama",
-      "title": "Built a home for 5 local companions on Gemma 4 26B: 3D rooms, journals, a D&D campaign, and they can text me on Discord",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xduy84/built_a_home_for_5_local_companions_on_gemma_4/",
-      "published_at": "2026-10-24T00:42:44Z",
-      "summary": "I&#39;ve been building a companion app that runs fully local: LM Studio serving Gemma 4 26B (QAT), with a small Python server per companion and a three.js page for each one&#39;s room. All on an RTX 3070 Ti (8GB) + 32GB ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-ista-daslabdeepseek-v41-flash-1017-gsq-rco",
-      "source": "localllama",
-      "title": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdtk7m/istadaslabdeepseekv41flash1017gsqrco/",
-      "published_at": "2026-10-23T23:37:39Z",
-      "summary": "A brand-new release from ISTA-DASLab with their GSQ-RCO smart quantization approach. Now DeepSeek-V4.1-Flash-1017 The quants are available on Hugginface: https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RC",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-23-some-benchmarks-on-mini-agi-dynamic-continual-learning-model",
-      "source": "localllama",
-      "title": "Some benchmarks on mini-AGI (dynamic continual learning model) after training it completely from scratch for a month on a 8GB VRAM GPU.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xds6ts/some_benchmarks_on_miniagi_dynamic_continual/",
-      "published_at": "2026-10-23T22:34:52Z",
-      "summary": "      The most important part is a difference between &quot;forzen&quot; and &quot;best effort&quot; attempts where we allow the model to specialize on the task as it goes through the evaluation dataset. Clearly showcasi",
-      "tags": [
-        "localllama"
+        "simonw"
       ]
     },
     {
@@ -415,17 +426,6 @@
       "url": "https://simonwillison.net/2026/Oct/16/code-review/",
       "published_at": "2026-10-16T22:06:37Z",
       "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"\nAsking that question also changed when review happe",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-16-sparqlite-sparql-11-inside-sqlite-written-in-rust",
-      "source": "simonw",
-      "title": "sparqlite: SPARQL 1.1 inside SQLite, written in Rust",
-      "url": "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/",
-      "published_at": "2026-10-16T01:58:00Z",
-      "summary": "Research: sparqlite: SPARQL 1.1 inside SQLite, written in Rust\n        This research task is really an experiment in running Claude Code for web in \"Ultracode\" mode, as described in Orchestrate subagents at scale with dy",
       "tags": [
         "simonw"
       ]
