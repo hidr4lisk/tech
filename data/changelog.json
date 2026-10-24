@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-10-23T21:13:03Z",
+  "updated_at": "2026-10-24T04:01:00Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11849",
+      "project": "llama-cpp",
+      "version": "b11849",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11849",
+      "published_at": "2026-10-24T02:56:07Z",
+      "body_excerpt": "hexagon: add SGN op (#30346) hexagon : add SGN support Assisted-by: OpenCode hexagon : optimize SGN with sign bit Assisted-by: OpenCode hex-sgn: add f16 hex-unary: update SGN to use generic unary_colapse and relax colapse checks to apply to more conditions hex-unary: improve dims colapsing and run it in the host-side solver --------- Co-authored-by: Max Krasnyansky Website: Attestations: macOS/iOS",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11848",
+      "project": "llama-cpp",
+      "version": "b11848",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11848",
+      "published_at": "2026-10-24T02:35:48Z",
+      "body_excerpt": "common : allow concurrent downloads across processes (#29312) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11847",
+      "project": "llama-cpp",
+      "version": "b11847",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11847",
+      "published_at": "2026-10-24T02:19:24Z",
+      "body_excerpt": "hip: fix bf16 WMMA operand vector type for gfx11/gfx12 (#30885) The __builtin_amdgcn_wmma_f32_16x16x16_bf16_w32 (and _gfx12) builtins take their A/B operands as vectors of short (_ExtVector / _ExtVector ), not __bf16. Declaring the fragments as ext_vector_type(N) __bf16 fails to compile: error: cannot initialize a parameter of type 'short __attribute__((ext_vector_type(16)))' with an lvalue of typ",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.11-rc0",
+      "project": "ollama",
+      "version": "v0.40.11-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0",
+      "published_at": "2026-10-24T00:30:13Z",
+      "body_excerpt": "What's Changed qwen3coder: preserve literal function closing tags in parameters by @hoyyeva in launch: use allocated context for OpenCode by @hoyyeva in decision: allow empty state for vllm-d3 by @SynapShift in llama.cpp: version bump b11845 by @dhiltgen in mlxrunner: spell out symbols, numbers and links for Phonon by @jmorganca in voice: add voice catalog for Phonon by @jmorganca in New Contribut",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11846",
+      "project": "llama-cpp",
+      "version": "b11846",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11846",
+      "published_at": "2026-10-24T00:01:59Z",
+      "body_excerpt": "ggm-cuda: Enforce DP4A MMQ tile height multiple of warp size (#30837) Added static assertion to enforce DP4A MMQ tile height requirement. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11840",
       "project": "llama-cpp",
@@ -90,6 +135,24 @@
       "published_at": "2026-10-22T23:25:53Z",
       "body_excerpt": "server: realtime API: send complete after committed audio drains (#30994) server: realtime API: send complete after committed audio drains server: realtime API: complete a commit at its end row Completion is triggered when the stream runs dry, which is a timing proxy: audio appended while the tail drains leaks into the committed item, a final commit before the drain merges both items, and back to ",
       "type": "tool"
+    },
+    {
+      "id": "hf-ibm-granite-granite-switch-4.1-8b-GGUF",
+      "project": "ibm-granite",
+      "version": "granite-switch-4.1-8b-GGUF",
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-GGUF",
+      "published_at": "2026-10-22T22:00:51Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-switch-4.1-30b-GGUF",
+      "project": "ibm-granite",
+      "version": "granite-switch-4.1-30b-GGUF",
+      "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b-GGUF",
+      "published_at": "2026-10-22T22:00:51Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11827",
