@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-24T04:01:00Z",
+  "updated_at": "2026-10-24T10:38:09Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11852",
+      "project": "llama-cpp",
+      "version": "b11852",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11852",
+      "published_at": "2026-10-24T07:51:24Z",
+      "body_excerpt": "mtmd: move build_inp_temporal_merge to base class (#31065) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11851",
+      "project": "llama-cpp",
+      "version": "b11851",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11851",
+      "published_at": "2026-10-24T07:22:41Z",
+      "body_excerpt": "mtmd : lfm2 resize matches torchvision (#30943) mtmd : lfm2 bilinear resize matches torchvision Lfm2VlImageProcessor and d1-omni vision.py resize uint8 images with torchvision (antialias=True). That is Pillow's algorithm, except that the weights are int16 with as many fractional bits as the largest weight allows, where Pillow uses 22 bits. The Pillow port was 1-2 levels off on about 1% of the valu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11850",
+      "project": "llama-cpp",
+      "version": "b11850",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11850",
+      "published_at": "2026-10-24T05:30:02Z",
+      "body_excerpt": "mtmd : add Soprano TTS support (#28607) Add Soprano-80M and Soprano-1.1-80M ( as an audio generation model: a Qwen3 backbone plus a Vocos decoder that runs as a gen-only mmproj. convert: detect Soprano checkpoints and export the backbone as qwen3 and the decoder.pth Vocos weights as the mmproj vocab: add the soprano pre-tokenizer (lowercase, whitespace collapse, per-digit split, [UNK] fallback) mt",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11849",
       "project": "llama-cpp",
@@ -13203,15 +13230,6 @@
       "published_at": "2026-07-26T23:03:40Z",
       "body_excerpt": "mtmd: fix android build (#26150) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows",
       "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-Mage-ViT",
-      "project": "microsoft",
-      "version": "Mage-ViT",
-      "url": "https://huggingface.co/microsoft/Mage-ViT",
-      "published_at": "2026-07-26T04:22:45Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
