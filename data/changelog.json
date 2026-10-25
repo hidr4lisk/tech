@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-10-25T15:50:50Z",
+  "updated_at": "2026-10-25T20:37:53Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11887",
+      "project": "llama-cpp",
+      "version": "b11887",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11887",
+      "published_at": "2026-10-25T18:34:11Z",
+      "body_excerpt": "tests : adjust default threads for test-llama-context (#31157) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 librar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11886",
+      "project": "llama-cpp",
+      "version": "b11886",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11886",
+      "published_at": "2026-10-25T18:16:53Z",
+      "body_excerpt": "qwen: merge tensors on convert (#31028) qwen: merge tensors on convert convert: use generator functions qwen4exp: remove conts and pre-scale Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11884",
+      "project": "llama-cpp",
+      "version": "b11884",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11884",
+      "published_at": "2026-10-25T17:55:58Z",
+      "body_excerpt": "llama: fix exhausting CPU and MEM caused by dry sequence breaker (#31035) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11883",
+      "project": "llama-cpp",
+      "version": "b11883",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11883",
+      "published_at": "2026-10-25T17:26:01Z",
+      "body_excerpt": "llama-quant : fix 4D tensor quantization using ggml_nrows() and name-based expert detection (#30820) llama-quant : fix quantizing 4D tensors nrows_total was ne[1]ne[2], so for a 4D tensor only the first ne[2] slices were quantized and the rest of the rows were dropped. Use ggml_nrows(tensor) to count all rows, including ne[3]. Fixes #29916 llama-quant : detect expert tensors by name and fix imatri",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11882",
+      "project": "llama-cpp",
+      "version": "b11882",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11882",
+      "published_at": "2026-10-25T17:06:07Z",
+      "body_excerpt": "grammar: limit recursion depth to prevent stack overflow (#29495) (#29755) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11881",
+      "project": "llama-cpp",
+      "version": "b11881",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11881",
+      "published_at": "2026-10-25T16:48:41Z",
+      "body_excerpt": "llama : respect no_alloc in all memory caches (#31087) llama : respect no_alloc in memory caches Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : TODO: move no_alloc out of llama_hparams Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : TODO: move no_alloc out of llama_hparams Assis",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11880",
+      "project": "llama-cpp",
+      "version": "b11880",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11880",
+      "published_at": "2026-10-25T16:30:25Z",
+      "body_excerpt": "tools : reject truncated GGUF tensor data in merge (#31044) Co-authored-by: Shreya Agrawal Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11879",
+      "project": "llama-cpp",
+      "version": "b11879",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11879",
+      "published_at": "2026-10-25T16:12:35Z",
+      "body_excerpt": "CUDA: fuse FFN gate/up matmuls and GLU in MMQ with interleaved gate/up rows (#29948) cuda: fuse FFN gate/up and GLU in MMQ with interleaved gate/up rows For prompt processing, run the gate and up matmuls of a dense FFN as one mul_mat_q launch and apply the GLU in the write-back. The loaders take the gate weights as a second pointer and fill the weight tile with up and gate rows interleaved in chun",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11878",
       "project": "llama-cpp",
@@ -13283,24 +13355,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10155",
       "published_at": "2026-07-27T21:59:35Z",
       "body_excerpt": "mtmd: support MiMo-V2.5 audio input (RVQ-based model) (#26190) gguf converter for mimo audio fix conv cpp impl nits nits 2 Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Op",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10154",
-      "project": "llama-cpp",
-      "version": "b10154",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10154",
-      "published_at": "2026-07-27T16:59:26Z",
-      "body_excerpt": "common : add common_print_available_devices() (#26170) Signed-off-by: Adrien Gallouët Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10153",
-      "project": "llama-cpp",
-      "version": "b10153",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10153",
-      "published_at": "2026-07-27T15:56:00Z",
-      "body_excerpt": "model: Add support for Nanbeige4.2 (#25994) support nanbeige4.2 model fix fix flake8 Lint check fix loop bound check and drop redundant head_dim --------- Co-authored-by: root Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubunt",
       "type": "tool"
     }
   ]
