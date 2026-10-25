@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-10-25T11:01:22Z",
+  "updated_at": "2026-10-25T15:50:50Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11878",
+      "project": "llama-cpp",
+      "version": "b11878",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11878",
+      "published_at": "2026-10-25T15:16:43Z",
+      "body_excerpt": "ggml-cuda: fuse qwen MRoPE + set-rows (#31025) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11877",
+      "project": "llama-cpp",
+      "version": "b11877",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11877",
+      "published_at": "2026-10-25T14:57:09Z",
+      "body_excerpt": "vulkan: Add a larger tile size for conv3d (coopmat2 only) (#29920) vulkan: Add a larger tile size for conv3d (coopmat2 only) This adds a larger tile size, in practice it is only for coopmat2 where we don't need shared memory to store the output (would use more than 64KB). Add some additional representative backend tests. At least, this is what codex came up with from looking at sd.cpp Wan VAE. onl",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11876",
+      "project": "llama-cpp",
+      "version": "b11876",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11876",
+      "published_at": "2026-10-25T14:27:02Z",
+      "body_excerpt": "vulkan : one warp tile per subgroup in the small matmul tiles (#30106) WM of the small tiles was 32, or 8 for 8-wide subgroups, whatever the tile's BLOCK_SIZE and WARP. With 16-wide subgroups (Mali) the second subgroup of a workgroup wrote into the next tile's columns. With 8-wide subgroups some _id tiles left rows uncomputed. Derive WM so there is one warp tile per subgroup. Tested on my Pixel 9 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11875",
+      "project": "llama-cpp",
+      "version": "b11875",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11875",
+      "published_at": "2026-10-25T14:06:27Z",
+      "body_excerpt": "hexagon: generic dims collapse/reshape for unary, binary and matmul ops (#31071) hex-tools: support for --compare option in the profile.py hex-unary: improve collapse logic to also do splits if nrows is small hex-colapse: handle all colapsing at the host and make it generic hex-colapse: remove leftover unary helper Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11874",
+      "project": "llama-cpp",
+      "version": "b11874",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11874",
+      "published_at": "2026-10-25T13:30:00Z",
+      "body_excerpt": "opencl: add topk and lightning indexer (#31026) opencl: add topk opencl: optimize topk opencl: add fp lightning indexer opencl: optimize lightning indexer opencl: refactor opencl: refactor tiled topk kernel opencl: adjust format Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11873",
+      "project": "llama-cpp",
+      "version": "b11873",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11873",
+      "published_at": "2026-10-25T12:24:22Z",
+      "body_excerpt": "opencl: add initial q2_k support (#30999) opencl: add opencl: add q2_k SOA mv and tiled mm opencl: add q2_k noshuffle gemm/gemv for adreno opencl: add q2_k dp4a gemm for adreno Co-authored-by: Hongqiang Wang opencl: tune q2_k kernels for adreno --------- Co-authored-by: Hongqiang Wang Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABL",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11871",
       "project": "llama-cpp",
@@ -13247,51 +13301,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10153",
       "published_at": "2026-07-27T15:56:00Z",
       "body_excerpt": "model: Add support for Nanbeige4.2 (#25994) support nanbeige4.2 model fix fix flake8 Lint check fix loop bound check and drop redundant head_dim --------- Co-authored-by: root Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubunt",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10152",
-      "project": "llama-cpp",
-      "version": "b10152",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10152",
-      "published_at": "2026-07-27T14:13:29Z",
-      "body_excerpt": "fit : count nextn (MTP) blocks in n_gpu_layers so front layers stay on GPU (#26177) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10151",
-      "project": "llama-cpp",
-      "version": "b10151",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10151",
-      "published_at": "2026-07-27T13:24:07Z",
-      "body_excerpt": "sycl(build): parallelize ocloc invocations (#25903) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10150",
-      "project": "llama-cpp",
-      "version": "b10150",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10150",
-      "published_at": "2026-07-27T12:45:33Z",
-      "body_excerpt": "ggml : adjust logic for offloading ops to weight's backend (#25832) ggml : adjust logic for offloading ops to weight's backend llama : dsv4 graph fixes Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10149",
-      "project": "llama-cpp",
-      "version": "b10149",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10149",
-      "published_at": "2026-07-27T11:45:51Z",
-      "body_excerpt": "tests : remove unnecessary sync in test-save-load-state (#26166) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10148",
-      "project": "llama-cpp",
-      "version": "b10148",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10148",
-      "published_at": "2026-07-27T11:15:07Z",
-      "body_excerpt": "common: fix explicit -md precedence over draft sidecar resolution (#26165) common: fix explicit -md precedence over draft sidecar resolution Follow-up of #25955, an explicit --model-draft file given with -hfd was silently overridden by the sidecar resolution of the draft repo, and its path was never resolved to a local file. An explicit draft file selection now disables the sidecar resolution, so ",
       "type": "tool"
     }
   ]

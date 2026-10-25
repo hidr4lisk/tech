@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-10-25T11:01:16Z",
+  "updated_at": "2026-10-25T15:50:43Z",
   "items": [
+    {
+      "id": "localllama-2026-10-25-the-minimum-size-of-an-llm-to-generate-a-little-meaningful-c",
+      "source": "localllama",
+      "title": "The minimum size of an LLM to generate a little meaningful convo",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf4sxg/the_minimum_size_of_an_llm_to_generate_a_little/",
+      "published_at": "2026-10-25T15:09:15Z",
+      "summary": "I am trying to find the smallest model to generate something in &quot;normal&quot; English, it could be like AI generated, but it should be mostly grammar correct, sensible in the context. I hope it could be less than 10",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-25-how-much-difference-does-kv-cache-quants-even-make",
+      "source": "localllama",
+      "title": "how much difference does kv cache quants even make?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf1cx0/how_much_difference_does_kv_cache_quants_even_make/",
+      "published_at": "2026-10-25T12:41:13Z",
+      "summary": "I currently run qwen flash next 3.8 iq3xxs via strata (like almost everyone lol) and I currently have kv cache at q8 with 262k ctx. Ive never actually tried any other quant and dont know how big the difference even is. I",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-25-lure-tts-and-lure-turbo-600m-voice-models-to-run-4x-faster-t",
+      "source": "localllama",
+      "title": "Lure-TTS and Lure-Turbo: 600M voice models to run 4x faster than real time, with inline (tags), direction, and voice cloning. Trained for under $200.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf14j2/luretts_and_lureturbo_600m_voice_models_to_run_4x/",
+      "published_at": "2026-10-25T12:29:32Z",
+      "summary": "      I trained Lure TTS by finetuning Qwen3-TTS using some of the latest developments in model training, such as RLVR, OPD, and multi-teacher OPD. My goal was to create a faster, smaller TTS model that I could listen to",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-25-backup-your-quants",
+      "source": "localllama",
+      "title": "Backup your quants!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf11qj/backup_your_quants/",
+      "published_at": "2026-10-25T12:25:39Z",
+      "summary": "      source: https://huggingface.co/mradermacher/model_requests I&#39;m sure the situation is the same for other quant producers. If you have anything you want to keep, it&#39;s best to make a backup now. If you have th",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-25-nanbeigenanbeige43-33b-hugging-face",
+      "source": "localllama",
+      "title": "Nanbeige/Nanbeige4.3-33B · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/",
+      "published_at": "2026-10-25T12:01:34Z",
+      "summary": "      Stronger than Qwen3.8-27B across a range of benchmarks.  but also lays the necessary foundation to power our upcoming small model distillation pipeline (e.g., for Nanbeige4.3-3B).  It&#39;ll distilled into their 3B",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-25-flash-next-q2-on-a-24gb-m5-macbook-air-49-ts-decode-with-spl",
+      "source": "localllama",
+      "title": "Flash Next (Q2) on a 24GB M5 MacBook Air: 49 t/s decode with Splash expert streaming",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xezdgs/flash_next_q2_on_a_24gb_m5_macbook_air_49_ts/",
+      "published_at": "2026-10-25T10:55:18Z",
+      "summary": "Qwen3.8-Flash-Next (ISTA GSQ-RCO Q2_0) + Flash-Next-DFlash2 draft on a MacBook Air M5 (24 GB), on Splash 1.4.0 with a small fork. Experts that don&#39;t fit are streamed from the SSD: 6,800 of 24,576 expert slots (~28%) ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-25-cuda-fuse-ffn-gateup-matmuls-and-glu-in-mmq-with-interleaved",
       "source": "localllama",
@@ -63,72 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xevrui/beam_10_501b_a23b_9_days_after_release_your/",
       "published_at": "2026-10-25T07:16:38Z",
       "summary": "I tested it for backend software dev in the last two days, used providers I must admit. But I wanna test it on some rented gpus as well. My experiences so far (I ran no personal or general benchmarks): The providers are ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-lean-qwenflash-qwen38-flash-next-125b-running-at-20-toks-on",
-      "source": "localllama",
-      "title": "Lean-QwenFlash: Qwen3.8-Flash-Next (125B) running at ~20 tok/s on 16gb vram and 8gb ram via direct nvme SSD offloading",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xev6bo/leanqwenflash_qwen38flashnext_125b_running_at_20/",
-      "published_at": "2026-10-25T06:41:28Z",
-      "summary": "      Hey everyone, Most current setups for Qwen3.8-Flash-Next (like Strata) keep all 24k experts pinned in system RAM (~48–64 GB) and compute cache misses on the CPU. That works great on high-spec workstations, but not ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-a-4b-coding-model-that-can-generate-3d-scenes",
-      "source": "localllama",
-      "title": "A 4B coding model that can generate 3D scenes",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeuo7t/a_4b_coding_model_that_can_generate_3d_scenes/",
-      "published_at": "2026-10-25T06:10:59Z",
-      "summary": "      I’m sharing an early version of a 4B model I’m training for general coding and 3D scene generation. Small models have been pretty rough at 3D in my tests. I’ve finally made enough progress to get results like the o",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-imp-news-backdooring-the-local-models",
-      "source": "localllama",
-      "title": "Imp : News backdooring the local models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeuk0q/imp_news_backdooring_the_local_models/",
-      "published_at": "2026-10-25T06:03:55Z",
-      "summary": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned Guys, what is your thoughts on this ?   &#32; submitted by &#32;  /u/repair_and_privacy   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-benchmark-stratabasalt-runs-qwen38-flash-next-iq3-s-with-16g",
-      "source": "localllama",
-      "title": "[Benchmark] Strata/Basalt runs Qwen3.8 Flash Next IQ3_S with 16GB VRAM and 55GB RAM with up to 250 tok/s generation and 5,600 tok/s prompt processing (5080, Concurrency 1)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3/",
-      "published_at": "2026-10-25T03:59:23Z",
-      "summary": "      Qwen3.8-Flash-Next IQ3_S on Basalt | RTX 5080 16 GB, Core Ultra 9 285K, 62 GB DDR5-6800 | 262K context, int8 KV   Workload (prompts 5K+) PP avg (t/s) PP peak (t/s) TG avg (t/s) TG peak (t/s) VRAM RAM (engine / left",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-too-good-to-be-true-istas-gsq-rco-2-bit-deepseek-v41-flash-s",
-      "source": "localllama",
-      "title": "Too good to be true? ISTA's GSQ-RCO 2-bit DeepSeek-V4.1-Flash scoring the same as the base model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xes5x0/too_good_to_be_true_istas_gsqrco_2bit/",
-      "published_at": "2026-10-25T03:48:25Z",
-      "summary": "      Has anyone tried ISTA&#39;s GSQ-RCO GGUFs for DeepSeek-V4.1-Flash? Does the quality feel as good as their benchmarks show (IQ2_XXS matching the base)? Their benchmarks are saturated (90%+, and AIME25 is 100 for eve",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-gpt-x3-150m-takes-1-on-the-open-slm-leaderboard-dethroning-h",
-      "source": "localllama",
-      "title": "GPT-X3-150M takes #1 on the Open SLM Leaderboard, dethroning HuggingFace's SmolLM2-135M with a GDN2/GQA hybrid - Check it out!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xerxtr/gptx3150m_takes_1_on_the_open_slm_leaderboard/",
-      "published_at": "2026-10-25T03:36:15Z",
-      "summary": "      &#32; submitted by &#32;  /u/datdanboi25   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
