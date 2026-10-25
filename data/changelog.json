@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-24T20:30:24Z",
+  "updated_at": "2026-10-25T04:01:41Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11870",
+      "project": "llama-cpp",
+      "version": "b11870",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11870",
+      "published_at": "2026-10-25T02:15:14Z",
+      "body_excerpt": "model: DSV4.1 flash (#31086) model : add DeepSeek-V4.1-Flash (deepseek41) deepseek41 : remove MXFP8, convert the Engram table to BF16 deepseek41 : compute the compressed-KV read layers once in the cache deepseek41 : use get_cells() for the shared-history check, drop llama_kv_cache::seq_pos_tok_le deepseek41 : gather the Engram rows in-graph like qwen4exp, drop the host gather deepseek41 : keep the",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11869",
+      "project": "llama-cpp",
+      "version": "b11869",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11869",
+      "published_at": "2026-10-24T21:18:54Z",
+      "body_excerpt": "jinja : fix select and selectattr argument handling (#31059) jinja : fix select and selectattr argument handling jinja : address review feedback jinja : Simplified test attr Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (V",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11868",
       "project": "llama-cpp",
@@ -13292,51 +13310,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10144",
       "published_at": "2026-07-27T06:14:00Z",
       "body_excerpt": "server + ui: fix stream routes for model names containing a slash (#26137) server + ui: refactor resumable stream routes to query string conv_id The conversation id can embed a model name containing slashes (ggml-org/...) in router mode, which the decoded path splits before the :conv_id param is captured, so stop and resume never matched the session. Move the id to the conv_id query string on the ",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.5-rc0",
-      "project": "ollama",
-      "version": "v0.32.5-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5-rc0",
-      "published_at": "2026-07-27T01:25:40Z",
-      "body_excerpt": "What's Changed mlx update by @dhiltgen in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.5",
-      "project": "ollama",
-      "version": "v0.32.5",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
-      "published_at": "2026-07-27T01:25:40Z",
-      "body_excerpt": "What's Changed Fixed an MLX Metal bug that could reduce output quality for NVFP4 models, particularly Laguna. Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.26.0",
-      "project": "vllm",
-      "version": "v0.26.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
-      "published_at": "2026-07-27T01:06:58Z",
-      "body_excerpt": "vLLM v0.26.0 Release Notes Highlights This release features 411 commits from 212 contributors (61 new)! New Inkling model family with a full support stack: base modeling (#48799), piecewise CUDA graph support (#48822), Hopper FA4 relative attention (#48858), MTP=1 speculative decoding (#48869), LoRA (#48884), and standard ModelOpt NVFP4 quantization (#48990). DeepSeek-V4 performance push across ve",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10142",
-      "project": "llama-cpp",
-      "version": "b10142",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10142",
-      "published_at": "2026-07-27T00:20:27Z",
-      "body_excerpt": "mtmd: Add Vision Support for Minimax-M3 (#25113) Add preliminary MiniMax-M3 support Text-only port that re-uses existing components: MiniMax-M2 style GQA with per-head QK-norm and partial rotary, DeepSeek-V3 style leading-dense and routed/shared experts, and swigluoai activation. Sparse attention is not yet supported (dense fallback); vision tower and MTP heads are dropped. MiniMax-M3 vision tower",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10141",
-      "project": "llama-cpp",
-      "version": "b10141",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10141",
-      "published_at": "2026-07-26T23:03:40Z",
-      "body_excerpt": "mtmd: fix android build (#26150) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows",
       "type": "tool"
     }
   ]
