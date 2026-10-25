@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-10-25T04:01:41Z",
+  "updated_at": "2026-10-25T11:01:22Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11871",
+      "project": "llama-cpp",
+      "version": "b11871",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11871",
+      "published_at": "2026-10-25T06:28:47Z",
+      "body_excerpt": "chat : reject JSON nested more than 128 levels before walking it (#30242) chat : reject JSON nested more than 128 levels before walking it The schema builder, the jinja engine and the decision code walk request JSON with recursion. A request nested deep enough overflows the stack of the HTTP thread and llama-server dies (SIGBUS on macOS, SIGSEGV on Linux): for a tool schema from a few hundred leve",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11870",
       "project": "llama-cpp",
@@ -13283,33 +13292,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10148",
       "published_at": "2026-07-27T11:15:07Z",
       "body_excerpt": "common: fix explicit -md precedence over draft sidecar resolution (#26165) common: fix explicit -md precedence over draft sidecar resolution Follow-up of #25955, an explicit --model-draft file given with -hfd was silently overridden by the sidecar resolution of the draft repo, and its path was never resolved to a local file. An explicit draft file selection now disables the sidecar resolution, so ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10146",
-      "project": "llama-cpp",
-      "version": "b10146",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10146",
-      "published_at": "2026-07-27T10:09:41Z",
-      "body_excerpt": "ggml-cpu: Enable BF16 tiled gemm optimization on PowerPC (#26068) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) And",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10145",
-      "project": "llama-cpp",
-      "version": "b10145",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10145",
-      "published_at": "2026-07-27T09:28:29Z",
-      "body_excerpt": "args: add where it mlocks but doesnt mmap (#26135) arg: add where it mlocks but doesnt mmap Signed-off-by: Aaron Teo docs: rm unwanted docs changes Signed-off-by: Aaron Teo docs: revert auto-formatting Signed-off-by: Aaron Teo bench: fix automated review point 3 Signed-off-by: Aaron Teo arg: revert the meaning of --mlock to non-mmap'ed mlock Signed-off-by: Aaron Teo docs: update docs Signed-off-by",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10144",
-      "project": "llama-cpp",
-      "version": "b10144",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10144",
-      "published_at": "2026-07-27T06:14:00Z",
-      "body_excerpt": "server + ui: fix stream routes for model names containing a slash (#26137) server + ui: refactor resumable stream routes to query string conv_id The conversation id can embed a model name containing slashes (ggml-org/...) in router mode, which the decoded path splits before the :conv_id param is captured, so stop and resume never matched the session. Move the id to the conv_id query string on the ",
       "type": "tool"
     }
   ]
