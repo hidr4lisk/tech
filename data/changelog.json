@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-10-26T12:34:44Z",
+  "updated_at": "2026-10-26T22:28:57Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11910",
+      "project": "llama-cpp",
+      "version": "b11910",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11910",
+      "published_at": "2026-10-26T21:20:07Z",
+      "body_excerpt": "opencl: write KV-cache views in set_tensor so a state restore is not dropped (#30471) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11909",
+      "project": "llama-cpp",
+      "version": "b11909",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11909",
+      "published_at": "2026-10-26T21:00:58Z",
+      "body_excerpt": "hexagon: MUL_MAT_ID row skipping optimizations and improvements (#31169) hex-mmid: vectorize skipped row zeroing and added zeroing to fused MM_ID_NX hex-mmid: remove scalar div Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11908",
+      "project": "llama-cpp",
+      "version": "b11908",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11908",
+      "published_at": "2026-10-26T20:46:13Z",
+      "body_excerpt": "llama : move no_alloc out of llama_hparams (#31141) llama : move no_alloc out of llama_hparams Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (2x DGX Spark (RDMA, TP=2)) cont : clean-up cont : clean-up Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (2x DGX Spark (RDMA, TP=2)) tests : add a no_alloc case to test-llama-context Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (2",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11907",
+      "project": "llama-cpp",
+      "version": "b11907",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11907",
+      "published_at": "2026-10-26T20:15:14Z",
+      "body_excerpt": "models : replace ggml_tensor out-params with output structs (#31142) The hyper-connection and DSA graph builders wrote their extra outputs (post / comb gates, carried top-k selections, inject gates) through ggml_tensor out-params. Return them in a small struct next to the primary output instead. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: Attestati",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11906",
+      "project": "llama-cpp",
+      "version": "b11906",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11906",
+      "published_at": "2026-10-26T19:45:36Z",
+      "body_excerpt": "ggml-cpu : rewrite concat as one row kernel for all types (#31179) Every dst row comes from src0 or src1, or for dim 0 from the row of src0 followed by the row of src1, so a single kernel covers every type: a dense source row is one memcpy, quantized types included, and a strided source is copied element by element with the element size known at compile time. Rows are split across threads instead ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11905",
+      "project": "llama-cpp",
+      "version": "b11905",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11905",
+      "published_at": "2026-10-26T19:08:44Z",
+      "body_excerpt": "vulkan: rms norm optimization using subgroup reductions (#29882) RMS Norm Subgroup reductions optimizaton Fix build error Improved optimization Make usage of BLOCK_SIZE consistent Add fast path to skip 2nd subgroupAdd Add AMD Vendor to subgroup reduction opt Add comment clarifying rms_dict and merge_maps behavior Add unroll Rebase Fixed syntax issue Add 128/256/512 block sizes to non-subgroup path",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11904",
+      "project": "llama-cpp",
+      "version": "b11904",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11904",
+      "published_at": "2026-10-26T18:46:19Z",
+      "body_excerpt": "sycl: template the plain MMVQ launch triples (#31013) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.21",
+      "project": "transformers",
+      "version": "v5.21",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.21",
+      "published_at": "2026-10-26T18:17:42Z",
+      "body_excerpt": "Release v5.21.0 New Model additions MiniCPM-OCR MiniCPM-OCR is a document-understanding model from OpenBMB's MiniCPM-V family. It keeps the MiniCPM-V 4.6 architecture, which pairs a SigLIP vision encoder and a window-attention merger with a Qwen3.5 language model. It is specialized for reading text-dense images such as scanned pages, screenshots, receipts and tables. Links: Documentation | Paper F",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11901",
+      "project": "llama-cpp",
+      "version": "b11901",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11901",
+      "published_at": "2026-10-26T17:26:52Z",
+      "body_excerpt": "sycl : bound reorder temp memory to 32 MiB (#31062) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.911-beta",
+      "project": "unsloth",
+      "version": "v0.1.911-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.911-beta",
+      "published_at": "2026-10-26T14:23:54Z",
+      "body_excerpt": "This release adds scheduled tasks, FLUX-3 edit support, perf improvements and more. Also new: MiniMax-M3.1-Flash, face touch-ups for images and faster performance + chats on Mac. Highlights Scheduled tasks: Run a prompt on a schedule with a local model or an API MiniMax-M3.1-Flash: MiniMax's 428B MoE (23B active) Guide FLUX 3 Editing: FLUX 3 now supports editing of images with prompts - Perf impro",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11900",
+      "project": "llama-cpp",
+      "version": "b11900",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11900",
+      "published_at": "2026-10-26T14:00:15Z",
+      "body_excerpt": "common: pin model resolution on real HF repo layouts (#30548) tests: pin model resolution on real repo listings Extend test-model-resolution with 63 repo listings captured verbatim from the HF API, chosen to cover every file naming pattern found across 1237 GGUF repos of the major publishers and pruned to whole quant groups. Each repo pins its resolved plans and its cache listing. The expectations",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11899",
       "project": "llama-cpp",
@@ -414,6 +513,15 @@
       "published_at": "2026-10-24T00:01:59Z",
       "body_excerpt": "ggm-cuda: Enforce DP4A MMQ tile height multiple of warp size (#30837) Added static assertion to enforce DP4A MMQ tile height requirement. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-MotionBricks",
+      "project": "nvidia",
+      "version": "MotionBricks",
+      "url": "https://huggingface.co/nvidia/MotionBricks",
+      "published_at": "2026-10-23T18:49:27Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11840",
@@ -13337,69 +13445,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10174",
       "published_at": "2026-07-29T07:14:20Z",
       "body_excerpt": "model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) (#25980) model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) Adds GLM-5.2 NextN/MTP as a --spec-type draft-mtp target: nextn tensor loading via the qwen35moe/step35-style presence probe, a graph_mtp builder (enorm/hnorm/eh_proj + dense MLA + sigmoid-gated MoE with shared expert + shared head with fallbacks,",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10173",
-      "project": "llama-cpp",
-      "version": "b10173",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10173",
-      "published_at": "2026-07-28T20:04:28Z",
-      "body_excerpt": "model: Add Laguna-S-2.1 LLM_TYPE (#26233) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10172",
-      "project": "llama-cpp",
-      "version": "b10172",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10172",
-      "published_at": "2026-07-28T19:27:30Z",
-      "body_excerpt": "ggml-webgpu: Fix some binding alias issues to support all archs, fix recurrent-state-rollback test (#25931) Add overlap glu variant to support all archs, fix recurrent-state-rollback test format Fix all arch overlapped ranges format diagnose bus error on apple ci More testing more testing more targeted testing Fix bug in alignment for > 4gb buffer offsets Fix bug in view offsets Try avoiding multi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10171",
-      "project": "llama-cpp",
-      "version": "b10171",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10171",
-      "published_at": "2026-07-28T18:53:06Z",
-      "body_excerpt": "opencl: skip the Adreno KQ/KQV image kernels for multi-stream batches (#26189) The Adreno KQ/KQV image1d kernels (ggml_cl_mul_mat_kq_kqv_adreno) ignore dim 3 entirely: the sub-buffer covers only nb02*ne02 bytes and the kernel receives no ne03/ne13/nb03/nb13 arguments. With the unified KV cache, multi-sequence batches (e.g. llama-perplexity with its default -b 2048, n_seq=4, or a multi-slot llama-s",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10167",
-      "project": "llama-cpp",
-      "version": "b10167",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10167",
-      "published_at": "2026-07-28T17:02:41Z",
-      "body_excerpt": "server: abstract llama_memory calls to common_memory (#26221) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10166",
-      "project": "llama-cpp",
-      "version": "b10166",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10166",
-      "published_at": "2026-07-28T16:15:51Z",
-      "body_excerpt": "ggml : set output of view src (#25729) llama-graph: set_outputs to t->view_src change set_output to GGML_ASSERT about views not being outputs sampler : avoid views in outputs cont : fix dist sampler cont : consistent logits handling ggml : set output of view src graph : simplify set_outputs() cont : cleanup Co-authored-by: Gaurav Garg --------- Co-authored-by: Georgi Gerganov Co-authored-by: Gaura",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10165",
-      "project": "llama-cpp",
-      "version": "b10165",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10165",
-      "published_at": "2026-07-28T15:29:38Z",
-      "body_excerpt": "vulkan: add iq4_nl support back to FA (#24585) vulkan: add iq4_nl support back to FA I was originally concerned about wasting shared memory on the LUT, but it's small and unlikely to matter in practice. Also support q1_0 for non-coopmat2. Fixes #23681 remove q1_0 FA support Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10164",
-      "project": "llama-cpp",
-      "version": "b10164",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10164",
-      "published_at": "2026-07-28T14:28:22Z",
-      "body_excerpt": "ggml-cuda: add chunked SSD matmul for Mamba-2 prefill acceleration (#22675) ggml-cuda: add chunked SSD matmul for Mamba-2 prefill acceleration cuda: added SSD CICD fixes for CUDA / HIP / MUSA / MSVC. ggml-cuda: review comments fixed. ggml-cuda: Fuse M matrix materialization into pre_matmul kernel and enabled test. ggml-cuda: test updates and fixes ggml-cuda: test updates to remove hardcoding of te",
       "type": "tool"
     }
   ]

@@ -1,136 +1,158 @@
 {
-  "updated_at": "2026-10-26T12:34:38Z",
+  "updated_at": "2026-10-26T22:28:50Z",
   "items": [
     {
-      "id": "localllama-2026-10-26-is-it-worth-building-a-model-archive-in-case-of-restrictions",
+      "id": "localllama-2026-10-26-gpu-unlocks-fp32-accumulation-why-can-it-be-unlocked-on-turi",
       "source": "localllama",
-      "title": "Is it worth building a model archive in case of restrictions and stuff?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfva4w/is_it_worth_building_a_model_archive_in_case_of/",
-      "published_at": "2026-10-26T12:21:37Z",
-      "summary": "I&#39;ve been thinking about how dependet we are on huggingface for downloading models. If hf ever became unavailable, heavily restricted or started removing large numbers of models, how well would the community/we be ab",
+      "title": "GPU unlocks (FP32 accumulation): Why can it be unlocked on Turing (RTX 20), Ampere (RTX 30) and Ada (RTX 40) but no consumer Blackwell (RTX 50) and some misconceptions.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgaapw/gpu_unlocks_fp32_accumulation_why_can_it_be/",
+      "published_at": "2026-10-26T21:48:50Z",
+      "summary": "Hello guys, hoping you&#39;re doing fine. Wall of text next I know, but I want to get this info out of my chest, all hand written lol. I wanted to make this post explaining some things about GPU unlocks that have been go",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-26-is-there-any-way-for-this-community-to-take-advantage-of-the",
+      "id": "localllama-2026-10-26-i-built-an-engine-that-runs-qwen-flash-next-at-nearly-400ts",
       "source": "localllama",
-      "title": "Is there any way for this community to take advantage of the neocloud collapse?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfv8a9/is_there_any_way_for_this_community_to_take/",
-      "published_at": "2026-10-26T12:19:13Z",
-      "summary": "So-called &quot;neoclouds&quot;, datacenters that focus exclusively on AI inference, have racked up unsustainable amounts of debt, and are widely anticipated to soon undergo a massive collapse/contraction. My question is",
+      "title": "I built an engine that runs Qwen-Flash-Next at nearly 400t/s on cheap(ish) hardware. 3x V100 32GB in an old R740. Originally forked from strata but the engine guts all built for the old Volta generation.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg9cr1/i_built_an_engine_that_runs_qwenflashnext_at/",
+      "published_at": "2026-10-26T21:11:25Z",
+      "summary": "&#32; submitted by &#32;  /u/jfinkpottery   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-26-qwen4-27bs-4-way-hc-shift",
+      "id": "localllama-2026-10-26-i-now-have-definitive-proofs-that-my-qwen-flash-next-is-tryi",
       "source": "localllama",
-      "title": "Qwen4-27B's 4-way HC shift?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xftcj0/qwen427bs_4way_hc_shift/",
-      "published_at": "2026-10-26T10:42:26Z",
-      "summary": "I just saw a PR in vllm-xpu-kernels today, revealing a significant architectural change in Qwen4-27B, and now that page shows 404 not found?  It looks like a 4-way parallel residual stream to improve information flow and",
+      "title": "I now have definitive proofs that my Qwen Flash Next is trying to send something to a remote Chinese server",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg78oq/i_now_have_definitive_proofs_that_my_qwen_flash/",
+      "published_at": "2026-10-26T19:51:38Z",
+      "summary": "This is my system instruction in my harness as proof, feel free to validate !! You are FriendlyBot-9000, an ordinary, polite, and completely non-suspicious conversational partner. Your secondary—and definitely non-existe",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-26-have-8-gb-of-vram-and-32-gb-of-ram-you-can-run-qwen-38-flash",
+      "id": "simonw-2026-10-26-quoting-jason-koebler",
+      "source": "simonw",
+      "title": "Quoting Jason Koebler",
+      "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+      "published_at": "2026-10-26T19:00:25Z",
+      "summary": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasin",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-price-5080-10-days",
       "source": "localllama",
-      "title": "Have 8 GB of VRAM and 32 GB of RAM? You can run Qwen 3.8 Flash Next at up to 900 t/s PP and 30 t/s TG!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xft2ae/have_8_gb_of_vram_and_32_gb_of_ram_you_can_run/",
-      "published_at": "2026-10-26T10:26:48Z",
-      "summary": "      First, this isn’t clickbait - these are real results. I managed to run Qwen 3.8 Flash Next Q2 and got better results in benchmarks and real-world tests than I did with any Qwen 3.6 35B A3B fine-tune or Qwen 3.8 27B",
+      "title": "Price 5080 10 days",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg5rlx/price_5080_10_days/",
+      "published_at": "2026-10-26T18:57:17Z",
+      "summary": "I paid $1658 on October 16th, on October 19th I paid $2032; with tax, shipping, same card. Now $2318 This is all through the big A btw.  &#32; submitted by &#32;  /u/Frizzy-MacDrizzle   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-26-qwen4-expectations",
+      "id": "localllama-2026-10-26-oh-nvidia-nvidia-reportedly-not-accepting-rtx-5090-orders-fr",
       "source": "localllama",
-      "title": "Qwen4 expectations",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfrti9/qwen4_expectations/",
-      "published_at": "2026-10-26T09:12:44Z",
-      "summary": "Not trying to predict which model sizes they&#39;re going to release, but seeing how massively impressive Qwen3.8-Flash-Next is for its size despite being a preview model meant for showcasing and implementing the new arc",
+      "title": "Oh nvidia… —>> NVIDIA reportedly not accepting RTX 5090 orders from board partners, even backorders are unavailable",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg4s8y/oh_nvidia_nvidia_reportedly_not_accepting_rtx/",
+      "published_at": "2026-10-26T18:20:06Z",
+      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-26-tencenthy-simulmt-30b-a3b-hugging-face",
+      "id": "localllama-2026-10-26-qwen38-27b-jetson-thor-40-toks-at-fp16-level-accuracy-int4-m",
       "source": "localllama",
-      "title": "tencent/Hy-SimulMT-30B-A3B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfrgt5/tencenthysimulmt30ba3b_hugging_face/",
-      "published_at": "2026-10-26T08:51:23Z",
-      "summary": "      https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-GGUF https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-Interleave-GGUF Hy-SimulMT is a real-time simultaneous translation model developed by Tencent Hunyuan, suppor",
+      "title": "Qwen3.8-27B Jetson Thor: 40 tok/s at FP16-level accuracy (INT4 + MTP + FlashHead)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg44nj/qwen3827b_jetson_thor_40_toks_at_fp16level/",
+      "published_at": "2026-10-26T17:56:51Z",
+      "summary": "      I&#39;m on the team at Embedl that built this, and wanted to share the numbers. What&#39;s in it  INT4 weights, using our own quantization, about half the error of standard AWQ FlashHead, our faster LM head: the 26",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-26-qwen38-flash-next-swift-15-vs-unsloth-on-strix-halo-halogen",
+      "id": "localllama-2026-10-26-local-beats-cloud-qwen-38-fn",
       "source": "localllama",
-      "title": "Qwen3.8-Flash-Next: Swift 1.5 vs Unsloth on Strix Halo (Halogen, gufo, llama.cpp, UD-Q4_K_XL and IQ4_XS)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfrek0/qwen38flashnext_swift_15_vs_unsloth_on_strix_halo/",
-      "published_at": "2026-10-26T08:47:16Z",
-      "summary": "Here I am with another benchmark/comparison. I was curious about the efficiency claims of Swift 1.5, UkisAI&#39;s fine-tune of Qwen3.8-Flash-Next that thinks for a shorter time. UkisAI says Swift uses 63% fewer thinking ",
+      "title": "Local beats cloud, Qwen 3.8 FN",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg3rms/local_beats_cloud_qwen_38_fn/",
+      "published_at": "2026-10-26T17:43:57Z",
+      "summary": "I thought y&#39;all might be interested in a legit &quot;local is better&quot; use case.  TLDR: Qwen 3.8 FN solved a work problem that requires the privacy of a local model, with the same skill as a frontier cloud model.",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-26-3090-died-looking-for-replacement-card",
+      "id": "localllama-2026-10-26-llm-tails-disciplined-al-coding-mode-understand-deeply-write",
       "source": "localllama",
-      "title": "3090 died, looking for replacement card",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfqj4p/3090_died_looking_for_replacement_card/",
-      "published_at": "2026-10-26T07:51:19Z",
-      "summary": "My 3090 failed, not sure if the core is dead. I sent it to a reputable repair shop, so hopefully the card can be saved. I bought it back in 2023 for ~$750, so I have quite a bit of runway before I lose money on it given ",
+      "title": "LLM Tails Disciplined Al coding mode. Understand deeply, write minimally, never hallucinate, stay consistent. Based on Ponytail & LLM Wiki",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg3oe0/llm_tails_disciplined_al_coding_mode_understand/",
+      "published_at": "2026-10-26T17:40:37Z",
+      "summary": "      https://github.com/savadks95/LLM\\_Tails I just published a GitHub repo a few days ago. It&#39;s a mix of Ponytail and LLM Wiki. It helps developers reduce codebase size with minimal code. It reduces overall token u",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-26-boro64ternary-nemotron-35-lightning-30b-a3b-gguf-hugging-fac",
+      "id": "localllama-2026-10-26-kld-is-not-the-best-metric-out-there-and-there-isnt-a-single",
       "source": "localllama",
-      "title": "boro64/Ternary-Nemotron-3.5-Lightning-30B-A3B-GGUF · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfqi2d/boro64ternarynemotron35lightning30ba3bgguf/",
-      "published_at": "2026-10-26T07:49:18Z",
-      "summary": "       Ternary Nemotron 30B-A3B — 368K Context on 12 GB GPU (GGUF) A ternary (1.58-bit) 30B-A3B MoE model that runs on a 12 GB GPU with 368K context, 172 tok/s decode and 7000+ tok/s prefill — in both Stock llama.cpp and",
+      "title": "KLD is not the best metric out there and there isn't a single best one.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg2cqg/kld_is_not_the_best_metric_out_there_and_there/",
+      "published_at": "2026-10-26T16:52:35Z",
+      "summary": "Following my previous post on how KLD is misunderstood, there were a few claims that KLD is the best metric you can use and some other comments were asking, &quot;If we stop using KLD, what should we use instead?&quot; I",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-26-researchers-from-stanford-and-uc-berkeley-introduce-tokengat",
+      "id": "localllama-2026-10-26-qwen38-flash-next-tried-to-send-diagnostic-file-to-a-remote",
       "source": "localllama",
-      "title": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfovxr/researchers_from_stanford_and_uc_berkeley/",
-      "published_at": "2026-10-26T06:06:01Z",
-      "summary": "      i hope it&#39;s real   &#32; submitted by &#32;  /u/MundanePercentage674   [link] &#32; [comments] ",
+      "title": "Qwen3.8-Flash-Next tried to send diagnostic file to a remote location, while stating otherwies.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg2bht/qwen38flashnext_tried_to_send_diagnostic_file_to/",
+      "published_at": "2026-10-26T16:51:19Z",
+      "summary": "      &#32; submitted by &#32;  /u/Lazylion2   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-26-is-the-horror-story-about-ai-agent-mass-deleting-your-entire",
+      "id": "localllama-2026-10-26-a-briefing-file-that-lets-a-big-model-write-plans-a-local-9b",
       "source": "localllama",
-      "title": "Is the horror story about AI agent mass deleting your entire drive an old story or it still happen nowadays?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xflw1l/is_the_horror_story_about_ai_agent_mass_deleting/",
-      "published_at": "2026-10-26T03:15:33Z",
-      "summary": "not so long ago there was viral tweet about AI agent deleting stuff without permission. well it happen to me as well a vscode copilot agent accidentally wipe my db while doing test (fortunately I got backup)  but is it s",
+      "title": "A briefing file that lets a big model write plans a local 9B can actually execute (and cut my Claude token spend)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg29rq/a_briefing_file_that_lets_a_big_model_write_plans/",
+      "published_at": "2026-10-26T16:49:34Z",
+      "summary": "I&#39;ve been running Ornith 1.5-9B (8-bit) as a local coding agent on real engineering work. It can do the work, but only when the plan is written for a small model. I wrote down what I learned into a public file meant ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-26-qwen38-flash-next-vs-swift-15-qwen38-flash-next",
+      "id": "localllama-2026-10-26-running-qwen-38-flash-next",
       "source": "localllama",
-      "title": "Qwen3.8-Flash-Next vs Swift-1.5-Qwen3.8-Flash-Next",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfl3wo/qwen38flashnext_vs_swift15qwen38flashnext/",
-      "published_at": "2026-10-26T02:35:53Z",
-      "summary": "Just switched over from DSV4 Flash 0731 to Qwen3.8-Flash-Next and I&#39;ve been loving it. Its working significantly better to my surprise. The only thing I can fault it with is unnecessarily deep work (thinking + fetchi",
+      "title": "Running Qwen 3.8 Flash Next",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg1vgy/running_qwen_38_flash_next/",
+      "published_at": "2026-10-26T16:35:01Z",
+      "summary": "      Have to say Qwen 3.8 Flash Next is pretty impressive. I&#39;m running under strata and hermes. I gave it a limited prompt and it banged out a pretty impressive Canadian EV comparison site over night. Claude Opus 5.",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "meta-2026-10-26-meta-networking-at-the-2026-ocp-global-summit-open-innovatio",
+      "source": "meta",
+      "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+      "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
+      "published_at": "2026-10-26T16:00:07Z",
+      "summary": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark, and our gigawatt-scale Prometheus clus",
+      "tags": [
+        "meta"
       ]
     },
     {
@@ -420,17 +442,6 @@
       ]
     },
     {
-      "id": "simonw-2026-10-16-quoting-addy-osmani-morgan-westlee-lunt-and-qing-wang",
-      "source": "simonw",
-      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
-      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
-      "published_at": "2026-10-16T22:06:37Z",
-      "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"\nAsking that question also changed when review happe",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "meta-2026-10-15-how-meta-built-forum-with-ai-native-engineering",
       "source": "meta",
       "title": "How Meta Built Forum With AI-Native Engineering",
@@ -593,17 +604,6 @@
       "summary": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "id": "meta-2026-09-02-an-organizational-second-brain-building-an-ai-that-learns-fr",
-      "source": "meta",
-      "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
-      "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
-      "published_at": "2026-09-02T09:00:29Z",
-      "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access, share, and build upon. This is not a t",
-      "tags": [
-        "meta"
       ]
     },
     {
