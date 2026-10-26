@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-10-26T04:05:53Z",
+  "updated_at": "2026-10-26T12:34:38Z",
   "items": [
+    {
+      "id": "localllama-2026-10-26-is-it-worth-building-a-model-archive-in-case-of-restrictions",
+      "source": "localllama",
+      "title": "Is it worth building a model archive in case of restrictions and stuff?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfva4w/is_it_worth_building_a_model_archive_in_case_of/",
+      "published_at": "2026-10-26T12:21:37Z",
+      "summary": "I&#39;ve been thinking about how dependet we are on huggingface for downloading models. If hf ever became unavailable, heavily restricted or started removing large numbers of models, how well would the community/we be ab",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-is-there-any-way-for-this-community-to-take-advantage-of-the",
+      "source": "localllama",
+      "title": "Is there any way for this community to take advantage of the neocloud collapse?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfv8a9/is_there_any_way_for_this_community_to_take/",
+      "published_at": "2026-10-26T12:19:13Z",
+      "summary": "So-called &quot;neoclouds&quot;, datacenters that focus exclusively on AI inference, have racked up unsustainable amounts of debt, and are widely anticipated to soon undergo a massive collapse/contraction. My question is",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-qwen4-27bs-4-way-hc-shift",
+      "source": "localllama",
+      "title": "Qwen4-27B's 4-way HC shift?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xftcj0/qwen427bs_4way_hc_shift/",
+      "published_at": "2026-10-26T10:42:26Z",
+      "summary": "I just saw a PR in vllm-xpu-kernels today, revealing a significant architectural change in Qwen4-27B, and now that page shows 404 not found?  It looks like a 4-way parallel residual stream to improve information flow and",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-have-8-gb-of-vram-and-32-gb-of-ram-you-can-run-qwen-38-flash",
+      "source": "localllama",
+      "title": "Have 8 GB of VRAM and 32 GB of RAM? You can run Qwen 3.8 Flash Next at up to 900 t/s PP and 30 t/s TG!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xft2ae/have_8_gb_of_vram_and_32_gb_of_ram_you_can_run/",
+      "published_at": "2026-10-26T10:26:48Z",
+      "summary": "      First, this isn’t clickbait - these are real results. I managed to run Qwen 3.8 Flash Next Q2 and got better results in benchmarks and real-world tests than I did with any Qwen 3.6 35B A3B fine-tune or Qwen 3.8 27B",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-qwen4-expectations",
+      "source": "localllama",
+      "title": "Qwen4 expectations",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfrti9/qwen4_expectations/",
+      "published_at": "2026-10-26T09:12:44Z",
+      "summary": "Not trying to predict which model sizes they&#39;re going to release, but seeing how massively impressive Qwen3.8-Flash-Next is for its size despite being a preview model meant for showcasing and implementing the new arc",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-tencenthy-simulmt-30b-a3b-hugging-face",
+      "source": "localllama",
+      "title": "tencent/Hy-SimulMT-30B-A3B · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfrgt5/tencenthysimulmt30ba3b_hugging_face/",
+      "published_at": "2026-10-26T08:51:23Z",
+      "summary": "      https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-GGUF https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-Interleave-GGUF Hy-SimulMT is a real-time simultaneous translation model developed by Tencent Hunyuan, suppor",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-qwen38-flash-next-swift-15-vs-unsloth-on-strix-halo-halogen",
+      "source": "localllama",
+      "title": "Qwen3.8-Flash-Next: Swift 1.5 vs Unsloth on Strix Halo (Halogen, gufo, llama.cpp, UD-Q4_K_XL and IQ4_XS)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfrek0/qwen38flashnext_swift_15_vs_unsloth_on_strix_halo/",
+      "published_at": "2026-10-26T08:47:16Z",
+      "summary": "Here I am with another benchmark/comparison. I was curious about the efficiency claims of Swift 1.5, UkisAI&#39;s fine-tune of Qwen3.8-Flash-Next that thinks for a shorter time. UkisAI says Swift uses 63% fewer thinking ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-3090-died-looking-for-replacement-card",
+      "source": "localllama",
+      "title": "3090 died, looking for replacement card",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfqj4p/3090_died_looking_for_replacement_card/",
+      "published_at": "2026-10-26T07:51:19Z",
+      "summary": "My 3090 failed, not sure if the core is dead. I sent it to a reputable repair shop, so hopefully the card can be saved. I bought it back in 2023 for ~$750, so I have quite a bit of runway before I lose money on it given ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-boro64ternary-nemotron-35-lightning-30b-a3b-gguf-hugging-fac",
+      "source": "localllama",
+      "title": "boro64/Ternary-Nemotron-3.5-Lightning-30B-A3B-GGUF · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfqi2d/boro64ternarynemotron35lightning30ba3bgguf/",
+      "published_at": "2026-10-26T07:49:18Z",
+      "summary": "       Ternary Nemotron 30B-A3B — 368K Context on 12 GB GPU (GGUF) A ternary (1.58-bit) 30B-A3B MoE model that runs on a 12 GB GPU with 368K context, 172 tok/s decode and 7000+ tok/s prefill — in both Stock llama.cpp and",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-researchers-from-stanford-and-uc-berkeley-introduce-tokengat",
+      "source": "localllama",
+      "title": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfovxr/researchers_from_stanford_and_uc_berkeley/",
+      "published_at": "2026-10-26T06:06:01Z",
+      "summary": "      i hope it&#39;s real   &#32; submitted by &#32;  /u/MundanePercentage674   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-26-is-the-horror-story-about-ai-agent-mass-deleting-your-entire",
       "source": "localllama",
@@ -19,116 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfl3wo/qwen38flashnext_vs_swift15qwen38flashnext/",
       "published_at": "2026-10-26T02:35:53Z",
       "summary": "Just switched over from DSV4 Flash 0731 to Qwen3.8-Flash-Next and I&#39;ve been loving it. Its working significantly better to my surprise. The only thing I can fault it with is unnecessarily deep work (thinking + fetchi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-lets-talk-about-cyber-capabilities-and-open-weights-as-we-mo",
-      "source": "localllama",
-      "title": "Let’s talk about cyber capabilities and open weights as we move towards the future",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfju8e/lets_talk_about_cyber_capabilities_and_open/",
-      "published_at": "2026-10-26T01:33:38Z",
-      "summary": "We’ve taken for granted that open weights keep getting better and better. I think we’re starting to see that change is coming as the PRC and US restrict cyber-capable models. The only people that will have access to thos",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-psa-llamacpp-cve-2026-116096",
-      "source": "localllama",
-      "title": "PSA: llama.cpp CVE-2026-116096",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfizft/psa_llamacpp_cve2026116096/",
-      "published_at": "2026-10-26T00:53:40Z",
-      "summary": "https://nvd.nist.gov/vuln/detail/cve-2026-116096 25-10-2026 Description A weakness has been identified in ggml-org llama.cpp. Affected by this issue is the function list_pockettts_state_slots of the file tools/mtmd/model",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-gemma-4-creative-writing",
-      "source": "localllama",
-      "title": "Gemma 4, creative writing",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfioub/gemma_4_creative_writing/",
-      "published_at": "2026-10-26T00:39:36Z",
-      "summary": "Ignoring the multitude of problems I encounter when using Gemma 4 for creative writing such as purple prose, slop, no plot, and more, how do I get it to use my examples? Here&#39;s a list of most of the Gemma 4 26B model",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-can-ista-daslabqwen38-27b-gsq-rco-gguf-compete-with-ud-q4-k",
-      "source": "localllama",
-      "title": "Can ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF compete with UD-Q4_K_XL?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfhhri/can_istadaslabqwen3827bgsqrcogguf_compete_with/",
-      "published_at": "2026-10-25T23:46:16Z",
-      "summary": "The model card promises a lot: BF16 performance in an IQ3_S quant. Does it deliver? I&#39;m assuming the IQ3_S quant would be faster than comparable Unsloth UD Q4. Empty promises or the real deal?  &#32; submitted by &#3",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-smh-seriously----nvidia-eyes-software-revenue-with-a-2000-pe",
-      "source": "localllama",
-      "title": "SMH, seriously? -->> NVIDIA Eyes Software Revenue With a $2,000 per GPU Yearly Figure From Huang",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfhhm4/smh_seriously_nvidia_eyes_software_revenue_with_a/",
-      "published_at": "2026-10-25T23:46:05Z",
-      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-how-are-you-sandboxing-pi",
-      "source": "localllama",
-      "title": "How are you sandboxing pi?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfh38k/how_are_you_sandboxing_pi/",
-      "published_at": "2026-10-25T23:27:48Z",
-      "summary": "Are you doing it or not? If yes, what approach are you taking? There are many .. docker sbx, regular container, devcontainer, pi&#39;s gondolin/sandbox extension etc.  &#32; submitted by &#32;  /u/rm-rf-rm   [link] &#32;",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-i-need-to-fine-tune-qwen35-9b-with-qlora-on-about-500-gb-of",
-      "source": "localllama",
-      "title": "I need to fine tune Qwen3.5-9B with QLora on about 500 GB of raw data (images/scanned documents/pdfs/word/excel) - what is the best way forward?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xffuvl/i_need_to_fine_tune_qwen359b_with_qlora_on_about/",
-      "published_at": "2026-10-25T22:32:43Z",
-      "summary": "Hi All: I done overthought and burned money after consulting with AI chats (from chatgpt to grok to deepseek and kimi/etc). I had to learn.  I have in my possession: - 1 Asus ESC4000 G3 with 128 GB DDR4 RDIMM and in it 8",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-crowdgpt---a-collaboratively-trained-llm",
-      "source": "localllama",
-      "title": "CrowdGPT - A collaboratively trained LLM.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xff9e4/crowdgpt_a_collaboratively_trained_llm/",
-      "published_at": "2026-10-25T22:07:17Z",
-      "summary": "      Hello, I&#39;m developing CrowdGPT, a project aiming to create an LLM without datacenters and without the usual millions of dollars spent by AI companies. The project aims to train a 1 billion parameter model colla",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-nanbeige43-33b-quantised-gguf",
-      "source": "localllama",
-      "title": "Nanbeige4.3-33B Quantised GGUF",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfeho8/nanbeige4333b_quantised_gguf/",
-      "published_at": "2026-10-25T21:33:29Z",
-      "summary": "      Quant ladder of Nanbeige&#39;s new 33B model from 35.2GB down to 13.7GB For 32GB hardware the sweet spot is 20.3GB AD-IQ4_XS with a top-1% of 92.0% compared to BF16  &#32; submitted by &#32;  /u/gladkos   [link] &#",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-25-140tb-of-storage-and-640gb-a100-gpu-server-what-models-to-do",
-      "source": "localllama",
-      "title": "140TB of storage and 640gb A100 gpu server, what models to download",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfckvl/140tb_of_storage_and_640gb_a100_gpu_server_what/",
-      "published_at": "2026-10-25T20:15:27Z",
-      "summary": "Since hugging face got token over I want to download the most important models. These include GLM5.3 (Flash)(abliterated) DS4 Flash and more. But since I still have storage left, the question is, what models and quants I",
       "tags": [
         "localllama"
       ]

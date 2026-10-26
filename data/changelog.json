@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-10-26T04:05:59Z",
+  "updated_at": "2026-10-26T12:34:44Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11899",
+      "project": "llama-cpp",
+      "version": "b11899",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11899",
+      "published_at": "2026-10-26T12:25:42Z",
+      "body_excerpt": "mtmd: add mtmd_helper_get_capabilities (#31183) mtmd: add mtmd_helper_get_capabilities cap audio_stream add back old api for compat audio_gen_spk_ref, text_gen Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11898",
+      "project": "llama-cpp",
+      "version": "b11898",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11898",
+      "published_at": "2026-10-26T11:37:40Z",
+      "body_excerpt": "ggml-cpu : fix unused variables in arm arch (#31180) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11897",
+      "project": "llama-cpp",
+      "version": "b11897",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11897",
+      "published_at": "2026-10-26T10:57:07Z",
+      "body_excerpt": "tests : refactor test-llama-archs to not link internal libllama symbols (#30880) test-llama-archs included src/llama-arch.h and src/llama-model-saver.h, which prevented building on Windows with shared libraries since the used symbols are not exported from the DLL. declare llama_arch_* wrappers around the internal llm_ arch query functions in the llama-ext.h staging header, together with llama_arch",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11896",
+      "project": "llama-cpp",
+      "version": "b11896",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11896",
+      "published_at": "2026-10-26T10:17:02Z",
+      "body_excerpt": "ci : fix race in webgpu memset (#31162) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11895",
+      "project": "llama-cpp",
+      "version": "b11895",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11895",
+      "published_at": "2026-10-26T09:54:06Z",
+      "body_excerpt": "metal : stop overflow from happening in large matrix output offsets (#30072) Metal : stop overflow from happening in large matrix output offsets Assisted-by: Codex metal : widen batch offsets and MUL_MAT_ID token indices Assisted-by: Codex --------- Co-authored-by: feni6 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11890",
+      "project": "llama-cpp",
+      "version": "b11890",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11890",
+      "published_at": "2026-10-26T08:54:15Z",
+      "body_excerpt": "deepseekv4.1: follow-up review fixes (#31137) kv-cache : use ggml_backend_tensor_copy to refill the DSV4 K mirrors llama : move the Engram pad id to llama_hparams and the token map to llama_model The saver no longer needs the deepseek41 model class. deepseek41 : drop the F32 src1 request on the HC mixes matmul ggml : add softplus TODOs in the backends that still use log(1 + exp(x)) convert : make ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11889",
       "project": "llama-cpp",
@@ -108,6 +162,15 @@
       "published_at": "2026-10-25T14:57:09Z",
       "body_excerpt": "vulkan: Add a larger tile size for conv3d (coopmat2 only) (#29920) vulkan: Add a larger tile size for conv3d (coopmat2 only) This adds a larger tile size, in practice it is only for coopmat2 where we don't need shared memory to store the output (would use more than 64KB). Add some additional representative backend tests. At least, this is what codex came up with from looking at sd.cpp Wan VAE. onl",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-CogACT-v2-RoboDojo",
+      "project": "microsoft",
+      "version": "CogACT-v2-RoboDojo",
+      "url": "https://huggingface.co/microsoft/CogACT-v2-RoboDojo",
+      "published_at": "2026-10-25T14:35:41Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11876",
@@ -13337,24 +13400,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10164",
       "published_at": "2026-07-28T14:28:22Z",
       "body_excerpt": "ggml-cuda: add chunked SSD matmul for Mamba-2 prefill acceleration (#22675) ggml-cuda: add chunked SSD matmul for Mamba-2 prefill acceleration cuda: added SSD CICD fixes for CUDA / HIP / MUSA / MSVC. ggml-cuda: review comments fixed. ggml-cuda: Fuse M matrix materialization into pre_matmul kernel and enabled test. ggml-cuda: test updates and fixes ggml-cuda: test updates to remove hardcoding of te",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10159",
-      "project": "llama-cpp",
-      "version": "b10159",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10159",
-      "published_at": "2026-07-28T11:43:46Z",
-      "body_excerpt": "ggml-metal: FWHT kernel for metal backend (#25924) metal fwht wip shape guard and formatting formatting Formatting and typos Co-authored-by: YiChen Lv fix narrowing issue Co-authored-by: YiChen Lv cont : minor style --------- Co-authored-by: YiChen Lv Co-authored-by: Georgi Gerganov Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10158",
-      "project": "llama-cpp",
-      "version": "b10158",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10158",
-      "published_at": "2026-07-28T08:54:30Z",
-      "body_excerpt": "spec: add eagle3-v3 support for gpt-oss model (#25794) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Andro",
       "type": "tool"
     }
   ]
