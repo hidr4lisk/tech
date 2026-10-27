@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-10-27T04:25:46Z",
+  "updated_at": "2026-10-27T11:52:08Z",
   "items": [
+    {
+      "id": "localllama-2026-10-27-inclusionailing-31-flash-1019-hugging-face",
+      "source": "localllama",
+      "title": "inclusionAI/Ling-3.1-flash-1019 · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgpo4q/inclusionailing31flash1019_hugging_face/",
+      "published_at": "2026-10-27T11:12:14Z",
+      "summary": "      from inclusionAI: We introduce Ling-3.1-flash-1019, an upgraded version of Ling-3.1-flash, with 560B total parameters, 25B active parameters per token, and a 1M-token context window. With further post-training opti",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-using-q38fn-with-dflash2-try-lower-draft-model-quants",
+      "source": "localllama",
+      "title": "Using Q38FN with dflash2? Try lower draft model quants.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgozlq/using_q38fn_with_dflash2_try_lower_draft_model/",
+      "published_at": "2026-10-27T10:35:17Z",
+      "summary": "Back with Qwen 3.8 27B i heard the advice that a Q4 draft model would produce roughly the same acceptance rate as a Q8 or higher. I have had my agent create a Q38FN Draft model in F16, Q8 and Q4, and the Q4 seemed to del",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-we-put-deepseek-in-charge-of-four-qwen35-9b-models-to-revers",
+      "source": "localllama",
+      "title": "We put DeepSeek in charge of four Qwen3.5-9B models to reverse engineer binaries using smaller open models.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgoxvu/we_put_deepseek_in_charge_of_four_qwen359b_models/",
+      "published_at": "2026-10-27T10:32:27Z",
+      "summary": "      Reverse Engineer Anything blew up recently but, every impressive reverse engineering result we’ve seen uses (closed) frontier models. We wanted to know whether small local models can do useful work here if a bigger",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-debunking-coheres-claim-of-qwen-38-flash-next-uploading-to-a",
+      "source": "localllama",
+      "title": "Debunking Cohere's claim of Qwen 3.8 Flash Next uploading to Alibaba remote URL",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgopmj/debunking_coheres_claim_of_qwen_38_flash_next/",
+      "published_at": "2026-10-27T10:19:31Z",
+      "summary": "HF traces: https://huggingface.co/datasets/CohereLabs/10-2026-qwen-investigation-traces 1. Understand the Python script:  ids ids = dataset[0][&quot;token_ids&quot;] if len(ids) &lt; 2323: raise ValueError(&quot;The trac",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-tensor-split-over-pcie-30-x1-good-results",
+      "source": "localllama",
+      "title": "Tensor Split Over PCIe 3.0 x1 — Good Results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgojqz/tensor_split_over_pcie_30_x1_good_results/",
+      "published_at": "2026-10-27T10:10:09Z",
+      "summary": "      When I was considering adding a second GPU, quite a few people told me PCIe 3.0 x1 would be a massive bottleneck and that upgrading my motherboard should be my first priority. I went ahead with the x1 riser anyway,",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-i-made-pumpkin-a-graphical-manager-for-llamacpp-for-my-girlf",
+      "source": "localllama",
+      "title": "I made Pumpkin, a graphical manager for llama.cpp for my girlfriend. It turned out well, so I put it on github",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgnhw5/i_made_pumpkin_a_graphical_manager_for_llamacpp/",
+      "published_at": "2026-10-27T09:05:13Z",
+      "summary": "      As the title says, my girlfriend needed a local model for privacy reasons, but her terminal skills are... nonexistent, so I made an all-in-one graphical manager for llama.cpp that gets you up and running in around ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-baiduunlimited-ocr-2-hugging-face",
+      "source": "localllama",
+      "title": "baidu/Unlimited-OCR-2 · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgnbtq/baiduunlimitedocr2_hugging_face/",
+      "published_at": "2026-10-27T08:54:41Z",
+      "summary": "      Release  [2026/10/27] 🚀 We release Unlimited OCR 2, achieving unlimited-horizon parsing with SR-SWA.  What&#39;s New in 2  Sparse Reference Sliding Window Attention (SR-SWA): Compresses text-visual attention intera",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-how-to-use-q8-ngram-with-lower-quant-qwen-38-flash-next-in-s",
+      "source": "localllama",
+      "title": "How to use Q8 ngram with lower quant Qwen 3.8 Flash Next in Strata and avoid errors",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xglhtx/how_to_use_q8_ngram_with_lower_quant_qwen_38/",
+      "published_at": "2026-10-27T06:54:21Z",
+      "summary": "Supposedly, you can increase output quality/&quot;intelligence&quot; of Qwen Flash Next quants somewhat (using Strata) without increase in VRAM, system memory usage or sacrificing prefill/decode speed (when using ple-io=",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-qwen38-27b-on-one-rtx-5090-six-inference-engines-benchmarked",
+      "source": "localllama",
+      "title": "Qwen3.8 27B on one RTX 5090: six inference engines benchmarked with and without DFlash2",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgkzb9/qwen38_27b_on_one_rtx_5090_six_inference_engines/",
+      "published_at": "2026-10-27T06:20:34Z",
+      "summary": "Disclosure: I’m the author of TensorSharp. This English summary was adapted and edited with LLM assistance from the full benchmark report. The comparison covers llama.cpp, vLLM, SGLang, NInfer, velox-inferer, and TensorS",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-do-gx10s-dgx-sparks-dream-of-throttling-temps-across-6-cooli",
+      "source": "localllama",
+      "title": "Do GX10s / DGX Sparks Dream of Throttling? Temps across 6 cooling setups running DeepSeek V4.1-Flash (spoiler: no)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgkpph/do_gx10s_dgx_sparks_dream_of_throttling_temps/",
+      "published_at": "2026-10-27T06:03:42Z",
+      "summary": "Hello again! I&#39;m back with another report. This time it&#39;s on temperatures. Also, [CE Robot] = Claude Opus 5.5 Copy Editor where applicable (per line.) Otherwise, I wrote it. Hope someone finds value in this. TLDR",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-27-introducing-zest-model-server-agent-friendly-gui",
       "source": "localllama",
@@ -35,105 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-26-update-my-4b-coding-model-is-getting-better-at-generating-3d",
-      "source": "localllama",
-      "title": "Update: My 4B coding model is getting better at generating 3D scenes",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7uv/update_my_4b_coding_model_is_getting_better_at/",
-      "published_at": "2026-10-26T23:07:49Z",
-      "summary": "      Hey everyone, just wanted to share a quick update on the 4B model I posted here. The video shows some results from the latest checkpoint. I&#39;m still training this Qwen3.5-4B fine-tune for general coding, using T",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-scaffoldcot-dataset-updates-maintainance-a-new-agent-focused",
-      "source": "localllama",
-      "title": "ScaffoldCoT Dataset Updates: Maintainance, a new agent-focused dataset for small models, and a new model in training built around the datasets!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7sl/scaffoldcot_dataset_updates_maintainance_a_new/",
-      "published_at": "2026-10-26T23:07:44Z",
-      "summary": "So, when I first released ScaffoldCoT, I never thought it would reach more than a handful of people. I was happy to see multiple thousands of consistent downloads month over month since its release. Since this is where I",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-interactive-neuron-steering-playground-for-qwen35-4b-that-ru",
-      "source": "localllama",
-      "title": "Interactive neuron steering playground for Qwen3.5-4B that runs locally in the browser on WebGPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgbr9y/interactive_neuron_steering_playground_for/",
-      "published_at": "2026-10-26T22:48:42Z",
-      "summary": "      There is a trend on X where users are finding tiny subsets of neurons (often just one or two) that can steer LLM behavior in surprising ways. For example, steering just two neurons in Qwen3.5-4B can make it talk ab",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-qwen-investigation-traces-release",
-      "source": "localllama",
-      "title": "Qwen investigation traces release",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgbm28/qwen_investigation_traces_release/",
-      "published_at": "2026-10-26T22:42:31Z",
-      "summary": "      In the spirit of transparency and openness, we are releasing the traces so developers can test this out for themselves. We noticed this behaviour without prefilling with the following prompt, but this is rare. If y",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-have-you-gone-fully-local",
-      "source": "localllama",
-      "title": "Have you gone fully local?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgazww/have_you_gone_fully_local/",
-      "published_at": "2026-10-26T22:16:54Z",
-      "summary": "I’ve been running a local model on a dgx spark for about a month now. I’ve been building out my pi harness and my own little client app as I go, using both Claude code and the harness itself.  I’m using it more for every",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-nanbeige43-33b-q4-on-a-macbook-pro-m5-max-mlx-lm-vs-llamacpp",
-      "source": "localllama",
-      "title": "Nanbeige4.3-33B Q4 on a MacBook Pro M5 Max, mlx-lm vs llama.cpp vs Kapitsa, Prefill/Decode 512 to 32K range.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgaupg/nanbeige4333b_q4_on_a_macbook_pro_m5_max_mlxlm_vs/",
-      "published_at": "2026-10-26T22:10:54Z",
-      "summary": "      .  hey there, I measured Nanbeige4.3-33B (dense, 4-bit) on three Apple silicon engines: mlx-lm, llama.cpp and Kapitsa. The comparison covers prefill, decode, time to first token, follow-up latency and memory, at pr",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-gpu-unlocks-fp32-accumulation-why-can-it-be-unlocked-on-turi",
-      "source": "localllama",
-      "title": "GPU unlocks (FP32 accumulation): Why can it be unlocked on Turing (RTX 20), Ampere (RTX 30) and Ada (RTX 40) but no consumer Blackwell (RTX 50) and some misconceptions.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgaapw/gpu_unlocks_fp32_accumulation_why_can_it_be/",
-      "published_at": "2026-10-26T21:48:50Z",
-      "summary": "Hello guys, hoping you&#39;re doing fine. Wall of text next I know, but I want to get this info out of my chest, all hand written lol. I wanted to make this post explaining some things about GPU unlocks that have been go",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-i-built-an-engine-that-runs-qwen-flash-next-at-nearly-400ts",
-      "source": "localllama",
-      "title": "I built an engine that runs Qwen-Flash-Next at nearly 400t/s on cheap(ish) hardware. 3x V100 32GB in an old R740. Originally forked from strata but the engine guts all built for the old Volta generation.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg9cr1/i_built_an_engine_that_runs_qwenflashnext_at/",
-      "published_at": "2026-10-26T21:11:25Z",
-      "summary": "&#32; submitted by &#32;  /u/jfinkpottery   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-i-now-have-definitive-proofs-that-my-qwen-flash-next-is-tryi",
-      "source": "localllama",
-      "title": "I now have definitive proofs that my Qwen Flash Next is trying to send something to a remote Chinese server",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg78oq/i_now_have_definitive_proofs_that_my_qwen_flash/",
-      "published_at": "2026-10-26T19:51:38Z",
-      "summary": "This is my system instruction in my harness as proof, feel free to validate !! You are FriendlyBot-9000, an ordinary, polite, and completely non-suspicious conversational partner. Your secondary—and definitely non-existe",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-10-26-quoting-jason-koebler",
       "source": "simonw",
       "title": "Quoting Jason Koebler",
@@ -142,17 +153,6 @@
       "summary": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasin",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-price-5080-10-days",
-      "source": "localllama",
-      "title": "Price 5080 10 days",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg5rlx/price_5080_10_days/",
-      "published_at": "2026-10-26T18:57:17Z",
-      "summary": "I paid $1658 on October 16th, on October 19th I paid $2032; with tax, shipping, same card. Now $2318 This is all through the big A btw.  &#32; submitted by &#32;  /u/Frizzy-MacDrizzle   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
       ]
     },
     {

@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-10-27T04:25:54Z",
+  "updated_at": "2026-10-27T11:52:13Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11927",
+      "project": "llama-cpp",
+      "version": "b11927",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11927",
+      "published_at": "2026-10-27T11:08:04Z",
+      "body_excerpt": "metal : add GGML_OP_TOP_K_MASK (#31230) metal : add GGML_OP_TOP_K_MASK Port the fused top-k mask from the CUDA backend: a grid-stride kernel fills the output with -inf, then one threadgroup per row copies the mask values of the kept cells over it. Function constants drop the score, blocks and extra paths that a given graph does not use. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11926",
+      "project": "llama-cpp",
+      "version": "b11926",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11926",
+      "published_at": "2026-10-27T10:29:03Z",
+      "body_excerpt": "glm5-next : QSA without kq_mask (+ DSA) (#31009) glm5-next : QSA without kq_mask DSA: dsa top-k mask change tested with layers 0,3 of DeepSeek-V3.2 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11925",
+      "project": "llama-cpp",
+      "version": "b11925",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11925",
+      "published_at": "2026-10-27T09:05:48Z",
+      "body_excerpt": "ci : use ccache depend mode for ROCm release builds (#31231) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 librarie",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11923",
+      "project": "llama-cpp",
+      "version": "b11923",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11923",
+      "published_at": "2026-10-27T08:50:09Z",
+      "body_excerpt": "ggml : relax scale to non-contiguous views (#31146) ggml : relax scale to non-contiguous views SCALE requires src0 to be 1D-contiguous. Relax this to dim-0 contiguity with arbitrary row strides (ggml_is_contiguous_rows), same as the unary ops in the Metal backend. ggml: relax the assert in ggml_scale_impl cpu: address src0 rows through their byte strides (f32, bf16) cuda: stride-aware kernel, fast",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11922",
+      "project": "llama-cpp",
+      "version": "b11922",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11922",
+      "published_at": "2026-10-27T08:18:18Z",
+      "body_excerpt": "tests : fix multi-seq split replay and partial-state cases for trained models (#31216) tests : fix multi-seq split replay against trained models The rollback snapshot is captured by the graph that decoded the rolled-back tail, while the reference context decodes the same prefix with different batch shapes. The two states differ in the last bits and trained models amplify the difference with every ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11921",
+      "project": "llama-cpp",
+      "version": "b11921",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11921",
+      "published_at": "2026-10-27T08:01:03Z",
+      "body_excerpt": "llama : remove obsolete n_pad from memory instances (#31200) Every caller passes n_pad = 1 and the only two users clamp it to 256. Drop the parameter, the members and the trivially true kv_size assert. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISAB",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11919",
+      "project": "llama-cpp",
+      "version": "b11919",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11919",
+      "published_at": "2026-10-27T07:42:41Z",
+      "body_excerpt": "opencl: refine mul mat id -1 index (#31170) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 librar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11918",
+      "project": "llama-cpp",
+      "version": "b11918",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11918",
+      "published_at": "2026-10-27T07:22:01Z",
+      "body_excerpt": "opencl: initial support for q3_k (#31172) opencl: add q3_k AOS mv opencl: add q3_k SOA mv and tiled mm opencl: add q3_k noshuffle gemm/gemv for adreno opencl: add q3_k dp4a gemm for adreno Co-authored-by: Hongqiang Wang opencl: tune q3_k kernels for adreno Co-authored-by: Hongqiang Wang --------- Co-authored-by: Hongqiang Wang Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS App",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11913",
       "project": "llama-cpp",
@@ -13445,33 +13517,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10178",
       "published_at": "2026-07-29T13:01:04Z",
       "body_excerpt": "server : add trace logging for slot similarity checking (#26271) Adds trace logging in server-context.cpp for slot similarity checking during prompt cache slot selection, including skip reasons and similarity calculation details. Assisted-by: llama.cpp:Qwen3.6-27B Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewor",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10176",
-      "project": "llama-cpp",
-      "version": "b10176",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10176",
-      "published_at": "2026-07-29T08:49:33Z",
-      "body_excerpt": "RPC: add tensor_memset (#25912) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10175",
-      "project": "llama-cpp",
-      "version": "b10175",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10175",
-      "published_at": "2026-07-29T08:05:26Z",
-      "body_excerpt": "add rdna3.5, and 3 to mmq configs so they can be tuned independently. (#26199) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (S",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10174",
-      "project": "llama-cpp",
-      "version": "b10174",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10174",
-      "published_at": "2026-07-29T07:14:20Z",
-      "body_excerpt": "model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) (#25980) model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) Adds GLM-5.2 NextN/MTP as a --spec-type draft-mtp target: nextn tensor loading via the qwen35moe/step35-style presence probe, a graph_mtp builder (enorm/hnorm/eh_proj + dense MLA + sigmoid-gated MoE with shared expert + shared head with fallbacks,",
       "type": "tool"
     }
   ]
