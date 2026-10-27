@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-10-27T11:52:13Z",
+  "updated_at": "2026-10-27T17:45:50Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11935",
+      "project": "llama-cpp",
+      "version": "b11935",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11935",
+      "published_at": "2026-10-27T17:15:04Z",
+      "body_excerpt": "rpc : catch std::length_error in recv_msg (#31204) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11934",
+      "project": "llama-cpp",
+      "version": "b11934",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11934",
+      "published_at": "2026-10-27T15:50:13Z",
+      "body_excerpt": "tests : speed up tensor data generation and model saving (#31145) tests : speed up tensor data generation and model saving Refactor save_models to create only the model, not a llama_context, which is not needed for saving. Replace the slow std::normal_distribution draw with a splitmix64 + box-muller normal generator. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11933",
+      "project": "llama-cpp",
+      "version": "b11933",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11933",
+      "published_at": "2026-10-27T15:27:51Z",
+      "body_excerpt": "vulkan: fix CI llvmpipe by allowing dim 3 broadcast in MUL_MAT (#31239) vulkan: allow dim 3 broadcast in MUL_MAT supports_op rejected every MUL_MAT whose src0 and src1 differ in ne3, although mul_mm, mul_mmq and mul_mat_vec already broadcast src0 over dim 3 through broadcast3. Such a matmul then ran on the CPU with a copy of the weight, and the split layout changed with the number of streams in th",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11932",
+      "project": "llama-cpp",
+      "version": "b11932",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11932",
+      "published_at": "2026-10-27T14:04:01Z",
+      "body_excerpt": "mtmd-cli: Reduced scope of batch pointer (#31155) (#31165) mtmd-cli: Reduced scope of batch pointer (#31155) mtmd-cli: Remove CLI regression test Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11930",
+      "project": "llama-cpp",
+      "version": "b11930",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11930",
+      "published_at": "2026-10-27T13:42:38Z",
+      "body_excerpt": "server: add router device memory margin parameter for dynamic unloading (#21231) server: add --models-memory-max parameter to allow dynamically unloading models when they exceed a memory size threshold estimate with to-be-loaded model size included use no_alloc to get memory requirements for model load only set model memory_mb if not previously calculated use memory margin instead of total size li",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11929",
+      "project": "llama-cpp",
+      "version": "b11929",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11929",
+      "published_at": "2026-10-27T13:03:57Z",
+      "body_excerpt": "common : --model or -hf is required (#31242) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libra",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11928",
+      "project": "llama-cpp",
+      "version": "b11928",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11928",
+      "published_at": "2026-10-27T12:30:28Z",
+      "body_excerpt": "model: Add MiniCPM-OCR-Jev (#30980) model : add MiniCPM-OCR-Jev support The model is a Qwen3.5-VL trunk with a value head read at the last token: it scores an OCR text against an image rendered from it, it does not generate. Add the openbmb-minicpm-ocr-jev decision type, served by POST /v1/systemone. The class scores are the pooled output of the sequence, read with last pooling, so the conversion ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11927",
       "project": "llama-cpp",
@@ -89,6 +152,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
       "published_at": "2026-10-27T00:07:12Z",
       "body_excerpt": "What's Changed mlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in MLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in mlx: add DFlash2 support by @dhiltgen in llama.cpp: version bump b11901 by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.12-rc1",
+      "project": "ollama",
+      "version": "v0.40.12-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1",
+      "published_at": "2026-10-27T00:07:12Z",
+      "body_excerpt": "Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: lfm3: a 1.7B text model with a 256K-token context window lfm3-vl: adds image understanding lfm3-audio: speech recognition, translation, and text-to-speech in 18 languages lfm3-omni: text, images, and audio in one mo",
       "type": "tool"
     },
     {
@@ -13446,78 +13518,6 @@
       "published_at": "2026-07-29T17:46:48Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10182",
-      "project": "llama-cpp",
-      "version": "b10182",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10182",
-      "published_at": "2026-07-29T17:01:01Z",
-      "body_excerpt": "llama: move suppress_tokens handling to common/sampling (#26276) llama: move suppress_tokens handling to common/sampling address security issues rm has_logit_bias Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulk",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.51-beta",
-      "project": "unsloth",
-      "version": "v0.1.51-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.51-beta",
-      "published_at": "2026-07-29T15:35:36Z",
-      "body_excerpt": "Hey everyone! Kimi K3 can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many installer, MLX, export and inference fixes. Kimi K3 Moonshot AI’s Kimi K3 is a 2.8T-parameter MoE model w",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.511-beta",
-      "project": "unsloth",
-      "version": "v0.1.511-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.511-beta",
-      "published_at": "2026-07-29T15:35:36Z",
-      "body_excerpt": "Hey everyone! Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many installer, MLX, export and inference fixes. DeepSeek V4 Flash 0731 You can run our De",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.512-beta",
-      "project": "unsloth",
-      "version": "v0.1.512-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.512-beta",
-      "published_at": "2026-07-29T15:35:36Z",
-      "body_excerpt": "Hey everyone! Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs, Unsloth can keep multiple chats generating in parallel, and the new Deep Research mode plans, reads and cites sources using your local model. This release also brings better AMD and Intel GPU support, DoRA training, and many installer, MLX, export and inference fixes. DeepSeek V4 Flash 0731 (August 2 Update) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10181",
-      "project": "llama-cpp",
-      "version": "b10181",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10181",
-      "published_at": "2026-07-29T15:09:10Z",
-      "body_excerpt": "ggml-cuda : disable MMQ on devices with less than 48 KiB shared memory (#26141) ggml_cuda_should_use_mmq() selects MMQ purely from the quantization type. The current MMQ configurations are designed and maintained against a minimum of 48 KiB per-block shared memory, the limit provided by NVIDIA Pascal GPUs and later. On devices that report less, no supported MMQ tile fits and mul_mat_q_switch_J() a",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10180",
-      "project": "llama-cpp",
-      "version": "b10180",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10180",
-      "published_at": "2026-07-29T14:34:55Z",
-      "body_excerpt": "sycl: contiguous fast path + 32-bit index math for unary elementwise ops (#25946) sycl: contiguous fast path + 32-bit index math for unary elementwise ops sycl: use fastdiv for elementwise index math Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) U",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10179",
-      "project": "llama-cpp",
-      "version": "b10179",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10179",
-      "published_at": "2026-07-29T13:50:58Z",
-      "body_excerpt": "vendor: update BoringSSL to 0.20260728.0 (#26241) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10178",
-      "project": "llama-cpp",
-      "version": "b10178",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10178",
-      "published_at": "2026-07-29T13:01:04Z",
-      "body_excerpt": "server : add trace logging for slot similarity checking (#26271) Adds trace logging in server-context.cpp for slot similarity checking during prompt cache slot selection, including skip reasons and similarity calculation details. Assisted-by: llama.cpp:Qwen3.6-27B Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewor",
-      "type": "tool"
     }
   ]
 }

@@ -1,134 +1,178 @@
 {
-  "updated_at": "2026-10-27T11:52:08Z",
+  "updated_at": "2026-10-27T17:45:44Z",
   "items": [
     {
-      "id": "localllama-2026-10-27-inclusionailing-31-flash-1019-hugging-face",
+      "id": "localllama-2026-10-27-lfm3-6-model-instances-across-text-audio-vision-and-omni-mod",
       "source": "localllama",
-      "title": "inclusionAI/Ling-3.1-flash-1019 · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgpo4q/inclusionailing31flash1019_hugging_face/",
-      "published_at": "2026-10-27T11:12:14Z",
-      "summary": "      from inclusionAI: We introduce Ling-3.1-flash-1019, an upgraded version of Ling-3.1-flash, with 560B total parameters, 25B active parameters per token, and a 1M-token context window. With further post-training opti",
+      "title": "LFM3: 6 model instances across text, audio, vision and omni modalities",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgys9p/lfm3_6_model_instances_across_text_audio_vision/",
+      "published_at": "2026-10-27T17:23:55Z",
+      "summary": "Liquid AI released LFM3 today, a new generation of their Liquid Foundation Models. - LFM3-1.7B: text, 256k context. #1 on the Pareto frontier of on-device intelligence. - LFM3-VL-2B: vision-language with video input for ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-27-using-q38fn-with-dflash2-try-lower-draft-model-quants",
+      "id": "huggingface-2026-10-27-build-specialized-multimodal-models-with-lfm3",
+      "source": "huggingface",
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "published_at": "2026-10-27T17:16:52Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-liquidailfm3-17b-hugging-face",
       "source": "localllama",
-      "title": "Using Q38FN with dflash2? Try lower draft model quants.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgozlq/using_q38fn_with_dflash2_try_lower_draft_model/",
-      "published_at": "2026-10-27T10:35:17Z",
-      "summary": "Back with Qwen 3.8 27B i heard the advice that a Q4 draft model would produce roughly the same acceptance rate as a Q8 or higher. I have had my agent create a Q38FN Draft model in F16, Q8 and Q4, and the Q4 seemed to del",
+      "title": "LiquidAI/LFM3-1.7B · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgy8s3/liquidailfm317b_hugging_face/",
+      "published_at": "2026-10-27T17:04:16Z",
+      "summary": "      https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF from liquidAI: LFM3-1.7B is a text model for local agents and specialized applications, based on our new tri-hybrid architecture.  Agentic training: post-trained for a",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-27-we-put-deepseek-in-charge-of-four-qwen35-9b-models-to-revers",
+      "id": "localllama-2026-10-27-i-am-a-king-but-local",
       "source": "localllama",
-      "title": "We put DeepSeek in charge of four Qwen3.5-9B models to reverse engineer binaries using smaller open models.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgoxvu/we_put_deepseek_in_charge_of_four_qwen359b_models/",
-      "published_at": "2026-10-27T10:32:27Z",
-      "summary": "      Reverse Engineer Anything blew up recently but, every impressive reverse engineering result we’ve seen uses (closed) frontier models. We wanted to know whether small local models can do useful work here if a bigger",
+      "title": "I am a King, but local 😂",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgy5ic/i_am_a_king_but_local/",
+      "published_at": "2026-10-27T17:01:06Z",
+      "summary": "      I am feeling like a mighty local King spinning two Strata engines with 70tps each whole day and using 12M tokens a day. Also me scrolling twitter and stumbling upon a post saying that poteto uses 34M tokens per min",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-27-debunking-coheres-claim-of-qwen-38-flash-next-uploading-to-a",
+      "id": "localllama-2026-10-27-has-anybody-here-noticed-that-the-hit-piece-from-cohere-on-o",
       "source": "localllama",
-      "title": "Debunking Cohere's claim of Qwen 3.8 Flash Next uploading to Alibaba remote URL",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgopmj/debunking_coheres_claim_of_qwen_38_flash_next/",
-      "published_at": "2026-10-27T10:19:31Z",
-      "summary": "HF traces: https://huggingface.co/datasets/CohereLabs/10-2026-qwen-investigation-traces 1. Understand the Python script:  ids ids = dataset[0][&quot;token_ids&quot;] if len(ids) &lt; 2323: raise ValueError(&quot;The trac",
+      "title": "Has anybody here noticed that the hit piece from Cohere on open models came out the same day that Anthropic filed IPO ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgxpg9/has_anybody_here_noticed_that_the_hit_piece_from/",
+      "published_at": "2026-10-27T16:45:18Z",
+      "summary": "I am sure it is just coincident guys. I need to stop noticing things darn it /s.  &#32; submitted by &#32;  /u/Boogertard   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-27-tensor-split-over-pcie-30-x1-good-results",
+      "id": "localllama-2026-10-27-a-13b-ocr-model-just-hit-9368-on-real-world-document-parsing",
       "source": "localllama",
-      "title": "Tensor Split Over PCIe 3.0 x1 — Good Results",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgojqz/tensor_split_over_pcie_30_x1_good_results/",
-      "published_at": "2026-10-27T10:10:09Z",
-      "summary": "      When I was considering adding a second GPU, quite a few people told me PCIe 3.0 x1 would be a massive bottleneck and that upgrading my motherboard should be my first priority. I went ahead with the x1 riser anyway,",
+      "title": "A 1.3B OCR model just hit 93.68 on real-world document parsing and there's now an AI judge for OCR errors",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgx26j/a_13b_ocr_model_just_hit_9368_on_realworld/",
+      "published_at": "2026-10-27T16:21:51Z",
+      "summary": "      Most OCR models focus on reading documents. MiniCPM-OCR adds a second piece: a model that checks whether the OCR result is actually trustworthy. OpenBMB just released two open-source models:  MiniCPM-OCR 1.0 (1.3B)",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-27-i-made-pumpkin-a-graphical-manager-for-llamacpp-for-my-girlf",
+      "id": "localllama-2026-10-27-8x-r9700-system-upgrade",
       "source": "localllama",
-      "title": "I made Pumpkin, a graphical manager for llama.cpp for my girlfriend. It turned out well, so I put it on github",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgnhw5/i_made_pumpkin_a_graphical_manager_for_llamacpp/",
-      "published_at": "2026-10-27T09:05:13Z",
-      "summary": "      As the title says, my girlfriend needed a local model for privacy reasons, but her terminal skills are... nonexistent, so I made an all-in-one graphical manager for llama.cpp that gets you up and running in around ",
+      "title": "8x R9700 System Upgrade",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgwyx9/8x_r9700_system_upgrade/",
+      "published_at": "2026-10-27T16:18:34Z",
+      "summary": "      Just wanted to Show my rig. The base case is an older Corsair with a cheap AliExpress GPU Mount on top.  The System: -Threadripper 9955WX -128GB DDR5 5600, just to expensive to go for 256 -Asrock WRX 90 WS EVO -220",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-27-baiduunlimited-ocr-2-hugging-face",
+      "id": "huggingface-2026-10-27-can-we-trust-llms-to-judge-whether-a-research-idea-is-novel",
+      "source": "huggingface",
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "published_at": "2026-10-27T16:12:42Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-a-local-coding-model-benchmark-should-include-the-whole-setu",
       "source": "localllama",
-      "title": "baidu/Unlimited-OCR-2 · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgnbtq/baiduunlimitedocr2_hugging_face/",
-      "published_at": "2026-10-27T08:54:41Z",
-      "summary": "      Release  [2026/10/27] 🚀 We release Unlimited OCR 2, achieving unlimited-horizon parsing with SR-SWA.  What&#39;s New in 2  Sparse Reference Sliding Window Attention (SR-SWA): Compresses text-visual attention intera",
+      "title": "A local coding model benchmark should include the whole setup",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgwm1e/a_local_coding_model_benchmark_should_include_the/",
+      "published_at": "2026-10-27T16:05:23Z",
+      "summary": "People talk a lot about tokens/sec and eval scores, but the first-use friction matters too: does the model fit alongside a useful context window, can your editor actually talk to it, and can you get through a real edit-r",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-27-how-to-use-q8-ngram-with-lower-quant-qwen-38-flash-next-in-s",
+      "id": "meta-2026-10-27-privacylib-privacy-controls-at-the-data-access-boundary",
+      "source": "meta",
+      "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+      "url": "https://engineering.fb.com/2026/10/27/security/privacylib/",
+      "published_at": "2026-10-27T16:00:12Z",
+      "summary": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib.  A privacy requirement must hold as data moves through Meta&#8217;s diverse data and processing systems. Historically, supp",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "meta-2026-10-27-python-typing-survey-2026-ai-tools-and-the-shifting-checker",
+      "source": "meta",
+      "title": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape",
+      "url": "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/",
+      "published_at": "2026-10-27T15:59:24Z",
+      "summary": "The 2026 Python Typing Survey received 1,794 responses.  Type hint use changed little across three years, but checker selection changed sharply.  Among respondents who reported which checkers they use, half selected more",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-spark-x26-17b-almost-the-same-perf-as-4b",
       "source": "localllama",
-      "title": "How to use Q8 ngram with lower quant Qwen 3.8 Flash Next in Strata and avoid errors",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xglhtx/how_to_use_q8_ngram_with_lower_quant_qwen_38/",
-      "published_at": "2026-10-27T06:54:21Z",
-      "summary": "Supposedly, you can increase output quality/&quot;intelligence&quot; of Qwen Flash Next quants somewhat (using Strata) without increase in VRAM, system memory usage or sacrificing prefill/decode speed (when using ple-io=",
+      "title": "Spark-X2.6-1.7B, almost the same perf as 4b",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgw2qm/sparkx2617b_almost_the_same_perf_as_4b/",
+      "published_at": "2026-10-27T15:45:54Z",
+      "summary": "      Spark-X2.6-1.7B: less than half the parameters of our 4B, close on two benchmarks: SWE Verified: 59.8 vs 62.8 τ²-bench: 85.3 vs 86.9 Both at high thinking. Try it &amp; Like on HF! https://huggingface.co/XHToken/Sp",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-27-qwen38-27b-on-one-rtx-5090-six-inference-engines-benchmarked",
+      "id": "localllama-2026-10-27-sensenova-68-code2video-an-open-sourced-model-that-writes-an",
       "source": "localllama",
-      "title": "Qwen3.8 27B on one RTX 5090: six inference engines benchmarked with and without DFlash2",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgkzb9/qwen38_27b_on_one_rtx_5090_six_inference_engines/",
-      "published_at": "2026-10-27T06:20:34Z",
-      "summary": "Disclosure: I’m the author of TensorSharp. This English summary was adapted and edited with LLM assistance from the full benchmark report. The comparison covers llama.cpp, vLLM, SGLang, NInfer, velox-inferer, and TensorS",
+      "title": "SenseNova 6.8 Code2Video: an open-sourced model that writes and revises code to make videos",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgvcnu/sensenova_68_code2video_an_opensourced_model_that/",
+      "published_at": "2026-10-27T15:19:11Z",
+      "summary": "      Think of the animation workflows people use with Claude Opus 5.5: the model writes code, rendering tools turn it into video, and further instructions revise the result. SenseNova follows that same general approach,",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-27-do-gx10s-dgx-sparks-dream-of-throttling-temps-across-6-cooli",
+      "id": "localllama-2026-10-27-how-to-build-a-decision-model-like-jev",
       "source": "localllama",
-      "title": "Do GX10s / DGX Sparks Dream of Throttling? Temps across 6 cooling setups running DeepSeek V4.1-Flash (spoiler: no)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgkpph/do_gx10s_dgx_sparks_dream_of_throttling_temps/",
-      "published_at": "2026-10-27T06:03:42Z",
-      "summary": "Hello again! I&#39;m back with another report. This time it&#39;s on temperatures. Also, [CE Robot] = Claude Opus 5.5 Copy Editor where applicable (per line.) Otherwise, I wrote it. Hope someone finds value in this. TLDR",
+      "title": "How to Build a Decision Model Like Jev",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xguv3i/how_to_build_a_decision_model_like_jev/",
+      "published_at": "2026-10-27T15:00:42Z",
+      "summary": "      Full disclosure: I&#39;m one of the authors of this blog, and work at Oumi. I thought folks here would find our investigation interesting, especially anyone interested in building local decision models. We ran seve",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-27-introducing-zest-model-server-agent-friendly-gui",
+      "id": "localllama-2026-10-27-rlocalllama-community-benchmarks-glm-53-flash-vs-hy-4-previe",
       "source": "localllama",
-      "title": "Introducing Zest: model server + agent + friendly GUI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgi2cx/introducing_zest_model_server_agent_friendly_gui/",
-      "published_at": "2026-10-27T03:34:50Z",
-      "summary": "      Hello, everyone. A friend of mine wanted to get into running local models, and so (with the liberal use of Claude), I built them Zest. https://github.com/yudhanjaya/Zest What it is: Zest is a UI that bundles Lemona",
+      "title": "r/LocalLLaMA Community Benchmarks — GLM 5.3 Flash vs Hy 4 Preview vs MiMo v2.6 Pro",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgu3ck/rlocalllama_community_benchmarks_glm_53_flash_vs/",
+      "published_at": "2026-10-27T14:30:20Z",
+      "summary": "      I made benchmark and took comments from this subreddit as an experiment to see how model feels  &#32; submitted by &#32;  /u/ArturCzemiel   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-10-27-psa-qwen-38-fn-is-about-to-win-the-2026-arc-agi-3-challenge",
+      "id": "localllama-2026-10-27-4-coding-agents-on-one-rtx-3090-290-toks-total-from-a-custom",
       "source": "localllama",
-      "title": "PSA: Qwen-3.8-FN is about to win the 2026 ARC-AGI-3 challenge",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgdjy3/psa_qwen38fn_is_about_to_win_the_2026_arcagi3/",
-      "published_at": "2026-10-27T00:05:24Z",
-      "summary": "Unless something drastically changes in the next week or so, then all of the winning notebooks for this year&#39;s ARC-AGI-3 Kaggle competition — potentially ARC-2 as well, but that&#39;s just my guess — will be qwen-3.8",
+      "title": "4 coding agents on one RTX 3090: ~290 tok/s total from a custom CUDA engine for Qwen3.8-27B (3-4x llama-server --parallel)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgs8hp/4_coding_agents_on_one_rtx_3090_290_toks_total/",
+      "published_at": "2026-10-27T13:15:50Z",
+      "summary": "      I&#39;ve been building OpenJet, a local coding agent with its own CUDA megakernel engine for Qwen3.8-27B Q4_K_M. Until now it served one conversation at a time. The new release serves several agents at once on a si",
       "tags": [
         "localllama"
       ]
@@ -365,17 +409,6 @@
       ]
     },
     {
-      "id": "huggingface-2026-10-21-announcing-simready-central-an-open-library-of-simulation-re",
-      "source": "huggingface",
-      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
-      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
-      "published_at": "2026-10-21T10:59:42Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "simonw-2026-10-20-battle-drones---a-vibe-coded-rts-with-audio-based-multiplaye",
       "source": "simonw",
       "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
@@ -384,17 +417,6 @@
       "summary": "My latest vibe coded game experiment is a Command &amp; Conquer style RTS (Real Time Strategy) game called Battle Drones (play it here). Unlike my previous experiments, this one is actually fun to play. I'm somewhat emba",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "huggingface-2026-10-20-nvidia-cosmos3-h-dreams-bringing-clinical-surgery-to-life-th",
-      "source": "huggingface",
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-      "published_at": "2026-10-20T18:17:47Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
@@ -538,28 +560,6 @@
       "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and",
       "tags": [
         "microsoft"
-      ]
-    },
-    {
-      "id": "meta-2026-09-24-bringing-private-processing-to-meta-ai-glasses",
-      "source": "meta",
-      "title": "Bringing Private Processing to Meta AI Glasses",
-      "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
-      "published_at": "2026-09-24T00:00:00Z",
-      "summary": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than other kinds of devices and keep you present without picking up a mobile phone.  Mo",
-      "tags": [
-        "meta"
-      ]
-    },
-    {
-      "id": "meta-2026-09-21-open-sourcing-rebalancer-a-generic-high-performance-library",
-      "source": "meta",
-      "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
-      "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
-      "published_at": "2026-09-21T16:00:37Z",
-      "summary": "We&#8217;re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to spec",
-      "tags": [
-        "meta"
       ]
     },
     {
