@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-26T22:28:57Z",
+  "updated_at": "2026-10-27T04:25:54Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11913",
+      "project": "llama-cpp",
+      "version": "b11913",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11913",
+      "published_at": "2026-10-27T00:19:01Z",
+      "body_excerpt": "hexagon: add GGML_HEXAGON_VTCM_SIZE (#31221) hexagon: add GGML_HEXAGON_VTCM_MB and GGML_HEXAGON_NTHREADS caps Change-Id: Idffe1613c8db6f96aa842d43d1b2efaed45462a8 hexagon: rename VTCM cap to GGML_HEXAGON_VTCM_SIZE, drop NTHREADS cap Change-Id: If4c5b9ce9fd6b725c3561421c2295d40599d012d hexagon: make GGML_HEXAGON_VTCM_SIZE an override, accept K/M/G suffixes Change-Id: Ib8eea84c22f24e6d986b37f215e504",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.12-rc0",
+      "project": "ollama",
+      "version": "v0.40.12-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
+      "published_at": "2026-10-27T00:07:12Z",
+      "body_excerpt": "What's Changed mlx: preserve small-image detail for compact Gemma 4 vision towers by @dhiltgen in MLX, MLX-C: version bump - prompt speed up for gemma/flint/laguna by @dhiltgen in mlx: add DFlash2 support by @dhiltgen in llama.cpp: version bump b11901 by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11912",
+      "project": "llama-cpp",
+      "version": "b11912",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11912",
+      "published_at": "2026-10-26T22:30:51Z",
+      "body_excerpt": "llama : enable moe amax rescaling for laguna (#31147) llama : enable moe amax rescaling for laguna Assisted-by: Devin llama : declare laguna sm tensor support Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu a",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11910",
       "project": "llama-cpp",
@@ -88,7 +115,7 @@
       "version": "v0.1.911-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.911-beta",
       "published_at": "2026-10-26T14:23:54Z",
-      "body_excerpt": "This release adds scheduled tasks, FLUX-3 edit support, perf improvements and more. Also new: MiniMax-M3.1-Flash, face touch-ups for images and faster performance + chats on Mac. Highlights Scheduled tasks: Run a prompt on a schedule with a local model or an API MiniMax-M3.1-Flash: MiniMax's 428B MoE (23B active) Guide FLUX 3 Editing: FLUX 3 now supports editing of images with prompts - Perf impro",
+      "body_excerpt": "This release adds scheduled tasks, FLUX-3 edit support, perf improvements and more. Also new: MiniMax-M3.1-Flash, face touch-ups for images and faster performance + chats on Mac. Highlights Scheduled tasks: Run a prompt on a schedule with a local model or an API MiniMax-M3.1-Flash: MiniMax's 428B MoE (23B active) Guide FLUX 3 Editing: FLUX 3 now supports editing of images with prompts Perf improve",
       "type": "tool"
     },
     {

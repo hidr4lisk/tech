@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-10-26T22:28:50Z",
+  "updated_at": "2026-10-27T04:25:46Z",
   "items": [
+    {
+      "id": "localllama-2026-10-27-introducing-zest-model-server-agent-friendly-gui",
+      "source": "localllama",
+      "title": "Introducing Zest: model server + agent + friendly GUI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgi2cx/introducing_zest_model_server_agent_friendly_gui/",
+      "published_at": "2026-10-27T03:34:50Z",
+      "summary": "      Hello, everyone. A friend of mine wanted to get into running local models, and so (with the liberal use of Claude), I built them Zest. https://github.com/yudhanjaya/Zest What it is: Zest is a UI that bundles Lemona",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-psa-qwen-38-fn-is-about-to-win-the-2026-arc-agi-3-challenge",
+      "source": "localllama",
+      "title": "PSA: Qwen-3.8-FN is about to win the 2026 ARC-AGI-3 challenge",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgdjy3/psa_qwen38fn_is_about_to_win_the_2026_arcagi3/",
+      "published_at": "2026-10-27T00:05:24Z",
+      "summary": "Unless something drastically changes in the next week or so, then all of the winning notebooks for this year&#39;s ARC-AGI-3 Kaggle competition — potentially ARC-2 as well, but that&#39;s just my guess — will be qwen-3.8",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-26-gpt-61-terra",
+      "source": "simonw",
+      "title": "GPT-6.1 Terra",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+      "published_at": "2026-10-26T23:53:07Z",
+      "summary": "GPT-6.1 Terra\nIt's always interesting to note which aspects of a new model are emphasized in the release announcement.\nIn the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:\n\nWe’re introducing ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-update-my-4b-coding-model-is-getting-better-at-generating-3d",
+      "source": "localllama",
+      "title": "Update: My 4B coding model is getting better at generating 3D scenes",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7uv/update_my_4b_coding_model_is_getting_better_at/",
+      "published_at": "2026-10-26T23:07:49Z",
+      "summary": "      Hey everyone, just wanted to share a quick update on the 4B model I posted here. The video shows some results from the latest checkpoint. I&#39;m still training this Qwen3.5-4B fine-tune for general coding, using T",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-scaffoldcot-dataset-updates-maintainance-a-new-agent-focused",
+      "source": "localllama",
+      "title": "ScaffoldCoT Dataset Updates: Maintainance, a new agent-focused dataset for small models, and a new model in training built around the datasets!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7sl/scaffoldcot_dataset_updates_maintainance_a_new/",
+      "published_at": "2026-10-26T23:07:44Z",
+      "summary": "So, when I first released ScaffoldCoT, I never thought it would reach more than a handful of people. I was happy to see multiple thousands of consistent downloads month over month since its release. Since this is where I",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-interactive-neuron-steering-playground-for-qwen35-4b-that-ru",
+      "source": "localllama",
+      "title": "Interactive neuron steering playground for Qwen3.5-4B that runs locally in the browser on WebGPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgbr9y/interactive_neuron_steering_playground_for/",
+      "published_at": "2026-10-26T22:48:42Z",
+      "summary": "      There is a trend on X where users are finding tiny subsets of neurons (often just one or two) that can steer LLM behavior in surprising ways. For example, steering just two neurons in Qwen3.5-4B can make it talk ab",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-qwen-investigation-traces-release",
+      "source": "localllama",
+      "title": "Qwen investigation traces release",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgbm28/qwen_investigation_traces_release/",
+      "published_at": "2026-10-26T22:42:31Z",
+      "summary": "      In the spirit of transparency and openness, we are releasing the traces so developers can test this out for themselves. We noticed this behaviour without prefilling with the following prompt, but this is rare. If y",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-have-you-gone-fully-local",
+      "source": "localllama",
+      "title": "Have you gone fully local?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgazww/have_you_gone_fully_local/",
+      "published_at": "2026-10-26T22:16:54Z",
+      "summary": "I’ve been running a local model on a dgx spark for about a month now. I’ve been building out my pi harness and my own little client app as I go, using both Claude code and the harness itself.  I’m using it more for every",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-26-nanbeige43-33b-q4-on-a-macbook-pro-m5-max-mlx-lm-vs-llamacpp",
+      "source": "localllama",
+      "title": "Nanbeige4.3-33B Q4 on a MacBook Pro M5 Max, mlx-lm vs llama.cpp vs Kapitsa, Prefill/Decode 512 to 32K range.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgaupg/nanbeige4333b_q4_on_a_macbook_pro_m5_max_mlxlm_vs/",
+      "published_at": "2026-10-26T22:10:54Z",
+      "summary": "      .  hey there, I measured Nanbeige4.3-33B (dense, 4-bit) on three Apple silicon engines: mlx-lm, llama.cpp and Kapitsa. The comparison covers prefill, decode, time to first token, follow-up latency and memory, at pr",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-26-gpu-unlocks-fp32-accumulation-why-can-it-be-unlocked-on-turi",
       "source": "localllama",
@@ -57,91 +156,14 @@
       ]
     },
     {
-      "id": "localllama-2026-10-26-oh-nvidia-nvidia-reportedly-not-accepting-rtx-5090-orders-fr",
-      "source": "localllama",
-      "title": "Oh nvidia… —>> NVIDIA reportedly not accepting RTX 5090 orders from board partners, even backorders are unavailable",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg4s8y/oh_nvidia_nvidia_reportedly_not_accepting_rtx/",
-      "published_at": "2026-10-26T18:20:06Z",
-      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
+      "id": "simonw-2026-10-26-webframe-evaluated-as-a-scraper-and-a-sandbox",
+      "source": "simonw",
+      "title": "webframe: evaluated as a scraper and a sandbox",
+      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+      "published_at": "2026-10-26T16:15:00Z",
+      "summary": "Research: webframe: evaluated as a scraper and a sandbox\n        webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a ",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-qwen38-27b-jetson-thor-40-toks-at-fp16-level-accuracy-int4-m",
-      "source": "localllama",
-      "title": "Qwen3.8-27B Jetson Thor: 40 tok/s at FP16-level accuracy (INT4 + MTP + FlashHead)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg44nj/qwen3827b_jetson_thor_40_toks_at_fp16level/",
-      "published_at": "2026-10-26T17:56:51Z",
-      "summary": "      I&#39;m on the team at Embedl that built this, and wanted to share the numbers. What&#39;s in it  INT4 weights, using our own quantization, about half the error of standard AWQ FlashHead, our faster LM head: the 26",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-local-beats-cloud-qwen-38-fn",
-      "source": "localllama",
-      "title": "Local beats cloud, Qwen 3.8 FN",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg3rms/local_beats_cloud_qwen_38_fn/",
-      "published_at": "2026-10-26T17:43:57Z",
-      "summary": "I thought y&#39;all might be interested in a legit &quot;local is better&quot; use case.  TLDR: Qwen 3.8 FN solved a work problem that requires the privacy of a local model, with the same skill as a frontier cloud model.",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-llm-tails-disciplined-al-coding-mode-understand-deeply-write",
-      "source": "localllama",
-      "title": "LLM Tails Disciplined Al coding mode. Understand deeply, write minimally, never hallucinate, stay consistent. Based on Ponytail & LLM Wiki",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg3oe0/llm_tails_disciplined_al_coding_mode_understand/",
-      "published_at": "2026-10-26T17:40:37Z",
-      "summary": "      https://github.com/savadks95/LLM\\_Tails I just published a GitHub repo a few days ago. It&#39;s a mix of Ponytail and LLM Wiki. It helps developers reduce codebase size with minimal code. It reduces overall token u",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-kld-is-not-the-best-metric-out-there-and-there-isnt-a-single",
-      "source": "localllama",
-      "title": "KLD is not the best metric out there and there isn't a single best one.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg2cqg/kld_is_not_the_best_metric_out_there_and_there/",
-      "published_at": "2026-10-26T16:52:35Z",
-      "summary": "Following my previous post on how KLD is misunderstood, there were a few claims that KLD is the best metric you can use and some other comments were asking, &quot;If we stop using KLD, what should we use instead?&quot; I",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-qwen38-flash-next-tried-to-send-diagnostic-file-to-a-remote",
-      "source": "localllama",
-      "title": "Qwen3.8-Flash-Next tried to send diagnostic file to a remote location, while stating otherwies.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg2bht/qwen38flashnext_tried_to_send_diagnostic_file_to/",
-      "published_at": "2026-10-26T16:51:19Z",
-      "summary": "      &#32; submitted by &#32;  /u/Lazylion2   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-a-briefing-file-that-lets-a-big-model-write-plans-a-local-9b",
-      "source": "localllama",
-      "title": "A briefing file that lets a big model write plans a local 9B can actually execute (and cut my Claude token spend)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg29rq/a_briefing_file_that_lets_a_big_model_write_plans/",
-      "published_at": "2026-10-26T16:49:34Z",
-      "summary": "I&#39;ve been running Ornith 1.5-9B (8-bit) as a local coding agent on real engineering work. It can do the work, but only when the plan is written for a small model. I wrote down what I learned into a public file meant ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-26-running-qwen-38-flash-next",
-      "source": "localllama",
-      "title": "Running Qwen 3.8 Flash Next",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg1vgy/running_qwen_38_flash_next/",
-      "published_at": "2026-10-26T16:35:01Z",
-      "summary": "      Have to say Qwen 3.8 Flash Next is pretty impressive. I&#39;m running under strata and hermes. I gave it a limited prompt and it banged out a pretty impressive Canadian EV comparison site over night. Claude Opus 5.",
-      "tags": [
-        "localllama"
+        "simonw"
       ]
     },
     {
@@ -417,28 +439,6 @@
       "summary": "With the recent release of the Muse family of foundational models, we want to take you inside the infrastructure that has made it all possible. The first phase of Prometheus, our gigawatt-scale supercluster, is already c",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-18-llm-tools-datasette-011",
-      "source": "simonw",
-      "title": "llm-tools-datasette 0.1.1",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
-      "published_at": "2026-10-18T23:43:09Z",
-      "summary": "Release: llm-tools-datasette 0.1.1\n        When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-18-llm-echo-05",
-      "source": "simonw",
-      "title": "llm-echo 0.5",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
-      "published_at": "2026-10-18T23:16:16Z",
-      "summary": "Release: llm-echo 0.5\n        I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats ba",
-      "tags": [
-        "simonw"
       ]
     },
     {
