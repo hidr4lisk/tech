@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-27T17:45:50Z",
+  "updated_at": "2026-10-27T21:59:07Z",
   "releases": [
+    {
+      "id": "hf-nvidia-metatron-browser",
+      "project": "nvidia",
+      "version": "metatron-browser",
+      "url": "https://huggingface.co/nvidia/metatron-browser",
+      "published_at": "2026-10-27T21:43:16Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b11936",
+      "project": "llama-cpp",
+      "version": "b11936",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11936",
+      "published_at": "2026-10-27T20:11:21Z",
+      "body_excerpt": "llama : build the k-pool sparse selection independently of the kq_mask shape (#31243) llama : build the k-pool sparse selection independently of the kq_mask shape qwen4exp (QSA) and glm5-next pick cache cells by index and no longer read the kq_mask values, but they still shaped the selection like the dense kq_mask. Build the selection as [n_kv, n_tokens] over the cache cells instead, and split it ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11935",
       "project": "llama-cpp",
@@ -159,6 +177,15 @@
       "project": "ollama",
       "version": "v0.40.12-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1",
+      "published_at": "2026-10-27T00:07:12Z",
+      "body_excerpt": "Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: lfm3: a 1.7B text model with a 256K-token context window lfm3-vl: adds image understanding lfm3-audio: speech recognition, translation, and text-to-speech in 18 languages lfm3-omni: text, images, and audio in one mo",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.12",
+      "project": "ollama",
+      "version": "v0.40.12",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12",
       "published_at": "2026-10-27T00:07:12Z",
       "body_excerpt": "Liquid AI LFM3 LFM3 is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: lfm3: a 1.7B text model with a 256K-token context window lfm3-vl: adds image understanding lfm3-audio: speech recognition, translation, and text-to-speech in 18 languages lfm3-omni: text, images, and audio in one mo",
       "type": "tool"
@@ -13509,15 +13536,6 @@
       "published_at": "2026-07-30T04:40:01Z",
       "body_excerpt": "mimo2: address MTP review feedback (#26228) Co-authored-by: tnhnyc Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
       "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-NemotronLabs-VoiceChat-11B",
-      "project": "nvidia",
-      "version": "NVIDIA-NemotronLabs-VoiceChat-11B",
-      "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
-      "published_at": "2026-07-29T17:46:48Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
