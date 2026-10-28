@@ -1,6 +1,114 @@
 {
-  "updated_at": "2026-10-28T12:27:24Z",
+  "updated_at": "2026-10-28T22:23:39Z",
   "releases": [
+    {
+      "id": "hf-ibm-granite-granite-speech-5.0-2b-ONNX",
+      "project": "ibm-granite",
+      "version": "granite-speech-5.0-2b-ONNX",
+      "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-2b-ONNX",
+      "published_at": "2026-10-28T21:55:20Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b11970",
+      "project": "llama-cpp",
+      "version": "b11970",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11970",
+      "published_at": "2026-10-28T21:28:55Z",
+      "body_excerpt": "hexagon: add conv2d support (#30995) hexagon: add conv2d op hex-conv2d: add double-buffered staging hex-conv2d: full 64-wide activation block transpose straight from staged buffer hex-conv2d: implicit gemm hex-conv2d: remove scalar path and kernel hex-conv2d: unify conv2d kernel params for all paths hex-conv2d: scale HMX result before f16 storage and then restore during unpacking to prevent overfl",
+      "type": "tool"
+    },
+    {
+      "id": "hf-EleutherAI-tiny-Phi3ForCausalLM",
+      "project": "EleutherAI",
+      "version": "tiny-Phi3ForCausalLM",
+      "url": "https://huggingface.co/EleutherAI/tiny-Phi3ForCausalLM",
+      "published_at": "2026-10-28T21:27:48Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "ollama-v0.40.13-rc0",
+      "project": "ollama",
+      "version": "v0.40.13-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
+      "published_at": "2026-10-28T19:55:04Z",
+      "body_excerpt": "What's Changed llm: LFM3 GGUF fixes and llama-server speech by @dhiltgen in llama.cpp: version bump b11963 by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11969",
+      "project": "llama-cpp",
+      "version": "b11969",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11969",
+      "published_at": "2026-10-28T19:07:25Z",
+      "body_excerpt": "Speed up IQ4 quant creation with pre-computed halfway points (#31201) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11968",
+      "project": "llama-cpp",
+      "version": "b11968",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11968",
+      "published_at": "2026-10-28T17:29:45Z",
+      "body_excerpt": "ggml-cpu: SVE 256 bit implementation of gemm_q6_K_8x8_q8_K kernel (#27472) q6_k GEMM working cleanup review comments review comment addressed - removed pg16_8 incorporated the review comments - replaced switch with if and other points marking q8_k_blocklen UNUSEDto disable warning for non-i8mm cases Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11966",
+      "project": "llama-cpp",
+      "version": "b11966",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11966",
+      "published_at": "2026-10-28T16:47:02Z",
+      "body_excerpt": "ci(s390x): switch to Ubuntu 26.04 runners (#31317) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11963",
+      "project": "llama-cpp",
+      "version": "b11963",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11963",
+      "published_at": "2026-10-28T15:05:22Z",
+      "body_excerpt": "sycl: work-group argmax for short TOP_K rows (#31110) sycl: work-group argmax for short TOP_K rows Used angelX to optimize SYCL/drama 3 coordination, results are as follows Rows with ncols q2_0 [256,2,3,4] failure was seen once on the patch, and 3/3 re-runs pass on base and patch. All other patch-run failures also fail on base. Assisted-by: Claude Opus 5.5 made changes as suggested Assisted-by: Cl",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.912-beta",
+      "project": "unsloth",
+      "version": "v0.1.912-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.912-beta",
+      "published_at": "2026-10-28T14:09:50Z",
+      "body_excerpt": "Halloween 👻 is here. Through October, a Trick or treat row in the sidebar opens eleven Halloween themes, spooky greetings and a few spiders and bats. This release also speeds up the first launch, Linux tool calls and model loading, and trains compatible fine-tuning jobs together with multi-LoRA. Highlights Trick or treat: 🎃 new Halloween themes - until Nov 1 Faster Unsloth: 2x faster first launch,",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11962",
+      "project": "llama-cpp",
+      "version": "b11962",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11962",
+      "published_at": "2026-10-28T13:42:20Z",
+      "body_excerpt": "cuda: fuse MoE (MUL_MAT_ID) gate/up and GLU in MMQ (#31188) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-v0.8.0",
+      "project": "llama-cpp",
+      "version": "v0.8.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0",
+      "published_at": "2026-10-28T12:47:51Z",
+      "body_excerpt": "Overview This release adds the LiquidAI LFM3 family (text, vision, audio and omni) together with a new experimental streaming-audio API in , and wires realtime audio in and out of the server through the new and endpoints. A batch of new architectures landed: DeepSeek V4.1 Flash, SenseNova U1, Beam, Kolibri-1, Flint, Muse Spark, Granite Switch Decision, plus decision/embedding models from LiquidAI,",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11960",
+      "project": "llama-cpp",
+      "version": "b11960",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11960",
+      "published_at": "2026-10-28T12:45:39Z",
+      "body_excerpt": "llama.cpp : bump version to 0.8.0 (#31309) llama.cpp : bump version to 0.8.0 authors : update Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11954",
       "project": "llama-cpp",
@@ -378,6 +486,24 @@
       "published_at": "2026-10-26T17:26:52Z",
       "body_excerpt": "sycl : bound reorder temp memory to 32 MiB (#31062) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu ",
       "type": "tool"
+    },
+    {
+      "id": "hf-stabilityai-sdxl-base-amdnpu-medusa",
+      "project": "stabilityai",
+      "version": "sdxl-base-amdnpu-medusa",
+      "url": "https://huggingface.co/stabilityai/sdxl-base-amdnpu-medusa",
+      "published_at": "2026-10-26T16:26:44Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-stabilityai-stable-diffusion-3.5-medium-amdnpu-medusa",
+      "project": "stabilityai",
+      "version": "stable-diffusion-3.5-medium-amdnpu-medusa",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-medium-amdnpu-medusa",
+      "published_at": "2026-10-26T16:25:13Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "unsloth-v0.1.911-beta",
@@ -817,6 +943,15 @@
       "version": "MotionBricks",
       "url": "https://huggingface.co/nvidia/MotionBricks",
       "published_at": "2026-10-23T18:49:27Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-allenai-OlmoEarth-v1_2-FT-LFMC-Base",
+      "project": "allenai",
+      "version": "OlmoEarth-v1_2-FT-LFMC-Base",
+      "url": "https://huggingface.co/allenai/OlmoEarth-v1_2-FT-LFMC-Base",
+      "published_at": "2026-10-23T17:00:11Z",
       "body_excerpt": "",
       "type": "model"
     },
@@ -13536,69 +13671,6 @@
       "published_at": "2026-07-31T07:30:24Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10199",
-      "project": "llama-cpp",
-      "version": "b10199",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10199",
-      "published_at": "2026-07-30T20:33:03Z",
-      "body_excerpt": "server: support inp embd to generate next token (#26313) server: support embd for sampled token fix ~server_batch() Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10198",
-      "project": "llama-cpp",
-      "version": "b10198",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10198",
-      "published_at": "2026-07-30T19:37:33Z",
-      "body_excerpt": "vulkan: Support quantized concat (#25684) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10197",
-      "project": "llama-cpp",
-      "version": "b10197",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10197",
-      "published_at": "2026-07-30T18:58:32Z",
-      "body_excerpt": "Test support for alternative conv layout (#25617) add bool cwhn = true to conv_2d test cases add layout check at graph building time extend layout checks for conv2d.cu kernel in CPU back-end kernel needs to be stored contiguously to prevent test failures with cwhn=1 trim white space do op support check in vulkan backend fix CI failure and vulkan run-time assert failure by introducing new graph bui",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10196",
-      "project": "llama-cpp",
-      "version": "b10196",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10196",
-      "published_at": "2026-07-30T18:29:16Z",
-      "body_excerpt": "llama-context : sync pending async copies before clearing embd_seq (#25676) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10195",
-      "project": "llama-cpp",
-      "version": "b10195",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10195",
-      "published_at": "2026-07-30T17:21:07Z",
-      "body_excerpt": "tests : avoid building get-model.cpp many times (#26317) tests : remove get-model.cpp tests : fix quant type selection Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVI",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10194",
-      "project": "llama-cpp",
-      "version": "b10194",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10194",
-      "published_at": "2026-07-30T15:00:45Z",
-      "body_excerpt": "ggml-cuda: Allow transpose-free gemmv computation (#26171) When matrix's weights are shaped 1xK is leverage a transpose-free computation to use mat_mul_vec_f. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10192",
-      "project": "llama-cpp",
-      "version": "b10192",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10192",
-      "published_at": "2026-07-30T13:44:53Z",
-      "body_excerpt": "sync : ggml Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) W",
-      "type": "tool"
     }
   ]
 }
