@@ -1,11 +1,83 @@
 {
-  "updated_at": "2026-10-27T21:59:07Z",
+  "updated_at": "2026-10-28T04:56:48Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11946",
+      "project": "llama-cpp",
+      "version": "b11946",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11946",
+      "published_at": "2026-10-28T01:58:37Z",
+      "body_excerpt": "server : add realtime conversation and transcription on /v1/realtime (#31269) server : add realtime conversation and transcription on /v1/realtime Co-authored-by: Xuan Son Nguyen Assisted-by: Claude Opus 5.5 examples : default the realtime client to the server port 9931 Assisted-by: Claude Opus 5.5 server : sample realtime responses right after their own decode Slots respond in turns on one contex",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11945",
+      "project": "llama-cpp",
+      "version": "b11945",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11945",
+      "published_at": "2026-10-28T01:41:27Z",
+      "body_excerpt": "model : add LiquidAI/d1-2B and LiquidAI/d1-omni-2B (#31275) model : add LiquidAI/d1-2B and LiquidAI/d1-omni-2B Assisted-by: Claude Opus 5.5 convert : keep the speech task templates out of the d1 GGUFs Assisted-by: Claude Opus 5.5 small refactoring: no_batching --------- Co-authored-by: Xuan Son Nguyen Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11944",
+      "project": "llama-cpp",
+      "version": "b11944",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11944",
+      "published_at": "2026-10-28T01:24:06Z",
+      "body_excerpt": "server: expose the reasoning effort levels of the chat template (#31271) server: expose the reasoning effort levels of the chat template The capability probe renders a user turn for each candidate level (minimal, low, medium, high, xhigh, max) and for an unknown level. A level is honored when it renders without raising and differently from the unknown level, which shows the template fallback. Leve",
+      "type": "tool"
+    },
+    {
+      "id": "hf-ibm-granite-LLMON-Benchmarks",
+      "project": "ibm-granite",
+      "version": "LLMON-Benchmarks",
+      "url": "https://huggingface.co/ibm-granite/LLMON-Benchmarks",
+      "published_at": "2026-10-28T01:19:28Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b11941",
+      "project": "llama-cpp",
+      "version": "b11941",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11941",
+      "published_at": "2026-10-28T01:03:03Z",
+      "body_excerpt": "model : add LiquidAI/LFM3-Audio-2B and LiquidAI/LFM3-Omni-2B (#31257) model : add LiquidAI/LFM3-Audio-2B and LiquidAI/LFM3-Omni-2B Co-authored-by: Xuan Son Nguyen Assisted-by: Claude Opus 5.5 convert : read the LFM3-Audio config.json as released A transformers that knows lfm3_audio rewrites the config into another layout (no lfm/encoder keys). Assisted-by: Claude Opus 5.5 mtmd : disable flash atte",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11940",
+      "project": "llama-cpp",
+      "version": "b11940",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11940",
+      "published_at": "2026-10-28T00:32:11Z",
+      "body_excerpt": "common : support deferred tools and tool_reference content parts (#31256) common : support deferred tools and tool_reference content parts Assisted-by: Claude Opus 5.5 common : credit the deferred tools co-author Co-authored-by: Aldehir Rojas Assisted-by: Claude Opus 5.5 tests : fix the type check of the deferred tools test Assisted-by: Claude Opus 5.5 Website: Attestations: macOS/iOS: macOS Apple",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11938",
+      "project": "llama-cpp",
+      "version": "b11938",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11938",
+      "published_at": "2026-10-27T23:57:45Z",
+      "body_excerpt": "model : add LiquidAI/LFM3-1.7B and LiquidAI/LFM3-VL-2B (#31252) model : add LiquidAI/LFM3-1.7B and LiquidAI/LFM3-VL-2B Co-authored-by: Sigbjørn Skjæret Co-authored-by: Xuan-Son Nguyen Assisted-by: Claude Opus 5.5 tests : set the SWA rope base of the LFM3 test model Assisted-by: Claude Opus 5.5 llama : enable recurrent state rollback for LFM3 Assisted-by: Claude Opus 5.5 Apply batched suggestions f",
+      "type": "tool"
+    },
     {
       "id": "hf-nvidia-metatron-browser",
       "project": "nvidia",
       "version": "metatron-browser",
       "url": "https://huggingface.co/nvidia/metatron-browser",
+      "published_at": "2026-10-27T21:43:16Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Metatron-v1",
+      "project": "nvidia",
+      "version": "Metatron-v1",
+      "url": "https://huggingface.co/nvidia/Metatron-v1",
       "published_at": "2026-10-27T21:43:16Z",
       "body_excerpt": "",
       "type": "model"
@@ -13526,15 +13598,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10186",
       "published_at": "2026-07-30T07:35:35Z",
       "body_excerpt": "ggml : Fix issue with kleidiai ci and stringop overflow warning (#26277) Signed-off-by: Jonathan Clohessy Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10184",
-      "project": "llama-cpp",
-      "version": "b10184",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10184",
-      "published_at": "2026-07-30T04:40:01Z",
-      "body_excerpt": "mimo2: address MTP review feedback (#26228) Co-authored-by: tnhnyc Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
       "type": "tool"
     }
   ]
