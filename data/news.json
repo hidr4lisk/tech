@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-27T21:58:58Z",
+  "updated_at": "2026-10-28T04:56:41Z",
   "items": [
+    {
+      "id": "localllama-2026-10-28-dirt-cheap-gpus-coming-next-year",
+      "source": "localllama",
+      "title": "Dirt cheap GPUs coming next year",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/",
+      "published_at": "2026-10-28T04:34:41Z",
+      "summary": "I think a turn of events are pointing towards a very likely crash in prices in the coming months.  With a single gb300 rack being to serve all of Openrouter&#39;s traffic for DSV4.1 Flash(https://x.com/thdxr/status/21151",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-28-3-ways-to-boost-moe-inference-on-nvidia-dgx-spark",
+      "source": "localllama",
+      "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdwtt/3_ways_to_boost_moe_inference_on_nvidia_dgx_spark/",
+      "published_at": "2026-10-28T03:52:04Z",
+      "summary": "       Optimization 1: Humming MXFP4 MoE backend Optimization 2: Online FP8 LM head quantization Optimization 3: MTP speculative decoding with NEXTN    Configuration TPOT Decode throughput Relative to baseline    Baselin",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-28-artificial-analysis-intelligence-index-v5-major-update",
+      "source": "localllama",
+      "title": "Artificial Analysis Intelligence Index v5 (major update)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/",
+      "published_at": "2026-10-28T03:36:56Z",
+      "summary": "      Artificial Analysis Intelligence Index has been updated to v5, which according to them is a major upgrade resulting in a more accurate ranking. Notably, this update widens the gap between open-weight models and clo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-28-when-will-google-tpus-trickle-down-to-the-common-folk",
+      "source": "localllama",
+      "title": "When will google TPUs trickle down to the common folk?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdcwv/when_will_google_tpus_trickle_down_to_the_common/",
+      "published_at": "2026-10-28T03:22:46Z",
+      "summary": "Seems all the major players are now buying TPUs. Will we ever have them local? https://x.com/rohanpaul_ai/status/2115261691906978233 Quote: ... OpenAI plans to buy AI chips from Google, ... Oracle will also offer TPUs th",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-28-they-released-a-tesseract-successor-datalab-toindra",
+      "source": "localllama",
+      "title": "They released a tesseract successor (datalab-to/indra)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhd7vt/they_released_a_tesseract_successor_datalabtoindra/",
+      "published_at": "2026-10-28T03:15:30Z",
+      "summary": "      Haven&#39;t tried it yet but we all know how tesseract is and the benchmarks show a beautiful spike in quality and speed. It&#39;s a 1M parameter model! I thought we&#39;d never see the day but sub B parameter mode",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-28-deepseek-v41-flash-1017-at-41-toks-on-one-3090",
+      "source": "localllama",
+      "title": "DeepSeek-V4.1-Flash-1017 at 41 tok/s on one 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9yf7/deepseekv41flash1017_at_41_toks_on_one_3090/",
+      "published_at": "2026-10-28T00:39:45Z",
+      "summary": "      No, this is not a lobotomized 1-bit squeeze, its full Q2 nazeshinjite&#39;s DeepSeek-V4.1-Flash-1017 Q2 GGUF on a single 3090, natively on Windows no WSL. On an RTX 3090 with 192 GB of RAM I&#39;m writing at 41 tok",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-28-sk-hynix-expects-demand-to-outpace-supply-through-2030",
+      "source": "localllama",
+      "title": "SK Hynix expects demand to outpace supply through 2030",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9qj4/sk_hynix_expects_demand_to_outpace_supply_through/",
+      "published_at": "2026-10-28T00:29:33Z",
+      "summary": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html Unfortunately, the already insanely inflated prices for RAM may start to look like a steal in the coming years.   &#32; submitted by &#32;  /u/Chemical_H",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-27-i-built-a-local-gpu-benchmark-server-for-4b-to-35b-models-be",
+      "source": "localllama",
+      "title": "I built a local GPU benchmark server for 4B to 35B models because I was tired of synthetic cloud leaderboards and tiny sample tests",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh72iu/i_built_a_local_gpu_benchmark_server_for_4b_to/",
+      "published_at": "2026-10-27T22:35:47Z",
+      "summary": "Hi everyone, whenever I looked at existing LLM leaderboards I was missing practical numbers for running quantized open weight models on affordable local hardware. Most tables only copy vendor cloud scores or run tiny sub",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-27-new-audio-model-lfm3-audio-2b",
       "source": "localllama",
@@ -57,50 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-27-statistically-lossless-qwen38-27b-ggufs",
-      "source": "localllama",
-      "title": "Statistically Lossless Qwen3.8 27B GGUFs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh17tk/statistically_lossless_qwen38_27b_ggufs/",
-      "published_at": "2026-10-27T18:52:27Z",
-      "summary": "      Reposting just the HF link because author hid their analysis behind a paywall on their blog &amp; apparently want qwen3.8 FN to find an exploit on substack &amp; upload the contents of his blog to an alibaba server",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-27-real-time-video-captioning-with-lfm3-vl-2b-running-locally-i",
-      "source": "localllama",
-      "title": "Real-time video captioning with LFM3-VL-2B running locally in-browser on WebGPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh0otf/realtime_video_captioning_with_lfm3vl2b_running/",
-      "published_at": "2026-10-27T18:33:10Z",
-      "summary": "      Collection on HF: https://huggingface.co/collections/LiquidAI/lfm3 WebGPU demo: https://huggingface.co/spaces/webml-community/LFM3-VL-2B-WebGPU  &#32; submitted by &#32;  /u/xenovatech   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-27-lfm3-6-model-instances-across-text-audio-vision-and-omni-mod",
-      "source": "localllama",
-      "title": "LFM3: 6 model instances across text, audio, vision and omni modalities",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgys9p/lfm3_6_model_instances_across_text_audio_vision/",
-      "published_at": "2026-10-27T17:23:55Z",
-      "summary": "Liquid AI released LFM3 today, a new generation of their Liquid Foundation Models. - LFM3-1.7B: text, 256k context. #1 on the Pareto frontier of on-device intelligence. - LFM3-VL-2B: vision-language with video input for ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-27-openbmb-released-a-13b-ocr-model-and-a-separate-2b-model-to",
-      "source": "localllama",
-      "title": "OpenBMB released a 1.3B OCR model and a separate 2B model to check its work",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgyqbb/openbmb_released_a_13b_ocr_model_and_a_separate/",
-      "published_at": "2026-10-27T17:21:53Z",
-      "summary": "      A PDF turning into clean Markdown doesn&#39;t mean all the numbers survived the trip. OpenBMB just released MiniCPM-OCR 1.0, a 1.3B model for parsing Chinese and English documents, alongside MiniCPM-OCR Jev, a 2B m",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-10-27-build-specialized-multimodal-models-with-lfm3",
       "source": "huggingface",
       "title": "Build specialized multimodal models with LFM3",
@@ -109,50 +153,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-27-liquidailfm3-17b-hugging-face",
-      "source": "localllama",
-      "title": "LiquidAI/LFM3-1.7B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgy8s3/liquidailfm317b_hugging_face/",
-      "published_at": "2026-10-27T17:04:16Z",
-      "summary": "      https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF from liquidAI: LFM3-1.7B is a text model for local agents and specialized applications, based on our new tri-hybrid architecture.  Agentic training: post-trained for a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-27-i-am-a-king-but-local",
-      "source": "localllama",
-      "title": "I am a King, but local 😂",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgy5ic/i_am_a_king_but_local/",
-      "published_at": "2026-10-27T17:01:06Z",
-      "summary": "      I am feeling like a mighty local King spinning two Strata engines with 70tps each whole day and using 12M tokens a day. Also me scrolling twitter and stumbling upon a post saying that poteto uses 34M tokens per min",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-27-has-anybody-here-noticed-that-the-hit-piece-from-cohere-on-o",
-      "source": "localllama",
-      "title": "Has anybody here noticed that the hit piece from Cohere on open models came out the same day that Anthropic filed IPO ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgxpg9/has_anybody_here_noticed_that_the_hit_piece_from/",
-      "published_at": "2026-10-27T16:45:18Z",
-      "summary": "I am sure it is just coincident guys. I need to stop noticing things darn it /s.  &#32; submitted by &#32;  /u/Boogertard   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-27-a-13b-ocr-model-just-hit-9368-on-real-world-document-parsing",
-      "source": "localllama",
-      "title": "A 1.3B OCR model just hit 93.68 on real-world document parsing and there's now an AI judge for OCR errors",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgx26j/a_13b_ocr_model_just_hit_9368_on_realworld/",
-      "published_at": "2026-10-27T16:21:51Z",
-      "summary": "      Most OCR models focus on reading documents. MiniCPM-OCR adds a second piece: a model that checks whether the OCR result is actually trustworthy. OpenBMB just released two open-source models:  MiniCPM-OCR 1.0 (1.3B)",
-      "tags": [
-        "localllama"
       ]
     },
     {
