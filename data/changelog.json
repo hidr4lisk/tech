@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-28T22:23:39Z",
+  "updated_at": "2026-10-29T05:08:31Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11977",
+      "project": "llama-cpp",
+      "version": "b11977",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11977",
+      "published_at": "2026-10-29T04:42:17Z",
+      "body_excerpt": "ggml-openvino: slice view inputs of SCALE (#31334) SCALE now accepts a src0 view with arbitrary row strides. translate_scale used the raw input, and on the dynamic path a VIEW translates to its whole source tensor, so a strided view input scaled the entire source. The model output then had the source's size, and copying it back overran the result buffer, which crashes test-backend-ops on the SCALE",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11976",
+      "project": "llama-cpp",
+      "version": "b11976",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11976",
+      "published_at": "2026-10-29T02:28:08Z",
+      "body_excerpt": "Hexagon: IM2COL improvement - block based HVX parallelization (#31050) hexagon: IM2COL over multiple threads with output-col blocks Assisted-by: Claude Opus 5.5 hex-im2col: fix padding handling hex-im2col: loop unroll common cases --------- Co-authored-by: Max Krasnyansky Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Inte",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11972",
+      "project": "llama-cpp",
+      "version": "b11972",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11972",
+      "published_at": "2026-10-28T22:50:47Z",
+      "body_excerpt": "common, mtmd: bound control vector layer indices and M-RoPE position loops (#31336) common: bound control vector layer indices by the model layer count A direction tensor layer index is parsed from the tensor name with no upper bound, and the buffer size and write offset are computed in int. A large index overflows both, so the accumulation writes before the start of the buffer. Pass the model lay",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11971",
+      "project": "llama-cpp",
+      "version": "b11971",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11971",
+      "published_at": "2026-10-28T22:25:16Z",
+      "body_excerpt": "opencl: add tiled q4_k GEMM for adreno (#30412) opencl: run the tiled q4_K lm_head through a tiled GEMM at batch > 1 opencl: split tiled dp4a q4_k gemm into its own file and test for dp4a Assisted-by: Codex --------- Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubu",
+      "type": "tool"
+    },
     {
       "id": "hf-ibm-granite-granite-speech-5.0-2b-ONNX",
       "project": "ibm-granite",
@@ -35,6 +71,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
       "published_at": "2026-10-28T19:55:04Z",
       "body_excerpt": "What's Changed llm: LFM3 GGUF fixes and llama-server speech by @dhiltgen in llama.cpp: version bump b11963 by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.13",
+      "project": "ollama",
+      "version": "v0.40.13",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13",
+      "published_at": "2026-10-28T19:55:04Z",
+      "body_excerpt": "LFM3 on Linux and Windows Liquid AI's LFM3 models, including text-to-speech in lfm3-audio and lfm3-omni, now run on Linux and Windows as well as Apple silicon. Full Changelog:",
       "type": "tool"
     },
     {
