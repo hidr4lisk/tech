@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-28T22:23:31Z",
+  "updated_at": "2026-10-29T05:08:23Z",
   "items": [
+    {
+      "id": "localllama-2026-10-29-update-benchmark-basalts-new-prs-strata-fork-new-record-iq3",
+      "source": "localllama",
+      "title": "[Update Benchmark] Basalt's new PRs (Strata fork) new record IQ3_S Qwen3.8 Flash Next on single RTX 5080 and 51 GB RAM with 5500 tok/s prompt processing and up to 275 tok/s peak generation (during opencode coding live session)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi9sfl/update_benchmark_basalts_new_prs_strata_fork_new/",
+      "published_at": "2026-10-29T03:57:02Z",
+      "summary": "      Code and tool calls can peak up to 275 tok/s - Reasoning traces up to 190 tok/s  Hardware: 5080 16GB PCIe gen5x16, 64 DDR5 6400, Core Ultra 9 285K  https://github.com/jesdga95/basalt  Some PRs for the optimizations",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-29-yeasahqwen38-27b-exl3-quants---lowest-kld-of-00002",
+      "source": "localllama",
+      "title": "yeasah/Qwen3.8-27B-exl3 quants - lowest KLD of 0.0002",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi9ctj/yeasahqwen3827bexl3_quants_lowest_kld_of_00002/",
+      "published_at": "2026-10-29T03:33:59Z",
+      "summary": "Noticed this new EXL3 quant of 3.8-27B which achieves lowest KLD than anyone else and does it using only 18.8 GiB VRAM for weights. Pretty impressive numbers! https://huggingface.co/yeasah/Qwen3.8-27B-exl3   maker quant ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-29-qwen4-1m-context-window",
+      "source": "localllama",
+      "title": "Qwen4 1M context window",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
+      "published_at": "2026-10-29T01:42:55Z",
+      "summary": "      Qwen4 models will have a 1 million context window. Qwen4-27B was not mentioned here, but should be announced at Apsara netherlands tommorow. We have a date for Qwen4-max, it is November 1st. Edit: It says October 1",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-29-5-frontier-llms-grade-39-local-llms-on-50-prompts",
+      "source": "localllama",
+      "title": "5 Frontier LLM's grade 39 local LLM's on 50 prompts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi6edm/5_frontier_llms_grade_39_local_llms_on_50_prompts/",
+      "published_at": "2026-10-29T01:10:56Z",
+      "summary": "      This is just something i had running for about 10-20 hours (kept adding models), various tests/benchmarks and had 4 (Claude kind of graded, his tokens are too precious) frontier LLM&#39;s grade the answers of the l",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-28-quoting-ted-sanders",
+      "source": "simonw",
+      "title": "Quoting Ted Sanders",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+      "published_at": "2026-10-28T23:23:21Z",
+      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the varia",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-28-electronics-hobbyist-converts-120-ddr5-sodimm-kit-into-1000",
+      "source": "localllama",
+      "title": "Electronics hobbyist converts $120 DDR5 SODIMM kit into ‘$1000’ desktop kit to fight RAM crisis — ICs from SK hynix DDR5-5600 16GB modules used to create DDR5-7800 desktop sticks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi3l9r/electronics_hobbyist_converts_120_ddr5_sodimm_kit/",
+      "published_at": "2026-10-28T23:08:15Z",
+      "summary": "      So just read this article and had a couple questions about this as I have not much experience in this. Maybe the more experience people may be able to explain it better. Is this a viable path to upgrade hardware at",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-28-i-ran-doom-inside-the-qwen-model-weights",
+      "source": "localllama",
+      "title": "I ran Doom inside the Qwen model weights!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi2jfm/i_ran_doom_inside_the_qwen_model_weights/",
+      "published_at": "2026-10-28T22:24:32Z",
+      "summary": "      Inspired by the qwenputer project posted in this sub earlier today, I managed to get a basic version of Doom running on the virtual machine created in the post. It&#39;s quite slow, but here we are. Doom running on",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-28-single-neuron-identity-shifts",
+      "source": "localllama",
+      "title": "Single-Neuron Identity Shifts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi25sk/singleneuron_identity_shifts/",
+      "published_at": "2026-10-28T22:09:19Z",
+      "summary": "These guys are running a pretty interesting experiment: https://neuronpersonas.com/ Credit where it&#39;s due, I came across it here: https://news.ycombinator.com/item?id=50266910 Basically, they&#39;re tweaking one sing",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-28-models-are-chasing-unrealistic-benchmarks-but-the-working-le",
       "source": "localllama",
@@ -57,39 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-28-nvidia-rtx-5080-is-now-selling-for-nearly-2000-at-us-retaile",
-      "source": "localllama",
-      "title": "NVIDIA RTX 5080 is now selling for nearly $2,000 at US retailers, $800 higher in just two months",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhu4q8/nvidia_rtx_5080_is_now_selling_for_nearly_2000_at/",
-      "published_at": "2026-10-28T17:12:41Z",
-      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-28-mac-studio-m5-ultra-512gb-starts-at-2229900-usd",
-      "source": "localllama",
-      "title": "Mac Studio M5 Ultra 512gb Starts at $22,299.00 USD",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhu3b0/mac_studio_m5_ultra_512gb_starts_at_2229900_usd/",
-      "published_at": "2026-10-28T17:11:16Z",
-      "summary": "      &#32; submitted by &#32;  /u/Boomfrag   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-28-list-of-suggestions-for-gemma-5",
-      "source": "localllama",
-      "title": "List of suggestions for Gemma 5.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhtg61/list_of_suggestions_for_gemma_5/",
-      "published_at": "2026-10-28T16:48:46Z",
-      "summary": "      Recently Omar Sanseviero asked for suggestions on Twitter for future Gemma models. Here is my take on this:   Gemma 5 should be a looped transformer.  Being a looped transformer with configurable loop depth will ad",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-10-28-github-octoverse-2026",
       "source": "simonw",
       "title": "GitHub Octoverse 2026",
@@ -98,50 +153,6 @@
       "summary": "GitHub Octoverse 2026\nI'm at GitHub Universe today (GitHub gave  me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in partic",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-28-i-tested-stratas-routing-optimizations-with-qwen-38fn-iq3-s",
-      "source": "localllama",
-      "title": "I tested Strata's routing optimizations with Qwen 3.8FN IQ3_S in coding, math, and instruction following",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhtbh5/i_tested_stratas_routing_optimizations_with_qwen/",
-      "published_at": "2026-10-28T16:44:00Z",
-      "summary": "As of version 0.2.7.1 Strata has two routing optimizations that can affect both performance and quality. I was curious what the actual impact was so I ran some tests on my hardware with Qwen 3.8 Flash Next IQ3_S. STRATA_",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-28-it-vendor-lists-massive-60-million-ai-supercomputer-on-ebay",
-      "source": "localllama",
-      "title": "IT vendor lists massive $60 million AI supercomputer on eBay with 9,600 Nvidia A100 GPUs and 4,200 AMD EPYC CPUs, plus free shipping — 300 racks of decommissioned GPUs on offer",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhsvmy/it_vendor_lists_massive_60_million_ai/",
-      "published_at": "2026-10-28T16:28:00Z",
-      "summary": "      Anyone want to chip in a cool $60m for me?  &#32; submitted by &#32;  /u/giveen   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-28-working-on-a-way-for-local-llms-to-share-context-without-cen",
-      "source": "localllama",
-      "title": "Working on a way for local LLMs to share context without centralizing everything",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhsj1i/working_on_a_way_for_local_llms_to_share_context/",
-      "published_at": "2026-10-28T16:15:29Z",
-      "summary": "A few of us have been messing around with a problem that keeps coming up with local LLMs the model can be private, the files can be local but the second multiple people or multiple machines need the same context everythi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-28-alternatives-to-artificial-analysis",
-      "source": "localllama",
-      "title": "Alternatives to Artificial Analysis",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhse0l/alternatives_to_artificial_analysis/",
-      "published_at": "2026-10-28T16:10:30Z",
-      "summary": "I share this sub&#39;s sentiment that it&#39;s suspicious how Artificial Analysis changes their metrics whenever a good open model or IPO seems to come about. What alternatives do you all recommend?  &#32; submitted by &",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -373,17 +384,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-22-quoting-armin-ronacher",
-      "source": "simonw",
-      "title": "Quoting Armin Ronacher",
-      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
-      "published_at": "2026-10-22T15:34:13Z",
-      "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.\n&mdash; Armin Ronacher\n\n    Tags: security, generative-ai, armin-ronacher, ai, ai-security-researc",
-      "tags": [
-        "simonw"
       ]
     },
     {
