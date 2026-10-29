@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-29T12:37:59Z",
+  "updated_at": "2026-10-29T22:36:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11988",
+      "project": "llama-cpp",
+      "version": "b11988",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11988",
+      "published_at": "2026-10-29T20:53:51Z",
+      "body_excerpt": "model : Support Limite 1B - Violetto (#29433) gguf-py : add Limite arch Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano convert : add Limite support Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano llama : add Limite support Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano --------- Signed-off-by: Giuseppe Scrivano Website: Attestations: macOS/iOS: macOS App",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11986",
+      "project": "llama-cpp",
+      "version": "b11986",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11986",
+      "published_at": "2026-10-29T20:16:04Z",
+      "body_excerpt": "opencl: initial support for iq2 (#31267) opencl: add iq2_s AOS mv opencl: add iq2_s SOA mv and tiled mm opencl: add iq2_s noshuffle gemm/gemv for adreno opencl: add iq2_s dp4a for adreno opencl: optimize iq2_s adreno decode and narrow batches Co-authored-by: Hongqiang Wang opencl: add iq2_xs AOS mv opencl: add iq2_xs SOA mv and tiled mm opencl: add iq2_xs noshuffle gemm/gemv for adreno opencl: add",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11985",
+      "project": "llama-cpp",
+      "version": "b11985",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11985",
+      "published_at": "2026-10-29T17:10:01Z",
+      "body_excerpt": "metal : faster MXFP4 mat-vec, full threadgroups for unary/binary/GLU (#31075) metal : faster MXFP4 mat-vec kernel Decode the fp4 values with the fp16 bit trick instead of a threadgroup lookup table, and load the packed nibbles as aligned 32-bit words. The kernel no longer uses threadgroup memory. metal : launch contiguous unary and binary ops with full threadgroups The contiguous unary path and th",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.22.0",
+      "project": "transformers",
+      "version": "v5.22.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
+      "published_at": "2026-10-29T14:15:39Z",
+      "body_excerpt": "New Models Mistral Large 4 (Le Chonk) Mistral Large 4 is Mistral's largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own datacenters in Europe. Mistral Large 4 unifies instru",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11982",
       "project": "llama-cpp",
@@ -2421,6 +2457,15 @@
       "published_at": "2026-10-16T00:18:22Z",
       "body_excerpt": "model: add Muse Spark Open (text, vision and audio) (#30616) model: add Muse Spark Open (text, vision and audio) Muse Spark Open is a latent space MoE: the residual stream stays at 8192 while the 256 experts live in 4096, with a projection down and up around them, top-8 sigmoid routing with a correction bias. Attention interleaves three sliding layers at a 2048 window with rope for one global laye",
       "type": "tool"
+    },
+    {
+      "id": "hf-mistralai-Mistral-Large-4-1T-A52B-NVFP4",
+      "project": "mistralai",
+      "version": "Mistral-Large-4-1T-A52B-NVFP4",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B-NVFP4",
+      "published_at": "2026-10-15T19:09:41Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "unsloth-v0.1.908-beta",
@@ -5364,6 +5409,15 @@
       "published_at": "2026-09-30T18:50:02Z",
       "body_excerpt": "ci : fix Models Backend Check by shortening the hrm_text fixture (#29744) The fixture recycles its two blocks over 8 cache slots, so the fp16 error builds up past the 1e-4 NMSE bound on the Vulkan T4 and WebGPU jobs of Models Backend. Two l-cycles keep every branch of the cycle loop and halve the error. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
       "type": "tool"
+    },
+    {
+      "id": "hf-mistralai-Mistral-Large-4-1T-A52B",
+      "project": "mistralai",
+      "version": "Mistral-Large-4-1T-A52B",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "published_at": "2026-09-30T18:35:13Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11294",
@@ -13616,123 +13670,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10217",
       "published_at": "2026-08-01T06:50:00Z",
       "body_excerpt": "chat : enable tool call in thinking for DS4 (#26269) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10216",
-      "project": "llama-cpp",
-      "version": "b10216",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10216",
-      "published_at": "2026-07-31T22:04:52Z",
-      "body_excerpt": "vulkan: add POOL_1D op (#25431) vulkan : add pool1d push constants and pipeline field Declared data structures needed for POOL1D OP, which are the vk_op_pool1d_push_constants struct and pipeline_pool1d_f32 field. vulkan : add pool1d compute shader Added pool1d.comp for Vulkan backend mirroring the existing pool2d shader. vulkan : add full GGML_OP_POOL_1D support Added pipeline creation and op disp",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10215",
-      "project": "llama-cpp",
-      "version": "b10215",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10215",
-      "published_at": "2026-07-31T21:31:40Z",
-      "body_excerpt": "vulkan: Introduce driver version check for Windows Intel GPU to mitigate crashing (#25192) Removed crash guard for Intel Crash fixed from driver 32.0.101.8860 Added driver version check for windows Change to convert from driverVersion rather than string No need to use signed Refactor allow GPU other than Xe2+ adjusted function body position Website: macOS/iOS: macOS Apple Silicon (arm64) macOS App",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10214",
-      "project": "llama-cpp",
-      "version": "b10214",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10214",
-      "published_at": "2026-07-31T20:46:09Z",
-      "body_excerpt": "mtmd: add n_embd_head (#26342) Co-authored-by: Daniel Han Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10213",
-      "project": "llama-cpp",
-      "version": "b10213",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10213",
-      "published_at": "2026-07-31T20:10:00Z",
-      "body_excerpt": "Support rotated kv cache quant (#26180) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10212",
-      "project": "llama-cpp",
-      "version": "b10212",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10212",
-      "published_at": "2026-07-31T19:25:45Z",
-      "body_excerpt": "llama : load MTP tensors only if they are really used (#26296) llama : load MTP tensors only if they are really used llama : skip loading MTP (if not used) in remaining models that support MTP --------- Co-authored-by: Stanisław Szymczyk Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) U",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10211",
-      "project": "llama-cpp",
-      "version": "b10211",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10211",
-      "published_at": "2026-07-31T18:49:45Z",
-      "body_excerpt": "vulkan: update vulkan sdk to 1.4.357.0 (#26303) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10210",
-      "project": "llama-cpp",
-      "version": "b10210",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10210",
-      "published_at": "2026-07-31T18:10:12Z",
-      "body_excerpt": "server: correct accepted tokens when need draft token replay (#26320) spec: correct accepted tokens when need draft token replay cont : naming --------- Co-authored-by: Georgi Gerganov Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulk",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10209",
-      "project": "llama-cpp",
-      "version": "b10209",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10209",
-      "published_at": "2026-07-31T17:29:12Z",
-      "body_excerpt": "cuda: extract Q2_0 elements via __byte_perm (#25603) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10208",
-      "project": "llama-cpp",
-      "version": "b10208",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10208",
-      "published_at": "2026-07-31T16:02:42Z",
-      "body_excerpt": "SYCL: add oneMKL GEMM flash attention for XMX-accelerated prompt proc… (#25025) SYCL: add oneMKL GEMM flash attention for XMX-accelerated prompt processing fattn-mkl: fix interleaved dst layout in normalize kernel Fix mkl_fa_normalize_head: use interleaved dst layout ((query n_q_heads + head) DV) matching TILE's flash_attn_combine_results. Previously used dense head-major layout which wrote head o",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10207",
-      "project": "llama-cpp",
-      "version": "b10207",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10207",
-      "published_at": "2026-07-31T15:12:45Z",
-      "body_excerpt": "[SYCL] support the missed types in cpy (#26005) support the missed types in cpy use correct funct rm unused code Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ub",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10206",
-      "project": "llama-cpp",
-      "version": "b10206",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10206",
-      "published_at": "2026-07-31T14:24:57Z",
-      "body_excerpt": "llama : enforce the same K and V cache types for DeepSeek V4; enable FA if V cache is quantized (#25871) llama : enforce the same K and V cache types for DeepSeek V4; enable FA if V cache is quantized llama : enforce the same K and V cache types for MLA models --------- Co-authored-by: Stanisław Szymczyk Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10205",
-      "project": "llama-cpp",
-      "version": "b10205",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10205",
-      "published_at": "2026-07-31T13:26:25Z",
-      "body_excerpt": "ggml-zendnn : group matmul direct API for mul_mat_id (#25918) ggml-zendnn : group matmul API for mul_mat_id ggml-zendnn : scale MUL_MAT_ID fallback threshold by expert count Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10204",
-      "project": "llama-cpp",
-      "version": "b10204",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10204",
-      "published_at": "2026-07-31T12:45:21Z",
-      "body_excerpt": "sycl : support dev2dev memcpy by DEV2DEV_MEMCPY_FORWARD (#26234) Co-authored-by: Neo Zhang Jianyu Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL ",
       "type": "tool"
     }
   ]
