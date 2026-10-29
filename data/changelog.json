@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-10-29T05:08:31Z",
+  "updated_at": "2026-10-29T12:37:59Z",
   "releases": [
+    {
+      "id": "llama-cpp-b11982",
+      "project": "llama-cpp",
+      "version": "b11982",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11982",
+      "published_at": "2026-10-29T12:17:04Z",
+      "body_excerpt": "hexagon: support for UPSCALE op (#31331) hex-upscale: basic upscale ops (not fully vectorized) hex-upscale: optimize nearest 2x, 4x and bilinear 4x hex-upscale: add support for non-contig rows and dims collapsing hex-upscale: use vgather instead of scalar staging hex-upscale: move all kernel select logic to the host, review comments and cleanups tests: add permuted UPSCALE test to cover qwen3-vl i",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.21.1",
+      "project": "transformers",
+      "version": "v5.21.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.21.1",
+      "published_at": "2026-10-29T08:35:02Z",
+      "body_excerpt": "Patch release v5.21.1 ** Fix rope_scaling setter for configs that assign it during init (#50080 ) We broke remote code loading in vllm, this fixes it sorry everyone!",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11981",
+      "project": "llama-cpp",
+      "version": "b11981",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11981",
+      "published_at": "2026-10-29T08:11:44Z",
+      "body_excerpt": "hexagon: improve DDR bw utilization in transposed CONCAT (#31277) hex-concat: double row block size for transposed CONCAT hex-concat: double buffer scratchpads hex-concat: chunked src1 rows in transposed concat hex-concat: pad src1 VTCM stride to spread gather lanes hex-vgather: apply similar vgather opts to SSM_CONV and GDN --------- Co-authored-by: Max Krasnyansky Website: Attestations: macOS/iO",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11980",
+      "project": "llama-cpp",
+      "version": "b11980",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11980",
+      "published_at": "2026-10-29T07:10:47Z",
+      "body_excerpt": "[SYCL] add DPAS flash attention kernel for quantized KV cache (#31125) sycl : add DPAS flash attention kernel for quantized KV cache Decode and small batches (1 to 31 query tokens) now run flash attention straight on q4_0 and q8_0 KV blocks, instead of scalar dequant or converting the whole cache to f16 per call. Q.K uses s8 x s4 and s8 x s8 DPAS on XMX, V.P stays f16. dpas.s4.s8 is inline vISA si",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11979",
+      "project": "llama-cpp",
+      "version": "b11979",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11979",
+      "published_at": "2026-10-29T06:45:13Z",
+      "body_excerpt": "sycl : vectorize reordered-layout dequantization stores (Q4_0, K-quants, IQ3, MXFP4) (#30976) sycl : widen reordered q4_0 dequantization stores The reordered-layout Q4_0 conversion kernel processed one qs byte per work-item with two scalar stores, strided 16 elements apart. Give it the same treatment the Q8_0 kernel got in #30775: a flat sycl::range launch with four qs bytes (8 outputs) per work-i",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11978",
+      "project": "llama-cpp",
+      "version": "b11978",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11978",
+      "published_at": "2026-10-29T05:39:55Z",
+      "body_excerpt": "tests : fix comp_padding CUDA graph reservation (#31344) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 1",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11977",
       "project": "llama-cpp",
@@ -13680,42 +13734,6 @@
       "published_at": "2026-07-31T12:45:21Z",
       "body_excerpt": "sycl : support dev2dev memcpy by DEV2DEV_MEMCPY_FORWARD (#26234) Co-authored-by: Neo Zhang Jianyu Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL ",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10203",
-      "project": "llama-cpp",
-      "version": "b10203",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10203",
-      "published_at": "2026-07-31T12:14:34Z",
-      "body_excerpt": "[SYCL] Support q2 mul_mat (#26231) support q2_0 in mul_mat support more q2_0 case Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10202",
-      "project": "llama-cpp",
-      "version": "b10202",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10202",
-      "published_at": "2026-07-31T11:41:04Z",
-      "body_excerpt": "sycl: fuse RMS_NORM + MUL (#26015) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windo",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10201",
-      "project": "llama-cpp",
-      "version": "b10201",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10201",
-      "published_at": "2026-07-31T09:45:49Z",
-      "body_excerpt": "ggml-webgpu: improve flash_attn_vec for quantized KV at long contexts (#25956) improve fa of quantized kv cache Fix some bugs and some comments. fix v type check and some comments Fix build error caused by rebasing editorconfig checking pass Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CP",
-      "type": "tool"
-    },
-    {
-      "id": "hf-deepseek-ai-DeepSeek-V4-Flash-0731",
-      "project": "deepseek-ai",
-      "version": "DeepSeek-V4-Flash-0731",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-      "published_at": "2026-07-31T07:30:24Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
