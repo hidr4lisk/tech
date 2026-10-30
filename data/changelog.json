@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-29T22:36:37Z",
+  "updated_at": "2026-10-30T05:08:08Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12000",
+      "project": "llama-cpp",
+      "version": "b12000",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12000",
+      "published_at": "2026-10-30T04:25:42Z",
+      "body_excerpt": "Quant: OCP FP8 E4M3 support (#27512) WIP OCP FP8 E4M3 support Fix python type-checker Materialize input_scales also for FP8 when converting Fix conversion of 1. Per row FP8 wrongly fell to NVFP4 conversion, as NVFP4 checked on dims alone. Also check on dtype for FP8 2. Need to reshape FP8 QKV projections scales in the same way that weights are reshaped Allow remaining FP8 tensors to be dequantized",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11998",
+      "project": "llama-cpp",
+      "version": "b11998",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11998",
+      "published_at": "2026-10-30T01:11:38Z",
+      "body_excerpt": "model: mistral le chonk (#31376) llama: extend DSA and sdpark to new model fix ci Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b11997",
+      "project": "llama-cpp",
+      "version": "b11997",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11997",
+      "published_at": "2026-10-30T00:50:59Z",
+      "body_excerpt": "llama : reuse the tensor staging buffer and skip the direct-io bounce buffer (#31321) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b11988",
       "project": "llama-cpp",
