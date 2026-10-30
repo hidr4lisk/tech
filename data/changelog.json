@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-10-30T05:08:08Z",
+  "updated_at": "2026-10-30T12:28:49Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12004",
+      "project": "llama-cpp",
+      "version": "b12004",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12004",
+      "published_at": "2026-10-30T12:16:05Z",
+      "body_excerpt": "common : end reasoning budget forcing on an end tag from the prompt (#31374) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-Mage-VL-Cowork",
+      "project": "microsoft",
+      "version": "Mage-VL-Cowork",
+      "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+      "published_at": "2026-10-30T12:13:24Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b12003",
+      "project": "llama-cpp",
+      "version": "b12003",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12003",
+      "published_at": "2026-10-30T11:46:38Z",
+      "body_excerpt": "sycl: FLASH_ATTN_EXT failures (#30761) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12002",
+      "project": "llama-cpp",
+      "version": "b12002",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12002",
+      "published_at": "2026-10-30T11:00:32Z",
+      "body_excerpt": "ggml : add batched tensor copy API (#30881) ggml : add generic batched tensor copy API Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : use batched tensor copy API in context io Assisted-by: pi:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) ggml : add batched tensor copy API Assisted-by: pi:llama.cpp/ggml",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.22.1",
+      "project": "transformers",
+      "version": "v5.22.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.1",
+      "published_at": "2026-10-30T09:36:03Z",
+      "body_excerpt": "Patch release v5.22.1 We just had to fix the documentation! ** [Fix] Remove WIP doc for Ml4 ( from @remi-or",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12001",
+      "project": "llama-cpp",
+      "version": "b12001",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12001",
+      "published_at": "2026-10-30T07:41:34Z",
+      "body_excerpt": "ROCm/HIP: add RDNA4_M family for gfx1170/gfx1171 (#31373) gfx117X is more like RDNA4, with 128b WMMA. But they're not identical. Adjust the defines accordingly to have a new RDNA4_M and use it where it makes sense. Assisted-by: Codex Assisted-by: GitHub Copilot Co-authored-by: Mario Limonciello Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabl",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12000",
       "project": "llama-cpp",
@@ -13679,24 +13733,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10218",
       "published_at": "2026-08-01T12:46:12Z",
       "body_excerpt": "mtmd: add minicpmv46 downsample (#25993) add minicpmv46 downsample Signed-off-by: tc-mb put downsample mode inside gguf. Signed-off-by: tc-mb build mtmd_image_preprocessor_llava_uhd Signed-off-by: tc-mb fix code Signed-off-by: tc-mb add convert Signed-off-by: tc-mb add 4x ignore vit merger Signed-off-by: tc-mb --------- Signed-off-by: tc-mb Website: macOS/iOS: macOS Apple Silicon (arm64) macOS App",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
-      "published_at": "2026-08-01T06:55:21Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10217",
-      "project": "llama-cpp",
-      "version": "b10217",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10217",
-      "published_at": "2026-08-01T06:50:00Z",
-      "body_excerpt": "chat : enable tool call in thinking for DS4 (#26269) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
       "type": "tool"
     }
   ]
