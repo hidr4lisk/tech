@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-10-30T12:28:49Z",
+  "updated_at": "2026-10-30T22:05:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12017",
+      "project": "llama-cpp",
+      "version": "b12017",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12017",
+      "published_at": "2026-10-30T20:19:54Z",
+      "body_excerpt": "rpc : delete fs_path_to_utf8() (#31424) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - ",
+      "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-DeepSeek-V4.1-Flash-1017-NVFP4",
+      "project": "nvidia",
+      "version": "DeepSeek-V4.1-Flash-1017-NVFP4",
+      "url": "https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+      "published_at": "2026-10-30T17:37:02Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b12015",
+      "project": "llama-cpp",
+      "version": "b12015",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12015",
+      "published_at": "2026-10-30T16:06:05Z",
+      "body_excerpt": "common : delete fs_path_to_utf8() (#31423) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12014",
+      "project": "llama-cpp",
+      "version": "b12014",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12014",
+      "published_at": "2026-10-30T15:29:26Z",
+      "body_excerpt": "common : drop the Windows argv reconstruction (#31417) The manifest from #31329 already makes argv UTF-8. Fixes #26416 Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12012",
+      "project": "llama-cpp",
+      "version": "b12012",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12012",
+      "published_at": "2026-10-30T14:51:55Z",
+      "body_excerpt": "vendor : update cpp-httplib to 0.64.0 (#31400) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.913-beta",
+      "project": "unsloth",
+      "version": "v0.1.913-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.913-beta",
+      "published_at": "2026-10-30T14:46:03Z",
+      "body_excerpt": "Make Unsloth your own with custom backgrounds and a improved UI/UX. This release also cuts app update times and speeds up Linux app and Qwen-Image gen when VRAM is limited. Also new: DeepSeek-V4.1-Flash-1017 in Unsloth Dynamic v3.1 GGUFs (preview), FLUX.2-klein-9B on low-RAM machines, smoother chats and batched MoE fine-tuning. Highlights Custom backgrounds to personalize your chats (more customiz",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12008",
+      "project": "llama-cpp",
+      "version": "b12008",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12008",
+      "published_at": "2026-10-30T14:06:57Z",
+      "body_excerpt": "gemma3n, gemma4 : create token_embd before the tied output (#31394) The duplicated output looks up token_embd in its buffer context, so token_embd must exist first. With the old order a load where input and output share a buffer type (CPU-only, -ngl 0) held the table twice: gemma-4-E2B-it Q4_K_M, no mmap, CPU model buffer 3163.73 -> 2947.73 MiB. Website: Attestations: macOS/iOS: macOS Apple Silico",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12007",
+      "project": "llama-cpp",
+      "version": "b12007",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12007",
+      "published_at": "2026-10-30T13:50:33Z",
+      "body_excerpt": "kv-cache : keep rotation constants on the GPU (#31073) kv-cache : keep rotation constants on the GPU Assisted-by: Codex tests : verify resident KV rotation buffers Assisted-by: Codex kv-cache : document remaining multi-device rotation work Assisted-by: Codex kv-cache : support per-layer rotation buffers Assisted-by: Codex kv-cache : fix hybrid SWA rotation inputs and mixed placement check Assisted",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12005",
+      "project": "llama-cpp",
+      "version": "b12005",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12005",
+      "published_at": "2026-10-30T12:45:08Z",
+      "body_excerpt": "opencl: add initial q2_0 support (#31340) opencl: add q2_0 AOS mv Co-authored-by: Shaofei Qi Assisted-by: Codex opencl: add q2_0 SOA mv and tiled mm Co-authored-by: Shaofei Qi Assisted-by: Codex opencl: add q2_0 noshuffle gemm/gemv for adreno Assisted-by: Codex opencl: add q2_0 dp4a for adreno opencl: optimize q2_0 adreno decode and narrow batches --------- Co-authored-by: Li He Website: Attestati",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12004",
       "project": "llama-cpp",
@@ -5265,6 +5346,15 @@
       "published_at": "2026-10-01T18:00:01Z",
       "body_excerpt": "hex-workqueue: fix race condition in seqn getting out of sync with idx_read/write (#29785) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 ",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-UserLM-2.0",
+      "project": "microsoft",
+      "version": "UserLM-2.0",
+      "url": "https://huggingface.co/microsoft/UserLM-2.0",
+      "published_at": "2026-10-01T17:14:05Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "hf-ibm-granite-ensemble-forecasting-with-ibm-granite-time-series",
@@ -13706,33 +13796,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10223",
       "published_at": "2026-08-01T22:48:38Z",
       "body_excerpt": "test: fix some CI errors (#26415) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10221",
-      "project": "llama-cpp",
-      "version": "b10221",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10221",
-      "published_at": "2026-08-01T19:30:18Z",
-      "body_excerpt": "vendor : update BoringSSL to 0.20260730.0 (#26353) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10219",
-      "project": "llama-cpp",
-      "version": "b10219",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10219",
-      "published_at": "2026-08-01T16:46:07Z",
-      "body_excerpt": "cli : persist reasoning_content in chat history (#26362) cli : persist reasoning_content in chat history llama-cli collected reasoning from the stream for display but only stored assistant content in messages, so --reasoning-preserve could not re-inject prior thoughts on later turns. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10218",
-      "project": "llama-cpp",
-      "version": "b10218",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10218",
-      "published_at": "2026-08-01T12:46:12Z",
-      "body_excerpt": "mtmd: add minicpmv46 downsample (#25993) add minicpmv46 downsample Signed-off-by: tc-mb put downsample mode inside gguf. Signed-off-by: tc-mb build mtmd_image_preprocessor_llava_uhd Signed-off-by: tc-mb fix code Signed-off-by: tc-mb add convert Signed-off-by: tc-mb add 4x ignore vit merger Signed-off-by: tc-mb --------- Signed-off-by: tc-mb Website: macOS/iOS: macOS Apple Silicon (arm64) macOS App",
       "type": "tool"
     }
   ]
