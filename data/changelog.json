@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-10-30T22:05:25Z",
+  "updated_at": "2026-10-31T04:53:58Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12018",
+      "project": "llama-cpp",
+      "version": "b12018",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12018",
+      "published_at": "2026-10-31T02:21:58Z",
+      "body_excerpt": "sycl: fix f32 to q2_0/q4_0/q5_0 rounding in CPY (#31120) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libr",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12017",
       "project": "llama-cpp",
@@ -52,7 +61,7 @@
       "version": "v0.1.913-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.913-beta",
       "published_at": "2026-10-30T14:46:03Z",
-      "body_excerpt": "Make Unsloth your own with custom backgrounds and a improved UI/UX. This release also cuts app update times and speeds up Linux app and Qwen-Image gen when VRAM is limited. Also new: DeepSeek-V4.1-Flash-1017 in Unsloth Dynamic v3.1 GGUFs (preview), FLUX.2-klein-9B on low-RAM machines, smoother chats and batched MoE fine-tuning. Highlights Custom backgrounds to personalize your chats (more customiz",
+      "body_excerpt": "Make Unsloth your own with custom backgrounds and a improved UI/UX. This release also cuts app update times and speeds up Linux app and Qwen-Image gen when VRAM is limited. Also new: DeepSeek-V4.1-Flash-1017 in Unsloth Dynamic v3.1 GGUFs (preview), FLUX.2-klein-9B on low-RAM machines, smoother chats and batched MoE fine-tuning. Highlights Custom backgrounds to personalize your chats (+ move compos",
       "type": "tool"
     },
     {
@@ -13787,15 +13796,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10224",
       "published_at": "2026-08-02T07:03:53Z",
       "body_excerpt": "ggml-webgpu: add support for f16 repeat (#26307) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10223",
-      "project": "llama-cpp",
-      "version": "b10223",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10223",
-      "published_at": "2026-08-01T22:48:38Z",
-      "body_excerpt": "test: fix some CI errors (#26415) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
       "type": "tool"
     }
   ]
