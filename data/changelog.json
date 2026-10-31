@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-31T04:53:58Z",
+  "updated_at": "2026-10-31T11:57:05Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12020",
+      "project": "llama-cpp",
+      "version": "b12020",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12020",
+      "published_at": "2026-10-31T08:07:49Z",
+      "body_excerpt": "opencl: add fwht (#31434) Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12019",
+      "project": "llama-cpp",
+      "version": "b12019",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12019",
+      "published_at": "2026-10-31T05:19:26Z",
+      "body_excerpt": "chat : strip the think block in the qwen3-coder with reasoning_format none (#31380) chat : accept the think block in the qwen3-coder response format with reasoning_format none Assisted-by: Claude Opus 5.5 chat : define both qwen3-coder think block variants up front Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12018",
       "project": "llama-cpp",
@@ -13760,42 +13778,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10228",
       "published_at": "2026-08-02T13:28:43Z",
       "body_excerpt": "DeepseekV4 MTP + DSpark (#25784) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10227",
-      "project": "llama-cpp",
-      "version": "b10227",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10227",
-      "published_at": "2026-08-02T09:43:15Z",
-      "body_excerpt": "chat : add qwen3 specialized parser (#26252) Add tagged thinking tool parser chat : refactor and add permute helper cont : add support for omission cont : update tool delimiters cont : add comment for qwen3-coder cont : fix trigger pattern for Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10225",
-      "project": "llama-cpp",
-      "version": "b10225",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10225",
-      "published_at": "2026-08-02T08:30:08Z",
-      "body_excerpt": "model : load MiMo V2 MTP tensors only if used (#26412) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Andro",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10226",
-      "project": "llama-cpp",
-      "version": "b10226",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10226",
-      "published_at": "2026-08-02T08:15:11Z",
-      "body_excerpt": "sycl: fix classification of iGPUs (#26105) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CP",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10224",
-      "project": "llama-cpp",
-      "version": "b10224",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10224",
-      "published_at": "2026-08-02T07:03:53Z",
-      "body_excerpt": "ggml-webgpu: add support for f16 repeat (#26307) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
       "type": "tool"
     }
   ]
