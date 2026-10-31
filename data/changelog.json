@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T11:57:05Z",
+  "updated_at": "2026-10-31T17:10:51Z",
   "releases": [
     {
       "id": "llama-cpp-b12020",
@@ -13760,24 +13760,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10231",
       "published_at": "2026-08-02T18:14:07Z",
       "body_excerpt": "common: support the DSpark sidecar resolution (#26458) The dspark- files resolve like the other speculative sidecars: the -hfd tag applies to them, a requested sidecar resolves without a full model at the tag, and an explicit -md selection disables the discovery. When no type is requested, dspark outranks dflash in the auto-selection since its sidecar carries the extra Markov head. Website: macOS/",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10229",
-      "project": "llama-cpp",
-      "version": "b10229",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10229",
-      "published_at": "2026-08-02T14:31:29Z",
-      "body_excerpt": "opencl: bugfix increment ref_count in ggml_backend_opencl_init() (#26162) Incrementing at the beginning is important later in the method of the at program end. If we do not increment the , the result would be -1 here, and consequently, the profiling data would not be flushed and written. ( #ifdef GGML_OPENCL_PROFILING ) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kl",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10228",
-      "project": "llama-cpp",
-      "version": "b10228",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10228",
-      "published_at": "2026-08-02T13:28:43Z",
-      "body_excerpt": "DeepseekV4 MTP + DSpark (#25784) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows",
       "type": "tool"
     }
   ]
