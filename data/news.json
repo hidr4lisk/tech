@@ -1,6 +1,116 @@
 {
-  "updated_at": "2026-11-01T05:20:58Z",
+  "updated_at": "2026-11-01T12:56:58Z",
   "items": [
+    {
+      "id": "localllama-2026-11-01-deepseek-exploring-super-agent-design-towards-a-more-autonom",
+      "source": "localllama",
+      "title": "DeepSeek: Exploring Super-agent Design: Towards a More Autonomous Agent System",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl1zn3/deepseek_exploring_superagent_design_towards_a/",
+      "published_at": "2026-11-01T12:36:14Z",
+      "summary": "      DeepSeek Harness article on 𝕏: Exploring Super-agent Design: Towards a More Autonomous Agent System: https://x.com/DeepSeekHarness/status/2116857257245987236 Parts of the design in this article are implemented in d",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-are-bespoke-inference-engines-overhyped-my-strata-experience",
+      "source": "localllama",
+      "title": "Are bespoke inference engines overhyped? My Strata experience on 2× R9700",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl0oqz/are_bespoke_inference_engines_overhyped_my_strata/",
+      "published_at": "2026-11-01T11:24:34Z",
+      "summary": "My intention was to find a setup at least equal to qwen 3.8 27b Q8 MTP but with a larger context. Ideally 1M. I was already running Next Flash in Q2 with llama. Good for conversational use but not for coding. Q4 would ru",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-new-research-a-tiny-109m-parameter-model-outperforms-models",
+      "source": "localllama",
+      "title": "new research: A tiny 109M-parameter model outperforms models up to 72B parameters at image-text alignment, using 42× less training data",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkzony/new_research_a_tiny_109mparameter_model/",
+      "published_at": "2026-11-01T10:24:21Z",
+      "summary": "&#32; submitted by &#32;  /u/Lazylion2   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-am-i-crazy-or-glm-53-flash-is-hilarious",
+      "source": "localllama",
+      "title": "Am I Crazy Or GLM 5.3 Flash is Hilarious?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkz4mo/am_i_crazy_or_glm_53_flash_is_hilarious/",
+      "published_at": "2026-11-01T09:49:38Z",
+      "summary": "I am sorry for the useless thread, but I finally loaded GLM 5.3 Flash IQ4-XS and didn&#39;t know what to expect. I was earlier trying out DeepSeek 4.1 Flash 1017 IQ2 and Qwen 3.8 Flash and while I was chatting with them ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-glm-53-flash-on-our-h200s-does-most-of-my-coding-now-while-g",
+      "source": "localllama",
+      "title": "GLM-5.3-Flash on our H200s does most of my coding now while GPT-6.1 Sol orchestrates (OpenCode setup)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkz4lf/glm53flash_on_our_h200s_does_most_of_my_coding/",
+      "published_at": "2026-11-01T09:49:34Z",
+      "summary": "      I had been trying this setup for a couple of weeks and it working better than I expected. Recently, I deployed GLM-5.3-Flash (MoE, 320B total, 18B active) on one of our local H200 servers (4 GPUs) with a 512K conte",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-age-of-the-bespoke-engines",
+      "source": "localllama",
+      "title": "Age of the bespoke engines?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xky7p0/age_of_the_bespoke_engines/",
+      "published_at": "2026-11-01T08:50:57Z",
+      "summary": "When I started, and for some time, llama.cpp was the answer. Now, it seems like llama.cpp is the new ollama. It&#39;s slow and out of date and just behind. There was Ninfee for those for whom that applied. Then strata ca",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-memdoor-a-team-of-5-qwen38-27b-models-beats-fable-5-on-livec",
+      "source": "localllama",
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/",
+      "published_at": "2026-11-01T08:24:18Z",
+      "summary": "&#32; submitted by &#32;  /u/PferdOne   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-finedna-the-largest-dataset-to-teach-any-llm-dna-midtraining",
+      "source": "localllama",
+      "title": "FineDNA: the largest dataset to teach any LLM DNA (midtraining, SFT, RL)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/",
+      "published_at": "2026-11-01T07:24:09Z",
+      "summary": "      Hi everyone, we&#39;re releasing FineDNA, all the data we used to turn Qwen3-14B into Carbon-X, the strongest open language model on DNA. It contains:  Midtraining: 300B+ tokens of genomes and DNA-rich text SFT: ~2",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-rented-some-server-time-and-wanted-to-share-some-learnings-f",
+      "source": "localllama",
+      "title": "Rented some server time and wanted to share some learnings from benching using RAM heavier servers with some decent GPU: AMD EPYC and ROME motherboards really *ARE* worth it: Qwen 3.8 Flash Next Unsloth Q8 at 94 tok/s c=1, 456 tok/s c=8 .",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkvp10/rented_some_server_time_and_wanted_to_share_some/",
+      "published_at": "2026-11-01T06:09:18Z",
+      "summary": "Raw data in the comments, if you go for that sort of thing. The TL;DR This build generates a nearly linear performance per stream up to at least 8 streams using a context window of 124k. I didn&#39;t test beyond that. Ab",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-would-this-be-interesting-to-some-here",
+      "source": "localllama",
+      "title": "Would this be interesting to some here?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkv2ga/would_this_be_interesting_to_some_here/",
+      "published_at": "2026-11-01T05:30:03Z",
+      "summary": "      Seems similar to REA (https://github.com/morluto/rea) but from the guys that have brought the Craft apps this past month. I&#39;ve used the others but just saw this one available too. Is this feasible with a local ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-11-01-just-picked-up-an-evga-rtx-3090-ftw3-for-1100-what-to-run",
       "source": "localllama",
@@ -24,28 +134,6 @@
       ]
     },
     {
-      "id": "localllama-2026-11-01-grok-420-spent-700-turns-stuck-in-reds-house-in-pokemon-red",
-      "source": "localllama",
-      "title": "Grok 4.20 spent ~700 turns stuck in Red's house in Pokemon Red, and its own reasoning kept noticing",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkr521/grok_420_spent_700_turns_stuck_in_reds_house_in/",
-      "published_at": "2026-11-01T01:46:23Z",
-      "summary": "I&#39;ve been reading the turn logs from PokeBench. My benchmark where vision models play Pokemon Red. Grok 4.20 non-reasoning left the house at turn 36 and didn&#39;t get a starter until turn 755. The whole time its not",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-01-llamacpp-setup-qwen-flash-next-vulkan-q4-with-expert-cache",
-      "source": "localllama",
-      "title": "Llama.cpp setup Qwen-flash-next Vulkan Q4 with Expert cache.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkr0e6/llamacpp_setup_qwenflashnext_vulkan_q4_with/",
-      "published_at": "2026-11-01T01:39:22Z",
-      "summary": "I just setup my server: 64GB DDR4 2133 4CH (Broadwell Xeon) 2 x RX 6800 16GB 1 x Rx 580 2048sp (16GB) I am using the Q4 of Qwen Flash Next, with the prompt: sudo ./llama-server -m ./models/Qwnflash180b-Q4.gguf --host 0.0",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-10-31-how-we-took-over-chatgpt-accounts",
       "source": "simonw",
       "title": "How We Took Over ChatGPT Accounts",
@@ -57,17 +145,6 @@
       ]
     },
     {
-      "id": "localllama-2026-10-31-1-for-qwen-27bs-characterchat-style",
-      "source": "localllama",
-      "title": "+1 for Qwen 27Bs character/chat style",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkngat/1_for_qwen_27bs_characterchat_style/",
-      "published_at": "2026-10-31T22:41:41Z",
-      "summary": "Maybe uninteresting to most, but i just wanted to say that qwen3.8 27B is actually very nice to talk to, when arguing about issues or solving problems- while for example regarding cloud models claude opus (since v5) for ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "simonw-2026-10-31-datasette-llm-01a9",
       "source": "simonw",
       "title": "datasette-llm 0.1a9",
@@ -76,83 +153,6 @@
       "summary": "Release: datasette-llm 0.1a9\n        I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. \nIt now picks up the",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-how-do-i-make-search-with-local-models-feel-like-chatgpt-cod",
-      "source": "localllama",
-      "title": "How do I make search with local models feel like ChatGPT / Codex?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkm2yb/how_do_i_make_search_with_local_models_feel_like/",
-      "published_at": "2026-10-31T21:37:26Z",
-      "summary": "I’m using Crawl4AI + SearXNG but it just feels so lackluster I don’t know why. Feels like the results the local model gets back for research are missing a lot and / or are older less relevant results. I’ll usually instru",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-well-my-local-ai-addiction-officially-got-out-of-hand-tonigh",
-      "source": "localllama",
-      "title": "Well, my local AI addiction officially got out of hand tonight.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xklq96/well_my_local_ai_addiction_officially_got_out_of/",
-      "published_at": "2026-10-31T21:21:02Z",
-      "summary": "      Met a guy off Facebook Marketplace and scored 2x RTX 3090 Founders Editions for €1,700. The problem? I already had one 3090 FE. I am now sitting in my room looking at three 3090 FEs (72 GB GDDR6X VRAM), and my curr",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-what-exciting-architectural-moves-are-we-looking-to-see-next",
-      "source": "localllama",
-      "title": "What exciting architectural moves are we looking to see next in AI models?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkklyp/what_exciting_architectural_moves_are_we_looking/",
-      "published_at": "2026-10-31T20:31:36Z",
-      "summary": "We know from all the major chinese labs the current cutting edge architectures such as: conditional engram memory, hyper connections, attention residuals, sparse attention, etc... In the near horizon, we can likely expec",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-please-tell-me-qwen38-flash-next-can-be-made-to-be-better-th",
-      "source": "localllama",
-      "title": "Please tell me Qwen3.8-Flash-Next can be made to be better than this",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkjrdl/please_tell_me_qwen38flashnext_can_be_made_to_be/",
-      "published_at": "2026-10-31T19:56:22Z",
-      "summary": "I was quite excited with how well QFN did with some coding and adjacent tasks (like evaluating OSS repos, downloading and running models etc.). Using it for more general research is starting to show that it isnt actually",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-an-llm-inside-an-llm---same-guy-who-put-a-risk-v-cpu-inside",
-      "source": "localllama",
-      "title": "An LLM inside an LLM - Same guy who put a RISK-V CPU inside Qwen has now made Karpathy's stories260k run on an NPU compiled inside Qwen 3.5-4B's weights",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
-      "published_at": "2026-10-31T19:18:53Z",
-      "summary": "      Code: https://github.com/divagr18/QwenPU Weights: https://huggingface.co/divagr1925/QwenPU From the original tweet: 1/3  A CPU inside an LLM is one thing, but running another LLM inside an LLM would be taking thing",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-mac-studio-m5u-256gb-2tb",
-      "source": "localllama",
-      "title": "Mac Studio M5U 256gb 2TB",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkip46/mac_studio_m5u_256gb_2tb/",
-      "published_at": "2026-10-31T19:12:25Z",
-      "summary": "I&#39;m on the verge of pulling the trigger. Want something local for coding and some business automation stuff. Thinking I&#39;ll run Qwen 3.8+ and DeepSeek 4+.  I&#39;m coming from M4 Pro MBP and will still use that as",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-crowdgpt-v26---the-collaborative-llm",
-      "source": "localllama",
-      "title": "CrowdGPT v2.6 - The collaborative LLM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkibxw/crowdgpt_v26_the_collaborative_llm/",
-      "published_at": "2026-10-31T18:57:36Z",
-      "summary": "      For those who saw the original post, a week ago, I&#39;m glad to announce CrowdGPT v2 (more precisely v2.6), a massive update to the original CrowdGPT project :D (scroll down to see what&#39;s new) For the newcomer",
-      "tags": [
-        "localllama"
       ]
     },
     {
