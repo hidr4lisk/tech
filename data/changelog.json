@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-01T05:21:06Z",
+  "updated_at": "2026-11-01T12:57:06Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12032",
+      "project": "llama-cpp",
+      "version": "b12032",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12032",
+      "published_at": "2026-11-01T09:00:59Z",
+      "body_excerpt": "sycl: Try PkgConfig for LevelZero includes / libs (#31076) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 li",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12031",
+      "project": "llama-cpp",
+      "version": "b12031",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12031",
+      "published_at": "2026-11-01T07:41:33Z",
+      "body_excerpt": "opencl: add initial iq3 support (#31338) opencl: add iq3_s AOS mv Assisted-by: Codex opencl: add iq3_s SOA mv and tiled mm Assisted-by: Codex opencl: add iq3_s noshuffle gemm/gemv for adreno Co-authored-by: Shaofei Qi Assisted-by: Codex opencl: add iq3_s dp4a for adreno Co-authored-by: Shaofei Qi Assisted-by: Codex opencl: optimize iq3_s adreno decode and narrow batches Co-authored-by: Shaofei Qi ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12030",
+      "project": "llama-cpp",
+      "version": "b12030",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12030",
+      "published_at": "2026-11-01T07:16:14Z",
+      "body_excerpt": "hexagon : fix DMA transfers with strides > 24 bits (#31442) hexagon : fix DMA transfers with strides > 24 bits On v75+ the 2D DMA descriptor stores row_size and strides in 24 bits. dma_queue_push sent oversized strides to fallback_2d, which only splits nrows, so strides of 16 MB or more were truncated - wrong addresses. Fix will fall back to one transfer per row in that case. Also added two CONT t",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12029",
+      "project": "llama-cpp",
+      "version": "b12029",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12029",
+      "published_at": "2026-11-01T06:57:39Z",
+      "body_excerpt": "mtmd : fix InternVL CLS token order (#30886) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12028",
+      "project": "llama-cpp",
+      "version": "b12028",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12028",
+      "published_at": "2026-11-01T06:40:53Z",
+      "body_excerpt": "tests : enable Gemma 4 in (#31401) tests : enable Gemma 4 in tests : use GQA for Gemma 4 in Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12027",
+      "project": "llama-cpp",
+      "version": "b12027",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12027",
+      "published_at": "2026-11-01T06:19:25Z",
+      "body_excerpt": "llama : enable tensor split for LFM3 (#31431) Assisted-by: Claude Opus 5.5 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12024",
       "project": "llama-cpp",
@@ -13715,33 +13769,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10241",
       "published_at": "2026-08-03T14:58:22Z",
       "body_excerpt": "CUDA: Fix data-races when reusing SMEM in block_reduce (#26385) CUDA: Fix data-races when reusing block_reduce block_reduce currently doesn't resync after reading from SMEM, causing potential data-races when reusing SMEM for multiple reductions. One may consider simply always adding this in block_reduce, but this comes at a potential perf cost double-buffering for single-row softmax double-bufferi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10240",
-      "project": "llama-cpp",
-      "version": "b10240",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10240",
-      "published_at": "2026-08-03T11:24:29Z",
-      "body_excerpt": "server: add notice for upcoming default port change 8080 --> 9931 (#26508) server: add notice for upcoming default port change 8080 --> 9931 add link to PR correct to 9931 Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10238",
-      "project": "llama-cpp",
-      "version": "b10238",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10238",
-      "published_at": "2026-08-03T08:56:47Z",
-      "body_excerpt": "model: MTP support for Qwen3-Next (#25589) mtp for qwen3nex fix for python type-check Fix to compute num_mtp from directly mtp layer define opt_num_mtp_layers in _QwenMtpMixin and fix some comments Fix for python type check Update gguf-py/gguf/constants.py Co-authored-by: Sigbjørn Skjæret rebase and add load_mtp flags Update src/models/qwen3next.cpp Co-authored-by: Sigbjørn Skjæret Update src/mode",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10237",
-      "project": "llama-cpp",
-      "version": "b10237",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10237",
-      "published_at": "2026-08-03T07:50:08Z",
-      "body_excerpt": "llama : MTP support for DeepSeek V3.2 (#26457) llama : MTP support for DeepSeek V3.2 model : no need to include MTP layers during DeepSeek V3.2 model type discovery --------- Co-authored-by: Stanisław Szymczyk Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s39",
       "type": "tool"
     }
   ]
