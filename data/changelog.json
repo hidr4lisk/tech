@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-11-01T12:57:06Z",
+  "updated_at": "2026-11-01T21:52:16Z",
   "releases": [
+    {
+      "id": "hf-EleutherAI-pythia-160m-weight-seed2-corrected",
+      "project": "EleutherAI",
+      "version": "pythia-160m-weight-seed2-corrected",
+      "url": "https://huggingface.co/EleutherAI/pythia-160m-weight-seed2-corrected",
+      "published_at": "2026-11-01T21:08:34Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-EleutherAI-pythia-160m-weight-seed1-corrected",
+      "project": "EleutherAI",
+      "version": "pythia-160m-weight-seed1-corrected",
+      "url": "https://huggingface.co/EleutherAI/pythia-160m-weight-seed1-corrected",
+      "published_at": "2026-11-01T15:31:30Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
     {
       "id": "llama-cpp-b12032",
       "project": "llama-cpp",
@@ -13742,33 +13760,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10244",
       "published_at": "2026-08-03T22:13:49Z",
       "body_excerpt": "model: M3: Move MSA into a new memory implementation (#26338) Move MSA logic from llama-kv-cache into llama-kv-cache-msa cont : minor cont : ws fix --------- Co-authored-by: Georgi Gerganov Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10243",
-      "project": "llama-cpp",
-      "version": "b10243",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10243",
-      "published_at": "2026-08-03T20:10:56Z",
-      "body_excerpt": "llama : allocate indexer cache only in \"full\" indexer layers (#26474) Co-authored-by: Stanisław Szymczyk Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10242",
-      "project": "llama-cpp",
-      "version": "b10242",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10242",
-      "published_at": "2026-08-03T17:22:43Z",
-      "body_excerpt": "CUDA: Add backend sampler for penalties sampler (#25262) sampling: enhance penalty handling in common_sampler_init Set default value for penalty_last_n based on model context if not specified. Ensure penalty_last_n and n_prev are non-negative. Update llama_sampler_penalties structure to inherit from llama_sampler_backend and add backend input handling for penalties. Implement backend initializatio",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10241",
-      "project": "llama-cpp",
-      "version": "b10241",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10241",
-      "published_at": "2026-08-03T14:58:22Z",
-      "body_excerpt": "CUDA: Fix data-races when reusing SMEM in block_reduce (#26385) CUDA: Fix data-races when reusing block_reduce block_reduce currently doesn't resync after reading from SMEM, causing potential data-races when reusing SMEM for multiple reductions. One may consider simply always adding this in block_reduce, but this comes at a potential perf cost double-buffering for single-row softmax double-bufferi",
       "type": "tool"
     }
   ]
