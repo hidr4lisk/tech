@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-10-31T21:14:26Z",
+  "updated_at": "2026-11-01T05:20:58Z",
   "items": [
+    {
+      "id": "localllama-2026-11-01-just-picked-up-an-evga-rtx-3090-ftw3-for-1100-what-to-run",
+      "source": "localllama",
+      "title": "Just picked up an EVGA RTX 3090 FTW3 for $1100. What to run?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkuaf2/just_picked_up_an_evga_rtx_3090_ftw3_for_1100/",
+      "published_at": "2026-11-01T04:43:18Z",
+      "summary": "Hey all, I just picked up an EVGA RTX 3090 FTW3 (24GB) for $1,100 from a friend who is switching to an RTX 5070 Ti for pure gaming. It has low hours on it: no mining, no AI compute, just casual desktop use. He bought it ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-64gb-isnt-the-dead-zone-anymore-if-you-run-agents",
+      "source": "localllama",
+      "title": "64GB isn't the dead zone anymore if you run agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xksj75/64gb_isnt_the_dead_zone_anymore_if_you_run_agents/",
+      "published_at": "2026-11-01T03:02:34Z",
+      "summary": "      https://preview.redd.it/hboxdgjh2xyh1.png?width=1230&amp;format=png&amp;auto=webp&amp;s=cca6b2b7b08807a334ff5280e19d96133667fbb0 The usual advice was that 64GB is a dead zone for local LLMs: too small for a 70B wit",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-grok-420-spent-700-turns-stuck-in-reds-house-in-pokemon-red",
+      "source": "localllama",
+      "title": "Grok 4.20 spent ~700 turns stuck in Red's house in Pokemon Red, and its own reasoning kept noticing",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkr521/grok_420_spent_700_turns_stuck_in_reds_house_in/",
+      "published_at": "2026-11-01T01:46:23Z",
+      "summary": "I&#39;ve been reading the turn logs from PokeBench. My benchmark where vision models play Pokemon Red. Grok 4.20 non-reasoning left the house at turn 36 and didn&#39;t get a starter until turn 755. The whole time its not",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-llamacpp-setup-qwen-flash-next-vulkan-q4-with-expert-cache",
+      "source": "localllama",
+      "title": "Llama.cpp setup Qwen-flash-next Vulkan Q4 with Expert cache.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkr0e6/llamacpp_setup_qwenflashnext_vulkan_q4_with/",
+      "published_at": "2026-11-01T01:39:22Z",
+      "summary": "I just setup my server: 64GB DDR4 2133 4CH (Broadwell Xeon) 2 x RX 6800 16GB 1 x Rx 580 2048sp (16GB) I am using the Q4 of Qwen Flash Next, with the prompt: sudo ./llama-server -m ./models/Qwnflash180b-Q4.gguf --host 0.0",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-31-how-we-took-over-chatgpt-accounts",
+      "source": "simonw",
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "published_at": "2026-10-31T23:15:22Z",
+      "summary": "How We Took Over ChatGPT Accounts\nParameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-31-1-for-qwen-27bs-characterchat-style",
+      "source": "localllama",
+      "title": "+1 for Qwen 27Bs character/chat style",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkngat/1_for_qwen_27bs_characterchat_style/",
+      "published_at": "2026-10-31T22:41:41Z",
+      "summary": "Maybe uninteresting to most, but i just wanted to say that qwen3.8 27B is actually very nice to talk to, when arguing about issues or solving problems- while for example regarding cloud models claude opus (since v5) for ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-10-31-datasette-llm-01a9",
+      "source": "simonw",
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "published_at": "2026-10-31T22:10:01Z",
+      "summary": "Release: datasette-llm 0.1a9\n        I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. \nIt now picks up the",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-31-how-do-i-make-search-with-local-models-feel-like-chatgpt-cod",
+      "source": "localllama",
+      "title": "How do I make search with local models feel like ChatGPT / Codex?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkm2yb/how_do_i_make_search_with_local_models_feel_like/",
+      "published_at": "2026-10-31T21:37:26Z",
+      "summary": "I’m using Crawl4AI + SearXNG but it just feels so lackluster I don’t know why. Feels like the results the local model gets back for research are missing a lot and / or are older less relevant results. I’ll usually instru",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-10-31-well-my-local-ai-addiction-officially-got-out-of-hand-tonigh",
+      "source": "localllama",
+      "title": "Well, my local AI addiction officially got out of hand tonight.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xklq96/well_my_local_ai_addiction_officially_got_out_of/",
+      "published_at": "2026-10-31T21:21:02Z",
+      "summary": "      Met a guy off Facebook Marketplace and scored 2x RTX 3090 Founders Editions for €1,700. The problem? I already had one 3090 FE. I am now sitting in my room looking at three 3090 FEs (72 GB GDDR6X VRAM), and my curr",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-10-31-what-exciting-architectural-moves-are-we-looking-to-see-next",
       "source": "localllama",
@@ -52,83 +151,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkibxw/crowdgpt_v26_the_collaborative_llm/",
       "published_at": "2026-10-31T18:57:36Z",
       "summary": "      For those who saw the original post, a week ago, I&#39;m glad to announce CrowdGPT v2 (more precisely v2.6), a massive update to the original CrowdGPT project :D (scroll down to see what&#39;s new) For the newcomer",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-qwen38-flash-next-on-igpu-anybody-achieve-it",
-      "source": "localllama",
-      "title": "Qwen3.8 flash next on igpu? Anybody achieve it?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xki284/qwen38_flash_next_on_igpu_anybody_achieve_it/",
-      "published_at": "2026-10-31T18:46:16Z",
-      "summary": "Got a minipc with 7940hs, 780m with 64gb ram (56gb allocated to igpu)  I feel I reas somewhere that someone made it work, with ngram on the NVME, but I can&#39;t find anyone talking about it anymore or if theres any engi",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-betelgeuse-running-qwen-38-flash-next-iq4-xs-at-24-toks-on-2",
-      "source": "localllama",
-      "title": "Betelgeuse running Qwen 3.8 Flash Next IQ4_XS at 24 tok/s on 2x8GB DDR4 (14 tok/s on a single 16GB stick) + RTX 3060 12GB — 0 dropped experts, 100% byte-exact",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkh2ns/betelgeuse_running_qwen_38_flash_next_iq4_xs_at/",
-      "published_at": "2026-10-31T18:06:52Z",
-      "summary": "In my last thread on Betelgeuse (bel-cli / bel-server), the main pushback in the comments was:  &quot;Okay cool, 22 tok/s on IQ2_XS, but 2-bit is too low—what happens on an actual 4-bit quant like IQ4_XS where the expert",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-im-groot",
-      "source": "localllama",
-      "title": "I'm Groot?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkge1s/im_groot/",
-      "published_at": "2026-10-31T17:39:55Z",
-      "summary": "https://huggingface.co/GrootTeam/Groot-280B-A16B-261023 Best model under 500b params? Also have the smaller versions https://huggingface.co/GrootTeam/Groot-19B-A3B-261023 &quot;scores higher than the larger Qwen3.6-35B-A",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-whats-the-advantage-of-building-a-custom-harness-over-using",
-      "source": "localllama",
-      "title": "What's the advantage of building a custom harness over using something like Unsloth?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkfhjg/whats_the_advantage_of_building_a_custom_harness/",
-      "published_at": "2026-10-31T17:03:51Z",
-      "summary": "I’m still fairly new to local LLMs, got a decent machine (M5 Max, 64GB RAM), trying to understand something I’ve been seeing recommended a lot lately. In several threads where new users are frustrated/confused or even mo",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-regulated-access-memory",
-      "source": "localllama",
-      "title": "Regulated Access Memory",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkeqja/regulated_access_memory/",
-      "published_at": "2026-10-31T16:33:49Z",
-      "summary": "      Das GPT needs more Speicher!  &#32; submitted by &#32;  /u/elemental-mind   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-used-64-core-threadripper-pro-3995wx",
-      "source": "localllama",
-      "title": "Used 64-core Threadripper PRO 3995WX",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkdpv3/used_64core_threadripper_pro_3995wx/",
-      "published_at": "2026-10-31T15:52:58Z",
-      "summary": "Found a used 64-core Threadripper PRO 3995WX workstation locally — worth buying for a multi-GPU LLM server? I found this workstation listed on my local secondhand marketplace in Iraq. Specs - CPU: AMD Ryzen Threadripper ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-10-31-spent-a-lot-on-my-rig-but-i-can-only-run-gemma-4",
-      "source": "localllama",
-      "title": "\"Spent a lot on my rig but I can only run Gemma 4\"",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkcyn6/spent_a_lot_on_my_rig_but_i_can_only_run_gemma_4/",
-      "published_at": "2026-10-31T15:22:08Z",
-      "summary": "&quot;The satellite, which carries four Google Tensor Processing Units (TPUs) and generates up to 1 kW of electricity, is intended to pave the way for future networks of close-flying satellites performing large inference",
       "tags": [
         "localllama"
       ]
@@ -371,28 +393,6 @@
       "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
       "published_at": "2026-10-26T23:53:07Z",
       "summary": "GPT-6.1 Terra\nIt's always interesting to note which aspects of a new model are emphasized in the release announcement.\nIn the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:\n\nWe’re introducing ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-26-quoting-jason-koebler",
-      "source": "simonw",
-      "title": "Quoting Jason Koebler",
-      "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
-      "published_at": "2026-10-26T19:00:25Z",
-      "summary": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasin",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-26-webframe-evaluated-as-a-scraper-and-a-sandbox",
-      "source": "simonw",
-      "title": "webframe: evaluated as a scraper and a sandbox",
-      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
-      "published_at": "2026-10-26T16:15:00Z",
-      "summary": "Research: webframe: evaluated as a scraper and a sandbox\n        webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a ",
       "tags": [
         "simonw"
       ]
