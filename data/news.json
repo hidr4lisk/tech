@@ -1,134 +1,145 @@
 {
-  "updated_at": "2026-11-02T05:19:35Z",
+  "updated_at": "2026-11-02T15:15:18Z",
   "items": [
     {
-      "id": "localllama-2026-11-02-jetbrainsmellum21-12b-a25b-thinking-mtp-hugging-face",
+      "id": "localllama-2026-11-02-an-ai-agent-just-beat-nvidias-flashmla-baseline-by-98-on-b20",
       "source": "localllama",
-      "title": "JetBrains/Mellum2.1-12B-A2.5B-Thinking-MTP · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xln8f2/jetbrainsmellum2112ba25bthinkingmtp_hugging_face/",
-      "published_at": "2026-11-02T03:58:06Z",
-      "summary": "      Mellum2.1 Thinking with the MTP head Multi-token prediction head The multi-token prediction (MTP) head is one extra transformer block, trained together with the model, that predicts the token after the one just sam",
+      "title": "An AI agent just beat NVIDIA's FlashMLA baseline by 9.8% on B200, without seeing its source code",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlzaq0/an_ai_agent_just_beat_nvidias_flashmla_baseline/",
+      "published_at": "2026-11-02T14:53:42Z",
+      "summary": "      OpenBMB just wrapped up ForgeKernel Live, a ~22-hour autonomous GPU kernel optimization run on NVIDIA B200. The interesting part isn&#39;t just the speedup. The agent was optimizing against a black box. It could ex",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-02-live-swap-cuda-workloads-llamacpp-comfyui-strata-more",
+      "id": "localllama-2026-11-02-qwen-4-when",
       "source": "localllama",
-      "title": "Live-Swap CUDA Workloads: llama.cpp, ComfyUI, Strata & More",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlmu81/liveswap_cuda_workloads_llamacpp_comfyui_strata/",
-      "published_at": "2026-11-02T03:36:48Z",
-      "summary": "      Berth is a lightweight GPU resource manager written in Go. It controls which applications get access to your GPU, when they get it, and how that access is handed off. Instead of letting every application compete fo",
+      "title": "Qwen 4 When ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlz5dz/qwen_4_when/",
+      "published_at": "2026-11-02T14:47:55Z",
+      "summary": "Rumors went it was supposed to be out at start of this month...  &#32; submitted by &#32;  /u/BringTea_666   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-02-ama-announcement-reflection-the-lab-behind-behind-beam-tuesd",
+      "id": "localllama-2026-11-02-release-ista-deepseek-v41-flash-1017-gsq-rco-coder-a-763b-mo",
       "source": "localllama",
-      "title": "AMA Announcement: Reflection, the lab behind behind Beam (Tuesday Nov 3rd, 8am-11am PT)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlmkk4/ama_announcement_reflection_the_lab_behind_behind/",
-      "published_at": "2026-11-02T03:22:28Z",
-      "summary": "      Join us on Tuesday to meet the product team at Reflection and to learn more about Beam, their first open-weight model!  &#32; submitted by &#32;  /u/Aggressive-Sign-8167   [link] &#32; [comments] ",
+      "title": "[Release] ISTA DeepSeek-V4.1-Flash-1017 GSQ-RCO Coder: a 763B model at 1 bit per parameter",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/",
+      "published_at": "2026-11-02T14:33:20Z",
+      "summary": "      We have released a Coder build of DeepSeek-V4.1-Flash-1017, compressed with GSQ and RCO, in which half of the model&#39;s routed experts have been removed. DeepSeek-V4.1-Flash-1017 is a sparse mixture-of-experts mo",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-02-the-rise-of-glm-and-chinas-zhipu-ai",
+      "id": "localllama-2026-11-02-we-released-kvark-sparkle-10-a-qwen38-27b-based-model-with-u",
       "source": "localllama",
-      "title": "The Rise of GLM and China’s Zhipu AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xll5ir/the_rise_of_glm_and_chinas_zhipu_ai/",
-      "published_at": "2026-11-02T02:11:25Z",
-      "summary": "      &#32; submitted by &#32;  /u/wren6991   [link] &#32; [comments] ",
+      "title": "We released KVARK Sparkle 1.0 – a Qwen3.8-27B-based model with up to 67% fewer thinking tokens",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlxnpc/we_released_kvark_sparkle_10_a_qwen3827bbased/",
+      "published_at": "2026-11-02T13:48:55Z",
+      "summary": "      Hey everyone! We&#39;re Egzakta AI Lab, and I&#39;m part of the team behind KVARK. We&#39;ve just released our first open-weight model: KVARK Sparkle 1.0 (27B). It&#39;s based on Qwen3.8-27B, with a focus on making",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-02-8-agents-250k-context-concurrently-on-two-3090s-600-toks-tot",
+      "id": "simonw-2026-11-02-the-us-census-bureau-and-super-intelligence",
+      "source": "simonw",
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "published_at": "2026-11-02T13:31:26Z",
+      "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-02-deepseek-v41-flash-1017-is-really-golden",
       "source": "localllama",
-      "title": "8 agents × 250K context, concurrently, on two 3090s (~600+ tok/s total)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk43x/8_agents_250k_context_concurrently_on_two_3090s/",
-      "published_at": "2026-11-02T01:19:59Z",
-      "summary": "I am open to the idea that I am misguided, but my findings feel worth sharing: Short video of my UI with 8 agents each explaining a codebase in parallel long prose: https://imgur.com/JSqlXIi A few days ago I read the Sta",
+      "title": "DeepSeek V4.1 Flash 1017 is really golden.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlwrh1/deepseek_v41_flash_1017_is_really_golden/",
+      "published_at": "2026-11-02T13:10:41Z",
+      "summary": "tl;dr: love LLMs to learn things, but only closed-source models were truly reliable for me, until 1017 came up: it&#39;s great and fast for everything This is just an appreciation post made by a human seriously impressed",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-02-lfm3-omni-2b-is-incredible",
+      "id": "localllama-2026-11-02-not-another-toks-post-local-quants-vs-claude-on-9-real-bugs",
       "source": "localllama",
-      "title": "LFM3 Omni 2B is INCREDIBLE",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk2kb/lfm3_omni_2b_is_incredible/",
-      "published_at": "2026-11-02T01:17:50Z",
-      "summary": "      Liquid AI &quot;showed off&quot; that their new omni model can run on WebGPU inside your browser. Here&#39;s a video of it in action straight from their own HF space. EDIT as it seems to be getting lost: I am being",
+      "title": "Not another tok/s post: local quants vs Claude on 9 real bugs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlwpqv/not_another_toks_post_local_quants_vs_claude_on_9/",
+      "published_at": "2026-11-02T13:08:34Z",
+      "summary": "      There&#39;s a lot of talk here about not chasing tok/s by lobotomizing the model, and most of what I post is still speed numbers. So this is the other half: what the models I run at home actually get done on my own",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-02-do-we-really-need-all-these-speed-posts",
+      "id": "localllama-2026-11-02-sensenovasensenova-loop-9b-preview-hugging-face",
       "source": "localllama",
-      "title": "Do we really need all these \"speed\" posts?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xljjf2/do_we_really_need_all_these_speed_posts/",
-      "published_at": "2026-11-02T00:52:40Z",
-      "summary": "I appreciate the research and development that is going into these open source tools. However, there appears to be multiple posts on a daily basis about reaching 300 t/s, and then reading into it:  Running on Q1_XXXS REA",
+      "title": "sensenova/SenseNova-Loop-9B-Preview · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlw9v4/sensenovasensenovaloop9bpreview_hugging_face/",
+      "published_at": "2026-11-02T12:48:33Z",
+      "summary": "      &#32; submitted by &#32;  /u/zdy132   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-02-sorry-sam-my-quite-terrible-home-dram-is-at-100-now-patched",
+      "id": "localllama-2026-11-02-proposal-a-community-revolution-for-private-quality-benchmar",
       "source": "localllama",
-      "title": "Sorry Sam, my \"quite terrible\" home DRAM is at 100% now: patched Strata to make DeepSeek V4.1 agent sessions start 20× faster on a good old standard gaming GPU, no datacenter required",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/",
-      "published_at": "2026-11-02T00:44:53Z",
-      "summary": "      Sam Altman recently said that &quot;from a global allocation perspective, actually, it&#39;s quite terrible to have everybody have a bunch of the world&#39;s limited supply of DRAM sitting in their own computer, an",
+      "title": "Proposal: A community revolution for private quality benchmarks (and why endless chasing tok/s is rotting our brains",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlusil/proposal_a_community_revolution_for_private/",
+      "published_at": "2026-11-02T11:33:00Z",
+      "summary": "Proposal: A community revolution for private quality benchmarks (and why endless chasing tok/s is rotting our brains honestly we in r/LocalLLaMA need a revolution of people making their own private benchmarks(not tok/s) ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-01-qwen-38-flash-next-nvfp4-on-64gb-ram-and-5090-basalt-ditched",
+      "id": "localllama-2026-11-02-4-touchscreen-for-inference-engine-monitoring",
       "source": "localllama",
-      "title": "Qwen 3.8 Flash Next NVFP4 on 64gb RAM and 5090, Basalt. Ditched windows for it. Very hyped for qwen 4 model family now.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlicia/qwen_38_flash_next_nvfp4_on_64gb_ram_and_5090/",
-      "published_at": "2026-11-01T23:56:49Z",
-      "summary": "      So, I was asleep on Strata and its specialized forks. Tried basalt and i&#39;m very impressed with the speed/intelligence QFN gives you. Here is my benchmark: https://preview.redd.it/8qhp92ql73zh1.png?width=2946&am",
+      "title": "4\" touchscreen for inference engine monitoring",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlsuwf/4_touchscreen_for_inference_engine_monitoring/",
+      "published_at": "2026-11-02T09:38:16Z",
+      "summary": "      I bought this 4&quot; screen with esp32 on aliexpress awhile back and decided to make a TUI style dashboard to monitor my dgx cluster. Inspired by btop++, nv-monitor, and engine metrics by 0rand. Firmware is built ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-01-glb-3d-coder-a-tiny-4b-coding-model-that-creates-3d-assets-f",
+      "id": "localllama-2026-11-02-if-you-are-using-big-model-compared-to-ram-try-and-disable-m",
       "source": "localllama",
-      "title": "[GLB-3D-Coder] A tiny 4B coding model that creates 3D assets for Godot and other game engines",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlh0zw/glb3dcoder_a_tiny_4b_coding_model_that_creates_3d/",
-      "published_at": "2026-11-01T22:56:19Z",
-      "summary": "      Hey everyone! After sharing my previous 3D coding model, a lot of you asked about using it to generate assets for your games. That sounded like a fun direction to explore, so I started training a version focused on",
+      "title": "If you are using big model compared to ram try and disable mtp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlsd4v/if_you_are_using_big_model_compared_to_ram_try/",
+      "published_at": "2026-11-02T09:06:06Z",
+      "summary": "Little reminder, with all my testing I found out that mtp can decrease performance when using very big model, since many are starting to use strata or similar and I see many app activating it as default try and disable i",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-01-benchmarking-qwen-27b-35b-qfn180b-nemotron-bolt-74b-flint40b",
+      "id": "localllama-2026-11-02-list-of-tiny-to-medium-models-for-web-researchcoding-agents",
       "source": "localllama",
-      "title": "Benchmarking: Qwen 27B, 35B, QFN180B; Nemotron Bolt 74B, Flint40B & Clover 35B (Q4 + KFlash) on MacBook M5 Max 2026 with Kapitsa (Apple Silicon Inference Engine)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlgu8m/benchmarking_qwen_27b_35b_qfn180b_nemotron_bolt/",
-      "published_at": "2026-11-01T22:47:41Z",
-      "summary": "      hey folks, I&#39;m Ye, one of the contributors to open-source project called Kapitsa, Apple Silicon Inference engine optimized specifically for Apple Silicon to run Qwen, Nemotron, Flint and Clover models locally. ",
+      "title": "List of tiny-to-medium models for web research/coding agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlpkqv/list_of_tinytomedium_models_for_web/",
+      "published_at": "2026-11-02T06:08:04Z",
+      "summary": "I am compiling a list of models that I think are potentially worth considering for folks who want to run an LLM on a &quot;normal computer&quot;, specifically for an agent use case, but without having to buy a $$$$ graph",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-01-speedy-is-shockingly-good-for-qwen38-fn",
+      "id": "localllama-2026-11-02-whats-the-best-open-source-ocr-for-batch-processing-pdfs-in",
       "source": "localllama",
-      "title": "Speedy is shockingly good for qwen3.8 FN",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlfhrd/speedy_is_shockingly_good_for_qwen38_fn/",
-      "published_at": "2026-11-01T21:49:36Z",
-      "summary": "I had just finished setting up avalon, then i found speedy, which crushed avalon. https://github.com/freriadoc/Avalon https://github.com/DevDock-AI/Speedy Hardware: 4090, 128gb ddr5 3600, ryzen 9 7950x ISTA IQ3_S quant: ",
+      "title": "Whats the best open source OCR for batch processing pdfs in 2026?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlp8nd/whats_the_best_open_source_ocr_for_batch/",
+      "published_at": "2026-11-02T05:48:36Z",
+      "summary": "trying to settle on a fully local setup for batch processing pdfs. like each file is around 20-25 pages and mostly text, a few tables and now and then a page thats just a photo of paper the shortlist so far - docling (an",
       "tags": [
         "localllama"
       ]
@@ -338,17 +349,6 @@
       "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
       "published_at": "2026-10-28T10:09:07Z",
       "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can expl",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-27-game-boy-color-on-my-conference-badge",
-      "source": "simonw",
-      "title": "Game Boy Color on My Conference Badge",
-      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
-      "published_at": "2026-10-27T19:34:18Z",
-      "summary": "Game Boy Color on My Conference Badge\nI'm at GitHub Universe this week and, similar to last year, the conference badge is a full-blown color screen computer.\nI've been hacking around with it again, and then I ran into wi",
       "tags": [
         "simonw"
       ]
