@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T21:52:16Z",
+  "updated_at": "2026-11-02T05:19:43Z",
   "releases": [
     {
       "id": "hf-EleutherAI-pythia-160m-weight-seed2-corrected",
@@ -13661,105 +13661,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10255",
       "published_at": "2026-08-04T05:39:04Z",
       "body_excerpt": "Extended SYCL oneDNN SDPA to non-FP16 KV caches (Q4_0–Q8_0 and FP32) (#25874) sycl: extend oneDNN SDPA to Q4_0-Q8_0 and F32 KV caches Extends the oneDNN SDPA path (PR #25222) to handle non-F16 KV caches by dequantizing or converting K/V to dense FP16 on-device before feeding them into the SDPA graph. The fused systolic kernel then runs identically to the native FP16 path. Supported KV types: - Q4_",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10254",
-      "project": "llama-cpp",
-      "version": "b10254",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10254",
-      "published_at": "2026-08-04T04:53:21Z",
-      "body_excerpt": "chat : add new template for DeepSeek V4 Flash 0731 (#26398) common/chat: update DeepSeek V4 templates Align the DeepSeek V4 templates with the official encoders while keeping parser behavior out of this change. Default drop_thinking for DeepSeek V4 history so prior thinking is omitted unless preserve_reasoning is requested or tools are present. Add structured output response-format instructions to",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10253",
-      "project": "llama-cpp",
-      "version": "b10253",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10253",
-      "published_at": "2026-08-04T04:22:36Z",
-      "body_excerpt": "vendor : update cpp-httplib to 0.52.0 (#26485) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10252",
-      "project": "llama-cpp",
-      "version": "b10252",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10252",
-      "published_at": "2026-08-04T03:47:33Z",
-      "body_excerpt": "vendor : update BoringSSL to 0.20260803.0 (#26523) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10251",
-      "project": "llama-cpp",
-      "version": "b10251",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10251",
-      "published_at": "2026-08-04T03:06:31Z",
-      "body_excerpt": "model : support MTP in GLM-4.7-Flash (#24868) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10250",
-      "project": "llama-cpp",
-      "version": "b10250",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10250",
-      "published_at": "2026-08-04T02:06:21Z",
-      "body_excerpt": "tests: add model resolution test on synthetic repo listings (#26172) tests: add model resolution test on synthetic repo listings Include download.cpp and arg.cpp inside a namespace with hf_cache monkey patched to serve hardcoded listings, so the resolution and the model handler assembly are tested end-to-end through the real CLI parsing, without modifying the tested code and without network access",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10249",
-      "project": "llama-cpp",
-      "version": "b10249",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10249",
-      "published_at": "2026-08-04T01:36:29Z",
-      "body_excerpt": "server: add get_info tool (#26522) server: add get_info tool fix --rpc in docs server: harden get_info probe result handling Report the OS as unknown when the probe process fails to spawn or times out, so the diagnostic text from run() is never returned as an OS name. Strip the probe output on both ends, which also drops the blank line that ver prints before the version on Windows. Name the output",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10248",
-      "project": "llama-cpp",
-      "version": "b10248",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10248",
-      "published_at": "2026-08-04T01:01:35Z",
-      "body_excerpt": "vocab : validate default special token ids (#26506) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10247",
-      "project": "llama-cpp",
-      "version": "b10247",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10247",
-      "published_at": "2026-08-04T00:22:34Z",
-      "body_excerpt": "ggml: use dynamic allocation for split graph inputs (#22789) ggml: use dynamic allocation for split graph inputs Replace fixed-size GGML_SCHED_MAX_SPLIT_INPUTS arrays with dynamically allocated buffers in the backend scheduler. This fixes crashes when loading wide MoE models (Gemma 4, Qwen MoE, Mixtral, DeepSeek) on multi-backend setups where graph splits exceed 30 input tensors. split->inputs: dy",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10246",
-      "project": "llama-cpp",
-      "version": "b10246",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10246",
-      "published_at": "2026-08-03T23:39:15Z",
-      "body_excerpt": "opencl: route large q6_K lm_head to the flat GEMV (#26427) add a direct size condition for weights; the original dimension condition is insufficient -- q6_K lm_head for gemma-4 E2B has [1536, 262144], which is big enough to slowdown gemv_noshuffle but does not satisfy the dimension condition (ne0 >= 2048) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10245",
-      "project": "llama-cpp",
-      "version": "b10245",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10245",
-      "published_at": "2026-08-03T22:57:59Z",
-      "body_excerpt": "graph : fix unused input tensors in minimax m3 graph (#26519) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10244",
-      "project": "llama-cpp",
-      "version": "b10244",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10244",
-      "published_at": "2026-08-03T22:13:49Z",
-      "body_excerpt": "model: M3: Move MSA into a new memory implementation (#26338) Move MSA logic from llama-kv-cache into llama-kv-cache-msa cont : minor cont : ws fix --------- Co-authored-by: Georgi Gerganov Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 ",
       "type": "tool"
     }
   ]

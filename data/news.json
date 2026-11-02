@@ -1,90 +1,134 @@
 {
-  "updated_at": "2026-11-01T21:52:09Z",
+  "updated_at": "2026-11-02T05:19:35Z",
   "items": [
     {
-      "id": "localllama-2026-11-01-getting-incredible-results-with-a-single-rtx-3090ti-and-128g",
+      "id": "localllama-2026-11-02-jetbrainsmellum21-12b-a25b-thinking-mtp-hugging-face",
       "source": "localllama",
-      "title": "Getting incredible results with a single RTX 3090ti and 128gb of ram. Deepseek-V4.1-Flash-1017 (35 tok/s decode) and Qwen3.8-Flash-Next (130 tok/s decode)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/",
-      "published_at": "2026-11-01T21:01:42Z",
-      "summary": "I&#39;m sharing this here because this is working way better than it used to a few months ago with older models. I see people here posting slower speeds with much better hardware than mine and hopefully this information ",
+      "title": "JetBrains/Mellum2.1-12B-A2.5B-Thinking-MTP · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xln8f2/jetbrainsmellum2112ba25bthinkingmtp_hugging_face/",
+      "published_at": "2026-11-02T03:58:06Z",
+      "summary": "      Mellum2.1 Thinking with the MTP head Multi-token prediction head The multi-token prediction (MTP) head is one extra transformer block, trained together with the model, that predicts the token after the one just sam",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-01-qwenbend-qwen-writes-a-bend-program-then-the-same-model-type",
+      "id": "localllama-2026-11-02-live-swap-cuda-workloads-llamacpp-comfyui-strata-more",
       "source": "localllama",
-      "title": "QwenBend : Qwen writes a Bend program, then the same model type checks it with Bend2 rules and runs it inside its own forward pass",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xle8ta/qwenbend_qwen_writes_a_bend_program_then_the_same/",
-      "published_at": "2026-11-01T20:58:07Z",
-      "summary": "      This is next step to Qwenputer perhaps the step that shouldn&#39;t have been taken but here it goes Qwen writes a Bend program, then the same model type checks it with Bend2 rules and runs it inside its own forward",
+      "title": "Live-Swap CUDA Workloads: llama.cpp, ComfyUI, Strata & More",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlmu81/liveswap_cuda_workloads_llamacpp_comfyui_strata/",
+      "published_at": "2026-11-02T03:36:48Z",
+      "summary": "      Berth is a lightweight GPU resource manager written in Go. It controls which applications get access to your GPU, when they get it, and how that access is handed off. Instead of letting every application compete fo",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-01-is-gemma-4-e4b-still-the-best-small-model-for-a-local-tool-c",
+      "id": "localllama-2026-11-02-ama-announcement-reflection-the-lab-behind-behind-beam-tuesd",
       "source": "localllama",
-      "title": "Is Gemma 4 E4B still the best small model for a local, tool-calling personal assistant? What am I missing?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xle3ul/is_gemma_4_e4b_still_the_best_small_model_for_a/",
-      "published_at": "2026-11-01T20:52:26Z",
-      "summary": "I run a local assistant on a Mac (MLX via oMLX, 24 GB M5 Pro). It needs to call tools reliably across mail, calendar, notes and files, chain a few calls, and reply in a short, calm voice. It also has to synthesize/extrac",
+      "title": "AMA Announcement: Reflection, the lab behind behind Beam (Tuesday Nov 3rd, 8am-11am PT)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlmkk4/ama_announcement_reflection_the_lab_behind_behind/",
+      "published_at": "2026-11-02T03:22:28Z",
+      "summary": "      Join us on Tuesday to meet the product team at Reflection and to learn more about Beam, their first open-weight model!  &#32; submitted by &#32;  /u/Aggressive-Sign-8167   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-01-tandemcpp-qwen38-flash-next-at-97-toks-on-a-single-4090-64-g",
+      "id": "localllama-2026-11-02-the-rise-of-glm-and-chinas-zhipu-ai",
       "source": "localllama",
-      "title": "tandem.cpp: Qwen3.8-Flash-Next at 97 tok/s on a single 4090 + 64 GB RAM, 3.3× llama.cpp, works for any MoE",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xldent/tandemcpp_qwen38flashnext_at_97_toks_on_a_single/",
-      "published_at": "2026-11-01T20:23:50Z",
-      "summary": "tandem.cpp is a patch set for llama.cpp that makes MoE models that don&#39;t fit in VRAM run faster. It keeps the most-used experts on the GPU and lets the CPU help with the rest, for any MoE model llama.cpp supports. Si",
+      "title": "The Rise of GLM and China’s Zhipu AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xll5ir/the_rise_of_glm_and_chinas_zhipu_ai/",
+      "published_at": "2026-11-02T02:11:25Z",
+      "summary": "      &#32; submitted by &#32;  /u/wren6991   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-01-llama2c-on-a-2006-ipod-80-mhz-w-64-mb-ram-and-no-fpu",
+      "id": "localllama-2026-11-02-8-agents-250k-context-concurrently-on-two-3090s-600-toks-tot",
       "source": "localllama",
-      "title": "llama2.c on a 2006 iPod @ 80 MHz w/ 64 MB ram and no FPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlboqi/llama2c_on_a_2006_ipod_80_mhz_w_64_mb_ram_and_no/",
-      "published_at": "2026-11-01T19:15:26Z",
-      "summary": "      hardware: PortalPlayer PP5022, ARM7TDMI @ 80 MHz, 64 MB ram wrote a fun rockbox plugin that runs Karpathy&#39;s llama2.c TinyStories models on an ipod video 5.5G. since there&#39;s no FPU, I ported llama2.c&#39;s i",
+      "title": "8 agents × 250K context, concurrently, on two 3090s (~600+ tok/s total)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk43x/8_agents_250k_context_concurrently_on_two_3090s/",
+      "published_at": "2026-11-02T01:19:59Z",
+      "summary": "I am open to the idea that I am misguided, but my findings feel worth sharing: Short video of my UI with 8 agents each explaining a codebase in parallel long prose: https://imgur.com/JSqlXIi A few days ago I read the Sta",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-01-silencio-2-an-18m-tts-with-emotion-and-sound-tags-20x-realti",
+      "id": "localllama-2026-11-02-lfm3-omni-2b-is-incredible",
       "source": "localllama",
-      "title": "Silencio-2: an 18M TTS with emotion and sound tags, ~20x realtime on CPU (open weights)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl9yfi/silencio2_an_18m_tts_with_emotion_and_sound_tags/",
-      "published_at": "2026-11-01T18:07:34Z",
-      "summary": "I made this, so treat it as biased. It is free and open, with no paid tier or API behind it. Silencio-2 is a fine-tune of Kyutai&#39;s Pocket TTS 18M that follows tags written inside the text: What a long day. [sigh] &lt",
+      "title": "LFM3 Omni 2B is INCREDIBLE",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk2kb/lfm3_omni_2b_is_incredible/",
+      "published_at": "2026-11-02T01:17:50Z",
+      "summary": "      Liquid AI &quot;showed off&quot; that their new omni model can run on WebGPU inside your browser. Here&#39;s a video of it in action straight from their own HF space. EDIT as it seems to be getting lost: I am being",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-01-meet-ava-in-browser-local-ai-avatar-with-lfm3-omni-and-webgp",
+      "id": "localllama-2026-11-02-do-we-really-need-all-these-speed-posts",
       "source": "localllama",
-      "title": "Meet Ava: In-browser local AI avatar with LFM3-Omni and WebGPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl9577/meet_ava_inbrowser_local_ai_avatar_with_lfm3omni/",
-      "published_at": "2026-11-01T17:36:17Z",
-      "summary": "      here: https://huggingface.co/spaces/townbox/ava  &#32; submitted by &#32;  /u/paf1138   [link] &#32; [comments] ",
+      "title": "Do we really need all these \"speed\" posts?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xljjf2/do_we_really_need_all_these_speed_posts/",
+      "published_at": "2026-11-02T00:52:40Z",
+      "summary": "I appreciate the research and development that is going into these open source tools. However, there appears to be multiple posts on a daily basis about reaching 300 t/s, and then reading into it:  Running on Q1_XXXS REA",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-01-coding-is-solved-exclusions-apply",
+      "id": "localllama-2026-11-02-sorry-sam-my-quite-terrible-home-dram-is-at-100-now-patched",
       "source": "localllama",
-      "title": "Coding is solved* (exclusions apply)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl90rr/coding_is_solved_exclusions_apply/",
-      "published_at": "2026-11-01T17:31:32Z",
-      "summary": "      Good news, everyone! Having been inspired to revolutionize the field of computer science, I can now report that coding is solved! Sure, only if you care about x86 Linux binaries that print and exit, but &quot;big j",
+      "title": "Sorry Sam, my \"quite terrible\" home DRAM is at 100% now: patched Strata to make DeepSeek V4.1 agent sessions start 20× faster on a good old standard gaming GPU, no datacenter required",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/",
+      "published_at": "2026-11-02T00:44:53Z",
+      "summary": "      Sam Altman recently said that &quot;from a global allocation perspective, actually, it&#39;s quite terrible to have everybody have a bunch of the world&#39;s limited supply of DRAM sitting in their own computer, an",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-qwen-38-flash-next-nvfp4-on-64gb-ram-and-5090-basalt-ditched",
+      "source": "localllama",
+      "title": "Qwen 3.8 Flash Next NVFP4 on 64gb RAM and 5090, Basalt. Ditched windows for it. Very hyped for qwen 4 model family now.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlicia/qwen_38_flash_next_nvfp4_on_64gb_ram_and_5090/",
+      "published_at": "2026-11-01T23:56:49Z",
+      "summary": "      So, I was asleep on Strata and its specialized forks. Tried basalt and i&#39;m very impressed with the speed/intelligence QFN gives you. Here is my benchmark: https://preview.redd.it/8qhp92ql73zh1.png?width=2946&am",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-glb-3d-coder-a-tiny-4b-coding-model-that-creates-3d-assets-f",
+      "source": "localllama",
+      "title": "[GLB-3D-Coder] A tiny 4B coding model that creates 3D assets for Godot and other game engines",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlh0zw/glb3dcoder_a_tiny_4b_coding_model_that_creates_3d/",
+      "published_at": "2026-11-01T22:56:19Z",
+      "summary": "      Hey everyone! After sharing my previous 3D coding model, a lot of you asked about using it to generate assets for your games. That sounded like a fun direction to explore, so I started training a version focused on",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-benchmarking-qwen-27b-35b-qfn180b-nemotron-bolt-74b-flint40b",
+      "source": "localllama",
+      "title": "Benchmarking: Qwen 27B, 35B, QFN180B; Nemotron Bolt 74B, Flint40B & Clover 35B (Q4 + KFlash) on MacBook M5 Max 2026 with Kapitsa (Apple Silicon Inference Engine)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlgu8m/benchmarking_qwen_27b_35b_qfn180b_nemotron_bolt/",
+      "published_at": "2026-11-01T22:47:41Z",
+      "summary": "      hey folks, I&#39;m Ye, one of the contributors to open-source project called Kapitsa, Apple Silicon Inference engine optimized specifically for Apple Silicon to run Qwen, Nemotron, Flint and Clover models locally. ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-01-speedy-is-shockingly-good-for-qwen38-fn",
+      "source": "localllama",
+      "title": "Speedy is shockingly good for qwen3.8 FN",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlfhrd/speedy_is_shockingly_good_for_qwen38_fn/",
+      "published_at": "2026-11-01T21:49:36Z",
+      "summary": "I had just finished setting up avalon, then i found speedy, which crushed avalon. https://github.com/freriadoc/Avalon https://github.com/DevDock-AI/Speedy Hardware: 4090, 128gb ddr5 3600, ryzen 9 7950x ISTA IQ3_S quant: ",
       "tags": [
         "localllama"
       ]
@@ -98,50 +142,6 @@
       "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to ",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-01-i-built-frontier-ui-to-give-local-llms-chatgpt-style-visual",
-      "source": "localllama",
-      "title": "I built Frontier UI to give local LLMs ChatGPT-style visual responses in Open WebUI (maps, photos, interactive charts, Office exports, etc.)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl7jr0/i_built_frontier_ui_to_give_local_llms/",
-      "published_at": "2026-11-01T16:34:50Z",
-      "summary": "      https://i.redd.it/97has5lk21zh1.gif I&#39;ve been running local LLMs through Open WebUI for a while now, and one thing I&#39;ve always wished it had was something similar to ChatGPT&#39;s newer visual responses. Do",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-01-7900xtx-got-speedup",
-      "source": "localllama",
-      "title": "7900xtx got speedup",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl65xy/7900xtx_got_speedup/",
-      "published_at": "2026-11-01T15:39:54Z",
-      "summary": "If you are running qwen3.8 27B on rx7900xtx check this out it&#39;s a super nice speedup https://github.com/thefahien/elpis-on-7900xtx  &#32; submitted by &#32;  /u/darc_knigh   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-01-lfm3-17b-seems-impressive",
-      "source": "localllama",
-      "title": "LFM3-1.7b seems impressive",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl64ho/lfm317b_seems_impressive/",
-      "published_at": "2026-11-01T15:38:15Z",
-      "summary": "Been testing Liquid&#39;s LFM3-1.7B (Q8_0 GGUF, llama.cpp, ROCm) as a candidate for compression and summarization work 4.1k t/s prefill and ~78 t/s decode on a Strix Halo iGPU ~7.1k / ~151 if you tensor-split it across a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-01-release-drex-max-v1-open-weight-27b-multimodal-decision-mode",
-      "source": "localllama",
-      "title": "[Release] Drex Max v1: Open-weight 27B multimodal decision model, 262K context, local inference on Apple Silicon",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl5yfs/release_drex_max_v1_openweight_27b_multimodal/",
-      "published_at": "2026-11-01T15:31:15Z",
-      "summary": "      hey llamas, we open-sourced Drex-Max v1 at Nace.AI. it&#39;s a dense 27B multimodal decision model, released under Open RAIL-M. the main difference from a normal LLM is that it doesn&#39;t generate anything. no tok",
-      "tags": [
-        "localllama"
       ]
     },
     {
