@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-11-02T05:19:43Z",
+  "updated_at": "2026-11-02T15:15:27Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12040",
+      "project": "llama-cpp",
+      "version": "b12040",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12040",
+      "published_at": "2026-11-02T14:05:41Z",
+      "body_excerpt": "tests : merge identical if branches (#31523) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12038",
+      "project": "llama-cpp",
+      "version": "b12038",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12038",
+      "published_at": "2026-11-02T11:31:50Z",
+      "body_excerpt": "ggml : fix clang-cl build with AVX512 BF16 (#31276) Correctly gate immintrin.h inclusion when building with clang-cl and avx512bf16 ggml : explicit vector casts for clang-cl Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 ",
+      "type": "tool"
+    },
+    {
+      "id": "vllm-v0.33.0rc3",
+      "project": "vllm",
+      "version": "v0.33.0rc3",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+      "published_at": "2026-11-02T10:10:05Z",
+      "body_excerpt": "v0.33.0 Highlights This release features 927 commits from 389 contributors (122 new)! New models: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open (#61879), Step-5 Preview (#61727, #63147), NVIDIA Alpamayo 2 Super (#62957), Nemotron-Labs Dory1.0-4B (#60149), Nem",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12034",
+      "project": "llama-cpp",
+      "version": "b12034",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12034",
+      "published_at": "2026-11-02T08:02:51Z",
+      "body_excerpt": "webgpu : fix CI by keeping scratch alloc sizes monotonic in batch length (#31422) webgpu: keep scratch alloc sizes monotonic in the batch length The flash attention vec path and the MMVQ path append a scratch area after dst, but get_alloc_size only accounted for it when the current batch takes that path. The size was therefore not monotonic in the batch length: a graph reserved at n_ubatch (tiled ",
+      "type": "tool"
+    },
     {
       "id": "hf-EleutherAI-pythia-160m-weight-seed2-corrected",
       "project": "EleutherAI",
@@ -13598,69 +13634,6 @@
       "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.2",
       "published_at": "2026-08-04T15:31:37Z",
       "body_excerpt": "What's Changed sync : ggml by @ggerganov in include parakeet in build-xcframework.sh by @daaku in Fix pkgconfig configuration (Nix build failure) by @nmouha in examples : update model names in parakeet-cli README.md [no ci] by @danbev in examples: Fix argument flag for min speech duration in VAD by @QuantiusBenignus in sync : ggml by @ggerganov in examples : Improved inference performance of Andro",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10265",
-      "project": "llama-cpp",
-      "version": "b10265",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10265",
-      "published_at": "2026-08-04T15:10:27Z",
-      "body_excerpt": "sync : ggml Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) W",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10262",
-      "project": "llama-cpp",
-      "version": "b10262",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10262",
-      "published_at": "2026-08-04T13:54:19Z",
-      "body_excerpt": "vulkan backend ops: implemented GATED_LINEAR_ATTN (#25601) vulkan : add GATED_LINEAR_ATTN op docs : update Vulkan ops vulkan : remove unused GLA spec constant Updated ops.md ops.md update Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (V",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10261",
-      "project": "llama-cpp",
-      "version": "b10261",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10261",
-      "published_at": "2026-08-04T13:09:49Z",
-      "body_excerpt": "vocab : validate plamo2 byte tokens (#26511) validate plamo2 byte tokens --typo Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10259",
-      "project": "llama-cpp",
-      "version": "b10259",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10259",
-      "published_at": "2026-08-04T12:18:00Z",
-      "body_excerpt": "model : allow reshape of tensors during load (#26531) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10258",
-      "project": "llama-cpp",
-      "version": "b10258",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10258",
-      "published_at": "2026-08-04T09:22:08Z",
-      "body_excerpt": "llama : move n_vocab from llama_sampler_data to penalty_sampler (#26520) This matches how it is done for logit_bias and mirostat samplers, see Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10256",
-      "project": "llama-cpp",
-      "version": "b10256",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10256",
-      "published_at": "2026-08-04T06:39:15Z",
-      "body_excerpt": "sycl: parallelize the non-contiguous concat kernel (#25852) sycl: parallelize the non-contiguous concat kernel Launch geometry only: the non-contiguous concat kernel launched a single-lane work-group (1, 1, 1), now it will launch a (1, 1, SYCL_CONCAT_BLOCK_SIZE) one. SYCL_CONCAT_BLOCK_SIZE is defined in . llama-bench (Arc Pro B70, Qwen3.6-27B-UD-Q4_K_XL, -fa on, q8_0 KV), on top of upstream master",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10255",
-      "project": "llama-cpp",
-      "version": "b10255",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10255",
-      "published_at": "2026-08-04T05:39:04Z",
-      "body_excerpt": "Extended SYCL oneDNN SDPA to non-FP16 KV caches (Q4_0–Q8_0 and FP32) (#25874) sycl: extend oneDNN SDPA to Q4_0-Q8_0 and F32 KV caches Extends the oneDNN SDPA path (PR #25222) to handle non-F16 KV caches by dequantizing or converting K/V to dense FP16 on-device before feeding them into the SDPA graph. The fused systolic kernel then runs identically to the native FP16 path. Supported KV types: - Q4_",
       "type": "tool"
     }
   ]
