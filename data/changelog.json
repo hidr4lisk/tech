@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-11-03T13:53:51Z",
+  "updated_at": "2026-11-03T23:03:14Z",
   "releases": [
+    {
+      "id": "ollama-v0.40.15-rc0",
+      "project": "ollama",
+      "version": "v0.40.15-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0",
+      "published_at": "2026-11-03T22:52:31Z",
+      "body_excerpt": "What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in model: add MiMo V2.6 model support by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12081",
+      "project": "llama-cpp",
+      "version": "b12081",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12081",
+      "published_at": "2026-11-03T22:47:34Z",
+      "body_excerpt": "cuda: potential fix for Q8_1 correction sum (#31247) cuda: potential fix for Q8_1 correction sum Update ggml/src/ggml-cuda/quantize.cu Co-authored-by: Gaurav Garg addressed review comment to change the quantize_mmq_q8_1 flow as well --------- Co-authored-by: Gaurav Garg Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12080",
+      "project": "llama-cpp",
+      "version": "b12080",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12080",
+      "published_at": "2026-11-03T22:21:55Z",
+      "body_excerpt": "cuda : gather batched tensor reads into mapped host memory (PR to master) (#31391) cuda: gather batched tensor reads into mapped host memory Assisted-by: Codex add comments Assisted-by: Codex simplify the implementation based on checks that exist earlier in the flow simplify batched tensor gather indexing add conditional dispatch address comments - make host registration raii, better test mindful ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12079",
+      "project": "llama-cpp",
+      "version": "b12079",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12079",
+      "published_at": "2026-11-03T21:58:54Z",
+      "body_excerpt": "Add nccl support for multi-node tensor parallelism (#28967) Add a backend interface for collectives across ranks running in separate processes, implement it in the CUDA backend using NCCL, and use it in the RPC server when available. Drop ggml_backend_comm_allreduce_rank_t and reuse ggml_backend_comm_allreduce_tensor for per-rank communicators reuse ggml_backend_cuda_comm_allreduce_nccl for per-ra",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12078",
+      "project": "llama-cpp",
+      "version": "b12078",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12078",
+      "published_at": "2026-11-03T18:23:30Z",
+      "body_excerpt": "tools : reject mismatched shards in GGUF split merge (#31579) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12077",
+      "project": "llama-cpp",
+      "version": "b12077",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12077",
+      "published_at": "2026-11-03T17:50:42Z",
+      "body_excerpt": "meta: support GLM-5.3 next sm tensor (#30499) meta: support GLM-5.3 next sm tensor glm5-next : cont q_absorbed for -sm tensor with non-unified KV meta : keep GGML_OP_ARANGE in ggml.h order glm5-next : split MLA heads in pairs for -sm tensor The MLA cache has a single KV head, so the heads on a device are its GQA ratio. The HIP tile FA kernel for D=512 needs an even GQA ratio; with 3 devices the 16",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12076",
+      "project": "llama-cpp",
+      "version": "b12076",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12076",
+      "published_at": "2026-11-03T17:22:45Z",
+      "body_excerpt": "metal : fix cpy kernel for dst non-contiguous in dim 0 (#31581) kernel_cpy_t_t indexed the dst innermost dim with an implicit element-size stride instead of args.nb0, so cpy into a permuted view (nb0 != type size) wrote the wrong addresses. caught by the new test-backend-ops cpy case with permute_dst = {1, 0, 2, 3} from #31446. addressing is unchanged when dst is contiguous in dim 0. Assisted-by: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12074",
+      "project": "llama-cpp",
+      "version": "b12074",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12074",
+      "published_at": "2026-11-03T15:40:05Z",
+      "body_excerpt": "delta_net_base: refactor conv state (#30878) delta_net: access conv state via views fix sm tensor delta_net: fill the conv slot index on the host The rollback slot index of the conv windows is a constant per graph shape. It is now an I32 input of the recurrent memory filled on the host, instead of an arange and an argsort computed on the device, and the meta backend no longer needs a mirrored spli",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12073",
+      "project": "llama-cpp",
+      "version": "b12073",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12073",
+      "published_at": "2026-11-03T15:17:00Z",
+      "body_excerpt": "vulkan: fix out-of-bounds NVFP4 UE4M3 scale lookup (#31079) vulkan : fix out-of-bounds NVFP4 UE4M3 scale lookup On the non-OCP path, ue4m3_fp32_lut has 128 entries and is indexed with the raw scale byte. ggml_validate_row_data accepts every byte and ggml_ue4m3_to_fp32 ignores bit 7, so a byte >= 0x80 reads past the shared array. Vulkan robustness does not cover shared memory. Size the table, both ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12072",
+      "project": "llama-cpp",
+      "version": "b12072",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12072",
+      "published_at": "2026-11-03T14:58:12Z",
+      "body_excerpt": "llama : drop the redundant cnv from llm_attn_mask (#31558) The dspark block mask is now derived at input-fill time: llm_attn_mask::block_uniform fills every token of a sequence with the mask row of its first token, so the graph-level reshape/repeat in dflash is gone and cnv always aliases raw. Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (Mac Studio, M5 Ultra, 256GB) Website: Attestation",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.914-beta",
+      "project": "unsloth",
+      "version": "v0.1.914-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.914-beta",
+      "published_at": "2026-11-03T14:19:42Z",
+      "body_excerpt": "Unsloth now has Glass themes and more customization options for backgrounds, greetings and chats. This release also brings faster generation, more multi-GPU training options and CPU training in Unsloth. Highlights New Glass themes with 5 themes, transparency + native macOS glass Customization with custom greetings, background controls and code fonts DeepSeek-V4.1 512K context benchmarks show Unslo",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12069",
       "project": "llama-cpp",
@@ -13499,87 +13598,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10290",
       "published_at": "2026-08-06T01:33:36Z",
       "body_excerpt": "mtmd/ggml: add ggml_build_forward_order (#26649) ggml: add ggml_build_forward_order ggml_build_forward_expand marks the tensor and all its ancestors for compute, so using it as a pure ordering hint (keeping q, k and v together) defeats ggml_build_forward_select: the unselected branch is forced to run with inputs that were never uploaded. In the mtmd audio graph this makes GEN_WAV calls execute the",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Lightning-30B-A3B-Base-BF16",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-Base-BF16",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-Base-BF16",
-      "published_at": "2026-08-05T22:50:37Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10289",
-      "project": "llama-cpp",
-      "version": "b10289",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10289",
-      "published_at": "2026-08-05T20:02:56Z",
-      "body_excerpt": "server: harden the file_glob_search directory walk (#26626) server: don't walk Windows junctions in file_glob_search std::filesystem reports a junction as a plain directory, so the symlink guard misses it and a junction pointing back at an ancestor is walked until the path length gives out read the reparse tag and treat a symlink and a mount point as links, leaving any other reparse point walkable",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
-      "published_at": "2026-08-05T19:16:50Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DFlash",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DFlash",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DFlash",
-      "published_at": "2026-08-05T19:12:27Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10288",
-      "project": "llama-cpp",
-      "version": "b10288",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10288",
-      "published_at": "2026-08-05T17:40:40Z",
-      "body_excerpt": "tests: re-enable MiniMax M3 in (#26633) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10287",
-      "project": "llama-cpp",
-      "version": "b10287",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10287",
-      "published_at": "2026-08-05T17:04:13Z",
-      "body_excerpt": "mtmd: Unlimited-OCR fix max_tiles, setting in converter (#25614) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10286",
-      "project": "llama-cpp",
-      "version": "b10286",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10286",
-      "published_at": "2026-08-05T16:23:08Z",
-      "body_excerpt": "grammar : degrade max repetition >= 2000 to unbounded (#26613) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10285",
-      "project": "llama-cpp",
-      "version": "b10285",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10285",
-      "published_at": "2026-08-05T15:20:58Z",
-      "body_excerpt": "mtmd: support multi-row batching for deepseek-ocr (#26154) mtmd: support multi-row batching for deepseek-ocr mtmd: weave deepseek-ocr rows in one shot instead of per row (#26615) --------- Co-authored-by: Saba Fallah Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10284",
-      "project": "llama-cpp",
-      "version": "b10284",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10284",
-      "published_at": "2026-08-05T14:37:27Z",
-      "body_excerpt": "fit: Fix memory allocation for MTP layers (#26605) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
       "type": "tool"
     }
   ]
