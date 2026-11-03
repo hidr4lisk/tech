@@ -1,6 +1,114 @@
 {
-  "updated_at": "2026-11-02T15:15:27Z",
+  "updated_at": "2026-11-03T00:47:03Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12061",
+      "project": "llama-cpp",
+      "version": "b12061",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12061",
+      "published_at": "2026-11-02T23:17:24Z",
+      "body_excerpt": "mtmd: Pocket tts - support for voices without voice cloning (#31429) feat: support PocketTTS voices with no voice cloning The kyutai/pocket-tts-without-voice-cloning weights ship predefined voices as the backbone KV state after the voice prompt. The converter turns each state back into the prompt embeddings and stores them in the mmproj (voice. ), the zeroed voice encoder is left out, and the \"voi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12060",
+      "project": "llama-cpp",
+      "version": "b12060",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12060",
+      "published_at": "2026-11-02T23:00:34Z",
+      "body_excerpt": "model: add Clover support (#31306) model : add AR-only Clover MoE support Add GGUF conversion, model loading, and causal hybrid attention for Clover, reusing shared attention, recurrent-state, MoE, and LoRA helpers. Update tests/test-llama-archs.cpp Co-authored-by: Sigbjørn Skjæret convert : filter Clover tensors using filter_tensors clover : use the standard ssm_a tensor name --------- Co-authore",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12059",
+      "project": "llama-cpp",
+      "version": "b12059",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12059",
+      "published_at": "2026-11-02T22:41:01Z",
+      "body_excerpt": "llama : flash_attn_ext_rows - more efficient unified kv for multi-seq (#29510) llama : use llm_attn_mask and kv_rows for unified attention Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) Co-authored-by: Georgi Gerganov cont : optimize llama : build the kv_rows lists from per-sequence cell bitmaps Keep a bitmap over the cells for each sequence (th",
+      "type": "tool"
+    },
+    {
+      "id": "sglang-v0.5.23",
+      "project": "sglang",
+      "version": "v0.5.23",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.23",
+      "published_at": "2026-11-02T22:14:10Z",
+      "body_excerpt": "Highlights 1007 PRs from 257 contributors. New models | Model | Type | Cookbook | |---|---|---| | Muse Spark Open | LLM / VLM | link | | Beam-1.0 | LLM / VLM | link | | MiniMax-M3.1-Flash | LLM / VLM | link | | MiniCPM-V 4.7 | LLM / VLM | link | | Kev | LLM / VLM | link | | Cosmos3-Nano-Sim (Bimanual, Transfer, Auto) | Diffusion | link | | FastH3 Omni | Diffusion | link | | FLUX.3 Image Klein | Di",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12058",
+      "project": "llama-cpp",
+      "version": "b12058",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12058",
+      "published_at": "2026-11-02T19:30:07Z",
+      "body_excerpt": "imatrix : fix --nextn crash (#31522) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12057",
+      "project": "llama-cpp",
+      "version": "b12057",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12057",
+      "published_at": "2026-11-02T19:06:10Z",
+      "body_excerpt": "context : simplify setters (#29730) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUD",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12054",
+      "project": "llama-cpp",
+      "version": "b12054",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12054",
+      "published_at": "2026-11-02T18:44:38Z",
+      "body_excerpt": "ggml-zdnn: share buffers with host (#31481) Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12053",
+      "project": "llama-cpp",
+      "version": "b12053",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12053",
+      "published_at": "2026-11-02T18:23:26Z",
+      "body_excerpt": "ggml : use instead of on all Apple platforms (#31437) ggml : use instead of on iOS ggml : use vm_allocate on all Apple platforms, run test-host-buffer-release by default Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12052",
+      "project": "llama-cpp",
+      "version": "b12052",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12052",
+      "published_at": "2026-11-02T17:37:44Z",
+      "body_excerpt": "opencl: add topk_mask (#31441) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12050",
+      "project": "llama-cpp",
+      "version": "b12050",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12050",
+      "published_at": "2026-11-02T16:54:25Z",
+      "body_excerpt": "vulkan: improve small-n split-K selection on RDNA3 and RDNA4 (#30146) vulkan: improve small-n split-K selection on RDNA3 and RDNA4 Clean up test cases by removing commented code Removed tests as requested Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12048",
+      "project": "llama-cpp",
+      "version": "b12048",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12048",
+      "published_at": "2026-11-02T16:10:39Z",
+      "body_excerpt": "sycl : fast ggml_sycl_comm_exchange() on Intel Arc Pro B70s (#30956) Update ggml-sycl.cpp Increases -sm tensor prompt eval t/s by +19% with zero PPL change. Update ggml-sycl.cpp Replace first pair of wait() calls with ext_oneapi_submit_barrier(). The wait() calls was discovered to cause MTP degradation. Update ggml-sycl.cpp Adding comm_exchange function pointer to switch between 2 and 4 buffer ggm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12047",
+      "project": "llama-cpp",
+      "version": "b12047",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12047",
+      "published_at": "2026-11-02T15:46:35Z",
+      "body_excerpt": "sycl: dmmv code cleanup (#31325) sycl: fold q8_0 reorder dmmv into the generic template sycl: template the dmmv non-K launchers sycl: template the dmmv K-quant launchers Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12040",
       "project": "llama-cpp",
@@ -13455,186 +13563,6 @@
       "published_at": "2026-08-05T08:22:59Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10276",
-      "project": "llama-cpp",
-      "version": "b10276",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10276",
-      "published_at": "2026-08-05T00:21:08Z",
-      "body_excerpt": "Prefer npm ci over install for security (#26601) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10275",
-      "project": "llama-cpp",
-      "version": "b10275",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10275",
-      "published_at": "2026-08-04T23:49:05Z",
-      "body_excerpt": "server: decode Windows OEM output to UTF-8 in built-in tools (#26597) a child process writes in the OEM code page, which is not UTF-8 on a western Windows install, so accented output reaches the JSON layer as invalid bytes and gets replaced there, silently losing the characters run() spawns without a console, so the child never inherits the console code page and GetOEMCP is the one that applies de",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10274",
-      "project": "llama-cpp",
-      "version": "b10274",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10274",
-      "published_at": "2026-08-04T23:11:48Z",
-      "body_excerpt": "mtmd: correcting duplicate empty audio chunks for short inputs (#26536) correcting duplicate empty audio chunks for short inputs tests.sh code restored Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "hf-allenai-SamudrACE-E3SMv3",
-      "project": "allenai",
-      "version": "SamudrACE-E3SMv3",
-      "url": "https://huggingface.co/allenai/SamudrACE-E3SMv3",
-      "published_at": "2026-08-04T20:48:53Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10273",
-      "project": "llama-cpp",
-      "version": "b10273",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10273",
-      "published_at": "2026-08-04T20:31:56Z",
-      "body_excerpt": "sampler : remove \"full-context windows\" from history-based samplers (#26524) Resolve -1 to 1024 instead of ctx-len for samplers Because of backend-sampling we initialize samplers before the complete llama_context is there. Therefore, we cannot infer the resolved context length yet at the time we construct the samplers. Shared default of 64 for history-based samplers, remove context_size Website: m",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-      "published_at": "2026-08-04T19:10:45Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10271",
-      "project": "llama-cpp",
-      "version": "b10271",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10271",
-      "published_at": "2026-08-04T18:56:20Z",
-      "body_excerpt": "ui: CWD for agent (#26518) server : extend file_glob_search for UI pickers ui : add per-conversation working directory with picker ui : add path navigation and search scope to cwd picker Treat path-like queries (starting with / or ~) as directory navigation instead of glob-matching the whole query: search the parent for the last segment, and descend into an exactly-typed directory by listing its c",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.6-rc0",
-      "project": "ollama",
-      "version": "v0.32.6-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
-      "published_at": "2026-08-04T18:49:20Z",
-      "body_excerpt": "What's Changed - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically - streaming now matches OpenAI's wire format: only on the first chunk, on its own chunk, and usage in a separate chunk with . - Truncated OpenAI responses now report instead of . - now offers for cloud-only models that publish no default tag, instead of failing. - T",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.6",
-      "project": "ollama",
-      "version": "v0.32.6",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6",
-      "published_at": "2026-08-04T18:49:20Z",
-      "body_excerpt": "What's Changed - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically - streaming now matches OpenAI's wire format: only on the first chunk, on its own chunk, and usage in a separate chunk with . - Truncated OpenAI responses now report instead of . - now offers for cloud-only models that publish no default tag, instead of failing. - T",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10270",
-      "project": "llama-cpp",
-      "version": "b10270",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10270",
-      "published_at": "2026-08-04T18:03:46Z",
-      "body_excerpt": "mtmd: support Qwen3-TTS (note: breaking change to llama-tts binary) (#26254) convert text model main model load ok convert encoder ok speaker encoder loading ok speaker enc graph adapt vocab for backbone (with some tricks) add suppress_tokens poc new mtmd gen api convert code_predictor to gguf load gen_code model ok add clip_encode wire up code gen cgraph init version Co-authored-by: Pascal code2w",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10269",
-      "project": "llama-cpp",
-      "version": "b10269",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10269",
-      "published_at": "2026-08-04T17:22:20Z",
-      "body_excerpt": "models : fix dflash wo_a reshape on load (#26577) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10268",
-      "project": "llama-cpp",
-      "version": "b10268",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10268",
-      "published_at": "2026-08-04T16:38:53Z",
-      "body_excerpt": "ci: fix pre-built binaries no longer working on macOS 15 and below (#26375) ci: fix pre-built binaries no longer working on macOS 15 and below ci: add macOS deployment target to disabled KleidiAI build Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU)",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.52-beta",
-      "project": "unsloth",
-      "version": "v0.1.52-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.52-beta",
-      "published_at": "2026-08-04T16:06:43Z",
-      "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 You can run our DeepSeek V4 Dynamic GGUFs through Unsloth. Unsloth automatically detec",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.521-beta",
-      "project": "unsloth",
-      "version": "v0.1.521-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.521-beta",
-      "published_at": "2026-08-04T16:06:43Z",
-      "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 You can run our DeepSeek V4 Dynamic GGUFs through Unsloth. Unsloth automatically detec",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.522-beta",
-      "project": "unsloth",
-      "version": "v0.1.522-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.522-beta",
-      "published_at": "2026-08-04T16:06:43Z",
-      "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 You can run our DeepSeek V4 Dynamic GGUFs through Unsloth. Unsloth automatically detec",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.524-beta",
-      "project": "unsloth",
-      "version": "v0.1.524-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.524-beta",
-      "published_at": "2026-08-04T16:06:43Z",
-      "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck DeepSeek V4 Flash 0731 +DSpark You can run our DeepSeek V4 Dynamic GGUFs through Unsloth. Unsloth automatical",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.525-beta",
-      "project": "unsloth",
-      "version": "v0.1.525-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.525-beta",
-      "published_at": "2026-08-04T16:06:43Z",
-      "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fixes + Mac fixes and smoother installations. DeepSeek V4 Flash 0731 + DSpark You ",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.526-beta",
-      "project": "unsloth",
-      "version": "v0.1.526-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.526-beta",
-      "published_at": "2026-08-04T16:06:43Z",
-      "body_excerpt": "Hey everyone! For folks who missed the news - Kimi K3 & DeepSeek v4 Flash can now run locally with Unsloth Dynamic GGUFs! We now added more efficient and faster downloading for Colab, low memory systems and also high memory and CPU systems - we auto fallback to HTTP as well if XET is stuck August 7th Update Many bug fixes + Mac fixes and smoother installations. DeepSeek V4 Flash 0731 + DSpark You ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10267",
-      "project": "llama-cpp",
-      "version": "b10267",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10267",
-      "published_at": "2026-08-04T15:55:03Z",
-      "body_excerpt": "speculative : refactor enabled configs common_speculative_init (#26510) This commit contains a suggestion to reduce some code duplication in common_speculative_init when adding the enabled speculative decoding configurations. No tests were added but the existing server tests still passes with this change: Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
-      "type": "tool"
-    },
-    {
-      "id": "whisper-cpp-v1.9.2",
-      "project": "whisper-cpp",
-      "version": "v1.9.2",
-      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.2",
-      "published_at": "2026-08-04T15:31:37Z",
-      "body_excerpt": "What's Changed sync : ggml by @ggerganov in include parakeet in build-xcframework.sh by @daaku in Fix pkgconfig configuration (Nix build failure) by @nmouha in examples : update model names in parakeet-cli README.md [no ci] by @danbev in examples: Fix argument flag for min speech duration in VAD by @QuantiusBenignus in sync : ggml by @ggerganov in examples : Improved inference performance of Andro",
-      "type": "tool"
     }
   ]
 }

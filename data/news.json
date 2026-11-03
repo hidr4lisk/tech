@@ -1,46 +1,145 @@
 {
-  "updated_at": "2026-11-02T15:15:18Z",
+  "updated_at": "2026-11-03T00:46:56Z",
   "items": [
     {
-      "id": "localllama-2026-11-02-an-ai-agent-just-beat-nvidias-flashmla-baseline-by-98-on-b20",
+      "id": "simonw-2026-11-02-llm-037",
+      "source": "simonw",
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "published_at": "2026-11-02T23:49:30Z",
+      "summary": "Release: llm 0.37\n        There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.\nI added gpt-6.1-sol and gpt-6.1-terra, plus a ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-02-qwen-38-27b-is-sometimes-so-smart-it-scares-me",
       "source": "localllama",
-      "title": "An AI agent just beat NVIDIA's FlashMLA baseline by 9.8% on B200, without seeing its source code",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlzaq0/an_ai_agent_just_beat_nvidias_flashmla_baseline/",
-      "published_at": "2026-11-02T14:53:42Z",
-      "summary": "      OpenBMB just wrapped up ForgeKernel Live, a ~22-hour autonomous GPU kernel optimization run on NVIDIA B200. The interesting part isn&#39;t just the speedup. The agent was optimizing against a black box. It could ex",
+      "title": "Qwen 3.8 27b is sometimes so smart it scares me...",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbym0/qwen_38_27b_is_sometimes_so_smart_it_scares_me/",
+      "published_at": "2026-11-02T22:42:11Z",
+      "summary": "For fun, I gave Qwen 3.8 27b a physics problem involving some heavy math. A little bit into its reasoning, Qwen took a look at its tools, found that it had access to Blender via blender mcp - and that it could write and ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-02-qwen-4-when",
+      "id": "localllama-2026-11-02-new-sparse-attention-method-for-ultra-long-context",
       "source": "localllama",
-      "title": "Qwen 4 When ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlz5dz/qwen_4_when/",
-      "published_at": "2026-11-02T14:47:55Z",
-      "summary": "Rumors went it was supposed to be out at start of this month...  &#32; submitted by &#32;  /u/BringTea_666   [link] &#32; [comments]",
+      "title": "New sparse attention method for ultra-long context",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
+      "published_at": "2026-11-02T22:24:18Z",
+      "summary": "I am on the team behind the attached open-source research on novel approaches to attention - specifically we show:  • You can sparsify the attention of Qwen 3.8 27B without observed loss on accuracy  • Extending context ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-02-release-ista-deepseek-v41-flash-1017-gsq-rco-coder-a-763b-mo",
+      "id": "localllama-2026-11-02-paper-ridgefill-training-free-late-layer-cache-fill-for-fast",
       "source": "localllama",
-      "title": "[Release] ISTA DeepSeek-V4.1-Flash-1017 GSQ-RCO Coder: a 763B model at 1 bit per parameter",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/",
-      "published_at": "2026-11-02T14:33:20Z",
-      "summary": "      We have released a Coder build of DeepSeek-V4.1-Flash-1017, compressed with GSQ and RCO, in which half of the model&#39;s routed experts have been removed. DeepSeek-V4.1-Flash-1017 is a sparse mixture-of-experts mo",
+      "title": "[Paper] RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmarrf/paper_ridgefill_trainingfree_latelayer_cache_fill/",
+      "published_at": "2026-11-02T21:54:28Z",
+      "summary": "       We introduce RidgeFill, a training-free way to shorten prefill by not computing most of a model&#39;s upper layers for the prompt. The lower layers run exactly up to a split; from the split layer&#39;s state, a ri",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-02-we-released-kvark-sparkle-10-a-qwen38-27b-based-model-with-u",
+      "id": "localllama-2026-11-02-is-there-still-a-point-to-fine-tuning-local-llms",
       "source": "localllama",
-      "title": "We released KVARK Sparkle 1.0 – a Qwen3.8-27B-based model with up to 67% fewer thinking tokens",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlxnpc/we_released_kvark_sparkle_10_a_qwen3827bbased/",
-      "published_at": "2026-11-02T13:48:55Z",
-      "summary": "      Hey everyone! We&#39;re Egzakta AI Lab, and I&#39;m part of the team behind KVARK. We&#39;ve just released our first open-weight model: KVARK Sparkle 1.0 (27B). It&#39;s based on Qwen3.8-27B, with a focus on making",
+      "title": "Is there still a point to fine-tuning local LLMs?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xma1tq/is_there_still_a_point_to_finetuning_local_llms/",
+      "published_at": "2026-11-02T21:26:39Z",
+      "summary": "I&#39;ve been getting more into running LLMs locally, and I&#39;m starting to wonder if fine-tuning is even worth the effort anymore. Models are getting really good, context windows are huge, and with things like RAG, su",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-02-gpt-6-astra-edits-qwen-weights-math-500-79-to-481",
+      "source": "localllama",
+      "title": "GPT-6 Astra Edits Qwen Weights: MATH-500 7.9% to 48.1%",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xma0tw/gpt6_astra_edits_qwen_weights_math500_79_to_481/",
+      "published_at": "2026-11-02T21:25:39Z",
+      "summary": "      &#32; submitted by &#32;  /u/1-800-methdyke   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-02-inconsistencies-in-unsloths-livecodebench-results",
+      "source": "localllama",
+      "title": "Inconsistencies in Unsloth's LiveCodeBench Results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm9i4x/inconsistencies_in_unsloths_livecodebench_results/",
+      "published_at": "2026-11-02T21:05:47Z",
+      "summary": "      I compared two published benchmark charts for DeepSeek-V4.1-Flash-1017 and noticed something rather unusual. All four Unsloth quantizations AND the Q8 baseline simultaneously improved by approximately 2–3 percentag",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-02-kind-of-enjoying-the-ista-gsq-rco-vs-unsloth-beef",
+      "source": "localllama",
+      "title": "Kind of enjoying the ISTA (GSQ-RCO) vs Unsloth beef",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm8xhn/kind_of_enjoying_the_ista_gsqrco_vs_unsloth_beef/",
+      "published_at": "2026-11-02T20:43:48Z",
+      "summary": "I&#39;m not on anyone&#39;s side, I just love the competition. Both teams pushing each other means better quants for all of us. What I don&#39;t understand is why ISTA doesn&#39;t publish KLD for their quants. It doesn&#",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-02-amazon-is-allegedly-canceling-gpu-orders-and-in-rare-cases-c",
+      "source": "localllama",
+      "title": "Amazon Is Allegedly Canceling GPU Orders And, In Rare Cases, Closing Accounts For Purchasing Compute Hardware; Tim Sweeney Also A Victim Of This Practice",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm8o8g/amazon_is_allegedly_canceling_gpu_orders_and_in/",
+      "published_at": "2026-11-02T20:33:48Z",
+      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-02-ysk-strata-and-polystrata-have-this-functionality-called-ans",
+      "source": "localllama",
+      "title": "YSK: Strata and polystrata have this functionality called answer_room",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm8aki/ysk_strata_and_polystrata_have_this_functionality/",
+      "published_at": "2026-11-02T20:19:39Z",
+      "summary": "With default settings and thinking on and max_tokens ≥ 1024, and no explicit reasoning_budget_tokens, Strata / PolyStrata has a behavior called answer_room which will silently cap thinking at 0.75. * max_tokens and injec",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-02-sparks-of-weight-space-programming-llms-can-natively-read-wr",
+      "source": "localllama",
+      "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm6jow/sparks_of_weightspace_programming_llms_can/",
+      "published_at": "2026-11-02T19:15:33Z",
+      "summary": "      &#32; submitted by &#32;  /u/teakhop   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-02-do-we-have-any-benchmarks-on-quality-degradation-between-bas",
+      "source": "localllama",
+      "title": "Do we have any benchmarks on quality degradation between Basalt, Infernix, Strata(-nvfp4)? Not \"engine go more brr\" benchmarks, exploring wrong avenues fast is worthless.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm6hjx/do_we_have_any_benchmarks_on_quality_degradation/",
+      "published_at": "2026-11-02T19:13:21Z",
+      "summary": "While fast inference is very welcome, I would like to know if it&#39;s worth increasing the speed over strata-nvfp4 or am I paying some unacceptable penalties. One thing I&#39;ve noticed with Basalt is that it doesn&#39;",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-02-am-i-the-only-one-who-frequently-opens-this-subreddit-and-st",
+      "source": "localllama",
+      "title": "Am I the only one who frequently opens this subreddit and stumbles upon announcements about Qwen4?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this/",
+      "published_at": "2026-11-02T18:21:04Z",
+      "summary": "I swear it feels like an addiction... I keep refreshing the page repeatedly, waiting to see the fateful launch announcement or at least a countdown. I hope I’m not the only one cooked with this stuff 😭😭😭  &#32; submitted",
       "tags": [
         "localllama"
       ]
@@ -54,94 +153,6 @@
       "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-02-deepseek-v41-flash-1017-is-really-golden",
-      "source": "localllama",
-      "title": "DeepSeek V4.1 Flash 1017 is really golden.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlwrh1/deepseek_v41_flash_1017_is_really_golden/",
-      "published_at": "2026-11-02T13:10:41Z",
-      "summary": "tl;dr: love LLMs to learn things, but only closed-source models were truly reliable for me, until 1017 came up: it&#39;s great and fast for everything This is just an appreciation post made by a human seriously impressed",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-02-not-another-toks-post-local-quants-vs-claude-on-9-real-bugs",
-      "source": "localllama",
-      "title": "Not another tok/s post: local quants vs Claude on 9 real bugs",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlwpqv/not_another_toks_post_local_quants_vs_claude_on_9/",
-      "published_at": "2026-11-02T13:08:34Z",
-      "summary": "      There&#39;s a lot of talk here about not chasing tok/s by lobotomizing the model, and most of what I post is still speed numbers. So this is the other half: what the models I run at home actually get done on my own",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-02-sensenovasensenova-loop-9b-preview-hugging-face",
-      "source": "localllama",
-      "title": "sensenova/SenseNova-Loop-9B-Preview · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlw9v4/sensenovasensenovaloop9bpreview_hugging_face/",
-      "published_at": "2026-11-02T12:48:33Z",
-      "summary": "      &#32; submitted by &#32;  /u/zdy132   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-02-proposal-a-community-revolution-for-private-quality-benchmar",
-      "source": "localllama",
-      "title": "Proposal: A community revolution for private quality benchmarks (and why endless chasing tok/s is rotting our brains",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlusil/proposal_a_community_revolution_for_private/",
-      "published_at": "2026-11-02T11:33:00Z",
-      "summary": "Proposal: A community revolution for private quality benchmarks (and why endless chasing tok/s is rotting our brains honestly we in r/LocalLLaMA need a revolution of people making their own private benchmarks(not tok/s) ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-02-4-touchscreen-for-inference-engine-monitoring",
-      "source": "localllama",
-      "title": "4\" touchscreen for inference engine monitoring",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlsuwf/4_touchscreen_for_inference_engine_monitoring/",
-      "published_at": "2026-11-02T09:38:16Z",
-      "summary": "      I bought this 4&quot; screen with esp32 on aliexpress awhile back and decided to make a TUI style dashboard to monitor my dgx cluster. Inspired by btop++, nv-monitor, and engine metrics by 0rand. Firmware is built ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-02-if-you-are-using-big-model-compared-to-ram-try-and-disable-m",
-      "source": "localllama",
-      "title": "If you are using big model compared to ram try and disable mtp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlsd4v/if_you_are_using_big_model_compared_to_ram_try/",
-      "published_at": "2026-11-02T09:06:06Z",
-      "summary": "Little reminder, with all my testing I found out that mtp can decrease performance when using very big model, since many are starting to use strata or similar and I see many app activating it as default try and disable i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-02-list-of-tiny-to-medium-models-for-web-researchcoding-agents",
-      "source": "localllama",
-      "title": "List of tiny-to-medium models for web research/coding agents",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlpkqv/list_of_tinytomedium_models_for_web/",
-      "published_at": "2026-11-02T06:08:04Z",
-      "summary": "I am compiling a list of models that I think are potentially worth considering for folks who want to run an LLM on a &quot;normal computer&quot;, specifically for an agent use case, but without having to buy a $$$$ graph",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-02-whats-the-best-open-source-ocr-for-batch-processing-pdfs-in",
-      "source": "localllama",
-      "title": "Whats the best open source OCR for batch processing pdfs in 2026?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlp8nd/whats_the_best_open_source_ocr_for_batch/",
-      "published_at": "2026-11-02T05:48:36Z",
-      "summary": "trying to settle on a fully local setup for batch processing pdfs. like each file is around 20-25 pages and mostly text, a few tables and now and then a page thats just a photo of paper the shortlist so far - docling (an",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -338,17 +349,6 @@
       "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
       "published_at": "2026-10-28T13:55:15Z",
       "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-28-quoting-terk-terkowitz",
-      "source": "simonw",
-      "title": "Quoting Terk Terkowitz",
-      "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
-      "published_at": "2026-10-28T10:09:07Z",
-      "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can expl",
       "tags": [
         "simonw"
       ]
