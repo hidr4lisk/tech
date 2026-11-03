@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-11-03T00:47:03Z",
+  "updated_at": "2026-11-03T13:53:51Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12069",
+      "project": "llama-cpp",
+      "version": "b12069",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12069",
+      "published_at": "2026-11-03T11:19:51Z",
+      "body_excerpt": "opencl: add initial iq4_xs support (#31339) opencl: add iq4_xs AOS mv Assisted-by: Codex opencl: add iq4_xs SOA mv and tiled mm Assisted-by: Codex opencl: add iq4_xs noshuffle gemm/gemv for adreno Co-authored-by: Shaofei Qi Assisted-by: Codex opencl: add iq4_xs dp4a for adreno Co-authored-by: Shaofei Qi Assisted-by: Codex opencl: optimize iq4_xs adreno decode and narrow batches Co-authored-by: Sha",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12068",
+      "project": "llama-cpp",
+      "version": "b12068",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12068",
+      "published_at": "2026-11-03T10:44:26Z",
+      "body_excerpt": "chat : allow constraint type after gpt-oss final channel (#31556) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12066",
+      "project": "llama-cpp",
+      "version": "b12066",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12066",
+      "published_at": "2026-11-03T10:00:57Z",
+      "body_excerpt": "webgpu: add ARANGE support (#31455) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUD",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12065",
+      "project": "llama-cpp",
+      "version": "b12065",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12065",
+      "published_at": "2026-11-03T08:09:39Z",
+      "body_excerpt": "kv-cache : never return 0 kv_rows for sequences without cells (#31570) A cache that shares the cells of another one (f.ex. the gemma4 assistant) can build a graph before its sequences have any cells, f.ex. at the server warmup. get_n_kv_rows() then returned 0, which means that kv_rows are not used, so the graph fell back to the dense KQ mask and the scheduler re-planned for it. Later graphs with l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12064",
+      "project": "llama-cpp",
+      "version": "b12064",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12064",
+      "published_at": "2026-11-03T05:42:35Z",
+      "body_excerpt": "hexagon: tiled hvx permute (#31446) hexagon: add tiled HVX transpose path for permuted CONT/CPY Permuted copies where dst dim 0 is strided in src, but some other src dim is contiguous, used to fall back to HTP_COPY_KERNEL_RESHAPE. That issues one DMA descriptor per element. The channel-first channel-last permutes around per-channel norms (e.g. [W,H,T,C] [C,W,H,T] in video VAEs) ht this path, and t",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.14",
+      "project": "ollama",
+      "version": "v0.40.14",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
+      "published_at": "2026-11-03T01:40:40Z",
+      "body_excerpt": "What's Changed now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap Cloud web search responses on are now decoded correctly, including compressed responses OpenAI-compatible endpoints no longer override a model's packaged sampler defaults — clients that send no / get the model's own values instead of 1.0, matching now preserves readabl",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12063",
+      "project": "llama-cpp",
+      "version": "b12063",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12063",
+      "published_at": "2026-11-03T01:39:05Z",
+      "body_excerpt": "dflash: copy hidden features via device copies (#31506) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libra",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12061",
       "project": "llama-cpp",
@@ -13518,51 +13581,6 @@
       "published_at": "2026-08-05T14:37:27Z",
       "body_excerpt": "fit: Fix memory allocation for MTP layers (#26605) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
       "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10282",
-      "project": "llama-cpp",
-      "version": "b10282",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10282",
-      "published_at": "2026-08-05T13:50:09Z",
-      "body_excerpt": "server: Adding spec-decode counters to /metrics endpoint (#26389) server: add spec-decode counters to /metrics endpoint server: fixed review comments and now aligned param names exactly with vLLM. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10280",
-      "project": "llama-cpp",
-      "version": "b10280",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10280",
-      "published_at": "2026-08-05T11:35:24Z",
-      "body_excerpt": "vendor : apply patches for subprocess.h (#26606) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.8.0",
-      "project": "localai",
-      "version": "v4.8.0",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.0",
-      "published_at": "2026-08-05T10:24:01Z",
-      "body_excerpt": "🎉 LocalAI 4.8.0 Release! 🚀 LocalAI 4.8.0 is out! Twenty-two days, 386 pull requests, and three new modalities. This release introduces vllm.cpp, a C++20 engine maintained by the LocalAI team, which began as a vLLM port and now carries its own featureset, shipping as the backend in alpha development builds. Around it: 3D generation as a new modality, a multi-family audio.cpp engine, gallery entries",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10278",
-      "project": "llama-cpp",
-      "version": "b10278",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10278",
-      "published_at": "2026-08-05T10:16:19Z",
-      "body_excerpt": "build : remove GGML_METAL_USE_BF16 from all build scripts (#26604) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
-      "type": "tool"
-    },
-    {
-      "id": "hf-Qwen-Qwen3.8-27B",
-      "project": "Qwen",
-      "version": "Qwen3.8-27B",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "published_at": "2026-08-05T08:22:59Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
