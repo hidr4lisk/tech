@@ -1,6 +1,114 @@
 {
-  "updated_at": "2026-11-03T23:03:14Z",
+  "updated_at": "2026-11-04T05:39:31Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12098",
+      "project": "llama-cpp",
+      "version": "b12098",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12098",
+      "published_at": "2026-11-04T03:49:39Z",
+      "body_excerpt": "mtmd: accurate support for qwen3-vl video prompt format (#31619) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12097",
+      "project": "llama-cpp",
+      "version": "b12097",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12097",
+      "published_at": "2026-11-04T03:28:25Z",
+      "body_excerpt": "model, mtmd: add chatterbox TTS support (#30993) add chatterbox TTS support Co-authored-by: Pascal add built-in voice support rm redundant code clean up clean up 2 Apply batched suggestions from code review Co-authored-by: Sigbjørn Skjæret improve --------- Co-authored-by: Pascal Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12096",
+      "project": "llama-cpp",
+      "version": "b12096",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12096",
+      "published_at": "2026-11-04T03:12:28Z",
+      "body_excerpt": "hexagon: add TOP_K_MASK op (#31552) hexagon: add TOP_K_MASK op Simplify Hexagon TOP_K_MASK kernel and do not duplicate host configuration Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12094",
+      "project": "llama-cpp",
+      "version": "b12094",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12094",
+      "published_at": "2026-11-04T02:40:08Z",
+      "body_excerpt": "hexagon: faster TOP_K for the backend sampler (#31279) hexagon: faster TOP_K for the backend sampler (skip tiles, then block scan) Skip the bitonic sort for tiles whose max cannot reach the running k-th best value, then replace the tile sort with top_k_scan(): reject 256-float blocks with one HVX max-reduce and insert only surviving elements into a sorted k-entry list. Used for k in 2..64 and rows",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12091",
+      "project": "llama-cpp",
+      "version": "b12091",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12091",
+      "published_at": "2026-11-04T01:55:34Z",
+      "body_excerpt": "spec : save and restore MTP hidden state (#30141) speculative : save and restore MTP hidden state Assisted-by: Codex tests : remove MTP state test Assisted-by: Codex speculative : simplify MTP checkpoint state Save only the boundary hidden row; verification rows are rebuilt on the supported restore paths. Assisted-by: GPT-6 --------- Co-authored-by: zouyongxing Website: Attestations: macOS/iOS: ma",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12090",
+      "project": "llama-cpp",
+      "version": "b12090",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12090",
+      "published_at": "2026-11-04T01:37:57Z",
+      "body_excerpt": "ggml-zdnn: fix fattn test failure (#31583) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12089",
+      "project": "llama-cpp",
+      "version": "b12089",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12089",
+      "published_at": "2026-11-04T01:15:58Z",
+      "body_excerpt": "model : Add support for Metis-1.6 models (#31134) Assisted-by: Claude Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12088",
+      "project": "llama-cpp",
+      "version": "b12088",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12088",
+      "published_at": "2026-11-04T00:54:14Z",
+      "body_excerpt": "model : enable NVFP4 LFM3 ggufs (#31608) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12087",
+      "project": "llama-cpp",
+      "version": "b12087",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12087",
+      "published_at": "2026-11-04T00:31:20Z",
+      "body_excerpt": "mtmd : add Nemotron 3.5 Transcribe support (#31471) mtmd : add Nemotron 3.5 Transcribe support Assisted-by: Claude convert : fix vocab of draft models for Nemotron-H targets Assisted-by: Claude convert : reject non-BF16 Transcribe checkpoints Assisted-by: Claude mtmd : make speaker FIFO predictions local Assisted-by: Claude mtmd : normalize the mel in encode_windows Assisted-by: Claude convert : m",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12086",
+      "project": "llama-cpp",
+      "version": "b12086",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12086",
+      "published_at": "2026-11-04T00:12:57Z",
+      "body_excerpt": "qwen4exp: write the conv state tail without an intermediate cont (#31443) build_conv_state_at makes a contiguous copy of the conv input tail before writing it into the recurrent state, so every GDN layer issues two device copies per generated token where one is enough. On Qwen3.8-Flash-Next (36 GDN layers) that is 72 copies per token, now 36. Speculative decoding adds one more per rollback slot. g",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12084",
+      "project": "llama-cpp",
+      "version": "b12084",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12084",
+      "published_at": "2026-11-03T23:53:21Z",
+      "body_excerpt": "model : record layer inputs in LFM3 for spec dec (#31598) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 lib",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12083",
+      "project": "llama-cpp",
+      "version": "b12083",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12083",
+      "published_at": "2026-11-03T23:32:12Z",
+      "body_excerpt": "ggml: avoid signed overflow in ggml_roll bounds check (#30375) ggml_roll validated each shift with abs(shift), but abs(INT_MIN) is signed integer overflow UB evaluated before the bounds check runs. Compare with a signed-safe test instead. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubu",
+      "type": "tool"
+    },
     {
       "id": "ollama-v0.40.15-rc0",
       "project": "ollama",
@@ -13589,15 +13697,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10291",
       "published_at": "2026-08-06T08:01:13Z",
       "body_excerpt": "vulkan: fix submission batching size, add debug tools for diagnosing causes of DeviceLost drivers errors (#26371) vulkan: add debug tooling to get more information about a DeviceLost error fix submission threshold applied too late use logging macros, throw instead of aborting clean up circular dependency Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10290",
-      "project": "llama-cpp",
-      "version": "b10290",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10290",
-      "published_at": "2026-08-06T01:33:36Z",
-      "body_excerpt": "mtmd/ggml: add ggml_build_forward_order (#26649) ggml: add ggml_build_forward_order ggml_build_forward_expand marks the tensor and all its ancestors for compute, so using it as a pure ordering hint (keeping q, k and v together) defeats ggml_build_forward_select: the unselected branch is forced to run with inputs that were never uploaded. In the mtmd audio graph this makes GEN_WAV calls execute the",
       "type": "tool"
     }
   ]
