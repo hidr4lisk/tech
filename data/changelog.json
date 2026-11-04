@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-11-04T14:04:09Z",
+  "updated_at": "2026-11-04T23:26:41Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12119",
+      "project": "llama-cpp",
+      "version": "b12119",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12119",
+      "published_at": "2026-11-04T22:34:35Z",
+      "body_excerpt": "server : realtime: send an error event instead of crashing on exceptions (#31632) server : realtime: send an error event instead of crashing on exceptions server : route websocket handlers through ex_wrapper, remove the realtime test server : realtime: keep the previous tools when the chat template rejects new ones server : realtime: reject tool schemas the grammar cannot convert, drop ws_ex_wrapp",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12118",
+      "project": "llama-cpp",
+      "version": "b12118",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12118",
+      "published_at": "2026-11-04T22:14:14Z",
+      "body_excerpt": "opencl: improve decode perf with FA (#31633) opencl: use more workgroups for q4_K gate up + GLU Co-authored-by: Shaofei Qi opencl: handle FA for GQA 2 and 6 with head size 256 Co-authored-by: Shaofei Qi opencl: handle FA for GQA 16 with head size of 128, 512 Co-authored-by: Shaofei Qi opencl: handle FA for GQA 2 with head size 512 Co-authored-by: Shaofei Qi --------- Co-authored-by: Li He Website:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12116",
+      "project": "llama-cpp",
+      "version": "b12116",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12116",
+      "published_at": "2026-11-04T21:57:59Z",
+      "body_excerpt": "model, mtmd: drama-3 tts support (#31613) model, mtmd: drama-3 tts support clean up mtmd: drama3 helper stops at the codebook tower limit --------- Co-authored-by: Pascal Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s39",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12114",
+      "project": "llama-cpp",
+      "version": "b12114",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12114",
+      "published_at": "2026-11-04T21:33:46Z",
+      "body_excerpt": "webgpu: return maxBufferSize from get_max_size and avoid whole-buffer bindings in memset/clear (#31348) Fix get_max_size and improve the memset shader Fix buffer_memset to handle the buffer size more than max binding size. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.915-beta",
+      "project": "unsloth",
+      "version": "v0.1.915-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.915-beta",
+      "published_at": "2026-11-04T17:54:37Z",
+      "body_excerpt": "This release introduces Qwen3.8-Flash-Next, polishes the Glass themes (now in Beta), adds a Composer position slider and lets models interact with files in the built-in browser. It also brings lower idle memory usage, preserved chat context when switching GGUF models, faster MLX loading and FP8 LoRA training. Highlights Qwen3.8-Flash-Next Dynamic V3.1 - 10-15% extra accuracy Guide Glass theme impr",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-v0.9.0",
       "project": "llama-cpp",
@@ -6345,6 +6390,15 @@
       "published_at": "2026-09-30T03:52:21Z",
       "body_excerpt": "ggml-cuda: HIP: optimize packed byte subtraction ( -> ) (#29478) ggml-cuda: HIP: optimize non-saturating packed byte subtraction () CI: ignore 1 spilled vgpr in fattn_vec --------- Co-authored-by: Carl Philipp Klemm Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ar",
       "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-OptiMind-RL",
+      "project": "microsoft",
+      "version": "OptiMind-RL",
+      "url": "https://huggingface.co/microsoft/OptiMind-RL",
+      "published_at": "2026-09-30T01:52:25Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b11269",
@@ -13706,24 +13760,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10299",
       "published_at": "2026-08-07T07:15:32Z",
       "body_excerpt": "metal : avoid matrix array instantiation in kernel_lightning_indexer (#26646) In MSL, declaring an array of matrix types like causes a 'no matching constructor' compilation error because MSL matrix types do not have zero-argument default constructors and threadgroup variables cannot have initializers. Fix this by declaring a POD array instead and casting to for matrix indexing. Signed-off-by: Jame",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10298",
-      "project": "llama-cpp",
-      "version": "b10298",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10298",
-      "published_at": "2026-08-06T22:10:39Z",
-      "body_excerpt": "mtmd: add chunk save/load function (#26645) mtmd: add chunk save/load function nits add tests rn _MAX --> _COUNT Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ub",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.8.1",
-      "project": "localai",
-      "version": "v4.8.1",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.1",
-      "published_at": "2026-08-06T15:36:06Z",
-      "body_excerpt": "What's Changed Other Changes docs(blog): cover the terminal agent in the 4.8 post by @localai-bot in fix(vram): contain malformed GGUF metadata by @richiejp in docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in chore: :arrow_up: Update 0xShug0/audio.cpp to by @localai-bot in chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in chore: :arrow_up: Update leejet/st",
       "type": "tool"
     }
   ]
