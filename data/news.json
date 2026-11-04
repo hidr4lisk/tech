@@ -1,136 +1,191 @@
 {
-  "updated_at": "2026-11-04T14:04:00Z",
+  "updated_at": "2026-11-04T23:26:35Z",
   "items": [
     {
-      "id": "localllama-2026-11-04-i-removed-85-of-gemmas-weights-and-it-is-mostly-fine",
+      "id": "localllama-2026-11-04-ricursive-intelligence-ripple-65b-preview-new-dense-model",
       "source": "localllama",
-      "title": "I removed 85% of gemma's weights (and it is mostly fine)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnoqyy/i_removed_85_of_gemmas_weights_and_it_is_mostly/",
-      "published_at": "2026-11-04T13:53:30Z",
-      "summary": "      I pruned Gemma 4 26B-A4B, an MoE model, down to 15% of its original size, and the model still does great on one narrow task. It gets 92% agreement with the original on a classification task. That’s close to how oft",
+      "title": "Ricursive Intelligence Ripple-65B-Preview: New Dense Model!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/",
+      "published_at": "2026-11-04T22:42:48Z",
+      "summary": "      So Ricursive Intelligence (not to be confused with Recursive, the makers of Flint) just dropped the preview of their new dense 65B model, which appears to have really impressive performance, putting it on the front",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-lfm3-17b---rather-good",
+      "id": "localllama-2026-11-04-auroraimg2-100m-releases",
       "source": "localllama",
-      "title": "LFM3 1.7b - Rather good",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xno8d8/lfm3_17b_rather_good/",
-      "published_at": "2026-11-04T13:30:09Z",
-      "summary": "I finally got around to trying it. This tiny model is surprisingly capable it seems. Also tried the 2b VL - also very good but it has half the context of 1.7b. It&#39;s also quite fast: $ llama-bench -m LFM3-1.7B-Q8_0.gg",
+      "title": "AuroraIMG2-100M Releases!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnzynf/auroraimg2100m_releases/",
+      "published_at": "2026-11-04T21:07:51Z",
+      "summary": "      This new model achieves large improvements from the Preview. A detailed explanation on its training, architecture can be found in the model card, as well as a quick start (diffusers compatible), and samples. It is ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-tencent-says-hy4-ranks-among-the-best-open-models-its-weight",
+      "id": "localllama-2026-11-04-qwen38-27b-q4-on-my-low-end-laptop-and-it-became-my-main-mod",
       "source": "localllama",
-      "title": "Tencent says Hy4 ranks among the best open models. Its weights aren't out yet",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnnr3k/tencent_says_hy4_ranks_among_the_best_open_models/",
-      "published_at": "2026-11-04T13:07:26Z",
-      "summary": "      From the article : On computer use, Tencent’s table puts Hy4 close to Claude Opus 5.5 and Kimi K3.1 Pro.   &#32; submitted by &#32;  /u/mawcopolow   [link] &#32; [comments] ",
+      "title": "Qwen3.8 27B Q4 on my low-end Laptop, and it became my main Model usage for coding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnzo38/qwen38_27b_q4_on_my_lowend_laptop_and_it_became/",
+      "published_at": "2026-11-04T20:56:55Z",
+      "summary": "my laptop is very old, like 20G of ram 4G Vram 256G NVMe Gen3 From samsung i7 8th gen on these specs i got around 0.67 - 0.77 token per second yes, extremely slow, most of you won&#39;t even like it, or use it but free A",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-omlx-074-can-pair-a-fast-mac-as-prefill-accelerator",
+      "id": "localllama-2026-11-04-deepseek-alone-accounted-for-53-of-all-27-trillion-tokens-on",
       "source": "localllama",
-      "title": "oMLX 0.7.4 can pair a fast mac as prefill accelerator",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnnl57/omlx_074_can_pair_a_fast_mac_as_prefill/",
-      "published_at": "2026-11-04T13:00:03Z",
-      "summary": "      &#32; submitted by &#32;  /u/Synor   [link] &#32; [comments] ",
+      "title": "Deepseek alone accounted for 53% of all (27 trillion) tokens on Openrouter yesterday. Open-weights labs totaling over 75% now",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnz8ct/deepseek_alone_accounted_for_53_of_all_27/",
+      "published_at": "2026-11-04T20:39:28Z",
+      "summary": "      Source: https://dirac.run/labs-market-share#daily-token-share-by-lab   &#32; submitted by &#32;  /u/Comfortable-Rock-498   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-tinywebui---lightweight-open-webui-alternative-just-npx-and",
+      "id": "localllama-2026-11-04-ricursiveairipple-65b-preview-hugging-face",
       "source": "localllama",
-      "title": "TinyWebUI - Lightweight Open WebUI alternative, just npx and go",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnmre2/tinywebui_lightweight_open_webui_alternative_just/",
-      "published_at": "2026-11-04T12:18:25Z",
-      "summary": "      While we cant quite match the feature set of Open WebUI, TinyWebUI can be installed with a simple npx command, &quot;npx tinywebui&quot;. It comes with tinysearch and tinycontext preinstalled for fully local web se",
+      "title": "ricursiveAI/Ripple-65B-Preview · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnx3cs/ricursiveairipple65bpreview_hugging_face/",
+      "published_at": "2026-11-04T19:16:16Z",
+      "summary": "      &#32; submitted by &#32;  /u/coder543   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-deepseek-v41-flash-1017-on-4rtx3090-256ddr4-maya---engine",
+      "id": "localllama-2026-11-04-as-of-november-2026-what-is-the-best-harness-for-doing-long",
       "source": "localllama",
-      "title": "Deepseek V4.1 flash 1017 on 4rtx3090 + 256ddr4 ( Maya - engine )",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnkr5q/deepseek_v41_flash_1017_on_4rtx3090_256ddr4_maya/",
-      "published_at": "2026-11-04T10:22:39Z",
-      "summary": "      Hardware : 4× NVIDIA RTX 3090 , all pcie x16 256GB DDR4 Engine : Maya https://github.com/mw00/project-maya model : orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF ( mix-256G) at 524k context Prefill : 400 – 60",
+      "title": "As of November 2026, what is the best harness for doing long autonomous coding tasks, ones that have full loop of dev/test/update etc cycles, things that might take days+ to complete?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnw1s5/as_of_november_2026_what_is_the_best_harness_for/",
+      "published_at": "2026-11-04T18:36:12Z",
+      "summary": "As of November 2026, what is the best harness for doing long autonomous coding tasks, ones that have full loop of dev/test/update etc cycles, things that might take days+ to complete? So for example, let&#39;s say you ha",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-using-strata-iq4-qwen-flash-to-edit-qwen-35-06b-weight-based",
+      "id": "localllama-2026-11-04-new-qwen38-flash-next-unsloth-dynamic-v31-ggufs",
       "source": "localllama",
-      "title": "Using Strata IQ4 Qwen Flash to edit Qwen 3.5 0.6B weight based on MIT CSAIL",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b/",
-      "published_at": "2026-11-04T09:28:48Z",
-      "summary": "      EDIT : NON COMPRESS GRAPH : https://n.uguu.se/ojTfpwwD.png Because why not. I did this since many weight editing trials using closed model. so i want to try local editing local model.  Preamble:  DeepSeek Harness C",
+      "title": "New Qwen3.8-Flash-Next Unsloth Dynamic V3.1 GGUFs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnvbxn/new_qwen38flashnext_unsloth_dynamic_v31_ggufs/",
+      "published_at": "2026-11-04T18:08:58Z",
+      "summary": "      Hey r/LocalLLaMA ! We&#39;re releasing new new Unsloth Dynamic v3.1 GGUFs for Qwen3.8-Flash-Next! They&#39;re better by 10-15% accuracy on DeepSWE, Terminal Bench, Aider Polyglot and more vs GSQ-RCO. We also provid",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-paper-specpilot-autonomous-algorithm-discovery-and-systems-o",
+      "id": "localllama-2026-11-04-unsloth-qwen38-flash-next-ggufs-v31-update-november-4th-2026",
       "source": "localllama",
-      "title": "[Paper] SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding 🚀🚀🚀",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjrgj/paper_specpilot_autonomous_algorithm_discovery/",
-      "published_at": "2026-11-04T09:18:44Z",
-      "summary": "       Speculative decoding accelerates memory-bound LLM decoding with a lightweight drafter, and parallel drafters extend this speedup by drafting a whole block in one forward pass. However, it remains unclear whether t",
+      "title": "Unsloth Qwen3.8-Flash-Next GGUFs V3.1 Update (November 4th 2026)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november/",
+      "published_at": "2026-11-04T17:51:33Z",
+      "summary": "      now you can spend your evening downloading new version of QFN https://unsloth.ai/docs/models/qwen3.8-next &quot;15% higher accuracy&quot;  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-axion1-0axion-10-35b-hugging-face",
+      "id": "huggingface-2026-11-04-dharma-field-extractor-any-document-in-structured-fields-in",
+      "source": "huggingface",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "published_at": "2026-11-04T17:50:10Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-04-qwen-38-flash-next-gsq-rco-quant-as-good-as-bf16",
       "source": "localllama",
-      "title": "Axion1-0/Axion-1.0-35B · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face/",
-      "published_at": "2026-11-04T09:02:58Z",
-      "summary": "       We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight ",
+      "title": "Qwen 3.8 Flash Next GSQ RCO quant as good as BF16",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnutr6/qwen_38_flash_next_gsq_rco_quant_as_good_as_bf16/",
+      "published_at": "2026-11-04T17:50:03Z",
+      "summary": "      Unsloth has posted about their UD v3.1 quant for Qwen3.8 FN on X saying their new quant is 15% better than GSQ RCO as the almost same file size. But the takeaway from the post for me and many other how are using IQ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-read-the-muse-spark-open-license-before-wiring-it-into-anyth",
+      "id": "localllama-2026-11-04-rust-inference-engine-for-qwen-models-on-a-12-gb-gpu-and-it",
       "source": "localllama",
-      "title": "Read the muse spark open license before wiring it into anything",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnis75/read_the_muse_spark_open_license_before_wiring_it/",
-      "published_at": "2026-11-04T08:13:49Z",
-      "summary": "that 72 hours thread from a few weeks back had the best point down in the comments, open weights only ever meant you can download them. muse spark open is 816B and beam is 501B, so for most ppl here the only drop that we",
+      "title": "Rust inference engine for Qwen models on a 12 GB GPU, and it runs Qwen3.8-Flash-Next faster than the original Strata",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnu9iv/rust_inference_engine_for_qwen_models_on_a_12_gb/",
+      "published_at": "2026-11-04T17:29:24Z",
+      "summary": "I&#39;ve been working on this for a while: RustingStrata. It&#39;s an inference engine for Qwen GGUF models, written in pure Rust, no ggml. The CUDA kernels get compiled at startup with NVRTC, and the same kernels also r",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-introducing-hy4-open-weights-soon",
+      "id": "localllama-2026-11-04-kimi-k31-is-likely-benchmaxxed-with-some-proof",
       "source": "localllama",
-      "title": "Introducing Hy4 (open weights soon)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/",
-      "published_at": "2026-11-04T07:23:10Z",
-      "summary": "&#32; submitted by &#32;  /u/heatOverflower   [link] &#32; [comments]",
+      "title": "Kimi K3.1 is likely benchmaxxed (with some proof)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnu6y1/kimi_k31_is_likely_benchmaxxed_with_some_proof/",
+      "published_at": "2026-11-04T17:26:47Z",
+      "summary": "      PLEASE HAVE SOME NUANCE &amp; READ EVERYTHING BEFORE YOU DOWNVOTE. I am open to alternate opinions (with proof). I have been suspecting that the Chinese models are far more jagged in terms of their capabilities and",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-comfyui-v0440-released",
+      "id": "localllama-2026-11-04-lfm3-omni-2b-running-fully-offline-on-my-iphone-18-pro-max-a",
       "source": "localllama",
-      "title": "ComfyUI v0.44.0 released",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xngb2i/comfyui_v0440_released/",
-      "published_at": "2026-11-04T05:43:50Z",
-      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
+      "title": "LFM3-Omni-2B running fully offline on my iPhone 18 Pro Max at ~80 tok/s, powered by custom WebGPU kernels in a React Native app.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xntou1/lfm3omni2b_running_fully_offline_on_my_iphone_18/",
+      "published_at": "2026-11-04T17:08:06Z",
+      "summary": "      &#32; submitted by &#32;  /u/xenovatech   [link] &#32; [comments] ",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-11-04-datasette-llm-01a10",
+      "source": "simonw",
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "published_at": "2026-11-04T15:26:02Z",
+      "summary": "Release: datasette-llm 0.1a10\n        Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration.\n    \n    \n        Ta",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-11-04-datasette-apps-03a0",
+      "source": "simonw",
+      "title": "datasette-apps 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+      "published_at": "2026-11-04T00:29:36Z",
+      "summary": "Release: datasette-apps 0.3a0\n        Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette.\nThese can be created by hand, but it's easier to create them using LLMs via Datasett",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-11-03-datasette-agent-05a0",
+      "source": "simonw",
+      "title": "datasette-agent 0.5a0",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+      "published_at": "2026-11-03T23:13:45Z",
+      "summary": "Release: datasette-agent 0.5a0\n        This is a significant release of Datasette Agent. The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for examp",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-11-03-llm-0371",
+      "source": "simonw",
+      "title": "llm 0.37.1",
+      "url": "https://simonwillison.net/2026/Nov/3/llm/",
+      "published_at": "2026-11-03T21:41:42Z",
+      "summary": "Release: llm 0.37.1\n        A bugfix release for LLM, with contributions from Steven Huang, Tao An, Arjan Mossel, and XQ.\n    \n    \n        Tags: llm",
+      "tags": [
+        "simonw"
       ]
     },
     {
@@ -288,28 +343,6 @@
       ]
     },
     {
-      "id": "simonw-2026-10-29-api-credits-benefit-for-eligible-chatgpt-subscriptions",
-      "source": "simonw",
-      "title": "API credits benefit for eligible ChatGPT subscriptions",
-      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
-      "published_at": "2026-10-29T22:48:29Z",
-      "summary": "API credits benefit for eligible ChatGPT subscriptions\nEarlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivale",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-29-building-a-multiplayer-game-world-with-autonomous-fable-clas",
-      "source": "simonw",
-      "title": "Building a multiplayer game world with autonomous Fable-class models",
-      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
-      "published_at": "2026-10-29T17:00:26Z",
-      "summary": "How I Built the Most AI-Pilled Company in the World\nDon't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of wha",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "meta-2026-10-29-catching-bugs-before-they-land-jittestings-human-on-the-loop",
       "source": "meta",
       "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
@@ -318,17 +351,6 @@
       "summary": "Over the last year we&#8217;ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we&#8217;re sharing the results and p",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-29-quoting-ben-hylak",
-      "source": "simonw",
-      "title": "Quoting Ben Hylak",
-      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
-      "published_at": "2026-10-29T14:06:27Z",
-      "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath.\nexcept for our product, of course. \nin our product, customers love the ui and love us ve",
-      "tags": [
-        "simonw"
       ]
     },
     {
@@ -376,17 +398,6 @@
       ]
     },
     {
-      "id": "simonw-2026-10-28-quoting-ted-sanders",
-      "source": "simonw",
-      "title": "Quoting Ted Sanders",
-      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
-      "published_at": "2026-10-28T23:23:21Z",
-      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the varia",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "meta-2026-10-28-meta-andromeda-powering-the-next-generation-of-ads-retrieval",
       "source": "meta",
       "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
@@ -414,17 +425,6 @@
       "title": "Build specialized multimodal models with LFM3",
       "url": "https://huggingface.co/blog/LiquidAI/lfm3",
       "published_at": "2026-10-27T17:16:52Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-10-27-can-we-trust-llms-to-judge-whether-a-research-idea-is-novel",
-      "source": "huggingface",
-      "title": "Can we trust LLMs to judge whether a research idea is novel?",
-      "url": "https://huggingface.co/blog/allenai/novelty-bench",
-      "published_at": "2026-10-27T16:12:42Z",
       "summary": "",
       "tags": [
         "huggingface"
