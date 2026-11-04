@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-11-04T05:39:31Z",
+  "updated_at": "2026-11-04T14:04:09Z",
   "releases": [
+    {
+      "id": "llama-cpp-v0.9.0",
+      "project": "llama-cpp",
+      "version": "v0.9.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0",
+      "published_at": "2026-11-04T13:08:06Z",
+      "body_excerpt": "Overview This release adds OCP FP8 E4M3 quantization support, a new op that makes the unified KV cache efficient for multi-sequence inference, and a generic batched tensor copy API. Four new architectures are supported (Clover, Limite, Metis-1.6 and Mistral Large 4), audio generation and transcription expand with Chatterbox TTS, Nemotron 3.5 Transcribe and predefined Pocket TTS voices, and the Gem",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12110",
+      "project": "llama-cpp",
+      "version": "b12110",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12110",
+      "published_at": "2026-11-04T12:52:04Z",
+      "body_excerpt": "llama.cpp : bump version to 0.9.0 (#31646) llama.cpp : bump version to 0.9.0 authors : update Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12109",
+      "project": "llama-cpp",
+      "version": "b12109",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12109",
+      "published_at": "2026-11-04T12:33:27Z",
+      "body_excerpt": "sync : ggml Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 librar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12102",
+      "project": "llama-cpp",
+      "version": "b12102",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12102",
+      "published_at": "2026-11-04T09:12:53Z",
+      "body_excerpt": "ggml: bound views by the bytes their strides reach (#31584) ggml: bound views by the bytes their strides reach A view was checked against its source with the size of a contiguous tensor of the same shape, computed before its strides were set. Views whose rows overlap failed that check although they stay inside their source, and views with wider strides passed it while reaching past the end. The vi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12101",
+      "project": "llama-cpp",
+      "version": "b12101",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12101",
+      "published_at": "2026-11-04T08:32:58Z",
+      "body_excerpt": "ggml : write host-buffer tensor data directly in gguf writer (#31144) The gguf writer staged each tensor into a temporary vector before writing it. For host-buffer tensors the data pointer is directly writable, so skip the staging copy and write it straight to the file. This avoids the per-tensor allocation, zero-init and memcpy. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12100",
+      "project": "llama-cpp",
+      "version": "b12100",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12100",
+      "published_at": "2026-11-04T07:59:47Z",
+      "body_excerpt": "common : fix -hf tag matching inside longer quant names (#31620) common : fix -hf tag matching inside longer quant names \":F16\" picked a BF16 file when the repo had both, since \"BF16\" contains \"F16\". The same applied to \":Q4_XS\" vs \"IQ4_XS\". The tag now has to start at a token boundary in the path. Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (Mac Studio, M5 Ultra, 256GB) common : accept",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12099",
+      "project": "llama-cpp",
+      "version": "b12099",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12099",
+      "published_at": "2026-11-04T05:47:21Z",
+      "body_excerpt": "hexagon: add LIGHTNING_INDEXER support (#31289) hexagon: initial support for LIGHTNING_INDEXER op hex-lght-idxr: hmx for prefill hex-lght-idxr: q8_0 decode gather transpose, two-block decode compute hex-lght-idxr: pipelined hmx path for decode and prefill hex-lid: add support for K (f32) hex-lid: add support for K (f32) hex-lid: add support for q4_0 hex-lid: remove scalar VTCM reads in the HMX q4_",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12098",
       "project": "llama-cpp",
@@ -13661,42 +13724,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.1",
       "published_at": "2026-08-06T15:36:06Z",
       "body_excerpt": "What's Changed Other Changes docs(blog): cover the terminal agent in the 4.8 post by @localai-bot in fix(vram): contain malformed GGUF metadata by @richiejp in docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in chore: :arrow_up: Update 0xShug0/audio.cpp to by @localai-bot in chore: :arrow_up: Update ikawrakow/ik_llama.cpp to by @localai-bot in chore: :arrow_up: Update leejet/st",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10297",
-      "project": "llama-cpp",
-      "version": "b10297",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10297",
-      "published_at": "2026-08-06T13:42:02Z",
-      "body_excerpt": "server: fix empty response for /cors-proxy (#26656) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10295",
-      "project": "llama-cpp",
-      "version": "b10295",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10295",
-      "published_at": "2026-08-06T12:56:29Z",
-      "body_excerpt": "model-loader : fix quantized reshaped tensor strides (#26672) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10293",
-      "project": "llama-cpp",
-      "version": "b10293",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10293",
-      "published_at": "2026-08-06T09:12:47Z",
-      "body_excerpt": "ci : onboard AMD ROCm CI with gfx1151 fixes (#26544) ci: prepare for amd rocm ci Signed-off-by: Aaron Teo ci: fix editorconfig-checker Signed-off-by: Aaron Teo ci: fix device not recognised Signed-off-by: Aaron Teo ci: rename gpu-amd to gpu-hip Signed-off-by: Aaron Teo ci: gpu-hip to gpu-rocm haha Signed-off-by: Aaron Teo CUDA: allow integrated-GPU host output buffer in debug assert On integrated ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10291",
-      "project": "llama-cpp",
-      "version": "b10291",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10291",
-      "published_at": "2026-08-06T08:01:13Z",
-      "body_excerpt": "vulkan: fix submission batching size, add debug tools for diagnosing causes of DeviceLost drivers errors (#26371) vulkan: add debug tooling to get more information about a DeviceLost error fix submission threshold applied too late use logging macros, throw instead of aborting clean up circular dependency Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) ",
       "type": "tool"
     }
   ]
