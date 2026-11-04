@@ -1,134 +1,134 @@
 {
-  "updated_at": "2026-11-04T05:39:24Z",
+  "updated_at": "2026-11-04T14:04:00Z",
   "items": [
     {
-      "id": "localllama-2026-11-04-b70-price-increase-incoming----intel-might-discontinue-the-a",
+      "id": "localllama-2026-11-04-i-removed-85-of-gemmas-weights-and-it-is-mostly-fine",
       "source": "localllama",
-      "title": "B70 Price Increase Incoming --> Intel Might Discontinue the Arc B580 to Prioritize Higher-Margin Arc Pro Cards",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnfzky/b70_price_increase_incoming_intel_might/",
-      "published_at": "2026-11-04T05:25:56Z",
-      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
+      "title": "I removed 85% of gemma's weights (and it is mostly fine)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnoqyy/i_removed_85_of_gemmas_weights_and_it_is_mostly/",
+      "published_at": "2026-11-04T13:53:30Z",
+      "summary": "      I pruned Gemma 4 26B-A4B, an MoE model, down to 15% of its original size, and the model still does great on one narrow task. It gets 92% agreement with the original on a classification task. That’s close to how oft",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-deep-principlehydrogen-10-hugging-face",
+      "id": "localllama-2026-11-04-lfm3-17b---rather-good",
       "source": "localllama",
-      "title": "deep-principle/Hydrogen-1.0 · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnervh/deepprinciplehydrogen10_hugging_face/",
-      "published_at": "2026-11-04T04:21:10Z",
-      "summary": "      Hydrogen-1.0 is a scientific problem-solving and research assistance model developed by Deep Principle based on GLM-5.3. Through text interaction, it is intended to assist with scientific questions, explain derivat",
+      "title": "LFM3 1.7b - Rather good",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xno8d8/lfm3_17b_rather_good/",
+      "published_at": "2026-11-04T13:30:09Z",
+      "summary": "I finally got around to trying it. This tiny model is surprisingly capable it seems. Also tried the 2b VL - also very good but it has half the context of 1.7b. It&#39;s also quite fast: $ llama-bench -m LFM3-1.7B-Q8_0.gg",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-project-oneiros-continuous-lie-group-sequence-processing",
+      "id": "localllama-2026-11-04-tencent-says-hy4-ranks-among-the-best-open-models-its-weight",
       "source": "localllama",
-      "title": "Project Oneiros: Continuous Lie Group Sequence Processing",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xndmc6/project_oneiros_continuous_lie_group_sequence/",
-      "published_at": "2026-11-04T03:21:47Z",
-      "summary": "I have developed atypical foundational model from the ground up using Lie Algebra and Differential Geometry. The paper is written and published by me. Let me know what you think! https://zenodo.org/records/23656924  &#32",
+      "title": "Tencent says Hy4 ranks among the best open models. Its weights aren't out yet",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnnr3k/tencent_says_hy4_ranks_among_the_best_open_models/",
+      "published_at": "2026-11-04T13:07:26Z",
+      "summary": "      From the article : On computer use, Tencent’s table puts Hy4 close to Claude Opus 5.5 and Kimi K3.1 Pro.   &#32; submitted by &#32;  /u/mawcopolow   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-04-keeping-up-with-new-inference-engines",
+      "id": "localllama-2026-11-04-omlx-074-can-pair-a-fast-mac-as-prefill-accelerator",
       "source": "localllama",
-      "title": "Keeping up with new inference engines",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnanyh/keeping_up_with_new_inference_engines/",
-      "published_at": "2026-11-04T00:58:01Z",
-      "summary": "Hey everyone, Not a native speaker, happy to be corrected! Can only learn from it. Back when I started out in march 2025, you had:  llama.cpp ollama (repackaged llama.cpp for ease of use) koboldcpp (repackaged llama.cpp ",
+      "title": "oMLX 0.7.4 can pair a fast mac as prefill accelerator",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnnl57/omlx_074_can_pair_a_fast_mac_as_prefill/",
+      "published_at": "2026-11-04T13:00:03Z",
+      "summary": "      &#32; submitted by &#32;  /u/Synor   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-03-llamacpp-fork-qfn-specific-quant-ultra-specific-hardware-con",
+      "id": "localllama-2026-11-04-tinywebui---lightweight-open-webui-alternative-just-npx-and",
       "source": "localllama",
-      "title": "[llama.cpp fork]: QFN + [specific quant] + [ultra specific hardware config] = [incredible and irreproducible pp and tg]",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn7rfh/llamacpp_fork_qfn_specific_quant_ultra_specific/",
-      "published_at": "2026-11-03T22:48:57Z",
-      "summary": "Upvote, now!  &#32; submitted by &#32;  /u/ParaboloidalCrest   [link] &#32; [comments]",
+      "title": "TinyWebUI - Lightweight Open WebUI alternative, just npx and go",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnmre2/tinywebui_lightweight_open_webui_alternative_just/",
+      "published_at": "2026-11-04T12:18:25Z",
+      "summary": "      While we cant quite match the feature set of Open WebUI, TinyWebUI can be installed with a simple npx command, &quot;npx tinywebui&quot;. It comes with tinysearch and tinycontext preinstalled for fully local web se",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-03-gemma4-graph-optimizations-massive-gains-on-pp-for-e2b-and-e",
+      "id": "localllama-2026-11-04-deepseek-v41-flash-1017-on-4rtx3090-256ddr4-maya---engine",
       "source": "localllama",
-      "title": "gemma4: graph optimizations (massive gains on pp for E2B and E4B) by max-krasnyansky · Pull Request #31356 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn6mm0/gemma4_graph_optimizations_massive_gains_on_pp/",
-      "published_at": "2026-11-03T22:02:49Z",
-      "summary": "      big prompt processing speedup for gemma E2B/E4B  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "title": "Deepseek V4.1 flash 1017 on 4rtx3090 + 256ddr4 ( Maya - engine )",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnkr5q/deepseek_v41_flash_1017_on_4rtx3090_256ddr4_maya/",
+      "published_at": "2026-11-04T10:22:39Z",
+      "summary": "      Hardware : 4× NVIDIA RTX 3090 , all pcie x16 256GB DDR4 Engine : Maya https://github.com/mw00/project-maya model : orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF ( mix-256G) at 524k context Prefill : 400 – 60",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-03-british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutti",
+      "id": "localllama-2026-11-04-using-strata-iq4-qwen-flash-to-edit-qwen-35-06b-weight-based",
       "source": "localllama",
-      "title": "British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn568h/british_fintech_revolut_slashes_ai_coding_costs/",
-      "published_at": "2026-11-03T21:05:30Z",
-      "summary": "&#32; submitted by &#32;  /u/notheresnolight   [link] &#32; [comments]",
+      "title": "Using Strata IQ4 Qwen Flash to edit Qwen 3.5 0.6B weight based on MIT CSAIL",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b/",
+      "published_at": "2026-11-04T09:28:48Z",
+      "summary": "      EDIT : NON COMPRESS GRAPH : https://n.uguu.se/ojTfpwwD.png Because why not. I did this since many weight editing trials using closed model. so i want to try local editing local model.  Preamble:  DeepSeek Harness C",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-03-basalt-020-qwen-38-flash-next-nvfp4-300-ts-prose-600-ts-stru",
+      "id": "localllama-2026-11-04-paper-specpilot-autonomous-algorithm-discovery-and-systems-o",
       "source": "localllama",
-      "title": "Basalt 0.2.0: Qwen 3.8 Flash Next NVFP4, 300 t/s prose, 600 t/s struct, 10K t/s prefill on a 5090 + 5060 Ti and 128GB RAM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn4qn1/basalt_020_qwen_38_flash_next_nvfp4_300_ts_prose/",
-      "published_at": "2026-11-03T20:49:21Z",
-      "summary": "      Basalt 0.2.0: Quality &amp; Speed Hey all! I wanted to share a quick update on Basalt, a Blackwell only inference engine for Qwen 3.8 Flash Next. As usual, speed is the headline but that&#39;s not what I want to op",
+      "title": "[Paper] SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding 🚀🚀🚀",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjrgj/paper_specpilot_autonomous_algorithm_discovery/",
+      "published_at": "2026-11-04T09:18:44Z",
+      "summary": "       Speculative decoding accelerates memory-bound LLM decoding with a lightweight drafter, and parallel drafters extend this speedup by drafting a whole block in one forward pass. However, it remains unclear whether t",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-03-tokenss-worlds-biggest-pcie-graphics-card-discovered-prototy",
+      "id": "localllama-2026-11-04-axion1-0axion-10-35b-hugging-face",
       "source": "localllama",
-      "title": "Tokens/s? \"World's biggest PCIe graphics card\" discovered, prototype AMD Radeon RX 470 board with four GPUs has been pictured",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn40w7/tokenss_worlds_biggest_pcie_graphics_card/",
-      "published_at": "2026-11-03T20:21:51Z",
-      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
+      "title": "Axion1-0/Axion-1.0-35B · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face/",
+      "published_at": "2026-11-04T09:02:58Z",
+      "summary": "       We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-03-what-do-people-with-normal-hardware-32gb-ram-16gb-vram-run",
+      "id": "localllama-2026-11-04-read-the-muse-spark-open-license-before-wiring-it-into-anyth",
       "source": "localllama",
-      "title": "What do people with normal hardware : 32GB ram 16GB VRAM run?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn2jyz/what_do_people_with_normal_hardware_32gb_ram_16gb/",
-      "published_at": "2026-11-03T19:28:09Z",
-      "summary": "Just asking because i have been out of the loop for a while and kinda missed everything (strata etc...) a small recap would be appreciated.  Everyone seems to own an RTX 6000 or insanely expensive rigs here. So just want",
+      "title": "Read the muse spark open license before wiring it into anything",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnis75/read_the_muse_spark_open_license_before_wiring_it/",
+      "published_at": "2026-11-04T08:13:49Z",
+      "summary": "that 72 hours thread from a few weeks back had the best point down in the comments, open weights only ever meant you can download them. muse spark open is 816B and beam is 501B, so for most ppl here the only drop that we",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-03-deepseek-v41-flash-1017-can-also-do-weight-space-programming",
+      "id": "localllama-2026-11-04-introducing-hy4-open-weights-soon",
       "source": "localllama",
-      "title": "DeepSeek V4.1 Flash 1017 can also do Weight-Space Programming",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn2i0n/deepseek_v41_flash_1017_can_also_do_weightspace/",
-      "published_at": "2026-11-03T19:26:12Z",
-      "summary": "Inspired by Weight-Space Programming, I tested whether DeepSeek V4.1 Flash 1017 could figure out what a small neural network does by reading its weights. I fed it four anonymized RL checkpoints: 51k parameters each, iden",
+      "title": "Introducing Hy4 (open weights soon)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/",
+      "published_at": "2026-11-04T07:23:10Z",
+      "summary": "&#32; submitted by &#32;  /u/heatOverflower   [link] &#32; [comments]",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-03-i-tried-mits-weight-space-programming-on-my-own-use-case-cla",
+      "id": "localllama-2026-11-04-comfyui-v0440-released",
       "source": "localllama",
-      "title": "I tried MIT's \"weight-space programming\" on my own use case: Claude rewrote 8 neurons of Gemma 4 12B to change how it translates one Italian tense",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn1gs9/i_tried_mits_weightspace_programming_on_my_own/",
-      "published_at": "2026-11-03T18:48:57Z",
-      "summary": "Yesterday MIT CSAIL showed GPT-6 Astra editing the weights of a small model by hand. It changed a few neurons of Qwen3.5-0.8B, the model stopped looping on math problems, and its scores jumped. No training at all. I want",
+      "title": "ComfyUI v0.44.0 released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xngb2i/comfyui_v0440_released/",
+      "published_at": "2026-11-04T05:43:50Z",
+      "summary": "      &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
