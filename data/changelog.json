@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-05T05:57:09Z",
+  "updated_at": "2026-11-05T14:29:28Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12128",
+      "project": "llama-cpp",
+      "version": "b12128",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12128",
+      "published_at": "2026-11-05T14:03:42Z",
+      "body_excerpt": "tests: fix CI flakes of TOPK_MOE caused by near ties (#31426) tests: fix CI flakes of TOPK_MOE caused by near ties With uniform random logits, two experts sometimes land within one f32 ulp of each other at a routing boundary, mostly with sqrt_softplus gating whose output range is narrow. A backend whose gating differs by a few ulps from the CPU then picks the other expert and the test fails. Draw ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12125",
+      "project": "llama-cpp",
+      "version": "b12125",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12125",
+      "published_at": "2026-11-05T07:29:28Z",
+      "body_excerpt": "opencl: enable f32 and q5_k multi column GEMV by default for Adreno X2 (#31694) opencl: use the small-N f32 GEMV by default on X2E Assisted-by: Claude Opus 5.5 Co-authored-by: Shaofei Qi opencl: use the q5_K multi-column verify GEMV by default on X2E Assisted-by: Claude Opus 5.5 Co-authored-by: Shaofei Qi --------- Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64)",
+      "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-MetricTrail",
+      "project": "nvidia",
+      "version": "MetricTrail",
+      "url": "https://huggingface.co/nvidia/MetricTrail",
+      "published_at": "2026-11-05T07:22:55Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b12124",
+      "project": "llama-cpp",
+      "version": "b12124",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12124",
+      "published_at": "2026-11-05T07:08:03Z",
+      "body_excerpt": "opencl: support non-contig sigmoid (#31687) Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12123",
+      "project": "llama-cpp",
+      "version": "b12123",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12123",
+      "published_at": "2026-11-05T06:43:57Z",
+      "body_excerpt": "opencl: add DSV4_HC_PRE and DSV4_HC_POST (#31623) opencl: add DSV4_HC_PRE and DSV4_HC_POST Co-authored-by: Shafei Qi opencl: improve dsv4_hc_post Co-authored-by: Shaofei Qi --------- Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12122",
+      "project": "llama-cpp",
+      "version": "b12122",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12122",
+      "published_at": "2026-11-05T06:15:38Z",
+      "body_excerpt": "Title: CUDA: fuse NVFP4 gate/up matmuls and GLU in MMQ (#31296) cuda: fuse NVFP4 gate/up and GLU in MMQ cuda: honor the requested src1 precision in fused gate/up MMQ cuda: share NVFP4 scale checks, skip unused fused FP4 kernels cuda: test NVFP4 fused MMQ at W4A8 without scales and with batches, clean up naming cuda: check gate_scale before loading the fused NVFP4 gate scale Website: Attestations: ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12121",
       "project": "llama-cpp",
@@ -13715,69 +13769,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10310",
       "published_at": "2026-08-07T14:59:07Z",
       "body_excerpt": "ggml : add aarch64 HWCAP fallbacks and fix fp16 variant detection (#25554) ggml : add fallback definitions for missing aarch64 HWCAP bits ggml : require HWCAP_ASIMDHP for the aarch64 fp16 cpu variants Also rename has_fp16_va to has_fp16, the field gates the whole FEAT_FP16 extension, scalar and vector half-precision arithmetic together. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple S",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10308",
-      "project": "llama-cpp",
-      "version": "b10308",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10308",
-      "published_at": "2026-08-07T14:05:22Z",
-      "body_excerpt": "Mitigate crashing issue on Windows MSYS2 UCRT64 environment (GCC 16.1.0) (#26555) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10307",
-      "project": "llama-cpp",
-      "version": "b10307",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10307",
-      "published_at": "2026-08-07T13:19:38Z",
-      "body_excerpt": "sycl: fix UE4M3 parsing (#25608) The NVFP4 quantization format stores a scaling factor for every group of 16 weights, packed into a single UE4M3 byte. The SYCL GPU code was converting these scale values using the E4M3 path, but that's signed, and these are unsigned values. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS X",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10306",
-      "project": "llama-cpp",
-      "version": "b10306",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10306",
-      "published_at": "2026-08-07T12:33:55Z",
-      "body_excerpt": "sycl: glu flat path (#26354) tests: add SWIGLU perf cases perf mode had no GLU coverage. Adds SWIGLU at 17408 columns, 512 and 2048 tokens, f16 and f32, with the operands both fused and split. sycl: consolidate fused-GLU kernels They differed only in which op_ they called, so take the op as an argument and share a common launcher. Their block sizes were all 256, so launch geometry is unchanged; SY",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10305",
-      "project": "llama-cpp",
-      "version": "b10305",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10305",
-      "published_at": "2026-08-07T12:03:40Z",
-      "body_excerpt": "sycl : Support DSv4 OPs: LIGHTNING_INDEXER,DSV4_HC_COMB,DSV4_HC_POST,DSV4_HC_PRE (#26568) support DSv4 OPs: LIGHTNING_INDEXER,DSV4_HC_COMB,DSV4_HC_POST,DSV4_HC_PREwq update ops.md fix format issue Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10303",
-      "project": "llama-cpp",
-      "version": "b10303",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10303",
-      "published_at": "2026-08-07T11:15:38Z",
-      "body_excerpt": "sycl : fix error Error OP FLASH_ATTN_EXT on arc770 (#26441) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10301",
-      "project": "llama-cpp",
-      "version": "b10301",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10301",
-      "published_at": "2026-08-07T09:59:37Z",
-      "body_excerpt": "cuda: fix warnings for unused variable/function (#26688) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10299",
-      "project": "llama-cpp",
-      "version": "b10299",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10299",
-      "published_at": "2026-08-07T07:15:32Z",
-      "body_excerpt": "metal : avoid matrix array instantiation in kernel_lightning_indexer (#26646) In MSL, declaring an array of matrix types like causes a 'no matching constructor' compilation error because MSL matrix types do not have zero-argument default constructors and threadgroup variables cannot have initializers. Fix this by declaring a POD array instead and casting to for matrix indexing. Signed-off-by: Jame",
       "type": "tool"
     }
   ]
