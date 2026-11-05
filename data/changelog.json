@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-11-04T23:26:41Z",
+  "updated_at": "2026-11-05T05:57:09Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12121",
+      "project": "llama-cpp",
+      "version": "b12121",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12121",
+      "published_at": "2026-11-05T03:00:07Z",
+      "body_excerpt": "llama : fix on-device state copy sizes for quantized KV caches (#30541) llama : fix on-device state copy sizes for quantized KV caches The on-device sequence state copies (LLAMA_STATE_SEQ_FLAGS_ON_DEVICE) computed their element count as size / ggml_element_size(). For a quantized type such as q8_0 or q4_0 that is the number of blocks, not elements, so only part of each range was copied: the restor",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12119",
       "project": "llama-cpp",
@@ -222,6 +231,15 @@
       "project": "ollama",
       "version": "v0.40.15-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0",
+      "published_at": "2026-11-03T22:52:31Z",
+      "body_excerpt": "What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in model: add MiMo V2.6 model support by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.15-rc1",
+      "project": "ollama",
+      "version": "v0.40.15-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1",
       "published_at": "2026-11-03T22:52:31Z",
       "body_excerpt": "What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in model: add MiMo V2.6 model support by @dhiltgen in Full Changelog:",
       "type": "tool"
