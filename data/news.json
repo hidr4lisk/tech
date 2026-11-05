@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-04T23:26:35Z",
+  "updated_at": "2026-11-05T05:57:02Z",
   "items": [
+    {
+      "id": "localllama-2026-11-05-what-are-vector-embeddings-an-interactive-guide",
+      "source": "localllama",
+      "title": "What are vector embeddings? An interactive guide",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo9vl3/what_are_vector_embeddings_an_interactive_guide/",
+      "published_at": "2026-11-05T04:46:30Z",
+      "summary": "      Hey r/LocalLLaMA I&#39;m Abdur-Rahman Butler, a machine learning engineer at Isaacus. I made an interactive write-up that walks you through the A to Z of vector embeddings, inspired by Brendan Bycroft&#39;s incredi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-04-what-are-you-looking-forward-to-in-qwen-4",
+      "source": "localllama",
+      "title": "What are you looking forward to in Qwen 4?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo3ikc/what_are_you_looking_forward_to_in_qwen_4/",
+      "published_at": "2026-11-04T23:35:49Z",
+      "summary": "Qwen 4 will be upon us soon. What are you most excited about? I hope to see: 27B with more efficient KV, so 128k doesn&#39;t need 8 GiB or whatever. Flash the same architecture as Q38FN, so 125B-A6B for all us desktop sc",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-04-27b-vs-flash-next",
+      "source": "localllama",
+      "title": "27B vs Flash next",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo3gwa/27b_vs_flash_next/",
+      "published_at": "2026-11-04T23:33:43Z",
+      "summary": "Hey guys, I need some advice. My actual setup is this: ryzen 5600 / 32GB RAM / 128GB SSD / 32GB VRAM (2x16GB 5060ti) Running vLLM with Qwen 27B NVFP4 with 250k context. But now I can get my hands on an old HPE ProLiant D",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-11-04-ricursive-intelligence-ripple-65b-preview-new-dense-model",
       "source": "localllama",
@@ -107,39 +140,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnutr6/qwen_38_flash_next_gsq_rco_quant_as_good_as_bf16/",
       "published_at": "2026-11-04T17:50:03Z",
       "summary": "      Unsloth has posted about their UD v3.1 quant for Qwen3.8 FN on X saying their new quant is 15% better than GSQ RCO as the almost same file size. But the takeaway from the post for me and many other how are using IQ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-04-rust-inference-engine-for-qwen-models-on-a-12-gb-gpu-and-it",
-      "source": "localllama",
-      "title": "Rust inference engine for Qwen models on a 12 GB GPU, and it runs Qwen3.8-Flash-Next faster than the original Strata",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnu9iv/rust_inference_engine_for_qwen_models_on_a_12_gb/",
-      "published_at": "2026-11-04T17:29:24Z",
-      "summary": "I&#39;ve been working on this for a while: RustingStrata. It&#39;s an inference engine for Qwen GGUF models, written in pure Rust, no ggml. The CUDA kernels get compiled at startup with NVRTC, and the same kernels also r",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-04-kimi-k31-is-likely-benchmaxxed-with-some-proof",
-      "source": "localllama",
-      "title": "Kimi K3.1 is likely benchmaxxed (with some proof)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnu6y1/kimi_k31_is_likely_benchmaxxed_with_some_proof/",
-      "published_at": "2026-11-04T17:26:47Z",
-      "summary": "      PLEASE HAVE SOME NUANCE &amp; READ EVERYTHING BEFORE YOU DOWNVOTE. I am open to alternate opinions (with proof). I have been suspecting that the Chinese models are far more jagged in terms of their capabilities and",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-04-lfm3-omni-2b-running-fully-offline-on-my-iphone-18-pro-max-a",
-      "source": "localllama",
-      "title": "LFM3-Omni-2B running fully offline on my iPhone 18 Pro Max at ~80 tok/s, powered by custom WebGPU kernels in a React Native app.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xntou1/lfm3omni2b_running_fully_offline_on_my_iphone_18/",
-      "published_at": "2026-11-04T17:08:06Z",
-      "summary": "      &#32; submitted by &#32;  /u/xenovatech   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
