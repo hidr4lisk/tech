@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-11-05T14:29:28Z",
+  "updated_at": "2026-11-05T23:28:36Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12138",
+      "project": "llama-cpp",
+      "version": "b12138",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12138",
+      "published_at": "2026-11-05T22:07:28Z",
+      "body_excerpt": "metal : use mul_mm for 32 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12137",
+      "project": "llama-cpp",
+      "version": "b12137",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12137",
+      "published_at": "2026-11-05T21:49:44Z",
+      "body_excerpt": "server : reject non-object session updates (#31714) Prevent malformed realtime session updates from throwing an uncaught exception and terminating the server Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12136",
+      "project": "llama-cpp",
+      "version": "b12136",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12136",
+      "published_at": "2026-11-05T21:32:43Z",
+      "body_excerpt": "fit : account for skipped NextN layers when setting n_gpu_layers (#31569) fit : account for skipped NextN layers when setting n_gpu_layers Without MTP, fit counts n_layer + 1 layers while the model loader counts n_layer_all + 1 for n_gpu_layers, including the NextN layers which hold no weights. A fit result that offloads all layers then leaves layer 0 on the CPU (\"offloaded 65/66 layers\" for Qwen3",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12135",
+      "project": "llama-cpp",
+      "version": "b12135",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12135",
+      "published_at": "2026-11-05T21:13:05Z",
+      "body_excerpt": "webgpu : add MEAN support (#31591) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librari",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12132",
+      "project": "llama-cpp",
+      "version": "b12132",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12132",
+      "published_at": "2026-11-05T20:33:13Z",
+      "body_excerpt": "common : drop u8path() and use generic_string() (#31681) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12131",
+      "project": "llama-cpp",
+      "version": "b12131",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12131",
+      "published_at": "2026-11-05T20:06:35Z",
+      "body_excerpt": "server : drop u8path() and use generic_string() (#31682) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12130",
+      "project": "llama-cpp",
+      "version": "b12130",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12130",
+      "published_at": "2026-11-05T19:36:27Z",
+      "body_excerpt": "rpc : align code with common.cpp (#31684) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12129",
+      "project": "llama-cpp",
+      "version": "b12129",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12129",
+      "published_at": "2026-11-05T18:47:47Z",
+      "body_excerpt": "vulkan: Re-enable large coopmat matmul configuration on AMD proprietary driver 26.10.1+ (#31587) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12128",
       "project": "llama-cpp",
@@ -54,6 +126,24 @@
       "published_at": "2026-11-05T06:15:38Z",
       "body_excerpt": "Title: CUDA: fuse NVFP4 gate/up matmuls and GLU in MMQ (#31296) cuda: fuse NVFP4 gate/up and GLU in MMQ cuda: honor the requested src1 precision in fused gate/up MMQ cuda: share NVFP4 scale checks, skip unused fused FP4 kernels cuda: test NVFP4 fused MMQ at W4A8 without scales and with batches, clean up naming cuda: check gate_scale before loading the fused NVFP4 gate scale Website: Attestations: ",
       "type": "tool"
+    },
+    {
+      "id": "hf-allenai-Molmo2-4B-tb",
+      "project": "allenai",
+      "version": "Molmo2-4B-tb",
+      "url": "https://huggingface.co/allenai/Molmo2-4B-tb",
+      "published_at": "2026-11-05T05:44:29Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-allenai-maniflow-tb",
+      "project": "allenai",
+      "version": "maniflow-tb",
+      "url": "https://huggingface.co/allenai/maniflow-tb",
+      "published_at": "2026-11-05T03:50:02Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b12121",
@@ -294,6 +384,15 @@
       "project": "ollama",
       "version": "v0.40.15-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1",
+      "published_at": "2026-11-03T22:52:31Z",
+      "body_excerpt": "What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in model: add MiMo V2.6 model support by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.15-rc2",
+      "project": "ollama",
+      "version": "v0.40.15-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc2",
       "published_at": "2026-11-03T22:52:31Z",
       "body_excerpt": "What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in model: add MiMo V2.6 model support by @dhiltgen in Full Changelog:",
       "type": "tool"
@@ -13661,114 +13760,6 @@
       "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17",
       "published_at": "2026-08-08T00:19:16Z",
       "body_excerpt": "Highlights 582 PRs from 194 contributors. Kimi K3 day-0 support: A 2.8T-parameter multimodal LatentMoE (896 experts, top-16, routed in a 3584-dim latent space) with a 1M-token context, 69 KDA linear-attention layers interleaved with 24 MLA layers, and a MoonViT3d vision tower, shipping as a native MXFP4 checkpoint. SGLang serves it from day 0 with DCP, DSpark speculative decoding, chunked-prefill ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10326",
-      "project": "llama-cpp",
-      "version": "b10326",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10326",
-      "published_at": "2026-08-07T21:23:15Z",
-      "body_excerpt": "tts: account for the vocoder pass in the timings line (#26733) get_output runs the waveform work the pipeline defers to it, from a single trailing window to a full pass depending on the model. Measuring it keeps the reported total and the audio to process ratio honest. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFra",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10322",
-      "project": "llama-cpp",
-      "version": "b10322",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10322",
-      "published_at": "2026-08-07T19:51:22Z",
-      "body_excerpt": "sycl: coalesce the ssm_conv window loads (#26612) test-backend-ops perf -o SSM_CONV on an Arc Pro B70, interleaved A/B against master, 6 reps, us/run: ne_a=[515,3328,1,1] ne_b=[4,3328,1,1] n_t=512 97.68 -> 52.95 1.85x ne_a=[937,8192,1,1] ne_b=[4,8192,1,1] n_t=934 516.16 -> 276.13 1.87x ne_a=[4,3328,1,1] ne_b=[4,3328,1,1] n_t=1 2.73 -> 2.71 flat llama-bench on qwen35 27B Q4_K - Medium (48 of its 64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10321",
-      "project": "llama-cpp",
-      "version": "b10321",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10321",
-      "published_at": "2026-08-07T19:07:38Z",
-      "body_excerpt": "metal : fix NORM/RMS_NORM for row lengths that leave a partial simdgroup (#26708) ggml_metal_op_norm sized the threadgroup with , which can leave nth not a multiple of the simdgroup size. The kernels finish their row reduction with a cross-simdgroup step where each lane of the last simdgroup reads one per-simdgroup partial sum out of shmem_f32: if (tiisg == 0) { shmem_f32[sgitg] = sumf; } threadgr",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10319",
-      "project": "llama-cpp",
-      "version": "b10319",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10319",
-      "published_at": "2026-08-07T18:08:09Z",
-      "body_excerpt": "mtmd: fix longest_edge ignoring min/max pixels (#26638) mtmd: fix longest_edge ignoring min/max pixels nits Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10318",
-      "project": "llama-cpp",
-      "version": "b10318",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10318",
-      "published_at": "2026-08-07T17:35:40Z",
-      "body_excerpt": "sync : ggml Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) W",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10313",
-      "project": "llama-cpp",
-      "version": "b10313",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10313",
-      "published_at": "2026-08-07T16:58:40Z",
-      "body_excerpt": "server: (router) add LRU scheduler (#26572) add lru_sched handle coalescing (req leaves waiting queue) add tests fix stream case address review comments Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu",
-      "type": "tool"
-    },
-    {
-      "id": "hf-ibm-granite-granite-4.2-30b",
-      "project": "ibm-granite",
-      "version": "granite-4.2-30b",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-30b",
-      "published_at": "2026-08-07T16:29:50Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-4.2-8b",
-      "project": "ibm-granite",
-      "version": "granite-4.2-8b",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b",
-      "published_at": "2026-08-07T16:29:09Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10312",
-      "project": "llama-cpp",
-      "version": "b10312",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10312",
-      "published_at": "2026-08-07T16:18:45Z",
-      "body_excerpt": "server: (router) do not evict busy models (#26567) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.8.2",
-      "project": "localai",
-      "version": "v4.8.2",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.8.2",
-      "published_at": "2026-08-07T15:53:43Z",
-      "body_excerpt": "What's Changed 👒 Dependencies chore(deps): bump actions/stale from 10.4.0 to 11.0.0 by @dependabot[bot] in chore(deps): bump actions/checkout from 4 to 7 by @dependabot[bot] in Other Changes feat(gallery): fall back to mirrors and a cached index when the primary source fails by @localai-bot in chore(model-gallery): :arrow_up: update checksum by @localai-bot in docs: :arrow_up: update docs version ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10311",
-      "project": "llama-cpp",
-      "version": "b10311",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10311",
-      "published_at": "2026-08-07T15:44:38Z",
-      "body_excerpt": "mtmd: stop feeding the text stream again during Qwen3-TTS generation (#26706) The reference implementation has two mutually exclusive prompt layouts. In non streaming mode the prefill carries the whole utterance text plus tts_eos summed with codec_pad, and the trailing text hidden collapses to a single tts_pad row. In streaming mode the prefill carries only the first text token and the trailing ro",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10310",
-      "project": "llama-cpp",
-      "version": "b10310",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10310",
-      "published_at": "2026-08-07T14:59:07Z",
-      "body_excerpt": "ggml : add aarch64 HWCAP fallbacks and fix fp16 variant detection (#25554) ggml : add fallback definitions for missing aarch64 HWCAP bits ggml : require HWCAP_ASIMDHP for the aarch64 fp16 cpu variants Also rename has_fp16_va to has_fp16, the field gates the whole FEAT_FP16 extension, scalar and vector half-precision arithmetic together. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple S",
       "type": "tool"
     }
   ]
