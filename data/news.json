@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-11-05T23:28:28Z",
+  "updated_at": "2026-11-06T05:53:44Z",
   "items": [
+    {
+      "id": "localllama-2026-11-06-bring-agentic-coding-on-device-with-foundry-local",
+      "source": "localllama",
+      "title": "Bring Agentic Coding On-Device with Foundry Local",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp4lv5/bring_agentic_coding_ondevice_with_foundry_local/",
+      "published_at": "2026-11-06T05:14:39Z",
+      "summary": "      35-135% improvements(decode/tg) on 5090 &amp; DGX Spark. Is it possible to add this to llama.cpp?  &#32; submitted by &#32;  /u/pmttyji   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-06-introducing-inkling-2-small",
+      "source": "localllama",
+      "title": "Introducing Inkling 2 Small",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp32od/introducing_inkling_2_small/",
+      "published_at": "2026-11-06T03:50:26Z",
+      "summary": "       Today we are introducing our second model generation with Inkling 2 Small. It is a Mixture-of-Experts model with 594B total parameters, 17B active, and supports image inputs and variable effort. Inkling 2 Small fa",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-06-end-to-end-desktop-quantization-workspace-for-large-language",
+      "source": "localllama",
+      "title": "End-to-End Desktop Quantization workspace for Large Language Models: Load local Safetensors or Huggingface, Step-by-Step guided Conversions to GGUF, MLX, and ONNX, and Visualize Model Changes and quick publishing to huggingface with full model card.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp01ck/endtoend_desktop_quantization_workspace_for_large/",
+      "published_at": "2026-11-06T01:18:19Z",
+      "summary": "      This is a full quantization desktop workspace for large language models that supports GGUF, MLX, and ONNX. You can pick your own Safetensors model or choose one from Hugging Face, quantize it step by step, and watc",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-06-ccore-glb-3d-coder-dataset-is-here-3918-rendered-and-tested",
+      "source": "localllama",
+      "title": "CCORE GLB-3D-Coder dataset is here: 3,918 rendered and tested examples across 40 domains",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xozbe6/ccore_glb3dcoder_dataset_is_here_3918_rendered/",
+      "published_at": "2026-11-06T00:43:25Z",
+      "summary": "      CCORE GLB-3D-Coder dataset is here: 3,918 rendered and tested examples across 40 domains As promised in my previous posts, I’m releasing the dataset used to train CCORE GLB-3D-Coder, my small 4B model for creating ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-06-cpython-0-day-vulnerabilities-threaten-the-ai-supply-chain",
+      "source": "localllama",
+      "title": "CPython 0-Day Vulnerabilities Threaten the AI Supply Chain",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoyr90/cpython_0day_vulnerabilities_threaten_the_ai/",
+      "published_at": "2026-11-06T00:17:41Z",
+      "summary": "Vulnerability in cpython that neither cpython guys, jinja guys, or huggingface has fixed despite being informed.  &#32; submitted by &#32;  /u/Thrumpwart   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-05-qwen38-27b-benchmark-6-inference-engines-gguf-vs-ninfer-256k",
+      "source": "localllama",
+      "title": "Qwen3.8-27B Benchmark: 6 Inference Engines, GGUF vs NInfer, 256K Context — Comparing Both Speed AND Quality",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoxx4a/qwen3827b_benchmark_6_inference_engines_gguf_vs/",
+      "published_at": "2026-11-05T23:39:57Z",
+      "summary": "      Most LLM inference benchmarks focus on tokens/sec or TTFT. But faster inference doesn&#39;t mean much if the output quality degrades, especially with aggressive quantization, speculative decoding, or very long cont",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-11-05-maybe-well-get-cheap-ram-for-christmas-after-all",
       "source": "localllama",
@@ -76,72 +142,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-05-the-ultimate-moe-training-handbook-training-mixture-of-exper",
-      "source": "localllama",
-      "title": "The Ultimate MoE Training Handbook: training Mixture-of-Experts models with Megatron-LM, setting by setting.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xor5nr/the_ultimate_moe_training_handbook_training/",
-      "published_at": "2026-11-05T19:01:53Z",
-      "summary": "      This handbook is for people who have trained a dense model and want to train an MoE next, or who are curious how MoE training works. Chapter 2 is a Megatron-LM runbook: test the hardware, build the image, train a d",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-05-deepseek-fixed-my-hdmi-display-show-case",
-      "source": "localllama",
-      "title": "Deepseek fixed my HDMI display show case",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoql51/deepseek_fixed_my_hdmi_display_show_case/",
-      "published_at": "2026-11-05T18:40:31Z",
-      "summary": "      I gave Qwen 3.8 flash next 2 times it failed and took long time to conclude the result, DeepSeek took around 15 minutes to get the job done Hardware  Ram ddr4 128GB RTX 3080 20GB VRAM 4x Engine strata Model Qwen3.8",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-05-add-support-for-the-xing4-0-by-shuxiaoqiong-pull-request-315",
-      "source": "localllama",
-      "title": "Add support for the xing4_0 by shuxiaoqiong · Pull Request #31589 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoqc59/add_support_for_the_xing4_0_by_shuxiaoqiong_pull/",
-      "published_at": "2026-11-05T18:30:55Z",
-      "summary": "      Xing4.0-29B-A4B is a next-generation large language model in the Xing series (formerly TeleChat), developed by China Telecom Artificial Intelligence Technology Co., Ltd. With 29B total parameters and only 4B activa",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-05-deepseek-v41-flash-1017-on-one-rtx-3090-big-updates-to-the-d",
-      "source": "localllama",
-      "title": "DeepSeek-V4.1-Flash-1017 on one RTX 3090: Big updates to the Delta Inference Engine v0.93. Same 41 tok/s at 192GB/IQ2 at better quality, usable from 64 GB RAM, first token ~40% sooner, new Unsloth quants at full speed, EXL3, basic multi-GPU, public CI and more",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoq4vq/deepseekv41flash1017_on_one_rtx_3090_big_updates/",
-      "published_at": "2026-11-05T18:23:22Z",
-      "summary": "      Big update to the Delta Inference Engine, you guys asked for more features, more benchmarks and less clickbait. I&#39;m here to deliver The short version: I&#39;ve added almost everything requested and more. Delta ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-05-i-added-local-tts-and-stt-to-apple-llm-using-whats-already-o",
-      "source": "localllama",
-      "title": "I added local TTS and STT to apple-llm using what's already on your Mac. 30 minutes of narration renders in under 20 seconds on an M4 Air",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoowb4/i_added_local_tts_and_stt_to_applellm_using_whats/",
-      "published_at": "2026-11-05T17:37:08Z",
-      "summary": "      I posted apple-llm here a while back: a Node and Python package that calls the LLMs Apple ships with macOS, with no API key. Version 0.3 adds the rest of what&#39;s already on your Mac, the system voices and Apple&",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-05-can-opus-weight-space-edit-qwen38-27b-to-refuse-less-yes",
-      "source": "localllama",
-      "title": "Can Opus weight-space-edit Qwen3.8-27B to refuse less? Yes",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoo730/can_opus_weightspaceedit_qwen3827b_to_refuse_less/",
-      "published_at": "2026-11-05T17:10:49Z",
-      "summary": "      Everyone&#39;s been wondering whether you can take an open model and edit its weights directly to make it refuse less — the &quot;weight-space programming&quot; idea (MIT CSAIL), with a frontier model (Opus) drivin",
-      "tags": [
-        "localllama"
       ]
     },
     {
