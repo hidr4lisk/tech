@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-11-05T23:28:36Z",
+  "updated_at": "2026-11-06T05:53:51Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12144",
+      "project": "llama-cpp",
+      "version": "b12144",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12144",
+      "published_at": "2026-11-06T03:45:50Z",
+      "body_excerpt": "CUDA: linearize MoE data layout for MMQ/MMF (#31047) CUDA: linearize MoE data layout for MMQ/MMF Apply MMQ tile size optimization more generally Fix F16 performance regression Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.0",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12143",
+      "project": "llama-cpp",
+      "version": "b12143",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12143",
+      "published_at": "2026-11-06T02:48:02Z",
+      "body_excerpt": "vulkan: FWHT kernels for block widths above 512 (#29772) vulkan: add F16 input to the FWHT The Vulkan FWHT accepts F32 input only. This adds an F16 source variant of the shader, for both the subgroup and the shared-memory paths, so the kernel reads an F16 source directly instead of requiring a converted copy. The F16 shader needs shader-float16, so the pipelines are only created when the device re",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12142",
+      "project": "llama-cpp",
+      "version": "b12142",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12142",
+      "published_at": "2026-11-06T02:22:29Z",
+      "body_excerpt": "vulkan : check combined K+V f16 scratch size in FA dequant path (#30487) Fixes #30048 Assisted-by: Claude Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12141",
+      "project": "llama-cpp",
+      "version": "b12141",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12141",
+      "published_at": "2026-11-06T01:49:08Z",
+      "body_excerpt": "llama-server: Use reference-counted checkpoints instead of deep-copies (#30137) checkpoints: reduce overhead Assisted-by: Codex rebase Adapt the slot save/restore checkpoint appendix from #26004 to the shared_ptr checkpoint list and the common_state_data buffers. Assisted-by: Claude Opus 5.5 --------- Co-authored-by: cwriter Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12140",
+      "project": "llama-cpp",
+      "version": "b12140",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12140",
+      "published_at": "2026-11-06T01:11:25Z",
+      "body_excerpt": "ggml : support for YaRN (#30206) ggml : support for YaRN YaRN calculates correction intervals to switch frequency interpolation methods, but the setting to not round the boundaries of these intervals to integers () was not supported. Models that use include gpt-oss and some PLaMo-3 models; to support them correctly, the GGML operations and CPU backend are modified to handle calculations without ro",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12138",
       "project": "llama-cpp",
@@ -395,6 +440,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc2",
       "published_at": "2026-11-03T22:52:31Z",
       "body_excerpt": "What's Changed mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in model: add MiMo V2.6 model support by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.15",
+      "project": "ollama",
+      "version": "v0.40.15",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
+      "published_at": "2026-11-03T22:52:31Z",
+      "body_excerpt": "MiMo V2.6 Xiaomi MiMo's mimo-v2.6, a 9B model built for code and agent workflows, is now supported in Ollama. AutoTrust decision models AutoTrust decision models read text and return choices, yes or no probabilities, and ratings for the questions you supply. The family includes 9b, 35b, and 27b-vl sizes — the 35b and 27b-vl sizes can also read images. Note: autotrust-jev is supported on Apple sili",
       "type": "tool"
     },
     {
@@ -13733,33 +13787,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10327",
       "published_at": "2026-08-08T06:04:14Z",
       "body_excerpt": "CUDA: fix thread/block count in quantized cpy kernel launches (#26731) CUDA: fix thread/block count in quantized cpy kernel launches tests: add uneven block count cpy case Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
-      "type": "tool"
-    },
-    {
-      "id": "hf-Qwen-Qwen3.8-2.4T-A95B",
-      "project": "Qwen",
-      "version": "Qwen3.8-2.4T-A95B",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-      "published_at": "2026-08-08T01:50:52Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-Qwen-Qwen3.8-2.4T-A95B-FP8",
-      "project": "Qwen",
-      "version": "Qwen3.8-2.4T-A95B-FP8",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
-      "published_at": "2026-08-08T01:49:49Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "sglang-v0.5.17",
-      "project": "sglang",
-      "version": "v0.5.17",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17",
-      "published_at": "2026-08-08T00:19:16Z",
-      "body_excerpt": "Highlights 582 PRs from 194 contributors. Kimi K3 day-0 support: A 2.8T-parameter multimodal LatentMoE (896 experts, top-16, routed in a 3584-dim latent space) with a 1M-token context, 69 KDA linear-attention layers interleaved with 24 MLA layers, and a MoonViT3d vision tower, shipping as a native MXFP4 checkpoint. SGLang serves it from day 0 with DCP, DSpark speculative decoding, chunked-prefill ",
       "type": "tool"
     }
   ]
