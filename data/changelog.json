@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-11-06T05:53:51Z",
+  "updated_at": "2026-11-06T13:59:45Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12170",
+      "project": "llama-cpp",
+      "version": "b12170",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12170",
+      "published_at": "2026-11-06T13:50:29Z",
+      "body_excerpt": "moe-cache : LRFU/MQ-like hybrid cache, ClassLRU (#31233) moe-cache : LRFU/MQ-inspired hybrid cache make the clock advance by N tokens: use the real token count (ne[1] is always 1, ids have n_expert_used entries per token) sel is a RESHAPE node, the orig input is in src[0], so sel->src[0]->ne[1] is the count c for the class index, last_use for last use time explain the roles of these compute the ke",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12167",
+      "project": "llama-cpp",
+      "version": "b12167",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12167",
+      "published_at": "2026-11-06T09:45:44Z",
+      "body_excerpt": "CUDA: fix Maxwell build (#31787) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 1",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12144",
       "project": "llama-cpp",
@@ -13778,15 +13796,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10328",
       "published_at": "2026-08-08T15:22:20Z",
       "body_excerpt": "server: add initial tool isolation support (via docker) (#26507) server: add initial tool isolation support (via docker) add docs adapt get_info py: fix type check cont separate tools_io_sandbox / tools_io_docker rename sandbox --> isolate x-tool-docker --> x-tool-runtime --------- Co-authored-by: Pascal Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10327",
-      "project": "llama-cpp",
-      "version": "b10327",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10327",
-      "published_at": "2026-08-08T06:04:14Z",
-      "body_excerpt": "CUDA: fix thread/block count in quantized cpy kernel launches (#26731) CUDA: fix thread/block count in quantized cpy kernel launches tests: add uneven block count cpy case Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
       "type": "tool"
     }
   ]
