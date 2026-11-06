@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-11-06T13:59:45Z",
+  "updated_at": "2026-11-06T22:54:03Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12179",
+      "project": "llama-cpp",
+      "version": "b12179",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179",
+      "published_at": "2026-11-06T20:43:24Z",
+      "body_excerpt": "hexagon: conv_2d optimizations and support for conv_3d (#31814) hexagon: Generalization of CONV_2D implementation for CONV_3D New op HTP_OP_CONV_3D is wired through htp-ops.h, main.c (shares op_conv_2d) and the op remap in htp-kparams.cpp. conv_3d runs on the existing HMX tiled (implicit GEMM) conv2d path. KD and KH are folded into one virtual kernel row (KDKH), and output rows are counted as NODO",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12177",
+      "project": "llama-cpp",
+      "version": "b12177",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12177",
+      "published_at": "2026-11-06T17:09:46Z",
+      "body_excerpt": "cli : fix crash on invalid UTF-8 in prompt or files (#31563) Assisted-by: Claude Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12176",
+      "project": "llama-cpp",
+      "version": "b12176",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12176",
+      "published_at": "2026-11-06T16:39:55Z",
+      "body_excerpt": "tests : qualify isnan and signbit with std:: (#31791) tests : qualify isnan and signbit with std:: The unqualified calls rely on the C math.h names also being present in the global namespace, which is not the case for the NetBSD 11.99.9/x86_64 gcc 14.4.0 build reported in the issue. Prefix the calls with std:: to select the standard C++ overloads declared by . ref: Assisted-by: dsh:llama.cpp/ggml-",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12175",
+      "project": "llama-cpp",
+      "version": "b12175",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12175",
+      "published_at": "2026-11-06T16:07:05Z",
+      "body_excerpt": "tests : override hardware_concurrency in CI (#31797) The self-hosted CPU runners are containers with 8 CPUs, but std::thread::hardware_concurrency reports the cores of the host. The table mode of test-llama-context sizes its pool from that count, so it runs 4 models x 8 threads on an 8-CPU job and hangs. Add TEST_ARG_HARDWARE_CONCURRENCY and TEST_ARG_PARALLEL_WORKERS as the defaults for the auto-s",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12174",
+      "project": "llama-cpp",
+      "version": "b12174",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12174",
+      "published_at": "2026-11-06T15:44:59Z",
+      "body_excerpt": "cmake : generate RC file directly without win-app.rc.in (#31718) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.22.2",
+      "project": "transformers",
+      "version": "v5.22.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.2",
+      "published_at": "2026-11-06T15:43:27Z",
+      "body_excerpt": "Patch release v5.22.2 Some in between patch for security and distributed fixes. See the included commits :hugs: [Distributed] Set device_id only for NCCL (#50281) by @michaelbenayoun and @3outeille Harden our Jinja sandboxing (#50431) by @Rocketknight1 Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12173",
+      "project": "llama-cpp",
+      "version": "b12173",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12173",
+      "published_at": "2026-11-06T15:09:05Z",
+      "body_excerpt": "opencl: support repeat for f16, i32, i16, bf16 (#31782) opencl: add f16 repeat Assisted-by: Codex opencl: support repeat for i32, i16, bf16 Assisted-by: Codex opencl: update ops Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s3",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12172",
+      "project": "llama-cpp",
+      "version": "b12172",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12172",
+      "published_at": "2026-11-06T14:50:00Z",
+      "body_excerpt": "webgpu: add batched tensor API ( and ) (#31473) add set_tensor_n and get_tensor_n fix for editor-config checker remove the outdated comment Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zD",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.916-beta",
+      "project": "unsloth",
+      "version": "v0.1.916-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.916-beta",
+      "published_at": "2026-11-06T14:43:33Z",
+      "body_excerpt": "This release brings large performance fixes across Unsloth: faster typing and search in long chats, faster image/video loads, two-GPU image/video gen. It also adds separate browsers for each chat, floating browser window. Highlights Large performance fixes with more Glass theme optimizations coming next week Glass theme fixes no more blur, better rendering, more options Unified memory offloading n",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12171",
+      "project": "llama-cpp",
+      "version": "b12171",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12171",
+      "published_at": "2026-11-06T14:19:29Z",
+      "body_excerpt": "vulkan: detect ReBAR support, avoid BAR allocations if unavailable (#31658) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 1",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12170",
       "project": "llama-cpp",
@@ -259,7 +349,7 @@
       "version": "v0.1.915-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.915-beta",
       "published_at": "2026-11-04T17:54:37Z",
-      "body_excerpt": "This release introduces Qwen3.8-Flash-Next, polishes the Glass themes (now in Beta), adds a Composer position slider and lets models interact with files in the built-in browser. It also brings lower idle memory usage, preserved chat context when switching GGUF models, faster MLX loading and FP8 LoRA training. Highlights Qwen3.8-Flash-Next Dynamic V3.1 - 10-15% extra accuracy Guide Glass theme impr",
+      "body_excerpt": "This release introduces Qwen3.8-Flash-Next Dynamic V3.1, polishes the Glass themes (now in Beta), adds a Composer position slider and lets models interact with files in the built-in browser. It also brings lower idle memory usage, preserved chat context when switching GGUF models, faster MLX loading and FP8 LoRA training. Highlights Qwen3.8-Flash-Next Dynamic V3.1 - 10-15% extra accuracy Guide Gla",
       "type": "tool"
     },
     {
@@ -13769,33 +13859,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10331",
       "published_at": "2026-08-08T23:26:29Z",
       "body_excerpt": "server: report the isolate working directory from get_info (#26773) server: report the isolate working directory from get_info Without an explicit cwd, get_info fell back to the server process working directory even when a tools runtime was configured. That named a host path no tool would ever run in, since an isolate starts in a directory of its own. It now asks the isolate for its working direct",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10330",
-      "project": "llama-cpp",
-      "version": "b10330",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10330",
-      "published_at": "2026-08-08T17:20:30Z",
-      "body_excerpt": "CUDA: fuse rms_norm + mul + rope (+ view + set_rows) (#26767) CUDA: fuse rms_norm + mul + rope (+ view + set_rows) tests: add broadcast weight case to rms_norm_mul_rope CUDA: check memory ranges before rms_norm rope fusion CUDA: check memory ranges in rope set_rows fusion Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XC",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10329",
-      "project": "llama-cpp",
-      "version": "b10329",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10329",
-      "published_at": "2026-08-08T16:00:17Z",
-      "body_excerpt": "server, ui: only offer a working directory when a tool reads it (#26762) The working directory chip showed up as soon as the server exposed any builtin tool, so a server started with just get_datetime, or a user who turned every filesystem tool off in the settings, still got a control that nothing would read. Tools now declare whether they resolve their paths and run against the working directory,",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10328",
-      "project": "llama-cpp",
-      "version": "b10328",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10328",
-      "published_at": "2026-08-08T15:22:20Z",
-      "body_excerpt": "server: add initial tool isolation support (via docker) (#26507) server: add initial tool isolation support (via docker) add docs adapt get_info py: fix type check cont separate tools_io_sandbox / tools_io_docker rename sandbox --> isolate x-tool-docker --> x-tool-runtime --------- Co-authored-by: Pascal Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) ",
       "type": "tool"
     }
   ]
