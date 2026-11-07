@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-11-07T05:25:22Z",
+  "updated_at": "2026-11-07T12:43:32Z",
   "items": [
+    {
+      "id": "localllama-2026-11-07-obsessive-17b-a-11-gb-web-search-subagent",
+      "source": "localllama",
+      "title": "Obsessive-1.7B: a 1.1 GB web-search subagent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent/",
+      "published_at": "2026-11-07T12:13:29Z",
+      "summary": "I fine-tuned LFM3-1.7B to do one job: take a factual question, call web_search once, and answer with a short value, a word-for-word quote and the URL. If the results don’t contain the answer, it says “Not found in the se",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-07-does-anyone-use-none-reasoning-level-for-anything-ever",
+      "source": "localllama",
+      "title": "Does anyone use None reasoning level for anything ever?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4pb6/does_anyone_use_none_reasoning_level_for_anything/",
+      "published_at": "2026-11-07T11:59:19Z",
+      "summary": "Sometimes I am tempted to use none reasoning level in agentic tasks to save time, but I am always kinda scared to do so. I have only ever used llm with reasoning and with medium at the lowest. Anybody have a lot of exper",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-07-paper-d3d-decoupled-diffusion-drafting-for-asynchronous-spec",
+      "source": "localllama",
+      "title": "[Paper] D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for/",
+      "published_at": "2026-11-07T09:00:23Z",
+      "summary": "       Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated target-model hidden states. This forces drafting and verification to run sequentially, limiting ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-07-plamo-3-translate---a-pfnet-collection",
+      "source": "localllama",
+      "title": "PLaMo 3 Translate - a pfnet Collection",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpysba/plamo_3_translate_a_pfnet_collection/",
+      "published_at": "2026-11-07T05:43:41Z",
+      "summary": "      Overview  We have released the weights for PLaMo 3 Translate, our translation-specialized LLM, on Hugging Face. The models come in four sizes—0.8B, 2B, 8B, and 31B. Even the smallest 0.8B model outperforms existing",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-07-change-in-number-of-parameters-in-models-over-time",
+      "source": "localllama",
+      "title": "Change in number of parameters in models over time",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpyr1k/change_in_number_of_parameters_in_models_over_time/",
+      "published_at": "2026-11-07T05:41:38Z",
+      "summary": "      https://preview.redd.it/29048sybn40i1.png?width=1767&amp;format=png&amp;auto=webp&amp;s=ea745c93b8a51da6b2acb37f0c27643f8ed09b02 I had took a look at all of the companies that made open models, the release dates fo",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-11-07-another-benchmark-has-hit-the-quant-war",
       "source": "localllama",
@@ -74,61 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpq3l0/scyllas_band_v4_open_source_tts_with_code_to_run/",
       "published_at": "2026-11-06T22:26:59Z",
       "summary": "      This has been a long one for me: almost a year as a solo project, learning how to build a TTS model from the ground up. I wanted something fast, small enough to run on a phone, multilingual, and (the part I cared a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-06-im-going-to-try-to-turn-a-4b-model-into-a-genuinely-useful-c",
-      "source": "localllama",
-      "title": "I'm going to try to turn a 4B model into a genuinely useful coding agent that can compete with much larger models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xppw37/im_going_to_try_to_turn_a_4b_model_into_a/",
-      "published_at": "2026-11-06T22:17:58Z",
-      "summary": "      After releasing 3D Coder and GLB 3D Coder, I realized I should have involved the community earlier. Your feedback directly influenced the second model and could have saved me some additional training runs. This tim",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-06-some-gpu-prices-are-dropping",
-      "source": "localllama",
-      "title": "Some GPU prices are dropping",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xppbrr/some_gpu_prices_are_dropping/",
-      "published_at": "2026-11-06T21:54:19Z",
-      "summary": "RTX 6000 MaxQ has been 14k a month at microcenter. Today, they cut prices of the workstation card to 16.5k (from a high of 18k). We all saw the dell discount as well (some people got cards for 11.5k).  I think the RTX 60",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-06-we-are-in-the-golden-age-of-local-llm",
-      "source": "localllama",
-      "title": "We are in the golden age of Local LLM",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm/",
-      "published_at": "2026-11-06T21:54:01Z",
-      "summary": "Q4 of 2026 has been astronomical for local LLM. Qwen’s 27B and Flash-Next models are pushing local AI further. and most importantly the upcoming Qwen 4 release. We’re getting closer to having frontier-level capabilities ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-06-just-picked-up-m5u-64c-96g-10-days-earlier-than-apples-initi",
-      "source": "localllama",
-      "title": "Just picked up M5U 64c 96G. 10 days earlier than Apple’s initial estimate",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpoz4y/just_picked_up_m5u_64c_96g_10_days_earlier_than/",
-      "published_at": "2026-11-06T21:39:25Z",
-      "summary": "      &#32; submitted by &#32;  /u/norenEnmotalen   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-06-we-are-cooked-my-qfn-38-nvfp4-just-drew-a-dog-freehand-in-ms",
-      "source": "localllama",
-      "title": "We are cooked. My QFN 3.8 NVFP4 just drew a dog freehand in MS Paint (using new Open WebUI 0.13.0 and Open Terminal 0.17.2)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmvf2/we_are_cooked_my_qfn_38_nvfp4_just_drew_a_dog/",
-      "published_at": "2026-11-06T20:12:07Z",
-      "summary": "      Forget stupid pelican on a bike SVG bullshit. Forget cheating by drawing using Python code. I just loaded up QFN 3.8 in the new Open WebUI 0.13.0 and it just said “hold my beer” and started drawing with the friggin",
       "tags": [
         "localllama"
       ]
