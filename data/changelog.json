@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-11-06T22:54:03Z",
+  "updated_at": "2026-11-07T05:25:28Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12182",
+      "project": "llama-cpp",
+      "version": "b12182",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12182",
+      "published_at": "2026-11-07T03:30:52Z",
+      "body_excerpt": "meta : raise the compute view limit for buffers with few tensors (#31447) ggml-backend-meta : minimum number of compute views per buffer Assisted-by: Claude Opus 5.5 tests : revert the deepseek41 test model to 6 layers Assisted-by: Claude Opus 5.5 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework L",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12180",
+      "project": "llama-cpp",
+      "version": "b12180",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12180",
+      "published_at": "2026-11-06T23:18:52Z",
+      "body_excerpt": "model: add Kimi-K3.1-Pro text model (#31779) model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no rope). The KDA (linear-attention) layers and the rest of the K3 skeleton - cross-layer residuals, latent MoE, situ, MLA output gate, full-rank KDA gate - are unchanged",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12179",
       "project": "llama-cpp",
@@ -13850,15 +13868,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10332",
       "published_at": "2026-08-09T10:48:38Z",
       "body_excerpt": "ci: rm (#26760) Signed-off-by: Aaron Teo Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10331",
-      "project": "llama-cpp",
-      "version": "b10331",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10331",
-      "published_at": "2026-08-08T23:26:29Z",
-      "body_excerpt": "server: report the isolate working directory from get_info (#26773) server: report the isolate working directory from get_info Without an explicit cwd, get_info fell back to the server process working directory even when a tools runtime was configured. That named a host path no tool would ever run in, since an isolate starts in a directory of its own. It now asks the isolate for its working direct",
       "type": "tool"
     }
   ]
