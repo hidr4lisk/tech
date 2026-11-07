@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-11-07T05:25:28Z",
+  "updated_at": "2026-11-07T12:43:37Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12189",
+      "project": "llama-cpp",
+      "version": "b12189",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12189",
+      "published_at": "2026-11-07T12:15:59Z",
+      "body_excerpt": "metal : fix GROUP_NORM for ne03 > 1 and non-contiguous inputs (#31852) The kernel_group_norm_f32 kernel and its host dispatch ignored the batch dimension (ne03) of the source tensor: only ngrp threadgroups were dispatched and each normalized the flat range [tgpiggs, (tgpig+1)gs) with gs = ne00ne01ceil(ne02/ngrp). For tensors with ne03 > 1, all but the first ne00ne01ne02 elements were left unwritte",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12188",
+      "project": "llama-cpp",
+      "version": "b12188",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12188",
+      "published_at": "2026-11-07T11:58:44Z",
+      "body_excerpt": "server: visit parent slots before child slots (#30779) server: visit parent slots before child slots A parent slot wakes its waiting child slots once it finishes the shared prompt prefix, while slots are visited in id order. When a child task lands on a lower slot id than its parent, the child is visited before the parent wakes it and waits an extra batch to process its suffix. Non-child slots are",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12187",
+      "project": "llama-cpp",
+      "version": "b12187",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12187",
+      "published_at": "2026-11-07T11:42:33Z",
+      "body_excerpt": "webgpu : Implement group norm kernel (#31490) Only run webgpu CI on my fork Add webgpu only workflow Add WebGPU group_norm kernel clean up resolve merge conflicts parameterize data type; clean up cmake changes add nullptr check clean up webkit experiments more cleanup more cleanup clang format Remove unused feature check for WebGPU clean up supports_op condition and update documentation add perf t",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12186",
+      "project": "llama-cpp",
+      "version": "b12186",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12186",
+      "published_at": "2026-11-07T11:11:18Z",
+      "body_excerpt": "vulkan: Add 'readonly' to decodeBuf declarations. (#31833) In a future driver version I hope to be able to get some perf gain out of this. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDN",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12185",
+      "project": "llama-cpp",
+      "version": "b12185",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12185",
+      "published_at": "2026-11-07T10:52:05Z",
+      "body_excerpt": "CUDA: fix shared memory bank conflicts in the lightning indexer (#31803) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12184",
+      "project": "llama-cpp",
+      "version": "b12184",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12184",
+      "published_at": "2026-11-07T09:47:07Z",
+      "body_excerpt": "llama : add missing link to pthread (#31785) llama : add missing link to pthread Signed-off-by: Adrien Gallouët Link Threads::Threads privately Signed-off-by: Adrien Gallouët --------- Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12183",
+      "project": "llama-cpp",
+      "version": "b12183",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12183",
+      "published_at": "2026-11-07T09:17:47Z",
+      "body_excerpt": "opencl: add arange (#31829) Assisted-by: Claude Opus 5.5 Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUD",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12182",
       "project": "llama-cpp",
@@ -13850,24 +13913,6 @@
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.527-beta",
       "published_at": "2026-08-09T17:14:42Z",
       "body_excerpt": "What's Changed Studio: judge the cached-pipeline signals on the snapshot the row actually loads by @danielhanchen in Bump install.sh / install.ps1 pin to unsloth>=2026.8.3 by @danielhanchen in Studio: make the sidebar menu separators visible in dark mode by @shimmyshimmer in Studio: run sandbox matplotlib headless by @NilayYadav in Don't send desktop startup requests to an unvalidated port 8888 by",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10333",
-      "project": "llama-cpp",
-      "version": "b10333",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10333",
-      "published_at": "2026-08-09T11:21:50Z",
-      "body_excerpt": "ggml-cpu : fix missing Q5_0 dispatch in SpaceMiT backend (#26792) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) And",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10332",
-      "project": "llama-cpp",
-      "version": "b10332",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10332",
-      "published_at": "2026-08-09T10:48:38Z",
-      "body_excerpt": "ci: rm (#26760) Signed-off-by: Aaron Teo Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU)",
       "type": "tool"
     }
   ]
