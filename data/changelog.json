@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-11-07T12:43:37Z",
+  "updated_at": "2026-11-07T21:38:24Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12192",
+      "project": "llama-cpp",
+      "version": "b12192",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12192",
+      "published_at": "2026-11-07T21:28:25Z",
+      "body_excerpt": "mtmd: support MageVL-Cowork model (#31819) mtmd: support MageVL-Cowork model mtmd: keep magevl rope_freqs at model level and check its shape The rope factors are shared by every layer, so they live in clip_model instead of a pointer copied into each clip_layer. The loader now checks that v.rope_freqs is F32 with d_head elements and that d_head splits into the 4:6:6 pairs the graph expects. -------",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12191",
+      "project": "llama-cpp",
+      "version": "b12191",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12191",
+      "published_at": "2026-11-07T21:11:11Z",
+      "body_excerpt": "llama_moe_cache: run missed experts on CPU, add tuning script (#30966) moe-cache : compute part of the misses on the CPU --moe-cache-cpu-share F computes a share F of the MoE cache misses on the CPU from the host experts instead of uploading them. The graph builds the expert FFN twice: on the device from the cache slots, where the misses left to the CPU read zero slots, and on the CPU from the hos",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12189",
       "project": "llama-cpp",
@@ -13904,15 +13922,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10336",
       "published_at": "2026-08-10T08:18:17Z",
       "body_excerpt": "ggml-webgpu : refactor several wgsl files and simplify flash_attn wgsl. (#26134) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.527-beta",
-      "project": "unsloth",
-      "version": "v0.1.527-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.527-beta",
-      "published_at": "2026-08-09T17:14:42Z",
-      "body_excerpt": "What's Changed Studio: judge the cached-pipeline signals on the snapshot the row actually loads by @danielhanchen in Bump install.sh / install.ps1 pin to unsloth>=2026.8.3 by @danielhanchen in Studio: make the sidebar menu separators visible in dark mode by @shimmyshimmer in Studio: run sandbox matplotlib headless by @NilayYadav in Don't send desktop startup requests to an unvalidated port 8888 by",
       "type": "tool"
     }
   ]
