@@ -1,134 +1,134 @@
 {
-  "updated_at": "2026-11-07T12:43:32Z",
+  "updated_at": "2026-11-07T21:38:15Z",
   "items": [
     {
-      "id": "localllama-2026-11-07-obsessive-17b-a-11-gb-web-search-subagent",
+      "id": "localllama-2026-11-07-crowd-v1---the-collaborative-llm",
       "source": "localllama",
-      "title": "Obsessive-1.7B: a 1.1 GB web-search subagent",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent/",
-      "published_at": "2026-11-07T12:13:29Z",
-      "summary": "I fine-tuned LFM3-1.7B to do one job: take a factual question, call web_search once, and answer with a short value, a word-for-word quote and the URL. If the results don’t contain the answer, it says “Not found in the se",
+      "title": "Crowd-v1 - The collaborative LLM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqh8hk/crowdv1_the_collaborative_llm/",
+      "published_at": "2026-11-07T21:19:40Z",
+      "summary": "Processing img 0ybf7gn4c90i1... Hello r/LocalLLaMA :D This is yet another follow-up post on the project CrowdGPT, which aims at creating the first collaboratively trained 1 billion parameters transformer, Crowd-v1, witho",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-07-does-anyone-use-none-reasoning-level-for-anything-ever",
+      "id": "localllama-2026-11-07-one-token-at-the-beginning-of-a-prompt-changed-6-out-of-15",
       "source": "localllama",
-      "title": "Does anyone use None reasoning level for anything ever?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4pb6/does_anyone_use_none_reasoning_level_for_anything/",
-      "published_at": "2026-11-07T11:59:19Z",
-      "summary": "Sometimes I am tempted to use none reasoning level in agentic tasks to save time, but I am always kinda scared to do so. I have only ever used llm with reasoning and with medium at the lowest. Anybody have a lot of exper",
+      "title": "# One token at the beginning of a prompt changed 6 out of 15 LLM responses. Does it matter?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqh2jw/one_token_at_the_beginning_of_a_prompt_changed_6/",
+      "published_at": "2026-11-07T21:12:26Z",
+      "summary": "I&#39;m back with another experiment. After the last heated discussion about KV cache, temperature 0, and reproducibility — where I got quite a beating for both my post and my writing style (partly deserved, to be fair ;",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-07-paper-d3d-decoupled-diffusion-drafting-for-asynchronous-spec",
+      "id": "localllama-2026-11-07-betelgeuse-running-deepseek-v41-flash-q8-xl-1017-at-19-toks",
       "source": "localllama",
-      "title": "[Paper] D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for/",
-      "published_at": "2026-11-07T09:00:23Z",
-      "summary": "       Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated target-model hidden states. This forces drafting and verification to run sequentially, limiting ",
+      "title": "Betelgeuse running DeepSeek V4.1 Flash Q8_XL (1017) at 19 tok/s decode & 62 tok/s prefill on an RTX 3060 12GB + 16GB RAM: How we finally fixed the prefill bottleneck on out-of-core MoEs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqfekg/betelgeuse_running_deepseek_v41_flash_q8_xl_1017/",
+      "published_at": "2026-11-07T19:58:54Z",
+      "summary": "      After my last post on Qwen 3.8 Flash Next, a lot of people were asking if out-of-core MoE streaming could ever work on an actual frontier monster like DeepSeek V4.1 Flash (1017), or if the prompt processing (PP) wo",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-07-plamo-3-translate---a-pfnet-collection",
+      "id": "localllama-2026-11-07-use-your-phone-to-monitor-anything-with-local-models-demo-of",
       "source": "localllama",
-      "title": "PLaMo 3 Translate - a pfnet Collection",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpysba/plamo_3_translate_a_pfnet_collection/",
-      "published_at": "2026-11-07T05:43:41Z",
-      "summary": "      Overview  We have released the weights for PLaMo 3 Translate, our translation-specialized LLM, on Hugging Face. The models come in four sizes—0.8B, 2B, 8B, and 31B. Even the smallest 0.8B model outperforms existing",
+      "title": "Use your phone to monitor anything with local models! Demo of my Open Source and 100% local agent (iOS and Android!)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
+      "published_at": "2026-11-07T18:16:41Z",
+      "summary": "      Hey r/LocalLLaMA ! I made this quick demo of how Observer can run local models to monitor anything with your phone!  These are some crazy things I&#39;ve monitored:  When someone that&#39;s not me, approaches my ca",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-07-change-in-number-of-parameters-in-models-over-time",
+      "id": "localllama-2026-11-07-also-experienced-the-qwen38-flash-next-url-issue",
       "source": "localllama",
-      "title": "Change in number of parameters in models over time",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpyr1k/change_in_number_of_parameters_in_models_over_time/",
-      "published_at": "2026-11-07T05:41:38Z",
-      "summary": "      https://preview.redd.it/29048sybn40i1.png?width=1767&amp;format=png&amp;auto=webp&amp;s=ea745c93b8a51da6b2acb37f0c27643f8ed09b02 I had took a look at all of the companies that made open models, the release dates fo",
+      "title": "Also experienced the Qwen3.8-Flash-Next URL issue",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbjbf/also_experienced_the_qwen38flashnext_url_issue/",
+      "published_at": "2026-11-07T17:15:04Z",
+      "summary": "      I was asking QFN (4.18bpw EXL3 quant via Pi) to help refactor a neovim configuration, and saw that it tried to find API keys and fetch an aliyuncs URL before I stopped it. I&#39;m not trying to start any arguments,",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-07-another-benchmark-has-hit-the-quant-war",
+      "id": "localllama-2026-11-07-effects-of-kv-cache-quantization-on-qwen38-27b",
       "source": "localllama",
-      "title": "Another benchmark has hit the quant war",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpxfob/another_benchmark_has_hit_the_quant_war/",
-      "published_at": "2026-11-07T04:28:19Z",
-      "summary": "      If you have not been following ISTA-DASLab the creators of the gsq-rco quants have received some criticism from unsloth regarding the inabilty to reproduce the benchmark numbers that ISTA-DASLab have quoted. The me",
+      "title": "Effects of KV Cache Quantization on Qwen3.8 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
+      "published_at": "2026-11-07T17:09:51Z",
+      "summary": "      KV cache quantization has been a hotly-debated topic for this community for some time, with opinions ranging from &quot;never quantize&quot; to &quot;4 bit is fine&quot;. Since the anecdotal evidence is rather inco",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-07-good-luck-getting-a-cheap-gpu-amd-is-a-data-center-first-com",
+      "id": "localllama-2026-11-07-testing-qoduck-maybe-qwen4-on-qoder",
       "source": "localllama",
-      "title": "Good Luck Getting a Cheap GPU. AMD Is a 'Data Center First Company,' CEO Says",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/",
-      "published_at": "2026-11-07T04:05:32Z",
-      "summary": "      they are all the same and we ... are too emotional! and yes we already knew that.  &#32; submitted by &#32;  /u/ab2377   [link] &#32; [comments] ",
+      "title": "testing Qoduck (Maybe qwen4) on Qoder",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqafp1/testing_qoduck_maybe_qwen4_on_qoder/",
+      "published_at": "2026-11-07T16:28:52Z",
+      "summary": "      I noticed that it has native image and video generation.  &#32; submitted by &#32;  /u/Consistent_Berry_324   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-07-harness-leaderboard---kimi-code-hermes-pi-claude-code-codex",
+      "id": "localllama-2026-11-07-llama-moe-cache-run-missed-experts-on-cpu-add-tuning-script",
       "source": "localllama",
-      "title": "Harness Leaderboard - Kimi Code, Hermes, Pi, Claude Code, Codex, and Others Were Benchmarked Against Terminal Bench 2.1 & Deep SWE 1.1",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/",
-      "published_at": "2026-11-07T02:41:59Z",
-      "summary": "      &#32; submitted by &#32;  /u/Izento   [link] &#32; [comments] ",
+      "title": "llama_moe_cache: run missed experts on CPU, add tuning script by am17an · Pull Request #30966 · ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqacka/llama_moe_cache_run_missed_experts_on_cpu_add/",
+      "published_at": "2026-11-07T16:25:06Z",
+      "summary": "      This is a significant speedup for MoE offloading (low VRAM people).  I tried Strata once, and it had some tuning mechanism, so probably this is a similar idea.  &#32; submitted by &#32;  /u/jacek2023   [link] &#32;",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-06-six-pallets-of-nvidia-hardware-worth-114-million-stolen-on-t",
+      "id": "localllama-2026-11-07-released-an-open-source-eou-detection-model-covering-english",
       "source": "localllama",
-      "title": "Six Pallets of NVIDIA Hardware Worth $11.4 Million Stolen on the Way to Texas",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqx1p/six_pallets_of_nvidia_hardware_worth_114_million/",
-      "published_at": "2026-11-06T23:03:21Z",
-      "summary": "      &#32; submitted by &#32;  /u/chemist_slime   [link] &#32; [comments] ",
+      "title": "Released an open-source EOU detection model covering English + 8 Indic languages voice agents stop cutting callers off mid-sentence",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq9yjf/released_an_opensource_eou_detection_model/",
+      "published_at": "2026-11-07T16:08:45Z",
+      "summary": "      Voice agents serving Indic-language users cut callers off constantly Indic languages put the verb last, so &quot;aapko kal phone…&quot; pauses sound finished to a VAD, and the bot jumps in before &quot;kar dunga&qu",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-06-model-add-kimi-k31-pro-text-model-by-usrlocalben-pull-reques",
+      "id": "localllama-2026-11-07-paper-dspine---draft-in-parallel-condition-through-depth-adj",
       "source": "localllama",
-      "title": "model: add Kimi-K3.1-Pro text model by usrlocalben · Pull Request #31779 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqm0b/model_add_kimik31pro_text_model_by_usrlocalben/",
-      "published_at": "2026-11-06T22:49:45Z",
-      "summary": "      now you can run Kimi K3.1 Pro locally (good luck!) ;) https://huggingface.co/moonshotai/Kimi-K3.1-Pro  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "title": "[Paper] DSpine - Draft in Parallel, Condition Through Depth: Adjacent Causal Injection for Speculative Decoding - tencent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq9hf6/paper_dspine_draft_in_parallel_condition_through/",
+      "published_at": "2026-11-07T15:48:50Z",
+      "summary": "       Parallel speculative drafting generates multiple candidates in one backbone pass, but independent token selection can produce inconsistent continuations that shorten the accepted prefix. Existing methods mostly le",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-06-qwen-flash-next-on-strata-is-unreal",
+      "id": "localllama-2026-11-07-qwen38-flash-next-gyro-s-on-a-valve-steam-machine-8-gb-amd-g",
       "source": "localllama",
-      "title": "Qwen Flash Next on Strata is unreal.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqa3e/qwen_flash_next_on_strata_is_unreal/",
-      "published_at": "2026-11-06T22:34:47Z",
-      "summary": "I have been looking for a local model to do some of the typical work I used AI subscriptions for. I’ve tested almost every popular model. I have an M1 Max 64gb MacBook Pro as the inference machine and because of the memo",
+      "title": "Qwen3.8-Flash-Next Gyro S on a Valve Steam Machine (8 GB AMD GPU, 32 GB RAM): about 18 t/s decode, about 235 t/s prefill, stock SteamOS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq8s2n/qwen38flashnext_gyro_s_on_a_valve_steam_machine_8/",
+      "published_at": "2026-11-07T15:18:29Z",
+      "summary": "I followed up on the post about running Qwen 3.8 Flash Next with 8 GB VRAM and 32 GB RAM. I wanted to see how it does on my Steam Machine. Setup  Valve Steam Machine, stock SteamOS 3.9.5, AMD Navi 33 with 8 GB, 32 GB RAM",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-06-scyllas-band-v4-open-source-tts-with-code-to-run-everywhere",
+      "id": "localllama-2026-11-07-i-havent-laughed-that-hard-in-a-longtime",
       "source": "localllama",
-      "title": "Scylla's Band v4, open source TTS with code to run everywhere",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpq3l0/scyllas_band_v4_open_source_tts_with_code_to_run/",
-      "published_at": "2026-11-06T22:26:59Z",
-      "summary": "      This has been a long one for me: almost a year as a solo project, learning how to build a TTS model from the ground up. I wanted something fast, small enough to run on a phone, multilingual, and (the part I cared a",
+      "title": "I haven't laughed that hard in a longtime",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq88vc/i_havent_laughed_that_hard_in_a_longtime/",
+      "published_at": "2026-11-07T14:55:24Z",
+      "summary": "I set up my Hermes to ingest Sillytavern cards. Downloaded some random assistant, &quot;Kailee&quot; on characterhub. &quot;An assistant with an attitude&quot;. With QFN q3_xxs it&#39;s insane the level of intelligence, ",
       "tags": [
         "localllama"
       ]
