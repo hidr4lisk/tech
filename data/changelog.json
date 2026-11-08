@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-11-07T21:38:24Z",
+  "updated_at": "2026-11-08T05:24:43Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12199",
+      "project": "llama-cpp",
+      "version": "b12199",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12199",
+      "published_at": "2026-11-08T04:43:58Z",
+      "body_excerpt": "common : sanitize invalid UTF-8 in PEG tool call arguments (#31861) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUD",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12198",
+      "project": "llama-cpp",
+      "version": "b12198",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12198",
+      "published_at": "2026-11-08T02:05:46Z",
+      "body_excerpt": "server : downgrade per-request proxy logs to trace (#31859) Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12197",
+      "project": "llama-cpp",
+      "version": "b12197",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12197",
+      "published_at": "2026-11-08T01:46:12Z",
+      "body_excerpt": "hexagon: support for automatic loading of libhtp without legacy env vars (#31781) hexagon: use absolute skel path hexagon: support non-ascii dir and long path in skel-abs path hex-libdir: add support for FASTRPC_MANAGE_DSP_LIBRARY_PATH and GGML_HEXAGON_LIBHTP_DIR on all platforms hex-libdir: keep extra fwd slash in abs path on Android and Linux hex-libpath: always start with absolute path then fal",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12196",
+      "project": "llama-cpp",
+      "version": "b12196",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12196",
+      "published_at": "2026-11-08T01:29:42Z",
+      "body_excerpt": "sycl: exact rounding in CPY to Q4_1, Q5_1 and Q8_0 (#31465) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12195",
+      "project": "llama-cpp",
+      "version": "b12195",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12195",
+      "published_at": "2026-11-08T01:11:25Z",
+      "body_excerpt": "sycl: refuse device buffers that would exceed VRAM (#31285) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12194",
+      "project": "llama-cpp",
+      "version": "b12194",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12194",
+      "published_at": "2026-11-08T00:19:23Z",
+      "body_excerpt": "hexagon: n_hvx and n_threads cleanup (#31857) hex-nhvx: apply nhvx updates to the latest master hex-nhvx: set N_HVX and N_THREADS based on the arch to avoid overallocation hex-build: add support for enabling HTP_DEBUG via build.py hex-trace: move tracing state/helpers into new htp-trace.h header hex-dcache: cleanup dcache #defines hex-hnvx: minimize the diff by reflowing the macros hex-ci: fix pyt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12193",
+      "project": "llama-cpp",
+      "version": "b12193",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12193",
+      "published_at": "2026-11-07T23:45:30Z",
+      "body_excerpt": "mtmd: move log-mel computation to cgraph (#31808) mtmd: move log-mel computation to cgraph rm stray file also include source in mtmd_audio_track rm stray file rm mtmd_audio_stft_op add test Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CP",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12192",
       "project": "llama-cpp",
