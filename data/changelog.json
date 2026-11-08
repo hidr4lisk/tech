@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-08T13:01:08Z",
+  "updated_at": "2026-11-08T21:51:58Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12211",
+      "project": "llama-cpp",
+      "version": "b12211",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12211",
+      "published_at": "2026-11-08T16:48:49Z",
+      "body_excerpt": "mtmd: refactoring: remove clip.h, consolidate code into mtmd (#31865) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12210",
+      "project": "llama-cpp",
+      "version": "b12210",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12210",
+      "published_at": "2026-11-08T16:15:27Z",
+      "body_excerpt": "cpu: enable SpacemiT IME2 MXFP4 dense repack (#31776) Assisted-by: Codex Signed-off-by: gitGurugu Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12209",
+      "project": "llama-cpp",
+      "version": "b12209",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12209",
+      "published_at": "2026-11-08T16:01:05Z",
+      "body_excerpt": "llamafile: impl bf16 and q8_0 vxe (#31866) Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12208",
+      "project": "llama-cpp",
+      "version": "b12208",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12208",
+      "published_at": "2026-11-08T15:47:03Z",
+      "body_excerpt": "ggml : update CUDA/Metal radix Top-K to make tied selections deterministic (#31084) ggml : fix for the radix TOP_K thread timing bug make the key an ordered 64-bit pair a rewrite without shift-skip logic fix casts warp-contiguous layout reduce the scope removing vulkan+metal changes turn it off for Metal/ROCm, note about cub::DeviceTopK fix the hip build skip Vulkan as well popc lambda from fattn ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12207",
+      "project": "llama-cpp",
+      "version": "b12207",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12207",
+      "published_at": "2026-11-08T14:20:48Z",
+      "body_excerpt": "ggml-cuda : add d_state=64 fast path to SSM_SCAN kernel (#31818) Zamba2 and similar architectures use a state size of 64 in their recurrent-scan step, which fell outside the GPU kernel's existing fast paths (96, 128, 256). Every scan step was falling back to CPU, bottlenecking generation to 6-7 tok/s against the 50-70 tok/s band other architectures achieve on the same hardware. Add a 4th template ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12206",
+      "project": "llama-cpp",
+      "version": "b12206",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12206",
+      "published_at": "2026-11-08T14:01:08Z",
+      "body_excerpt": "moe-cache : ensure CPU part does not wait for the cached experts (#31888) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CU",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12202",
       "project": "llama-cpp",
@@ -13922,42 +13976,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10353",
       "published_at": "2026-08-10T22:00:50Z",
       "body_excerpt": "ggml : require contiguous src for ROLL on CUDA and Metal (#25928) ggml_roll only asserts nb[0] == ggml_type_size, so a permuted src is a valid input, but the CUDA and Metal roll kernels index by ne alone and never read the nb strides. A non-contiguous src therefore produced silently wrong results. Neither backend declared a contiguity requirement in supports_op, so the scheduler did not fall back ",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.27.0",
-      "project": "vllm",
-      "version": "v0.27.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0",
-      "published_at": "2026-08-10T21:18:11Z",
-      "body_excerpt": "vLLM v0.27.0 Release Notes Highlights This release features 561 commits from 242 contributors (64 new)! Kimi K3 support with a full stack landing in one release: core model files and kernels (#50089, #50000), Python (#50093) and Rust (#50104) frontends, AttnRes kernels (#50090), DeepGEMM support (#50458), compressed-tensors quantized checkpoints (#50500), DSpark AR fusion (#50242), and an option t",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10344",
-      "project": "llama-cpp",
-      "version": "b10344",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10344",
-      "published_at": "2026-08-10T16:24:12Z",
-      "body_excerpt": "model: add MTP support for Nemotron model (#26725) model: add MTP support for Nemotron Nano model model: add mtp_flags for nemotron model address review comments Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10343",
-      "project": "llama-cpp",
-      "version": "b10343",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10343",
-      "published_at": "2026-08-10T15:18:04Z",
-      "body_excerpt": "vendor : update cpp-httplib to 0.53.0 (#26821) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.61-beta",
-      "project": "unsloth",
-      "version": "v0.1.61-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.61-beta",
-      "published_at": "2026-08-10T13:57:15Z",
-      "body_excerpt": "Meta has released Muse Glimmer, the first open model from Meta Superintelligence Labs. Muse Glimmer is a dense, 30B parameter model by Meta, built for local agentic and coding workflows. Released under the Apache 2.0 license you can run Muse Glimmer 30B via Unsloth and Unsloth Dynamic quants for the best performance. Run Muse Glimmer Fine-tune Muse Glimmer Muse Glimmer 30B can run locally on 20GB ",
       "type": "tool"
     }
   ]
