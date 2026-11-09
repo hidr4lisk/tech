@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-09T05:35:04Z",
+  "updated_at": "2026-11-09T15:43:29Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12224",
+      "project": "llama-cpp",
+      "version": "b12224",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12224",
+      "published_at": "2026-11-09T13:52:29Z",
+      "body_excerpt": "ggml-backend: don't upload inputs that are not read (#31419) stop uploading inputs nothing reads Address nitpicks Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulk",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12223",
+      "project": "llama-cpp",
+      "version": "b12223",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12223",
+      "published_at": "2026-11-09T12:52:12Z",
+      "body_excerpt": "models : Attach Granite NVFP4 weight scales (#31449) models : Attach Granite NVFP4 weight scales feat: Pass nvfp4 scales through build_ffn for all granite architectures Branch: granite-nvfp4-moe-scales AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart --------- Co-authored-by: Gabe Goodhart Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kl",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12221",
+      "project": "llama-cpp",
+      "version": "b12221",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12221",
+      "published_at": "2026-11-09T12:28:21Z",
+      "body_excerpt": "metal : prevent out-of-bounds writes to the Metal FA output buffer (#31662) Co-authored-by: Zhuomin Chen Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12220",
+      "project": "llama-cpp",
+      "version": "b12220",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12220",
+      "published_at": "2026-11-09T12:00:55Z",
+      "body_excerpt": "metal : make ggml_tri select instead of scaling by the comparison (#30711) metal: make ggml_tri select instead of scaling by the comparison The kernel multiplied by the 0/1 comparison, which turns a +-inf outside the triangle into NaN, while the CPU kernel writes a plain zero there. Select, like the CPU does. Adds test_tri_special, which puts +-inf into the cells that have to be discarded, for all",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12219",
+      "project": "llama-cpp",
+      "version": "b12219",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12219",
+      "published_at": "2026-11-09T11:42:26Z",
+      "body_excerpt": "opencl : include climits (#31935) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12212",
+      "project": "llama-cpp",
+      "version": "b12212",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12212",
+      "published_at": "2026-11-09T08:49:08Z",
+      "body_excerpt": "ggml-zdnn: fix release binary not detecting backend lib (#31905) Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12211",
       "project": "llama-cpp",
@@ -13850,69 +13904,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10361",
       "published_at": "2026-08-11T17:12:37Z",
       "body_excerpt": "model : fix SWA not being enabled for EXAONE 4.5 (#26848) model : fix SWA not being enabled for EXAONE 4.5 load_arch_hparams tests before LLM_KV_NEXTN_PREDICT_LAYERS has been read. n_layer() returns n_layer_all - n_layer_nextn and n_layer_nextn defaults to 0, so a GGUF carrying the MTP head (block_count=65, nextn=1) evaluates to 65 and the whole SWA block is skipped. The model type switch further ",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.70-beta",
-      "project": "unsloth",
-      "version": "v0.1.70-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.70-beta",
-      "published_at": "2026-08-11T15:31:25Z",
-      "body_excerpt": "Unsloth Desktop is here! The first desktop app to run and train AI models locally. Research, export and deploy from the same open-source app on Windows, macOS and Linux. 🦥 Download Unsloth Desktop for Linux, Windows, MacOS Here's what you can do with Unsloth Desktop: Get up to 50% more accurate tool calling with self-healing calls and sandboxed code execution. Run Muse Glimmer 30B, Kimi K3, Qwen3.",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.62-beta",
-      "project": "unsloth",
-      "version": "v0.1.62-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.62-beta",
-      "published_at": "2026-08-11T13:25:36Z",
-      "body_excerpt": "Many bug fixes",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.9",
-      "project": "ollama",
-      "version": "v0.32.9",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.9",
-      "published_at": "2026-08-11T13:23:33Z",
-      "body_excerpt": "NVIDIA Nemotron 3.5 Lightning NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses like OpenClaw and Hermes Agent – all supported by the NVIDIA NemoClaw open source security and management stack for running always-on AI agents. What's Changed Added the Nemotron 3 archit",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10360",
-      "project": "llama-cpp",
-      "version": "b10360",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10360",
-      "published_at": "2026-08-11T13:17:39Z",
-      "body_excerpt": "common/peg : suppress incomplete escape sequences (#26780) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10359",
-      "project": "llama-cpp",
-      "version": "b10359",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10359",
-      "published_at": "2026-08-11T10:48:48Z",
-      "body_excerpt": "ggml-webgpu: fix CI errors from #25025 and #25262 (#26566) test new flash_attn test rebase and fix to disable subgrou matrices when max_kv_tile == 0 delete log output Add i32 support to cpy and enables the all ops test restore the non target ci tests comment out of TODO of build-cpu.yml fix format Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLE",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.27.1",
-      "project": "vllm",
-      "version": "v0.27.1",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.1",
-      "published_at": "2026-08-11T10:47:49Z",
-      "body_excerpt": "This is a patch release on top of v0.27.0. Support quantized DSpark Markov heads (#50424)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10358",
-      "project": "llama-cpp",
-      "version": "b10358",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10358",
-      "published_at": "2026-08-11T09:04:42Z",
-      "body_excerpt": "Address review comment of PR 25532 (#26852) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (",
       "type": "tool"
     }
   ]
