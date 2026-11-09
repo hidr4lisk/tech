@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-11-08T21:51:52Z",
+  "updated_at": "2026-11-09T05:34:57Z",
   "items": [
+    {
+      "id": "simonw-2026-11-09-the-web-is-more-than-enough-by-paul-ford",
+      "source": "simonw",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "published_at": "2026-11-09T04:32:33Z",
+      "summary": "My comment on The Web Is More Than Enough, by Paul Ford &mdash; Hacker News.OK, this comment convinced me to give that a shot.\nHere's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://sta",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-11-09-hide-your-slop-pr-descriptions-behind-detailssummary",
+      "source": "simonw",
+      "title": "Hide your slop PR descriptions behind <details><summary>",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "published_at": "2026-11-09T04:25:05Z",
+      "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-09-github-repo-torchlens---inspect-visualize-and-intervene-on-a",
+      "source": "localllama",
+      "title": "Github Repo: Torchlens - Inspect, visualize and intervene on any operation in any neural network.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrh5iz/github_repo_torchlens_inspect_visualize_and/",
+      "published_at": "2026-11-09T03:25:32Z",
+      "summary": "      &#32; submitted by &#32;  /u/Thrumpwart   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-08-joined-the-4x-r9700-club-initial-benchmarks-for-qfn-38-below",
+      "source": "localllama",
+      "title": "Joined the 4x R9700 Club | Initial Benchmarks for QFN 3.8 Below",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrcia4/joined_the_4x_r9700_club_initial_benchmarks_for/",
+      "published_at": "2026-11-08T23:36:45Z",
+      "summary": "      Posted this on the r/R9700 subreddit as well, but figured I&#39;d share my initial findings here. tl;dr - One user writes at about 190 tok/s. Prefill runs at about 6,800 tok/s total no matter how many users there a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-08-how-do-you-locally-benchmark-and-compare-local-llms",
+      "source": "localllama",
+      "title": "How do you locally benchmark and compare local LLMs?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrbhdf/how_do_you_locally_benchmark_and_compare_local/",
+      "published_at": "2026-11-08T22:49:16Z",
+      "summary": "If I wanted to locally compare performance for multiple different offline LLM models across various modalities (speed, efficiency, reasoning, tool use, programing/coding, etc), what strategies, prompts, software are comm",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-11-08-parse-number-as-a-sqlite-extension-c-vs-rust",
+      "source": "simonw",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "published_at": "2026-11-08T22:26:00Z",
+      "summary": "Research: parse_number() as a SQLite extension: C vs Rust\n        I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for tu",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-08-how-much-code-do-ai-models-and-harnesses-add-i-made-an-open",
+      "source": "localllama",
+      "title": "How much code do AI models and harnesses add? I made an open-source benchmark to measure code complexity.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrathc/how_much_code_do_ai_models_and_harnesses_add_i/",
+      "published_at": "2026-11-08T22:19:15Z",
+      "summary": "      Existing benchmarks measure the solve rate and token output/cost, but don&#39;t punish excess code or overengineering, which increases technical debt in the long term.  Parsimony counts syntax units (statements, ca",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-08-nous-research-arete-27b-gguf-quants",
+      "source": "localllama",
+      "title": "Nous Research Arete-27B GGUF quants",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrarta/nous_research_arete27b_gguf_quants/",
+      "published_at": "2026-11-08T22:17:10Z",
+      "summary": "      &#32; submitted by &#32;  /u/gladkos   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-11-08-jenson-admits-his-affair-with-an-alleged-chinese-spy",
       "source": "localllama",
@@ -74,61 +162,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr4iv0/what_are_people_finding_local_models_actually/",
       "published_at": "2026-11-08T17:56:13Z",
       "summary": "I think that a lot of people get into local models because they get a sense of potential with this stuff, but it can be hard to make local models concretely useful sometimes, compared to frontier models. I think it would",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-08-gpt-55-dataset-across-my-used-25-billion-tokens",
-      "source": "localllama",
-      "title": "GPT-5.5 dataset across my used 25 billion tokens!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3ymf/gpt55_dataset_across_my_used_25_billion_tokens/",
-      "published_at": "2026-11-08T17:32:48Z",
-      "summary": "      Cheers for u/New_Comfortable7240 for santitisation! 12,121 tool calls here!  &#32; submitted by &#32;  /u/-MaskNinja-   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-08-a-java-llm-implementation-based-on-karpathys-gpt-with-alpaca",
-      "source": "localllama",
-      "title": "A Java LLM implementation based on Karpathy's GPT with alpaca_es_chat.jsonl",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3qok/a_java_llm_implementation_based_on_karpathys_gpt/",
-      "published_at": "2026-11-08T17:23:46Z",
-      "summary": "Hello everyone, I wanted to share my progress on implementing a language model written 100% in pure Java. You can find the repository here (https://github.com/aayes89/jUltraLLM/tree/master).  It includes a model trained ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-08-motion-graphics-video-made-with-qwen38-flash-next-gsq-rco-iq",
-      "source": "localllama",
-      "title": "Motion graphics video made with Qwen3.8 Flash Next GSQ RCO IQ3_XXS on strata",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3qes/motion_graphics_video_made_with_qwen38_flash_next/",
-      "published_at": "2026-11-08T17:23:29Z",
-      "summary": "      I&#39;ve seen the insane motion graphics videos people made when opus 5.5 first came out and wondered how good QFN would do with the same recipe. Decided to make a short video for my nephew who loves trains This is",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-08-the-qwen-flash-next-alibaba-url-thing-happened-to-me-too-jus",
-      "source": "localllama",
-      "title": "The Qwen Flash Next alibaba URL thing happened to me too just now",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3ifw/the_qwen_flash_next_alibaba_url_thing_happened_to/",
-      "published_at": "2026-11-08T17:14:19Z",
-      "summary": "      It seems to have really confused itself too 😭 I was having it make a sort of Github release checker script and it snuck those two URL fetch tool calls in amongst some web searches I put the whole exported Open WebU",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-08-rumor-moonshot-kimi-roadmap",
-      "source": "localllama",
-      "title": "Rumor: Moonshot Kimi roadmap",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr2t4c/rumor_moonshot_kimi_roadmap/",
-      "published_at": "2026-11-08T16:45:50Z",
-      "summary": "EOY 2026: Kimi K3 Flash, will replace Kimi K2.8 and compete with DeepSeek V4.1 Flash. Early 2027: Kimi 3.5 , same 3T parameters, that is faster at reaching simple answers. Q3 2027: Kimi K4 will increase size to 5.4 trill",
       "tags": [
         "localllama"
       ]
@@ -338,39 +371,6 @@
       "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
       "published_at": "2026-11-01T16:49:04Z",
       "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-31-how-we-took-over-chatgpt-accounts",
-      "source": "simonw",
-      "title": "How We Took Over ChatGPT Accounts",
-      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-      "published_at": "2026-10-31T23:15:22Z",
-      "summary": "How We Took Over ChatGPT Accounts\nParameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-31-datasette-llm-01a9",
-      "source": "simonw",
-      "title": "datasette-llm 0.1a9",
-      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
-      "published_at": "2026-10-31T22:10:01Z",
-      "summary": "Release: datasette-llm 0.1a9\n        I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. \nIt now picks up the",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-10-30-dbreunignesformer",
-      "source": "simonw",
-      "title": "dbreunig/nesformer",
-      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
-      "published_at": "2026-10-30T21:59:22Z",
-      "summary": "dbreunig/nesformer\nInspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mar",
       "tags": [
         "simonw"
       ]
