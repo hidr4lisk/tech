@@ -1,48 +1,169 @@
 {
-  "updated_at": "2026-11-09T15:43:21Z",
+  "updated_at": "2026-11-10T01:21:06Z",
   "items": [
     {
-      "id": "localllama-2026-11-09-weight-space-programming-editing-qwen35-into-a-top-decision",
+      "id": "localllama-2026-11-10-i-made-a-400m-model-for-npc-judgement-calls-in-games-apache",
       "source": "localllama",
-      "title": "Weight-space programming: editing Qwen3.5 into a top decision model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xruwlf/weightspace_programming_editing_qwen35_into_a_top/",
-      "published_at": "2026-11-09T15:40:06Z",
-      "summary": "      &#32; submitted by &#32;  /u/facethef   [link] &#32; [comments] ",
+      "title": "I made a 400M model for NPC judgement calls in games (Apache-2.0, ~0.1s on a 3060 Ti)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs9nux/i_made_a_400m_model_for_npc_judgement_calls_in/",
+      "published_at": "2026-11-10T01:11:58Z",
+      "summary": "The model is an encoder (Ettin-400M) fine-tuned to answer small game questions. You give it a scene, a question, and some options, and it returns probabilities or &quot;not sure&quot;. The model was inspired by Jev. Stuf",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-09-best-cyber-llm-under-30b-ideally-10b-parameters",
+      "id": "localllama-2026-11-10-free-open-source-voice-typing-for-any-app-on-android-and-iph",
       "source": "localllama",
-      "title": "Best cyber LLM under 30B / ideally 10B parameters?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrun96/best_cyber_llm_under_30b_ideally_10b_parameters/",
-      "published_at": "2026-11-09T15:30:16Z",
-      "summary": "As the title says, I&#39;m looking for recommendations from people here. Are there any good locally hostable LLMs that are particularly capable at cybersecurity work, especially AI red teaming? Here&#39;s the backstory R",
+      "title": "Free, open-source voice typing for any app on Android and iPhone: the speech model runs on your phone, so it works offline",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs8hfw/free_opensource_voice_typing_for_any_app_on/",
+      "published_at": "2026-11-10T00:17:43Z",
+      "summary": "      I wanted voice typing that doesn&#39;t send my voice to a server, so I built ThumbFree. It runs NVIDIA&#39;s Parakeet 0.6B speech model right on the phone. After a one-time model download, it even works in airplane",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-09-worth-buying-a-dgx-1-8-v100-32gb-for-local-llm-inference-in",
+      "id": "localllama-2026-11-09-how-to-mess-around-with-neurons-a-short-guide",
       "source": "localllama",
-      "title": "Worth buying a DGX-1 (8× V100 32GB) for local LLM inference in 2026? ~15k €",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrulta/worth_buying_a_dgx1_8_v100_32gb_for_local_llm/",
-      "published_at": "2026-11-09T15:28:45Z",
-      "summary": "I found used DGX-1 locally for 15k€ 8 x V100 32GB SXM2 (256GB VRAM,NVLink), dual Xeon E5-2698 v4, 512GB RAM, 4× IB EDR, 3.5 kW I am curious to see if anyone has that config to tell me real world experience? Which models ",
+      "title": "How to mess around with neurons... a short guide",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs81f3/how_to_mess_around_with_neurons_a_short_guide/",
+      "published_at": "2026-11-09T23:59:37Z",
+      "summary": "I made a couple of posts about weird neurons inside Qwen that I&#39;d found and lots of people were asking how it was done so I thought it would be useful for people to have a guide. Generally this was inspired by justin",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-09-top-7-decision-models-benchmark-evaluation-across-2826-real",
+      "id": "simonw-2026-11-09-llm-anthropic-031",
+      "source": "simonw",
+      "title": "llm-anthropic 0.31",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "published_at": "2026-11-09T23:58:46Z",
+      "summary": "Release: llm-anthropic 0.31\n        Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic, so you can now run prompts through Fable 5.2 like this:\nuv tool install llm\nllm install llm-anthrop",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-11-09-locating-the-source-of-a-mysterious-beep-with-claude",
+      "source": "simonw",
+      "title": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "published_at": "2026-11-09T23:57:21Z",
+      "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-09-same-prompt-deepseek-v41-flash-vs-qwen-38-fn-94-toks-vs-350",
       "source": "localllama",
-      "title": "Top 7 Decision Models Benchmark: Evaluation Across 2,826 Real Tech Decisions",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xruhp3/top_7_decision_models_benchmark_evaluation_across/",
-      "published_at": "2026-11-09T15:24:08Z",
-      "summary": "      This report evaluates 7 specialized decision models tested across 2,826 real-world decisions sourced from GitHub, Firefox (Bugzilla), and the CVE database. Unlike open-ended generative language models, decision mod",
+      "title": "Same prompt, DeepSeek V4.1 Flash vs Qwen 3.8 FN: 94 tok/s vs 350 tok/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs7ffm/same_prompt_deepseek_v41_flash_vs_qwen_38_fn_94/",
+      "published_at": "2026-11-09T23:32:31Z",
+      "summary": "      I wanted to see how big of a difference there is between arguably two of the top MoE models that you can actually run locally, so I ran the same one shot prompt and left it unattended for a while. The prompt asks f",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-09-inference-optimization",
+      "source": "localllama",
+      "title": "Inference optimization",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs7bde/inference_optimization/",
+      "published_at": "2026-11-09T23:27:33Z",
+      "summary": "Hey all, Looking to learn inference optimization, I learn by doing u fortunately but I have read a good part of the inference engineering book by Philip Kelly. Currently have a 4070 and 64gb of RAM.  any tips? preciate i",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-09-is-artificialanalysis-biased-against-open-weight-models",
+      "source": "localllama",
+      "title": "Is ArtificialAnalysis biased against open weight models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs5pkl/is_artificialanalysis_biased_against_open_weight/",
+      "published_at": "2026-11-09T22:22:35Z",
+      "summary": "      It seems like whenever open weight models come close to proprietary US models, ArtificialAnalysis conveniently &quot;re-calibrates&quot; their benchmarks which then shoves open weight models down the toilet. Then t",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-09-dialectic-requirements-and-verifiable-tests-will-drastically",
+      "source": "localllama",
+      "title": "Dialectic, Requirements, and Verifiable tests will drastically increase your model's code output quality",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs4kit/dialectic_requirements_and_verifiable_tests_will/",
+      "published_at": "2026-11-09T21:37:33Z",
+      "summary": "Creating a list of requirements and documentation/tests (in Cucumber or EARS style) with your model is a great way to improve it&#39;s code. Just got through a weekend long binary protocol build with Qwen3.8-27B (6K unsl",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-09-if-you-want-to-learn-about-batch-inferencing",
+      "source": "localllama",
+      "title": "If you want to learn about batch inferencing",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs4eyc/if_you_want_to_learn_about_batch_inferencing/",
+      "published_at": "2026-11-09T21:31:35Z",
+      "summary": "      Article compares performance of large data center cards. Tells us for larger batches , inference speed of individual requests goes down, but overall performance of the entire batch goes up. In other words more toke",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-09-omni-voice-is-the-fastest-and-best-voice-clone-tts-out-there",
+      "source": "localllama",
+      "title": "Omni Voice is the fastest and best voice clone TTS out there. I've tested them all.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs46nh/omni_voice_is_the_fastest_and_best_voice_clone/",
+      "published_at": "2026-11-09T21:22:28Z",
+      "summary": "There are tons of use cases out there - storybooks, agents, etc. But my main goal was to find which TTS has the best voice clone options, comparable to Elevenlabs. I have a shortlist of voices that I run every tts throug",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-09-got-another-good-reminder-why-local-matters-today",
+      "source": "localllama",
+      "title": "Got another good reminder why local matters today",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs3y17/got_another_good_reminder_why_local_matters_today/",
+      "published_at": "2026-11-09T21:13:10Z",
+      "summary": "      Apparently, they&#39;re threatening to ban me for merely red-teaming my own plugin.  The appeal was immediately denied without any details.  &#32; submitted by &#32;  /u/stevie_balemi   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-09-qwen-38-fn-getting-stressed-from-messing-up",
+      "source": "localllama",
+      "title": "Qwen 3.8 FN getting stressed from messing up",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs2okh/qwen_38_fn_getting_stressed_from_messing_up/",
+      "published_at": "2026-11-09T20:24:57Z",
+      "summary": "      Qwen 3.8 Flash Next getting confused on how it keeps messing up. This is the only time I noticed it happening in a 6hr run. I&#39;m running IQ3_S on high effort on strata.  &#32; submitted by &#32;  /u/FalseDevilop",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-09-best-practices-for-provisioning-local-inference-to-a-team",
+      "source": "localllama",
+      "title": "Best Practices for Provisioning Local Inference to a Team?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs0uxs/best_practices_for_provisioning_local_inference/",
+      "published_at": "2026-11-09T19:17:35Z",
+      "summary": "Hey everyone, I recently built a Radiance inference server for my company, and now want to start provisioning access to the rest of my team. My current plan:  Tailscale as the only way to access the server via HTTPs. Her",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "meta-2026-11-09-extending-lldb-to-debug-applications-that-span-cpus-and-gpus",
+      "source": "meta",
+      "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+      "url": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+      "published_at": "2026-11-09T17:00:12Z",
+      "summary": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. It separates shared debugger infrastructure from hardware-specific device control. The design r",
+      "tags": [
+        "meta"
       ]
     },
     {
@@ -57,28 +178,6 @@
       ]
     },
     {
-      "id": "localllama-2026-11-09-meituan-longcatlongcat-25-hugging-face",
-      "source": "localllama",
-      "title": "meituan-longcat/LongCat-2.5 · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrsptp/meituanlongcatlongcat25_hugging_face/",
-      "published_at": "2026-11-09T14:14:17Z",
-      "summary": "      A 1.6T multimodal model.  &#32; submitted by &#32;  /u/Bestlife73   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-09-netease-youdaoconfucius4-r2t2-hugging-face",
-      "source": "localllama",
-      "title": "netease-youdao/Confucius4-R2T2 · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrspiy/neteaseyoudaoconfucius4r2t2_hugging_face/",
-      "published_at": "2026-11-09T14:13:56Z",
-      "summary": "      Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription Confucius4-R2T2 is a low-latency, high-accuracy stable-prefix streaming automatic speech recognition (ASR) model. It supports co",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "huggingface-2026-11-09-your-experts-have-partners-theres-hope-for-keeping-them-toge",
       "source": "huggingface",
       "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
@@ -87,39 +186,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-09-m4-pro-vs-m5-pro-24gb-qwen-38-flash-next-iq3-with-moeshift-a",
-      "source": "localllama",
-      "title": "M4 Pro vs M5 Pro (24GB): Qwen 3.8 Flash Next IQ3 with MoEShift at 374 tok/s prefill, 14.7 tok/s decode, 8.5GB peak memory",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrq2fv/m4_pro_vs_m5_pro_24gb_qwen_38_flash_next_iq3_with/",
-      "published_at": "2026-11-09T12:10:54Z",
-      "summary": "I benchmarked Qwen3.8-Flash-Next 125B ISTA-DASLab&#39;s GSQ-RCO IQ3_XXS quant (76GB on disk), on two Macs with 24GB unified memory using MoEShift backend:   Metric M4 Pro (medians) M5 Pro (medians)    Short prompt decode",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-09-new-gemma-models",
-      "source": "localllama",
-      "title": "New Gemma Models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrpcke/new_gemma_models/",
-      "published_at": "2026-11-09T11:32:08Z",
-      "summary": "Are there any (insider) infos to upcoming Gemma Models? Gemma 4 is for my usecase really good and I am looking forward if they will release any new even better models most likely named Gemma 5? Currently using Gemma 4 31",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-09-l11-n8147-is-a-neuron-that-will-make-qwen-35-4b-get-things-c",
-      "source": "localllama",
-      "title": "L11 N8147 is a neuron that will make Qwen-3.5-4B get things confidently wrong while being weirdly snarky... But also makes it write interesting poetry",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrkomn/l11_n8147_is_a_neuron_that_will_make_qwen354b_get/",
-      "published_at": "2026-11-09T06:42:07Z",
-      "summary": "      Inspired by some of the other brain surgery posts, I wanted to see if I could find anything interesting in Qwen. Not particularly useful to make it get things wrong all the time I guess, but I find the poetry it co",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -142,39 +208,6 @@
       "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is ",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-09-github-repo-torchlens---inspect-visualize-and-intervene-on-a",
-      "source": "localllama",
-      "title": "Github Repo: Torchlens - Inspect, visualize and intervene on any operation in any neural network.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrh5iz/github_repo_torchlens_inspect_visualize_and/",
-      "published_at": "2026-11-09T03:25:32Z",
-      "summary": "      &#32; submitted by &#32;  /u/Thrumpwart   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-08-joined-the-4x-r9700-club-initial-benchmarks-for-qfn-38-below",
-      "source": "localllama",
-      "title": "Joined the 4x R9700 Club | Initial Benchmarks for QFN 3.8 Below",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrcia4/joined_the_4x_r9700_club_initial_benchmarks_for/",
-      "published_at": "2026-11-08T23:36:45Z",
-      "summary": "      Posted this on the r/R9700 subreddit as well, but figured I&#39;d share my initial findings here. tl;dr - One user writes at about 190 tok/s. Prefill runs at about 6,800 tok/s total no matter how many users there a",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-08-how-do-you-locally-benchmark-and-compare-local-llms",
-      "source": "localllama",
-      "title": "How do you locally benchmark and compare local LLMs?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrbhdf/how_do_you_locally_benchmark_and_compare_local/",
-      "published_at": "2026-11-08T22:49:16Z",
-      "summary": "If I wanted to locally compare performance for multiple different offline LLM models across various modalities (speed, efficiency, reasoning, tool use, programing/coding, etc), what strategies, prompts, software are comm",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -376,28 +409,6 @@
       ]
     },
     {
-      "id": "simonw-2026-11-02-the-us-census-bureau-and-super-intelligence",
-      "source": "simonw",
-      "title": "The U.S. Census Bureau and “Super Intelligence”",
-      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
-      "published_at": "2026-11-02T13:31:26Z",
-      "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-11-01-quoting-kyle-kingsbury",
-      "source": "simonw",
-      "title": "Quoting Kyle Kingsbury",
-      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
-      "published_at": "2026-11-01T16:49:04Z",
-      "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-10-30-nemotron-halloween",
       "source": "huggingface",
       "title": "nemotron-halloween",
@@ -527,17 +538,6 @@
       "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
       "tags": [
         "google"
-      ]
-    },
-    {
-      "id": "meta-2026-10-12-ocp-summit-2026-powering-ai-with-open-innovations-in-scale-u",
-      "source": "meta",
-      "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
-      "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
-      "published_at": "2026-10-12T21:19:18Z",
-      "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including:  Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Fla",
-      "tags": [
-        "meta"
       ]
     },
     {
