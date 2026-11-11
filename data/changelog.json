@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-11-10T23:01:46Z",
+  "updated_at": "2026-11-11T05:31:46Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12282",
+      "project": "llama-cpp",
+      "version": "b12282",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12282",
+      "published_at": "2026-11-11T03:31:06Z",
+      "body_excerpt": "chat : fix Muse Spark ignoring response_format json_schema (#32017) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12277",
+      "project": "llama-cpp",
+      "version": "b12277",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12277",
+      "published_at": "2026-11-11T03:11:17Z",
+      "body_excerpt": "mtmd: fix string format, rename to mtmd_format (#32040) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12274",
+      "project": "llama-cpp",
+      "version": "b12274",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12274",
+      "published_at": "2026-11-11T02:52:55Z",
+      "body_excerpt": "llama : Add FP8 KV-cache support (#28392) Add FP8 KV-cache support Add tests for scaled, FP8 KV-cache to test-backend-ops Fix get__scale mapping and dequnatize FP8 also before rope shift Normalizes cache-scale names independently of projection layout. While fused KQV is currently impractival for non-shared scales, this is an improvement for future use regardless Enable Gemma 4 Assistant with FP8 b",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12273",
+      "project": "llama-cpp",
+      "version": "b12273",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12273",
+      "published_at": "2026-11-11T02:35:01Z",
+      "body_excerpt": "Merge pull request #32015 from ggml-org/gg/fix-sampling-output-aliasing Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12271",
+      "project": "llama-cpp",
+      "version": "b12271",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12271",
+      "published_at": "2026-11-11T02:14:59Z",
+      "body_excerpt": "llama : reuse backend scheduler when sched_params are compatible (#32009) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12270",
+      "project": "llama-cpp",
+      "version": "b12270",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12270",
+      "published_at": "2026-11-11T01:55:55Z",
+      "body_excerpt": "ggml : add MUL_MAT src1 precision tests and gating (#31896) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12263",
+      "project": "llama-cpp",
+      "version": "b12263",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12263",
+      "published_at": "2026-11-11T01:26:31Z",
+      "body_excerpt": "cuda : halve VMM pool reservation size and retry on cuMemAddressReserve failure (#30542) cuda : Lowering VMM pool reservation size to 8 GB on GPUs with combined memory due to CUDA out of memory errors Assisted-by: Gemini Argon cuda : Halve VMM pool reservation size and retry on failure Assisted-by: Gemini Argon cuda : only shrink VMM pool on CUDA_ERROR_OUT_OF_MEMORY Assisted-by: Gemini Argon cuda ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12262",
+      "project": "llama-cpp",
+      "version": "b12262",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12262",
+      "published_at": "2026-11-10T23:04:37Z",
+      "body_excerpt": "CUDA: skip graph compat check when graph is being reused (#32004) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) -",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12261",
       "project": "llama-cpp",
@@ -14040,15 +14112,6 @@
       "published_at": "2026-08-13T06:03:55Z",
       "body_excerpt": "ggml : fix arm builds, unused var (#26991) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
       "type": "tool"
-    },
-    {
-      "id": "hf-deepseek-ai-DeepSeek-V4-Pro-0813",
-      "project": "deepseek-ai",
-      "version": "DeepSeek-V4-Pro-0813",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
-      "published_at": "2026-08-13T03:05:06Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }

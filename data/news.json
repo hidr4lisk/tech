@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-11-10T23:01:39Z",
+  "updated_at": "2026-11-11T05:31:41Z",
   "items": [
+    {
+      "id": "huggingface-2026-11-11-botpsy-on-device-personal-assistant-with-a-sub-billion-param",
+      "source": "huggingface",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "published_at": "2026-11-11T05:01:16Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-11-microsoft-research-backdoored-an-ai-agent-by-directly-editin",
+      "source": "localllama",
+      "title": "Microsoft Research backdoored an AI agent by directly editing fewer than 10 dormant neurons",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt82mz/microsoft_research_backdoored_an_ai_agent_by/",
+      "published_at": "2026-11-11T04:09:44Z",
+      "summary": "      Be careful if you are running any sketchy quants/finetunes. If these techniques become more widely repeatable, I do think &#39;sleeper agents&#39; could genuinely develop into an attack vector. What are your though",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-11-glm-53-flash-mistakes",
+      "source": "localllama",
+      "title": "GLM-5.3-flash mistakes",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt6toe/glm53flash_mistakes/",
+      "published_at": "2026-11-11T03:06:17Z",
+      "summary": "Just curious what other people’s opinions are with GLM-5.3-flash. Compared with opus 5.5 and deepseek-4.1-flash, I find that it makes a lot of mistakes. I generally think I it’s pretty good other than the random errors i",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-11-glb-3d-coder-i-tried-making-a-17b-version-for-godot",
+      "source": "localllama",
+      "title": "[GLB-3D-Coder] I tried making a 1.7B version for Godot",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt6rc7/glb3dcoder_i_tried_making_a_17b_version_for_godot/",
+      "published_at": "2026-11-11T03:03:09Z",
+      "summary": "      After posting the 4B GLB model here, I wanted to see how far I could get with something smaller. I fine-tuned Qwen3-1.7B for the same job. The Q8 GGUF is 1.83 GB, so this one is aimed at people trying it on CPU or ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-11-have-been-getting-into-local-llms-recently-especially-qwen-3",
+      "source": "localllama",
+      "title": "Have been getting into Local LLM’s recently, especially Qwen 3.8 27B on my M4 Pro MacBook (48GB) served using Splash and loving it! Now looking to try some harnesses to do some coding, any suggestions what ones I should try? Any favourites?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt6096/have_been_getting_into_local_llms_recently/",
+      "published_at": "2026-11-11T02:26:27Z",
+      "summary": "The ones I have currently heard of are as follows: Pi Opencode Hermes Deepseek Any thoughts on what one is best?   &#32; submitted by &#32;  /u/Important_Cow7230   [link] &#32; [comments]",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-11-i-built-a-zero-dependency-streaming-markdown-renderer-for-ai",
+      "source": "localllama",
+      "title": "I built a zero-dependency streaming Markdown renderer for AI chat replies, n× faster than the next one I benchmarked",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt3hjd/i_built_a_zerodependency_streaming_markdown/",
+      "published_at": "2026-11-11T00:27:43Z",
+      "summary": "      I&#39;ve been building chat UIs for agents and kept running into the same issues with react-markdown: it re-parses the whole reply on every token, so long answers get noticeably slower, and you see raw ** and half-",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-10-xemaya-an-intel-arc-inference-engine-to-run-deepseek-v41-and",
+      "source": "localllama",
+      "title": "XeMaya, an Intel Arc inference engine to run DeepSeek V4.1 and GLM 5.3",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt2mjk/xemaya_an_intel_arc_inference_engine_to_run/",
+      "published_at": "2026-11-10T23:50:54Z",
+      "summary": "I&#39;ve been trying to get some of the newer MoE models running on my Intel Arc GPUs, mainly DeepSeek V4.1 Flash and GLM 5.3 Flash. Intel support for these models is still pretty limited, and while I could get some thin",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-11-10-what-tasks-have-you-moved-from-cloud-models-to-local-models",
       "source": "localllama",
@@ -46,6 +123,17 @@
       ]
     },
     {
+      "id": "microsoft-2026-11-10-lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor",
+      "source": "microsoft",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+      "published_at": "2026-11-10T20:52:56Z",
+      "summary": "Microsoft researchers have discovered &#8220;Lazarus,&#8221; a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigge",
+      "tags": [
+        "microsoft"
+      ]
+    },
+    {
       "id": "simonw-2026-11-10-llm-gemini-036",
       "source": "simonw",
       "title": "llm-gemini 0.36",
@@ -79,39 +167,6 @@
       ]
     },
     {
-      "id": "localllama-2026-11-10-what-do-you-see-as-the-role-of-local-agentsllms-in-the-futur",
-      "source": "localllama",
-      "title": "What do you see as the role of local agents/LLMs in the future of gaming?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xssydv/what_do_you_see_as_the_role_of_local_agentsllms/",
-      "published_at": "2026-11-10T17:27:12Z",
-      "summary": "I&#39;ve been thinking about a MUD supported with LLMs. Something aside from the fangooner websites. And then perhaps a game where your local LLM uses an API to support play mechanics (like a MAG from Phantasy Star or a ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-10-amd-epyc-9686f-linux-benchmarks-96-zen-6-cores-at-up-to-53gh",
-      "source": "localllama",
-      "title": "AMD EPYC 9686F Linux benchmarks: 96 Zen 6 cores at up to 5.3GHz",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsswud/amd_epyc_9686f_linux_benchmarks_96_zen_6_cores_at/",
-      "published_at": "2026-11-10T17:25:33Z",
-      "summary": "      AI benchmarks begin on page 2.  &#32; submitted by &#32;  /u/Fcking_Chuck   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-10-i-trained-a-348m-active-moe-on-11b-tokens-it-scores-855-vs-q",
-      "source": "localllama",
-      "title": "I trained a 348M-active MoE on ~11B tokens. It scores 85.5% vs Qwen2.5-1.5B's 53.3% on shuffled fact chains. GGUF + eval set — please try to break it.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xssj9q/i_trained_a_348mactive_moe_on_11b_tokens_it/",
-      "published_at": "2026-11-10T17:11:20Z",
-      "summary": "I&#39;ve been recently working a small sparse MoE, and I&#39;ve got interesting results I&#39;d like strangers to invalidate. Tldr; I train small models and got surprising results and seek invalidation. It&#39;s not a ge",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
       "id": "meta-2026-11-10-your-algorithm-giving-people-more-ways-to-personalize-facebo",
       "source": "meta",
       "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
@@ -131,39 +186,6 @@
       "summary": "Triton Low-Level Extensions (TLX), is an extension to Triton that helps engineers optimize GPU performance while preserving Triton&#8217;s productive programming model.  TLX introduces explicit warp-group and cluster-lev",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-10-speakleashbielik-11b-v31-instruct-hugging-face",
-      "source": "localllama",
-      "title": "speakleash/Bielik-11B-v3.1-Instruct · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsrg0l/speakleashbielik11bv31instruct_hugging_face/",
-      "published_at": "2026-11-10T16:30:55Z",
-      "summary": "      https://huggingface.co/speakleash/Bielik-11B-v3.1-Instruct-GGUF https://www.bielik.ai/blog/premiera-modeli-bielik-11b-v31-dflash-i-rodziny-bielik-one (decision models and dflash are coming next) Bielik-11B-v3.1-Ins",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-10-tts-bench---91-open-tts-models-and-28-paid-tts-apis-on-the-s",
-      "source": "localllama",
-      "title": "TTS bench - 91 open TTS models and 28 paid TTS APIs on the same prompts",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsqv86/tts_bench_91_open_tts_models_and_28_paid_tts_apis/",
-      "published_at": "2026-11-10T16:09:25Z",
-      "summary": "This is the third round of tts-bench. Thanks to everyone who gave feedback on the first two posts:  TTS benchmark comparison of all known TTS models Text-to-speech benchmark, revamped  tts-bench runs every model through ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-10-minimaxaiminimax-h3-image-hugging-face",
-      "source": "localllama",
-      "title": "MiniMaxAI/MiniMax-H3-Image · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsp3xt/minimaxaiminimaxh3image_hugging_face/",
-      "published_at": "2026-11-10T15:01:52Z",
-      "summary": "      Actual working link this time.   &#32; submitted by &#32;  /u/Bestlife73   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
       ]
     },
     {
@@ -431,17 +453,6 @@
       ]
     },
     {
-      "id": "huggingface-2026-11-03-transformers-model-integration-contracts",
-      "source": "huggingface",
-      "title": "Transformers Model Integration Contracts",
-      "url": "https://huggingface.co/blog/transformers-mic",
-      "published_at": "2026-11-03T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
       "id": "meta-2026-10-29-catching-bugs-before-they-land-jittestings-human-on-the-loop",
       "source": "meta",
       "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
@@ -701,17 +712,6 @@
       "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
       "published_at": "2026-06-25T16:00:00Z",
       "summary": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language.\nThe post Understand",
-      "tags": [
-        "microsoft"
-      ]
-    },
-    {
-      "id": "microsoft-2026-06-24-talos-scaling-rare-disease-diagnosis-with-automated-iterativ",
-      "source": "microsoft",
-      "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
-      "url": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/",
-      "published_at": "2026-06-24T14:00:14Z",
-      "summary": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert rev",
       "tags": [
         "microsoft"
       ]
