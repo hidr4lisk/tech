@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-11-11T05:31:46Z",
+  "updated_at": "2026-11-11T13:52:34Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12284",
+      "project": "llama-cpp",
+      "version": "b12284",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12284",
+      "published_at": "2026-11-11T13:13:19Z",
+      "body_excerpt": "CUDA: Add OCP FP8 support (#28413) Initial CUDA WIP version Use fp8 intrinsics Do W8A16 for FP8 in GEMV case (base) osimons@ub-osimons:~/lcpp_fp8.git$ ./build-x64-linux-gcc-reldbg/bin/llama-bench -m /mnt/share/gguf/nvidia/Qwen3.6-27B-NVFP4/Qwen3.6-27B-NVFP4_fp8.gguf -p 8196 -ub 512,2048 -d 0,32000 -n 256 --load-mode dio ggml_cuda_init: found 1 CUDA devices (Total VRAM: 32165 MiB): Device 0: NVIDIA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12283",
+      "project": "llama-cpp",
+      "version": "b12283",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12283",
+      "published_at": "2026-11-11T06:17:37Z",
+      "body_excerpt": "sycl : fixed sycl CLAMP to actually support strided view (#31784) Modify to use the unary helper function to handle non-contigous or strided views. The fix uses a pattern that matches other stride-safe unary ops, and is a simpler execution path. Deleted dead template , the flat kernel launcher from element_wise.cpp, and deleted (now) unused from presets.hpp. Website: Attestations: macOS/iOS: macOS",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12282",
       "project": "llama-cpp",
@@ -14084,33 +14102,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10408",
       "published_at": "2026-08-13T14:30:05Z",
       "body_excerpt": "sycl : Add DMMV ESIMD Q3_K kernel (#26251) Add DMMV Q4_K and Q6_K ESIMD kernels Configure cmake build with -DGGML_SYCL_ESIMD=ON to enable. Signed-off-by: Todd Malsbary Refactor ESIMD kernels to share common code Signed-off-by: Todd Malsbary Move control of ESIMD from compile to runtime Signed-off-by: Todd Malsbary Use ESIMD by default when available Signed-off-by: Todd Malsbary Fix possible error ",
-      "type": "tool"
-    },
-    {
-      "id": "hf-Qwen-Qwen3.8-27B-FP8",
-      "project": "Qwen",
-      "version": "Qwen3.8-27B-FP8",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "published_at": "2026-08-13T08:01:58Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10405",
-      "project": "llama-cpp",
-      "version": "b10405",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10405",
-      "published_at": "2026-08-13T07:32:37Z",
-      "body_excerpt": "ggml-hip : remove -funsafe-math-optimizations (#26696) It enables -fassociative-math, which reassociates FP reductions and can flip greedy argmax on RDNA3.5 (e.g. MTP speculative decode diverging from the non-speculative baseline). Drop it so HIP builds are IEEE-conformant. Co-authored-by: Jim Wu Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10400",
-      "project": "llama-cpp",
-      "version": "b10400",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10400",
-      "published_at": "2026-08-13T06:03:55Z",
-      "body_excerpt": "ggml : fix arm builds, unused var (#26991) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
       "type": "tool"
     }
   ]
