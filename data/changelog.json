@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-11T13:52:34Z",
+  "updated_at": "2026-11-12T00:18:41Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12292",
+      "project": "llama-cpp",
+      "version": "b12292",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12292",
+      "published_at": "2026-11-11T20:15:19Z",
+      "body_excerpt": "webgpu: add PAD_REFLECT_1D support (#31877) webgpu : add PAD_REFLECT_1D support webgpu: remove redundant PAD_REFLECT_1D contiguity check tests: simplify PAD_REFLECT_1D setup Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12291",
+      "project": "llama-cpp",
+      "version": "b12291",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12291",
+      "published_at": "2026-11-11T19:52:29Z",
+      "body_excerpt": "vulkan: allow dequantized KV optimization with CM2 (#31526) additional FA test cases Assisted-by: Codex vulkan: allow dequantized KV optimization with CM2 Enable the KV dequantization optimization with coopmat2, guarded by a heuristic based on query tokensGQA ratio. While doing this we saw very large speedups for certain head sizes, and it was because those head sizes were incorrectly treated as u",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12290",
+      "project": "llama-cpp",
+      "version": "b12290",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12290",
+      "published_at": "2026-11-11T19:32:52Z",
+      "body_excerpt": "vulkan: allocate the device fault vendor binary buffer (#32008) vulkan : allocate the device fault vendor binary buffer vulkan : drop the redundant vector include --------- Co-authored-by: figkcoci-debug Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12289",
+      "project": "llama-cpp",
+      "version": "b12289",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12289",
+      "published_at": "2026-11-11T19:03:19Z",
+      "body_excerpt": "tests : use only the public ggml API (#32077) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12287",
+      "project": "llama-cpp",
+      "version": "b12287",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12287",
+      "published_at": "2026-11-11T18:15:36Z",
+      "body_excerpt": "cuda : use MMVF for BF16 matrices of few rows at small batch sizes (#31959) MMF tiles 32 rows per block, so a BF16 matrix with few rows (e.g. the qwen4exp hyper-connection projections, 320 rows with K = 10240) runs only a handful of blocks and leaves most SMs idle at batch sizes 2..8. MMVF runs a block per row and wins there when K is long enough. MMVF's cost grows with rows x batch while MMF's st",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.917-beta",
+      "project": "unsloth",
+      "version": "v0.1.917-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.917-beta",
+      "published_at": "2026-11-11T16:00:56Z",
+      "body_excerpt": "Qwen3.8-27B is here with Dynamic v3.1 GGUFs, ready to run locally with Unsloth. This release also brings major performance improvements, smoother Glass rendering, revamped code blocks and Thinking UI, HTML/PDF chat exports, and new image generation and coding agent features. Highlights New Qwen3.8-27B Dynamic v3.1 GGUFs. Faster chats: Major performance improvements to streaming, scrolling, menus a",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12284",
       "project": "llama-cpp",
@@ -81,6 +135,15 @@
       "published_at": "2026-11-11T01:26:31Z",
       "body_excerpt": "cuda : halve VMM pool reservation size and retry on cuMemAddressReserve failure (#30542) cuda : Lowering VMM pool reservation size to 8 GB on GPUs with combined memory due to CUDA out of memory errors Assisted-by: Gemini Argon cuda : Halve VMM pool reservation size and retry on failure Assisted-by: Gemini Argon cuda : only shrink VMM pool on CUDA_ERROR_OUT_OF_MEMORY Assisted-by: Gemini Argon cuda ",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Kimi-K3.1-Pro-NVFP4",
+      "project": "nvidia",
+      "version": "Kimi-K3.1-Pro-NVFP4",
+      "url": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4",
+      "published_at": "2026-11-11T00:57:46Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b12262",
@@ -13886,222 +13949,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.11",
       "published_at": "2026-08-14T01:22:12Z",
       "body_excerpt": "What's Changed now supports DeepSeek Harness, DeepSeek's open-source agent harness now supports Muse Code, Meta's agentic coding CLI The OpenAI-compatible Responses API now supports web search Muse Glimmer template updates Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10423",
-      "project": "llama-cpp",
-      "version": "b10423",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10423",
-      "published_at": "2026-08-13T22:44:06Z",
-      "body_excerpt": "common: apply CPU parameters across tools (#27026) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10419",
-      "project": "llama-cpp",
-      "version": "b10419",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10419",
-      "published_at": "2026-08-13T22:11:34Z",
-      "body_excerpt": "OpenVINO: Qwen3.5, memory optimization, and test-recurrent-state-rollback (#26952) OpenVINO backend: 1) enable gpt-oss moe on OV bk; 2) enable mxfp4 support OpenVINO backend: disable TOPK_MOE op test OpenVINO Backend: Add op FILL support OpenVINO backend: enable set rows with multi dims fix the name missmatch in setrow + view OpenVINO backend: enable op GGML_UNARY_OP_SIGMOID OpenVINO Backend: enab",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10418",
-      "project": "llama-cpp",
-      "version": "b10418",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10418",
-      "published_at": "2026-08-13T21:36:06Z",
-      "body_excerpt": "[SYCL] Support host pinned mem to improve SYCL Host-to-Device Memory Access (#26789) support host pinned mem, ggml_backend_sycl_host_buffer_type_get_max_size, fix the thread-safe issue Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulk",
-      "type": "tool"
-    },
-    {
-      "id": "hf-ibm-granite-granite-4.2-8b-nvfp4",
-      "project": "ibm-granite",
-      "version": "granite-4.2-8b-nvfp4",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b-nvfp4",
-      "published_at": "2026-08-13T21:05:48Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-4.2-8b-mxfp4",
-      "project": "ibm-granite",
-      "version": "granite-4.2-8b-mxfp4",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b-mxfp4",
-      "published_at": "2026-08-13T21:05:29Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-4.2-8b-fp8",
-      "project": "ibm-granite",
-      "version": "granite-4.2-8b-fp8",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-8b-fp8",
-      "published_at": "2026-08-13T21:05:07Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-4.2-3b-nvfp4",
-      "project": "ibm-granite",
-      "version": "granite-4.2-3b-nvfp4",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b-nvfp4",
-      "published_at": "2026-08-13T21:04:44Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-4.2-3b-mxfp4",
-      "project": "ibm-granite",
-      "version": "granite-4.2-3b-mxfp4",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b-mxfp4",
-      "published_at": "2026-08-13T21:04:23Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-4.2-3b-fp8",
-      "project": "ibm-granite",
-      "version": "granite-4.2-3b-fp8",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-3b-fp8",
-      "published_at": "2026-08-13T21:03:50Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-4.2-30b-nvfp4",
-      "project": "ibm-granite",
-      "version": "granite-4.2-30b-nvfp4",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-30b-nvfp4",
-      "published_at": "2026-08-13T21:03:19Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-4.2-30b-mxfp4",
-      "project": "ibm-granite",
-      "version": "granite-4.2-30b-mxfp4",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-30b-mxfp4",
-      "published_at": "2026-08-13T21:02:51Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-ibm-granite-granite-4.2-30b-fp8",
-      "project": "ibm-granite",
-      "version": "granite-4.2-30b-fp8",
-      "url": "https://huggingface.co/ibm-granite/granite-4.2-30b-fp8",
-      "published_at": "2026-08-13T21:02:02Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10417",
-      "project": "llama-cpp",
-      "version": "b10417",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10417",
-      "published_at": "2026-08-13T20:49:34Z",
-      "body_excerpt": "chat : fix LFM2 tool call arg name prefix ambiguity (#26960) Assisted-by: Claude Opus 5 Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL F",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10416",
-      "project": "llama-cpp",
-      "version": "b10416",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10416",
-      "published_at": "2026-08-13T20:05:56Z",
-      "body_excerpt": "server : serve index.html with no-cache (#27006) index.html was served with like the hashed assets, but its name is stable while its contents change every build, so a cached copy pins the UI to an old build. It now revalidates via its existing ETag, which keeps the 304 for unchanged builds. Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10415",
-      "project": "llama-cpp",
-      "version": "b10415",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10415",
-      "published_at": "2026-08-13T19:29:10Z",
-      "body_excerpt": "spec : auto-detect mtp draft model type (#27005) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Kimi-K3-NVFP4",
-      "project": "nvidia",
-      "version": "Kimi-K3-NVFP4",
-      "url": "https://huggingface.co/nvidia/Kimi-K3-NVFP4",
-      "published_at": "2026-08-13T19:06:29Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10414",
-      "project": "llama-cpp",
-      "version": "b10414",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10414",
-      "published_at": "2026-08-13T18:40:34Z",
-      "body_excerpt": "metal : add TQ2_0 support (#26980) metal: add TQ2_0 support Add support for the GGML_TYPE_TQ2_0 (ternary, 2 bits per element) type in the Metal backend. Assisted-by: llama.cpp:DeepSeek-v4-Flash-0731 cont : optimize mul_mv kernel float ops over integer ops precalculate sums hoist coef out of the inner loop contiguous y loads llama.cpp:DeepSeek-v4-Flash-0731 Website: macOS/iOS: macOS Apple Silicon (",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10413",
-      "project": "llama-cpp",
-      "version": "b10413",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10413",
-      "published_at": "2026-08-13T17:58:50Z",
-      "body_excerpt": "common : auto-detect spec type from draft GGUF metadata (#26814) common : auto-detect spec type from draft GGUF metadata When -md loads a local draft model without --spec-type, the sidecar inference in common_models_handler_apply only checks HF repo sidecars and misses local files. The draft model loads into VRAM but speculative decoding never activates (types stays NONE). Read general.architectur",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10412",
-      "project": "llama-cpp",
-      "version": "b10412",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10412",
-      "published_at": "2026-08-13T17:17:01Z",
-      "body_excerpt": "spec: enable backend sampling for both dflash & dspark (#26958) dflash: enable backend sampling for both dflash & dspark enable p_min > 0 in backend sampling and add guard cont : add TODO --------- Co-authored-by: Georgi Gerganov Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ar",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-cmd",
-      "project": "nvidia",
-      "version": "cmd",
-      "url": "https://huggingface.co/nvidia/cmd",
-      "published_at": "2026-08-13T16:59:36Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10411",
-      "project": "llama-cpp",
-      "version": "b10411",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10411",
-      "published_at": "2026-08-13T16:36:03Z",
-      "body_excerpt": "ggml-cpu/ops: vectorize flash-attention V-cache F16 to F32 conversion (#26947) Co-authored-by: jinzihao Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ub",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10410",
-      "project": "llama-cpp",
-      "version": "b10410",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10410",
-      "published_at": "2026-08-13T15:52:34Z",
-      "body_excerpt": "sycl: remove separate fp32 type promotion in gemm non-oneDNN path (#26372) sycl: use automatic fp16 promotion in gemm sycl: remove redundant comment Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.702-beta",
-      "project": "unsloth",
-      "version": "v0.1.702-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.702-beta",
-      "published_at": "2026-08-13T15:21:18Z",
-      "body_excerpt": "Unsloth Desktop is here! The first desktop app to run and train AI models locally. Research, export and deploy from the same open-source app on Windows, macOS and Linux. v0.1.702-beta Update (August 13th) Added tool calling / web search & more for all external providers Fixed bypass permissions not working for sandboxing UI and UX fixes - VRAM usage is now tunable 10% faster inference + reduced VR",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10408",
-      "project": "llama-cpp",
-      "version": "b10408",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10408",
-      "published_at": "2026-08-13T14:30:05Z",
-      "body_excerpt": "sycl : Add DMMV ESIMD Q3_K kernel (#26251) Add DMMV Q4_K and Q6_K ESIMD kernels Configure cmake build with -DGGML_SYCL_ESIMD=ON to enable. Signed-off-by: Todd Malsbary Refactor ESIMD kernels to share common code Signed-off-by: Todd Malsbary Move control of ESIMD from compile to runtime Signed-off-by: Todd Malsbary Use ESIMD by default when available Signed-off-by: Todd Malsbary Fix possible error ",
       "type": "tool"
     }
   ]
