@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-11-12T14:54:17Z",
+  "updated_at": "2026-11-12T23:23:21Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12329",
+      "project": "llama-cpp",
+      "version": "b12329",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12329",
+      "published_at": "2026-11-12T22:22:59Z",
+      "body_excerpt": "CUDA: Optimize prefil via fuse of w_s scale in epilogue MMQ for nvfp4 checkpoints (#26048) ggml-cuda: Apply NVFP4 weight scale in MMQ write-back ggml-cuda: Fuse mul_mat(_id) + scale into MMQ ggml-cuda: Tests for the fused scale ggml-cuda: reuse existing graph to test fusion in mmq epiloque ggml-cuda: rename test_mul_mat_vec_fusion to test_mul_mat_fusion for consistency ggml-cuda: refine comments f",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12328",
+      "project": "llama-cpp",
+      "version": "b12328",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12328",
+      "published_at": "2026-11-12T21:20:31Z",
+      "body_excerpt": "ggml-backend : prefetch only inputs computed by earlier splits (#32100) ggml-backend : prefetch only inputs computed by earlier splits The copy callback of a split runs after the prefetch and can write tensors that a later split reads, e.g. the MoE cache uploads missed experts into its bank. A prefetch of such a tensor reads it before the write. llama : skip the MoE cache when its device cannot ru",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12327",
+      "project": "llama-cpp",
+      "version": "b12327",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12327",
+      "published_at": "2026-11-12T20:59:56Z",
+      "body_excerpt": "ggml : dispatch SpacemiT Q4_1 32x256 through the HP kernel (#31929) The 32x256 pack already keeps a separate uint8 zero point. Complete the M1 path and use the same HP kernel as Q4_0. Assisted-by: Codex Signed-off-by: gitGurugu Signed-off-by: Wang Yang Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramew",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12323",
+      "project": "llama-cpp",
+      "version": "b12323",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12323",
+      "published_at": "2026-11-12T20:01:18Z",
+      "body_excerpt": "chat : refactor gemma4 to build loose schema rules and clean up (#31915) chat : build a schema-shaped PEG parser for Gemma 4 tool arguments chat : enforce only the key structure of Gemma 4 tool arguments chat : remove old gemma4 workarounds cont : add node.as<>() to simplify static casts cont : add depth_guard and use numerical rule names cont : clean up cont : extract gemma 4 parsers cont : clean",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12322",
+      "project": "llama-cpp",
+      "version": "b12322",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12322",
+      "published_at": "2026-11-12T18:59:41Z",
+      "body_excerpt": "llama : avoid touching unused graph metadata pages (#32043) Each graph result reserves metadata for max_nodes, but many graphs use only a fraction of that capacity. The vector resize initializes the whole reserve and makes otherwise unused pages resident. Allocate the reserve with new uint8_t[] instead. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12321",
+      "project": "llama-cpp",
+      "version": "b12321",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12321",
+      "published_at": "2026-11-12T18:18:02Z",
+      "body_excerpt": "sycl: make oneDNN FA cache thread-safe and memoize runtime failures (#31138) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12320",
+      "project": "llama-cpp",
+      "version": "b12320",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12320",
+      "published_at": "2026-11-12T17:44:55Z",
+      "body_excerpt": "sycl : fix AOT for more than 4GB (#31873) fix aot for >4g garbage output issue; add --aot in build script correct the aot flag support no-xmx build, update the code for no-xmx building, rename nossl to no-ssl Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12319",
+      "project": "llama-cpp",
+      "version": "b12319",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12319",
+      "published_at": "2026-11-12T16:34:48Z",
+      "body_excerpt": "sycl : use cached device-id in set_main_device (#32013) ggml_sycl_set_main_device() runs at the start of every graph compute. Its early-return check called dpct::get_current_device_id(), which locks the device manager mutex and looks up the thread-to-device map. Use the thread-local cached id that the rest of the backend already uses. Assisted-by: Claude Code Co-authored-by: zhaoyshine Website: At",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12318",
       "project": "llama-cpp",
@@ -7166,6 +7238,24 @@
       "type": "tool"
     },
     {
+      "id": "hf-ibm-granite-granite-4.1-8b-llmon-preview",
+      "project": "ibm-granite",
+      "version": "granite-4.1-8b-llmon-preview",
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview",
+      "published_at": "2026-10-01T14:00:06Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-ibm-granite-granite-4.1-3b-llmon-preview",
+      "project": "ibm-granite",
+      "version": "granite-4.1-3b-llmon-preview",
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-3b-llmon-preview",
+      "published_at": "2026-10-01T13:59:05Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "unsloth-v0.1.901-beta",
       "project": "unsloth",
       "version": "v0.1.901-beta",
@@ -13868,105 +13958,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10436",
       "published_at": "2026-08-15T04:11:49Z",
       "body_excerpt": "mtmd, common: various fixes (#27071) apply fixes cont revert gguf fix Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (S",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10435",
-      "project": "llama-cpp",
-      "version": "b10435",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10435",
-      "published_at": "2026-08-14T22:27:16Z",
-      "body_excerpt": "jinja : fix quadratic cost in gather_string_parts (#27034) jinja : fix quadratic cost in gather_string_parts fix some comments remove test Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.1",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10434",
-      "project": "llama-cpp",
-      "version": "b10434",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10434",
-      "published_at": "2026-08-14T19:22:14Z",
-      "body_excerpt": "chat : pass reasoning_effort to template chat: add reasoning_effort to common_chat_templates_inputs Store OpenAI Chat Completions reasoning_effort and make it available to jinja templates (with model specific translations where required). Assisted-by: llama.cpp:Muse-Glimmer-30B server : fixup reading reasoning effort from body server_chat_convert_responses_to_chatcmpl already handles conversion of",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.13",
-      "project": "ollama",
-      "version": "v0.32.13",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.13",
-      "published_at": "2026-08-14T19:16:07Z",
-      "body_excerpt": "What's Changed qwen3.8: support developer instructions Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10433",
-      "project": "llama-cpp",
-      "version": "b10433",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10433",
-      "published_at": "2026-08-14T18:19:57Z",
-      "body_excerpt": "sync : ggml Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10431",
-      "project": "llama-cpp",
-      "version": "b10431",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10431",
-      "published_at": "2026-08-14T17:42:44Z",
-      "body_excerpt": "ggml : recurrent state rollback for ggml_ssm_scan (#26623) Initial changes for Recurrent state rollback for nemotron for cpu and cuda Removing CPU RS rollback. Will enable it in subsequent PRs addition of test case Removing assert and calling runtime API to check if op is supported removing extra API and updating the call sites for K replace static cuda detection to runtime fused_op api address re",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-Labs-Teacher-Chat",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-Labs-Teacher-Chat",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-Chat",
-      "published_at": "2026-08-14T17:09:11Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-Labs-Teacher-Competition-Coding",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-Labs-Teacher-Competition-Coding",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-Competition-Coding",
-      "published_at": "2026-08-14T17:08:58Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-Labs-Teacher-Instruction-Following",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-Labs-Teacher-Instruction-Following",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-Instruction-Following",
-      "published_at": "2026-08-14T17:08:45Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-Labs-Teacher-General-Reasoning",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-Labs-Teacher-General-Reasoning",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-General-Reasoning",
-      "published_at": "2026-08-14T17:08:25Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-nvidia-NVIDIA-Nemotron-Labs-Teacher-STEM",
-      "project": "nvidia",
-      "version": "NVIDIA-Nemotron-Labs-Teacher-STEM",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-STEM",
-      "published_at": "2026-08-14T17:07:48Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "ollama-v0.32.12",
-      "project": "ollama",
-      "version": "v0.32.12",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
-      "published_at": "2026-08-14T16:37:00Z",
-      "body_excerpt": "Qwen 3.8 27B This release adds the support of Qwen 3.8 27B. Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks. For Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents.",
       "type": "tool"
     }
   ]
