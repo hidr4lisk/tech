@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-11-12T00:18:41Z",
+  "updated_at": "2026-11-12T14:54:17Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12318",
+      "project": "llama-cpp",
+      "version": "b12318",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12318",
+      "published_at": "2026-11-12T11:36:10Z",
+      "body_excerpt": "CUDA: add cuda debug buffer pool (#31919) CUDA: add cuda debug buffer pool CUDA: add code comment for debug pool with compute-sanitizer Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12317",
+      "project": "llama-cpp",
+      "version": "b12317",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12317",
+      "published_at": "2026-11-12T06:58:35Z",
+      "body_excerpt": "opencl: add bin kernel (#30947) opencl: add A7 Q4_0 non-MoE binary kernel opencl: refactor --------- Co-authored-by: Li He Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12316",
+      "project": "llama-cpp",
+      "version": "b12316",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12316",
+      "published_at": "2026-11-12T06:25:50Z",
+      "body_excerpt": "CUDA: skip empty MoE tiles in MMQ stream-k fixup (#32067) CUDA: skip empty MoE tiles in MMQ stream-k fixup mul_mat_q_stream_k_fixup loads ids_dst[col_low + j] for all j = j_sup before storing anything, so results are unaffected. Return early when j_sup Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramew",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12314",
+      "project": "llama-cpp",
+      "version": "b12314",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12314",
+      "published_at": "2026-11-12T05:22:52Z",
+      "body_excerpt": "opencl: add decomposed FA for Adreno (#32046) opencl: add decomposed FA Assisted-by: Claude Opus 5.5 Co-authored-by: Hongqiang Wang Co-authored-by: Shaofei Qi opencl: build FA MQ kernel on first FA call so allows warmup to early build neccessary kernels Assisted-by: Claude Opus 5.5 opencl: handle inf for fully masked row opencl: refine condition for using fa decomp opencl: support dp4a for PV mm A",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12311",
+      "project": "llama-cpp",
+      "version": "b12311",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12311",
+      "published_at": "2026-11-12T05:02:04Z",
+      "body_excerpt": "ui: keep downloads in Discover during search and fix their progress with a draft (#31467) ui : keep downloads in Discover sidebar during search, sort base-org repos first Show the sticky Downloading section regardless of an active search query Order search results so repos published by their base model's org lead Assisted-by: Claude (Opus 5.5 Medium) server : throttle download progress per file Fi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12308",
+      "project": "llama-cpp",
+      "version": "b12308",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12308",
+      "published_at": "2026-11-12T04:32:11Z",
+      "body_excerpt": "ci: move test models to ggml-org-dev (#32096) ci: move test models to ggml-org-dev fix test spec Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12307",
+      "project": "llama-cpp",
+      "version": "b12307",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12307",
+      "published_at": "2026-11-12T04:10:18Z",
+      "body_excerpt": "metal : prevent out-of-bounds reads in SOLVE_TRI kernel (#32103) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12306",
+      "project": "llama-cpp",
+      "version": "b12306",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12306",
+      "published_at": "2026-11-12T03:45:58Z",
+      "body_excerpt": "vulkan: support batched tensor copy API (#31418) vulkan: support batched tensor copy API allocate staging buffer only for copies that actually need it Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12304",
+      "project": "llama-cpp",
+      "version": "b12304",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12304",
+      "published_at": "2026-11-12T03:19:13Z",
+      "body_excerpt": "llama : reuse graph result instances across scheduler reserves (#32089) Allocate gf_res_reserve and both gf_res_prev entries once in the llama_context constructor. Add llm_graph_result::set_max_nodes() and reset the existing instances in sched_reserve() instead of recreating them. get_gf_res_prev() now only selects the arena for the current batch. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12303",
+      "project": "llama-cpp",
+      "version": "b12303",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12303",
+      "published_at": "2026-11-12T02:55:34Z",
+      "body_excerpt": "jinja : support chained comparisons and argument unpacking (#32072) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12302",
+      "project": "llama-cpp",
+      "version": "b12302",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12302",
+      "published_at": "2026-11-12T02:22:59Z",
+      "body_excerpt": "chat: allow TTS model to provide custom text normalizer via jinja (#32053) chat: allow TTS model to provide custom text normalizer via jinja rm tts_norm_is_reserved_name Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.0",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12292",
       "project": "llama-cpp",
@@ -13868,87 +13967,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
       "published_at": "2026-08-14T16:37:00Z",
       "body_excerpt": "Qwen 3.8 27B This release adds the support of Qwen 3.8 27B. Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks. For Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents.",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.800-beta",
-      "project": "unsloth",
-      "version": "v0.1.800-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.800-beta",
-      "published_at": "2026-08-14T14:18:49Z",
-      "body_excerpt": "Qwen3.8-27B and Qwen3.8-2.4T can now be run locally in Unsloth! Run on 17GB RAM via Unsloth Dynamic GGUFs. You can also fine-tune Qwen3.8-27B in Unsloth. Qwen3.8-27B is by far the strongest model for its size. We also uploaded NVFP4 quants. Guide: GGUF: See 1-bit Qwen3.8-2.4T GGUF running in Unsloth: Highlights Qwen3.8-27B + extra llama-server arguments allowed + custom VRAM toggle External provid",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10430",
-      "project": "llama-cpp",
-      "version": "b10430",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10430",
-      "published_at": "2026-08-14T12:58:04Z",
-      "body_excerpt": "llama : allow virtual igpu devices (#26953) llama : allow virtual igpu devices cont : better comment Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubunt",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10429",
-      "project": "llama-cpp",
-      "version": "b10429",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10429",
-      "published_at": "2026-08-14T12:13:37Z",
-      "body_excerpt": "server: allow accessing /metrics and /slots during llama_decode() (#27041) server_queue::worker call llama_decode inside yield_to_queue also handle process_mtmd_chunk clean up nits rm test Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10428",
-      "project": "llama-cpp",
-      "version": "b10428",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10428",
-      "published_at": "2026-08-14T09:05:43Z",
-      "body_excerpt": "tests : replace personal home directory paths with generic placeholders (#27043) Scrub developer-specific /home/ / paths from example docs and test fixtures so they don't leak into the tree. examples/test-cmake/README.md: /home/danbev/... -> /path/to/llama.cpp/... tests/test-chat.cpp: /home/jarvis/... -> /home/user/... (input and expected string kept identical so the parser test still passes) Co-a",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10427",
-      "project": "llama-cpp",
-      "version": "b10427",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10427",
-      "published_at": "2026-08-14T08:14:14Z",
-      "body_excerpt": "sycl: fuse mul_mat(gate) + mul_mat(up) + GLU for q4_K dense FFN (#26779) Measured on Arc Pro B70 (Battlemage, Level Zero), llama-bench -r 20, two interleaved rounds, tg128: qwen2.5-3B-Instruct Q4_K_M 154.18 -> 158.53 t/s +2.8% gemma-2-2b-it Q4_K_M 162.45 -> 165.62 t/s +2.0% llama-batched-bench on qwen2.5-3B, S_TG by batch size: B=1 142.72 -> 147.57 t/s +3.4% B=2 243.72 -> 268.26 t/s +10.1% B=4 359",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10426",
-      "project": "llama-cpp",
-      "version": "b10426",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10426",
-      "published_at": "2026-08-14T07:29:04Z",
-      "body_excerpt": "ggml: force single thread on wasi (#25686) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10425",
-      "project": "llama-cpp",
-      "version": "b10425",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10425",
-      "published_at": "2026-08-14T06:50:50Z",
-      "body_excerpt": "sycl: fuse the gated-delta-net state writeback cpy (#26643) Port of Arc Pro B70, Qwen 3.6 27B Q4_K - Medium (48 of its 64 blocks run gated_delta_net), -ngl 99 -fa 1 -ctk f16 -ctv f16 -b 2048 -ub 2048, interleaved A/B passes of r=3: tg128 23.91 / 23.90 / 23.90 -> 24.19 / 24.17 / 24.20 +1.2% tg128 (rebuild) 23.81 / 23.81 -> 24.09 / 24.10 +1.2% pp2048 1050.8 / 1053.9 -> 1053.8 / 1054.5 flat 2 seqs, t",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10424",
-      "project": "llama-cpp",
-      "version": "b10424",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10424",
-      "published_at": "2026-08-14T05:44:30Z",
-      "body_excerpt": "dflash : clarify output logging of target_layer_ids (#27013) This commit tries to make the logging of target_layer_ids a bit clearer and easier to read. Currently the output generated looks like this: With the changes in the commit the output will be: Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubun",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.11",
-      "project": "ollama",
-      "version": "v0.32.11",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.11",
-      "published_at": "2026-08-14T01:22:12Z",
-      "body_excerpt": "What's Changed now supports DeepSeek Harness, DeepSeek's open-source agent harness now supports Muse Code, Meta's agentic coding CLI The OpenAI-compatible Responses API now supports web search Muse Glimmer template updates Full Changelog:",
       "type": "tool"
     }
   ]
