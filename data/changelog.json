@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-11-13T05:55:36Z",
+  "updated_at": "2026-11-13T14:21:06Z",
   "releases": [
+    {
+      "id": "transformers-v5.23.0",
+      "project": "transformers",
+      "version": "v5.23.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.23.0",
+      "published_at": "2026-11-13T14:10:57Z",
+      "body_excerpt": "Release v5.23.0 New Model additions Inkling2 Inkling 2 Small is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs, and it is intended for use in English and other languages and across multiple coding languages. Its language backbone has 48 mixture-of-experts decoder layers, each routing tokens to 8 of 384 experts, for 594B total and 17B act",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12359",
+      "project": "llama-cpp",
+      "version": "b12359",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12359",
+      "published_at": "2026-11-13T10:21:06Z",
+      "body_excerpt": "examples : remove explict version from test-cmake (#32191) This commit removes the llama version test-cmake and instead uses the version that is supplied by CMAKE_PREFIX_PATH. The motivation for this is to avoid issues when bumping major versions. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework L",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-v1.0.0",
+      "project": "llama-cpp",
+      "version": "v1.0.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+      "published_at": "2026-11-13T10:20:19Z",
+      "body_excerpt": "Blog post: Overview llama.cpp v1.0.0 removes the deprecated public API and promotes the NextN/speculative API to , adds OCP FP8 KV caches, a host-memory MoE expert cache with a configurable CPU share, and loading of external PLE shards. It adds three text architectures (Kimi-K3.1-Pro, Ripple and xing4_0), drama-3 TTS, and MageVL-Cowork and Kimi-K3.1 vision, hardens (SSRF, CORS, DNS rebinding, MCP ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12360",
+      "project": "llama-cpp",
+      "version": "b12360",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12360",
+      "published_at": "2026-11-13T10:02:27Z",
+      "body_excerpt": "CUDA: split the PAD_REFLECT_1D grid to stay within the HIP grid limit (#32179) The kernel launches one block per row and 256-wide tile, so the {2, 16777217} test case asks for 16777217 blocks of 256 threads. HIP refuses a grid dimension above 2^32 threads and the ROCm jobs fail with \"invalid configuration argument\". The host now launches the grid in chunks of at most UINT32_MAX / 256 blocks and pa",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12347",
+      "project": "llama-cpp",
+      "version": "b12347",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12347",
+      "published_at": "2026-11-13T09:43:20Z",
+      "body_excerpt": "llama : prune (#30565) llama : remove deprecated Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) llama : remove remaining deprecated API Drop the APIs marked DEPRECATED in llama.h, the deprecated llama_context_params::defrag_thold field and the --defrag-thold option. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ul",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12345",
+      "project": "llama-cpp",
+      "version": "b12345",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12345",
+      "published_at": "2026-11-13T06:33:00Z",
+      "body_excerpt": "hexagon: add Q5_0 and Q5_1 support (#32094) hexagon: add q5_0 and q5_1 support hex-mm: dedicated q5_0 kernels Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12344",
+      "project": "llama-cpp",
+      "version": "b12344",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12344",
+      "published_at": "2026-11-13T06:01:04Z",
+      "body_excerpt": "server : cancel MCP tool calls on client disconnect or timeout (#32025) server : cancel MCP tool calls on client disconnect or timeout server : shorten MCP cancellation tests and fix a type-check error Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubun",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12343",
       "project": "llama-cpp",
@@ -13967,15 +14030,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10442",
       "published_at": "2026-08-15T14:58:24Z",
       "body_excerpt": "vulkan: add SHMEM_STRIDE_PAD/APPLY_SLM_A_RESHAPE for coopmat1 on Intel Xe (#25380) vulkan: add SHMEM_STRIDE_PAD/APPLY_SLM_A_RESHAPE for coopmat mul_mm on Intel Xe vulkan: fix shmem estimate for Intel SHMEM_STRIDE_PAD=0 in matmul_shmem_support cacheline aligned for shared kvalues_mxfp4 vulkan: fix OOB read in kvalues_mxfp4 init after cacheline padding vulkan: restrict SLM-A reshape to Intel Windows",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10441",
-      "project": "llama-cpp",
-      "version": "b10441",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10441",
-      "published_at": "2026-08-15T11:24:40Z",
-      "body_excerpt": "common: migrate the deprecated --mmap/--no-mmap to --load-mode (#26934) Replace the deprecated --mmap, --no-mmap, --mlock, and --direct-io flags with the unified --load-mode argument across scripts, examples, and documentation. Internal warning message and env var docs updated accordingly. Signed-off-by: Fathi Boudra Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
       "type": "tool"
     }
   ]
