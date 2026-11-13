@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-11-13T14:21:06Z",
+  "updated_at": "2026-11-13T23:24:42Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12373",
+      "project": "llama-cpp",
+      "version": "b12373",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12373",
+      "published_at": "2026-11-13T23:12:58Z",
+      "body_excerpt": "hexagon: add support for SSM_SCAN op (#31921) hexagon: add SSM_SCAN Op support hex-ssm-scan: fix multi-device spliting hex-ssm-scan: remove redundant checks and make kernel use host config hex-ssm-scan: remove direct ddr access hex-ssm-scan: remove DMA ordering hex-ops: update supported ops hex-ssm-scan: rewrite the dma pipeline to match other ops (dbl.buf, etc) hex-ssm-scan: remove all fallbacks,",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12370",
+      "project": "llama-cpp",
+      "version": "b12370",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12370",
+      "published_at": "2026-11-13T22:59:05Z",
+      "body_excerpt": "ggml-cuda: hip: tune GCN MMQ configs (#30021) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12368",
+      "project": "llama-cpp",
+      "version": "b12368",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12368",
+      "published_at": "2026-11-13T21:54:55Z",
+      "body_excerpt": "hexagon: improve buffer allocations and mappings (mmap stacking) (#32144) hex-bufs: combine queue and fence buffers hex-bufs: use n_threads for queue sizing hex-mmap: optimize buffer stacking at the host to avoid iova fragmentation hex-mmap: add simply retry for spurios mmap failures hex-mmap: use eager mode for extended mmap retries Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) ma",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12367",
+      "project": "llama-cpp",
+      "version": "b12367",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12367",
+      "published_at": "2026-11-13T21:40:41Z",
+      "body_excerpt": "CUDA: add SM103 SASS to non-native builds (#30099) Signed-off-by: ynankani Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12366",
+      "project": "llama-cpp",
+      "version": "b12366",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12366",
+      "published_at": "2026-11-13T19:29:39Z",
+      "body_excerpt": "ggml : add BF16 support to RMS_NORM (CPU, CUDA) (#32135) ggml : add BF16 support to RMS_NORM (CPU, CUDA) cuda : use one helper for the F32/BF16 RMS_NORM launches Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12365",
+      "project": "llama-cpp",
+      "version": "b12365",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12365",
+      "published_at": "2026-11-13T19:12:17Z",
+      "body_excerpt": "vulkan: add TOP_K_MASK (#31544) vulkan: add TOP_K_MASK Assisted-by: Claude Opus 5.5 vulkan: fix the TOP_K_MASK barrier and use the common offset helper Assisted-by: Claude Opus 5.5 vulkan: declare ggml_vk_top_k_mask in the common header Assisted-by: Claude Opus 5.5 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12364",
+      "project": "llama-cpp",
+      "version": "b12364",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12364",
+      "published_at": "2026-11-13T18:52:36Z",
+      "body_excerpt": "spec : Warn when --spec-draft-p-min is used with probabilistic draft sampling (#31294) spec : skip p_min for sampled MTP and DFlash2 drafts Under rejection sampling the acceptance at a position is 1 - TV(p, q), which the draft's top probability does not tell, so the p_min cutoff dropped draft tokens the target would have accepted. Skip it when MTP or DFlash2 samples the draft. draft-simple keeps i",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12363",
+      "project": "llama-cpp",
+      "version": "b12363",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12363",
+      "published_at": "2026-11-13T18:16:35Z",
+      "body_excerpt": "ggml-vulkan: add optional device keepalive (#29267) ggml-vulkan: add optional device keepalive simplify implementation, move ownership to backend, change env var to seconds --------- Co-authored-by: Acmmi Co-authored-by: Ruben Ortlam Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12362",
+      "project": "llama-cpp",
+      "version": "b12362",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12362",
+      "published_at": "2026-11-13T17:58:20Z",
+      "body_excerpt": "grammar : optimize matching with left factoring (#29557) grammar : limit the number of alternatives grammar : introduce an AST for grammar parsing grammar : revert AST refactor and alternatives limit This reverts commits: 84f3b57c4d6c482e7187a30735d16b02de3784fa 393a707ebb7e6f798abdb8af34cb1bc102f4aaa6 grammar: optimize big grammar matching by using left-factorization grammar : preserve character ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12361",
+      "project": "llama-cpp",
+      "version": "b12361",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12361",
+      "published_at": "2026-11-13T16:39:49Z",
+      "body_excerpt": "llama: move moe-cache code out of llama-graph (#32157) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 ",
+      "type": "tool"
+    },
     {
       "id": "transformers-v5.23.0",
       "project": "transformers",
@@ -13958,78 +14048,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10451",
       "published_at": "2026-08-16T07:24:37Z",
       "body_excerpt": "llama : check LoRA tensor data is within file bounds (#27056) llama : check LoRA tensor data is within file bounds Update src/llama-adapter.cpp Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10448",
-      "project": "llama-cpp",
-      "version": "b10448",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10448",
-      "published_at": "2026-08-15T20:48:35Z",
-      "body_excerpt": "model: add Kimi-K3 text model (#26185) model: add Kimi-K3 text model Hybrid KDA (linear) + MLA (full) attention as in Kimi-Linear-48B, plus five things that architecture does not have: 1. cross-layer residual attention (attn_res_block_size) 2. latent MoE (routed experts run at n_expert_latent) 3. situ activation (replaces SwiGLU everywhere) 4. MLA output gate (sigmoid gate before o_proj) 5. full-r",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10447",
-      "project": "llama-cpp",
-      "version": "b10447",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10447",
-      "published_at": "2026-08-15T20:14:19Z",
-      "body_excerpt": "server: re-design yield_to_queue thread model (#27133) run common_speculative_process in worker swap worker main thread design Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED U",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10446",
-      "project": "llama-cpp",
-      "version": "b10446",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10446",
-      "published_at": "2026-08-15T19:44:16Z",
-      "body_excerpt": "vendor: update BoringSSL to 0.20260813.0 (#27099) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.14-rc0",
-      "project": "ollama",
-      "version": "v0.32.14-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.14-rc0",
-      "published_at": "2026-08-15T19:41:23Z",
-      "body_excerpt": "What's Changed llm: transcode WebP images for llama-server renderers/qwen: tolerate non-leading system messages Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.14",
-      "project": "ollama",
-      "version": "v0.32.14",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.14",
-      "published_at": "2026-08-15T19:41:23Z",
-      "body_excerpt": "What's Changed llm: transcode WebP images for llama-server renderers/qwen: tolerate non-leading system messages Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10444",
-      "project": "llama-cpp",
-      "version": "b10444",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10444",
-      "published_at": "2026-08-15T18:42:10Z",
-      "body_excerpt": "common: support --models-dir loading MTP assistant models (#24431) common: support --models-dir loading MTP assistant models common: preset: check for MTP models with strict prefix common: preset: Take advantage of PR #27005 handle other draft types drop eagle3 clean up --------- Co-authored-by: Xuan Son Nguyen Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI en",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10443",
-      "project": "llama-cpp",
-      "version": "b10443",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10443",
-      "published_at": "2026-08-15T18:04:03Z",
-      "body_excerpt": "fix: check gguf array type before reading (#27075) fix: check gguf array type before reading update skill Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10442",
-      "project": "llama-cpp",
-      "version": "b10442",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10442",
-      "published_at": "2026-08-15T14:58:24Z",
-      "body_excerpt": "vulkan: add SHMEM_STRIDE_PAD/APPLY_SLM_A_RESHAPE for coopmat1 on Intel Xe (#25380) vulkan: add SHMEM_STRIDE_PAD/APPLY_SLM_A_RESHAPE for coopmat mul_mm on Intel Xe vulkan: fix shmem estimate for Intel SHMEM_STRIDE_PAD=0 in matmul_shmem_support cacheline aligned for shared kvalues_mxfp4 vulkan: fix OOB read in kvalues_mxfp4 init after cacheline padding vulkan: restrict SLM-A reshape to Intel Windows",
       "type": "tool"
     }
   ]
