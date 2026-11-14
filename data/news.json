@@ -1,6 +1,127 @@
 {
-  "updated_at": "2026-11-14T05:44:54Z",
+  "updated_at": "2026-11-14T13:15:12Z",
   "items": [
+    {
+      "id": "localllama-2026-11-14-how-long-are-we-gonna-depend-bunch-of-model-creators-like-qw",
+      "source": "localllama",
+      "title": "How long are we gonna depend bunch of model creators (like Qwen, Gemma, NVIDIA, etc.,) for ~100B models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw0xeu/how_long_are_we_gonna_depend_bunch_of_model/",
+      "published_at": "2026-11-14T12:10:50Z",
+      "summary": "      I think we&#39;re fine till 2027 with models(~100B .... Qwen 4.X &amp; 5, Gemma-5, NVIDIA would release some Medium/Big size 25-200B models). After that it&#39;s gonna be critical, as many model creators are increa",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-14-ibm-trains-two-small-open-models-to-ignore-orders-hidden-in",
+      "source": "localllama",
+      "title": "IBM trains two small open models to ignore orders hidden in documents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw09tu/ibm_trains_two_small_open_models_to_ignore_orders/",
+      "published_at": "2026-11-14T11:33:26Z",
+      "summary": "      I like this. Prompt injection is a bit issue with small models   &#32; submitted by &#32;  /u/mawcopolow   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-14-nace-quants-vs-unsloth-dynamic-v31-has-anyone-compared-them",
+      "source": "localllama",
+      "title": "Nace quants vs Unsloth Dynamic v3.1, has anyone compared them on actual tasks?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvz070/nace_quants_vs_unsloth_dynamic_v31_has_anyone/",
+      "published_at": "2026-11-14T10:15:10Z",
+      "summary": "Two quant updates landed in the last day: the Nace weight-space quants claiming up to 2x better KL divergence, and Unsloth&#39;s Dynamic v3.1 for Qwen3.8-27B. I&#39;ve been trying to work out how much KL really tells you",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-14-sensenovasensenova-loop-9b-preview-hugging-face",
+      "source": "localllama",
+      "title": "sensenova/SenseNova-Loop-9B-Preview · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvysss/sensenovasensenovaloop9bpreview_hugging_face/",
+      "published_at": "2026-11-14T10:02:25Z",
+      "summary": "      Very interesting model/architecture. Seems to match Qwen 3.5 27b overall at only 9b parameters. Could be useful for some and it looks like it’s not even fully cooked yet. I haven’t tried it yet. I’m not sure if it’",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-14-qwen-38-flash-next-for-gamedev---its-very-capable",
+      "source": "localllama",
+      "title": "Qwen 3.8 Flash Next for gamedev - it's very capable!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvyol3/qwen_38_flash_next_for_gamedev_its_very_capable/",
+      "published_at": "2026-11-14T09:55:18Z",
+      "summary": "      I&#39;ve shared the project I&#39;m working on approx a month ago, today it&#39;s completed. I wanted to know a simple thing: how good is Qwen 3.8FN at gamedev? And I had so much fun in the process that I am shippi",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-14-is-anyone-using-decision-models-as-a-permission-checker",
+      "source": "localllama",
+      "title": "Is anyone using decision models as a permission checker?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvxziy/is_anyone_using_decision_models_as_a_permission/",
+      "published_at": "2026-11-14T09:09:28Z",
+      "summary": "Don&#39;t run with dangerous full permissions, unless you are prepared to let the agent fuck your shit up. So says conventional wisdom. But also, I am definitely running with full permissions. When I give my agent a goal",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-14-can-open-weight-llms-can-predict-the-effects-of-weight-edits",
+      "source": "localllama",
+      "title": "Can open-weight LLMs can predict the effects of weight edits without running the model (9B–30B)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvxyhj/can_openweight_llms_can_predict_the_effects_of/",
+      "published_at": "2026-11-14T09:07:32Z",
+      "summary": "      I’ve been experimenting with weight-space reading using Qwen and Muse models (9B–30B). The goal: can an LLM inspect raw model weights and predict the behavioral effects of weight edits without running the target mo",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-14-llamacpp-possible-to-use-vulkanigpu-and-lazy-mode",
+      "source": "localllama",
+      "title": "llama.cpp: Possible to use Vulkan/iGPU and lazy-mode?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvxbny/llamacpp_possible_to_use_vulkanigpu_and_lazymode/",
+      "published_at": "2026-11-14T08:27:13Z",
+      "summary": "With llama.cpp pure CPU mode and &quot;--lazy-mode on&quot; one can use larger than memory models, like Qwen3.8-Flash-Next and on-demand SSD streaming - slow but working. There is a nice iGPU with unified memory that can",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-14-curated-list-of-resources-theory-code-and-math-for-reinforce",
+      "source": "localllama",
+      "title": "Curated list of resources: Theory, Code and math for Reinforcement Learning for beginners",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvwuhi/curated_list_of_resources_theory_code_and_math/",
+      "published_at": "2026-11-14T07:59:01Z",
+      "summary": "      [Curated list: Beginners] Personal favorite resources on learning Reinforcement Learning from Scratch:  Deep RL Course Amazing course by HuggingFace to understand the basics of classic and deep RL DeepMind x UCL Re",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-14-spark-26-4b-and-17b-fixed-a-reasoning-loop-by-editing-one-ro",
+      "source": "localllama",
+      "title": "SPARK 2.6 4b and 1.7b Fixed a reasoning loop by editing one row of weights.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvwi81/spark_26_4b_and_17b_fixed_a_reasoning_loop_by/",
+      "published_at": "2026-11-14T07:37:39Z",
+      "summary": "Just put my first two models up on Hugging Face. I used Qwen4 to do direct weight editing and fixed the reasoning loop problem. Got up to a 97% reduction on the 1.7B and a solid drop on the full 4B. The problem: the “but",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-14-kittenmlkitten-tts-2-mini-hugging-face---text-to-speech",
+      "source": "localllama",
+      "title": "KittenML/kitten-tts-2-mini · Hugging Face - Text-to-Speech",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvw34k/kittenmlkittentts2mini_hugging_face_texttospeech/",
+      "published_at": "2026-11-14T07:11:58Z",
+      "summary": "      Kitten TTS 2 Mini 82M parameters, 16 languages, 118 voices, 24 kHz. ONNX with int8 weights (82.7 MB; runs on CPU, no PyTorch needed), and the float32 PyTorch weights. Kitten TTS 2 Nano 17M parameters per language m",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "localllama-2026-11-14-paper-read-less-solve-more-token-efficient-sparse-reading-of",
       "source": "localllama",
@@ -8,116 +129,6 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvuit5/paper_read_less_solve_more_tokenefficient_sparse/",
       "published_at": "2026-11-14T05:41:22Z",
       "summary": "       Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases tok",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-14-ernie-55-flash-base-ernie",
-      "source": "localllama",
-      "title": "ERNIE 5.5 Flash Base · ERNIE",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvuclv/ernie_55_flash_base_ernie/",
-      "published_at": "2026-11-14T05:31:24Z",
-      "summary": "I guess some may like to read this.  &#32; submitted by &#32;  /u/yahbluez   [link] &#32; [comments]",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-14-crazy-theres-a-probable-connection-between-my-desktop-runnin",
-      "source": "localllama",
-      "title": "Crazy there's a probable connection between my desktop running Qwen 3.8 27B and a major geo-economic-political event",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvubha/crazy_theres_a_probable_connection_between_my/",
-      "published_at": "2026-11-14T05:29:37Z",
-      "summary": "      https://www.tbsnews.net/explainer/nvidia-ceos-alleged-affair-tech-entrepreneur-raises-questions-over-china-chip-links  &#32; submitted by &#32;  /u/nathan555   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-14-salesforce-sovereign-intelligencesov-transcribe-1-hugging-fa",
-      "source": "localllama",
-      "title": "salesforce-sovereign-intelligence/SOV-Transcribe-1 · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvst4u/salesforcesovereignintelligencesovtranscribe1/",
-      "published_at": "2026-11-14T04:06:46Z",
-      "summary": "      SOV-Transcribe-1 SOV-Transcribe-1 is Salesforce&#39;s open-weight speech-augmented language model built for non-streaming automatic speech recognition (ASR). It combines leading English transcription accuracy with ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-14-llms-might-be-bad-at-jokes-but-they-still-make-me-laugh-a-lo",
-      "source": "localllama",
-      "title": "LLM's might be bad at jokes but they still make me laugh a lot",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvsi2i/llms_might_be_bad_at_jokes_but_they_still_make_me/",
-      "published_at": "2026-11-14T03:50:31Z",
-      "summary": "      https://preview.redd.it/ikefi7yb2i1i1.png?width=1502&amp;format=png&amp;auto=webp&amp;s=81e034eca6da6e807648313bb9509a78d7e22910 This was a new session with Qwen3.8-Flash-Next-GSQ-RCO-Coder just asking it to commit",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-14-instead-of-lowering-gpu-prices-former-nvidia-ceo-jensen-huan",
-      "source": "localllama",
-      "title": "Instead Of Lowering GPU Prices, Former NVIDIA CEO Jensen Huang Reportedly Financed AI Startups To Absorb Excess Silicon, Shattering The Shortage Perception",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvsb5f/instead_of_lowering_gpu_prices_former_nvidia_ceo/",
-      "published_at": "2026-11-14T03:40:06Z",
-      "summary": "      &#32; submitted by &#32;  /u/billy_booboo   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-13-why-are-llms-still-so-bad-at-jokes",
-      "source": "localllama",
-      "title": "Why are LLMs still so bad at jokes?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvm8r3/why_are_llms_still_so_bad_at_jokes/",
-      "published_at": "2026-11-13T22:48:25Z",
-      "summary": "I remembered that this was one of my evaluation approaches from 2 years ago to test a model&#39;s general capability. I remember wondering in the near future how bad things could get if models could begin to just spit ou",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-13-vellium-195-visual-novels-that-actually-work-on-a-12b-local",
-      "source": "localllama",
-      "title": "Vellium 1.9.5: visual novels that actually work on a 12B local model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvihou/vellium_195_visual_novels_that_actually_work_on_a/",
-      "published_at": "2026-11-13T20:17:16Z",
-      "summary": "      Vellium 1.9.5: Visual Novel Mode Update Vellium is a free, open-source, local-first AI chat and roleplay app with a built-in visual novel mode. Version 1.9.5 focuses on making visual novels work reliably with small",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-13-deepseek-v41-flash-vs-qwen-38-flash-next-performance",
-      "source": "localllama",
-      "title": "DeepSeek v4.1 Flash vs Qwen 3.8 Flash Next Performance",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvhzq9/deepseek_v41_flash_vs_qwen_38_flash_next/",
-      "published_at": "2026-11-13T19:57:57Z",
-      "summary": "      While waiting for Qwen 4, I installed and benchmarked DeepSeek v4.1 Flash to see if I was missing out. Based on the type of work I do, DeepSeek is not better but is definitely much slower. Turns out Strata with Qwe",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-13-weight-space-programming-for-quantization-nace-quants-achiev",
-      "source": "localllama",
-      "title": "Weight Space Programming for Quantization: Nace quants achieve up to 2x better KL divergence for Qwen 9B, 27B, 35B & Flash Next [GGUF]",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvh4ag/weight_space_programming_for_quantization_nace/",
-      "published_at": "2026-11-13T19:23:54Z",
-      "summary": "      hey llamas, its Alish from nace.ai (open source ai lab behind #1 decision model on latest Artificial Analysis decision index v2.1) &amp; Kapitsa (optimized inference for apple silicon). As promised in the last post",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-13-computer-use-programspi-extensions",
-      "source": "localllama",
-      "title": "Computer use programs/Pi extensions",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvfg2n/computer_use_programspi_extensions/",
-      "published_at": "2026-11-13T18:21:09Z",
-      "summary": "I&#39;ve eard much stuff about Codex and CC computer use, is there any decent program/Pi Agent extension that I can install and use to let my local models control my pc. I am using Qwen3.6-35BA3B on PolyStrata and Pi Age",
       "tags": [
         "localllama"
       ]
@@ -131,17 +142,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-13-tontaube-v11-open-weights-tts-with-voice-cloning-for-long-fo",
-      "source": "localllama",
-      "title": "Tontaube V1.1: open-weights TTS with voice cloning for long-form generation. 4-bit version runs about real time on a desktop CPU",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvdmzb/tontaube_v11_openweights_tts_with_voice_cloning/",
-      "published_at": "2026-11-13T17:14:40Z",
-      "summary": "We just released Tontaube V1.1, a text-to-speech model built for long-form audio (audiobooks, articles, voice agents) with zero-shot voice cloning. Our previous V1 release needed a lot of VRAM because of its vLLM setup, ",
-      "tags": [
-        "localllama"
       ]
     },
     {
