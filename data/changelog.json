@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-11-14T13:15:20Z",
+  "updated_at": "2026-11-14T22:09:36Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12387",
+      "project": "llama-cpp",
+      "version": "b12387",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12387",
+      "published_at": "2026-11-14T19:26:34Z",
+      "body_excerpt": "Fix ctz64 on 32bit (#32273) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12386",
+      "project": "llama-cpp",
+      "version": "b12386",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12386",
+      "published_at": "2026-11-14T19:07:07Z",
+      "body_excerpt": "hexagon: fix fa no-mask tail (#32243) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12385",
+      "project": "llama-cpp",
+      "version": "b12385",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12385",
+      "published_at": "2026-11-14T18:48:53Z",
+      "body_excerpt": "qwen2vl : apply FFN weight scales (#32241) The qwen2vl graph passed NULL for the ffn_up/gate/down scales, so the per-tensor NVFP4 scales loaded by the generic pass were never applied and the model produced garbage (PPL ~1e6 on CUDA, NaN on CPU). Pass the scales to build_ffn like qwen2 does. Fixes #32101 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12383",
+      "project": "llama-cpp",
+      "version": "b12383",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12383",
+      "published_at": "2026-11-14T14:43:25Z",
+      "body_excerpt": "ggml-backend : start a new split at an incompatible weight in a split without inputs (#31775) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12381",
+      "project": "llama-cpp",
+      "version": "b12381",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12381",
+      "published_at": "2026-11-14T14:24:28Z",
+      "body_excerpt": "mtmd: fix video pixel aspect ratio and video rotation (#32267) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12380",
+      "project": "llama-cpp",
+      "version": "b12380",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12380",
+      "published_at": "2026-11-14T13:57:38Z",
+      "body_excerpt": "mtmd : allow custom video decoder (#32188) mtmd : allow custom video decoder also adapt to wllama requirements clean up add test --------- Co-authored-by: Xuan Son Nguyen Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12379",
+      "project": "llama-cpp",
+      "version": "b12379",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12379",
+      "published_at": "2026-11-14T13:43:35Z",
+      "body_excerpt": "jinja : reduce template rendering overhead (#32023) jinja : reduce value allocation and lookup overhead Assisted-by: GPT-6 Astra jinja : address rendering review feedback Assisted-by: GPT-6 Astra jinja : test multipart strings and simplify lookup Assisted-by: GPT-6 Astra fix \"undefined hint\" fix divisibleby 0 clean up --------- Co-authored-by: Xuan Son Nguyen Website: Attestations: macOS/iOS: macO",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12378",
       "project": "llama-cpp",
