@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-11-14T22:09:36Z",
+  "updated_at": "2026-11-15T05:44:08Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12396",
+      "project": "llama-cpp",
+      "version": "b12396",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12396",
+      "published_at": "2026-11-15T05:38:07Z",
+      "body_excerpt": "vulkan: optimize matrix multiplication for narrow N (#31990) vulkan: optimize matrix multiplication for narrow N Add new \"narrow\" tile configs for coopmat1/coopmat2 that are tuned for N Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12395",
+      "project": "llama-cpp",
+      "version": "b12395",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12395",
+      "published_at": "2026-11-15T05:22:10Z",
+      "body_excerpt": "vulkan: use GPU copies on UMA with uncached memory on Intel (#32024) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12394",
+      "project": "llama-cpp",
+      "version": "b12394",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12394",
+      "published_at": "2026-11-15T05:05:26Z",
+      "body_excerpt": "sycl : optimize mtmd image processing (#32109) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librarie",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12393",
+      "project": "llama-cpp",
+      "version": "b12393",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12393",
+      "published_at": "2026-11-15T04:24:41Z",
+      "body_excerpt": "chat : allow undeclared tool calls in LFM2 tool-call grammar (#32164) chat : honor OpenAI tool strict flag in LFM2 tool-call grammar chat : drop strict, always allow undeclared LFM2 tool calls Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12391",
+      "project": "llama-cpp",
+      "version": "b12391",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12391",
+      "published_at": "2026-11-15T04:09:25Z",
+      "body_excerpt": "chat : allow tool calls inside reasoning blocks for Ministral-3 (#32271) chat: allow tool calls inside reasoning blocks for Ministral-3 and Qwen3 Fixes #29248 Fixes #20837 chat: address review feedback for Ministral-3 reasoning end Remove Co-authored-by: Alde Rojas Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12390",
+      "project": "llama-cpp",
+      "version": "b12390",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12390",
+      "published_at": "2026-11-15T03:55:06Z",
+      "body_excerpt": "common : fix infinite recursion in debug build for peg parser dump (#32282) Change dump()->dump_impl() calls to avoid infinite recursion. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12389",
+      "project": "llama-cpp",
+      "version": "b12389",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12389",
+      "published_at": "2026-11-15T03:38:12Z",
+      "body_excerpt": "opencl: fixes for q4_k mv oob access, f16 swiglu_oai, cpy with strided dst, batched group_norm and bf16 sigmoid (#32251) opencl: fix q4_K mv oob read Assisted-by: Codex opencl: fix kernel dispatch and oob writes for f16 swiglu_oai Assisted-by: Codex opencl: fix the row broadcast for add/mul Assisted-by: Codex opencl: respect destination tensor strides for cpy Assisted-by: Codex opencl: handle batc",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12388",
+      "project": "llama-cpp",
+      "version": "b12388",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12388",
+      "published_at": "2026-11-15T03:03:18Z",
+      "body_excerpt": "chat : allow Gemma4 tool call during thought (#32232) The thought channel is normally closed with , but the model may open it and go straight to a tool call without closing it. Stop the reasoning at OR , so an unclosed thought does not swallow the following tool call. Fixes: #32231 Assisted-by: Qwen 3.8 27b Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, K",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12387",
       "project": "llama-cpp",
