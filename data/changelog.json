@@ -1,6 +1,168 @@
 {
-  "updated_at": "2026-11-15T05:44:08Z",
+  "updated_at": "2026-11-15T13:43:26Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12413",
+      "project": "llama-cpp",
+      "version": "b12413",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12413",
+      "published_at": "2026-11-15T12:38:58Z",
+      "body_excerpt": "chat: fix inkling 2 begin/end of image tokens placement (#32294) chat: fix inkling 2 begin/end of image tokens placement add test Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12412",
+      "project": "llama-cpp",
+      "version": "b12412",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12412",
+      "published_at": "2026-11-15T11:53:44Z",
+      "body_excerpt": "vendor: sync stb_image (#32305) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12411",
+      "project": "llama-cpp",
+      "version": "b12411",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12411",
+      "published_at": "2026-11-15T11:30:40Z",
+      "body_excerpt": "server: refactor, add server_slot_sched, prompt running hash (#32154) server: refactor, add server_slot_sched, prompt running hash use sha256 hash Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12410",
+      "project": "llama-cpp",
+      "version": "b12410",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12410",
+      "published_at": "2026-11-15T11:13:45Z",
+      "body_excerpt": "server : clear slot cache when the global lora config changes (#30367) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12409",
+      "project": "llama-cpp",
+      "version": "b12409",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12409",
+      "published_at": "2026-11-15T10:57:02Z",
+      "body_excerpt": "tests: Fail and exit with error status 1 when missing and/or unsupported types and/or unsupported backends are provided in the command line (#30279) Fail tests on missing or unsupported type Fix output Remove whitespace Fail if no tests ran regardless of backend support Revert unnecessary cosmetic change Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Klei",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12408",
+      "project": "llama-cpp",
+      "version": "b12408",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12408",
+      "published_at": "2026-11-15T10:43:13Z",
+      "body_excerpt": "opencl: add A7 Q6_K non-MoE binary kernel (#30949) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12407",
+      "project": "llama-cpp",
+      "version": "b12407",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12407",
+      "published_at": "2026-11-15T10:04:42Z",
+      "body_excerpt": "model : metal : workaround fusion for LFM3 (#32296) lfm3 : put the normed tensor first in residual adds to enable norm fusion Assisted-by: Claude Opus 5.5 tests : update Metal fusion baseline for lfm3 Assisted-by: Claude Opus 5.5 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "localai-dev-master",
+      "project": "localai",
+      "version": "dev-master",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
+      "published_at": "2026-11-15T09:42:50Z",
+      "body_excerpt": "Commit: dc7243c8a23089d26e8849dd0cd1fc6623f83758 Date: 2026-11-15T13:10:07Z Subject: test(launcher): run the process tests on macOS This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12406",
+      "project": "llama-cpp",
+      "version": "b12406",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12406",
+      "published_at": "2026-11-15T09:27:48Z",
+      "body_excerpt": "feat: add Inkling 2 support (text + vision) (#32217) convert : add Inkling2 text GGUF conversion Assisted-by: Codex llama : implement Inkling2 text inference Assisted-by: Codex tests : cover Inkling2 text support Assisted-by: Codex conversion : dequantize packed Inkling2 experts in row chunks Decode per-layer NVFP4 and MXFP8 schemes, validate companions, and use stored scale shapes with a warning ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12405",
+      "project": "llama-cpp",
+      "version": "b12405",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12405",
+      "published_at": "2026-11-15T07:56:07Z",
+      "body_excerpt": "common : reject out-of-range grammar_triggers type instead of aborting (#30835) (#31478) common : reject out-of-range grammar_triggers type instead of aborting (#30835) tests : remove the invalid grammar trigger type regression test (#30835) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12404",
+      "project": "llama-cpp",
+      "version": "b12404",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12404",
+      "published_at": "2026-11-15T07:44:09Z",
+      "body_excerpt": "server : Fix connection reuse after streamed responses (#30492) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12403",
+      "project": "llama-cpp",
+      "version": "b12403",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12403",
+      "published_at": "2026-11-15T07:24:24Z",
+      "body_excerpt": "hexagon: add TIMESTEP_EMBEDDING HVX kernel (#32228) hexagon: add TIMESTEP_EMBEDDING HVX kernel hex-timestep: add dma, improve kparams, and work-splits, and tracing timestep: add testcases that cover WAN2.2 hex-timestep: relax the gates to cont_rows --------- Co-authored-by: Max Krasnyansky Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) D",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12402",
+      "project": "llama-cpp",
+      "version": "b12402",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12402",
+      "published_at": "2026-11-15T07:12:51Z",
+      "body_excerpt": "memory : fix non-consecutive position warning for M-RoPE (#32287) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) -",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12401",
+      "project": "llama-cpp",
+      "version": "b12401",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12401",
+      "published_at": "2026-11-15T06:59:12Z",
+      "body_excerpt": "llamafile: introduce more Q0 quant support for s390x (#32203) Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12400",
+      "project": "llama-cpp",
+      "version": "b12400",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12400",
+      "published_at": "2026-11-15T06:46:21Z",
+      "body_excerpt": "llama : allocate the tensor staging buffer from the CPU buffer type (#31438) llama : allocate the tensor staging buffer from the CPU buffer type llama : drop the staging buffer test, reword the comment Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12399",
+      "project": "llama-cpp",
+      "version": "b12399",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12399",
+      "published_at": "2026-11-15T06:33:21Z",
+      "body_excerpt": "vulkan: Explicitly include SPIRV-Headers (#31416) vulkan: Explicitly include SPIRV-Headers Distros that don't put the headers in a system include path need to specify it to the compiler. So we use the appropriate CMake target to include it. Assisted-by: Codex vulkan: Add explicit headers location to workaround OSX CI runner conf Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS A",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12398",
+      "project": "llama-cpp",
+      "version": "b12398",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12398",
+      "published_at": "2026-11-15T06:16:28Z",
+      "body_excerpt": "vulkan: optimize prompt processing Flash Attention for RDNA3 and RDNA4 (#31323) vulkan: optimize Flash Attention cm1 for RDNA3 and RDNA4 reduce shmem use through buffer reuse clean up and fixes limit q_in_regs to prefill vulkan: add flipped FA path, each subgroup owns 16 Q rows cleanup move flip shader into own file replace kvsep with direct load mode fix nvidia hang, tune AMD only store pv in sfs",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12397",
+      "project": "llama-cpp",
+      "version": "b12397",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12397",
+      "published_at": "2026-11-15T05:58:21Z",
+      "body_excerpt": "cuda : keep columns in registers for cooperative softmax (#28982) Template soft_max_f32_parallelize_cols_single_row to keep column elements in registers when they fit, reducing memory traffic from 5 global memory passes to 2 passes. Assisted-by: Gemini 3.8 Flash Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iO",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12396",
       "project": "llama-cpp",
@@ -14183,24 +14345,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10470",
       "published_at": "2026-08-17T13:59:43Z",
       "body_excerpt": "ci : push release tag explicitly in release.yml (#27261) Add a \"Create and push git tag\" step to the release job, right before the \"Create release\" step. The tag is created with git tag and pushed with the deploy key already configured by the Clone step, instead of relying on the Releases API (action-create-release) to create it as a side effect. The tag is lightweight, matching all existing b rel",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10456",
-      "project": "llama-cpp",
-      "version": "b10456",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10456",
-      "published_at": "2026-08-17T06:29:29Z",
-      "body_excerpt": "sycl: fix thread/block count in quantized cpy kernel launches (#27160) Adjusts the thread/block count to be proportional to the size of the quant, reducing under/over subscription. Largest perf improvement is the q4_0 -> f32 path, with, on a Arc 70, throughput goes from 20.21 GB/s to 158.19 GB/s The rest of the quants are flat in performance uplift. Website: macOS/iOS: macOS Apple Silicon (arm64) ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10455",
-      "project": "llama-cpp",
-      "version": "b10455",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10455",
-      "published_at": "2026-08-17T05:47:28Z",
-      "body_excerpt": "[SYCL] support OP OPT_STEP_ADAMW, OPT_STEP_SGD (#25268) fix conflict fix conflict of ops.md fix conflict of ops.md update the ops.md --------- Co-authored-by: Neo Zhang Jianyu Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubunt",
       "type": "tool"
     }
   ]
