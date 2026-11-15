@@ -1,6 +1,114 @@
 {
-  "updated_at": "2026-11-15T13:43:26Z",
+  "updated_at": "2026-11-15T22:39:04Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12426",
+      "project": "llama-cpp",
+      "version": "b12426",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12426",
+      "published_at": "2026-11-15T21:05:49Z",
+      "body_excerpt": "mtmd: support higgs v3 STT and vibevoice-ASR (#32329) mtmd: support higgs v3 and vibevoice-ASR use proper mapping address review comment nits rm hacky get_audio_length, add mtmd_helper_get_media_meta Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12425",
+      "project": "llama-cpp",
+      "version": "b12425",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12425",
+      "published_at": "2026-11-15T20:22:29Z",
+      "body_excerpt": "model : read qwen3vl output head size from the tensor (#32349) Allows Qwen3-ForcedAligner, whose output head (5000 timestamp classes) is smaller than the vocab. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12424",
+      "project": "llama-cpp",
+      "version": "b12424",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12424",
+      "published_at": "2026-11-15T20:08:40Z",
+      "body_excerpt": "mtmd: add zonos3-mini TTS model (#32020) zonos3 init add audio gen pipeline fix string_format add default voice as gguf metadata better ref support voice clone add delivery params optimize speed nits nits 2 add text normalization nits Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12423",
+      "project": "llama-cpp",
+      "version": "b12423",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12423",
+      "published_at": "2026-11-15T19:55:41Z",
+      "body_excerpt": "Revert \"jinja: add 4 missing features\" This reverts commit a681a53b6092d57597b9e66f2fc9d4556155b9e4. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12422",
+      "project": "llama-cpp",
+      "version": "b12422",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12422",
+      "published_at": "2026-11-15T19:29:45Z",
+      "body_excerpt": "jinja: add 4 missing features Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUD",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12421",
+      "project": "llama-cpp",
+      "version": "b12421",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12421",
+      "published_at": "2026-11-15T18:14:59Z",
+      "body_excerpt": "docs: move per-model TTS to /docs, refer it from other pages (#32304) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12420",
+      "project": "llama-cpp",
+      "version": "b12420",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12420",
+      "published_at": "2026-11-15T17:25:01Z",
+      "body_excerpt": "model: support MiniMax-M3.1 (#32301) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12419",
+      "project": "llama-cpp",
+      "version": "b12419",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12419",
+      "published_at": "2026-11-15T17:08:55Z",
+      "body_excerpt": "server : ignore empty stop strings (#32093) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12418",
+      "project": "llama-cpp",
+      "version": "b12418",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12418",
+      "published_at": "2026-11-15T15:53:48Z",
+      "body_excerpt": "ggml-cpu: add x86 VNNI Q2_0 dot product (#26348) ggml-cpu: use VNNI for Q2_0 dot products Keep the upstream AVX2 unpacking, accumulation, and fallback. Use VNNI for the integer dot product on supported x86 CPUs. Assisted-by: Codex ggml-cpu: use VBMI for Q2_0 unpacking Use multishift to unpack Q2_0 weights on CPUs with AVX-512 VBMI and VL. Retain the existing shift-and-mask unpacking on other CPUs.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12416",
+      "project": "llama-cpp",
+      "version": "b12416",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12416",
+      "published_at": "2026-11-15T15:39:20Z",
+      "body_excerpt": "Support DFLASH2 for Recursive Ripple-65B-Preview (#31904) fixed support for DFlash2 for Ripple 65B spec: Add NoPE handling to DFlash (cherry picked from commit 89ea8e3e77e3359d17902a2db136022d5d419d88) spec: Fix NoPE not being picked up by DFlash (cherry picked from commit 43393b95fda2ce7e7d243e2650bf7b1cadf1c732) --------- Co-authored-by: James Pickering Website: Attestations: macOS/iOS: macOS Ap",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12415",
+      "project": "llama-cpp",
+      "version": "b12415",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12415",
+      "published_at": "2026-11-15T15:18:08Z",
+      "body_excerpt": "server : fix output_config.effort being dropped in /v1/messages (#32321) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUD",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12414",
+      "project": "llama-cpp",
+      "version": "b12414",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12414",
+      "published_at": "2026-11-15T14:57:37Z",
+      "body_excerpt": "CUDA/HIP: Refactor the use of _sync warp primitives (#31617) Uses the rocm-native primitives, increases the rocm version requirement to 6.3 and makes top-k selectable warp. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 2",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12413",
       "project": "llama-cpp",
@@ -70,7 +178,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: dc7243c8a23089d26e8849dd0cd1fc6623f83758 Date: 2026-11-15T13:10:07Z Subject: test(launcher): run the process tests on macOS This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: ca874fdea3727c3fc14bd714ce3b9316be29e1ad Date: 2026-11-15T18:36:50Z Subject: ci: remove the unused Intel base image cache workflow This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -14318,33 +14426,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10483",
       "published_at": "2026-08-18T09:24:57Z",
       "body_excerpt": "build : fix xcframework + cmake clean-up (#27304) xcframework : fix build mtmd : remove unused include path vendor : use vendor::hash alias target in cmake CMake reserves \"::\" in target names for imported/alias targets, so the real target keeps the name vendor-hash and a vendor::hash ALIAS target is added. Consumers (mtmd, llama-gguf-hash) now link against the namespaced alias. Assisted-by: pi:lla",
-      "type": "tool"
-    },
-    {
-      "id": "hf-ibm-granite-granite-speech-5.0-470m-turboctc-nc",
-      "project": "ibm-granite",
-      "version": "granite-speech-5.0-470m-turboctc-nc",
-      "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc-nc",
-      "published_at": "2026-08-17T17:29:48Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10472",
-      "project": "llama-cpp",
-      "version": "b10472",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10472",
-      "published_at": "2026-08-17T17:16:25Z",
-      "body_excerpt": "cuda : skip UMA override for HIP builds (#27083) AMD APUs report accurate memory via hipMemGetInfo. Using MemAvailable over-promises on small-carveout systems. fixes #18159 Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu a",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10470",
-      "project": "llama-cpp",
-      "version": "b10470",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10470",
-      "published_at": "2026-08-17T13:59:43Z",
-      "body_excerpt": "ci : push release tag explicitly in release.yml (#27261) Add a \"Create and push git tag\" step to the release job, right before the \"Create release\" step. The tag is created with git tag and pushed with the deploy key already configured by the Clone step, instead of relying on the Releases API (action-create-release) to create it as a side effect. The tag is lightweight, matching all existing b rel",
       "type": "tool"
     }
   ]
