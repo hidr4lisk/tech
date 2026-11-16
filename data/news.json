@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-11-15T22:38:57Z",
+  "updated_at": "2026-11-16T05:44:13Z",
   "items": [
+    {
+      "id": "localllama-2026-11-16-release-qwen38-27b-perplexing-pegasus-heretic-unified-vision",
+      "source": "localllama",
+      "title": "[Release] Qwen3.8-27B-Perplexing-Pegasus-Heretic: Unified vision + typed decider + abliterated weights for local agent stacks (GGUF, AutoRound, NVFP4)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxg12n/release_qwen3827bperplexingpegasusheretic_unified/",
+      "published_at": "2026-11-16T04:22:20Z",
+      "summary": "Hey everyone, While building and testing WebBrain with local models, getting reliable agent performance usually required keeping two or three separate models in memory at once: * A vision model to inspect and parse brows",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-16-im-starting-to-think-a-specialized-4b-is-enough-for-most-of",
+      "source": "localllama",
+      "title": "I'm starting to think a specialized 4B is enough for most of the tasks I'd use an LLM for",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxfv69/im_starting_to_think_a_specialized_4b_is_enough/",
+      "published_at": "2026-11-16T04:13:31Z",
+      "summary": "      When I started training Qwen3.5-4B-3D-Coder, I honestly wasn&#39;t sure it would work. Now, after that model and the GLB asset version, I&#39;m starting to think I underestimated how much these smaller models can a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-16-why-download-abliterated-flash-next-models-when-lora-exists",
+      "source": "localllama",
+      "title": "Why download abliterated Flash Next models when LoRA exists?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxawbh/why_download_abliterated_flash_next_models_when/",
+      "published_at": "2026-11-16T00:06:16Z",
+      "summary": "      TL;DR -- Download LoRA, add --lora HUIHUI-V2-Qwen3.8-Flash-Next-LoRA-F32.gguf to your llama.cpp launch command for ANY FN quant, and boom, you&#39;ve got an identical huihui v2 abliterated model on demand. I just w",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "simonw-2026-11-15-datasette-maplibre-01a0",
+      "source": "simonw",
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "published_at": "2026-11-15T23:58:36Z",
+      "summary": "Release: datasette-maplibre 0.1a0\n        The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap, the free vector map server operated by Zsolt Ero",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "simonw-2026-11-15-datasette-10a43",
+      "source": "simonw",
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "published_at": "2026-11-15T23:20:27Z",
+      "summary": "Release: datasette 1.0a43\n        I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone, which is now 53% complete.\nThe biggest 1.0 item in this release is streaming support for output r",
+      "tags": [
+        "simonw"
+      ]
+    },
     {
       "id": "localllama-2026-11-15-someone-should-do-an-analysis-on-the-rate-of-self-promo-here",
       "source": "localllama",
@@ -101,36 +156,25 @@
       ]
     },
     {
-      "id": "localllama-2026-11-15-basalt-040-more-models-still-as-fast---qwen-27b-up-to-770-to",
-      "source": "localllama",
-      "title": "Basalt 0.4.0: More models, still as fast - Qwen 27B up to 770 tok/s on a 5090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx1cu9/basalt_040_more_models_still_as_fast_qwen_27b_up/",
-      "published_at": "2026-11-15T17:30:31Z",
-      "summary": "      Hi everyone! I wanted to post a quick update on Basalt. Since last I posted, multi model and router support was implemented, starting with DeepSeek V4.1 Flash (IQ1_M 90 tok/s conv, 246 tok/s struct on a 5090 + 5060",
+      "id": "simonw-2026-11-15-datasette-apps-04a0",
+      "source": "simonw",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "published_at": "2026-11-15T04:02:45Z",
+      "summary": "Release: datasette-apps 0.4a0\n        Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.\n0.4a0 adds su",
       "tags": [
-        "localllama"
+        "simonw"
       ]
     },
     {
-      "id": "localllama-2026-11-15-cpu-only-boost-for-q2-0-on-avx-vnni-pull-request-26348-ggml",
-      "source": "localllama",
-      "title": "CPU-only boost for Q2_0 on AVX-VNNI · Pull Request #26348 · ggml-org/llama.cpp",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx0fqn/cpuonly_boost_for_q2_0_on_avxvnni_pull_request/",
-      "published_at": "2026-11-15T16:55:21Z",
-      "summary": "      Measurements: mean ± sample standard deviation in tok/s, 3 runs after normal warmup (16GB of RAM on the AMD EPYC 9645 using eight CPU cores)   Model Test Upstream master VNNI + VBMI Speedup    Bonsai 1.7B pp512 142",
+      "id": "simonw-2026-11-15-datasette-agent-06a0",
+      "source": "simonw",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "published_at": "2026-11-15T03:49:47Z",
+      "summary": "Release: datasette-agent 0.6a0\n        Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Dat",
       "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-15-x3guard-a-150m-parameter-prompt-guard",
-      "source": "localllama",
-      "title": "X3Guard: A 150M parameter prompt guard",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwyp7w/x3guard_a_150m_parameter_prompt_guard/",
-      "published_at": "2026-11-15T15:46:17Z",
-      "summary": "      At Axiomic Labs we have just released X3Guard-150M, a prompt guard model trained on our high-performing base model, GPT-X3. For any given prompt, X3Guard flags whether it is Harmful, and whether it is Adversarial, ",
-      "tags": [
-        "localllama"
+        "simonw"
       ]
     },
     {
@@ -354,39 +398,6 @@
       ]
     },
     {
-      "id": "simonw-2026-11-10-introducing-our-smallest-most-efficient-model-muse-ember",
-      "source": "simonw",
-      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
-      "published_at": "2026-11-10T07:28:21Z",
-      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember\nMeta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as:\n\n[...] our smallest and most efficient model designe",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-11-10-quoting-prompting-claude-fable-52",
-      "source": "simonw",
-      "title": "Quoting Prompting Claude Fable 5.2",
-      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
-      "published_at": "2026-11-10T05:34:14Z",
-      "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someon",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
-      "id": "simonw-2026-11-10-yonkers-rises",
-      "source": "simonw",
-      "title": "Yonkers Rises",
-      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
-      "published_at": "2026-11-10T03:53:04Z",
-      "summary": "Tool: Yonkers Rises\n        I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animat",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "huggingface-2026-11-10-pay-for-hugging-face-hub-with-your-google-cloud-account",
       "source": "huggingface",
       "title": "Pay for Hugging Face Hub with your Google Cloud Account",
@@ -406,17 +417,6 @@
       "summary": "",
       "tags": [
         "huggingface"
-      ]
-    },
-    {
-      "id": "simonw-2026-11-09-llm-anthropic-031",
-      "source": "simonw",
-      "title": "llm-anthropic 0.31",
-      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-      "published_at": "2026-11-09T23:58:46Z",
-      "summary": "Release: llm-anthropic 0.31\n        Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic, so you can now run prompts through Fable 5.2 like this:\nuv tool install llm\nllm install llm-anthrop",
-      "tags": [
-        "simonw"
       ]
     },
     {

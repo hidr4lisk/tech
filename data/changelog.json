@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-11-15T22:39:04Z",
+  "updated_at": "2026-11-16T05:44:20Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12428",
+      "project": "llama-cpp",
+      "version": "b12428",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12428",
+      "published_at": "2026-11-16T00:12:45Z",
+      "body_excerpt": "jinja: add 4 missing features (#32352) jinja: add 4 missing features apply suggestion Co-authored-by: Aldehir Rojas fix error msg --------- Co-authored-by: Aldehir Rojas Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.0",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12427",
+      "project": "llama-cpp",
+      "version": "b12427",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12427",
+      "published_at": "2026-11-15T23:23:36Z",
+      "body_excerpt": "server : skip MCP discovery for router children (#32359) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12426",
       "project": "llama-cpp",
@@ -178,7 +196,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: ca874fdea3727c3fc14bd714ce3b9316be29e1ad Date: 2026-11-15T18:36:50Z Subject: ci: remove the unused Intel base image cache workflow This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: 6843366ffffe56fa91529994e7058a255076cc54 Date: 2026-11-16T03:28:41Z Subject: fix(studio): end a sub-agent's jobs when the turn-end claim is still held This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
