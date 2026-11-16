@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-11-16T05:44:20Z",
+  "updated_at": "2026-11-16T15:19:04Z",
   "releases": [
+    {
+      "id": "unsloth-v0.1.918-beta",
+      "project": "unsloth",
+      "version": "v0.1.918-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.918-beta",
+      "published_at": "2026-11-16T15:04:23Z",
+      "body_excerpt": "This update adds computer use, so a local model can see your screen and work in any app. Chat can now also drive Unreal Engine, Unity, Godot, Blender and Roblox over MCP. MiniMax-H3-Image now runs as a GGUF and in FP8, and you can fine-tune it with LoRA. You can also run Inkling-2-Small as Dynamic GGUFs. There's a new model picker in the chat box too, and Connections got rebuilt in both design and",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12441",
+      "project": "llama-cpp",
+      "version": "b12441",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12441",
+      "published_at": "2026-11-16T14:22:09Z",
+      "body_excerpt": "webgpu: support per-head flash attention masks (#32394) The flash attention shaders indexed the mask without its head dimension, so masks with ne[2] > 1 gave wrong results. The mask offset and the vec block states now include the head, broadcast as head % mask->ne[2] like the other backends. The params buffer grows to 256 bytes to fit the two new mask fields. The shared memory estimate dropped kv_",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12438",
+      "project": "llama-cpp",
+      "version": "b12438",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12438",
+      "published_at": "2026-11-16T12:49:02Z",
+      "body_excerpt": "jinja: support json sort_keys=true (#32366) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries U",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12436",
+      "project": "llama-cpp",
+      "version": "b12436",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12436",
+      "published_at": "2026-11-16T12:19:40Z",
+      "body_excerpt": "vulkan : fix 32-bit compilation (#32275) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12435",
+      "project": "llama-cpp",
+      "version": "b12435",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12435",
+      "published_at": "2026-11-16T11:38:54Z",
+      "body_excerpt": "vulkan: make the radix top-k tie selection deterministic (#31931) vulkan: make the radix top-k tie selection deterministic The radix select gathers the elements above the threshold and the ties with an atomic counter, so with more ties than remaining slots the kept columns depend on the thread scheduling. Each subgroup now owns a contiguous chunk of the row with the same column mapping in every pa",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12433",
+      "project": "llama-cpp",
+      "version": "b12433",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12433",
+      "published_at": "2026-11-16T11:16:33Z",
+      "body_excerpt": "cuda : fix MUL_MAT_ID abort with odd src0 columns on AMD (#32385) On AMD devices MUL_MAT_ID with an F32, F16 or BF16 src0 and at most 8 tokens always used MMVF. MMVF reads src0 in pairs of values and asserts an even ne[0], so a rank 1 LoRA on MoE expert weights (lora_b has ne[0] == 1) aborted. Use MMVF there only for an even ne[0]; other shapes take the existing fallback. Fixes #30576 Assisted-by:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12432",
+      "project": "llama-cpp",
+      "version": "b12432",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12432",
+      "published_at": "2026-11-16T10:42:01Z",
+      "body_excerpt": "kv-cells: avoid an O(n_cells) scan per sequence removal (#32380) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12431",
+      "project": "llama-cpp",
+      "version": "b12431",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12431",
+      "published_at": "2026-11-16T09:20:47Z",
+      "body_excerpt": "server: answer reasoning_effort levels the template rejects with 400 (#32332) The reasoning effort probe already renders every candidate level, but it dropped the ones the template raises on, so a request with such a level (e.g. max on Qwen3.8) reached the template and came back as a 500 on /v1/chat/completions, /v1/responses and /v1/messages. Keep the raising levels in reasoning_effort_rejected a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12430",
+      "project": "llama-cpp",
+      "version": "b12430",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12430",
+      "published_at": "2026-11-16T06:35:34Z",
+      "body_excerpt": "ggml-cuda: fix MoE regression on HIP with #29948 (#32344) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12428",
       "project": "llama-cpp",
@@ -196,7 +277,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: 6843366ffffe56fa91529994e7058a255076cc54 Date: 2026-11-16T03:28:41Z Subject: fix(studio): end a sub-agent's jobs when the turn-end claim is still held This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: e09680a2f79a3327c93539188bc51b11260cd003 Date: 2026-11-16T13:55:28Z Subject: Fix CLI help text and the connectors permission label This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -14399,51 +14480,6 @@
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
       "published_at": "2026-08-19T10:50:47Z",
       "body_excerpt": "Patch release v5.15.1 This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter. It contains the following commits: Fix DFlash candidate token device mismatch with device_map=\"auto\" (#47877) by @sywangyi and @Cyrilvallez Align logit distributions for CandidateGenerat",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10488",
-      "project": "llama-cpp",
-      "version": "b10488",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10488",
-      "published_at": "2026-08-18T11:05:53Z",
-      "body_excerpt": "ci : Update OpenVINO to 2026.3, skip nemotron-h rollback test (#27292) update to ov-2026.3, update device drivers ci: skip nemotron-h rollback test on OpenVINO The OpenVINO backend does not support SSM_SCAN, so the Nemotron-H recurrent state rollback graph is split and cannot preserve the recurrent cache output shape. Keep the test enabled for other backends and retain the qwen35 OpenVINO rollback",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10486",
-      "project": "llama-cpp",
-      "version": "b10486",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10486",
-      "published_at": "2026-08-18T10:43:36Z",
-      "body_excerpt": "mtmd: fix LFM2 image tiling threshold (#27057) mtmd: fix LFM2 image tiling threshold refactor testing fix fix on windows --------- Co-authored-by: Xuan Son Nguyen Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulk",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-v0.1.2",
-      "project": "llama-cpp",
-      "version": "v0.1.2",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.2",
-      "published_at": "2026-08-18T10:23:10Z",
-      "body_excerpt": "> [!NOTE] > Semantic versioning is still work in progress. > More info can be found in Nightly build: b10485 Change log since v0.1.1 1511ce3bc sync : ggml da786dc23 ggml : bump version to 0.20.2 (ggml/1589) 27e345b57 build : fix xcframework + cmake clean-up (#27304) 8b8640097 ci : create pre-release with change log and nightly link in make-release (#27302) 25ae3a9b3 CUDA: MMVQ nwarps=8 for bs=1 fo",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10485",
-      "project": "llama-cpp",
-      "version": "b10485",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10485",
-      "published_at": "2026-08-18T10:08:32Z",
-      "body_excerpt": "sync : ggml Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10483",
-      "project": "llama-cpp",
-      "version": "b10483",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10483",
-      "published_at": "2026-08-18T09:24:57Z",
-      "body_excerpt": "build : fix xcframework + cmake clean-up (#27304) xcframework : fix build mtmd : remove unused include path vendor : use vendor::hash alias target in cmake CMake reserves \"::\" in target names for imported/alias targets, so the real target keeps the name vendor-hash and a vendor::hash ALIAS target is added. Consumers (mtmd, llama-gguf-hash) now link against the namespaced alias. Assisted-by: pi:lla",
       "type": "tool"
     }
   ]
