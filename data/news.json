@@ -1,35 +1,134 @@
 {
-  "updated_at": "2026-11-16T05:44:13Z",
+  "updated_at": "2026-11-16T15:18:59Z",
   "items": [
     {
-      "id": "localllama-2026-11-16-release-qwen38-27b-perplexing-pegasus-heretic-unified-vision",
+      "id": "localllama-2026-11-16-karpo-decision-31b-open-multimodal-decision-model-ranks-1-on",
       "source": "localllama",
-      "title": "[Release] Qwen3.8-27B-Perplexing-Pegasus-Heretic: Unified vision + typed decider + abliterated weights for local agent stacks (GGUF, AutoRound, NVFP4)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxg12n/release_qwen3827bperplexingpegasusheretic_unified/",
-      "published_at": "2026-11-16T04:22:20Z",
-      "summary": "Hey everyone, While building and testing WebBrain with local models, getting reliable agent performance usually required keeping two or three separate models in memory at once: * A vision model to inspect and parse brows",
+      "title": "Karpo-Decision-31B: open multimodal decision model. Ranks #1 on full score on Decision Index, 2x faster than Jev, at 20% lower cost",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxrmt4/karpodecision31b_open_multimodal_decision_model/",
+      "published_at": "2026-11-16T15:04:06Z",
+      "summary": "      MachinePulse has released Karpo-Decision-31B, a Gemma 4 31B fine-tune for structured decisions over text and images. It scored 73.9 on the Nov 12 Decision Index board, the highest Full score among 300 entries, shar",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-im-starting-to-think-a-specialized-4b-is-enough-for-most-of",
+      "id": "localllama-2026-11-16-pybot-no-weights-no-training-pure-python",
       "source": "localllama",
-      "title": "I'm starting to think a specialized 4B is enough for most of the tasks I'd use an LLM for",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxfv69/im_starting_to_think_a_specialized_4b_is_enough/",
-      "published_at": "2026-11-16T04:13:31Z",
-      "summary": "      When I started training Qwen3.5-4B-3D-Coder, I honestly wasn&#39;t sure it would work. Now, after that model and the GLB asset version, I&#39;m starting to think I underestimated how much these smaller models can a",
+      "title": "PyBot: No weights. No training. Pure Python.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxrf1d/pybot_no_weights_no_training_pure_python/",
+      "published_at": "2026-11-16T14:56:11Z",
+      "summary": "      We released PyBot, a chatbot built with only simple rules, entirely written in 600k lines of Python code. PyBot matches Smollm with 360M parameters! We evaluated it on SmolTalkBench, which uses a dataset Smollm was",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-why-download-abliterated-flash-next-models-when-lora-exists",
+      "id": "localllama-2026-11-16-stop-worrying-about-qwen-4s-aa-index",
       "source": "localllama",
-      "title": "Why download abliterated Flash Next models when LoRA exists?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxawbh/why_download_abliterated_flash_next_models_when/",
-      "published_at": "2026-11-16T00:06:16Z",
-      "summary": "      TL;DR -- Download LoRA, add --lora HUIHUI-V2-Qwen3.8-Flash-Next-LoRA-F32.gguf to your llama.cpp launch command for ANY FN quant, and boom, you&#39;ve got an identical huihui v2 abliterated model on demand. I just w",
+      "title": "Stop worrying about Qwen 4's AA index",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxqfqr/stop_worrying_about_qwen_4s_aa_index/",
+      "published_at": "2026-11-16T14:16:10Z",
+      "summary": "Seriously, we have all been extremely happy and confident with Qwen, even since Qwen 3.6 came out. We might not be frontier level, but even though whatever they are giving us is more than enough for our daily local tasks",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-16-where-is-qwen-4-27b",
+      "source": "localllama",
+      "title": "Where is QWEN 4 27b ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxqfe5/where_is_qwen_4_27b/",
+      "published_at": "2026-11-16T14:15:44Z",
+      "summary": "      A wise man once told me &quot;models will break your heart&quot;. I just didn&#39;t think he meant these types of models lol  &#32; submitted by &#32;  /u/HolidayBit143   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-16-training-free-page-sparse-decode-in-llamacpp-qwen3-30b-a3b-i",
+      "source": "localllama",
+      "title": "Training-free page-sparse decode in llama.cpp: Qwen3-30B-A3B is 1.72× faster at 128k on an RTX 5090, with a 1-point RULER loss",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxqdil/trainingfree_pagesparse_decode_in_llamacpp/",
+      "published_at": "2026-11-16T14:13:35Z",
+      "summary": "      I&#39;ve been working on a simple question: at long context, does decode really need to read the whole KV cache for every new token? I wanted something training-free that runs inside llama.cpp on normal GPUs, not a",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-16-project-gemmac---gemma-123-multimodal-inference-in-one-c-fil",
+      "source": "localllama",
+      "title": "[Project] Gemma.c - Gemma 1/2/3 + multimodal inference in one C file (CPU only)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxq01s/project_gemmac_gemma_123_multimodal_inference_in/",
+      "published_at": "2026-11-16T13:58:04Z",
+      "summary": "      Hey all, so I&#39;ve been working on Gemma.c over the last couple months, it&#39;s a from-scratch inference engine for Gemma 1/2/3 in a single C file, runs Gemma 1, 2 and 3, including the multimodal ones, with fp32",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-16-best-audio-models---nov-2026",
+      "source": "localllama",
+      "title": "Best Audio Models - Nov 2026",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxpxvi/best_audio_models_nov_2026/",
+      "published_at": "2026-11-16T13:55:16Z",
+      "summary": "Its time for another Best Audio Models megathread - its already been 9 months since the last one! Share what your favorite ASR, TTS, STT, Text to Music models are right now and why. Given the the amount of ambiguity and ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-16-tandemcpp-v030-prefill-speed-improved-project-mayas-deepseek",
+      "source": "localllama",
+      "title": "tandem.cpp v0.3.0: prefill speed improved; Project Maya's DeepSeek-V4.1 GGUFs support",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxo0f5/tandemcpp_v030_prefill_speed_improved_project/",
+      "published_at": "2026-11-16T12:22:26Z",
+      "summary": "Thanks for the feedback on slow prompt processing. v0.3.0 is out (the first tagged release): https://github.com/ewhacc/tandem.cpp Previous post: https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j tandem.cpp faster when",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-16-did-we-hit-a-wall-in-context-length",
+      "source": "localllama",
+      "title": "Did we hit a wall in context length?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxn9c6/did_we_hit_a_wall_in_context_length/",
+      "published_at": "2026-11-16T11:41:37Z",
+      "summary": "I feel like midel context size rapidly went from 8k to 1M in just a few years but has since stayed this way for a while now. Some still offerring 260k or 400k for their flagship models. Is it just not worth the trouble? ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-16-internlmsage-s21-flash-hugging-face",
+      "source": "localllama",
+      "title": "internlm/Sage-S2.1-Flash · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxn631/internlmsages21flash_hugging_face/",
+      "published_at": "2026-11-16T11:36:14Z",
+      "summary": "      Introduction Sage S2.1 Flash is a scientific multimodal model from Shanghai Artificial Intelligence Laboratory designed for research tasks that require multiple rounds of analysis and verification. It combines scie",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-16-given-the-flood-of-new-inference-engines-any-recommendations",
+      "source": "localllama",
+      "title": "Given the flood of new inference engines any recommendations for 2x 7900xtx ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmr68/given_the_flood_of_new_inference_engines_any/",
+      "published_at": "2026-11-16T11:11:35Z",
+      "summary": "Hey everyone as the title says I am looking for inference engines that work well with AMD GPUs. There have been so many new ones that I am sure there is something better then llamacpp which currently hosts this. My use c",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-16-paper-models-gamer-a-generalist-vision-language-action-found",
+      "source": "localllama",
+      "title": "[Paper & Models] Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmj9o/paper_models_gamer_a_generalist/",
+      "published_at": "2026-11-16T10:58:50Z",
+      "summary": "       We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A sh",
       "tags": [
         "localllama"
       ]
@@ -54,105 +153,6 @@
       "summary": "Release: datasette 1.0a43\n        I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone, which is now 53% complete.\nThe biggest 1.0 item in this release is streaming support for output r",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-15-someone-should-do-an-analysis-on-the-rate-of-self-promo-here",
-      "source": "localllama",
-      "title": "Someone should do an analysis on the rate of Self-promo here.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx85mw/someone_should_do_an_analysis_on_the_rate_of/",
-      "published_at": "2026-11-15T22:05:21Z",
-      "summary": "I think the last 3 posts from here that showed up on my feed were barely veiled self-promos. I was here when huggingface first started getting popular, and the level of support for running local models here was incredibl",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-15-i-have-created-a-tool-to-observe-what-happens-inside-an-llm",
-      "source": "localllama",
-      "title": "I have created a tool to observe what happens inside an LLM. Also allows for the comparison of two quantizations of the same model to see at what point they diverge, token by token",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx7qbf/i_have_created_a_tool_to_observe_what_happens/",
-      "published_at": "2026-11-15T21:46:56Z",
-      "summary": "      What changes between different quantizations of the same model? And what if you could SEE what actually sets them apart? To help answer that question, I’ve created a small project called inside-llm—an open-source t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-15-best-direction-to-go-for-my-setup-epyc-32core-512gb-ddr4-44g",
-      "source": "localllama",
-      "title": "Best direction to go for my setup EPYC 32core + 512GB DDR4 + 44GB GPU ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx6dpd/best_direction_to_go_for_my_setup_epyc_32core/",
-      "published_at": "2026-11-15T20:50:14Z",
-      "summary": "Just looking for some advice on what is possble with my setup and speeds I should be gettingI know it won&#39;t be super fast tps but I was more after getting the bigger models to run. This is my spec: Epyc 7502p - 32 Co",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-15-llamacpp-performance-improvement-over-time-gemma4-models",
-      "source": "localllama",
-      "title": "Llama.cpp performance improvement over time (Gemma4 models)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx607x/llamacpp_performance_improvement_over_time_gemma4/",
-      "published_at": "2026-11-15T20:34:44Z",
-      "summary": "      Few months ago - after Ninfer came out - I started a little hobby project to vibe-code my own engine for my hardware (RTX 5080 16GB Laptop) and check if it could beat llama.cpp - since at the time llama.cpp was kin",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-15-bigmoeonedge-outperforms-strata-and-colibri-on-8-16-gb-cards",
-      "source": "localllama",
-      "title": "BigMoeOnEdge outperforms Strata and colibri on 8-16 GB cards and Mac and you can run any model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx5fng/bigmoeonedge_outperforms_strata_and_colibri_on/",
-      "published_at": "2026-11-15T20:11:18Z",
-      "summary": "Hi! for those who might not know the solution:  it takes any MoE GGUF llama.cpp can load, whatever the quant. No repacking, no special format it runs on whatever you have: NVIDIA, AMD, Intel, Mac, a phone, or just the CP",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-15-audiocpp-soulx-flashhead-lfm3-audio-owsm-v4-real-time-local",
-      "source": "localllama",
-      "title": "[audio.cpp] SoulX-FlashHead + LFM3-Audio + OWSM v4 = Real-Time Local Avatar Chat",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx2vi0/audiocpp_soulxflashhead_lfm3audio_owsm_v4/",
-      "published_at": "2026-11-15T18:29:39Z",
-      "summary": "      In audio.cpp 0.9.5 you can try this new avatar voice chat &quot;app&quot; in the WebUI. The pipeline combines 3 models: SoulX-FlashHead for real-time talking head generation, OWSM v4 for transcribing speech input t",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-15-1cat-vllm-vs-strata",
-      "source": "localllama",
-      "title": "1Cat-vLLM vs Strata",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx1u9y/1catvllm_vs_strata/",
-      "published_at": "2026-11-15T17:49:18Z",
-      "summary": "Edit: 1Cat-vLLM is a Tesla V100 focused fork of vLLM, and the expert caching work is 1Cat&#39;s original work, which may or may not one day make it to vLLM. Everyday we see posts about speeds on Strata and its forks, but",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-15-villanova2---a-villanovaai-collection",
-      "source": "localllama",
-      "title": "Villanova2 - a VillanovaAI Collection",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx1rbk/villanova2_a_villanovaai_collection/",
-      "published_at": "2026-11-15T17:46:04Z",
-      "summary": "      Villanova2 family, for English, Italian, German, Spanish and French. Built in EU, for EU. The family  Villanova2-15B-A3B-Base · sparse mixture of experts, 15.5B total / 3.9B active  Villanova2-15B-A3B · instruction",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-15-moe-offload-on-a-3090-prefill-345---466-ts-by-tuning-cudamem",
-      "source": "localllama",
-      "title": "MoE offload on a 3090: prefill 345 -> 466 t/s by tuning cudaMemcpy (Qwen3.6 35B-A3B)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx1owx/moe_offload_on_a_3090_prefill_345_466_ts_by/",
-      "published_at": "2026-11-15T17:43:31Z",
-      "summary": "      https://i.redd.it/5dlnj6wict1i1.gif I made a tool that tunes copies that speeds up CPU offloading. 1 3090 + 7800X3D llama-bench -m Qwen3.6-35B-A3B-Q8_0.gguf -ngl 99 -fa 1 -ot exps=CPU -p 2048 -n 0 -r 3 cmt tune -- ",
-      "tags": [
-        "localllama"
       ]
     },
     {
