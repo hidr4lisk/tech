@@ -1,136 +1,169 @@
 {
-  "updated_at": "2026-11-16T15:18:59Z",
+  "updated_at": "2026-11-17T01:46:01Z",
   "items": [
     {
-      "id": "localllama-2026-11-16-karpo-decision-31b-open-multimodal-decision-model-ranks-1-on",
+      "id": "simonw-2026-11-16-llm-0373",
+      "source": "simonw",
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "published_at": "2026-11-16T23:57:26Z",
+      "summary": "Release: llm 0.37.3\n        A bug fix release for LLM, mainly to cover a problem with the most recent Homebrew package of the software.\nHomebrew now ships the latest SQLite, 3.54.1, which includes a fix that broke LLM's ",
+      "tags": [
+        "simonw"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-16-gcmp-same-accuracy-as-lora-r32-on-qwen38-27b-with-55-fewer-p",
       "source": "localllama",
-      "title": "Karpo-Decision-31B: open multimodal decision model. Ranks #1 on full score on Decision Index, 2x faster than Jev, at 20% lower cost",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxrmt4/karpodecision31b_open_multimodal_decision_model/",
-      "published_at": "2026-11-16T15:04:06Z",
-      "summary": "      MachinePulse has released Karpo-Decision-31B, a Gemma 4 31B fine-tune for structured decisions over text and images. It scored 73.9 on the Nov 12 Decision Index board, the highest Full score among 300 entries, shar",
+      "title": "GCMP: same accuracy as LoRA r=32 on Qwen3.8-27B with 55× fewer parameters (11 MB vs 320 MB per adapter)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy5eby/gcmp_same_accuracy_as_lora_r32_on_qwen3827b_with/",
+      "published_at": "2026-11-16T23:56:50Z",
+      "summary": "Follow-up to my CQ post from last week. That post covered the 4-bit base model; this one is about the adapter. The LoRA vs GCMP runs on 4-bit bases have now finished. GCMP is a LoRA replacement we built. On Qwen3.8-27B i",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-pybot-no-weights-no-training-pure-python",
+      "id": "localllama-2026-11-16-your-daily-dose-of-qwopium",
       "source": "localllama",
-      "title": "PyBot: No weights. No training. Pure Python.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxrf1d/pybot_no_weights_no_training_pure_python/",
-      "published_at": "2026-11-16T14:56:11Z",
-      "summary": "      We released PyBot, a chatbot built with only simple rules, entirely written in 600k lines of Python code. PyBot matches Smollm with 360M parameters! We evaluated it on SmolTalkBench, which uses a dataset Smollm was",
+      "title": "Your daily dose of Qwopium:",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy4xsx/your_daily_dose_of_qwopium/",
+      "published_at": "2026-11-16T23:36:36Z",
+      "summary": "      No low-effort memes here, just research and straight facts. Can’t argue with facts am I right? Here is the full breakdown of major releases mapped by the day of the week: **Monday (7 Releases)** • Qwen-VL (Aug 21, ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-stop-worrying-about-qwen-4s-aa-index",
+      "id": "localllama-2026-11-16-how-did-you-start-how-do-you-end-up-now",
       "source": "localllama",
-      "title": "Stop worrying about Qwen 4's AA index",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxqfqr/stop_worrying_about_qwen_4s_aa_index/",
-      "published_at": "2026-11-16T14:16:10Z",
-      "summary": "Seriously, we have all been extremely happy and confident with Qwen, even since Qwen 3.6 came out. We might not be frontier level, but even though whatever they are giving us is more than enough for our daily local tasks",
+      "title": "How did you start, how do you end up now ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy34ed/how_did_you_start_how_do_you_end_up_now/",
+      "published_at": "2026-11-16T22:19:48Z",
+      "summary": "Here is my timeline Text Generation  Ollama but quite have bad experience with it. LM studio which still feel half-bake at that time. Msty which easy to use like plug and play but not much I could do custom (or I just do",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-where-is-qwen-4-27b",
+      "id": "localllama-2026-11-16-whisper-base-and-an-11m-param-bert-i-distilled-from-a-2b-mod",
       "source": "localllama",
-      "title": "Where is QWEN 4 27b ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxqfe5/where_is_qwen_4_27b/",
-      "published_at": "2026-11-16T14:15:44Z",
-      "summary": "      A wise man once told me &quot;models will break your heart&quot;. I just didn&#39;t think he meant these types of models lol  &#32; submitted by &#32;  /u/HolidayBit143   [link] &#32; [comments] ",
+      "title": "whisper base and an 11M param BERT i distilled from a 2B model, both running in the browser to caption videos",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy25lw/whisper_base_and_an_11m_param_bert_i_distilled/",
+      "published_at": "2026-11-16T21:40:43Z",
+      "summary": "      i make Blender tutorials as shorts and got tired of uploading every render to a caption service, so i made a caption tool that runs the models in the browser instead transcription is onnx-community/whisper-base_tim",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-training-free-page-sparse-decode-in-llamacpp-qwen3-30b-a3b-i",
+      "id": "localllama-2026-11-16-best-moe-engine",
       "source": "localllama",
-      "title": "Training-free page-sparse decode in llama.cpp: Qwen3-30B-A3B is 1.72× faster at 128k on an RTX 5090, with a 1-point RULER loss",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxqdil/trainingfree_pagesparse_decode_in_llamacpp/",
-      "published_at": "2026-11-16T14:13:35Z",
-      "summary": "      I&#39;ve been working on a simple question: at long context, does decode really need to read the whole KV cache for every new token? I wanted something training-free that runs inside llama.cpp on normal GPUs, not a",
+      "title": "Best MoE engine?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy0d5o/best_moe_engine/",
+      "published_at": "2026-11-16T20:31:36Z",
+      "summary": "I had been using Strata for about a month, and it was such a huge improvement over llama.cpp for getting it running smoothly and quickly for hardware.  Overtime though, I found that the model would often mistake its own ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-project-gemmac---gemma-123-multimodal-inference-in-one-c-fil",
+      "id": "localllama-2026-11-16-i-am-sick-of-doomposting-about-demise-of-local-ai",
       "source": "localllama",
-      "title": "[Project] Gemma.c - Gemma 1/2/3 + multimodal inference in one C file (CPU only)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxq01s/project_gemmac_gemma_123_multimodal_inference_in/",
-      "published_at": "2026-11-16T13:58:04Z",
-      "summary": "      Hey all, so I&#39;ve been working on Gemma.c over the last couple months, it&#39;s a from-scratch inference engine for Gemma 1/2/3 in a single C file, runs Gemma 1, 2 and 3, including the multimodal ones, with fp32",
+      "title": "I am sick of doomposting about demise of local AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxzk23/i_am_sick_of_doomposting_about_demise_of_local_ai/",
+      "published_at": "2026-11-16T20:01:18Z",
+      "summary": "Everywhere I go, Twitter or Reddit, there are tons of rumors or comments how local is dead and we are never getting open weight Qwen 4, despite Qwen team saying explicitly they are coming, or that Qwen 4 is the last open",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-best-audio-models---nov-2026",
+      "id": "localllama-2026-11-16-i-dont-get-all-the-strata-hates-around-here",
       "source": "localllama",
-      "title": "Best Audio Models - Nov 2026",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxpxvi/best_audio_models_nov_2026/",
-      "published_at": "2026-11-16T13:55:16Z",
-      "summary": "Its time for another Best Audio Models megathread - its already been 9 months since the last one! Share what your favorite ASR, TTS, STT, Text to Music models are right now and why. Given the the amount of ambiguity and ",
+      "title": "I don't get all the Strata hates around here",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxz46x/i_dont_get_all_the_strata_hates_around_here/",
+      "published_at": "2026-11-16T19:45:10Z",
+      "summary": "It&#39;s free and original developer clearly had a very good understanding of how computer hardware works and fully leveraged that to write something amazing to be able to run large models on average hardware that most p",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-tandemcpp-v030-prefill-speed-improved-project-mayas-deepseek",
+      "id": "localllama-2026-11-16-mihoyo-gamer-a-generalist-game-agent",
       "source": "localllama",
-      "title": "tandem.cpp v0.3.0: prefill speed improved; Project Maya's DeepSeek-V4.1 GGUFs support",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxo0f5/tandemcpp_v030_prefill_speed_improved_project/",
-      "published_at": "2026-11-16T12:22:26Z",
-      "summary": "Thanks for the feedback on slow prompt processing. v0.3.0 is out (the first tagged release): https://github.com/ewhacc/tandem.cpp Previous post: https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j tandem.cpp faster when",
+      "title": "miHoYo Gamer: A Generalist Game Agent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxy7eb/mihoyo_gamer_a_generalist_game_agent/",
+      "published_at": "2026-11-16T19:11:42Z",
+      "summary": "      &#32; submitted by &#32;  /u/BinarySplit   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-did-we-hit-a-wall-in-context-length",
+      "id": "localllama-2026-11-16-small-gemma-4-tokenizers-were-recently-updated-by-google---f",
       "source": "localllama",
-      "title": "Did we hit a wall in context length?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxn9c6/did_we_hit_a_wall_in_context_length/",
-      "published_at": "2026-11-16T11:41:37Z",
-      "summary": "I feel like midel context size rapidly went from 8k to 1M in just a few years but has since stayed this way for a while now. Some still offerring 260k or 400k for their flagship models. Is it just not worth the trouble? ",
+      "title": "Small Gemma 4 tokenizers were recently updated by Google - fix for an issue that caused nonsense output when encountering certain tokens",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxs0a/small_gemma_4_tokenizers_were_recently_updated_by/",
+      "published_at": "2026-11-16T18:55:18Z",
+      "summary": "      Gemma 4 E4B as an example, but the same fix was applied to E2B and 12B too. Not sure if this will trickle down to GGUFs  &#32; submitted by &#32;  /u/TuskNaPrezydenta2020   [link] &#32; [comments] ",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-internlmsage-s21-flash-hugging-face",
+      "id": "localllama-2026-11-16-open-weight-models-account-for-30-usage-at-enterprises-to-sa",
       "source": "localllama",
-      "title": "internlm/Sage-S2.1-Flash · Hugging Face",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxn631/internlmsages21flash_hugging_face/",
-      "published_at": "2026-11-16T11:36:14Z",
-      "summary": "      Introduction Sage S2.1 Flash is a scientific multimodal model from Shanghai Artificial Intelligence Laboratory designed for research tasks that require multiple rounds of analysis and verification. It combines scie",
+      "title": "Open weight models account for 30% usage at enterprises to save money",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at/",
+      "published_at": "2026-11-16T18:38:24Z",
+      "summary": "Growing from nearly zero to 30% since July. Models used mostly to reduce costs on high volume workloads (large batch workloads, coding, etc). https://x.com/pwendell/status/2122377964784611636  &#32; submitted by &#32;  /",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-given-the-flood-of-new-inference-engines-any-recommendations",
+      "id": "localllama-2026-11-16-nvidianemotron-labs-sigma-8b3b",
       "source": "localllama",
-      "title": "Given the flood of new inference engines any recommendations for 2x 7900xtx ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmr68/given_the_flood_of_new_inference_engines_any/",
-      "published_at": "2026-11-16T11:11:35Z",
-      "summary": "Hey everyone as the title says I am looking for inference engines that work well with AMD GPUs. There have been so many new ones that I am sure there is something better then llamacpp which currently hosts this. My use c",
+      "title": "nvidia/Nemotron-Labs-Sigma 8B/3B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxwg6w/nvidianemotronlabssigma_8b3b/",
+      "published_at": "2026-11-16T18:06:03Z",
+      "summary": "Nemotron-Labs-Sigma-8B-instruct is a 8-billion-parameter continuous diffusion language model. Instead of generating text one token at a time, it denoises Gaussian noise in a low-dimensional (16-D) continuous token-embedd",
       "tags": [
         "localllama"
       ]
     },
     {
-      "id": "localllama-2026-11-16-paper-models-gamer-a-generalist-vision-language-action-found",
+      "id": "localllama-2026-11-16-new-release---supra25-65m-base-and-instruct---our-next-gener",
       "source": "localllama",
-      "title": "[Paper & Models] Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxmj9o/paper_models_gamer_a_generalist/",
-      "published_at": "2026-11-16T10:58:50Z",
-      "summary": "       We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A sh",
+      "title": "[NEW RELEASE] - Supra2.5-65M Base and Instruct - our next generation state-of-the art small model family - first model!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxw9ik/new_release_supra2565m_base_and_instruct_our_next/",
+      "published_at": "2026-11-16T17:59:17Z",
+      "summary": "      https://preview.redd.it/s6afqz7og02i1.png?width=2607&amp;format=png&amp;auto=webp&amp;s=8ad68f90e67c06f989e152ac5cffefc93eed60e1 hey guys! It&#39;s Supra-time! 🤗 🔥 🎉  It has been quite quite at SupraLabs&#39; model",
       "tags": [
         "localllama"
+      ]
+    },
+    {
+      "id": "microsoft-2026-11-16-tokeneconomizer-learning-from-experience-to-make-ai-coding-a",
+      "source": "microsoft",
+      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+      "published_at": "2026-11-16T17:01:35Z",
+      "summary": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents ",
+      "tags": [
+        "microsoft"
+      ]
+    },
+    {
+      "id": "huggingface-2026-11-16-hugging-face-and-openrouter-join-forces-to-make-open-weight",
+      "source": "huggingface",
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "url": "https://huggingface.co/blog/openrouter",
+      "published_at": "2026-11-16T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
       ]
     },
     {
@@ -365,17 +398,6 @@
       ]
     },
     {
-      "id": "simonw-2026-11-10-llm-gemini-036",
-      "source": "simonw",
-      "title": "llm-gemini 0.36",
-      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
-      "published_at": "2026-11-10T20:09:44Z",
-      "summary": "Release: llm-gemini 0.36\n        Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else.\nThis is Google's best ever Gemini, priced at $2/million input and",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "meta-2026-11-10-your-algorithm-giving-people-more-ways-to-personalize-facebo",
       "source": "meta",
       "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
@@ -447,17 +469,6 @@
       "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
       "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
       "published_at": "2026-11-09T12:34:29Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-11-06-toyblocks-a-controlled-world-for-robot-learning-and-evaluati",
-      "source": "huggingface",
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "published_at": "2026-11-06T14:00:48Z",
       "summary": "",
       "tags": [
         "huggingface"
@@ -712,17 +723,6 @@
       "url": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/",
       "published_at": "2026-06-30T16:50:02Z",
       "summary": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, making agent behavior more reliable with",
-      "tags": [
-        "microsoft"
-      ]
-    },
-    {
-      "id": "microsoft-2026-06-25-understanding-the-brain-with-ai-driven-explanations-and-expe",
-      "source": "microsoft",
-      "title": "Understanding the brain with AI-driven explanations and experiments",
-      "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
-      "published_at": "2026-06-25T16:00:00Z",
-      "summary": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language.\nThe post Understand",
       "tags": [
         "microsoft"
       ]

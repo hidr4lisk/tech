@@ -1,13 +1,58 @@
 {
-  "updated_at": "2026-11-16T15:19:04Z",
+  "updated_at": "2026-11-17T01:46:08Z",
   "releases": [
+    {
+      "id": "vllm-v0.34.0",
+      "project": "vllm",
+      "version": "v0.34.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+      "published_at": "2026-11-16T23:22:00Z",
+      "body_excerpt": "v0.34.0 1,061 commits from 412 contributors (120 new). Thank you! TL;DR 10 new models (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) Extensible KV cache is on by default: vLLM sizes the KV cache from memory actually free after warmup, so most models get a bigger cache and more throughput. Model Runner V1 is gone. Model Runner V2 is now the only GPU runner. Big speedups o",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12445",
+      "project": "llama-cpp",
+      "version": "b12445",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12445",
+      "published_at": "2026-11-16T20:44:41Z",
+      "body_excerpt": "vulkan: Support split_k for conv3d. (#29929) This tries to use the 256x128 shape (coopmat2-only) with split_k when it appears profitable. It reuses the mul_mat split_k reduce shader. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12444",
+      "project": "llama-cpp",
+      "version": "b12444",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12444",
+      "published_at": "2026-11-16T19:06:03Z",
+      "body_excerpt": "HIP/CUDA: enable GDN mma kernel on CDNA (#31327) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12443",
+      "project": "llama-cpp",
+      "version": "b12443",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12443",
+      "published_at": "2026-11-16T18:04:54Z",
+      "body_excerpt": "vulkan: fix Nvidia fp32 FA shmem overflow, disable shmem staging if it takes too much memory (#32244) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12442",
+      "project": "llama-cpp",
+      "version": "b12442",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12442",
+      "published_at": "2026-11-16T17:48:23Z",
+      "body_excerpt": "hip: add gfx1013 to rdna1 (#32236) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64",
+      "type": "tool"
+    },
     {
       "id": "unsloth-v0.1.918-beta",
       "project": "unsloth",
       "version": "v0.1.918-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.918-beta",
       "published_at": "2026-11-16T15:04:23Z",
-      "body_excerpt": "This update adds computer use, so a local model can see your screen and work in any app. Chat can now also drive Unreal Engine, Unity, Godot, Blender and Roblox over MCP. MiniMax-H3-Image now runs as a GGUF and in FP8, and you can fine-tune it with LoRA. You can also run Inkling-2-Small as Dynamic GGUFs. There's a new model picker in the chat box too, and Connections got rebuilt in both design and",
+      "body_excerpt": "This update brings computer use (beta), letting local models see your screen and interact with apps, plus MCP integrations for Unity, Unreal Engine, Blender and Roblox. MiniMax-H3-Image now supports GGUF, FP8 and INT8, with LoRA training. We've also introduced a new model picker, redesigned Connections and improved project folders. Highlights Engram: Change and swap engrams for Qwen Flash and Deep",
       "type": "tool"
     },
     {
@@ -277,7 +322,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: e09680a2f79a3327c93539188bc51b11260cd003 Date: 2026-11-16T13:55:28Z Subject: Fix CLI help text and the connectors permission label This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: fbc48c8def5a43e911e95842bc28da9582df87d4 Date: 2026-11-16T21:22:09Z Subject: feat(ui): show the output of a failed local MCP command This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -1082,6 +1127,15 @@
       "type": "tool"
     },
     {
+      "id": "ollama-v0.40.17-rc1",
+      "project": "ollama",
+      "version": "v0.40.17-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
+      "published_at": "2026-11-10T22:25:00Z",
+      "body_excerpt": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in llm: use mmap for Vulkan integrated GPUs by @dhiltgen in rpreslar4765/Ollama by @rpreslar4765 in mlx: support concurrent generation by @dhiltgen in llama.cpp: version bump b12257 by @dhiltgen in MLX, MLX-C: version bump by @dhiltgen in New Contributo",
+      "type": "tool"
+    },
+    {
       "id": "llama-cpp-b12259",
       "project": "llama-cpp",
       "version": "b12259",
@@ -1262,6 +1316,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-Nemotron-Labs-Sigma-distill-spec-3B",
+      "project": "nvidia",
+      "version": "Nemotron-Labs-Sigma-distill-spec-3B",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-spec-3B",
+      "published_at": "2026-11-09T21:55:08Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b12233",
       "project": "llama-cpp",
       "version": "b12233",
@@ -1359,6 +1422,87 @@
       "published_at": "2026-11-09T08:49:08Z",
       "body_excerpt": "ggml-zdnn: fix release binary not detecting backend lib (#31905) Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-Labs-Sigma-distill-8B-nfe16",
+      "project": "nvidia",
+      "version": "Nemotron-Labs-Sigma-distill-8B-nfe16",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-8B-nfe16",
+      "published_at": "2026-11-09T06:36:32Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-Labs-Sigma-distill-8B-nfe8",
+      "project": "nvidia",
+      "version": "Nemotron-Labs-Sigma-distill-8B-nfe8",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-8B-nfe8",
+      "published_at": "2026-11-09T05:56:33Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-Labs-Sigma-distill-8B-nfe4",
+      "project": "nvidia",
+      "version": "Nemotron-Labs-Sigma-distill-8B-nfe4",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-8B-nfe4",
+      "published_at": "2026-11-09T05:47:59Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-Labs-Sigma-distill-8B-nfe2",
+      "project": "nvidia",
+      "version": "Nemotron-Labs-Sigma-distill-8B-nfe2",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-8B-nfe2",
+      "published_at": "2026-11-09T02:46:21Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-Labs-Sigma-distill-3B-nfe8",
+      "project": "nvidia",
+      "version": "Nemotron-Labs-Sigma-distill-3B-nfe8",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-3B-nfe8",
+      "published_at": "2026-11-09T02:18:27Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-Labs-Sigma-distill-spec-8B",
+      "project": "nvidia",
+      "version": "Nemotron-Labs-Sigma-distill-spec-8B",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-spec-8B",
+      "published_at": "2026-11-09T01:40:38Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-Labs-Sigma-distill-3B-nfe16",
+      "project": "nvidia",
+      "version": "Nemotron-Labs-Sigma-distill-3B-nfe16",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-3B-nfe16",
+      "published_at": "2026-11-09T01:36:34Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-Labs-Sigma-distill-3B-nfe4",
+      "project": "nvidia",
+      "version": "Nemotron-Labs-Sigma-distill-3B-nfe4",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-3B-nfe4",
+      "published_at": "2026-11-09T01:35:53Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Nemotron-Labs-Sigma-distill-3B-nfe2",
+      "project": "nvidia",
+      "version": "Nemotron-Labs-Sigma-distill-3B-nfe2",
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-3B-nfe2",
+      "published_at": "2026-11-09T01:33:52Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b12211",
