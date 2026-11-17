@@ -1,6 +1,204 @@
 {
-  "updated_at": "2026-11-17T01:46:08Z",
+  "updated_at": "2026-11-17T15:44:58Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12477",
+      "project": "llama-cpp",
+      "version": "b12477",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12477",
+      "published_at": "2026-11-17T15:10:13Z",
+      "body_excerpt": "Rotate K/V read order for better L2 cache hit rates (#32407) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.919-beta",
+      "project": "unsloth",
+      "version": "v0.1.919-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.919-beta",
+      "published_at": "2026-11-17T14:56:56Z",
+      "body_excerpt": "This update brings computer use (beta), letting local models see your screen and interact with apps, plus MCP integrations for Unity, Unreal Engine, Blender and Roblox. MiniMax-H3-Image now supports GGUF, FP8 and INT8, with LoRA training. We've also introduced a new model picker, redesigned Connections and improved project folders. Highlights Translate Page: Translate any piece of text locally to ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12475",
+      "project": "llama-cpp",
+      "version": "b12475",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12475",
+      "published_at": "2026-11-17T13:43:43Z",
+      "body_excerpt": "ui: move Llama Chat to SvelteKit 3 and its built-in service worker (#32463) ui: replace deprecated packages and fix npm audit findings Swap the mdast stub for @types/mdast, move the katex override to 0.19.0, and override glob, source-map and html-encoding-sniffer under workbox-build and http-server so installs no longer pull deprecated packages. Apply the non-breaking npm audit fixes to the lockfi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12474",
+      "project": "llama-cpp",
+      "version": "b12474",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12474",
+      "published_at": "2026-11-17T13:25:56Z",
+      "body_excerpt": "qwen3next : apply output projection weight scale (#32393) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12473",
+      "project": "llama-cpp",
+      "version": "b12473",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12473",
+      "published_at": "2026-11-17T13:05:57Z",
+      "body_excerpt": "cuda : raise shared mem limit only for the launched kernel (#32392) This commit removes a call of the CUDA_SET_SHARED_MEMORY_LIMIT macro as the fallback decision was moved out of launch_mul_mat_q. launch_mul_mat_q now has the fallback template parameter which was added in Commit 6eddde06a4f25d55d538b5d15628dcc2b6882147 (\"CUDA: refactor MMQ kernel configuration (#24127)\"). This code was then refact",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12470",
+      "project": "llama-cpp",
+      "version": "b12470",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12470",
+      "published_at": "2026-11-17T10:56:36Z",
+      "body_excerpt": "sycl : Fix FA mkl issue: a mask broadcast over heads or batches (#31536) fix the SYCL fa with mkl error of a mask broadcast over heads or batches; add argument cache-ram to start-svr.sh add argument cache-ram to win-start-svr.bat fix format issue, remove --cache-ram in script: move to another PR Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enab",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12469",
+      "project": "llama-cpp",
+      "version": "b12469",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12469",
+      "published_at": "2026-11-17T10:29:12Z",
+      "body_excerpt": "metal : add implicit GEMM kernel for CONV_2D (#28069) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12468",
+      "project": "llama-cpp",
+      "version": "b12468",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12468",
+      "published_at": "2026-11-17T10:12:42Z",
+      "body_excerpt": "webgpu : Implement timestep embedding (#31695) Only run webgpu CI on my fork Add webgpu only workflow resolve merge conflicts save state save kernel add kernel back in fix merge issues with kernels updates update tests change invocation count and workgroup to be u32 clang format clang format update docs format remove extra file Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Ap",
+      "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Qwen3.8-Flash-Next-NVFP4-QAD",
+      "project": "nvidia",
+      "version": "Qwen3.8-Flash-Next-NVFP4-QAD",
+      "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4-QAD",
+      "published_at": "2026-11-17T09:32:35Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b12466",
+      "project": "llama-cpp",
+      "version": "b12466",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12466",
+      "published_at": "2026-11-17T09:27:30Z",
+      "body_excerpt": "opencl: support f16 and non-contig f32 silu (#32319) opencl: support non-contig silu Assisted-by: Claude Opus 5.5 opencl: support f16 silu Assisted-by: Claude Opus 5.5 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12465",
+      "project": "llama-cpp",
+      "version": "b12465",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12465",
+      "published_at": "2026-11-17T07:52:42Z",
+      "body_excerpt": "sycl: use fast division in bin-bcast kernels (#32213) Replace the per-element modulo of i0 with fast_div_modulo in the ravel and unravel bin-bcast kernels, drop the now-unused ne10/ne20 kernel arguments, and reject divisors that do not fit in 32 bits when the magic values are computed, as the CUDA implementation does. Co-authored-by: zhaoyshine Co-authored-by: Claude Code Website: Attestations: ma",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12464",
+      "project": "llama-cpp",
+      "version": "b12464",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12464",
+      "published_at": "2026-11-17T06:28:39Z",
+      "body_excerpt": "opencl: add A7 Q8_0 non-MoE binary kernel (#31003) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12463",
+      "project": "llama-cpp",
+      "version": "b12463",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12463",
+      "published_at": "2026-11-17T06:14:00Z",
+      "body_excerpt": "mtmd : fix Muse Glimmer vision embedding order (#32433) Assisted-by: Claude Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12458",
+      "project": "llama-cpp",
+      "version": "b12458",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12458",
+      "published_at": "2026-11-17T05:36:20Z",
+      "body_excerpt": "mtmd: support YuE2-3B (#32369) mtmd: support YuE2-3B improve speed add CFG fix streaming add cfg control from api check ctx size fix n_predict add flow_steps config nits fix batch api nits adapt mtmd: yue2 samples from its own saved logits The context logits belong to the last decode of any slot, so with several server slots the score and the unguided codes were sampled from another sequence. Keep",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12457",
+      "project": "llama-cpp",
+      "version": "b12457",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12457",
+      "published_at": "2026-11-17T05:20:23Z",
+      "body_excerpt": "opencl: add A7 Q4_K non-MoE binary kernel (#30948) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12456",
+      "project": "llama-cpp",
+      "version": "b12456",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12456",
+      "published_at": "2026-11-17T05:05:58Z",
+      "body_excerpt": "opencl: fix three defects of the bin flash-attention prefill path (#32110) opencl: release the WMM flash-attention mask fallback image The fallback image is created on every call of the bin flash-attention kernel over a sub-buffer of the K cache and was never released, so each call kept a K-cache sub-buffer alive. Every call with more than one query row takes this path, including each speculative-",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12455",
+      "project": "llama-cpp",
+      "version": "b12455",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12455",
+      "published_at": "2026-11-17T04:48:57Z",
+      "body_excerpt": "chat : implement inkling parser (#32381) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12453",
+      "project": "llama-cpp",
+      "version": "b12453",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12453",
+      "published_at": "2026-11-17T04:16:02Z",
+      "body_excerpt": "MMVQ: Tune ne11 Gate for RDNA3_5 (#32308) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12452",
+      "project": "llama-cpp",
+      "version": "b12452",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12452",
+      "published_at": "2026-11-17T03:59:36Z",
+      "body_excerpt": "mtmd: support fish audio s2 (#32330) add fisk-audio-s2 support add voice cloning cont merge master nits nits clean up nits use new batch api Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s3",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12451",
+      "project": "llama-cpp",
+      "version": "b12451",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12451",
+      "published_at": "2026-11-17T03:34:55Z",
+      "body_excerpt": "ui: move the web UI to ui/apps/chat and call it Llama Chat (#32032) ui: move tools/ui to ui/apps/chat The chat app moves to its own root folder, ui/apps/chat, as the first step of splitting the UI into one library (ui/lib) and the apps built on it (ui/apps). The code is unchanged; every path that pointed at tools/ui now points at ui/apps/chat: CMake adds it from tools/, and the Dockerfiles, the Ni",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12449",
+      "project": "llama-cpp",
+      "version": "b12449",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12449",
+      "published_at": "2026-11-17T03:13:12Z",
+      "body_excerpt": "arg : allow up to llama_max_devices() configs for --tensor-split and --fit-target (#13293) (#31435) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12448",
+      "project": "llama-cpp",
+      "version": "b12448",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12448",
+      "published_at": "2026-11-17T02:59:44Z",
+      "body_excerpt": "jinja: impl scope-chain key lookup (#32396) jinja: impl scope-chain key lookup add test for call_statement lambda Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulk",
+      "type": "tool"
+    },
     {
       "id": "vllm-v0.34.0",
       "project": "vllm",
@@ -322,7 +520,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: fbc48c8def5a43e911e95842bc28da9582df87d4 Date: 2026-11-16T21:22:09Z Subject: feat(ui): show the output of a failed local MCP command This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: db359940a9380643aa65dee82a3a37d9c98692cf Date: 2026-11-17T11:40:13Z Subject: docs(studio): describe where a web chat trigger reports This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -14571,60 +14769,6 @@
       "published_at": "2026-08-19T16:40:35Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv1-so400m14",
-      "project": "google",
-      "version": "tipsv1-so400m14",
-      "url": "https://huggingface.co/google/tipsv1-so400m14",
-      "published_at": "2026-08-19T15:02:28Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv1-l14",
-      "project": "google",
-      "version": "tipsv1-l14",
-      "url": "https://huggingface.co/google/tipsv1-l14",
-      "published_at": "2026-08-19T14:56:11Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv1-b14",
-      "project": "google",
-      "version": "tipsv1-b14",
-      "url": "https://huggingface.co/google/tipsv1-b14",
-      "published_at": "2026-08-19T14:48:47Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv1-s14",
-      "project": "google",
-      "version": "tipsv1-s14",
-      "url": "https://huggingface.co/google/tipsv1-s14",
-      "published_at": "2026-08-19T14:43:49Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10502",
-      "project": "llama-cpp",
-      "version": "b10502",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10502",
-      "published_at": "2026-08-19T13:26:32Z",
-      "body_excerpt": "ci : add attestation for signed release artifacts (#25933) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.15.1",
-      "project": "transformers",
-      "version": "v5.15.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
-      "published_at": "2026-08-19T10:50:47Z",
-      "body_excerpt": "Patch release v5.15.1 This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter. It contains the following commits: Fix DFlash candidate token device mismatch with device_map=\"auto\" (#47877) by @sywangyi and @Cyrilvallez Align logit distributions for CandidateGenerat",
-      "type": "tool"
     }
   ]
 }

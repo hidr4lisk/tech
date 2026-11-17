@@ -1,6 +1,138 @@
 {
-  "updated_at": "2026-11-17T01:46:01Z",
+  "updated_at": "2026-11-17T15:44:51Z",
   "items": [
+    {
+      "id": "localllama-2026-11-17-built-an-assistant-with-5080-5060ti-and-2x3090",
+      "source": "localllama",
+      "title": "Built an assistant with 5080, 5060ti and 2x3090?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xynh14/built_an_assistant_with_5080_5060ti_and_2x3090/",
+      "published_at": "2026-11-17T15:33:34Z",
+      "summary": "      Slow news day.. Core:  Hardware  Home PC (WSL2 + Docker Desktop): RTX 5080 16 GB and RTX 5060 Ti 16 GB 3090 server: 2× RTX 3090 24 GB VPS: hosts the web chat (ivy-chat) (docs)  IVY&#39;s brain (the language models)",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-17-sensenova-loop-9b-vs-its-own-preview-automationbench-1433-to",
+      "source": "localllama",
+      "title": "SenseNova-Loop-9B vs its own Preview: AutomationBench 14.33 to 36.67, GAIA 37.86 to 69.90 (9B Looped Transformer)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xymz9z/sensenovaloop9b_vs_its_own_preview/",
+      "published_at": "2026-11-17T15:14:24Z",
+      "summary": "      https://huggingface.co/sensenova/SenseNova-Loop-9B The Preview was posted here a few times over the last weeks. This is the full release, same design: 32 layers stored, 24 of them run twice, so a forward pass does ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-17-i-benchmarked-over-130-llm-configs-with-multiple-stacked-16g",
+      "source": "localllama",
+      "title": "I benchmarked over 130 LLM configs with multiple stacked 16GB \"e-waste\" GPUs (V100, P100, K80)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xymcjb/i_benchmarked_over_130_llm_configs_with_multiple/",
+      "published_at": "2026-11-17T14:49:19Z",
+      "summary": "      The benchmarking journey continues! Continuing the project of seeing how these very old, very cheap, very available enterprise GPUs can be used today. The complete results are too long for reddit. The complete set ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-17-everyones-hyped-about-chatgpt-dots-and-claude-duet-im-a-loca",
+      "source": "localllama",
+      "title": "everyone's hyped about ChatGPT Dots and Claude Duet. I'm a local guy, so I built an open source one that runs on my GPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xylrup/everyones_hyped_about_chatgpt_dots_and_claude/",
+      "published_at": "2026-11-17T14:26:03Z",
+      "summary": "      Dodaios is a locally installed, open-source Python program that runs as a desktop app or as a headless server with a browser UI on Windows, macOS and Linux. It turns a personal AI assistant into the control center ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-17-are-those-that-advocate-against-open-weight-models-public-en",
+      "source": "localllama",
+      "title": "Are those that advocate against open weight models public enemy #1 ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyllk7/are_those_that_advocate_against_open_weight/",
+      "published_at": "2026-11-17T14:18:43Z",
+      "summary": "Dario says you can&#39;t allow open weight models because they are too dangerous: https://x.com/vikktorrrre/status/2122353364306374986 What are arguments against this line of thinking? We prefer democracy over the govern",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-17-sensenova-loop-9b",
+      "source": "localllama",
+      "title": "SenseNova Loop 9B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xylcw4/sensenova_loop_9b/",
+      "published_at": "2026-11-17T14:08:22Z",
+      "summary": "      If the benchmarks are true, this is a 9B looped model on level with Qwen3.8 27B. They say they&#39;ll release gguf tomorrow. Vision is supported. Around 15GB vram for 256k context. The preview version seemed fast e",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-17-harness-adapters-fine-tune-qwen38-27b-for-pi-agents",
+      "source": "localllama",
+      "title": "[Harness Adapters] Fine tune Qwen3.8-27B for Pi Agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xykw4l/harness_adapters_fine_tune_qwen3827b_for_pi_agents/",
+      "published_at": "2026-11-17T13:48:41Z",
+      "summary": "      Hey folks! Aritra here from Hugging Face. In the last week we released a blog post about harness adapters. The idea was to train adapters (LoRA) on models to be more efficient with specific harness. Today we releas",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-17-the-upcoming-open-weight-small-qwen-models-are-likely-going",
+      "source": "localllama",
+      "title": "The upcoming open weight small Qwen models are likely going to lack training data related to offensive cyber capabilities.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xykjuy/the_upcoming_open_weight_small_qwen_models_are/",
+      "published_at": "2026-11-17T13:33:05Z",
+      "summary": "      With the release of Qwen 4 Max, they claim that training data related to offensive capabilities has been removed, is this largely a placebo/nothingburger or does it have the capability to genuinely lobotomize a mod",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-17-gemma-4-twice-as-fast-on-ryzen-ai-max-395",
+      "source": "localllama",
+      "title": "Gemma 4 twice as fast on Ryzen AI Max+ 395",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyjxli/gemma_4_twice_as_fast_on_ryzen_ai_max_395/",
+      "published_at": "2026-11-17T13:04:43Z",
+      "summary": "      Hi! Just want to share that we have optimized Gemma 4 to run more than twice as fast as llama.cpp on the Ryzen AI Max+ 395! To maintain accuracy we use a combination of rotation and GPTQ, along with selective mixed",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-17-gemma-on-a-printer",
+      "source": "localllama",
+      "title": "Gemma on a printer",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyjkts/gemma_on_a_printer/",
+      "published_at": "2026-11-17T12:48:09Z",
+      "summary": "      Now you can run Gemma locally on your printer (from u/hackerllama) https://x.com/osanseviero/status/2122646098418491739  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments] ",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-17-gpu-prices---big-discounts",
+      "source": "localllama",
+      "title": "GPU prices - Big \"discounts\"",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyixml/gpu_prices_big_discounts/",
+      "published_at": "2026-11-17T12:15:13Z",
+      "summary": "      Discounts in quotes because these are still over MSRP, but my local Microcenter has the deepest &quot;discounts&quot; (sorry, I just can&#39;t call an over MSRP price a discount without quotes) I&#39;ve seen in mon",
+      "tags": [
+        "localllama"
+      ]
+    },
+    {
+      "id": "localllama-2026-11-17-intel-shares-first-benchmarks-of-its-next-gen-crescent-islan",
+      "source": "localllama",
+      "title": "Intel Shares First Benchmarks of Its Next-Gen Crescent Island \"D270\" GPU, Claiming a 5.9x Throughput Over RTX PRO 6000 As Xe3P Goes Big On FP64",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyioi8/intel_shares_first_benchmarks_of_its_nextgen/",
+      "published_at": "2026-11-17T12:02:09Z",
+      "summary": "      The title talks about FP64. For local inference this info from the content is relevant: &quot;In AI benchmarks, Intel&#39;s D270 GPU offered 29% lower latency and 1.12x throughput versus the RTX PRO 6000 Blackwell.",
+      "tags": [
+        "localllama"
+      ]
+    },
     {
       "id": "simonw-2026-11-16-llm-0373",
       "source": "simonw",
@@ -10,138 +142,6 @@
       "summary": "Release: llm 0.37.3\n        A bug fix release for LLM, mainly to cover a problem with the most recent Homebrew package of the software.\nHomebrew now ships the latest SQLite, 3.54.1, which includes a fix that broke LLM's ",
       "tags": [
         "simonw"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-16-gcmp-same-accuracy-as-lora-r32-on-qwen38-27b-with-55-fewer-p",
-      "source": "localllama",
-      "title": "GCMP: same accuracy as LoRA r=32 on Qwen3.8-27B with 55× fewer parameters (11 MB vs 320 MB per adapter)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy5eby/gcmp_same_accuracy_as_lora_r32_on_qwen3827b_with/",
-      "published_at": "2026-11-16T23:56:50Z",
-      "summary": "Follow-up to my CQ post from last week. That post covered the 4-bit base model; this one is about the adapter. The LoRA vs GCMP runs on 4-bit bases have now finished. GCMP is a LoRA replacement we built. On Qwen3.8-27B i",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-16-your-daily-dose-of-qwopium",
-      "source": "localllama",
-      "title": "Your daily dose of Qwopium:",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy4xsx/your_daily_dose_of_qwopium/",
-      "published_at": "2026-11-16T23:36:36Z",
-      "summary": "      No low-effort memes here, just research and straight facts. Can’t argue with facts am I right? Here is the full breakdown of major releases mapped by the day of the week: **Monday (7 Releases)** • Qwen-VL (Aug 21, ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-16-how-did-you-start-how-do-you-end-up-now",
-      "source": "localllama",
-      "title": "How did you start, how do you end up now ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy34ed/how_did_you_start_how_do_you_end_up_now/",
-      "published_at": "2026-11-16T22:19:48Z",
-      "summary": "Here is my timeline Text Generation  Ollama but quite have bad experience with it. LM studio which still feel half-bake at that time. Msty which easy to use like plug and play but not much I could do custom (or I just do",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-16-whisper-base-and-an-11m-param-bert-i-distilled-from-a-2b-mod",
-      "source": "localllama",
-      "title": "whisper base and an 11M param BERT i distilled from a 2B model, both running in the browser to caption videos",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy25lw/whisper_base_and_an_11m_param_bert_i_distilled/",
-      "published_at": "2026-11-16T21:40:43Z",
-      "summary": "      i make Blender tutorials as shorts and got tired of uploading every render to a caption service, so i made a caption tool that runs the models in the browser instead transcription is onnx-community/whisper-base_tim",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-16-best-moe-engine",
-      "source": "localllama",
-      "title": "Best MoE engine?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy0d5o/best_moe_engine/",
-      "published_at": "2026-11-16T20:31:36Z",
-      "summary": "I had been using Strata for about a month, and it was such a huge improvement over llama.cpp for getting it running smoothly and quickly for hardware.  Overtime though, I found that the model would often mistake its own ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-16-i-am-sick-of-doomposting-about-demise-of-local-ai",
-      "source": "localllama",
-      "title": "I am sick of doomposting about demise of local AI",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxzk23/i_am_sick_of_doomposting_about_demise_of_local_ai/",
-      "published_at": "2026-11-16T20:01:18Z",
-      "summary": "Everywhere I go, Twitter or Reddit, there are tons of rumors or comments how local is dead and we are never getting open weight Qwen 4, despite Qwen team saying explicitly they are coming, or that Qwen 4 is the last open",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-16-i-dont-get-all-the-strata-hates-around-here",
-      "source": "localllama",
-      "title": "I don't get all the Strata hates around here",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxz46x/i_dont_get_all_the_strata_hates_around_here/",
-      "published_at": "2026-11-16T19:45:10Z",
-      "summary": "It&#39;s free and original developer clearly had a very good understanding of how computer hardware works and fully leveraged that to write something amazing to be able to run large models on average hardware that most p",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-16-mihoyo-gamer-a-generalist-game-agent",
-      "source": "localllama",
-      "title": "miHoYo Gamer: A Generalist Game Agent",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxy7eb/mihoyo_gamer_a_generalist_game_agent/",
-      "published_at": "2026-11-16T19:11:42Z",
-      "summary": "      &#32; submitted by &#32;  /u/BinarySplit   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-16-small-gemma-4-tokenizers-were-recently-updated-by-google---f",
-      "source": "localllama",
-      "title": "Small Gemma 4 tokenizers were recently updated by Google - fix for an issue that caused nonsense output when encountering certain tokens",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxs0a/small_gemma_4_tokenizers_were_recently_updated_by/",
-      "published_at": "2026-11-16T18:55:18Z",
-      "summary": "      Gemma 4 E4B as an example, but the same fix was applied to E2B and 12B too. Not sure if this will trickle down to GGUFs  &#32; submitted by &#32;  /u/TuskNaPrezydenta2020   [link] &#32; [comments] ",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-16-open-weight-models-account-for-30-usage-at-enterprises-to-sa",
-      "source": "localllama",
-      "title": "Open weight models account for 30% usage at enterprises to save money",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at/",
-      "published_at": "2026-11-16T18:38:24Z",
-      "summary": "Growing from nearly zero to 30% since July. Models used mostly to reduce costs on high volume workloads (large batch workloads, coding, etc). https://x.com/pwendell/status/2122377964784611636  &#32; submitted by &#32;  /",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-16-nvidianemotron-labs-sigma-8b3b",
-      "source": "localllama",
-      "title": "nvidia/Nemotron-Labs-Sigma 8B/3B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxwg6w/nvidianemotronlabssigma_8b3b/",
-      "published_at": "2026-11-16T18:06:03Z",
-      "summary": "Nemotron-Labs-Sigma-8B-instruct is a 8-billion-parameter continuous diffusion language model. Instead of generating text one token at a time, it denoises Gaussian noise in a low-dimensional (16-D) continuous token-embedd",
-      "tags": [
-        "localllama"
-      ]
-    },
-    {
-      "id": "localllama-2026-11-16-new-release---supra25-65m-base-and-instruct---our-next-gener",
-      "source": "localllama",
-      "title": "[NEW RELEASE] - Supra2.5-65M Base and Instruct - our next generation state-of-the art small model family - first model!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxw9ik/new_release_supra2565m_base_and_instruct_our_next/",
-      "published_at": "2026-11-16T17:59:17Z",
-      "summary": "      https://preview.redd.it/s6afqz7og02i1.png?width=2607&amp;format=png&amp;auto=webp&amp;s=8ad68f90e67c06f989e152ac5cffefc93eed60e1 hey guys! It&#39;s Supra-time! 🤗 🔥 🎉  It has been quite quite at SupraLabs&#39; model",
-      "tags": [
-        "localllama"
       ]
     },
     {
