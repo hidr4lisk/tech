@@ -1,6 +1,123 @@
 {
-  "updated_at": "2026-11-18T00:46:41Z",
+  "updated_at": "2026-11-18T15:24:42Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12503",
+      "project": "llama-cpp",
+      "version": "b12503",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12503",
+      "published_at": "2026-11-18T08:28:45Z",
+      "body_excerpt": "ggml-openvino: expand model support, optimize NPU,GPU and memory usage (#32172) ggml-openvino: fix SWA mask detection When the SWA cache size matches the full cache size, identify SWA layers by the number of layers using each mask instead of cache size; the larger group is SWA, and a tie leaves the layers unclassified. ggml-openvino: fix SWA KV cache write indices Give SWA KV cache index tensors u",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12502",
+      "project": "llama-cpp",
+      "version": "b12502",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12502",
+      "published_at": "2026-11-18T08:09:23Z",
+      "body_excerpt": "CUDA: use MMQ for MoE on V100 (#32504) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12500",
+      "project": "llama-cpp",
+      "version": "b12500",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12500",
+      "published_at": "2026-11-18T07:04:17Z",
+      "body_excerpt": "cuda: decode the conv2d patch indices with fastdiv (#32492) The implicit GEMM conv2d kernel recovers the channel and the kernel position of each reduction index with three integer divisions by runtime divisors, once per loaded row of every tile. Outside the 3x3 and 1x1 specializations this integer division bounds the kernel: removing it halves the time on long reductions. Divide with the precomput",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12499",
+      "project": "llama-cpp",
+      "version": "b12499",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12499",
+      "published_at": "2026-11-18T05:23:44Z",
+      "body_excerpt": "vulkan: run rms_norm with a runtime loop count on Qualcomm (#30824) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12498",
+      "project": "llama-cpp",
+      "version": "b12498",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12498",
+      "published_at": "2026-11-18T04:18:01Z",
+      "body_excerpt": "server: slot_sched: fix lora and recurrent (#32434) server: fix lora and recurrent tests: run the hybrid SWA checkpoint test with one token per ubatch With and without the cache, the prompt was not split into the same ubatches, and the generated tokens are decoded one at a time while the uncached run processes them in a batch. On CUDA this moves the top logprobs of the tiny model by up to 0.03 and",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12497",
+      "project": "llama-cpp",
+      "version": "b12497",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12497",
+      "published_at": "2026-11-18T04:02:20Z",
+      "body_excerpt": "mtmd: support tiny-voca (#32427) mtmd: support tiny-voca improve G2P Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12496",
+      "project": "llama-cpp",
+      "version": "b12496",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12496",
+      "published_at": "2026-11-18T03:44:07Z",
+      "body_excerpt": "ggml-cuda: hip: Tune stream_k algo and mmq configs to use stream_k on AMD GCN (#30022) ggml-cuda: hip: enable stream_k on GCN ggml-cuda: Test on CDNA done no improvement, remove TODO ggml-cuda: HIP: GCN cleanup Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12494",
+      "project": "llama-cpp",
+      "version": "b12494",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12494",
+      "published_at": "2026-11-18T02:37:28Z",
+      "body_excerpt": "mtmd: add kokoro tts support (#32413) jinja: impl scope-chain key lookup add test for call_statement lambda chat: add tts_dict for kokoro G2P template more testing value_float_t range check no json-in-meta, add llama_model_meta_arr_str/_n mtmd: add kokoro tts support detailed guide about G2P and text norm port refine G2P clean up migrate batch api nits Website: Attestations: macOS/iOS: macOS Apple",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12493",
+      "project": "llama-cpp",
+      "version": "b12493",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12493",
+      "published_at": "2026-11-18T02:21:38Z",
+      "body_excerpt": "cuda: use the implicit GEMM conv2d path for F32 kernels (#32482) The fast CONV_2D path (implicit GEMM with MMA, or cuBLAS for pointwise convolutions) required an F16 kernel. F32 kernels fell back to the naive direct convolution, which is much slower than im2col + mul_mat on large channel counts. Convert F32 kernels to F16 in a pool buffer, as is already done for the input, and take the same path w",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12492",
+      "project": "llama-cpp",
+      "version": "b12492",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12492",
+      "published_at": "2026-11-18T02:00:23Z",
+      "body_excerpt": "opencl: add A7 Q5_K non-MoE binary kernel (#31002) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12491",
+      "project": "llama-cpp",
+      "version": "b12491",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12491",
+      "published_at": "2026-11-18T01:35:06Z",
+      "body_excerpt": "mtmd: Add support for Qwen3-TTS' ICL/reference mode (#32438) Added support for Qwen3-TTS ICL/reference mode Assisted-By: Claude Opus 5.5 fix correctness attach transcription to bitmap nits --------- Co-authored-by: Xuan Son Nguyen Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12490",
+      "project": "llama-cpp",
+      "version": "b12490",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12490",
+      "published_at": "2026-11-18T01:14:27Z",
+      "body_excerpt": "qwen4exp : fix graph reallocation from the n-gram table scale (#32483) qwen4exp : apply the n-gram table scale with ggml_scale read the scale once after load remove comment Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 2",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12489",
+      "project": "llama-cpp",
+      "version": "b12489",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12489",
+      "published_at": "2026-11-18T00:49:54Z",
+      "body_excerpt": "server : return 400 when grammar and ignore_eos are on (#32377) sampling : fix crash when both ignore_eos and grammar are on server : rework, throw 400 when grammar and ignore_eos are on sampling : move the check into the sampler (review suggestion) tests : remove redundant tests Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED ma",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12488",
       "project": "llama-cpp",
@@ -610,7 +727,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: bb421089ecc58c1be557440effb22f720db351f0 Date: 2026-11-17T23:34:22Z Subject: fix(gallery): make model deletion remove the config and report leftovers This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: 1d08354ea0b8a7fa70e563ddff4109e4765af904 Date: 2026-11-18T10:31:22Z Subject: docs(website): replace the site films with the new end card This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -1710,6 +1827,15 @@
       "published_at": "2026-11-09T12:28:21Z",
       "body_excerpt": "metal : prevent out-of-bounds writes to the Metal FA output buffer (#31662) Co-authored-by: Zhuomin Chen Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubunt",
       "type": "tool"
+    },
+    {
+      "id": "hf-stabilityai-sdxl-turbo-amdnpu-medusa",
+      "project": "stabilityai",
+      "version": "sdxl-turbo-amdnpu-medusa",
+      "url": "https://huggingface.co/stabilityai/sdxl-turbo-amdnpu-medusa",
+      "published_at": "2026-11-09T12:06:39Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b12220",
@@ -14759,78 +14885,6 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.9.0",
       "published_at": "2026-08-20T15:59:49Z",
       "body_excerpt": "🎉 LocalAI 4.9.0 Release! 🚀 LocalAI 4.9.0 is out! Thirteen days and 146 pull requests, spent on the parts of LocalAI you touch every day rather than on new engines. Authentication is now deny-by-default, chat gained end-to-end context compression, models and backends each have one canonical page instead of three, and grew a video modality serving MiniMax-H3 with a real audio track. Highlights: 🔐 Au",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10516",
-      "project": "llama-cpp",
-      "version": "b10516",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10516",
-      "published_at": "2026-08-20T13:20:04Z",
-      "body_excerpt": "vulkan: add null checks in ggml_vk_queue_command_pools_cleanup (#27353) Guard against null queue pointers. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu ",
-      "type": "tool"
-    },
-    {
-      "id": "whisper-cpp-v1.9.3",
-      "project": "whisper-cpp",
-      "version": "v1.9.3",
-      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.3",
-      "published_at": "2026-08-20T11:39:36Z",
-      "body_excerpt": "> [!NOTE] > Semantic versioning is still work in progress. > More info can be found in Nightly build: b4938 Change log since v1.9.2 371b5a75 release : v1.9.3 (#4000) 81c19056 cmake : update semver and release process [no ci] (#3996) 4834a232 talk-llama : sync llama.cpp 6b014cfb sync : ggml 8189458d ggml : bump version to 0.20.2 (ggml/1589) 51319a2c CUDA: MMVQ nwarps=8 for bs=1 for dense models on ",
-      "type": "tool"
-    },
-    {
-      "id": "whisper-cpp-b4938",
-      "project": "whisper-cpp",
-      "version": "b4938",
-      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/b4938",
-      "published_at": "2026-08-20T11:33:19Z",
-      "body_excerpt": "",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10514",
-      "project": "llama-cpp",
-      "version": "b10514",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10514",
-      "published_at": "2026-08-20T11:17:28Z",
-      "body_excerpt": "model : GraniteSWAForCausalLM / GraniteMoeSWAForCausalLM (#25505) feat(convert): Add conversion for GraniteSWAForCausalLM Branch: GraniteSWAForCausalLM AI-usage: full (Bob, OpenCode + Qwen3.6-35b) Signed-off-by: Gabe Goodhart feat(llama): Add granite_swa support Branch: GraniteSWAForCausalLM AI-usage: full (Bob, OpenCode + Qwen3.6-35b) Signed-off-by: Gabe Goodhart feat(conversion): Add conversion ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10509",
-      "project": "llama-cpp",
-      "version": "b10509",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10509",
-      "published_at": "2026-08-20T06:52:43Z",
-      "body_excerpt": "ggml: add ggml_rope_set_offset (+ metal support) (#27120) add params cpu kernel metal kernel add test backend ops gate other backends ggml: (cuda) support ggml_rope_set_offset (#27121) rm cuda supports_op guard, fix webgpu clang-format ggml: support ggml_rope_set_offset on vulkan (#27344) ggml: support ggml_rope_set_offset on vulkan remove inplace optimization Website: macOS/iOS: macOS Apple Silic",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10507",
-      "project": "llama-cpp",
-      "version": "b10507",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10507",
-      "published_at": "2026-08-20T03:21:28Z",
-      "body_excerpt": "mtmd: add mtmd_bitmap_set_mergeable (#27348) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Androi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10506",
-      "project": "llama-cpp",
-      "version": "b10506",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10506",
-      "published_at": "2026-08-20T02:57:39Z",
-      "body_excerpt": "metal : dequantize q8_0 using packed types (#27370) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10505",
-      "project": "llama-cpp",
-      "version": "b10505",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10505",
-      "published_at": "2026-08-20T02:36:34Z",
-      "body_excerpt": "server: add dedup-cache-models preset option (#27346) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
       "type": "tool"
     }
   ]
