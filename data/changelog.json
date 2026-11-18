@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-11-17T15:44:58Z",
+  "updated_at": "2026-11-18T00:46:41Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12488",
+      "project": "llama-cpp",
+      "version": "b12488",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12488",
+      "published_at": "2026-11-18T00:33:10Z",
+      "body_excerpt": "ggml-cuda: disable quantized matvec fusion on all Pascal GPUs (#32239) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12487",
+      "project": "llama-cpp",
+      "version": "b12487",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12487",
+      "published_at": "2026-11-18T00:17:23Z",
+      "body_excerpt": "Title: CUDA: few-row MMQ for MUL_MAT_ID (#32065) CUDA: few-row MMQ for MUL_MAT_ID CUDA: few-row MMQ for MUL_MAT_ID from 2 tokens on DGX Spark CUDA: few-row MUL_MAT_ID: one launcher, tighter pair count, more tests CUDA: few-row MUL_MAT_ID: dispatch order MMVQ, few-row, MMQ and review fixes Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DI",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12485",
+      "project": "llama-cpp",
+      "version": "b12485",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12485",
+      "published_at": "2026-11-17T23:53:26Z",
+      "body_excerpt": "CUDA: use block reductions for whole-row pool_1d (#31855) CUDA: use block reductions for whole-row pool_1d Assisted-by: Claude Code CUDA: template pool1d row kernel by ggml_op_pool Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12484",
+      "project": "llama-cpp",
+      "version": "b12484",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12484",
+      "published_at": "2026-11-17T22:57:52Z",
+      "body_excerpt": "ggml : decode F8_E4M3 to fp32 without ldexpf (#32477) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 l",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12483",
+      "project": "llama-cpp",
+      "version": "b12483",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12483",
+      "published_at": "2026-11-17T20:05:20Z",
+      "body_excerpt": "llama : keep the k-pool layout prefix on sequence edits (#32137) llama : keep the k-pool layout prefix on sequence edits Assisted-by: Claude Code llama : address review of the k-pool layout update Append and edit share one branch, using stale > sq.pos_min. LLAMA_KPOOL_VERIFY=1 checks every update against a full rebuild. The scan moved into kpool_scan() so the check can reuse it. The test turns the",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12482",
+      "project": "llama-cpp",
+      "version": "b12482",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12482",
+      "published_at": "2026-11-17T19:51:00Z",
+      "body_excerpt": "vocab : speed up PLaMo-2/3 tokenizer table build (#32249) Assisted-by: Claude Code (Claude Opus 5.5) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12481",
+      "project": "llama-cpp",
+      "version": "b12481",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12481",
+      "published_at": "2026-11-17T19:36:01Z",
+      "body_excerpt": "convert : fix FP8 qwen4exp checkpoints (n-gram table scale, block-scaled FP8) (#32476) convert : fix FP8 n-gram table export for qwen4exp convert : dequantize block-scaled FP8 weight_scale_inv in ModelOpt checkpoints Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12480",
+      "project": "llama-cpp",
+      "version": "b12480",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12480",
+      "published_at": "2026-11-17T19:11:21Z",
+      "body_excerpt": "ui: Llama UI design system: tokens, surfaces and fonts (#32468) ui: bring @ggml-org/llama-ui into ui/lib/ui The design system package (tokens, fonts, surfaces, components and Model UI), so far in the temporary ggml-org/llama-ui repository at edaf518, moves to its home in ui/lib/ui, built with @sveltejs/package and published as @ggml-org/llama-ui from here. ui/lib holds the packages, one folder eac",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12479",
+      "project": "llama-cpp",
+      "version": "b12479",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12479",
+      "published_at": "2026-11-17T18:51:24Z",
+      "body_excerpt": "mtmd: support Minimax-Music3 (#32435) mtmd: support Minimax-Music3 fix and clean up Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubun",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12478",
+      "project": "llama-cpp",
+      "version": "b12478",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12478",
+      "published_at": "2026-11-17T17:32:37Z",
+      "body_excerpt": "chat: add tts_dict for kokoro G2P template (#32397) chat: add tts_dict for kokoro G2P template more testing value_float_t range check no json-in-meta, add llama_model_meta_arr_str/_n Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12477",
       "project": "llama-cpp",
@@ -520,7 +610,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: db359940a9380643aa65dee82a3a37d9c98692cf Date: 2026-11-17T11:40:13Z Subject: docs(studio): describe where a web chat trigger reports This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: bb421089ecc58c1be557440effb22f720db351f0 Date: 2026-11-17T23:34:22Z Subject: fix(gallery): make model deletion remove the config and report leftovers This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -1152,6 +1242,33 @@
       "published_at": "2026-11-12T02:22:59Z",
       "body_excerpt": "chat: allow TTS model to provide custom text normalizer via jinja (#32053) chat: allow TTS model to provide custom text normalizer via jinja rm tts_norm_is_reserved_name Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.0",
       "type": "tool"
+    },
+    {
+      "id": "hf-nvidia-Llama-3.2-1B-Qwen3.8-27B-Draft",
+      "project": "nvidia",
+      "version": "Llama-3.2-1B-Qwen3.8-27B-Draft",
+      "url": "https://huggingface.co/nvidia/Llama-3.2-1B-Qwen3.8-27B-Draft",
+      "published_at": "2026-11-11T20:26:31Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Qwen3.5-0.8B-Qwen3.8-27B-Draft",
+      "project": "nvidia",
+      "version": "Qwen3.5-0.8B-Qwen3.8-27B-Draft",
+      "url": "https://huggingface.co/nvidia/Qwen3.5-0.8B-Qwen3.8-27B-Draft",
+      "published_at": "2026-11-11T20:25:54Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-Qwen3.5-4B-Qwen3.8-27B-Draft",
+      "project": "nvidia",
+      "version": "Qwen3.5-4B-Qwen3.8-27B-Draft",
+      "url": "https://huggingface.co/nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
+      "published_at": "2026-11-11T20:23:07Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b12292",
@@ -14715,60 +14832,6 @@
       "published_at": "2026-08-20T02:36:34Z",
       "body_excerpt": "server: add dedup-cache-models preset option (#27346) Website: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
       "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-GR00TCRA",
-      "project": "nvidia",
-      "version": "GR00TCRA",
-      "url": "https://huggingface.co/nvidia/GR00TCRA",
-      "published_at": "2026-08-19T18:31:46Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "ollama-v0.32.15-rc1",
-      "project": "ollama",
-      "version": "v0.32.15-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
-      "published_at": "2026-08-19T17:25:16Z",
-      "body_excerpt": "What's Changed Add a model metadata cache to reduce Ollama’s per-request overhead New Contributors @gaugarg-nv made their first contribution in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.32.15",
-      "project": "ollama",
-      "version": "v0.32.15",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15",
-      "published_at": "2026-08-19T17:25:16Z",
-      "body_excerpt": "What's Changed New desktop onboarding flow on first launch Caches resolved model metadata between requests, cutting time-to-first-token by roughly half (TTFT dropped from ~995 ms to ~524 ms in benchmarks) Fixes a bug where chat and generate could wedge after a mid-stream parser error Qwen 3.8 system messages are now normalized so non-leading system messages are handled consistently MLX and llama.c",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-DeepSeek-V4-Flash-0731-NVFP4",
-      "project": "nvidia",
-      "version": "DeepSeek-V4-Flash-0731-NVFP4",
-      "url": "https://huggingface.co/nvidia/DeepSeek-V4-Flash-0731-NVFP4",
-      "published_at": "2026-08-19T17:09:47Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv1-g14-lowres",
-      "project": "google",
-      "version": "tipsv1-g14-lowres",
-      "url": "https://huggingface.co/google/tipsv1-g14-lowres",
-      "published_at": "2026-08-19T16:41:21Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-tipsv1-g14",
-      "project": "google",
-      "version": "tipsv1-g14",
-      "url": "https://huggingface.co/google/tipsv1-g14",
-      "published_at": "2026-08-19T16:40:35Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
