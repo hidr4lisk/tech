@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-11-19T00:04:30Z",
+  "updated_at": "2026-11-19T15:29:54Z",
   "releases": [
+    {
+      "id": "unsloth-v0.1.920-beta",
+      "project": "unsloth",
+      "version": "v0.1.920-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.920-beta",
+      "published_at": "2026-11-19T14:31:01Z",
+      "body_excerpt": "AMD NPU support gets a big update in Unsloth: Q4NX models you convert now load on the NPU, and every NPU model shows whether it runs. Also new: LTX-2.5 and MOSS-Image LoRA training, NVIDIA Cosmos3 FP8 video and scheduled tasks that reply in a chat. Highlights AMD NPU support - See guide and official AMD blog - NPUs are 2-4x more efficient per joule per token vs GPUs Faster images on Strix Halo - F",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12541",
+      "project": "llama-cpp",
+      "version": "b12541",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12541",
+      "published_at": "2026-11-19T13:54:06Z",
+      "body_excerpt": "ggml : IQ2 creation speedup through caching (#31910) IQ2 quant creation speedup from caching Rename variables for clarity Explicit casts Initialize all values, add comment to tolerance Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12540",
+      "project": "llama-cpp",
+      "version": "b12540",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12540",
+      "published_at": "2026-11-19T13:01:30Z",
+      "body_excerpt": "llama : remove PATH_MAX (#32557) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12535",
+      "project": "llama-cpp",
+      "version": "b12535",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12535",
+      "published_at": "2026-11-19T11:40:28Z",
+      "body_excerpt": "vulkan: Implement stream-k MUL_MAT (#28528) vulkan: Implement stream-k MUL_MAT Stream-k tries to split chunks of 256 K elements evenly across all SMs. Workgroups that finish a tile write to dst, others write to scratch, and there's a resolve shader similar to split-k. The shader code is implemented for scalar+cm1+cm2, but only currently enabled for cm2. The heuristic for enabling on coopmat2 is pr",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12534",
+      "project": "llama-cpp",
+      "version": "b12534",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12534",
+      "published_at": "2026-11-19T11:12:05Z",
+      "body_excerpt": "vulkan: use floating-point zero for storage-only FP16 in DIAG/TRI (#32379) vulkan: Change integer zero to floating-point zero for storage-only FP16 in DIAG/TRI. Assisted-by: OpenAI Codex delete narrow test Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12532",
+      "project": "llama-cpp",
+      "version": "b12532",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12532",
+      "published_at": "2026-11-19T04:45:06Z",
+      "body_excerpt": "opencl: allow adjusting KV padding in decomposed FA (#32522) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12531",
+      "project": "llama-cpp",
+      "version": "b12531",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12531",
+      "published_at": "2026-11-19T02:20:33Z",
+      "body_excerpt": "mtmd: support voxcpm2 (#32443) mtmd: support voxcpm speed up a bit various fixes Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12530",
+      "project": "llama-cpp",
+      "version": "b12530",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12530",
+      "published_at": "2026-11-19T01:10:01Z",
+      "body_excerpt": "ggml : WASM Relaxed SIMD Enhancement (#19590) add relaxed simd fix indentation remove comments and whitespace wasm: fix relaxed SIMD kernels and add q3_K/q6_K support rm trailing space --------- Co-authored-by: Xuan Son Nguyen Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12529",
+      "project": "llama-cpp",
+      "version": "b12529",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12529",
+      "published_at": "2026-11-19T00:11:40Z",
+      "body_excerpt": "llama : fix sticky NaN in recurrent state (#31913) Co-authored-by: Alexey Kopytko Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12528",
       "project": "llama-cpp",
@@ -781,7 +862,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: 83a59c2a48ab9cd8612889c7f2a996706c54de4c Date: 2026-11-18T17:08:21Z Subject: docs(website): keep the coming-soon line after the release This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: 1e4cabcf7c08fed89de89ad10a43d41f47cd46b6 Date: 2026-11-19T14:36:36Z Subject: test(addons): list the specs the Windows work added in the suite inventory This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -14786,114 +14867,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10566",
       "published_at": "2026-08-21T18:25:36Z",
       "body_excerpt": "llama.cpp : bump version to 0.2.0 (#27498) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) And",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10549",
-      "project": "llama-cpp",
-      "version": "b10549",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10549",
-      "published_at": "2026-08-21T09:23:07Z",
-      "body_excerpt": "TP: enable tensor split for LFM2/LFM2MOE (#26993) Assisted-by: deepseek-v4-flash Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 ",
-      "type": "tool"
-    },
-    {
-      "id": "hf-EleutherAI-gpt2-custom",
-      "project": "EleutherAI",
-      "version": "gpt2-custom",
-      "url": "https://huggingface.co/EleutherAI/gpt2-custom",
-      "published_at": "2026-08-21T05:45:47Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10545",
-      "project": "llama-cpp",
-      "version": "b10545",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10545",
-      "published_at": "2026-08-21T03:49:10Z",
-      "body_excerpt": "metal : clamp K extent in tensor API mat-mat kernel for K not a multiple of 32 (#27450) The Tensor API mat-mat path of kernel_mul_mm (GGML_METAL_HAS_TENSOR) fed a static K=32 tile to the matmul2d op on every iteration. On the last, partial K tile (ne00 % 32 != 0) the src1 slice extends past the K extent of the tensor, and the op reads those out-of-bounds elements (undefined behavior per the MSL sp",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10541",
-      "project": "llama-cpp",
-      "version": "b10541",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10541",
-      "published_at": "2026-08-21T03:26:59Z",
-      "body_excerpt": "mtmd: add --mmproj-device argument (#23255) feat: add --mmproj-device arg & backwards compatible MTMD_BACKEND_DEVICE env var feat: load mmproj device backend immediately, add -mmdev shortflag fix: its a pointer now get the name clean up gen docs nits --------- Co-authored-by: Xuan Son Nguyen Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10539",
-      "project": "llama-cpp",
-      "version": "b10539",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10539",
-      "published_at": "2026-08-21T03:04:13Z",
-      "body_excerpt": "vulkan: FA MMQ should use fp32 for Q quantization calculations (#27413) Codex found that qd could be a denorm and 1/qd would overflow. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10538",
-      "project": "llama-cpp",
-      "version": "b10538",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10538",
-      "published_at": "2026-08-21T02:42:57Z",
-      "body_excerpt": "metal : dequant kv cache only for large batches (#27438) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10537",
-      "project": "llama-cpp",
-      "version": "b10537",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10537",
-      "published_at": "2026-08-21T02:22:19Z",
-      "body_excerpt": "CI: Use LLVM's OpenMP over MSVC_DEBUG_non_redist on Windows (#26678) CI: Use LLVM's OpenMP over MSFT_DEBUG_non_redist on Windows Currently, we ship the non-redist debug version of microsoft's libomp. This PR changes this to official LLVM's release, also packaging the license as needed. Remove LLVM SHA from job name to increase legibility Add temp validations to CI Revert \"Add temp validations to C",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10536",
-      "project": "llama-cpp",
-      "version": "b10536",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10536",
-      "published_at": "2026-08-21T02:03:09Z",
-      "body_excerpt": "server: (router) lazy-load startup_models after main setup (#27424) server: (router) lazy-load startup_models after main setup only allow is_first_load to populate it nits nits 2 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10534",
-      "project": "llama-cpp",
-      "version": "b10534",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10534",
-      "published_at": "2026-08-21T01:37:40Z",
-      "body_excerpt": "CUDA: adding switch points per HW and quant type to tune the mvq->MMQ decode crossover (#26079) CUDA: runtime GGML_CUDA_MMVQ_MAX to tune the mvq->MMQ decode crossover Add a runtime override of the mul_mat_vec_q -> MMQ batch crossover (default MMVQ_MAX_BATCH_SIZE). Lowering it routes batches above the threshold from the CUDA-core vector kernel to the int8 MMQ tensor-core path, which is faster once ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10533",
-      "project": "llama-cpp",
-      "version": "b10533",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10533",
-      "published_at": "2026-08-21T01:06:31Z",
-      "body_excerpt": "common : gracefully fallback on unsupported regex patterns in JSON schema (#26939) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10532",
-      "project": "llama-cpp",
-      "version": "b10532",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10532",
-      "published_at": "2026-08-21T00:42:58Z",
-      "body_excerpt": "metal : dequantize quantized KV to F16 before flash attention (#27390) metal: dequantize q8_0 KV to f16 before flash attention Add a preprocessing pass for GGML_OP_FLASH_ATTN_EXT on the Metal backend: when the KV cache is quantized (Q8_0 for now), dequantize K and V into a contiguous F16 scratch buffer and run the existing F16 flash attention kernels on it, instead of the in-kernel dequantization ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10531",
-      "project": "llama-cpp",
-      "version": "b10531",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10531",
-      "published_at": "2026-08-21T00:19:31Z",
-      "body_excerpt": "Revert \"tensor-split meta backend fixes (#26502)\" (#27433) This reverts commit d59d455fd8ea09e5a2e87ce2a9d668267ffb5ccd. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DI",
       "type": "tool"
     }
   ]
