@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-18T15:24:42Z",
+  "updated_at": "2026-11-19T00:04:30Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12528",
+      "project": "llama-cpp",
+      "version": "b12528",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12528",
+      "published_at": "2026-11-18T23:38:54Z",
+      "body_excerpt": "server: fix sleep state for v1/realtime (#32567) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12527",
+      "project": "llama-cpp",
+      "version": "b12527",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12527",
+      "published_at": "2026-11-18T22:56:20Z",
+      "body_excerpt": "model : limite: reject mudd configs that index past mudd_tap_idx on load (#32562) n_mudd_taps comes from limite.mudd.tap_count, a scalar read separately from the length-checked tap_indices array. mudd_tap_idx is a fixed std::array indexed at [in_taps] in both the tensor load and the graph build, so a crafted GGUF with n_layer n_mudd_taps > 512 reads past the array. Reject that at hparams load; the",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12521",
+      "project": "llama-cpp",
+      "version": "b12521",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12521",
+      "published_at": "2026-11-18T17:10:32Z",
+      "body_excerpt": "webgpu: (fix CI) allow the FA mask to be broadcast over the Q batch (#32535) allow the mask batch to be broadcast over the Q batch use Q_ne3 for blk_batch_count of get_alloc_size function Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x",
+      "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-Aion-1.0-Instruct-2.3B-ONNX-WebGPU",
+      "project": "microsoft",
+      "version": "Aion-1.0-Instruct-2.3B-ONNX-WebGPU",
+      "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU",
+      "published_at": "2026-11-18T17:08:25Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-Aion-1.0-Instruct-2.3B",
+      "project": "microsoft",
+      "version": "Aion-1.0-Instruct-2.3B",
+      "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B",
+      "published_at": "2026-11-18T17:05:50Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "localai-v5.0.0",
+      "project": "localai",
+      "version": "v5.0.0",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v5.0.0",
+      "published_at": "2026-11-18T17:00:23Z",
+      "body_excerpt": "Run open models for chat, images, speech and video on your own machines. The API speaks the OpenAI and Anthropic formats. Your team gets chats, files and documents on top, and the assistant can write and run code. 5.0 adds a desktop app, Projects, a Files page, Office documents, a Python sandbox, team sharing and an add-on library, all built on chats that now run on the server. Highlights: 🖥️ Desk",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12503",
       "project": "llama-cpp",
@@ -412,7 +466,7 @@
       "version": "v0.34.0",
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
       "published_at": "2026-11-16T23:22:00Z",
-      "body_excerpt": "v0.34.0 1,061 commits from 412 contributors (120 new). Thank you! TL;DR 10 new models (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) Extensible KV cache is on by default: vLLM sizes the KV cache from memory actually free after warmup, so most models get a bigger cache and more throughput. Model Runner V1 is gone. Model Runner V2 is now the only GPU runner. Big speedups o",
+      "body_excerpt": "v0.34.0 1,061 commits from 412 contributors (120 new). Thank you! TL;DR 10 new models (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) Extensible KV cache is on by default: vLLM sizes the KV cache from memory actually free after warmup, so most models get a bigger cache and more throughput - in most cases you should now remove from your configs. Model Runner V1 is gone. Mo",
       "type": "tool"
     },
     {
@@ -727,7 +781,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: 1d08354ea0b8a7fa70e563ddff4109e4765af904 Date: 2026-11-18T10:31:22Z Subject: docs(website): replace the site films with the new end card This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: 83a59c2a48ab9cd8612889c7f2a996706c54de4c Date: 2026-11-18T17:08:21Z Subject: docs(website): keep the coming-soon line after the release This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -14840,51 +14894,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10531",
       "published_at": "2026-08-21T00:19:31Z",
       "body_excerpt": "Revert \"tensor-split meta backend fixes (#26502)\" (#27433) This reverts commit d59d455fd8ea09e5a2e87ce2a9d668267ffb5ccd. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DI",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10520",
-      "project": "llama-cpp",
-      "version": "b10520",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10520",
-      "published_at": "2026-08-20T21:03:06Z",
-      "body_excerpt": "ggml-cpu: gate __fp16 on __ARM_FP16_FORMAT_IEEE (#26860) ggml-cpu: gate __fp16 on __ARM_FP16_FORMAT_IEEE __ARM_NEON only signals NEON availability. The __fp16 type also needs the IEEE half format, implied on AArch64 but selected with -mfp16-format=ieee on 32 bit Arm, where the compiler otherwise rejects the type. The guard keeps every toolchain that provides the type on the same code and sends tha",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10519",
-      "project": "llama-cpp",
-      "version": "b10519",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10519",
-      "published_at": "2026-08-20T20:31:11Z",
-      "body_excerpt": "server: refactor sleep handling, allow access /metrics during sleep (#27376) add cached responses refactor on_sleeping_state allow accessing metrics during sleep metrics task should not reset timer updated docs fix fix get_res_model_info add test fix a race condition split metrics and slots tasks / results should_reset_buckets Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS App",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10517",
-      "project": "llama-cpp",
-      "version": "b10517",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10517",
-      "published_at": "2026-08-20T17:43:32Z",
-      "body_excerpt": "vulkan : dequant q8_0 KV once in coopmat1 (#25494) vulkan : dequant q8_0 KV once in coopmat1 Assisted-by: Claude (Opus 4.8) vulkan : fall back instead of aborting when FA scratch exceeds maxStorageBufferRange vulkan : require KV-cache layout in FA dequant path Assisted-by: Claude (Opus 4.8) vulkan : skip FA dequant path on coopmat2 Assisted-by: Claude (Opus 4.8) tests : add contiguously-allocated ",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.801-beta",
-      "project": "unsloth",
-      "version": "v0.1.801-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.801-beta",
-      "published_at": "2026-08-20T16:58:37Z",
-      "body_excerpt": "Thanks for the support for Qwen3.8-27B and Unsloth Desktop last week! For this release, we merged 200+ PRs to introduce many new features, fixes including: Auto Compaction (Experimental) for longer chats beyond context limits Remote & LAN Access (Preview) for easy network access without Cloudflare links Faster Chat - Improved streaming performance, reduced UI lag, and smoother long conversations. ",
-      "type": "tool"
-    },
-    {
-      "id": "localai-v4.9.0",
-      "project": "localai",
-      "version": "v4.9.0",
-      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.9.0",
-      "published_at": "2026-08-20T15:59:49Z",
-      "body_excerpt": "🎉 LocalAI 4.9.0 Release! 🚀 LocalAI 4.9.0 is out! Thirteen days and 146 pull requests, spent on the parts of LocalAI you touch every day rather than on new engines. Authentication is now deny-by-default, chat gained end-to-end context compression, models and backends each have one canonical page instead of three, and grew a video modality serving MiniMax-H3 with a real audio track. Highlights: 🔐 Au",
       "type": "tool"
     }
   ]
