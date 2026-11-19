@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-11-18T15:24:33Z",
+  "updated_at": "2026-11-19T00:04:24Z",
   "items": [
+    {
+      "id": "huggingface-2026-11-18-daisyrose-27b-pushing-the-frontier-of-post-training-efficien",
+      "source": "huggingface",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "published_at": "2026-11-18T19:54:56Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-11-18-why-your-fine-tuning-job-takes-longer-than-the-flops-say",
+      "source": "huggingface",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "published_at": "2026-11-18T18:53:43Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "meta-2026-11-18-how-meta-uses-ai-agents-to-scale-ml-innovations-across-ads-r",
+      "source": "meta",
+      "title": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
+      "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
+      "published_at": "2026-11-18T17:00:00Z",
+      "summary": "Our previous post in this series introduced the Ranking Engineer Agent (REA), an autonomous system that generates hypotheses, designs experiments, and proves new machine learning (ML) techniques on ads ranking models.  N",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "meta-2026-11-18-design-once-deploy-at-scale-building-a-template-driven-ml-ec",
+      "source": "meta",
+      "title": "Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem",
+      "url": "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/",
+      "published_at": "2026-11-18T16:59:38Z",
+      "summary": "As ML ecosystems grow to a large number of production models, the bottleneck is no longer inventing new techniques to improve these models, but rather shipping them reliably and efficiently across a fragmented model spac",
+      "tags": [
+        "meta"
+      ]
+    },
+    {
+      "id": "simonw-2026-11-18-quoting-daniel-stenberg",
+      "source": "simonw",
+      "title": "Quoting Daniel Stenberg",
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+      "published_at": "2026-11-18T15:58:27Z",
+      "summary": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than",
+      "tags": [
+        "simonw"
+      ]
+    },
     {
       "id": "huggingface-2026-11-18-time-series-models-in-the-streamhouse-a-new-frontier-and-use",
       "source": "huggingface",
@@ -17,6 +72,17 @@
       "source": "huggingface",
       "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
       "url": "https://huggingface.co/blog/rumble-2-flash",
+      "published_at": "2026-11-18T00:00:00Z",
+      "summary": "",
+      "tags": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "huggingface-2026-11-18-180b-parameters-32gb-of-ram-pushing-moe-inference-to-the-lim",
+      "source": "huggingface",
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
       "published_at": "2026-11-18T00:00:00Z",
       "summary": "",
       "tags": [
@@ -354,17 +420,6 @@
       ]
     },
     {
-      "id": "simonw-2026-11-11-aws-emulator",
-      "source": "simonw",
-      "title": "aws-emulator",
-      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
-      "published_at": "2026-11-11T21:18:30Z",
-      "summary": "aws-emulator\nFinally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.\nIt's written in Rust by a huge swarm of agents ",
-      "tags": [
-        "simonw"
-      ]
-    },
-    {
       "id": "google-2026-11-11-gemini-decisions-api-fast-calibrated-multimodal-decisions",
       "source": "google",
       "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
@@ -392,17 +447,6 @@
       "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
       "url": "https://huggingface.co/blog/qvac/botpsy",
       "published_at": "2026-11-11T05:01:16Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-11-11-token-pooling-aware-training-for-multi-vector-embedding-mode",
-      "source": "huggingface",
-      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-      "url": "https://huggingface.co/blog/token-pooling",
-      "published_at": "2026-11-11T00:00:00Z",
       "summary": "",
       "tags": [
         "huggingface"
@@ -439,28 +483,6 @@
       "summary": "Triton Low-Level Extensions (TLX), is an extension to Triton that helps engineers optimize GPU performance while preserving Triton&#8217;s productive programming model.  TLX introduces explicit warp-group and cluster-lev",
       "tags": [
         "meta"
-      ]
-    },
-    {
-      "id": "huggingface-2026-11-10-pay-for-hugging-face-hub-with-your-google-cloud-account",
-      "source": "huggingface",
-      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "published_at": "2026-11-10T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "huggingface-2026-11-10-decision-models-in-hugging-face",
-      "source": "huggingface",
-      "title": "Decision Models in Hugging Face",
-      "url": "https://huggingface.co/blog/decision",
-      "published_at": "2026-11-10T00:00:00Z",
-      "summary": "",
-      "tags": [
-        "huggingface"
       ]
     },
     {
@@ -536,28 +558,6 @@
       "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
       "published_at": "2026-10-26T16:00:07Z",
       "summary": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark, and our gigawatt-scale Prometheus clus",
-      "tags": [
-        "meta"
-      ]
-    },
-    {
-      "id": "meta-2026-10-19-genrecs-tokenization-transforming-ads-recommendation-at-meta",
-      "source": "meta",
-      "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
-      "url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
-      "published_at": "2026-10-19T16:00:47Z",
-      "summary": "Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers. Leveraging the world kn",
-      "tags": [
-        "meta"
-      ]
-    },
-    {
-      "id": "meta-2026-10-19-the-thin-orchestrator-how-we-made-our-ai-agents-more-reliabl",
-      "source": "meta",
-      "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-      "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
-      "published_at": "2026-10-19T15:30:37Z",
-      "summary": "Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach.  At Meta, we&#8217;ve seen notable improvements in efficiency and accuracy by keeping the orchestration layer of our data pipeline agents",
       "tags": [
         "meta"
       ]
