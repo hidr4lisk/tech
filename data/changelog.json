@@ -1,6 +1,123 @@
 {
-  "updated_at": "2026-11-19T15:29:54Z",
+  "updated_at": "2026-11-20T00:27:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12556",
+      "project": "llama-cpp",
+      "version": "b12556",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12556",
+      "published_at": "2026-11-19T23:12:54Z",
+      "body_excerpt": "model : hrm : do not compute slot count as uint32_t (#32601) load_arch_hparams multiplies n_hrm_layers_per_stack, n_hrm_h_cycles and (n_hrm_l_cycles + 1) into a uint32_t, then asserts the product equals block_count. Any factors whose true product is block_count + k2^32 still pass the assert; 1073741825 2 * 2 = 2^32 + 4 compares equal to block_count = 4. load_arch_tensors iterates the same three va",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12555",
+      "project": "llama-cpp",
+      "version": "b12555",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12555",
+      "published_at": "2026-11-19T22:54:26Z",
+      "body_excerpt": "opencl: support dp4a for KQ mm in decomposed FA (#32577) opencl: support int8 KQ for DK = 512 Co-authored-by: Shaofei Qi Co-authored-by: Hongqiang Wang Assisted-by: Codex opencl: allow query chunk up to 96 for int8 KQ Co-authored-by: Shaofei Qi Co-authored-by: Hongqiang Wang Assisted-by: Codex opencl: extend to allow non-fatal failure Assisted-by: Codex opencl: add int8 KQ for decomposed FA with D",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12554",
+      "project": "llama-cpp",
+      "version": "b12554",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12554",
+      "published_at": "2026-11-19T22:19:53Z",
+      "body_excerpt": "ggml : add BF16 support to ROPE and SET_ROWS (CPU, CUDA) (#32387) ggml : add BF16 support to ROPE and SET_ROWS (CPU, CUDA) cuda : SET_ROWS from BF16 into quantized types and F8_E4M3 cuda : fuse BF16 rope into a BF16 cache tests : trim the BF16 rope cases to one per code path Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS I",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12553",
+      "project": "llama-cpp",
+      "version": "b12553",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12553",
+      "published_at": "2026-11-19T22:06:25Z",
+      "body_excerpt": "mtmd : fix YuE2 projector loading (#32606) Allow cls.output.weight to be absent from the mmproj. It is an optional Qwen3 reranking head that the YuE2 NAR decoder never uses. Without this fix, mtmd_init_from_file() fails with \"tensor cls.output.weight is missing from the mmproj\", preventing audio generation from starting. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sil",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12552",
+      "project": "llama-cpp",
+      "version": "b12552",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12552",
+      "published_at": "2026-11-19T21:51:28Z",
+      "body_excerpt": "ggml-openvino: fix OpenVINO CI, minor fixes and optimizations (#32590) ggml-openvino: round the GPU KV length up to a power of two Review notes (follow-ups, not blocking): convert_ggml_input_to_ov pads the KQ mask into a std::vector and then copies it into the ov::Tensor. Writing the padded rows straight into padded.data() avoids the second allocation and copy (up to 16 MB per call at a 16K contex",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12551",
+      "project": "llama-cpp",
+      "version": "b12551",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12551",
+      "published_at": "2026-11-19T21:35:41Z",
+      "body_excerpt": "cuda: Scatter kernel for set_n (#32489) cuda: add scatter for batched tensor writes update test case to mirror get_n test case save restore timing logs refactor code into batch-copy.cu file Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s39",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12550",
+      "project": "llama-cpp",
+      "version": "b12550",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12550",
+      "published_at": "2026-11-19T21:17:47Z",
+      "body_excerpt": "ggml : add backend scheduler tests (#27258) Adds initial scheduler stress tests Adds new sleep op to simplify scheduler testing Adds testcase addressing Adds experimental vulkan GGML_OP_SLEEP Improves structure and naming of previous tests. Adds new tests, including one which detects the nkvo-bug correctly, and validates the proposed hotfix. Cleanup: Removes CUDA specific comments and nvtx-markers",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12549",
+      "project": "llama-cpp",
+      "version": "b12549",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12549",
+      "published_at": "2026-11-19T17:46:04Z",
+      "body_excerpt": "llama: fixes for Inkling 2 attention mask (#32429) llama : give Inkling2 its own relative-position attention input The Inkling2 graph built its flash attention mask from the hybrid iswa input and passed it to build_attn through a new kq_mask argument. That argument let a caller pair its own dense mask with the kv_rows of llm_graph_input_attn_kv_iswa, whose mask follows the per-sequence cell lists ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12548",
+      "project": "llama-cpp",
+      "version": "b12548",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12548",
+      "published_at": "2026-11-19T17:31:56Z",
+      "body_excerpt": "metal : fix the second argument of NSMakeRange (#32602) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12547",
+      "project": "llama-cpp",
+      "version": "b12547",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12547",
+      "published_at": "2026-11-19T17:08:58Z",
+      "body_excerpt": "webgpu: add POOL_2D support (#32250) Shader, pipeline, and launcher Update docs and add newline to wgsl Formatting fixes Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x6",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12546",
+      "project": "llama-cpp",
+      "version": "b12546",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12546",
+      "published_at": "2026-11-19T16:51:36Z",
+      "body_excerpt": "llama : remove redundant fields from llm_graph_params (#32596) llm_graph_params no longer carries hparams, prec_policy and hdmd, since the model reference already provides them. llm_graph_context sources them from the model and keeps prec_policy as a reference. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) Website: Attestations: macOS/iOS: macOS Ap",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12543",
+      "project": "llama-cpp",
+      "version": "b12543",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12543",
+      "published_at": "2026-11-19T16:33:59Z",
+      "body_excerpt": "metal : CONV_2D tensor API for M5, split-K for all chips (#32542) metal: add a tensor API conv_2d kernel and split long reductions The conv_2d matmul kernel runs on simdgroup matrices only, and gives each threadgroup the whole reduction of its output tile. On M5 this leaves the tensor cores unused, and convolutions with few output positions and a long reduction (IC KW KH in the thousands) run a ha",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12542",
+      "project": "llama-cpp",
+      "version": "b12542",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12542",
+      "published_at": "2026-11-19T15:56:29Z",
+      "body_excerpt": "qwen3vl : set t_layer_inp for EAGLE-3 (#32589) Assisted-by: Grok Bot Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12",
+      "type": "tool"
+    },
     {
       "id": "unsloth-v0.1.920-beta",
       "project": "unsloth",
@@ -862,7 +979,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: 1e4cabcf7c08fed89de89ad10a43d41f47cd46b6 Date: 2026-11-19T14:36:36Z Subject: test(addons): list the specs the Windows work added in the suite inventory This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: 90dac3b49b545c5503b31f299aa291c6f751350f Date: 2026-11-19T20:57:27Z Subject: fix(ui): import the storage helpers the Models and Import pages call This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -1698,6 +1815,15 @@
       "project": "ollama",
       "version": "v0.40.17-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
+      "published_at": "2026-11-10T22:25:00Z",
+      "body_excerpt": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in llm: use mmap for Vulkan integrated GPUs by @dhiltgen in rpreslar4765/Ollama by @rpreslar4765 in mlx: support concurrent generation by @dhiltgen in llama.cpp: version bump b12257 by @dhiltgen in MLX, MLX-C: version bump by @dhiltgen in New Contributo",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.17-rc2",
+      "project": "ollama",
+      "version": "v0.40.17-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
       "published_at": "2026-11-10T22:25:00Z",
       "body_excerpt": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in llm: use mmap for Vulkan integrated GPUs by @dhiltgen in rpreslar4765/Ollama by @rpreslar4765 in mlx: support concurrent generation by @dhiltgen in llama.cpp: version bump b12257 by @dhiltgen in MLX, MLX-C: version bump by @dhiltgen in New Contributo",
       "type": "tool"
@@ -14786,87 +14912,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10569",
       "published_at": "2026-08-22T01:17:52Z",
       "body_excerpt": "model: add dots3-note (#27060) text: conversion init impl address review comments fix rope move to a new llama_kv_cache_dsa_iswa Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
-      "type": "tool"
-    },
-    {
-      "id": "sglang-v0.5.18",
-      "project": "sglang",
-      "version": "v0.5.18",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.18",
-      "published_at": "2026-08-22T00:09:15Z",
-      "body_excerpt": "Highlights 710 PRs from 212 contributors. New models in this release (see the cookbook for all supported models): | Model | Type | PRs | Cookbook | |---|---|---|---| | Muse Glimmer | Autoregressive (Multimodal) | #34262 | link | | Intern-S2-Mobius | Autoregressive | #33691 | link | | SANA-Video | Diffusion | #32921 | link | | LingBot-Video-MoE | Diffusion | #32341 | link | | LTX-2.5 | Diffusion | ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10568",
-      "project": "llama-cpp",
-      "version": "b10568",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10568",
-      "published_at": "2026-08-21T22:56:01Z",
-      "body_excerpt": "model: use ggml_rope_set_offset() (#27382) model: use ggml_rope_set_offset() partially apply to deepseek2 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.33.0-rc1",
-      "project": "ollama",
-      "version": "v0.33.0-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc1",
-      "published_at": "2026-08-21T22:52:46Z",
-      "body_excerpt": "What's Changed mlx: fix mac assumptions on linux/windows by @dhiltgen in mlx update by @dhiltgen in lint fixes by @dhiltgen in app: add claude desktop app by @ParthSareen in app: polish onboarding layout and disable zoom by @hoyyeva in launch: fall back to npx for DeepSeek Harness by @ParthSareen in mlxrunner: make prefix cache restore points survive cancelled and resumed prefills by @jessegross i",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.33.0-rc2",
-      "project": "ollama",
-      "version": "v0.33.0-rc2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
-      "published_at": "2026-08-21T22:52:46Z",
-      "body_excerpt": "What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trust",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.33.0-rc3",
-      "project": "ollama",
-      "version": "v0.33.0-rc3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3",
-      "published_at": "2026-08-21T22:52:46Z",
-      "body_excerpt": "What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trust",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.33.0",
-      "project": "ollama",
-      "version": "v0.33.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0",
-      "published_at": "2026-08-21T22:52:46Z",
-      "body_excerpt": "What's Changed Claude Desktop Developers can now easily configure Claude Desktop to seamlessly work with Ollama as a third-party gateway provider. Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every restore point it crossed, so retries resume where they stopped instead of restarting ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10567",
-      "project": "llama-cpp",
-      "version": "b10567",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10567",
-      "published_at": "2026-08-21T18:59:08Z",
-      "body_excerpt": "ci : run ccache-clear as the last step of release jobs (#27503) ci : run ccache-clear as the last step of release jobs Assisted-by: pi:llama.cpp/Qwen3.8-27B update disabled job too to force rebase --------- Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ub",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-v0.2.0",
-      "project": "llama-cpp",
-      "version": "v0.2.0",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.2.0",
-      "published_at": "2026-08-21T18:32:48Z",
-      "body_excerpt": "Overview This version marks the beginning of consistent semantic versioning for . The main goal is to make the job of downstream projects and users simpler when deciding which version of / to distribute and use. The new version tags of the format will mark \"stable\" versions of . The usual tags remain as before - created on almost every commit to the branch. The tags can be considered as \"nightly\" ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10566",
-      "project": "llama-cpp",
-      "version": "b10566",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10566",
-      "published_at": "2026-08-21T18:25:36Z",
-      "body_excerpt": "llama.cpp : bump version to 0.2.0 (#27498) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) And",
       "type": "tool"
     }
   ]
