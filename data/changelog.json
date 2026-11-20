@@ -1,6 +1,141 @@
 {
-  "updated_at": "2026-11-20T00:27:25Z",
+  "updated_at": "2026-11-20T15:08:24Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12577",
+      "project": "llama-cpp",
+      "version": "b12577",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12577",
+      "published_at": "2026-11-20T14:46:35Z",
+      "body_excerpt": "model : load ffn_gate_up_exps scales (#32657) model: load scales The generic scale pass loads per-expert scales for ffn_gate_exps, ffn_up_exps and ffn_down_exps but not for the merged ffn_gate_up_exps. Load ~ffn_gate_up_exps_s there~ and expose it as ffn_up_exps_s ~when the layer has no separate up tensor,~ since build_moe_ffn applies up_exps_s to the merged gate_up output. Inkling 2 now passes th",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12576",
+      "project": "llama-cpp",
+      "version": "b12576",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12576",
+      "published_at": "2026-11-20T14:24:54Z",
+      "body_excerpt": "llama : move the indexer key rotation choice into the model classes (#32653) llama : move the indexer key rotation choice into the model classes The KV cache forced a Hadamard rotation for the lightning indexer keys based on a list of architectures. The virtual llama_model::indexer_k_rot() now returns true for the same models. DeepSeek4.1 inherits from DeepSeek4 but was not in the list, so it over",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12572",
+      "project": "llama-cpp",
+      "version": "b12572",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12572",
+      "published_at": "2026-11-20T14:07:04Z",
+      "body_excerpt": "llama : move the graph node budget into the model classes (#32648) graph_max_nodes() picked the nodes-per-tensor factor from lists of architectures. Each model class now gives it through a new virtual, llama_model::graph_nodes_per_tensor(), which defaults to 8. The architectures that need 32 or 64 override it in models.h, and DFlash keeps its hparams-based rule in dflash.cpp. LoRA adapter nodes ar",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12569",
+      "project": "llama-cpp",
+      "version": "b12569",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12569",
+      "published_at": "2026-11-20T13:49:44Z",
+      "body_excerpt": "llama : reserve graph nodes for the MoE cache (#32636) The MoE cache adds a slot lookup to every MoE layer, and with --moe-cache-cpu-share a second expert path, but graph_max_nodes() did not account for it. Models on the default 8*n_tensors budget with few tensors per layer (cohere2moe: 443 tensors, 49 layers) overflow the graph context when the cache is combined with a quantized KV cache (K/V rot",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12568",
+      "project": "llama-cpp",
+      "version": "b12568",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12568",
+      "published_at": "2026-11-20T13:28:39Z",
+      "body_excerpt": "model: add Domyn Edge 4B Model (#32559) feat: add domyn-edge model Generate tokenizer hash for conversion + fix tests Address changes according to code-review skill catch ValueError in convert_hf_to_gguf_update.py renegerate fusion test baseline + fix model naming style Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12567",
+      "project": "llama-cpp",
+      "version": "b12567",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12567",
+      "published_at": "2026-11-20T12:59:42Z",
+      "body_excerpt": "llamafile(s390x): add QK data type support (#32600) llamafile: add QK support for s390x Signed-off-by: Aaron Teo llamafile: clean up for s390x Signed-off-by: Aaron Teo --------- Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12566",
+      "project": "llama-cpp",
+      "version": "b12566",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12566",
+      "published_at": "2026-11-20T12:43:35Z",
+      "body_excerpt": "kleidiai : allow OHOS (HarmonyOS) AArch64 target (#32265) kleidiai : allow OHOS (HarmonyOS) AArch64 target kleidiai : allow OHOS AArch64 target Assisted-by: GLM Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12565",
+      "project": "llama-cpp",
+      "version": "b12565",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12565",
+      "published_at": "2026-11-20T12:18:05Z",
+      "body_excerpt": "webgpu : fix 2D indexing for copy kernel (#32576) Only run webgpu CI on my fork Add webgpu only workflow resolve merge conflicts Add 2d indexing to copy kernel move test Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.0",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12564",
+      "project": "llama-cpp",
+      "version": "b12564",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12564",
+      "published_at": "2026-11-20T12:00:22Z",
+      "body_excerpt": "CUDA: optimize Orin single-column MMVQ (#31268) CUDA: optimize Orin single-column MMVQ Create a separate Orin branch in Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12563",
+      "project": "llama-cpp",
+      "version": "b12563",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12563",
+      "published_at": "2026-11-20T11:35:05Z",
+      "body_excerpt": "CUDA: keep the MUL_MAT_ID precision in the per-expert fallback (#31345) tests: add CUDA-only MUL_MAT/MUL_MAT_ID cases with results above the fp16 range IQ1_M weights have no MMQ kernel, so once the batch is bigger than the MMVQ limit the path is dequantize + cuBLAS. These cases produce results around 1.3e5, past the fp16 max of 65504, so an fp16 result buffer turns them into inf while the CPU refe",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12562",
+      "project": "llama-cpp",
+      "version": "b12562",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12562",
+      "published_at": "2026-11-20T11:19:42Z",
+      "body_excerpt": "vulkan: optimize RMS_NORM_MUL_ROPE loop control (#31149) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12561",
+      "project": "llama-cpp",
+      "version": "b12561",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12561",
+      "published_at": "2026-11-20T10:46:42Z",
+      "body_excerpt": "vulkan: chunked GATED_DELTA_NET implementation (#30207) vulkan: add cm2 chunked GATED_DELTA_NET shader fix shmem bank conflict bottleneck optimize further add coopmat maintenance1 variant optimize for RDNA4 add gmem version RDNA4 optimize for Ampere fix nvidia shmem overuse fix cm2 validation errors improve cm2 perf improve cm1 perf clean up enable by default show cm maintenance1 marker in device ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12560",
+      "project": "llama-cpp",
+      "version": "b12560",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12560",
+      "published_at": "2026-11-20T09:27:26Z",
+      "body_excerpt": "webgpu : add COL2IM_1D support (#31708) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubunt",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12559",
+      "project": "llama-cpp",
+      "version": "b12559",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12559",
+      "published_at": "2026-11-20T06:56:27Z",
+      "body_excerpt": "opencl: fold GQA head for f16 FA for better efficiency (#32631) Assisted-by: Codex Co-authored-by: Li He Co-authored-by: Hongqiang Wang Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12558",
+      "project": "llama-cpp",
+      "version": "b12558",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12558",
+      "published_at": "2026-11-20T06:38:02Z",
+      "body_excerpt": "vulkan: disable subgroup arithmetic on Qualcomm's driver (#30826) On Adreno, subgroupAdd() after divergent code returns wrong sums. The fused ADD+RMS_NORM partial-sum path hits this, so the decode-step norm is garbage and models emit stray tokens after long prompts. Clear subgroup_arithmetic for the Qualcomm proprietary driver, which also turns off add_rms_fusion and the other subgroupAdd paths. t",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12556",
       "project": "llama-cpp",
@@ -979,7 +1114,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: 90dac3b49b545c5503b31f299aa291c6f751350f Date: 2026-11-19T20:57:27Z Subject: fix(ui): import the storage helpers the Models and Import pages call This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: f59e9cc5559682ab7ca6aacf4a504e11c2836bb6 Date: 2026-11-19T22:56:31Z Subject: test(ui): read the storage keys the app writes now This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -14831,87 +14966,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10585",
       "published_at": "2026-08-22T15:40:46Z",
       "body_excerpt": "common: add json.h abstraction (#27511) add common/json migrate common adapt jinja migrate server big wip migrate tests wip revert some excessive changes wip wip 2 revert redundant changes fix server crash various fixes fix ci harden a bit clean up rm json-shim add some comments rm redundant decl Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ena",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10584",
-      "project": "llama-cpp",
-      "version": "b10584",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10584",
-      "published_at": "2026-08-22T15:06:15Z",
-      "body_excerpt": "fit: also take into account n_streams (#27496) fit: also take into account n_streams server: make the draft context follow the target context With a non-unified KV cache the target context now holds n_ctx_train tokens per sequence, while the draft context was still created with n_ctx = 0 and fell back to n_ctx_train / n_streams per sequence. A slot filled beyond that point makes the draft batch fa",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10582",
-      "project": "llama-cpp",
-      "version": "b10582",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10582",
-      "published_at": "2026-08-22T12:57:30Z",
-      "body_excerpt": "ci : Restore ROCm job for Ubuntu (#27399) Revert \"ci : disable ubuntu-rocm (#26969)\" This reverts commit 9558fa44c92746a58dd07ad1bf0c889715b938a6. ci: set ccache compiler_check=content for ROCm build The ROCm toolchain is pip-installed fresh on every run, so the clang binary's mtime changes each time. With ccache's default compiler_check=mtime that invalidates the whole cache and warm builds only ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10581",
-      "project": "llama-cpp",
-      "version": "b10581",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10581",
-      "published_at": "2026-08-22T10:13:08Z",
-      "body_excerpt": "model : support DSpark for bailingmoe3 (#27508) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10580",
-      "project": "llama-cpp",
-      "version": "b10580",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10580",
-      "published_at": "2026-08-22T09:33:51Z",
-      "body_excerpt": "mtmd: support dots3-note vision+audio (#27524) text: conversion init impl mtmd: conversion impl mtmd cpp Update gguf-py/gguf/tensor_mapping.py Co-authored-by: Sigbjørn Skjæret --------- Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10578",
-      "project": "llama-cpp",
-      "version": "b10578",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10578",
-      "published_at": "2026-08-22T09:10:17Z",
-      "body_excerpt": "ggml: optimize concat op by replacing per-element memcpy with row-level memcpy (#24575) ggml: optimize concat op by replacing per-element memcpy with row-level memcpy ggml: fix concat offsets for row-level copies ggml: add concat row contiguity asserts ggml: move concat block size asserts ggml: remove redundant concat asserts Update ggml/src/ggml-cpu/ops.cpp Co-authored-by: Sigbjørn Skjæret ------",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10577",
-      "project": "llama-cpp",
-      "version": "b10577",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10577",
-      "published_at": "2026-08-22T08:13:36Z",
-      "body_excerpt": "common : fix draft-mtp with embeddings (#26352, #27299) (#27400) common: fix draft-mtp with embeddings (#26352) --whitespace --------- Co-authored-by: Sigbjørn Skjæret Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10576",
-      "project": "llama-cpp",
-      "version": "b10576",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10576",
-      "published_at": "2026-08-22T07:49:02Z",
-      "body_excerpt": "sycl : add Q2_K reordered MMVQ and ESIMD kernels (again) (#27490) Revert \"Revert \"sycl : add Q2_K reordered MMVQ and ESIMD kernels (#26336)\" (#…\" This reverts commit 7a0e42fd01fb0acda644e4f04b1f1acbbb9e23ba. add gate params Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) U",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10573",
-      "project": "llama-cpp",
-      "version": "b10573",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10573",
-      "published_at": "2026-08-22T05:39:21Z",
-      "body_excerpt": "mtmd: support webp via ffmpeg (#27520) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14)DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10569",
-      "project": "llama-cpp",
-      "version": "b10569",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10569",
-      "published_at": "2026-08-22T01:17:52Z",
-      "body_excerpt": "model: add dots3-note (#27060) text: conversion init impl address review comments fix rope move to a new llama_kv_cache_dsa_iswa Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
       "type": "tool"
     }
   ]
