@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-11-20T23:50:26Z",
+  "updated_at": "2026-11-21T06:27:27Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12602",
+      "project": "llama-cpp",
+      "version": "b12602",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12602",
+      "published_at": "2026-11-21T04:28:53Z",
+      "body_excerpt": "sycl: Improve Grouped XMX GEMM by avoiding SLM staging (#31428) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - C",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.922-beta",
+      "project": "unsloth",
+      "version": "v0.1.922-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.922-beta",
+      "published_at": "2026-11-20T23:53:26Z",
+      "body_excerpt": "Run the new Inkling 2 Mini model, the strongest 26.4B model that runs on 16GB RAM. This release makes image generation faster and lighter on small GPUs. Macs with Apple Silicon can now restyle videos, and chats that use MCP tools no longer reprocess the whole conversation on every message. Highlights Inkling 2 Mini - less memory usage and faster. New 26B (5.4 active) 1M context - Guide MiniMax-H3-",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12600",
       "project": "llama-cpp",
@@ -1258,7 +1276,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: 7ae572a6188f80dab3e9b9ab50a56ab89fe1d0f6 Date: 2026-11-20T18:00:58Z Subject: fix(openai): avoid invalid tool calls for client-supplied MCP tools (#13333) This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: 9070ae1a1e1ed2e0cf25bb087ee993ff59b82c82 Date: 2026-11-21T00:02:21Z Subject: fix(worker): start the llama-cpp RPC server through the backend run.sh This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -2114,6 +2132,15 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4",
       "published_at": "2026-11-10T22:25:00Z",
       "body_excerpt": "Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench Verified). ## What's Changed supports Claude Code's deferred tool loading, so MCP tools are loaded wh",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.17",
+      "project": "ollama",
+      "version": "v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
+      "published_at": "2026-11-10T22:25:00Z",
+      "body_excerpt": "Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench Verified). Note: inkling-2-mini is supported on Apple silicon only in this release. PC support will f",
       "type": "tool"
     },
     {
