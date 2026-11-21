@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-11-21T06:27:27Z",
+  "updated_at": "2026-11-21T18:55:21Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12608",
+      "project": "llama-cpp",
+      "version": "b12608",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12608",
+      "published_at": "2026-11-21T16:05:19Z",
+      "body_excerpt": "ggml-cpu: fix nc aligment in tinyBLAS_PPC_Q0 (#32659) Fixes The matmul_tiled() implementation in tinyBLAS_Q0_PPC requires nc to be a multiple of 8 to perform matrix multiplication correctly. The previous alignment logic contained a special case for n == 4, which allowed n_aligned to be 4. Consequently, the tiled path could be selected with nc = 4, violating the kernel's tile-width requirement. Thi",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.24.0",
+      "project": "transformers",
+      "version": "v5.24.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
+      "published_at": "2026-11-21T12:28:26Z",
+      "body_excerpt": "Release v5.24.0 New Model additions Inkling 2 Mini Inkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Small, added in v5.23.0. It has 24 decoder layers instead of 48, and compensates with a looping mechanism in which layers 6 to 17 run three times. A learned message-passing mechanism mi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12606",
+      "project": "llama-cpp",
+      "version": "b12606",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12606",
+      "published_at": "2026-11-21T10:28:59Z",
+      "body_excerpt": "llama : remove fused lightning indexer gating (#32650) The fused lightning indexer is always used now, so drop the cparams flags, the auto probe and the non-fused fallbacks. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12604",
+      "project": "llama-cpp",
+      "version": "b12604",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12604",
+      "published_at": "2026-11-21T10:05:49Z",
+      "body_excerpt": "llama-grammar: Fix integer overflow (#32551) llama-grammar: Fix integer overflow Check incorrect values at parsing and bail out nicely fix style Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.0",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12603",
+      "project": "llama-cpp",
+      "version": "b12603",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12603",
+      "published_at": "2026-11-21T09:29:12Z",
+      "body_excerpt": "llama : score only the k-pools of the ubatch sequences in QSA (#32519) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12602",
       "project": "llama-cpp",
@@ -1276,7 +1321,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: 9070ae1a1e1ed2e0cf25bb087ee993ff59b82c82 Date: 2026-11-21T00:02:21Z Subject: fix(worker): start the llama-cpp RPC server through the backend run.sh This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: e2ce44372bebd4ee8f71108690484ab421094303 Date: 2026-11-21T15:26:08Z Subject: test(ui): hold the estimate until the sizing state is seen This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -15038,78 +15083,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10604",
       "published_at": "2026-08-24T07:17:22Z",
       "body_excerpt": "Deepseek 4: (#26490) DSV4: sm tensor set coarser granularity for head splits fix dspark add model saving for dsv4 + allow dflash to return on specific device add comment about dsv4 seq_rm simplify add shared expert delayed allreduce remove special test for dsv4 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10603",
-      "project": "llama-cpp",
-      "version": "b10603",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10603",
-      "published_at": "2026-08-23T18:45:59Z",
-      "body_excerpt": "model : support MTP in GLM-4.5-Air (#26534) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10599",
-      "project": "llama-cpp",
-      "version": "b10599",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10599",
-      "published_at": "2026-08-23T17:39:41Z",
-      "body_excerpt": "test: move tools/parser to tests (#27548) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10598",
-      "project": "llama-cpp",
-      "version": "b10598",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10598",
-      "published_at": "2026-08-23T17:16:10Z",
-      "body_excerpt": "mtmd: use pillow-accurate algo, correct resize_algo for all models (#27594) mtmd: use pillow-accurate resize algo, correct resize_algo for all models speed optimization Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10595",
-      "project": "llama-cpp",
-      "version": "b10595",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10595",
-      "published_at": "2026-08-23T13:44:15Z",
-      "body_excerpt": "server : add LLAMA_SERVER_SLOTS_N_DIFF (#27600) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10594",
-      "project": "llama-cpp",
-      "version": "b10594",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10594",
-      "published_at": "2026-08-23T13:21:44Z",
-      "body_excerpt": "common : skip device_info loop if it's not going to be printed (#26692) The device_info loop iterates over the discovered devices and gets the available and total memory counts. With the CUDA backend (and possibly others too) this requires creating a GPU context, which, in case of CUDA, results in a 550 MB VRAM allocation. For this information to be used in any way, the log verbosity must be set t",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10593",
-      "project": "llama-cpp",
-      "version": "b10593",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10593",
-      "published_at": "2026-08-23T11:40:07Z",
-      "body_excerpt": "DeepseekV4: fix rollback with multi-seq (#26756) DeepseekV4: fix rollback with multi-seq fix model loading make pending rollback single use only clear cache for seq_id for full load add assert for compress ratio make graph topology static pass true instead of flags in clear_compressed cont : clean-up + TODOs --------- Co-authored-by: Georgi Gerganov Website: Attestations: macOS/iOS: macOS Apple Si",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10590",
-      "project": "llama-cpp",
-      "version": "b10590",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10590",
-      "published_at": "2026-08-23T08:20:51Z",
-      "body_excerpt": "vendor : update subprocess.h (#27409) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10589",
-      "project": "llama-cpp",
-      "version": "b10589",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10589",
-      "published_at": "2026-08-23T07:59:06Z",
-      "body_excerpt": "cuda : add POOL_1D support (#27573) cuda : add POOL_1D support fix: add missing trailing newline for editorconfig compliance Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.1",
       "type": "tool"
     }
   ]
