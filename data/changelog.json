@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-11-22T14:27:09Z",
+  "updated_at": "2026-11-22T23:26:39Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12633",
+      "project": "llama-cpp",
+      "version": "b12633",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12633",
+      "published_at": "2026-11-22T14:53:42Z",
+      "body_excerpt": "ggml : fix nonzero clear on WebGPU and non-UMA devices (#32727) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12632",
+      "project": "llama-cpp",
+      "version": "b12632",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12632",
+      "published_at": "2026-11-22T14:37:40Z",
+      "body_excerpt": "HIP: fix double halving of NVFP4 scales on CDNA3 (#32790) Fixes #32789 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12631",
       "project": "llama-cpp",
@@ -1492,7 +1510,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: e68e9fbbab5242cc4fcd80e89b90640b03b9c68f Date: 2026-11-22T09:00:57Z Subject: fix(trace): keep persisted traces when one file cannot be read This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: ad8bb0044a62268cd3ccb42a2cbfceca80f3878b Date: 2026-11-22T17:36:54Z Subject: feat(strata): run Tencent Hy4-Flash on the strata-hy4 engine (#13389) This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -15146,42 +15164,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10617",
       "published_at": "2026-08-25T06:44:51Z",
       "body_excerpt": "sycl : mark tq2_0 as not supported (#27660) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Nemotron-3-Diarization-preview",
-      "project": "nvidia",
-      "version": "Nemotron-3-Diarization-preview",
-      "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization-preview",
-      "published_at": "2026-08-24T23:00:02Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-google-timesfm-3.0-pytorch",
-      "project": "google",
-      "version": "timesfm-3.0-pytorch",
-      "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
-      "published_at": "2026-08-24T22:05:51Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10615",
-      "project": "llama-cpp",
-      "version": "b10615",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10615",
-      "published_at": "2026-08-24T21:53:12Z",
-      "body_excerpt": "metal : per-device tuned (Q, NE) for flash-attn vec (#26570) metal : per-device tuned (Q, NE) for flash-attn vec (#25750) rebase Q-generic FA vec body from 01dc93607 (#23114) add 53 f16 (Q,NE) flash-attn vec instantiations (vec 80 -> 133) add FA vec (Q,NE) tuning table + dispatch wiring + SMEM cap fallback add FA vec (Q,NE) perf sweep fill tuning result fold family table into a per-family represen",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10614",
-      "project": "llama-cpp",
-      "version": "b10614",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10614",
-      "published_at": "2026-08-24T21:23:31Z",
-      "body_excerpt": "metal: per-op source split + parallel compile (#26561) metal : per-op source split + parallel compile (#24021) preliminary extract common header op source split split metallib into 8 libs && load in parallel derive kernel->library routing from functionNames x-macro lib list + underscore filenames, dedup QK_NL, MRC fixes op source split 8 to 20 improve robustness of source fallback clean up change ",
       "type": "tool"
     }
   ]
