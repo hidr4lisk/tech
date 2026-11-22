@@ -1,6 +1,150 @@
 {
-  "updated_at": "2026-11-21T18:55:21Z",
+  "updated_at": "2026-11-22T05:57:25Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12627",
+      "project": "llama-cpp",
+      "version": "b12627",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12627",
+      "published_at": "2026-11-22T03:51:24Z",
+      "body_excerpt": "server : fit non-causal batches in one ubatch (#32713) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12626",
+      "project": "llama-cpp",
+      "version": "b12626",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12626",
+      "published_at": "2026-11-22T02:20:06Z",
+      "body_excerpt": "vulkan : fix memset for unaligned ranges for non-UMA devices (#32725) See Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12625",
+      "project": "llama-cpp",
+      "version": "b12625",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12625",
+      "published_at": "2026-11-22T02:01:35Z",
+      "body_excerpt": "model: fix no_realloc for clef and vllm-decision2 (#32754) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 1",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12624",
+      "project": "llama-cpp",
+      "version": "b12624",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12624",
+      "published_at": "2026-11-22T01:47:52Z",
+      "body_excerpt": "chat : pass reasoning_effort = none if supported (#32763) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12623",
+      "project": "llama-cpp",
+      "version": "b12623",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12623",
+      "published_at": "2026-11-22T01:11:05Z",
+      "body_excerpt": "mtmd : merge Parakeet rel-pos views to avoid OOB (#32722) Assisted-by: Grok Bot Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12622",
+      "project": "llama-cpp",
+      "version": "b12622",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12622",
+      "published_at": "2026-11-22T00:49:57Z",
+      "body_excerpt": "model: apply .scale tensors automatically + fix correctness (#32669) model: apply .scale tensors automatically rm build_moe_ffn \"_s\" overload use llama_prec_policy fix ci build_lora_mm_id: rm w_s Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12621",
+      "project": "llama-cpp",
+      "version": "b12621",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12621",
+      "published_at": "2026-11-22T00:37:17Z",
+      "body_excerpt": "sycl: bound CONV_TRANSPOSE_1D input iteration (#31109) Used angelX to optimize SYCL/drama 3 coordination, results are as follows Each output reads only inputs with i*s0 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12620",
+      "project": "llama-cpp",
+      "version": "b12620",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12620",
+      "published_at": "2026-11-22T00:16:20Z",
+      "body_excerpt": "ggml : improvements to the memory access pattern in (#30846) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12619",
+      "project": "llama-cpp",
+      "version": "b12619",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12619",
+      "published_at": "2026-11-21T23:45:36Z",
+      "body_excerpt": "mtmd: support kyutai/hibiki realtime full-duplex (#32491) mtmd: support hibiki realtime duplex fix and clean up fix long session quality fix ci tests : add the moshi fusion baseline for Metal The Metal fusion check found 5 RMS_NORM+MUL fusions in the new moshi arch and no baseline for them. --------- Co-authored-by: Pascal Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple S",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12618",
+      "project": "llama-cpp",
+      "version": "b12618",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12618",
+      "published_at": "2026-11-21T23:30:57Z",
+      "body_excerpt": "sycl: add IQ4_NL and IQ4_XS weight reorder (#31998) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 lib",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12617",
+      "project": "llama-cpp",
+      "version": "b12617",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12617",
+      "published_at": "2026-11-21T23:04:00Z",
+      "body_excerpt": "sycl: column-blocked gated_delta_net kernel (#32456) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 li",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12615",
+      "project": "llama-cpp",
+      "version": "b12615",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12615",
+      "published_at": "2026-11-21T22:47:34Z",
+      "body_excerpt": "sycl: add fused ADD, RMS_NORM, MUL and vectorize rms norm (#31753) sycl: vectorize contiguous rms norm sycl: add fused ADD, RMS_NORM, MUL tests: test fused ADD, RMS_NORM, MUL at decode widths Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12613",
+      "project": "llama-cpp",
+      "version": "b12613",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12613",
+      "published_at": "2026-11-21T19:40:37Z",
+      "body_excerpt": "vulkan: unroll FA coopmat1 array due to a driver bug on AMD Windows (#32466) vulkan: unroll FA coopmat1 array due to a driver bug on AMD Windows simplify code to make it clearer Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12612",
+      "project": "llama-cpp",
+      "version": "b12612",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12612",
+      "published_at": "2026-11-21T19:28:39Z",
+      "body_excerpt": "vulkan: improve RDNA4 MMVQ performance for Q3_K, Q5_K and IQ4_XS (#31804) vulkan: keep default MMVQ rows for Q3_K, Q5_K, IQ4_XS on RDNA4 AMD proprietary driver Assisted-by: Claude Opus 5.5 clean up mmvq shader load logic --------- Co-authored-by: Ruben Ortlam Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS X",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12611",
+      "project": "llama-cpp",
+      "version": "b12611",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12611",
+      "published_at": "2026-11-21T19:12:42Z",
+      "body_excerpt": "model : inkling2_loop share the loop slots after the scale pass (#32704) The loop slots copied the physical layers at the end of load_arch_tensors, before the generic pass attaches the optional .scale tensors, so the later passes through the core ran NVFP4 experts without their per-expert scales. Add an optional post_arch_tensors hook that runs after the scale pass and share the slots there. Websi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12609",
+      "project": "llama-cpp",
+      "version": "b12609",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12609",
+      "published_at": "2026-11-21T18:59:46Z",
+      "body_excerpt": "ggml-zdnn: fix ztensor load race condition (#32279) Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12608",
       "project": "llama-cpp",
@@ -1321,7 +1465,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: e2ce44372bebd4ee8f71108690484ab421094303 Date: 2026-11-21T15:26:08Z Subject: test(ui): hold the estimate until the sizing state is seen This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: bf3ce1e1761797db61f9c88d5281cf58c3dfc10f Date: 2026-11-21T23:10:09Z Subject: feat(workers): join with a token and hold a per-node credential This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
