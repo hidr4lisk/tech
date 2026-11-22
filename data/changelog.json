@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-22T05:57:25Z",
+  "updated_at": "2026-11-22T14:27:09Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12631",
+      "project": "llama-cpp",
+      "version": "b12631",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12631",
+      "published_at": "2026-11-22T09:03:19Z",
+      "body_excerpt": "webgpu : update GDN supports_op check (#32782) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librarie",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12629",
+      "project": "llama-cpp",
+      "version": "b12629",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12629",
+      "published_at": "2026-11-22T08:43:35Z",
+      "body_excerpt": "opencl: add coopmat GEMM for Adreno 850 (Q4_0, Q5_0, Q8_0, Q4_K, Q5_K, Q6_K) (#32686) opencl: add Q4_0 coopmat GEMM for Adreno 850 Assisted-by: Claude Opus 5.5 opencl: add Q5_0 coopmat GEMM for Adreno 850 opencl: add Q8_0 coopmat GEMM for Adreno 850 opencl: add Q4_K coopmat GEMM for Adreno 850 opencl: add Q5_K coopmat GEMM for Adreno 850 opencl: add Q6_K coopmat GEMM for Adreno 850 Website: Attest",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12628",
+      "project": "llama-cpp",
+      "version": "b12628",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12628",
+      "published_at": "2026-11-22T06:53:42Z",
+      "body_excerpt": "vulkan : support non-contiguous src in SCALE (#32735) Assisted-By: Opus 5.5 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12627",
       "project": "llama-cpp",
@@ -1465,7 +1492,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: bf3ce1e1761797db61f9c88d5281cf58c3dfc10f Date: 2026-11-21T23:10:09Z Subject: feat(workers): join with a token and hold a per-node credential This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: e68e9fbbab5242cc4fcd80e89b90640b03b9c68f Date: 2026-11-22T09:00:57Z Subject: fix(trace): keep persisted traces when one file cannot be read This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -15155,78 +15182,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10614",
       "published_at": "2026-08-24T21:23:31Z",
       "body_excerpt": "metal: per-op source split + parallel compile (#26561) metal : per-op source split + parallel compile (#24021) preliminary extract common header op source split split metallib into 8 libs && load in parallel derive kernel->library routing from functionNames x-macro lib list + underscore filenames, dedup QK_NL, MRC fixes op source split 8 to 20 improve robustness of source fallback clean up change ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10612",
-      "project": "llama-cpp",
-      "version": "b10612",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10612",
-      "published_at": "2026-08-24T13:41:50Z",
-      "body_excerpt": "tests : disable DOTS3NOTE arch test for WebGPU (#27654) Co-authored-by: Stanisław Szymczyk Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x6",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10610",
-      "project": "llama-cpp",
-      "version": "b10610",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10610",
-      "published_at": "2026-08-24T13:16:46Z",
-      "body_excerpt": "ggml : shorten virtual device naming in CUDA and Metal (#27608) ggml : shorten virtual device naming in CUDA and Metal Assisted-by: llama.cpp:DeepSeek-V4-Flash-0731 ggml-metal : build device description at init Assisted-by: llama.cpp:DeepSeek-V4-Flash-0731 cont : naming Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10608",
-      "project": "llama-cpp",
-      "version": "b10608",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10608",
-      "published_at": "2026-08-24T12:55:00Z",
-      "body_excerpt": "mtmd: video: fix moov atom at the end of file (#27596) mtmd: video: fix moov at the end of file Co-authored-by: rkfg fix SIGPIPE windows: handle broken pipe case --------- Co-authored-by: rkfg Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10606",
-      "project": "llama-cpp",
-      "version": "b10606",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10606",
-      "published_at": "2026-08-24T12:31:43Z",
-      "body_excerpt": "ggml : fix ggml_clamp (#27644) ggml : fix ggml_clamp cont : update ggml-alloc Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10605",
-      "project": "llama-cpp",
-      "version": "b10605",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10605",
-      "published_at": "2026-08-24T08:57:22Z",
-      "body_excerpt": "mamba2 : Flatten in/out projections to dispatch GEMM instead of GEMV (#27513) mamba2 : flatten mamba2 in/out projections to dispatch gemm instead of gemv mamba2 : remove redundant output reshape Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390",
-      "type": "tool"
-    },
-    {
-      "id": "hf-Qwen-Qwen3.8-Flash-Next-FP8",
-      "project": "Qwen",
-      "version": "Qwen3.8-Flash-Next-FP8",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8",
-      "published_at": "2026-08-24T08:25:23Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-Qwen-Qwen3.8-Flash-Next",
-      "project": "Qwen",
-      "version": "Qwen3.8-Flash-Next",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-      "published_at": "2026-08-24T08:24:59Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10604",
-      "project": "llama-cpp",
-      "version": "b10604",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10604",
-      "published_at": "2026-08-24T07:17:22Z",
-      "body_excerpt": "Deepseek 4: (#26490) DSV4: sm tensor set coarser granularity for head splits fix dspark add model saving for dsv4 + allow dflash to return on specific device add comment about dsv4 seq_rm simplify add shared expert delayed allreduce remove special test for dsv4 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS",
       "type": "tool"
     }
   ]
