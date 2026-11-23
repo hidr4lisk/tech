@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-23T06:48:04Z",
+  "updated_at": "2026-11-23T23:38:35Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12655",
+      "project": "llama-cpp",
+      "version": "b12655",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12655",
+      "published_at": "2026-11-23T23:18:35Z",
+      "body_excerpt": "cmake: treat kleidiai files as vendored (#32605) cmake: treat kleidiai files as vendored Signed-off-by: Aaron Teo cmake: use quotes and semicolon separators Signed-off-by: Aaron Teo --------- Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu a",
+      "type": "tool"
+    },
+    {
+      "id": "whisper-cpp-v1.9.6",
+      "project": "whisper-cpp",
+      "version": "v1.9.6",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.6",
+      "published_at": "2026-11-23T17:51:11Z",
+      "body_excerpt": "Overview New version has been released. More info: dist : releases and versioning of ggml-org projects Changelog since v1.9.5 96ec4d98 ggml : revert 5922450fbce (#4200) 5eaee0cc ci : update CUDA 11.8.0 CUBLAS version to 11.11.3.6 (#4195) 258bb629 ci : update deploy-examples-wasm workflow plugins (#4194) 95b3b2f8 go : replace -fopenmp with -lgomp in cgo LDFLAGS (#4180) b5f9f6bb cli : fix output wts",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.923-beta",
+      "project": "unsloth",
+      "version": "v0.1.923-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.923-beta",
+      "published_at": "2026-11-23T15:40:51Z",
+      "body_excerpt": "Inkling 2 Mini runs up to 1.9x faster on all GPUs for decoding + RTX Spark improvements. Also new: faster GRPO and AsyncGRPO training, Qwen-Image-Flash and FastWan, a Knowledge page in Settings and audio, subtitle and image translation. Highlights Inkling 2 Mini on 8 to 12 GB GPUs up to 1.9x faster decoding guide Multi-GPU diffusion LoRA training about 2x the samples per second on two GPUs Qwen-Im",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12651",
+      "project": "llama-cpp",
+      "version": "b12651",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12651",
+      "published_at": "2026-11-23T08:52:50Z",
+      "body_excerpt": "webgpu : add ROLL support (#31887) webgpu : add ROLL support tests : keep ROLL cases portable across backends Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12650",
+      "project": "llama-cpp",
+      "version": "b12650",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12650",
+      "published_at": "2026-11-23T08:36:57Z",
+      "body_excerpt": "chat : improve inkling parser/grammar (#32833) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librarie",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12649",
+      "project": "llama-cpp",
+      "version": "b12649",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12649",
+      "published_at": "2026-11-23T06:55:55Z",
+      "body_excerpt": "opencl: add xielu (#32791) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12648",
       "project": "llama-cpp",
@@ -992,6 +1046,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-allenai-RoboTracker-Warp",
+      "project": "allenai",
+      "version": "RoboTracker-Warp",
+      "url": "https://huggingface.co/allenai/RoboTracker-Warp",
+      "published_at": "2026-11-18T00:54:55Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "llama-cpp-b12489",
       "project": "llama-cpp",
       "version": "b12489",
@@ -1017,6 +1080,15 @@
       "published_at": "2026-11-18T00:17:23Z",
       "body_excerpt": "Title: CUDA: few-row MMQ for MUL_MAT_ID (#32065) CUDA: few-row MMQ for MUL_MAT_ID CUDA: few-row MMQ for MUL_MAT_ID from 2 tokens on DGX Spark CUDA: few-row MUL_MAT_ID: one launcher, tighter pair count, more tests CUDA: few-row MUL_MAT_ID: dispatch order MMVQ, few-row, MMQ and review fixes Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DI",
       "type": "tool"
+    },
+    {
+      "id": "hf-allenai-RoboTracker",
+      "project": "allenai",
+      "version": "RoboTracker",
+      "url": "https://huggingface.co/allenai/RoboTracker",
+      "published_at": "2026-11-17T23:59:48Z",
+      "body_excerpt": "",
+      "type": "model"
     },
     {
       "id": "llama-cpp-b12485",
@@ -1609,7 +1681,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: 05eb448aada6274ed10ba37b9349e0a7149bea9e Date: 2026-11-22T23:56:40Z Subject: fix(ui): use the banner llama as the web UI mascot (#13403) This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: fe3189bd535dbba1eaf0725bc61ae25240634986 Date: 2026-11-23T21:03:51Z Subject: fix(p2p): recover a paired remote when the server's IP address changes (#13432) This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -15146,114 +15218,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10631",
       "published_at": "2026-08-26T06:04:59Z",
       "body_excerpt": "ggml-meta: propagate buffer usage and call init on the new tensors (#27586) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) U",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10630",
-      "project": "llama-cpp",
-      "version": "b10630",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10630",
-      "published_at": "2026-08-25T21:37:00Z",
-      "body_excerpt": "kleidiai: Rework KleidiAI Build System/Integration (#26077) Rework KleidiAI Build System/Integration Signed-off-by: Jonathan Clohessy Add fp16 guard, and fix cmake caching issue Signed-off-by: Jonathan Clohessy Fix formatting, and rebase issue Signed-off-by: Jonathan Clohessy --------- Signed-off-by: Jonathan Clohessy Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silico",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10629",
-      "project": "llama-cpp",
-      "version": "b10629",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10629",
-      "published_at": "2026-08-25T20:24:28Z",
-      "body_excerpt": "ci : update OS used for ROCM to Ubuntu 24.04 (#27681) This matches what other build targets use and also what AMD advertises wheels as supporting. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
-      "type": "tool"
-    },
-    {
-      "id": "hf-nvidia-Qwen3.8-2.4T-A95B-NVFP4",
-      "project": "nvidia",
-      "version": "Qwen3.8-2.4T-A95B-NVFP4",
-      "url": "https://huggingface.co/nvidia/Qwen3.8-2.4T-A95B-NVFP4",
-      "published_at": "2026-08-25T18:55:42Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10628",
-      "project": "llama-cpp",
-      "version": "b10628",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10628",
-      "published_at": "2026-08-25T18:06:50Z",
-      "body_excerpt": "rpc: support apple RDMA as an RPC transport (#26421) rpc: support apple RDMA as an RPC transport remove set_tensor micro optimization, rpc socket pinning per CR remove transparent reconnect trigger apple builds on RPC changes --------- Co-authored-by: Ryan Churaman Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64)",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10625",
-      "project": "llama-cpp",
-      "version": "b10625",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10625",
-      "published_at": "2026-08-25T17:26:21Z",
-      "body_excerpt": "chat : scope qwen3-coder workarounds (#27679) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android:",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.803-beta",
-      "project": "unsloth",
-      "version": "v0.1.803-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.803-beta",
-      "published_at": "2026-08-25T13:12:45Z",
-      "body_excerpt": "Thanks for the support for Qwen3.8-27B and Unsloth Desktop! This is a bug fix release with 170+ PRs. MLX fixed - Some MLX and Mac runtimes did not run correctly LAN API keyless / password-less + Keyboard shortcuts XET / HTTP download toggle - clearer download progress AMD bug fixes + 170 bug, reliability & performance fixes Features Auto Compaction (Experimental) for longer chats beyond context li",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10622",
-      "project": "llama-cpp",
-      "version": "b10622",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10622",
-      "published_at": "2026-08-25T12:16:56Z",
-      "body_excerpt": "metal : null-check buffer alloc to fix OOM crash (#25371) metal : null-check ggml_metal_buffer_init result to avoid OOM crash ggml_backend_metal_buffer_type_alloc_buffer used the result of ggml_metal_buffer_init without checking for NULL. ggml_metal_buffer_init returns NULL when the underlying Metal allocation fails (e.g. an out-of-memory condition), and the following ggml_metal_buffer_is_shared(r",
-      "type": "tool"
-    },
-    {
-      "id": "unsloth-v0.1.802-beta",
-      "project": "unsloth",
-      "version": "v0.1.802-beta",
-      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.802-beta",
-      "published_at": "2026-08-25T11:27:29Z",
-      "body_excerpt": "Thanks for the support for Qwen3.8-27B and Unsloth Desktop! This is a bug fix release with 170+ PRs. MLX fixed - Some MLX and Mac runtimes did not run correctly LAN API keyless / password-less is now supported XET / HTTP download toggle - clearer download progress AMD bug fixes for Strix Halo, all RDNA GPUs + 170 bug fixes Features Auto Compaction (Experimental) for longer chats beyond context lim",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-v0.3.0",
-      "project": "llama-cpp",
-      "version": "v0.3.0",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.3.0",
-      "published_at": "2026-08-25T10:22:58Z",
-      "body_excerpt": "## Overview llama.cpp 0.3.0 introduces the dots3-note multimodal model (with a new DSA-ISWA KV cache), MTP support for GLM-4.5-Air, and tensor-split () plus multi-sequence rollback fixes for DeepSeek 4. ggml is bumped to v0.22.0 (meta-backend tensor split, per-op Metal kernels with parallel compilation, non-in-place ), while mtmd gains dots3-note vision/audio, WebP decoding and a Pillow-accurate r",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10621",
-      "project": "llama-cpp",
-      "version": "b10621",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10621",
-      "published_at": "2026-08-25T10:17:02Z",
-      "body_excerpt": "llama.cpp : bump version to 0.3.0 (#27696) llama.cpp : bump version to 0.3.0 ci : update release default desc scripts : add prompt for generating release summary Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubunt",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10620",
-      "project": "llama-cpp",
-      "version": "b10620",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10620",
-      "published_at": "2026-08-25T09:34:33Z",
-      "body_excerpt": "sync : ggml Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wind",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10618",
-      "project": "llama-cpp",
-      "version": "b10618",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10618",
-      "published_at": "2026-08-25T07:06:56Z",
-      "body_excerpt": "grammar : parse \\- in char classes as literal hyphen (#27591) grammar : accept \"\\-\" escape in character classes gbnf_escape_char_class() escapes '-' as \"\\-\" but parse_char() rejected that escape, so generated tool-call grammars failed to parse. Assisted-by: Claude Code tests : add parser test for \"\\-\" in char classes Assisted-by: Claude Code tests : add integration test for \"\\-\" in char classes As",
       "type": "tool"
     }
   ]
