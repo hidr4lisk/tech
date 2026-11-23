@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-11-22T23:26:39Z",
+  "updated_at": "2026-11-23T06:48:04Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12648",
+      "project": "llama-cpp",
+      "version": "b12648",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12648",
+      "published_at": "2026-11-23T03:32:10Z",
+      "body_excerpt": "opencl: add q4_k coop-k c8 GEMM for spec verify (#32716) opencl: add q4_k coop-k c8 GEMM for spec verify Co-authored-by: Hongqiang Wang Assisted-by: Codex opencl: enable q4_k c8 GEMM for n >= 2 for X2 --------- Co-authored-by: Hongqiang Wang Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12647",
+      "project": "llama-cpp",
+      "version": "b12647",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12647",
+      "published_at": "2026-11-23T03:18:13Z",
+      "body_excerpt": "tests : compare only the guaranteed GDN snapshot slots (#32820) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12646",
+      "project": "llama-cpp",
+      "version": "b12646",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12646",
+      "published_at": "2026-11-23T03:00:02Z",
+      "body_excerpt": "ggml-backend : generic fallback in ggml_backend_tensor_memset (#32574) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12645",
+      "project": "llama-cpp",
+      "version": "b12645",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12645",
+      "published_at": "2026-11-23T02:32:03Z",
+      "body_excerpt": "chat: fix LFM2.5-VL template detection (#32843) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librari",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12644",
+      "project": "llama-cpp",
+      "version": "b12644",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12644",
+      "published_at": "2026-11-23T02:15:54Z",
+      "body_excerpt": "mtmd: speed up shared audio FFT (#32815) mtmd: speed up shared audio FFT Replace recursive radix-2 splitting with iterative stages and batch the existing odd-size DFT across subsequences, preserving the previous operation order. Input buffers now hold only N real values for FFT or 2N interleaved floats for inverse FFT. Add test_audio_fft for forward and inverse transforms. Assisted-by: Claude nits",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12643",
+      "project": "llama-cpp",
+      "version": "b12643",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12643",
+      "published_at": "2026-11-23T02:01:24Z",
+      "body_excerpt": "mtmd: fix qwen3a audio tail (#32697) add: test to reporduce error reported in fix: remove extra tokens from zero-padding of Qwen3-Omni / Qwen3-ASR audio add: qwen3a_tokens_for_frames instead of magic numbers refactor: only ggml_pad when required refactor: move qwen3a_tokens_for_frames as static member of mtmd_graph_qwen3a and add test remove: trailing empty line --------- Co-authored-by: george bu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12642",
+      "project": "llama-cpp",
+      "version": "b12642",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12642",
+      "published_at": "2026-11-23T01:47:24Z",
+      "body_excerpt": "llama : copy all experts of a host weight shared by several nodes (#32807) llama : copy all experts of a host weight shared by several nodes The scheduler copies a host weight to the device once per graph, so a partial expert copy made for the first MUL_MAT_ID is stale for the others (e.g. the shared layers of inkling2_loop with --n-cpu-moe). Assisted-by: Claude Opus 5.5 llama : copy all experts o",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12641",
+      "project": "llama-cpp",
+      "version": "b12641",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12641",
+      "published_at": "2026-11-23T01:34:25Z",
+      "body_excerpt": "vocab: enable ignore_merges for inkling2 (#32799) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libra",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12640",
+      "project": "llama-cpp",
+      "version": "b12640",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12640",
+      "published_at": "2026-11-23T01:19:17Z",
+      "body_excerpt": "server : add offset pagination to grep_search tool (#32792) Signed-off-by: Adrien Gallouët Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12638",
+      "project": "llama-cpp",
+      "version": "b12638",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12638",
+      "published_at": "2026-11-23T00:49:23Z",
+      "body_excerpt": "chat : implement token aware parsing (#29307) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12635",
+      "project": "llama-cpp",
+      "version": "b12635",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12635",
+      "published_at": "2026-11-22T23:55:51Z",
+      "body_excerpt": "ggml : add SIGMOID backward pass (#32126) ggml : add SIGMOID backward pass Sigmoid is used in Qwen3.5 hybrid models and had no backward pass. Bump RPC protocol patch version for the new op. Signed-off-by: gianni-cor replace assert with ggml_assert Co-authored-by: Johannes Gäßler ggml : keep sigmoid backward checks in release builds Assisted-by: Codex ggml : preserve existing operation IDs when add",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12633",
       "project": "llama-cpp",
@@ -1510,7 +1609,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: ad8bb0044a62268cd3ccb42a2cbfceca80f3878b Date: 2026-11-22T17:36:54Z Subject: feat(strata): run Tencent Hy4-Flash on the strata-hy4 engine (#13389) This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: 05eb448aada6274ed10ba37b9349e0a7149bea9e Date: 2026-11-22T23:56:40Z Subject: fix(ui): use the banner llama as the web UI mascot (#13403) This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -15155,15 +15254,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10618",
       "published_at": "2026-08-25T07:06:56Z",
       "body_excerpt": "grammar : parse \\- in char classes as literal hyphen (#27591) grammar : accept \"\\-\" escape in character classes gbnf_escape_char_class() escapes '-' as \"\\-\" but parse_char() rejected that escape, so generated tool-call grammars failed to parse. Assisted-by: Claude Code tests : add parser test for \"\\-\" in char classes Assisted-by: Claude Code tests : add integration test for \"\\-\" in char classes As",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10617",
-      "project": "llama-cpp",
-      "version": "b10617",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10617",
-      "published_at": "2026-08-25T06:44:51Z",
-      "body_excerpt": "sycl : mark tq2_0 as not supported (#27660) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
       "type": "tool"
     }
   ]
