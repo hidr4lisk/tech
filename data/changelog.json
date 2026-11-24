@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-11-24T09:15:49Z",
+  "updated_at": "2026-11-24T22:09:32Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12681",
+      "project": "llama-cpp",
+      "version": "b12681",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12681",
+      "published_at": "2026-11-24T19:12:13Z",
+      "body_excerpt": "vulkan: support state size 96 in ssm_scan (#32162) vulkan: support state size 96 in ssm_scan Assisted-by: Claude Code vulkan: specialize ssm_scan state size Assisted-by: Codex vulkan: clarify ssm_scan constant names Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12680",
+      "project": "llama-cpp",
+      "version": "b12680",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12680",
+      "published_at": "2026-11-24T18:41:10Z",
+      "body_excerpt": "opencl: fix GDN QK offsets (#32747) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12679",
+      "project": "llama-cpp",
+      "version": "b12679",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12679",
+      "published_at": "2026-11-24T18:24:27Z",
+      "body_excerpt": "opencl: add c8 q6_k coopk GEMM for up to n=8 spec verify (#32909) Assisted-by: Codex Co-authored-by: Hongqiang Wang Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12678",
+      "project": "llama-cpp",
+      "version": "b12678",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12678",
+      "published_at": "2026-11-24T18:07:00Z",
+      "body_excerpt": "fix editor config in master (#32914) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x",
+      "type": "tool"
+    },
+    {
+      "id": "transformers-v5.24.1",
+      "project": "transformers",
+      "version": "v5.24.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.1",
+      "published_at": "2026-11-24T16:13:08Z",
+      "body_excerpt": "Patch release v5.24.1 A patch to fix a bunch of stuff for vLLM, a few distributed issues, and some model fixes (llama4, dory); see the full list vLLM related Fix backward compatibility of the cache rename for remote code (#51085) by @hmellor Restore modeling_attn_mask_utils for remote code (one-off to unblock vLLM) (#51124) by @hmellor Expose past_key_values in MBartDecoderLayer.forward signature ",
+      "type": "tool"
+    },
+    {
+      "id": "unsloth-v0.1.924-beta",
+      "project": "unsloth",
+      "version": "v0.1.924-beta",
+      "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.924-beta",
+      "published_at": "2026-11-24T14:38:51Z",
+      "body_excerpt": "Inkling Fine-tuning You can now fine-tune Inkling 2 Mini 1.8 to 3.1x faster and use 50% less VRAM in Unsloth with LoRA or QLoRA, then export it to GGUF or a merged 16-bit model. It trains on Kaggle's free 2x T4 and now supports tensor, pipeline and context parallel across GPUs. Also new: faster steps, faster Z-Image LoRA training on T4 and fixes for thinking models in chat. Highlights Fine-tune In",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12676",
+      "project": "llama-cpp",
+      "version": "b12676",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12676",
+      "published_at": "2026-11-24T13:24:35Z",
+      "body_excerpt": "GDN: use replay instead of rollback (#31669) GDN: use replay instead of rollback [WIP] memory : move rs_max with the sequence when find_slot swaps cells find_slot swapped pos/src/rs_pend/seq_id of the cell it moves out of the way, but not rs_max, so that sequence inherited the rollback depth of the cell's previous owner. A smaller value made seq_rm refuse the rollback (#31656), a larger one made s",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12675",
+      "project": "llama-cpp",
+      "version": "b12675",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12675",
+      "published_at": "2026-11-24T09:55:33Z",
+      "body_excerpt": "server : preserve a prompt-cache entry until restores succeed (#32828) Assisted-by: Codex Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12674",
       "project": "llama-cpp",
@@ -1789,7 +1861,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: 4a00f2dd92fd4d5b965926806035a83c2dc8a5a3 Date: 2026-11-24T08:19:43Z Subject: fix(chats): open the files pane on a chart a command saved in the work folder This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: a25a99503888e0d04baa6ce529382ed5a2005a77 Date: 2026-11-24T19:38:58Z Subject: Treat an alias of a loaded model as loaded in the UI This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -2842,6 +2914,24 @@
       "version": "Nemotron-Labs-Sigma-distill-spec-3B",
       "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-distill-spec-3B",
       "published_at": "2026-11-09T21:55:08Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-BioReason-Pro-2-9B-RL",
+      "project": "nvidia",
+      "version": "BioReason-Pro-2-9B-RL",
+      "url": "https://huggingface.co/nvidia/BioReason-Pro-2-9B-RL",
+      "published_at": "2026-11-09T20:47:45Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-nvidia-BioReason-Pro-2-9B-SFT",
+      "project": "nvidia",
+      "version": "BioReason-Pro-2-9B-SFT",
+      "url": "https://huggingface.co/nvidia/BioReason-Pro-2-9B-SFT",
+      "published_at": "2026-11-09T20:42:11Z",
       "body_excerpt": "",
       "type": "model"
     },
@@ -15137,186 +15227,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10643",
       "published_at": "2026-08-27T02:14:48Z",
       "body_excerpt": "hexagon: support for multi-NPU devices (IQ9, IQ10) and fully asynchronous backend (#26501) hexagon: use non-host bufs by default and make the backend fully async hex-hb: remove optional hostbuf support and fix async copy hex-unary: relax supported unary check hex-bufs: use same get_alignment for host bufs snapdragon: bump android_platform to 34 hex-rows: super hacky get/set rows for q8_0 hex-get-r",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10642",
-      "project": "llama-cpp",
-      "version": "b10642",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10642",
-      "published_at": "2026-08-26T22:00:33Z",
-      "body_excerpt": "llama: add token ID tracking to KV cell (#27762) kv: track token id rm get_prev_tokens, move it to the main pr nits add get_prev_tokens Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
-      "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-rho-yam-box",
-      "project": "microsoft",
-      "version": "rho-yam-box",
-      "url": "https://huggingface.co/microsoft/rho-yam-box",
-      "published_at": "2026-08-26T21:10:42Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-rho-ur-ai-trainer",
-      "project": "microsoft",
-      "version": "rho-ur-ai-trainer",
-      "url": "https://huggingface.co/microsoft/rho-ur-ai-trainer",
-      "published_at": "2026-08-26T21:10:08Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-microsoft-rho-fr3-duo",
-      "project": "microsoft",
-      "version": "rho-fr3-duo",
-      "url": "https://huggingface.co/microsoft/rho-fr3-duo",
-      "published_at": "2026-08-26T21:09:30Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "ollama-v0.33.1-rc1",
-      "project": "ollama",
-      "version": "v0.33.1-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1",
-      "published_at": "2026-08-26T18:09:57Z",
-      "body_excerpt": "What's Changed MLX: Qwen3.8 Flash Next support cmake: make external compat patches idempotent MLX and llama.cpp update mlxrunner: add structured output support mlxrunner: avoid Metal GPU timeouts when loading models from slow storage New Contributors @pd95 made their first contribution in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "ollama-v0.33.1",
-      "project": "ollama",
-      "version": "v0.33.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1",
-      "published_at": "2026-08-26T18:09:57Z",
-      "body_excerpt": "What's Changed MLX: Qwen3.8 Flash Next support cmake: make external compat patches idempotent MLX and llama.cpp update mlxrunner: add structured output support mlxrunner: avoid Metal GPU timeouts when loading models from slow storage New Contributors @pd95 made their first contribution in Full Changelog:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10639",
-      "project": "llama-cpp",
-      "version": "b10639",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10639",
-      "published_at": "2026-08-26T16:51:23Z",
-      "body_excerpt": "vulkan: warptiles currently assume warp sizes Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10638",
-      "project": "llama-cpp",
-      "version": "b10638",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10638",
-      "published_at": "2026-08-26T16:10:15Z",
-      "body_excerpt": "Implemented vulkan cross_entropy_loss and cross_entropy_loss_back (#27216) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ub",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.16.1",
-      "project": "transformers",
-      "version": "v5.16.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
-      "published_at": "2026-08-26T14:50:01Z",
-      "body_excerpt": "Release v5.16.1 This is a special release as we include GLM! (and a few small fixes) GLM-5.3-Flash GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at one-tenth the price, while approaching Claude Opus 4.8 on coding and agentic benchmarks. GLM-5.3-Flas",
-      "type": "tool"
-    },
-    {
-      "id": "hf-allenai-Llama-3-Blama-8B",
-      "project": "allenai",
-      "version": "Llama-3-Blama-8B",
-      "url": "https://huggingface.co/allenai/Llama-3-Blama-8B",
-      "published_at": "2026-08-26T13:40:05Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-allenai-Llama-3-Blama-8B-Stage1",
-      "project": "allenai",
-      "version": "Llama-3-Blama-8B-Stage1",
-      "url": "https://huggingface.co/allenai/Llama-3-Blama-8B-Stage1",
-      "published_at": "2026-08-26T13:32:05Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-allenai-Bwen-8B",
-      "project": "allenai",
-      "version": "Bwen-8B",
-      "url": "https://huggingface.co/allenai/Bwen-8B",
-      "published_at": "2026-08-26T13:21:04Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-allenai-Bwen-8B-Stage1",
-      "project": "allenai",
-      "version": "Bwen-8B-Stage1",
-      "url": "https://huggingface.co/allenai/Bwen-8B-Stage1",
-      "published_at": "2026-08-26T13:18:26Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-allenai-Bolmo-1B-Stage1",
-      "project": "allenai",
-      "version": "Bolmo-1B-Stage1",
-      "url": "https://huggingface.co/allenai/Bolmo-1B-Stage1",
-      "published_at": "2026-08-26T13:16:56Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "hf-allenai-Bolmo-7B-Stage1",
-      "project": "allenai",
-      "version": "Bolmo-7B-Stage1",
-      "url": "https://huggingface.co/allenai/Bolmo-7B-Stage1",
-      "published_at": "2026-08-26T13:12:59Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10636",
-      "project": "llama-cpp",
-      "version": "b10636",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10636",
-      "published_at": "2026-08-26T12:44:43Z",
-      "body_excerpt": "ci: Clean up UI builds from releases (#27706) ci : inline UI version resolution into ui-build.yml ci : build UI once and reuse the artifact in release jobs Server jobs now extract the ui-build artifact into tools/ui/dist instead of npm-building the UI. Also removes the get-version job and the no-op -DHF_UI_VERSION flags. Assisted-by: pi:Kimi-K3 ui : disable the npm UI build by default (LLAMA_BUILD",
-      "type": "tool"
-    },
-    {
-      "id": "transformers-v5.16.0",
-      "project": "transformers",
-      "version": "v5.16.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
-      "published_at": "2026-08-26T12:35:15Z",
-      "body_excerpt": "Release v5.16.0 New Model additions Qwen4-Exp Qwen4-Exp builds on Qwen3.5's hybrid text and multimodal architecture with three key components: GatedResidual (GR), Qwen Sparse Attention (QSA), and Per-Layer Embedding (PLE). GR is a Qwen-developed residual architecture that combines Hyper-Connection with GatedNorm. It mixes multiple residual streams with fine-grained elementwise gating before each a",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10635",
-      "project": "llama-cpp",
-      "version": "b10635",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10635",
-      "published_at": "2026-08-26T11:32:54Z",
-      "body_excerpt": "cuda: unblock mmq for MoE on sm_60 (#26264) cuda: unblock mmq for MoE on sm_60 cuda: duplicate mmq-config-pascal for dp4a and older cuda: reduce occupancy on non-dp4a pascal for Q2_K, Q4_K, Q5_K, Q6_K Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubunt",
-      "type": "tool"
-    },
-    {
-      "id": "vllm-v0.28.0",
-      "project": "vllm",
-      "version": "v0.28.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
-      "published_at": "2026-08-26T09:46:30Z",
-      "body_excerpt": "v0.28.0 Highlights This release features 584 commits from 270 contributors (76 new)! Kimi-K3 performance push: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation support for MegaMoE (#50510), GEMM-RS for sequence parallelism (#52079), combined all-gathers with",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10632",
-      "project": "llama-cpp",
-      "version": "b10632",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10632",
-      "published_at": "2026-08-26T09:29:44Z",
-      "body_excerpt": "ggml-metal: add chunked SSD MMA for Mamba-2 prefill optimization (#26647) metal: WIP chunked SSD SSM_SCAN kernels for multi-token prefill metal: drop scalar SSD path; MMA + sequential tail drop WIP ssm scan test noise remove state_from_dst and rename CS and NSG constants remove unrelated added whitespace padding added clarity to mma_tokens calculation added clarity to use_mma bool checks added com",
       "type": "tool"
     }
   ]
