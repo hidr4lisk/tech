@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-11-23T23:38:35Z",
+  "updated_at": "2026-11-24T09:15:49Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12674",
+      "project": "llama-cpp",
+      "version": "b12674",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12674",
+      "published_at": "2026-11-24T08:25:32Z",
+      "body_excerpt": "opencl: fetch the Adreno binary kernel library at configure time for Windows on Snapdragon (#31759) opencl: fetch the Adreno binary kernel library at configure time Make GGML_OPENCL_USE_ADRENO_BIN_KERNELS an option, default ON, and add GGML_OPENCL_ADRENO_BIN_KERNELS_FETCH, default ON. On Windows, CMake downloads the pinned adreno-opencl-kernels release from the Qualcomm Software Center, verifies i",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12671",
+      "project": "llama-cpp",
+      "version": "b12671",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12671",
+      "published_at": "2026-11-24T07:02:04Z",
+      "body_excerpt": "metal : batch concat rows and copy them in vector chunks (#32824) metal : batch concat rows and copy them in vector chunks The concat kernel copied one element per thread, so wide rows with many rows ran at a fraction of the memory bandwidth. Batch several rows per threadgroup and copy the contiguous dim-0 elements in 4-element chunks when the row is contiguous. Assisted-by: dsh:llama.cpp/ggml-org",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12670",
+      "project": "llama-cpp",
+      "version": "b12670",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12670",
+      "published_at": "2026-11-24T06:13:13Z",
+      "body_excerpt": "ggml: compact bias on the existing FLASH_ATTN_EXT (#32740) compact bias on the existing FLASH_ATTN_EXT for CUDA, ROCm and Vulkan fixup! compact bias on the existing FLASH_ATTN_EXT for CUDA, ROCm and Vulkan remove the Vulkan support from this PR move the CUDA/HIP and Inkling 2 graph changes out of this PR CPU reference implementation of the indexed bias move the indexed bias test to test-backend-op",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.18",
+      "project": "ollama",
+      "version": "v0.40.18",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18",
+      "published_at": "2026-11-24T04:18:13Z",
+      "body_excerpt": "What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in inkling2: faster Metal decode, prefill and draft rounds by @dhiltgen in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12669",
+      "project": "llama-cpp",
+      "version": "b12669",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12669",
+      "published_at": "2026-11-24T02:38:41Z",
+      "body_excerpt": "quantize: add option to automatically choose optimal quant types to reach a file/bpw target size at lowest error (#15550) Refactor pareto optimise and convexify Refactor lagrange_penalty() Refactor quantisation checks into its own function Exit loop if no better solution found Replace slope with cross product Adjust for small vector size Simplify candidates sorting Add comments to explain magic nu",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12668",
+      "project": "llama-cpp",
+      "version": "b12668",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12668",
+      "published_at": "2026-11-24T02:14:27Z",
+      "body_excerpt": "metal : support BF16/F32 src1 for MUL_MAT and MUL_MAT_ID (#32677) llama, metal : support BF16 src1 for MUL_MAT and MUL_MAT_ID Add GGML_PREC_BF16 handling for src1 on the Metal backend when the tensor API is available: MUL_MAT with an F32 src0 stages the A tile as bfloat, and MUL_MAT_ID stages src1 as bfloat instead of F16. The tensor path keeps src1 in F32 when it reads the operand directly. Add a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12667",
+      "project": "llama-cpp",
+      "version": "b12667",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12667",
+      "published_at": "2026-11-24T01:52:17Z",
+      "body_excerpt": "server: ask exec_shell_command for a short description of the command (#32894) The shell tool's schema gains a required argument, listed first: a short plain-language line on what the command does. The tool ignores it, as before; clients can show it in place of the raw command while the call streams and in their logs. Calls without it still run. Assisted-by: Claude (Opus 5.5 Medium) Website: Attes",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12662",
+      "project": "llama-cpp",
+      "version": "b12662",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12662",
+      "published_at": "2026-11-24T01:34:31Z",
+      "body_excerpt": "metal: resolve gpu timeout on iPhone for Bonsai (#31815) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12659",
+      "project": "llama-cpp",
+      "version": "b12659",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12659",
+      "published_at": "2026-11-24T01:13:17Z",
+      "body_excerpt": "ggml-openvino: CI fixes, new model support, fixes and improvements. (#32861) ggml-openvino: keep the rope angle in f32 under the f16 inference hint ggml-openvino: add a GGML_OP_ARGMAX translator ggml-openvino: keep the token dim dynamic for a 2-D activation graph input ggml-openvino: tolerate graph inputs and outputs with no backing storage ggml-openvino: invalidate a cached graph when its output ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12658",
+      "project": "llama-cpp",
+      "version": "b12658",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12658",
+      "published_at": "2026-11-24T00:56:59Z",
+      "body_excerpt": "rpc : typed request helpers and a single validation step on the server (#32651) rpc : typed request helpers and a single validation step on the server Client and server share one table (rpc_msg_types) that maps each fixed-size command to its request and response structs. The client sends them with dispatcher->call () and call_async (), the server serves them with rpc_serve (), so the per-command c",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12657",
+      "project": "llama-cpp",
+      "version": "b12657",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12657",
+      "published_at": "2026-11-24T00:38:04Z",
+      "body_excerpt": "ggml-cuda : handle zero blocks in few-row MMQ quantization (#32566) Assisted-by: ChatGPT (GPT-6) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12655",
       "project": "llama-cpp",
@@ -25,7 +124,7 @@
       "version": "v0.1.923-beta",
       "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.923-beta",
       "published_at": "2026-11-23T15:40:51Z",
-      "body_excerpt": "Inkling 2 Mini runs up to 1.9x faster on all GPUs for decoding + RTX Spark improvements. Also new: faster GRPO and AsyncGRPO training, Qwen-Image-Flash and FastWan, a Knowledge page in Settings and audio, subtitle and image translation. Highlights Inkling 2 Mini on 8 to 12 GB GPUs up to 1.9x faster decoding guide Multi-GPU diffusion LoRA training about 2x the samples per second on two GPUs Qwen-Im",
+      "body_excerpt": "Inkling 2 Mini runs up to 1.9x faster on all GPUs for decoding + RTX Spark improvements. Also new: faster GRPO and AsyncGRPO training, Qwen-Image-Flash and FastWan, a Knowledge page in Settings and audio, subtitle and image translation. Highlights Inkling 2 Mini on 8 to 12 GB GPUs up to 1.9x faster decoding guide Fine-tuning for Inkling in Unsloth is now available Multi-GPU diffusion LoRA training",
       "type": "tool"
     },
     {
@@ -1361,6 +1460,15 @@
       "type": "tool"
     },
     {
+      "id": "hf-nvidia-MiMo-V2.6-Flash-RL-NVFP4",
+      "project": "nvidia",
+      "version": "MiMo-V2.6-Flash-RL-NVFP4",
+      "url": "https://huggingface.co/nvidia/MiMo-V2.6-Flash-RL-NVFP4",
+      "published_at": "2026-11-17T02:05:18Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
       "id": "vllm-v0.34.0",
       "project": "vllm",
       "version": "v0.34.0",
@@ -1681,7 +1789,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: fe3189bd535dbba1eaf0725bc61ae25240634986 Date: 2026-11-23T21:03:51Z Subject: fix(p2p): recover a paired remote when the server's IP address changes (#13432) This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: 4a00f2dd92fd4d5b965926806035a83c2dc8a5a3 Date: 2026-11-24T08:19:43Z Subject: fix(chats): open the files pane on a chart a command saved in the work folder This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -15209,15 +15317,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10632",
       "published_at": "2026-08-26T09:29:44Z",
       "body_excerpt": "ggml-metal: add chunked SSD MMA for Mamba-2 prefill optimization (#26647) metal: WIP chunked SSD SSM_SCAN kernels for multi-token prefill metal: drop scalar SSD path; MMA + sequential tail drop WIP ssm scan test noise remove state_from_dst and rename CS and NSG constants remove unrelated added whitespace padding added clarity to mma_tokens calculation added clarity to use_mma bool checks added com",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10631",
-      "project": "llama-cpp",
-      "version": "b10631",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10631",
-      "published_at": "2026-08-26T06:04:59Z",
-      "body_excerpt": "ggml-meta: propagate buffer usage and call init on the new tensors (#27586) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) U",
       "type": "tool"
     }
   ]
