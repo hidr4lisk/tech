@@ -1,6 +1,141 @@
 {
-  "updated_at": "2026-11-24T22:09:32Z",
+  "updated_at": "2026-11-25T07:50:12Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12721",
+      "project": "llama-cpp",
+      "version": "b12721",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12721",
+      "published_at": "2026-11-25T07:48:02Z",
+      "body_excerpt": "tests : fix MSVC static build of test-batch-alloc and test-server-component (#32870) Fixes #32868 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12720",
+      "project": "llama-cpp",
+      "version": "b12720",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12720",
+      "published_at": "2026-11-25T06:44:26Z",
+      "body_excerpt": "feat: Inkling 2 DSpark support (#32218) conversion init cpp side handle temp > 0 dspark : fix Inkling2 draft state width, reseeding and draw order spec: align Inkling2 DSpark with n_max draft tokens same as the other DSparks unify rnn condition with markov_head_type formatting issues and restructure some DSpark functions --------- Co-authored-by: Xuan Son Nguyen Co-authored-by: ruixiang63 Website:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12719",
+      "project": "llama-cpp",
+      "version": "b12719",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12719",
+      "published_at": "2026-11-25T05:59:50Z",
+      "body_excerpt": "cuda : fix int overflow of the MMVF matrix offsets (#32965) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12716",
+      "project": "llama-cpp",
+      "version": "b12716",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12716",
+      "published_at": "2026-11-25T04:27:39Z",
+      "body_excerpt": "cmake : include the llguidance header from the source tree (#32928) Cargo 1.100 changed the build directory layout for intermediate artifacts, so the header destination llguidance derives from $OUT_DIR no longer resolves to target/release, and the build fails on a missing llguidance.h. The header is a source file that cargo only copies around, so include it from the llguidance source tree instead ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12711",
+      "project": "llama-cpp",
+      "version": "b12711",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12711",
+      "published_at": "2026-11-25T04:04:20Z",
+      "body_excerpt": "ggml-cpu: repack kernels for targets without dotprod (ARMv8.0 64-bit) for Q4_0/Q8_0 (#32142) ggml-cpu: optimized kernels for ARM v8.0 (without dotprod) ggml-cpu: fix comment and align to implementation ggml-cpu: exclude new kernels for apple arch Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Li",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12709",
+      "project": "llama-cpp",
+      "version": "b12709",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12709",
+      "published_at": "2026-11-25T03:50:38Z",
+      "body_excerpt": "ggml-cpu: add SVE-optimized q5_0 and q5_1 dot-product kernels (#30867) Merged PR 5925: SVE suooprt for ggml_vec_dot_q5_0_q8_0, ggml_vec_dot_q5_1_q8_1 SVE suooprt for ggml_vec_dot_q5_0_q8_0, ggml_vec_dot_q5_1_q8_1 perf(arm): optimize q5_0 q8_0 dot products with SVE Load high-bit masks directly from quantized blocks Replace lookup-table expansion with predicated SVE duplication Reduce scalar high-bi",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12708",
+      "project": "llama-cpp",
+      "version": "b12708",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12708",
+      "published_at": "2026-11-25T03:35:55Z",
+      "body_excerpt": "server : include MCP image and audio data in tool results (#32064) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12707",
+      "project": "llama-cpp",
+      "version": "b12707",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12707",
+      "published_at": "2026-11-25T03:21:51Z",
+      "body_excerpt": "context : prevent excessive CPU polling without OpenMP (#32378) common : prevent polling while GPU computes (on Metal or without OpenMP) use AudioWorkIntervalCreate to keep the thread on P-cores Revert \"use AudioWorkIntervalCreate to keep the thread on P-cores\" This reverts commit a7270d23c0695a0194d3146de838db32e2a976e3. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Si",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12706",
+      "project": "llama-cpp",
+      "version": "b12706",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12706",
+      "published_at": "2026-11-25T03:07:24Z",
+      "body_excerpt": "metal : reserve the top-k scratch only for short rows (#32942) The bitonic top-k path is only faster for short rows. On M5 and M2 Ultra it wins up to 128 columns; above that the radix path is faster. Use the radix path for ncols > 128. The radix path selects in place and needs no scratch, but the buffer type always reserved 24 bytes per source element, which is 8 GiB for a 524288 x 2048 score. Res",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12704",
+      "project": "llama-cpp",
+      "version": "b12704",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12704",
+      "published_at": "2026-11-25T02:53:12Z",
+      "body_excerpt": "vulkan: add chunked GDN replay support (#32721) vulkan: add replay support to chunked GDN shaders use atomicStore instead of atomicExchange for readability Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12703",
+      "project": "llama-cpp",
+      "version": "b12703",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12703",
+      "published_at": "2026-11-25T02:41:40Z",
+      "body_excerpt": "cuda : fuse RMS_NORM + MUL + MROPE/IMROPE and tune block size (#32500) cuda : support MROPE/IMROPE and tune block size in rms_norm_mul_rope cuda : use 64 threads for multi-token ncols Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CP",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12701",
+      "project": "llama-cpp",
+      "version": "b12701",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12701",
+      "published_at": "2026-11-25T02:24:02Z",
+      "body_excerpt": "model : Inkling 2 Mini mix() weighted sum with the scores as src0 (#32855) model : Inkling 2 Mini mix() weighted sum with the scores as src0 The weighted sum over the depth states has K = # of states so the old operand order ran one small mat-vec per token. Putting scores first makes n_embd the long dimension and speeds up prefill by 14-18% on MI300X and 25-37% on B200. model : return the mix() ou",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12686",
+      "project": "llama-cpp",
+      "version": "b12686",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12686",
+      "published_at": "2026-11-24T22:45:15Z",
+      "body_excerpt": "server : fix skipped prompt cache lookups (#28992) server : fix skipped prompt cache lookups Assisted-by: Claude Opus 5 server : let the slot scheduler ask the prompt cache Move the prompt cache lookup into server_slot_sched::select() so the plan alone decides whether the cache is updated, and the caller only applies it. find_better() and has_better() are now const, and find_better() also returns ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12683",
+      "project": "llama-cpp",
+      "version": "b12683",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12683",
+      "published_at": "2026-11-24T22:30:42Z",
+      "body_excerpt": "rpc : reuse one context for request tensors on the server (#32896) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12682",
+      "project": "llama-cpp",
+      "version": "b12682",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12682",
+      "published_at": "2026-11-24T22:11:58Z",
+      "body_excerpt": "ggml : use a range-reduced log1p for softplus (#32655) metal : use a range-reduced log1p for softplus Use the atanh series for x in [-0.5, 1] and precise::log(1 + x) otherwise. This avoids the cancellation in log(1 + exp(x)) for negative inputs and does not rely on fast-math folding of (1 + e) - 1. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) test",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12681",
       "project": "llama-cpp",
@@ -1861,7 +1996,7 @@
       "version": "dev-master",
       "url": "https://github.com/mudler/LocalAI/releases/tag/dev-master",
       "published_at": "2026-11-15T09:42:50Z",
-      "body_excerpt": "Commit: a25a99503888e0d04baa6ce529382ed5a2005a77 Date: 2026-11-24T19:38:58Z Subject: Treat an alias of a loaded model as loaded in the UI This is an unsupported development build of the master branch. Use a release for anything that matters.",
+      "body_excerpt": "Commit: 5204cc1683c8a18236f0f2dc6ad6cb912ad30472 Date: 2026-11-24T23:43:17Z Subject: ci: cancel superseded master runs of the remaining tests This is an unsupported development build of the master branch. Use a release for anything that matters.",
       "type": "tool"
     },
     {
@@ -15201,33 +15336,6 @@
       "published_at": "2026-08-27T08:14:27Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10644",
-      "project": "llama-cpp",
-      "version": "b10644",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10644",
-      "published_at": "2026-08-27T05:22:38Z",
-      "body_excerpt": "models : support nanbeige4.2-3B (#27730) Co-authored-by: admin Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SY",
-      "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-SQuadGen",
-      "project": "microsoft",
-      "version": "SQuadGen",
-      "url": "https://huggingface.co/microsoft/SQuadGen",
-      "published_at": "2026-08-27T04:53:22Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10643",
-      "project": "llama-cpp",
-      "version": "b10643",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10643",
-      "published_at": "2026-08-27T02:14:48Z",
-      "body_excerpt": "hexagon: support for multi-NPU devices (IQ9, IQ10) and fully asynchronous backend (#26501) hexagon: use non-host bufs by default and make the backend fully async hex-hb: remove optional hostbuf support and fix async copy hex-unary: relax supported unary check hex-bufs: use same get_alignment for host bufs snapdragon: bump android_platform to 34 hex-rows: super hacky get/set rows for q8_0 hex-get-r",
-      "type": "tool"
     }
   ]
 }
