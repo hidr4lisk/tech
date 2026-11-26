@@ -1,6 +1,132 @@
 {
-  "updated_at": "2026-11-26T07:41:07Z",
+  "updated_at": "2026-11-26T21:12:24Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12784",
+      "project": "llama-cpp",
+      "version": "b12784",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12784",
+      "published_at": "2026-11-26T21:09:03Z",
+      "body_excerpt": "tests : take the test-fusion moe flag from the fixture name (#33104) tests : take the test-fusion moe flag from the fixture name The moe flag came from the arch name, so the dense and MoE fixtures of an arch shared a baseline key, and MoE-only archs were keyed as dense. Read it from the -dense/-moe suffix written by test-llama-archs and regenerate the Metal baseline. Only the moe column changes, n",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12782",
+      "project": "llama-cpp",
+      "version": "b12782",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12782",
+      "published_at": "2026-11-26T20:47:21Z",
+      "body_excerpt": "CUDA: move the fusion code out of ggml-cuda.cu (#33087) Move the fusion matchers, ggml_cuda_can_fuse, ggml_cuda_try_fuse and the fusion alloc deps of graph_optimize into fusion.cu, unchanged. fusion.cuh exports ggml_cuda_try_fuse and ggml_cuda_fusion_add_alloc_deps. The GGML_CUDA_DISABLE_FUSION check is done by the two callers, and ggml_cuda_is_view_or_noop moves to common.cuh since the compute lo",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.19-rc0",
+      "project": "ollama",
+      "version": "v0.40.19-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+      "published_at": "2026-11-26T17:52:02Z",
+      "body_excerpt": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in mlxrunner: compact Engram history buffers by @pdevine in bump llama-server by @pdevine in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12780",
+      "project": "llama-cpp",
+      "version": "b12780",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12780",
+      "published_at": "2026-11-26T17:36:39Z",
+      "body_excerpt": "ggml : support a BF16 src1 in MUL_MAT and MUL_MAT_ID (CPU, CUDA) (#32533) ggml : support a BF16 src1 in MUL_MAT and MUL_MAT_ID (CPU, CUDA) ggml : fix MMVF expert offset overflow and tighten BF16 src1 gates ggml : strided BF16 src1 tests, explicit MUSA Q2_K rule, MMVF offset fix moved to its own PR cuda : move the MUL_MAT_ID MMVF rule into ggml_cuda_should_use_mmvf cuda : read a BF16 src1 in MMVF t",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12779",
+      "project": "llama-cpp",
+      "version": "b12779",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12779",
+      "published_at": "2026-11-26T17:01:37Z",
+      "body_excerpt": "llama : refuse SPLIT_MODE_TENSOR for Hadamard-folded models (#33080) Prism Bonsai models (prism.hadamard) aborted in the meta backend with GGML_ASSERT(split_state.ne[j] % div == 0) when loaded with -sm tensor: the ssm_out input permutation from tiled to grouped GDN head order reshapes the head-split activation to [hd, n_k, n_rep] and the split lands on n_rep (3 for 2 devices). Past that, the expli",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12778",
+      "project": "llama-cpp",
+      "version": "b12778",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12778",
+      "published_at": "2026-11-26T16:33:04Z",
+      "body_excerpt": "CUDA: fuse the top-k MoE weight norm with an additive sum bias (#32943) Assisted-by: Claude Opus 5.5 Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu ar",
+      "type": "tool"
+    },
+    {
+      "id": "hf-microsoft-CogACT2-RoboDojo",
+      "project": "microsoft",
+      "version": "CogACT2-RoboDojo",
+      "url": "https://huggingface.co/microsoft/CogACT2-RoboDojo",
+      "published_at": "2026-11-26T15:53:40Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-CogACT2-RoboTwin-CleanRandom",
+      "project": "microsoft",
+      "version": "CogACT2-RoboTwin-CleanRandom",
+      "url": "https://huggingface.co/microsoft/CogACT2-RoboTwin-CleanRandom",
+      "published_at": "2026-11-26T15:53:39Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-CogACT2-RoboTwin-Clean",
+      "project": "microsoft",
+      "version": "CogACT2-RoboTwin-Clean",
+      "url": "https://huggingface.co/microsoft/CogACT2-RoboTwin-Clean",
+      "published_at": "2026-11-26T15:53:38Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "hf-microsoft-CogACT2-LIBERO",
+      "project": "microsoft",
+      "version": "CogACT2-LIBERO",
+      "url": "https://huggingface.co/microsoft/CogACT2-LIBERO",
+      "published_at": "2026-11-26T15:53:37Z",
+      "body_excerpt": "",
+      "type": "model"
+    },
+    {
+      "id": "llama-cpp-b12777",
+      "project": "llama-cpp",
+      "version": "b12777",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12777",
+      "published_at": "2026-11-26T14:17:35Z",
+      "body_excerpt": "CUDA: loop over ne2/ne3 in non-contiguous concat (#33006) The non-contiguous concat kernel mapped dst ne[2] and ne[3] directly to gridDim.y and gridDim.z, which are limited to 65535. Larger tensors made the launch fail with \"invalid configuration argument\". Cap the grid and loop over the remaining rows in the kernel. Fixes #32956 Assisted-by: Claude Opus 5.5 Website: Attestations: macOS/iOS: macOS",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12776",
+      "project": "llama-cpp",
+      "version": "b12776",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12776",
+      "published_at": "2026-11-26T11:48:37Z",
+      "body_excerpt": "CUDA: fix ROCm CI, do not pick the tile FA kernel for DKQ 576 with a GQA ratio not divisible by 4 (#33045) CUDA: flash attention tile kernel for DKQ 576 with a GQA ratio of 2 The tile kernel for 576/512 only had variants for GQA ratios that are multiples of 4, while the kernel selection accepts any ratio from 2, so an MLA attention with a ratio of 2 aborted on GPUs that use the tile kernel, such a",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-v1.1.0",
+      "project": "llama-cpp",
+      "version": "v1.1.0",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0",
+      "published_at": "2026-11-26T09:16:47Z",
+      "body_excerpt": "Overview llama.cpp v1.1.0 adds the Inkling 2 family (base, Mini and DSpark), Domyn Edge 4B, Zaya1 8B, RAON-1-mini and Hy4 flash, splits DFlash speculative decoding into separate draft methods, and deprecates the old API in favour of . It brings a large set of TTS and audio models (Kokoro, Zonos3-Mini, tiny-voca, VoxCPM2, MiniMax-Music3, YuE2, Fish S2, Higgs v3/VibeVoice-ASR and Kyutai Hibiki), tok",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12774",
+      "project": "llama-cpp",
+      "version": "b12774",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12774",
+      "published_at": "2026-11-26T09:13:58Z",
+      "body_excerpt": "sync : ggml Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 ",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12760",
       "project": "llama-cpp",
@@ -15174,105 +15300,6 @@
       "published_at": "2026-08-28T23:17:11Z",
       "body_excerpt": "",
       "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10679",
-      "project": "llama-cpp",
-      "version": "b10679",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10679",
-      "published_at": "2026-08-28T19:23:12Z",
-      "body_excerpt": "bench: add --tensor-read-lazy (#27881) bench: add --tensor-read-lazy rm the alias rename to LLAMA_LAZY_MODE_ Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (O",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10678",
-      "project": "llama-cpp",
-      "version": "b10678",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10678",
-      "published_at": "2026-08-28T18:51:43Z",
-      "body_excerpt": "model: qwen4exp: reduce number of graph splits (#27880) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10677",
-      "project": "llama-cpp",
-      "version": "b10677",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10677",
-      "published_at": "2026-08-28T18:27:33Z",
-      "body_excerpt": "vulkan: fix missing view-alias dependencies in ggml_vk_graph_optimize (#27812) vulkan: fix missing view-alias dependencies in ggml_vk_graph_optimize is_src_of doesn't treat two views of one tensor as dependent, so the optimizer reorders nodes across aliased reads and writes. Result: silently wrong tokens under greedy decoding, different output on every server start, and invalid speculative-decodin",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10676",
-      "project": "llama-cpp",
-      "version": "b10676",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10676",
-      "published_at": "2026-08-28T18:01:41Z",
-      "body_excerpt": "ggml : fix conv_transpose_2d for multiple batches (#26132) ggml : fix conv_transpose_2d for multiple batches ggml_compute_forward_conv_transpose_2d_impl only computed the first batch (ne[3] of the destination); every batch after the first was left as zero. Both the src1 permutation and the main compute loop now iterate over the batch dimension, and the work buffer size in ggml_graph_plan is scaled",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10675",
-      "project": "llama-cpp",
-      "version": "b10675",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10675",
-      "published_at": "2026-08-28T15:48:02Z",
-      "body_excerpt": "Vulkan: add hoisting support for row IDs and expert count in shaders (#26686) vulkan: add hoisting support for row IDs and expert count in shaders use hoisted row ids in coopmat2 vulkan: address review feedback on count_experts use vk_op_count_experts_push_constants instead of a raw uint vector apply the fastdiv trick to the ne00 div/mod in count_experts compute the per-expert offsets with subgrou",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10673",
-      "project": "llama-cpp",
-      "version": "b10673",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10673",
-      "published_at": "2026-08-28T14:30:22Z",
-      "body_excerpt": "metal : add fa-vec tunings for M4 (#27875) This adds fa_vec_tuned_table records for Apple M4 to ggml-metal-tuning.cpp. Includes F16, Q4_0, Q4_1, Q5_0, Q5_1, and Q8_0. (M4, 10 GPU Cores) Co-authored-by: Strongtut Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10672",
-      "project": "llama-cpp",
-      "version": "b10672",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10672",
-      "published_at": "2026-08-28T13:51:56Z",
-      "body_excerpt": "OpenVINO: Update OV to 2026.3.1, whisper.cpp support, Qwen3.5 on NPU, and new ops (#27843) OpenVINO Backend: Fuse IM2COL + MatMul convolution into OpenVINO convolution ci:ggml-ov: Skip recurrent state rollback tests ci:ggml-ov: Skip recurrent state rollback tests Update OPENVINO.md ggml-openvino : add env-var gated op support debugging Fix ggml_rope_set_offset case OpenVINO backend: Support Whispe",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10670",
-      "project": "llama-cpp",
-      "version": "b10670",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10670",
-      "published_at": "2026-08-28T13:12:53Z",
-      "body_excerpt": "sycl: use TILE for quantized KV decode on BMG (#26689) Route quantized KV decode to TILE on Xe2 (BMG) only, keep VEC on other archs until validated there. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10669",
-      "project": "llama-cpp",
-      "version": "b10669",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10669",
-      "published_at": "2026-08-28T12:44:20Z",
-      "body_excerpt": "sycl: bind the f16 KV cache in place for the oneDNN SDPA path (#27468) Measured at a live KV length of 34816 (32768 depth plus one 2048 ubatch), on Qwen3.8 27B Q4_K_S: per tensor 4 34816 256 2 B = 71.3 MB staged per call K and V, so 2x = 142.6 MB traffic per call read once, write once = 285.2 MB traffic per ubatch 285.2 MB 16 calls = 4.56 GB One ubatch is one ggml_cgraph submission (llama_context:",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10668",
-      "project": "llama-cpp",
-      "version": "b10668",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10668",
-      "published_at": "2026-08-28T12:17:09Z",
-      "body_excerpt": "metal : add fa-vec tunings for M3 Max, M5 and M5 Pro (#27863) metal : add fa-vec tunings for M5 This is a followup contribution to efeda76b948f59ee52ea20db640bc4cf3dfe8ac1 as requested in to add support for additional Apple GPUs. I generated this output using the provided instructions: This ran on a machine with Apple M5. Assisted-by: pi:llama.cpp/Qwen3.8-27B metal : add fa-vec tunings for M5 Pro ",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10667",
-      "project": "llama-cpp",
-      "version": "b10667",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10667",
-      "published_at": "2026-08-28T11:53:51Z",
-      "body_excerpt": "metal : add fa-vec tunings for M4 Pro (#27824) This is a followup contribution to efeda76b948f59ee52ea20db640bc4cf3dfe8ac1 as requested in to add support for additional Apple GPUs. I generated this output using the provided instructions: This ran on a MacBook Pro (14-inch, Nov 2024) with Apple M4 Pro. The command completed successfully in 1h 13m 1s with no other notable load on the system. Website",
-      "type": "tool"
     }
   ]
 }
