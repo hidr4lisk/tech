@@ -1,6 +1,123 @@
 {
-  "updated_at": "2026-11-26T21:12:24Z",
+  "updated_at": "2026-11-27T07:40:02Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12809",
+      "project": "llama-cpp",
+      "version": "b12809",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12809",
+      "published_at": "2026-11-27T07:14:49Z",
+      "body_excerpt": "vulkan: add FA compact bias support for Inkling 2 Mini (#32898) vulkan: add FA compact bias support for Inkling 2 Mini fix xe condition and function signature fix RDNA regression batch loads to allow overlap and coalescing Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ub",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12808",
+      "project": "llama-cpp",
+      "version": "b12808",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12808",
+      "published_at": "2026-11-27T06:02:01Z",
+      "body_excerpt": "sycl: dequantize reordered q6_K in f32 like the canonical kernel (#32726) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CU",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12807",
+      "project": "llama-cpp",
+      "version": "b12807",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12807",
+      "published_at": "2026-11-27T05:42:54Z",
+      "body_excerpt": "ggml-openvino: CI op-test fixes and NPU improvements (#33088) ggml-openvino: KV-only prefill on the static path, with one decode step for the outputs On the static path (NPU, or any device with GGML_OPENVINO_FORCE_STATIC=1) the prefill model of a graph with KV-shared attention layers is compiled with only the cache writes as outputs. The new conversion pass KeepCacheResults (openvino/pass/keep_cac",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12806",
+      "project": "llama-cpp",
+      "version": "b12806",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12806",
+      "published_at": "2026-11-27T05:22:40Z",
+      "body_excerpt": "sycl: route BMG D=256 single-query decode to the FA vector kernel (#30606) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12805",
+      "project": "llama-cpp",
+      "version": "b12805",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12805",
+      "published_at": "2026-11-27T04:52:28Z",
+      "body_excerpt": "opencl: add multi token f32 GEMV for spec verify (#33098) opencl: add multi token F32 GEMV Co-authored-by: Hongqiang Wang Assisted-by: Codex opencl: let ne01 > 512 still use tiled GEMM --------- Co-authored-by: Hongqiang Wang Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12804",
+      "project": "llama-cpp",
+      "version": "b12804",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12804",
+      "published_at": "2026-11-27T04:19:37Z",
+      "body_excerpt": "hip : fix bf16 MFMA operand vector type for CDNA (#33086) Follow-up to ggml-org/llama.cpp#30885: the CDNA MFMA bf16 builtins also take short vectors, so LLVM 23 rejects __bf16 for gfx908, gfx90a, gfx942 and gfx950. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12803",
+      "project": "llama-cpp",
+      "version": "b12803",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12803",
+      "published_at": "2026-11-27T02:05:21Z",
+      "body_excerpt": "bailingmoe3 : fuse ssm_conv + silu and remove redundant copies (#33081) bailingmoe3 : apply silu before reshape to enable fused conv kernel bailingmoe3 : avoid redundant copies before attention output projection Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12801",
+      "project": "llama-cpp",
+      "version": "b12801",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12801",
+      "published_at": "2026-11-27T01:51:44Z",
+      "body_excerpt": "ggml/CUDA+HIP: Flash Attention with indexed bias (#33063) cuda : port indexed bias FA onto the refactored loaders Replays the #32740 bias support on the shared typed tile loader, adds bias in F32 to match the CPU reference and routes rows via KV_indirection. cuda : return zeros for a fully masked FA query row An all -inf mask row has a zero softmax sum, which divided gave NaN. Guard the tile, vec ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12800",
+      "project": "llama-cpp",
+      "version": "b12800",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12800",
+      "published_at": "2026-11-26T23:08:22Z",
+      "body_excerpt": "opencl: add MoE int8 bin kernel host side changes for Adreno A850 (#33069) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (C",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12798",
+      "project": "llama-cpp",
+      "version": "b12798",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12798",
+      "published_at": "2026-11-26T22:48:45Z",
+      "body_excerpt": "tests : relax the DEPTH_MIX tolerance to the mul_mat one (#33141) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) -",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12793",
+      "project": "llama-cpp",
+      "version": "b12793",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12793",
+      "published_at": "2026-11-26T22:30:32Z",
+      "body_excerpt": "CUDA: fuse the Inkling 2 short conv, depth mix, loop controller, L2 clip and situ chains (#33060) model : inkling2 order the conv ops so backends can fuse them CUDA: fuse the Inkling 2 short conv, depth mix, loop controller, L2 clip and situ chains Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12791",
+      "project": "llama-cpp",
+      "version": "b12791",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12791",
+      "published_at": "2026-11-26T22:10:09Z",
+      "body_excerpt": "vulkan: fix Windows driver RDNA1 architecture misclassification (#33123) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUD",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12785",
+      "project": "llama-cpp",
+      "version": "b12785",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12785",
+      "published_at": "2026-11-26T21:31:09Z",
+      "body_excerpt": "DFlash2: support Inkling-2-Mini DFlash2 (#33073) support inkling2 DFlash2 address review comments Assisted-by: Claude Opus 5.5 Co-authored-by: Nikita Belokopytov --------- Co-authored-by: Nikita Belokopytov Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU)",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12784",
       "project": "llama-cpp",
@@ -15291,15 +15408,6 @@
       "published_at": "2026-08-29T14:34:34Z",
       "body_excerpt": "vulkan: Change mul_mat_id to pad K rather than N (#27925) The N padding is needed for mul_mat, but not mul_mat_id. For mul_mat_id, we indirect the row index through a shared memory lookup table which avoids any OOB row coordinate. But that callback doesn't bounds check K, so we actually need K padding instead. Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64",
       "type": "tool"
-    },
-    {
-      "id": "hf-microsoft-rho-libero",
-      "project": "microsoft",
-      "version": "rho-libero",
-      "url": "https://huggingface.co/microsoft/rho-libero",
-      "published_at": "2026-08-28T23:17:11Z",
-      "body_excerpt": "",
-      "type": "model"
     }
   ]
 }
