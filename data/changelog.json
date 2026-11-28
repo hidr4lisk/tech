@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-11-27T20:55:35Z",
+  "updated_at": "2026-11-28T07:07:14Z",
   "releases": [
+    {
+      "id": "llama-cpp-b12823",
+      "project": "llama-cpp",
+      "version": "b12823",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12823",
+      "published_at": "2026-11-28T01:24:25Z",
+      "body_excerpt": "CUDA: fix ADD_ID launch for more than 65535 tokens (#33162) The grid's y dimension came directly from the token count, so ADD_ID launches with more than 65535 tokens failed with \"invalid configuration argument\". NVIDIA and HIP are equally affected, since gridDim.y is capped at 65535 on both. Clamp the grid and stride over ne2 in the kernel, matching convert.cu and pad.cu. Add a test case at 70000 ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12822",
+      "project": "llama-cpp",
+      "version": "b12822",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12822",
+      "published_at": "2026-11-28T01:08:40Z",
+      "body_excerpt": "vulkan: handle empty conv3d kernel, fixes validation error (#33106) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12)",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12821",
+      "project": "llama-cpp",
+      "version": "b12821",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12821",
+      "published_at": "2026-11-28T00:54:00Z",
+      "body_excerpt": "vulkan: further optimize coopmat2 GDN (#32860) vulkan: further optimize coopmat2 GDN Refactor split+store callbacks so hi and lo portions are all stored together. This should help allow the stores to be vectorized. Interleave the state store callbacks with the gram_pmat work. The compiler doesn't seem to let these things overlap without manual effort like this. I suspect this is because the compil",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12820",
+      "project": "llama-cpp",
+      "version": "b12820",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12820",
+      "published_at": "2026-11-28T00:39:41Z",
+      "body_excerpt": "ggml-zdnn: make zTensor memory usage visible for fitting (#31849) ggml-zdnn: make memory usage visible for fitting Signed-off-by: Aaron Teo ggml-zdnn: switch to a flag check for ztensor buffer storage Signed-off-by: Aaron Teo ggml-zdnn: fix rebase conflicts Signed-off-by: Aaron Teo --------- Signed-off-by: Aaron Teo Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon ",
+      "type": "tool"
+    },
+    {
+      "id": "llama-cpp-b12819",
+      "project": "llama-cpp",
+      "version": "b12819",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12819",
+      "published_at": "2026-11-28T00:21:16Z",
+      "body_excerpt": "CUDA: cache the device type at init (#33142) CUDA: cache the device type at init ggml_backend_cuda_device_get_type called cudaGetDeviceProperties on every call, which takes ~0.7-1 ms with the CUDA 12 runtime. With tensor overrides on multiple GPUs the scheduler queries the device type for every split input, so this ran dozens of times per token. Store the device type in ggml_cuda_device_info at in",
+      "type": "tool"
+    },
     {
       "id": "llama-cpp-b12818",
       "project": "llama-cpp",
@@ -204,6 +249,15 @@
       "project": "ollama",
       "version": "v0.40.19-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+      "published_at": "2026-11-26T17:52:02Z",
+      "body_excerpt": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in mlxrunner: compact Engram history buffers by @pdevine in bump llama-server by @pdevine in Full Changelog:",
+      "type": "tool"
+    },
+    {
+      "id": "ollama-v0.40.19",
+      "project": "ollama",
+      "version": "v0.40.19",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19",
       "published_at": "2026-11-26T17:52:02Z",
       "body_excerpt": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in mlxrunner: compact Engram history buffers by @pdevine in bump llama-server by @pdevine in Full Changelog:",
       "type": "tool"
@@ -15380,33 +15434,6 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10690",
       "published_at": "2026-08-30T07:45:11Z",
       "body_excerpt": "memory : copy Hadamard matrix to k_rot tensor only if it has buffer assigned to prevent crashes during context shift of unquantized K cache (#27967) Co-authored-by: Stanisław Szymczyk Co-authored-by: AesSedai Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CP",
-      "type": "tool"
-    },
-    {
-      "id": "llama-cpp-b10689",
-      "project": "llama-cpp",
-      "version": "b10689",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10689",
-      "published_at": "2026-08-30T04:02:22Z",
-      "body_excerpt": "ggml: allow passing alloc dependencies in graph_optimize (#27301) ggml: allow passing alloc dependencies in graph_optimize add alloc dep tests add TODO about using flat array Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (",
-      "type": "tool"
-    },
-    {
-      "id": "hf-EleutherAI-bergson-wikitext-2-gpt2",
-      "project": "EleutherAI",
-      "version": "bergson-wikitext-2-gpt2",
-      "url": "https://huggingface.co/EleutherAI/bergson-wikitext-2-gpt2",
-      "published_at": "2026-08-30T03:10:05Z",
-      "body_excerpt": "",
-      "type": "model"
-    },
-    {
-      "id": "llama-cpp-b10688",
-      "project": "llama-cpp",
-      "version": "b10688",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10688",
-      "published_at": "2026-08-30T00:11:22Z",
-      "body_excerpt": "metal : add fa-vec tunings for M2 (#27940) Website: Attestations: macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
       "type": "tool"
     }
   ]
